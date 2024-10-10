@@ -1,0 +1,3967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>CLAS</GRUP>
+    <ID>05001A14</ID>
+    <EDID>MoreFollowersRaiderClass</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Raider Companion</ORIGINAL>
+    <TRADUIT>掠夺者同伴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>05003812</ID>
+    <EDID>MorePerksTurretExpertFaction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Player Turrets</ORIGINAL>
+    <TRADUIT>玩家炮塔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>05006202</ID>
+    <EDID>MorePerksRiseAndShineFaction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Player Ghouls</ORIGINAL>
+    <TRADUIT>玩家的尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>05003814</ID>
+    <EDID>MorePerksAPDrain</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drain Action Points</ORIGINAL>
+    <TRADUIT>行动点耗尽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>05008011</ID>
+    <EDID>MorePerksShockDamage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Electic Damage</ORIGINAL>
+    <TRADUIT>电击伤害</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>05008016</ID>
+    <EDID>MorePerksReduceDT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Reduced Damage Threshold</ORIGINAL>
+    <TRADUIT>降低DT</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>0500381B</ID>
+    <EDID>MorePerksFadingFingerprintsBE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toggle Prototype Stealth Boy</ORIGINAL>
+    <TRADUIT>切换原型隐身小子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>05009819</ID>
+    <EDID>MorePerksDMHologramExpertBE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toggle Hologram Emitter</ORIGINAL>
+    <TRADUIT>切换全息影像发生器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>0500C1F1</ID>
+    <EDID>MorePerksHHLeavingTrailsBE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drop Fast Travel Point</ORIGINAL>
+    <TRADUIT>取消快速旅行点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0500920E</ID>
+    <EDID>MoreTraitsGluttonAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glutton</ORIGINAL>
+    <TRADUIT>饭桶</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05009212</ID>
+    <EDID>MoreTraitsConduitOfRadiationAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Conduit of Radiation</ORIGINAL>
+    <TRADUIT>辐射通道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>050061FE</ID>
+    <EDID>MorePerksTurretExpertAEStealthBoy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stealth Boy</ORIGINAL>
+    <TRADUIT>隐身小子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0500380F</ID>
+    <EDID>MorePerksSmoothCriminalAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Smooth Criminal</ORIGINAL>
+    <TRADUIT>狡猾罪犯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05000E11</ID>
+    <EDID>MorePerksBlindLuckAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blind Luck</ORIGINAL>
+    <TRADUIT>盲目运气</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0500381E</ID>
+    <EDID>MorePerksPlayWithFireAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Play With Fire</ORIGINAL>
+    <TRADUIT>玩转火焰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05006802</ID>
+    <EDID>MorePerksFriendlessDT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw DT</ORIGINAL>
+    <TRADUIT>死亡爪DT</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05005BFC</ID>
+    <EDID>MorePerksInspiringLeaderAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Inspiring Leader</ORIGINAL>
+    <TRADUIT>鼓舞人心的领袖</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05005C00</ID>
+    <EDID>MorePerksCancerousGrowthAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cancerous Growth</ORIGINAL>
+    <TRADUIT>恶性增长</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0500C1ED</ID>
+    <EDID>MoreTraitsNeverDoWellAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ne'er-do-Well</ORIGINAL>
+    <TRADUIT>表现不佳</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05008013</ID>
+    <EDID>MorePerksNikolasShockwaveAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shocking</ORIGINAL>
+    <TRADUIT>触目惊心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>050031FE</ID>
+    <EDID>MorePerksCivilizedBraveryAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Civilized Bravery</ORIGINAL>
+    <TRADUIT>文明勇敢</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05008018</ID>
+    <EDID>MoreTraitsBringItOnAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bring It On!</ORIGINAL>
+    <TRADUIT>带上它!</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05003815</ID>
+    <EDID>MorePerksFadingFingerprintsAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Prototype Stealth Boy</ORIGINAL>
+    <TRADUIT>原型隐身小子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05012776</ID>
+    <EDID>MorePerksLRCourierInPrimeAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Courier in Prime</ORIGINAL>
+    <TRADUIT>巅峰邮差</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05012D72</ID>
+    <EDID>MorePerksProfessionalCourierAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Professional Courier</ORIGINAL>
+    <TRADUIT>专业邮差</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0500741D</ID>
+    <EDID>MorePerksChemicalEngineerToken</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Token</ORIGINAL>
+    <TRADUIT>代币</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+PipBoy
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>05006203</ID>
+    <EDID>MorePerksRiseAndShineToken</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Token</ORIGINAL>
+    <TRADUIT>代币</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+PipBoy
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>05009812</ID>
+    <EDID>MorePerksDMHologramExpertWeap</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hologram Beam</ORIGINAL>
+    <TRADUIT>全息影像光束</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05000E0D</ID>
+    <EDID>MorePerksRoachLoverNPC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radroach</ORIGINAL>
+    <TRADUIT>辐射蟑螂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0500A40F</ID>
+    <EDID>MorePerksHHBearInMindNPC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Teddy</ORIGINAL>
+    <TRADUIT>泰迪熊</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05001412</ID>
+    <EDID>MorePerksFriendlessNPC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>&amp;PCName;'s Best Friend</ORIGINAL>
+    <TRADUIT>&amp;PCName;'s 最好的朋友</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05009219</ID>
+    <EDID>MorePerksDMHologramExpertNPC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hologram</ORIGINAL>
+    <TRADUIT>全息保安</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05006200</ID>
+    <EDID>MorePerksRiseAndShineNPC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glowing One</ORIGINAL>
+    <TRADUIT>发光尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>05009818</ID>
+    <EDID>MorePerksDMHologramExpertAid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>*Hologram Emitter</ORIGINAL>
+    <TRADUIT>*全息影像发生器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>05003818</ID>
+    <EDID>MorePerksFadingFingerprintsAid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>*Prototype Stealth Boy</ORIGINAL>
+    <TRADUIT>*原型隐身男孩</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>0500C1F0</ID>
+    <EDID>MorePerksHHLeavingTrailsAid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>*Fast Travel Trail</ORIGINAL>
+    <TRADUIT>*快速旅行路线</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>05007A17</ID>
+    <EDID>MorePerksFriendlessNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Your Best Friend!</ORIGINAL>
+    <TRADUIT>你最好的同伴！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>05007A17</ID>
+    <EDID>MorePerksFriendlessNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Hello &amp;PCName;, you seemed like you needed a friend, so I left you a new BEST friend at the Goodsprings Cemetery, and they're quite the meat lover.
+
+- T.S.L. "The Lizard Wizard"</ORIGINAL>
+    <TRADUIT>你好 &amp;PCName；，你看起来需要一个同伴，所以我在清泉镇公墓给你留下了一个新的最好的朋友，他们可是十足的肉食主义者.
+
+T.S.L. ”蜥蜴巫师 “</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0500C1F3</ID>
+    <EDID>MorePerksHHLeavingTrailsMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Personal Trail</ORIGINAL>
+    <TRADUIT>个人足迹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GREETING</ORIGINAL>
+    <TRADUIT>问好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006806</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037071</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wait here.</ORIGINAL>
+    <TRADUIT>在这等.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006811</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037072</ID>
+    <EDID>FollowersTrade</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's trade equipment.</ORIGINAL>
+    <TRADUIT>我们交换一下装备吧.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006810</ID>
+    <EDID>FollowersTrade</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037073</ID>
+    <EDID>FollowersTacticsEnd</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enough about tactics.</ORIGINAL>
+    <TRADUIT>战术讨论得已经足够了.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500681F</ID>
+    <EDID>FollowersTacticsEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037074</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Keep your distance. Try to flank them.</ORIGINAL>
+    <TRADUIT>保持距离.从侧面攻其不备.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500680E</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037075</ID>
+    <EDID>FollowersTacticsDistanceGOODBYE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All right, you're good. Let's get out of here.</ORIGINAL>
+    <TRADUIT>好的，就这样。我们走吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006820</ID>
+    <EDID>FollowersTacticsDistanceGOODBYE</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037076</ID>
+    <EDID>FollowersTacticsDistanceEND</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Your distance is good. Let's talk about something else.</ORIGINAL>
+    <TRADUIT>你的距离不错。让我们谈谈其他事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500681E</ID>
+    <EDID>FollowersTacticsDistanceEND</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037077</ID>
+    <EDID>FollowersTacticsDistanceDefault</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stay close to me.</ORIGINAL>
+    <TRADUIT>紧跟着我。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500680D</ID>
+    <EDID>FollowersTacticsDistanceDefault</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037079</ID>
+    <EDID>FollowersTacticsDistance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's talk about how close you're following me.</ORIGINAL>
+    <TRADUIT>我们来讨论下你我之间的距离。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500681D</ID>
+    <EDID>FollowersTacticsDistance</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707A</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to use ranged weapons.</ORIGINAL>
+    <TRADUIT>我希望你用远程攻击武器.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500741B</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Very Confused Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;非常困惑的低吼&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707B</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Switch to a melee weapon.</ORIGINAL>
+    <TRADUIT>改用近身武器.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500741A</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confused Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;困惑的低吼&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707C</ID>
+    <EDID>FollowersTacticsCombatEND</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>让我们谈点别的.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500681B</ID>
+    <EDID>FollowersTacticsCombatEND</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707D</ID>
+    <EDID>FollowersTacticsCombatGOODBYE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>That's all. Let's get going.</ORIGINAL>
+    <TRADUIT>行，我们走吧.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500681C</ID>
+    <EDID>FollowersTacticsCombatGOODBYE</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707E</ID>
+    <EDID>FollowersTacticsCombat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to change your combat style.</ORIGINAL>
+    <TRADUIT>我希望你改变你的战斗风格。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500681A</ID>
+    <EDID>FollowersTacticsCombat</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707F</ID>
+    <EDID>FollowersTactics</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's talk about your tactics.</ORIGINAL>
+    <TRADUIT>让我们来讨论一下你的战术.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006819</ID>
+    <EDID>FollowersTactics</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037082</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's get going.</ORIGINAL>
+    <TRADUIT>我们走。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006812</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037083</ID>
+    <EDID>FollowersFired</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>It's time for us to part ways.</ORIGINAL>
+    <TRADUIT>我们该分道扬镳了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006815</ID>
+    <EDID>FollowersFired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Sad Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;悲伤的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037084</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I think we should travel together.</ORIGINAL>
+    <TRADUIT>我觉得我们应该同行。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006817</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006825</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Annoyed Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;恼怒的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03E</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>On second thought, stick with me for a little longer.</ORIGINAL>
+    <TRADUIT>我想了一下，还是留在我身边吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006816</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03F</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yes, I'm sure.</ORIGINAL>
+    <TRADUIT>是的，我很肯定.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500680F</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006807</ID>
+    <EDID>FollowersAcknowledgeMyOrder</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;确认性的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011EBCC</ID>
+    <EDID>FollowersTacticsCombatPassive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you not to attack enemies unless I've already engaged them.</ORIGINAL>
+    <TRADUIT>如果我没有动手，你也不要擅自攻击敌人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0500680B</ID>
+    <EDID>FollowersTacticsCombatPassive</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Passive Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;被动咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011EBCD</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to attack enemies the moment you see them.</ORIGINAL>
+    <TRADUIT>我要你看到敌人就马上攻击他们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006808</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Aggressive Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;攻击性咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006813</ID>
+    <EDID>FollowersOverburdened</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Upset Growling&gt;</ORIGINAL>
+    <TRADUIT>&lt;心烦意乱的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006818</ID>
+    <EDID>FollowersStealthing</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Sneaky Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;鬼祟的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>05006E1F</ID>
+    <EDID>MorePerksFriendlessGoodbye</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nevermind.</ORIGINAL>
+    <TRADUIT>算了吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>05006E20</ID>
+    <EDID>MorePerksFriendlessGoodbye</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Annoyed Growl&gt;</ORIGINAL>
+    <TRADUIT>&lt;恼怒的咆哮&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : &amp;PCName;'s Best Friend [05001412] (mod)
+Quest : ([05006805]MorePerksFriendlessDialogue) 05006805 (EDID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Where's My Pants??</ORIGINAL>
+    <TRADUIT>我裤子呢??</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 5
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Shells for Shelly</ORIGINAL>
+    <TRADUIT>霰弹枪猎人</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 10
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Bottle Rush!</ORIGINAL>
+    <TRADUIT>瓶子冲冲冲！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 15
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Ghoulificated Heart</ORIGINAL>
+    <TRADUIT>腐化之心</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 20
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Fading Fingerprints</ORIGINAL>
+    <TRADUIT>渐隐的指纹</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 25
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Autodidact</ORIGINAL>
+    <TRADUIT>自学成才</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 30
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Leaving Trails</ORIGINAL>
+    <TRADUIT>留下足迹</TRADUIT>
+    <PERSO />
+    <INDEX>7</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 35
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05000DFA</ID>
+    <EDID>MorePerksGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Friendless</ORIGINAL>
+    <TRADUIT>无友之人</TRADUIT>
+    <PERSO />
+    <INDEX>8</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0500801C</ID>
+    <EDID>MoreTraitsGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Banned for Life</ORIGINAL>
+    <TRADUIT>终身封杀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 5
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0500801C</ID>
+    <EDID>MoreTraitsGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Diabetic</ORIGINAL>
+    <TRADUIT>糖尿病患者</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 10
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0500801C</ID>
+    <EDID>MoreTraitsGlobalQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Communist</ORIGINAL>
+    <TRADUIT>共产主义者</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 15
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>05009216</ID>
+    <EDID>MorePerksDeadMoneyQuest</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Hologram Emitter</ORIGINAL>
+    <TRADUIT>全息影像发生器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 5
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001A12</ID>
+    <EDID>MoreTraitsBannedforLifePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Banned for Life</ORIGINAL>
+    <TRADUIT>终身封杀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001A12</ID>
+    <EDID>MoreTraitsBannedforLifePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've been vilified by the major factions of the Mojave. Because of this, you now have 2 raider companions.</ORIGINAL>
+    <TRADUIT>你在莫哈维的主要派系中声名狼藉。因此，你现在拥有两名掠夺者同伴。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500260A</ID>
+    <EDID>MorePerksRunLikeWindsPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Run Like Winds!</ORIGINAL>
+    <TRADUIT>奔跑如风！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500260A</ID>
+    <EDID>MorePerksRunLikeWindsPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Practice makes perfect, you finally managed to increase your heart rate and raise your running speed. Each rank of this perk increases your speed by +10%.</ORIGINAL>
+    <TRADUIT>熟能生巧，你终于成功提高了心率和跑步速度。此技能的每一级都会使你的速度提高+10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500260B</ID>
+    <EDID>MorePerksBeanballerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Beanballer</ORIGINAL>
+    <TRADUIT>豆球手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500260B</ID>
+    <EDID>MorePerksBeanballerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your ability to throw grenades has improved. Your accuracy with grenades in VATS is increased by 20%.</ORIGINAL>
+    <TRADUIT>你投掷手榴弹的能力得到了提升。在VATS系统中，你使用手榴弹的准确度提高了20%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050031FC</ID>
+    <EDID>MorePerksMutantHunterPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mutant Hunter</ORIGINAL>
+    <TRADUIT>超变猎人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050031FC</ID>
+    <EDID>MorePerksMutantHunterPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are a natural born hunter of the wasteland. While aiming at Super Mutants and Feral Ghouls in VATS your accuracy is increased by 25%.</ORIGINAL>
+    <TRADUIT>你是一个天生的废土猎人. 在 VATS 中瞄准超级变种人和狂尸鬼时，您的准确度会提高 25%.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050031FD</ID>
+    <EDID>MorePerksCivilizedBraveryPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Civilized Bravery</ORIGINAL>
+    <TRADUIT>文明勇敢</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050031FD</ID>
+    <EDID>MorePerksCivilizedBraveryPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You feel that appearances are important. As such you feel much braver when maintaining the prim and proper look from the past. You gain a +1 Strength and deal 10% bonus damage whilst wearing any pre-war clothing or gambler suits.</ORIGINAL>
+    <TRADUIT>你觉得外表很重要。因此，当你保持过去那种整洁而正式的形象时，你会感到更加勇敢。你获得+1力量，并在穿着任何战前服饰或赌徒套装时造成10%的额外伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003201</ID>
+    <EDID>MorePerksNoTimeToThinkPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>No Time To Think</ORIGINAL>
+    <TRADUIT>无暇思考</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003201</ID>
+    <EDID>MorePerksNoTimeToThinkPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have learned there is simply no time to think when your life is at stake. With this perk, you reload all weapons 50% faster when your health drops below 50%.</ORIGINAL>
+    <TRADUIT>您已经了解到，当你命悬一线时，哪有什么时间思考。凭借这个技能，当你的生命值降至50%以下时，你重装所有武器的速度将提高50%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003202</ID>
+    <EDID>MorePerksOutsmartingBooletzsPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Outsmarting Booletzs</ORIGINAL>
+    <TRADUIT>智胜子弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003202</ID>
+    <EDID>MorePerksOutsmartingBooletzsPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You may not be able to outsmart your enemy... but maybe you could outsmart their bullets? With this perk, your Damage Threshold goes up by +5 while running, and another +2 while jumping.</ORIGINAL>
+    <TRADUIT>你或许无法智胜你的敌人……但也许你能智胜他们的子弹？拥有此技能时，你在奔跑时的伤害阈值提升+5，跳跃时再提升+2。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003203</ID>
+    <EDID>MorePerksSenseOfEmergencyPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sense of Emergency</ORIGINAL>
+    <TRADUIT>紧急意识</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003203</ID>
+    <EDID>MorePerksSenseOfEmergencyPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your life was been full of fear until you turned to the booze. With this perk, you reach out for alcohol when your health drops below 80%.</ORIGINAL>
+    <TRADUIT>你的生活曾经充满了恐惧，直到你开始酗酒。凭借这个技能，当你的生命值降至80%以下时，你会伸手去取酒喝。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003205</ID>
+    <EDID>MorePerksChemicalEngineerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chemical Engineer</ORIGINAL>
+    <TRADUIT>化学工程师</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003205</ID>
+    <EDID>MorePerksChemicalEngineerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You can turn goo and ash into the same type of ammo that left your foe this way.</ORIGINAL>
+    <TRADUIT>你可以将黏液和灰烬转化为与击倒敌人的弹药相同类型的弹药。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003205</ID>
+    <EDID>MorePerksChemicalEngineerPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Convert to Energy Ammo</ORIGINAL>
+    <TRADUIT>转换为能量弹药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003208</ID>
+    <EDID>MorePerksOneWayOrAnotherPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>One Way or Another</ORIGINAL>
+    <TRADUIT>殊途同归</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003208</ID>
+    <EDID>MorePerksOneWayOrAnotherPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>...and you thought all along sniper rifles were the only weapons that could score headshots. If you score a headshot when using a launcher in VATS you deal beyond fatal damage.</ORIGINAL>
+    <TRADUIT>……你曾一度以为只有狙击步枪才能打出爆头。如果你在使用VATS系统时，使用发射器打出爆头，你将造成致命的额外伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003209</ID>
+    <EDID>MorePerksAutodidactPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Autodidact</ORIGINAL>
+    <TRADUIT>自学成才</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003209</ID>
+    <EDID>MorePerksAutodidactPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Congratulations! You have trained yourself to use Power Armors and Power Helmets.</ORIGINAL>
+    <TRADUIT>恭喜！您已经自学怎么使用动力甲和动力头盔.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500320B</ID>
+    <EDID>MorePerksTacticalStrategistPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tactical Strategist</ORIGINAL>
+    <TRADUIT>战术策划家</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500320B</ID>
+    <EDID>MorePerksTacticalStrategistPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have mastered the use of V.A.T.S. and thus, your overall damage in VATS is increased by +10%.</ORIGINAL>
+    <TRADUIT>你已熟练掌握V.A.T.S.系统的运用，因此，你在VATS系统中的整体伤害将提升10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003211</ID>
+    <EDID>MorePerksDescriptionInTheMojave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>In The Mojave</ORIGINAL>
+    <TRADUIT>在莫哈维沙漠</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003211</ID>
+    <EDID>MorePerksDescriptionInTheMojave</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>DESCRIPTIVE PERK</ORIGINAL>
+    <TRADUIT>perk描述</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500380B</ID>
+    <EDID>MorePerksGhoulificatedHeartPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoulificated Heart</ORIGINAL>
+    <TRADUIT>腐化之心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500380B</ID>
+    <EDID>MorePerksGhoulificatedHeartPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your angelic mind shines throughout the Mojave. Now Feral Ghouls show respect for your presence. With this perk, nearby feral ghouls will come to aid you in combat.</ORIGINAL>
+    <TRADUIT>你天使般的心灵照耀着整个莫哈维沙漠。现在，狂尸鬼开始尊重你的存在。拥有此技能时，附近的狂尸鬼会在战斗中前来帮助你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500380D</ID>
+    <EDID>MorePerksMercilessPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Merciless</ORIGINAL>
+    <TRADUIT>无情</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500380D</ID>
+    <EDID>MorePerksMercilessPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>No one can escape from you regardless of how desperately they run. With this perk, you have a +25% Critical Hit Chance against fleeing enemies.</ORIGINAL>
+    <TRADUIT>无论你的敌人跑得多么拼命，他们都无法从你手中逃脱。这个特性赋予你对逃跑的敌人25%的额外暴击几率，确保你的攻击更加致命。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500380E</ID>
+    <EDID>MorePerksSharpshooterPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sharpshooter</ORIGINAL>
+    <TRADUIT>神枪手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500380E</ID>
+    <EDID>MorePerksSharpshooterPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are able to quickly calculate how a bullet will fly under current conditions. With this perk, your V.A.T.S. chance is increased when your target is farther away.</ORIGINAL>
+    <TRADUIT>您能够快速计算出子弹在当前条件下的弹道.有了这项特长，当你的目标距离较远时，您的 V.A.T.S.机会就会增加.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003810</ID>
+    <EDID>MorePerksSmoothCriminalPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Smooth Criminal</ORIGINAL>
+    <TRADUIT>狡猾罪犯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003810</ID>
+    <EDID>MorePerksSmoothCriminalPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The experience of becoming a legendary thief starts with being a Smooth Criminal. While sneaking into someone else's property or simply sneaking slowly you will turn invisible.</ORIGINAL>
+    <TRADUIT>传奇窃贼的生涯始于成为一名“狡猾罪犯”。当你悄悄潜入他人领地或仅仅是缓缓潜行时，你将变得隐形无踪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003813</ID>
+    <EDID>MorePerksTurretExpertPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Turret Expert</ORIGINAL>
+    <TRADUIT>炮塔专家</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003813</ID>
+    <EDID>MorePerksTurretExpertPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Are you tired of using terminals to turn off pesky turrets? Well, with this perk you can reconfigure and repair turrets on the fly.</ORIGINAL>
+    <TRADUIT>您是否厌倦了使用终端来关闭讨厌的炮塔？好吧，有了这个特长，你可以即时重新配置和修理炮塔.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003813</ID>
+    <EDID>MorePerksTurretExpertPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Reconfigure</ORIGINAL>
+    <TRADUIT>重新配置</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003813</ID>
+    <EDID>MorePerksTurretExpertPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Repair</ORIGINAL>
+    <TRADUIT>修理</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003813</ID>
+    <EDID>MorePerksTurretExpertPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Apply Stealth Boy</ORIGINAL>
+    <TRADUIT>使用隐身小子</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003816</ID>
+    <EDID>MorePerksFadingFingerprintsPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fading Fingerprints</ORIGINAL>
+    <TRADUIT>渐隐的指纹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003816</ID>
+    <EDID>MorePerksFadingFingerprintsPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have successfully salvaged a set of pre-war Stealth Boy prototypes. After some repairs, you managed to power it by Action Points instead of the integrated battery.</ORIGINAL>
+    <TRADUIT>您已成功抢救了一组战前的隐身小子原型。经过一些修理，你成功地将它改造成了使用行动点数供电而不是内置电池供电。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500381C</ID>
+    <EDID>MorePerksHeavilyTrainedPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Heavily Trained</ORIGINAL>
+    <TRADUIT>训练有素</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500381C</ID>
+    <EDID>MorePerksHeavilyTrainedPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Due to your outstanding training technique, your skill in using a broad array of heavy weapons has been improved. When you use a heavy weapon the reload speed increases by 25% whilst the gun spread decreases by 10%.</ORIGINAL>
+    <TRADUIT>得益于你卓越的训练技巧，你在使用各类重型武器方面的技能得到了显著提升。当你使用重型武器时，装填速度将提高25%，同时枪械的散射范围减少10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500381D</ID>
+    <EDID>MorePerksPlayWithFirePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Play With Fire</ORIGINAL>
+    <TRADUIT>玩转火焰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500381D</ID>
+    <EDID>MorePerksPlayWithFirePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're the master of handling fire, especially flaming weapons. With this perk, your fire resistance is increased by +25% and an extra +15% while using any fire based weapons.</ORIGINAL>
+    <TRADUIT>你是操控火焰的大师，尤其是火焰武器。拥有这个天赋后，你的火焰抗性提升 +25%，使用任何基于火焰的武器时，额外提升15%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500381F</ID>
+    <EDID>MorePerksArtOfPainPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Art of Pain</ORIGINAL>
+    <TRADUIT>痛苦艺术</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500381F</ID>
+    <EDID>MorePerksArtOfPainPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have overcome an incurable disease. Normal and critical damage you inflict increases up to +45% as you become more wounded.</ORIGINAL>
+    <TRADUIT>你克服了一种不治之症。随着伤势的加重，你造成的普通和暴击伤害将逐渐增加，最高可达45%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003821</ID>
+    <EDID>MorePerksDescriptionFinishedDM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Survive The Madre</ORIGINAL>
+    <TRADUIT>在马德雷生存</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003821</ID>
+    <EDID>MorePerksDescriptionFinishedDM</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>DESCRIPTIVE PERK</ORIGINAL>
+    <TRADUIT>perk描述</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003822</ID>
+    <EDID>MorePerksDescriptionFinishedHH</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Visit Zion, Utah</ORIGINAL>
+    <TRADUIT>参观犹他州锡安</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003822</ID>
+    <EDID>MorePerksDescriptionFinishedHH</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>DESCRIPTIVE PERK</ORIGINAL>
+    <TRADUIT>perk描述</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003823</ID>
+    <EDID>MorePerksDescriptionFinishedLR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deal With The Divide</ORIGINAL>
+    <TRADUIT>处理分歧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003823</ID>
+    <EDID>MorePerksDescriptionFinishedLR</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>DESCRIPTIVE PERK</ORIGINAL>
+    <TRADUIT>perk描述</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003824</ID>
+    <EDID>MorePerksDescriptionFinishedOWB</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>"Visit" Big Mountain</ORIGINAL>
+    <TRADUIT>“游览”大山脉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05003824</ID>
+    <EDID>MorePerksDescriptionFinishedOWB</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>DESCRIPTIVE PERK</ORIGINAL>
+    <TRADUIT>perk描述</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004416</ID>
+    <EDID>MorePerksFamousSurvivorPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Famous Survivor</ORIGINAL>
+    <TRADUIT>著名幸存者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004416</ID>
+    <EDID>MorePerksFamousSurvivorPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Yup, the one and only one, the famous courier has done it again! And this time, the entire wasteland knows your deeds. The price of all bought items is reduced by 15%.</ORIGINAL>
+    <TRADUIT>没错，正是这位独一无二的、著名的邮差再次创造了奇迹！这一次，整个废土都知道了你的英勇事迹。购买的所有物品价格将降低15%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004417</ID>
+    <EDID>MorePerksWimpInSilencePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wimp In Silence</ORIGINAL>
+    <TRADUIT>沉默弱者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004417</ID>
+    <EDID>MorePerksWimpInSilencePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have grown up to be shy in public. Thus, your real potential only appears when you use a stealth boy. With this perk, you inflict 25% more damage while under the effects of any Stealth Boy.</ORIGINAL>
+    <TRADUIT>你在公众场合变得害羞，因此，你的真实潜力仅在使用隐身小子时才会显现。凭借此技能，在使用任何隐身小子的效果下，你造成的伤害将增加25%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004418</ID>
+    <EDID>MorePerksLimbGrinderPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Limb Grinder</ORIGINAL>
+    <TRADUIT>肢解者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004418</ID>
+    <EDID>MorePerksLimbGrinderPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The joy of killing is greater when the body of your enemy is torn apart. When aiming at a limb in VATS, you deal 15% more damage and critical hit damage when you using heavy weapons.</ORIGINAL>
+    <TRADUIT>当敌人的身体被撕裂时，杀戮的快感倍增。在使用VATS瞄准敌人的肢体时，使用重型武器将造成15%的额外伤害和暴击伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004A11</ID>
+    <EDID>MorePerksBurningSunlightPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning Sunlight</ORIGINAL>
+    <TRADUIT>烈日灼烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004A11</ID>
+    <EDID>MorePerksBurningSunlightPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Burn! Burn 'em all! With this perk, you ignore 25 Damage Threshold with fire weapons in bright daylight.</ORIGINAL>
+    <TRADUIT>烧吧！全都烧掉！有这个天赋后，在明亮的日光下，你用火焰武器攻击时可以无视 25 点伤害阈值。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500500A</ID>
+    <EDID>MorePerksDoorbusterPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Doorbuster</ORIGINAL>
+    <TRADUIT>破门者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500500A</ID>
+    <EDID>MorePerksDoorbusterPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Bobby pins are nothing but accessories. From now on, with only a cherry bomb, you will be able to blast all but the strongest locks on doors open.</ORIGINAL>
+    <TRADUIT>发夹不过是装饰品。从现在开始，你只需要一颗樱桃炸弹，就可以炸开除了最坚固的门锁以外的所有门锁。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500500A</ID>
+    <EDID>MorePerksDoorbusterPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Use Cherry Bomb</ORIGINAL>
+    <TRADUIT>使用樱桃炸弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005BFB</ID>
+    <EDID>MorePerksPeerPressuredPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Peer Pressured</ORIGINAL>
+    <TRADUIT>同伴压力</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005BFB</ID>
+    <EDID>MorePerksPeerPressuredPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You feel anxious when you can't meet the expectations of those who follow you. With this perk, your overall combat speed increases by 10% for each follower.</ORIGINAL>
+    <TRADUIT>当你无法满足追随者的期望时，你会感到焦虑。有这个天赋后，你的整体战斗速度会因为每个追随者而增加10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005BFD</ID>
+    <EDID>MorePerksInspiringLeaderPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Inspiring Leader</ORIGINAL>
+    <TRADUIT>鼓舞人心的领袖</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005BFD</ID>
+    <EDID>MorePerksInspiringLeaderPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You sometimes forget to distinguish between companions and slaves. Your action points and carry weights increase depending on the total number of current companions.</ORIGINAL>
+    <TRADUIT>你有时忘记区分同伴和奴隶。你的行动点数和负重会随着当前同伴的总数而增加。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005BFF</ID>
+    <EDID>MorePerksRepairMasterPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Repair Master</ORIGINAL>
+    <TRADUIT>修理大师</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005BFF</ID>
+    <EDID>MorePerksRepairMasterPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You know your way around both your gun and armor. All equipment degrades 25% slower.</ORIGINAL>
+    <TRADUIT>你精通枪械和盔甲的维修之道。所有装备的损耗速度降低25%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005C01</ID>
+    <EDID>MorePerksCancerousGrowthPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cancerous Growth</ORIGINAL>
+    <TRADUIT>恶性增长</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005C01</ID>
+    <EDID>MorePerksCancerousGrowthPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have mutated so badly that you gain health over time and even slowly regenerate broken limbs.</ORIGINAL>
+    <TRADUIT>你的身体发生了严重变异，以至于能够随时间恢复健康，甚至缓慢地再生破损肢体。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005C04</ID>
+    <EDID>MorePerksTheNewEraPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The New Era</ORIGINAL>
+    <TRADUIT>新纪元</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05005C04</ID>
+    <EDID>MorePerksTheNewEraPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>With this perk, you will be able to change your name, your appearance and pick different traits.</ORIGINAL>
+    <TRADUIT>有了这个特长，你将能够改变你的名字、你的外表并选择不同的特征.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050061FF</ID>
+    <EDID>MorePerksRiseAndShinePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rise and Shine</ORIGINAL>
+    <TRADUIT>晨曦初现</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050061FF</ID>
+    <EDID>MorePerksRiseAndShinePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Rise and shine...and smell the ash. When sneaking you can resurrect dead humans and non-feral ghouls as powerful glowing ones. To perform the resurrection, you need a Doctor's Bag and a vial of Centaur's blood.</ORIGINAL>
+    <TRADUIT>当晨曦初露，空气中弥漫着灰烬的味道，你悄然苏醒。在潜行时，你能够复活死去的人类和非狂尸鬼，使它们成为强大的发光种。为了施展这一复活之术，你需要医疗包和一瓶多脚兽之血。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>050061FF</ID>
+    <EDID>MorePerksRiseAndShinePerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Rise and Shine!</ORIGINAL>
+    <TRADUIT>晨曦初现！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500741C</ID>
+    <EDID>MorePerksSteelBehindSuitsPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Steel Behind Suits</ORIGINAL>
+    <TRADUIT>西装下的钢铁</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500741C</ID>
+    <EDID>MorePerksSteelBehindSuitsPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your outstanding... skills... have adapted the technique of wearing any pre-war or gambler suits over Power Armor. You gain +20 DT while wearing any pre-war or gambler outfits and have Power Armor in your inventory.</ORIGINAL>
+    <TRADUIT>你卓越的……技能……让你掌握了在动力甲上穿戴任何战前或赌徒套装的技巧。当你穿着任何战前或赌徒服装，并且背包中有动力装甲时，你将获得+20的DT。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008010</ID>
+    <EDID>MorePerksNikolasShockwavePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nikola's Shockwave</ORIGINAL>
+    <TRADUIT>尼古拉冲击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008010</ID>
+    <EDID>MorePerksNikolasShockwavePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>After reading Nikola Tesla and You repeatedly, you've discovered a secret method of enhancing your defense! Whenever hit by a melee or unarmed attack you have a chance to shock the attacker.</ORIGINAL>
+    <TRADUIT>在反复阅读《尼古拉·特斯拉与你》后，你竟意外发现了一种增强防御的秘法！每当受到近战或徒手攻击时，你都有机会电击攻击者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008012</ID>
+    <EDID>MoreTraitsBigIronRangerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Iron Ranger</ORIGINAL>
+    <TRADUIT>大铁游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008012</ID>
+    <EDID>MoreTraitsBigIronRangerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You won't be the 21st with the Big Iron on your hip. Your critical hit chance is doubled with old western firearms, but you get critically hit more from raider types such as the Fiends and Powder Gangers.</ORIGINAL>
+    <TRADUIT>你不会是第 21 个拥有大铁的人.使用老式西方枪支时，你的暴击几率会加倍，但你会受到恶魔帮和火药帮等掠夺者的暴击.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008017</ID>
+    <EDID>MoreTraitsBringItOnPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bring it On!</ORIGINAL>
+    <TRADUIT>带上它!</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008017</ID>
+    <EDID>MoreTraitsBringItOnPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You either kill fast or die early. Both you and your enemy's Damage Threshold are reduced by 5.</ORIGINAL>
+    <TRADUIT>你要么杀得快，要么死得早.你和你的敌人的伤害阈值均减少 5.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500801A</ID>
+    <EDID>MoreTraitsTribalPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tribal</ORIGINAL>
+    <TRADUIT>部落战士</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500801A</ID>
+    <EDID>MoreTraitsTribalPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You deal +15% Unarmed and Melee damage but your damage with Guns, Explosives and Energy Weapons are reduced by 10%.</ORIGINAL>
+    <TRADUIT>你的徒手和近战伤害提升 15%，但你的枪械、爆炸物和能量武器伤害降低 10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500801B</ID>
+    <EDID>MoreTraitsNearDeathAffairPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Near Death Experience</ORIGINAL>
+    <TRADUIT>濒死体验</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500801B</ID>
+    <EDID>MoreTraitsNearDeathAffairPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your action points only regenerate when you have less than 50% health. When your health is below 25%, VATS costs half as many action points. Finally, when your health is below 10%, each kill will restore all of your action points.</ORIGINAL>
+    <TRADUIT>只有当你的生命值低于50%时，行动点才会恢复。当生命值低于25%时，VATS消耗的行动点减半。当生命值低于10%时，每次击杀都将恢复所有行动点。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008615</ID>
+    <EDID>MoreTraitsBornToBeWildPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Born to be Wild</ORIGINAL>
+    <TRADUIT>生而狂野</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05008615</ID>
+    <EDID>MoreTraitsBornToBeWildPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are easily addicted to chems. Fortunately, you can craft any common chem from the Campfire.</ORIGINAL>
+    <TRADUIT>你很容易对药物上瘾。幸运的是，你可以在营火旁制作任何常见药物。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500920F</ID>
+    <EDID>MoreTraitsGluttonPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glutton</ORIGINAL>
+    <TRADUIT>饭桶</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500920F</ID>
+    <EDID>MoreTraitsGluttonPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Non-HC: When your overall health is above 80% you get a bonus 4 DT, but lose 1 DT otherwise.
+
+HC: When you're hunger is below 200 you get bonus 4 DT, but lose 1 DT otherwise.</ORIGINAL>
+    <TRADUIT>非硬核模式：当你的整体健康状况高于80%时，你会获得额外的4点DT（伤害阈值），否则将减少1点DT。
+
+ 硬核模式：当你的饥饿度低于200时，你会获得额外的4点DT，否则将减少1点DT</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009211</ID>
+    <EDID>MoreTraitsDiabeticPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Diabetic</ORIGINAL>
+    <TRADUIT>糖尿病患者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009211</ID>
+    <EDID>MoreTraitsDiabeticPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Living in the wasteland with this hasn't been easy, but you've adapted and learned the thrive with it. Aid items affected by your Medicine skill are twice as effective. However, you heal 33% less from all sources.</ORIGINAL>
+    <TRADUIT>在这片废土生活并不容易，但你已逐渐适应并学会了与之共存。受医学技能影响的辅助物品效果翻倍。然而，你的所有治疗效果却降低了33%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009213</ID>
+    <EDID>MoreTraitsConduitOfRadiationPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Conduit of Radiation</ORIGINAL>
+    <TRADUIT>辐射通道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009213</ID>
+    <EDID>MoreTraitsConduitOfRadiationPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>As you become more irradiated your Health and AP regenerate faster, however you now accumulate three times as much radiation.</ORIGINAL>
+    <TRADUIT>辐射值越高，你的健康和行动点恢复速度就越快，但与此同时，你也会累积三倍的辐射量。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009217</ID>
+    <EDID>MorePerksDMGoldRushPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gold Rush</ORIGINAL>
+    <TRADUIT>淘金热</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009217</ID>
+    <EDID>MorePerksDMGoldRushPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your life has been unfair and miserable until now. Upon taking this perk, your pipboy will update with 3 map markers, each with "Piles of Gold Inside". Could this be true? Or just another series of unfortunate events?</ORIGINAL>
+    <TRADUIT>到目前为止，你的生活一直不公平且悲惨。获得此技能后，您的哔哔小子将更新3个地图标记，每个标记上写着“里面有成堆的金子”。这是真的吗？还是只是另一系列的不幸事件？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009218</ID>
+    <EDID>MorePerksDMHologramExpertPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hologram Expert</ORIGINAL>
+    <TRADUIT>全息专家</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05009218</ID>
+    <EDID>MorePerksDMHologramExpertPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've created a mobile Hologram Emitter after finding old blueprints. It now acts as a toggleable companion that doesn't take up a slot, but requres a constant supply of SEC to keep running.</ORIGINAL>
+    <TRADUIT>在找到一些旧蓝图后，你成功制造了一个移动的全息发射器。现在，它就像一个可切换的伙伴，不占用任何位置，但需要持续供应SEC以保持运行。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500981C</ID>
+    <EDID>MorePerksDMDeadlyReflectionPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deadly Reflection</ORIGINAL>
+    <TRADUIT>致命反射</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500981C</ID>
+    <EDID>MorePerksDMDeadlyReflectionPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your metal armor reflects more than just light. When you are wearing metal armor, any damage taken from energy, electrical, EMP, or fire weapons get reflected back at the attacker (you still take damage).</ORIGINAL>
+    <TRADUIT>你的金属盔甲不仅能反射光线。当你穿着金属盔甲时，任何来自能量、电击、电磁脉冲或火焰武器的伤害都会被反射回攻击者（你仍然会受到伤害）。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500A40D</ID>
+    <EDID>MorePerksHHBaptizedByFirePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Baptized by Fire</ORIGINAL>
+    <TRADUIT>火之洗礼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500A40D</ID>
+    <EDID>MorePerksHHBaptizedByFirePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Once a day, when you are set on fire, you are gifted a Holy Frag Grenade through divine intervention.</ORIGINAL>
+    <TRADUIT>每天一次，当你被点燃时，你会通过神的干预获得一枚神圣碎片手榴弹.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500A40E</ID>
+    <EDID>MorePerksHHBearInMindPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bear in Mind</ORIGINAL>
+    <TRADUIT>心中野兽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500A40E</ID>
+    <EDID>MorePerksHHBearInMindPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Don't feed the Yao Guai! There's now a Yao Guai cub that wants to be your friend.</ORIGINAL>
+    <TRADUIT>别喂妖怪！现在有一只妖怪幼崽想和你交朋友.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500B5FA</ID>
+    <EDID>MoreTraitsBannedforLife1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tucked In</ORIGINAL>
+    <TRADUIT>温暖相伴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500B5FA</ID>
+    <EDID>MoreTraitsBannedforLife1</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>While Great Jack is a companion, the player gains 5 Damage Threshold for equipping any type of Raider Armor.</ORIGINAL>
+    <TRADUIT>当 Great Jack 是同伴时，玩家在装备任何类型的掠夺者护甲时都会获得 5 点伤害阈值.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500B5FB</ID>
+    <EDID>MoreTraitsBannedforLife2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exploitable Spots</ORIGINAL>
+    <TRADUIT>可利用弱点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500B5FB</ID>
+    <EDID>MoreTraitsBannedforLife2</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>While Clover Ace is a companion, the player negate 5 points of Damage Threshold on the target.</ORIGINAL>
+    <TRADUIT>当Clover Ace是同伴时，玩家将忽略目标5点的伤害阈值。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DF8</ID>
+    <EDID>MorePerksBonsaiPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bonsai</ORIGINAL>
+    <TRADUIT>盆栽人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DF8</ID>
+    <EDID>MorePerksBonsaiPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Through careful nurturing you have a small garden growing out of your head. Every day ingestible plants will appear in your inventory.</ORIGINAL>
+    <TRADUIT>经过你的细心呵护，你的头顶竟长出了一片小花园。每天，可食用的植物便会在你的背包中悄然出现</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DFC</ID>
+    <EDID>MorePerksDrinkToLastPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drink to Last</ORIGINAL>
+    <TRADUIT>饮水至尽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DFC</ID>
+    <EDID>MorePerksDrinkToLastPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Only the people who have almost died from thirst know how precious water is, regardless of where it is pumped from. With this perk, you can fill up any empty bottles from any toilet.</ORIGINAL>
+    <TRADUIT>只有那些几乎因口渴而死的人才知道水的珍贵，无论它来自何处。有了这个技能，你可以从任何厕所中装满任何空瓶子。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DFC</ID>
+    <EDID>MorePerksDrinkToLastPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Fill up Bottle</ORIGINAL>
+    <TRADUIT>装满瓶子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DFC</ID>
+    <EDID>MorePerksDrinkToLastPerk</EDID>
+    <CHAMP>EPF2</CHAMP>
+    <ORIGINAL>Fill all Bottles</ORIGINAL>
+    <TRADUIT>装满瓶子</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500C1EC</ID>
+    <EDID>MoreTraitsNeverDoWellPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ne'er-do-Well</ORIGINAL>
+    <TRADUIT>表现不佳</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500C1EC</ID>
+    <EDID>MoreTraitsNeverDoWellPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're not exactly what others would call... capable. It's a good thing you're not alone! While you don't have a companion, all your combat skills are 10 lower than what they should be, however they are increased by 10 whenever you have multiple companions.</ORIGINAL>
+    <TRADUIT>你或许不是他人眼中的“强者”。但幸运的是，你并不孤单！当你没有同伴时，你的所有战斗技能都会比应有的水平低10点。然而，一旦你有多个同伴，这些技能就会增加10点。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DFF</ID>
+    <EDID>MorePerkSwingFencePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Swing for the Fence!</ORIGINAL>
+    <TRADUIT>全力挥击！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000DFF</ID>
+    <EDID>MorePerkSwingFencePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>With the Swing for the Fence! perk, you will deal 10% more damage with unarmed and melee attacks.</ORIGINAL>
+    <TRADUIT>“全力挥击！”这一技能让你在徒手攻击和近战攻击时，能造成额外10%的伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500C1EE</ID>
+    <EDID>MorePerksHHLeavingTrailsPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Leaving Trails</ORIGINAL>
+    <TRADUIT>留下足迹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500C1EE</ID>
+    <EDID>MorePerksHHLeavingTrailsPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You know how to leave a strong trail for yourself. You can leave a map marker behind to fast travel to.</ORIGINAL>
+    <TRADUIT>你知道如何为自己留下明显的踪迹。你可以留下地图标记，以便快速旅行。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E00</ID>
+    <EDID>MorePerksBrightSidePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bright Side of Life</ORIGINAL>
+    <TRADUIT>生活的光明面</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E00</ID>
+    <EDID>MorePerksBrightSidePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>At least those bullets hitting your body are 25% less likely to be criticals...</ORIGINAL>
+    <TRADUIT>至少，那些击中你身体的子弹有25%的可能不会造成暴击……</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E02</ID>
+    <EDID>MorePerksWheresMyPantsPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Where's My Pants??</ORIGINAL>
+    <TRADUIT>我裤子呢??</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E02</ID>
+    <EDID>MorePerksWheresMyPantsPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You woke up with bags of caps in the middle of nowhere without your pants.</ORIGINAL>
+    <TRADUIT>你醒来时发现自己身处荒郊野岭，裤子没了，身边却堆满了瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E04</ID>
+    <EDID>MorePerksPersistentMannerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Persistent Manner</ORIGINAL>
+    <TRADUIT>耐性管理者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E04</ID>
+    <EDID>MorePerksPersistentMannerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have learned to stay frosty and wait for the right time to strike, this allows you to get +10% Critical Chance and deal more +50% Critical Damage against enemies who are reloading.</ORIGINAL>
+    <TRADUIT>你已学会保持冷静，静待时机发动致命一击。这一技能使你在面对正在装填弹药的敌人时，暴击率提升10%，暴击伤害增加50%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E05</ID>
+    <EDID>MorePerksTechJunkiePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tech Junkie</ORIGINAL>
+    <TRADUIT>技术狂人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E05</ID>
+    <EDID>MorePerksTechJunkiePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The fun never ends when tinkering around with robots. With this perk, you are able to salvage more scrap metal from dead robots.</ORIGINAL>
+    <TRADUIT>摆弄机器人永远不会让人厌倦。有了这个技能，你能够从死去的机器人身上收集到更多的废金属。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0A</ID>
+    <EDID>MorePerksShellsForShellyPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shells for Shelly</ORIGINAL>
+    <TRADUIT>霰弹枪猎人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0A</ID>
+    <EDID>MorePerksShellsForShellyPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are more likely to notice others with shotguns and vice versa. You loot more shotgun shells from corpses and are able to purchase more shells from vendors.</ORIGINAL>
+    <TRADUIT>你更容易注意到携带霰弹枪的其他人，反之亦然。你会从尸体上搜刮到更多的霰弹枪弹药，并且能够从商人那里购买到更多的弹药。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0B</ID>
+    <EDID>MorePerksProfessionalCourierPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Professional Courier</ORIGINAL>
+    <TRADUIT>专业邮差</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0B</ID>
+    <EDID>MorePerksProfessionalCourierPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The talents of a true courier is being able to carry more things and carry them faster even when weighed down. You can carry 25 more pounds, and will be able to run faster depending on your inventory weight (up to +50%).</ORIGINAL>
+    <TRADUIT>真正的邮差具备一种天赋，那就是即使负重也能携带更多物品，并且移动速度更快。你可以额外携带25磅的物品，并且随着背包重量的增加，你的奔跑速度也会相应提升（最高可达+50%）。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500DFCD</ID>
+    <EDID>MoreTraitsCommunistPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Communist</ORIGINAL>
+    <TRADUIT>共产主义者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0500DFCD</ID>
+    <EDID>MoreTraitsCommunistPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You were exposed to pre-war Chinese propaganda, and it affected you more than most. You have seized the means of production and repairing items is 50% more effective, however vendors find you annoying and inflate buy prices by 25%.</ORIGINAL>
+    <TRADUIT>你接触到了战前中国的宣传，它对你的影响比大多数人都大。你掌握了生产手段，修理物品的效率提高了50%，但供应商觉得你很烦人，并将购买价格提高了25%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0C</ID>
+    <EDID>MorePerksRoachLoverPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Roach Lover</ORIGINAL>
+    <TRADUIT>蟑螂迷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0C</ID>
+    <EDID>MorePerksRoachLoverPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Perhaps you should start washing your feet. Every day at random, groups of radroaches crawl beneath your feet.</ORIGINAL>
+    <TRADUIT>也许你该开始洗脚了。每天都有几率出现成群的蟑螂在你脚下爬行。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0E</ID>
+    <EDID>MorePerksBigLeagueSluggerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big League Slugger</ORIGINAL>
+    <TRADUIT>大联盟强击手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0E</ID>
+    <EDID>MorePerksBigLeagueSluggerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your every swing is an out-of-park homerun. With this perk, two-handed melee weapons deal 25% bonus damage.</ORIGINAL>
+    <TRADUIT>你的每一击都是本垒打。有了这个技能，双手近战武器造成25%的额外伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0F</ID>
+    <EDID>MorePerksFirstThingFirstPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>First Thing First</ORIGINAL>
+    <TRADUIT>要事第一</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E0F</ID>
+    <EDID>MorePerksFirstThingFirstPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are a careful shooter and know the first thing to do in a firefight. Before the start of combat you can shoot at an enemy's weapon with extreme accuracy. Also, you can knock out the first target with first shot.</ORIGINAL>
+    <TRADUIT>你是一名谨慎的射手，知道在交火中该做的第一件事。在战斗开始之前，你可以以极高的精度射击敌人的武器。此外，你也可以在第一次射击中击倒第一个目标。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E10</ID>
+    <EDID>MorePerksBlindLuckPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blind Luck</ORIGINAL>
+    <TRADUIT>盲目运气</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E10</ID>
+    <EDID>MorePerksBlindLuckPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're blind but not doomed. During combat, your luck is maxed.</ORIGINAL>
+    <TRADUIT>你睁眼瞎，但不是无可救药。在战斗中，你的运气会最大化。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E16</ID>
+    <EDID>MorePerksBottleRushPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bottle Rush!</ORIGINAL>
+    <TRADUIT>瓶子冲冲冲！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05000E16</ID>
+    <EDID>MorePerksBottleRushPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are a thorough scavenger of the wasteland. With this perk, you will find more Nuka-Cola and Sunset Sarsaparillas in crates and refrigerators.</ORIGINAL>
+    <TRADUIT>你是一个彻底的废土拾荒者.有了这项特长，您将在板条箱和冰箱中找到更多的核子可乐和夕阳沙土.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001410</ID>
+    <EDID>MorePerksFortuitousWarriorPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fortuitous Warrior</ORIGINAL>
+    <TRADUIT>幸运战士</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001410</ID>
+    <EDID>MorePerksFortuitousWarriorPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Fortune smiles on you because you are the bravest warrior in the wasteland. Whenever you charge forward with a melee or unarmed weapon, you have a +5% chance to hit critically.</ORIGINAL>
+    <TRADUIT>你是废土上最勇敢的战士，幸运女神对你微笑。当你使用近战或徒手武器冲锋时，你有5%的额外机会造成暴击伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501099B</ID>
+    <EDID>MorePerksOWBOverclockedPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Overclocked</ORIGINAL>
+    <TRADUIT>过载</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501099B</ID>
+    <EDID>MorePerksOWBOverclockedPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>It's time to go into overdrive! With this perk, you ignore 10 extra DT with laser weapons, deal 20% more damage with plasma weapons, and attack 33% faster with pyromaniac weapons.</ORIGINAL>
+    <TRADUIT>是时候过载了!有了这个技能，你可以忽略激光武器额外的10DT，等离子武器造成的伤害增加20%，燃烧武器的攻速提高33%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501099C</ID>
+    <EDID>MorePerksOWBPoweredAcceleratorPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powered Accelerator</ORIGINAL>
+    <TRADUIT>电动加速器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501099C</ID>
+    <EDID>MorePerksOWBPoweredAcceleratorPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've implemented a P.A.P.A. in your power armor. While wearing power armor you move 10% faster, and you regenerate Action Points 25% faster while running in power armor.</ORIGINAL>
+    <TRADUIT>你已经在你的动力装甲上安装了P.A.P.A.。当你穿着动力甲时，你的移动速度提高10%，当你穿着动力甲奔跑时，你的行动点数恢复速度提高25%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501099D</ID>
+    <EDID>MorePerksOWBSyntheticPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Synthetic</ORIGINAL>
+    <TRADUIT>合成人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501099D</ID>
+    <EDID>MorePerksOWBSyntheticPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're like a cyborg from the Capital, but somehow even more powerful! While you're below 50% Health, you deal 33% more damage with energy weapons, and gain +15 DT against energy weapons.</ORIGINAL>
+    <TRADUIT>你就像一个从首都来的半机械人，但不知怎的更强!当你的生命值低于50%时，你的能量武器造成的伤害增加33%，并获得+15能量抵抗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001411</ID>
+    <EDID>MorePerksFriendlessPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Friendless</ORIGINAL>
+    <TRADUIT>无友之人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001411</ID>
+    <EDID>MorePerksFriendlessPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Today must be your lucky day because there is a small animal outside that Wishes to be your loyal companion. Be nice and friendly, and it might grow to be a life saver.</ORIGINAL>
+    <TRADUIT>今天一定是你的幸运日，因为外面有一只小动物希望成为你忠实的伙伴。对它友善一些，它可能会成为你的救命恩人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05012777</ID>
+    <EDID>MorePerksLRCourierInPrime</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Courier in Prime</ORIGINAL>
+    <TRADUIT>巅峰邮差</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05012777</ID>
+    <EDID>MorePerksLRCourierInPrime</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>This is it. You are at the prime time of your life. Thus, you can carry +50 lbs more, run +10% faster, and gain 10 DR.</ORIGINAL>
+    <TRADUIT>终于到了这一刻。你正处于生命的巅峰时期。因此，你可以多携带 50 磅的物品，跑得更快（+10%），并获得 10 点伤害减免。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001A0E</ID>
+    <EDID>MorePerksPotatoFarmerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Potato Farmer</ORIGINAL>
+    <TRADUIT>土豆农</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001A0E</ID>
+    <EDID>MorePerksPotatoFarmerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have come to the realization that some enemies carry more explosives than others. From now on, you can loot more grenades and mines from fallen enemies.</ORIGINAL>
+    <TRADUIT>你已经意识到有些敌人比其他敌人携带更多的炸药。从现在开始，你可以从倒下的敌人身上掠夺更多的手榴弹和地雷。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001A0F</ID>
+    <EDID>MorePerksTooDrunkToDiePerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Too Drunk To Die</ORIGINAL>
+    <TRADUIT>醉死不休</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05001A0F</ID>
+    <EDID>MorePerksTooDrunkToDiePerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>While you are drunk there is absolutely nothing that can stop you. You gain a +5 to your Damage Threshold while under the effects of alcohol.</ORIGINAL>
+    <TRADUIT>醉酒状态下，你将变得无人能挡。在酒精的影响下，你的伤害阈值将增加5点，让你在战斗中更加坚不可摧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05000E03</ID>
+    <EDID>MorePerksWheresMyPantsMessage</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>"What the...where am I?"
+
+As you wake up in middle of nowhere, you realize that loads of caps and money are in your inventory.
+
+It would be wise not to ask around about what happened last night.</ORIGINAL>
+    <TRADUIT>“这……我这在哪儿？”
+
+ 当你在一个偏僻的地方醒来时，你意识到你的库存中有大量瓶盖和金钱.
+
+ 聪明人都知道现在不要四处打听昨晚发生的事情. </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05000E03</ID>
+    <EDID>MorePerksWheresMyPantsMessage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Where's my pants??</ORIGINAL>
+    <TRADUIT>我裤子呢??</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05007A16</ID>
+    <EDID>MorePerksFriendlessLeaveMessage</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your friend has returned to the Goodsprings Cemetery.</ORIGINAL>
+    <TRADUIT>你的朋友已经回到清泉镇公墓.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05006E21</ID>
+    <EDID>MorePerksFriendlessDeadMessage</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your friend has died!</ORIGINAL>
+    <TRADUIT>你的同伴死了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05006E21</ID>
+    <EDID>MorePerksFriendlessDeadMessage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Follower Warning</ORIGINAL>
+    <TRADUIT>跟踪者警报</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>05008619</ID>
+    <EDID>MoreTraitsBornToBeWildRecipeBuffout</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Born to be Wild: Buffout</ORIGINAL>
+    <TRADUIT>生而狂野：壮大灵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>05008616</ID>
+    <EDID>MoreTraitsBornToBeWildRecipeMedX</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Born to be Wild: Med-X</ORIGINAL>
+    <TRADUIT>生而狂野：注射剂-X</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>05008617</ID>
+    <EDID>MoreTraitsBornToBeWildRecipePsycho</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Born to be Wild: Psycho</ORIGINAL>
+    <TRADUIT>生而狂野：疯狂药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>05008618</ID>
+    <EDID>MoreTraitsBornToBeWildRecipeJet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Born to be Wild: Jet</ORIGINAL>
+    <TRADUIT>生而狂野：杰特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
