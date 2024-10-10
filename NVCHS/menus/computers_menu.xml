@@ -1,0 +1,363 @@
+<!-- computers_menu.xml -->
+<menu name="ComputersMenu">
+	<class> &ComputersMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+
+	<xbuttonrt>	<ref src="TM_next_button" trait="clicked"/>			</xbuttonrt>
+	<xbuttonlt> <ref src="TM_prev_button" trait="clicked"/>			</xbuttonlt>
+	<xup>		<ref src="scrollbar_vert_up" trait="clicked"/>		</xup>
+	<xdown>		<ref src="scrollbar_vert_down" trait="clicked"/>	</xdown>
+	<xbuttonrb> <ref src="scrollbar_vert_page_down" trait="clicked"/></xbuttonrb>
+	<xbuttonlb> <ref src="scrollbar_vert_page_up" trait="clicked"/>	</xbuttonlb>
+
+	<alpha>	0 </alpha>
+	<locus> &true; </locus>
+	<menufade> 0.25 </menufade>
+	<brightness>
+		<copy> 255 </copy>		<onlyif> &highdef; </onlyif>
+		<add>
+			<copy>175</copy>	<onlyifnot> &highdef; </onlyifnot>
+		</add>
+	</brightness>
+	<systemcolor> &terminal; </systemcolor>
+
+	<rect name="computers_depth_rect">
+		<depth> 3 </depth>
+		<locus> &true; </locus>
+		<height>
+			<copy src="screen()" trait="height"/>
+			<mult> 0.75 </mult>	<!-- ref: FORenderedTerminal::Initialize() -->
+		</height>
+		<width>
+			<copy src="me()" trait="height"/>
+			<mult> 4 </mult>
+			<div> 3 </div>
+		</width>
+		
+		<image name="computers_background">
+			<id> 13 </id>
+			<target> &true; </target>
+			<filename> Interface\Shared\Background\pipboy.dds </filename>
+			<width> <copy src="parent()" trait="width"/> </width>
+			<height> <copy src="parent()" trait="height"/> </height>
+			<x> 10 </x>
+			<zoom> &scale; </zoom>
+			<depth> -3 </depth>
+			<alpha> 255 </alpha>
+			<brightness> 90 </brightness>
+			<xdefault>&true;</xdefault>
+		</image>
+		
+		<!--=============================================-->
+		<!--================ INTRO TEXT =================-->
+		<!--=============================================-->
+
+		<text name="computers_intro_welcome">
+			<id> 9 </id>
+			<x> 100 </x>
+			<y> 30 </y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<text name="computers_intro_logon">
+			<id> 10 </id>
+			<x>	<copy src="sibling(computers_intro_welcome)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(computers_intro_welcome)" trait="y"/>
+				<add>
+					<copy src="sibling(computers_intro_welcome)" trait="height"/>
+					<mult> 2 </mult>
+				</add>
+			</y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<text name="computers_intro_enterpw">
+			<id> 11 </id>
+			<x>	<copy src="sibling(computers_intro_welcome)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(computers_intro_logon)" trait="y"/>
+				<add>
+					<copy src="sibling(computers_intro_logon)" trait="height"/>
+					<mult> 2 </mult>
+				</add>
+			</y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<text name="computers_intro_pwdisplay">
+			<id> 12 </id>
+			<x>	<copy src="sibling(computers_intro_welcome)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(computers_intro_enterpw)" trait="y"/>
+				<add>
+					<copy src="sibling(computers_intro_enterpw)" trait="height"/>
+					<mult> 2 </mult>
+				</add>
+			</y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<!--==============================================-->
+		<!--================ HEADER TEXT =================-->
+		<!--==============================================-->
+
+		<text name="computers_header1">
+			<id> 3 </id>
+			<y> <copy src="sibling(computers_intro_welcome)" trait="y"/> </y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<text name="computers_header2">
+			<id> 4 </id>
+			<y>
+				<copy src="sibling(computers_header1)" trait="y"/>
+				<add src="sibling(computers_header1)" trait="height"/>
+			</y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<text name="computers_server">
+			<id> 0 </id>
+			<y>
+				<copy src="sibling(computers_header2)" trait="y"/>
+				<add src="sibling(computers_header2)" trait="height"/>
+			</y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<text name="computers_welcome">
+			<id> 7 </id>
+			<visible> &false; </visible>
+			<wrapwidth> 900 </wrapwidth>
+			<x> 50 </x>
+			<y>
+				<copy src="sibling(computers_server)" trait="y"/>
+				<add src="sibling(computers_server)" trait="height"/>
+				<add> 20 </add>
+			</y>
+			<font> 3 </font>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</text>
+
+		<image name="computers_separator">
+			<include src="line.xml"/>
+			<id> 15 </id>
+			<visible> &false; </visible>
+			<x> <copy src="sibling(computers_welcome)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(computers_welcome)" trait="y"/>
+				<add src="sibling(computers_welcome)" trait="height"/>
+				<add> 10 </add>
+			</y>
+			<_length>
+				<copy src="sibling(computers_welcome)" trait="width"/>
+			</_length>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+		</image>
+
+		<!--===========================================-->
+		<!--================ LIST BOX =================-->
+		<!--===========================================-->
+
+		<hotrect name="computers_file_directory">
+			<include src="list_box.xml"/>	
+			<id> 1 </id>
+			<x> <copy src="sibling(computers_separator)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(computers_separator)" trait="y"/>
+				<add src="sibling(computers_separator)" trait="height"/>
+				<add> 10 </add>
+			</y>
+			<_y>
+				<copy src="computers_depth_rect" trait="height"/>
+				<sub src="sibling(computers_separator)" trait="y"/>
+				<sub src="sibling(computers_separator)" trait="height"/>
+			</_y>
+
+			<width> 880 </width>
+
+			<_number_of_visible_items> 12 </_number_of_visible_items>
+			<_line_alpha> 0 </_line_alpha>
+			<_fill_alpha> 224 </_fill_alpha>
+			<_scrollbar_vis> &false; </_scrollbar_vis>
+			<_scrollbar_pos> &right; </_scrollbar_pos>
+		</hotrect>
+
+		<text name="computers_result_prompt">
+			<id> 8 </id>
+			<visible> &false; </visible>
+			<font> 3 </font>
+			<x> <copy src="sibling(computers_file_directory)" trait="x"/> </x>
+			<y>
+				<copy src="parent()" trait="height"/>
+				<sub src="me()" trait="height"/>
+				<sub> 30 </sub>
+			</y>
+		</text>
+
+		<text name="computers_result_text">
+			<id> 5 </id>
+			<visible> &false; </visible>
+			<font> 3 </font>
+			<x>
+				<copy src="sibling(computers_result_prompt)" trait="x"/>
+				<add> 34 </add>
+			</x>
+			<y> <copy src="sibling(computers_result_prompt)" trait="y"/> </y>
+		</text>
+		
+		<hotrect name="computers_cursor">
+			<id> 6 </id>
+			<visible> &false; </visible>
+			<filename> solid.dds </filename>
+			<texatlas> Interface\InterfaceShared.tai </texatlas>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+			<alpha> 255 </alpha>
+			<height> 17 </height>
+			<width> 17 </width>
+			<_blink_interval> 400 </_blink_interval>	<!-- ms -->
+		</hotrect>
+
+		<hotrect name="TM_scrollbar">
+			<include src="scrollbar_vert.xml"/>
+			<!-- <repeatvertical> &true; </repeatvertical>
+			<xdefault> 1 </xdefault> -->
+			<_has_arrows> &false; </_has_arrows>
+			<_marker_height> 100 </_marker_height>
+			<_marker_width> 15 </_marker_width>
+			<_marker_alpha> 50 </_marker_alpha>
+			<_x>940</_x>
+			<_y> 0 </_y>
+			<y> 			
+				<copy src="sibling(computers_welcome)" trait="y"/>
+				<add src="sibling(computers_welcome)" trait="height"/>
+				<add> 10 </add>
+			</y>
+
+			<_number_of_items>
+				<copy src="sibling(computers_display_zone)" trait="_text_height"/>
+				<add src="me()" trait="_step_size"/>
+			</_number_of_items>
+			<_number_of_visible_items> 100 </_number_of_visible_items>
+			<_step_size> 30 </_step_size>
+			<_jump_size>
+				<copy src="sibling(computers_file_directory)" trait="height"/>
+				<sub src="me()" trait="_step_size"/>
+			</_jump_size>
+
+			<_wheelmoved>											
+				<copy src="sibling(computers_display_zone)" trait="wheelmoved"/>
+				<onlyif>				
+					<copy src="sibling(computers_display_zone)" trait="_text_height" />
+					<gt src="sibling(computers_file_directory)" trait="_y" />
+				</onlyif>	
+			</_wheelmoved>
+
+			<visible>
+				<copy src="sibling(computers_display_zone)" trait="_text_height" />
+				<!-- <gt> 350 </gt> -->
+				<gt src="sibling(computers_file_directory)" trait="_y"/>
+				<onlyifnot src="sibling(computers_file_directory)" trait="visible"/>
+			</visible>
+		</hotrect>
+
+		<hotrect name="computers_display_zone">
+			<id> 2 </id>
+			<wheelable> &true; </wheelable>
+			<clipwindow> &true; </clipwindow>
+			<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+			<zoom> &scale;</zoom>
+			<locus> &true; </locus>
+			<x> <copy src="sibling(computers_file_directory)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(computers_file_directory)" trait="y"/>
+				<onlyif src="sibling(computers_welcome)" trait="visible"/>
+				<add>
+					<copy src="sibling(computers_welcome)" trait="y"/>
+					<onlyifnot src="sibling(computers_welcome)" trait="visible"/>
+				</add>
+			</y>
+			<width> <copy src="sibling(computers_file_directory)" trait="width"/> </width>
+			<height> <copy src="sibling(computers_file_directory)" trait="height"/> </height>
+			<_text_height>
+				<copy src="child(computers_display_zone_text)" trait="height"/>
+			</_text_height>
+			<_text_y>
+				<copy> 0 </copy>
+				<sub src="sibling(TM_Scrollbar)" trait="_current_value"/>
+				<add> 10 </add> <!-- font adjustment -->
+			</_text_y>
+
+			<text name="computers_display_zone_text">
+				<id> 14 </id>
+				<y>
+					<copy src="parent()" trait="_text_y"/>	
+					<!-- <onlyif>				
+						<copy src="me()" trait="height" /><div> 0.5 </div>
+						<gt src="parent()" trait="height" />
+					</onlyif> -->
+				</y>
+				<x> 0 </x>
+				<brightness> <copy src="ComputersMenu" trait="brightness"/> </brightness>
+				<wrapwidth> <copy src="parent()" trait="width"/> </wrapwidth>
+				<clips> &true; </clips>
+				<font> 3 </font>
+				<wraplines> 150 </wraplines>
+			</text>
+		</hotrect>
+	</rect>		<!-- End depth rect -->
+
+	<template name="computers_file_template">
+		<hotrect name="computers_file_template_item">
+			<include src="list_box_template.xml"/>
+			<visible> &true; </visible>
+			<user0></user0>		<!-- Text string -->
+			<_highlighted>
+				<copy src="me()" trait="y"/>
+				<eq src="parent()" trait="_highlight_y"/>
+			</_highlighted>
+			<!-- NOTE:  Do not remove _text_width or _text_y.  They are not referenced in xml but are referenced in code -->
+			<_text_width>
+				<copy src="child(computers_file_template_text)" trait="width"/>
+			</_text_width>
+			<_text_y>
+				<copy src="child(computers_file_template_text)" trait="y"/>
+			</_text_y>
+			
+			<text name="computers_file_template_text">
+				<depth> 2 </depth>
+				<string>
+					<copy src="parent()" trait="user0"/>
+				</string>
+				<font> 3 </font>
+				<y> 15 </y>
+				
+				<!-- Use local color when highlighted -->
+				<brightness>
+					<copy src="ComputersMenu" trait="brightness"/>
+					<onlyifnot src="parent()" trait="_highlighted"/>
+					<add>
+						<copy> &uselocalcolor; </copy>
+						<onlyif src="parent()" trait="_highlighted"/>
+					</add>
+				</brightness>
+
+				<!-- This value should only come in to play when brightness!=uselocalcolor -->
+				<systemcolor> &terminal; </systemcolor>
+				
+				<!-- These values should only come in to play when brightness=uselocalcolor -->
+				<red> 0 </red>
+				<green> 5 </green>
+				<blue> 0 </blue>
+			</text>
+		</hotrect>
+	</template>
+</menu>

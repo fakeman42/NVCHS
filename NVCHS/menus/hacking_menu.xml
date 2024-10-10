@@ -1,0 +1,359 @@
+<!-- hacking_menu.xml -->
+<menu name="HackingMenu">
+	<class> &HackingMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<alpha>
+		<copy> 255 </copy>
+		<sub>
+			<copy> 32 </copy>
+			<onlyif> &xbox; </onlyif>
+		</sub>
+	</alpha>
+	<locus> &true; </locus>
+	<menufade> 0.25 </menufade>
+	<brightness> 255 </brightness>
+	<systemcolor> &terminal; </systemcolor>
+
+	<user0></user0>			<!-- Log entry prompt (set in code) -->
+	<user1></user1>			<!-- value to subtract from y-position of all tiles when scrolling off screen -->
+	<user2> &false; </user2><!-- visibility of locked message -->
+	<user3> 0 </user3>		<!-- X-value for left edge -->
+
+	<image name="hacking_background">
+		<id> &generic; </id>
+		<filename> Interface\Shared\Background\pipboy.dds </filename>
+		<target> &true; </target>
+		<width> <copy src="screen()" trait="width"/> </width>
+		<height> <copy src="screen()" trait="height"/> </height>
+		<zoom> &scale; </zoom>
+		<depth> 2 </depth>
+		<alpha> 255 </alpha>
+		<brightness> 90 </brightness>
+	</image>
+
+	<rect name="hacking_depth_rect">
+		<id> &glow_branch; </id>
+		<depth> 5 </depth>
+		<locus> &true; </locus>
+		<width> 920 </width>
+		<height> 630 </height>
+		<x> 32 </x>
+		<y>
+			<copy> 48 </copy>
+			<sub src="parent()" trait="user1"/>
+		</y>
+
+		<hotrect name="hacking_cursor">
+			<id> 4 </id>
+			<font> 3 </font>
+			<filename> solid.dds </filename>
+			<texatlas> Interface\InterfaceShared.tai </texatlas>
+			<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+			<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+			<height> 17 </height>
+			<width> 17 </width>
+			<_blink_interval> 400 </_blink_interval>	<!-- ms -->
+		</hotrect>
+
+		<rect name="hacking_intro_rect">
+			<id> 0 </id>
+			<visible> &true; </visible>
+			<locus> &true; </locus>
+			<width> <copy src="parent()" trait="width"/> </width>
+			<height> <copy src="parent()" trait="height"/> </height>
+		</rect>
+
+		<rect name="hacking_header_rect">
+			<id> 1 </id>
+			<visible> <not src="hacking_intro_rect" trait="visible"/> </visible>
+			<locus> &true; </locus>
+			<width> <copy src="parent()" trait="width"/> </width>
+			<height> 150 </height>
+
+			<user0> &false; </user0>	<!-- visiblity of guess blocks -->
+			<user1></user1>				<!-- starting x-pos of guess blocks -->
+			<user2></user2>				<!-- y-pos of guess blocks -->
+		</rect>
+
+		<rect name="hacking_password_file_rect">
+			<!-- Parent for hacking_password_file_template. -->
+			<id> 2 </id>
+			<visible> <not src="hacking_intro_rect" trait="visible"/> </visible>
+			<locus> &true; </locus>
+			<y>
+				<copy src="hacking_header_rect" trait="y"/>
+				<add src="hacking_header_rect" trait="height"/>
+			</y>
+			<width>
+				<copy src="me()" trait="_start_col2"/>
+				<add>
+					<copy> 19 </copy>	<!-- chars per col -->
+					<mult> 17 </mult>	<!-- char width -->
+				</add>
+			</width>
+			<height>
+				<copy> 17 </copy>
+				<mult> 28 </mult>
+			</height>
+
+			<user0></user0>		<!-- Floating text string -->
+			<user1>-1</user1>	<!-- Floating text x -->
+			<user2></user2>		<!-- Floating text y -->
+			<user3></user3>		<!-- Floating text2 string -->
+			<user4>-1</user4>	<!-- Floating text2 x -->
+			<user5></user5>		<!-- Floating text2 y -->
+
+			<_start_col2> 342 </_start_col2>
+
+			<hotrect name="hacking_floating_text_background">
+				<locus>&true;</locus>
+				<target> &false; </target>
+				<depth> -2 </depth>
+				<visible>
+					<copy src="me()" trait="x"/>
+					<gte> 0 </gte>
+				</visible>
+				<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+				<x> <copy src="parent()" trait="user1"/> </x>
+				<y>
+					<copy src="parent()" trait="user2"/>
+					<sub src="me()" trait="_offset"/>
+					<add> 6 </add>
+				</y>
+				<height> <copy src="child(hacking_floating_text)" trait="height"/> </height>
+				<width> <copy src="child(hacking_floating_text)" trait="width"/> </width>
+				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+				<_offset> 5 </_offset>
+				<filename> solid.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				
+				<text name="hacking_floating_text">
+					<font> 5 </font>
+					<depth> 4 </depth>
+					<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+					<string> <copy src="hacking_password_file_rect" trait="user0"/> </string>
+					<y> <copy src="parent()" trait="_offset"/> </y>
+					<brightness> &uselocalcolor; </brightness>
+					<red> 0 </red>
+					<green> 5 </green>
+					<blue> 0 </blue>
+				</text>
+			</hotrect>
+
+			<hotrect name="hacking_floating_text2_background">
+				<locus>&true;</locus>
+				<target> &false; </target>
+				<depth> <copy src="hacking_floating_text_background" trait="depth"/> </depth>
+				<visible>
+					<copy src="me()" trait="x"/>
+					<gte> 0 </gte>
+				</visible>
+				<alpha> <copy src="hacking_floating_text_background" trait="alpha"/> </alpha>
+				<x> <copy src="parent()" trait="user4"/> </x>
+				<y>
+					<copy src="parent()" trait="user5"/>
+					<sub src="me()" trait="_offset"/>
+					<add> 6 </add>
+				</y>
+				<height> <copy src="child(hacking_floating_text_2)" trait="height"/> </height>
+				<width> <copy src="child(hacking_floating_text_2)" trait="width"/> </width>
+				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+				<filename> solid.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<_offset> 5 </_offset>
+				<text name="hacking_floating_text_2">
+					<font> 5 </font>
+					<depth> 4 </depth>
+					<string> <copy src="hacking_password_file_rect" trait="user3"/> </string>
+					<y> <copy src="parent()" trait="_offset"/> </y>
+					<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+					<brightness> &uselocalcolor; </brightness>
+					<red> <copy src="hacking_floating_text" trait="red"/> </red>
+					<green> <copy src="hacking_floating_text" trait="green"/> </green>
+					<blue> <copy src="hacking_floating_text" trait="blue"/> </blue>
+				</text>
+			</hotrect>
+		</rect>
+
+		<rect name="hacking_password_log_rect">
+			<!-- Parent for hacking_password_log_template. -->
+			<id> 3 </id>
+			<visible> <not src="hacking_intro_rect" trait="visible"/> </visible>
+			<locus> &true; </locus>
+			<x>
+				<copy src="hacking_password_file_rect" trait="x"/>
+				<add src="hacking_password_file_rect" trait="width"/>
+			</x>
+			<y> <copy src="hacking_password_file_rect" trait="y"/> </y>
+			<width>
+				<copy src="parent()" trait="width"/>
+				<sub src="me()" trait="x"/>
+			</width>
+			<height> <copy src="hacking_password_file_rect" trait="height"/> </height>
+
+			<text name="hacking_password_prompt">
+				<font> 3 </font>
+				<string> <copy src="HackingMenu" trait="user0"/> </string>
+				<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+				<x> 17 </x>
+				<y>
+					<copy src="parent()" trait="height"/>
+					<sub src="me()" trait="height"/>
+					<add> 7 </add>
+				</y>
+			</text>
+
+			<text name="hacking_password_entry">
+				<id> 5 </id>
+				<font> 3 </font>
+				<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+				<x>
+					<copy src="sibling(hacking_password_prompt)" trait="x"/>
+					<add> 21 </add>
+				</x>
+				<y> <copy src="sibling(hacking_password_prompt)" trait="y"/> </y>
+			</text>
+		</rect>
+	</rect>		<!-- End depth rect -->
+
+	<rect name="hacking_locked_message_rect">
+		<depth> 5 </depth>
+		<locus> &true; </locus>
+		<visible> <copy src="parent()" trait="user2"/> </visible>
+		<width> <copy src="hacking_depth_rect" trait="width"/> </width>
+		<height> <copy src="hacking_depth_rect" trait="height"/> </height>
+
+		<text name="hacking_locked_message_text_1">
+			<id> 6 </id>
+			<font> 3 </font>
+			<string> &-sHackingLockout3; </string>
+			<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+			<x>
+				<copy src="parent()" trait="width"/>
+				<sub src="me()" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="parent()" trait="height"/>
+				<div> 2 </div>
+				<sub src="me()" trait="height"/>
+			</y>
+		</text>
+
+		<text name="hacking_locked_message_text_2">
+			<id> 7 </id>
+			<font> 3 </font>
+			<string> &-sHackingLockout4; </string>
+			<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+			<x>
+				<copy src="parent()" trait="width"/>
+				<sub src="me()" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="parent()" trait="height"/>
+				<div> 2 </div>
+				<add src="me()" trait="height"/>
+			</y>
+		</text>
+	</rect>
+	
+<!--=======================================================-->
+
+	<template name="hacking_password_file_template">
+		<!-- parent rect = hacking_password_file_rect -->
+		<hotrect name="hacking_password_file_target">
+			<id> &generic; </id>
+			<visible> &false; </visible>
+			<target> &true; </target>
+			<locus> &true; </locus>
+			<alpha> 0 </alpha>
+			<width> <copy src="child(hacking_password_file_row)" trait="width"/> </width>
+			<height> <copy src="child(hacking_password_file_row)" trait="height"/> </height>
+			<x>
+				<copy src="HackingMenu" trait="user3"/>	<!-- left edge -->
+				<add>
+					<copy src="parent()" trait="_start_col2"/>
+					<mult src="me()" trait="user0"/>
+				</add>
+			</x>
+			<y>
+				<copy src="me()" trait="height"/>
+				<mult src="me()" trait="listindex"/>
+			</y>
+			<user0></user0>		<!-- Which Column (0 or 1) -->
+
+			<xdefault> 2 </xdefault>
+			<repeathorizontal> &true; </repeathorizontal>
+			<repeatvertical> &true; </repeatvertical>
+
+			<text name="hacking_password_file_row">
+				<font> 5 </font>
+				<string> <copy src="parent()" trait="string"/> </string>
+				<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+				<y> 6 </y>
+			</text>
+		</hotrect>
+	</template>
+
+	<template name="hacking_password_log_template">
+		<!-- parent rect = hacking_password_log_rect -->
+		<text name="hacking_password_log_entry">
+			<font> 3 </font>
+			<visible>
+				<copy src="me()" trait="y"/>
+				<gte> 0 </gte>
+			</visible>
+			<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+			<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+			<x> <copy src="sibling(hacking_password_prompt)" trait="x"/> </x>
+			<y>
+				<copy src="parent()" trait="height"/>
+				<sub>
+					<copy src="me()" trait="height"/>
+					<mult>
+						<copy> 3 </copy>
+						<add src="me()" trait="listindex"/>
+					</mult>
+				</sub>
+				<add> 7 </add>
+			</y>
+		</text>
+	</template>
+
+	<template name="hacking_intro_template">
+		<!-- parent rect = hacking_intro_rect -->
+		<text name="hacking_intro_text">
+			<visible> &false; </visible>
+			<font> 3 </font>
+			<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+			<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+		</text>
+	</template>
+
+	<template name="hacking_guess_template">
+		<!-- parent rect = hacking_header_rect -->
+		<hotrect name="hacking_guess_block">
+			<visible> <copy src="parent()" trait="user0"/> </visible>
+			<x>
+				<copy src="parent()" trait="user1"/>
+				<add>
+					<copy src="me()" trait="listindex"/>
+					<mult> 2 </mult>
+					<add> 1 </add>
+					<mult src="me()" trait="width"/>
+				</add>
+			</x>
+			<y> <copy src="parent()" trait="user2"/> </y>
+			<height> 17 </height>
+			<width> 17 </width>
+			<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
+			<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
+			<filename> solid.dds </filename>
+			<texatlas> Interface\InterfaceShared.tai </texatlas>
+		</hotrect>
+	</template>
+</menu>
