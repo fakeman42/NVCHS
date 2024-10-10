@@ -1,0 +1,1796 @@
+AAD00100001	GREETING
+AAD00100002	Not now. Let's settle things here.
+AAD00100003	If we're done here, let's leave the Divide behind. If we get separated, I'll meet you above Hopeville, near the Canyon Wreckage.
+AAD00100004	<Grateful beeping>
+AAD00100005	Full circle, walked your road - now back again.
+AAD00100006	Something else in you needing an answer?
+AAD00100007	< Debug: Ulysses high level topics, do not translate. >
+AAD00100008	<Alarmed beeping> 
+AAD00100009	<Music>... RALPHIE... fly far, fly fast! 
+AAD00100010	<Excited beeping>
+AAD00100011	<Happy beeping>
+AAD00100012	 
+AAD00100013	 
+AAD00100014	PLAYER THROW GRENADE
+AAD00100015	Watch the blast!
+AAD00100016	Explosive!
+AAD00100017	PLAYER FIRE WEAPON
+AAD00100018	Clearing the chamber?
+AAD00100019	Better off saving ammo.
+AAD00100020	PLAYER LAY MINE
+AAD00100021	A tactic of the Bear.
+AAD00100022	Worthy of Hanlon.
+AAD00100023	PLAYER IN IRON SITES
+AAD00100024	Fire, and I won't take it lying down.
+AAD00100025	Better be sure.
+AAD00100026	Hello
+AAD00100027	Courier.
+AAD00100028	Goodbye.
+AAD00100029	The Divide belongs to history now. The Mojave awaits.
+AAD00100030	Nothing more to say. I'll be going.
+AAD00100031	<Happy beeping>
+AAD00100032	Attack
+AAD00100033	<Violent music>
+AAD00100034	
+AAD00100035	Let's see what you stand for.
+AAD00100036	The Divide'll be your grave.
+AAD00100037	Let's have an ending to this.
+AAD00100038	Hit
+AAD00100039	<Combat beeping>
+AAD00100040	<Grunt.>
+AAD00100041	<Grunt.>
+AAD00100042	Flee
+AAD00100043	<Scared beeping>
+AAD00100044	Need to get some distance.
+AAD00100045	Stronger than I thought.
+AAD00100046	Steal
+AAD00100047	Scavenger.
+AAD00100048	AcceptYield
+AAD00100049	<Triumphant beeping>
+AAD00100050	Watch yourself.
+AAD00100051	Next time, you won't get mercy.
+AAD00100052	Assault
+AAD00100053	<Aggressive music>
+AAD00100054	If that's what you wish.
+AAD00100055	Then let's settle this.
+AAD00100056	PowerAttack
+AAD00100057	
+AAD00100058	
+AAD00100059	FireExplosive
+AAD00100060	I'll answer fire with fire.
+AAD00100061	Gift from the Divide.
+AAD00100062	AvoidThreat
+AAD00100063	<Warning beeping>
+AAD00100064	Bombs won't save you.
+AAD00100065	Explosive!
+AAD00100066	StartCombat
+AAD00100067	<Combat music>
+AAD00100068	Got you.
+AAD00100069	End you.
+AAD00100070	Death
+AAD00100071	
+AAD00100072	
+AAD00100073	So it's to be my ending, then.
+AAD00100074	End of the road.
+AAD00100075	My flag rests here.
+AAD00100076	AlertToCombat
+AAD00100077	<Alert music>
+AAD00100078	Movement.
+AAD00100079	Found you.
+AAD00100080	There.
+AAD00100081	NormalToAlert
+AAD00100082	<Warning beeping>
+AAD00100083	Something nearby.
+AAD00100084	Hear something.
+AAD00100085	AlertToNormal
+AAD00100086	<Frustrated beeping>
+AAD00100087	Comes back, I'll be ready.
+AAD00100088	Courier'll show soon.
+AAD00100089	CombatToNormal
+AAD00100090	<Triumphant beeping>
+AAD00100091	Gone.
+AAD00100092	Must've took off. Won't leave - not yet.
+AAD00100093	CombatToLost
+AAD00100094	<Scanning beeping>
+AAD00100095	Must've taken cover.
+AAD00100096	Gone to ground.
+AAD00100097	LostToNormal
+AAD00100098	<Frustrated beeping>
+AAD00100099	Whatever it was, gone now.
+AAD00100100	Comes back, we'll deal with it then.
+AAD00100101	LostToCombat
+AAD00100102	<Alert music>
+AAD00100103	Won't lose you again.
+AAD00100104	Didn't walk through ash and hell to lose you now.
+AAD00100105	AlertIdle
+AAD00100106	<Curious beeping>
+AAD00100107	Something's here.
+AAD00100108	Checking for movement.
+AAD00100109	LostIdle
+AAD00100110	<Seeking beeping>
+AAD00100111	Don't see anything.
+AAD00100112	Can't be far.
+AAD00100113	DeathResponse
+AAD00100114	Wait here.
+AAD00100115	<Confirmatory beeping> 
+AAD00100116	<Follow Protocol::Wait>
+AAD00100117	Let's trade equipment.
+AAD00100118	<Confirmatory beeping> 
+AAD00100119	<Storage::Open>
+AAD00100120	Enough about tactics.
+AAD00100121	<Confirmatory beeping> 
+AAD00100122	<Tactics Interface::Close>
+AAD00100123	Keep your distance. Try to flank them.
+AAD00100124	<Confirmatory beeping> 
+AAD00100125	<Follow Distance::Far>
+AAD00100126	All right, you're good. Let's get out of here.
+AAD00100127	<Confirmatory beeping> 
+AAD00100128	<Control Interface::Close>
+AAD00100129	Your distance is good. Let's talk about something else.
+AAD00100130	<Confirmatory beeping> 
+AAD00100131	<Follow Distance Protocol::Close>
+AAD00100132	Stay close to me.
+AAD00100133	<Confirmatory beeping> 
+AAD00100134	<Follow Distance::Close>
+AAD00100135	Stick close to me.
+AAD00100136	Let's talk about how close you're following me.
+AAD00100137	<Confirmatory beeping> 
+AAD00100138	<Follow Distance Protocol::Open>
+AAD00100139	I want you to use ranged weapons.
+AAD00100140	<Confirmatory beeping> 
+AAD00100141	<Weapon Type::Ranged>
+AAD00100142	Switch to a melee weapon.
+AAD00100143	<Negatory beeping> 
+AAD00100144	<Weapon Type::Melee>
+AAD00100145	Let's talk about something else.
+AAD00100146	<Confirmatory beeping> 
+AAD00100147	<Tactics Interface::Close>
+AAD00100148	That's all. Let's get going.
+AAD00100149	<Confirmatory beeping> 
+AAD00100150	<Control Interface::Close>
+AAD00100151	I want you to change your combat style.
+AAD00100152	<Confirmatory beeping> 
+AAD00100153	<Combat Interface::Open>
+AAD00100154	Let's talk about your tactics.
+AAD00100155	<Confirmatory beeping> 
+AAD00100156	<Tactics Interface::Open>
+AAD00100157	Let's get going.
+AAD00100158	<Happy beeping> 
+AAD00100159	<Follow Protocol::Reinitiate>
+AAD00100160	It's time for us to part ways.
+AAD00100161	I think we should travel together.
+AAD00100162	<Happy beeping> 
+AAD00100163	FollowersHiredNo
+AAD00100164	StartCombatResponse
+AAD00100165	<Combat beeping>
+AAD00100166	Got you.
+AAD00100167	Let's end this.
+AAD00100168	End of the road.
+AAD00100169	We'll see what you stand for.
+AAD00100170	NormalToAlertResponse
+AAD00100171	On second thought, stick with me for a little longer.
+AAD00100172	Yes, I'm sure.
+AAD00100173	FollowersAcknowledgeMyOrder
+AAD00100174	<Confirmatory beeping> 
+AAD00100175	I want you not to attack enemies unless I've already engaged them.
+AAD00100176	<Confirmatory beeping> 
+AAD00100177	<Aggression Level::Passive>
+AAD00100178	I want you to attack enemies the moment you see them.
+AAD00100179	<Confirmatory beeping> 
+AAD00100180	<Aggression Level::Aggressive>
+AAD00100181	FollowersOverburdened
+AAD00100182	<Strained beeping> 
+AAD00100183	FollowersStealthing
+AAD00100184	<Sneaky beeping> 
+AAD00100185	<Stealth Protocol::Initiate>
+AAD00100186	The Divide couldn't stop me, the Mojave couldn't kill me - you don't have much chance.
+AAD00100187	I'll finish history's work. If the Divide couldn't kill you... perhaps these spears of the Old World can.
+AAD00100188	Let's end this, Courier, you and I. Here, with the Old World flag as witness.
+AAD00100189	NVDLC04UlyssesForceGreet
+AAD00100190	Even in this place, NCR's shadow falls. Or is it just, you, Courier, without the Bear's corpse to weigh you down.
+AAD00100191	So you came, Frumentarii, Courier - whatever you are now. Come to carry out Caesar's law? His voice carries no weight here.
+AAD00100192	Your city, Vegas, lies in the other direction... with the rest of its slaves. Or is it just, you, Courier, without the lights and ghosts.
+AAD00100193	So you came, Courier, to what - watch your homeland burn one last time. Kill me, perhaps.
+AAD00100194	Judging by your shadow... maybe you can't let your machine go. Doesn't matter now.
+AAD00100195	Either way, the Divide giants are awakening. The missiles here, on their way home. There is no way to stop them.
+AAD00100196	You are too late. The Divide is awakening - the package, and the message within, have come full circle.
+AAD00100197	The sequence has begun, just as before. Except this time, the missiles will touch the sky instead of being locked beneath the ground.
+AAD00100198	
+AAD00100199	Thought that explosion, that building falling deep in the Divide might have been your work... wouldn't kill you, maybe close.
+AAD00100200	Knew you'd survive... but no need to go any farther. You've brought me what I need - that machine with you, sealed in the Hopeville silo.
+AAD00100201	Needed someone to unlock it - bring it home. Now the signal's strong enough, no need for you to carry it anymore. I can call your machine to me.
+AAD00100202	
+AAD00100203	Hopeville, High Road, Ashton... tiny cracks in the Earth, nothing compared to the road carved ahead.
+AAD00100204	Before you... this is the edge of the Divide. Ahead lies your work, the history you burned in the earth. What you brought to the people here.
+AAD00100205	
+AAD00100206	There you are, you went quiet for a time... knew killing the Bear wouldn't prove easy... you and your machine, you survived.
+AAD00100207	There's a lesson here, in the Divide. Old World history about paving and intentions could teach the Republic a thing or two - if they listened.
+AAD00100208	They have an idea of trying to do what's right, never quite getting there. Maybe you've seen it - Nipton, elsewhere.
+AAD00100209	Picking up the signal from your machine... was quiet for a time, thought the Road had claimed another of the Legion.
+AAD00100210	Too many of the Bull have already fallen here... to radiation, fire... and what burrows below.
+AAD00100211	There you are, you went quiet for a time... thought you might have returned to Vegas, its comforts. Maybe you took that machine with you.
+AAD00100212	There's a lesson here, in the Divide. Old World history about holding on to something so tightly it breaks... or falls apart.
+AAD00100213	May have seen the cracks in Vegas's walls already. If so, they'll grow, in time, no matter how much you back House.
+AAD00100214	There you are, you went quiet for a time. Then that signal came in strong from your machine, like a heartbeat.
+AAD00100215	Made your way through Old World towns, the tunnels that join them... now, the High Road.
+AAD00100216	For all you've seen behind you - there's worse along this stretch. Deathclaws - hunt the Marked Men, and they also hunt what burrows below.
+AAD00100217	< Storage Node for Skill Checks. Do not Translate. > 
+AAD00100218	
+AAD00100219	There's your signal... faint, but there. Just like NCR - voice without fire, without strength, sick.
+AAD00100220	Heard tales of you walking the Mojave. Giving the two-headed bear strength. Giving hollow men like Kimball, like Crocker, half the life Hanlon had.
+AAD00100221	Now... let's test that strength. That... "conviction." Courier.
+AAD00100222	There's your signal... faint, but there. A woman in Caesar's service. Looks like the Bear has had its victory, after all.
+AAD00100223	There's your signal... faint, but there. Charging ahead, like the rest of our brothers, blood in your eyes.
+AAD00100224	Taking your chances, coming here. Just like bringing the lord of Vegas his tribute, bending your knee to Old World ghosts.
+AAD00100225	You and that Chip - deserve each other, twenty-nine less coins than other traitors have carried, if history's true.
+AAD00100226	Now see the road the Old World paves... and what the lights of New Vegas promise, if they haven't blinded your eyes.
+AAD00100227	There's your signal. Faint, but there. You came, good. Curious, maybe.
+AAD00100228	You walked the Mojave without a flag on your back. That'll end soon, can't walk the Long 15 and not have a nation's shadow fall on you.
+AAD00100229	Maybe you just need to be tested. Or you believe in nothing. We'll see.
+AAD00100230	< Storage Node. Do not translate. >
+AAD00100231	< Storage Node. Do not translate. >
+AAD00100232	
+AAD00100233	Experiment log 369248/A - Eyebot Duraframe universal interface override system. This is Dr. Whitley presiding.
+AAD00100234	Initial tests of the override system are promising. Against unsecured or lightly-encrypted targets, the Eyebots have a 98% success rate.
+AAD00100235	More heavily protected systems are still problematic. Military-grade encryption presents a very real possibility of critical overload of key systems.
+AAD00100236	We've stopped tests before any robots were destroyed, but if we don't address the problem our Eyebots will fry themselves hacking military networks.
+AAD00100237	
+AAD00100238	Next week on RALPHIE the Robot's Incredible Odyssey!
+AAD00100239	Tune in next Saturday for the exciting conclusion! Only on Vault-Tec Channel 9!
+AAD00100240	
+AAD00100241	Dad! Hey Dad! Check out this robot I found!
+AAD00100242	He's not dangerous! Look, he's hurt! Can we take him home, Dad? Maybe Mom can fix him!
+AAD00100243	Please? He looks so lonely! Maybe if Mom fixes him, he can help her out around the garage?
+AAD00100244	Yay! He'll be just like RALPHIE, only this one's not a toy!
+AAD00100245	
+AAD00100246	<Music, followed by gunshots.>
+AAD00100247	
+AAD00100248	Good, you're back on-line. Listen to me, ED-E - if you stay here, they'll dismantle you for parts. You have to go now.
+AAD00100249	I've uploaded destination coordinates for our outpost in Navarro into your system. I want you to go to the Enclave there, okay?
+AAD00100250	Do you understand me? It's going to be a long journey, my little friend. You'll have to fly very far, and fly very fast. Can you do that?
+AAD00100251	<Sad beeping>
+AAD00100252	I know you can. Be careful out there, ED-E. Maybe I'll see you again some day.
+AAD00100253	
+AAD00100254	All due respect sir, I think you're making a mistake. We're close to a breakthrough with the Duraframe Eyebots, I can feel it! Yes, sir.
+AAD00100255	Yes sir, I understand that we need the Duraframe assets for Hellfire armor, but-No, sir. Yes, sir. I understand, sir.
+AAD00100256	I'll tell the team to start disassembling the ED series prototypes right away.
+AAD00100257	ED-E, you little rascal. Were you eavesdropping again? I think those videos you watch are a bad influence on you. How much of that did you hear?
+AAD00100258	<Sad beeping>
+AAD00100259	Hmm... didn't Dr. Grant say she'd upgraded your navigational systems? I think I have an idea.... How'd you like to be just like RALPHIE?
+AAD00100260	
+AAD00100261	I don't believe it! Grant actually went to Colonel Autumn and got approval for her damned "efficiency guidelines!"
+AAD00100262	"All experiments will be carried out with the test subject fully active, to reduce iteration time." It's barbaric!
+AAD00100263	I've explained this to the Colonel - just because the Eyebots don't have true AI doesn't mean they're just machines.
+AAD00100264	I guess results are all that matter around here. Forget things like "ethical procedures" or "humane treatment."
+AAD00100265	I'm starting to have serious misgivings about leadership around here. At least I've got you to talk to, huh ED-E?
+AAD00100266	
+AAD00100267	Ah, Whitley, there you are. Orders from Colonel Autumn - he feels the Eyebot Duraframe project isn't advancing quickly enough. I'm to-
+AAD00100268	Don't be ridiculous, it's just a machine. See here, I've already increased the navigation system's efficiency by 65%.
+AAD00100269	Fine, Whitley, it's your lab. At least until I tell the Colonel about this.
+AAD00100270	
+AAD00100271	<Distressed beeping>
+AAD00100272	Dr. Grant? What the hell do you think you're doing?
+AAD00100273	You didn't even disengage his damage-avoidance protocols! You're hurting him!
+AAD00100274	Get the hell out of here!
+AAD00100275	
+AAD00100276	Experiment log 369248/B - Eyebot Duraframe universal interface override system. This is Dr. Whitley presiding.
+AAD00100277	We've boosted signal gain and enlarged the overflow buffer system. That should ensure 100% connectivity and control. ED-E, whenever you're ready.
+AAD00100278	<Electronic sounds>
+AAD00100279	Yes! Success! Um, reporting full success on 369248/B. ED-E was able to interface with and override the test panel in under three seconds.
+AAD00100280	Great job, team. Now, let's start on the proposal for the full rollout.
+AAD00100281	
+AAD00100282	<Scared beeping>
+AAD00100283	<Scared beeping>
+AAD00100284	<Scared beeping>
+AAD00100285	
+AAD00100286	<Excited beeping>
+AAD00100287	<Excited beeping>
+AAD00100288	<Excited beeping>
+AAD00100289	
+AAD00100290	<Sad beeping>
+AAD00100291	<Sad beeping>
+AAD00100292	<Sad beeping>
+AAD00100293	
+AAD00100294	<Happy beeping>
+AAD00100295	<Happy beeping>
+AAD00100296	<Happy beeping>
+AAD00100297	
+AAD00100298	 
+AAD00100299	Okay, if you don't want to tell me, just say so.
+AAD00100300	<Apologetic beeping>
+AAD00100301	Yes, I'm sure I heard it. Did something knock your memory modules loose?
+AAD00100302	No, it wasn't your boot-up sequence, it was a recording. Something about someone called RALPHIE.
+AAD00100303	<Evasive beeping>
+AAD00100304	What was that sound you played? Some kind of memory glitch?
+AAD00100305	<Confused beeping>
+AAD00100306	
+AAD00100307	Careful, Tommy - I've never seen a robot like that before. It might be dangerous. 
+AAD00100308	I don't know, son... what if someone comes looking for it? 
+AAD00100309	All right, boy. But if he breaks anything, it's coming out of your allowance! 
+AAD00100310	Yes, ED-E, I'm sure you didn't make the entire trip in one go. It's still impressive.
+AAD00100311	<Proud beeping>
+AAD00100312	No, ED-E, I don't want to hear your recordings of "human mating calls." That's just... wrong.
+AAD00100313	<Coy beeping>
+AAD00100314	Really? Well, I'd better be careful what I say to you, huh?
+AAD00100315	<Reassuring beeping>
+AAD00100316	Let's get going.
+AAD00100317	I think I would have liked him.
+AAD00100318	<Happy beeping>
+AAD00100319	He should have obeyed orders. Without respect for the chain of command, the whole unit falls apart.
+AAD00100320	<Sad beeping>
+AAD00100321	Yeah, I'm beginning to see where you get it from.
+AAD00100322	<Proud beeping>
+AAD00100323	Better you than me. Let's do this.
+AAD00100324	No, ED-E, I won't let you sacrifice yourself like this. There has to be another way!
+AAD00100325	<Sad beeping>
+AAD00100326	Are you... are you saying you can stop this missile?
+AAD00100327	<Confirmatory beeping>
+AAD00100328	Come on, ED-E, let's go.
+AAD00100329	<Happy beeping>
+AAD00100330	Sounds like that kid was pretty fond of you. Why did you leave?
+AAD00100331	<Wistful beeping>
+AAD00100332	Where did this happen?
+AAD00100333	<Happy beeping>
+AAD00100334	No time to talk - I don't like the look of this place, we should keep moving.
+AAD00100335	<Scared beeping>
+AAD00100336	<Happy beeping>
+AAD00100337	Thanks, ED-E. Let's keep going.
+AAD00100338	That sounded bad.
+AAD00100339	<Scared beeping>
+AAD00100340	What was that?
+AAD00100341	<Pained beeping>
+AAD00100342	Come on, we need to keep going.
+AAD00100343	<Happy beeping>
+AAD00100344	Whitley turned you loose all on your own? That must have been scary.
+AAD00100345	<Sad beeping>
+AAD00100346	
+AAD00100347	[SUCCEEDED] <Scared beeping>
+AAD00100348	So you're trying to get all the way to Navarro? Isn't that in NCR territory?
+AAD00100349	[FAILED] <Expository beeping>
+AAD00100350	Oh... right. Navarro. That... sure is far? From where you started?
+AAD00100351	I guess Whitley found a way to keep you from being scrapped. Let's keep going.
+AAD00100352	<Happy beeping>
+AAD00100353	Do you record everything that's said around you?
+AAD00100354	<Sly beeping>
+AAD00100355	Sounds like Dr. Whitley was a bit of a rogue element.
+AAD00100356	<Happy beeping>
+AAD00100357	Wow, do you kiss your mother with that mouth?
+AAD00100358	<Embarassed beeping>
+AAD00100359	You don't have to tell me. I would have beat the crap out of her.
+AAD00100360	<Satisfied beeping>
+AAD00100361	RALPHIE who? You're still not making sense, ED-E.
+AAD00100362	<Evasive beeping>
+AAD00100363	Who the hell is "General Winters?" The recording mentioned a Colonel Autumn.
+AAD00100364	<Lonely beeping>
+AAD00100365	That's a terrible story, ED-E, but we should get moving.
+AAD00100366	<Sad beeping>
+AAD00100367	Dr. Grant sounds like a war crime waiting to happen.
+AAD00100368	<Angry beeping>
+AAD00100369	It sounds like Dr. Whitley really cared about you.
+AAD00100370	<Sad beeping>
+AAD00100371	All right, let's keep moving.
+AAD00100372	Maybe you'll see him again someday.
+AAD00100373	<Happy beeping>
+AAD00100374	Well, I'm sure he's fine. Wherever he is.
+AAD00100375	<Happy beeping>
+AAD00100376	Well, it might be enough to get us through this silo.
+AAD00100377	<Happy beeping>
+AAD00100378	Only panels with a dish-shaped receiver? The console in the main room had one of those, I think.
+AAD00100379	<Happy beeping>
+AAD00100380	That's fascinating. Let's keep going.
+AAD00100381	<Happy beeping>
+AAD00100382	Was that the voice of your creator? What happened to him?
+AAD00100383	<Expository beeping>
+AAD00100384	That's a recording from your development - are you saying you can override electronic security?
+AAD00100385	<Expository beeping>
+AAD00100386	I think I could use your help getting out of here. Can you come with me?
+AAD00100387	ED-E? What are you doing here?
+AAD00100388	<Expository beeping>
+AAD00100389	<Expository beeping>
+AAD00100390	What's an Eyebot doing here?
+AAD00100391	
+AAD00100392	[FAILED] <Worried beeping>
+AAD00100393	It could be one of those robo-viruses. You might be contagious - stay away from other computers.
+AAD00100394	[SUCCEEDED] <Happy beeping>
+AAD00100395	Probably just some old data floating around in your memory. Nothing to worry about.
+AAD00100396	I hope those bastards got what was coming to them.
+AAD00100397	<Sad beeping>
+AAD00100398	I can see why you left that place, then.
+AAD00100399	<Wistful beeping>
+AAD00100400	He must have tried to change things. He doesn't seem like the type to let that slide.
+AAD00100401	<Wistful beeping>
+AAD00100402	He sounds more like a father than an inventor in these logs.
+AAD00100403	<Happy beeping>
+AAD00100404	Let's press on. We've got a lot of ground to cover.
+AAD00100405	<Happy beeping>
+AAD00100406	I can't believe they'd approve that. I've met enough robots to know they're more than just machines.
+AAD00100407	<Pained beeping>
+AAD00100408	Whitley was really protective of his Eyebots, huh?
+AAD00100409	<Happy beeping>
+AAD00100410	Never mind.
+AAD00100411	<Happy beeping>
+AAD00100412	There are more robots like you? With the same memory and everything? Interesting....
+AAD00100413	This silo must have some pretty advanced engineering facilities to remote-scan you and build copies.
+AAD00100414	[SUCCEEDED] <Confirmatory beeping>
+AAD00100415	[FAILED] <Negatory beeping>
+AAD00100416	So you're some kind of... robot clone?
+AAD00100417	You're a copy? Made by the military bases in the Divide? Weird.
+AAD00100418	<Declarative beeping>
+AAD00100419	Slow down, slow down - what do you mean you're not the ED-E I know?
+AAD00100420	<Explanatory beeping>
+AAD00100421	
+AAD00100422	ED-E? What are you doing in here all alone? And who left these old videos playing? Come on, let's get you into your recharge bay.
+AAD00100423	We've got a big day tomorrow.
+AAD00100424	
+AAD00100425	<Dramatic music>
+AAD00100426	Forget it. The Legion has this coming.
+AAD00100427	I don't care! I'll just change the missile's target myself. I never liked the NCR anyways.
+AAD00100428	<Resigned beeping>
+AAD00100429	If... if you're really sure you want this, okay. Go ahead and stop the missile. And... goodbye.
+AAD00100430	<Determined beeping>
+AAD00100431	Are you sure this is the only way to stop the missile from launching?
+AAD00100432	<Confirmatory beeping>
+AAD00100433	It looks like I can still choose the missile's actual target. Maybe we can work with that.
+AAD00100434	<Negatory beeping>
+AAD00100435	But the log said that this kind of encryption would kill you!
+AAD00100436	<Sad beeping>
+AAD00100437	What's a Chicago?
+AAD00100438	<Expository beeping>
+AAD00100439	Illinois? So that's where you got that plate. The other you, I mean.
+AAD00100440	<Happy beeping>
+AAD00100441	<Happy beeping>
+AAD00100442	Illin-what? Come on, you're making that name up.
+AAD00100443	Was it worth it? You still haven't made it to Navarro yet.
+AAD00100444	<Determined beeping>
+AAD00100445	You gave that up to continue Whitley's mission?
+AAD00100446	<Proud beeping>
+AAD00100447	
+AAD00100448	[SUCCEEDED] <Happy beeping>
+AAD00100449	Sounds like they blew out your primary stabilizing jets. I can't believe you kept going after that.
+AAD00100450	[FAILED] <Sad beeping>
+AAD00100451	That bullet probably did something bad.
+AAD00100452	No wonder you didn't make it all the way to Navarro.
+AAD00100453	<Sad beeping>
+AAD00100454	You're lucky you got away from them. They would have sold you for scrap in a heartbeat.
+AAD00100455	<Happy beeping>
+AAD00100456	Raiders, huh? Amateurs. I'd have tracked you down and salvaged you for scrap.
+AAD00100457	<Scared beeping>
+AAD00100458	I bet Whitley would be proud of you for making it this far.
+AAD00100459	<Happy beeping>
+AAD00100460	It sounds like it wasn't easy for him, either.
+AAD00100461	<Sad beeping>
+AAD00100462	I'm amazed you didn't break down somewhere along the way.
+AAD00100463	<Sad beeping>
+AAD00100464	NVDLC04EndingSlideFinale
+AAD00100465	And this road - has reached its end.
+AAD00100466	NVDLC04EndingSlideStart
+AAD00100467	The Couriers finally, really did it. They blew up the lands West and East of the Mojave... damning them all to hell.
+AAD00100468	The act was discovered 200 years later, as other Couriers explored the Mojave wastes.
+AAD00100469	There, they saw NCR relics, reminders of their once proud history.
+AAD00100470	The Divide erupted in fire, violent, red, as the last message of the two Couriers arced into the sky...
+AAD00100471	The missiles rained like spears down on the land, burning flags and communities alike... destroying all they struck.
+AAD00100472	The history of the West was erased for the second time, thorough and complete... and America slept once more.
+AAD00100473	The Divide erupted in fire as the flame trail of the two Couriers' last message arced into the sky...
+AAD00100474	I'm running low on Small Energy Cells. Can you make me more?
+AAD00100475	<Happy beeping>
+AAD00100476	I need some Microfusion Cells. Can you make some?
+AAD00100477	<Happy beeping>
+AAD00100478	Can you repair my weapon?
+AAD00100479	<Happy beeping>
+AAD00100480	Let me access your multitools. I want to make something.
+AAD00100481	<Confirmatory beeping>
+AAD00100482	I'd like to make some ammo. Can you help me?
+AAD00100483	<Confirmatory beeping>
+AAD00100484	Sometimes I feel the same way. Why do you think I became a courier?
+AAD00100485	<Melancholy beeping>
+AAD00100486	Don't worry, I won't let any mean old generals get you.
+AAD00100487	<Happy beeping>
+AAD00100488	I'll do whatever I can to help you get home - after we deal with things here.
+AAD00100489	<Hopeful beeping>
+AAD00100490	Yes, ED-E, I'm sure RALPHIE the Robot would be very proud of you.
+AAD00100491	<Ecstatic beeping>
+AAD00100492	Come on, ED-E. We've got to fly far and fly fast if we want to get to the end of the Divide.
+AAD00100493	<Determined beeping>
+AAD00100494	<Happy beeping>
+AAD00100495	Come on, ED-E. Time to move on.
+AAD00100496	Is that what you're doing? Trying to find your way home?
+AAD00100497	<Wistful beeping>
+AAD00100498	Suddenly a lot of things make more sense.
+AAD00100499	<Happy beeping>
+AAD00100500	
+AAD00100501	<Frightened beeping>
+AAD00100502	
+AAD00100503	RALPHIE, hurry! If mean old General Winters catches you, you'll never make it home! 
+AAD00100504	No! RALPHIE, fly far! Fly fast! 
+AAD00100505	But why would he do that? It wasn't to lure me here, Ulysses already knew I was coming.
+AAD00100506	<Worried beeping>
+AAD00100507	An override frequency? So, what, Ulysses just... called you here?
+AAD00100508	<Confused beeping>
+AAD00100509	Of course I came after you. I wasn't going to leave you behind.
+AAD00100510	<Happy beeping>
+AAD00100511	What happened? You just took off like you finally found home.
+AAD00100512	<Sad beeping>
+AAD00100513	Whatever he's planning, Ulysses obviously wants you there. Come on - I'd hate to disappoint him.
+AAD00100514	You're at the mercy of your programming, I get it. It's not your fault. Now, are you ready to go?
+AAD00100515	Okay, well, don't do it again. Come on, let's go.
+AAD00100516	Come on. We're ending this. Right now.
+AAD00100517	<Determined beeping>
+AAD00100518	
+AAD00100519	[SUCCEEDED] <Sad beeping>
+AAD00100520	Must have been an override function piggybacked on that broadcast. That's what pulled you here.
+AAD00100521	[FAILED] <Worried beeping>
+AAD00100522	You just heard that signal and flew off. Are you catching the robot crazies or something?
+AAD00100523	Are you okay?
+AAD00100524	<Confirmatory beeping>
+AAD00100525	What the hell happened? You just ran off on me.
+AAD00100526	<Apologetic beeping>
+AAD00100527	Play me the trailer for RALPHIE the Robot's Incredible Odyssey.
+AAD00100528	I liked the one where the little kid found you.
+AAD00100529	Let's hear the one where you were attacked by raiders.
+AAD00100530	I want to hear the recording of when Whitley sent you on your journey.
+AAD00100531	Play me Whitley's phone call with Colonel Autumn.
+AAD00100532	Let's hear the log where Whitley talks about Colonel Autumn's plans.
+AAD00100533	How about the one where Dr. Whitley yelled at Dr. Grant?
+AAD00100534	Play the log about your ability to crack encrypted systems.
+AAD00100535	I'd like you to replay one of those audio logs.
+AAD00100536	<Inquisitive beeping>
+AAD00100537	NVDLC04NCRHolotape03
+AAD00100538	Mayday, mayday, mayday! This is NCR Trooper Gleeson calling anyone listening on this channel.
+AAD00100539	My platoon has been wiped out, and I am pinned down by a goddamn huge Deathclaw in a place called the Divide!
+AAD00100540	So far I've been able to scare it away with flares, but I lack any explosives to kill the damn thing! Please assist! I say again, please assist!
+AAD00100541	Mayday, mayday, mayday! This is NCR Trooper Gleeson calling anyone listening on this channel.
+AAD00100542	NVDLC04UlyssesCombatMarkedMenAllDead
+AAD00100543	No more echoes of the Bull and the Bear. The rest will share their fate.
+AAD00100544	NVDLC04UlyssesCombatEyebotsAllDestroyed
+AAD00100545	Didn't think you'd outlast the machines. Good.
+AAD00100546	NVDLC04UlyssesCombatMarkedMenEnter
+AAD00100547	The dead men of the New World... they've come for you.
+AAD00100548	NVDLC04UlyssesCombatEyebotsHostile01
+AAD00100549	Took my machines? Hnh. Underestimated you.
+AAD00100550	NVDLC04UlyssesCombatEyebotsDisabled01
+AAD00100551	Just you and me, then. Always was.
+AAD00100552	NVDLC04UlyssesCombatEyebotsHostile02
+AAD00100553	Machines might keep you alive, but they won't save you.
+AAD00100554	NVDLC04UlyssesCombatEyebotsDisabled02
+AAD00100555	Can't stop the Old World's return, Courier.
+AAD00100556	NVDLC04UlyssesFriendMarkedMenHalfDead
+AAD00100557	We've shown them fear, but not enough. More will come.
+AAD00100558	NVDLC04UlyssesFriendMMUsesStealthboy
+AAD00100559	Watch the shadows - the beasts cloak themselves in Old World tech.
+AAD00100560	NVDLC04UlyssesFriendMarkedMenAllDead
+AAD00100561	We've broken them. The Bear and the Bull have no more shadows to throw at us.
+AAD00100562	NVDLC04UlyssesFriendSentryDies02
+AAD00100563	Old World's running out of machines.
+AAD00100564	NVDLC04UlyssesFriendSentryDies01
+AAD00100565	Another Old World soldier falls.
+AAD00100566	NVDLC04UlyssesFriendTaunt03
+AAD00100567	You have forgotten all you were, traded glory for savagery. Fitting.
+AAD00100568	NVDLC04UlyssesFriendTaunt02
+AAD00100569	Mercy killings - let them rest.
+AAD00100570	NVDLC04UlyssesFriendTaunt01
+AAD00100571	Beasts from the Divide. To the Divide, they return.
+AAD00100572	NVDLC04UlyssesFriendMMWithSatchelCharge
+AAD00100573	Watch the floor. Mines. Tactics of the Bear.
+AAD00100574	NVDLC04UlyssesFriendMarkedMenEnter
+AAD00100575	They come for us,  East and West alike.
+AAD00100576	NVDLC04UlyssesCombatTaunt03
+AAD00100577	Running out of time, Courier.
+AAD00100578	NVDLC04UlyssesCombatTaunt02
+AAD00100579	Come all this way - to die alone.
+AAD00100580	NVDLC04UlyssesCombatTaunt01
+AAD00100581	I'll end you - and your history.
+AAD00100582	NVDLC04UlyssesCombatMarkedMenKilled02
+AAD00100583	Killing them is mercy.
+AAD00100584	NVDLC04UlyssesCombatEyebotDestroyed02
+AAD00100585	Don't need Old World medicine to kill you.
+AAD00100586	NVDLC04UlyssesCombatMarkedMenKilled01
+AAD00100587	Kill as many as you want - the Divide will birth more.
+AAD00100588	NVDLC04UlyssesCombatEyebotDestroyed01
+AAD00100589	Destroying my machines won't help you. This facility will make more.
+AAD00100590	How are you speaking through ED-E?
+AAD00100591	The idea of a machine bearing a message new to you? Thought that was how House relayed all his messages... through his robots.
+AAD00100592	The machine... the robot. No, not Legion... less history than that.
+AAD00100593	Last I heard, Legion didn't use machines as mouthpieces to hide from their enemy.
+AAD00100594	The robot with you... all of them are machines - radios, Old World tech reshaped with new hands. Historians. Couriers, carrying messages.
+AAD00100595	Seen them as I've walked the Divide, tending other machines. That one... sealed inside the Hopeville silo. Sign America is waking up.
+AAD00100596	It will follow you, obey you. Carry it until we are face to face, then there'll be no more need for it to carry my words.
+AAD00100597	Maybe you better tell me who you are, and what you want.
+AAD00100598	I'm a courier. Courier Six... was Courier Six. Like you - and not like you, in all the ways that matter.
+AAD00100599	Spent too many years looking for you - now, letting you come to me.
+AAD00100600	Thought carrying that Chip would end you, no... you got lives in you, hard to kill. Storms, bullets... sand and wind, yet still you walk. For now.
+AAD00100601	Enough talking. You went to a lot of trouble to lure me here, so let's get on with this.
+AAD00100602	America sleeps ahead of you, its nightmares filled with quakes, storms. You'll need to find your own path.
+AAD00100603	That means waking America's spears up from their slumber. There's ways - warheads set off the collapse, warheads could open the gates again.
+AAD00100604	You're resourceful. That machine, robot with you - can help you find the warheads you need to destroy... and their trigger, the detonator.
+AAD00100605	The way ahead is below. The tools are there. The rest - up to you.
+AAD00100606	Those... troops, NCR or Legion, the ones in the silo were already dead.
+AAD00100607	Are those the bodies I saw in the silo? The soldiers that look like they'd been flayed?
+AAD00100608	If you saw their corpses, you saw mercy. Got what they deserved, coming to the Divide.
+AAD00100609	The Bear and Bull - NCR, Legion - came in waves. Before. And after. Right into the invisible fires... the wind, ground... collapsing beneath them.
+AAD00100610	Once under different flags, now they are equal in their hatred of the trespassers. You and I.
+AAD00100611	What is this place?
+AAD00100612	The Divide... this place is a slice of it. Old military. Can still smell the pride - and the fear.
+AAD00100613	Hope of the Old World, wrapped in fencing, covered in storm. Got new inhabitants now other than ghosts, more recent... recruits.
+AAD00100614	Fine. I'll find this trigger - then I'll come find you.
+AAD00100615	The Divide will send its worst against you - it may break you. We'll see if you're stronger.
+AAD00100616	Road gets rougher from here... Courier. Left marks for you, colors'll tell the way - if you're smart.
+AAD00100617	They'll lead you to your home one more time, lead to the ending of it - maybe remind you why you wander.
+AAD00100618	I'm not planning to go into the Divide after you.
+AAD00100619	No Courier would go to the Divide... but you will. And that's what sets us apart - we walk roads no other Courier will walk.
+AAD00100620	And for you... you'll want to see your home one last time, see what happened.
+AAD00100621	You're curious. You walk, leave ruin in your path... you can't leave alone. Still, the choice is yours... what I offer, it's the last I offer you.
+AAD00100622	I don't care if you walk the Divide. Turn, walk the Mojave, fight beneath the flags... but you'll wonder.
+AAD00100623	If you don't, the Divide will come to you, and the Mojave. That will be my message to you, like the message you had for me.
+AAD00100624	You think I'm coming after you? Think again.
+AAD00100625	The Long 15 is no more. The main supply line into NCR is cut.
+AAD00100626	No damage done, not yet. Maybe in years. Keeps the Bear fenced... if Caesar can't drive it back, fire might.
+AAD00100627	Only delays the end for the Bull, a new wall for them to scale and cross... once they're done with the Mojave. And Hoover Dam.
+AAD00100628	Never again do you or any other courier and caravan need walk that route. Let the Mojave breathe without that asphalt scar raking it.
+AAD00100629	Dry Wells is destroyed - that was your birthplace?
+AAD00100630	No, opposite of that. It's where my tribe was taken. Where another history was put to the blade, lesson taught.
+AAD00100631	It is where we realized Vulpes did not approach us as equals. Where we realized the wolf had come, and we watched our history die.
+AAD00100632	Now it belongs to Legion... and all the death there now belongs to them as well. Not revenge... just the way of things when you own them.
+AAD00100633	I wanted to hear more about Hoover Dam.
+AAD00100634	Old World wall, run red with blood of Bear and Bull. It'll bleed more before the sun sets on the Mojave.
+AAD00100635	That place and I have a past, owe it a debt - and it owes me. If your path takes you there, know you're not the only one.
+AAD00100636	It's the wall by which this age will be measured, the gravestone of the Mojave. Old World never meant it as such.
+AAD00100637	What are you doing here?
+AAD00100638	A question one could have asked you not long ago, before walking the road West into the storms.
+AAD00100639	Need to be here, see what was done. It's custom of the Bear to never see the marks it claws in the land... not my custom.
+AAD00100640	Maybe that's why you've come, too - need to see where the missile from Ashton touched ground down below, in Hopeville... the Courier's Mile.
+AAD00100641	Need to be here, see what was done. In the Divide, in Hopeville... the Courier's Mile.
+AAD00100642	Can you tell me again what you're doing here?
+AAD00100643	Was hoping you could help me shape something.
+AAD00100644	Let's see what gifts the Mojave has for us.
+AAD00100645	Let's make something new from the old.
+AAD00100646	Forget this. I'm going to teach you what crossing the wrong Courier means.
+AAD00100647	I've never seen creatures like that before now.
+AAD00100648	What did you mean, "slower death for the Mojave?"
+AAD00100649	[SUCCEEDED] Death'll come from below. In the Divide, need to watch the sky and ground... Mojave'll be easy prey for them.
+AAD00100650	When you say, "slower death for the Mojave," you mean they're spreading out from the Divide.
+AAD00100651	[FAILED] Mojave needs to survive itself first... does that, Tunnelers will be next on the list.
+AAD00100652	If this is the High Road... where does it lead?
+AAD00100653	At the end of the High Road lies Ashton - its silo.
+AAD00100654	That machine with you, it can open it, wake it up, like it did the one in Hopeville.
+AAD00100655	Some of the flayed Hopeville soldiers looked like NCR... but fought beside others in Legion armor.
+AAD00100656	You see true. Not scavengers... it's what they wore before this all happened.
+AAD00100657	[NCR] Those soldiers in Hopeville... were once NCR, I'm sure of it. Why were they with the Legion?
+AAD00100658	Pain makes for strange allies... the hate the Bear and Bull shared across the battlefield, now turned against the Divide. Few survived... intact.
+AAD00100659	Many NCR were already here when the destruction happened. Keeping the route East open, in fear of Caesar. Fear of the Legion.
+AAD00100660	Those Marked Men in Hopeville - some had strange masks and blades I'd never seen before.
+AAD00100661	You haven't seen enough of the Legion yet to see what they worship... what they hold on to, even after what happened to them.
+AAD00100662	[Legion] Those Legionnaires in Hopeville wore Legion armor - and strange masks and blades.
+AAD00100663	They bear false versions of Legate Lanius' mask, the one Caesar fashioned for him. Thought it was an insult at first.... know better now.
+AAD00100664	It's shaped from Divide metal, not with care and strength, but with hate. Keeps them anchored.
+AAD00100665	Crude, effective - like the blades they carry, distant mirrors of their Legate. A symbol they can hold on to - while the Divide tears at them.
+AAD00100666	What were the creatures in the underpass?
+AAD00100667	Tunnelers. Predators that make their own roads beneath the ground here.
+AAD00100668	Divide broke their sky, showed them the world above - and the scent of new prey.
+AAD00100669	Be a slower death for the Mojave than bombs and fire... but they'll come for its people, from where they least expect - below.
+AAD00100670	Enough of this. Tell me where you are.
+AAD00100671	What happened here?
+AAD00100672	You delivered a package. Had markings that matched those in the Divide. Not all... but enough.
+AAD00100673	Military markings, from some place the Bear had savaged in the West. Maybe seeing those markings on it reminded you of home... made you carry it.
+AAD00100674	This canyon is miles long - maybe longer. Where can I find you?
+AAD00100675	At the end of the Divide, through the trenches and wreckage - that's where you'll find me. My new home, here, amongst dead men.
+AAD00100676	You and that machine, keep your eyes on the tower that cuts the horizon... you'll find your way. Made it this far... not much farther to go.
+AAD00100677	I'm not interested in talking - only getting through this.
+AAD00100678	NVDLC04UlyssesBigMT1HolotapeNote
+AAD00100679	...back again. Left that crater behind. Got a few holotapes left, ones from the medical center.
+AAD00100680	The woman... she fixed the recorder. Said it wouldn't last, repayment for me fixing her. She doesn't like debts, can respect that.
+AAD00100681	Payment enough, just to hear someone who believes in the Brotherhood of Steel. Not Elijah. Different view. Same madness.
+AAD00100682	She answered me on their philosophy, their way of seeing - the roads they walk. Dead-ends. Empty... as if technology can solve anything.
+AAD00100683	Big Empty's proof where that road leads. Just like the Divide, and all the roads that lead to it.
+AAD00100684	NVDLC04UlyssesWhiteLegs2HolotapeNote
+AAD00100685	I walked the Great Salt Lake as Caesar's eye, then his hand.
+AAD00100686	Mongrels there, two-legs and four. Saw the walls of New Canaan the scavengers circled... hadn't the strength or fire to take. Too high, too strong.
+AAD00100687	White Legs, they were born for war, they run to it, hungry for battle... yet their hunger is to be a part of history, something larger.
+AAD00100688	Like the Legion. As always, brought them a message - from Caesar.
+AAD00100689	If New Canaan burns, Caesar might see them. "Might." Even the chance was a lie.
+AAD00100690	To honor Caesar - destroy the history of New Canaan, and the way they carry it - in their generations and family.
+AAD00100691	Caesar respects such strength, I told them. That - that was truth, even if "strength" wasn't the word. Obedience.
+AAD00100692	You must be willing to kill anyone, children, mothers, the weak, elders... if these New Canaanites value the generations, that is what you must kill.
+AAD00100693	It was like Vulpes was speaking through me. Use the night, silence, and fire to change their words to pleas, to screams.
+AAD00100694	No need for bombs when hate will do.
+AAD00100695	I... asked the White Legs to destroy a people with ancestry, going back thousands of years - another death of history, lost to time.
+AAD00100696	The New Canaanites... they supplied medicine. Food, traded with others. Civilization, a hand from the past, not history...
+AAD00100697	...but maybe a past deeper, farther than that to a place where this... God really exists.
+AAD00100698	If so, his handiwork and people belong elsewhere, not in this place. Another symbol, like Bear and Bull, with no meaning in the present.
+AAD00100699	NVDLC04UlyssesWhiteLegs1HolotapeNote
+AAD00100700	Emptiness here - like the sands of the Great Salt Lake, echoed. The beating in the Divide sky... like storm drums of the White Legs.
+AAD00100701	Ran with them on the salt beds, at Caesar's command - cut the throats of the two-headed Bear, cut all communities off.
+AAD00100702	Use storm, sky. Disease. Fire, starvation... and the violence of the ignorant to ruin all who could... might stand against him.
+AAD00100703	But the White Legs... they couldn't live on their own, like most scavengers. So gave them purpose - turned their hunger into a weapon.
+AAD00100704	The wall of New Canaan... too high for Caesar. Too proud, maybe - or maybe something there, from his past, that needed killing. Memory of Graham.
+AAD00100705	Helped them dig out Canaan supply caches, and other secrets the sands hid - bunkers, filled with powered weapons even the Brotherhood might desire.
+AAD00100706	They called these new weapons "storm drums" in the firing of shells. Taught them the power in the casings... to channel the spirits in their guns.
+AAD00100707	Me... they called me the Flag-Bearer. Glory in my hand, in my staff that still bore the weight of the Old World just as the symbol on my back did.
+AAD00100708	I learned their weapons as a means of respect. And when it came their turn to pay respect to me... history came rushing back.
+AAD00100709	Can't escape what's been done. History's there... no matter how far you walk.
+AAD00100710	NVDLC04UlyssesBigMT3HolotapeNote
+AAD00100711	Have you ever wanted to speak to history - just to know the why of it? I don't. Not any longer.
+AAD00100712	There's old stories about gods and men, past history, into myth - where the gods, they're like children... petulant, cruel.
+AAD00100713	Those were the voices of the Big Empty, the past. Couldn't leave well enough alone, had to ask. Had to ask the why of it.
+AAD00100714	Their answers were madness. And power, stronger than me, would take a hundred Elijahs... someone tougher than him or I to best them in their Dome.
+AAD00100715	They didn't know why they were there, what had led to that point, their names - like serpents devouring themselves, cannibalizing their own thoughts.
+AAD00100716	When all seemed lost, thought it was the end - my anger gave me strength to ask them my last question.
+AAD00100717	"Who are you, that do not know your history?"
+AAD00100718	And they awoke. For... a short time.
+AAD00100719	The flag you wear, they said. We remember. America.
+AAD00100720	It wasn't just a flag to them... it was a place, an idea they had cared for. Once.
+AAD00100721	They told me what it was like to grow in that world... all they had done to lift it up... protect it. They... didn't know it was gone, that...
+AAD00100722	...yet they had cared once. Before forgetting their history.
+AAD00100723	As they were talking... kept seeing the Courier's shadow behind them, giving each their words weight. History cast aside... a home, left behind.
+AAD00100724	I listened. I asked. Was there anything left? Anything that still carries America's voice?
+AAD00100725	And they told me I had already been there. I and one other, walking right out of history deeper than we knew.
+AAD00100726	They told me what lies in the heart of the Divide, what can be found there. And the words to awaken it - and the one to speak them.
+AAD00100727	NVDLC04UlyssesBigMT2HolotapeNote
+AAD00100728	Big Empty - there's something hidden there, a crater, past wind and sand - so deep in the desert, there's no turning back.
+AAD00100729	Finding the crater was an accident, was following the weather patterns - the Divide sky torn like that, man's violence, not nature's.
+AAD00100730	That violence in the sky, had a source. Tracked it. Like following a river current.
+AAD00100731	Left the colors to mark my way, like always, case someone finds them, learns the pattern - the Courier might.
+AAD00100732	When I thought sand and wind would never end... came to the crater.
+AAD00100733	And there... there was an Old World facility, a weather station, at the edge, still raking the sky with electricity and generators.
+AAD00100734	And beyond it... saw the rest of the Old World hell there, all carved up like garden plots. Had to see what was there, couldn't leave it be.
+AAD00100735	Things sleep in the Big Empty, the Brotherhood woke them up - can't move quiet, any more than the two-headed Bear can.
+AAD00100736	And when they woke up, it was like all of history waking up at once. Almost didn't make it out. Almost. Left with answers I never intended.
+AAD00100737	NVDLC04UlyssesFinalMsgHolotape
+AAD00100738	Last tape, last message. In case... you best me. If you're hearing this, you have, through blood or word.
+AAD00100739	This message, and all that lies with it - it is for you, Courier. If you want to know the... why of things.
+AAD00100740	This world, I've walked a good part of it... I stopped only because of you. What you did - gave me pause.
+AAD00100741	Long ago, I crossed the Colorado, the first among the Legion to see Hoover Dam in all its glory... an Old World wall, yet bridging two sides.
+AAD00100742	And beyond it, a symbol of a two-headed Bear, an idea great enough to challenge Caesar himself.
+AAD00100743	Might kill him, taking it, whether he won or lost. The Bull needs to fight, needs the challenge, without it... it falters, dies in the dust.
+AAD00100744	Might be a lesson there, in you and me. Leave the thought behind the message to you.
+AAD00100745	My message is this - the destruction that has been wrought, at the Divide - or elsewhere, if you couldn't stop me...
+AAD00100746	It can happen again. It will keep happening.
+AAD00100747	If war doesn't change, men must change, and so must their symbols. Even if it is nothing at all, know what you follow, Courier...
+AAD00100748	...just as I followed you, to the end. Whatever your symbol...
+AAD00100749	...carry it on your back, and wear it proudly when you stand at Hoover Dam.
+AAD00100750	NVDLC04UlyssesWhiteLegs3HolotapeNote
+AAD00100751	The White Legs... meant to show respect, bribe me for Caesar's favor, echoing mannerisms and words...
+AAD00100752	Showed them tech caches, taught them the workings of chamber and powder, spoke of Caesar's pride in those that used such things... lies. And...
+AAD00100753	...and then... they tried to honor me - not the Legion.
+AAD00100754	They brought me before the campfire one night, showed me how they changed themselves, how they wore their hair now.
+AAD00100755	It was like my entire dead tribe in the firelight, teeth grinning red in the dark - eager corpses, blood-covered ghosts.
+AAD00100756	They... had taken my braids, the way of the Twisted Hairs, as if it showed they were like me, of me...
+AAD00100757	...while every knot in their braids spoke of raping, violence - and ignorance of what the knots meant. They thought to show respect... defiled it.
+AAD00100758	Lost myself in trying to read the braids they wove, when I remembered they had put no meaning in it. They had no history of what it meant.
+AAD00100759	They didn't even know the insult in the twists, knots... and Dry Wells came rushing back, the White Legs circled like that...
+AAD00100760	It was like looking at the dead of my tribe, reborn as ghosts - hateful, hungry, bowing to Caesar. Another history... gone, carried by me alone.
+AAD00100761	Find anything in the dust of Hopeville?
+AAD00100762	Nothing but wind, sand... ash. More may reveal itself in time, not now.
+AAD00100763	If you're determined, return, might be something new surfaces.
+AAD00100764	Wind and blood has uncovered more beneath the soil.
+AAD00100765	If you want these Old World relics, they're yours... better you carry them than the Marked Men.
+AAD00100766	Any recipes you can teach?
+AAD00100767	I have some materials I've gathered, if you wanted to take a look.
+AAD00100768	Is this where you're making camp?
+AAD00100769	Not a camp - vigil, maybe. Never claimed it as mine. If anyone owns the Divide... your claim is stronger than mine.
+AAD00100770	Don't feel like adding a campfire to the ones that already burn below. If you brought Mojave gifts, might be able to shape something for the road.
+AAD00100771	Depends what history has to say about them. There's a lot the land can provide... if you know the road that led to it.
+AAD00100772	Mojave's got ways of healing most ills - if not, some tribe's usually found a way you didn't expect.
+AAD00100773	Like Healing Powders. Tribes back West only use Xander and Broc flower. There's a way the Twin Mothers in the East used to brew it, though.
+AAD00100774	Called it Bitter Drink, mixed up the Xander and Broc in a bottle, added some kick to it so your head doesn't get all clouded.
+AAD00100775	Any recipes you can teach?
+AAD00100776	Antivenom's helpful around the Mojave with the Bark Scorpions. Even one sting can kill you. Tunneler bite can be just as bad.
+AAD00100777	My tribe, Twisted Hairs, had a better way than Antivenom, if you act fast.
+AAD00100778	Snakebite Tourniquet - cuts off the venom, no need to scavenge glands and blood. Or drink that mess.
+AAD00100779	Part of the reason we wore our hair like we did, like I do now.
+AAD00100780	Here's some for the road - trick to making it's not hard. Get bit, hook and twist it. Fast as blinking, doesn't give poison time to sink in.
+AAD00100781	Any more recipes.. or histories... you can teach?
+AAD00100782	Nothing more than I've already shared. We'll have to keep with what we know. Tired of history's lessons, anyway.
+AAD00100783	Any more recipes you can teach?
+AAD00100784	I had other questions.
+AAD00100785	Questions have a habit of making others.
+AAD00100786	The Divide's irradiated... are you sure you want to stay here?
+AAD00100787	The invisible fires burn here, true enough. Still... to have helped carry out such an act, then not face it...
+AAD00100788	Not my way. If my life burns out here, so be it... until then, I wait and watch, see what the road brings.
+AAD00100789	What about the Marked Men?
+AAD00100790	That's part of why I'm here. Watch them - if they attack me, try to enter the Mojave, I answer. Not looking to kill them... save them, if I can.
+AAD00100791	There might be something saving in them. If not, then what I do is mercy, not murder.
+AAD00100792	What's the Courier's Mile? Is that where the Ashton missile hit?
+AAD00100793	My name for it. If you have a better one, you grant it - my choice in names won't carry past you and I.
+AAD00100794	Lies along the road, running from the Hopeville silo... straight on to where the ground burns, and wind howls even stronger than here.
+AAD00100795	Your tapes prove you've walked the Mojave, yet learned the wrong lessons.
+AAD00100796	Comes down to perspective, how far one's walked, and what they've left behind.
+AAD00100797	If you challenge this moment, let's hear your perspective. If my words are all you have, let's hear them.
+AAD00100798	So... you think dropping bombs on the Mojave is going to solve things?
+AAD00100799	[SUCCEEDED] The why of it... you taught me the why of it.
+AAD00100800	If you believe in something enough, you must be willing to let it burn, lest it claim you.
+AAD00100801	These governments of the two-headed bear... the Legion... they carry Old World ideas into an age that no longer needs them, where they cannot live.
+AAD00100802	I need to know why you're doing this - not for my sake, for history's sake.
+AAD00100803	[FAILED] Yes, that is what you proved to me at the Divide - what is here, what you showed me... it is enough.
+AAD00100804	You don't understand. You will.
+AAD00100805	You've wasted enough of my time. Get ready to die.
+AAD00100806	I'll finish history's work. If the Divide couldn't kill you... perhaps these spears of the Old World can.
+AAD00100807	Let's end this, Courier, you and I. Here, with the Old World flag as witness.
+AAD00100808	I've heard enough. You're a Legion traitor, and now you'll die.
+AAD00100809	Forget this. If you want an ending to things, let's do this.
+AAD00100810	Can you share the recipe with me?
+AAD00100811	Can do that and one better... just enough around to mix some. Here - might make the Twin Mothers' history live a little longer, you carrying it.
+AAD00100812	When you drink it, down it all in one shot, or your stomach's not going to want to keep going after the second drink.
+AAD00100813	What's the history of it?
+AAD00100814	History? Cures a wound, leaves the bitterness that caused it. The Twin Mothers were always about lessons.
+AAD00100815	Caesar taught them the last one, though, so that's it for them. Recipe still exists, Legion uses it on forced marches with wounded soldiers.
+AAD00100816	Wouldn't have made it through Crimson River Trail a few years back without it  - losing so much blood early on, was a Cazador feast.
+AAD00100817	Enough Xander root and Broc flower along the trail though, the Legion was able to keep pace and get where they were going.
+AAD00100818	Have you been to Hopeville since the Ashton missile hit?
+AAD00100819	Walk there sometimes, keep the walks short. Still... it's important to see. Something else to answer for.
+AAD00100820	Occasionally sift through the dust, the buildings... see if I can find some history. Marks of America.
+AAD00100821	If you want them, keep them... you've earned it. Nothing to be gained by me holding them, and more will surface in time.
+AAD00100822	Sounds useful. Have any to spare?
+AAD00100823	You think I'd leave valuable property like you behind? No way. You might be worth some caps one day.
+AAD00100824	Run off on me like that again and I'll recycle you into tin cans. I own you, robot.
+AAD00100825	Sounds like a big damn waste of time to me.
+AAD00100826	That's what all this was about? Some old pre-War kids' show?
+AAD00100827	Heh heh. Robot skeet shooting. Sounds fun.
+AAD00100828	Boo hoo, poor little robot lost his daddy. Stop moping, trash can.
+AAD00100829	How long ago was this? And you still haven't made it? So much for upgraded navigational systems.
+AAD00100830	Spill any of my secrets, and I'll spill your electronic guts. Just so we're clear.
+AAD00100831	If you ask me, Whitley got too invested. It's just robot research, not having a kid.
+AAD00100832	Big deal. You're a glorified computer, why bother switching you off to improve you?
+AAD00100833	Fine, whatever. Listen, robot: I own you now. Follow me and try to make yourself useful.
+AAD00100834	You'd better level with me, trashcan, or I might stuff you back in that pod.
+AAD00100835	<Apologetic beeping>
+AAD00100836	Yeah, he's probably dead. Guess that means I own you now.
+AAD00100837	<Sad beeping>
+AAD00100838	Great. Maybe you'll actually be useful to me, then.
+AAD00100839	<Hopeful beeping>
+AAD00100840	NVDLC04EndingSlideSunset02
+AAD00100841	Men do, through the roads they walk.
+AAD00100842	Women do, through the roads they walk.
+AAD00100843	NVDLC04EndingSlideSunset01
+AAD00100844	It's said war - war never changes.
+AAD00100845	NVDLC04EndingSlideDivide02
+AAD00100846	Tunnelers and the Marked Men... avoided the lone figure, as if recognizing the Courier's right to passage... or out of fear.
+AAD00100847	NVDLC04EndingSlideDivide0
+AAD00100848	As for the Courier... he turned his back on his home for the second time and made his way back, navigating the treachery of the Divide.
+AAD00100849	As for the Courier... she turned her back on her home for the second time and made her way back, navigating the treachery of the Divide.
+AAD00100850	NVDLC04EndingSlideEDESacrificed02
+AAD00100851	As his last gesture, he sent one last signal to his counterpart in the Mojave, passing along what the Courier had taught him in the Divide.
+AAD00100852	There was the chance... always, that ED-E's journey would continue, perhaps carried by another Eyebot in the Mojave...
+AAD00100853	...the one from which the ED-E from the Divide had been shaped.
+AAD00100854	For now, the Courier knew ED-E's history and could carry it, even if the Eyebot had forgotten.
+AAD00100855	NVDLC04EndingSlideEDESacrificed01
+AAD00100856	When ED-E's circuits burned in the fires of the Divide, there was one small part that held on until the end.
+AAD00100857	It was the fragment that held the Old World memories and the words of his creator in his last moments.
+AAD00100858	NVDLC04EndingSlideEDELeftBehind
+AAD00100859	ED-E, the version given life by the machines of the Divide, remained frozen in the military installation where Ulysses had summoned him.
+AAD00100860	The robot's last coded transmission back to his counterpart in the Mojave told of upgrades, unlocked memories... then silence.
+AAD00100861	Not long after the Courier left the facility, the Eyebot's data banks were wiped, and it was disassembled as rapidly as it had been constructed.
+AAD00100862	NVDLC04EndingSlideEDESaved02
+AAD00100863	Before leaving, he sent a coded signal to his original in the Mojave, passing along what the Courier had taught him in the Divide.
+AAD00100864	With that last farewell, he set off, carrying the song of Old World hope with him, which had given him strength and purpose on his journey.
+AAD00100865	And no matter what, he knew there would be a second home to return to, Navarro or not - and that his creator would be proud.
+AAD00100866	NVDLC04EndingEDESaved01
+AAD00100867	ED-E, given second life by the machines of the Divide, freed by the Courier, continued his quest west, to Navarro...
+AAD00100868	...or what remained of what the Eyebot considered "home." Whether he found his homeland or not, his road is unknown.
+AAD00100869	It may be the journey meant more than the destination - just as his counterpart in the Mojave had learned.
+AAD00100870	NVDLC04EndingUlyssesAlive02
+AAD00100871	He remained there, perhaps as punishment for the scars he left on the wastes - or a reminder of a history he could not forget.
+AAD00100872	For Ulysses... his journey was over. The Courier had been the end of his road.
+AAD00100873	NVDLC04EndingUlyssesAlive01
+AAD00100874	Hopeville burned lightless in the night, invisible fires of radiation scorching it from within and without.
+AAD00100875	It is said a man still walked its streets, with a tattered jacket, an Old World flag etched on the back...
+AAD00100876	NVDLC04EndingUlyssesDead02
+AAD00100877	...though whether done as a sign of respect, or in anger for what had been endured to reach this moment - that is unknown.
+AAD00100878	Interpretation is something best left to history, and only the surviving Courier would ever know for certain.
+AAD00100879	NVDLC04EndingUlyssesDead01
+AAD00100880	At the end of the struggle, only one Courier remained in the heart of the Divide. The true Courier, Courier Six.
+AAD00100881	The Courier tore the ancient flag of the Commonwealth from its cables, and cast it over the corpse...
+AAD00100882	NVDLC04EndingMissileLaunchLegion02
+AAD00100883	But that message - it is something for Couriers to carry, and for them alone.
+AAD00100884	The lights flickered across the Divide, reminders that the Old World histories persist, and find meaning in the present.
+AAD00100885	NVDLC04EndingMissileLaunchLegion01
+AAD00100886	The Courier walked until he stood again upon the edge of the Divide, the last road he would walk before the second battle for Hoover Dam.
+AAD00100887	There, beside his feet, was a final package, from one Courier to another - a footlocker, bearing a gift, and a message.
+AAD00100888	The Courier walked until she stood again upon the edge of the Divide, the last road she would walk before the second battle for Hoover Dam.
+AAD00100889	There, beside her feet, was a final package, from one Courier to another - a footlocker, bearing a gift, and a message.
+AAD00100890	NVDLC04EndingMissileLaunchNCR02
+AAD00100891	As catastrophic as the damage was for NCR, the act made the Courier stronger for having no history, and no retreat.
+AAD00100892	It was an ending to things - a way of erasing the road that had led to this point and the history that had walked with it.
+AAD00100893	It was an ending to things - a way of erasing the road that had led to this point and the history that had walked with it.
+AAD00100894	NVDLC04EndingMissileLaunchNCR01
+AAD00100895	...missiles fell on NCR and the Long 15 caravan route beyond the Mojave Outpost, the road the Courier had been walking when the tale began.
+AAD00100896	Caravans and NCR outposts along the route were reduced to ash, an Old World gift from the Divide.
+AAD00100897	...missiles fell on the East and the Legion encampment at Dry Wells... where the Twisted Hairs had allied, then been betrayed by Vulpes and Caesar.
+AAD00100898	Legion soldiers died, their silhouettes blasted into the ground and earth, the last word of the last of the Twisted Hairs.
+AAD00100899	
+AAD00100900	[SUCCEEDED] <Happy beeping>
+AAD00100901	Hey, is that an ArmCo Portable Reloading Bench built into you? That'll be handy.
+AAD00100902	[FAILED] <Happy beeping>
+AAD00100903	Do you do anything with bullets? Like, maybe help people make them?
+AAD00100904	
+AAD00100905	[SUCCEEDED] <Happy beeping>
+AAD00100906	That's an impressive multitool suite you've got. I bet I could make all sorts of stuff with that.
+AAD00100907	[FAILED] <Happy beeping>
+AAD00100908	You look like a toolbox. Can you help me make stuff?
+AAD00100909	
+AAD00100910	[SUCCEEDED] <Happy beeping>
+AAD00100911	If you drop the power output by .24, you'll be able to make more energy ammo with no quality loss.
+AAD00100912	[FAILED] <Confused beeping>
+AAD00100913	Wow, you're way better at fixing weapons than me!
+AAD00100914	
+AAD00100915	[SUCCEEDED] <Happy beeping>
+AAD00100916	If you switched to the 3/8 wrench and the smaller drill, those weapon repairs would be easier.
+AAD00100917	[FAILED] <Confused beeping>
+AAD00100918	Wow, you're way better at fixing weapons than me!
+AAD00100919	I don't need energy cells right now - I'd like some satchel charges, ED-E.
+AAD00100920	<Happy beeping>
+AAD00100921	Can you make me some flamer fuel instead of energy cells?
+AAD00100922	<Happy beeping>
+AAD00100923	
+AAD00100924	[SUCCEEDED] <Happy beeping>
+AAD00100925	Remove the safety catches on those Microfusion Cells and you could turn them into satchel charges.
+AAD00100926	[FAILED] <Confused beeping>
+AAD00100927	I want something that goes boom. Can you do that?
+AAD00100928	
+AAD00100929	[SUCCEEDED] <Happy beeping>
+AAD00100930	You know, if you strip out the plasma relays on those energy cells, you could make flamer fuel.
+AAD00100931	[FAILED] <Confused beeping>
+AAD00100932	Could you maybe make some energy cells that catch fire instead?
+AAD00100933	
+AAD00100934	[SUCCEEDED] <Pleased beeping>
+AAD00100935	That was a .308 round. Probably hand-loaded - that would have destroyed most robots your size.
+AAD00100936	[FAILED] <Confused beeping>
+AAD00100937	I thought all robots were bulletproof.
+AAD00100938	Whatever, trashcan. I really don't give a shit about your problems.
+AAD00100939	Whatever. I only rescued you for the fire support anyways.
+AAD00100940	If you wanted me dead, why did you wait?
+AAD00100941	Promises to keep. To others. And the Mojave's dangerous enough - left to the land, the land has its way.
+AAD00100942	If I wanted you dead, we would have met sooner. Not sure that's the way this ends.
+AAD00100943	Might be that history needs to have its say. If not, then messages will do.
+AAD00100944	So you refused to deliver the Chip - what, to set me up to die?
+AAD00100945	We all have death following us, only a question of how close. You dodged it - for a time. You're good at that, talent for it.
+AAD00100946	With that Chip weighing you down... a burden, lets death move a little faster without me pulling the trigger.
+AAD00100947	It sounds like you know me, but I've never met you.
+AAD00100948	[SUCCEEDED] Words aren't the only way couriers meet... sometimes it's the paths we walk. But no... we've never spoken before now.
+AAD00100949	We've never spoken before - I'd remember your voice.
+AAD00100950	[FAILED] I know you. What we have in common, though, isn't in the words we traded.
+AAD00100951	You were supposed to carry the Chip?
+AAD00100952	Meant to? No. Never. Your burden.
+AAD00100953	Weigh you down long enough to let death catch up to you... but you survived.
+AAD00100954	There was death in that package, and while the Chip is important to Old World ghosts... no, you are more dangerous than that Chip ever could be.
+AAD00100955	Maybe why you found each other, little piece of the Old World, speaking to you, waiting for you to wake something else up with it.
+AAD00100956	[Legion] The dead in the silo, some were Legion Frumentarii, scouts. Assassins.
+AAD00100957	Might have been. Once. To the Divide they came... in the Divide, they rest.
+AAD00100958	[NCR] Those bodies in the silo were NCR soldiers... some special forces.
+AAD00100959	Might have been. Once. To the Divide they came... in the Divide, they rest.
+AAD00100960	What's here? This place looks wrecked.
+AAD00100961	[SUCCEEDED] America sleeps in the Divide - giants, beneath the earth. You saw one locked in the silo beneath you. There's more.
+AAD00100962	Only takes a few of them, locked below ground, to tear apart the earth... and cast dust, sand... ash... into the skies above.
+AAD00100963	You'll see the extent - the miles of it, soon enough. You need to see it... walk it.
+AAD00100964	Area looks like it was hit with earthquakes... or underground detonations.
+AAD00100965	[FAILED] Wasn't always like this. Old World wreckage's nothing new... after that, something you had your hand in - you'll walk it soon enough.
+AAD00100966	Why would they want to stay here if this place is killing them?
+AAD00100967	[SUCCEEDED] There's truth in your words, in what I've seen of their tactics, movements - recovery. Those wounds - they couldn't live otherwise.
+AAD00100968	The Divide winds have torn the skin from many of them - may be the radiation is the only thing keeping them walking.
+AAD00100969	Make camp near silos... warheads. No way to cleanse the radiation - makes them hard to kill there, have to draw them out.
+AAD00100970	Radiation may keep them alive in areas so physically punishing, it would kill others - even ghouls.
+AAD00100971	[FAILED] They're more beasts than men now. They clutch at their pain as they clutch at their weapons... anchors them.
+AAD00100972	The rads in this place seem like they would do more damage to them.
+AAD00100973	[SUCCEEDED] There's truth in your words, in what I've seen of their tactics, movements - recovery. Those wounds - they couldn't live otherwise.
+AAD00100974	The Divide winds have torn the skin from many of them - may be the radiation is the only thing keeping them walking.
+AAD00100975	Make camp near silos... warheads. No way to cleanse the radiation - makes them hard to kill there, have to draw them out.
+AAD00100976	If they've become ghouls, the radiation would strengthen them. Heal their wounds - not the scars.
+AAD00100977	[FAILED] They're more beasts than men now. They clutch at their pain as they clutch at their weapons... anchors them.
+AAD00100978	They look like they were skinned... then got right back up.
+AAD00100979	But... even radiation isn't enough to cause those wounds.
+AAD00100980	I've never seen corpses mutilated like that.
+AAD00100981	Even as the fires here burned them from within... the winds of the Divide tore their skin, exposed them... screaming... to the sky.
+AAD00100982	And just as the Divide tears at them, so they tear at each other, for sport - like some tribal scarification. Falling back to their history, maybe.
+AAD00100983	No matter what they suffer... the radiation, fire of the Divide, sustains them. Makes them stronger.
+AAD00100984	What are you talking about?
+AAD00100985	Whatever happened at the Divide, there weren't any survivors.
+AAD00100986	Inhabitants? It doesn't look like anyone's alive down there.
+AAD00100987	These new inhabitants... not natives... most of them. Came with duty, purpose... ready to kill each other. The Divide was stronger.
+AAD00100988	Left marks on them, too. Not Bear, not Bull - now... radiation's marked them, made them equal in history's eyes.
+AAD00100989	As vicious as the storms are, these shadows of Legion, of NCR - silhouettes of things to come.
+AAD00100990	Forget this. What do you want?
+AAD00100991	An ending. To this road, you and I. First, you need to find your way. At the end, I'll be waiting.
+AAD00100992	< Storage Node. Do not translate. >
+AAD00100993	You may not know my voice, but we've walked the same places. The Long 15 to Primm... that wasn't the only road you ever walked.
+AAD00100994	I've been to your home, the place you kept returning to... may not be the place you were born, was the place you gave life to, same thing.
+AAD00100995	People forget couriers can keep communities alive... until the day they're gone, and their breath catches in their throat.
+AAD00100996	For now, eyes alert, watch the streets below. There's still life in the Divide - threats other than the storms and wind... new inhabitants.
+AAD00100997	There's something left down there? Town looks like it was bombed.
+AAD00100998	[SUCCEEDED] America sleeps in the Divide - giants, beneath the earth. You saw one locked in the silo beneath you. There's more.
+AAD00100999	Only takes a few of them, locked below ground, to tear apart the earth... and cast dust, sand... ash... into the skies above.
+AAD00101000	The damage here looks like it was caused by underground detonations - on a scale I've never seen.
+AAD00101001	[FAILED] Wasn't always like this. Old World wreckage's nothing new... after that, something you had your hand in - you'll walk it soon enough.
+AAD00101002	The Divide won't stop me from reaching you, trust me.
+AAD00101003	You better hope you've got enough ammo when I kick down your door.
+AAD00101004	I don't care what you have to say. I only want to know where you are.
+AAD00101005	Other Marked Men had NCR gear - and they weren't carrying masks or blades.
+AAD00101006	For the two-headed Bear... NCR... they don't have symbols in the same way Legion does.
+AAD00101007	They revere their mines and explosives, guns... that is their religion - death from afar, take pride in it.
+AAD00101008	I could care less about history - and even less about Caesar.
+AAD00101009	Wasn't his time, and wouldn't have been how he wanted to die.
+AAD00101010	Not how most would've wanted him to die, either, Bear or Bull.
+AAD00101011	I wasn't sure how you'd take it.
+AAD00101012	Done with blame, and Caesar was big on strength making right. Seems to me you proved that philosophy to him.
+AAD00101013	If he was too weak to stop you, too weak to defend himself, then he needed to die with his beliefs.
+AAD00101014	Are you angry at all?
+AAD00101015	He let another hold a knife to him. If he was weak enough to allow the knife so close to his neck, maybe it needed to be his ending.
+AAD00101016	Caesar would be history's hypocrite if he was angry about what happened. I'm not one for it, either.
+AAD00101017	Seems you just proved his philosophy to him. If he'd been stronger, he'd be alive, and we wouldn't be talking.
+AAD00101018	< Topic Storage: Discussing Caesar's Death. Do not translate. >
+AAD00101019	Unless you do the same for the Legate that comes, you'll get no thanks from me. When that Monster arrives, he's not going to have a leash.
+AAD00101020	Caesar could command him. Not now. The Bear's going to burn, and burn slow.
+AAD00101021	Caesar is dead, died on the operating table.
+AAD00101022	Name's died twice to history. If the West thanks you... the East won't, in time. Fall apart, back to the tribes, maybe.
+AAD00101023	Caesar is dead, I killed him.
+AAD00101024	Name's died twice to history. If the West thanks you... the East won't, in time. Fall apart, back to the tribes, maybe.
+AAD00101025	< Topic Storage: Wrapping up thoughts on House. Do not translate. >
+AAD00101026	Let House sleep in his chamber. Let him dream of the Old World he remembers, and keep those memories where they belong, in his head.
+AAD00101027	If Vegas falls apart, seems like more history will be lost.
+AAD00101028	Thought you might be glad House was dealt with.
+AAD00101029	What you did was for the best. The Old World died long ago. Anyone who believes they can make it return and everything will be as it was...
+AAD00101030	...it is a dangerous belief. Needs to be silenced before their belief spreads.
+AAD00101031	I reached Vegas, and I dealt with House.
+AAD00101032	House spoke, acted through machines. Sometimes can judge a man by his messengers. Sometimes the messengers judge him.
+AAD00101033	Wonder what happens to Vegas now. The tribes - families. We'll see.
+AAD00101034	Nah, I think I'll just go ahead and trigger the launch. I never liked either of those places.
+AAD00101035	We'll leave it to history, then.
+AAD00101036	The Divide belongs to history now. The Mojave awaits.
+AAD00101037	We'll leave it to history, then.
+AAD00101038	I'll remember that.
+AAD00101039	The Divide belongs to history now. The Mojave awaits.
+AAD00101040	I'll remember that.
+AAD00101041	< Topic Storage: Talking about Joshua Graham, why Lanius should heed story. Do not translate. >
+AAD00101042	That Legate's mistake is he didn't die trying. His name was Joshua - Joshua Graham. Answered for his failure - twice, some say.
+AAD00101043	Caesar had him burned and cast into the earth, into the largest canyon you've ever seen. Watched the flames trail all the way to the bottom.
+AAD00101044	Somehow Joshua walked away from that, went beyond Caesar's gaze. His footsteps trailing fire, walking from one hell - maybe to another.
+AAD00101045	When one is ruined like Graham was... sometimes home is the only place left. If so, he went to New Canaan, Caesar's anger written on him like a book.
+AAD00101046	Caesar's orders to the Frumentarii were to watch for him, find Graham. Kill him. Didn't try. Could've, no good would have come of it.
+AAD00101047	Graham earned his life, and his nature... it'll kill him more surely than any blade of the Legion.
+AAD00101048	So if you've heard word of it or seen sign of him, let it keep. Let his history keep.
+AAD00101049	What do you mean?
+AAD00101050	There are other Legates, and the one before Lanius couldn't take Hoover Dam for Caesar.
+AAD00101051	Other Legates? You mean Graham.
+AAD00101052	Yes. Graham was broken on the wall of the Dam.
+AAD00101053	Other Legates?
+AAD00101054	There are other Legates, and the one before Lanius couldn't take Hoover Dam for Caesar.
+AAD00101055	He must have a weakness.
+AAD00101056	His strength lies in his title - and it is his weakness. He will not fight a losing battle and destroy what he represents.
+AAD00101057	Put the idea of loss in him. Convince him the Bear will not be the twentieth tribe beneath his heel, it will make him pause like nothing on earth.
+AAD00101058	You do not need to convince him alone. Draw upon history. The past of other Legates are not filled with victories. Remind Lanius of this.
+AAD00101059	Any idea on how to beat him?
+AAD00101060	Nineteen tribes could not do it. All the lights in Vegas cannot.
+AAD00101061	Why is he coming West?
+AAD00101062	To take Hoover Dam, Legion will need something as big as the Old World itself - another symbol, forged by history.
+AAD00101063	Well, if I were a slave or a dog, I'd be scared.
+AAD00101064	He's just one general. I can handle him.
+AAD00101065	Lanius carries all the terrors of the East with him. He's the myth, the weapon the Legion needs.
+AAD00101066	When he arrives, he'll fall on Hoover Dam like a hammer, break the Bear in two.
+AAD00101067	What can you tell me about him?
+AAD00101068	Enough. Whatever waits at Hoover Dam, I'm ready.
+AAD00101069	Then there is nothing more to be done. The Mojave awaits.
+AAD00101070	The Divide belongs to history now. The Mojave awaits.
+AAD00101071	Enough. Whatever waits at Hoover Dam, I'm ready.
+AAD00101072	The Divide belongs to history now. The Mojave awaits.
+AAD00101073	Who is Legate Lanius?
+AAD00101074	Lanius... the "Butcher." Monster, Terror of the East.
+AAD00101075	Not even his slaves have seen his face - struck them blind so they can't. Wears a mask, don't even know if it's the same man.
+AAD00101076	He put Colorado to the sword, broke the Hangdogs by throwing their hounds upon the flames, so they might burn forever in the afterlife.
+AAD00101077	< Topic Storage: As player turns to leave, Ulysses speaks of Lanius. Do not translate. >
+AAD00101078	A warning, though - the Legate, Lanius. Whether Caesar stands or not, Lanius will come.
+AAD00101079	Look, we don't need to fight about this - we can talk this out, right?
+AAD00101080	[SUCCEEDED] No... no, I couldn't. And I'm thinking you can't kill me, either. If you did, you'd answer for it, just as I would.
+AAD00101081	Let the land do the killing for you, that's one of the things you taught me.
+AAD00101082	Killing is personal - so's vows, promises. Last bit's more important to me than the first.
+AAD00101083	You brought me here to talk. If you wanted to kill me, you'd have waited until I came for the Chip.
+AAD00101084	[FAILED] Talking... words won't settle this. The Road will. And the end.
+AAD00101085	So... this is about fighting? Or...?
+AAD00101086	[SUCCEEDED] War. Call it that. Our part in it.
+AAD00101087	Ulysses wasn't made for the flag he followed. He wasn't made for peace. That's the lesson.
+AAD00101088	If you follow a symbol to the end, ask yourself what that means. More important, ask what happens after the end.
+AAD00101089	You chose Ulysses because of the "two flags" reference - is that tied to the war in the Mojave?
+AAD00101090	[FAILED] Fighting? Yes... but different weapons than you're used to.
+AAD00101091	You're wasting time. Stalling. Won't help you.
+AAD00101092	Ulysses... that sounds like a Legion name... a Legion hero?
+AAD00101093	[SUCCEEDED] History. Yes.
+AAD00101094	Ulysses walked a hard road. A general, like Caesar and Oliver. He was Brahmin-stubborn, gave him strength on the battlefield.
+AAD00101095	He led his side to victory, turned two flags into one. That's when he lost - when the fighting was done, the sickness took hold.
+AAD00101096	Lesson there, if history's to be believed. One you should heed.
+AAD00101097	"Ulysses." Not the myth. You're honoring history, not stories.
+AAD00101098	[FAILED] Search history, might find meaning in it.
+AAD00101099	It's just a name - you have no idea who I am. You'll know by the end.
+AAD00101100	So you're the one who sent the radio message - Ulysses.
+AAD00101101	Not my given name, close enough.
+AAD00101102	Took it from history, found it in a book. It's an Old World name.
+AAD00101103	Ulysses lived a long time ago, long before the Old World set fire to itself. He made a mark without being myth.
+AAD00101104	Had to fight during a time when his world had two flags, and he had to make them one.
+AAD00101105	Forget your name. Back to the job you refused.
+AAD00101106	All right... Courier. If the why of it matters to you.
+AAD00101107	You're not making any sense.
+AAD00101108	Wait... so you swore not to kill me? Why?
+AAD00101109	What kind of world would this be if Courier killed Courier.
+AAD00101110	You've got enough distance ahead of you - save your breath for the road, don't waste it on words.
+AAD00101111	I'm not interested in your politics.
+AAD00101112	Maybe that's why you chose Vegas... the lights can blind, make people forget themselves. Their convictions - vows. 
+AAD00101113	Not going to waste time trying to make the blind see. Took a chance coming here - same as I did. Now we'll see how it plays out.
+AAD00101114	We're too far from Vegas to argue perspective on it.
+AAD00101115	Maybe not. Maybe that's why you fell in with the Bear in the first place - can't see what you're following.
+AAD00101116	Not going to convince a deaf man with words. Shown strength coming in here - if strength's what you respect, then you belong East of the Colorado.
+AAD00101117	At least they're trying to help the Mojave.
+AAD00101118	Trying doesn't hold much weight with me. Legion doesn't try to kill people, they do it. The Bear kills people trying to protect them.
+AAD00101119	Irony's sharp. And Legion... their flag may be old, but it's not at war with itself.
+AAD00101120	No matter now. Bear couldn't hold the Divide.
+AAD00101121	You and that machine, are all that remains of NCR here... rest fell to radiation, fire... and what burrows below.
+AAD00101122	You've got a better way?
+AAD00101123	Yes. And any Courier could tell you the same, see it everywhere. The Bear...
+AAD00101124	...Bear's too busy carving up the Mojave with knives, roads, borders, and how things should be to see how it is.
+AAD00101125	They're stretched thin, can't protect their frontlines, their towns, think paper's power, radio means control - all of it, useless.
+AAD00101126	You have a lot of hate for NCR. That kind of hate isn't new in the Mojave.
+AAD00101127	No... not new. And not new among all those in the shadow of the Bear.
+AAD00101128	You know their flag, a bear with two heads. Symbol's an Old World one, had one head then, better off for it.
+AAD00101129	Their flag speaks to their spirit. They're split like any two-headed animal, trying to go in different directions, ending up nowhere.
+AAD00101130	In the Mojave, that'll only get you sand between your fingers - or over your grave.
+AAD00101131	Is New Vegas's power a threat to you?
+AAD00101132	Power isn't strength. Power can wall off someone, when they believe it's freed them.
+AAD00101133	House's power... you've seen the wall around Vegas. He gains more power, that wall will grow. The Mojave'll become Vegas.
+AAD00101134	But it's more lights than strength. You'll see the way of it soon enough.
+AAD00101135	Is that why you're not Legion anymore, then?
+AAD00101136	What do you m... I see the way of it. Have fight in you, at least. Save it for the road ahead.
+AAD00101137	A woman in the Legion surprise you?
+AAD00101138	It's not Legion - the Legion I know, but they change, even in small ways as they march West, with every tribe they break.
+AAD00101139	But yes... last I heard, you needed a weapon between your legs to carry one for Caesar.
+AAD00101140	"Brothers?" So - you're Legion, too.
+AAD00101141	I hold Legion to be my brothers... even as misguided as they are. And you... more so than most.
+AAD00101142	< Storage Node Ulysses talking about player being Legion. Do not translate. >
+AAD00101143	Heard tales of you walking the Mojave. Casting off your disguise... yet you carried that Chip, determined to take it to Vegas... not Caesar.
+AAD00101144	You and that Chip deserve each other, 29 fewer coins than other traitors have carried, by history's mark.
+AAD00101145	The Mojave is behind us. I want to know what's ahead.
+AAD00101146	The High Road... not the Divide yet, many more miles to walk. But you got this far. You and that machine that shadows you.
+AAD00101147	Wasn't sure if both of you'd make it - above, then below the underpass.
+AAD00101148	Forget this. Keep your opinions about Vegas, I'll keep mine.
+AAD00101149	I doubt you've ever met House.
+AAD00101150	No... only seen his works. Those he's broken with light and gold. His messengers.
+AAD00101151	But everything in Vegas speaks of someone who can't let go.
+AAD00101152	House takes a shovel to history's graves, props up the dead, then puts words in their mouths. The tribes don't even know how they were broken.
+AAD00101153	Not a world I want to be part of, going through motions until we're all smiling faces on some robot's screen.
+AAD00101154	House is more pragmatic than you might think.
+AAD00101155	Believe that. Vegas runs, I've seen what it's done to those who oppose it. And I've seen its messengers.
+AAD00101156	Tribes? You mean the Vegas families?
+AAD00101157	Families of Vegas were once tribes. Got drunk on the Vegas lights, the spirit bled out of them. Old World history, under a different flag.
+AAD00101158	Whatever traditions or rituals they had, most likely squeezed out of them by now, turned into something else.
+AAD00101159	And if not, then I'm afraid what's going to happen when they come creeping back.
+AAD00101160	Vegas is one of the safest places in the Mojave, and that gives me hope.
+AAD00101161	You've been, you've seen the Wall. Safe? No... what's inside - that's what worries me.
+AAD00101162	Inside, Old World's waking up. No facts or history I've heard tells me that city ever went to sleep, and that makes me think.
+AAD00101163	The blue of the Mojave skies - isn't like the rest of the world. Don't hear a Geiger ticking there, more to fear from predators than rads.
+AAD00101164	The city - the whole Mojave, wasn't hit by bombs. Been my call, Vegas would be one of the first pieces of the Old World to burn.
+AAD00101165	Someone protected it. Wasn't chance, wasn't luck. Something larger - yet they let the rest of the world suffer. And they'll do it again.
+AAD00101166	What did you mean before, "it's a dance?"
+AAD00101167	That's the wrong word. "Theater" is better - the families, the Bear all on a stage.
+AAD00101168	House. He's the one watching. The why... you'd know better than I would. If you don't - you will.
+AAD00101169	House's plans for the future run longer than that.
+AAD00101170	What do you have against Vegas?
+AAD00101171	Vegas is Old World, filled with Old World ghosts. And ghosts need the living to do their work.
+AAD00101172	That's why the families are there, why the Bear stumbles there to lose itself. It's a dance, I don't know its purpose.
+AAD00101173	You've been, you've seen the Wall. It's what's inside that worries me.
+AAD00101174	Don't be quick to discount Vegas. There's more strength there than may seem.
+AAD00101175	As obsessed as you are about history, the future's what I prefer.
+AAD00101176	Your future with House has two roads. The road the tribals in Vegas walked... their spirits crushed...
+AAD00101177	...or your face on a robot servant, smiling forever in a dead casino. There's future in neither.
+AAD00101178	< Storage Node Ulysses giving player final direction. Do not translate. >
+AAD00101179	For now - find the trigger for the warheads, buried in Hopeville. Use it to keep moving... and keep alive.
+AAD00101180	Wait... there's more I wanted to talk about. About... all this.
+AAD00101181	[SUCCEEDED] "Who are you, who do not know your history?"
+AAD00101182	You came all this way for answers. Only currency I have, nothing else to be gained - could turn around, walk away at any time.
+AAD00101183	If history matters to you... you'll need to earn it. Any logs of mine I have already cast away in the Divide, they're lost to you.
+AAD00101184	If we share history, then before going forward, I want to know the past.
+AAD00101185	[FAILED] You want to know more, keep walking.
+AAD00101186	I'll give answers as you go. Not before.
+AAD00101187	Are you saying... they were here before all this destruction?
+AAD00101188	[SUCCEEDED] Makes sense. Truth favors that, matches the history of this place.
+AAD00101189	Were signs they were here for a long time, before Marked Men, before what happened to the Divide cracked their sky.
+AAD00101190	If so, they were buried deep. Might have been born the day America's embers started to settle. Seen worse things twisted by radiation.
+AAD00101191	Radiation from the War might have created them. Then detonations, quakes, caused them to surface?
+AAD00101192	[FAILED] Don't know the history of them - only their patterns, how they hunt.
+AAD00101193	Still, takes a long time for such patterns to develop. A longer history than what happened here.
+AAD00101194	< Storage Node: Ulysses discussing Denver and the East. Do not Translate. >
+AAD00101195	Walked the East, too, before the Bull came. Then... much like the Mojave before the Bear... tribes, towns, clutching to life. Bull did a better job.
+AAD00101196	Denver? What's that?
+AAD00101197	[SUCCEEDED] Mojave and the Divide aren't the only places I've walked.
+AAD00101198	"Denver hounds?" Denver's far to the East - Legion territory.
+AAD00101199	[FAILED] Another city fallen to nations, in the east... not important. Doubt you'll ever walk that far, you'd need the land to sustain you.
+AAD00101200	[Legion] You've been to Denver? That's Legion territory.
+AAD00101201	Mojave and the Divide aren't the only places I've walked.
+AAD00101202	< Storage Node: Ulysses is discussing tunnelers and the future. Do not Translate. >
+AAD00101203	They'll start emerging throughout the Mojave in time, might be years. Probably less.
+AAD00101204	They breed fast, hunt in groups, more than enough to bring down the strongest in the Mojave. Once they draw blood...
+AAD00101205	Seen them tear apart Deathclaws... Deathclaw might get some, but the rest will swarm it, tear it apart, like Denver hounds.
+AAD00101206	I'm not interested in talking, I only want to know where to head next.
+AAD00101207	What burrows below? You mean those creatures in the underpass?
+AAD00101208	You've been to Denver? That's Legion territory.
+AAD00101209	Mojave and the Divide aren't the only places I've walked.
+AAD00101210	Maybe you should tell me what happened.
+AAD00101211	And where the Bear tries to cling to life, the Legion comes... bearing messages. Some brought by blade. Others... by Couriers.
+AAD00101212	You knew what was coming, as sure as I know what's coming for you.
+AAD00101213	This time you carry the burden. Walk west into the sun, and keep walking until it dies. There - I'll be waiting.
+AAD00101214	There is no other supply line to the Mojave beyond the Long 15.
+AAD00101215	Not any more. If one existed, the two-headed Bear would have claimed it. And it tried to.
+AAD00101216	You're still making assumptions about all this.
+AAD00101217	No, recounting history.
+AAD00101218	Whatever you believe happened, you have it wrong.
+AAD00101219	Wrong? No, I know the truth of it.
+AAD00101220	It was you walking that road that kept the Divide alive. It grew from what you did. Settlers... camps... filling that Old World city.
+AAD00101221	Chance for a new nation, new beginning. New way of thinking.
+AAD00101222	Could've breathed new life into the Mojave, bridging East, West. Like Hoover Dam... but not Old World, something you made. Road was a supply line.
+AAD00101223	You're crazy. Your head's messed up worse than the Divide.
+AAD00101224	And you've forgotten. Forgotten everything. Careless, as careless with futures then as you are now in the Mojave.
+AAD00101225	I've walked a lot of hard roads, Mojave and before. Doesn't mean anything.
+AAD00101226	It means everything - even if you deny it, cast it aside, that speaks to what you are, proves what happened here.
+AAD00101227	< Placeholder Node: Ulysses talking about the Divide history. Do Not Translate >
+AAD00101228	Never would have known the Divide had it not been for you. The road you made with your tracks, again and again.
+AAD00101229	You were the only one willing to make the journey to and from here... a hard road. Kept the land before the Divide alive through seasons, storms...
+AAD00101230	...can't have been just a job. Was something more to you. Don't feel for a place that hard unless it's home.
+AAD00101231	You keep saying that, as if you know where I was born - you don't.
+AAD00101232	Home isn't where you're born into this world. You taught me that. Part of your message, whether you meant it or not.
+AAD00101233	Can be a place of mind, a moment where you know who you are, the history of it. And they can be places you breathe life into.
+AAD00101234	I've never been here before, at least not from this road.
+AAD00101235	Whatever they were carrying, they were fighting side by side with the ones in Legion armor.
+AAD00101236	I'm not done talking to you yet, there's more I want to know.
+AAD00101237	Already heard you once, long ago and loud enough for history to hear. Tired of your messages.
+AAD00101238	Still - curiosity drove you this far. Let's see what else it can do.
+AAD00101239	You wanted me to come to the Divide, I'm here. Now what?
+AAD00101240	Your road's not done. Haven't walked it full yet, not nearly enough.
+AAD00101241	I've had enough of this - whatever your game, I'm done.
+AAD00101242	No, you are. Cut off your retreat, your supply line. Ashton missile, turned Hopeville into a furnace.
+AAD00101243	You could walk back. Still can - but the Divide will mark you, sickness will set in.
+AAD00101244	Not immediate, maybe, but in time. Slow burn, a little faster than before.
+AAD00101245	The way ahead and below - leads to the heart of the Divide.
+AAD00101246	And there... you and I, we'll have an ending to things.
+AAD00101247	I didn't intend to set off that missile over the Divide.
+AAD00101248	I had no idea the silo was active until the missile was in the air toward Hopeville.
+AAD00101249	Didn't stop you, though. Like carrying the Chip to Vegas, Old World death in your hand.
+AAD00101250	Pieces of the Old World like that just need someone careless enough to take them where they need to go, to do their killing.
+AAD00101251	I don't understand how a package could have done this.
+AAD00101252	You will. I'll show the Mojave, Bear and Bull the way of it. How Couriers can break nations.
+AAD00101253	What happened here... can happen again. You've already proved it, what you did in Ashton. The silo there.
+AAD00101254	You can't be sure it was me.
+AAD00101255	No... I'm certain. What I hadn't known was that you still lived after the Divide.
+AAD00101256	I'm not responsible for this, there's no way I could have known.
+AAD00101257	If you had been there when it happened. If you had seen the Divide break, you would know it.
+AAD00101258	You carry death wherever you go - if the Mojave doesn't know it yet, it will.
+AAD00101259	I've been West, it's possible, but...
+AAD00101260	This package... I don't recall it.
+AAD00101261	It was from the West. From deep in NCR. Whether made by them or not... it came here. Through your hands.
+AAD00101262	You said I brought it from the West?
+AAD00101263	It was a device, a detonator. One I'd never seen before - or heard before.
+AAD00101264	You carried that thing to the Divide. I know because I followed you as you walked the road, watched you do it.
+AAD00101265	You brought it here, to the community you built. And you are responsible for what happened after - when the device opened, started to speak.
+AAD00101266	When it did, the Divide answered back. Those missiles you've seen, buried in their silos.
+AAD00101267	They exploded beneath the ground, cracked the landscape. Sand, ash... the dead... the Divide skies became a graveyard.
+AAD00101268	I had nothing to do with this.
+AAD00101269	The logs of the Big Empty mentioned you'd spoken to history.
+AAD00101270	I had, did. It was madness... asked them a question in anger. Got an answer, more than I expected.
+AAD00101271	Answer told me what happened here at the Divide, the how of it, and that was enough.
+AAD00101272	The tape has the telling of it, don't need me adding to the questions already there.
+AAD00101273	In the logs... you mentioned a tribe called the Twisted Hairs - your tribe?
+AAD00101274	Twisted Hairs are dead, lost at Dry Wells, died in Vulpes' smile. Won't discuss their fate with you, not now - their past is mine to keep.
+AAD00101275	Walk farther, see me face to face - you might earn more. Now, let the words keep you without me adding to them.
+AAD00101276	I found some recordings from you on the road.
+AAD00101277	The tapes... didn't think those would be found... weren't worth the words anyway, not like I'd forget what happened.
+AAD00101278	Had the tech from the Big Empty, recorder a woman gave me... on its last legs, didn't survive the road. Cast it and the tapes aside.
+AAD00101279	If you heard them... they're of no consequence. Ramblings, reminders for a man who doesn't need them.
+AAD00101280	How were you planning to attack the Divide?
+AAD00101281	Didn't know, but Couriers can travel anywhere. They make roads into places no one else will go, guarded or not. Was going to watch, see.
+AAD00101282	The Legion... thought it might get into the community through me, just as I'd found the way by following you.
+AAD00101283	But you struck first, shattered the ground, and let your home burn instead. Nearly killed me. And everyone here, walking or still.
+AAD00101284	So the Legion doesn't know what happened here?
+AAD00101285	No, they don't know the history of it. So send others to find out, more to die... at the hands of their brothers the Divide has claimed.
+AAD00101286	It doesn't matter, the Bear's reach was cut off. Now only the Long 15 remains. Once that's finished, Mojave will be under the flag of the Bull.
+AAD00101287	You were planning to attack the NCR here, then.
+AAD00101288	I'm not interested in the history of this, we're done talking.
+AAD00101289	All right. Done with words, then, won't get you where you need to go.
+AAD00101290	So what happened?
+AAD00101291	Bear made its shadow felt here, more than I could handle. Heavy guard, watchful. I watched, waited.
+AAD00101292	And as I watched, studied the people. The flag, markings. Thought perhaps... if I got rid of the Bear... what you had given life to might come again.
+AAD00101293	Waited too long. Hesitated. A Courier isn't meant to stay in one place for long. And then you came, with the package. History.
+AAD00101294	This is the first I've heard of Legion coming this far West of the Colorado.
+AAD00101295	No, when they come this far, they aren't Legion. They walk as Couriers. Like we do.
+AAD00101296	And the Divide is the reason no Legion has been seen. None belong to Caesar. Not in this place.
+AAD00101297	The ones that came... were following orders.
+AAD00101298	So you are part of the Legion. One of their scouts? Assassins?
+AAD00101299	Assassin? If killing needs to be done, I'll face my victims... not kill from a distance, like you.
+AAD00101300	That's what made the Legion come to the Divide.
+AAD00101301	On the High Road, you mentioned NCR and Legion fought here... before and after the Divide?
+AAD00101302	The two-headed Bear made its claim, dug its claws into the trail you made. For once, it seemed like it might succeed - cut a route to the Mojave.
+AAD00101303	Couldn't let NCR stay in the Divide. Trade route, road the military could use... can't have two roads into the Mojave.
+AAD00101304	Not after the work we'd done to cut off New Canaan, other routes, killing caravans... all we'd done to make the West bleed.
+AAD00101305	There's nothing to keep me from walking out of here and letting you rot.
+AAD00101306	Spent years looking for you. If you head back to the Mojave, it's like nothing's changed. Can live with that. Had to.
+AAD00101307	Wasn't sure if history would matter to you. If it doesn't, that answers my question.
+AAD00101308	If you turn your back on your home, so be it. I'll remain here in the Divide for you to return. And you will.
+AAD00101309	I'm not to blame for Ashton, the Chip, or the Divide.
+AAD00101310	All these roads, you walked. These packages you carried. Think it wasn't your choice?
+AAD00101311	Of course it was your choice. You could have stayed in the Mojave. But you chose to come, couldn't let be - not in you to let go.
+AAD00101312	Came for no other reason than you were curious, restless - always have been. Had to know the why of it - now, I'll show you.
+AAD00101313	I got your final message.
+AAD00101314	Had to speak of it, in case the words got lost in paper, ink, or other's voices. Maybe even yours, in time.
+AAD00101315	Still, meant for you. Courier to Courier. Belongs to you now, or history. Doesn't matter.
+AAD00101316	I found some recordings from you in Hopeville.
+AAD00101317	The tapes... didn't think those would be found... you know the Divide better than I thought.
+AAD00101318	Had tech from the Big Empty, recorder a woman gave me... didn't survive the road, on its last legs.
+AAD00101319	Cast it and the tapes aside... weren't worth the words anyway, not like I'd forget what happened.
+AAD00101320	If you heard them... nothing but ramblings, reminders for a man who doesn't need them. Probably more, lying from here to the Divide.
+AAD00101321	When we first spoke in Hopeville, you mentioned you'd sworn not to kill me. Why?
+AAD00101322	You know the why of it. If you don't - I do, and that's enough. Shows trust only walks so far West.
+AAD00101323	Earned more than that, though, getting this far. We walk the same road, carry the same colors. Can't break that by making the road red.
+AAD00101324	Want more than that, walk the Divide. Answers'll come, closer you get to home... you and that machine.
+AAD00101325	So... what, they weren't that important then?
+AAD00101326	[SUCCEEDED] Maybe not. Who's to say.
+AAD00101327	You, perhaps. Found them, heard them after I cast them aside - maybe there was purpose in that.
+AAD00101328	If they matter... if history matters... we'll see at the end of the road.
+AAD00101329	You wouldn't have recorded those messages if they didn't matter to you.
+AAD00101330	[FAILED] Words lost to history. Wouldn't have left them on the road otherwise.
+AAD00101331	I found more recordings from you on the road.
+AAD00101332	You scavenge words. Things I have no need of, no history there worth recounting.
+AAD00101333	Scour the Divide, claw at it for meaning - but my words will give you no answer.
+AAD00101334	I... think they tell me... where you were. Things you did.
+AAD00101335	[SUCCEEDED] They won't help you understand what happened here.
+AAD00101336	And they won't help you understand me. Keep them, listen, study them - they won't help you here in the Divide.
+AAD00101337	No, there's a pattern. The more I hear, the more I understand your history.
+AAD00101338	[FAILED] Words lost to history. Wouldn't have left them on the road otherwise.
+AAD00101339	So... what, they weren't that important then?
+AAD00101340	[SUCCEEDED] Maybe not. Who's to say.
+AAD00101341	You, perhaps. Found them, heard them after I cast them aside - maybe there was purpose in that.
+AAD00101342	If they matter... if history matters... we'll see at the end of the road.
+AAD00101343	You wouldn't have recorded those messages if they didn't matter to you.
+AAD00101344	[FAILED] Words lost to history. Wouldn't have left them on the road otherwise.
+AAD00101345	You're going after the Long 15? That's more miles than Legion can hold.
+AAD00101346	Won't hold it. Divide taught me you don't need to - just cut it off.
+AAD00101347	Then the Mojave will fall, Bear will starve, its flag will burn. It's spent too long dying, the Long 15 will end it.
+AAD00101348	What do you mean, "when it woke?"
+AAD00101349	Machine couldn't speak by itself. Needed a terminal to access it... like the terminals in the silos here, or the machine with you.
+AAD00101350	When it was connected, it started speaking. And the Divide answered.
+AAD00101351	But what was it?
+AAD00101352	It was a piece of machinery... military, holding memories, codes, maybe. When it woke, made these sounds... words.
+AAD00101353	When it spoke, the Divide became fire, the ground... tore apart like the skies. Through it all, kept calling out - maybe calling for home.
+AAD00101354	I don't understand why you didn't kill me in Primm.
+AAD00101355	Promises to keep. 'Courier shall not kill Courier.' Always - let them live, spread the word.
+AAD00101356	[Legion] You didn't kill me in Primm because you still thought I was Legion.
+AAD00101357	Caesar's orders. Some time before I realized the why of it. Wasn't just you. All couriers.
+AAD00101358	No telling how many were Legion. Maybe all of them.
+AAD00101359	Wasn't sure about you. Until the Divide... all the NCR burning... that much death, it bears the mark of a Legion hand.
+AAD00101360	But you killed like NCR. Like Hanlon, with mines, bombs... missiles. Killed Legion along with the Bear. Like a coward, kills from a distance.
+AAD00101361	If you were Legion, then NCR beat you, the West changed you.
+AAD00101362	You said you made a promise not to kill me. Why?
+AAD00101363	Promises to keep. 'Courier shall not kill Courier.' Always - let them live, spread the word.
+AAD00101364	What's our history? How do you know me?
+AAD00101365	I knew of you, your name. Your road, to and from the Divide, what that meant for the Legion.
+AAD00101366	We never spoke, knew you through your actions. Knew you'd walked the West as I'd walked the East. Learned different lessons.
+AAD00101367	And I would never have discovered the Divide without you.
+AAD00101368	I want to know more about this package I delivered.
+AAD00101369	You know what it was. Had the symbols of America on it. New markings. From after the Great War.
+AAD00101370	Thought it might be America come again. Promise of another future. Another flag.
+AAD00101371	Before I go any farther, I deserve some answers.
+AAD00101372	You've seen the Divide, walked it - farther than I thought you would. Not sure how much farther you have in you.
+AAD00101373	If you need answers, speak. You've earned them... even if only you and I can carry them from here.
+AAD00101374	If I have the answers, you've earned them.
+AAD00101375	There's more I need to know.
+AAD00101376	I... think they tell me... where you were. Things you did.
+AAD00101377	[SUCCEEDED] They won't help you understand what happened here.
+AAD00101378	And they won't help you understand me. Keep them, listen, study them - they won't help you here in the Divide.
+AAD00101379	I've been collecting them. Listen to you talk about history enough, maybe I'll understand.
+AAD00101380	[FAILED] Words lost to history. Wouldn't have left them on the road otherwise.
+AAD00101381	So... what, they weren't that important then?
+AAD00101382	[SUCCEEDED] Maybe not. Who's to say.
+AAD00101383	You, perhaps. Found them, heard them after I cast them aside - maybe there was purpose in that.
+AAD00101384	If they matter... if history matters... we'll see at the end of the road.
+AAD00101385	You wouldn't have recorded those messages if they didn't matter to you.
+AAD00101386	[FAILED] Words lost to history. Wouldn't have left them on the road otherwise.
+AAD00101387	I found some recordings from you on the road.
+AAD00101388	The tapes... didn't think those would be found... weren't worth the words anyway, not like I'd forget what happened.
+AAD00101389	Had the tech from the Big Empty, recorder a woman gave me... on its last legs, didn't survive the road. Cast it and the tapes aside.
+AAD00101390	If you heard them... they're of no consequence. Ramblings, reminders for a man who doesn't need them.
+AAD00101391	You scavenge words. Things I have no need of, no history there worth recounting.
+AAD00101392	Scour the Divide, claw at it for meaning - but my words will give you no answer.
+AAD00101393	I want to talk more about your recordings I found here in the Divide.
+AAD00101394	I was never a Legion agent.
+AAD00101395	I know that now. Doesn't change what was done. The Legion who died here.
+AAD00101396	Even if you were Legion, you would answer for those deaths by Caesar's law.
+AAD00101397	I haven't listened to them all. If there's time, I will.
+AAD00101398	As I said before... it's of no consequence. Never intended you to find them, never intended you to hear them.
+AAD00101399	Questions in those tapes I still haven't found answers to. You won't be the one to give them.
+AAD00101400	Then you learned the wrong message.
+AAD00101401	Really. Who's to say the truth of it. You? No. You walked from this, turned your back on it. Now you and others will answer for it.
+AAD00101402	I'll start with the West. Let that burn. Then... if the East falters after, I'll bring the Divide there as well.
+AAD00101403	Burn away the flags. Begin again.
+AAD00101404	You might not believe in nations. I do.
+AAD00101405	[SUCCEEDED] Your actions have carried strength.
+AAD00101406	[NCR] Even if you have no faith in the NCR, I do. My actions have proven it.
+AAD00101407	[SUCCEEDED] There is conviction in your words, enough to rival a Legate, perhaps Caesar. You believe what you say.
+AAD00101408	[Legion] The Legion is stronger than you know. If you would judge them, hear me first.
+AAD00101409	[SUCCEEDED] Your actions have carried strength. More importantly, not for House, but for the families on the Strip.
+AAD00101410	[Vegas] Even if you have no faith in Vegas, I do... and my actions have proven it.
+AAD00101411	[FAILED] Words are not enough to bear the weight of your flag - if you follow anything at all.
+AAD00101412	Speeches are things of NCR, words without strength. Your actions have shown nothing. Your flag will burn. The Mojave will follow.
+AAD00101413	[NCR] You might not believe in nations. I do.
+AAD00101414	[FAILED] You came from the West, walked there. You carry its sickness East to the Legion - and do not believe their cause enough to honor them.
+AAD00101415	What I give the Legion is a swifter death than the disease you bring. You have not the strength to bear a Legion standard.
+AAD00101416	[Legion] You might not believe in nations. I do.
+AAD00101417	[FAILED] You serve Vegas ghosts, not the tribes Vegas devoured. House is not the people of Vegas - you have walked the Strip, yet have seen nothing.
+AAD00101418	Your carelessness for the paths you walk - it has destroyed the city you serve. NCR will burn. Then the walls of Vegas will follow.
+AAD00101419	[Vegas] You might not believe in nations. I do.
+AAD00101420	[FAILED] Yet you follow nothing at all.
+AAD00101421	You have walked the Mojave, let the shadow of flags fall upon you, yet walk carelessly, no allegiance. Your words - empty as your actions.
+AAD00101422	[Rep] You might not believe in nations. I do.
+AAD00101423	If you speak for the two-headed Bear, I'll hear your words. Even if I will be the only one to hear them.
+AAD00101424	If you believe it should not die this day... then answer me why.
+AAD00101425	If you feel I do not know the Legion's strength - then I will listen.
+AAD00101426	If the ghosts of Vegas have come from behind their wall to speak for the West, I'll hear their words.
+AAD00101427	If you believe that Vegas does not deserve to die as the Bear does... then answer me why.
+AAD00101428	What makes you think this leads home?
+AAD00101429	All roads lead back to one's home. Not your birthplace maybe, but home.
+AAD00101430	This road leads nowhere. There's nothing in the Divide.
+AAD00101431	Many in the Mojave think the Divide's nothing but canyon and storm. Wasn't always.
+AAD00101432	There was life, a town, farther West... not talking about an Old World town like Hopeville... more recent. Something you saw in your lifetime.
+AAD00101433	It had the name "the Divide," too. But rather than cracks in the earth, it was a road from the West into the Mojave, a supply line.
+AAD00101434	Took a Courier to make that road. You. Back then, you saw the road with eyes facing East. This time... the Divide's in the other direction.
+AAD00101435	And if your eyes try to make sense of it when you reach it... home's not what it was.
+AAD00101436	You're not taking ED-E from me.
+AAD00101437	If you think you can take it from me, try.
+AAD00101438	The machine you brought is mine now, it's coming home. I'll reduce it to parts, just enough to function, to be aware of what's happening.
+AAD00101439	ED-E's not going anywhere.
+AAD00101440	What? ED-E?
+AAD00101441	You gave it a name. What was it to you? Companion? Slave... weapon? All of that, nothing compared to its primary function.
+AAD00101442	If you bomb the West and East... is this how things should end?
+AAD00101443	[SUCCEEDED] History has proven this. Our history.
+AAD00101444	You seek to use your own crimes to prevent mine. There... is a strange honor in that. Perhaps the shadow of the Bull does walk with you.
+AAD00101445	The West, the East - they are not the Divide, and nothing you can do can prevent the missile's launch. Convincing me - changes nothing.
+AAD00101446	There is no honor in murder from a distance, NCR or Legion. You know this from the Divide.
+AAD00101447	[FAILED] You answer me with questions. Doubt. You were strong enough to come here - but not strong enough to speak for all the Legion.
+AAD00101448	This is the ending they deserve... a flag is a thing of the people that gather to it, as are all symbols.
+AAD00101449	You believe. Yet you do not see that killing a symbol with its own weapon carries justice of its own... just as it will when the East dies as well.
+AAD00101450	Vegas earned its right to survive, its people don't deserve what's about to happen.
+AAD00101451	[SUCCEEDED] History has proven this. Our history.
+AAD00101452	And you think that you have this strength? Enough to hold up NCR, long enough so that Vegas may live again?
+AAD00101453	Even if you speak for Vegas and its ghosts, nothing you can do can prevent the missile's launch. Convincing me - changes nothing.
+AAD00101454	You told me once I gave life to the Divide. I can do it again, and give life to Vegas.
+AAD00101455	[FAILED] No... your answer is not enough.
+AAD00101456	They deserve what comes. Vegas is born of the corrupt, the  blind, lost, that gather to it. Without them... it would fall dark.
+AAD00101457	You believe. Yet... you have been blinded by the wrong symbol. Let its light give you what strength it can... today marks its end.
+AAD00101458	There still might be a way out of this - I just need time.
+AAD00101459	We've already handled everything it can throw at us.
+AAD00101460	The Divide? What do you mean?
+AAD00101461	Our enemies gather outside... shadows of the Bear and Bull... they will have found their way in, just as you did.
+AAD00101462	It was always my intention - in case I could not kill you, the Marked Men would flood this place, cut off your escape.
+AAD00101463	If we cannot prevent what comes, then let us make our stand here. Two Couriers, together, at the Divide.
+AAD00101464	Even if the missiles launch, and I die here  - if I can convince you, that's enough for me.
+AAD00101465	It is... enough.
+AAD00101466	I believe that one person can make... or break... a nation. You already know this.
+AAD00101467	It may be... that as much destruction has been written in the earth here... you may build something else, as you built the Divide.
+AAD00101468	You have spoken truly. There is a shadow of a nation behind you, the hope of a people... yet it may not matter. The Divide still stands against us.
+AAD00101469	Well, I just said all that because I'm betting you have some way to stop all this.
+AAD00101470	So... you resort to trickery. You were hoping that you could deceive me, reveal that somehow I can stop all this.
+AAD00101471	Fire will rain on the West and the East, as intended, and the last words of the messenger of the Bull - nothing but lies.
+AAD00101472	The West will burn, as intended, and Vegas will follow. The last words of its messenger, were not for the people of the city, but lies and deceit.
+AAD00101473	Your nation will burn, as intended, and the last words of its messenger, were not for its people, but to beg for mercy.
+AAD00101474	Because it should be given a chance? Its people don't deserve what's about to happen.
+AAD00101475	[SUCCEEDED] History has proven this. Our history.
+AAD00101476	And you think that you have this strength? Enough for all of NCR?
+AAD00101477	The West is not the Divide, and nothing you can do can prevent the missile's launch. Convincing me - changes nothing.
+AAD00101478	One can build a community, make it stronger. You saw it at the Divide, even blamed me for it.
+AAD00101479	[FAILED] No... your answer is not enough.
+AAD00101480	They deserve what comes... and should answer for it, as you should. The Bear is a thing of the people that gather to it, as are all symbols.
+AAD00101481	You believe. Yet... you believe in the wrong symbol. Let it give you what strength it can... soon, it will be no more.
+AAD00101482	Do you think I care if you fire missiles at NCR? Go ahead.
+AAD00101483	You destroyed your own homeland. Seeing a nation burn? Didn't think that would matter any more to you.
+AAD00101484	There's a strength in that... lack of attachment. Still, you're here now. If there's no more answers you want, then we'll end this.
+AAD00101485	You can't destroy the West, even with all the missiles here.
+AAD00101486	No need to destroy the Bear, just cut its throat.
+AAD00101487	You taught me that at the Divide - only need to cut off the supply line, the road, to watch something greater die.
+AAD00101488	I'll turn the Long 15 into miles of fire, cut off the Mojave. NCR will fall back, lose Hoover Dam... and leave their throats exposed to the Legion.
+AAD00101489	< Topic Storage: End Sequence with Ulysses in Temple. Do not translate. >
+AAD00101490	And knowing that you believe in the Bear's sickness and have given it strength... then that gives more reason to lay waste to your homeland.
+AAD00101491	The sickness of the Bear already lies within you, even if you uphold the East. If there were time, I would let you kill the Legion.
+AAD00101492	But no, the Legion will burn as well. Without the West to challenge it... its shore will be closer than before. It will feed on itself, die.
+AAD00101493	Without NCR to support it, Vegas will fall to the Legion. That grave of lights, back to dust and ghosts, as was meant.
+AAD00101494	After this, only one flag will remain over the Mojave. Let that one fly, or destroy itself.
+AAD00101495	You don't see, listen - even when it's all around you, no matter if I nailed it into your head like a gift from Caesar.
+AAD00101496	You brought the Divide to life, Courier. You walked the road. Brought the Bear, then the Bull, brought me, following your tracks.
+AAD00101497	And when I saw the Divide you made, I saw a second chance, a new way of thinking. My world - no longer the East.
+AAD00101498	Then you brought the West in that package. Destroyed it all. Nearly killed me, flesh and spirit.
+AAD00101499	You destroyed something larger than the Bear, greater than the Bull. And even when you could have turned away, you brought it again, in that machine.
+AAD00101500	You destroyed a nation taking its first breath. A place that could have been my home. Now, I'll destroy yours.
+AAD00101501	This is between you and me, not anyone else.
+AAD00101502	No... the paths we've walked. The roads, and the flags above them, carry equal blame.
+AAD00101503	So, what - you intend to bomb the Mojave?
+AAD00101504	No, the West. The East. It doesn't matter - the death of either one kills the other, Vegas along with it. The West shall answer first.
+AAD00101505	No, not the Mojave. The West, all that's been built since America died. Same symbols as before the war, now a flag carried by a tribe of children.
+AAD00101506	You walked the West, didn't stay. You know the reason... the Bear grows without structure, follows a symbol without knowing its history.
+AAD00101507	What happened at the Divide, what I did, was an accident. What you're doing - it's madness.
+AAD00101508	No, now there is purpose. I believe you when you say you were... careless. The Divide... the Chip... the machine you brought here...
+AAD00101509	Many messages can be taken from that, intended or not. What I do now is an act of conviction.
+AAD00101510	If you blame me for the Divide, then let me answer for it, not others.
+AAD00101511	Blame you? No, learned from you. Both the weapon to kill a nation, and the strength to do it.
+AAD00101512	You showed me a road, a way to carry my message. You've already answered for what you've done. Now the flag you follow will answer for it.
+AAD00101513	Where is the package now?
+AAD00101514	Buried in the Divide. Part of it now.
+AAD00101515	Wherever it is, it's been silent... if it spoke again, we'd know.
+AAD00101516	Why would I have brought it here?
+AAD00101517	I've walked the East. You've walked the West, more than I have.
+AAD00101518	Circle Junction. Reno. Vault City. Word of you at Fort Aradesh... Fort Abandon. Even further West than that, Brahmin drives on the Big Circle.
+AAD00101519	Whatever you saw out there, wasn't enough to make you stay. Maybe the markings on the package reminded you of the road home.
+AAD00101520	This package... you said it had markings? What was it?
+AAD00101521	Machinery. Simple on the outside, computer parts. Inside... more complicated.
+AAD00101522	Was the only time I'd heard a machine speak in the Divide, the only machine with a voice.
+AAD00101523	This is revenge for nearly killing you, then.
+AAD00101524	Not the name I'd give it. Not the name the dead would give it.
+AAD00101525	Soldiers of the Bear died here... Legion died, too, my brothers. Still dying, both of them, all around us.
+AAD00101526	None of the people that lived here survived... yet all of the West and the East, they hold on as the Divide tears at them.
+AAD00101527	Revenge isn't the message I have for you. More than that... Courier.
+AAD00101528	So you blame me for this? An accident?
+AAD00101529	Blame? Accident? The names you hang on this... Courier... you carry death wherever you go, Mojave knows - or will.
+AAD00101530	I'll see you answer for this. The road doesn't end here, there's more to come, I swear to you.
+AAD00101531	If you saw this happen, then how did you survive?
+AAD00101532	Should've died there... but now that I know you live... the machines here... saved me. I was the only survivor, or thought I was.
+AAD00101533	Your package, the message inside, awoke medical machines... close to the one that shadows you... began to build themselves, then others.
+AAD00101534	They only take what parts they find in the Divide, never roam beyond it - can't even leave the silos without a human to shadow, like hounds.
+AAD00101535	Maybe they saw the flag on my jacket, thought I was of America. If so, history saved me. A sign.
+AAD00101536	This place was important to the Legion?
+AAD00101537	Why did NCR want to keep the route open?
+AAD00101538	What do you mean?
+AAD00101539	The Dam. That Old World Wall.
+AAD00101540	[NCR] NCR would have needed this supply line open to reinforce the Mojave - and Hoover Dam.
+AAD00101541	The Dam. That Old World Wall.
+AAD00101542	[Legion] The Legion would want to cut this road off if it had been a supply line to Hoover Dam.
+AAD00101543	The Dam. That Old World Wall.
+AAD00101544	The why of it. Hoover Dam.
+AAD00101545	The Bear, NCR, couldn't be allowed to reach it easily. Long 15... Canaan... both bad enough.
+AAD00101546	Kimball, Caesar, House... you'd think their whole world was that wall, cutting the Colorado. If I'd never laid eyes on it, never spoke of it...
+AAD00101547	...but once found, it was all Caesar could see. That, and the flag beyond it, another symbol, big enough to challenge him.
+AAD00101548	And the Divide, one of the roads to it - Legion was tasked with cutting that artery. If you can't kill the Bear in one stroke, bleed it, starve it.
+AAD00101549	That kind of murder... it's what any of the Legion would have done. Now... the Divide belongs to history.
+AAD00101550	Something wrong? You sound... mad... at my robot.
+AAD00101551	[SUCCEEDED] Hate? No. There's nothing to hate in metal... steel, gold. Or platinum.
+AAD00101552	Your machine... it's just a tool, made of wreckage of the Divide... all that was brought here.
+AAD00101553	You have a lot of hate for the robot with me. I can hear it in your voice.
+AAD00101554	[FAILED] When I speak in anger, Courier, you'll know it. Your machine? Worth no more hate than any other machine.
+AAD00101555	So you're saying I walked this road once from another direction - from West to East. To home.
+AAD00101556	I don't understand. What message?
+AAD00101557	The nations of the Mojave. Cracked and broken as the Divide... its people, the same.
+AAD00101558	I have walked at Caesar's command, across the East, into the West. Far enough to know Caesar's word did not drive me. Far enough to see the end.
+AAD00101559	You've seen it. No Courier, whatever their flag can ignore it. Why you didn't stay in the West. Why you wandered.
+AAD00101560	There is no future in the Bear or Bull. The Bear is diseased, barely clings to life.
+AAD00101561	And the Bull... when the Legion reaches the sea, it will turn on itself and die.
+AAD00101562	Killing one will end both. And you made me see how one could do it. Your ignorance, carelessness - can be used with a purpose.
+AAD00101563	If this is why you're angry, you've seen nothing yet.
+AAD00101564	So this is revenge, then. For destroying the Divide.
+AAD00101565	And that's why you want me dead.
+AAD00101566	My history isn't revenge, or hate. The road that brought us both here - isn't about that.
+AAD00101567	It's about the message you carried. The one in that package, whether you knew it or not.
+AAD00101568	The message that one can kill a nation. Can kill a symbol. And all that gather beneath its flag.
+AAD00101569	I don't blame you for the Divide. I blame you for what you made me see.
+AAD00101570	Now you will see what you brought to the Mojave, and that will be my message to you.
+AAD00101571	All things come to an end. If you put faith in something outside yourself, tough.
+AAD00101572	If you cared about the Divide, then I'm sorry for what happened here.
+AAD00101573	So you believed in this place. What it once was.
+AAD00101574	There was hope here, another chance. A new nation, stirring to life. A place I could have set my flag.
+AAD00101575	Not the America of old. But something larger than the tribes of the East, something larger than the houses of the West. Something better.
+AAD00101576	The Divide... could have bridged both, like Hoover Dam. Now like the Dam, it's too covered in blood to see what it could have been.
+AAD00101577	You gave life to this place. I followed your road here, saw the Divide. You led me here, so that I could see.
+AAD00101578	Then, you brought it to an end.
+AAD00101579	I'm glad this place burned... obviously, it meant something to you, which makes it even better.
+AAD00101580	You think I'm responsible for this. My question is what your tie to this place is.
+AAD00101581	If you blame me for what happened here at the Divide - why do you care?
+AAD00101582	The community that was once here... and the package you brought... both had markings of the Divide. Markings of America.
+AAD00101583	You've seen the marks, the symbol. As early as the Hopeville silo, maybe. Carried it etched on your weapons.
+AAD00101584	The Divide, its buildings, its people, were built around those same markings, surrounded them here...
+AAD00101585	...markings like the flag on my back. When I followed your road to the Divide those years ago, I saw the symbol I wore all around me.
+AAD00101586	An Old World symbol. Strong, to survive here - its people, strong. Outlast the Bear, outlast the Bull. Promise of something better.
+AAD00101587	Caesar was right to want it dead. NCR was right to want to rake their claws in it.
+AAD00101588	Seeing it... changed me, just as seeing Hoover Dam changed Caesar and the NCR.
+AAD00101589	Seeing it end changed me, too.
+AAD00101590	[Legion] Killing NCR, cutting off their supply line at the Divide serves Legion, as do we all.
+AAD00101591	Serves the Legion?
+AAD00101592	I carry no hatred for duty... if that's what this was. The Divide was more than that. Its people, more than that.
+AAD00101593	If you're Legion, are you angry because I destroyed the Divide supply line instead of you?
+AAD00101594	The supply line - the artery for the West? I have seen the blood of NCR at Legion hands many times.
+AAD00101595	I carry no hatred for duty... if that's what this was. The Divide was more than that. Its people, more than that.
+AAD00101596	Then what? Did the Divide explosion kill your family? Your wife - children?
+AAD00101597	[Legion] The dead? You mean your brothers in the Legion - our brothers.
+AAD00101598	The Legion who died here... they didn't deserve to die, like those that died in the fires of Boulder City... bombs, Hanlon's gifts.
+AAD00101599	Their deaths were mercy compared to those who still walk. Any who die beneath the flag of the Bull... their death should be in battle.
+AAD00101600	But no... the dead number more than my brothers.
+AAD00101601	[NCR] The dead? You mean the Republic troops who were here?
+AAD00101602	The soldiers of the Bear? They were dead already, their symbol... diseased. Deserved to die as my brothers did at Boulder City, mines, bombs.
+AAD00101603	I carry nothing for them. Their deaths here were a mercy - compared to the ones that still walk the Divide.
+AAD00101604	When you speak of the dead - you mean the Marked Men? The Legion and NCR?
+AAD00101605	The soldiers of the Bear? They were dead already, their symbol... diseased. Deserved to die as my brothers did at Boulder City, mines, bombs.
+AAD00101606	I carry nothing for them. Their deaths here were a mercy - compared to the ones that still walk the Divide.
+AAD00101607	As for my brothers in the Legion... they deserved to die in battle, as do all beneath the flag of the Bull.
+AAD00101608	But no... the dead number more than my brothers.
+AAD00101609	The Divide explosion... what, did I kill your family? Your wife - children?
+AAD00101610	My family? My tribe lives... its history? Died long ago, fell under the shadow of the Bull... consumed by another symbol.
+AAD00101611	No, this isn't about family - or any common blood. It's blood shared by acts, not by chance.
+AAD00101612	What happened here was an accident. Any anger you have, let it go.
+AAD00101613	So you're angry because I accidentally brought an explosive to the Divide?
+AAD00101614	Accident? Ignorance is a choice. The Chip - a choice.
+AAD00101615	As for anger... it is what I carry for the dead, and all that come here.
+AAD00101616	"The why of it?" You're the one who needs to answer that - why are you doing this?
+AAD00101617	Want to hear the answer of it. Not just history's answer... your answer for what happened here.
+AAD00101618	[Legion] I'll see that you answer for it.
+AAD00101619	Then Legion kills Legion. Farther you walk from the flag of the Bull, the more West creeps into you.
+AAD00101620	[Legion] I didn't side with the Legion until the Mojave.
+AAD00101621	I know that now. Doesn't change what was done. The Legion who died here.
+AAD00101622	Legion doesn't know your history. I do. They find out what happened here, how many of their own died... they'll want an answer.
+AAD00101623	What's so important about him?
+AAD00101624	What's inside that machine - that's all that mattered. All the machines here, made of wreckage from the Divide... and all that was brought here.
+AAD00101625	Inside its frame, it carries the message you brought here... and it'll do what it was programmed to do: whatever it can to get home.
+AAD00101626	The giants here will listen to it. I'll bring the Divide to your home, your nation. Let its flag burn, just like you let the Divide burn.
+AAD00101627	Big Mountain access code... Ulysses. Command override...
+AAD00101628	Navarro.
+AAD00101629	You want the robot? Why?
+AAD00101630	It's a messenger. Like us... and it shares our history.
+AAD00101631	If you feel its loss... remember you could have turned away at any time. Gone back home, and none of this would have happened.
+AAD00101632	But you had to make one last delivery, and that's why I knew you'd come, Courier. Couldn't stay away, it's who you are.
+AAD00101633	Maybe there's something similar to be said about that Old World flag on your back.
+AAD00101634	No, what it means is that what pieces survive can become worse than they were before.
+AAD00101635	It's proof that killing a symbol is going to be harder than you thought.
+AAD00101636	Back to symbols and history, then. Hard to kill... like Couriers.
+AAD00101637	You're saying when the meaning gets lost - that what happens here, can make things worse. Happened in the Mojave. Flags of the Bear and Bull.
+AAD00101638	So you carry two symbols then - the mark of America and the Twisted Hairs, neither dead.
+AAD00101639	Both... both survived, pieces of them. Remnants, nothing more.
+AAD00101640	But the Twisted Hairs survived, even after Caesar.
+AAD00101641	No, they didn't. They were ended, completely. Became part of history's march.
+AAD00101642	If you feel there is meaning in the White Legs taking the braids of my tribe... what they did... insult, not respect.
+AAD00101643	In the death of that history, another was born, and you grew to respect the White Legs.
+AAD00101644	Respect the White Legs? That tribe of jackals? Never.
+AAD00101645	In the log, you said they were shadows, in the way they wore their hair.
+AAD00101646	The braids I wore. They took that from me, thought it made them more like me, more willing to have Caesar listen.
+AAD00101647	They didn't know what the braids meant, the mark of my tribe before Caesar came... before Vulpes came for them at Dry Wells.
+AAD00101648	There was death in that meeting, even while Vulpes smiled - asked for our help against the other tribes.
+AAD00101649	All the while, they were looking to cast our history on the fire. And did. Another tribe, consumed by the Bull - nothing left.
+AAD00101650	You're wrong, and you led them to destroy your tribe at New Canaan.
+AAD00101651	I'm talking about the past, in the respect they showed you.
+AAD00101652	Respect...?
+AAD00101653	The White Legs might as well have been your people.
+AAD00101654	The White Legs? To even claim they were shadows of the Twisted Hairs...
+AAD00101655	No, whatever words you heard, they were not mine.
+AAD00101656	But your tribe was New Canaan.
+AAD00101657	New Canaan? My tribe?
+AAD00101658	Any symbol deserves a chance to defend itself, by words or acts - not... this.
+AAD00101659	As you defend it now?
+AAD00101660	It hasn't proven itself wrong. That's why the Legion and NCR conflict must continue. To test it.
+AAD00101661	Test it. As you test me? As if you believe there is some other road here.
+AAD00101662	Nothing can prevent what comes. The missiles will launch. These questions - your words, or mine - what do they matter to you.
+AAD00101663	By your standards? Or history's?
+AAD00101664	Both. Why do you care.
+AAD00101665	You said in the logs yourself that technology's a dead road. These missiles will solve nothing.
+AAD00101666	Those are my words. After what happened with the Brotherhood... talking with them.
+AAD00101667	Then with the rulers of the Big Empty. But it is their philosophy that was flawed - their weapons, used with new perspective...
+AAD00101668	Those weapons can be used to kill a symbol that has already proven itself wrong.
+AAD00101669	If you believe the destruction of the Divide was just, then I cannot stop you.
+AAD00101670	Just? There was no justice in it, it was an act of carelessness, a coward. Killing an idea, before it had a chance...
+AAD00101671	I see your meaning. You're tying this to our history... but it is different. The symbol I destroy, it has already proven itself wrong.
+AAD00101672	Do you really think these missiles can kill everyone?
+AAD00101673	Kill them - no. The symbol they follow? Yes, as surely as you did at the Divide.
+AAD00101674	The question reminded the ones you spoke to of their purpose, why they cared.
+AAD00101675	I spoke those words in anger, and I did not expect an answer. All was lost... I thought it was the end.
+AAD00101676	Past their graves of failed technology, they had cared about the flag they had followed... and the people beneath it. Even with them dead and gone.
+AAD00101677	But there's no answer in that. I do this because I care, because I believe it must be done.
+AAD00101678	You were trapped, needed to escape, and needed the distraction. It was the key.
+AAD00101679	I never sought to escape. I went to them to get an answer or die.
+AAD00101680	It was all you could say to prevent from being killed. That's what I'm hoping for here.
+AAD00101681	When I asked that question, death was certain. I wasn't begging for mercy.
+AAD00101682	When all seemed lost, you asked it even though you feared the answer.
+AAD00101683	Fear? No. Anger.
+AAD00101684	If you've heard my words and that's all you've taken from them, then I was right to cast them aside.
+AAD00101685	If you ever had any ability to hear anything beyond your own footsteps... the Divide silenced it. Now, its voice will end you.
+AAD00101686	In the logs of the White Legs, you mentioned your tribe, and its past.
+AAD00101687	My tribe? That log... no, it concerned the White Legs, training them to kill. For Caesar.
+AAD00101688	There is no meaning there beyond the road to New Canaan. The history of the murder of its people. And Caesar's past.
+AAD00101689	"Who are you, who do not know your history?"
+AAD00101690	That question... either you walked the Big Empty... you found the last of the holotapes.
+AAD00101691	The words are mine. Whatever... "answer" you think they hold, you're wrong. It was a question, nothing more.
+AAD00101692	I'll let your words answer it, from the tapes you left along the road to the Divide.
+AAD00101693	My words? And what do my words teach you.
+AAD00101694	< Topic Storage: Player mentions holotapes at end. Do not translate. >
+AAD00101695	< Placeholder Node. Do Not Translate.>
+AAD00101696	I still don't understand - why are you doing this?
+AAD00101697	You've answered your own question. And you'll die with that question on your lips.
+AAD00101698	I believe destroying the symbol is never the answer. Changing it - that's something else.
+AAD00101699	It may be... that as much destruction has been written in the earth here...
+AAD00101700	One buried this place, yet it lived on between us. One may build it again - build others. Your history has proven this, here.
+AAD00101701	There is truth in your words. But even if there is hope in change... it may not matter. The Divide still stands against us.
+AAD00101702	If you meant to kill me, you should have done it long ago.
+AAD00101703	I believed in what I followed then. Kill no Courier, Caesar's words. I honored them.
+AAD00101704	Other Couriers could have been Legion - like me. Now, our allegiances are reversed.
+AAD00101705	[Legion] Being Frumentarii kept you from killing me in the past. You have no such defense now.
+AAD00101706	Not if you believe in what you follow. Kill no Courier, Caesar's words. I honored them.
+AAD00101707	Other Couriers could have been Legion - like me. The truth is, you serve nothing, believe nothing. Killing you... meaningless.
+AAD00101708	I want you to die knowing you're wrong, and that's what history will remember.
+AAD00101709	We fight over how we will be remembered, then.
+AAD00101710	No danger there. You skipped past where you build the community, moved onto killing one.
+AAD00101711	Nothing can prevent what comes. The missiles will launch. These questions - your words, or mine - what do they matter to you.
+AAD00101712	Don't even suggest we're equals. You couldn't have done this without me bringing you what you need.
+AAD00101713	You were tricked. Still, you take pride in it.
+AAD00101714	Then stop this, you can't truly believe what you're doing.
+AAD00101715	Look, just the fact we're talking should mean you don't want to do this.
+AAD00101716	No. You are wrong. Words will not bridge this.
+AAD00101717	The Divide survived in you. If it felt like something fighting for, you can rebuild it.
+AAD00101718	Nothing can prevent what comes. The missiles will launch. These questions - your words, or mine - what do they matter to you.
+AAD00101719	All you are is some echo of me, following my road, letting my history dictate yours.
+AAD00101720	Moral ground? What I did by accident, you're doing with purpose.
+AAD00101721	You're planning to kill a nation from a distance, just like NCR - just like you accused me of.
+AAD00101722	What do I care for your perspective. You walk blindly, foolishly into death, your own and others.
+AAD00101723	You do not rule my actions, and do not mistake my acts for yours.
+AAD00101724	If one Courier built a community, seems to me you can do the same.
+AAD00101725	You said a home is a place you breathe life into, a moment where you know who you are.
+AAD00101726	There is truth in that. History has proven it.
+AAD00101727	But Mojave's proof that no homeland is sacred... until the larger symbols are destroyed.
+AAD00101728	Whatever is built, the Bear, Bull... even Vegas... will tear it apart, convert it, either with purpose, or by accident.
+AAD00101729	"You can go home again, Courier." Not a message for me, for you.
+AAD00101730	My home in the East, Dry Wells, is no more. It is part of the Legion.
+AAD00101731	The only other home... the chance of a home... was what you built at the Divide. Then you destroyed it.
+AAD00101732	Nothing more to say, I've already won. Everything you hate about me, you've become.
+AAD00101733	If you seek to anger me, words won't be enough. Your moral ground is weak here in the Divide.
+AAD00101734	I don't have anything beyond words to change your mind. If you won't listen, it's over.
+AAD00101735	I don't think that's what's important here.
+AAD00101736	[SUCCEEDED] Our history... the Divide. That history has been written, its lessons learned.
+AAD00101737	There is nothing more to be dug from these cracks in the earth, no more fury to be torn from its sky.
+AAD00101738	I'm not talking about NCR or the Legion, I'm talking about our history.
+AAD00101739	[FAILED] If those are your last words, they are weak ones. Actions would have had more voice.
+AAD00101740	There is nothing more to be said between us. No words of yours will change what is about to happen.
+AAD00101741	The symbol you wear is dead, and you helped kill it. The question is - what will you do to fix it?
+AAD00101742	I believe the missiles can't be stopped. If you believe me, though, we might get through this.
+AAD00101743	If we must survive to carry its message... then that is what shall be done. I will not let America die here.
+AAD00101744	But... it may not matter. Even if we lay down our weapons, the Divide... it still stands against us.
+AAD00101745	You interrupted its journey West, trapped it. If any part of America survived, it's cut off now.
+AAD00101746	The package I brought was from Navarro, the Divide scanned ED-E's logs from the Mojave.
+AAD00101747	What do you seek to gain by telling me this. If you think that the symbol I wear is a weakness...
+AAD00101748	The Eyebot was a courier, sent to the West, to make contact with the remnants of America.
+AAD00101749	Its logs tell of a place where America survived... may still exist. And it's falling apart.
+AAD00101750	You lie. There was only one message in the machine, only one message in the package you brought.
+AAD00101751	The Divide bore the symbol of America... as did the package from Navarro. The origins of the machine is... of no importance.
+AAD00101752	It has history inside it. The logs of what's left of "America."
+AAD00101753	There is nothing inside the machine except the means to awaken the missiles in the Divide. That is its only message.
+AAD00101754	If my words won't change your mind, what about the messages in the Eyebot?
+AAD00101755	The machine made from the parts of Navarro? It had only one message in its core - to get home, at any cost.
+AAD00101756	It echoes its master... and soon the missiles here will as well.
+AAD00101757	At least I don't hide behind a machine like a coward.
+AAD00101758	Machines... bombs, things of NCR, are your tools, not mine. When we meet, this machine won't keep me from you.
+AAD00101759	Keep talking like that, I'll see you dead.
+AAD00101760	You already tried once, won't give you another chance.
+AAD00101761	Sounds like the idea of a woman in the Legion surprises you.
+AAD00101762	You said "brothers" before. So - you're Legion, too.
+AAD00101763	You mentioned "casting off my disguise?" What do you mean?
+AAD00101764	I'm no traitor, and when I walk, I don't hide my presence.
+AAD00101765	Legion wears many colors, East and West. You... maybe blinded by Vegas's light, or the promise of that Chip.
+AAD00101766	Or maybe you walked so far West, the Bear's sickness crept into you. We'll see. Your offenses before Caesar, the least of the crimes here.
+AAD00101767	[Legion] You said you'd sworn not to kill me. If you're Legion, why are we at odds?
+AAD00101768	You struck first. Not just at me... at the Legion. Or so I thought. Not sure of the history of it now.
+AAD00101769	Whatever flag you follow, or followed then... either way, you got too much of the Bear's sickness in you to live. Divide's proof of that.
+AAD00101770	Want more than that, walk the road. Answers'll come, closer you get to home... you and that machine.
+AAD00101771	[Legion] Legion doesn't kill Legion. Caesar's orders?
+AAD00101772	What kind of world would this be if Courier killed Courier.
+AAD00101773	You've got enough distance ahead of you - save your breath for the road, don't waste it on words.
+AAD00101774	[Legion] Legion does not kill Legion - but you're not that anymore. I'm going to kill you.
+AAD00101775	If that's all that drives you, it won't last. The Legion... it won't last either.
+AAD00101776	[Legion] So... when you called me traitor in Hopeville, that title belongs to you.
+AAD00101777	No, it is a title you earned. Legion or not, you have betrayed more than you know.
+AAD00101778	[Legion] Seeing this place. It meant more to you than the Legion?
+AAD00101779	Yes. And it did to you once, I'm sure of it.
+AAD00101780	[Legion] Are you angry that this explosion undermined the Legion's plans? It was an accident.
+AAD00101781	Accident? Ignorance is a choice. The Chip - a choice.
+AAD00101782	As for anger... it is what I carry for the dead, and all that come here.
+AAD00101783	[Legion] If I destroyed the NCR in this place, why do you care?
+AAD00101784	Legion died here as well. What you did... that's not all that cuts at me.
+AAD00101785	Is this how it must end between us? You followed the East once, you can do so again.
+AAD00101786	I cannot go back. I wandered too far, far enough to know my home was lost to me.
+AAD00101787	I could no more go back than you could return to the West. To NCR, and all its sickness.
+AAD00101788	I don't care what happens to NCR, but I can't allow you to harm the Legion.
+AAD00101789	Not all the East will burn. The Legion does not need to be destroyed, only... contained within new borders.
+AAD00101790	After that, it will fall as any culture bred on war, on forward momentum. It will falter, collapse.
+AAD00101791	I will start with their camp at Dry Wells... once my homeland. Justice of a sort.
+AAD00101792	The Legion doesn't abide traitors. What made you turn from the East?
+AAD00101793	Even after the road you've walked, you only see a traitor before you.
+AAD00101794	I know one person can break a nation. Legion tests nations, strengthens them - let it do so.
+AAD00101795	I'm heading back to the Mojave to settle some things.
+AAD00101796	I'm heading back to the Mojave to settle some things.
