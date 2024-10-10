@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>jfader</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>00172A26</ID>
+    <EDID>VPreorderTribalSCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>ScriptName VPreorderTribalSCRIPT
+
+BEGIN GameMode
+	if (VDLCPackQuest.bTribalItemsGiven == 0)
+		ShowMessage PreorderMessageInventoryTribal;
+		Player.AddItem PreordArmorTribalRaiding 1;
+		Player.AddItem WeapNVThrowingSpear 10;
+		Player.AddItem WeapPreordMachete 1;
+		Player.AddItem BleakVenom 5;
+		set VDLCPackQuest.bTribalItemsGiven to 1;
+	endif
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>001735E2</ID>
+    <EDID>PreordArmorTribalRaiding</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tribal Raiding Armor</ORIGINAL>
+    <TRADUIT>部落掠夺者护甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>001735E5</ID>
+    <EDID>WeapPreordMachete</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Broad Machete</ORIGINAL>
+    <TRADUIT>宽刃大砍刀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>001674D2</ID>
+    <EDID>PreorderMessageInventoryTribal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Tribal Pack items added to inventory.</ORIGINAL>
+    <TRADUIT>部落包物品已加入物品栏。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>001674D2</ID>
+    <EDID>PreorderMessageInventoryTribal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tribal Pack</ORIGINAL>
+    <TRADUIT>部落包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
