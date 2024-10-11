@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>jfader</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>00172A24</ID>
+    <EDID>VPreorderMercenarySCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>ScriptName VPreorderMercenarySCRIPT
+
+BEGIN GameMode
+	if (VDLCPackQuest.bMercenaryItemsGiven == 0)
+		ShowMessage PreorderMessageInventoryMercenary;
+		Player.AddItem PreordArmorMetal 1;
+		Player.AddItem WeapPreordGrenadeRifle 1;
+		Player.AddItem Ammo40mmGrenade 20;
+		Player.AddItem NVDoctorBag 3;
+		Player.AddItem NVSuperStimpak 3;
+		set VDLCPackQuest.bMercenaryItemsGiven to 1;
+	endif
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>001735E1</ID>
+    <EDID>PreordArmorMetal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lightweight Metal Armor</ORIGINAL>
+    <TRADUIT>轻型金属护甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Medium
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>001735E4</ID>
+    <EDID>WeapPreordGrenadeRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary's Grenade Rifle</ORIGINAL>
+    <TRADUIT>雇佣兵的榴弹发射器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00174776</ID>
+    <EDID>PreorderMessageInventoryMercenary</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Mercenary Pack items added to inventory.</ORIGINAL>
+    <TRADUIT>“佣兵包”物品已添加到物品栏中。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00174776</ID>
+    <EDID>PreorderMessageInventoryMercenary</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Pack</ORIGINAL>
+    <TRADUIT>佣兵包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

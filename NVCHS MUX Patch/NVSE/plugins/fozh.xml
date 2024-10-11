@@ -10,105 +10,105 @@
 
 	<replacetext>
 	
-		<file target="Data/NVCHS/LR_dial_ja.txt" src="Data/NVCHS/LR_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/overwrite_ja.txt" src="Data/NVCHS/overwrite_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/HH_dial_ja.txt" src="Data/NVCHS/HH_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/Dead Money_dial_chs.txt" src="Data/NVCHS/Dead Money_dial_en.txt" type="2" priority="1"/>
-		<xml path="Data/NVCHS/FalloutNV_DIal.xml" priority="1" />
-		<file target="Data/NVCHS/YUPTTW_dial_chs.txt" src="Data/NVCHS/YUPTTW_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/owb_dial_chs.txt" src="Data/NVCHS/owb_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/fnv_eff_chs.txt" src="Data/NVCHS/fnv_eff_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/FIX_CN.txt" src="Data/NVCHS/FIX_EN.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/gamesetting_chs.txt" src="Data/NVCHS/gamesetting_en.txt" type="2" priority="-1"/>
-		<file target="Data/NVCHS/regular_en.txt" src="Data/NVCHS/regular_ch.txt" type="2" priority="-2"/>
+		<file target="Data/NVCHSDict/LR_dial_ja.txt" src="Data/NVCHSDict/LR_dial_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/overwrite_ja.txt" src="Data/NVCHSDict/overwrite_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/HH_dial_ja.txt" src="Data/NVCHSDict/HH_dial_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Dead Money_dial_chs.txt" src="Data/NVCHSDict/Dead Money_dial_en.txt" type="2" priority="1"/>
+		<xml path="Data/NVCHSDict/FalloutNV_DIal.xml" priority="1" />
+		<file target="Data/NVCHSDict/YUPTTW_dial_chs.txt" src="Data/NVCHSDict/YUPTTW_dial_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/owb_dial_chs.txt" src="Data/NVCHSDict/owb_dial_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/fnv_eff_chs.txt" src="Data/NVCHSDict/fnv_eff_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/FIX_CN.txt" src="Data/NVCHSDict/FIX_EN.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/gamesetting_chs.txt" src="Data/NVCHSDict/gamesetting_en.txt" type="2" priority="-1"/>
+		<file target="Data/NVCHSDict/regular_en.txt" src="Data/NVCHSDict/regular_ch.txt" type="2" priority="-2"/>
 
-		<xml path="Data/NVCHS/FalloutNV.xml"/>
-		<xml path="Data/NVCHS/YUPTTW.xml"/>
-		<xml path="Data/NVCHS/OldWorldBlues.xml"/>
-		<xml path="Data/NVCHS/LonesomeRoad.xml"/>
-		<xml path="Data/NVCHS/DeadMoney.xml"/>
-		<xml path="Data/NVCHS/CaravanPack.xml"/>
-		<xml path="Data/NVCHS/GunRunnersArsenal.xml"/>
-		<xml path="Data/NVCHS/Fallout3.xml"/>
-		<xml path="Data/NVCHS/ThePitt.xml"/>
-		<xml path="Data/NVCHS/Anchorage.xml"/>
-		<xml path="Data/NVCHS/BrokenSteel.xml"/>
-		<xml path="Data/NVCHS/ClassicPack.xml"/>
-		<xml path="Data/NVCHS/MercenaryPack.xml"/>
-		<xml path="Data/NVCHS/PointLookout.xml"/>
-		<xml path="Data/NVCHS/TaleOfTwoWastelands.xml"/>
-		<xml path="Data/NVCHS/Zeta.xml"/>
-		<xml path="Data/NVCHS/TribalPack.xml"/>
-		<xml path="Data/NVCHS/TLD_Travelers.xml"/>
-		<xml path="Data/NVCHS/ArmedToTheTeethNV.xml"/>
-		<xml path="Data/NVCHS/NewVegasBounties.xml"/>
-		<xml path="Data/NVCHS/NewVegasBountiesII.xml"/>
-		<xml path="Data/NVCHS/Russell.xml"/>
-		<xml path="Data/NVCHS/TheDeterrent.xml"/>
-		<xml path="Data/NVCHS/sawyerbatty.xml"/>
-		<xml path="Data/NVCHS/NewVegasBountiesIII.xml"/>
-		<xml path="Data/NVCHS/NVWillow.xml"/>
-		<xml path="Data/NVCHS/TheInheritance.xml"/>
-		<xml path="Data/NVCHS/Misc Gameplay Merge.xml"/>
-		<xml path="Data/NVCHS/Uncut Wasteland.xml"/>
-		<xml path="Data/NVCHS/MM Caravan Guard.xml"/>
-		<xml path="Data/NVCHS/domecity.xml"/>
-		<xml path="Data/NVCHS/SomeguySeries Revamped.xml"/>
-		<xml path="Data/NVCHS/havasublues.xml"/>
-		<xml path="Data/NVCHS/Haunted Casino.xml"/>
-		<xml path="Data/NVCHS/RaceToTheBottom.xml"/>
-		<xml path="Data/NVCHS/A World of Pain Revised.xml"/>
-		<xml path="Data/NVCHS/Alton, IL.xml"/>
-		<xml path="Data/NVCHS/TheHighDesert.xml"/>
-		<xml path="Data/NVCHS/DepthsOfDepravity.xml"/>
-		<xml path="Data/NVCHS/Eliza.xml"/>
-		<xml path="Data/NVCHS/Headhunting.xml"/>
-		<xml path="Data/NVCHS/KhanInitiation.xml"/>
-		<xml path="Data/NVCHS/NorthRoad.xml"/>
-		<xml path="Data/NVCHS/Radio_KOR.xml"/>
-		<xml path="Data/NVCHS/HonestHearts.xml"/>
+		<xml path="Data/NVCHSDict/FalloutNV.xml"/>
+		<xml path="Data/NVCHSDict/YUPTTW.xml"/>
+		<xml path="Data/NVCHSDict/OldWorldBlues.xml"/>
+		<xml path="Data/NVCHSDict/LonesomeRoad.xml"/>
+		<xml path="Data/NVCHSDict/DeadMoney.xml"/>
+		<xml path="Data/NVCHSDict/CaravanPack.xml"/>
+		<xml path="Data/NVCHSDict/GunRunnersArsenal.xml"/>
+		<xml path="Data/NVCHSDict/Fallout3.xml"/>
+		<xml path="Data/NVCHSDict/ThePitt.xml"/>
+		<xml path="Data/NVCHSDict/Anchorage.xml"/>
+		<xml path="Data/NVCHSDict/BrokenSteel.xml"/>
+		<xml path="Data/NVCHSDict/ClassicPack.xml"/>
+		<xml path="Data/NVCHSDict/MercenaryPack.xml"/>
+		<xml path="Data/NVCHSDict/PointLookout.xml"/>
+		<xml path="Data/NVCHSDict/TaleOfTwoWastelands.xml"/>
+		<xml path="Data/NVCHSDict/Zeta.xml"/>
+		<xml path="Data/NVCHSDict/TribalPack.xml"/>
+		<xml path="Data/NVCHSDict/TLD_Travelers.xml"/>
+		<xml path="Data/NVCHSDict/ArmedToTheTeethNV.xml"/>
+		<xml path="Data/NVCHSDict/NewVegasBounties.xml"/>
+		<xml path="Data/NVCHSDict/NewVegasBountiesII.xml"/>
+		<xml path="Data/NVCHSDict/Russell.xml"/>
+		<xml path="Data/NVCHSDict/TheDeterrent.xml"/>
+		<xml path="Data/NVCHSDict/sawyerbatty.xml"/>
+		<xml path="Data/NVCHSDict/NewVegasBountiesIII.xml"/>
+		<xml path="Data/NVCHSDict/NVWillow.xml"/>
+		<xml path="Data/NVCHSDict/TheInheritance.xml"/>
+		<xml path="Data/NVCHSDict/Misc Gameplay Merge.xml"/>
+		<xml path="Data/NVCHSDict/Uncut Wasteland.xml"/>
+		<xml path="Data/NVCHSDict/MM Caravan Guard.xml"/>
+		<xml path="Data/NVCHSDict/domecity.xml"/>
+		<xml path="Data/NVCHSDict/SomeguySeries Revamped.xml"/>
+		<xml path="Data/NVCHSDict/havasublues.xml"/>
+		<xml path="Data/NVCHSDict/Haunted Casino.xml"/>
+		<xml path="Data/NVCHSDict/RaceToTheBottom.xml"/>
+		<xml path="Data/NVCHSDict/A World of Pain Revised.xml"/>
+		<xml path="Data/NVCHSDict/Alton, IL.xml"/>
+		<xml path="Data/NVCHSDict/TheHighDesert.xml"/>
+		<xml path="Data/NVCHSDict/DepthsOfDepravity.xml"/>
+		<xml path="Data/NVCHSDict/Eliza.xml"/>
+		<xml path="Data/NVCHSDict/Headhunting.xml"/>
+		<xml path="Data/NVCHSDict/KhanInitiation.xml"/>
+		<xml path="Data/NVCHSDict/NorthRoad.xml"/>
+		<xml path="Data/NVCHSDict/Radio_KOR.xml"/>
+		<xml path="Data/NVCHSDict/HonestHearts.xml"/>
 		<!-- Zion trail! -->
-		<xml path="Data/NVCHS/ZionTrail.xml"/>
-		<xml path="Data/NVCHS/ZionTrailTweaks.xml"/>
-		<file target="Data/NVCHS/ziontweak_note_ja.txt" src="Data/NVCHS/ziontweak_note_en.txt" type="2" priority="1"/>
-		<xml path="Data/NVCHS/YetAnotherZionTrailTweaks.xml"/>
-		<xml path="Data/NVCHS/ZionTrail-NV.xml"/>
+		<xml path="Data/NVCHSDict/ZionTrail.xml"/>
+		<xml path="Data/NVCHSDict/ZionTrailTweaks.xml"/>
+		<file target="Data/NVCHSDict/ziontweak_note_ja.txt" src="Data/NVCHSDict/ziontweak_note_en.txt" type="2" priority="1"/>
+		<xml path="Data/NVCHSDict/YetAnotherZionTrailTweaks.xml"/>
+		<xml path="Data/NVCHSDict/ZionTrail-NV.xml"/>
 		<!-- MCM -->
-		<xml path="Data/NVCHS/JustAssortedMods.xml"/>
+		<xml path="Data/NVCHSDict/JustAssortedMods.xml"/>
 		<!-- Radio -->
-		<xml path="Data/NVCHS/LegionRadio.xml"/>
+		<xml path="Data/NVCHSDict/LegionRadio.xml"/>
 		<!-- lstewie -->
-		<file target="Data/NVCHS/STEWIE_CN.txt" src="Data/NVCHS/STEWIE_E.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/STEWIE_CN.txt" src="Data/NVCHSDict/STEWIE_E.txt" type="2" priority="0"/>
 		<!-- Fallout3 -->
-		<file target="Data/NVCHS/fallout3_chs.txt" src="Data/NVCHS/fallout3_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHS/fo3map_chs.txt" src="Data/NVCHS/fo3map_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/fallout3_chs.txt" src="Data/NVCHSDict/fallout3_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/fo3map_chs.txt" src="Data/NVCHSDict/fo3map_en.txt" type="2" priority="0"/>
 		<!-- 3DNPCFO3Bundle -->
-		<xml path="Data/NVCHS/quest/3DNPCFO3Bundle.xml"/>
-		<xml path="Data/NVCHS/quest/3DNPCFNVBundle.xml"/>
+		<xml path="Data/NVCHSDict/mods/3DNPCFO3Bundle.xml"/>
+		<xml path="Data/NVCHSDict/mods/3DNPCFNVBundle.xml"/>
 		<!-- A Trail of Crumbs -->
-		<xml path="Data/NVCHS/quest/A Trail of Crumbs.xml"/>
+		<xml path="Data/NVCHSDict/mods/A Trail of Crumbs.xml"/>
 		<!-- TweaksTTW -->
-		<xml path="Data/NVCHS/quest/TweaksTTW.xml"/>
-		<file target="Data/NVCHS/quest/TweaksTTW_chs.txt" src="Data/NVCHS/quest/TweaksTTW_en.txt" type="2" priority="1"/>
+		<xml path="Data/NVCHSDict/mods/TweaksTTW.xml"/>
+		<file target="Data/NVCHSDict/mods/TweaksTTW_chs.txt" src="Data/NVCHSDict/mods/TweaksTTW_en.txt" type="2" priority="1"/>
 		<!-- Rosa -->
-		<xml path="Data/NVCHS/quest/Rosa.xml"/>
+		<xml path="Data/NVCHSDict/mods/Rosa.xml"/>
 		<!-- TH3 -->
-		<file target="Data/NVCHS/DepthsOfDepravity_chs.txt" src="Data/NVCHS/DepthsOfDepravity_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/DepthsOfDepravity_chs.txt" src="Data/NVCHSDict/DepthsOfDepravity_en.txt" type="2" priority="1"/>
 		<!-- MOd -->
-		<xml path="Data/NVCHS/Player Vertibird.xml"/>
-		<xml path="Data/NVCHS/Point Lookout Reborn.xml"/>
-		<xml path="Data/NVCHS/GOTWTTW.xml"/>
-		<xml path="Data/NVCHS/AltStart.xml"/>
-		<xml path="Data/NVCHS/SevenGravesFromNow.xml"/>
-		<file target="Data/NVCHS/SevenGravesFromNow_CHS.TXT" src="Data/NVCHS/SevenGravesFromNow_EN.TXT" type="2" priority="1"/>
-		<file target="Data/NVCHS/theinheritage_chs.txt" src="Data/NVCHS/theinheritage_en.txt" type="2" priority="0"/>
-		<file target="Data/NVCHS/willow_chs.txt" src="Data/NVCHS/willow_en.txt" type="2" priority="0"/>
-		<xml path="Data/NVCHS/Sun.xml"/>
-		<xml path="Data/NVCHS/HitDrugsTTW.xml"/>
-		<xml path="Data/NVCHS/More Perks.xml"/>
-		<file target="Data/NVCHS/quicktrain_ch.txt" src="Data/NVCHS/quicktrain_en.txt" type="2" priority="0"/>
-		<file target="Data/NVCHS/MAPMO_ch.txt" src="Data/NVCHS/MAPMO_en.txt" type="2" priority="0"/>
-		<file target="Data/NVCHS/EnhancedMovement_ch.txt" src="Data/NVCHS/EnhancedMovement_en.txt" type="2" priority="0"/>
+		<xml path="Data/NVCHSDict/Player Vertibird.xml"/>
+		<xml path="Data/NVCHSDict/Point Lookout Reborn.xml"/>
+		<xml path="Data/NVCHSDict/GOTWTTW.xml"/>
+		<xml path="Data/NVCHSDict/AltStart.xml"/>
+		<xml path="Data/NVCHSDict/SevenGravesFromNow.xml"/>
+		<file target="Data/NVCHSDict/SevenGravesFromNow_CHS.TXT" src="Data/NVCHSDict/SevenGravesFromNow_EN.TXT" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/theinheritage_chs.txt" src="Data/NVCHSDict/theinheritage_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/willow_chs.txt" src="Data/NVCHSDict/willow_en.txt" type="2" priority="0"/>
+		<xml path="Data/NVCHSDict/Sun.xml"/>
+		<xml path="Data/NVCHSDict/HitDrugsTTW.xml"/>
+		<xml path="Data/NVCHSDict/More Perks.xml"/>
+		<file target="Data/NVCHSDict/quicktrain_ch.txt" src="Data/NVCHSDict/quicktrain_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/MAPMO_ch.txt" src="Data/NVCHSDict/MAPMO_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/EnhancedMovement_ch.txt" src="Data/NVCHSDict/EnhancedMovement_en.txt" type="2" priority="0"/>
 	</replacetext>
 
 	<fonts>

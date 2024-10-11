@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>jfader</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>00172A25</ID>
+    <EDID>VPreorderCaravanSCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>ScriptName VPreorderCaravanSCRIPT
+
+BEGIN GameMode
+	if (VDLCPackQuest.bCaravanItemsGiven == 0)
+		ShowMessage PreorderMessageInventoryCaravan;
+		Player.AddItem PreordArmorLeather 1;
+		Player.AddItem WeapPreordCaravanShotgun 1;
+		Player.AddItem Ammo20Ga 40
+		Player.AddItem NVRepairKit 4;
+		Player.AddItem WeapNVBinoculars 1;
+		set VDLCPackQuest.bCaravanItemsGiven to 1;
+	endif
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>001735E0</ID>
+    <EDID>PreordArmorLeather</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lightweight Leather Armor</ORIGINAL>
+    <TRADUIT>轻型皮甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>001735E3</ID>
+    <EDID>WeapPreordCaravanShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sturdy Caravan Shotgun</ORIGINAL>
+    <TRADUIT>加固的商队霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00174775</ID>
+    <EDID>PreorderMessageInventoryCaravan</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Caravan Pack items added to inventory.</ORIGINAL>
+    <TRADUIT>商队包物品已加入物品栏。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00174775</ID>
+    <EDID>PreorderMessageInventoryCaravan</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Caravan Pack</ORIGINAL>
+    <TRADUIT>商队包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

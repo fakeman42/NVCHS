@@ -1,0 +1,7417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Dj Mystro - Qolore7</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>SNAM</CHAMP>
+    <ORIGINAL>Lore-Friendly Revision of AWOP</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>06009938</ID>
+    <EDID>AWOLPFPGEQuestScript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn AWOLPFPGEQuestScript
+
+Begin GameMode
+
+	; If player is not at the end of the game then stop script execution until they reach the ending.
+    If VStoryState &lt; 60
+        Return    
+    
+	; NCR
+	Elseif VStoryState == 61
+	
+		AWOLPFiendToggle.Disable
+		AWOLPPowderGangerOutcastToggle.Disable
+		
+		If VStoryEventPrimm != 2
+			AWOLPPrimmPowderGangerToggle.Disable
+		Endif
+
+		If VFreeformSloan.bDeathclawLeadersDead
+			AWOLPSloanDeathclawToggle.Disable
+		Endif
+		
+		StopQuest AWOLPFPGEQuest
+		Return
+		
+	; Legion 
+	Elseif VStoryState == 62
+	
+		AWOLPFiendToggle.Disable
+		AWOLPPowderGangerOutcastToggle.Disable
+		
+		If VStoryEventPrimm != 2
+			AWOLPPrimmPowderGangerToggle.Disable
+		Endif
+
+		If VFreeformSloan.bDeathclawLeadersDead
+			AWOLPSloanDeathclawToggle.Disable
+		Endif
+		
+        StopQuest AWOLPFPGEQuest
+		Return
+	
+	; Mr. House
+	Elseif VStoryState == 63
+	
+		AWOLPFiendToggle.Disable
+		
+		If eval VStoryEventPrimm != 2 &amp;&amp; VStoryEventPrimmSheriff &gt; 0
+			AWOLPPrimmPowderGangerToggle.Disable
+		Endif
+		
+		StopQuest AWOLPFPGEQuest
+		Return
+		
+	; Yes Man
+	Elseif VStoryState &gt;= 64	
+		
+		; If Motor-Runner is dead then disable the Fiends.
+		If V03MotorRunnerREF.GetDead
+			AWOLPFiendToggle.Disable
+		Endif 
+
+		If eval VStoryEventPrimm != 2 &amp;&amp; VStoryEventPrimmSheriff &gt; 0
+			AWOLPPrimmPowderGangerToggle.Disable
+		Endif
+		
+		StopQuest AWOLPFPGEQuest
+    Endif    
+End</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0600993A</ID>
+    <EDID>AWOLPFPGEStartupQuestScript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn AWOLPFPGEStartupQuestScript
+
+Begin GameMode
+
+	StopQuest AWOLPFPGEStartupQuest
+	Return
+	
+End
+
+Begin MenuMode 4
+
+	StopQuest AWOLPFPGEStartupQuest
+	
+	If GetGameRestarted == 0
+		Return
+	Endif
+	
+	If IsModLoaded "Functional Post Game Ending.esm"
+		StartQuest AWOLPFPGEQuest
+	Endif
+End	</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>06018A86</ID>
+    <EDID>ELCave08RustyDoorSCRIPT</EDID>
+    <CHAMP>SCDA</CHAMP>
+    <ORIGINAL>Interface\Icons\Message Icons\glow_message_vaultboy_sad.dds|You are not strong enough to open this door!</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>MessageExAlt 4 "Interface\Icons\Message Icons\glow_message_vaultboy_sad.dds|You are not strong enough to open this door!"
+</COMMENTAIRE>
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>06018A86</ID>
+    <EDID>ELCave08RustyDoorSCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn ELCave08RustyDoorSCRIPT
+
+begin OnActivate
+
+	if (IsActionRef Player) &amp;&amp; (Player.GetAV Strength &gt;= 7)
+		Activate
+	else
+		MessageExAlt 4 "Interface\Icons\Message Icons\glow_message_vaultboy_sad.dds|You are not strong enough to open this door!"
+    endif
+end
+</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rick's Terminal</ORIGINAL>
+    <TRADUIT>瑞克的终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Rick's terminal - Keep out Emily!</ORIGINAL>
+    <TRADUIT>瑞克的终端机 - 远离艾米莉!</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Rick's Diary 01</ORIGINAL>
+    <TRADUIT>瑞克的日记01</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Rick's Diary 02</ORIGINAL>
+    <TRADUIT>瑞克的日记02</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Rick's Diary 03</ORIGINAL>
+    <TRADUIT>瑞克的日记03</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Rick's Diary 04</ORIGINAL>
+    <TRADUIT>瑞克的日记04</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06010BDA</ID>
+    <EDID>AWOPJSDTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Unknown User Entry 01</ORIGINAL>
+    <TRADUIT>未知用户登入01</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06019775</ID>
+    <EDID>AWOPSunnytimeTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunnytime Terminal</ORIGINAL>
+    <TRADUIT>阳光时代终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06019775</ID>
+    <EDID>AWOPSunnytimeTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Sunnytime Cigarettes Regional Manager Terminal</ORIGINAL>
+    <TRADUIT>阳光时代香烟区域经理终端</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06019775</ID>
+    <EDID>AWOPSunnytimeTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Sunnytime Note</ORIGINAL>
+    <TRADUIT>阳光时代笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Monitoring Station Terminal</ORIGINAL>
+    <TRADUIT>监测站终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Vault-Tec Vault Monitoring Station NV03
+
+&gt;\ Welcome, USER
+</ORIGINAL>
+    <TRADUIT>避难所科技 避难所监测站 NV03
+
+&gt;\ 欢迎, 用户</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>EMAIL Outbox 20/06/77 09.13</ORIGINAL>
+    <TRADUIT>邮件 发件箱 20/06/77 09.13</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>EMAIL Inbox 20/10/77 18.44</ORIGINAL>
+    <TRADUIT>邮件 收件箱 20/10/77 18.44</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>EMAIL Outbox 20/10/77 19.20</ORIGINAL>
+    <TRADUIT>邮件 发件箱 20/10/77 19.20</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>EMAIL Outbox 21/10/77 00.17</ORIGINAL>
+    <TRADUIT>邮件 发件箱 21/10/77 00.17</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>060369D6</ID>
+    <EDID>AWOPVaultMonitorStationTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Unknown User Entry 21/09/81 15.36</ORIGINAL>
+    <TRADUIT>未知用户登入 21/09/81 15.36</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0603B5B8</ID>
+    <EDID>AWOPRRFTerminal01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Research Terminal 01</ORIGINAL>
+    <TRADUIT>研究终端01</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0603B5B8</ID>
+    <EDID>AWOPRRFTerminal01</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Neveda Radiological Research Facility Data Terminal.
+Property of Butch Henderson</ORIGINAL>
+    <TRADUIT>内华达放射研究设施数据终端。
+
+布奇 亨德森的财产</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0603B5B8</ID>
+    <EDID>AWOPRRFTerminal01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Butch's Diary 01</ORIGINAL>
+    <TRADUIT>布奇的日记01</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0603B5B8</ID>
+    <EDID>AWOPRRFTerminal01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Butch's Diary 02</ORIGINAL>
+    <TRADUIT>布奇的日记02</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06076A61</ID>
+    <EDID>AWOPSearchlightShelterTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Bunker Terminal</ORIGINAL>
+    <TRADUIT>探照灯地堡终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06076A61</ID>
+    <EDID>AWOPSearchlightShelterTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Searchlight Church Bunker.
+Father Polavo's Terminal.</ORIGINAL>
+    <TRADUIT>探照灯教堂地堡。
+
+波拉沃神父的终端机。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06076A61</ID>
+    <EDID>AWOPSearchlightShelterTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Searchlight Bunker Note</ORIGINAL>
+    <TRADUIT>探照灯地堡笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06081F5A</ID>
+    <EDID>AWOPDentonsTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Denton's Terminal</ORIGINAL>
+    <TRADUIT>丹顿的终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06081F5A</ID>
+    <EDID>AWOPDentonsTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Denton's Note</ORIGINAL>
+    <TRADUIT>丹顿的笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Captain's Terminal</ORIGINAL>
+    <TRADUIT>NCR上尉的终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>NCR Mojave Bunker Outpost.
+Welcome, Captain Petro.</ORIGINAL>
+    <TRADUIT>NCR莫哈韦地堡前哨。
+
+欢迎，佩特罗上尉。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>INBOX - Squad Testing 21/12/80</ORIGINAL>
+    <TRADUIT>收件箱 - 小队测试 21/12/80</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>OUTBOX - Potential Candidates 21/12/80</ORIGINAL>
+    <TRADUIT>发件箱 - 潜在候选人 21/12/80</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>INBOX - Squad Testing 07/01/81</ORIGINAL>
+    <TRADUIT>收件箱 - 小队测试 07/01/81</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>INBOX - X13 MIA 17/09/81</ORIGINAL>
+    <TRADUIT>收件箱 - X13 MIA 17/09/81</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>showmap REFRailwayStationMapMarker</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>06098460</ID>
+    <EDID>AWOPNCRBunkerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>INBOX - URGENT! RESPOND! 19/09/81</ORIGINAL>
+    <TRADUIT>收件箱 - 紧 急 ! 回 应 ! 19/09/81</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609A267</ID>
+    <EDID>AWOPPitStopGamerTerm01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Johnny's Terminal</ORIGINAL>
+    <TRADUIT>强尼的终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609A267</ID>
+    <EDID>AWOPPitStopGamerTerm01</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Property of Johnny Limes
+Hyper-Real Project
+Lead Designer
+</ORIGINAL>
+    <TRADUIT>强尼 利姆斯的财产
+
+超现实项目
+
+首席设计师</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609A267</ID>
+    <EDID>AWOPPitStopGamerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>INBOX - Hyper-Reality or Reality?</ORIGINAL>
+    <TRADUIT>收件箱 - 超-现实还是现实?</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609A267</ID>
+    <EDID>AWOPPitStopGamerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>OUTBOX - 100 Year Celebrations</ORIGINAL>
+    <TRADUIT>发件箱 - 100年庆祝</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609A267</ID>
+    <EDID>AWOPPitStopGamerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>OUTBOX - Power Failiure</ORIGINAL>
+    <TRADUIT>发件箱 - 电力故障</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609A267</ID>
+    <EDID>AWOPPitStopGamerTerm01</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>INBOX - Rescue</ORIGINAL>
+    <TRADUIT>收件箱 - 营救</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609AAA7</ID>
+    <EDID>AWOPSearchlightNCRTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight NCR Terminal</ORIGINAL>
+    <TRADUIT>探照灯NCR终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609AAA7</ID>
+    <EDID>AWOPSearchlightNCRTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>NCR Searchlight Bunker Outpost
+Communications Terminal.
+Welcome, Sergeant Ranovich.</ORIGINAL>
+    <TRADUIT>NCR探照灯地堡前哨
+
+通信终端机。
+
+欢迎，拉诺维奇中士。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609AAA7</ID>
+    <EDID>AWOPSearchlightNCRTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Ranovich's Log 21-07-81</ORIGINAL>
+    <TRADUIT>拉诺维奇的日志 21-07-81</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609AAA7</ID>
+    <EDID>AWOPSearchlightNCRTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Ranovich's Log 25-07-81</ORIGINAL>
+    <TRADUIT>拉诺维奇的日志 25-07-81</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0609AAA7</ID>
+    <EDID>AWOPSearchlightNCRTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Ranovich's Log 30-07-81</ORIGINAL>
+    <TRADUIT>拉诺维奇的日志 30-07-81</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06000BD0</ID>
+    <EDID>AWOPCashRegisterLoaded</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cash Register</ORIGINAL>
+    <TRADUIT>收银机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06000C27</ID>
+    <EDID>AWOPLootSafeWallGen01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wall Safe</ORIGINAL>
+    <TRADUIT>壁嵌保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06000C2A</ID>
+    <EDID>AWOPLootAmmoBox127mm</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06001AE3</ID>
+    <EDID>AWOPLootSafeMilitary01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600311B</ID>
+    <EDID>AWOPLootAmmoBox20Ga</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06003A97</ID>
+    <EDID>AWOPKitchenCabinetMetal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kitchen Cabinet</ORIGINAL>
+    <TRADUIT>橱柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06003AB5</ID>
+    <EDID>AWOPLootAmmoBoxGenericLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06003DE1</ID>
+    <EDID>AWOPLootAmmoBox50MG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06004133</ID>
+    <EDID>AWOPLockerNSArmor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060058CA</ID>
+    <EDID>AWOPLootAmmoBox12GaLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06006695</ID>
+    <EDID>AWOPLootAmmoBox308Lots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060066C7</ID>
+    <EDID>AWOPAmmoCabinetMetal02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammo Cabinet</ORIGINAL>
+    <TRADUIT>弹药柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600896C</ID>
+    <EDID>AWOPssVendingMachineIrradiated</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vending Machine</ORIGINAL>
+    <TRADUIT>售货机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600899B</ID>
+    <EDID>AWOPLootSafeMilitary02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06008D72</ID>
+    <EDID>AWOPArmorCabinetMetal02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600A5CB</ID>
+    <EDID>AWOPMiscCabinetMetal01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Cabinet</ORIGINAL>
+    <TRADUIT>金属柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600A943</ID>
+    <EDID>AWOPLootAmmoBox556mmLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600A9B2</ID>
+    <EDID>AWOPEnclaveCrateCorpses</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Corpse Disposal Crate</ORIGINAL>
+    <TRADUIT>尸体处理箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600F6A5</ID>
+    <EDID>AWOPSuitCase01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Suitcase</ORIGINAL>
+    <TRADUIT>手提箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600FD63</ID>
+    <EDID>AWOPLootAmmoBoxShotgunShellsSlug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0600FD83</ID>
+    <EDID>AWOPArmorCabinetMetal05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06011A1D</ID>
+    <EDID>AWOPMiscCabinetMetal01DUPLICATE000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Cabinet</ORIGINAL>
+    <TRADUIT>金属柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06011A2A</ID>
+    <EDID>AWOPRefrigeratorEmpty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Refrigerator</ORIGINAL>
+    <TRADUIT>冰箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060139DB</ID>
+    <EDID>AWOPArmoCabinetMetal05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammo Cabinet</ORIGINAL>
+    <TRADUIT>弹药柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060139DD</ID>
+    <EDID>AWOPArmoCabinetMetal06</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammo Cabinet</ORIGINAL>
+    <TRADUIT>弹药柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06013A01</ID>
+    <EDID>AWOPLootAmmoBox22LRP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06013DC9</ID>
+    <EDID>AWOPFootlocker01MilitaryNV01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06013F97</ID>
+    <EDID>AWOPArmorCabinetMetal07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06014280</ID>
+    <EDID>AWOPLootSafeMilitary04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06017390</ID>
+    <EDID>AWOPLootAmmoBox12GSlugLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06017414</ID>
+    <EDID>AWOPLockerVaultR01Military02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060177C7</ID>
+    <EDID>AWOPLockerVaultR01Military03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060177C9</ID>
+    <EDID>AWOPLockerVaultR01Military04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06017B2D</ID>
+    <EDID>AWOPLootSafeMilitary05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06017B43</ID>
+    <EDID>AWOPGunCabinetMetalBRifles01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Cabinet</ORIGINAL>
+    <TRADUIT>枪柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0601B7BE</ID>
+    <EDID>AWOPLootAmmoBox5mmAP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0601B7C0</ID>
+    <EDID>AWOPLootAmmoBox556mmAP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0601B7C5</ID>
+    <EDID>AWOPLootAmmoBox9mmLOADS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0601E5C9</ID>
+    <EDID>AWOPLootAmmoBox4570</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06024983</ID>
+    <EDID>AWOPArmoCabinetMetal07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammo Cabinet</ORIGINAL>
+    <TRADUIT>弹药柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060254BB</ID>
+    <EDID>AWOPArmorCabinetMetal10</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0602782E</ID>
+    <EDID>AWOPEnclaveCrateContainerEmpty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0602EB8A</ID>
+    <EDID>AWOPLockerVaultR01Military05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0602F3B3</ID>
+    <EDID>AWOPLootSafeWallGen08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wall Safe</ORIGINAL>
+    <TRADUIT>壁嵌保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06032156</ID>
+    <EDID>AWOPBriefcase03ModsT2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Briefcase</ORIGINAL>
+    <TRADUIT>公事包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06037705</ID>
+    <EDID>AWOPArmorCabinetMetal14</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0603A1A9</ID>
+    <EDID>AWOPLockerCabinet02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cabinet</ORIGINAL>
+    <TRADUIT>橱柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0603A989</ID>
+    <EDID>AWOPWeaponCabinetMetal03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Weapon Cabinet</ORIGINAL>
+    <TRADUIT>武器柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0603A98B</ID>
+    <EDID>AWOPArmorCabinetMetal15</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060407A7</ID>
+    <EDID>AWOPLootFirstAidKitLow</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>First Aid Box</ORIGINAL>
+    <TRADUIT>急救箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060456ED</ID>
+    <EDID>AWOPLootAmmoBox10mmJHP16</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06049D64</ID>
+    <EDID>AWOPLootSafeMilitary17</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0604B0B6</ID>
+    <EDID>AWOPLootAmmoBox308AP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0604B0B7</ID>
+    <EDID>AWOPLootAmmoBox308HP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0604B0BB</ID>
+    <EDID>AWOPLootAmmoBox556mmHP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0604D511</ID>
+    <EDID>AWOPLootAmmoBox44MagnumSWC12</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0604D981</ID>
+    <EDID>AWOPLootAmmoBox10mmJHP32</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605180D</ID>
+    <EDID>AWOPLootAmmoBoxElectronChargePacksMC64</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605180E</ID>
+    <EDID>AWOPLootAmmoBoxElectronChargePacksOCLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06051813</ID>
+    <EDID>AWOPLootAmmoBoxMicroFusionCellsOCLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605181F</ID>
+    <EDID>AWOPLootGrenadeC4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plastic Explosives Box</ORIGINAL>
+    <TRADUIT>塑胶炸药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06059901</ID>
+    <EDID>AWOPArmorCabinetMetal24</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605CAC0</ID>
+    <EDID>AWOPLootAmmoBox50MGAP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0606047C</ID>
+    <EDID>AWOPNVGSMetalBox07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06060979</ID>
+    <EDID>AWOPNVGSMetalBox08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0606148E</ID>
+    <EDID>AWOPNVGSMetalBox09</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06064062</ID>
+    <EDID>AWOPArmoCabinetMetal15</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammo Cabinet</ORIGINAL>
+    <TRADUIT>弹药柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06064469</ID>
+    <EDID>AWOPNVGSMetalBox10</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0606449F</ID>
+    <EDID>AWOPNVGSMetalBox11</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060644A5</ID>
+    <EDID>AWOPSteamerTrunk03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Trunk</ORIGINAL>
+    <TRADUIT>行李箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0606935A</ID>
+    <EDID>AWOPLootAmmoBoxMicroFusionCellsLots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06069396</ID>
+    <EDID>AWOPSteamerTrunkFiend01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drop Box</ORIGINAL>
+    <TRADUIT>投递箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0606A90D</ID>
+    <EDID>AWOPEnclaveCrateContainerRQBringThePain</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06074239</ID>
+    <EDID>AWOPToolboxContainerModsT3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toolbox</ORIGINAL>
+    <TRADUIT>工具箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060748EC</ID>
+    <EDID>AWOPNVGSMetalBoxToysLow</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060748F1</ID>
+    <EDID>AWOPDumpsterToys01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dumpster</ORIGINAL>
+    <TRADUIT>垃圾箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060748F3</ID>
+    <EDID>AWOPNVGSMetalBoxToysLow02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06074CD3</ID>
+    <EDID>AWOPDeskOfficeWoodenStimpaks</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060758F9</ID>
+    <EDID>AWOPCrate12</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060762F5</ID>
+    <EDID>AWOPCrateShippingPowder01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0607670E</ID>
+    <EDID>AWOPLootSafeWallAW01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0607672E</ID>
+    <EDID>AWOPDeskOfficeMetalAW01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06076738</ID>
+    <EDID>AWOPDeskOfficeWoodenLockMag</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06076A77</ID>
+    <EDID>AWOPLootSafeMilitaryAWJarvis</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06076DCD</ID>
+    <EDID>AWOPBriefcaseSurvivalMagazine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Briefcase</ORIGINAL>
+    <TRADUIT>公事包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0607F8B0</ID>
+    <EDID>AWOPCrateGSAH01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0607F8B2</ID>
+    <EDID>AWOPCrateGSAH02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0607F8B6</ID>
+    <EDID>AWOPCrateGSAH04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06081EBC</ID>
+    <EDID>AWOPLootSafeMilitary32</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06081F05</ID>
+    <EDID>AWOPSteamerTrunk04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Trunk</ORIGINAL>
+    <TRADUIT>行李箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06081F43</ID>
+    <EDID>AWOPNVGSMetalBox13</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060852D8</ID>
+    <EDID>AWOPDeskOfficeCornerMetal44Cases</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06089AFE</ID>
+    <EDID>AWOPNukaVendingMachineEmpty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vending Machine</ORIGINAL>
+    <TRADUIT>售货机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06089E93</ID>
+    <EDID>AWOPCrateGSAH05PPowderBothx1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crate</ORIGINAL>
+    <TRADUIT>板条箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608C4CD</ID>
+    <EDID>AWOPNVGSMetalBoxCaveFungus4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E289</ID>
+    <EDID>AWOPEnclaveCrateContainerEmptyAWOPWCP</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Weapon Collection Port</ORIGINAL>
+    <TRADUIT>武器收集端口</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E958</ID>
+    <EDID>AWOPCrateShippingMedicalSupplies04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Medical Supplies</ORIGINAL>
+    <TRADUIT>医疗补给</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E9BE</ID>
+    <EDID>AWOPLootAmmoBoxCattleProds</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enclave Crate</ORIGINAL>
+    <TRADUIT>英克雷货箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E9C6</ID>
+    <EDID>AWOPLootAmmoBoxArmorEnclave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enclave Crate</ORIGINAL>
+    <TRADUIT>英克雷货箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E9D1</ID>
+    <EDID>AWOPLockerVaultR0144Revolver</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E9D5</ID>
+    <EDID>AWOPLockerVaultR01ModExtMags</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608E9EF</ID>
+    <EDID>AWOPDeskOfficeWoodenCases01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0608EA2A</ID>
+    <EDID>AWOPArmorCabinetMetal26</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armor Cabinet</ORIGINAL>
+    <TRADUIT>护甲柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06091029</ID>
+    <EDID>AWOPLockerVaultR01MilitaryAWOPRRFNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060947FF</ID>
+    <EDID>AWOPVLootWeapTier2AdventurerDuffleBagAWMods01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Adventurer's Pack</ORIGINAL>
+    <TRADUIT>冒险者的背包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06094810</ID>
+    <EDID>AWOPFootlocker01HouseholdFungus01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06094CE3</ID>
+    <EDID>AWOPRefrigeratorFrost01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Refrigerator</ORIGINAL>
+    <TRADUIT>冰箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06094CE9</ID>
+    <EDID>AWOPLootSafeMilitaryFrost01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06094CFC</ID>
+    <EDID>AWOPDeskOfficeWoodenFrost01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06096648</ID>
+    <EDID>AWOPLootAmmoBoxNVEmpty01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06097838</ID>
+    <EDID>AWOPLootAmmoBox556mmLowAPPrimers</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06097BC6</ID>
+    <EDID>AWOPLootAmmoBox556mmAPLow01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06097BD5</ID>
+    <EDID>AWOPToolboxContainerLow01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toolbox</ORIGINAL>
+    <TRADUIT>工具箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06097F3F</ID>
+    <EDID>AWOPLockerVaultR01AWOPPotatox3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06098555</ID>
+    <EDID>AWOPFootlocker01MilitaryNVSurvivalBook</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060988FB</ID>
+    <EDID>AWOPFootlockerDoctorsBag01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06098942</ID>
+    <EDID>AWOPLootAmmoBox556mmMixedLow01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06098964</ID>
+    <EDID>AWOPLootAmmoBox12GaMixedLow01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06098DDC</ID>
+    <EDID>AWOPFootlocker01FactoryModKitGunsT2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06098DE8</ID>
+    <EDID>AWOPToolboxContainerNipSewerKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toolbox</ORIGINAL>
+    <TRADUIT>工具箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06098EBF</ID>
+    <EDID>AWOPDeskOfficeWooden44CaseSteak</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06099200</ID>
+    <EDID>AWOPDeskWoodTop01ContainerTurbo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060998A9</ID>
+    <EDID>AWOPRefrigeratorWithLiquorLow01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Refrigerator</ORIGINAL>
+    <TRADUIT>冰箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06099DFD</ID>
+    <EDID>AWOPLootAmmoBoxMicroFusionCellsOCMed</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A214</ID>
+    <EDID>AWOPLockerVaultR01MilitaryMisc01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A23D</ID>
+    <EDID>AWOPRefrigeratorWithFoodRatMeatx3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Refrigerator</ORIGINAL>
+    <TRADUIT>冰箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A55E</ID>
+    <EDID>AWOPVLootRNDDuffleBagNVNipSewerDead</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Duffle Bag</ORIGINAL>
+    <TRADUIT>行李袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A5B8</ID>
+    <EDID>AWOPLockerVaultR01FlourJalepx3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A5DA</ID>
+    <EDID>AWOPFilingCabinetJarvisNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Filing Cabinet</ORIGINAL>
+    <TRADUIT>档案柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A63D</ID>
+    <EDID>AWOPLootFootlockerMilitaryLockPrimmSewer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A679</ID>
+    <EDID>AWOPVLootRNDDuffleBagNVPrimmSewer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Duffle Bag</ORIGINAL>
+    <TRADUIT>行李袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A979</ID>
+    <EDID>AWOPBriefcaseOphthalmoscope</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Briefcase</ORIGINAL>
+    <TRADUIT>公事包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609A97F</ID>
+    <EDID>AWOPLocker01IrradiatedFood</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Locker</ORIGINAL>
+    <TRADUIT>置物柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609AA03</ID>
+    <EDID>AWOPBriefcaseIrradiatedWater</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Briefcase</ORIGINAL>
+    <TRADUIT>公事包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609ADE6</ID>
+    <EDID>AWOPDeskOfficeCornerMetalIrrScotch</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609AECE</ID>
+    <EDID>AWOPDeskOfficeCornerMetalSearchlight01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609AF5B</ID>
+    <EDID>AWOPDeskOfficeWooden127mmMixed</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609B682</ID>
+    <EDID>AWOPMetalBox01MetroIrrFood75</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Metal Box</ORIGINAL>
+    <TRADUIT>金属箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0609D870</ID>
+    <EDID>AWOPLootAmmoBoxNVGrenPlasma</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammunition Box</ORIGINAL>
+    <TRADUIT>弹药箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060A0AC6</ID>
+    <EDID>AWOPDeskOfficeCornerMetalRiddlersNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desk</ORIGINAL>
+    <TRADUIT>书桌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DOOR</GRUP>
+    <ID>06009B30</ID>
+    <EDID>AWOPNVCGInvisibleCaveDoor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exit</ORIGINAL>
+    <TRADUIT>出口</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>22</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DOOR</GRUP>
+    <ID>0600E09F</ID>
+    <EDID>AWOPNVCGInvisibleCaveEntDoor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Entrance</ORIGINAL>
+    <TRADUIT>入口</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>22</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DOOR</GRUP>
+    <ID>06019075</ID>
+    <EDID>ELCave08RustyDoor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jammed Door</ORIGINAL>
+    <TRADUIT>卡住的门</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>22</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DOOR</GRUP>
+    <ID>0601E67C</ID>
+    <EDID>AWOPBrokenWindowDoor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Broken Window</ORIGINAL>
+    <TRADUIT>损坏的窗户</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>22</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FURN</GRUP>
+    <ID>06006F07</ID>
+    <EDID>AWOPGomorrahBed01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bed</ORIGINAL>
+    <TRADUIT>床</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06000BED</ID>
+    <EDID>AWOPRangerDEAD1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Ranger</ORIGINAL>
+    <TRADUIT>NCR游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06002809</ID>
+    <EDID>AWOPWastelanderDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06004878</ID>
+    <EDID>AWOPWastelanderDEADFrost</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Frost</ORIGINAL>
+    <TRADUIT>福雷斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06004BAB</ID>
+    <EDID>AWOPConvictSewerLeader</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Escaped Convict Leader</ORIGINAL>
+    <TRADUIT>逃犯首领</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : 040083D7
+Clas : 0400A679</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06006DF4</ID>
+    <EDID>AWOPPowderGangerDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Escaped Convict</ORIGINAL>
+    <TRADUIT>逃犯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06007103</ID>
+    <EDID>AWOPPowderGangerDEAD02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06007367</ID>
+    <EDID>AWOPWastelanderDEAD24</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wasteland Merchant</ORIGINAL>
+    <TRADUIT>废土商人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Asian Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060079BC</ID>
+    <EDID>AWOPWastelanderDEAD02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600902E</ID>
+    <EDID>AWOPV40DEAD05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson</ORIGINAL>
+    <TRADUIT>劳森</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060090A4</ID>
+    <EDID>AWOPScientistDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Scientist</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>98</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600938E</ID>
+    <EDID>AWOPScientistDEAD02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Scientist</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>98</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06009958</ID>
+    <EDID>AWOPGhoulScientistDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Scientist</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>98</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06009959</ID>
+    <EDID>AWOPGhoulAdventurerDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Adventurer</ORIGINAL>
+    <TRADUIT>尸鬼冒险家</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600ABA1</ID>
+    <EDID>AWOPV40DEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Squatter</ORIGINAL>
+    <TRADUIT>避难所侵占者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600ABA3</ID>
+    <EDID>AWOPV40DEAD02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Squatter</ORIGINAL>
+    <TRADUIT>避难所侵占者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : African American
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600ABA4</ID>
+    <EDID>AWOPV40DEAD03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Squatter</ORIGINAL>
+    <TRADUIT>避难所侵占者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600ABA5</ID>
+    <EDID>AWOPV40DEAD04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Squatter</ORIGINAL>
+    <TRADUIT>避难所侵占者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600AC1C</ID>
+    <EDID>AWOPV40DEAD05DUPLICATE000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Squatter</ORIGINAL>
+    <TRADUIT>避难所侵占者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600D462</ID>
+    <EDID>AWOPWastelanderDEAD10</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600D47E</ID>
+    <EDID>AWOPWastelanderDEAD11</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600EC3F</ID>
+    <EDID>AWOPPowderGangerDEAD05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600EC6B</ID>
+    <EDID>AWOPWastelanderDEAD12</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary</ORIGINAL>
+    <TRADUIT>雇佣兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Ghoul
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600EC6D</ID>
+    <EDID>AWOPWastelanderDEAD13</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary</ORIGINAL>
+    <TRADUIT>雇佣兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600EC6F</ID>
+    <EDID>AWOPWastelanderDEAD14</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Asian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600EC72</ID>
+    <EDID>AWOPWastelanderDEAD15</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary</ORIGINAL>
+    <TRADUIT>雇佣兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : African American Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600EFC3</ID>
+    <EDID>AWOPCannibalGanger01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger Outcast</ORIGINAL>
+    <TRADUIT>炸药帮放逐者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600F3A5</ID>
+    <EDID>AWOPNCRRangerVeteranDEAD</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranger Guerra</ORIGINAL>
+    <TRADUIT>游骑兵圭拉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600F3A6</ID>
+    <EDID>AWOPNCRRangerPatrolDEAD</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Ranger</ORIGINAL>
+    <TRADUIT>NCR游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0600F3A7</ID>
+    <EDID>AWOPNCRRangerPatrolDEAD2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Ranger</ORIGINAL>
+    <TRADUIT>NCR游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Hispanic
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060100CC</ID>
+    <EDID>AWOPWastelanderDEAD04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060100CD</ID>
+    <EDID>AWOPWastelanderDEAD05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : African American
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06010A4D</ID>
+    <EDID>AWOPCannibalGanger02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger Outcast</ORIGINAL>
+    <TRADUIT>炸药帮放逐者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060129FE</ID>
+    <EDID>AWOPPowderGangerDEAD04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06013DCD</ID>
+    <EDID>AWOPWastelanderDEAD07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : African American
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06013DD5</ID>
+    <EDID>AWOPJackalACDEAD</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jackal Gang Member</ORIGINAL>
+    <TRADUIT>豺狼帮成员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Wasteland Gunslinger</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06017ECE</ID>
+    <EDID>AWOPNCRRangerPatrolDEAD04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Ranger</ORIGINAL>
+    <TRADUIT>NCR游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06017ECF</ID>
+    <EDID>AWOPNCRTrooperDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06017ED0</ID>
+    <EDID>AWOPNCRTrooperDEAD02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : African American
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06017EF1</ID>
+    <EDID>AWOPCampSearchlightGhoul01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Trooper</ORIGINAL>
+    <TRADUIT>士兵尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06018426</ID>
+    <EDID>AWOPCannibalGanger03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger Outcast</ORIGINAL>
+    <TRADUIT>炸药帮放逐者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06018464</ID>
+    <EDID>AWOPCannibalGanger04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger Outcast</ORIGINAL>
+    <TRADUIT>炸药帮放逐者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0601A67D</ID>
+    <EDID>AWOPWastelanderDEAD23</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wasteland Adventurer</ORIGINAL>
+    <TRADUIT>废土冒险者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0601E6CC</ID>
+    <EDID>AWOPNCRTrooper1Dead01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06023F1F</ID>
+    <EDID>AWOPGHOULGunNutLv1404Weaker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06024A8F</ID>
+    <EDID>AWOPViperGangGunVex</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vex</ORIGINAL>
+    <TRADUIT>维克斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Wasteland Gunslinger</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0602503F</ID>
+    <EDID>AWOPWastelanderDEAD09</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06025042</ID>
+    <EDID>AWOPViperGangGunDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Viper Gunslinger</ORIGINAL>
+    <TRADUIT>毒蛇帮枪手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Wasteland Gunslinger</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06025A60</ID>
+    <EDID>AWOPWastelanderDEAD25</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603126E</ID>
+    <EDID>AWOPGHOULGunNutNCR01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031274</ID>
+    <EDID>AWOPGHOULGunNutLv0801</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031276</ID>
+    <EDID>AWOPGHOULGunNutLv1601</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060313D0</ID>
+    <EDID>AWOPGHOULGunNutLv1202</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031BD4</ID>
+    <EDID>AWOPGHOULGunNutLv1602</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031BD6</ID>
+    <EDID>AWOPGHOULGunNutLv1203</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031C4A</ID>
+    <EDID>AWOPGHOULGunNutLv1603</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031C4C</ID>
+    <EDID>AWOPGHOULGunNutLv1403</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06031C4E</ID>
+    <EDID>AWOPGHOULGunNutLv1204</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603289F</ID>
+    <EDID>AWOPRaider1RifleXCraze</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Craze</ORIGINAL>
+    <TRADUIT>克雷兹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603351A</ID>
+    <EDID>AWOPWastelanderDEAD23DUPLICATE000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastelander</ORIGINAL>
+    <TRADUIT>废土游民</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06038BA1</ID>
+    <EDID>AWOPGHOULGunNutLv12Kent</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kent</ORIGINAL>
+    <TRADUIT>肯特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06038BA2</ID>
+    <EDID>AWOPGHOULGunNutLv16Salvador</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Salvador</ORIGINAL>
+    <TRADUIT>萨尔瓦多</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603A9E3</ID>
+    <EDID>AWOPNCRTrooperDEAD06</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603A9E4</ID>
+    <EDID>AWOPNCRRangerPatrolDEAD05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603A9E9</ID>
+    <EDID>AWOPNCRTrooperDEAD07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603A9EA</ID>
+    <EDID>AWOPNCRTrooperDEAD08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0603A9F7</ID>
+    <EDID>AWOPNCRTrooperDEAD09</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Trooper</ORIGINAL>
+    <TRADUIT>NCR突击兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06064515</ID>
+    <EDID>AWOPFiendHOLucifer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lucifer</ORIGINAL>
+    <TRADUIT>路西法</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606F46F</ID>
+    <EDID>AWOPGHOULGunNutLv1403DUPLICATE000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606F471</ID>
+    <EDID>AWOPGHOULGunNutLv1204DUPLICATE000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606F473</ID>
+    <EDID>AWOPCrazedGhoulWL01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606F475</ID>
+    <EDID>AWOPCrazedGhoulWL02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606F477</ID>
+    <EDID>AWOPCampSearchlightGhoulWL01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606FD8D</ID>
+    <EDID>AWOPLEGIONChampionLv16DEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion Praetorion</ORIGINAL>
+    <TRADUIT>禁卫军</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0608EEF5</ID>
+    <EDID>AWOPWastelanderDEADEnclave01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enclave Soldier</ORIGINAL>
+    <TRADUIT>英克雷士兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Adventurer</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>06009962</ID>
+    <EDID>AWOPVCrTier5FeralGhoulButch</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Butch</ORIGINAL>
+    <TRADUIT>布奇</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0604B02D</ID>
+    <EDID>AWOPFeralGhoulDEAD02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Feral Ghoul</ORIGINAL>
+    <TRADUIT>狂尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0605D2A9</ID>
+    <EDID>AWOPTier3FeralGhoulGlowingOneNoDoors</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glowing One</ORIGINAL>
+    <TRADUIT>发光尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>06065BFA</ID>
+    <EDID>AWOPDeathClawDEAD01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw</ORIGINAL>
+    <TRADUIT>死亡爪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0608EA73</ID>
+    <EDID>AWOPDeathClawMotherAWOPDead</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw Mother</ORIGINAL>
+    <TRADUIT>死亡爪母兽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0609802E</ID>
+    <EDID>AWOPRadscorpionMedNRDoorOpener</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radscorpion</ORIGINAL>
+    <TRADUIT>辐射蝎</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>06006DDC</ID>
+    <EDID>AWOPJarvisKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Supply Room Key</ORIGINAL>
+    <TRADUIT>库房钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>06009964</ID>
+    <EDID>AWOPRadRFacilityKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Facility Master Key</ORIGINAL>
+    <TRADUIT>设施主钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0600ABA0</ID>
+    <EDID>AWOPV4AWOPArmoryKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armory Key</ORIGINAL>
+    <TRADUIT>军械库钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>06031C02</ID>
+    <EDID>AWOPNovacMetroKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Metro Master Key</ORIGINAL>
+    <TRADUIT>诺瓦克地铁主钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>060328A6</ID>
+    <EDID>AWOPSSBHKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boarding Room Key</ORIGINAL>
+    <TRADUIT>登入室钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0603A9F4</ID>
+    <EDID>AWOPINCRArmoryKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armory Key</ORIGINAL>
+    <TRADUIT>军械库钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0606FD90</ID>
+    <EDID>AWOPAbanLegionShackKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion Shack Key</ORIGINAL>
+    <TRADUIT>军团棚屋钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>06081F42</ID>
+    <EDID>AWOPDentonsRoomKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Denton's Room Key</ORIGINAL>
+    <TRADUIT>丹顿的房间钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>06094CE8</ID>
+    <EDID>AWOPFrostSafeKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Frost's Key</ORIGINAL>
+    <TRADUIT>福雷斯的钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>06098DE9</ID>
+    <EDID>AWOPNiptonSewerKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nipton Sewer Staff Key</ORIGINAL>
+    <TRADUIT>尼普顿隧道工作人员钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0609A555</ID>
+    <EDID>AWOPNiptonSewerSecurityKeycard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nipton Sewer Security Keycard</ORIGINAL>
+    <TRADUIT>尼普顿隧道安保钥匙卡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B0</ID>
+    <EDID>AWOPLewsonLog01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 1</ORIGINAL>
+    <TRADUIT>劳森的日志1</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B0</ID>
+    <EDID>AWOPLewsonLog01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>If you would've told me that we could find an abandoned and unsacked Vault, I would ask you if I could get a hit of whatever strain of Jet you just ripped. But here we are, the new inhabitants of what we're (well really it's just me) calling "Vault de la Lewson"!
+To be honest, the place does give me the creeps a bit. Why would such a perfect shelter go unused? I keep telling myself that it's because of the proximity to those crazy fucks at Vaut 13 but it's getting harder to convince myself of that.
+There's a few signs that show that people must have lived here at one point, but there are still plenty of supplies to last us for months. Plus, it looks like the armory room remained untouched. It's locked so hard that even Paco couldn't open it, and we can't find a key anywhere.
+If we can crack that open, not even the deathclaws will stand a change against us.</ORIGINAL>
+    <TRADUIT>如果你说我们可以找到一个废弃的、未上锁的避难所，我会问你是不是杰特磕坏了脑子。但我们进来了，现在是我们（实际上只有我）称之为 “劳森避难所” 的新居民！
+
+老实说，这个地方确实让我有点毛骨悚然。为什么这么完美的避难所会闲置？我一直告诉自己是因为离13号避难所的那些疯狂混蛋很近，但越来越难说服自己了。
+
+有一些迹象表明，人们一定曾在这里生活过，但仍有充足的物资可以维持我们几个月。另外，看起来军械库的房间没有动过。它锁得很紧，连帕科都打不开，我们到处都找不到钥匙。
+
+如果我们能打开它，就算是死亡爪也奈何不了我们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B1</ID>
+    <EDID>AWOPLewsonLog02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 2</ORIGINAL>
+    <TRADUIT>劳森的日志2</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B1</ID>
+    <EDID>AWOPLewsonLog02</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Well shit, I knew this was too good to be true. We were attacked by geckos yesterday. They managed to get Kay pretty good before we were able to scare them off with explosives. 
+If these brahmin shit-brained addicts I decided to settle with didn't shoot up all the Med-X we had stashed away then maybe we would have been able to save her.  
+A couple of the guys and I are gonna scour the vault tomorrow and see if we can find where the geckos breached their way inside. We'll have to send someone outside to try and restock on medical supplies too, those geckos are a lot more vicious than they look. 
+Hopefully all goes well or else we may have to abandon paradise. </ORIGINAL>
+    <TRADUIT>该死，我就知道这太好了不可能是真的。 我们昨天被蜥蜴攻击了。 在我们用炸药吓跑他们之前，他们带走了凯。 
+
+如果我决定收拾的那些双头牛粪入脑的瘾君子没有把我们藏起来的所有注射剂X都嗑光，也许我们能救她。 我们也得派人去外面补充医疗用品，那些蜥蜴比看起来更凶猛。 
+
+希望能好起来，否则我们可能不得不遗弃天堂。 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B2</ID>
+    <EDID>AWOPLewsonLog03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 3</ORIGINAL>
+    <TRADUIT>劳森的日志3</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B2</ID>
+    <EDID>AWOPLewsonLog03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Should've listened to my intuition man, this place got us fucked up. Benji never came back from the supply run. While we've been down here just jackin' off and huffing jet, a pack of deathclaws moved into the NCR quarry up the road.
+There's no way to get out of here without those roided-up mutant fucks tearing us apart, at least if Benji's fate is any indication. We were at least able to find the source of the geckos, but we have no way of containing them. 
+We thought of using our remaning explosives to block off the infested sector of the vault; but with no ways to escape this place, it seems like it would be better to use the explosives to try and tunnel out of here.</ORIGINAL>
+    <TRADUIT>真该听从我的直觉伙计，这个地方把我们搞得一团操。 本吉去弄补给再也没有回来。 当我们在这里打胶和磕杰特时，一群死爪进入了路边的NCR采石场。
+
+我们无法在不被那些该死的突变生物撕裂的情况下离开，我觉得那恐怕就是本吉的下场。 至少我们能够找到蜥蜴的来源，但我们无法阻止它们。
+
+我们想用我们翻新的炸药来封锁避难所猖獗的部分；但由于无法逃离这个地方，似乎最好用炸药尝试钻出这里。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B3</ID>
+    <EDID>AWOPLewsonLog04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 4</ORIGINAL>
+    <TRADUIT>劳森的日志4</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B3</ID>
+    <EDID>AWOPLewsonLog04</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Never trust junkies with explosives. Paco had the bright idea of tunelling straight upwards from the living quaters since it's the most direct route to the surface. Well we already lost four men to the rubble that fell from the ceiling after the inital explosions. 
+We're gonna try again, but this time going north from the main quarters. As if that wasn't enough of a pain in the ass, the noise of the explosions seems to only attract more geckos. This place is becoming a death trap.</ORIGINAL>
+    <TRADUIT>永远不要相信带着炸药的瘾君子。 
+
+帕科有个聪明点子，那就是从生活区直接向上打洞，因为这是到达地面最直接的路线。
+
+好吧，在最初的爆炸之后，我们已经在从天花板上掉下来的瓦砾中失去了四个人。我们要再试一次，但这次是从主宿舍向北。
+
+已经够屁股着火了，爆炸的声音似乎只会吸引更多蜥蜴。 这地方已经成为了一个死亡陷阱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B4</ID>
+    <EDID>AWOPLewsonLog05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 5</ORIGINAL>
+    <TRADUIT>劳森的日志5</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B4</ID>
+    <EDID>AWOPLewsonLog05</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>We can't keep this up for much longer. Not only are we running out of explosives, but we also have some new neighbors in giant mantids. They've decided to take up residence in the main quarters and have forced us to lock ourselves in the living quarters, so it seems like we have no shot at our only ticket out of here - the armory. 
+While scrounging up explosives and looking for a new place to start a tunnel, we managed to find the key. Just our luck. Looks like we'll have to make a desperate push into the main quarters to get to the armory, it's our only shot.</ORIGINAL>
+    <TRADUIT>我们不能再坚持下去了。
+
+我们不仅炸药用完了，而且在巨型螳螂中有了一些新邻居。他们决定在主要区居住，并强迫我们把自己锁在生活区，所以似乎我们没有机会到离开这里的唯一门票——军械库。
+
+在寻找炸药并寻找新的隧道起点时，我们设法找到了钥匙。只是我们的运气。看来我们必须拼命地推进到主区才能到达军械库，这是我们唯一的机会。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B5</ID>
+    <EDID>AWOPLewsonLog06</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 6</ORIGINAL>
+    <TRADUIT>劳森的日志6</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B5</ID>
+    <EDID>AWOPLewsonLog06</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Only five survivors now, two heavily wounded. Our attack on the mantids was disastrous. We barely managed to make up any ground and we eventually got pushed back into the living quarters, our numbers cut in half.
+We've resorted to digging a tunnel with random bits of scrap metal we've improvised into shovels. It's our only chance at survival.  </ORIGINAL>
+    <TRADUIT>现在只有五名幸存者，两人重伤。我们对螳螂的攻击是灾难性的。我们几乎没能取得任何进展，最终我们被推回了生活区，人数减少了一半。
+
+我们不得不用废金属碎片即兴制作成铲子挖隧道。这是我们唯一的存活机会。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B6</ID>
+    <EDID>AWOPLewsonLog07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lewson's Log Part 7</ORIGINAL>
+    <TRADUIT>劳森的日志7</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060094B6</ID>
+    <EDID>AWOPLewsonLog07</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Only three of us left now, and we're beginning to turn on each other.  It's non stop digging, all day, all night. We need to get out of here.</ORIGINAL>
+    <TRADUIT>现在只有我们3个了，而且我们开始转向对方。
+
+不停地挖掘，整天，整晚，我们得离开这里</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BC8</ID>
+    <EDID>AWOPJDSNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>JSD Terminal Entry 01</ORIGINAL>
+    <TRADUIT>JSD终端机登录01</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BC8</ID>
+    <EDID>AWOPJDSNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Dad showed me how to use this old computer, so I've decided to keep a journal of our life down here. Dad bought the key to this pre-war bunker from a nearby merchant. Thanks to his old job hunting down criminals, and of course the fact he was the very best, we now have enough caps to settle down as a family. Dad says we can抰 go out much though because people may still be after him because of the bad people he has killed. I don't mind, I like it down here. 
+</ORIGINAL>
+    <TRADUIT>爸爸教我如何使用这台旧电脑，所以我决定在这里写一本我们生活的日记。爸爸从附近的一个商人那里买了这个战前掩体的钥匙。多亏了他追捕罪犯的旧工作，当然还有他是最好的，我们现在有足够的瓶盖安顿下来。爸爸说我们不能经常出去，因为人们可能还在追捕他，因为他杀了坏人。我不介意，我喜欢这里。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BC9</ID>
+    <EDID>AWOPJDSNote02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>JSD Terminal Entry 02</ORIGINAL>
+    <TRADUIT>JSD终端机登录02</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BC9</ID>
+    <EDID>AWOPJDSNote02</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>We finally brought in the last of the supplies. Phew, I've never seen so much food in one place before! Mom says we have enough steak alone to last us the rest of our lives. Dad laughed, he said it would probably only last a week with us around.
+</ORIGINAL>
+    <TRADUIT>我们终于带来了最后的补给。噗，我以前从来没有在一个地方见过这么多食物！妈妈说，光是肉排就够我们度过余生了。爸爸笑了，他说和我们在一起可能只会持续一个星期。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BCA</ID>
+    <EDID>AWOPJDSNote03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>JSD Terminal Entry 03</ORIGINAL>
+    <TRADUIT>JSD终端机登录03</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BCA</ID>
+    <EDID>AWOPJDSNote03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I don't know what to say... In the night we heard a lot of noise coming from down the road, near the local prison. Dad went to check it out this morning. While he was out, we heard someone banging on the hatch door. Mom went to investigate figuring it was just Dad. But I heard shouting, so I went to see what was going on. There were two men dressed in blue carrying weapons. Mom started shooting at them. She was always was a good shot, but one of the men must have got lucky cause they got her real bad. I got bandages and stimpaks as quick as I could, but she wouldn't stop bleeding. By the time dad got back she was dead already...
+
+Emily was hysterical about mom, but dad managed to calm her down. He told us later that there had been a riot at the prison and the convicts have taken over the place. The local NCR forces have fled the area, leaving us to fend for ourselves. Dad says we can't leave the shelter under any circumstances anymore. Emily was unhappy about it. She made friends with an older girl called Sunny from the local town up the road last time we were allowed out. Dad got mad when she complained too much. I thought he was gonna hit her but he didn't. I don't know what we are going to do without mom.
+</ORIGINAL>
+    <TRADUIT>我不知道该说什么。。。晚上，我们听到很多噪音从路边传来，靠近当地监狱。爸爸今天早上去检查了一下。当他出去时，我们听到有人敲门。妈妈去调查，发现只是爸爸。但是我听到了喊叫声，所以我去看看发生了什么事。有两个身穿蓝色衣服的男人拿着武器。妈妈开始向他们开枪。她一直都是一个好枪手，但其中一个男人一定很幸运，因为他们把她弄得很糟糕。我尽可能快地拿到绷带和刺激物，但她不会止血。当爸爸回来时，她已经死了......
+艾米丽对妈妈歇斯底里，但爸爸设法让她冷静下来。他后来告诉我们，监狱里发生了骚乱，罪犯已经占领了这个地方。当地的NCR部队已经逃离了该地区，留下我们自生自灭。爸爸说，我们在任何情况下都不能再离开避难所了。艾米丽对此很不高兴。上次我们被允许出去时，她和一个叫珊妮的大女孩交了朋友，她来自当地小镇。爸爸抱怨太多就生气了。我以为他会打她，但他没有。我不知道没有妈妈我们该怎么办。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BCB</ID>
+    <EDID>AWOPJDSNote04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>JSD Terminal Entry 04</ORIGINAL>
+    <TRADUIT>JSD终端机登录04</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BCB</ID>
+    <EDID>AWOPJDSNote04</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Dad started tp teach us how to defend ourselves properly. He even let me try out his work gun. It has a hell of a kick on it, I thought it was gonna break my hand. He also told me his eyesight was beginning to fail him. He said something about cats was in them, but I can't remember exactly. He says we have enough supplies left to last about four years and we are to stay in the shelter no matter what. Dad says Emily is still too young to look after herself properly and that I'm gonna have to look after her soon. I'm sick of typing. I look back and see too many unhappy memories. Maybe if I stop typing things will get better.
+</ORIGINAL>
+    <TRADUIT>爸爸开始教我们如何正确地保护自己。他甚至让我试试他的工作枪。它运作得很厉害，我以为它会弄断我的手。他还告诉我，他的视力开始下降。他说的话里有一些关于猫的东西，但我记不清了。他说，我们有足够的物资可以维持大约四年，无论如何我们都要留在庇护所。爸爸说艾米丽还太小，不能好好照顾自己，我很快就要照顾她了。我厌倦了打字。我回头看，看到了太多不愉快的回忆。也许如果我停止打字，事情会变得更好。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BCC</ID>
+    <EDID>AWOPJDSNote05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>JSD Terminal Entry 05</ORIGINAL>
+    <TRADUIT>JSD终端机登录05</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06010BCC</ID>
+    <EDID>AWOPJDSNote05</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Heh, that stupid kid will make a damn fine stew. Little shit took out two of my boys before we got him though. Well, at least we lucked into this place. So what if Eddie booted us out of the prison after we eat another dead guy, fuck him. What the fuck are we supposed to eat? Our own shit? I'm gonna kill that piss weasel one day.
+</ORIGINAL>
+    <TRADUIT>呵呵，那个傻小子会做成一顿该死的好炖菜。不过，在我们抓住他之前，小狗屎把我的两个小子带走了。好吧，至少我们幸运地进入了这个地方。所以，如果埃迪在我们吃掉另一个死人后把我们赶出监狱怎么办，去他妈的。我们他妈要吃什么？我们自己的狗屎？总有一天我要杀了那只小黄鼠狼。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06019774</ID>
+    <EDID>AWOPSunnytimeNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunnytime Note</ORIGINAL>
+    <TRADUIT>阳光时代笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06019774</ID>
+    <EDID>AWOPSunnytimeNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Damn, just when we got the machines up and running again, geckos start flooding to the area. Manny reckons they're attracted to the vibrations of the machinery. We're making caps but, shit, it's not enough to hold off this many geckos. We have good deal with a few of the NCR boots at the Mojave Oupost, we give them cigs and they give us a steady supply of ammo. But now less people are willing to turn up for work every day with the gecko infestation. 5 months excavating this shithole just to find out that we're gonna have to shut down the entire operation.
+</ORIGINAL>
+    <TRADUIT>该死的，就在我们让机器再次启动并运行时，蜥蜴开始涌入该地区。曼尼认为他们被机器的振动所吸引。我们正在赚瓶盖，但是，该死的，不值得为此阻止这么多蜥蜴。我们在莫哈韦前哨与一些NCR新兵有很好的交易，我们给他们香烟，他们给我们稳定的弹药供应。但现在很少有人愿意每天在蜥蜴的侵扰下工作。挖了 5 个月的这个粪坑，只是为了发现我们将不得不关闭整个操作。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603093C</ID>
+    <EDID>AWOPVexDiary01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vex's Diary</ORIGINAL>
+    <TRADUIT>维克斯的日记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603093C</ID>
+    <EDID>AWOPVexDiary01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>God am bored here, this place is a dump. Head of the local Vipers and this is what I have to show for it. A shitty train tunnel filled with bumbling oafs. I want my spot on The Strip damnit.
+
+This money-making venture was doomed from the start. Travelling merchants have grown wise to our tricks and never carry a large amount of caps on them. After dividing what we do get, even by my system, I only end up with enough caps to buy a couple of drinks in Freeside.
+
+The men around here are dumber than a bag of wet socks. Trevor spends all his time making missiles. I have no idea why, we never get to use any. What抯 the point in blowing up all the loot? We only have one launcher so it's not like we're gonna take out the whole NCR with it.
+</ORIGINAL>
+    <TRADUIT>天啊我在这里无聊死了，这个地方是个垃圾场。这就式我这个当地毒蛇帮的头目要负责的。一个糟糕的火车隧道，里面挤满了笨手笨脚的白痴。我想要我在脱衣舞上的位置。
+
+这个赚钱的冒险从一开始就注定要失败。云游商人对我们的伎俩越来越聪明，从不携带大量瓶盖。在分发我们得到的东西之后，即使按我的办法，我最终也只能得到足够的瓶盖来在自由城买几杯喝的。
+
+这里的伙计比一袋湿袜子还笨。特雷弗把所有的时间都花在了制造导弹上。我不知道为什么，我们从来没有用过。炸毁所有战利品有什么意义？我们只有一个发射器，所以我们不可能用它干掉整个NCR。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060328AA</ID>
+    <EDID>AWOPCrazeNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Craze's Note</ORIGINAL>
+    <TRADUIT>克雷兹的笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060328AA</ID>
+    <EDID>AWOPCrazeNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Well so much for interrogating Deene. Jerzy got carried away and used a frag grenade strapped to a brick of C4 on him. The fucker was taking potshots at us from the bathroom. Last thing he'll ever do.
+
+Whether or not he used to be with the Gunr Runner's doesn't matter, there sure as shit 'aint no stash here. The hostages we grabbed don't know anything. They're nothing but food for the rookies. No military tech anywhere.
+
+Still we got us a place to settle for a few days. Makes a nice change to be above ground and I'm in no hurry to get all these food supplies back. Not until I have had my share at least.
+</ORIGINAL>
+    <TRADUIT>好吧，审问迪恩就这些了。杰兹得意忘形，在他身上用了一枚绑着一块C4的破片手雷。那个混蛋在浴室里对我们开枪。那是他能做的最后一件事。
+
+他是否曾经和军火贩子在一起，都不重要了，这里肯定没有藏匿处。我们劫持的人质什么都不知道。他们不过是一帮菜鸟。哪都没有军用技术。尽管如此，我们还是找了一个地方住了几天。在地面上做了一个很好的改变，我并不着急把所有这些食物供应都拿回来。直到我至少拿到我的份额。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369CF</ID>
+    <EDID>AWOPVaultMonitorEmail01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Monitoring Station Email 1</ORIGINAL>
+    <TRADUIT>避难所监控站邮件1</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369CF</ID>
+    <EDID>AWOPVaultMonitorEmail01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 20/06/2077 09.13
+
+To: Marcus Chumley
+[Vault-Tec Nevada Office]
+
+From: Gordon Checketts
+[Vault Monitoring Station NV03]
+
+What's going on here? We have been waiting for weeks for the final components for the mainframe when suddenly everything lights up on auto and the whole place goes into lockdown. Now we are trapped in here with limited rations and we can't even do any work. This whole place has been a complete waste of time. We are hard-wired into barely half of Vault 3's network. At this rate we'll never get the regional coverage they want at head office. 
+
+Get back to me ASAP, half the workers did not even turn up today and I don't know what to tell the rest. Things are getting tense down here to say the least.
+</ORIGINAL>
+    <TRADUIT>发送: 20/06/2077 09.13
+
+至: 马库斯 查姆利
+[避难所科技内华达办公室]
+
+来自: 戈登 切基茨
+[避难所监控站NV03]
+
+这是怎么回事？我们已经等待了数周，等待大型机的最终组件，突然间，一切都在自动亮起，整个地方都进入了锁定状态。现在我们被困在这里，口粮有限，我们甚至不能做任何工作。整个地方完全是浪费时间。我们几乎被硬连线到3号避难所网络的一半。按照这个速度，我们永远无法在总部获得他们想要的区域覆盖。 
+
+回复我ASAP, 今天有一半的工人甚至没有出现，我不知道该告诉其余的人什么。至少可以说，这里的情况越来越紧张。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D0</ID>
+    <EDID>AWOPVaultMonitorEmail02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Monitoring Station Email 2</ORIGINAL>
+    <TRADUIT>避难所监控站邮件2</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D0</ID>
+    <EDID>AWOPVaultMonitorEmail02</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 20/10/2077 18.44
+
+To: Gordon Checketts
+[Vault Monitoring Station NV03]
+
+From: Marcus Chumley
+[Vault-Tec Nevada Office]
+
+Jesus Gordon, I'm sorry. What the hell have you been doing down there, we have been trying to contact you all week. Haven't you heard? The shit's about to hit the fan big time...  Forget about the Monitoring Station, they were just to impress the shareholders in the first place.
+
+Get out of there while you still have chance, you know what Vault-Tec's policy is when it comes to this sort of thing.
+</ORIGINAL>
+    <TRADUIT>发送: 20/10/2077 18.44
+
+至: 戈登 切基茨
+[避难所监控站NV03]
+
+来自: 马库斯 查姆利
+[避难所科技内华达办公室]
+
+天啊戈登, 我很抱歉。你到底在那里干什么，我们整个星期都在试图联系你。你没听说吗？大难要临头了。。。忘掉监控站吧，它们最初只是为了给股东留下深刻印象。
+
+趁你还有机会离开那里，你知道避难所科技在这类事情上的政策是什么。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D1</ID>
+    <EDID>AWOPVaultMonitorEmail03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Monitoring Station Email 3</ORIGINAL>
+    <TRADUIT>避难所监控站邮件3</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D1</ID>
+    <EDID>AWOPVaultMonitorEmail03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 20/10/2077 19.20
+
+To: Marcus Chumley
+[Vault-Tec Nevada Office]
+
+From: Gordon Checketts
+[Vault Monitoring Station NV03]
+
+Yeah, explosives in the walls... Stop the commies getting any info on the Vaults... Shit... There is no fucking way out... I should know, I designed the place. We need help down here right away!
+</ORIGINAL>
+    <TRADUIT>发送: 20/10/2077 19.20
+
+至: 马库斯 查姆利
+[避难所科技内华达办公室]
+
+来自: 戈登 切基茨
+[避难所监控站NV03]
+
+是的，墙上有炸药...阻止共产党获取有关避难所的任何信息...倒霉...没有他妈的出路...我应该知道，这个地方是我设计的。我们现在需要帮助！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D2</ID>
+    <EDID>AWOPVaultMonitorEmail04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Monitoring Station Email 4</ORIGINAL>
+    <TRADUIT>避难所监控站邮件4</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D2</ID>
+    <EDID>AWOPVaultMonitorEmail04</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 21/10/2277 00.17
+
+To: Marcus Lumley
+[Vault-Tec Nevada Office]
+
+From: Gordon Checketts
+[Vault Monitoring Station NV03]
+
+Why have you done this to us? The others are dead... My family... I don't know... Why now?
+I don't know if you'll receive this... if anyone is still out there. Don't even know which bombs were inside and which were out... if any...  I was here in the main control room... Looks like the explosives engineers did not have time to get this far... No food or water. I'll die soon anyway. Waste of time... time and life...
+</ORIGINAL>
+    <TRADUIT>发送: 21/10/2277 00.17
+
+至: 马库斯 查姆利
+[避难所科技内华达办公室]
+
+来自: 戈登 切基茨
+[避难所监控站NV03]
+
+你为什么要这样对我们？其他人都死了......我的家人...我不知道...为什么是现在？我不知道你是否会收到这个......如果有人还在那里。甚至不知道哪些炸弹在里面，哪些在外面......如果有的话... 我在主控制室......看来炸药工程师没有时间走到这一步......没有食物或水。反正我很快就会死的。浪费时间...时间和生命......</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D3</ID>
+    <EDID>AWOPVaultMonitorLog01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault Monitoring Station Log 01</ORIGINAL>
+    <TRADUIT>避难所监控站日志01</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060369D3</ID>
+    <EDID>AWOPVaultMonitorLog01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>21/09/2281 15.36
+USER: Unknown:
+
+Oh WAH WAH! I'm a dead guy from the past... My family is all dead from being blown up into little bits and I helped build my own coffin...
+
+Ha ha, get fucked dumbass.
+</ORIGINAL>
+    <TRADUIT>21/09/2281 15.36用户: 未知:哇哇！我是一个过去的死人......我的家人都被炸成碎片而死了，我帮忙建造了自己的棺材......哈哈，被操傻了吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06038E0F</ID>
+    <EDID>AWOPNovacTunnelsKentNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kent's Confession</ORIGINAL>
+    <TRADUIT>肯特的忏悔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06038E0F</ID>
+    <EDID>AWOPNovacTunnelsKentNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I did it... I killed them all... Let in a dozen ferals and let them go to work... I don't even know why... The pranks, their taunts, the way the girls acted like they were sick whenever they saw me... Now I miss them...
+
+Salvador is no use for company. He just crafts ammo all day...
+
+The only thing I have to look forward to is the next batch of Radshine, but we are already running low on fresh rad-waste. It seems even the ferals can't get enough of it. It seems to make them even stronger and faster... It means we are well protected for now but there's no telling how the ferals will behave once we finally run out of juice.
+</ORIGINAL>
+    <TRADUIT>我做了...我把他们都杀了......让十几个狂尸鬼进来，让他们去工作......我什至不知道为什么......恶作剧，嘲讽，女孩们每次看到我都表现得像我生病了一样......现在我想念他们......
+
+萨尔瓦多对团队没有用。他整天都在制作弹药......
+
+我唯一期待的是下一批放射光，但我们已经没有新鲜的放射性废物。似乎连狂尸鬼都吃不饱。这似乎让他们更强大、更快......这意味着我们现在得到了很好的保护，但一旦我们最终耗尽了汁液，就不知道狂尸鬼会如何表现。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603B5AD</ID>
+    <EDID>AWOPRRFNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Butch's Diary Part 1</ORIGINAL>
+    <TRADUIT>布奇的日记1</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603B5AD</ID>
+    <EDID>AWOPRRFNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I can't believe our luck. I know Rotson was convinced there was a location like this around here, but what are the chances? A Radiological Research Center right next to a bomb crater, a bit ironic isn't it? A sign peeping out from behind a pile of rubble was our only clue. We quickly built a shack and set about removing the blockage.
+
+After many days of digging we finally excavated the entrance.
+
+I think we have found a perfect refuge from the wasteland. A veritable ghoul's paradise. It fits all our needs with many beds, medical facilities, and more than ample supplies. Rotson still seems pissed for some reason, seems like he's never happy.
+
+Apparently, there was supposed to be a whole other level dedicated to the study of radiation, but the entire area is blocked off by rubble. At first he wanted us to clear it out right away, but I told him we needed a break first. He just glared at me for about a minute before eventually agreeing.
+</ORIGINAL>
+    <TRADUIT>我简直不敢相信我们的运气。我知道罗森确信这里附近有这样的地方，但机会有多大？一个紧挨着弹坑的放射研究中心，有点讽刺，不是吗？从一堆瓦砾后面探出头来的标志是我们唯一的线索。我们迅速搭建了一个棚屋，并开始清除堵塞物。经过多天的挖掘，我们终于挖掘出了入口。
+
+我认为我们已经从荒原上找到了一个完美的避难所。名副其实的尸鬼天堂。它满足了我们的所有需求，有许多床位、医疗设施和充足的用品。罗森似乎仍然因为某种原因而生气，似乎他从不快乐。
+
+显然，应该有一个专门研究辐射的另一层，但整个区域都被瓦砾挡住了。起初他希望我们马上把它清理干净，但我告诉他我们需要先休息一下。他只是瞪了我大约一分钟，然后最终同意了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603B5AE</ID>
+    <EDID>AWOPRRFNote02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Butch's Diary Part 2</ORIGINAL>
+    <TRADUIT>布奇的日记2</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603B5AE</ID>
+    <EDID>AWOPRRFNote02</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Shit, so much for paradise. The Doc's gone looney. Says he wants to fix the ferals by operating on their brains, and he's already rounded up a dozen or so. The ones he's supposedly 'fixed' so far sure 'aint friendly, but they do what he says. I think he's trying to create some sort of army, only now he wants us to volunteer for one of his operations. His thinks he can reverse the ghoulification process or something. I'm not having any part of his bullshit.
+</ORIGINAL>
+    <TRADUIT>妈的，天堂到头了。
+
+医生疯了。他说他想通过对狂尸鬼的大脑进行手术来修复它们，他已经捕获了十几个。到目前为止，他所谓的“修复”肯定“不友好，但他们按照他说的去做。我认为他正试图建立某种军队，只是现在他希望我们自愿参加他的一项行动。他认为他可以逆转尸鬼化过程什么的。我没有信他的胡说八道。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603B5AF</ID>
+    <EDID>AWOPRRFNote03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Henderson's Diary Part 3</ORIGINAL>
+    <TRADUIT>亨德森的日记3</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0603B5AF</ID>
+    <EDID>AWOPRRFNote03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>That bastard, he's taken Mary away from me. I don't know what he's done to her, I know she would never even volunteer for one of his crazy experiments but now she's changed. She won't acknowledge me and when I confronted Rotson he looked like he was going for a weapon. I drew my own Pistol but Mary of all people grabbed me and threw me against the wall. I heard a ripple of noise run through the facility, like a hundred ghouls snarling simultaneously. Mary started moving towards me and I could hear scuffling in the corridor outside, I grabbed my gun and told Rotson to make them all back off or I would shoot him. I don't know what he did but they all just stopped and walked away. He told me to get out and never come back. Well I will, but I'm gonna leave a surprise for that bastard. Next time he greets his precious Mr Handy he's gonna find it's got a few new subroutines in its AI.
+</ORIGINAL>
+    <TRADUIT>那个混蛋，他把玛丽从我身边带走了。我不知道他对她做了什么，我知道她甚至永远不会自愿参加他的一个疯狂实验，但现在她变了。她不肯承认我，当我面对罗特森时，他看起来像是要拿武器。我掏出自己的手枪，但玛丽在所有人中抓住了我，把我扔到墙上。我听到一阵涟漪般的噪音在设施中蔓延，就像一百个尸鬼同时咆哮。玛丽开始向我走来，我能听到外面走廊里的扭打声，我抓起枪，告诉罗特森让他们都退后，否则我会开枪打死他。我不知道他做了什么，但他们都停下来走开了。他叫我出去，永远不要回来。好吧，我会的，但我要给那个混蛋留下一个惊喜。下次当他向他珍贵的巧手先生打招呼时，他会发现它的AI中有一些新的子程序。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06076A5F</ID>
+    <EDID>AWOPSearchlightShelterNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Shelter Note</ORIGINAL>
+    <TRADUIT>探照灯庇护所笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06076A5F</ID>
+    <EDID>AWOPSearchlightShelterNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Those fools actually went ahead and did it. The whole planet is on fire, but here at least the faithful have shelter and salvation. Just goes to show that the Church can still afford to go toe to toe with the local corporations.
+
+Vault-Tec installed three backup generators in our bunker. Puts that shelter down at the cove into perspective. I heard they blew over half their budget on art-deco.
+
+By the sound of it, we were not hit as badly as other areas. Whatever detonated locally did not have a high enough yield to reach out this far judging by local soil analysis. We may even be able to leave the shelter in a few days. Praise be.
+</ORIGINAL>
+    <TRADUIT>那些蠢货真的继续这样做了。整个星球都着火了，但至少在这里，信徒们有庇护所和救赎。只是表明教会仍然有能力与当地公司针锋相对。避难所科技在我们的掩体中安装了三台备用发电机。把海湾的避难所放到视野中。我听说他们在装饰艺术上花费了超过一半的预算。从声音上看，我们没有像其他地区那样受到严重打击。从当地土壤分析来看，在当地引爆的任何东西都没有足够高的产量来达到这么远。我们甚至可以在几天内离开庇护所。祈求会。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06081F59</ID>
+    <EDID>AWOPDentonNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Denton's Note</ORIGINAL>
+    <TRADUIT>丹顿的笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06081F59</ID>
+    <EDID>AWOPDentonNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Wow, Burke's scam worked like a charm. We found an old holotape a few months back with some preachy evangelist on it and it gave us an idea: travel across the wastes, preaching words of hope and forgiveness from that old tape to gather as big a crowd as possible. Take the crowd back to a safe, secluded area and poison the lot using wine laced with radscorpion venom. Then take everything they own. The only downside is that most of these wasters only carry junk and a handful of caps. We must have killed thirty people already, and we still don't have the caps to pass the Strip gate check.
+
+Burke wants to try out a different book next time. He thinks we would have more luck with some of the local gangs if we we're not advocating a 'pussy' religion as he called it, so we are gonna try something a bit more hardcore. Burke is gonna summon a demon. Ha, that should be a laugh - I can't wait.
+</ORIGINAL>
+    <TRADUIT>哇，伯克的骗局就像一个魔咒。几个月前，我们发现了一盘旧的全息录像带，上面有一些说教的传教士，它给了我们一个主意：穿越荒原，从那盘旧录像带中宣讲希望和宽恕的话语，以聚集尽可能多的人群。将人群带回一个安全、僻静的地方，用掺有辐射蝎毒液的酒毒害这批人。然后拿走他们拥有的一切。唯一的缺点是，这些浪费者中的大多数只携带垃圾和一点瓶盖。我们肯定已经杀死了三十个人，而我们仍然不能通过长街大门的检查。
+
+伯克想下次尝试一本不同的书。他认为，如果我们不提倡他所说的“猫咪”宗教，我们会在一些当地帮派中有更多的运气，所以我们将尝试一些更硬核的东西。伯克要召唤一个恶魔。哈，这应该会很有趣——我等不及了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098454</ID>
+    <EDID>AWOPNCRBunkerEmail01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Mojave Bunker Email 1</ORIGINAL>
+    <TRADUIT>NCR莫哈维地堡邮件1</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098454</ID>
+    <EDID>AWOPNCRBunkerEmail01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 21/12/80
+
+From: General Lee Oliver
+Camp McCarran
+
+To: Captain Albert Petro
+Mojave Bunker
+
+RE: Squad Testing
+
+Be on the look out for any more unusually gifted troops. After we lucked out with that psychic, President Kimball himself thinks we can start putting these quasi-mutants to better use. He wants us to start assembling a team of such individuals for use on special missions. Crocker is over at Camp Golf inspecting the latest batch of recruits. With any luck, this may be a solution to the whole Legion thing.
+</ORIGINAL>
+    <TRADUIT>发送: 21/12/80
+
+来自: 李·奥利弗将军
+麦卡伦营地
+
+至: 阿尔伯特·佩特罗上尉
+莫哈维地堡
+
+回复: 小队测试
+
+留意任何更有天赋的步兵。在我们幸运地找到了那个灵能者之后，金博尔总统本人认为我们可以开始更好地利用这些准变种人。他希望我们开始组建一支由这些人组成的团队，用于执行特别任务。克罗克在高尔夫营地视察最新一批新兵。如果运气好的话，这可能是解决整个军团问题的办法。
+</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098455</ID>
+    <EDID>AWOPNCRBunkerEmail02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Mojave Bunker Email 2</ORIGINAL>
+    <TRADUIT>NCR莫哈维地堡邮件2</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098455</ID>
+    <EDID>AWOPNCRBunkerEmail02</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 21/12/80
+
+From: Captain Albert Petro
+Mojave Bunker
+
+To: General Lee Oliver
+Camp McCarran
+
+RE: Potential Candidates.
+
+Here's a list of people you may be interested in:
+
+Atkinson, Lara (Private)
+Recent recruit. Athletics expert and already one of our top snipers.
+
+Bull, Arnold (Sergeant)
+AKA Bulldozer, very strong, very high pain threshold, and legendary kill count.
+
+Guerra, Wade (Ranger) 
+One of our most intelligent &amp; experienced Rangers. Knows the local area better than anyone else posted here.
+
+Hickman, Paul (Private)
+Psysically unimposing, but performed exceptionally on all audio tests and has proven to be a great scout. 
+
+I'll have them sent over to McCarran first thing in the morning.
+</ORIGINAL>
+    <TRADUIT>发送: 21/12/80
+
+来自: 阿尔伯特·佩特罗上尉
+莫哈维地堡
+
+至: 李·奥利弗将军
+麦卡伦营地
+
+回复: 潜在候选人。
+
+以下是您可能感兴趣的人员列表：
+
+
+
+阿特金森，劳拉（二等兵）
+
+最近招募的人员。运动能力专家，已经是我们的顶级狙击手之一。
+
+
+
+公牛，阿诺德（中士）
+
+又称推土机，非常强壮，非常高的疼痛阈值和传奇的杀戮次数。
+
+
+
+圭拉，韦德（游骑兵）
+
+我们最聪明、最有经验的游骑兵之一。比其他列举在这里的人更了解当地。
+
+
+
+希克曼，保罗（二等兵）
+
+心理上并不令人印象深刻，但在所有音频测试中都表现出色，被证明是一名出色的侦察员。
+
+
+
+我早上就先把他们送到麦卡伦。
+</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098456</ID>
+    <EDID>AWOPNCRBunkerEmail03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Mojave Bunker Email 3</ORIGINAL>
+    <TRADUIT>NCR莫哈维地堡邮件3</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098456</ID>
+    <EDID>AWOPNCRBunkerEmail03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 07/01/81
+
+From: General Lee Oliver
+Camp McCarran
+
+To: Captain Albert Petro
+Mojave Bunker
+
+RE: Bull
+
+After the testing phase, we have decided to keep only Bulldozer. He alone has been informed of the purpose of the tests. The others were curious too, so make sure no one else finds out what this has been about.
+</ORIGINAL>
+    <TRADUIT>发送: 07/01/81
+
+来自: 李·奥利弗将军
+麦卡伦营地
+
+至: 阿尔伯特·佩特罗上尉
+莫哈维地堡
+
+回复: 公牛
+
+测试阶段结束后，我们决定只保留推土机。只有他一个人被告知了测试的目的。其他人也很好奇，所以要确保没有其他人知道这是怎么回事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098457</ID>
+    <EDID>AWOPNCRBunkerEmail04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Mojave Bunker Email 4</ORIGINAL>
+    <TRADUIT>NCR莫哈维地堡邮件4</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098457</ID>
+    <EDID>AWOPNCRBunkerEmail04</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 17/09/81
+
+From: General Lee Oliver
+Camp McCarran
+
+To: Captain Albert Petro
+Mojave Bunker
+
+RE: X13 MIA
+
+It's been nearly a day since we last heard from our X13 Troops. Thier last reported location was the Railway Station in Gypsum Trainyard. Send word to any troops in the local area to perform recon.
+</ORIGINAL>
+    <TRADUIT>发送: 17/09/81
+
+来自: 李·奥利弗将军
+麦卡伦营地
+
+至: 阿尔伯特·佩特罗上尉
+莫哈维地堡
+
+回复: X13 MIA
+
+距离我们上次收到X13部队的消息已经快一天了。Thier最后一次报告的地点是石膏采掘场火车场的火车站。通知当地的任何部队进行侦察。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098458</ID>
+    <EDID>AWOPNCRBunkerEmail05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Mojave Bunker Email 5</ORIGINAL>
+    <TRADUIT>NCR莫哈维地堡邮件5</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06098458</ID>
+    <EDID>AWOPNCRBunkerEmail05</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 19/09/81
+
+From: General Lee Oliver
+Camp McCarran
+
+To: Captain Albert Petro
+Mojave Bunker
+
+RE: URGENT! RESPOND!
+
+What the hell is going on over there? We have not received a single communication your bunker in over two days, has there been an attack? We need a status report immediately!
+</ORIGINAL>
+    <TRADUIT>发送: 19/09/81
+
+来自: 李·奥利弗将军
+麦卡伦营地
+
+至: 阿尔伯特·佩特罗上尉
+莫哈维地堡
+
+回复: 紧急! 回应!
+
+那边到底发生了什么事？我们已经两天多没有收到任何通信了，你的地堡发生了袭击吗？我们需要立即提交状态报告！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06099247</ID>
+    <EDID>AWOPPitStopGamerNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hyper-Reality or Reality?</ORIGINAL>
+    <TRADUIT>超-现实还是现实？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06099247</ID>
+    <EDID>AWOPPitStopGamerNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 17/04/2069
+
+To: Johnny Limes
+Location Unknown
+
+From: Betty Pelican
+Hyper-Test Labs
+
+RE: Hyper-Reality or Reality?
+
+I can't believe they turned down your proposal, what idiots! We could save thousands, maybe millions...
+
+Screw it, I'm with you. Life in the game sounds a hell of a lot better than waiting for the bombs to drop. If your predictions are correct, we could live for hundreds of years in the machines - maybe thousands now that we have fully accessed the REM state.
+
+Many people have already logged on. Maybe it's not just gonna be our staff in there after all.
+Lock and load Johnny. Lets go kick some virtual ass!
+</ORIGINAL>
+    <TRADUIT>发送: 17/04/2069
+
+至: 强尼·利姆斯
+地点 未知
+
+来自: 贝蒂·佩利肯
+超-测试实验室
+
+回复: 超-现实还是现实?我简直不敢相信他们拒绝了你的提议，真是白痴！我们可以拯救数千人，甚至数百万人......
+
+管他呢，我站你这边。游戏中的生活听起来比等待炸弹落下要好得多。如果你的预测是正确的，我们可以在机器中生活数百年——现在我们已经完全进入了快速眼动状态，也许有数千年...很多人已经登录了。也许这不仅仅是我们的员工。上膛瞄准，强尼。让我们去踢一些虚拟的屁股！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06099249</ID>
+    <EDID>AWOPPitStopGamerNote03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>100 Year Celebrations</ORIGINAL>
+    <TRADUIT>100年庆祝</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06099249</ID>
+    <EDID>AWOPPitStopGamerNote03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 18/04/2169
+
+To: Betty Pelican
+Hyper-Test Labs
+
+From: Johnny Limes
+Location Unknown
+
+RE: 100 Year Celebrations
+
+We made it! 100 years in VR and I feel better than ever. I can't believe it has only been this long. It feels more like a thousand. Nutrient levels seem good and the VM Unit has my muscles in peak physical condition.
+
+As for this place, most of my cameras are down, but from those that are left I can tell our local store is gone. Only minor structural damage to the Shelter though, which indicates it was not directly hit. It seems to be currently occupied by a group of refugees and a group dressed like police. It looks like law and order has not broken down entirely.
+
+The security door seems to be holding out, so I think I'll skip the meet greet and just get back into the game. I'm locked out from my side anyway.
+</ORIGINAL>
+    <TRADUIT>发送: 18/04/2169
+
+至: 贝蒂·佩利肯
+超-测试实验室
+
+来自: 强尼·利姆斯
+地点未知
+
+回复: 100年庆祝！
+
+我们做到了! VR 100 年了，我感觉比以往任何时候都好。我简直不敢相信才这么久。感觉更像是一千。营养水平似乎很好，VM单元让我的肌肉处于最佳身体状态。
+
+至于这个地方，我的大部分相机都坏了，但从剩下的相机中，我可以看出我们当地的商店已经不见了。不过，庇护所所只有轻微的结构损坏，这表明它没有被直接击中。它目前似乎被一群难民和一群打扮得像警察的人占据。看起来法律和秩序并没有完全崩溃。
+
+安全门似乎纹丝不动，所以我想我会跳过见面问候，直接回到游戏中。不管怎样，我被锁在门外了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A265</ID>
+    <EDID>AWOPPitStopGamerNote04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Failure</ORIGINAL>
+    <TRADUIT>电力故障</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A265</ID>
+    <EDID>AWOPPitStopGamerNote04</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 19/08/2210
+
+To: Betty Pelican
+Hyper-Test Labs
+
+From: Johnny Limes
+Location Unknown
+
+RE: Power Failure
+
+Damn, my power is down! Door is unresponsive. Sounds like there is some fighting outside. I felt the shaking of explosions through the walls. I need help. Used my last Fission Battery getting this terminal back online and now I'm trapped in here.
+</ORIGINAL>
+    <TRADUIT>发送: 19/08/2210
+
+至: 贝蒂·佩利肯超-测试实验室
+
+来自: 强尼·利姆斯
+地点未知
+
+回复: 电力故障
+
+该死的，我的电力降低了！门没有反应。听起来外面有一些战斗。我感觉到墙壁传来爆炸的震动。我需要帮助。我用最后一个裂变电池让这个终端重新上线，现在我被困在这里。
+</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A266</ID>
+    <EDID>AWOPPitStopGamerNote05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rescue</ORIGINAL>
+    <TRADUIT>营救</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A266</ID>
+    <EDID>AWOPPitStopGamerNote05</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Sent: 27/08/2210
+
+To: Johnny Limes
+Location Unknown
+
+From: Betty Pelican
+Hyper-Test Labs
+
+RE: Rescue
+
+I hope you can still get this. Sorry it took me so long to realize something was wrong. I have assembled a team and we are heading out to get you now. Hold on Johnny, we'll get to you.
+</ORIGINAL>
+    <TRADUIT>发送: 27/08/2210
+
+至: 强尼·利姆斯
+地点未知
+
+来自: 贝蒂·佩利肯
+超-测试实验室
+
+回复: 营救
+
+我希望你还能收到这个。对不起，我花了这么长时间才意识到有些不对劲。我已经组建了一支队伍，我们现在就去找你。等一下强尼，我们会找到你的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A554</ID>
+    <EDID>AWOPNiptonSewerDeadNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sewer Dweller's Note</ORIGINAL>
+    <TRADUIT>下水道居民的笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A554</ID>
+    <EDID>AWOPNiptonSewerDeadNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Not sure why the others didn't follow me down here, but that's fine by me. I'm not scared of a few rats. They're my dinner, not the other way around.
+
+Lots of locked doors down here. Security door seemed faulty. I managed to temporarily short it out with my cattle prod. Not sure how many more times I can do that before I fry the circuit.
+
+On the plus side, I think the keycard I found in the Security Office will fit that fence in the tunnel. It looks like there is some sort of military facility down here. With a bit more luck, I'll score me some valuable salvage.
+</ORIGINAL>
+    <TRADUIT>不知道为什么其他人不跟着我下来，但没关系。我不怕几只老鼠。它们是我的晚餐，而不是相反。
+
+
+
+下面有很多锁着的门。安全门似乎有故障。我设法用我的赶牛棒暂时短路。在烧坏电路之前，我不知道还能做多少次。
+
+
+
+从好的方面来说，我认为我在安全办公室找到的钥匙卡适合隧道里的围栏。这里好像有某种军事设施。如果运气好一点，我能捞到一些有价值的东西。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A98A</ID>
+    <EDID>AWOPQuarryJunctionNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Junction Note</ORIGINAL>
+    <TRADUIT>采石场枢纽笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609A98A</ID>
+    <EDID>AWOPQuarryJunctionNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>They're all dead... Billy, Steve, The Sarge... These monsters are like nothing I have ever seen before. Only one choice left, gotta break out the Fat Man. I'm gonna nuke this whole damn quarry...
+</ORIGINAL>
+    <TRADUIT>他们都死了......
+比利、史蒂夫、萨奇......
+这些怪物是我以前从未见过的。只剩下一个选择，必须破坏胖子。我要用核武器摧毁这整个该死的采石场......</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609AA60</ID>
+    <EDID>AWOPSLNCRNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranovich's Log 21-07-81</ORIGINAL>
+    <TRADUIT>拉诺维奇的日志 21-07-81</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609AA60</ID>
+    <EDID>AWOPSLNCRNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Eastern Turret repaired. Structural damage indicated a lucky hit by a Radscorpion.
+
+Marks and Vizzy have been transferred to Camp Golf. No reason given. Vizzy will be missed around here, don't know if I can say the same about Marks.
+</ORIGINAL>
+    <TRADUIT>东部炮塔修好了。结构损坏表明被辐射蝎侥幸击中。
+
+马克斯和薇姿已被转移到高尔夫营地。没有给出理由。这里会想念薇姿的，不知道我是否能对马克斯说同样的话。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609AA61</ID>
+    <EDID>AWOPSLNCRNote02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranovich's Log 25-07-81</ORIGINAL>
+    <TRADUIT>拉诺维奇的日志 25-07-81</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609AA61</ID>
+    <EDID>AWOPSLNCRNote02</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>It's been unusually quiet around here recently. Some dissention in the ranks. Sanderson accused Kracken of being an enemy spy and a fight broke out. Both were drunk. Seems like it all started over a game of Caravan. They've earned themselves triple partol duty for a week.
+</ORIGINAL>
+    <TRADUIT>最近这里异常安静。
+
+队伍中有一些异议。桑德森指责克拉肯是敌方间谍，并爆发了一场打斗。两人都喝醉了。似乎这一切都始于一场大篷车游戏。他们已经为自己赢得了一个星期的三倍巡逻任务。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609AA62</ID>
+    <EDID>AWOPSLNCRNote03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranovich's Log 30-07-81</ORIGINAL>
+    <TRADUIT>拉诺维奇的日志 30-07-81</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609AA62</ID>
+    <EDID>AWOPSLNCRNote03</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Initiate Emergency Protocol 177
+The town is under attack - seems like some kind of toxic leak.
+The bunker's air filters can't handle it. Some troops are already showing signs of sickness.
+Not sure how long we can last down here, but it's better than what's going on up there. There's been no communication from the town in over 15 minutes, so whatever that stuff is, it is deadly as hell. All we can do now is hope that it dissipates before it reaches us down here...
+</ORIGINAL>
+    <TRADUIT>启动紧急协议177
+
+这座城镇正遭受袭击——看起来像是某种有毒物质泄漏。
+
+地堡的空气过滤器无法处理。一些部队已经出现了生病的迹象。
+
+不知道我们能在这里坚持多久，但这比那里发生的事情要好。在超过15分钟的时间里，镇上没有任何通讯，所以不管那是什么东西，它都是致命的。我们现在所能做的就是希望它在到达我们这里之前消散......</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609C553</ID>
+    <EDID>AWOPPitStopProposal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Torn Investment Proposal</ORIGINAL>
+    <TRADUIT>撕裂的投资建议书</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609C553</ID>
+    <EDID>AWOPPitStopProposal</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>...need to remind you that this project has advanced nano and bio-technology by decades. People can change their appearance instantly for free using our methods. Years of discrimination, petty squabbles, inferiority complexes, and body envy can be ended overnight.
+
+7:
+Hyper-Real Project Objective:
+To create a virtual reality identical to our own where 1 hour in the game = 1 minute in real life.  People could live at least 60 times longer by accessing unused areas of the brain and making use of brain functions used during sleep. Using our pattented nano and bio-technologu, we will make ourselves physically and mentally stronger than normally achievable by humans. 
+
+8:
+Global Benefits:
+These games can solve over-population and provide an alternative natural energy source. On the other hand, once we have fully harnessed the potential of our nano and bio-tech, all fuel sources will become irrelevant.
+
+It will negate the need for 99% of material possessions, including money, thus ending 99% of world conflicts. Theoretically it could even put an end to the...
+</ORIGINAL>
+    <TRADUIT>……需要提醒你的是，这个项目已经拥有几十年的先进纳米和生物技术。人们可以使用我们的方法立即免费改变自己的外表。多年的歧视、琐碎的争吵、自卑感和身体嫉妒可以在一夜之间结束。
+
+
+
+7.超现实项目目标: 
+
+创建一个与我们自己的虚拟现实相同的虚拟现实，其中游戏中的 1 小时 = 现实生活中的 1 分钟。 通过进入大脑中未使用的区域并利用睡眠期间使用的大脑功能，人们可以延长至少 60 倍的寿命。利用我们精心设计的纳米和生物技术，我们将使自己在身体和精神上比人类通常所能达到的更强大。
+
+ 
+
+8:全球效益: 
+
+这些游戏可以解决人口过剩问题，并提供替代的自然能源。另一方面，一旦我们充分利用了纳米和生物技术的潜力，所有燃料来源都将变得无关紧要。它将否定对包括金钱在内的99%物质财富的需求，从而结束99%的世界冲突。从理论上讲，它甚至可以结束......</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609F503</ID>
+    <EDID>AWOPFatherStackNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Father Stack's Note</ORIGINAL>
+    <TRADUIT>斯塔克神父的笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0609F503</ID>
+    <EDID>AWOPFatherStackNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I'll play Freetech whenever I want. I had my fun and that's all that matters.
+</ORIGINAL>
+    <TRADUIT>只要我想玩自由科技，我就会玩。我玩得很开心，这才是最重要的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060A0ABE</ID>
+    <EDID>AWOPEnclaveXanderNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enclave Trooper Note</ORIGINAL>
+    <TRADUIT>英克雷步兵笔记</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060A0ABE</ID>
+    <EDID>AWOPEnclaveXanderNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The Xander lab was our last hope and it's gone to shit. The Deathclaws have completely taken over. There is only one other friendly bunker in Nevada and no one knows the location.
+
+Captain thinks we should retake the labs. It's suicide for sure but it's our only shot at survival. Enclave troops are hunted for sport around these parts anyway. Chances are we would get our asses shot off by NCR if we tried to get back into town.
+</ORIGINAL>
+    <TRADUIT>山德实验室是我们最后的希望，但它已经完蛋了。死亡之爪已经完全接管了。内华达州只有另外一个友好地堡，没有人知道它的位置。
+
+上尉认为我们应该夺回实验室。这当然是自杀，但这是我们唯一的生存机会。无论如何，英克雷部队都会在这些地区周围被猎杀。如果我们试图回到城里，我们很可能会被NCR打得落花流水。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060A0AC0</ID>
+    <EDID>AWOPLegionAbandonedNote01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fall Back!</ORIGINAL>
+    <TRADUIT>撤退！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060A0AC0</ID>
+    <EDID>AWOPLegionAbandonedNote01</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The Praetorian and his team are dead.
+
+This land may be safe from the NCR, but it appears they are not the only threat around here. All surviving legionaires are to avoid contact with the brood of Lake Lurks when possible and retreat to Cottonwood Cove where they will be issued new orders.
+</ORIGINAL>
+    <TRADUIT>禁卫军和他的部队已经死了。
+
+这片土地可能不受NCR的影响，但似乎他们不是这里唯一的威胁。所有幸存的军团士兵都应尽可能避免与潜伏湖的幼崽接触，并撤退到棉花丛湾，在那里他们将获得新的命令。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060A0ACD</ID>
+    <EDID>AWOPToxicCaveReport</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Local Toxicity Report</ORIGINAL>
+    <TRADUIT>本地毒性报告</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060A0ACD</ID>
+    <EDID>AWOPToxicCaveReport</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Local toxicity levels have spiked way beyond our expectations. Several of the barrels must have ruptured judging by these readings.
+
+If we continue to dump at this location, the possibility of a local contamination leak would be virtually unavoidable.
+
+We have no choice but to evacuate the tunnels and seal them off.
+
+Several mechs are still present at the site and will continue with the clean up operation for as long as they can.
+</ORIGINAL>
+    <TRADUIT>当地的毒性水平已经远远超出了我们的预期。从这些读数来看，有几个管道一定已经破裂了。如果我们继续在该位置倾倒，则几乎不可避免的局部污染泄漏的可能性。我们别无选择，只能撤离隧道并封锁它们。
+
+几台机械仍然在现场，并将尽可能长时间地继续进行清理行动。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060819DE</ID>
+    <EDID>AWOPHopewellApartments</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hopewell Apartments</ORIGINAL>
+    <TRADUIT>霍普韦尔公寓</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06005F6E</ID>
+    <EDID>AWOPPrimmSewer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Primm Sewer</ORIGINAL>
+    <TRADUIT>普瑞姆下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0601739A</ID>
+    <EDID>AWOPCottonwoodOverlookHouse02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned House</ORIGINAL>
+    <TRADUIT>废弃房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06005ECE</ID>
+    <EDID>AWOPToxicCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toxic Cave</ORIGINAL>
+    <TRADUIT>毒性洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06020C1A</ID>
+    <EDID>AWOPFiendBunker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend Bunker</ORIGINAL>
+    <TRADUIT>恶魔帮地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060747FC</ID>
+    <EDID>AWOPRiddlersToysGames</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Riddler's Toys &amp; Games</ORIGINAL>
+    <TRADUIT>谜语人的玩具&amp;游戏</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06001572</ID>
+    <EDID>AWOPGSGoodspringsSewer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings Sewer</ORIGINAL>
+    <TRADUIT>清泉下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0602553A</ID>
+    <EDID>AWOPNovacSewerEast</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Sewer East</ORIGINAL>
+    <TRADUIT>诺瓦克下水道东部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06020F09</ID>
+    <EDID>AWOPAbandonedGasStation01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Gas Station</ORIGINAL>
+    <TRADUIT>废弃加油站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600D265</ID>
+    <EDID>AWOPSunnytimeCigarettesHeadquarters</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunnytime Cigarettes Headquarters</ORIGINAL>
+    <TRADUIT>阳光时代香烟总部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06000ADD</ID>
+    <EDID>AWOPJunction15Station</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Junction 15 Station</ORIGINAL>
+    <TRADUIT>15号枢纽站点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600A2D1</ID>
+    <EDID>AWOPVault40A</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Vault</ORIGINAL>
+    <TRADUIT>废弃避难所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060078B6</ID>
+    <EDID>AWOPDevilsGulletCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infested Cave</ORIGINAL>
+    <TRADUIT>感染洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0602E4A2</ID>
+    <EDID>AWOPNiptonSewer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nipton Sewer</ORIGINAL>
+    <TRADUIT>尼普顿下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06020E38</ID>
+    <EDID>AWOPSummerSpringsHotelRoom01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Summer Springs Hotel Room</ORIGINAL>
+    <TRADUIT>夏泉旅馆房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06063F58</ID>
+    <EDID>AWOPFiendHideout</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend Hideout</ORIGINAL>
+    <TRADUIT>恶魔帮藏匿处</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06020E74</ID>
+    <EDID>AWOPSummerSpringsHotelRoom02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Summer Springs Hotel Room</ORIGINAL>
+    <TRADUIT>夏泉旅店房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06020DB6</ID>
+    <EDID>AWOPSummerSpringsBoardingHouse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Summer Springs Boarding House</ORIGINAL>
+    <TRADUIT>夏泉寄宿屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0601329C</ID>
+    <EDID>AWOPAntCaves</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ant Caves</ORIGINAL>
+    <TRADUIT>蚂蚁洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060176B3</ID>
+    <EDID>AWOPSearchlightBombShelter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Bomb Shelter</ORIGINAL>
+    <TRADUIT>探照灯防空洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018E37</ID>
+    <EDID>ELCave08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radscorpion Cave</ORIGINAL>
+    <TRADUIT>辐射蝎洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06013DDD</ID>
+    <EDID>AWOPPitStopBombShelter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pit Stop Bomb Shelter</ORIGINAL>
+    <TRADUIT>维修站防空洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06006E90</ID>
+    <EDID>AWOPSunnySetShelter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SunnySet Shelter Main Chamber</ORIGINAL>
+    <TRADUIT>夕阳庇护所主房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06006D14</ID>
+    <EDID>AWOPSunnySetShelterEntrance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SunnySet Shelter Main Entrance</ORIGINAL>
+    <TRADUIT>夕阳庇护所主入口</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600874A</ID>
+    <EDID>AWOPVault40C</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Vault Living Quarters</ORIGINAL>
+    <TRADUIT>废弃避难所生活区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0602481E</ID>
+    <EDID>AWOPVipersLair</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vipers' Lair</ORIGINAL>
+    <TRADUIT>毒蛇帮巢穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06025886</ID>
+    <EDID>AWOPNovacSewerWest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Sewer West</ORIGINAL>
+    <TRADUIT>诺瓦克下水道西部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06007D23</ID>
+    <EDID>AWOPSunnySetStorage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SunnySet Storage &amp; Maintenance</ORIGINAL>
+    <TRADUIT>夕阳储存&amp;维护</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0601733B</ID>
+    <EDID>AWOPCottonwoodOverlookHouse01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned House</ORIGINAL>
+    <TRADUIT>废弃房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018A47</ID>
+    <EDID>ELCave04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Small Cave</ORIGINAL>
+    <TRADUIT>小洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600A695</ID>
+    <EDID>AWOPVault40B</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Vault Living Quarters</ORIGINAL>
+    <TRADUIT>废弃避难所生活区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018B87</ID>
+    <EDID>ELCave03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw Sanctuary</ORIGINAL>
+    <TRADUIT>死亡爪禁区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013F41B</ID>
+    <EDID>CampSearchlightChurch</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Church Basement</ORIGINAL>
+    <TRADUIT>探照灯营地教堂地下室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018C09</ID>
+    <EDID>ELCave06</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Super Mutant Hideout</ORIGINAL>
+    <TRADUIT>超级变种人藏匿处</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0603182B</ID>
+    <EDID>AWOPNovacCollapsedTunnels02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Collapsed Tunnels Sub-level</ORIGINAL>
+    <TRADUIT>诺瓦克坍塌隧道下层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060253CE</ID>
+    <EDID>AWOPSearchlightSewer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Sewer</ORIGINAL>
+    <TRADUIT>探照灯下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060076E4</ID>
+    <EDID>AWOPSunnySetWaterProcessing</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Water Processing Plant</ORIGINAL>
+    <TRADUIT>水处理厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018BD8</ID>
+    <EDID>ELCave01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Small Cave</ORIGINAL>
+    <TRADUIT>小洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600A696</ID>
+    <EDID>AWOPBiohazardDisposalSite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Biohazard Disposal Site</ORIGINAL>
+    <TRADUIT>生物危害处理场</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06024AFA</ID>
+    <EDID>AWOPSearchlightHangar01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Underground Hangar</ORIGINAL>
+    <TRADUIT>探照灯地下机库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06008454</ID>
+    <EDID>AWOPRadiologicalReserchFacility</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radiological Research Facility</ORIGINAL>
+    <TRADUIT>放射性研究设施</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600877E</ID>
+    <EDID>AWOPSunnySetShelterDorms</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SunnySet Shelter Sleeping Quaters</ORIGINAL>
+    <TRADUIT>夕阳庇护所睡眠区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018ADE</ID>
+    <EDID>ELCave05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Devil's Eye Cave</ORIGINAL>
+    <TRADUIT>恶魔之眼洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060092AB</ID>
+    <EDID>AWOPSunnySetShelterEmergencyEntrance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SunnySet Shelter Emergency Tunnel</ORIGINAL>
+    <TRADUIT>夕阳庇护所应急通道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018FCB</ID>
+    <EDID>ELCave02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cazador Nest</ORIGINAL>
+    <TRADUIT>猎蜂巢</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600F985</ID>
+    <EDID>AWOPCanyonStationUtility</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Canyon Station Utility Tunnels</ORIGINAL>
+    <TRADUIT>峡谷站公用隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600EB7F</ID>
+    <EDID>AWOPFiretoothCaverns</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sawtooth Caverns</ORIGINAL>
+    <TRADUIT>锯齿洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06031ADF</ID>
+    <EDID>AWOPNovacShippingOffice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Shipping Office</ORIGINAL>
+    <TRADUIT>诺瓦克获运办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600A345</ID>
+    <EDID>AWOPGSMine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Mine</ORIGINAL>
+    <TRADUIT>废弃矿坑</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06031639</ID>
+    <EDID>AWOPNovacCollapsedTunnels01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Collapsed Tunnels</ORIGINAL>
+    <TRADUIT>诺瓦克坍塌隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06024E4E</ID>
+    <EDID>AWOPClarkFieldReservior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Clark Field Reservior</ORIGINAL>
+    <TRADUIT>克拉克场地蓄水池</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06001214</ID>
+    <EDID>AWOPQuarryJunctionBreakRoom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Junction Break Room</ORIGINAL>
+    <TRADUIT>采石场枢纽休息室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600F2B0</ID>
+    <EDID>AWOPInfestedNCRBunker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infested NCR Bunker</ORIGINAL>
+    <TRADUIT>感染的NCR地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0603986C</ID>
+    <EDID>AWOPInfestedNCRBunkerLower</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infested NCR Bunker Lower Level</ORIGINAL>
+    <TRADUIT>感染的NCR地堡下层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0600716E</ID>
+    <EDID>AWOPBombShelter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bomb Shelter</ORIGINAL>
+    <TRADUIT>防空洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06020AEC</ID>
+    <EDID>AWOPFiendHouse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend Safehouse</ORIGINAL>
+    <TRADUIT>恶魔帮安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0608E2EA</ID>
+    <EDID>AWOPXanderBayStorageArea</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Xander Bay Storage Area</ORIGINAL>
+    <TRADUIT>山德湾储存区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060228BA</ID>
+    <EDID>AWOPClarkFeildTestingSite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Water Testing Site</ORIGINAL>
+    <TRADUIT>水检测点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0601A459</ID>
+    <EDID>AWOPGreenbloodCaves</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Greenblood Caves</ORIGINAL>
+    <TRADUIT>绿血洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06009933</ID>
+    <EDID>AWOLPFPGECell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>A World of Less Pain Dump Cell</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06031A37</ID>
+    <EDID>AWOPNovacCollapsedTunnels03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Collapsed Tunnels Access</ORIGINAL>
+    <TRADUIT>诺瓦克坍塌隧道通道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00148A5B</ID>
+    <EDID>SLJeanSkyDivingINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jean Sky Diving</ORIGINAL>
+    <TRADUIT>吉恩跳伞俱乐部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06079B6B</ID>
+    <EDID>AWOPQuarryJunctionRestArea</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Junction Manager's Office</ORIGINAL>
+    <TRADUIT>采石场枢纽经理办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0600281C</ID>
+    <EDID>REFGSSewerMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings Sewer</ORIGINAL>
+    <TRADUIT>清泉镇下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06006E8E</ID>
+    <EDID>REFSunnysetMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SunnySet Shelter</ORIGINAL>
+    <TRADUIT>夕阳庇护所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06007148</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Primm Sewer</ORIGINAL>
+    <TRADUIT>普瑞姆下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>060078CE</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toxic Cave</ORIGINAL>
+    <TRADUIT>毒素洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>060099AD</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radiological Research Facility</ORIGINAL>
+    <TRADUIT>放射性研究设施</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0600A348</ID>
+    <EDID>REFGSMineMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Mine</ORIGINAL>
+    <TRADUIT>废弃矿井</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0600A446</ID>
+    <EDID>REFV40MapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Vault</ORIGINAL>
+    <TRADUIT>废弃避难所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0600AC1A</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Biohazard Disposal Site</ORIGINAL>
+    <TRADUIT>生物危害处置场</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0600ECC8</ID>
+    <EDID>REFFiretoothCaveMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sawtooth Caverns</ORIGINAL>
+    <TRADUIT>锯齿洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0600F3C7</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infested NCR Bunker</ORIGINAL>
+    <TRADUIT>被感染的NCR地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>060100EE</ID>
+    <EDID>REFCanyonStationMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Canyon Station Utility</ORIGINAL>
+    <TRADUIT>峡谷站公用设施</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06018EBB</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radscorpion Cave</ORIGINAL>
+    <TRADUIT>辐射蝎洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06018FA7</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Super Mutant Hideout</ORIGINAL>
+    <TRADUIT>超级变种人藏匿点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06018FB7</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw Sanctuary</ORIGINAL>
+    <TRADUIT>死亡爪禁区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0601A458</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Greenblood Caves</ORIGINAL>
+    <TRADUIT>绿血洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0601FB85</ID>
+    <EDID>REFDevilsGulletMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infested Cave</ORIGINAL>
+    <TRADUIT>被感染的洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06020D17</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend Safehouse</ORIGINAL>
+    <TRADUIT>恶魔帮安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06020ED6</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Summer Springs Boarding House</ORIGINAL>
+    <TRADUIT>夏泉寄宿屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06024A9E</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vipers' Lair</ORIGINAL>
+    <TRADUIT>毒蛇帮巢穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0602552E</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Sewers</ORIGINAL>
+    <TRADUIT>探照灯下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06025A5E</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Sewer</ORIGINAL>
+    <TRADUIT>诺瓦克下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06026210</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ant Caves</ORIGINAL>
+    <TRADUIT>蚂蚁洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>060262CD</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Underground Hangar</ORIGINAL>
+    <TRADUIT>探照灯地下机库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0602F379</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nipton Sewer</ORIGINAL>
+    <TRADUIT>尼普顿下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06031B86</ID>
+    <EDID>REFNovacShippingMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Novac Shipping Office</ORIGINAL>
+    <TRADUIT>诺瓦克货运办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0606480C</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend Hideout</ORIGINAL>
+    <TRADUIT>恶魔帮藏匿点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0606936C</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghoul Raider Camp</ORIGINAL>
+    <TRADUIT>尸鬼掠夺者营地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>060693A6</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend Campsite North</ORIGINAL>
+    <TRADUIT>恶魔帮营地北部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0606FD8B</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abandoned Legion Camp</ORIGINAL>
+    <TRADUIT>废弃军团营地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06075061</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Riddler's Toys And Games</ORIGINAL>
+    <TRADUIT>谜语人的玩具和游戏</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0608223A</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hopewell Apartments</ORIGINAL>
+    <TRADUIT>霍普韦尔公寓</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0608EF21</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Xander Bay</ORIGINAL>
+    <TRADUIT>山德湾</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0600788C</ID>
+    <EDID>AWOPSigarettesFactory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
