@@ -23,6 +23,9 @@
 		<file target="Data/NVCHSDict/regular_en.txt" src="Data/NVCHSDict/regular_ch.txt" type="2" priority="-2"/>
 
 		<xml path="Data/NVCHSDict/FalloutNV.xml"/>
+		<xml path="Data/NVCHSDict/mods/YUP.xml"/>
+		<xml path="Data/NVCHSDict/mods/YUP_NPC_Fixes.xml"/>
+		<xml path="Data/NVCHSDict/mods/YUP_Dial.xml"/>
 		<xml path="Data/NVCHSDict/YUPTTW.xml"/>
 		<xml path="Data/NVCHSDict/OldWorldBlues.xml"/>
 		<xml path="Data/NVCHSDict/LonesomeRoad.xml"/>
@@ -40,7 +43,6 @@
 		<xml path="Data/NVCHSDict/Zeta.xml"/>
 		<xml path="Data/NVCHSDict/TribalPack.xml"/>
 		<xml path="Data/NVCHSDict/TLD_Travelers.xml"/>
-		<xml path="Data/NVCHSDict/ArmedToTheTeethNV.xml"/>
 		<xml path="Data/NVCHSDict/NewVegasBounties.xml"/>
 		<xml path="Data/NVCHSDict/NewVegasBountiesII.xml"/>
 		<xml path="Data/NVCHSDict/Russell.xml"/>
@@ -109,6 +111,7 @@
 		<file target="Data/NVCHSDict/quicktrain_ch.txt" src="Data/NVCHSDict/quicktrain_en.txt" type="2" priority="0"/>
 		<file target="Data/NVCHSDict/MAPMO_ch.txt" src="Data/NVCHSDict/MAPMO_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/EnhancedMovement_ch.txt" src="Data/NVCHSDict/EnhancedMovement_en.txt" type="2" priority="0"/>
+	
 	</replacetext>
 
 	<fonts>
