@@ -10,13 +10,7 @@
 
 	<replacetext>
 	
-		<file target="Data/NVCHSDict/LR_dial_ja.txt" src="Data/NVCHSDict/LR_dial_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/overwrite_ja.txt" src="Data/NVCHSDict/overwrite_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/HH_dial_ja.txt" src="Data/NVCHSDict/HH_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Dead Money_dial_chs.txt" src="Data/NVCHSDict/Dead Money_dial_en.txt" type="2" priority="1"/>
-		<xml path="Data/NVCHSDict/FalloutNV_DIal.xml" priority="1" />
-		<file target="Data/NVCHSDict/YUPTTW_dial_chs.txt" src="Data/NVCHSDict/YUPTTW_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/owb_dial_chs.txt" src="Data/NVCHSDict/owb_dial_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/fnv_eff_chs.txt" src="Data/NVCHSDict/fnv_eff_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/FIX_CN.txt" src="Data/NVCHSDict/FIX_EN.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/gamesetting_chs.txt" src="Data/NVCHSDict/gamesetting_en.txt" type="2" priority="-1"/>
@@ -25,7 +19,6 @@
 		<xml path="Data/NVCHSDict/FalloutNV.xml"/>
 		<xml path="Data/NVCHSDict/mods/YUP.xml"/>
 		<xml path="Data/NVCHSDict/mods/YUP_NPC_Fixes.xml"/>
-		<xml path="Data/NVCHSDict/mods/YUP_Dial.xml"/>
 		<xml path="Data/NVCHSDict/YUPTTW.xml"/>
 		<xml path="Data/NVCHSDict/OldWorldBlues.xml"/>
 		<xml path="Data/NVCHSDict/LonesomeRoad.xml"/>
