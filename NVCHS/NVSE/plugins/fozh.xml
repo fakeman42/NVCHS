@@ -104,6 +104,7 @@
 		<file target="Data/NVCHSDict/quicktrain_ch.txt" src="Data/NVCHSDict/quicktrain_en.txt" type="2" priority="0"/>
 		<file target="Data/NVCHSDict/MAPMO_ch.txt" src="Data/NVCHSDict/MAPMO_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/EnhancedMovement_ch.txt" src="Data/NVCHSDict/EnhancedMovement_en.txt" type="2" priority="0"/>
+		<xml path="Data/NVCHSDict/mods/Casino_Exchange_All.xml" priority="0" />
 	
 	</replacetext>
 
