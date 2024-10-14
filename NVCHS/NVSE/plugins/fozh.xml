@@ -11,11 +11,11 @@
 	<replacetext>
 		
 		<!-- 修复用词典 -->
-		<file target="Data/NVCHSDict/overwrite_ja.txt" src="Data/NVCHSDict/overwrite_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/fnv_eff_chs.txt" src="Data/NVCHSDict/fnv_eff_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/FIX_CN.txt" src="Data/NVCHSDict/FIX_EN.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/gamesetting_chs.txt" src="Data/NVCHSDict/gamesetting_en.txt" type="2" priority="-1"/>
-		<file target="Data/NVCHSDict/regular_en.txt" src="Data/NVCHSDict/regular_ch.txt" type="2" priority="-2"/>
+		<file target="Data/NVCHSDict/Fixes/overwrite_ja.txt" src="Data/NVCHSDict/Fixes/overwrite_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Fixes/fnv_eff_chs.txt" src="Data/NVCHSDict/Fixes/fnv_eff_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Fixes/FIX_CN.txt" src="Data/NVCHSDict/Fixes/FIX_EN.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Fixes/gamesetting_chs.txt" src="Data/NVCHSDict/Fixes/gamesetting_en.txt" type="2" priority="-1"/>
+		<file target="Data/NVCHSDict/Fixes/regular_en.txt" src="Data/NVCHSDict/Fixes/regular_ch.txt" type="2" priority="-2"/>
 
 		<!-- FNV本体 -->
 		<xml path="Data/NVCHSDict/FalloutNV.xml"/>
@@ -36,12 +36,12 @@
 		<xml path="Data/NVCHSDict/TribalPack.xml"/>
 		<xml path="Data/NVCHSDict/CaravanPack.xml"/>
 		
-		<!-- Radio -->
-		<xml path="Data/NVCHSDict/Radio_KOR.xml"/>
-		<xml path="Data/NVCHSDict/LegionRadio.xml"/>
+		<!-- 电台 -->
+		<xml path="Data/NVCHSDict/Radio/Radio_KOR.xml"/>
+		<xml path="Data/NVCHSDict/Radio/LegionRadio.xml"/>
 		
 		<!-- lstewie -->
-		<file target="Data/NVCHSDict/STEWIE_CN.txt" src="Data/NVCHSDict/STEWIE_E.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/Stewie/STEWIE_CN.txt" src="Data/NVCHSDict/Stewie/STEWIE_E.txt" type="2" priority="0"/>
 		
 		<!-- YUP -->
 		<xml path="Data/NVCHSDict/Mods/YUP.xml"/>
