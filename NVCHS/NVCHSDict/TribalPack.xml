@@ -9,35 +9,10 @@
     <TRADUIT />
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>-1</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>SCPT</GRUP>
-    <ID>00172A26</ID>
-    <EDID>VPreorderTribalSCRIPT</EDID>
-    <CHAMP>SCTX</CHAMP>
-    <ORIGINAL>ScriptName VPreorderTribalSCRIPT
-
-BEGIN GameMode
-	if (VDLCPackQuest.bTribalItemsGiven == 0)
-		ShowMessage PreorderMessageInventoryTribal;
-		Player.AddItem PreordArmorTribalRaiding 1;
-		Player.AddItem WeapNVThrowingSpear 10;
-		Player.AddItem WeapPreordMachete 1;
-		Player.AddItem BleakVenom 5;
-		set VDLCPackQuest.bTribalItemsGiven to 1;
-	endif
-END</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
     <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
-    <ICON>11</ICON>
+    <ICON>-1</ICON>
   </ESP>
   <ESP>
     <GRUP>ARMO</GRUP>

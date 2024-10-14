@@ -9,36 +9,10 @@
     <TRADUIT />
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>-1</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>SCPT</GRUP>
-    <ID>00172A24</ID>
-    <EDID>VPreorderMercenarySCRIPT</EDID>
-    <CHAMP>SCTX</CHAMP>
-    <ORIGINAL>ScriptName VPreorderMercenarySCRIPT
-
-BEGIN GameMode
-	if (VDLCPackQuest.bMercenaryItemsGiven == 0)
-		ShowMessage PreorderMessageInventoryMercenary;
-		Player.AddItem PreordArmorMetal 1;
-		Player.AddItem WeapPreordGrenadeRifle 1;
-		Player.AddItem Ammo40mmGrenade 20;
-		Player.AddItem NVDoctorBag 3;
-		Player.AddItem NVSuperStimpak 3;
-		set VDLCPackQuest.bMercenaryItemsGiven to 1;
-	endif
-END</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
     <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
-    <ICON>11</ICON>
+    <ICON>-1</ICON>
   </ESP>
   <ESP>
     <GRUP>ARMO</GRUP>

@@ -9,36 +9,10 @@
     <TRADUIT />
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>-1</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>SCPT</GRUP>
-    <ID>00172A25</ID>
-    <EDID>VPreorderCaravanSCRIPT</EDID>
-    <CHAMP>SCTX</CHAMP>
-    <ORIGINAL>ScriptName VPreorderCaravanSCRIPT
-
-BEGIN GameMode
-	if (VDLCPackQuest.bCaravanItemsGiven == 0)
-		ShowMessage PreorderMessageInventoryCaravan;
-		Player.AddItem PreordArmorLeather 1;
-		Player.AddItem WeapPreordCaravanShotgun 1;
-		Player.AddItem Ammo20Ga 40
-		Player.AddItem NVRepairKit 4;
-		Player.AddItem WeapNVBinoculars 1;
-		set VDLCPackQuest.bCaravanItemsGiven to 1;
-	endif
-END</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
     <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
-    <ICON>11</ICON>
+    <ICON>-1</ICON>
   </ESP>
   <ESP>
     <GRUP>ARMO</GRUP>
