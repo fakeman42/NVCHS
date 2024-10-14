@@ -330,18 +330,18 @@
 	<captureGroup>
 	
 		<!-- 添加物品角落信息 -->
-		<regex from="^(\d+) (.+)\(s\)(?: \n| )added$" to="已添加 $1 个 $2"/>
-		<regex from="^(.+) \n?added$" to="已添加 $1"/>
+		<regex from="^(\d+) (.+)\(s\)(?: \n| )added$" to="已添加$1个$2"/>
+		<regex from="^(.+) \n?added$" to="已添加$1"/>
 		
 		<!-- 移除物品角落信息 -->
-		<regex from="^(\d+) (.+)\(s\)(?: \n| )removed$" to="已移除 $1 个 $2"/>
-		<regex from="^(.+) \n?removed$" to="已移除 $1"/>
+		<regex from="^(\d+) (.+)\(s\)(?: \n| )removed$" to="已移除$1个$2"/>
+		<regex from="^(.+) \n?removed$" to="已移除$1"/>
 
 		<regex from="^(.+) (\(\d+\/\d+\))$" to="$1 $2"/>
 		
 		<!-- 技能增加角落信息 -->
 
-		<regex from="(.+) \n?increased by (\d+)$" to="$1 增加了 $2 点"/>
+		<regex from="(.+) \n?increased by (\d+)$" to="$1 增加了$2点"/>
 		
 		<regex from="^(\d+\.) (.+)" to="$1 $2"/>
 		<regex from="^\[(\w+) (\d+)](.+)" to="[$1 $2] $3" />
@@ -381,6 +381,9 @@
 		
 		<!-- 以右括号分隔的按键提示 -->
 		<regex from="^([\S\s]+)\)   ([\S\s]+)$" to="$1)   $2"/>
+		
+		<!-- 禁止赌博提示 -->
+		<regex from="^([\d]+)\s([\s\S]+)\(s\)\s+added\s*You have been banned from gambling at this casino.$" to="已添加 $1个$2&#xA;这个赌场已禁止你继续在此赌博。"/>
 		
 	</captureGroup>
 
