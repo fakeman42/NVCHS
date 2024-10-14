@@ -105,6 +105,8 @@
 		<file target="Data/NVCHSDict/MAPMO_ch.txt" src="Data/NVCHSDict/MAPMO_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/EnhancedMovement_ch.txt" src="Data/NVCHSDict/EnhancedMovement_en.txt" type="2" priority="0"/>
 		<xml path="Data/NVCHSDict/mods/Casino_Exchange_All.xml" priority="0" />
+		<xml path="Data/NVCHSDict/mods/Uncut_Extra_Collection_VNV.xml" priority="0" />
+		<file target="Data/NVCHSDict/mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/mods/BetterCaravan_en.txt" type="2" priority="1"/>
 	
 	</replacetext>
 
