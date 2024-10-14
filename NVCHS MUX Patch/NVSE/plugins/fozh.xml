@@ -9,32 +9,47 @@
 	<!-- priority 屬性表示載入的優先順序，數字越低越優先 -->
 
 	<replacetext>
-	
+		
+		<!-- 修复用词典 -->
 		<file target="Data/NVCHSDict/overwrite_ja.txt" src="Data/NVCHSDict/overwrite_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/fnv_eff_chs.txt" src="Data/NVCHSDict/fnv_eff_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/FIX_CN.txt" src="Data/NVCHSDict/FIX_EN.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/gamesetting_chs.txt" src="Data/NVCHSDict/gamesetting_en.txt" type="2" priority="-1"/>
 		<file target="Data/NVCHSDict/regular_en.txt" src="Data/NVCHSDict/regular_ch.txt" type="2" priority="-2"/>
 
+		<!-- FNV本体 -->
 		<xml path="Data/NVCHSDict/FalloutNV.xml"/>
-		<xml path="Data/NVCHSDict/mods/YUP.xml"/>
-		<xml path="Data/NVCHSDict/mods/YUP_NPC_Fixes.xml"/>
-		<xml path="Data/NVCHSDict/YUPTTW.xml"/>
+		<xml path="Data/NVCHSDict/DeadMoney.xml"/>
+		<xml path="Data/NVCHSDict/HonestHearts.xml"/>
 		<xml path="Data/NVCHSDict/OldWorldBlues.xml"/>
 		<xml path="Data/NVCHSDict/LonesomeRoad.xml"/>
-		<xml path="Data/NVCHSDict/DeadMoney.xml"/>
-		<xml path="Data/NVCHSDict/CaravanPack.xml"/>
 		<xml path="Data/NVCHSDict/GunRunnersArsenal.xml"/>
+		
+		<xml path="Data/NVCHSDict/FalloutNV_DIal.xml" priority="1"/>
+		<xml path="Data/NVCHSDict/DeadMoney_Dial.xml" priority="1"/>
+		<xml path="Data/NVCHSDict/HonestHearts_Dial.xml" priority="1"/>
+		<xml path="Data/NVCHSDict/OldWorldBlues_Dial.xml" priority="1"/>
+		<xml path="Data/NVCHSDict/LonesomeRoad_Dial.xml" priority="1"/>
+		
+		<xml path="Data/NVCHSDict/ClassicPack.xml"/>
+		<xml path="Data/NVCHSDict/MercenaryPack.xml"/>
+		<xml path="Data/NVCHSDict/TribalPack.xml"/>
+		<xml path="Data/NVCHSDict/CaravanPack.xml"/>
+		
+		<!-- YUP -->
+		<xml path="Data/NVCHSDict/mods/YUP.xml"/>
+		<xml path="Data/NVCHSDict/mods/YUP_NPC_Fixes.xml"/>
+		
+		<!-- TTW -->
 		<xml path="Data/NVCHSDict/Fallout3.xml"/>
 		<xml path="Data/NVCHSDict/ThePitt.xml"/>
 		<xml path="Data/NVCHSDict/Anchorage.xml"/>
 		<xml path="Data/NVCHSDict/BrokenSteel.xml"/>
-		<xml path="Data/NVCHSDict/ClassicPack.xml"/>
-		<xml path="Data/NVCHSDict/MercenaryPack.xml"/>
 		<xml path="Data/NVCHSDict/PointLookout.xml"/>
-		<xml path="Data/NVCHSDict/TaleOfTwoWastelands.xml"/>
 		<xml path="Data/NVCHSDict/Zeta.xml"/>
-		<xml path="Data/NVCHSDict/TribalPack.xml"/>
+		<xml path="Data/NVCHSDict/TaleOfTwoWastelands.xml"/>
+		<xml path="Data/NVCHSDict/YUPTTW.xml"/>
+		
 		<xml path="Data/NVCHSDict/TLD_Travelers.xml"/>
 		<xml path="Data/NVCHSDict/NewVegasBounties.xml"/>
 		<xml path="Data/NVCHSDict/NewVegasBountiesII.xml"/>
@@ -61,7 +76,7 @@
 		<xml path="Data/NVCHSDict/KhanInitiation.xml"/>
 		<xml path="Data/NVCHSDict/NorthRoad.xml"/>
 		<xml path="Data/NVCHSDict/Radio_KOR.xml"/>
-		<xml path="Data/NVCHSDict/HonestHearts.xml"/>
+		
 		<!-- Zion trail! -->
 		<xml path="Data/NVCHSDict/ZionTrail.xml"/>
 		<xml path="Data/NVCHSDict/ZionTrailTweaks.xml"/>
