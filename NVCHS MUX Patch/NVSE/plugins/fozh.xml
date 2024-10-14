@@ -37,8 +37,8 @@
 		<xml path="Data/NVCHSDict/CaravanPack.xml"/>
 		
 		<!-- YUP -->
-		<xml path="Data/NVCHSDict/mods/YUP.xml"/>
-		<xml path="Data/NVCHSDict/mods/YUP_Dial.xml"/>
+		<xml path="Data/NVCHSDict/Mods/YUP.xml"/>
+		<xml path="Data/NVCHSDict/Mods/YUP_Dial.xml"/>
 		
 		<!-- TTW -->
 		<xml path="Data/NVCHSDict/TTW/Fallout3.xml"/>
@@ -94,15 +94,15 @@
 		<file target="Data/NVCHSDict/fallout3_chs.txt" src="Data/NVCHSDict/fallout3_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/fo3map_chs.txt" src="Data/NVCHSDict/fo3map_en.txt" type="2" priority="0"/>
 		<!-- 3DNPCFO3Bundle -->
-		<xml path="Data/NVCHSDict/mods/3DNPCFO3Bundle.xml"/>
-		<xml path="Data/NVCHSDict/mods/3DNPCFNVBundle.xml"/>
+		<xml path="Data/NVCHSDict/Mods/3DNPCFO3Bundle.xml"/>
+		<xml path="Data/NVCHSDict/Mods/3DNPCFNVBundle.xml"/>
 		<!-- A Trail of Crumbs -->
-		<xml path="Data/NVCHSDict/mods/A Trail of Crumbs.xml"/>
+		<xml path="Data/NVCHSDict/Mods/A Trail of Crumbs.xml"/>
 		<!-- TweaksTTW -->
-		<xml path="Data/NVCHSDict/mods/TweaksTTW.xml"/>
-		<file target="Data/NVCHSDict/mods/TweaksTTW_chs.txt" src="Data/NVCHSDict/mods/TweaksTTW_en.txt" type="2" priority="1"/>
+		<xml path="Data/NVCHSDict/Mods/TweaksTTW.xml"/>
+		<file target="Data/NVCHSDict/Mods/TweaksTTW_chs.txt" src="Data/NVCHSDict/Mods/TweaksTTW_en.txt" type="2" priority="1"/>
 		<!-- Rosa -->
-		<xml path="Data/NVCHSDict/mods/Rosa.xml"/>
+		<xml path="Data/NVCHSDict/Mods/Rosa.xml"/>
 		<!-- TH3 -->
 		<file target="Data/NVCHSDict/DepthsOfDepravity_chs.txt" src="Data/NVCHSDict/DepthsOfDepravity_en.txt" type="2" priority="1"/>
 		<!-- MOd -->
@@ -120,9 +120,9 @@
 		<file target="Data/NVCHSDict/quicktrain_ch.txt" src="Data/NVCHSDict/quicktrain_en.txt" type="2" priority="0"/>
 		<file target="Data/NVCHSDict/MAPMO_ch.txt" src="Data/NVCHSDict/MAPMO_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/EnhancedMovement_ch.txt" src="Data/NVCHSDict/EnhancedMovement_en.txt" type="2" priority="0"/>
-		<xml path="Data/NVCHSDict/mods/Casino_Exchange_All.xml" priority="0" />
-		<xml path="Data/NVCHSDict/mods/Uncut_Extra_Collection_VNV.xml" priority="0" />
-		<file target="Data/NVCHSDict/mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/mods/BetterCaravan_en.txt" type="2" priority="1"/>
+		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="0" />
+		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="0" />
+		<file target="Data/NVCHSDict/Mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/Mods/BetterCaravan_en.txt" type="2" priority="1"/>
 		
 	</replacetext>
 
