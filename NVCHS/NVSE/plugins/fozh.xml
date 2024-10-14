@@ -38,7 +38,7 @@
 		
 		<!-- YUP -->
 		<xml path="Data/NVCHSDict/mods/YUP.xml"/>
-		<xml path="Data/NVCHSDict/mods/YUP_NPC_Fixes.xml"/>
+		<xml path="Data/NVCHSDict/mods/YUP_Dial.xml" priority="1"/>
 		
 		<!-- TTW -->
 		<xml path="Data/NVCHSDict/Fallout3.xml"/>
