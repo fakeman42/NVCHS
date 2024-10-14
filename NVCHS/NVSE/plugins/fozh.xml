@@ -41,14 +41,15 @@
 		<xml path="Data/NVCHSDict/mods/YUP_Dial.xml"/>
 		
 		<!-- TTW -->
-		<xml path="Data/NVCHSDict/Fallout3.xml"/>
-		<xml path="Data/NVCHSDict/ThePitt.xml"/>
-		<xml path="Data/NVCHSDict/Anchorage.xml"/>
-		<xml path="Data/NVCHSDict/BrokenSteel.xml"/>
-		<xml path="Data/NVCHSDict/PointLookout.xml"/>
-		<xml path="Data/NVCHSDict/Zeta.xml"/>
-		<xml path="Data/NVCHSDict/TaleOfTwoWastelands.xml"/>
-		<xml path="Data/NVCHSDict/YUPTTW.xml"/>
+		<xml path="Data/NVCHSDict/TTW/Fallout3.xml"/>
+		<xml path="Data/NVCHSDict/TTW/ThePitt.xml"/>
+		<xml path="Data/NVCHSDict/TTW/Anchorage.xml"/>
+		<xml path="Data/NVCHSDict/TTW/BrokenSteel.xml"/>
+		<xml path="Data/NVCHSDict/TTW/PointLookout.xml"/>
+		<xml path="Data/NVCHSDict/TTW/Zeta.xml"/>
+		<xml path="Data/NVCHSDict/TTW/TaleOfTwoWastelands.xml"/>
+		<xml path="Data/NVCHSDict/TTW/YUPTTW.xml"/>
+		<file target="Data/NVCHSDict/TTW/YUPTTW_dial_en.txt" src="Data/NVCHSDict/TTW/YUPTTW_dial_chs.txt" type="2"/>
 		
 		<xml path="Data/NVCHSDict/TLD_Travelers.xml"/>
 		<xml path="Data/NVCHSDict/NewVegasBounties.xml"/>
