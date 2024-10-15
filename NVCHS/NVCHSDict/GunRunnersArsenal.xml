@@ -1,48 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentElement>
   <ESP>
-    <GRUP>TES4</GRUP>
-    <ID>00000000</ID>
-    <EDID />
-    <CHAMP>CNAM</CHAMP>
-    <ORIGINAL>jfader</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>01000AC1</ID>
-    <EDID>NVDLC05BoomerVendorFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Boomer Vendor Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>0100095E</ID>
-    <EDID>NVDLC05VendortronFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Gun Runner Vendortron Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
     <GRUP>MGEF</GRUP>
     <ID>01000AB7</ID>
     <EDID>NVDLC05DummyNVSilent</EDID>
@@ -1550,7 +1508,7 @@ Increases ammunition capacity (+2).</ORIGINAL>
     <EDID>NVDLC05ModNV127mmSMGSuppressor</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12.7mm SMG Suppressor</ORIGINAL>
-    <TRADUIT>12.7mm 冲锋枪-消音器</TRADUIT>
+    <TRADUIT>12.7mm 冲锋枪消音器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2287,7 +2245,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo127mmJHPHandLoad</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12.7mm Round (Hand Load) (GRA)</ORIGINAL>
-    <TRADUIT>12.7mm被甲空尖弹</TRADUIT>
+    <TRADUIT>12.7mm, 被甲空尖弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2315,7 +2273,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansTinyTots</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Mini Nuke, Tiny Tots (GRA)</ORIGINAL>
-    <TRADUIT>迷你核弹-小小孩</TRADUIT>
+    <TRADUIT>迷你核弹, 小小孩 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2329,7 +2287,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansTinyTots</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>Mini Nuke, TT</ORIGINAL>
-    <TRADUIT>迷你核弹 小小孩</TRADUIT>
+    <TRADUIT>迷你核弹, 小小孩</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2343,7 +2301,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFlamerFuelOptimized</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Flamer Fuel, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
-    <TRADUIT>火焰喷射器燃料优化型</TRADUIT>
+    <TRADUIT>火焰喷射器燃料, 优化型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2357,7 +2315,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFlamerFuelOptimized</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>Fuel, Opt.</ORIGINAL>
-    <TRADUIT>燃料 优化</TRADUIT>
+    <TRADUIT>燃料, 优化</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2371,7 +2329,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoElectronChargePackOptimized</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Electron Charge Pack, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
-    <TRADUIT>荷电充能包优化型</TRADUIT>
+    <TRADUIT>荷电充能包, 优化型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2385,7 +2343,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoElectronChargePackOptimized</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>EC Pack, Opt.</ORIGINAL>
-    <TRADUIT>荷电充能包 优化</TRADUIT>
+    <TRADUIT>荷电充能包, 优化</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2399,7 +2357,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Microfusion Cell, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
-    <TRADUIT>微型核融电池优化型</TRADUIT>
+    <TRADUIT>微型核融电池, 优化型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2413,7 +2371,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>MF Cell, Opt.</ORIGINAL>
-    <TRADUIT>微型核融电池 优化</TRADUIT>
+    <TRADUIT>微型核融电池, 优化</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2427,7 +2385,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoSmallEnergyCellOptimized</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Energy Cell, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
-    <TRADUIT>能量电池优化型</TRADUIT>
+    <TRADUIT>能量电池, 优化型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2441,7 +2399,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoSmallEnergyCellOptimized</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>E Cell, Opt.</ORIGINAL>
-    <TRADUIT>能量电池 优化</TRADUIT>
+    <TRADUIT>能量电池, 优化</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2455,7 +2413,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo5mmJSPHandLoad</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>5mm, JSP (Hand Load) (GRA)</ORIGINAL>
-    <TRADUIT>5mm被甲软尖弹</TRADUIT>
+    <TRADUIT>5mm, 被甲软尖弹 (手装) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2483,7 +2441,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo9mmJHPHandLoad</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>9mm, JHP (Hand Load) (GRA)</ORIGINAL>
-    <TRADUIT>9mm被甲空尖弹</TRADUIT>
+    <TRADUIT>9mm, 被甲空尖弹 (手装) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2511,7 +2469,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo556mmMatchHandLoad</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>5.56mm, Match (Hand Load) (GRA)</ORIGINAL>
-    <TRADUIT>5.56mm竞赛弹</TRADUIT>
+    <TRADUIT>5.56mm, 竞赛弹 (手装) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2539,7 +2497,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo40mmGrenadePlasma</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>40mm Grenade, Plasma (GRA)</ORIGINAL>
-    <TRADUIT>40mm电浆榴弹</TRADUIT>
+    <TRADUIT>40mm, 等离子榴弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2553,7 +2511,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo40mmGrenadePlasma</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>40mm Grenade, Pla.</ORIGINAL>
-    <TRADUIT>40mm电浆榴弹</TRADUIT>
+    <TRADUIT>40mm等离子榴弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2567,7 +2525,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo40mmGrenadePulse</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>40mm Grenade, Pulse (GRA)</ORIGINAL>
-    <TRADUIT>40mm脉冲榴弹</TRADUIT>
+    <TRADUIT>40mm, 脉冲榴弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2595,7 +2553,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo25mmGrenadePlasma</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm Grenade, Plasma (GRA)</ORIGINAL>
-    <TRADUIT>25mm电浆榴弹</TRADUIT>
+    <TRADUIT>25mm, 等离子榴弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2609,7 +2567,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo25mmGrenadePlasma</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>25mmG, Pla.</ORIGINAL>
-    <TRADUIT>25mm电浆榴弹</TRADUIT>
+    <TRADUIT>25mm等离子榴弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2623,7 +2581,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo25mmGrenadePulse</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm Grenade, Pulse (GRA)</ORIGINAL>
-    <TRADUIT>25mm脉冲榴弹</TRADUIT>
+    <TRADUIT>25mm, 脉冲榴弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2651,7 +2609,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo25mmGrenadeTimed</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm Grenade, Timed (GRA)</ORIGINAL>
-    <TRADUIT>25mm延时榴弹</TRADUIT>
+    <TRADUIT>25mm, 延时榴弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2679,7 +2637,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansBigKid</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Mini Nuke, Big Kid (GRA)</ORIGINAL>
-    <TRADUIT>迷你核弹-大男孩</TRADUIT>
+    <TRADUIT>迷你核弹, 大男孩 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2693,7 +2651,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansBigKid</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>Mini Nuke, BK</ORIGINAL>
-    <TRADUIT>迷你核弹 大男孩</TRADUIT>
+    <TRADUIT>迷你核弹, 大男孩</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2707,7 +2665,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansTimed</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Mini Nuke, Timed (GRA)</ORIGINAL>
-    <TRADUIT>迷你核弹-延时型</TRADUIT>
+    <TRADUIT>迷你核弹, 延时型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2721,7 +2679,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansTimed</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>Mini Nuke, Tim.</ORIGINAL>
-    <TRADUIT>迷你核弹 延时</TRADUIT>
+    <TRADUIT>迷你核弹, 延时</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2735,7 +2693,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansLowYield</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Mini Nuke, Low Yield (GRA)</ORIGINAL>
-    <TRADUIT>迷你核弹-小当量</TRADUIT>
+    <TRADUIT>迷你核弹, 小当量 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2749,7 +2707,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoFatMansLowYield</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>Mini Nuke, LY</ORIGINAL>
-    <TRADUIT>迷你核弹 小当量</TRADUIT>
+    <TRADUIT>迷你核弹, 小当量</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2763,7 +2721,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoMissileHive</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile, Hive (GRA)</ORIGINAL>
-    <TRADUIT>导弹-蜂巢型</TRADUIT>
+    <TRADUIT>导弹, 蜂巢型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2777,7 +2735,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoMissileHive</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>Missile, Hive</ORIGINAL>
-    <TRADUIT>蜂巢型导弹</TRADUIT>
+    <TRADUIT>导弹, 蜂巢型</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2791,7 +2749,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo20Ga30BuckMagnum</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>20 Gauge, 3/0 Buck Mag. (Hand Loader) (GRA)</ORIGINAL>
-    <TRADUIT>20铅径马格南3号鹿弹</TRADUIT>
+    <TRADUIT>20铅径, 马格南3号鹿弹 (手装) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2819,7 +2777,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12Ga40BuckMagnum</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12 Gauge, 4/0 Buck Mag. (Hand Loader) (GRA)</ORIGINAL>
-    <TRADUIT>12铅径马格南4号鹿弹</TRADUIT>
+    <TRADUIT>12铅径, 马格南4号鹿弹 (手装) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2847,7 +2805,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12Ga40Buck</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12 Gauge, 4/0 Buck (GRA)</ORIGINAL>
-    <TRADUIT>12铅径4号鹿弹</TRADUIT>
+    <TRADUIT>12铅径, 4号鹿弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2875,7 +2833,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo20Ga30Buck</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>20 Gauge, 3/0 Buck (GRA)</ORIGINAL>
-    <TRADUIT>20铅径3号鹿弹</TRADUIT>
+    <TRADUIT>20铅径, 3号鹿弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2903,7 +2861,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12GaDragonsBreath</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12 Gauge, Dragon's Breath (GRA)</ORIGINAL>
-    <TRADUIT>12铅径龙息弹</TRADUIT>
+    <TRADUIT>12铅径, 龙息弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2917,7 +2875,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12GaDragonsBreath</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>12ga DB</ORIGINAL>
-    <TRADUIT>12铅径龙息弹</TRADUIT>
+    <TRADUIT>12铅径龙息</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2931,7 +2889,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12GaFlechette</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12 Gauge, Flechette (GRA)</ORIGINAL>
-    <TRADUIT>12铅径箭形弹</TRADUIT>
+    <TRADUIT>12铅径, 箭形弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2945,7 +2903,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12GaFlechette</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>12ga F</ORIGINAL>
-    <TRADUIT>12铅径箭形弹</TRADUIT>
+    <TRADUIT>12铅径箭形</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2959,7 +2917,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12GaPulseSlug</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12 Gauge, Pulse Slug (GRA)</ORIGINAL>
-    <TRADUIT>12铅径脉冲独头弹</TRADUIT>
+    <TRADUIT>12铅径, 脉冲独头弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2973,7 +2931,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo12GaPulseSlug</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>12ga PS</ORIGINAL>
-    <TRADUIT>12铅径脉冲独头弹</TRADUIT>
+    <TRADUIT>12铅径脉冲独头</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2987,7 +2945,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo20GaPulseSlug</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>20 Gauge, Pulse Slug (GRA)</ORIGINAL>
-    <TRADUIT>20铅径脉冲独头弹</TRADUIT>
+    <TRADUIT>20铅径, 脉冲独头弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3001,7 +2959,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo20GaPulseSlug</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>20ga PS</ORIGINAL>
-    <TRADUIT>20铅径脉冲独头弹</TRADUIT>
+    <TRADUIT>20铅径脉冲独头</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3015,7 +2973,7 @@ Decreases spread.
     <EDID>NVDLC05Ammo50MGExplosive</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>.50 MG, Explosive (GRA)</ORIGINAL>
-    <TRADUIT>.50MG高爆弹</TRADUIT>
+    <TRADUIT>.50MG, 高爆弹 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3039,280 +2997,14 @@ Decreases spread.
   </ESP>
   <ESP>
     <GRUP>PROJ</GRUP>
-    <ID>0013D533</ID>
-    <EDID>TimeBombProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Armed Time Bomb</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000ABA</ID>
-    <EDID>NVDLC05TimeBombHighYieldProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Armed Time Bomb</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000A91</ID>
-    <EDID>NVDLC05MFCMineClusterProjectile2</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>MFC Cluster Mine</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000A0B</ID>
-    <EDID>NVDLC05FatManTinyTots</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Mini Nuke, Tiny Tots</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100094B</ID>
-    <EDID>NVDLC0512GaFlechetteProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>12 Ga. Flechette</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100094A</ID>
-    <EDID>NVDLC0520GaPulseSlugProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>20 Ga. Pulse Slug</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000949</ID>
-    <EDID>NVDLC0512GaPulseSlugProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>12 Ga. Pulse Slug</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
     <ID>01000922</ID>
     <EDID>NVDLC05MissileProjectileHive</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile, Hive</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>导弹, 蜂巢型</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000919</ID>
-    <EDID>NVDLC05FatManLowYield</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Mini Nuke, Low Yield</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000918</ID>
-    <EDID>NVDLC05FatManBigKid</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Mini Nuke, Big Kid</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000915</ID>
-    <EDID>NVDLC0550MGExplosivetProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>.50MG Explosive</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000913</ID>
-    <EDID>NVDLC05FatManProjectileTimed</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Mini Nuke, Timed</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000912</ID>
-    <EDID>NVDLC0525mmGrenadeProjectileTimed</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>25mm Grenade, Timed</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100090F</ID>
-    <EDID>NVDLC0525mmGrenadeProjectilePulse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>25mm Grenade, Pulse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100090E</ID>
-    <EDID>NVDLC0540mmGrenadeProjectilePulse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>40mm Grenade, Pulse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100090B</ID>
-    <EDID>NVDLC0540mmGrenadeProjectilePlasma</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>40mm Grenade, Plasma</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000908</ID>
-    <EDID>NVDLC0525mmGrenadeProjectilePlasma</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>25mm Grenade, Plasma</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01000906</ID>
-    <EDID>NVDLC05DragonsBreathBBProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Dragon's Breath BB Pellet</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>010008FE</ID>
-    <EDID>NVDLC05TinGrenadeProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tin Grenade</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>010008EF</ID>
-    <EDID>NVDLC05FatMineProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Fat Mine</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -3323,24 +3015,10 @@ Decreases spread.
     <EDID>NVDLC05CleansingFlameProjectile</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Cleansing Flame</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>净化火焰</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100081C</ID>
-    <EDID>NVDLC05MFCGrenadeProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>MFC Grenade</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -3351,10 +3029,10 @@ Decreases spread.
     <EDID>NVDLC05GrenadeNukaProjectile</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Nuka Grenade</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>核子手雷</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -3414,20 +3092,6 @@ Decreases spread.
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
 EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000E88D7</ID>
-    <EDID>188AlexanderSeeInventory</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>188AlexanderSeeInventory</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -3704,230 +3368,6 @@ EmotionType : Neutral</COMMENTAIRE>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0013D532</ID>
-    <EDID>TimeBombExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Time Bomb Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000AB9</ID>
-    <EDID>NVDLC05TimeBombHighYieldExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Time Bomb Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000A90</ID>
-    <EDID>NVDLC05MineMFCClusterExplosion2</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>MFC Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000A8F</ID>
-    <EDID>NVDLC05MineMFCGrenaderExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>MFC Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000A3A</ID>
-    <EDID>NVDLC05TwoStepGoodbyeExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Two-Step Goodbye Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000A0A</ID>
-    <EDID>NVDLC05FatManTinyTotsExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tiny Tots Nuke Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000938</ID>
-    <EDID>NVDLC05GrenadeTinExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tin Grenade Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000921</ID>
-    <EDID>NVDLC05MissileExplosionHive</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Missile Explosion, Hive</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000917</ID>
-    <EDID>NVDLC05FatManLowYieldExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Low Yield Nuke Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000916</ID>
-    <EDID>NVDLC05FatManBigKidExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Big Kid Nuke Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000914</ID>
-    <EDID>NVDLC0550MGExplosiveExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>.50 MG Explosive Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100090D</ID>
-    <EDID>NVDLC0525mmGrenadeExplosionPulse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>25mm Grenade Explosion, Pulse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100090C</ID>
-    <EDID>NVDLC0540mmGrenadeExplosionPulse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>40mm Grenade Explosion, Pulse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100090A</ID>
-    <EDID>NVDLC0540mmGrenadeExplosionPlasma</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>40mm Grenade Explosion, Plasma</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01000909</ID>
-    <EDID>NVDLC0525mmGrenadeExplosionPlasma</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>25mm Grenade Explosion, Plasma</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>010008EE</ID>
-    <EDID>NVDLC05FatMineExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Fat Mine Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
   </ESP>
   <ESP>
     <GRUP>PERK</GRUP>
@@ -4929,7 +4369,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05AmmoEffectFlechetteDAMReduction</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Flechette DAM Reduction</ORIGINAL>
-    <TRADUIT>镖弹伤害减少</TRADUIT>
+    <TRADUIT>箭形弹伤害减少</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5153,7 +4593,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05AmmoEffectFlechetteDTReduction</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Flechette DT Reduction</ORIGINAL>
-    <TRADUIT>镖弹DT下降</TRADUIT>
+    <TRADUIT>箭形弹DT减少</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>

@@ -442,65 +442,11 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03playersbrainvoice\nvdlc03dia_g
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100F61F</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>@@[=$+&lt;_--*]@@? @@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [01006874] (ID)
-Quest : ([0100E5D1]NVDLC03Dialogue8) Dialogue Dr. 8
-Comment (NAM2) : AUDIO: 8 is surprised by being approached, then alarmed/scared by the player's presence. "What? Why are you talking to me?!"
-EmotionType : Fear
-Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue8_greeting_0000f61f_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0101022E</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>@@[=$+&lt;_--*]@@? @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [01006874] (ID)
-Quest : ([0100E5D1]NVDLC03Dialogue8) Dialogue Dr. 8
-Comment (NAM2) : AUDIO: "You're back? I can't believe you keep going out there."
-EmotionType : Surprise
-Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue8_greeting_0001022e_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0100F620</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>@@[=$+&lt;_--*]@@? @@[*.......]@@... @.@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [01006874] (ID)
-Quest : ([0100E5D1]NVDLC03Dialogue8) Dialogue Dr. 8
-Comment (NAM2) : AUDIO: "What? Oh... it's you."
-EmotionType : Surprise
-Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue8_greeting_0000f620_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>0101096F</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Bark.&gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
+    <TRADUIT>&lt;狗叫声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -838,22 +784,6 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03playersbrainvoice\nvdlc03dia_g
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>01011948</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node for High Level Topics: Do Not Translate. &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [01006875] (ID)
-Quest : ([0100E5D3]NVDLC03DialogueBorous) Dialogue Dr. Borous
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010030B2</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -976,22 +906,6 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03playersbrainvoice\nvdlc03dia_g
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100AC69</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Player Brain Top Level Topics &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : Brain Tank [01015F7E] (mod)
-Quest : ([01003734]NVDLC03DialoguePlayerBrain) 01003734 (EDID)
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010134D0</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -1083,7 +997,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_gre
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#-!!!!-#]@@!</ORIGINAL>
-    <TRADUIT>8：@@[#-!!!!-#]@@!</TRADUIT>
+    <TRADUIT>@@[#-!!!!-#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1102,7 +1016,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_gree
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#-!!!!-#]@@!</ORIGINAL>
-    <TRADUIT>8：@@[#-!!!!-#]@@!</TRADUIT>
+    <TRADUIT>@@[#-!!!!-#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1235,38 +1149,6 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedocborous\nvdlc03dia
 Quest : ([01003256]NVDLC03DialogueKlein) Dialogue Dr. Klein
 EmotionType : Disgust
 Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_greeting_000134bf_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>010030B3</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Doctor Klein Top Level Topics - Do Not Record &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [0100D628] (ID)
-Quest : ([01003256]NVDLC03DialogueKlein) Dialogue Dr. Klein
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0101355F</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Doctor Klein's Post-Mobius Spiel breakdowns - Do Not Record. &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [0100D628] (ID)
-Quest : ([01003256]NVDLC03DialogueKlein) Dialogue Dr. Klein
-EmotionType : Neutral</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -1521,7 +1403,7 @@ Quest : ([01003256]NVDLC03DialogueKlein) Dialogue Dr. Klein
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? </ORIGINAL>
-    <TRADUIT>8：＠＠[=$+&lt;_--*]?</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1584,22 +1466,6 @@ NPC : Doctor Mobius [01010717] (mod)
 Quest : ([01003733]NVDLC03DialogueMobius) Dialogue Dr. Mobius
 EmotionType : Neutral
 Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_greeting_00013f1b_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0100AC6A</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Mobius Top Level Topics &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [0100C1CF] (ID)
-Quest : ([01003733]NVDLC03DialogueMobius) Dialogue Dr. Mobius
-EmotionType : Neutral</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -2576,22 +2442,6 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dialogue
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>01012470</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do Not Translate. &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [01006873] (ID)
-Quest : ([0100E5D2]NVDLC03Dialogue0) Dialogue Dr. O
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>DIAL</GRUP>
     <ID>000000D2</ID>
     <EDID>HELLO</EDID>
@@ -2868,7 +2718,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_he
     <EDID>HELLO</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@?</ORIGINAL>
-    <TRADUIT>我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2885,7 +2735,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue
     <EDID>HELLO</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[%------%]@@.</ORIGINAL>
-    <TRADUIT>我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT>@@[%------%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2902,7 +2752,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue
     <EDID>HELLO</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[%*-##-*%]@@!</ORIGINAL>
-    <TRADUIT>我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT>@@[%*-##-*%]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3074,7 +2924,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>GOODBYE</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Bark. Bark.&gt; </ORIGINAL>
-    <TRADUIT>的确，那个…我们的谈话要暂时结束了。呃…再见。请注意地上的方程式。</TRADUIT>
+    <TRADUIT>&lt;狗叫声&gt; </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3121,7 +2971,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03femaleuniquedala\nvdlc03dia_go
     <EDID>GOODBYE</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$------$]@@</ORIGINAL>
-    <TRADUIT>的确，那个…我们的谈话要暂时结束了。呃…再见。请注意地上的方程式。</TRADUIT>
+    <TRADUIT>@@[$------$]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3357,7 +3207,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03autodocvoicesinkmale\nvdlc03ge
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Small number of bones rattling&gt;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&lt;一小部分骨头发出响声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3391,7 +3241,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_at
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3408,7 +3258,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3425,7 +3275,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3750,7 +3600,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_att
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;&amp; ^!!^@% &amp;&amp;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&amp;&amp; ^!!^@% &amp;&amp;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3767,7 +3617,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;&amp; ^!@!^% &amp;&amp;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&amp;&amp; ^!@!^% &amp;&amp;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3784,7 +3634,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;&amp; ^!%@^! &amp;&amp;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&amp;&amp; ^!%@^! &amp;&amp;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3801,7 +3651,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;&amp; ^!^%!@ &amp;&amp;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&amp;&amp; ^!^%!@ &amp;&amp;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3818,7 +3668,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Small number of bones rattling&gt;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&lt;一小部分骨头发出响声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3835,7 +3685,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03corpsesuitvoice\nvdlc03gen_att
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Small number of bones rattling&gt;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&lt;一小部分骨头发出响声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3852,7 +3702,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03corpsesuitvoice\nvdlc03gen_att
     <EDID>Attack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Small number of bones rattling&gt;</ORIGINAL>
-    <TRADUIT>这是莫比乌斯博士的致命激光尾刺，你挡不住的！</TRADUIT>
+    <TRADUIT>&lt;一小部分骨头发出响声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4073,7 +3923,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_hi
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4090,7 +3940,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dialogue
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4434,7 +4284,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dialogu
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>## $*!$*! ##</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>## $*!$*! ##</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4451,7 +4301,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_h
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>## $*$!!* ##</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>## $*$!!* ##</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4468,7 +4318,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_h
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>## $*!*$! ##</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>## $*!*$! ##</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4485,7 +4335,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_h
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>## $*!!$* ##</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>## $*!!$* ##</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4502,7 +4352,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_h
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>## $**!!$ ##</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>## $**!!$ ##</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4519,7 +4369,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_h
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>## $**$!! ##</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>## $**$!! ##</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4536,7 +4386,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_h
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Soft sound of a bone cracking&gt;</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>&lt;轻微的骨头断裂声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4553,7 +4403,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03corpsesuitvoice\nvdlc03gen_hit
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Soft sound of a bone cracking&gt;</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>&lt;轻微的骨头断裂声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4570,7 +4420,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03corpsesuitvoice\nvdlc03gen_hit
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Soft sound of a bone cracking&gt;</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>&lt;轻微的骨头断裂声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4587,7 +4437,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03corpsesuitvoice\nvdlc03gen_hit
     <EDID>Hit</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Soft sound of a bone cracking&gt;</ORIGINAL>
-    <TRADUIT>哈哈！</TRADUIT>
+    <TRADUIT>&lt;轻微的骨头断裂声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4618,7 +4468,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03corpsesuitvoice\nvdlc03gen_hit
     <EDID>Flee</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#-!!!!-#]@@!</ORIGINAL>
-    <TRADUIT>-没有希望了！为了你们的才智，快逃吧！-</TRADUIT>
+    <TRADUIT>@@[#-!!!!-#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4805,7 +4655,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dialogu
     <EDID>AcceptYield</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>-邪恶的攻击很快就结束了…和它的发生一样迅速！-</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4923,7 +4773,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_acc
     <EDID>Assault</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@?</ORIGINAL>
-    <TRADUIT>-一次无缘无故的攻击！无缘无故！-</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5144,7 +4994,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_po
     <EDID>PowerAttack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[!!!!!!!!]@@</ORIGINAL>
-    <TRADUIT>聚焦尾刺的原子激光。最大功率！</TRADUIT>
+    <TRADUIT>@@[!!!!!!!!]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5349,7 +5199,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_pow
     <EDID>PowerAttack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%% @#^!!^ %%</ORIGINAL>
-    <TRADUIT>聚焦尾刺的原子激光。最大功率！</TRADUIT>
+    <TRADUIT>%% @#^!!^ %%</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5366,7 +5216,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_p
     <EDID>PowerAttack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%% @#!^^! %%</ORIGINAL>
-    <TRADUIT>聚焦尾刺的原子激光。最大功率！</TRADUIT>
+    <TRADUIT>%% @#!^^! %%</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5383,7 +5233,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_p
     <EDID>PowerAttack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%% @#^^!! %%</ORIGINAL>
-    <TRADUIT>聚焦尾刺的原子激光。最大功率！</TRADUIT>
+    <TRADUIT>%% @#^^!! %%</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5400,7 +5250,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_p
     <EDID>PowerAttack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%% @#!!^^ %%</ORIGINAL>
-    <TRADUIT>聚焦尾刺的原子激光。最大功率！</TRADUIT>
+    <TRADUIT>%% @#!!^^ %%</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5417,7 +5267,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_p
     <EDID>PowerAttack</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;Large number of bones rattling loudly&gt;</ORIGINAL>
-    <TRADUIT>聚焦尾刺的原子激光。最大功率！</TRADUIT>
+    <TRADUIT>&lt;大量的骨骼碰撞声&gt;</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5556,8 +5406,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_av
     <EDID>AvoidThreat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>爆炸物？你是认真的吗？
-</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5813,8 +5662,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nor
     <EDID>NormalToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@^# = &lt;&lt;((..))&gt;&gt; = @^# !!!</ORIGINAL>
-    <TRADUIT>正在锁定踪迹！
-</TRADUIT>
+    <TRADUIT>@^# = &lt;&lt;((..))&gt;&gt; = @^# !!!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5831,8 +5679,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_n
     <EDID>NormalToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@^# = &lt;((&lt;..&gt;))&gt; = @^# !!!</ORIGINAL>
-    <TRADUIT>正在锁定踪迹！
-</TRADUIT>
+    <TRADUIT>@^# = &lt;((&lt;..&gt;))&gt; = @^# !!!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5849,8 +5696,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_n
     <EDID>NormalToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@^# = &lt;(&lt;(..)&gt;)&gt; = @^# !!!</ORIGINAL>
-    <TRADUIT>正在锁定踪迹！
-</TRADUIT>
+    <TRADUIT>@^# = &lt;(&lt;(..)&gt;)&gt; = @^# !!!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6021,8 +5867,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dialogu
     <EDID>Death</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@...</ORIGINAL>
-    <TRADUIT>你一定是在开玩笑吧。
-</TRADUIT>
+    <TRADUIT>@@[*.......]@@...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6125,8 +5970,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dialogu
     <EDID>Death</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>.. # .. &amp; .. @ ..</ORIGINAL>
-    <TRADUIT>你一定是在开玩笑吧。
-</TRADUIT>
+    <TRADUIT>.. # .. &amp; .. @ ..</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6143,8 +5987,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_d
     <EDID>Death</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>.. @ .. # .. &amp; ..</ORIGINAL>
-    <TRADUIT>你一定是在开玩笑吧。
-</TRADUIT>
+    <TRADUIT>.. @ .. # .. &amp; ..</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6161,8 +6004,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_d
     <EDID>Death</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>.. &amp; .. @ .. # ..</ORIGINAL>
-    <TRADUIT>你一定是在开玩笑吧。
-</TRADUIT>
+    <TRADUIT>.. &amp; .. @ .. # ..</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6352,7 +6194,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_ale
     <EDID>AlertToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;^# = &lt;((....))&gt; = &amp;^# !</ORIGINAL>
-    <TRADUIT>啊，自投罗网的家伙在这呢。</TRADUIT>
+    <TRADUIT>&amp;^# = &lt;((....))&gt; = &amp;^# !</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6369,7 +6211,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>AlertToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;^# = &lt;(.(..).)&gt; = &amp;^# !</ORIGINAL>
-    <TRADUIT>啊，自投罗网的家伙在这呢。</TRADUIT>
+    <TRADUIT>&amp;^# = &lt;(.(..).)&gt; = &amp;^# !</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6386,7 +6228,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>AlertToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;^# = &lt;(..()..)&gt; = &amp;^# !</ORIGINAL>
-    <TRADUIT>啊，自投罗网的家伙在这呢。</TRADUIT>
+    <TRADUIT>&amp;^# = &lt;(..()..)&gt; = &amp;^# !</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6508,8 +6350,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_no
     <EDID>NormalToAlert</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@^&amp; = [.([&lt;&gt;]).] = @^&amp; ?</ORIGINAL>
-    <TRADUIT>雷达扫描成功。已捕捉到目标。
-</TRADUIT>
+    <TRADUIT>@^&amp; = [.([&lt;&gt;]).] = @^&amp; ?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6526,8 +6367,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_n
     <EDID>NormalToAlert</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@^&amp; = [.[(&lt;&gt;)].] = @^&amp; ?</ORIGINAL>
-    <TRADUIT>雷达扫描成功。已捕捉到目标。
-</TRADUIT>
+    <TRADUIT>@^&amp; = [.[(&lt;&gt;)].] = @^&amp; ?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6544,8 +6384,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_n
     <EDID>NormalToAlert</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@^&amp; = [[.(&lt;&gt;).]] = @^&amp; ?</ORIGINAL>
-    <TRADUIT>雷达扫描成功。已捕捉到目标。
-</TRADUIT>
+    <TRADUIT>@^&amp; = [[.(&lt;&gt;).]] = @^&amp; ?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6630,7 +6469,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_ale
     <EDID>AlertToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;^@ = ..(([])).. = &amp;^@ ...</ORIGINAL>
-    <TRADUIT>::（口哨）就像要揪出哪个藏着的人一样。::</TRADUIT>
+    <TRADUIT>&amp;^@ = ..(([])).. = &amp;^@ ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6647,7 +6486,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>AlertToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;^@ = .(.([]).). = &amp;^@ ...</ORIGINAL>
-    <TRADUIT>::（口哨）就像要揪出哪个藏着的人一样。::</TRADUIT>
+    <TRADUIT>&amp;^@ = .(.([]).). = &amp;^@ ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6664,7 +6503,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>AlertToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;^@ = .((.[].)). = &amp;^@ ...</ORIGINAL>
-    <TRADUIT>::（口哨）就像要揪出哪个藏着的人一样。::</TRADUIT>
+    <TRADUIT>&amp;^@ = .((.[].)). = &amp;^@ ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6749,7 +6588,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_co
     <EDID>CombatToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>我的宠物，等着吧，它会来找你的。</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6836,7 +6675,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_co
     <EDID>CombatToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>#^@ = ((..&lt;&lt;&gt;&gt;..)) = #^@ !?!</ORIGINAL>
-    <TRADUIT>我的宠物，等着吧，它会来找你的。</TRADUIT>
+    <TRADUIT>#^@ = ((..&lt;&lt;&gt;&gt;..)) = #^@ !?!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6853,7 +6692,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_c
     <EDID>CombatToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>#^@ = (.(.&lt;&lt;&gt;&gt;.).) = #^@ !?!</ORIGINAL>
-    <TRADUIT>我的宠物，等着吧，它会来找你的。</TRADUIT>
+    <TRADUIT>#^@ = (.(.&lt;&lt;&gt;&gt;.).) = #^@ !?!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6870,7 +6709,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_c
     <EDID>CombatToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>#^@ = (..(&lt;&lt;&gt;&gt;)..) = #^@ !?!</ORIGINAL>
-    <TRADUIT>我的宠物，等着吧，它会来找你的。</TRADUIT>
+    <TRADUIT>#^@ = (..(&lt;&lt;&gt;&gt;)..) = #^@ !?!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6957,7 +6796,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_co
     <EDID>CombatToLost</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>它刚刚还在这里的！赶紧扫描！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7059,7 +6898,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_com
     <EDID>CombatToLost</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>#^% = [[..&lt;&lt;&gt;&gt;..]] = #^% ??</ORIGINAL>
-    <TRADUIT>它刚刚还在这里的！赶紧扫描！</TRADUIT>
+    <TRADUIT>#^% = [[..&lt;&lt;&gt;&gt;..]] = #^% ??</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7076,7 +6915,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_c
     <EDID>CombatToLost</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>#^% = [.[.&lt;&lt;&gt;&gt;.].] = #^% ??</ORIGINAL>
-    <TRADUIT>它刚刚还在这里的！赶紧扫描！</TRADUIT>
+    <TRADUIT>#^% = [.[.&lt;&lt;&gt;&gt;.].] = #^% ??</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7093,7 +6932,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_c
     <EDID>CombatToLost</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>#^% = [..[&lt;&lt;&gt;&gt;]..] = #^% ??</ORIGINAL>
-    <TRADUIT>它刚刚还在这里的！赶紧扫描！</TRADUIT>
+    <TRADUIT>#^% = [..[&lt;&lt;&gt;&gt;]..] = #^% ??</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7161,7 +7000,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_lo
     <EDID>LostToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%^@ = ((.[$$].)) = %^@ ...</ORIGINAL>
-    <TRADUIT>已经取消搜索程序。</TRADUIT>
+    <TRADUIT>%^@ = ((.[$$].)) = %^@ ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7178,7 +7017,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_l
     <EDID>LostToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%^@ = (([.$$.])) = %^@ ...</ORIGINAL>
-    <TRADUIT>已经取消搜索程序。</TRADUIT>
+    <TRADUIT>%^@ = (([.$$.])) = %^@ ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7195,7 +7034,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_l
     <EDID>LostToNormal</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%^@ = ([(.$$.)]) = %^@ ...</ORIGINAL>
-    <TRADUIT>已经取消搜索程序。</TRADUIT>
+    <TRADUIT>%^@ = ([(.$$.)]) = %^@ ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7300,8 +7139,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_lo
     <EDID>LostToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>正在载入进攻程序。
-</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7404,8 +7242,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_lo
     <EDID>LostToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%^# = &lt;.(.$$.).&gt; = %^# !!</ORIGINAL>
-    <TRADUIT>正在载入进攻程序。
-</TRADUIT>
+    <TRADUIT>%^# = &lt;.(.$$.).&gt; = %^# !!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7422,8 +7259,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_l
     <EDID>LostToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%^# = &lt;..($$)..&gt; = %^# !!</ORIGINAL>
-    <TRADUIT>正在载入进攻程序。
-</TRADUIT>
+    <TRADUIT>%^# = &lt;..($$)..&gt; = %^# !!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7440,8 +7276,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_l
     <EDID>LostToCombat</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%^# = &lt;(..$$..)&gt; = %^# !!</ORIGINAL>
-    <TRADUIT>正在载入进攻程序。
-</TRADUIT>
+    <TRADUIT>%^# = &lt;(..$$..)&gt; = %^# !!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7544,7 +7379,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dialogue
     <EDID>AlertIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@?</ORIGINAL>
-    <TRADUIT>我非常肯定，这里有一个入侵者。</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7630,7 +7465,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_ale
     <EDID>AlertIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;* = (([[$$]])) = &amp;* ...</ORIGINAL>
-    <TRADUIT>我非常肯定，这里有一个入侵者。</TRADUIT>
+    <TRADUIT>&amp;* = (([[$$]])) = &amp;* ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7647,7 +7482,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>AlertIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;* = ([[($$)]]) = &amp;* ...</ORIGINAL>
-    <TRADUIT>我非常肯定，这里有一个入侵者。</TRADUIT>
+    <TRADUIT>&amp;* = ([[($$)]]) = &amp;* ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7664,7 +7499,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_a
     <EDID>AlertIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&amp;* = [[(($$))]] = &amp;* ...</ORIGINAL>
-    <TRADUIT>我非常肯定，这里有一个入侵者。</TRADUIT>
+    <TRADUIT>&amp;* = [[(($$))]] = &amp;* ...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7749,7 +7584,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_lo
     <EDID>LostIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>滚回去巡逻！你这个垃圾。</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7852,7 +7687,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_los
     <EDID>LostIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%* = ()[]$$[]() = %* ?!?</ORIGINAL>
-    <TRADUIT>滚回去巡逻！你这个垃圾。</TRADUIT>
+    <TRADUIT>%* = ()[]$$[]() = %* ?!?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7869,7 +7704,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_l
     <EDID>LostIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%* = []()$$()[] = %* ?!?</ORIGINAL>
-    <TRADUIT>滚回去巡逻！你这个垃圾。</TRADUIT>
+    <TRADUIT>%* = []()$$()[] = %* ?!?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7886,7 +7721,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_l
     <EDID>LostIdle</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>%* = ()()$$()() = %* ?!?</ORIGINAL>
-    <TRADUIT>滚回去巡逻！你这个垃圾。</TRADUIT>
+    <TRADUIT>%* = ()()$$()() = %* ?!?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7988,7 +7823,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03gen_st
     <EDID>StartCombatResponse</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;#$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>莫比乌斯的力量势不可挡！</TRADUIT>
+    <TRADUIT>@@[&lt;#$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -8125,7 +7960,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_sta
     <EDID>StartCombatResponse</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;#&gt; = [.(&lt;&lt;&gt;&gt;).] = &lt;#&gt; !!!</ORIGINAL>
-    <TRADUIT>莫比乌斯的力量势不可挡！</TRADUIT>
+    <TRADUIT>&lt;#&gt; = [.(&lt;&lt;&gt;&gt;).] = &lt;#&gt; !!!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -8142,7 +7977,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_s
     <EDID>StartCombatResponse</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;#&gt; = [(.&lt;&lt;&gt;&gt;.)] = &lt;#&gt; !!!</ORIGINAL>
-    <TRADUIT>莫比乌斯的力量势不可挡！</TRADUIT>
+    <TRADUIT>&lt;#&gt; = [(.&lt;&lt;&gt;&gt;.)] = &lt;#&gt; !!!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -8159,7 +7994,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03berserksecuritron\nvdlc03gen_s
     <EDID>StartCombatResponse</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>&lt;#&gt; = [(&lt;&lt;&gt;&gt;)] = &lt;#&gt; !!!</ORIGINAL>
-    <TRADUIT>莫比乌斯的力量势不可挡！</TRADUIT>
+    <TRADUIT>&lt;#&gt; = [(&lt;&lt;&gt;&gt;)] = &lt;#&gt; !!!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -10449,7 +10284,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03x8c_nvd
     <EDID>NVDLC03X8Countdown08</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*#8#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*#8#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*#8#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11428,7 +11263,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03autodocvoicesinkmale\nvdlc03di
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic003</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11460,7 +11295,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic002</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$------$]@@</ORIGINAL>
-    <TRADUIT>的确，那个…我们的谈话要暂时结束了。呃…再见。请注意地上的方程式。</TRADUIT>
+    <TRADUIT>@@[$------$]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11506,7 +11341,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic000</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? = @@[=$+&lt;_--*]@@? @@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>*还有，你也清楚，我们从没做过任何作-战训练。我不觉得开打后，我们能顺利组成那个战术进攻阵型。*</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? = @@[=$+&lt;_--*]@@? @@[&lt;*$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12038,7 +11873,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_nv
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic043</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@ ? @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12098,7 +11933,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic040</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12201,7 +12036,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic034</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12247,7 +12082,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic032</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@ ? @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12363,7 +12198,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic025</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>8：@@[&lt;*$(^=)#]@@!</TRADUIT>
+    <TRADUIT>@@[&lt;*$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12465,7 +12300,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic019</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12497,7 +12332,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic017</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12521,24 +12356,6 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>01010226</ID>
-    <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic016</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>@@[=$+&lt;_--*]@@? @@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : [01006874] (ID)
-Quest : ([0100E5D1]NVDLC03Dialogue8) Dialogue Dr. 8
-Comment (NAM2) : AUDIO: "Big Empty? I don't know of any such place!"
-EmotionType : Anger
-Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdlc03dialogue_00010226_1.ogg</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -14646,7 +14463,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedocborous\nvdlc03dia
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorBorousLVLTopic003</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -14682,7 +14499,7 @@ Quest : ([01003256]NVDLC03DialogueKlein) Dialogue Dr. Klein
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorBorousLVLTopic003</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@? @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@? @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@? @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -14909,7 +14726,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedocborous\nvdlc03dia
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorDalaLVLTopic015</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -15616,7 +15433,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic018</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -15690,7 +15507,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic056</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -15779,7 +15596,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic051</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#-@$$@-#]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@?</ORIGINAL>
-    <TRADUIT>-这只无脑人不应该被解剖，它值得我们尊敬。我们应该照顾它，喂养它，培育它——给它加布没能有的生活。-</TRADUIT>
+    <TRADUIT>@@[#-@$$@-#]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16014,7 +15831,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic078</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#------#]@@</ORIGINAL>
-    <TRADUIT>8：@@[#------#]@@</TRADUIT>
+    <TRADUIT>@@[#------#]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16045,7 +15862,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic077</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16076,7 +15893,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic076</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@?</ORIGINAL>
-    <TRADUIT>我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16122,7 +15939,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic074</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#------#]@@</ORIGINAL>
-    <TRADUIT>8：@@[#------#]@@</TRADUIT>
+    <TRADUIT>@@[#------#]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16153,7 +15970,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic073</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#------#]@@</ORIGINAL>
-    <TRADUIT>8：@@[#------#]@@</TRADUIT>
+    <TRADUIT>@@[#------#]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16226,7 +16043,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic069</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#-!!!!-#]@@.</ORIGINAL>
-    <TRADUIT>8：@@[#-!!!!-#]@@.</TRADUIT>
+    <TRADUIT>@@[#-!!!!-#]@@.</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
     <STATUS>99</STATUS>
@@ -16257,7 +16074,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic068</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16274,7 +16091,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic068</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>3</INDEX>
     <STATUS>99</STATUS>
@@ -16425,7 +16242,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic062</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@. @@[.......*]@@.</ORIGINAL>
-    <TRADUIT>8：@@[.......!]@@ @@[...!...!]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@. @@[.......*]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16592,7 +16409,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquemobius\nvdlc03dia_nv
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic116</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[)*-*-*-*(]@@</ORIGINAL>
-    <TRADUIT> SLIGHT GRUMBLE}我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT> @@[)*-*-*-*(]@@</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
     <STATUS>99</STATUS>
@@ -16651,7 +16468,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic113</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[)*-*-*-*(]@@</ORIGINAL>
-    <TRADUIT> SLIGHT GRUMBLE}我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT> @@[)*-*-*-*(]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16710,7 +16527,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic110</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[)--**--(]@@</ORIGINAL>
-    <TRADUIT> SLIGHT GRUMBLE}我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT> @@[)--**--(]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16741,7 +16558,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic109</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[(------)]@@</ORIGINAL>
-    <TRADUIT> SLIGHT GRUMBLE}我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT> @@[(------)]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16829,7 +16646,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic103</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[(------)]@@</ORIGINAL>
-    <TRADUIT> SLIGHT GRUMBLE}我能听见你生殖器脚趾跺来跺去的声音。</TRADUIT>
+    <TRADUIT> @@[(------)]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16860,7 +16677,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic101</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16947,7 +16764,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic096</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16978,7 +16795,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic095</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -17037,7 +16854,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic088</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@ ? @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -17054,7 +16871,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic088</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
     <STATUS>99</STATUS>
@@ -17071,7 +16888,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic088</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>3</INDEX>
     <STATUS>99</STATUS>
@@ -17102,7 +16919,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic087</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -17119,7 +16936,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic087</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
     <STATUS>99</STATUS>
@@ -17136,7 +16953,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic087</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@ ? @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>3</INDEX>
     <STATUS>99</STATUS>
@@ -20095,20 +19912,6 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01012460</ID>
-    <EDID>NVDLC03Dialogue0NVDLC03DoctorOLVLTopic036</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do Not Translate. &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0101246D</ID>
     <EDID>NVDLC03Dialogue0NVDLC03DoctorOLVLTopic036</EDID>
@@ -20258,7 +20061,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic123</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -20290,7 +20093,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic122</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -20321,8 +20124,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic121</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@...</ORIGINAL>
-    <TRADUIT>你一定是在开玩笑吧。
-</TRADUIT>
+    <TRADUIT>@@[*.......]@@...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -20339,7 +20141,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic121</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@...?</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@...?</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@...?</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
     <STATUS>99</STATUS>
@@ -20356,7 +20158,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic121</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@!</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@ !</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@!</TRADUIT>
     <PERSO />
     <INDEX>3</INDEX>
     <STATUS>99</STATUS>
@@ -20415,7 +20217,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03Dialogue8NVDLC03Doctor8LVLTopic102</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? </ORIGINAL>
-    <TRADUIT>8：＠＠[=$+&lt;_ ? </TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -25318,7 +25120,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorOLVLTopic002</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT> @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -25540,7 +25342,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedocborous\nvdlc03dia
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorOLVLTopic001</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>8：@@[&lt;*$(^=)#]@@!</TRADUIT>
+    <TRADUIT>@@[&lt;*$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -25871,7 +25673,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic031</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT> @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -25926,7 +25728,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic031</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL> @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT> @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -26353,7 +26155,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic017</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[=$+&lt;_--*]@@? @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -26553,7 +26355,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03femaleuniquedala\nvdlc03dia_nv
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic017</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? @@[*.......]@@...</ORIGINAL>
-    <TRADUIT>8：@@[=$+&lt;_--*]@@? @@[*.......]@@...</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? @@[*.......]@@...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -27659,7 +27461,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedocborous\nvdlc03dia
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic039</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>8：@@[&lt;*$(^=)#]@@!</TRADUIT>
+    <TRADUIT>@@[&lt;*$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -30482,7 +30284,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorOLVLTopic003</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@?</ORIGINAL>
-    <TRADUIT>8：@@[=$+&lt;_--*]@@?</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@?</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -30518,7 +30320,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorOLVLTopic003</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -30867,7 +30669,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic049</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[.......!]@@</ORIGINAL>
-    <TRADUIT>8：@@[.......!]@@</TRADUIT>
+    <TRADUIT>@@[.......!]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -30904,7 +30706,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic049</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[.......!]@@ @@[...!...!]@@</ORIGINAL>
-    <TRADUIT>8：@@[.......!]@@ @@[...!...!]@@</TRADUIT>
+    <TRADUIT>@@[.......!]@@ @@[...!...!]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -30958,7 +30760,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic049</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[.!.!.!.!]@@ @@[!.!!!!.!]@@ @@[.!!!!!!.]@@ @@[!!!!!!!!]@@ @@[!.......]@@</ORIGINAL>
-    <TRADUIT>8：@@[.!.!.!.!]@@ @@[!.!!!!.!]@@ @@[.!!!!!!.]@@ @@[!!!!!!!!]@@ @@[!.......]@@</TRADUIT>
+    <TRADUIT>@@[.!.!.!.!]@@ @@[!.!!!!.!]@@ @@[.!!!!!!.]@@ @@[!!!!!!!!]@@ @@[!.......]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -43630,7 +43432,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedocborous\nvdlc03dia
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic043</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -43831,7 +43633,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic043</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -43886,7 +43688,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKleinLVLTopic043</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[$######$]@@. @@[$######$]@@. @@[$######$]@@... @@[$######$]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[$######$]@@. @@[$######$]@@. @@[$######$]@@... @@[$######$]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[$######$]@@. @@[$######$]@@. @@[$######$]@@... @@[$######$]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -46239,7 +46041,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoco\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKlein01Topic021</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? </ORIGINAL>
-    <TRADUIT>8：＠＠[=$+&lt;_--*]?</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -46293,7 +46095,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniqueklein\nvdlc03dia_nvd
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKlein01Topic021</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</ORIGINAL>
-    <TRADUIT>8：@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
+    <TRADUIT>@@[$((*&amp;^#%]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -46311,7 +46113,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKlein01Topic021</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[=$+&lt;_--*]@@? = @@[=$+&lt;_--*]@@? @@[&lt;*$(^=)#]@@!</ORIGINAL>
-    <TRADUIT>*还有，你也清楚，我们从没做过任何作-战训练。我不觉得开打后，我们能顺利组成那个战术进攻阵型。*</TRADUIT>
+    <TRADUIT>@@[=$+&lt;_--*]@@? = @@[=$+&lt;_--*]@@? @@[&lt;*$(^=)#]@@!</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
     <STATUS>99</STATUS>
@@ -46329,7 +46131,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKlein01Topic021</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#-@$$@-#]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@?</ORIGINAL>
-    <TRADUIT>-这只无脑人不应该被解剖，它值得我们尊敬。我们应该照顾它，喂养它，培育它——给它加布没能有的生活。-</TRADUIT>
+    <TRADUIT>@@[#-@$$@-#]@@. @@[*.......]@@... @@[$((*&amp;^#%]@@?</TRADUIT>
     <PERSO />
     <INDEX>3</INDEX>
     <STATUS>99</STATUS>
@@ -46347,7 +46149,7 @@ Audio (bsa): sound\voice\oldworldblues.esm\nvdlc03maleuniquedoc8\nvdlc03dia_nvdl
     <EDID>NVDLC03DialogueKleinNVDLC03DoctorKlein01Topic021</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>@@[#------#]@@</ORIGINAL>
-    <TRADUIT>8：@@[#------#]@@</TRADUIT>
+    <TRADUIT>@@[#------#]@@</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>

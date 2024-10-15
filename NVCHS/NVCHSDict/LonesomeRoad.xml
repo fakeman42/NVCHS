@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentElement>
   <ESP>
-    <GRUP>TES4</GRUP>
-    <ID>00000000</ID>
-    <EDID />
-    <CHAMP>CNAM</CHAMP>
-    <ORIGINAL>jfader</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
     <GRUP>CLAS</GRUP>
     <ID>0100DBEA</ID>
     <EDID>NVDLC04MarkedMenBeastClass</EDID>
@@ -122,104 +108,6 @@
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>0100DEB9</ID>
-    <EDID>NVDLC04TunnelerFriendFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04 Tunneler Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>0100B3E5</ID>
-    <EDID>NVDLC04Silo02LiftTunnelerFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04 Silo02 Lift Tunneler Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>01009693</ID>
-    <EDID>NVDLC04TempleEyebotFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Eyebot faction for friendly eyebots</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>0100949A</ID>
-    <EDID>NVDLC04TempleBattleFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Ulysses Temple Battle Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>01008955</ID>
-    <EDID>NVDLC04Silo01SecurityBotFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Hopeville Silo Security Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>01008954</ID>
-    <EDID>NVDLC04Silo01SecurityTurretFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Hopeville Silo Security Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>FACT</GRUP>
-    <ID>0100766C</ID>
-    <EDID>NVDLC04TunnelerFaction</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04 Tunneler Faction</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -1626,20 +1514,6 @@
   </ESP>
   <ESP>
     <GRUP>ACTI</GRUP>
-    <ID>0100DC64</ID>
-    <EDID>NVDLC04RALPHIEPosterActivator</EDID>
-    <CHAMP>XATO</CHAMP>
-    <ORIGINAL>Examine Poster</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>ACTI</GRUP>
     <ID>0100DBF1</ID>
     <EDID>NVDLC04UlyssesTrigger4</EDID>
     <CHAMP>FULL</CHAMP>
@@ -2362,20 +2236,6 @@
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>ACTI</GRUP>
-    <ID>0100941B</ID>
-    <EDID>NVDLC04TunnelTunnelerScareTrigger</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Awaken Tunneler</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -12040,7 +11900,7 @@ Body
     <EDID>NVDLC04WeapSonicDetonator</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser Detonator</ORIGINAL>
-    <TRADUIT>[激光起爆器]</TRADUIT>
+    <TRADUIT>激光起爆器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12274,7 +12134,7 @@ Body
     <EDID>AmmoNVDLC04RocketHE</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Rocket, High Explosive</ORIGINAL>
-    <TRADUIT>火箭弹-高爆型</TRADUIT>
+    <TRADUIT>火箭弹, 高爆型</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12358,7 +12218,7 @@ Body
     <EDID>AmmoNVDLC04RocketIncendiary</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Rocket, Incendiary</ORIGINAL>
-    <TRADUIT>火箭弹-燃烧型</TRADUIT>
+    <TRADUIT>火箭弹, 燃烧型</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -13434,22 +13294,6 @@ Clas : Marked Men Ravager</COMMENTAIRE>
     <COMMENTAIRE>Sex : 男性
 Race : Ghoul
 Clas : Marked Men Scout</COMMENTAIRE>
-    <ICON>1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>NPC_</GRUP>
-    <ID>010092EB</ID>
-    <EDID>NVDLC04MarkedMentest01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>datest</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>Sex : 男性
-Race : Ghoul
-Clas : Wasteland Adventurer</COMMENTAIRE>
     <ICON>1</ICON>
   </ESP>
   <ESP>
@@ -15306,10 +15150,10 @@ Clas : Ulysses Class</COMMENTAIRE>
     <EDID>NVDLC04EDE</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>ED-E</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>ED-E</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -16680,56 +16524,14 @@ Pod 3 - INACTIVE/Unoccupied. Power diverted to Eyebot synthesis pod in main laun
   </ESP>
   <ESP>
     <GRUP>PROJ</GRUP>
-    <ID>0100DFD9</ID>
-    <EDID>NVDLC04RedGlareMissileProjectileHE</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Red Glare Missile</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100DFD8</ID>
-    <EDID>NVDLC04RedGlareMissileProjectileIncendiary</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Red Glare Missile</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100DB04</ID>
-    <EDID>NVDLC04ArcWelderProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Electricity</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
     <ID>0100D279</ID>
     <EDID>NVDLC04MissileRobotProjectile</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>导弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -16740,10 +16542,10 @@ Pod 3 - INACTIVE/Unoccupied. Power diverted to Eyebot synthesis pod in main laun
     <EDID>DLC04EDEProjectile</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>导弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -16754,24 +16556,10 @@ Pod 3 - INACTIVE/Unoccupied. Power diverted to Eyebot synthesis pod in main laun
     <EDID>NVDLC0440mmGrenadeProjectileCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>40mm Grenade</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>40mm榴弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100B4F2</ID>
-    <EDID>NVDLC04NailProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Nail</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -16782,80 +16570,10 @@ Pod 3 - INACTIVE/Unoccupied. Power diverted to Eyebot synthesis pod in main laun
     <EDID>NVDLC04UnlockZapperProjectile</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile</ORIGINAL>
-    <TRADUIT />
+    <TRADUIT>导弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01008684</ID>
-    <EDID>NVDLC04RedGlareMissileProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Red Glare Missile</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>010076E9</ID>
-    <EDID>NVDLC04SatchelChargeProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Satchel Charge</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>0100766F</ID>
-    <EDID>NVDLC04BeamSonicDetonatorProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Laser Beam</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>010073E3</ID>
-    <EDID>NVDLC04WeapFlareGunProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Flare</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>PROJ</GRUP>
-    <ID>01004C36</ID>
-    <EDID>NVDLC04WeapFlashBangGrenadeProjectile</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Flash Bang Grenade</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
+    <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>
@@ -18263,22 +17981,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_gr
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100CA9D</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Debug: Ulysses high level topics, do not translate. &gt;</ORIGINAL>
-    <TRADUIT>{Watching the perimeter of the temple, in combat}现在还不是时候。让我们先把这里的事情解决了。</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : Ulysses [01003E40] (mod)
-Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010096FE</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -18428,20 +18130,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_pl
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000CB</ID>
-    <EDID>PLAYERFIREWEAPON</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>PLAYER FIRE WEAPON</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008AA6</ID>
     <EDID>PLAYERFIREWEAPON</EDID>
@@ -18476,20 +18164,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_pl
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000CC</ID>
-    <EDID>PLAYERLAYMINE</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>PLAYER LAY MINE</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008AAA</ID>
     <EDID>PLAYERLAYMINE</EDID>
@@ -18521,20 +18195,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_pl
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_playerlaymine_00008aab_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000D0</ID>
-    <EDID>PLAYERINIRONSITES</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>PLAYER IN IRON SITES</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -18763,20 +18423,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_at
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000DD</ID>
-    <EDID>Hit</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Hit</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E4C</ID>
     <EDID>Hit</EDID>
@@ -18923,20 +18569,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_st
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000E2</ID>
-    <EDID>AcceptYield</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>AcceptYield</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E62</ID>
     <EDID>AcceptYield</EDID>
@@ -19052,20 +18684,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_as
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000E6</ID>
-    <EDID>PowerAttack</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>PowerAttack</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008AB6</ID>
     <EDID>PowerAttack</EDID>
@@ -19100,20 +18718,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_po
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000EC</ID>
-    <EDID>FireExplosive</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>FireExplosive</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008A9E</ID>
     <EDID>FireExplosive</EDID>
@@ -19145,20 +18749,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_fi
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_fireexplosive_00008a9f_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000ED</ID>
-    <EDID>AvoidThreat</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>AvoidThreat</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -19376,20 +18966,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_de
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F3</ID>
-    <EDID>AlertToCombat</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>AlertToCombat</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E6B</ID>
     <EDID>AlertToCombat</EDID>
@@ -19457,20 +19033,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_al
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F4</ID>
-    <EDID>NormalToAlert</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NormalToAlert</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E4D</ID>
     <EDID>NormalToAlert</EDID>
@@ -19519,20 +19081,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_no
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_normaltoalert_00008a9a_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F5</ID>
-    <EDID>AlertToNormal</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>AlertToNormal</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -19587,20 +19135,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_al
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F6</ID>
-    <EDID>CombatToNormal</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>CombatToNormal</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E45</ID>
     <EDID>CombatToNormal</EDID>
@@ -19649,20 +19183,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_co
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_combattonormal_00008ab3_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F7</ID>
-    <EDID>CombatToLost</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>CombatToLost</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -19717,20 +19237,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_co
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F8</ID>
-    <EDID>LostToNormal</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>LostToNormal</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E41</ID>
     <EDID>LostToNormal</EDID>
@@ -19782,20 +19288,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_lo
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>000000F9</ID>
-    <EDID>LostToCombat</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>LostToCombat</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E61</ID>
     <EDID>LostToCombat</EDID>
@@ -19843,20 +19335,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_lo
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_losttocombat_00008aa5_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>00000104</ID>
-    <EDID>AlertIdle</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>AlertIdle</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -19911,20 +19389,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_al
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>00000107</ID>
-    <EDID>LostIdle</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>LostIdle</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E4B</ID>
     <EDID>LostIdle</EDID>
@@ -19973,20 +19437,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_lo
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_lostidle_00008abd_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0001FB51</ID>
-    <EDID>DeathResponse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>DeathResponse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -20724,34 +20174,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_followershi
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>00040C66</ID>
-    <EDID>FollowersHiredNo</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>FollowersHiredNo</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>00080D81</ID>
-    <EDID>StartCombatResponse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>StartCombatResponse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E37</ID>
     <EDID>StartCombatResponse</EDID>
@@ -20837,20 +20259,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_st
   </ESP>
   <ESP>
     <GRUP>DIAL</GRUP>
-    <ID>000819C2</ID>
-    <EDID>NormalToAlertResponse</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NormalToAlertResponse</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
     <ID>000BD03E</ID>
     <EDID>FollowersFiredNo</EDID>
     <CHAMP>FULL</CHAMP>
@@ -20873,20 +20281,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_st
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0011EBCA</ID>
-    <EDID>FollowersAcknowledgeMyOrder</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>FollowersAcknowledgeMyOrder</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>10</ICON>
@@ -20999,20 +20393,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_followersta
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0015BCBD</ID>
-    <EDID>FollowersOverburdened</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>FollowersOverburdened</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01004D04</ID>
     <EDID>FollowersOverburdened</EDID>
@@ -21027,20 +20407,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_followersta
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_followersoverbu_00004d04_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0015E363</ID>
-    <EDID>FollowersStealthing</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>FollowersStealthing</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -21120,20 +20486,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04dialogue_00003e3e_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01003E3B</ID>
-    <EDID>NVDLC04UlyssesForceGreetDUPLICATE001</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesForceGreet</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -21271,20 +20623,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>010087D4</ID>
-    <EDID>NVDLC04EDEUlyssesTopic004</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Ulysses Cut-In 4}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D6F7</ID>
     <EDID>NVDLC04EDEUlyssesTopic004</EDID>
@@ -21336,20 +20674,6 @@ Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>010087D5</ID>
-    <EDID>NVDLC04EDEUlyssesTopic003</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Ulysses Cut-In 3}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>010087DB</ID>
     <EDID>NVDLC04EDEUlyssesTopic003</EDID>
@@ -21383,20 +20707,6 @@ NPC : ED-E [01004CDA] (mod)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04edeulyss_000087db_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>010087D6</ID>
-    <EDID>NVDLC04EDEUlyssesTopic002</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Ulysses Cut-In 2}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -21599,36 +20909,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100D3E2</ID>
-    <EDID>NVDLC04EDEUlyssesTopic002</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node for Skill Checks. Do not Translate. &gt; {No sound file}</ORIGINAL>
-    <TRADUIT>{Contacting player through radio}你来了，你沉默了一段时间...我知道杀死熊并不容易...{slight disgust, hates ED-E}你和你的机器，都活下来了。</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>010087D7</ID>
-    <EDID>NVDLC04EDEUlyssesTopic001</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Ulysses Cut-In 1}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010087DC</ID>
     <EDID>NVDLC04EDEUlyssesTopic001</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -21827,52 +21107,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100D2C4</ID>
-    <EDID>NVDLC04EDEUlyssesTopic001</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do not translate. &gt;{No sound file}</ORIGINAL>
-    <TRADUIT>{NCR Opening}这是你的信号...微弱，但还在。{Beat, slight condemnation}就像NCR一样 - 声音没有激情，没有力量，病态。{No sound file}</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0100D3AB</ID>
-    <EDID>NVDLC04EDEUlyssesTopic001</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do not translate. &gt;{No sound file}</ORIGINAL>
-    <TRADUIT>{NCR Opening}这是你的信号...微弱，但还在。{Beat, slight condemnation}就像NCR一样 - 声音没有激情，没有力量，病态。{No sound file}</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008897</ID>
-    <EDID>NVDLC04EDEAudioLog010</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 10 - Whitley}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010088A6</ID>
     <EDID>NVDLC04EDEAudioLog010</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -21944,20 +21178,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04e
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008899</ID>
-    <EDID>NVDLC04EDEAudioLog008</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 8 - TV Announcer}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>010088A3</ID>
     <EDID>NVDLC04EDEAudioLog008</EDID>
@@ -21996,20 +21216,6 @@ NPC : [001694E2] (ID)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04edeaudio_0000ad41_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100889A</ID>
-    <EDID>NVDLC04EDEAudioLog007</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 7 - Little Boy}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -22094,20 +21300,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04malechild01\nvdlc04dia_nvdlc04e
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100889B</ID>
-    <EDID>NVDLC04EDEAudioLog006</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 6}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>010088A5</ID>
     <EDID>NVDLC04EDEAudioLog006</EDID>
@@ -22125,20 +21317,6 @@ NPC : [001694E2] (ID)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edeaudio_000088a5_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100889C</ID>
-    <EDID>NVDLC04EDEAudioLog005</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 5 - Whitley}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -22244,20 +21422,6 @@ NPC : [001694E2] (ID)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04edeaudio_000088a7_5.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100889D</ID>
-    <EDID>NVDLC04EDEAudioLog004</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 4 - Whitley}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -22387,20 +21551,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04e
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100889E</ID>
-    <EDID>NVDLC04EDEAudioLog003</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 3 - Whitley}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E68</ID>
     <EDID>NVDLC04EDEAudioLog003</EDID>
@@ -22503,20 +21653,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04e
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100889F</ID>
-    <EDID>NVDLC04EDEAudioLog002b</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 2 - Grant}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>010088AA</ID>
     <EDID>NVDLC04EDEAudioLog002b</EDID>
@@ -22577,20 +21713,6 @@ NPC : [001694E2] (ID)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04femaleadult01\nvdlc04dia_nvdlc04edeaudio_000088ac_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>010088A0</ID>
-    <EDID>NVDLC04EDEAudioLog002a</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 2 - Whitley}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -22675,20 +21797,6 @@ NPC : [001694E2] (ID)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04edeaudio_000088af_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>010088A1</ID>
-    <EDID>NVDLC04EDEAudioLog001</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 1}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -22797,20 +21905,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04e
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008A31</ID>
-    <EDID>NVDLC04EDEScared</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Scared ED-E}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008A3C</ID>
     <EDID>NVDLC04EDEScared</EDID>
@@ -22859,20 +21953,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edes
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edescare_00008a3e_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008A32</ID>
-    <EDID>NVDLC04EDEExcited</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Excited ED-E}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -22927,20 +22007,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edee
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008A33</ID>
-    <EDID>NVDLC04EDESad</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Sad ED-E}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008A39</ID>
     <EDID>NVDLC04EDESad</EDID>
@@ -22992,20 +22058,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edes
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008A34</ID>
-    <EDID>NVDLC04EDEHappy</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{Happy ED-E}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008A36</ID>
     <EDID>NVDLC04EDEHappy</EDID>
@@ -23054,36 +22106,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edeh
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04edehappy_00008a38_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008A35</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic000</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Emote Barks}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>01008A3F</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic000</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>{DO NOT RECORD - ED-E Emote bark topics.} {No Sound file}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -23191,20 +22213,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dialogue_00008a8f_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008A8E</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic001</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 7 - Dad}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -25002,20 +24010,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008E1C</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic064</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 8 - Whitley}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01008E4F</ID>
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic064</EDID>
@@ -25055,20 +24049,6 @@ NPC : [001694E2] (ID)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleadult01\nvdlc04dia_nvdlc04dialogue_00008e4f_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01008E1D</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic063</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Sacrifice bark}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -25675,20 +24655,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01009231</ID>
-    <EDID>NVDLC04EndingSlideFinale</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideFinale</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>01009234</ID>
     <EDID>NVDLC04EndingSlideFinale</EDID>
@@ -25704,20 +24670,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_00009234_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>01009232</ID>
-    <EDID>NVDLC04EndingSlideStart</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideStart</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -26268,20 +25220,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100AD38</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic085</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 8 - RALPHIE}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100AD40</ID>
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic085</EDID>
@@ -26296,20 +25234,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dialogue_0000ad40_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100AD3A</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic083</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>{ED-E Audio Log 8 - Kid}</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -26836,20 +25760,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100BD2E</ID>
-    <EDID>NVDLC04NCRHolotape03</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04NCRHolotape03</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100BD31</ID>
     <EDID>NVDLC04NCRHolotape03</EDID>
@@ -26918,20 +25828,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04femaleadult01\nvdlc04aud_nvdlc0
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C125</ID>
-    <EDID>NVDLC04UlyssesCombatMarkedMenAllDead</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatMarkedMenAllDead</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C12C</ID>
     <EDID>NVDLC04UlyssesCombatMarkedMenAllDead</EDID>
@@ -26946,20 +25842,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04femaleadult01\nvdlc04aud_nvdlc0
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c12c_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C126</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotsAllDestroyed</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotsAllDestroyed</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -26980,20 +25862,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C127</ID>
-    <EDID>NVDLC04UlyssesCombatMarkedMenEnter</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatMarkedMenEnter</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C12E</ID>
     <EDID>NVDLC04UlyssesCombatMarkedMenEnter</EDID>
@@ -27008,20 +25876,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c12e_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C128</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotsHostile01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotsHostile01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27042,20 +25896,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C129</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotsDisabled01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotsDisabled01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C12D</ID>
     <EDID>NVDLC04UlyssesCombatEyebotsDisabled01</EDID>
@@ -27070,20 +25910,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c12d_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C67A</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotsHostile02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotsHostile02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27104,20 +25930,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C67B</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotsDisabled02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotsDisabled02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C68F</ID>
     <EDID>NVDLC04UlyssesCombatEyebotsDisabled02</EDID>
@@ -27132,20 +25944,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c68f_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C67C</ID>
-    <EDID>NVDLC04UlyssesFriendMarkedMenHalfDead</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendMarkedMenHalfDead</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27166,20 +25964,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C67D</ID>
-    <EDID>NVDLC04UlyssesFriendMMUsesStealthboy</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendMMUsesStealthboy</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C69E</ID>
     <EDID>NVDLC04UlyssesFriendMMUsesStealthboy</EDID>
@@ -27194,20 +25978,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesf_0000c69e_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C67E</ID>
-    <EDID>NVDLC04UlyssesFriendMarkedMenAllDead</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendMarkedMenAllDead</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27228,20 +25998,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C67F</ID>
-    <EDID>NVDLC04UlyssesFriendSentryDies02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendSentryDies02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C69A</ID>
     <EDID>NVDLC04UlyssesFriendSentryDies02</EDID>
@@ -27256,20 +26012,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesf_0000c69a_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C680</ID>
-    <EDID>NVDLC04UlyssesFriendSentryDies01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendSentryDies01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27290,20 +26032,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C681</ID>
-    <EDID>NVDLC04UlyssesFriendTaunt03</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendTaunt03</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C694</ID>
     <EDID>NVDLC04UlyssesFriendTaunt03</EDID>
@@ -27318,20 +26046,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesf_0000c694_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C682</ID>
-    <EDID>NVDLC04UlyssesFriendTaunt02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendTaunt02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27352,20 +26066,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C683</ID>
-    <EDID>NVDLC04UlyssesFriendTaunt01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendTaunt01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C69F</ID>
     <EDID>NVDLC04UlyssesFriendTaunt01</EDID>
@@ -27380,20 +26080,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesf_0000c69f_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C684</ID>
-    <EDID>NVDLC04UlyssesFriendMMWithSatchelCharge</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendMMWithSatchelCharge</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27414,20 +26100,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C685</ID>
-    <EDID>NVDLC04UlyssesFriendMarkedMenEnter</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFriendMarkedMenEnter</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C699</ID>
     <EDID>NVDLC04UlyssesFriendMarkedMenEnter</EDID>
@@ -27442,20 +26114,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesf_0000c699_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C686</ID>
-    <EDID>NVDLC04UlyssesCombatTaunt03</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatTaunt03</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27476,20 +26134,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C687</ID>
-    <EDID>NVDLC04UlyssesCombatTaunt02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatTaunt02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C693</ID>
     <EDID>NVDLC04UlyssesCombatTaunt02</EDID>
@@ -27504,20 +26148,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Disgust
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c693_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C688</ID>
-    <EDID>NVDLC04UlyssesCombatTaunt01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatTaunt01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27538,20 +26168,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C689</ID>
-    <EDID>NVDLC04UlyssesCombatMarkedMenKilled02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatMarkedMenKilled02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C69D</ID>
     <EDID>NVDLC04UlyssesCombatMarkedMenKilled02</EDID>
@@ -27566,20 +26182,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Disgust
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c69d_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C68A</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotDestroyed02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotDestroyed02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -27600,20 +26202,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C68B</ID>
-    <EDID>NVDLC04UlyssesCombatMarkedMenKilled01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatMarkedMenKilled01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100C695</ID>
     <EDID>NVDLC04UlyssesCombatMarkedMenKilled01</EDID>
@@ -27628,20 +26216,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Anger
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04ulyssesc_0000c695_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100C68C</ID>
-    <EDID>NVDLC04UlyssesCombatEyebotDestroyed01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesCombatEyebotDestroyed01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -29105,20 +27679,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD61</ID>
-    <EDID>NVDLC04UlyssesBigMT1HolotapeNote</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesBigMT1HolotapeNote</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100CD62</ID>
     <EDID>NVDLC04UlyssesBigMT1HolotapeNote</EDID>
@@ -29201,20 +27761,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nv
 Quest : ([0100BD34]NVDLC04AudioHolotapes) Holotape Infos
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nvdlc04ulyssesb_0000cd62_5.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD67</ID>
-    <EDID>NVDLC04UlyssesWhiteLegs2HolotapeNote</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesWhiteLegs2HolotapeNote</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -29456,20 +28002,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD68</ID>
-    <EDID>NVDLC04UlyssesWhiteLegs1HolotapeNote</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesWhiteLegs1HolotapeNote</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100CD6E</ID>
     <EDID>NVDLC04UlyssesWhiteLegs1HolotapeNote</EDID>
@@ -29637,20 +28169,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nv
 Quest : ([0100BD34]NVDLC04AudioHolotapes) Holotape Infos
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nvdlc04ulyssesw_0000cd6e_10.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD69</ID>
-    <EDID>NVDLC04UlyssesBigMT3HolotapeNote</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesBigMT3HolotapeNote</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -29926,20 +28444,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD6A</ID>
-    <EDID>NVDLC04UlyssesBigMT2HolotapeNote</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesBigMT2HolotapeNote</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100CD6D</ID>
     <EDID>NVDLC04UlyssesBigMT2HolotapeNote</EDID>
@@ -30090,20 +28594,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nv
 Quest : ([0100BD34]NVDLC04AudioHolotapes) Holotape Infos
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nvdlc04ulyssesb_0000cd6d_9.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD8E</ID>
-    <EDID>NVDLC04UlyssesFinalMsgHolotape</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesFinalMsgHolotape</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -30308,20 +28798,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nv
 Quest : ([0100BD34]NVDLC04AudioHolotapes) Holotape Infos
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04aud_nvdlc04ulyssesf_0000cd8f_12.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100CD91</ID>
-    <EDID>NVDLC04UlyssesWhiteLegs3Holotape</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04UlyssesWhiteLegs3HolotapeNote</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -31733,20 +30209,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D06A</ID>
-    <EDID>NVDLC04EndingSlideSunset02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideSunset02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D082</ID>
     <EDID>NVDLC04EndingSlideSunset02</EDID>
@@ -31783,20 +30245,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D06B</ID>
-    <EDID>NVDLC04EndingSlideSunset01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideSunset01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D08E</ID>
     <EDID>NVDLC04EndingSlideSunset01</EDID>
@@ -31815,20 +30263,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D06C</ID>
-    <EDID>NVDLC04EndingSlideDivide02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideDivide02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D07F</ID>
     <EDID>NVDLC04EndingSlideDivide02</EDID>
@@ -31844,20 +30278,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_0000d07f_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D06D</ID>
-    <EDID>NVDLC04EndingSlideDivide01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideDivide0</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -31894,20 +30314,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_0000d07e_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D06E</ID>
-    <EDID>NVDLC04EndingSlideEDESacrificed02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideEDESacrificed02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -31983,20 +30389,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04end_nvdlc04endi
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D06F</ID>
-    <EDID>NVDLC04EndingSlideEDESacrificed01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideEDESacrificed01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D088</ID>
     <EDID>NVDLC04EndingSlideEDESacrificed01</EDID>
@@ -32030,20 +30422,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04end_nvdlc04endingsl_0000d088_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D070</ID>
-    <EDID>NVDLC04EndingSlideEDELeftBehind</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideEDELeftBehind</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -32101,20 +30479,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04end_nvdlc04endi
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D071</ID>
-    <EDID>NVDLC04EndingSlideEDESaved02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingSlideEDESaved02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D080</ID>
     <EDID>NVDLC04EndingSlideEDESaved02</EDID>
@@ -32166,20 +30530,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04end_nvdlc04endingsl_0000d080_3.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D072</ID>
-    <EDID>NVDLC04EndingSlideEDESaved01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingEDESaved01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -32237,20 +30587,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04end_nvdlc04endi
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D073</ID>
-    <EDID>NVDLC04EndingSlideUlyssesAlive02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingUlyssesAlive02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D085</ID>
     <EDID>NVDLC04EndingSlideUlyssesAlive02</EDID>
@@ -32284,20 +30620,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_0000d085_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D074</ID>
-    <EDID>NVDLC04EndingSlideUlyssesAlive01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingUlyssesAlive01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -32337,20 +30659,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D075</ID>
-    <EDID>NVDLC04EndingSlideUlyssesDead02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingUlyssesDead02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D08C</ID>
     <EDID>NVDLC04EndingSlideUlyssesDead02</EDID>
@@ -32384,20 +30692,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_0000d08c_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D076</ID>
-    <EDID>NVDLC04EndingSlideUlyssesDead01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingUlyssesDead01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -32437,20 +30731,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D077</ID>
-    <EDID>NVDLC04EndingSlideVista02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingMissileLaunchLegion02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D081</ID>
     <EDID>NVDLC04EndingSlideVista02</EDID>
@@ -32484,20 +30764,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_0000d081_2.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D078</ID>
-    <EDID>NVDLC04EndingSlideVista01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingMissileLaunchLegion01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -32573,20 +30839,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D079</ID>
-    <EDID>NVDLC04EndingSlideSingleMissileLaunch02</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingMissileLaunchNCR02</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D08F</ID>
     <EDID>NVDLC04EndingSlideSingleMissileLaunch02</EDID>
@@ -32638,20 +30890,6 @@ NPC : Bill the Tax Collector [0100923E] (mod)
 Quest : ([01009250]NVDLC04Ending) 01009250 (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04end_nvdlc04endingsl_0000d090_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D07A</ID>
-    <EDID>NVDLC04EndingSlideSingleMissileLaunch01</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04EndingMissileLaunchNCR01</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -34233,20 +32471,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D2BF</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic079</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D2C3</ID>
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic079</EDID>
@@ -34654,20 +32878,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D2F4</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic041</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Topic Storage: Discussing Caesar's Death. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D2F9</ID>
     <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic041</EDID>
@@ -34778,20 +32988,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04dialogue_0000d2fb_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D2FF</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic049</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Topic Storage: Wrapping up thoughts on House. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -35052,20 +33248,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D31F</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic064</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Topic Storage: Talking about Joshua Graham, why Lanius should heed story. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>10</ICON>
@@ -35641,20 +33823,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
 Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04dialogue_0000d32f_3.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D32C</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic050</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Topic Storage: As player turns to leave, Ulysses speaks of Lanius. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -36764,20 +34932,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D39D</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic126</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node Ulysses talking about player being Legion. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D39E</ID>
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic126</EDID>
@@ -37363,20 +35517,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D3D4</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic127</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node Ulysses giving player final direction. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D3D6</ID>
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic127</EDID>
@@ -37630,20 +35770,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D3DA</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic129</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node: Ulysses discussing Denver and the East. Do not Translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D3DF</ID>
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic129</EDID>
@@ -37755,20 +35881,6 @@ NPC : ED-E [01004CDA] (mod)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04dialogue_0000d3e0_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D3DD</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic128</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node: Ulysses is discussing tunnelers and the future. Do not Translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -38183,20 +36295,6 @@ NPC : ED-E [01004CDA] (mod)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04dialogue_0000d3fa_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D3F3</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04UlyssesTopic079</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Placeholder Node: Ulysses talking about the Divide history. Do Not Translate &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -42527,20 +40625,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>10</ICON>
   </ESP>
   <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D709</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic077</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Topic Storage: End Sequence with Ulysses in Temple. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
     <GRUP>INFO</GRUP>
     <ID>0100D722</ID>
     <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic077</EDID>
@@ -45889,36 +43973,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
   </ESP>
   <ESP>
     <GRUP>DIAL</GRUP>
-    <ID>0100DA07</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic003</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Topic Storage: Player mentions holotapes at end. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0100DA15</ID>
-    <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic003</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Placeholder Node. Do Not Translate.&gt;</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : Ulysses [01003E40] (mod)
-Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
     <ID>0100DA25</ID>
     <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic001</EDID>
     <CHAMP>FULL</CHAMP>
@@ -48238,440 +46292,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <ICON>-1</ICON>
   </ESP>
   <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100DFDB</ID>
-    <EDID>NVDLC04RedGlareMissileExplosionHE</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Red Glare Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100DFDA</ID>
-    <EDID>NVDLC04RedGlareMissileExplosionIncendiary</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Red Glare Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100DCDA</ID>
-    <EDID>NVDLC04SatchelChargeExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Frag Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100DC00</ID>
-    <EDID>NVDLC04TunnelerPoisonExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunneler Death Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100DBF0</ID>
-    <EDID>NVDLC04FlashBangExplosionNoDMG</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Flash Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100DBEE</ID>
-    <EDID>NVDLC04ArcWelderExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100D7AE</ID>
-    <EDID>NVDLC04TempleMMExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Temple Marked Men Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100D27A</ID>
-    <EDID>NVDLC04MissileRobotExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100D271</ID>
-    <EDID>NVDLC04DivideRumbleNoSound</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Divide Rumble</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100CFE0</ID>
-    <EDID>DLC04EDEArcExplosionSmall</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100CAA1</ID>
-    <EDID>NVDLC0440mmGrenadeExplosionCustom</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>40mm Grenade Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100C76B</ID>
-    <EDID>NVDLC04Silo01MaintBotExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Maintenance Eyebot Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100C364</ID>
-    <EDID>NVDLC04CarSmallNukeExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Nuke Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100C229</ID>
-    <EDID>NVDLC04TempleExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunnel Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100BE00</ID>
-    <EDID>NVDLC04TempleRumble</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Temple Rumble</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100B997</ID>
-    <EDID>NVDLC04MissileExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100B6BF</ID>
-    <EDID>NVDLC04Silo02Explosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunnel Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100B4EC</ID>
-    <EDID>NVDLC04WarheadExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Nuke Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100AD4B</ID>
-    <EDID>NVDLC04EDEZapExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100AD11</ID>
-    <EDID>NVDLC04Silo02ElevatorExplosionSpecial</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunnel Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100A8DF</ID>
-    <EDID>NVDLC04WarheadNukeExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Warhead Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100A7BF</ID>
-    <EDID>NVDLC04EDEReleaseExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Life Spark</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01009C9F</ID>
-    <EDID>NVDLC04Silo02LaunchExplosionSmall</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunnel Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01009C9E</ID>
-    <EDID>NVDLC04Silo02LaunchExplosionBig</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunnel Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100973E</ID>
-    <EDID>NVDLC04Silo02ElevatorExplosionBig</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Tunnel Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100938A</ID>
-    <EDID>NVDLC04EyebotSpawnExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Eyebot Spawn Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100935F</ID>
-    <EDID>NVDLC04RedGlareMissileExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Red Glare Missile Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01007DAE</ID>
-    <EDID>NVDLC04DivideCaveInRumble</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Divide Rumble</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01007DAD</ID>
-    <EDID>NVDLC04DivideRumble</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Divide Rumble</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>0100748A</ID>
-    <EDID>NVDLC04LargeExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Nuke Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>EXPL</GRUP>
-    <ID>01007484</ID>
-    <EDID>NVDLC04FlashBangExplosion</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Flash Explosion</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>21</ICON>
-  </ESP>
-  <ESP>
     <GRUP>PERK</GRUP>
     <ID>0100DF65</ID>
     <EDID>NVDLC04EnhancedSensors</EDID>
@@ -49336,62 +46956,6 @@ Rank 5 - V.A.T.S. Attack Bonus (+5% V.A.T.S. targeting)</ORIGINAL>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>ARMA</GRUP>
-    <ID>0100D035</ID>
-    <EDID>NVDLC04SkeletonHandR</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>SkeletonHandR</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>ARMA</GRUP>
-    <ID>0100D034</ID>
-    <EDID>NVDLC04SkeletonHandL</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>SkeletonHandL</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>ARMA</GRUP>
-    <ID>010092ED</ID>
-    <EDID>NVDLC04MMRangerGloveR</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04MMRangerGloveR</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>-1</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>ARMA</GRUP>
-    <ID>010092EC</ID>
-    <EDID>NVDLC04MMRangerGloveL</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>NVDLC04MMRangerGloveL</ORIGINAL>
-    <TRADUIT />
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>0</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
     <COMMENTAIRE />
     <ICON>-1</ICON>

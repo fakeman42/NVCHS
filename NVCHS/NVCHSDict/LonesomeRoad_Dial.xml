@@ -101,22 +101,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_gr
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100CA9D</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Debug: Ulysses high level topics, do not translate. &gt;</ORIGINAL>
-    <TRADUIT>现在还不是时候。让我们先把这里的事情解决了。</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : Ulysses [01003E40] (mod)
-Quest : ([01003E44]NVDLC04DialogueUlysses) Ulysses' Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010096FE</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -3045,22 +3029,6 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
-    <ID>0100D3E2</ID>
-    <EDID>NVDLC04EDEUlyssesTopic002</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node for Skill Checks. Do not Translate. &gt; </ORIGINAL>
-    <TRADUIT>你来了，你沉默了一段时间...我知道杀死熊并不容易...你和你的机器，都活下来了。</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
     <ID>010087DC</ID>
     <EDID>NVDLC04EDEUlyssesTopic001</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -3255,38 +3223,6 @@ NPC : ED-E [01004CDA] (mod)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Disgust
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04edeulyss_0000c81c_3.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0100D2C4</ID>
-    <EDID>NVDLC04EDEUlyssesTopic001</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT>这是你的信号...微弱，但还在。就像NCR一样 - 声音没有激情，没有力量，病态。</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>0100D3AB</ID>
-    <EDID>NVDLC04EDEUlyssesTopic001</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT>这是你的信号...微弱，但还在。就像NCR一样 - 声音没有激情，没有力量，病态。</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : ED-E [01004CDA] (mod)
-Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
-EmotionType : Neutral</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -14652,20 +14588,6 @@ NPC : ED-E [01004CDA] (mod)
 Quest : ([01004CDB]NVDLC04DialogueEDE) Lonesome Road ED-E Dialogue
 EmotionType : Neutral
 Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nvdlc04dialogue_0000d2c1_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0100D2BF</ID>
-    <EDID>NVDLC04DialogueEDENVDLC04EDETopic079</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&lt; Storage Node. Do not translate. &gt;</ORIGINAL>
-    <TRADUIT>泰迪熊无脑人回来了…我的泰迪熊。我要做什么才能帮着你减轻好奇心呢？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
     <ICON>10</ICON>
   </ESP>
   <ESP>

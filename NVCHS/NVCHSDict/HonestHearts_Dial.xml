@@ -15734,7 +15734,7 @@ Audio (bsa): sound\voice\honesthearts.esm\nvdlc02maleuniquericky\nvdlc02dia_nvdl
     <EDID>NVDLC02DialogueRickyNVDLC02RickyTopic001</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>I was walking along, minding my own, and up pops one of them Brotherhoods. He yells "Hand over that laser rifle, asshole!"</ORIGINAL>
-    <TRADUIT>我当时一个人走在路上，正思考着一些问题，这时迎面走过来一个兄弟会的家伙，朝我吼：“把你的镭射枪交出来，蠢货！”</TRADUIT>
+    <TRADUIT>我当时一个人走在路上，正思考着一些问题，这时迎面走过来一个兄弟会的家伙，朝我吼：“把你的激光步枪交出来，蠢货！”</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -32895,8 +32895,7 @@ Audio (bsa): sound\voice\honesthearts.esm\nvdlc02maleuniquesaltuponwounds\nvdlc0
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
     <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>Faction : White Legs
-Quest : ([0100FB64]NVDLC02WhiteLegsGenericDialogue) White Legs Generic Dialogue
+    <COMMENTAIRE>Quest : ([0100FB64]NVDLC02WhiteLegsGenericDialogue) White Legs Generic Dialogue
 EmotionType : Anger</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
@@ -34012,22 +34011,6 @@ Audio (bsa): sound\voice\honesthearts.esm\nvdlc02maleuniquedaniel\nvdlc02dia_gre
 Quest : ([01008A3D]NVDLC02DialogueDaniel) 01008A3D (EDID)
 EmotionType : Neutral
 Audio (bsa): sound\voice\honesthearts.esm\nvdlc02maleuniquedaniel\nvdlc02dia_greeting_000093b5_1.ogg</COMMENTAIRE>
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>INFO</GRUP>
-    <ID>010093B6</ID>
-    <EDID>GREETING</EDID>
-    <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>&lt; Do Not Translate: Daniel Top Level Topics &gt;</ORIGINAL>
-    <TRADUIT>你是悲恸部落的朋友？让我们一起击溃玷污圣地的白腿部落，怎么样？</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE>NPC : Daniel [01008A38] (mod)
-Quest : ([01008A3D]NVDLC02DialogueDaniel) 01008A3D (EDID)
-EmotionType : Neutral</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
