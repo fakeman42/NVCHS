@@ -56,7 +56,6 @@
 		<xml path="Data/NVCHSDict/TTW/Zeta.xml"/>
 		<xml path="Data/NVCHSDict/TTW/TaleOfTwoWastelands.xml"/>
 		<xml path="Data/NVCHSDict/TTW/YUPTTW.xml"/>
-		<file target="Data/NVCHSDict/TTW/YUPTTW_dial_en.txt" src="Data/NVCHSDict/TTW/YUPTTW_dial_chs.txt" type="2"/>
 		<file target="Data/NVCHSDict/TTW/fallout3_chs.txt" src="Data/NVCHSDict/TTW/fallout3_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/TTW/fo3map_chs.txt" src="Data/NVCHSDict/TTW/fo3map_en.txt" type="2" priority="0"/>
 		
@@ -124,7 +123,7 @@
 		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="0" />
 		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="0" />
 		<file target="Data/NVCHSDict/Mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/Mods/BetterCaravan_en.txt" type="2" priority="1"/>
-	
+		
 	</replacetext>
 
 	<fonts>
@@ -370,7 +369,7 @@
 		<regex from="^([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?, ([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?, ([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?, ([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?$" to="$1 $2$3$4, $5 $6$7$8, $9 $10$11$12, $13 $14$15$16" />
 		<regex from="^([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?, ([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?, ([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?$" to="$1 $2$3$4, $5 $6$7$8, $9 $10$11$12" />
 		<regex from="^([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?, ([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?$" to="$1 $2$3$4, $5 $6$7$8" />
-		<regex from="^(?!Permanent)([^,]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?$" to="$1 $2$3$4" />
+		<regex from="^(?!Permanent)([^,:]+)\s+([\+|-])([\d]+|[\d]+\%)(\s*\([\d]+x[\d]+s\)|\s*\([\d]+x[\d]+m\)|\s*\(\d+s\)|\s*\(\d+m\))?$" to="$1 $2$3$4" />
 		
 		<!-- perk及trait描述 -->
 		
@@ -400,7 +399,7 @@
 		<regex from="^([\S\s]+)\)   ([\S\s]+)$" to="$1)   $2"/>
 		
 		<!-- 赌场收入提示 -->
-		<regex from="^([\s\S]+)\s+Earnings:\s+(\-)?(\d+)$" to="在$1的收入:    $2$3"/>
+		<regex from="^\s*([^\:]+)\s*Earnings:\s+(\-?\d+)$" to="在$1的收入:    $2"/>
 		
 		<!-- 禁止赌博提示 -->
 		<regex from="^([\d]+)\s([\s\S]+)\(s\)\s+added\s*You have been banned from gambling at this casino.$" to="已添加 $1个$2&#xA;这个赌场已禁止你继续在此赌博。"/>
