@@ -399,6 +399,9 @@
 		<!-- 以右括号分隔的按键提示 -->
 		<regex from="^([\S\s]+)\)   ([\S\s]+)$" to="$1)   $2"/>
 		
+		<!-- 赌场收入提示 -->
+		<regex from="^([\s\S]+)\s+Earnings:\s+(\-)?(\d+)$" to="在$1的收入:    $2$3"/>
+		
 		<!-- 禁止赌博提示 -->
 		<regex from="^([\d]+)\s([\s\S]+)\(s\)\s+added\s*You have been banned from gambling at this casino.$" to="已添加 $1个$2&#xA;这个赌场已禁止你继续在此赌博。"/>
 		
