@@ -76,7 +76,7 @@
     <EDID>NVDLC04LegionExplorerClass</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Legion Explorer</ORIGINAL>
-    <TRADUIT>军团探险家</TRADUIT>
+    <TRADUIT>军团斥候</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -244,7 +244,7 @@
     <EDID>NVDLC04DummyIgnoresDTDR</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Ignores DT/DR</ORIGINAL>
-    <TRADUIT>无视伤害减免/防御力</TRADUIT>
+    <TRADUIT>无视抗伤/免伤</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -412,7 +412,7 @@
     <EDID>NVDLC04DummyAutoInjectSuperStimpak</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Automatic Use At 25% Health</ORIGINAL>
-    <TRADUIT>生命25%时自动使用</TRADUIT>
+    <TRADUIT>生命降至25%时自动使用</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -426,7 +426,7 @@
     <EDID>NVDLC04DummyAutoInjectStimpak</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Automatic Use At 50% Health</ORIGINAL>
-    <TRADUIT>生命50%时自动使用</TRADUIT>
+    <TRADUIT>生命降至50%时自动使用</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11101,7 +11101,7 @@ Body
     <EDID>ModNVDLC04RedGlareAutoLauncher</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Increases Fire Rate</ORIGINAL>
-    <TRADUIT>提升射速。</TRADUIT>
+    <TRADUIT>提升射速</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11115,7 +11115,7 @@ Body
     <EDID>ModNVDLC04SMMGExtendedMag</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>SMMG Extended Magazine</ORIGINAL>
-    <TRADUIT>SMMG扩容弹匣</TRADUIT>
+    <TRADUIT>肩扛机枪扩容弹匣</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11143,7 +11143,7 @@ Body
     <EDID>ModNVDLC04SMMGMechanicalUpgrade</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>SMMG Mechanical Upgrade</ORIGINAL>
-    <TRADUIT>SMMG机械升级</TRADUIT>
+    <TRADUIT>肩扛机枪机械升级</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11157,7 +11157,7 @@ Body
     <EDID>ModNVDLC04SMMGMechanicalUpgrade</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Increases maximum condition of the weapon.</ORIGINAL>
-    <TRADUIT>提升武器的最大耐久。</TRADUIT>
+    <TRADUIT>提升武器最大耐久。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11171,7 +11171,7 @@ Body
     <EDID>ModNVDLC04SMMGRecoilCompensator</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>SMMG Recoil Compensator</ORIGINAL>
-    <TRADUIT>SMMG后坐力补偿器</TRADUIT>
+    <TRADUIT>肩扛机枪后坐力补偿器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11241,7 +11241,7 @@ Body
     <EDID>ModNVDLC04RedGlareFarSighting</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Increases zoom level.</ORIGINAL>
-    <TRADUIT>提升瞄准等级。</TRADUIT>
+    <TRADUIT>提升缩放倍率。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11270,7 +11270,7 @@ Body
     <EDID>HVWeapPlasmaRifleWeak</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plasma Rifle</ORIGINAL>
-    <TRADUIT>等离子步枪*</TRADUIT>
+    <TRADUIT>等离子步枪</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11315,7 +11315,7 @@ Body
     <EDID>NVDLC04WeapEDEUnlockZapper</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>ED-E Arc Welder</ORIGINAL>
-    <TRADUIT>ED-E弧焊机*</TRADUIT>
+    <TRADUIT>ED-E弧焊机</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11330,7 +11330,7 @@ Body
     <EDID>NVDLC04WeapUlyssesEyebotHealGun</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Heal Zap</ORIGINAL>
-    <TRADUIT>治愈之力*</TRADUIT>
+    <TRADUIT>治愈之力</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11420,7 +11420,7 @@ Body
     <EDID>NVDLC04SentryBotMissileLauncher2HL50</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile Launcher</ORIGINAL>
-    <TRADUIT>导弹发射器*</TRADUIT>
+    <TRADUIT>导弹发射器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11435,7 +11435,7 @@ Body
     <EDID>NVDLC04SentryBotMissileLauncher2HL40</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile Launcher</ORIGINAL>
-    <TRADUIT>导弹发射器*</TRADUIT>
+    <TRADUIT>导弹发射器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11450,7 +11450,7 @@ Body
     <EDID>NVDLC04SentryBotMissileLauncher2HL30</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile Launcher</ORIGINAL>
-    <TRADUIT>导弹发射器*</TRADUIT>
+    <TRADUIT>导弹发射器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11465,7 +11465,7 @@ Body
     <EDID>NVDLC04SentryBotMissileLauncher2HL20</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile Launcher</ORIGINAL>
-    <TRADUIT>导弹发射器*</TRADUIT>
+    <TRADUIT>导弹发射器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11540,7 +11540,7 @@ Body
     <EDID>NVDLC04TurretMarkVILaser2HR50</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11555,7 +11555,7 @@ Body
     <EDID>NVDLC04TurretMarkVILaser2HR40</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11570,7 +11570,7 @@ Body
     <EDID>NVDLC04TurretMarkVILaser2HR30</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11585,7 +11585,7 @@ Body
     <EDID>NVDLC04TurretMarkVILaser2HR20</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11600,7 +11600,7 @@ Body
     <EDID>NVDLC04TurretMarkIVLaser2HR50</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11615,7 +11615,7 @@ Body
     <EDID>NVDLC04TurretMarkIVLaser2HR40</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11630,7 +11630,7 @@ Body
     <EDID>NVDLC04TurretMarkIVLaser2HR30</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11645,7 +11645,7 @@ Body
     <EDID>NVDLC04TurretMarkIVLaser2HR20</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11660,7 +11660,7 @@ Body
     <EDID>NVDLC04TurretMarkIILaser2HR50</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11675,7 +11675,7 @@ Body
     <EDID>NVDLC04TurretMarkIILaser2HR40</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11690,7 +11690,7 @@ Body
     <EDID>NVDLC04TurretMarkIILaser2HR30</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11705,7 +11705,7 @@ Body
     <EDID>NVDLC04TurretMarkIILaser2HR20</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser</ORIGINAL>
-    <TRADUIT>激光*</TRADUIT>
+    <TRADUIT>激光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11720,7 +11720,7 @@ Body
     <EDID>NVDLC04WeapUlyssesEyebotGun</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Energy Zap</ORIGINAL>
-    <TRADUIT>能量轰击*</TRADUIT>
+    <TRADUIT>能量轰击</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11735,7 +11735,7 @@ Body
     <EDID>NVDLC04WeapFlagpoleNPC50</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Old Glory</ORIGINAL>
-    <TRADUIT>星条旗*</TRADUIT>
+    <TRADUIT>星条旗</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11750,7 +11750,7 @@ Body
     <EDID>NVDLC04WeapFlagpoleNPC40</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Old Glory</ORIGINAL>
-    <TRADUIT>星条旗*</TRADUIT>
+    <TRADUIT>星条旗</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11765,7 +11765,7 @@ Body
     <EDID>NVDLC04WeapFlagpoleNPC30</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Old Glory</ORIGINAL>
-    <TRADUIT>星条旗*</TRADUIT>
+    <TRADUIT>星条旗</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11780,7 +11780,7 @@ Body
     <EDID>NVDLC04WeapFlagpoleNPC20</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Old Glory</ORIGINAL>
-    <TRADUIT>星条旗*</TRADUIT>
+    <TRADUIT>星条旗</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11825,7 +11825,7 @@ Body
     <EDID>NVDLC04WeapBladeWest</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Blade of the West</ORIGINAL>
-    <TRADUIT>西部之刃</TRADUIT>
+    <TRADUIT>西方之刃</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11885,7 +11885,7 @@ Body
     <EDID>NVDLC04WeapEDEArcWelder</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>ED-E Arc Welder</ORIGINAL>
-    <TRADUIT>ED-E弧焊机*</TRADUIT>
+    <TRADUIT>ED-E弧焊机</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12005,7 +12005,7 @@ Body
     <EDID>NVDLC04WeapGrenadeRifleBLUE</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Great Bear Grenade Rifle</ORIGINAL>
-    <TRADUIT>‘巨熊’榴弹枪</TRADUIT>
+    <TRADUIT>“巨熊”榴弹枪</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12020,7 +12020,7 @@ Body
     <EDID>NVDLC04WeapGrenadeRifleRED</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Red Victory Grenade Rifle</ORIGINAL>
-    <TRADUIT>‘红色胜利’榴弹枪</TRADUIT>
+    <TRADUIT>“红色胜利”榴弹枪</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12486,7 +12486,7 @@ Clas : Vault Dweller</COMMENTAIRE>
     <EDID>NVDLC04NukeNCRColonel</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Heavy Trooper</ORIGINAL>
-    <TRADUIT>变异重步兵</TRADUIT>
+    <TRADUIT>受辐射的重步兵</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12502,7 +12502,7 @@ Clas : NCRTrooper</COMMENTAIRE>
     <EDID>NVDLC04NukeNCRHeavyTrooper</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Heavy Trooper</ORIGINAL>
-    <TRADUIT>变异重步兵</TRADUIT>
+    <TRADUIT>受辐射的重步兵</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12758,7 +12758,7 @@ Clas : Marked Men Ravager</COMMENTAIRE>
     <EDID>NVDLC04NukeSilo2Scout</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Marked Men Scout</ORIGINAL>
-    <TRADUIT>变异烙印侦察兵</TRADUIT>
+    <TRADUIT>受辐射的烙印侦察兵</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12774,7 +12774,7 @@ Clas : Marked Men Scout</COMMENTAIRE>
     <EDID>NVDLC04NukeSilo2Hunter</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Marked Men Hunter</ORIGINAL>
-    <TRADUIT>变异烙印猎人</TRADUIT>
+    <TRADUIT>受辐射的烙印猎人</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12790,7 +12790,7 @@ Clas : Marked Men Hunter</COMMENTAIRE>
     <EDID>NVDLC04NukeSilo2Ravager</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Marked Men Ravager</ORIGINAL>
-    <TRADUIT>变异烙印破坏者</TRADUIT>
+    <TRADUIT>受辐射的烙印破坏者</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12806,7 +12806,7 @@ Clas : Marked Men Ravager</COMMENTAIRE>
     <EDID>NVDLC04NukeSilo2Marauder</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Marked Men Marauder</ORIGINAL>
-    <TRADUIT>变异烙印掠夺者</TRADUIT>
+    <TRADUIT>受辐射的烙印掠夺者</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12838,7 +12838,7 @@ Clas : NCRTrooper</COMMENTAIRE>
     <EDID>NVDLC04NukeLegionExplorerMelee</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Legion Explorer</ORIGINAL>
-    <TRADUIT>变异军团探险家</TRADUIT>
+    <TRADUIT>受辐射的军团斥候</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12854,7 +12854,7 @@ Clas : Legion Explorer</COMMENTAIRE>
     <EDID>NVDLC04NukeLegionExplorerRange</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Legion Explorer</ORIGINAL>
-    <TRADUIT>变异军团探险家</TRADUIT>
+    <TRADUIT>受辐射的军团斥候</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12870,7 +12870,7 @@ Clas : Legion Explorer</COMMENTAIRE>
     <EDID>NVDLC04NukeLegionLegionaryMelee</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Legionary Prime</ORIGINAL>
-    <TRADUIT>变异军团主力</TRADUIT>
+    <TRADUIT>受辐射的军团主力</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12886,7 +12886,7 @@ Clas : Wasteland Adventurer</COMMENTAIRE>
     <EDID>NVDLC04NukeLegionLegionaryRange</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Legionary Veteran</ORIGINAL>
-    <TRADUIT>变异军团老兵</TRADUIT>
+    <TRADUIT>受辐射的军团老兵</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -14044,7 +14044,7 @@ Clas : Ulysses Class</COMMENTAIRE>
     <EDID>NVDLC04DeathclawNuked</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Irradiated Deathclaw</ORIGINAL>
-    <TRADUIT>变异死亡爪</TRADUIT>
+    <TRADUIT>受辐射的死亡爪</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -16571,6 +16571,34 @@ Pod 3 - INACTIVE/Unoccupied. Power diverted to Eyebot synthesis pod in main laun
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile</ORIGINAL>
     <TRADUIT>导弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>010076E9</ID>
+    <EDID>NVDLC04SatchelChargeProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Satchel Charge</ORIGINAL>
+    <TRADUIT>炸药挎包</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>01004C36</ID>
+    <EDID>NVDLC04WeapFlashBangGrenadeProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flash Bang Grenade</ORIGINAL>
+    <TRADUIT>闪光手榴弹</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -24838,7 +24866,7 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic080</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>I need some Microfusion Cells. Can you make some?</ORIGINAL>
-    <TRADUIT>我需要一些核融合电池. 可以制造一点吗？</TRADUIT>
+    <TRADUIT>我需要一些微型核聚变电池。可以制造一点吗？</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -31388,7 +31416,7 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04robotede\nvdlc04dia_nvdlc04dial
     <EDID>NVDLC04DialogueEDENVDLC04EDETopic135</EDID>
     <CHAMP>RNAM</CHAMP>
     <ORIGINAL>Remove the safety catches on those Microfusion Cells and you could turn them into satchel charges.</ORIGINAL>
-    <TRADUIT>拔掉那些核融合电池上的保险栓你就能把它们变成炸药包了。</TRADUIT>
+    <TRADUIT>拔掉那些微型核聚变电池上的保险栓你就能把它们变成炸药包了。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -33766,7 +33794,7 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic051</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Who is Legate Lanius?</ORIGINAL>
-    <TRADUIT>拉尼厄斯特使是谁？</TRADUIT>
+    <TRADUIT>特使拉尼厄斯是谁？</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -44553,7 +44581,7 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <EDID>NVDLC04DialogueUlyssesNVDLC04UlyssesTopic070</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>{Frowns}If you seek to anger me, words won't be enough. Your moral ground is weak here in the Divide.</ORIGINAL>
-    <TRADUIT>[Frowns]如果你想激怒我，言语是不够的。你在大裂谷的道德基础很薄弱。</TRADUIT>
+    <TRADUIT>{Frowns}如果你想激怒我，言语是不够的。你在大裂谷的道德基础很薄弱。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -46703,7 +46731,7 @@ Audio (bsa): sound\voice\lonesomeroad.esm\nvdlc04maleuniqueulysses\nvdlc04dia_nv
     <EDID>NVDLC04BurdenToBearPerk</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>The wastelander with the most gear wins! (... or at least survives.) You can now carry an additional 50 pounds of gear (stacks with Strong Back perk).</ORIGINAL>
-    <TRADUIT>装备最多的废土客获胜！(...或者至少能活下来。) 你的负重上限增加50。(与善背perk叠加)</TRADUIT>
+    <TRADUIT>装备最多的废土客获胜！(...或者至少能活下来。) 你的负重上限增加50。(与善背特长叠加)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47571,7 +47599,7 @@ If the journey proves too difficult, or you need to resupply, you can retrace yo
     <EDID>NVDLC04EDEUpgrade05Message</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>You have gained the Camarader-E Perk (Rank 5), increasing your accuracy in V.A.T.S. as long as ED-E is your companion. ED-E also gains an accuracy boost while he is your companion.</ORIGINAL>
-    <TRADUIT>你已经获得了E同志的Perk（等级5），只要ED-E是你的同伴，就会增加你在V.A.T.S中的精准度。在ED-E作为你同伴的时候,它也获得了精准度修正。</TRADUIT>
+    <TRADUIT>你已经获得了"E同志"的特长（等级5），只要ED-E是你的同伴，就会增加你在V.A.T.S中的精准度。在ED-E作为你同伴的时候,它也获得了精准度修正。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47585,7 +47613,7 @@ If the journey proves too difficult, or you need to resupply, you can retrace yo
     <EDID>NVDLC04EDEUpgrade04Message</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>You have gained the Camarader-E Perk (Rank 4), increasing your damage with beam weapons by +5. ED-E also gains +5 damage while he is your companion.</ORIGINAL>
-    <TRADUIT>你已经获得了E同志的Perk（等级4），你的能量武器伤害增加了5，ED-E在身为你同伴时也获得+5点伤害。</TRADUIT>
+    <TRADUIT>你已经获得了"E同志"的特长（等级4），你的能量武器伤害增加了5，ED-E在身为你同伴时也获得+5点伤害。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47599,7 +47627,7 @@ If the journey proves too difficult, or you need to resupply, you can retrace yo
     <EDID>NVDLC04EDEUpgrade03Message</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>You have gained the Camarader-E Perk (Rank 3), giving you and ED-E both +2 DT.</ORIGINAL>
-    <TRADUIT>你已经获得了E同志的Perk（等级3），给你和ED-E增加了2点DT。</TRADUIT>
+    <TRADUIT>你已经获得了"E同志"的特长（等级3），给你和ED-E增加了2点DT。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47613,7 +47641,7 @@ If the journey proves too difficult, or you need to resupply, you can retrace yo
     <EDID>NVDLC04MarkedPerkMSG</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>You have gained the Marked Perk.</ORIGINAL>
-    <TRADUIT>你已经获得烙印Perk。</TRADUIT>
+    <TRADUIT>你已经获得"烙印"特长。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47655,7 +47683,7 @@ If the journey proves too difficult, or you need to resupply, you can retrace yo
     <EDID>NVDLC04LonesomeRoadPerkMSG</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Perk gained: Lonesome Road</ORIGINAL>
-    <TRADUIT>Perk已获得：孤独之路</TRADUIT>
+    <TRADUIT>特长已获得：孤独之路</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47729,7 +47757,7 @@ If the journey proves too difficult, or you need to resupply, you can retrace yo
 You have also unlocked the Dead Man's Burden Perk, allowing you to put a single point into any of your S.P.E.C.I.A.L. attributes. You also gain reputation with the Boomers and the Powder Gangers for your... destructive tendencies, but you lose reputation with the NCR and Caesar's Legion.</ORIGINAL>
     <TRADUIT>你对莫哈韦国家的无情核攻击已经破坏了军团和NCR的土地，甚至波及了莫哈维的边界，在莫哈维前哨，你现在可以通过西边的大门前往15号公路，一个被毁灭的NCR前哨基地。在棉白杨湾，你现在可以通过河流前往枯井，一个被毁灭的军团营地。请做好准备，这两个区域都受到高度辐射，并且有大批野蛮的食尸鬼出没。
 
-你已解锁了“逝者的重负”Perk，允许你在任意S.P.E.C.I.A.L属性上加一点。因为你的...毁灭性倾向，你也获得了大炮族与炸药帮的声望，但是你失去了NCR与凯撒军团的声望。</TRADUIT>
+你已解锁了“逝者的重负”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。因为你的...毁灭性倾向，你也获得了大炮族与炸药帮的声望，但是你失去了NCR与凯撒军团的声望。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47762,7 +47790,7 @@ You have also unlocked the Bear-Slayer Perk, allowing you to put a single point 
     <TRADUIT>你对NCR无情的核攻击已经摧毁了加州的土地，甚至波及了莫哈韦的边界。在莫哈维前哨，你现在可以通过西边的大门前往15号公路，一个被毁灭的NCR前哨基地。准请做好准备，这个区域受到高度辐射，并且有大批野蛮的食尸鬼出没。
 
 
-你已解锁了“屠熊者”Perk，允许你在任意S.P.E.C.I.A.L属性上加一点。由于毁灭了NCR的家园，你也获得了凯撒军团的声望，但是失去了NCR的声望。</TRADUIT>
+你已解锁了“屠熊者”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。由于毁灭了NCR的家园，你也获得了凯撒军团的声望，但是失去了NCR的声望。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47794,7 +47822,7 @@ You have also unlocked the Bear-Slayer Perk, allowing you to put a single point 
 You have also unlocked the Scourge of the East Perk, allowing you to put a single point into any of your S.P.E.C.I.A.L. attributes. You also gain reputation with the NCR for breaking the back of Caesar's Legion, but you lose reputation with Caesar's Legion.</ORIGINAL>
     <TRADUIT>你对凯撒军团无情的核攻击摧毁了科罗拉多河以东的土地，甚至波及了莫哈韦沙漠的边界。在棉白杨湾，你现在可以通过河流前往枯井，一个被毁灭的军团营地。请做好准备，这个区域受到高度辐射，并且有大批野蛮的食尸鬼出没。
 
-你已解锁了“东方之灾”Perk，允许你在任意S.P.E.C.I.A.L属性上加一点。因为摧毁了凯撒军团的后方，你也获得了NCR的声望，但是你失去了凯撒军团的声望。</TRADUIT>
+你已解锁了“东方之灾”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。因为摧毁了凯撒军团的后方，你也获得了NCR的声望，但是你失去了凯撒军团的声望。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47840,11 +47868,11 @@ You have also unlocked the Scourge of the East Perk, allowing you to put a singl
 This perk is accessed through ED-E's dialogue. 
 
 If you find more upgrade modules, you can unlock further ranks of this Perk. When you return to the Mojave, these upgrades will carry over to the original ED-E as well.</ORIGINAL>
-    <TRADUIT>你在这个坏掉的眼机器人上找到了一个可以升级ED-E的模块。安装此模块将授予你“E同志”的Perk，允许ED-E每天修理您当前装备的武器一次。
+    <TRADUIT>你在这个坏掉的眼机器人上找到了一个可以升级ED-E的模块。安装此模块将授予你“E同志”的特长，允许ED-E每天修理您当前装备的武器一次。
 
-这个Perk可以通过ED-E的对话获得。
+这个特长可以通过ED-E的对话获得。
 
-如果你找到更多的升级模块，你可以解锁这个Perk的进一步升级。当你回到莫哈韦时，这些升级也会延续到最初的ED-E上。</TRADUIT>
+如果你找到更多的升级模块，你可以解锁这个特长的进一步升级。当你回到莫哈韦时，这些升级也会延续到最初的ED-E上。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47858,7 +47886,7 @@ If you find more upgrade modules, you can unlock further ranks of this Perk. Whe
     <EDID>NVDLC04EDEUpgrade02Message</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>You have gained the Camarader-E Perk (Rank 2), allowing ED-E to manufacture Small Energy Cells or Microfusion Cells once per day.</ORIGINAL>
-    <TRADUIT>你获得了“E同志”Perk(等级2)，允许ED-E每天制造一次小型能源电池或核融合电池。</TRADUIT>
+    <TRADUIT>你获得了"E同志"的特长(等级2)，允许ED-E每天制造一次小型能量电池或微型核聚变电池。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -50121,7 +50149,7 @@ What would you like to do?</ORIGINAL>
     <EDID>NVDLC04AchievementRocketsRedGlare</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Rocket's Red Glare</ORIGINAL>
-    <TRADUIT>火箭的红色眩光</TRADUIT>
+    <TRADUIT>火箭冒出红色眩光</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -50233,7 +50261,7 @@ What would you like to do?</ORIGINAL>
     <EDID>NVDLC04AchievementDoomedtoRepeat</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Condemned to Repeat It</ORIGINAL>
-    <TRADUIT>历史重演</TRADUIT>
+    <TRADUIT>重蹈覆辙</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -50261,7 +50289,7 @@ What would you like to do?</ORIGINAL>
     <EDID>NVDLC04AchievementEDECATED</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>ED-Ecated</ORIGINAL>
-    <TRADUIT>ED-E涂层</TRADUIT>
+    <TRADUIT>镀金ED-E</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -50317,7 +50345,7 @@ What would you like to do?</ORIGINAL>
     <EDID>NVDLC04ChallengeMostLikelyTo</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Most Likely To...</ORIGINAL>
-    <TRADUIT>最有可能是...</TRADUIT>
+    <TRADUIT>最有可能...</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>

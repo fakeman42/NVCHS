@@ -48,7 +48,7 @@
     <EDID>NVDLC05DummyNVIgnoresDRDT</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Ignores DR/DT</ORIGINAL>
-    <TRADUIT>忽略DR/DT</TRADUIT>
+    <TRADUIT>无视抗伤/免伤</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -62,7 +62,7 @@
     <EDID>NVDLC05DummyNVTwoStepExplosion</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Crit Kill = Boom!</ORIGINAL>
-    <TRADUIT>致命击杀 = 爆炸！</TRADUIT>
+    <TRADUIT>暴击击杀 = 爆炸！</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -76,7 +76,7 @@
     <EDID>NVDLC05DummyNVRedCriticalDamage</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Reduced Critical Damage</ORIGINAL>
-    <TRADUIT>减少暴击伤害</TRADUIT>
+    <TRADUIT>暴击伤害降低</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -398,7 +398,7 @@
     <EDID>NVDLC05ModNVTriBeamLaserRifleHighCapTerminal</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Tri-beam LR Hi-Cap Terminal</ORIGINAL>
-    <TRADUIT>三连装激光步枪-耐久型终端</TRADUIT>
+    <TRADUIT>三连装激光步枪大容量端子</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -414,7 +414,7 @@
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases ammunition capacity (+24).</ORIGINAL>
     <TRADUIT>(GRA)
-提升弹夹容量（+24）。</TRADUIT>
+提升弹容量 (+24)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -428,7 +428,7 @@ Increases ammunition capacity (+24).</ORIGINAL>
     <EDID>NVDLC05ModNVTriBeamLaserRifleHDCapacitors</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Tri-beam LR HD Caps</ORIGINAL>
-    <TRADUIT>三连装激光步枪-高效电容</TRADUIT>
+    <TRADUIT>三连装激光步枪强化电容</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -444,7 +444,7 @@ Increases ammunition capacity (+24).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+200%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+200%)。</TRADUIT>
+提升枪械耐久 (+200%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -458,7 +458,7 @@ Increases condition (+200%).</ORIGINAL>
     <EDID>NVDLC05ModNVTriBeamLaserRifleFocusOptics</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Tri-beam LR Focus Optics</ORIGINAL>
-    <TRADUIT>三连装激光步枪-光学聚焦系统</TRADUIT>
+    <TRADUIT>三连装激光步枪光学聚焦器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -474,7 +474,7 @@ Increases condition (+200%).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+9).</ORIGINAL>
     <TRADUIT>(GRA)
-提高伤害（+9）。</TRADUIT>
+提升伤害 (+9)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -488,7 +488,7 @@ Increases damage (+9).</ORIGINAL>
     <EDID>NVDLC05ModNVRipperHeavyDutyChain</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Ripper HD Chain</ORIGINAL>
-    <TRADUIT>开膛手-强化锯链</TRADUIT>
+    <TRADUIT>开膛手强化锯链</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -504,7 +504,7 @@ Increases damage (+9).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+50%）。</TRADUIT>
+提升枪械耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -518,7 +518,7 @@ Increases condition (+50%).</ORIGINAL>
     <EDID>NVDLC05ModNVRipperCarbideTeeth</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Ripper Carbide Teeth</ORIGINAL>
-    <TRADUIT>开膛手-碳钢锯齿</TRADUIT>
+    <TRADUIT>开膛手碳钢锯齿</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -534,7 +534,7 @@ Increases condition (+50%).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+10).</ORIGINAL>
     <TRADUIT>(GRA)
-提高伤害（+10）。</TRADUIT>
+提升伤害 (+10)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -548,7 +548,7 @@ Increases damage (+10).</ORIGINAL>
     <EDID>NVDLC05ModNVPowerFistPortedChambers</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Power Fist Ported Chambers</ORIGINAL>
-    <TRADUIT>动力拳套-护手装置</TRADUIT>
+    <TRADUIT>动力拳套护手装置</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -578,7 +578,7 @@ Increases attack speed.</ORIGINAL>
     <EDID>NVDLC05ModNVPowerFistHighCapValves</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Power Fist Hi-Cap Valves</ORIGINAL>
-    <TRADUIT>动力拳套-耐久型阀门</TRADUIT>
+    <TRADUIT>动力拳套大容量阀门</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -594,7 +594,7 @@ Increases attack speed.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+8).</ORIGINAL>
     <TRADUIT>(GRA)
-提高伤害（+8）。</TRADUIT>
+提升伤害 (+8)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -608,7 +608,7 @@ Increases damage (+8).</ORIGINAL>
     <EDID>NVDLC05ModNVPowerFistChromedTubes</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Power Fist Chromed Tubes</ORIGINAL>
-    <TRADUIT>动力拳套-镀铬管路</TRADUIT>
+    <TRADUIT>动力拳套镀铬管路</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -624,7 +624,7 @@ Increases damage (+8).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+100%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+100%）。</TRADUIT>
+提升枪械耐久 (+100%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -638,7 +638,7 @@ Increases condition (+100%).</ORIGINAL>
     <EDID>NVDLC05ModNVPlasmaPistolRecycler</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plas. Pistol Recycler</ORIGINAL>
-    <TRADUIT>等离子手枪-电池回收装置</TRADUIT>
+    <TRADUIT>等离子手枪电池回收器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -654,7 +654,7 @@ Increases condition (+100%).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Replenishes ammunition (1/4 shots).</ORIGINAL>
     <TRADUIT>(GRA)
-回收弹药（1/4次射击）。</TRADUIT>
+补充弹药 (1发/4次射击)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -668,7 +668,7 @@ Replenishes ammunition (1/4 shots).</ORIGINAL>
     <EDID>NVDLC05ModNVPlasmaPistolMagneticAccelerator</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plas. Pistol Mag. Accelerator</ORIGINAL>
-    <TRADUIT>等离子手枪-粒子加速器</TRADUIT>
+    <TRADUIT>等离子手枪粒子加速器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -684,7 +684,7 @@ Replenishes ammunition (1/4 shots).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases speed of plasma projectile.</ORIGINAL>
     <TRADUIT>(GRA)
-提高等离子喷射体初速。</TRADUIT>
+提升等离子抛射物初速。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -698,7 +698,7 @@ Increases speed of plasma projectile.</ORIGINAL>
     <EDID>NVDLC05ModNVPlasmaPistolHighEnergyIonizer</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plas. Pistol Hi-Energy Ionizer</ORIGINAL>
-    <TRADUIT>等离子防御者-高能电离器</TRADUIT>
+    <TRADUIT>等离子防御者高能电离器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -714,7 +714,7 @@ Increases speed of plasma projectile.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+7).</ORIGINAL>
     <TRADUIT>(GRA)
-增加伤害 (+7)。</TRADUIT>
+提升伤害 (+7)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -728,7 +728,7 @@ Increases damage (+7).</ORIGINAL>
     <EDID>NVDLC05ModNVPlasmaDefenderSheathStabilizer</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plasma Def. Sheath Stabilizer</ORIGINAL>
-    <TRADUIT>等离子防御者-改进稳定器</TRADUIT>
+    <TRADUIT>等离子防御者改进稳定器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -744,7 +744,7 @@ Increases damage (+7).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Decreases spread.</ORIGINAL>
     <TRADUIT>(GRA)
-降低子弹散射。</TRADUIT>
+减少弹道扩散。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -758,7 +758,7 @@ Decreases spread.</ORIGINAL>
     <EDID>NVDLC05ModNVPlasmaDefenderScope</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plasma Def. Scope</ORIGINAL>
-    <TRADUIT>等离子防御者-瞄准镜</TRADUIT>
+    <TRADUIT>等离子防御者瞄准镜</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -774,7 +774,7 @@ Decreases spread.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Adds short-range scope.</ORIGINAL>
     <TRADUIT>(GRA)
-提供短距瞄准。</TRADUIT>
+添加短距瞄准镜。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -788,7 +788,7 @@ Adds short-range scope.</ORIGINAL>
     <EDID>NVDLC05ModNVPlasmaDefenderHighCapTerminal</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plasma Def. Hi-Cap Terminal</ORIGINAL>
-    <TRADUIT>等离子防御者-耐久型终端</TRADUIT>
+    <TRADUIT>等离子防御者大容量端子</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -804,7 +804,7 @@ Adds short-range scope.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases ammunition capacity (+32).</ORIGINAL>
     <TRADUIT>(GRA)
-提高弹夹容量（+32）。</TRADUIT>
+提升弹容量 (+32)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -818,7 +818,7 @@ Increases ammunition capacity (+32).</ORIGINAL>
     <EDID>NVDLC05ModNVLaserPistolRecycler</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser Pistol Recycler</ORIGINAL>
-    <TRADUIT>激光手枪-电池回收装置</TRADUIT>
+    <TRADUIT>激光手枪电池回收器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -834,7 +834,7 @@ Increases ammunition capacity (+32).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Replenishes ammunition (1/4 shots).</ORIGINAL>
     <TRADUIT>(GRA)
-回收弹药（1/4次射击)。</TRADUIT>
+补充弹药 (1发/4次射击)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -848,7 +848,7 @@ Replenishes ammunition (1/4 shots).</ORIGINAL>
     <EDID>NVDLC05ModNVLaserPistolFocusOptics</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser Pistol Focus Optics</ORIGINAL>
-    <TRADUIT>激光手枪-光学聚焦系统</TRADUIT>
+    <TRADUIT>激光手枪光学聚焦器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -864,7 +864,7 @@ Replenishes ammunition (1/4 shots).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+3).</ORIGINAL>
     <TRADUIT>(GRA)
-提高伤害（+3）。</TRADUIT>
+提升伤害 (+3)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -878,7 +878,7 @@ Increases damage (+3).</ORIGINAL>
     <EDID>NVDLC05ModNVLaserPistolCombatSights</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser Pistol Combat Sights</ORIGINAL>
-    <TRADUIT>激光手枪-战术瞄准镜</TRADUIT>
+    <TRADUIT>激光手枪战斗瞄准镜</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -894,7 +894,7 @@ Increases damage (+3).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Adds usable iron sights.</ORIGINAL>
     <TRADUIT>(GRA)
-增加机械瞄具。</TRADUIT>
+添加机械瞄具。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -908,7 +908,7 @@ Adds usable iron sights.</ORIGINAL>
     <EDID>NVDLC05ModNVKatanaProtectiveSheath</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Katana Protective Sheath</ORIGINAL>
-    <TRADUIT>太刀-防护刀鞘</TRADUIT>
+    <TRADUIT>武士刀防护刀鞘</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -924,7 +924,7 @@ Adds usable iron sights.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+50%）。</TRADUIT>
+提升枪械耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -938,7 +938,7 @@ Increases condition (+50%).</ORIGINAL>
     <EDID>NVDLC05ModNVKatanaBalancedGrip</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Katana Balanced Grip</ORIGINAL>
-    <TRADUIT>太刀-平衡刀把</TRADUIT>
+    <TRADUIT>武士刀平衡刀把</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -968,7 +968,7 @@ Increases attack speed.</ORIGINAL>
     <EDID>NVDLC05ModNVKatanaAuthenticBlade</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Katana Authentic Blade</ORIGINAL>
-    <TRADUIT>太刀-传统工艺刀身</TRADUIT>
+    <TRADUIT>武士刀原品刀刃</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -984,7 +984,7 @@ Increases attack speed.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+5).</ORIGINAL>
     <TRADUIT>(GRA)
-提高伤害（+5）。</TRADUIT>
+提升伤害 (+5)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -998,7 +998,7 @@ Increases damage (+5).</ORIGINAL>
     <EDID>NVDLC05ModNVHuntingRevolverSixShotCylinder</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Hunting Rev. 6-Shot Cylinder</ORIGINAL>
-    <TRADUIT>狩猎左轮-6发转轮</TRADUIT>
+    <TRADUIT>狩猎左轮6发弹巢</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1014,7 +1014,7 @@ Increases damage (+5).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases ammunition capacity (+1).</ORIGINAL>
     <TRADUIT>(GRA)
-提高弹夹容量（+1）。</TRADUIT>
+提升弹容量 (+1)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1028,7 +1028,7 @@ Increases ammunition capacity (+1).</ORIGINAL>
     <EDID>NVDLC05ModNVHuntingRevolverMatchBarrel</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Hunting Rev. Match Barrel</ORIGINAL>
-    <TRADUIT>狩猎左轮-竞赛型枪管</TRADUIT>
+    <TRADUIT>狩猎左轮竞赛型枪管</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1044,7 +1044,7 @@ Increases ammunition capacity (+1).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Decreases spread.</ORIGINAL>
     <TRADUIT>(GRA)
-降低子弹散射。</TRADUIT>
+减少弹道扩散。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1058,7 +1058,7 @@ Decreases spread.</ORIGINAL>
     <EDID>NVDLC05ModNVChainsawHeavyDutyChain</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Chainsaw HD Chain</ORIGINAL>
-    <TRADUIT>链锯-强化锯链</TRADUIT>
+    <TRADUIT>链锯强化锯链</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1074,7 +1074,7 @@ Decreases spread.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+50%）。</TRADUIT>
+提升枪械耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1088,7 +1088,7 @@ Increases condition (+50%).</ORIGINAL>
     <EDID>NVDLC05ModNVChainsawCarbideTeeth</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Chainsaw Carbide Teeth</ORIGINAL>
-    <TRADUIT>链锯-碳钢锯齿</TRADUIT>
+    <TRADUIT>链锯碳钢锯齿</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1104,7 +1104,7 @@ Increases condition (+50%).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+15).</ORIGINAL>
     <TRADUIT>(GRA)
-提高伤害（+15）。</TRADUIT>
+提升伤害 (+15)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1118,7 +1118,7 @@ Increases damage (+15).</ORIGINAL>
     <EDID>NVDLC05ModNVChainsawAlloyFrame</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Chainsaw Alloy Frame</ORIGINAL>
-    <TRADUIT>链锯-合金框架</TRADUIT>
+    <TRADUIT>链锯合金框架</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1134,7 +1134,7 @@ Increases damage (+15).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Decreases weight (-8).</ORIGINAL>
     <TRADUIT>(GRA)
-减轻重量（-8）。</TRADUIT>
+减少重量 (-8)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1148,7 +1148,7 @@ Decreases weight (-8).</ORIGINAL>
     <EDID>NVDLC05ModNVBaseballBatNails</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Baseball Bat Nails</ORIGINAL>
-    <TRADUIT>棒球棍-加装铁钉</TRADUIT>
+    <TRADUIT>棒球棍加装铁钉</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1164,7 +1164,7 @@ Decreases weight (-8).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases damage (+6).</ORIGINAL>
     <TRADUIT>(GRA)
-增加伤害（+6）。</TRADUIT>
+提升伤害 (+6)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1178,7 +1178,7 @@ Increases damage (+6).</ORIGINAL>
     <EDID>NVDLC05ModNVBaseballBatMapleBody</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Baseball Bat Maple Body</ORIGINAL>
-    <TRADUIT>棒球棍-枫木棒身</TRADUIT>
+    <TRADUIT>棒球棍枫木棒身</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1194,7 +1194,7 @@ Increases damage (+6).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+50%）。</TRADUIT>
+提升枪械耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1208,7 +1208,7 @@ Increases condition (+50%).</ORIGINAL>
     <EDID>NVDLC05ModNVBaseballBatCorkCore</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Baseball Bat Cork Core</ORIGINAL>
-    <TRADUIT>棒球棍-软木棒芯</TRADUIT>
+    <TRADUIT>棒球棍软木棒芯</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1238,7 +1238,7 @@ Increases attack speed.</ORIGINAL>
     <EDID>NVDLC05ModNVAssaultCarbineLightBolt</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Assault Carb. Light Bolt</ORIGINAL>
-    <TRADUIT>突击步枪-改进型枪机</TRADUIT>
+    <TRADUIT>突击卡宾枪轻型枪栓</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1268,7 +1268,7 @@ Increases rate of fire.</ORIGINAL>
     <EDID>NVDLC05ModNVAssaultCarbineForgedReceiver</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Assault Carb. Forged Receiver</ORIGINAL>
-    <TRADUIT>突击步枪-强化型机匣</TRADUIT>
+    <TRADUIT>突击卡宾枪强化型机匣</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1284,7 +1284,7 @@ Increases rate of fire.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+33%).</ORIGINAL>
     <TRADUIT>(GRA)
-改善耐久（+33%）。</TRADUIT>
+提升枪械耐久 (+33%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1298,7 +1298,7 @@ Increases condition (+33%).</ORIGINAL>
     <EDID>NVDLC05ModNVAssaultCarbineExtendedMags</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Assault Carb. Ext. Mags</ORIGINAL>
-    <TRADUIT>突击步枪-大型弹匣</TRADUIT>
+    <TRADUIT>突击卡宾枪扩容弹匣</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1314,7 +1314,7 @@ Increases condition (+33%).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases ammunition capacity (+6).</ORIGINAL>
     <TRADUIT>(GRA)
-提高弹夹容量（+6）。</TRADUIT>
+提升弹容量 (+6)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1328,7 +1328,7 @@ Increases ammunition capacity (+6).</ORIGINAL>
     <EDID>NVDLC05ModNVAntiMaterielRifleSuppressor</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Anti-Mat. Rifle Suppressor</ORIGINAL>
-    <TRADUIT>反器材狙击步枪-消音器</TRADUIT>
+    <TRADUIT>反器材步枪抑制器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1344,7 +1344,7 @@ Increases ammunition capacity (+6).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Reduces weapon noise.</ORIGINAL>
     <TRADUIT>(GRA)
-武器消音。</TRADUIT>
+减少开枪时发出的声音。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1358,7 +1358,7 @@ Reduces weapon noise.</ORIGINAL>
     <EDID>NVDLC05ModNVAntiMaterielRifleCustomBolt</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Anti-Mat. Rifle Custom Bolt</ORIGINAL>
-    <TRADUIT>反器材步枪-枪改进型枪机</TRADUIT>
+    <TRADUIT>反器材步枪改进型枪栓</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1388,7 +1388,7 @@ Increases rate of fire.</ORIGINAL>
     <EDID>NVDLC05ModNVAntiMaterielRifleCarbonFiberParts</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Anti-Mat. Rifle CF Parts</ORIGINAL>
-    <TRADUIT>反器材步枪-碳纤维枪身</TRADUIT>
+    <TRADUIT>反器材步枪碳纤维枪身</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1404,7 +1404,7 @@ Increases rate of fire.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Decreases weight (-7).</ORIGINAL>
     <TRADUIT>(GRA)
-减轻重量（-7）。</TRADUIT>
+减少重量 (-7)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1418,7 +1418,7 @@ Decreases weight (-7).</ORIGINAL>
     <EDID>NVDLC05ModNV25mmGrenadeAPWUpgradedInternals</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm G. APW Upgraded Int.</ORIGINAL>
-    <TRADUIT>25mm 榴弹发射器-改进型机匣</TRADUIT>
+    <TRADUIT>25mm榴弹发射器改进型机匣</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1448,7 +1448,7 @@ Increases rate of fire.</ORIGINAL>
     <EDID>NVDLC05ModNV25mmGrenadeAPWLongBarrel</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm G. APW Long Barrel</ORIGINAL>
-    <TRADUIT>25mm 榴弹发射器-加长枪管</TRADUIT>
+    <TRADUIT>25mm榴弹发射器长枪管</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1464,7 +1464,7 @@ Increases rate of fire.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases projectile velocity (+100%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升子弹初速（+100%）。</TRADUIT>
+提升抛射物初速 (+100%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1478,7 +1478,7 @@ Increases projectile velocity (+100%).</ORIGINAL>
     <EDID>NVDLC05ModNV25mmGrenadeAPWExpandedDrum</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm G. APW Exp. Drum</ORIGINAL>
-    <TRADUIT>25mm 榴弹发射器-大型弹鼓</TRADUIT>
+    <TRADUIT>25mm榴弹发射器扩容弹鼓</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1494,7 +1494,7 @@ Increases projectile velocity (+100%).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases ammunition capacity (+2).</ORIGINAL>
     <TRADUIT>(GRA)
-提高弹夹容量（+2）。</TRADUIT>
+提升弹容量 (+2)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1508,7 +1508,7 @@ Increases ammunition capacity (+2).</ORIGINAL>
     <EDID>NVDLC05ModNV127mmSMGSuppressor</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12.7mm SMG Suppressor</ORIGINAL>
-    <TRADUIT>12.7mm 冲锋枪消音器</TRADUIT>
+    <TRADUIT>12.7mm冲锋枪抑制器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1524,7 +1524,7 @@ Increases ammunition capacity (+2).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Silences the weapon.</ORIGINAL>
     <TRADUIT>(GRA)
-武器消音。</TRADUIT>
+将武器消音。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1538,7 +1538,7 @@ Silences the weapon.</ORIGINAL>
     <EDID>NVDLC05ModNV127mmSMGStackedMagazine</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12.7mm SMG Stacked Magazine</ORIGINAL>
-    <TRADUIT>12.7mm 冲锋枪-大型弹匣</TRADUIT>
+    <TRADUIT>12.7mm冲锋枪大型弹匣</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1554,7 +1554,7 @@ Silences the weapon.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases ammunition capacity (+6).</ORIGINAL>
     <TRADUIT>(GRA)
-提高弹夹容量（+6）。</TRADUIT>
+提升弹容量 (+6)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1568,7 +1568,7 @@ Increases ammunition capacity (+6).</ORIGINAL>
     <EDID>NVDLC05ModNV127mmSMGLaserSight</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12.7mm SMG Laser Sight</ORIGINAL>
-    <TRADUIT>12.7mm 冲锋枪-激光指示器</TRADUIT>
+    <TRADUIT>12.7mm冲锋枪激光指示器</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1585,7 +1585,7 @@ Increases ammunition capacity (+6).</ORIGINAL>
 Decreases spread.
 </ORIGINAL>
     <TRADUIT>(GRA)
-降低子弹散射。
+减少弹道扩散。
 </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
@@ -1600,7 +1600,7 @@ Decreases spread.
     <EDID>NVDLC05WeapFatmanCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Fat Man (GRA)</ORIGINAL>
-    <TRADUIT>胖子发射器(GRA)</TRADUIT>
+    <TRADUIT>胖子发射器 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1675,7 +1675,7 @@ Decreases spread.
     <EDID>NVDLC05WeapMineMFCCluster</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>MFC Cluster (Mad Bomber) (GRA)</ORIGINAL>
-    <TRADUIT>微型核融集束地雷(GRA)</TRADUIT>
+    <TRADUIT>微型核聚变集束地雷 (疯狂炸弹人) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1690,7 +1690,7 @@ Decreases spread.
     <EDID>NVDLC05WeapGrenadeMFC</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>MFC Grenade (Mad Bomber) (GRA)</ORIGINAL>
-    <TRADUIT>微型核融手雷(GRA)</TRADUIT>
+    <TRADUIT>微型核聚变手雷 (疯狂炸弹人) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1705,7 +1705,7 @@ Decreases spread.
     <EDID>NVDLC05WeapRipperCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Ripper (GRA)</ORIGINAL>
-    <TRADUIT>开膛手(GRA)</TRADUIT>
+    <TRADUIT>开膛手 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1720,7 +1720,7 @@ Decreases spread.
     <EDID>NVDLC05WeapPowerFistCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Power Fist (GRA)</ORIGINAL>
-    <TRADUIT>动力拳套(GRA)</TRADUIT>
+    <TRADUIT>动力拳套 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1735,7 +1735,7 @@ Decreases spread.
     <EDID>NVDLC05WeapPlasmaPistolCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plasma Pistol (GRA)</ORIGINAL>
-    <TRADUIT>等离子手枪(GRA)</TRADUIT>
+    <TRADUIT>等离子手枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1750,7 +1750,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVTriBeamLaserRifleCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Tri-beam Laser Rifle (GRA)</ORIGINAL>
-    <TRADUIT>三连装激光步枪(GRA)</TRADUIT>
+    <TRADUIT>三连装激光步枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1765,7 +1765,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVPlasmaDefenderCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Plasma Defender (GRA)</ORIGINAL>
-    <TRADUIT>等离子防御者(GRA)</TRADUIT>
+    <TRADUIT>等离子护卫者 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1780,7 +1780,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVHuntingRevolverCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Hunting Revolver (GRA)</ORIGINAL>
-    <TRADUIT>狩猎左轮(GRA)</TRADUIT>
+    <TRADUIT>狩猎左轮 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1795,7 +1795,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVChainsawCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Chainsaw (GRA)</ORIGINAL>
-    <TRADUIT>链锯(GRA)</TRADUIT>
+    <TRADUIT>链锯 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1810,7 +1810,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVAssaultCarbineCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Assault Carbine (GRA)</ORIGINAL>
-    <TRADUIT>突击卡宾枪(GRA)</TRADUIT>
+    <TRADUIT>突击卡宾枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1825,7 +1825,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVAntiMaterielRifleCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Anti-Materiel Rifle (GRA)</ORIGINAL>
-    <TRADUIT>反器材步枪(GRA)</TRADUIT>
+    <TRADUIT>反器材步枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1840,7 +1840,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNV127mmSubmachineGunCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>12.7mm Submachine Gun (GRA)</ORIGINAL>
-    <TRADUIT>12.7mm冲锋枪(GRA)</TRADUIT>
+    <TRADUIT>12.7mm冲锋枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1855,7 +1855,7 @@ Decreases spread.
     <EDID>NVDLC05WeapLaserPistolCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Laser Pistol (GRA)</ORIGINAL>
-    <TRADUIT>激光手枪(GRA)</TRADUIT>
+    <TRADUIT>激光手枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1870,7 +1870,7 @@ Decreases spread.
     <EDID>NVDLC05WeapBaseballBatCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Baseball Bat (GRA)</ORIGINAL>
-    <TRADUIT>棒球棍(GRA)</TRADUIT>
+    <TRADUIT>棒球棍 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1885,7 +1885,7 @@ Decreases spread.
     <EDID>NVDLC05Weap25mmGrenadeAPWCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>25mm Grenade APW (GRA)</ORIGINAL>
-    <TRADUIT>25mm 单兵榴弹发射器(GRA)</TRADUIT>
+    <TRADUIT>25mm单兵榴弹发射器 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1900,7 +1900,7 @@ Decreases spread.
     <EDID>NVDLC05WeapGrenadeNuka</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Nuka-Grenade (Mad Bomber) (GRA)</ORIGINAL>
-    <TRADUIT>核子手雷(GRA)</TRADUIT>
+    <TRADUIT>核子手雷 (疯狂炸弹人) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1915,7 +1915,7 @@ Decreases spread.
     <EDID>NVDLC05WeapKatanaCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Katana (GRA)</ORIGINAL>
-    <TRADUIT>太刀(GRA)</TRADUIT>
+    <TRADUIT>武士刀 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1930,7 +1930,7 @@ Decreases spread.
     <EDID>NVDLC05WeapMineFat</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Fat Mine (Mad Bomber) (GRA)</ORIGINAL>
-    <TRADUIT>胖子地雷Katana</TRADUIT>
+    <TRADUIT>胖子地雷 (疯狂炸弹人) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1945,7 +1945,7 @@ Decreases spread.
     <EDID>NVDLC05WeapGrenadeTin</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Tin Grenade (Mad Bomber) (GRA)</ORIGINAL>
-    <TRADUIT>罐头手雷Katana</TRADUIT>
+    <TRADUIT>罐头手雷 (疯狂炸弹人) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1960,7 +1960,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNV556mmPistolCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>5.56mm Pistol (GRA)</ORIGINAL>
-    <TRADUIT>5.56mm 手枪(GRA)</TRADUIT>
+    <TRADUIT>5.56mm手枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1975,7 +1975,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVBattleRifleCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Battle Rifle (GRA)</ORIGINAL>
-    <TRADUIT>战斗步枪(GRA)</TRADUIT>
+    <TRADUIT>战斗步枪 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1990,7 +1990,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVTimeBombCustom</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Time Bomb, High Yield (Mad Bomber) (GRA)</ORIGINAL>
-    <TRADUIT>定时炸弹-高药量(GRA)</TRADUIT>
+    <TRADUIT>定时炸弹, 高当量 (疯狂炸弹人) (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2005,7 +2005,7 @@ Decreases spread.
     <EDID>NVDLC05WeapPowerFistUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Greased Lightning (GRA)</ORIGINAL>
-    <TRADUIT>电光雷拳(GRA)</TRADUIT>
+    <TRADUIT>电光雷拳 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2020,7 +2020,7 @@ Decreases spread.
     <EDID>NVDLC05WeapShishkebabUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Gehenna (GRA)</ORIGINAL>
-    <TRADUIT>焦热地狱(GRA)</TRADUIT>
+    <TRADUIT>焦热炼狱 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2035,7 +2035,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVBrushGunUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Medicine Stick (GRA)</ORIGINAL>
-    <TRADUIT>驱魔棍(GRA)</TRADUIT>
+    <TRADUIT>医疗棒 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2050,7 +2050,7 @@ Decreases spread.
     <EDID>NVDLC05Weap10mmSubmachineGunUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Sleepytyme (GRA)</ORIGINAL>
-    <TRADUIT>安睡时间(GRA)</TRADUIT>
+    <TRADUIT>安睡时间 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2065,7 +2065,7 @@ Decreases spread.
     <EDID>NVDLC05WeapHuntingRifleUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Paciencia (GRA)</ORIGINAL>
-    <TRADUIT>帕辛希亚(GRA)</TRADUIT>
+    <TRADUIT>耐心 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2080,7 +2080,7 @@ Decreases spread.
     <EDID>NVDLC05WeapFlamerUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Cleansing Flame (GRA)</ORIGINAL>
-    <TRADUIT>净化烈焰(GRA)</TRADUIT>
+    <TRADUIT>净化烈焰 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2095,7 +2095,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVPlasmaCasterUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>The Smitty Special (GRA)</ORIGINAL>
-    <TRADUIT>史密提特供(GRA)</TRADUIT>
+    <TRADUIT>史密提特供 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2110,7 +2110,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVBallisticFistUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Two-Step Goodbye (GRA)</ORIGINAL>
-    <TRADUIT>两步杀(GRA)</TRADUIT>
+    <TRADUIT>两步杀 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2125,7 +2125,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVMantisGauntletUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Embrace of the Mantis King! (GRA)</ORIGINAL>
-    <TRADUIT>螳螂王之拥！(GRA)</TRADUIT>
+    <TRADUIT>螳螂王之拥! (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2140,7 +2140,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVRebarClubUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Nuka-Breaker (GRA)</ORIGINAL>
-    <TRADUIT>核子破坏者(GRA)</TRADUIT>
+    <TRADUIT>核子破坏者 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2155,7 +2155,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVLightMachineGunUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Bozar (GRA)</ORIGINAL>
-    <TRADUIT>包子(GRA)</TRADUIT>
+    <TRADUIT>包子 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2170,7 +2170,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNV127mmPistolUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Li'l Devil (GRA)</ORIGINAL>
-    <TRADUIT>小恶魔(GRA)</TRADUIT>
+    <TRADUIT>小恶魔 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2185,7 +2185,7 @@ Decreases spread.
     <EDID>NVDLC05WeapFatmanUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Esther (GRA)</ORIGINAL>
-    <TRADUIT>以斯帖(GRA)</TRADUIT>
+    <TRADUIT>以斯帖 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2200,7 +2200,7 @@ Decreases spread.
     <EDID>NVDLC05WeapGatlingLaserUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Sprtel-Wood 9700 (GRA)</ORIGINAL>
-    <TRADUIT>斯普特欧-伍德9700(GRA)</TRADUIT>
+    <TRADUIT>斯普特欧-伍德9700 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2215,7 +2215,7 @@ Decreases spread.
     <EDID>NVDLC05WeapNVRechargerPistolUnique</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>MF Hyperbreeder Alpha (GRA)</ORIGINAL>
-    <TRADUIT>阿尔法高级微聚增殖器(GRA)</TRADUIT>
+    <TRADUIT>核电超增殖反应堆阿尔法型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2357,7 +2357,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Microfusion Cell, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
-    <TRADUIT>微型核融电池, 优化型 (GRA)</TRADUIT>
+    <TRADUIT>微型核聚变电池, 优化型 (GRA)</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2371,7 +2371,7 @@ Decreases spread.
     <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
     <CHAMP>ONAM</CHAMP>
     <ORIGINAL>MF Cell, Opt.</ORIGINAL>
-    <TRADUIT>微型核融电池, 优化</TRADUIT>
+    <TRADUIT>微型核聚变电池, 优化</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2997,11 +2997,53 @@ Decreases spread.
   </ESP>
   <ESP>
     <GRUP>PROJ</GRUP>
+    <ID>01000A91</ID>
+    <EDID>NVDLC05MFCMineClusterProjectile2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MFC Cluster Mine</ORIGINAL>
+    <TRADUIT>核子集束地雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>0100094B</ID>
+    <EDID>NVDLC0512GaFlechetteProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Ga. Flechette</ORIGINAL>
+    <TRADUIT>12号镖弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
     <ID>01000922</ID>
     <EDID>NVDLC05MissileProjectileHive</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Missile, Hive</ORIGINAL>
     <TRADUIT>导弹, 蜂巢型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>010008EF</ID>
+    <EDID>NVDLC05FatMineProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fat Mine</ORIGINAL>
+    <TRADUIT>核子地雷</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3613,7 +3655,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05RecipeMFCCluster</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>MFC Cluster (GRA)</ORIGINAL>
-    <TRADUIT>微型核融集束地雷</TRADUIT>
+    <TRADUIT>微型核聚变集束地雷</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3627,7 +3669,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05RecipeMFCGrenade</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>MFC Grenade (GRA)</ORIGINAL>
-    <TRADUIT>微型核融手雷</TRADUIT>
+    <TRADUIT>微型核聚变手雷</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3725,7 +3767,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05RecipeMicroFusionCellOptimized</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Microfusion Cell, Optimized (GRA)</ORIGINAL>
-    <TRADUIT>微型核融电池优化型</TRADUIT>
+    <TRADUIT>微型核聚变电池优化型</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3753,7 +3795,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeDyinAintMuchOfALiving</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Dyin' Ain't Much of a Living **</ORIGINAL>
-    <TRADUIT>(GRA) 死亡不是一种生活态度 **</TRADUIT>
+    <TRADUIT>(GRA) 死掉算不得什么活路 **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3767,7 +3809,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeDyinAintMuchOfALiving</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Kill members of NCR or Legion hit squads with weapons affected by the Cowboy perk.</ORIGINAL>
-    <TRADUIT>使用受特长“牛仔帅客”影响的武器杀死NCR游骑兵和军团刺客。</TRADUIT>
+    <TRADUIT>使用受牛仔特长影响的武器杀死NCR游骑兵和军团刺客。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3781,7 +3823,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeEvenAGodKingCanBleed</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Even a God-King Can Bleed **</ORIGINAL>
-    <TRADUIT>(GRA) 即使神王也会流血 **</TRADUIT>
+    <TRADUIT>(GRA) 即使是神王亦会流血 **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3809,7 +3851,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeSicSemperTyrannis</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Sic Semper Tyrannis **</ORIGINAL>
-    <TRADUIT>(GRA) 霸权依旧 **</TRADUIT>
+    <TRADUIT>(GRA) 暴君总有如此下场 **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3837,7 +3879,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeBenefitOrAHazard</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Benefit Or a Hazard *</ORIGINAL>
-    <TRADUIT>(GRA)利益或危害 *</TRADUIT>
+    <TRADUIT>(GRA) 益处或危害 *</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3879,7 +3921,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeVault13sRevenge</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Kill Super Mutants with 5.56mm Pistols, Plasma Defenders, Plasma Grenades, Power Fists, Rippers, or the Bozar.</ORIGINAL>
-    <TRADUIT>用等离子手雷，动力拳套，开膛手，等离子护卫者，无名枪，Bozar或5.56mm手枪杀死超变种人。</TRADUIT>
+    <TRADUIT>用等离子手雷，动力拳套，开膛手，等离子护卫者，无名枪，包子或5.56mm手枪杀死超级变种人。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3893,7 +3935,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeManMachineInterface</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Man-Machine Interface ***</ORIGINAL>
-    <TRADUIT>(GRA) 人机界面 ***</TRADUIT>
+    <TRADUIT>(GRA) 人机接口 ***</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3921,7 +3963,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeCrackerjackTiming</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Crackerjack Timing ***</ORIGINAL>
-    <TRADUIT>(GRA)定时高手 ***</TRADUIT>
+    <TRADUIT>(GRA) 绝佳时机 ***</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3935,7 +3977,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeCrackerjackTiming</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Kill Mojave Wasteland Cazadores with Tin Grenades, Long Fuse Dynamite, and Time Bombs.</ORIGINAL>
-    <TRADUIT>用锡罐手雷(GRA)、定时炸弹或黄色炸药（长引线）杀死莫哈维废土的大毒蜂。</TRADUIT>
+    <TRADUIT>用锡罐手雷、定时炸弹或长引线黄色炸药杀死莫哈维废土的猎蜂。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3949,7 +3991,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeTheSameCouldBeSaid</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) The Same Could Be Said of All Religious Weapons *</ORIGINAL>
-    <TRADUIT>(GRA) 神圣武器大师 *</TRADUIT>
+    <TRADUIT>(GRA) 对所有宗教武器都能这么说 *</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3963,7 +4005,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeTheSameCouldBeSaid</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Kill Feral Ghouls with Maria, Gehenna, and Holy Frag Grenades.</ORIGINAL>
-    <TRADUIT>用玛利亚，神圣手雷，炼狱(GRA)杀死狂尸鬼。</TRADUIT>
+    <TRADUIT>用玛利亚，神圣手雷，焦热炼狱杀死狂尸鬼。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -3977,7 +4019,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeASlaveObeys</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) A Slave Obeys *</ORIGINAL>
-    <TRADUIT>(GRA)奴隶的服从 *</TRADUIT>
+    <TRADUIT>(GRA) 奴隶只能服从 *</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4005,7 +4047,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeArmedForBear</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Armed For Bear ***</ORIGINAL>
-    <TRADUIT>(GRA)武装猎熊 ***</TRADUIT>
+    <TRADUIT>(GRA) 武装猎熊 ***</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4033,7 +4075,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeAgainstAllTyrants</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Against All Tyrants ***</ORIGINAL>
-    <TRADUIT>(GRA)对抗暴君 ***</TRADUIT>
+    <TRADUIT>(GRA) 对抗一切暴君 ***</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4047,7 +4089,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeAgainstAllTyrants</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Kill any named Legion members with Hunting Revolvers, Ranger Sequoias, Brush Guns, Service Rifles, Hunting Rifles, or Cowboy Repeaters.</ORIGINAL>
-    <TRADUIT>用狩猎左轮枪、游骑兵的红杉木、灌木猎枪、军用步枪、狩猎步枪或牛仔连发枪杀死任何有名字的军团成员。</TRADUIT>
+    <TRADUIT>用狩猎左轮枪、游骑兵的红杉木、刷枪、军用步枪、猎枪或牛仔连发枪杀死任何有名字的军团成员。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4061,7 +4103,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeCuriosAndRelics</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Curios and Relics</ORIGINAL>
-    <TRADUIT>(GRA)古董和文物</TRADUIT>
+    <TRADUIT>(GRA) 古董与文物</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4075,7 +4117,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeCuriosAndRelics</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Cause damage with unique Mojave Wasteland weapons.</ORIGINAL>
-    <TRADUIT>用独有的莫哈维废土武器造成伤害。</TRADUIT>
+    <TRADUIT>用莫哈维废土的独特武器造成伤害。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4089,7 +4131,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeNeNeNeNe</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Ne Ne Ne Ne... *</ORIGINAL>
-    <TRADUIT>(GRA) 不！不要过来！... *</TRADUIT>
+    <TRADUIT>(GRA) 呐呐呐呐... *</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4117,7 +4159,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeYouDontBelong</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) You Don't Belong In This World! *</ORIGINAL>
-    <TRADUIT>(GRA) 滚回你的世界！ *</TRADUIT>
+    <TRADUIT>(GRA) 你不属于这个世界！ *</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4145,7 +4187,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeOverkill</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Overkill *</ORIGINAL>
-    <TRADUIT>(GRA) 牛刀宰鸡*</TRADUIT>
+    <TRADUIT>(GRA) 过度杀戮 *</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4173,7 +4215,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeWhiteLineNightmare</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) White Line Nightmare **</ORIGINAL>
-    <TRADUIT>(GRA)匪徒的噩梦 **</TRADUIT>
+    <TRADUIT>(GRA) 公路梦魇 **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4187,7 +4229,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeWhiteLineNightmare</EDID>
     <CHAMP>DESC</CHAMP>
     <ORIGINAL>Kill Fiends, Vipers, or Jackals with Tire Irons, Baseball Bats, Lead Pipes, Machetes, .44 Magnum Revolvers, or Sawed-Off Shotguns.</ORIGINAL>
-    <TRADUIT>用卸胎棒、棒球棍、铅管、砍刀、.44马格南左轮枪或短管霰弹枪杀死恶魔帮，毒蛇帮或豺狼帮的匪徒。</TRADUIT>
+    <TRADUIT>用卸胎棒、棒球棍、铅管、砍刀、.44马格南左轮枪或截短霰弹枪杀死恶魔帮，毒蛇帮或豺狼帮的匪徒。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4201,7 +4243,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeTalkAboutOwned</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Talk About Owned **</ORIGINAL>
-    <TRADUIT>(GRA)说到物权…**</TRADUIT>
+    <TRADUIT>(GRA) 谈到支配 **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4229,7 +4271,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Deathclaw Pro Hunter ***</ORIGINAL>
-    <TRADUIT>(GRA)死亡爪猎人 ***</TRADUIT>
+    <TRADUIT>(GRA) 专业死亡爪猎人 ***</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4257,7 +4299,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeHistoricalPropriety</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Historical Propriety **</ORIGINAL>
-    <TRADUIT>(GRA)历史重现 **</TRADUIT>
+    <TRADUIT>(GRA) 历史正确性 **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4285,7 +4327,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeNyahSee</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Nyah! See? **</ORIGINAL>
-    <TRADUIT>(GRA)呀!看? **</TRADUIT>
+    <TRADUIT>(GRA) 哎! 你看? **</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4313,7 +4355,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05ChallengeMasterOfTheArsenal</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>(GRA) Master of the Arsenal</ORIGINAL>
-    <TRADUIT>(GRA)武器库大师</TRADUIT>
+    <TRADUIT>(GRA) 武器库大师</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
