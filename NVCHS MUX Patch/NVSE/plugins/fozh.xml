@@ -172,16 +172,16 @@
 		<font id="Monofonto_STn.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="28" width="0" weight="400" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="505050"/>
 		
 
-		<font id="Baked-in_Monofonto_Large_Notosans.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
-		<font id="DarN_GB_Weilaiyinghei.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
-		<font id="fixedsys_kar.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
-		<font id="GB_FixedsysOrigion_Hei18_low.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
-		<font id="GB_Glow_Monofonto_Medium_Common.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
-		<font id="Glow_Monofonto_Medium_Common_NotoSans.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
-		<font id="karl_gb.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
+		<font id="Baked-in_Monofonto_Large_Notosans.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="DarN_GB_Weilaiyinghei.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="fixedsys_kar.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="GB_FixedsysOrigion_Hei18_low.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="GB_Glow_Monofonto_Medium_Common.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="Glow_Monofonto_Medium_Common_NotoSans.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="karl_gb.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 未知 -->
-		<!--<font id="glow_futura_caps_large_NotoSans.fnt"      fontname="Microsoft YaHei" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/> -->
+		<!--<font id="glow_futura_caps_large_NotoSans.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/> -->
 
 	</fonts>
 
@@ -385,7 +385,7 @@
 		<regex from="^\[NEW SAVE\] ([\d]+) saves used.$" to="[新存档] 已使用$1个存档" />
 		
 		<!-- 技能书效果提示 -->
-		<regex from="Permanent ([\s\S]+) ([\+|-])(\d+)" to="$1永久 $2$3" />
+		<regex from="Permanent ([\s\S]+)\s+([\+|-])(\d+)" to="$1永久 $2$3" />
 		
 		<!-- 以右括号分隔的按键提示 -->
 		<regex from="^([\S\s]+)\)   ([\S\s]+)$" to="$1)   $2"/>
