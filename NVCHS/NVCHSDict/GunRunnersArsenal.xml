@@ -444,7 +444,7 @@ Increases ammunition capacity (+24).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+200%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+200%)。</TRADUIT>
+提升耐久 (+200%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -504,7 +504,7 @@ Increases damage (+9).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+50%)。</TRADUIT>
+提升耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -624,7 +624,7 @@ Increases damage (+8).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+100%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+100%)。</TRADUIT>
+提升耐久 (+100%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -744,7 +744,7 @@ Increases damage (+7).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Decreases spread.</ORIGINAL>
     <TRADUIT>(GRA)
-减少弹道扩散。</TRADUIT>
+减少散布。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -924,7 +924,7 @@ Adds usable iron sights.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+50%)。</TRADUIT>
+提升耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1044,7 +1044,7 @@ Increases ammunition capacity (+1).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Decreases spread.</ORIGINAL>
     <TRADUIT>(GRA)
-减少弹道扩散。</TRADUIT>
+减少散布。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1074,7 +1074,7 @@ Decreases spread.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+50%)。</TRADUIT>
+提升耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1194,7 +1194,7 @@ Increases damage (+6).</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+50%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+50%)。</TRADUIT>
+提升耐久 (+50%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1284,7 +1284,7 @@ Increases rate of fire.</ORIGINAL>
     <ORIGINAL>(Gun Runners' Arsenal)
 Increases condition (+33%).</ORIGINAL>
     <TRADUIT>(GRA)
-提升枪械耐久 (+33%)。</TRADUIT>
+提升耐久 (+33%)。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -1585,7 +1585,7 @@ Increases ammunition capacity (+6).</ORIGINAL>
 Decreases spread.
 </ORIGINAL>
     <TRADUIT>(GRA)
-减少弹道扩散。
+减少散布。
 </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
@@ -1716,6 +1716,21 @@ Decreases spread.
   </ESP>
   <ESP>
     <GRUP>WEAP</GRUP>
+    <ID>01000857</ID>
+    <EDID>NVDLC05WeapRipperCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Long Cut</ORIGINAL>
+    <TRADUIT>长切</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
     <ID>01000856</ID>
     <EDID>NVDLC05WeapPowerFistCustom</EDID>
     <CHAMP>FULL</CHAMP>
@@ -1806,6 +1821,21 @@ Decreases spread.
   </ESP>
   <ESP>
     <GRUP>WEAP</GRUP>
+    <ID>01000851</ID>
+    <EDID>NVDLC05WeapNVChainsawCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Scrap Heap</ORIGINAL>
+    <TRADUIT>废料堆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
     <ID>01000850</ID>
     <EDID>NVDLC05WeapNVAssaultCarbineCustom</EDID>
     <CHAMP>FULL</CHAMP>
@@ -1881,6 +1911,21 @@ Decreases spread.
   </ESP>
   <ESP>
     <GRUP>WEAP</GRUP>
+    <ID>0100084C</ID>
+    <EDID>NVDLC05WeapBaseballBatCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Grand Slam</ORIGINAL>
+    <TRADUIT>大满贯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
     <ID>0100081B</ID>
     <EDID>NVDLC05Weap25mmGrenadeAPWCustom</EDID>
     <CHAMP>FULL</CHAMP>
@@ -1916,6 +1961,21 @@ Decreases spread.
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Katana (GRA)</ORIGINAL>
     <TRADUIT>武士刀 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000817</ID>
+    <EDID>NVDLC05WeapKatanaCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Unlabored Flawlessness</ORIGINAL>
+    <TRADUIT>天衣无缝</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2021,6 +2081,21 @@ Decreases spread.
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Gehenna (GRA)</ORIGINAL>
     <TRADUIT>焦热炼狱 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080F</ID>
+    <EDID>NVDLC05WeapShishkebabUnique</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -2141,6 +2216,21 @@ Decreases spread.
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Nuka-Breaker (GRA)</ORIGINAL>
     <TRADUIT>核子破坏者 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000807</ID>
+    <EDID>NVDLC05WeapNVRebarClubUnique</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Nuka-Break</ORIGINAL>
+    <TRADUIT>核子破坏</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4425,7 +4515,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05AmmoEffectMissileHiveSpreadIncrease</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Hive Missile Spread Increase</ORIGINAL>
-    <TRADUIT>蜂巢导弹扩散增加</TRADUIT>
+    <TRADUIT>蜂巢导弹散布增加</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4439,7 +4529,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05AmmoEffectFatMansTinyTotsSpreadIncrease</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Tiny Tots Spread Increase</ORIGINAL>
-    <TRADUIT>小男孩核弹扩散增加</TRADUIT>
+    <TRADUIT>小男孩核弹散布增加</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -4565,7 +4655,7 @@ EmotionType : Neutral</COMMENTAIRE>
     <EDID>NVDLC05AmmoEffectMatchSpreadReduction</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Spread Reduction</ORIGINAL>
-    <TRADUIT>扩散减少</TRADUIT>
+    <TRADUIT>散布减少</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>

@@ -104,3 +104,11 @@ NVSCFix00625	SLP -[%], H2O +[%], INT -[%], STR +[%], AGL +[%], Rads +[%]
 NVSCFix00626	Low-Light Vision, DT +[%], HP +[%], SLP -[%], H2O +[%], Rads +[%]
 NVSCFix00627	HP +[%], AP +[%], SLP -[%], H2O +[%], PER -[%], Rads +[%]
 NVSCFix00628	SLP -[%], H2O +[%], INT -[%], STR +[%], AGL +[%], Rads +[%]
+NVSCFix00629	Decreases spread ([%]).
+NVSCFix00630	Decreases weight ([%]).
+NVSCFix00631	Increases damage ([%]).
+NVSCFix00632	Increases condition ([%]).
+NVSCFix00633	Increases rate of fire ([%]).
+NVSCFix00634	Increases ammunition capacity ([%]).
+NVSCFix00635	Increases attack speed ([%]).
+NVSCFix00636	Increases weapon damage ([%]).

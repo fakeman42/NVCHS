@@ -54,10 +54,10 @@
 		<xml path="Data/NVCHSDict/TTW/BrokenSteel.xml"/>
 		<xml path="Data/NVCHSDict/TTW/PointLookout.xml"/>
 		<xml path="Data/NVCHSDict/TTW/Zeta.xml"/>
-		<xml path="Data/NVCHSDict/TTW/TaleOfTwoWastelands.xml"/>
-		<xml path="Data/NVCHSDict/TTW/YUPTTW.xml"/>
-		<file target="Data/NVCHSDict/TTW/fallout3_chs.txt" src="Data/NVCHSDict/TTW/fallout3_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/TTW/fo3map_chs.txt" src="Data/NVCHSDict/TTW/fo3map_en.txt" type="2" priority="0"/>
+		<xml path="Data/NVCHSDict/TTW/TaleOfTwoWastelands.xml" priority="11"/>
+		<xml path="Data/NVCHSDict/TTW/YUPTTW.xml" priority="11"/>
+		<file target="Data/NVCHSDict/TTW/fallout3_chs.txt" src="Data/NVCHSDict/TTW/fallout3_en.txt" type="2" priority="11"/>
+		<file target="Data/NVCHSDict/TTW/fo3map_chs.txt" src="Data/NVCHSDict/TTW/fo3map_en.txt" type="2" priority="11"/>
 		
 		<!-- Someguy -->
 		<xml path="Data/NVCHSDict/Mods/Someguy/NewVegasBounties.xml"/>
@@ -354,7 +354,7 @@
 		<regex from="^(.+) \n?removed$" to="已移除$1"/>
 		
 		<!-- 技能增加角落信息 -->
-		<regex from="(.+) \n?increased by \n?(\d+)$" to="$1 增加了$2点"/>
+		<regex from="(.+) \n?increased \n?by \n?(\d+)$" to="$1 增加了$2点"/>
 		
 		<regex from="^(.+) (\(\d+\/\d+\))$" to="$1 $2"/>
 		<regex from="^(\d+\.) (.+)" to="$1 $2"/>
