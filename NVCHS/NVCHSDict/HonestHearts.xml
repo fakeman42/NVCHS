@@ -13728,6 +13728,22 @@ EmotionType : Neutral</COMMENTAIRE>
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
+    <ID>0100F610</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Male PC}You looking for trouble, bud? I got plenty to spare, so watch your ass around me.</ORIGINAL>
+    <TRADUIT>{Male PC}你是来找麻烦的吗，伙计？我时间多着呢，你想要我随时奉陪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ricky [0100F19D] (mod)
+Quest : ([0100F454]NVDLC02DialogueRicky) NVDLC02 Ricky's Dialogue
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
     <ID>0100F418</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -13740,6 +13756,54 @@ EmotionType : Neutral</COMMENTAIRE>
     <COMMENTAIRE>NPC : Stella [0100F19E] (mod)
 Quest : ([0100F411]NVDLC02DialogueStella) NVDLC02 Stella's Dialogue
 EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100F611</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Female PC}{lecherous}Hey, little lady. Don't be scared to join this caravan! I'll keep a close eye on you - real close. Promises.</ORIGINAL>
+    <TRADUIT>{Female PC}{lecherous}嘿，小妞。想加入我们商队吗？别再犹豫了！有什么好害怕的？我会密切关注你的...非常密切，哈哈。我发誓。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ricky [0100F19D] (mod)
+Quest : ([0100F454]NVDLC02DialogueRicky) NVDLC02 Ricky's Dialogue
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100F612</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{impatient}Yeah? What's it this time?</ORIGINAL>
+    <TRADUIT>{impatient}嗯？这次是什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ricky [0100F19D] (mod)
+Quest : ([0100F454]NVDLC02DialogueRicky) NVDLC02 Ricky's Dialogue
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100F613</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{the player ruined everything for you}Fuck off, okay? I hate you!</ORIGINAL>
+    <TRADUIT>{the player ruined everything for you}滚开好吗？我讨厌你！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ricky [0100F19D] (mod)
+Quest : ([0100F454]NVDLC02DialogueRicky) NVDLC02 Ricky's Dialogue
+EmotionType : Anger</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -47479,7 +47543,7 @@ Index : 0</COMMENTAIRE>
     <EDID>NVDLC02HomeOnTheRange</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Home on the Range</ORIGINAL>
-    <TRADUIT>牧场是我家</TRADUIT>
+    <TRADUIT>郊野为家</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47507,7 +47571,7 @@ Index : 0</COMMENTAIRE>
     <EDID>NVDLC02EyeForEye</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Eye For Eye</ORIGINAL>
-    <TRADUIT>以牙还牙</TRADUIT>
+    <TRADUIT>以眼还眼</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -47619,7 +47683,7 @@ Index : 0</COMMENTAIRE>
     <EDID>NVDLC02Grunt</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Grunt</ORIGINAL>
-    <TRADUIT>美国大兵</TRADUIT>
+    <TRADUIT>大兵</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
