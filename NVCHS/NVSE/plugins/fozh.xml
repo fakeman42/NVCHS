@@ -64,13 +64,13 @@
 		<xml path="Data/NVCHSDict/Mods/YUP.xml"/>
 		<xml path="Data/NVCHSDict/Mods/YUP_Dial.xml"/>
 		
-		<json path="Data/NVCHSDict/json/Mods/YUP.json" priority="1" />
-		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/YUP_Dial.json" priority="0" />
+		<json path="Data/NVCHSDict/json/Mods/YUP.json" priority="3" />
+		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/YUP_Dial.json" priority="2" />
 		
 		<!-- UPNVSEP -->
 		<xml path="Data/NVCHSDict/Mods/Unofficial_Patch_NVSE_Plus.xml"/>
 		
-		<json path="Data/NVCHSDict/json/Mods/Unofficial_Patch_NVSE_Plus.json" priority="1" />
+		<json path="Data/NVCHSDict/json/Mods/Unofficial_Patch_NVSE_Plus.json" priority="3" />
 		
 		<!-- TTW -->
 		<xml path="Data/NVCHSDict/TTW/Fallout3.xml"/>
@@ -99,19 +99,21 @@
 		<xml path="Data/NVCHSDict/Mods/TH3/Headhunting.xml"/>
 		<xml path="Data/NVCHSDict/Mods/TH3/KhanInitiation.xml"/>
 		<xml path="Data/NVCHSDict/Mods/TH3/NorthRoad.xml"/>
-		<file target="Data/NVCHSDict/Mods/TH3/DepthsOfDepravity_chs.txt" src="Data/NVCHSDict/Mods/TH3/DepthsOfDepravity_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/TH3/DepthsOfDepravity_chs.txt" src="Data/NVCHSDict/Mods/TH3/DepthsOfDepravity_en.txt" type="2" priority="3"/>
 		
 		<!-- Zion trail! -->
 		<xml path="Data/NVCHSDict/Mods/ZionTrail/ZionTrail.xml"/>
 		<xml path="Data/NVCHSDict/Mods/ZionTrail/ZionTrailTweaks.xml"/>
-		<file target="Data/NVCHSDict/Mods/ZionTrail/ziontweak_note_ja.txt" src="Data/NVCHSDict/Mods/ZionTrail/ziontweak_note_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/ZionTrail/ziontweak_note_ja.txt" src="Data/NVCHSDict/Mods/ZionTrail/ziontweak_note_en.txt" type="2" priority="3"/>
 		<xml path="Data/NVCHSDict/Mods/ZionTrail/YetAnotherZionTrailTweaks.xml"/>
 		<xml path="Data/NVCHSDict/Mods/ZionTrail/ZionTrail-NV.xml"/>
-		<file target="Data/NVCHSDict/Mods/ZionTrail/ziontrail_dial_ja.txt" src="Data/NVCHSDict/Mods/ZionTrail/ziontrail_dial_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Mods/ZionTrail/ziontweak_dial_chs.txt" src="Data/NVCHSDict/Mods/ZionTrail/ziontweak_dial_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/ZionTrail/ziontrail_dial_ja.txt" src="Data/NVCHSDict/Mods/ZionTrail/ziontrail_dial_en.txt" type="2" priority="3"/>
+		<file target="Data/NVCHSDict/Mods/ZionTrail/ziontweak_dial_chs.txt" src="Data/NVCHSDict/Mods/ZionTrail/ziontweak_dial_en.txt" type="2" priority="3"/>
 		
 		<!-- mods -->
 		<xml path="Data/NVCHSDict/Mods/JustAssortedMods.xml"/>
+		<file target="Data/NVCHSDict/Mods/JAM_ch.txt" src="Data/NVCHSDict/Mods/JAM_en.txt" type="2" priority="3"/>
+		
 		<xml path="Data/NVCHSDict/Mods/3DNPCFO3Bundle.xml"/>
 		<xml path="Data/NVCHSDict/Mods/3DNPCFNVBundle.xml"/>
 		<xml path="Data/NVCHSDict/Mods/A Trail of Crumbs.xml"/>
@@ -133,21 +135,21 @@
 		<xml path="Data/NVCHSDict/Mods/AltStart.xml"/>
 		<xml path="Data/NVCHSDict/Mods/Rosa.xml"/>
 		<xml path="Data/NVCHSDict/Mods/TweaksTTW.xml"/>
-		<file target="Data/NVCHSDict/Mods/TweaksTTW_chs.txt" src="Data/NVCHSDict/Mods/TweaksTTW_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/TweaksTTW_chs.txt" src="Data/NVCHSDict/Mods/TweaksTTW_en.txt" type="2" priority="3"/>
 		<xml path="Data/NVCHSDict/Mods/SevenGravesFromNow.xml"/>
-		<file target="Data/NVCHSDict/Mods/SevenGravesFromNow_CHS.TXT" src="Data/NVCHSDict/Mods/SevenGravesFromNow_EN.TXT" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/SevenGravesFromNow_CHS.TXT" src="Data/NVCHSDict/Mods/SevenGravesFromNow_EN.TXT" type="2" priority="3"/>
 		<xml path="Data/NVCHSDict/Mods/NVWillow.xml"/>
-		<file target="Data/NVCHSDict/Mods/willow_chs.txt" src="Data/NVCHSDict/Mods/willow_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/willow_chs.txt" src="Data/NVCHSDict/Mods/willow_en.txt" type="2" priority="3"/>
 		<xml path="Data/NVCHSDict/Mods/Sun.xml"/>
 		<xml path="Data/NVCHSDict/Mods/HitDrugsTTW.xml"/>
 		<xml path="Data/NVCHSDict/Mods/More Perks.xml"/>
-		<file target="Data/NVCHSDict/Mods/theinheritage_chs.txt" src="Data/NVCHSDict/Mods/theinheritage_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Mods/quicktrain_ch.txt" src="Data/NVCHSDict/Mods/quicktrain_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Mods/MAPMO_ch.txt" src="Data/NVCHSDict/Mods/MAPMO_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Mods/EnhancedMovement_ch.txt" src="Data/NVCHSDict/Mods/EnhancedMovement_en.txt" type="2" priority="1"/>
-		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="1" />
-		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="1" />
-		<file target="Data/NVCHSDict/Mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/Mods/BetterCaravan_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/theinheritage_chs.txt" src="Data/NVCHSDict/Mods/theinheritage_en.txt" type="2" priority="3"/>
+		<file target="Data/NVCHSDict/Mods/quicktrain_ch.txt" src="Data/NVCHSDict/Mods/quicktrain_en.txt" type="2" priority="3"/>
+		<file target="Data/NVCHSDict/Mods/MAPMO_ch.txt" src="Data/NVCHSDict/Mods/MAPMO_en.txt" type="2" priority="3"/>
+		<file target="Data/NVCHSDict/Mods/EnhancedMovement_ch.txt" src="Data/NVCHSDict/Mods/EnhancedMovement_en.txt" type="2" priority="3"/>
+		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="3" />
+		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="3" />
+		<file target="Data/NVCHSDict/Mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/Mods/BetterCaravan_en.txt" type="2" priority="3"/>
 		
 	</replacetext>
 

@@ -4106,7 +4106,7 @@
   {
     "key": "NVDLC02DeadHorseWW_0100F8A9#NPC_:FULL#b8fc2c271dbba587b91ebd0c99d4a5dd",
     "original": "Two-Bears-High-Fiving",
-    "translation": "击掌双熊",
+    "translation": "双熊击掌",
     "stage": 1
   },
   {
@@ -4244,7 +4244,7 @@
   {
     "key": "NVDLC02CrTier1BigHornerSmall_01009F42#CREA:FULL#cc016110fb16921cabd91afdcacd4e7d",
     "original": "Bighorner Calf",
-    "translation": "大角羊羔",
+    "translation": "大角羊幼崽",
     "stage": 1
   },
   {
@@ -4466,7 +4466,7 @@
   {
     "key": "NVDLC02EVBighornerSmall_0100A3E2#CREA:FULL#7fc51bd46d4eacea2273d17c3c41f417",
     "original": "Mountain Bighorner Calf",
-    "translation": "山地大角羊羔",
+    "translation": "山地大角羊幼崽",
     "stage": 1
   },
   {
@@ -4484,7 +4484,7 @@
   {
     "key": "NVDLC02EVBighornerSpecial01_0100A3E5#CREA:FULL#9efccd0ac086e3d294003e209ff820c8",
     "original": "Lost Mountain Bighorner Calf",
-    "translation": "走失的山地大角羊羔",
+    "translation": "走失的山地大角羊幼崽",
     "stage": 1
   },
   {
@@ -18062,7 +18062,7 @@
   {
     "key": "NVDLC02MS02_0100A3B9#QUST:NNAM#73cb4935d3651369b073edb261a852fb",
     "original": "Find the lost Mountain Bighorner Calf.",
-    "translation": "找到走失的大角羊羔。",
+    "translation": "找到走失的山地大角羊幼崽。",
     "stage": 1
   },
   {
@@ -18728,7 +18728,7 @@
   {
     "key": "NVDLC02BighornerCalfMsg_0100A6DF#MESG:DESC#d7e3b0054ca97b7417499161c761e64e",
     "original": "You have found the lost Mountain Bighorner Calf.  It looks hungry, feed it a Banana Yucca Fruit?",
-    "translation": "你发现了走失的小羊，它看起来有点饿，要不喂它点香蕉丝兰果实？",
+    "translation": "你发现了走失的山地大角羊幼崽，它看起来有点饿，要不喂它点香蕉丝兰果实？",
     "stage": 1
   },
   {
@@ -18746,7 +18746,7 @@
   {
     "key": "NVDLC02BighornerCalfDropMsg_0100A6E3#MESG:DESC#fcd05af9d1bd05a4f71283b08af7e2c0",
     "original": "Return the Mountain Bighorner Calf?",
-    "translation": "归还小羊？",
+    "translation": "归还山地大角羊幼崽？",
     "stage": 1
   },
   {
@@ -19352,7 +19352,7 @@
   {
     "key": "NVDLC02BighornerCalfScaredMsg_01010072#MESG:DESC#ccdb31eea7fe3895b0152cf230088ec4",
     "original": "The Mountain Bighorner Calf is scared, feed it a Banana Yucca Fruit?",
-    "translation": "小山羊被吓着了，要不用香蕉丝兰果实喂它试试？",
+    "translation": "山地大角羊幼崽被吓着了，要不用香蕉丝兰果实喂它试试？",
     "stage": 1
   },
   {
@@ -20559,6 +20559,12 @@
     "key": "_01011078#REFR:FULL#121abe0f025bd5399bf4112f973ce8a0",
     "original": "The Red Gate",
     "translation": "红门",
+    "stage": 1
+  },
+  {
+    "key": "LostCalfREF_0100A38F#ACRE:XATO#52cab8baa3009a7f050f2b236d1fb661",
+    "original": "Interact with Lost Bighorner Calf",
+    "translation": "与走失的大角羊幼崽互动",
     "stage": 1
   }
 ]
