@@ -36,6 +36,23 @@
 		<xml path="Data/NVCHSDict/TribalPack.xml"/>
 		<xml path="Data/NVCHSDict/CaravanPack.xml"/>
 		
+		<json path="Data/NVCHSDict/json/FalloutNV.json" priority="1" />
+		<json path="Data/NVCHSDict/json/DeadMoney.json" priority="1" />
+		<json path="Data/NVCHSDict/json/HonestHearts.json" priority="1" />
+		<json path="Data/NVCHSDict/json/OldWorldBlues.json" priority="1" />
+		<json path="Data/NVCHSDict/json/LonesomeRoad.json" priority="1" />
+		<json path="Data/NVCHSDict/json/GunRunnersArsenal.json" priority="1" />
+		<json path="Data/NVCHSDict/json/ClassicPack.json" priority="1" />
+		<json path="Data/NVCHSDict/json/MercenaryPack.json" priority="1" />
+		<json path="Data/NVCHSDict/json/TribalPack.json" priority="1" />
+		<json path="Data/NVCHSDict/json/CaravanPack.json" priority="1" />
+		
+		<json path="Data/NVCHSDict/json/NV_Dial/FalloutNV_Dial.json" priority="0" />
+		<json path="Data/NVCHSDict/json/NV_Dial/DeadMoney_Dial.json" priority="0" />
+		<json path="Data/NVCHSDict/json/NV_Dial/HonestHearts_Dial.json" priority="0" />
+		<json path="Data/NVCHSDict/json/NV_Dial/OldWorldBlues_Dial.json" priority="0" />
+		<json path="Data/NVCHSDict/json/NV_Dial/LonesomeRoad_Dial.json" priority="0" />
+		
 		<!-- 电台 -->
 		<xml path="Data/NVCHSDict/Radio/Radio_KOR.xml"/>
 		<xml path="Data/NVCHSDict/Radio/LegionRadio.xml"/>
@@ -47,8 +64,13 @@
 		<xml path="Data/NVCHSDict/Mods/YUP.xml"/>
 		<xml path="Data/NVCHSDict/Mods/YUP_Dial.xml"/>
 		
+		<json path="Data/NVCHSDict/json/Mods/YUP.json" priority="1" />
+		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/YUP_Dial.json" priority="0" />
+		
 		<!-- UPNVSEP -->
 		<xml path="Data/NVCHSDict/Mods/Unofficial_Patch_NVSE_Plus.xml"/>
+		
+		<json path="Data/NVCHSDict/json/Mods/Unofficial_Patch_NVSE_Plus.json" priority="1" />
 		
 		<!-- TTW -->
 		<xml path="Data/NVCHSDict/TTW/Fallout3.xml"/>
@@ -115,16 +137,16 @@
 		<xml path="Data/NVCHSDict/Mods/SevenGravesFromNow.xml"/>
 		<file target="Data/NVCHSDict/Mods/SevenGravesFromNow_CHS.TXT" src="Data/NVCHSDict/Mods/SevenGravesFromNow_EN.TXT" type="2" priority="1"/>
 		<xml path="Data/NVCHSDict/Mods/NVWillow.xml"/>
-		<file target="Data/NVCHSDict/Mods/willow_chs.txt" src="Data/NVCHSDict/Mods/willow_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/Mods/willow_chs.txt" src="Data/NVCHSDict/Mods/willow_en.txt" type="2" priority="1"/>
 		<xml path="Data/NVCHSDict/Mods/Sun.xml"/>
 		<xml path="Data/NVCHSDict/Mods/HitDrugsTTW.xml"/>
 		<xml path="Data/NVCHSDict/Mods/More Perks.xml"/>
-		<file target="Data/NVCHSDict/Mods/theinheritage_chs.txt" src="Data/NVCHSDict/Mods/theinheritage_en.txt" type="2" priority="0"/>
-		<file target="Data/NVCHSDict/Mods/quicktrain_ch.txt" src="Data/NVCHSDict/Mods/quicktrain_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/Mods/theinheritage_chs.txt" src="Data/NVCHSDict/Mods/theinheritage_en.txt" type="2" priority="1"/>
+		<file target="Data/NVCHSDict/Mods/quicktrain_ch.txt" src="Data/NVCHSDict/Mods/quicktrain_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/Mods/MAPMO_ch.txt" src="Data/NVCHSDict/Mods/MAPMO_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Mods/EnhancedMovement_ch.txt" src="Data/NVCHSDict/Mods/EnhancedMovement_en.txt" type="2" priority="0"/>
-		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="0" />
-		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="0" />
+		<file target="Data/NVCHSDict/Mods/EnhancedMovement_ch.txt" src="Data/NVCHSDict/Mods/EnhancedMovement_en.txt" type="2" priority="1"/>
+		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="1" />
+		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="1" />
 		<file target="Data/NVCHSDict/Mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/Mods/BetterCaravan_en.txt" type="2" priority="1"/>
 		
 	</replacetext>

@@ -1,0 +1,1970 @@
+[
+  {
+    "key": "NVDLC05DummyNVSilent_01000AB7#MGEF:FULL#20f9c24a48f731f7061cf6ed20fc6139",
+    "original": "Silent",
+    "translation": "寂静",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05FlamerShaderEffect_01000AB2#MGEF:FULL#d2e7842aa20204e27f831e38feffdf8f",
+    "original": "Flamer Fire Damage",
+    "translation": "喷射器火焰伤害",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyNVFasterAttack_01000A82#MGEF:FULL#29510500c844b2e81a6ef19cbe1e5c10",
+    "original": "Faster Attack",
+    "translation": "更快的攻击",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyNVIgnoresDRDT_01000A81#MGEF:FULL#2b56c02b8406dd1f9198a88db2cb2275",
+    "original": "Ignores DR/DT",
+    "translation": "无视抗伤/免伤",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyNVTwoStepExplosion_01000A3C#MGEF:FULL#af7eb89c8e2e7b65dceab91c8decb02b",
+    "original": "Crit Kill = Boom!",
+    "translation": "暴击击杀 = 爆炸！",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyNVRedCriticalDamage_01000A3B#MGEF:FULL#1f42ff8190e9b6b44ff6e6321c064c1d",
+    "original": "Reduced Critical Damage",
+    "translation": "暴击伤害降低",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05TwoStepGoodbyeEffect_01000A38#MGEF:FULL#9416a8fbcc378415e2175c5a85740246",
+    "original": "Two-Step Goodbye",
+    "translation": "两步杀",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EstherBaseEffectName_01000A33#MGEF:FULL#56cb2e481a1a15b7c98b72f3f22b1a1c",
+    "original": "+10 DT, +25 Rad. Resist",
+    "translation": "+10DT，+25辐射抗性",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummySleepytyme_01000AB8#ENCH:FULL#4961103a2bccea520715f47a339a5fff",
+    "original": "Sleepytyme Dummy Effect",
+    "translation": "睡眠时间模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EnchGehennaEffect_01000A8E#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyNukaBreaker_01000A8D#ENCH:FULL#704e734f4141e9865e4aef35a0ad88cd",
+    "original": "Nuka-Breaker Dummy Effect",
+    "translation": "核子可乐破坏者模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyPowerFistUnique_01000A84#ENCH:FULL#39c04901ee4b931aab90a01ba0ee2842",
+    "original": "Greased Lightning Dummy Effect",
+    "translation": "风驰电掣的模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyChainsaw_01000A83#ENCH:FULL#2de35dad0e493b0a655450affd4a0d93",
+    "original": "Chainsaw Dummy Effect",
+    "translation": "链锯模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyTwoStepGoodbye_01000A3D#ENCH:FULL#e3692f2ae289123716b121371a0c992a",
+    "original": "Two-Step Goodbye Dummy Effect",
+    "translation": "两步杀模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyEsther_01000A36#ENCH:FULL#4c93f99bd308e94f051d8f477e145303",
+    "original": "Esther Dummy Effect",
+    "translation": "希望之星模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EMP25mm_01000911#ENCH:FULL#ac0cea5b542758e064f6e045106ce59f",
+    "original": "25mm Electromagnetic Pulse",
+    "translation": "25mm电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EMP40mm_01000910#ENCH:FULL#65dee792c7d76c74a95b445368f058aa",
+    "original": "40mm Electromagnetic Pulse",
+    "translation": "40mm电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EnchCleansingFlameEffect_01000893#ENCH:FULL#03beafb2e7b9b3c69f63491cd001b451",
+    "original": "Cleansing Flame",
+    "translation": "净化火焰",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DummyKatana_01000888#ENCH:FULL#6202cb9d0200c81a682311dcada5e4cc",
+    "original": "Katana Dummy Effect",
+    "translation": "武士刀模型效果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05DragonsBreathActorEffect_01000ABE#SPEL:FULL#0023f452ebd6d56d3fd62274f4d0da6e",
+    "original": "BurningNormal",
+    "translation": "一般燃烧",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05TwoStepGoodbyeFXSpell_01000A39#SPEL:FULL#b2d3f6c6c418abe10aeff6560c33b898",
+    "original": "Explosion Death",
+    "translation": "爆炸死亡",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EstherBonusActorEffect_01000A34#SPEL:FULL#2e141b6a33f149c03a11df768ba131d3",
+    "original": "Esther Bonuses",
+    "translation": "希望之星加成",
+    "stage": 1
+  },
+  {
+    "key": "VLootSackVendorWastelandT2RS_00167ACD#CONT:FULL#8494db8b1838206e5f3730c214dbe4e8",
+    "original": "Sack",
+    "translation": "麻布袋",
+    "stage": 1
+  },
+  {
+    "key": "VLootSackVendorWastelandT3RS_00167ACC#CONT:FULL#8494db8b1838206e5f3730c214dbe4e8",
+    "original": "Sack",
+    "translation": "麻布袋",
+    "stage": 1
+  },
+  {
+    "key": "VLootSackVendorWastelandT2RSPros_00167ACB#CONT:FULL#8494db8b1838206e5f3730c214dbe4e8",
+    "original": "Sack",
+    "translation": "麻布袋",
+    "stage": 1
+  },
+  {
+    "key": "VLootSackVendorWatelandT3RSAid_00167ACA#CONT:FULL#8494db8b1838206e5f3730c214dbe4e8",
+    "original": "Sack",
+    "translation": "麻布袋",
+    "stage": 1
+  },
+  {
+    "key": "VLootSackVendorWastelandT2Mojave_00167AC9#CONT:FULL#8494db8b1838206e5f3730c214dbe4e8",
+    "original": "Sack",
+    "translation": "麻布袋",
+    "stage": 1
+  },
+  {
+    "key": "ModTestSuppress_01000A17#IMOD:FULL#4affdf5d06d1ccc233d137e57aa4d6a0",
+    "original": "Mod Test Supress",
+    "translation": "阻止Mod测试",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHighCapTerminal_0100084B#IMOD:FULL#cfc7174f122ed926a968f2927db6e7af",
+    "original": "Tri-beam LR Hi-Cap Terminal",
+    "translation": "三连装激光步枪大容量端子",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHighCapTerminal_0100084B#IMOD:DESC#0cdd1aebb9b4bba93f706a5cd5b16415",
+    "original": "(Gun Runners' Arsenal)\\nIncreases ammunition capacity (+24).",
+    "translation": "(GRA)\\n提升弹容量 (+24)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHDCapacitors_0100084A#IMOD:FULL#475bd8d3ba72b9a97b0b6687bc826edc",
+    "original": "Tri-beam LR HD Caps",
+    "translation": "三连装激光步枪强化电容",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHDCapacitors_0100084A#IMOD:DESC#8785a1f1344f3ab2bf3dd9114851d592",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+200%).",
+    "translation": "(GRA)\\n提升耐久 (+200%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleFocusOptics_01000849#IMOD:FULL#9cde4deda8d05f77e77f9106a13a3e45",
+    "original": "Tri-beam LR Focus Optics",
+    "translation": "三连装激光步枪光学聚焦器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleFocusOptics_01000849#IMOD:DESC#b196d9ece13bf43880655b0fc1fecb07",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+9).",
+    "translation": "(GRA)\\n提升伤害 (+9)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperHeavyDutyChain_01000847#IMOD:FULL#7445bfbefc3ce6ae179dc322cf353f3f",
+    "original": "Ripper HD Chain",
+    "translation": "开膛手强化锯链",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperHeavyDutyChain_01000847#IMOD:DESC#f9c8120b944b13c136d2dcb8d44aa531",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+50%).",
+    "translation": "(GRA)\\n提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperCarbideTeeth_01000846#IMOD:FULL#d2cec0aad042bb19fee8be9ca3692448",
+    "original": "Ripper Carbide Teeth",
+    "translation": "开膛手碳钢锯齿",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperCarbideTeeth_01000846#IMOD:DESC#820cac8b56effac07f0636293e44c0b0",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+10).",
+    "translation": "(GRA)\\n提升伤害 (+10)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistPortedChambers_01000845#IMOD:FULL#eb2a9cd9044fb8a5e5af17435447a613",
+    "original": "Power Fist Ported Chambers",
+    "translation": "动力拳套护手装置",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistPortedChambers_01000845#IMOD:DESC#ffa894bd59d69f3a5832b10c4bacc194",
+    "original": "(Gun Runners' Arsenal)\\nIncreases attack speed.",
+    "translation": "(GRA)\\n提升攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistHighCapValves_01000844#IMOD:FULL#ad09095ae21aa043d91e4efb9f05917b",
+    "original": "Power Fist Hi-Cap Valves",
+    "translation": "动力拳套大容量阀门",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistHighCapValves_01000844#IMOD:DESC#7c51a698aa4e9cdb5e076e3890e34130",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+8).",
+    "translation": "(GRA)\\n提升伤害 (+8)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistChromedTubes_01000843#IMOD:FULL#ca2edb1ac44ec77212eb63d6d40d17cd",
+    "original": "Power Fist Chromed Tubes",
+    "translation": "动力拳套镀铬管路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistChromedTubes_01000843#IMOD:DESC#0f35f017a784b338d373ecc84889f0e2",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+100%).",
+    "translation": "(GRA)\\n提升耐久 (+100%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolRecycler_01000842#IMOD:FULL#bcbaee8aa0e2b1bf67ec43ff5121fe2e",
+    "original": "Plas. Pistol Recycler",
+    "translation": "等离子手枪电池回收器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolRecycler_01000842#IMOD:DESC#8066c359ad4270538dd3db6d2cb01a6b",
+    "original": "(Gun Runners' Arsenal)\\nReplenishes ammunition (1/4 shots).",
+    "translation": "(GRA)\\n补充弹药 (1发/4次射击)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolMagneticAccelerator_01000841#IMOD:FULL#336ce8e5898b8f131ebde3c82dd47f90",
+    "original": "Plas. Pistol Mag. Accelerator",
+    "translation": "等离子手枪粒子加速器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolMagneticAccelerator_01000841#IMOD:DESC#0f863c35b3391426f6c3479161eda0f7",
+    "original": "(Gun Runners' Arsenal)\\nIncreases speed of plasma projectile.",
+    "translation": "(GRA)\\n提升等离子抛射物初速。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolHighEnergyIonizer_01000840#IMOD:FULL#b1529fb3d89a2f222f7ee3c534fe077d",
+    "original": "Plas. Pistol Hi-Energy Ionizer",
+    "translation": "等离子防御者高能电离器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolHighEnergyIonizer_01000840#IMOD:DESC#5a844c7fec8e6c10be67048fe7aede48",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+7).",
+    "translation": "(GRA)\\n提升伤害 (+7)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderSheathStabilizer_0100083F#IMOD:FULL#911468eafc008cae726165b4267a0bc1",
+    "original": "Plasma Def. Sheath Stabilizer",
+    "translation": "等离子防御者改进稳定器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderSheathStabilizer_0100083F#IMOD:DESC#f3f10686a90ec5a14457b757d3b856a7",
+    "original": "(Gun Runners' Arsenal)\\nDecreases spread.",
+    "translation": "(GRA)\\n减少散布。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderScope_0100083E#IMOD:FULL#346495fc8903847bbd84ede009d7e1cf",
+    "original": "Plasma Def. Scope",
+    "translation": "等离子防御者瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderScope_0100083E#IMOD:DESC#d2be21bc52fb902e88af6ad55f288011",
+    "original": "(Gun Runners' Arsenal)\\nAdds short-range scope.",
+    "translation": "(GRA)\\n添加短距瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderHighCapTerminal_0100083D#IMOD:FULL#28f00082951026054ae948f82af36646",
+    "original": "Plasma Def. Hi-Cap Terminal",
+    "translation": "等离子防御者大容量端子",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderHighCapTerminal_0100083D#IMOD:DESC#0f78a546d78607ca9247b0366a9ba12d",
+    "original": "(Gun Runners' Arsenal)\\nIncreases ammunition capacity (+32).",
+    "translation": "(GRA)\\n提升弹容量 (+32)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolRecycler_0100083C#IMOD:FULL#91b34d45bc1abfe6a5774e1e0ef07934",
+    "original": "Laser Pistol Recycler",
+    "translation": "激光手枪电池回收器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolRecycler_0100083C#IMOD:DESC#8066c359ad4270538dd3db6d2cb01a6b",
+    "original": "(Gun Runners' Arsenal)\\nReplenishes ammunition (1/4 shots).",
+    "translation": "(GRA)\\n补充弹药 (1发/4次射击)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolFocusOptics_0100083B#IMOD:FULL#6f7fe9a7f5c52e7ca6cb9ae1193dc621",
+    "original": "Laser Pistol Focus Optics",
+    "translation": "激光手枪光学聚焦器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolFocusOptics_0100083B#IMOD:DESC#7ff5c2708f9489a5c98348670e97c278",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+3).",
+    "translation": "(GRA)\\n提升伤害 (+3)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolCombatSights_0100083A#IMOD:FULL#26699dd84852b87f1522f92868271e78",
+    "original": "Laser Pistol Combat Sights",
+    "translation": "激光手枪战斗瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolCombatSights_0100083A#IMOD:DESC#9020795eb3e9af70d249e113cd948e94",
+    "original": "(Gun Runners' Arsenal)\\nAdds usable iron sights.",
+    "translation": "(GRA)\\n添加机械瞄具。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaProtectiveSheath_01000839#IMOD:FULL#d876cbd6ddb4fa21df8bd3445122305a",
+    "original": "Katana Protective Sheath",
+    "translation": "武士刀防护刀鞘",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaProtectiveSheath_01000839#IMOD:DESC#f9c8120b944b13c136d2dcb8d44aa531",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+50%).",
+    "translation": "(GRA)\\n提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaBalancedGrip_01000838#IMOD:FULL#33aeb9304ae51ab2e3a31fb12648c82f",
+    "original": "Katana Balanced Grip",
+    "translation": "武士刀平衡刀把",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaBalancedGrip_01000838#IMOD:DESC#ffa894bd59d69f3a5832b10c4bacc194",
+    "original": "(Gun Runners' Arsenal)\\nIncreases attack speed.",
+    "translation": "(GRA)\\n提升攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaAuthenticBlade_01000837#IMOD:FULL#da04f2ef58e417f2153053539b1d8842",
+    "original": "Katana Authentic Blade",
+    "translation": "武士刀原品刀刃",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaAuthenticBlade_01000837#IMOD:DESC#ea99a51b2f365c241689f1cd6719f372",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+5).",
+    "translation": "(GRA)\\n提升伤害 (+5)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverSixShotCylinder_01000836#IMOD:FULL#bf7f815ef1f59bf67272e5bdfaa48a39",
+    "original": "Hunting Rev. 6-Shot Cylinder",
+    "translation": "狩猎左轮6发弹巢",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverSixShotCylinder_01000836#IMOD:DESC#a10d1d3a819927966bd8fb4ecefe8b32",
+    "original": "(Gun Runners' Arsenal)\\nIncreases ammunition capacity (+1).",
+    "translation": "(GRA)\\n提升弹容量 (+1)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverMatchBarrel_01000834#IMOD:FULL#8e4a7dec11624c549cbd7a80543c7c69",
+    "original": "Hunting Rev. Match Barrel",
+    "translation": "狩猎左轮竞赛型枪管",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverMatchBarrel_01000834#IMOD:DESC#f3f10686a90ec5a14457b757d3b856a7",
+    "original": "(Gun Runners' Arsenal)\\nDecreases spread.",
+    "translation": "(GRA)\\n减少散布。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawHeavyDutyChain_01000833#IMOD:FULL#5cae553195e945dc05454eae0e239948",
+    "original": "Chainsaw HD Chain",
+    "translation": "链锯强化锯链",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawHeavyDutyChain_01000833#IMOD:DESC#f9c8120b944b13c136d2dcb8d44aa531",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+50%).",
+    "translation": "(GRA)\\n提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawCarbideTeeth_01000832#IMOD:FULL#9e4e69bcec90353e758de924eb036b35",
+    "original": "Chainsaw Carbide Teeth",
+    "translation": "链锯碳钢锯齿",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawCarbideTeeth_01000832#IMOD:DESC#44071447dc2c8f5bc14476aac404ccf4",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+15).",
+    "translation": "(GRA)\\n提升伤害 (+15)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawAlloyFrame_01000831#IMOD:FULL#e813e2c2fde0df95215dcd7f3f1c1d96",
+    "original": "Chainsaw Alloy Frame",
+    "translation": "链锯合金框架",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawAlloyFrame_01000831#IMOD:DESC#3a668fa148fe3ab583e2b1e83879debb",
+    "original": "(Gun Runners' Arsenal)\\nDecreases weight (-8).",
+    "translation": "(GRA)\\n减少重量 (-8)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatNails_01000830#IMOD:FULL#918c9dd762c2e412647b1ea22ee95089",
+    "original": "Baseball Bat Nails",
+    "translation": "棒球棍加装铁钉",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatNails_01000830#IMOD:DESC#bbe9ca487acf5bef145aaa2ba6b7dc8c",
+    "original": "(Gun Runners' Arsenal)\\nIncreases damage (+6).",
+    "translation": "(GRA)\\n提升伤害 (+6)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatMapleBody_0100082F#IMOD:FULL#ac4accdc70c4ea7c27bba18c53050351",
+    "original": "Baseball Bat Maple Body",
+    "translation": "棒球棍枫木棒身",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatMapleBody_0100082F#IMOD:DESC#f9c8120b944b13c136d2dcb8d44aa531",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+50%).",
+    "translation": "(GRA)\\n提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatCorkCore_0100082E#IMOD:FULL#1c6d14563358ccececd6b99af1e4d764",
+    "original": "Baseball Bat Cork Core",
+    "translation": "棒球棍软木棒芯",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatCorkCore_0100082E#IMOD:DESC#ffa894bd59d69f3a5832b10c4bacc194",
+    "original": "(Gun Runners' Arsenal)\\nIncreases attack speed.",
+    "translation": "(GRA)\\n提升攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineLightBolt_0100082D#IMOD:FULL#6031b816dcae1df7cd087fdb3766f4b5",
+    "original": "Assault Carb. Light Bolt",
+    "translation": "突击卡宾枪轻型枪栓",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineLightBolt_0100082D#IMOD:DESC#9d46e0d27ca43e957101456e2aa722f3",
+    "original": "(Gun Runners' Arsenal)\\nIncreases rate of fire.",
+    "translation": "(GRA)\\n提升射速。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineForgedReceiver_0100082C#IMOD:FULL#0ef9118caabfa2eec0645959cf9828e3",
+    "original": "Assault Carb. Forged Receiver",
+    "translation": "突击卡宾枪强化型机匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineForgedReceiver_0100082C#IMOD:DESC#837250d018fb697bbcf1555b891b7c3f",
+    "original": "(Gun Runners' Arsenal)\\nIncreases condition (+33%).",
+    "translation": "(GRA)\\n提升耐久 (+33%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineExtendedMags_0100082B#IMOD:FULL#157a56a883605c9be2036ba702654d1d",
+    "original": "Assault Carb. Ext. Mags",
+    "translation": "突击卡宾枪扩容弹匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineExtendedMags_0100082B#IMOD:DESC#f948b3be04cd63e060498f68f4892fe1",
+    "original": "(Gun Runners' Arsenal)\\nIncreases ammunition capacity (+6).",
+    "translation": "(GRA)\\n提升弹容量 (+6)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleSuppressor_0100082A#IMOD:FULL#bbe27905e880f019ded5cf3a78917142",
+    "original": "Anti-Mat. Rifle Suppressor",
+    "translation": "反器材步枪抑制器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleSuppressor_0100082A#IMOD:DESC#47ed5d1d2ebeb67b89e782d17e7134ae",
+    "original": "(Gun Runners' Arsenal)\\nReduces weapon noise.",
+    "translation": "(GRA)\\n减少开枪时发出的声音。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCustomBolt_01000829#IMOD:FULL#77dae586db267570f3ad828ee19342e0",
+    "original": "Anti-Mat. Rifle Custom Bolt",
+    "translation": "反器材步枪改进型枪栓",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCustomBolt_01000829#IMOD:DESC#9d46e0d27ca43e957101456e2aa722f3",
+    "original": "(Gun Runners' Arsenal)\\nIncreases rate of fire.",
+    "translation": "(GRA)\\n提升射速。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCarbonFiberParts_01000828#IMOD:FULL#9f3a96f7f8966048fe2b1d0ce761ec57",
+    "original": "Anti-Mat. Rifle CF Parts",
+    "translation": "反器材步枪碳纤维枪身",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCarbonFiberParts_01000828#IMOD:DESC#db736ac538e469f56b7f317d34fcdfe2",
+    "original": "(Gun Runners' Arsenal)\\nDecreases weight (-7).",
+    "translation": "(GRA)\\n减少重量 (-7)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWUpgradedInternals_01000827#IMOD:FULL#a0b9ca13cdeccd6f1e84b5dd254d4626",
+    "original": "25mm G. APW Upgraded Int.",
+    "translation": "25mm榴弹发射器改进型机匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWUpgradedInternals_01000827#IMOD:DESC#9d46e0d27ca43e957101456e2aa722f3",
+    "original": "(Gun Runners' Arsenal)\\nIncreases rate of fire.",
+    "translation": "(GRA)\\n提升射速。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWLongBarrel_01000826#IMOD:FULL#8a2037b15557df25cce183f792499dc5",
+    "original": "25mm G. APW Long Barrel",
+    "translation": "25mm榴弹发射器长枪管",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWLongBarrel_01000826#IMOD:DESC#960a046c389c8a5b1d4f812ac3af3694",
+    "original": "(Gun Runners' Arsenal)\\nIncreases projectile velocity (+100%).",
+    "translation": "(GRA)\\n提升抛射物初速 (+100%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWExpandedDrum_01000825#IMOD:FULL#005f8ea392f97c364e49d9ca45b2115e",
+    "original": "25mm G. APW Exp. Drum",
+    "translation": "25mm榴弹发射器扩容弹鼓",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWExpandedDrum_01000825#IMOD:DESC#e38d2dbcd67b9846fa9cfb3802f7ac83",
+    "original": "(Gun Runners' Arsenal)\\nIncreases ammunition capacity (+2).",
+    "translation": "(GRA)\\n提升弹容量 (+2)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGSuppressor_01000824#IMOD:FULL#1822378cfdaafad308fc2b43d15318b6",
+    "original": "12.7mm SMG Suppressor",
+    "translation": "12.7mm冲锋枪抑制器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGSuppressor_01000824#IMOD:DESC#2a367ea39a08ae7381bca698f5d42b51",
+    "original": "(Gun Runners' Arsenal)\\nSilences the weapon.",
+    "translation": "(GRA)\\n将武器消音。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGStackedMagazine_01000823#IMOD:FULL#7cc53a617124cedbd75c410cce011ff8",
+    "original": "12.7mm SMG Stacked Magazine",
+    "translation": "12.7mm冲锋枪大型弹匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGStackedMagazine_01000823#IMOD:DESC#f948b3be04cd63e060498f68f4892fe1",
+    "original": "(Gun Runners' Arsenal)\\nIncreases ammunition capacity (+6).",
+    "translation": "(GRA)\\n提升弹容量 (+6)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGLaserSight_01000822#IMOD:FULL#61ff0b26ee6670815d7bc9602c5da9ed",
+    "original": "12.7mm SMG Laser Sight",
+    "translation": "12.7mm冲锋枪激光指示器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGLaserSight_01000822#IMOD:DESC#f3f10686a90ec5a14457b757d3b856a7",
+    "original": "(Gun Runners' Arsenal)\\nDecreases spread.",
+    "translation": "(GRA)\\n减少散布。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapFatmanCustom_01000AC3#WEAP:FULL#45c17489e17af73df6d75953a06a17a2",
+    "original": "Fat Man (GRA)",
+    "translation": "胖子发射器 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "ModTest_01000A18#WEAP:FULL#8b289ae956d5099e67aebfb7f6897777",
+    "original": "ModTest",
+    "translation": "Mod测试",
+    "stage": 1
+  },
+  {
+    "key": "Weap10mmPistol_0000434F#WEAP:FULL#24fca1e9d1aa26ec71ee85e058d19091",
+    "original": "10mm Pistol",
+    "translation": "10mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVRechargerRifle_00121154#WEAP:FULL#a02336f3d700b39c5860a311232dc3a2",
+    "original": "Recharger Rifle",
+    "translation": "充能步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapGrenadeFrag_00004330#WEAP:FULL#e56e2152a3e0a479c64c95a9cb5845df",
+    "original": "Frag Grenade",
+    "translation": "破片手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapMineMFCCluster_010008C9#WEAP:FULL#83329891d45bfc13614ed3d9dd7392b8",
+    "original": "MFC Cluster (Mad Bomber) (GRA)",
+    "translation": "微型核聚变集束地雷 (疯狂炸弹人) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGrenadeMFC_010008C8#WEAP:FULL#6d209cb63852b125baa6dba63c8be47a",
+    "original": "MFC Grenade (Mad Bomber) (GRA)",
+    "translation": "微型核聚变手雷 (疯狂炸弹人) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapRipperCustom_01000857#WEAP:FULL#ea7e617b972e051ec554ab4df2f65277",
+    "original": "Ripper (GRA)",
+    "translation": "开膛手 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapRipperCustom_01000857#WEAP:VANM#f96e0e44e81dd2b2b62034e20ca508ea",
+    "original": "Long Cut",
+    "translation": "长切",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapPowerFistCustom_01000856#WEAP:FULL#60221d8e99d49bdc41278417991a7290",
+    "original": "Power Fist (GRA)",
+    "translation": "动力拳套 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapPlasmaPistolCustom_01000855#WEAP:FULL#40c162bcd3612cf7c739934a57061129",
+    "original": "Plasma Pistol (GRA)",
+    "translation": "等离子手枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVTriBeamLaserRifleCustom_01000854#WEAP:FULL#f9c1a0c2f8cb1a88679a081f99e3f26c",
+    "original": "Tri-beam Laser Rifle (GRA)",
+    "translation": "三连装激光步枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVPlasmaDefenderCustom_01000853#WEAP:FULL#9f1beb6b5ad41177b1a92de973c0abb3",
+    "original": "Plasma Defender (GRA)",
+    "translation": "等离子护卫者 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVHuntingRevolverCustom_01000852#WEAP:FULL#c92f952810291a077f676e4311eaa2ea",
+    "original": "Hunting Revolver (GRA)",
+    "translation": "狩猎左轮 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVChainsawCustom_01000851#WEAP:FULL#b02b44d111dd2172ceb161447571ff05",
+    "original": "Chainsaw (GRA)",
+    "translation": "链锯 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVChainsawCustom_01000851#WEAP:VANM#6dabb715abfee977bf02e391b9616eb0",
+    "original": "Scrap Heap",
+    "translation": "废料堆",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVAssaultCarbineCustom_01000850#WEAP:FULL#354baf9678614208c55c0ecd4e2f17cb",
+    "original": "Assault Carbine (GRA)",
+    "translation": "突击卡宾枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVAntiMaterielRifleCustom_0100084F#WEAP:FULL#754f5665dd3ef0465f582d0f153782bd",
+    "original": "Anti-Materiel Rifle (GRA)",
+    "translation": "反器材步枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNV127mmSubmachineGunCustom_0100084E#WEAP:FULL#23ff4d6e1e9f737f140980896670dfa5",
+    "original": "12.7mm Submachine Gun (GRA)",
+    "translation": "12.7mm冲锋枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapLaserPistolCustom_0100084D#WEAP:FULL#425a641139eaceac61e4c47b46c7cff9",
+    "original": "Laser Pistol (GRA)",
+    "translation": "激光手枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapBaseballBatCustom_0100084C#WEAP:FULL#87446d5573e2f57c0764045efdd9780a",
+    "original": "Baseball Bat (GRA)",
+    "translation": "棒球棍 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapBaseballBatCustom_0100084C#WEAP:VANM#89ef15a175b8c27767a03681bbfe7cb5",
+    "original": "Grand Slam",
+    "translation": "大满贯",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Weap25mmGrenadeAPWCustom_0100081B#WEAP:FULL#39cce813ff977cbf0de0d074ccf35707",
+    "original": "25mm Grenade APW (GRA)",
+    "translation": "25mm单兵榴弹发射器 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGrenadeNuka_01000818#WEAP:FULL#92140d3c01d637dc173d8437fcff152d",
+    "original": "Nuka-Grenade (Mad Bomber) (GRA)",
+    "translation": "核子手雷 (疯狂炸弹人) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapKatanaCustom_01000817#WEAP:FULL#8b768e10442c9af198181ad2bb57c30e",
+    "original": "Katana (GRA)",
+    "translation": "武士刀 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapKatanaCustom_01000817#WEAP:VANM#9d77382cadb05b22a788ee6456221fb3",
+    "original": "Unlabored Flawlessness",
+    "translation": "天衣无缝",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapMineFat_01000815#WEAP:FULL#7084086284304c1bdbd72eb5c044159e",
+    "original": "Fat Mine (Mad Bomber) (GRA)",
+    "translation": "胖子地雷 (疯狂炸弹人) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGrenadeTin_01000814#WEAP:FULL#220bb14bdf8ecb5b4b4fd2d11ecb178a",
+    "original": "Tin Grenade (Mad Bomber) (GRA)",
+    "translation": "罐头手雷 (疯狂炸弹人) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNV556mmPistolCustom_01000813#WEAP:FULL#cd6f8242fd60529486a5dccbd70d5ab9",
+    "original": "5.56mm Pistol (GRA)",
+    "translation": "5.56mm手枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVBattleRifleCustom_01000812#WEAP:FULL#035458e4a8c74246c303999e801d1534",
+    "original": "Battle Rifle (GRA)",
+    "translation": "战斗步枪 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVTimeBombCustom_01000811#WEAP:FULL#119b00b1c6bf615b63f68f5ed0879bf8",
+    "original": "Time Bomb, High Yield (Mad Bomber) (GRA)",
+    "translation": "定时炸弹, 高当量 (疯狂炸弹人) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapPowerFistUnique_01000810#WEAP:FULL#ea7ec8ce6f2eab9bb5b4974bbac9fdd7",
+    "original": "Greased Lightning (GRA)",
+    "translation": "电光雷拳 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapShishkebabUnique_0100080F#WEAP:FULL#af80e120720919fcfe0773fbc33ca690",
+    "original": "Gehenna (GRA)",
+    "translation": "焦热炼狱 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapShishkebabUnique_0100080F#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVBrushGunUnique_0100080E#WEAP:FULL#5cfff6ec64e1eb16461683cfbc528319",
+    "original": "Medicine Stick (GRA)",
+    "translation": "医疗棒 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Weap10mmSubmachineGunUnique_0100080D#WEAP:FULL#6c52cebc03ce8a52a02dad94ce27973f",
+    "original": "Sleepytyme (GRA)",
+    "translation": "安睡时间 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapHuntingRifleUnique_0100080C#WEAP:FULL#3011341238b056c2783838a43724bcd2",
+    "original": "Paciencia (GRA)",
+    "translation": "耐心 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapFlamerUnique_0100080B#WEAP:FULL#b151e3f00208cfbfa48ff553c57fc107",
+    "original": "Cleansing Flame (GRA)",
+    "translation": "净化烈焰 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVPlasmaCasterUnique_0100080A#WEAP:FULL#e4256750784071a69cae876f090a537a",
+    "original": "The Smitty Special (GRA)",
+    "translation": "史密提特供 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVBallisticFistUnique_01000809#WEAP:FULL#d2ae3dcb8af8c1062a065d483ccabc26",
+    "original": "Two-Step Goodbye (GRA)",
+    "translation": "两步杀 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVMantisGauntletUnique_01000808#WEAP:FULL#d54f900460ced956deee5725dbbc05d2",
+    "original": "Embrace of the Mantis King! (GRA)",
+    "translation": "螳螂王之拥! (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVRebarClubUnique_01000807#WEAP:FULL#07b2379cd541ed49aabafa738da31125",
+    "original": "Nuka-Breaker (GRA)",
+    "translation": "核子破坏者 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVRebarClubUnique_01000807#WEAP:VANM#b71ec81d7780dd6c79aac8db6cd035fe",
+    "original": "Nuka-Break",
+    "translation": "核子破坏",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVLightMachineGunUnique_01000806#WEAP:FULL#905f2f70408987797376545cb8b6bed1",
+    "original": "Bozar (GRA)",
+    "translation": "包子 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNV127mmPistolUnique_01000805#WEAP:FULL#a012638fab279311932574caefe161f6",
+    "original": "Li'l Devil (GRA)",
+    "translation": "小恶魔 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapFatmanUnique_01000804#WEAP:FULL#9989eb860fdcd82ad4b330c20b590f50",
+    "original": "Esther (GRA)",
+    "translation": "以斯帖 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGatlingLaserUnique_01000803#WEAP:FULL#ca21b598f14cccc0ed117c3e8747942b",
+    "original": "Sprtel-Wood 9700 (GRA)",
+    "translation": "斯普特欧-伍德9700 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVRechargerPistolUnique_01000802#WEAP:FULL#e280352edbd4ec88f847a367de40e37b",
+    "original": "MF Hyperbreeder Alpha (GRA)",
+    "translation": "核电超增殖反应堆阿尔法型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVDLC00Faderator_01000800#WEAP:FULL#5abf80e9bc88033f40b81c5402b6a22e",
+    "original": "The Faderator",
+    "translation": "范德瑞特",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo127mmJHPHandLoad_01000A2B#AMMO:FULL#dd6cff1f175592a6b9d1cf035f19adfe",
+    "original": "12.7mm Round (Hand Load) (GRA)",
+    "translation": "12.7mm, 被甲空尖弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo127mmJHPHandLoad_01000A2B#AMMO:ONAM#2fa168bcc5d3f86b0ed66bfb0cf72802",
+    "original": "12.7mm JHP",
+    "translation": "12.7mm被甲空尖",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTinyTots_01000A09#AMMO:FULL#0c027af9586a002a7d307240aab2c9d4",
+    "original": "Mini Nuke, Tiny Tots (GRA)",
+    "translation": "迷你核弹, 小小孩 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTinyTots_01000A09#AMMO:ONAM#d1b17aa7ea452cbd79b6a9b7906999ae",
+    "original": "Mini Nuke, TT",
+    "translation": "迷你核弹, 小小孩",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFlamerFuelOptimized_01000875#AMMO:FULL#79499de0db987875de8b8e3834254a87",
+    "original": "Flamer Fuel, Optimized (Vigilant Recycler) (GRA)",
+    "translation": "火焰喷射器燃料, 优化型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFlamerFuelOptimized_01000875#AMMO:ONAM#2e704b0f967904eb591014b92c8aaa21",
+    "original": "Fuel, Opt.",
+    "translation": "燃料, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoElectronChargePackOptimized_01000874#AMMO:FULL#2179bd0c3bbf8f685b05d60c7b3d36c9",
+    "original": "Electron Charge Pack, Optimized (Vigilant Recycler) (GRA)",
+    "translation": "荷电充能包, 优化型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoElectronChargePackOptimized_01000874#AMMO:ONAM#c328bab7f413c92f23c129d4d30f59ac",
+    "original": "EC Pack, Opt.",
+    "translation": "荷电充能包, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMicroFusionCellOptimized_01000873#AMMO:FULL#9775a08560ae5cd2337710f67145e6ec",
+    "original": "Microfusion Cell, Optimized (Vigilant Recycler) (GRA)",
+    "translation": "微型核聚变电池, 优化型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMicroFusionCellOptimized_01000873#AMMO:ONAM#9d2565169e43d0a813862bfc8543a309",
+    "original": "MF Cell, Opt.",
+    "translation": "微型核聚变电池, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoSmallEnergyCellOptimized_01000872#AMMO:FULL#a3609cd6bb57919b3ba070eb0f70d8d7",
+    "original": "Energy Cell, Optimized (Vigilant Recycler) (GRA)",
+    "translation": "能量电池, 优化型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoSmallEnergyCellOptimized_01000872#AMMO:ONAM#79c711b0d77e7e0efc18ab1afba20367",
+    "original": "E Cell, Opt.",
+    "translation": "能量电池, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo5mmJSPHandLoad_01000871#AMMO:FULL#570929a4a2e97c6796465cc7c15b70f4",
+    "original": "5mm, JSP (Hand Load) (GRA)",
+    "translation": "5mm, 被甲软尖弹 (手装) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo5mmJSPHandLoad_01000871#AMMO:ONAM#1ca9f3708d084a95955bb2e88eafc3f4",
+    "original": "5mm JSP",
+    "translation": "5mm被甲软尖",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo9mmJHPHandLoad_01000870#AMMO:FULL#daacf8ea655fec459617d3ec0ff25b74",
+    "original": "9mm, JHP (Hand Load) (GRA)",
+    "translation": "9mm, 被甲空尖弹 (手装) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo9mmJHPHandLoad_01000870#AMMO:ONAM#59185310d6b44f7f40db57065fc92f30",
+    "original": "9mm JHP",
+    "translation": "9mm被甲空尖",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo556mmMatchHandLoad_0100086F#AMMO:FULL#1f53481edb546c9d4bf9617eb7600599",
+    "original": "5.56mm, Match (Hand Load) (GRA)",
+    "translation": "5.56mm, 竞赛弹 (手装) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo556mmMatchHandLoad_0100086F#AMMO:ONAM#2163f5e38fff160941257277ad7a5324",
+    "original": "5.56mm M",
+    "translation": "5.56mm竞赛",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePlasma_0100086E#AMMO:FULL#db434dbba169611d87fa89f19b92dee8",
+    "original": "40mm Grenade, Plasma (GRA)",
+    "translation": "40mm, 等离子榴弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePlasma_0100086E#AMMO:ONAM#1945e9ad9b12ec686ec82843607aadf7",
+    "original": "40mm Grenade, Pla.",
+    "translation": "40mm等离子榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePulse_0100086D#AMMO:FULL#ac9ffd69bb7c427f9a961b0c66f5427e",
+    "original": "40mm Grenade, Pulse (GRA)",
+    "translation": "40mm, 脉冲榴弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePulse_0100086D#AMMO:ONAM#8fc09222a703e02aa27cc2298e9470cc",
+    "original": "40mm Grenade, Pul.",
+    "translation": "40mm脉冲榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePlasma_0100086B#AMMO:FULL#e7b393cb09efafb22c46fb044d5f4b76",
+    "original": "25mm Grenade, Plasma (GRA)",
+    "translation": "25mm, 等离子榴弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePlasma_0100086B#AMMO:ONAM#3832d2d12ed118b8379df58a8c120372",
+    "original": "25mmG, Pla.",
+    "translation": "25mm等离子榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePulse_0100086A#AMMO:FULL#e879ba326e97015e911788de48551a64",
+    "original": "25mm Grenade, Pulse (GRA)",
+    "translation": "25mm, 脉冲榴弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePulse_0100086A#AMMO:ONAM#b8918fa20825070971a20e2713bbf9d0",
+    "original": "25mmG, Pul.",
+    "translation": "25mm脉冲榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadeTimed_01000869#AMMO:FULL#513112418bbe19ceb46fe935d9ca9262",
+    "original": "25mm Grenade, Timed (GRA)",
+    "translation": "25mm, 延时榴弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadeTimed_01000869#AMMO:ONAM#2dd00bd00614c613834e75a91b9b553d",
+    "original": "25mmG, Tim.",
+    "translation": "25mm延时榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansBigKid_01000868#AMMO:FULL#8d642af387dbc38e33024b5086248207",
+    "original": "Mini Nuke, Big Kid (GRA)",
+    "translation": "迷你核弹, 大男孩 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansBigKid_01000868#AMMO:ONAM#5c335954748133e3cd8e9457c5cc7483",
+    "original": "Mini Nuke, BK",
+    "translation": "迷你核弹, 大男孩",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTimed_01000867#AMMO:FULL#4095e267b49d4ca33fc04a4730985cc8",
+    "original": "Mini Nuke, Timed (GRA)",
+    "translation": "迷你核弹, 延时型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTimed_01000867#AMMO:ONAM#b0a430d9e582930a322164a13acfbc27",
+    "original": "Mini Nuke, Tim.",
+    "translation": "迷你核弹, 延时",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansLowYield_01000866#AMMO:FULL#8c93be5cc0b4c62dcbf02002531ec8a9",
+    "original": "Mini Nuke, Low Yield (GRA)",
+    "translation": "迷你核弹, 小当量 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansLowYield_01000866#AMMO:ONAM#1ce33b9d99b0bbf548a36da272426ae6",
+    "original": "Mini Nuke, LY",
+    "translation": "迷你核弹, 小当量",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMissileHive_01000865#AMMO:FULL#d5221d2b09ecc6d6be2aba4f6c06a136",
+    "original": "Missile, Hive (GRA)",
+    "translation": "导弹, 蜂巢型 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMissileHive_01000865#AMMO:ONAM#a97d084ea929c4744632ba8fe843aa47",
+    "original": "Missile, Hive",
+    "translation": "导弹, 蜂巢型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30BuckMagnum_01000863#AMMO:FULL#517cd0977d5db5605e530f799ad04a2a",
+    "original": "20 Gauge, 3/0 Buck Mag. (Hand Loader) (GRA)",
+    "translation": "20铅径, 马格南3号鹿弹 (手装) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30BuckMagnum_01000863#AMMO:ONAM#c43b127be1d3a97b926c2b78e1918aca",
+    "original": "20ga 3/0BM",
+    "translation": "20铅径马格南3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40BuckMagnum_01000862#AMMO:FULL#b36e615634556e999f9af0fb08c55e83",
+    "original": "12 Gauge, 4/0 Buck Mag. (Hand Loader) (GRA)",
+    "translation": "12铅径, 马格南4号鹿弹 (手装) (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40BuckMagnum_01000862#AMMO:ONAM#88849f14e5e69f6ae9f9727b7c89527b",
+    "original": "12ga 4/0BM",
+    "translation": "12铅径马格南4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40Buck_01000861#AMMO:FULL#8ad4b47523d2112ad78206e84445e89f",
+    "original": "12 Gauge, 4/0 Buck (GRA)",
+    "translation": "12铅径, 4号鹿弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40Buck_01000861#AMMO:ONAM#285750edd341090fa41eb95ffcff187a",
+    "original": "12ga 4/0B",
+    "translation": "12铅径4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30Buck_01000860#AMMO:FULL#c537d6627ae27db67ac6ce9c0b14febc",
+    "original": "20 Gauge, 3/0 Buck (GRA)",
+    "translation": "20铅径, 3号鹿弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30Buck_01000860#AMMO:ONAM#6f33f44c7ef00fa287467ef5523a3a0b",
+    "original": "20ga 3/0B",
+    "translation": "20铅径3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaDragonsBreath_0100085F#AMMO:FULL#1a7054e67dd5cb061c1e96be0f127cee",
+    "original": "12 Gauge, Dragon's Breath (GRA)",
+    "translation": "12铅径, 龙息弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaDragonsBreath_0100085F#AMMO:ONAM#9799ebfb81accca3e8d9b803aa07838a",
+    "original": "12ga DB",
+    "translation": "12铅径龙息",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaFlechette_0100085E#AMMO:FULL#21788d2bb5662c514af5da1bb0fec3d1",
+    "original": "12 Gauge, Flechette (GRA)",
+    "translation": "12铅径, 箭形弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaFlechette_0100085E#AMMO:ONAM#8814c3cac6bc64f78e989e221fc006bb",
+    "original": "12ga F",
+    "translation": "12铅径箭形",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaPulseSlug_0100085D#AMMO:FULL#f5c4c17840c4104c8600439d65763fdc",
+    "original": "12 Gauge, Pulse Slug (GRA)",
+    "translation": "12铅径, 脉冲独头弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaPulseSlug_0100085D#AMMO:ONAM#4e1a8eb60768f95694178493cc84628e",
+    "original": "12ga PS",
+    "translation": "12铅径脉冲独头",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20GaPulseSlug_0100085C#AMMO:FULL#4029520257325aff903201d0a4411df2",
+    "original": "20 Gauge, Pulse Slug (GRA)",
+    "translation": "20铅径, 脉冲独头弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20GaPulseSlug_0100085C#AMMO:ONAM#a6cfe200c82a9269072582c2e8f37ea7",
+    "original": "20ga PS",
+    "translation": "20铅径脉冲独头",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo50MGExplosive_0100085B#AMMO:FULL#4f9c23cf314df8f93da58afc28a8bade",
+    "original": ".50 MG, Explosive (GRA)",
+    "translation": ".50MG, 高爆弹 (GRA)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo50MGExplosive_0100085B#AMMO:ONAM#bcf1baa5b970570db381e7fcb9eaf2de",
+    "original": ".50MG E",
+    "translation": ".50MG高爆",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05MFCMineClusterProjectile2_01000A91#PROJ:FULL#90ae5e367f2123f60af968c781a97c6c",
+    "original": "MFC Cluster Mine",
+    "translation": "核子集束地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC0512GaFlechetteProjectile_0100094B#PROJ:FULL#94dd1d034beea4cb60c3549173bf6056",
+    "original": "12 Ga. Flechette",
+    "translation": "12号镖弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05MissileProjectileHive_01000922#PROJ:FULL#a97d084ea929c4744632ba8fe843aa47",
+    "original": "Missile, Hive",
+    "translation": "导弹, 蜂巢型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05FatMineProjectile_010008EF#PROJ:FULL#31d27fe87f5cea57832424d9954a77a4",
+    "original": "Fat Mine",
+    "translation": "核子地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05CleansingFlameProjectile_01000892#PROJ:FULL#03beafb2e7b9b3c69f63491cd001b451",
+    "original": "Cleansing Flame",
+    "translation": "净化火焰",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05GrenadeNukaProjectile_0100081A#PROJ:FULL#5793e619d64a49827b6bae10a0b6112f",
+    "original": "Nuka Grenade",
+    "translation": "核子手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVVendorChestsCell_0008EAE7#CELL:FULL#23b4a04fb837757fbb4e92a374b05a22",
+    "original": "New Vegas Buried Vendor Chests",
+    "translation": "供货商被掩埋的箱子",
+    "stage": 1
+  },
+  {
+    "key": "TestMentats_00108BED#CELL:FULL#5ffeafee65f780eb09e3fe67e6a6cf01",
+    "original": "Mentats Test Level",
+    "translation": "曼他特测试区",
+    "stage": 1
+  },
+  {
+    "key": "CliffBriscoeOpenStore_0008D07E#DIAL:FULL#93b1094dabb0c2670830b409c518bbd0",
+    "original": "I'd like to see what you've got for sale.",
+    "translation": "我想看看你这儿都卖什么。",
+    "stage": 1
+  },
+  {
+    "key": "CliffBriscoeOpenStore_0008D08B#INFO:NAM1#1883e93eb329749900718296b7224955",
+    "original": "Sure thing. Have a look.",
+    "translation": "当然，请随意。",
+    "stage": 1
+  },
+  {
+    "key": "188AlexanderSeeInventory_0014F170#INFO:NAM1#47f81d5f1e0377ba11e4d7aae67dcc63",
+    "original": "Take a look.",
+    "translation": "看看吧。",
+    "stage": 1
+  },
+  {
+    "key": "188AlexanderSeeInventory_0014F170#INFO:RNAM#80c86bc3a09455d317e6a59c2ea6ab28",
+    "original": "Let me see what you have for sale.",
+    "translation": "我看看你都有些啥好货色。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueEastVegas1EGunRunnerProtectronTopic001_000EE4EA#DIAL:FULL#9bc7c30785a07323ab8d0009214fa4cb",
+    "original": "Show me what you have for sale.",
+    "translation": "让我看看你卖些什么。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueEastVegas1EGunRunnerProtectronTopic001_000EE4FB#INFO:NAM1#ba46460e0917fc7063a607931fb0a5fa",
+    "original": "I am ready to process our transaction.",
+    "translation": "我已经准备好交易了。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSMickTopic000_0011277C#DIAL:FULL#0ad1de7ca9867c184ea3553f5f7cf100",
+    "original": "What guns do you have for sale?",
+    "translation": "你都卖什么枪？",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSMickTopic000_00113205#INFO:NAM1#91d8152be8221d4b1e1e22a23c1c63a9",
+    "original": "Have a look.",
+    "translation": "瞧一瞧。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSRalphTopic000_001131EC#DIAL:FULL#b623eb4f4a3ce05e7a571667347470dd",
+    "original": "What do you have in stock?",
+    "translation": "你有什么现货？",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSRalphTopic000_001131FC#INFO:NAM1#0e6444930d7d8dc6d00a4c1ba9e2b1e5",
+    "original": "Take a gander.",
+    "translation": "看一看吧。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSGloriaVanGraffTopic000_0011A27D#DIAL:FULL#b76008538ea331674883aad19684d6af",
+    "original": "I'd like to see what you have for sale.",
+    "translation": "我想看看你卖些什么。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSGloriaVanGraffTopic000_0011A28B#INFO:NAM1#67f57eab63b8d32c9aacc889c548b18d",
+    "original": "Of course.",
+    "translation": "当然。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSMickTopic008_0011BCA3#DIAL:FULL#b178e51bece3b2c9c50ce9769176bd8b",
+    "original": "Could you repair some things for me?",
+    "translation": "你能帮我修复一些物品吗？",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSMickTopic008_0011BCA6#INFO:NAM1#94ac2d6134b7274686c4fb60f4bba943",
+    "original": "Sure, let's see what you've got.",
+    "translation": "当然，来看看你有什么。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSMickTopic020_0012790C#DIAL:FULL#d4fc0ada5d08e805fb70151d0b2ea247",
+    "original": "I'd like to browse your special inventory.",
+    "translation": "我想看看你的特别目录。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSMickTopic020_0012790F#INFO:NAM1#f4dce12d199e4124ea868e889ace7f02",
+    "original": "Like I always say, a polite society is an armed society.",
+    "translation": "就像我说过的，文明社会就是武装社会。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueHiddenValleyHVTorresTopic000_0015FCA1#DIAL:FULL#9bc7c30785a07323ab8d0009214fa4cb",
+    "original": "Show me what you have for sale.",
+    "translation": "让我看看你卖些什么。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueHiddenValleyHVTorresTopic000_0015FD06#INFO:NAM1#01c330e19478b9fb1b93cbbdd7e5ab99",
+    "original": "Our patrols are always bringing more stuff in. Take a look.",
+    "translation": "我们的巡逻队总是能带进新物资。来看看吧。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformNellisTopic003_001602AE#DIAL:FULL#c89a7171591f44cce803b29e2f2931f2",
+    "original": "Could I buy some spare munitions?",
+    "translation": "我可以买一些军用部件吗？",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformNellisTopic003_001602B2#INFO:NAM1#49424d182f2ef3ed6b324535a128dc1a",
+    "original": "Sure. Pearl gave the green light. Take a look at the manifest.",
+    "translation": "当然。珀尔开了绿灯。看看这货单。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05MQ00_0100093C#QUST:FULL#3a25be4fd1d4227cc33ca900f4c3f314",
+    "original": "Quest to Set-Up Gun Runner's Arsenal",
+    "translation": "建立起军火贩子的军火库的任务",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05MadBomber_0100092E#PERK:FULL#1bb9ae9219e9b77db05ed3992fe2496d",
+    "original": "Mad Bomber",
+    "translation": "疯狂炸弹人",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05MadBomber_0100092E#PERK:DESC#629676c58651fc761fe74e2992116e49",
+    "original": "Your intimate knowledge of gadgets and explosives have combined to make you... the Mad Bomber! At Workbenches, you have special Explosives recipes unlocked for use.",
+    "translation": "对小工具的熟悉和爆破技能结合起来，使你成为…疯狂炸弹人！在工作台上，你可以使用解锁的特别爆炸物配方。",
+    "stage": 1
+  },
+  {
+    "key": "ARMANVDLC05GreasePowerfist_01000A87#ARMA:FULL#b40b2590d486c939c94bceb632ade925",
+    "original": "ARMAGreaseLightining",
+    "translation": "ARMA油脂闪电",
+    "stage": 1
+  },
+  {
+    "key": "ARMABallisticFistUnique_010008FD#ARMA:FULL#2f3a05bf140269ade4eec7126d8c739f",
+    "original": "ARMABallisticFistUnique",
+    "translation": "独特的暴怒钢拳",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ARMAMantisKing_01000876#ARMA:FULL#323207fac6f605da4c2be41792285f8a",
+    "original": "NVDLC05ARMAMantisKing",
+    "translation": "螳螂王",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05LoadMessage01_0100093E#MESG:DESC#f1b9676d36737a0b0d78ce05c2e29196",
+    "original": "The ongoing conflict in the Mojave Wasteland has kicked weapon manufacturers into high gear! All major and minor weapon dealers in the region are rolling in new weapons, ammunition types, and modifications. Head to your nearest participating vendor to peruse the merchandise!",
+    "translation": "莫哈维持续不断的武装冲突迫使武器制造商们要来点更猛的! 所有大小武器经销商们都在不断推出新的武器, 弹药, 以及武器改造. 立刻前往距离您最近的武器供应商，检查这批新货吧!",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05LoadMessage01_0100093E#MESG:FULL#a53e7ccb4ae0fce00dbbfb389a9d16b3",
+    "original": "Gun Runners' Arsenal",
+    "translation": "军火贩子的军火库",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05LoadMessage02_0100093D#MESG:DESC#32826abe5ad7821260d8f4a4aa7ba449",
+    "original": "Gun Runners' Arsenal has been loaded.",
+    "translation": "军火贩子的军火库已经安装.",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05LoadMessage02_0100093D#MESG:FULL#a53e7ccb4ae0fce00dbbfb389a9d16b3",
+    "original": "Gun Runners' Arsenal",
+    "translation": "军火贩子的军火库",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe127mmHandLoad_01000A2C#RCPE:FULL#3dcc1a6782440be68672a3830a98530f",
+    "original": "12.7mm, JHP Hand Load (GRA)",
+    "translation": "12.7mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe12Ga40BuckMagnum_0100093A#RCPE:FULL#b289a3755919c19859caa2fca11dc502",
+    "original": "12 Ga., 4/0 Buck Mag. Hand Load (GRA)",
+    "translation": "12铅径马格南4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe20Ga30BuckMagnum_01000939#RCPE:FULL#8f88de42060a39afdc8ab47ddc825acb",
+    "original": "20 Ga., 3/0 Buck Mag. Hand Load (GRA)",
+    "translation": "20铅径马格南3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeTinGrenade_01000936#RCPE:FULL#7d923808750d49fdd6e32c33bc62ab15",
+    "original": "Tin Grenade (GRA)",
+    "translation": "罐头手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeBottlecapMineEfficient_01000935#RCPE:FULL#260199e7bb6f48352a50dee751a8f631",
+    "original": "Bottlecap Mine, Efficient (GRA)",
+    "translation": "瓶盖地雷高效型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipePowderChargeEfficient_01000934#RCPE:FULL#9f86183ed4cb9ceff5fbe7b924b67551",
+    "original": "Powder Charge, Efficient (GRA)",
+    "translation": "土制炸弹高效型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeTimeBombHighYield_01000933#RCPE:FULL#2d3ac98366b61b7112ea2930262dc5cc",
+    "original": "Time Bomb, High Yield (GRA)",
+    "translation": "定时炸弹-高当量",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeNukaGrenade_01000932#RCPE:FULL#ecc80a278548d7bd71faec4326fe5266",
+    "original": "Nuka-Grenade (GRA)",
+    "translation": "核子手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeMFCCluster_01000931#RCPE:FULL#8a88dbfabc6e5c677d924926eaebcd03",
+    "original": "MFC Cluster (GRA)",
+    "translation": "微型核聚变集束地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeMFCGrenade_01000930#RCPE:FULL#3d8db09cae6c05975b154c16762ad541",
+    "original": "MFC Grenade (GRA)",
+    "translation": "微型核聚变手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeFatMine_0100092F#RCPE:FULL#33fe536bd4afa4f331b4f3fa47007cc7",
+    "original": "Fat Mine (GRA)",
+    "translation": "胖子地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe5mmHandLoad_0100092C#RCPE:FULL#2bd07479151547951a11f8aa3670d61c",
+    "original": "5mm, JSP Hand Load (GRA)",
+    "translation": "5mm被甲软尖弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe9mmHandLoad_0100092B#RCPE:FULL#8713d331a57bcbeabbd621cc46cc136b",
+    "original": "9mm, JHP Hand Load (GRA)",
+    "translation": "9mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe556mmHandLoad_0100092A#RCPE:FULL#4690cfdce1faf38f18aef5fa2c1664f1",
+    "original": "5.56mm, Match Hand Load (GRA)",
+    "translation": "5.56mm竞赛弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeFlamerFuelOptimized_01000929#RCPE:FULL#7a5c906c414cb36e0a6930dbef2cf649",
+    "original": "Flamer Fuel, Optimized (GRA)",
+    "translation": "火焰喷射器燃料优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeSmallEnergyCellOptimized_01000928#RCPE:FULL#b4fc1138e993a82f5eec27e296f62cf6",
+    "original": "Energy Cell, Optimized (GRA)",
+    "translation": "能量电池优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeMicroFusionCellOptimized_01000927#RCPE:FULL#45848945dde687e47607704f48e19406",
+    "original": "Microfusion Cell, Optimized (GRA)",
+    "translation": "微型核聚变电池优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeElectronChargePackOptimized_01000926#RCPE:FULL#a212410af7fe97042cd008b6b449138d",
+    "original": "Electron Charge Pack, Optimized (GRA)",
+    "translation": "荷电充能包优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDyinAintMuchOfALiving_01000A6C#CHAL:FULL#070d8cd524146077900c839666249ed3",
+    "original": "(GRA) Dyin' Ain't Much of a Living **",
+    "translation": "(GRA) 死掉算不得什么活路 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDyinAintMuchOfALiving_01000A6C#CHAL:DESC#8ebc51f8bd84cdfa36b9d8bf31117713",
+    "original": "Kill members of NCR or Legion hit squads with weapons affected by the Cowboy perk.",
+    "translation": "使用受牛仔特长影响的武器杀死NCR游骑兵和军团刺客。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeEvenAGodKingCanBleed_01000A6A#CHAL:FULL#7b9f2c665df43f0a42b0a6f61e12c759",
+    "original": "(GRA) Even a God-King Can Bleed **",
+    "translation": "(GRA) 即使是神王亦会流血 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeEvenAGodKingCanBleed_01000A6A#CHAL:DESC#3f23eb4d7ba4b03e9d510785b9ea58bd",
+    "original": "Cripple Caesar's head with Throwing Spears.",
+    "translation": "用投矛打残凯撒的头。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeSicSemperTyrannis_01000A68#CHAL:FULL#7b410d7a3142ee0994e21091a063ba8d",
+    "original": "(GRA) Sic Semper Tyrannis **",
+    "translation": "(GRA) 暴君总有如此下场 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeSicSemperTyrannis_01000A68#CHAL:DESC#5ec69bc46af2fece8b36c261446ace8f",
+    "original": "Kill President Kimball with any One-Handed Pistol.",
+    "translation": "用任何单手手枪杀死金博尔总统。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeBenefitOrAHazard_01000A67#CHAL:FULL#275dff8e0c362d4d6d5b8a864c1a33df",
+    "original": "(GRA) Benefit Or a Hazard *",
+    "translation": "(GRA) 益处或危害 *",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeBenefitOrAHazard_01000A67#CHAL:DESC#b299de8b62296f8c145011bc6a401ca4",
+    "original": "Kill Robots with 5.56mm Pistols.",
+    "translation": "用5.56mm手枪杀死机器人。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeVault13sRevenge_01000A65#CHAL:FULL#d70fef6725cdbf021943f8bfcc554a0e",
+    "original": "(GRA) Vault 13's Revenge **",
+    "translation": "(GRA) 13号避难所的复仇 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeVault13sRevenge_01000A65#CHAL:DESC#2b61ae8cb30777af7f354fb45ec9495f",
+    "original": "Kill Super Mutants with 5.56mm Pistols, Plasma Defenders, Plasma Grenades, Power Fists, Rippers, or the Bozar.",
+    "translation": "用等离子手雷，动力拳套，开膛手，等离子护卫者，无名枪，包子或5.56mm手枪杀死超级变种人。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeManMachineInterface_01000A63#CHAL:FULL#3de47d31c08143198977602638cc7d0e",
+    "original": "(GRA) Man-Machine Interface ***",
+    "translation": "(GRA) 人机接口 ***",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeManMachineInterface_01000A63#CHAL:DESC#e7448c0867d99f75461e64ee26f6c5cc",
+    "original": "Kill Mojave Wasteland Mr. Gutsys and Sentry Bots with Brass Knuckles, Spiked Knuckles, Tire Irons, and Lead Pipes.",
+    "translation": "用铜指虎，刺指虎,卸胎棒或铅管杀死莫哈韦废土的勇敢先生和铁卫兵。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCrackerjackTiming_01000A60#CHAL:FULL#4f459d7d9ee400f65714184e4440843a",
+    "original": "(GRA) Crackerjack Timing ***",
+    "translation": "(GRA) 绝佳时机 ***",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCrackerjackTiming_01000A60#CHAL:DESC#3fc7874863e070ecd5073afb62350387",
+    "original": "Kill Mojave Wasteland Cazadores with Tin Grenades, Long Fuse Dynamite, and Time Bombs.",
+    "translation": "用锡罐手雷、定时炸弹或长引线黄色炸药杀死莫哈维废土的猎蜂。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTheSameCouldBeSaid_01000A5D#CHAL:FULL#79e7f7c36ac66e12d75e78ade0b74222",
+    "original": "(GRA) The Same Could Be Said of All Religious Weapons *",
+    "translation": "(GRA) 对所有宗教武器都能这么说 *",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTheSameCouldBeSaid_01000A5D#CHAL:DESC#bd5b13d892b8012bddc45fc5eed121a7",
+    "original": "Kill Feral Ghouls with Maria, Gehenna, and Holy Frag Grenades.",
+    "translation": "用玛利亚，神圣手雷，焦热炼狱杀死狂尸鬼。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeASlaveObeys_01000A5A#CHAL:FULL#9c331117500e9dca61f767a690c479c6",
+    "original": "(GRA) A Slave Obeys *",
+    "translation": "(GRA) 奴隶只能服从 *",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeASlaveObeys_01000A5A#CHAL:DESC#3beea0efca67f5128ab849005cedd4a9",
+    "original": "Kill Mr. House with a 9 Iron or Nephi's Golf Driver.",
+    "translation": "用九号杆或尼法的高尔夫球杆杀死豪斯先生。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeArmedForBear_01000A58#CHAL:FULL#e9356974315ec5cbf16fa67d8f0a372b",
+    "original": "(GRA) Armed For Bear ***",
+    "translation": "(GRA) 武装猎熊 ***",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeArmedForBear_01000A58#CHAL:DESC#befa82b0d2485c830027bd6714615c2a",
+    "original": "Kill any named NCR Ranger or commissioned officer (Lieutenant, Captain, Major, Colonel, General) with Machetes, Rippers, Chainsaws, Throwing Spears, or Ballistic Fists.",
+    "translation": "用砍刀、开膛手、链锯、投矛或铳枪拳套杀死任何有名字的NCR游骑兵或现役军官（中尉，上尉，少校，上校，将军）。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeAgainstAllTyrants_01000A54#CHAL:FULL#bd7c28149c1ca0c29453376cc9daef07",
+    "original": "(GRA) Against All Tyrants ***",
+    "translation": "(GRA) 对抗一切暴君 ***",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeAgainstAllTyrants_01000A54#CHAL:DESC#1d93dba64d37d25256e85c33b657fcf3",
+    "original": "Kill any named Legion members with Hunting Revolvers, Ranger Sequoias, Brush Guns, Service Rifles, Hunting Rifles, or Cowboy Repeaters.",
+    "translation": "用狩猎左轮枪、游骑兵的红杉木、灌木丛枪、军用步枪、猎枪或牛仔连发枪杀死任何有名字的军团成员。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCuriosAndRelics_01000A53#CHAL:FULL#05e9956f667b1250605d40eb87e4bc96",
+    "original": "(GRA) Curios and Relics",
+    "translation": "(GRA) 古董与文物",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCuriosAndRelics_01000A53#CHAL:DESC#d8e25d9088e0552039f7abfdb78b56e9",
+    "original": "Cause damage with unique Mojave Wasteland weapons.",
+    "translation": "用莫哈维废土的独特武器造成伤害。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNeNeNeNe_01000A51#CHAL:FULL#9a6f260488f41f85be0c743c55a1c660",
+    "original": "(GRA) Ne Ne Ne Ne... *",
+    "translation": "(GRA) 呐呐呐呐... *",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNeNeNeNe_01000A51#CHAL:DESC#4ca9ca922a11b3cabb8b10ffd9dfb17d",
+    "original": "Cripple Right Arms with Shotguns.",
+    "translation": "右臂残废后使用霰弹枪。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeYouDontBelong_01000A50#CHAL:FULL#a2f7a7029b7b5f21bb14756650011aa8",
+    "original": "(GRA) You Don't Belong In This World! *",
+    "translation": "(GRA) 你不属于这个世界！ *",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeYouDontBelong_01000A50#CHAL:DESC#fe16c9b117d898a96ab95755b6c60703",
+    "original": "Kill Abominations with Katanas, Dynamite, Machetes, Throwing Spears, Throwing Knives, and Throwing Hatchets.",
+    "translation": "用武士刀、炸药、大刀、投矛、飞刀或投斧杀死变种野怪。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeOverkill_01000A4E#CHAL:FULL#8a0362a0aa977cecc8bff087767ca425",
+    "original": "(GRA) Overkill *",
+    "translation": "(GRA) 过度杀戮 *",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeOverkill_01000A4E#CHAL:DESC#1f20de5741b09182b06f4168d7d598d5",
+    "original": "Kill Animals with any Fat Man or Fat Mines.",
+    "translation": "用核弹或核子地雷杀死动物。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeWhiteLineNightmare_01000A4D#CHAL:FULL#06d1d400416a0c28422c225f637e53f4",
+    "original": "(GRA) White Line Nightmare **",
+    "translation": "(GRA) 公路梦魇 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeWhiteLineNightmare_01000A4D#CHAL:DESC#40a2c1f6ade97dcde963f243be01f40e",
+    "original": "Kill Fiends, Vipers, or Jackals with Tire Irons, Baseball Bats, Lead Pipes, Machetes, .44 Magnum Revolvers, or Sawed-Off Shotguns.",
+    "translation": "用卸胎棒、棒球棍、铅管、砍刀、.44马格南左轮枪或截短霰弹枪杀死恶魔帮，毒蛇帮或豺狼帮的匪徒。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTalkAboutOwned_01000A4C#CHAL:FULL#cf95d0a89d5bd8ca278eeb05d2b30938",
+    "original": "(GRA) Talk About Owned **",
+    "translation": "(GRA) 谈到支配 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTalkAboutOwned_01000A4C#CHAL:DESC#0db95a5b5c6a027c60341936cb7da93b",
+    "original": "Kill Benny with his own gun, Maria.",
+    "translation": "用班尼的“玛利亚”杀死班尼。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDeathclawProHunter_01000A4B#CHAL:FULL#5ddf291bf639541f24a37e51f23a8812",
+    "original": "(GRA) Deathclaw Pro Hunter ***",
+    "translation": "(GRA) 专业死亡爪猎人 ***",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDeathclawProHunter_01000A4B#CHAL:DESC#c0e4c76c0c3ccd63c737f21efcb885c3",
+    "original": "Kill adult Mojave Wasteland Deathclaws with .22 Pistols, Switchblades, Boxing Tape, Recharger Rifles, or Dynamite.",
+    "translation": "用.22手枪，弹簧刀，拳击布带，充能步枪，或炸药杀死莫哈韦废土中的成年死亡爪。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeHistoricalPropriety_01000A4A#CHAL:FULL#393e259701de4fcaea8f1e0fb1ab4611",
+    "original": "(GRA) Historical Propriety **",
+    "translation": "(GRA) 历史正确性 **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeHistoricalPropriety_01000A4A#CHAL:DESC#f71e74f2508c3777236e8fb7af2f3a74",
+    "original": "Kill Caesar with a Knife or Combat Knife.",
+    "translation": "用小刀或战斗匕首杀死凯撒。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNyahSee_01000A49#CHAL:FULL#2256f13ad9d473762345c986922b1d16",
+    "original": "(GRA) Nyah! See? **",
+    "translation": "(GRA) 哎! 你看? **",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNyahSee_01000A49#CHAL:DESC#4e2b5acee2b029b5bd90fcf3fde9048a",
+    "original": "Kill Chairmen, White Gloves, or Omertas with any submachine gun, light machine gun, or minigun.",
+    "translation": "用任何冲锋枪、轻机枪或转轮机枪杀死会长帮、黑手党或白手套成员。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeMasterOfTheArsenal_01000948#CHAL:FULL#7a81badcdcaafe7eae62b1d38219e602",
+    "original": "(GRA) Master of the Arsenal",
+    "translation": "(GRA) 武器库大师",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeMasterOfTheArsenal_01000948#CHAL:DESC#db874ac27897a0f83f40a1061cd6b14f",
+    "original": "Do damage with Gun Runners' Arsenal (GRA) Weapons.",
+    "translation": "使用GRA的武器对敌人造成伤害。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectPulseSlugDAMReduction_01000AC5#AMEF:FULL#f755a2da031035b8595e35e53df6ef02",
+    "original": "Pulse Slug DAM Reduction",
+    "translation": "脉冲独头弹伤害减少",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectDragonsBreathDAMReduction_01000ABF#AMEF:FULL#a42c52b087972124c70d8bc78f7823ad",
+    "original": "Dragons Breath DAM Reduction",
+    "translation": "龙息伤害减少",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectFlechetteDAMReduction_01000ABB#AMEF:FULL#d7eb8d0bd4fbeaa6c7e4d6d48c9d0136",
+    "original": "Flechette DAM Reduction",
+    "translation": "箭形弹伤害减少",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectMissileHiveSpreadIncrease_01000A20#AMEF:FULL#fac3ded8981f8ced063bdb879f3534c3",
+    "original": "Hive Missile Spread Increase",
+    "translation": "蜂巢导弹散布增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectFatMansTinyTotsSpreadIncrease_01000A0E#AMEF:FULL#1d0f4affbb1fc419500d83a67505e6cf",
+    "original": "Tiny Tots Spread Increase",
+    "translation": "小男孩核弹散布增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectJSPDTReduction_0100092D#AMEF:FULL#ed1238956c5718560a0af51d2799143c",
+    "original": "Dam. Thresh. Reduction",
+    "translation": "DT下降",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectOptimizedDTBypass_01000925#AMEF:FULL#4de0dbe6723e8c0f208ff6c69fedfd33",
+    "original": "DT Bypass",
+    "translation": "无视DT",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectOptimizedDamageBonus_01000924#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectOptimizedConditionPenalty_01000923#AMEF:FULL#7d0695623a07eed3c6bf1e402052dcac",
+    "original": "COND Decay Increase",
+    "translation": "耐久损伤增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectJHPDTPenalty_0100091F#AMEF:FULL#b39b4f92ee4b33943896e4d0e311da18",
+    "original": "Dam. Thresh. Increase",
+    "translation": "DT上升",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectJHPDamageBonus_0100091E#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectJSPDamageBonus_0100091D#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectJSPConditionPenalty_0100091C#AMEF:FULL#7d0695623a07eed3c6bf1e402052dcac",
+    "original": "COND Decay Increase",
+    "translation": "耐久损伤增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectMatchSpreadReduction_0100091B#AMEF:FULL#50486c029a6082dc3245906fbb993094",
+    "original": "Spread Reduction",
+    "translation": "散布减少",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectMatchDamageBonus_0100091A#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectMagnumConditionPenalty_01000904#AMEF:FULL#a59ffe36c4600c1d74c8b9749ccd86c9",
+    "original": "Magnum COND Penalty",
+    "translation": "马格南耐久减少",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectMagnumDamageBonus_01000903#AMEF:FULL#b3ae51fda7a7a7b4172cc82f0db7eac6",
+    "original": "Magnum Damage Bonus",
+    "translation": "马格南伤害增加",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectMagnumDTReduction_01000902#AMEF:FULL#ed1238956c5718560a0af51d2799143c",
+    "original": "Dam. Thresh. Reduction",
+    "translation": "DT下降",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoEffectFlechetteDTReduction_01000901#AMEF:FULL#5f47f466ecd8dda1589229d718d5d060",
+    "original": "Flechette DT Reduction",
+    "translation": "箭形弹DT减少",
+    "stage": 1
+  }
+]
