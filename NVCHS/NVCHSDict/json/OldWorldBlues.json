@@ -812,13 +812,13 @@
   {
     "key": "NVDLC03X13StealthArmorPants_01015104#ACTI:FULL#6d30835376c87c08390ce3bac9cf3ba3",
     "original": "Damaged Prototype",
-    "translation": "损坏的原型甲",
+    "translation": "损坏的原型",
     "stage": 1
   },
   {
     "key": "NVDLC03X13StealthArmorPants_01015104#ACTI:XATO#6d30835376c87c08390ce3bac9cf3ba3",
     "original": "Damaged Prototype",
-    "translation": "损坏的原型甲",
+    "translation": "损坏的原型",
     "stage": 1
   },
   {
@@ -1136,7 +1136,7 @@
   {
     "key": "NVDLC03ArtilleryControls_0100CA13#ACTI:XATO#4bd18cf47768f71923217e98742321fc",
     "original": "Initiate Test Fire",
-    "translation": "开启试验炮火",
+    "translation": "进行测试开火",
     "stage": 1
   },
   {
@@ -1256,13 +1256,13 @@
   {
     "key": "NVDLC03SinkAutoDoc_0100E704#TACT:FULL#78e47ac35fc70db02a3b7767777046ef",
     "original": "Sink Auto-Doc",
-    "translation": "“汇聚节点”自动医生",
+    "translation": "汇聚节点自动医生",
     "stage": 1
   },
   {
     "key": "NVDLC03SinkMainComputer_0100E703#TACT:FULL#205816dd42f1e93adac54180e3c81f03",
     "original": "Sink Central Intelligence Unit",
-    "translation": "“汇聚节点”中央智能单元",
+    "translation": "汇聚节点中央智能单元",
     "stage": 1
   },
   {
@@ -1274,7 +1274,7 @@
   {
     "key": "NVDLC03SinkJukeBoxTA_0100E701#TACT:FULL#e1b8579d15d92b55933c8519d38d45d3",
     "original": "Blind Diode Jefferson",
-    "translation": "盲二极管·杰弗逊",
+    "translation": "盲二极管杰弗逊",
     "stage": 1
   },
   {
@@ -1550,13 +1550,13 @@
   {
     "key": "NVDLC03SLY17Terminal_01015909#TERM:ITXT#a523490a30e8bd67940c828eeecc1574",
     "original": "Y-17 Trauma Harness Testing Results",
-    "translation": "Y-17防创束身服试验结果",
+    "translation": "Y-17创伤束身服试验结果",
     "stage": 1
   },
   {
     "key": "NVDLC03SLY17Terminal_01015909#TERM:ITXT#b64f81626558238f0295680afd9a6b2f",
     "original": "Y-17 Trauma Harness Action Items",
-    "translation": "Y-17防创束身服行为报告",
+    "translation": "Y-17创伤束身服行为报告",
     "stage": 1
   },
   {
@@ -3494,7 +3494,7 @@
   {
     "key": "NVDLC03SinkVendorContainer_0100E30E#CONT:FULL#7da9d0592b19db9f236b01469b345c9c",
     "original": "Sink Vendor Container",
-    "translation": "“汇聚节点”自动售货机的储藏箱",
+    "translation": "汇聚节点自动售货机的储藏箱",
     "stage": 1
   },
   {
@@ -4460,19 +4460,19 @@
   {
     "key": "NVDLC03CorpseSuitAvg_0100CE75#NPC_:FULL#110dfbab38899dcfa02c759422f6900e",
     "original": "Y-17 Trauma Override Harness",
-    "translation": "失控的Y-17防创束身服",
+    "translation": "Y-17创伤接管束身服",
     "stage": 1
   },
   {
     "key": "NVDLC03CorpseSuitEasy_0100CE76#NPC_:FULL#110dfbab38899dcfa02c759422f6900e",
     "original": "Y-17 Trauma Override Harness",
-    "translation": "失控的Y-17防创束身服",
+    "translation": "Y-17创伤接管束身服",
     "stage": 1
   },
   {
     "key": "NVDLC03CorpseSuitHard_0100CE77#NPC_:FULL#110dfbab38899dcfa02c759422f6900e",
     "original": "Y-17 Trauma Override Harness",
-    "translation": "失控的Y-17防创束身服",
+    "translation": "Y-17创伤接管束身服",
     "stage": 1
   },
   {
@@ -4496,7 +4496,7 @@
   {
     "key": "NVDLC03SinkMainComputerTalker_0100F061#NPC_:FULL#83ff09a0d31143fae9bb9075d1bf5479",
     "original": "Sink CIU",
-    "translation": "“汇聚节点”中央智能单元",
+    "translation": "汇聚节点CIU",
     "stage": 1
   },
   {
@@ -4880,7 +4880,7 @@
   {
     "key": "NVDLC03CorpseSuitBoss_01014462#NPC_:FULL#38b323ceee3762c2eb642a869f190f76",
     "original": "Y-17 Master Trauma Harness",
-    "translation": "身穿Y-17防创束身服的研究员",
+    "translation": "Y-17精英创伤束身服",
     "stage": 1
   },
   {
@@ -4892,19 +4892,19 @@
   {
     "key": "NVDLC03CorpseSuitAvgRespawn_01014D83#NPC_:FULL#110dfbab38899dcfa02c759422f6900e",
     "original": "Y-17 Trauma Override Harness",
-    "translation": "失控的Y-17防创束身服",
+    "translation": "Y-17创伤接管束身服",
     "stage": 1
   },
   {
     "key": "NVDLC03CorpseSuitEasyRespawn_01014D84#NPC_:FULL#110dfbab38899dcfa02c759422f6900e",
     "original": "Y-17 Trauma Override Harness",
-    "translation": "失控的Y-17防创束身服",
+    "translation": "Y-17创伤接管束身服",
     "stage": 1
   },
   {
     "key": "NVDLC03CorpseSuitHardRespawn_01014D85#NPC_:FULL#110dfbab38899dcfa02c759422f6900e",
     "original": "Y-17 Trauma Override Harness",
-    "translation": "失控的Y-17防创束身服",
+    "translation": "Y-17创伤接管束身服",
     "stage": 1
   },
   {
@@ -5030,7 +5030,7 @@
   {
     "key": "NVDLC03X8CrProtectronDEAD_01015506#CREA:FULL#2318b4bb416b4dab69e4071cd56713fd",
     "original": "Protectron Mk1",
-    "translation": "保卫者机器人 Mk1型",
+    "translation": "保护者 1型",
     "stage": 1
   },
   {
@@ -5078,7 +5078,7 @@
   {
     "key": "NVDLC03CrConstructionProtectron_0101471B#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
     "original": "Protectron",
-    "translation": "保卫者机器人",
+    "translation": "保护者",
     "stage": 1
   },
   {
@@ -5144,7 +5144,7 @@
   {
     "key": "NVDLC03CrSporeCarrierBoss_01014454#CREA:FULL#cf77c5e9095eed6e7308a65061ce2d97",
     "original": "Patient Zero",
-    "translation": "病人0号",
+    "translation": "0号病人",
     "stage": 1
   },
   {
@@ -5174,181 +5174,181 @@
   {
     "key": "NVDLC03CrProtectron50Respawn_01014294#CREA:FULL#107a56708515d834efeeac4ebcf25005",
     "original": "Protectron Mk6",
-    "translation": "保卫者机器人 Mk6型",
+    "translation": "保护者 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron40Respawn_01014293#CREA:FULL#6b54dd5ce56eca8990b65d006a865676",
     "original": "Protectron Mk5",
-    "translation": "保卫者机器人 Mk5型",
+    "translation": "保护者 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron30Respawn_01014292#CREA:FULL#a93a247c3ac4b82de967b2e03781a53b",
     "original": "Protectron Mk4",
-    "translation": "保卫者机器人 Mk4型",
+    "translation": "保护者 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron20Respawn_01014291#CREA:FULL#837f913e4d37fd5418b9f824ca99b41c",
     "original": "Protectron Mk3",
-    "translation": "保卫者机器人 Mk3型",
+    "translation": "保护者 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron10Respawn_01014290#CREA:FULL#9d42cf543b96df05410fe0274cc17026",
     "original": "Protectron Mk2",
-    "translation": "保卫者机器人 Mk2型",
+    "translation": "保护者 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron01Respawn_0101428F#CREA:FULL#2318b4bb416b4dab69e4071cd56713fd",
     "original": "Protectron Mk1",
-    "translation": "保卫者机器人 Mk1型",
+    "translation": "保护者 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot50Respawn_0101428B#CREA:FULL#48fb735a8c4de266609dbc99301c8ce6",
     "original": "Sentry Bot Mk6",
-    "translation": "铁卫兵 Mk6",
+    "translation": "铁卫兵 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot40Respawn_0101428A#CREA:FULL#4d277ef83f43411d3a235ebbc6606b89",
     "original": "Sentry Bot Mk5",
-    "translation": "铁卫兵 Mk5",
+    "translation": "铁卫兵 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot30Respawn_01014289#CREA:FULL#ebc007a2c354ec9e132af3200bd157bd",
     "original": "Sentry Bot Mk4",
-    "translation": "铁卫兵 Mk4",
+    "translation": "铁卫兵 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot20Respawn_01014288#CREA:FULL#2a7e289c53388aa037723817c78bfd25",
     "original": "Sentry Bot Mk3",
-    "translation": "铁卫兵 Mk3",
+    "translation": "铁卫兵 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot10Respawn_01014287#CREA:FULL#723974419540b6a8a03eb3735d99e5e8",
     "original": "Sentry Bot Mk2",
-    "translation": "铁卫兵 Mk2",
+    "translation": "铁卫兵 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot01Respawn_01014286#CREA:FULL#41d8d0b2f8185043829d0f383960d389",
     "original": "Sentry Bot Mk1",
-    "translation": "铁卫兵 Mk1",
+    "translation": "铁卫兵 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged50Respawn_01014283#CREA:FULL#98afa1dae5a15528453834b91bada8f3",
     "original": "Damaged Securitron Mk6",
-    "translation": "损坏的电子保安 Mk6",
+    "translation": "损坏的电子保安 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged40Respawn_01014282#CREA:FULL#975152516a1445f5f9654073e3506b8b",
     "original": "Damaged Securitron Mk5",
-    "translation": "损坏的电子保安 Mk5",
+    "translation": "损坏的电子保安 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged30Respawn_01014281#CREA:FULL#77bc20fb4496f8b4fc6ea4ede6cd73ba",
     "original": "Damaged Securitron Mk4",
-    "translation": "损坏的电子保安 Mk4",
+    "translation": "损坏的电子保安 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged20Respawn_01014280#CREA:FULL#d04dcd55503939c6d4ec9bcedf8e3b5c",
     "original": "Damaged Securitron Mk3",
-    "translation": "损坏的电子保安 Mk3",
+    "translation": "损坏的电子保安 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged10Respawn_0101427F#CREA:FULL#7f9054226e617ed732cbe6901da298c2",
     "original": "Damaged Securitron Mk2",
-    "translation": "损坏的电子保安 Mk2",
+    "translation": "损坏的电子保安 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged01Respawn_0101427E#CREA:FULL#b5b7faa17aaf5a26683dea9a3077ecf7",
     "original": "Damaged Securitron Mk1",
-    "translation": "损坏的电子保安 Mk1",
+    "translation": "损坏的电子保安 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk50Respawn_0101427C#CREA:FULL#372b626306df22700a2b96b043551795",
     "original": "Berserk Securitron Mk6",
-    "translation": "狂暴的电子保安 Mk6",
+    "translation": "狂暴的电子保安 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk40Respawn_0101427B#CREA:FULL#3d1917f0e80bf383dcfeae030c4ff176",
     "original": "Berserk Securitron Mk5",
-    "translation": "狂暴的电子保安 Mk5",
+    "translation": "狂暴的电子保安 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk30Respawn_0101427A#CREA:FULL#f7a6f6cb1c040e50536caf9c83f708f5",
     "original": "Berserk Securitron Mk4",
-    "translation": "狂暴的电子保安 Mk4",
+    "translation": "狂暴的电子保安 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk20Respawn_01014279#CREA:FULL#d0e2870f9d5e50ca6fe6cb126ef282de",
     "original": "Berserk Securitron Mk3",
-    "translation": "狂暴的电子保安 Mk3",
+    "translation": "狂暴的电子保安 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk10Respawn_01014278#CREA:FULL#112f2af87059c9d03e26b68617a66116",
     "original": "Berserk Securitron Mk2",
-    "translation": "狂暴的电子保安 Mk2",
+    "translation": "狂暴的电子保安 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk01Respawn_01014277#CREA:FULL#fb152dd7f5bc230b2fea619157555375",
     "original": "Berserk Securitron Mk1",
-    "translation": "狂暴的电子保安 Mk1",
+    "translation": "狂暴的电子保安 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain50Respawn_01014275#CREA:FULL#8be552e7d88e41da74b7eef4ffa920cc",
     "original": "Robobrain Mk6",
-    "translation": "机器脑 Mk6",
+    "translation": "机器脑 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain40Respawn_01014274#CREA:FULL#016d75ad987eef7860b3fb2bbedacc09",
     "original": "Robobrain Mk5",
-    "translation": "机器脑 Mk5",
+    "translation": "机器脑 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain30Respawn_01014273#CREA:FULL#3b1c165705884b8c66b2ca52ae08161b",
     "original": "Robobrain Mk4",
-    "translation": "机器脑 Mk4",
+    "translation": "机器脑 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain20Respawn_01014272#CREA:FULL#79e2d2d22f51761976662839ee219ccb",
     "original": "Robobrain Mk3",
-    "translation": "机器脑 Mk3",
+    "translation": "机器脑 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain10Respawn_01014271#CREA:FULL#e53b7182bbd092962b480b4670b4f4bc",
     "original": "Robobrain Mk2",
-    "translation": "机器脑 Mk2",
+    "translation": "机器脑 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain01Respawn_01014270#CREA:FULL#d964aed8e7deb66d45a0a1c4a5d894a1",
     "original": "Robobrain Mk1",
-    "translation": "机器脑 Mk1",
+    "translation": "机器脑 1型",
     "stage": 1
   },
   {
@@ -5390,37 +5390,37 @@
   {
     "key": "NVDLC03CrMisterGutsy40Respawn_01014268#CREA:FULL#7f7b3bfa877b780e2f745aa00c793136",
     "original": "Mister Gutsy Mk5",
-    "translation": "狂风先生 Mk5",
+    "translation": "狂风先生 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy50Respawn_01014267#CREA:FULL#8fa56c9de6cfb2ae4329f7812d1b51d4",
     "original": "Mister Gutsy Mk6",
-    "translation": "狂风先生 Mk6",
+    "translation": "狂风先生 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy30Respawn_01014266#CREA:FULL#cb0a34d76df67eed39e88a2843be3a38",
     "original": "Mister Gutsy Mk4",
-    "translation": "狂风先生 Mk4",
+    "translation": "狂风先生 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy20Respawn_01014265#CREA:FULL#02baa14425055351d99ac8c0595f3fa1",
     "original": "Mister Gutsy Mk3",
-    "translation": "狂风先生 Mk3",
+    "translation": "狂风先生 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy10Respawn_01014264#CREA:FULL#78e0564383700999550d90c8b4ad71a7",
     "original": "Mister Gutsy Mk2",
-    "translation": "狂风先生 Mk2",
+    "translation": "狂风先生 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy01Respawn_01014263#CREA:FULL#de93b97fc0a6db1712ade89450310d88",
     "original": "Mister Gutsy Mk1",
-    "translation": "狂风先生 Mk1",
+    "translation": "狂风先生 1型",
     "stage": 1
   },
   {
@@ -5480,37 +5480,37 @@
   {
     "key": "NVDLC03CrSecuritronDamaged50_01014185#CREA:FULL#98afa1dae5a15528453834b91bada8f3",
     "original": "Damaged Securitron Mk6",
-    "translation": "损坏的电子保安 Mk6",
+    "translation": "损坏的电子保安 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged40_01014184#CREA:FULL#975152516a1445f5f9654073e3506b8b",
     "original": "Damaged Securitron Mk5",
-    "translation": "损坏的电子保安 Mk5",
+    "translation": "损坏的电子保安 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged30_01014183#CREA:FULL#77bc20fb4496f8b4fc6ea4ede6cd73ba",
     "original": "Damaged Securitron Mk4",
-    "translation": "损坏的电子保安 Mk4",
+    "translation": "损坏的电子保安 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged20_01014182#CREA:FULL#d04dcd55503939c6d4ec9bcedf8e3b5c",
     "original": "Damaged Securitron Mk3",
-    "translation": "损坏的电子保安 Mk3",
+    "translation": "损坏的电子保安 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged10_01014181#CREA:FULL#7f9054226e617ed732cbe6901da298c2",
     "original": "Damaged Securitron Mk2",
-    "translation": "损坏的电子保安 Mk2",
+    "translation": "损坏的电子保安 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronDamaged01_01014180#CREA:FULL#b5b7faa17aaf5a26683dea9a3077ecf7",
     "original": "Damaged Securitron Mk1",
-    "translation": "损坏的电子保安 Mk1",
+    "translation": "损坏的电子保安 1型",
     "stage": 1
   },
   {
@@ -5546,37 +5546,37 @@
   {
     "key": "NVDLC03CrRoboScorpion50b_010136E0#CREA:FULL#f7c1cc33cf3a7f12c1ae772604c5bb9d",
     "original": "Robo-Scorpion Mk6b",
-    "translation": "机械蝎 Mk6b",
+    "translation": "机械蝎 6b型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion40b_010136DF#CREA:FULL#199570e807ca0a8d27dab290b4196418",
     "original": "Robo-Scorpion Mk5b",
-    "translation": "机械蝎 Mk5b",
+    "translation": "机械蝎 5b型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion30b_010136DE#CREA:FULL#2fe378671f47adafd1bc818ee226283b",
     "original": "Robo-Scorpion Mk4b",
-    "translation": "机械蝎 Mk4b",
+    "translation": "机械蝎 4b型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion20b_010136DD#CREA:FULL#141e803090a11258e227ecc69443b904",
     "original": "Robo-Scorpion Mk3b",
-    "translation": "机械蝎 Mk3b",
+    "translation": "机械蝎 3b型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion10b_010136DC#CREA:FULL#c29a054f27ba45c24965c36ff354e841",
     "original": "Robo-Scorpion Mk2b",
-    "translation": "机械蝎 Mk2b",
+    "translation": "机械蝎 2b型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion01b_010136DB#CREA:FULL#2737db937b7dd2bc405c76834ceb46bb",
     "original": "Robo-Scorpion Mk1b",
-    "translation": "机械蝎 Mk1b",
+    "translation": "机械蝎 1b型",
     "stage": 1
   },
   {
@@ -5624,37 +5624,37 @@
   {
     "key": "NVDLC03CrMisterOrderly50Respawn_0101294D#CREA:FULL#54a140b33a1b35dd32d573e4fcbaba81",
     "original": "Mister Orderly Mk6",
-    "translation": "秩序先生 Mk6",
+    "translation": "秩序先生 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterOrderly40Respawn_0101294C#CREA:FULL#17dfda3722e61ea8ba767387cd7e7f9f",
     "original": "Mister Orderly Mk5",
-    "translation": "秩序先生 Mk5",
+    "translation": "秩序先生 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterOrderly30Respawn_0101294B#CREA:FULL#594fd9b5216b93f727933e118bf402a9",
     "original": "Mister Orderly Mk4",
-    "translation": "秩序先生 Mk4",
+    "translation": "秩序先生 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterOrderly20Respawn_0101294A#CREA:FULL#19b2ae3c7d9364ad38aa0e69f1cb4866",
     "original": "Mister Orderly Mk3",
-    "translation": "秩序先生 Mk3",
+    "translation": "秩序先生 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterOrderly10Respawn_01012947#CREA:FULL#c8a529aebff8b5ebc63ebac1d186c232",
     "original": "Mister Orderly Mk2",
-    "translation": "秩序先生 Mk2",
+    "translation": "秩序先生 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterOrderly01Respawn_01012946#CREA:FULL#bc326df39fe81fc7e504a8a6464423a4",
     "original": "Mister Orderly Mk1",
-    "translation": "秩序先生 Mk1",
+    "translation": "秩序先生 1型",
     "stage": 1
   },
   {
@@ -5774,7 +5774,7 @@
   {
     "key": "NVDLC03CrProtectronblue_01010757#CREA:FULL#b471f57581ab7042b945da0ec8d8f901",
     "original": "ProtectronBlue",
-    "translation": "保卫者机器人“蓝调”",
+    "translation": "保护者“蓝调”",
     "stage": 1
   },
   {
@@ -5786,13 +5786,13 @@
   {
     "key": "NVDLC03CrProtectron_0100F808#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
     "original": "Protectron",
-    "translation": "保卫者机器人",
+    "translation": "保护者",
     "stage": 1
   },
   {
     "key": "NVDLC03RoboScorpionSmallSuicideTEST_0100F7B1#CREA:FULL#1cc31dd461bae15255713a015f5d34d0",
     "original": "Robo-Scorpion Mk1",
-    "translation": "机械蝎 Mk1",
+    "translation": "机械蝎 1型",
     "stage": 1
   },
   {
@@ -5870,13 +5870,13 @@
   {
     "key": "NVDLC03CrProtectronLvlX8Tunnel_0100F088#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
     "original": "Protectron",
-    "translation": "保卫者机器人",
+    "translation": "保护者",
     "stage": 1
   },
   {
     "key": "NVDLC03CrX8ProtectronTunnel_0100F087#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
     "original": "Protectron",
-    "translation": "保卫者机器人",
+    "translation": "保护者",
     "stage": 1
   },
   {
@@ -6014,127 +6014,127 @@
   {
     "key": "NVDLC03CrRoboScorpionMelee01_0100E579#CREA:FULL#fcb9dc2cbee77c103e7ed254045c2fcc",
     "original": "Robo-Scorpion Pincer Mk1",
-    "translation": "机械蝎钳手 Mk1",
+    "translation": "机械蝎钳手 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionMelee10_0100E578#CREA:FULL#3bc616573aa0bec58b0e159b97d17cb1",
     "original": "Robo-Scorpion Pincer Mk2",
-    "translation": "机械蝎钳手 Mk2",
+    "translation": "机械蝎钳手 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionMelee20_0100E577#CREA:FULL#0ad3f651efc048d016ecf500504715ee",
     "original": "Robo-Scorpion Pincer Mk3",
-    "translation": "机械蝎钳手 Mk3",
+    "translation": "机械蝎钳手 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionMelee30_0100E576#CREA:FULL#1d919d5bb68adba71baeeb84dd149f92",
     "original": "Robo-Scorpion Pincer Mk4",
-    "translation": "机械蝎钳手 Mk4",
+    "translation": "机械蝎钳手 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionMelee40_0100E575#CREA:FULL#a7502b2069b9981bf5be19ff3792d429",
     "original": "Robo-Scorpion Pincer Mk5",
-    "translation": "机械蝎钳手 Mk5",
+    "translation": "机械蝎钳手 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionMelee50_0100E574#CREA:FULL#7bbe87fcc38d5bbe5e3ab5bf2135ac03",
     "original": "Robo-Scorpion Pincer Mk6",
-    "translation": "机械蝎钳手 Mk6",
+    "translation": "机械蝎钳手 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionRanged01_0100E573#CREA:FULL#3836d133c0547cfa72a1e0d76d1d3671",
     "original": "Robo-Scorpion Blaster Mk1",
-    "translation": "机械蝎爆破工 Mk1",
+    "translation": "机械蝎爆破工 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionRanged10_0100E572#CREA:FULL#a1c3328494de5ba703088e678af04564",
     "original": "Robo-Scorpion Blaster Mk2",
-    "translation": "机械蝎爆破工 Mk2",
+    "translation": "机械蝎爆破工 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionRanged20_0100E571#CREA:FULL#0a02a5d58993e1fc9fc4c75c577989dd",
     "original": "Robo-Scorpion Blaster Mk3",
-    "translation": "机械蝎爆破工 Mk3",
+    "translation": "机械蝎爆破工 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionRanged30_0100E570#CREA:FULL#712b6d83737f8fb2d65b015a348341c9",
     "original": "Robo-Scorpion Blaster Mk4",
-    "translation": "机械蝎爆破工 Mk4",
+    "translation": "机械蝎爆破工 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionRanged40_0100E56F#CREA:FULL#e2d96bd5e935117ac786eda50c7a1d7a",
     "original": "Robo-Scorpion Blaster Mk5",
-    "translation": "机械蝎爆破工Mk5",
+    "translation": "机械蝎爆破工5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionRanged50_0100E56E#CREA:FULL#a4684b629c6dfdc698add9677eb3bf33",
     "original": "Robo-Scorpion Blaster Mk6",
-    "translation": "机械蝎爆破工 Mk6",
+    "translation": "机械蝎爆破工 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionSuicide01_0100E56D#CREA:FULL#ef9fe5473187094c9f1e05a52b890777",
     "original": "Robo-Scorpion Bomber Mk1",
-    "translation": "机械蝎投弹手 Mk1",
+    "translation": "机械蝎投弹手 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionSuicide10_0100E56C#CREA:FULL#ef7f459c8b811c1d7d2ed3efc84555cd",
     "original": "Robo-Scorpion Bomber Mk2",
-    "translation": "机械蝎投弹手 Mk2",
+    "translation": "机械蝎投弹手 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionSuicide20_0100E56B#CREA:FULL#4904069c5638a5bedb62c160e859275e",
     "original": "Robo-Scorpion Bomber Mk3",
-    "translation": "机械蝎投弹手 Mk3",
+    "translation": "机械蝎投弹手 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionSuicide30_0100E56A#CREA:FULL#9aabef6eba5359628d3a0ba0b92b43fc",
     "original": "Robo-Scorpion Bomber Mk4",
-    "translation": "机械蝎投弹手 Mk4",
+    "translation": "机械蝎投弹手 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionSuicide40_0100E569#CREA:FULL#16ba71434332a3d13a41d46d838b626f",
     "original": "Robo-Scorpion Bomber Mk5",
-    "translation": "机械蝎投弹手 Mk5",
+    "translation": "机械蝎投弹手 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpionSuicide50_0100E568#CREA:FULL#199dfb792e73f85220952c09b60f1304",
     "original": "Robo-Scorpion Bomber Mk6",
-    "translation": "机械蝎投弹手 Mk6",
+    "translation": "机械蝎投弹手 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03RoboScorpionSmallSuicide_0100E55B#CREA:FULL#1cc31dd461bae15255713a015f5d34d0",
     "original": "Robo-Scorpion Mk1",
-    "translation": "机械蝎 Mk1",
+    "translation": "机械蝎 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03RoboScorpionSmallRanged_0100E55A#CREA:FULL#1cc31dd461bae15255713a015f5d34d0",
     "original": "Robo-Scorpion Mk1",
-    "translation": "机械蝎 Mk1",
+    "translation": "机械蝎 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03RoboScorpionSmallMelee_0100E559#CREA:FULL#1cc31dd461bae15255713a015f5d34d0",
     "original": "Robo-Scorpion Mk1",
-    "translation": "机械蝎 Mk1",
+    "translation": "机械蝎 1型",
     "stage": 1
   },
   {
@@ -6242,73 +6242,73 @@
   {
     "key": "NVDLC03CrSentryBot50_0100CB39#CREA:FULL#48fb735a8c4de266609dbc99301c8ce6",
     "original": "Sentry Bot Mk6",
-    "translation": "铁卫兵 Mk6",
+    "translation": "铁卫兵 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot40_0100CB38#CREA:FULL#4d277ef83f43411d3a235ebbc6606b89",
     "original": "Sentry Bot Mk5",
-    "translation": "铁卫兵 Mk5",
+    "translation": "铁卫兵 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot30_0100CB37#CREA:FULL#ebc007a2c354ec9e132af3200bd157bd",
     "original": "Sentry Bot Mk4",
-    "translation": "铁卫兵 Mk4",
+    "translation": "铁卫兵 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk50_0100CB36#CREA:FULL#372b626306df22700a2b96b043551795",
     "original": "Berserk Securitron Mk6",
-    "translation": "狂暴的电子保安 Mk6",
+    "translation": "狂暴的电子保安 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk40_0100CB35#CREA:FULL#3d1917f0e80bf383dcfeae030c4ff176",
     "original": "Berserk Securitron Mk5",
-    "translation": "狂暴的电子保安 Mk5",
+    "translation": "狂暴的电子保安 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk30_0100CB34#CREA:FULL#f7a6f6cb1c040e50536caf9c83f708f5",
     "original": "Berserk Securitron Mk4",
-    "translation": "狂暴的电子保安 Mk4",
+    "translation": "狂暴的电子保安 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain50_0100CB33#CREA:FULL#8be552e7d88e41da74b7eef4ffa920cc",
     "original": "Robobrain Mk6",
-    "translation": "机器脑 Mk6",
+    "translation": "机器脑 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain40_0100CB32#CREA:FULL#016d75ad987eef7860b3fb2bbedacc09",
     "original": "Robobrain Mk5",
-    "translation": "机器脑 Mk5",
+    "translation": "机器脑 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain20_0100CB31#CREA:FULL#79e2d2d22f51761976662839ee219ccb",
     "original": "Robobrain Mk3",
-    "translation": "机器脑 Mk3",
+    "translation": "机器脑 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron50_0100CB30#CREA:FULL#107a56708515d834efeeac4ebcf25005",
     "original": "Protectron Mk6",
-    "translation": "保卫者机器人 Mk6型",
+    "translation": "保护者 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron40_0100CB2F#CREA:FULL#6b54dd5ce56eca8990b65d006a865676",
     "original": "Protectron Mk5",
-    "translation": "保卫者机器人 Mk5型",
+    "translation": "保护者 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron30_0100CB2E#CREA:FULL#a93a247c3ac4b82de967b2e03781a53b",
     "original": "Protectron Mk4",
-    "translation": "保卫者机器人 Mk4型",
+    "translation": "保护者 4型",
     "stage": 1
   },
   {
@@ -6350,37 +6350,37 @@
   {
     "key": "NVDLC03CrMisterGutsy50_0100CB27#CREA:FULL#8fa56c9de6cfb2ae4329f7812d1b51d4",
     "original": "Mister Gutsy Mk6",
-    "translation": "狂风先生 Mk6",
+    "translation": "狂风先生 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy40_0100CB26#CREA:FULL#7f7b3bfa877b780e2f745aa00c793136",
     "original": "Mister Gutsy Mk5",
-    "translation": "狂风先生 Mk5",
+    "translation": "狂风先生 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy30_0100CB25#CREA:FULL#cb0a34d76df67eed39e88a2843be3a38",
     "original": "Mister Gutsy Mk4",
-    "translation": "狂风先生 Mk4",
+    "translation": "狂风先生 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion50_0100CB24#CREA:FULL#d2e0dffa860294d15514981861d338ec",
     "original": "Robo-Scorpion Mk6",
-    "translation": "机械蝎 Mk6",
+    "translation": "机械蝎 6型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion40_0100CB23#CREA:FULL#9d4223bc026c9e7f7c20c146580883ab",
     "original": "Robo-Scorpion Mk5",
-    "translation": "机械蝎 Mk5",
+    "translation": "机械蝎 5型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion30_0100CB22#CREA:FULL#791bd582991d9b6a4f29bcd77bc4afff",
     "original": "Robo-Scorpion Mk4",
-    "translation": "机械蝎 Mk4",
+    "translation": "机械蝎 4型",
     "stage": 1
   },
   {
@@ -6428,7 +6428,7 @@
   {
     "key": "NVDLC03RoboScorpionSmall_0100C129#CREA:FULL#1cc31dd461bae15255713a015f5d34d0",
     "original": "Robo-Scorpion Mk1",
-    "translation": "机械蝎 Mk1",
+    "translation": "机械蝎 1型",
     "stage": 1
   },
   {
@@ -6458,19 +6458,19 @@
   {
     "key": "NVDLC03CrRoboScorpion20_0100A124#CREA:FULL#540cd6082d00a094130b601e8e300fe1",
     "original": "Robo-Scorpion Mk3",
-    "translation": "机械蝎 Mk3",
+    "translation": "机械蝎 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion10_0100A123#CREA:FULL#63ee2b6221c8d1ebf8549fde809b4140",
     "original": "Robo-Scorpion Mk2",
-    "translation": "机械蝎 Mk2",
+    "translation": "机械蝎 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRoboScorpion01_0100A122#CREA:FULL#1cc31dd461bae15255713a015f5d34d0",
     "original": "Robo-Scorpion Mk1",
-    "translation": "机械蝎 Mk1",
+    "translation": "机械蝎 1型",
     "stage": 1
   },
   {
@@ -6500,19 +6500,19 @@
   {
     "key": "NVDLC03CrRobobrain30_0100A11C#CREA:FULL#3b1c165705884b8c66b2ca52ae08161b",
     "original": "Robobrain Mk4",
-    "translation": "机器脑 Mk4",
+    "translation": "机器脑 4型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain10_0100A11B#CREA:FULL#e53b7182bbd092962b480b4670b4f4bc",
     "original": "Robobrain Mk2",
-    "translation": "机器脑 Mk2",
+    "translation": "机器脑 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrRobobrain01_0100A11A#CREA:FULL#d964aed8e7deb66d45a0a1c4a5d894a1",
     "original": "Robobrain Mk1",
-    "translation": "机器脑 Mk1",
+    "translation": "机器脑 1型",
     "stage": 1
   },
   {
@@ -6536,31 +6536,31 @@
   {
     "key": "NVDLC03CrSecuritronBerserk20_0100A115#CREA:FULL#d0e2870f9d5e50ca6fe6cb126ef282de",
     "original": "Berserk Securitron Mk3",
-    "translation": "狂暴的电子保安 Mk3",
+    "translation": "狂暴的电子保安 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk10_0100A114#CREA:FULL#112f2af87059c9d03e26b68617a66116",
     "original": "Berserk Securitron Mk2",
-    "translation": "狂暴的电子保安 Mk2",
+    "translation": "狂暴的电子保安 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot20_0100A113#CREA:FULL#2a7e289c53388aa037723817c78bfd25",
     "original": "Sentry Bot Mk3",
-    "translation": "铁卫兵 Mk3",
+    "translation": "铁卫兵 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot10_0100A112#CREA:FULL#723974419540b6a8a03eb3735d99e5e8",
     "original": "Sentry Bot Mk2",
-    "translation": "铁卫兵 Mk2",
+    "translation": "铁卫兵 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSentryBot01_0100A111#CREA:FULL#41d8d0b2f8185043829d0f383960d389",
     "original": "Sentry Bot Mk1",
-    "translation": "铁卫兵 Mk1",
+    "translation": "铁卫兵 1型",
     "stage": 1
   },
   {
@@ -6590,19 +6590,19 @@
   {
     "key": "NVDLC03CrMisterGutsy10_0100A10A#CREA:FULL#78e0564383700999550d90c8b4ad71a7",
     "original": "Mister Gutsy Mk2",
-    "translation": "狂风先生 Mk2",
+    "translation": "狂风先生 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy20_0100A109#CREA:FULL#02baa14425055351d99ac8c0595f3fa1",
     "original": "Mister Gutsy Mk3",
-    "translation": "狂风先生 Mk3",
+    "translation": "狂风先生 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrMisterGutsy01_0100A108#CREA:FULL#de93b97fc0a6db1712ade89450310d88",
     "original": "Mister Gutsy Mk1",
-    "translation": "狂风先生 Mk1",
+    "translation": "狂风先生 1型",
     "stage": 1
   },
   {
@@ -6656,25 +6656,25 @@
   {
     "key": "NVDLC03CrProtectron01_01009C90#CREA:FULL#2318b4bb416b4dab69e4071cd56713fd",
     "original": "Protectron Mk1",
-    "translation": "保卫者机器人 Mk1型",
+    "translation": "保护者 1型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron10_01009C8F#CREA:FULL#9d42cf543b96df05410fe0274cc17026",
     "original": "Protectron Mk2",
-    "translation": "保卫者机器人 Mk2型",
+    "translation": "保护者 2型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrProtectron20_01009C8E#CREA:FULL#837f913e4d37fd5418b9f824ca99b41c",
     "original": "Protectron Mk3",
-    "translation": "保卫者机器人 Mk3型",
+    "translation": "保护者 3型",
     "stage": 1
   },
   {
     "key": "NVDLC03CrSecuritronBerserk01_010098BA#CREA:FULL#fb152dd7f5bc230b2fea619157555375",
     "original": "Berserk Securitron Mk1",
-    "translation": "狂暴的电子保安 Mk1",
+    "translation": "狂暴的电子保安 1型",
     "stage": 1
   },
   {
@@ -6830,13 +6830,13 @@
   {
     "key": "NVDLC03TraumaHarnessNote2_01011965#NOTE:FULL#b64f81626558238f0295680afd9a6b2f",
     "original": "Y-17 Trauma Harness Action Items",
-    "translation": "Y-17防创束身服行为报告",
+    "translation": "Y-17创伤束身服行为报告",
     "stage": 1
   },
   {
     "key": "NVDLC03TraumaHarnessNote2_01011965#NOTE:TNAM#7e84984fa60773959ca98d651885e256",
     "original": "Some issues still remain to be ironed out before the Y-17 Trauma Harness is ready for general production: calibrating the proper amount of injury to trigger the suit remains problematic. Still, the Little Yangtze subjects could hardly protest once inside the harness. If a home base is not designated, the suit enters an unpredictable wander state. And, as we discovered while calibrating injury levels, the suit's sensors are unable to recognize when the wearer is dead - luckily, autonomous corpse retrieval is nearly as useful as autonomous casualty recovery!",
-    "translation": "在Y-17防创束身服正式投入生产前，一些问题尚待解决：受伤到何种程度开始激活服装的功能才是恰当的呢？而且，长江集中营的受试者在束身服功能被激活后，便几乎失去了自主行动能力。如果不指定基地位置，束身服还会进入无法预知的游荡状态。此外，在校准功能激活的受伤阈值时，我们还发现，束身服的传感器无法识别穿戴者的死活。当然幸运的是，在战场上自动送回尸体和自动送回伤员类似，都能派上用场！",
+    "translation": "在Y-17创伤束身服正式投入生产前，一些问题尚待解决：受伤到何种程度开始激活服装的功能才是恰当的呢？而且，长江集中营的受试者在束身服功能被激活后，便几乎失去了自主行动能力。如果不指定基地位置，束身服还会进入无法预知的游荡状态。此外，在校准功能激活的受伤阈值时，我们还发现，束身服的传感器无法识别穿戴者的死活。当然幸运的是，在战场上自动送回尸体和自动送回伤员类似，都能派上用场！",
     "stage": 1
   },
   {
@@ -6854,7 +6854,7 @@
   {
     "key": "NVDLC03HQBuddyCentralIntelligenceNOTE_0101634B#NOTE:FULL#2f622054010ad553c4e7feadbdb3788d",
     "original": "Sink Project: Central Intelligence Unit",
-    "translation": "“汇聚节点”计划：中央智能单元",
+    "translation": "汇聚节点计划：中央智能单元",
     "stage": 1
   },
   {
@@ -6902,13 +6902,13 @@
   {
     "key": "NVDLC03TraumaHarnessNote_0101604D#NOTE:FULL#a523490a30e8bd67940c828eeecc1574",
     "original": "Y-17 Trauma Harness Testing Results",
-    "translation": "Y-17防创束身服试验结果",
+    "translation": "Y-17创伤束身服试验结果",
     "stage": 1
   },
   {
     "key": "NVDLC03TraumaHarnessNote_0101604D#NOTE:TNAM#ac595cfd88f8e180e80aff818cd10bc6",
     "original": "The Y-17 Trauma Harness has succeeded beyond our wildest expectations! The test harnesses were able to take over the motor functions of an injured subject and \"walk\" them back to home base.\\n\\nWe'll have to see what develops once it's recorded enough neuro-auto-muscular movements to display a wider range of behaviors... to think, if they could be programmed to replicate a wearer's shooting or fighting reflexes, we'd have something truly amazing for the war effort!",
-    "translation": "Y-17防创束身服的成功远超我们的预期！测试的束身服能够接管负伤受试者的运动机能，并且让他们“走”回基地。\\n\\n在它记录了足够多的自动化神经-肌肉移动数据，能够执行更多的动作以后，我们打算再看看它会发展成什么样。试想，假如它们经过编程后，可以复制穿戴者的射击或战斗反应动作，我们就能为战争做出惊人的贡献！",
+    "translation": "Y-17创伤束身服的成功远超我们的预期！测试的束身服能够接管负伤受试者的运动机能，并且让他们“走”回基地。\\n\\n在它记录了足够多的自动化神经-肌肉移动数据，能够执行更多的动作以后，我们打算再看看它会发展成什么样。试想，假如它们经过编程后，可以复制穿戴者的射击或战斗反应动作，我们就能为战争做出惊人的贡献！",
     "stage": 1
   },
   {
@@ -7124,7 +7124,7 @@
   {
     "key": "NVDLC03X8CyberdogGunNote_01014B80#NOTE:TNAM#fb9521bbe2ed4e64753bac622a0d19cf",
     "original": "We've had a small issue with one of our Y-17 Trauma Harnesses. Sadly, a member of the X-12 research team choked on a buffalo gourd seed and died while working late last night. For some reason his Y-17 Trauma Harness will not shutdown. In fact, it has begun malfunctioning and causing the late Mr. Harris to attack other employees. Do you have any prototypes you could lend us as a means to stop it?\\n\\n-Barb",
-    "translation": "我们的其中一套Y-17防创束身服出了一点小问题。很不幸，在昨晚加班的时候，X-12的一个研究员被水牛葫芦种子给噎死了。但不知道为什么，防创束身服没法停下来。事实上，束身服已经开始出现故障，并导致死去的哈里斯先生攻击其他的员工。请问你们那有什么原型武器能借给我们，让我们把它停下来吗？\\n\\n——巴尔布",
+    "translation": "我们的其中一套Y-17创伤束身服出了一点小问题。很不幸，在昨晚加班的时候，X-12的一个研究员被水牛葫芦种子给噎死了。但不知道为什么，防创束身服没法停下来。事实上，束身服已经开始出现故障，并导致死去的哈里斯先生攻击其他的员工。请问你们那有什么原型武器能借给我们，让我们把它停下来吗？\\n\\n——巴尔布",
     "stage": 1
   },
   {
@@ -7136,7 +7136,7 @@
   {
     "key": "NVDLC03X8Test2SonicEmitterNote_01014AB3#NOTE:TNAM#8421569ce8659946b115bb00673468d0",
     "original": "A Sonic Emitter is required to complete this test. If you were not provided with a Sonic Emitter or have misplaced the one provided to you, please contact your Big MT host to receive one before entering the testing area.\\nAddendum:  Due to staffing cutbacks, a new Sonic Emitter can now be received at The Sink Central Intelligence Unit.",
-    "translation": "完成该测试需要携带声波发射器。如果你没有拿到，或者遗失了声波发射器，请在进入测试区前，联系大山脉组织人员领取。\\n\\n附录：由于裁员，现可在“汇聚节点”中央智能单元处，获取新的声波发射器。",
+    "translation": "完成该测试需要携带声波发射器。如果你没有拿到，或者遗失了声波发射器，请在进入测试区前，联系大山脉组织人员领取。\\n附录：由于裁员，现可在汇聚节点中央智能单元处，获取新的声波发射器。",
     "stage": 1
   },
   {
@@ -7454,7 +7454,7 @@
   {
     "key": "NVDLC03X8DataRetrievalAdvanceExpNote_010124A8#NOTE:TNAM#dbe9215cd9283b8de2db31e0a9d8d78a",
     "original": "For this test, you must use any means necessary to retrieve three student files from an average high school. Utilize the Field Disrupter Capacitance Module for the Sonic Emitter to better navigate the area. Protectrons and basic security protocols have been activated.\\n\\nSuccess - Retrieve three student files.\\n\\nFailure - Security measures prohibit you from retrieving the files.",
-    "translation": "在这次测试中，你必须尽你所能，从一所普通高中里，取回三份学生文件。使用声波发射器的力场干扰电容模块，可以更好地探索该区域。保卫者机器人和基础安保协议已启动。\\n\\n成功：取回3份学生文件。\\n\\n失败：安保系统阻止你回收文件。",
+    "translation": "在这次测试中，你必须尽你所能，从一所普通高中里，取回三份学生文件。使用声波发射器的力场干扰电容模块，可以更好地探索该区域。保护者和基础安保协议已启动。\\n\\n成功：取回3份学生文件。\\n\\n失败：安保系统阻止你回收文件。",
     "stage": 1
   },
   {
@@ -7748,7 +7748,7 @@
   {
     "key": "NVDLC03HQBuddyMuggyNOTE_01011FA0#NOTE:FULL#4c2af590df9a90b1d7e372ddbe8126a2",
     "original": "Sink Project: Muggy",
-    "translation": "“汇聚节点”计划：小杯具",
+    "translation": "汇聚节点计划：小杯具",
     "stage": 1
   },
   {
@@ -7760,7 +7760,7 @@
   {
     "key": "NVDLC03HQBuddyLightSwitch02NOTE_01011F9F#NOTE:FULL#5b40789a425ce093230ab2842dea7489",
     "original": "Sink Project: Light Switch 02",
-    "translation": "“汇聚节点”计划：灯开关 02",
+    "translation": "汇聚节点计划：灯开关 02",
     "stage": 1
   },
   {
@@ -7772,7 +7772,7 @@
   {
     "key": "NVDLC03HQBuddyLightSwitch01NOTE_01011F9E#NOTE:FULL#5c9823a8328c22fd51cf506415ede6b4",
     "original": "Sink Project: Light Switch 01",
-    "translation": "“汇聚节点”计划：灯开关 01",
+    "translation": "汇聚节点计划：灯开关 01",
     "stage": 1
   },
   {
@@ -7784,7 +7784,7 @@
   {
     "key": "NVDLC03HQBuddySinkNOTE_01011F9D#NOTE:FULL#7e57762fa347653b7a31eb09ae233522",
     "original": "Sink Project: Sink",
-    "translation": "“汇聚节点”计划：水槽",
+    "translation": "汇聚节点计划：水槽",
     "stage": 1
   },
   {
@@ -7796,7 +7796,7 @@
   {
     "key": "NVDLC03HQBuddyToasterNOTE_01011F9C#NOTE:FULL#00a2df7ae1bed9efc80db9ecf2f23344",
     "original": "Sink Project: Toaster",
-    "translation": "“汇聚节点”计划：烤面包机",
+    "translation": "汇聚节点计划：烤面包机",
     "stage": 1
   },
   {
@@ -7808,7 +7808,7 @@
   {
     "key": "NVDLC03HQBuddyBookChuteNOTE_01011F99#NOTE:FULL#01cf0df2ee1584e012d4b763e9a8ebd4",
     "original": "Sink Project: Book Chute",
-    "translation": "“汇聚节点”计划：图书机",
+    "translation": "汇聚节点计划：图书机",
     "stage": 1
   },
   {
@@ -7820,7 +7820,7 @@
   {
     "key": "NVDLC03HQBuddyJukeboxNOTE_01011F98#NOTE:FULL#66942e1d19b10aab4a56c898e7358fb1",
     "original": "Sink Project: Jukebox",
-    "translation": "“汇聚节点”计划：点唱机",
+    "translation": "汇聚节点计划：点唱机",
     "stage": 1
   },
   {
@@ -7832,7 +7832,7 @@
   {
     "key": "NVDLC03HQBuddyAutoDocNOTE_01011F97#NOTE:FULL#142993d597584b5376b1582a55cbfe2f",
     "original": "Sink Project: Auto-Doc",
-    "translation": "“汇聚节点”计划：自动医生",
+    "translation": "汇聚节点计划：自动医生",
     "stage": 1
   },
   {
@@ -7844,7 +7844,7 @@
   {
     "key": "NVDLC03HQBuddyBiologyNOTE_01011F96#NOTE:FULL#2f4268bf0582fc72f8445cd8a6171dce",
     "original": "Sink Project: Biological Research Station",
-    "translation": "“汇聚节点”计划：生物研究站",
+    "translation": "汇聚节点计划：生物研究站",
     "stage": 1
   },
   {
@@ -7862,7 +7862,7 @@
   {
     "key": "NVDLC03SonicGunTarantulaNOTE_01011F95#NOTE:TNAM#aa85ab71f8c2d2c8e89629bbc750bfe8",
     "original": "This holotape contains an audio sample entitled, \"Giant Tarantula Attack.\" It can be used to modify the Sonic Emitter weapon at the Sink's Jukebox.",
-    "translation": "这盘全息磁带记录着“巨型狼蛛攻击”的音频样本。可在“汇聚节点”的点唱机处，改变声波发射器的效果。",
+    "translation": "这盘全息磁带记录着“巨型狼蛛攻击”的音频样本。可在汇聚节点的点唱机处，改变声波发射器的效果。",
     "stage": 1
   },
   {
@@ -7874,7 +7874,7 @@
   {
     "key": "NVDLC03SonicGunRoboScorpionNOTE_01011F94#NOTE:TNAM#a966bb079c6003b96a02fdac07c1a4b6",
     "original": "This holotape contains an audio sample from Mobius' Giant Robo-Scorpion. It can be used to modify the Sonic Emitter weapon at the Sink's Jukebox.",
-    "translation": "这盘全息磁带记录着“莫比乌斯的巨型机械蝎”的音频样本。可在“汇聚节点”点唱机处，改变声波发射器的效果。",
+    "translation": "这盘全息磁带记录着“莫比乌斯的巨型机械蝎”的音频样本。可在汇聚节点点唱机处，改变声波发射器的效果。",
     "stage": 1
   },
   {
@@ -7886,7 +7886,7 @@
   {
     "key": "NVDLC03SonicGunOperaSingerNOTE_01011F93#NOTE:TNAM#ed468dcc598e8270db5a043d3122e799",
     "original": "This holotape contains an audio sample entitled, \"Opera Singer.\" It can be used to modify the Sonic Emitter weapon at the Sink's Jukebox.",
-    "translation": "这盘全息磁带记录着“歌剧演唱家”的音频样本。可在“汇聚节点”点唱机处，改变声波发射器的效果。",
+    "translation": "这盘全息磁带记录着“歌剧演唱家”的音频样本。可在汇聚节点点唱机处，改变声波发射器的效果。",
     "stage": 1
   },
   {
@@ -7898,7 +7898,7 @@
   {
     "key": "NVDLC03SonicGunGabrielsBarkNOTE_01011F92#NOTE:TNAM#1f7b727cb217cb63429fae0a7e9b17b6",
     "original": "This holotape contains a audio sample of Gabriel's Bark. It can be used to modify the Sonic Emitter weapon at the Sink's Jukebox.",
-    "translation": "这盘全息磁带记录着“加布的吠叫”的音频样本。可在“汇聚节点”点唱机处，改变声波发射器的效果。",
+    "translation": "这盘全息磁带记录着“加布的吠叫”的音频样本。可在汇聚节点点唱机处，改变声波发射器的效果。",
     "stage": 1
   },
   {
@@ -8024,7 +8024,7 @@
   {
     "key": "NVDLC03X42DroneNote02_0100F03D#NOTE:TNAM#90296d2ec237caf5d0050b9dcb54ba4d",
     "original": "The constant improvements to the Giant Robo-Scorpion has rendered the Protectron models we've been using as \"hostile Communist forces\" largely ineffective. At this stage, they're little more than distractions.",
-    "translation": "随着机械巨蝎的不断改进，这些用来充当“敌对共产势力军队”的保卫者机器人靶机强度过低，已经不具备测试有效性。在当前试验阶段，它们除了分散分散机械巨蝎注意力外，没有任何用处。",
+    "translation": "随着机械巨蝎的不断改进，这些用来充当“敌对共产势力军队”的保护者靶机强度过低，已经不具备测试有效性。在当前试验阶段，它们除了分散分散机械巨蝎注意力外，没有任何用处。",
     "stage": 1
   },
   {
@@ -8144,7 +8144,7 @@
   {
     "key": "NVDLC03X8InternalMemo01_0100E240#NOTE:TNAM#5637fd5d28cbeb46747cb7250179990b",
     "original": "Subjects will be informed that we are gauging the effectiveness of Communist infiltration of American schools. They won't know about the Cyberdogs until they actually begin the testing process.\\n\\n1) TEST A engages Cyberdog protection protocols alongside standard automated turret systems.\\n2) TEST B adds Protectrons to the previous test. TEST B also includes some basic tests for the Field Disrupter Capacitance Module.",
-    "translation": "受试者将被告知，我们正在评估共产党对美国学校的渗透程度。他们不会知道赛博犬的存在，直到他们真正开始测试。\\n\\n1) 测试A：将赛博犬防卫协议和标准自动炮塔系统一起使用。\\n2) 测试B：在测试A的基础上加入保卫者机器人。测试B还包括对力场干扰电容模块的一些基本测试。",
+    "translation": "受试者将被告知，我们正在评估共产党对美国学校的渗透程度。他们不会知道赛博犬的存在，直到他们真正开始测试。\\n\\n1) 测试A：将赛博犬防卫协议和标准自动炮塔系统一起使用。\\n2) 测试B：在测试A的基础上加入保护者。测试B还包括对力场干扰电容模块的一些基本测试。",
     "stage": 1
   },
   {
@@ -11078,7 +11078,7 @@
   {
     "key": "NVDLC03IntroSlide09_01003729#INFO:NAM1#656598a257d900cf92d06d68c92affaf",
     "original": "{Narration}For years, the minds and computers of Big Mountain were a blaze of trajectories, weapon schematics, and nuclear theories.",
-    "translation": "{Narration}年复一年，大山脉的头脑和电脑研究出了无数弹道理论、武器图纸和原子理论成果。",
+    "translation": "{Narration}年复一年，大山脉的头脑和电脑研究出了无数弹道理论、武器图纸与核子理论成果。",
     "stage": 1
   },
   {
@@ -11096,7 +11096,7 @@
   {
     "key": "NVDLC03IntroSlide06_01003730#INFO:NAM1#c960cccb6f92c085d8a09d272fed2766",
     "original": "{Narration}The Great War brought a new energy to Big Mountain and its scientists.",
-    "translation": "{Narration}之后，伟大战争为大山脉及其科学家带来了新的研究动力。",
+    "translation": "{Narration}之后，大战为大山脉及其科学家带来了新的研究动力。",
     "stage": 1
   },
   {
@@ -11114,7 +11114,7 @@
   {
     "key": "NVDLC03IntroSlide04_0100372D#INFO:NAM1#68ebd6581c457a7819a769f8cb68764a",
     "original": "{Narration}Sonic emitters, space age alloys, DNA hybridization, force field particle research, Auto-Doc advances in cranial, cardiac, and trauma surgery...",
-    "translation": "{Narration}声波发射器、太空时代合金、DNA重组技术、力场粒子研究，还有自动医生在大脑、心脏、外伤手术领域的进步…",
+    "translation": "{Narration}声波发射器、太空时代合金、DNA重组技术、力场粒子研究，还有自动医生在大脑、心脏、创伤手术领域的进步…",
     "stage": 1
   },
   {
@@ -11138,7 +11138,7 @@
   {
     "key": "NVDLC03IntroSlide01_0100372E#INFO:NAM1#f1448daabe4cefdc5e02ca42f66e879e",
     "original": "{Narration}In the years before the Great War, Big Mountain had been the home to the brightest minds of the 21st century.",
-    "translation": "{Narration}在伟大战争爆发的前些年，大山脉聚集了21世纪最聪明的头脑。",
+    "translation": "{Narration}在大战爆发的前些年，大山脉聚集了21世纪最聪明的头脑。",
     "stage": 1
   },
   {
@@ -11402,7 +11402,7 @@
   {
     "key": "NVDLC03EndingSlideStart_0100D366#INFO:NAM1#bd7490c333138db68073759b6158bc37",
     "original": "{Narration}{Bad Karma}{Ruthless, authoritative}As it had been in the years before the Great War, Big {Mountain}MT... the Big Empty... became home to one of the most powerful minds of the 23rd century.",
-    "translation": "{Narration} {Bad Karma} {Ruthless, authoritative}就如伟大战争前的那些日子，大山脉{Mountain}…或者说大坑洞…聚集了23世纪最强大的头脑们。",
+    "translation": "{Narration} {Bad Karma} {Ruthless, authoritative}就如大战前的那些日子，大山脉{Mountain}…或者说大坑洞…聚集了23世纪最强大的头脑们。",
     "stage": 1
   },
   {
@@ -11420,7 +11420,7 @@
   {
     "key": "NVDLC03EndingSlideStart_01016002#INFO:NAM1#591afc2d3569c219cd954ea2cb369836",
     "original": "{Narration}{Good or Neutral Karma}As it had been in the years before the Great War, Big {Mountain}MT... the Big Empty... became home to one of brightest minds of the 23rd century.",
-    "translation": "{Narration} {Good or Neutral Karma}就如伟大战争前的那些日子，大山脉{Mountain}…大坑洞…聚集了23世纪最聪明的头脑们。",
+    "translation": "{Narration} {Good or Neutral Karma}就如大战前的那些日子，大山脉{Mountain}…大坑洞…聚集了23世纪最聪明的头脑们。",
     "stage": 1
   },
   {
@@ -11834,7 +11834,7 @@
   {
     "key": "NVDLC03DialogueMobiusScorpionTest_01014001#INFO:NAM1#bc849a83201c5eab15ea952a4bf31da1",
     "original": "{2D - broadcast over speakers}The X-42 Giant Robo-Scorpion... is alive! Awaken, my pet, initiate your search-and-destroy protocol in the name of all that is Mobius!",
-    "translation": "{2D - broadcast over speakers}X-42机械巨蝎…苏醒了！醒来吧，我的宠物，以莫比乌斯之名，启动你的“搜索-毁灭”协议！",
+    "translation": "{2D - broadcast over speakers}X-42机械巨蝎…苏醒了！醒来吧，我的宠物，以莫比乌斯之名，启动你的“搜索并歼灭”协议！",
     "stage": 1
   },
   {
@@ -22934,7 +22934,7 @@
   {
     "key": "NVDLC03EndingSlideChipAutoDocY17_0101600C#INFO:NAM1#1364ea0dc5ddd4550880fa2f14ad70c2",
     "original": "{Narration}{Y-17 was discovered}In time, the Auto-Doc found a way to deactivate the Y-17 Trauma Harnesses, releasing the corpses they had held prisoner for almost 200 years.",
-    "translation": "{Narration}{Y-17 was discovered}后来，自动医生找到了关闭Y-17防创束身服的方法，让那些被监禁了200多年的枯骨们终于重获自由。",
+    "translation": "{Narration}{Y-17 was discovered}后来，自动医生找到了关闭Y-17创伤束身服的方法，让那些被监禁了200多年的枯骨们终于重获自由。",
     "stage": 1
   },
   {
@@ -22970,13 +22970,13 @@
   {
     "key": "NVDLC03EndingSlideChipJukebox_0101600E#INFO:NAM1#dea42650a49ed9314fee1e88fac6a370",
     "original": "{Narration}{< 3 Sound effects gained}Blind Diode Jefferson eventually discovered a new sound... silence. It only made him more filled with the blues than before.",
-    "translation": "{Narration}{< 3 Sound effects gained}盲二极管·杰弗逊最终找到了一种新声音…寂静。这让他比之前更忧郁了。",
+    "translation": "{Narration}{< 3 Sound effects gained}盲二极管杰弗逊最终找到了一种新声音…寂静。这让他比之前更忧郁了。",
     "stage": 1
   },
   {
     "key": "NVDLC03EndingSlideChipJukebox_0101600F#INFO:NAM1#f2c2c5df9d4ceef37b659e9422fa8fd8",
     "original": "{Narration}{3+ Sound effects gained}Blind Diode Jefferson, with sounds the Courier brought him, created a symphonic counter-frequency that saved Big {Mountain}MT from sonic invasion in 2910.",
-    "translation": "{Narration}{3+ Sound effects gained}利用邮差带来的声音，盲二极管·杰弗逊创造了一个交响乐团级的反频率。这帮助大山脉{Mountain}成功抵御了2910年的音波入侵。",
+    "translation": "{Narration}{3+ Sound effects gained}利用邮差带来的声音，盲二极管杰弗逊创造了一个交响乐团级的反频率。这帮助大山脉{Mountain}成功抵御了2910年的音波入侵。",
     "stage": 1
   },
   {
@@ -23144,13 +23144,13 @@
   {
     "key": "NVDLC03EndingSlideHQ_01016014#INFO:NAM1#a471776a5c29e056843689d08a925736",
     "original": "{Narration}{1 module installed}The Sink was strangely silent, which it had never been in previous years. The lack of personality modules made the base lifeless and sterile.",
-    "translation": "{Narration}{1 module installed}“汇聚节点”陷入诡异的寂静，这里在过去的岁月里从不如此。缺少人格模块使这里成了一个毫无生气的乏味之地。",
+    "translation": "{Narration}{1 module installed}汇聚节点陷入诡异的寂静，这里在过去的岁月里从不如此。缺少人格模块使这里成了一个毫无生气的乏味之地。",
     "stage": 1
   },
   {
     "key": "NVDLC03EndingSlideHQ_01016015#INFO:NAM1#3b9056a1352c553a1e32094402726f51",
     "original": "{Narration}{2-4 modules installed}The Sink atop the Dome gained a frontier town feel with the few modules installed.",
-    "translation": "{Narration}{2-4 modules installed}安装了几个人格模块后，穹顶上的“汇聚节点”有了点边陲小镇的感觉。",
+    "translation": "{Narration}{2-4 modules installed}安装了几个人格模块后，穹顶上的汇聚节点有了点边陲小镇的感觉。",
     "stage": 1
   },
   {
@@ -23168,7 +23168,7 @@
   {
     "key": "NVDLC03EndingSlideHQ_01016016#INFO:NAM1#3de34847c36fdf989c686f523c9116d0",
     "original": "{Narration}{5+ modules installed}The Sink atop the Dome bustled with the voices of a small town, constantly chirping, arguing, and snarling at each other.",
-    "translation": "{Narration}{5+ modules installed}穹顶上的“汇聚节点”现在喧闹得像个小镇，人格们叽叽喳喳，不停地互相争论、喊叫。",
+    "translation": "{Narration}{5+ modules installed}穹顶上的汇聚节点现在喧闹得像个小镇，人格们叽叽喳喳，不停地互相争论、喊叫。",
     "stage": 1
   },
   {
@@ -25472,7 +25472,7 @@
   {
     "key": "NVDLC03HQBuddyUpgrade_010112E5#QUST:FULL#c3a7081a201bec09e1513d392e2f6772",
     "original": "Influencing People",
-    "translation": "影响人类",
+    "translation": "影响他人",
     "stage": 1
   },
   {
@@ -25484,25 +25484,25 @@
   {
     "key": "NVDLC03HQBuddyUpgrade_010112E5#QUST:NNAM#c222b86e5a0373607ca1b0c61f5a6597",
     "original": "Find the upgrades to The Sink's Central Intelligence Unit.",
-    "translation": "找到\"汇聚节点\"中央智能单元的升级文件",
+    "translation": "找到汇聚节点中央智能单元的升级文件",
     "stage": 1
   },
   {
     "key": "NVDLC03HQBuddyUpgrade_010112E5#QUST:NNAM#02779da7e92d804e23f0695815c832c7",
     "original": "Find the upgrades to The Sink's Auto-Doc.",
-    "translation": "找到\"汇聚节点\"自动医生的升级文件",
+    "translation": "找到汇聚节点自动医生的升级文件",
     "stage": 1
   },
   {
     "key": "NVDLC03HQBuddyUpgrade_010112E5#QUST:NNAM#68f5360bb3d5af13e9f626b66a848dd0",
     "original": "Find the upgrades to The Sink's support AIs.",
-    "translation": "找到\"汇聚节点\"水槽的升级文件",
+    "translation": "找到汇聚节点水槽的升级文件",
     "stage": 1
   },
   {
     "key": "NVDLC03HQBuddyUpgrade_010112E5#QUST:NNAM#0942296fcadbe9090c0c8bf375445b34",
     "original": "Install the upgrades in The Sink.",
-    "translation": "在\"汇聚节点\"安装升级文件",
+    "translation": "在汇聚节点安装升级文件",
     "stage": 1
   },
   {
@@ -25538,7 +25538,7 @@
   {
     "key": "NVDLC03HQBuddy_010112E3#QUST:NNAM#19812b5a0b5a3faa71afbe6afef0cc96",
     "original": "Install the personality modules in The Sink.",
-    "translation": "安装\"汇聚节点\"的人格模块",
+    "translation": "安装汇聚节点的人格模块",
     "stage": 1
   },
   {
@@ -25568,7 +25568,7 @@
   {
     "key": "NVDLC03HQBuddy_010112E3#QUST:NNAM#2013d18d12b93b07913cb57119eabdc1",
     "original": "Go to The Sink and install the Central Intelligence Unit.",
-    "translation": "进入\"汇聚节点\"并安装“中央智能单元”",
+    "translation": "进入汇聚节点并安装中央智能单元。",
     "stage": 1
   },
   {
@@ -25598,7 +25598,7 @@
   {
     "key": "NVDLC03HQBuddySamples_010112D6#QUST:NNAM#4ca44e677f617dad78f09b723f67d15a",
     "original": "Return the samples to The Sink.",
-    "translation": "将样本带回\"汇聚节点\"",
+    "translation": "将样本带回汇聚节点。",
     "stage": 1
   },
   {
@@ -26090,19 +26090,19 @@
   {
     "key": "NVDLC03MQ05_01002FCC#QUST:NNAM#c8ed070e87df6d66bed4d4800bfe2c84",
     "original": "(Optional) Use the Sink Auto-Doc to retrieve your original heart.",
-    "translation": "(可选)使用\"汇聚节点\"的自动医生装回你原来的心脏",
+    "translation": "(可选)使用汇聚节点的自动医生装回你原来的心脏。",
     "stage": 1
   },
   {
     "key": "NVDLC03MQ05_01002FCC#QUST:NNAM#ce70599e04724eab2a2cb179e8e2d927",
     "original": "(Optional) Use the Sink Auto-Doc to retrieve your original spine.",
-    "translation": "(可选)使用\"汇聚节点\"的自动医生装回你原来的脊椎",
+    "translation": "(可选)使用汇聚节点的自动医生装回你原来的脊椎。",
     "stage": 1
   },
   {
     "key": "NVDLC03MQ05_01002FCC#QUST:NNAM#478d5054a353740646f2ca71233ea8c0",
     "original": "(Optional) Retrieve the Sink Auto-Doc's personality holotape from Y-17 to restore the Auto-Doc's functionality.",
-    "translation": "(可选)在Y-17找到\"汇聚节点\"自动医生的人格磁带，使其重新运作",
+    "translation": "(可选)在Y-17找到汇聚节点自动医生的人格磁带，使其重新运作。",
     "stage": 1
   },
   {
@@ -26396,7 +26396,7 @@
   {
     "key": "NVDLC03ImplantGRXPerk_01009D48#PERK:DESC#98d4ad43fcb78663c044aed91bee7afc",
     "original": "You gain a non-addictive subdermal Turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10. [Activated in the Pip-Boy inventory.]",
-    "translation": "你获得了一个不会上瘾的增压剂注射器（药物）。这个特长能升2级，第2级能把效果从2秒提高为3秒，把每天的使用次数从5次提升到10次 [已在哔哔小子物品栏启用]",
+    "translation": "你获得了一个不会上瘾的增压剂注射器（药物）。这个特长能升2级，第2级能把效果从2秒提高为3秒，把每天的使用次数从5次提升到10次 [在哔哔小子物品栏启用]",
     "stage": 1
   },
   {
@@ -28544,7 +28544,7 @@
   {
     "key": "NVDLC03AchievementMakingFriends_01011956#CHAL:DESC#fa7322cde86846e056797536e2663f1b",
     "original": "Reactivated all of the Sink's robotic assistants.",
-    "translation": "重新激活汇聚节点的所有机械助手.",
+    "translation": "重新激活汇聚节点的所有机械助手。",
     "stage": 1
   },
   {
@@ -28802,25 +28802,25 @@
   {
     "key": "_0100BAFD#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
     "original": "Collect Hanging Meat",
-    "translation": "拾取腊肉",
+    "translation": "拾取挂着的肉",
     "stage": 1
   },
   {
     "key": "_0100C146#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
     "original": "Collect Hanging Meat",
-    "translation": "拾取腊肉",
+    "translation": "拾取挂着的肉",
     "stage": 1
   },
   {
     "key": "_0100D3BD#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
     "original": "Collect Hanging Meat",
-    "translation": "拾取腊肉",
+    "translation": "拾取挂着的肉",
     "stage": 1
   },
   {
     "key": "_0100D3BE#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
     "original": "Collect Hanging Meat",
-    "translation": "拾取腊肉",
+    "translation": "拾取挂着的肉",
     "stage": 1
   },
   {
@@ -29018,7 +29018,7 @@
   {
     "key": "NVDLC03SLX12INT_0100CC33#CELL:FULL#cbc23ef824cd8c0be7ea084d650d9cbe",
     "original": "X-12",
-    "translation": "X-12研究中心",
+    "translation": "X-12",
     "stage": 1
   },
   {
@@ -29366,7 +29366,7 @@
   {
     "key": "NVDLC03TheSinkBalconyMarker_01009A23#REFR:FULL#75963b910cf255db4782edfa08b881cd",
     "original": "The Sink Balcony",
-    "translation": "“汇聚节点”阳台",
+    "translation": "汇聚节点阳台",
     "stage": 1
   },
   {
@@ -29445,6 +29445,96 @@
     "key": "NVDLC03Higgs_0100C6FA#WRLD:FULL#b2a110322a5c71de6811e5dedd4b1d52",
     "original": "Higgs Village",
     "translation": "希格斯村",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100BAFD#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
+    "original": "Collect Hanging Meat",
+    "translation": "拾取挂着的肉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100C146#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
+    "original": "Collect Hanging Meat",
+    "translation": "拾取挂着的肉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D3BD#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
+    "original": "Collect Hanging Meat",
+    "translation": "拾取挂着的肉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D3BE#REFR:XATO#f15e71e2e3a9a3cf0fea2bd4b34fc49b",
+    "original": "Collect Hanging Meat",
+    "translation": "拾取挂着的肉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010094CF#REFR:XATO#c4a50cf45ed10bc4c203c976addca9c1",
+    "original": "Exit to Big MT",
+    "translation": "返回大山脉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0101070E#REFR:XATO#c4a50cf45ed10bc4c203c976addca9c1",
+    "original": "Exit to Big MT",
+    "translation": "返回大山脉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01004633#REFR:XATO#922e0f5445971b70dd60e74dc077b8fe",
+    "original": "Open Door to Big MT",
+    "translation": "打开通往大山脉的门",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010094D1#REFR:XATO#0fbdf5628221fe6acf3a81832a1f4e58",
+    "original": "Open Gate to Big MT",
+    "translation": "打开通往大山脉的门",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01009516#REFR:XATO#c4a50cf45ed10bc4c203c976addca9c1",
+    "original": "Exit to Big MT",
+    "translation": "返回大山脉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01014AC2#REFR:XATO#c4a50cf45ed10bc4c203c976addca9c1",
+    "original": "Exit to Big MT",
+    "translation": "返回大山脉",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010094CE#REFR:XATO#6c135477de29bf4accb2f451418b01f3",
+    "original": "Open Door to Z-43 Innovative Toxins Plant",
+    "translation": "打开通往Z-43新型毒素工厂的门",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010094D6#REFR:XATO#4e078458a8a0987c888db0659847dfa1",
+    "original": "Open Door to Z-38 Lightwave Dynamics Research",
+    "translation": "打开通往Z-38光波动力学研究所的门",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01009A27#REFR:XATO#7e9bdb995226766397ec3b141ef21af5",
+    "original": "Enter The Cuckoo's Nest",
+    "translation": "进入疯人院",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01014B4C#REFR:XATO#c370b572123bf1a2dc24275bfa6cd993",
+    "original": "Enter Ulysses' Point",
+    "translation": "进入尤利西斯的据点",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010119D3#REFR:XATO#489da6e48179402241e977550b33375c",
+    "original": "Take Elijah's Advanced LAER",
+    "translation": "拿取以利亚的高级激光引导电能步枪",
     "stage": 1
   }
 ]

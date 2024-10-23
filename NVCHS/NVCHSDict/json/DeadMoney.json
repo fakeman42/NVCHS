@@ -32366,7 +32366,7 @@
   {
     "key": "NVDLC01ElijahDialogueNVDLC01ElijahTalkingActivatorTopic001_01013A75#INFO:NAM1#1bbfc6801fd9bc43d4b33c42bade31f1",
     "original": "{Contemplative}It is unique across the wasteland... and deadly. It has kept this place preserved since the Great War.",
-    "translation": "放眼整个废土，也只有这里存在着如此独特……而致命的物质。赌场正是依靠它才能核战之后屹立数百年不倒。",
+    "translation": "{Contemplative} 放眼整个废土，也只有这里存在着如此独特……而致命的物质。赌场正是依靠它才能在大战之后屹立数百年不倒。",
     "stage": 1
   },
   {
@@ -34940,7 +34940,7 @@
   {
     "key": "NVDLC01LoadScreenActTwo03_01012404#LSCR:DESC#556ed7e5190e88b4ff2f7f13afff9c85",
     "original": "The Sierra Madre was Frederick Sinclair's last venture before the Great War.",
-    "translation": "马德雷山脉赌场是弗雷德里克·辛克莱在战前的最后一次风险投资。",
+    "translation": "马德雷山脉赌场是弗雷德里克·辛克莱在大战前的最后一次风险投资。",
     "stage": 1
   },
   {
@@ -38245,6 +38245,114 @@
   },
   {
     "key": "_0100FDD9#REFR:FULL#ee759ae260e1f091652a4b494aa00818",
+    "original": "Campanas del Sol",
+    "translation": "太阳钟楼",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01010DD1#REFR:XATO#ef212c4d0f470e9d51b411c0dcaf6147",
+    "original": "Search Corpse",
+    "translation": "寻找尸体",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010109F4#REFR:XATO#ef212c4d0f470e9d51b411c0dcaf6147",
+    "original": "Search Corpse",
+    "translation": "寻找尸体",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01006392#REFR:XATO#8f6c66e828302efd74ae20baf15492cf",
+    "original": "Flip Switch",
+    "translation": "按下开关",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100E1FA#REFR:XATO#9760ef316dacc87d7033af4469ab61a6",
+    "original": "Security Chief's Assistant's Desk",
+    "translation": "安全主管的办公桌",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_001556C4#REFR:XATO#683c1741100a57411a994195d7844ae3",
+    "original": "Climb Ladder to Mojave Wasteland",
+    "translation": "通往莫哈维废土的梯子",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01010E90#REFR:XATO#ef212c4d0f470e9d51b411c0dcaf6147",
+    "original": "Search Corpse",
+    "translation": "寻找尸体",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0101021A#REFR:FULL#b1984f20b4ccd10a1cc5d40b89628f2a",
+    "original": "Police Station",
+    "translation": "警察局",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0101021C#REFR:FULL#67d163d2b920a31a9aeb2ef7c3e76dc9",
+    "original": "Residential District",
+    "translation": "居住区",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0101021F#REFR:FULL#b398a3d250068ad566fb5df9c42cb359",
+    "original": "Medical District",
+    "translation": "医护区",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01010220#REFR:FULL#c460dd97cf06e68a32041df18e1836a5",
+    "original": "Puesta del Sol",
+    "translation": "日落镇",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01010221#REFR:FULL#31bc276f1337a3c3bc1fe4d5fea7af5f",
+    "original": "Salida del Sol",
+    "translation": "日出镇",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D758#REFR:FULL#c460dd97cf06e68a32041df18e1836a5",
+    "original": "Puesta del Sol",
+    "translation": "日落镇",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100E551#REFR:FULL#ed3d98fa2bef7aeef6b6270498450c4b",
+    "original": "Switching Station",
+    "translation": "开闭所",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01008E76#REFR:XATO#fc669c9a22598d7e2658b684383dba56",
+    "original": "Door to Salida del Sol House",
+    "translation": "门通往日出小屋",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100F408#REFR:FULL#64a89c24f76c6a54cd8572dc8e91e7f4",
+    "original": "Salida Switching Station",
+    "translation": "日出镇开闭所",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100F40A#REFR:FULL#31bc276f1337a3c3bc1fe4d5fea7af5f",
+    "original": "Salida del Sol",
+    "translation": "日出镇",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100C603#REFR:XATO#ef41321984abe70f2c94d8fb7e7ff7d3",
+    "original": "Climb Ladder to Bell Tower",
+    "translation": "爬梯子到钟楼",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100FDD9#REFR:FULL#ee759ae260e1f091652a4b494aa00818",
     "original": "Campanas del Sol",
     "translation": "太阳钟楼",
     "stage": 1

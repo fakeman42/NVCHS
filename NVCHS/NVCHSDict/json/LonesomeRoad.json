@@ -50,7 +50,7 @@
   {
     "key": "MarkedMenGhoul_010083D7#RACE:FULL#38c131ab77cb035fcd94a1dd815eec04",
     "original": "Ghoul",
-    "translation": "食尸鬼",
+    "translation": "尸鬼",
     "stage": 1
   },
   {
@@ -1256,7 +1256,7 @@
   {
     "key": "NVDLC04TerminalSilo01Bots01RoomEnter_0100C61E#TERM:FULL#a84e0fd4cfc297c964ab1eb3a621ed0a",
     "original": "Sentry Security Access Level One",
-    "translation": "哨兵安全访问级别1",
+    "translation": "一层岗哨安全通道",
     "stage": 1
   },
   {
@@ -1274,31 +1274,31 @@
   {
     "key": "NVDLC04TerminalSilo01Bots01RoomEnter_0100C61E#TERM:RNAM#a473f8c30905469c459ec5db6dffd714",
     "original": "Sentry Security Door Unlocked.",
-    "translation": "岗哨安全通道门已解锁",
+    "translation": "铁卫兵安保门已解锁",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01Bots01RoomEnter_0100C61E#TERM:ITXT#a457788de9cbe7577a57ef196a4a196a",
     "original": "Sentry Security Access Status",
-    "translation": "岗哨安全访问状态",
+    "translation": "铁卫兵安保通道状态",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01Bots01RoomEnter_0100C61E#TERM:RNAM#1b3f5c70278d8eb3ce25de4c24d8623a",
     "original": "Sentry Security Access Locked.",
-    "translation": "岗哨安全访问已锁定",
+    "translation": "铁卫兵安保通道已锁定",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01Bots01RoomEnter_0100C61E#TERM:RNAM#2b933a39284156deed980a7737311184",
     "original": "Sentry Security Access Unlocked.",
-    "translation": "岗哨安全访问权已解锁",
+    "translation": "铁卫兵安保通道已解锁",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01HydraulicsRoomEnter_0100C61D#TERM:FULL#c498bedd1d31364aa3ff6ab1c37e9fe6",
     "original": "Hydraulics Access Level Three",
-    "translation": "水利室访问级别3",
+    "translation": "三层水利室通道",
     "stage": 1
   },
   {
@@ -1322,19 +1322,19 @@
   {
     "key": "NVDLC04TerminalSilo01HydraulicsRoomEnter_0100C61D#TERM:ITXT#0dabbc98c38d8784ec89676adff1ac5a",
     "original": "Hydraulics Access Status",
-    "translation": "水利室访问状态",
+    "translation": "水利室通道状态",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01HydraulicsRoomEnter_0100C61D#TERM:RNAM#bada027e69a6733dd93a44b58cf9d8ef",
     "original": "Hydraulics Access Locked.",
-    "translation": "水利室访问权已锁定",
+    "translation": "水利室通道已锁定",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01HydraulicsRoomEnter_0100C61D#TERM:RNAM#31704794be70a58701e8713dc2ed3bda",
     "original": "Hydraulics Access Unlocked.",
-    "translation": "水利室访问权已解锁",
+    "translation": "水利室通道已解锁",
     "stage": 1
   },
   {
@@ -1652,19 +1652,19 @@
   {
     "key": "NVDLC04TerminalSilo01SecuritySentry_010092F6#TERM:ITXT#06b45b32b9542f3233bf2a42d41afa90",
     "original": "Personal Sentry Security Status",
-    "translation": "个人岗哨安全状态",
+    "translation": "个人铁卫兵安保状态",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01SecuritySentry_010092F6#TERM:RNAM#744c610fd245196876164752732c8912",
     "original": "Sentry Security Active.",
-    "translation": "岗哨安保已激活",
+    "translation": "铁卫兵安保已激活",
     "stage": 1
   },
   {
     "key": "NVDLC04TerminalSilo01SecuritySentry_010092F6#TERM:RNAM#8233e318ab505526fe74645d209617cb",
     "original": "Sentry Security Deactivated.",
-    "translation": "岗哨安保已禁用",
+    "translation": "铁卫兵安保已禁用",
     "stage": 1
   },
   {
@@ -1820,7 +1820,7 @@
   {
     "key": "NVDLC04TerminalSilo01UtilityRoomEnter_0100749A#TERM:FULL#e1ab7d570efc98054dc8f22a13f6e7dc",
     "original": "Maintenance Access Level Three",
-    "translation": "维修通道级别3",
+    "translation": "三层维修通道",
     "stage": 1
   },
   {
@@ -4994,7 +4994,7 @@
   {
     "key": "AmmoNVDLC04Rocket_01009262#AMMO:FULL#fd9554dbafd81e95dab77fa4f061fdd9",
     "original": "Rocket",
-    "translation": "火箭弹",
+    "translation": "火箭",
     "stage": 1
   },
   {
@@ -6674,7 +6674,7 @@
   {
     "key": "NVDLC04DivideJournal02_0100910D#NOTE:TNAM#983096acf437816aa0d34f20425e6c37",
     "original": "Initial recon of the Divide has met with heavy resistance. These ghouls - the troopers have started calling them \"Marked Men\" - are smarter than the typical ferals we're used to. Yesterday we found some old Pre-War cages they've used to capture Deathclaws - God knows what they were planning to do with them, but one of the things must have escaped, judging from the carnage. I've ordered double watches until we find it.",
-    "translation": "对大裂谷的初步侦察遭遇了严重的阻力。这些食尸鬼...士兵们开始称他们为“烙印者”，比我们所习惯的典型的狂尸鬼更聪明。昨天我们发现了一些旧的战前笼子，他们用来抓死亡爪...天知道他们打算怎么处理它们，但从屠杀的场面来看，肯定有个家伙跑出来了。我已经安排了双倍警戒，直到找到为止。",
+    "translation": "对大裂谷的初步侦察遭遇了严重的阻力。这些尸鬼...士兵们开始称他们为“烙印者”，比我们所习惯的典型的狂尸鬼更聪明。昨天我们发现了一些旧的战前笼子，他们用来抓死亡爪...天知道他们打算怎么处理它们，但从屠杀的场面来看，肯定有个家伙跑出来了。我已经安排了双倍警戒，直到找到为止。",
     "stage": 1
   },
   {
@@ -6686,7 +6686,7 @@
   {
     "key": "NVDLC04DivideJournal01_01007E48#NOTE:TNAM#42a9b4d49b4b869538e7903f3715176e",
     "original": "Jesus, this place is a hellhole. I heard it was bad from some of the guys coming back, but... Jesus. Henriksen bought it when one of those unexploded warheads went off, and Jenkins... those things got him. I don't know what they were exactly - ghouls, maybe, but nasty fuckers. LT thinks they were drawn by the explosion that killed Henriksen. I think we're all gonna die here.",
-    "translation": "天啊，这地方简直就是个地狱。我从一些回来的家伙那里听说情况很糟糕，但是...上帝啊。亨里克森被一颗未爆炸的核弹送了命，詹金斯...那些东西抓住了他。我不知道他们到底是什么，也许是食尸鬼，但都是些混蛋。他们是被炸死亨里克森的爆炸吸引来的，我想我们都会死在这里。",
+    "translation": "天啊，这地方简直就是个地狱。我从一些回来的家伙那里听说情况很糟糕，但是...上帝啊。亨里克森被一颗未爆炸的核弹送了命，詹金斯...那些东西抓住了他。我不知道他们到底是什么，也许是尸鬼，但都是些混蛋。他们是被炸死亨里克森的爆炸吸引来的，我想我们都会死在这里。",
     "stage": 1
   },
   {
@@ -11828,7 +11828,7 @@
   {
     "key": "NVDLC04DialogueEDENVDLC04UlyssesTopic039_0100D2CB#INFO:RNAM#1a0e642f49ca501cebded8d2ab749bfe",
     "original": "Radiation may keep them alive in areas so physically punishing, it would kill others - even ghouls.",
-    "translation": "在辐射对躯体的摧残如此残酷的地区能活下来，这地方能杀死其他任何生物 - 甚至是食尸鬼。",
+    "translation": "在辐射对躯体的摧残如此残酷的地区能活下来，这地方能杀死其他任何生物 - 甚至是尸鬼。",
     "stage": 1
   },
   {
@@ -11864,7 +11864,7 @@
   {
     "key": "NVDLC04DialogueEDENVDLC04UlyssesTopic038_0100D2C7#INFO:RNAM#8c9b1c9657d9390142d1b9edb64a5391",
     "original": "If they've become ghouls, the radiation would strengthen them. Heal their wounds - not the scars.",
-    "translation": "如果他们已经变成食尸鬼，辐射会强化他们。愈合他们的伤口...而不是疤痕。",
+    "translation": "如果他们已经变成尸鬼，辐射会强化他们。愈合他们的伤口...而不是疤痕。",
     "stage": 1
   },
   {
@@ -14216,7 +14216,7 @@
   {
     "key": "NVDLC04DialogueEDENVDLC04UlyssesTopic126_0100D475#INFO:NAM1#4dfef6b52d82b54fa7aadae159467a79",
     "original": "{Disdain}You know what it was. {Remembering}Had the symbols of America on it. New markings. From after the Great War.",
-    "translation": "{Disdain}你知道那是什么。{Remembering}上面有美国的象征，新标志，来自大战之后。",
+    "translation": "{Disdain}你知道那是什么。{Remembering}上面有美国的象征，新标志，来自大战后。",
     "stage": 1
   },
   {
@@ -17678,7 +17678,7 @@
   {
     "key": "NVDLC04NukedBothMSG_0100C477#MESG:DESC#59ef8e3a31ae3cc31200ae3b0c6d894b",
     "original": "Your merciless nuclear assault on the nations of the Mojave has devastated the lands of both the Legion and the NCR and reached even the borders of the Mojave. At the Mojave Outpost, you can now travel through the western gate to Long 15, the site of a devastated NCR outpost. At Cottonwood Cove, you can now take a journey by river to Dry Wells, the site of a devastated Legion encampment. Be prepared - both areas are highly irradiated and infested with feral ghouls.\\n\\nYou have also unlocked the Dead Man's Burden Perk, allowing you to put a single point into any of your S.P.E.C.I.A.L. attributes. You also gain reputation with the Boomers and the Powder Gangers for your... destructive tendencies, but you lose reputation with the NCR and Caesar's Legion.",
-    "translation": "你对莫哈韦国家的无情核攻击已经破坏了军团和NCR的土地，甚至波及了莫哈维的边界，在莫哈维前哨，你现在可以通过西边的大门前往15号公路，一个被毁灭的NCR前哨基地。在棉白杨湾，你现在可以通过河流前往枯井，一个被毁灭的军团营地。请做好准备，这两个区域都受到高度辐射，并且有大批野蛮的食尸鬼出没。\\n\\n你已解锁了“逝者的重负”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。因为你的...毁灭性倾向，你也获得了大炮族与炸药帮的声望，但是你失去了NCR与凯撒军团的声望。",
+    "translation": "你对莫哈韦国家的无情核攻击已经破坏了军团和NCR的土地，甚至波及了莫哈维的边界，在莫哈维前哨，你现在可以通过西边的大门前往15号公路，一个被毁灭的NCR前哨基地。在棉白杨湾，你现在可以通过河流前往枯井，一个被毁灭的军团营地。请做好准备，这两个区域都受到高度辐射，并且有大批狂尸鬼出没。\\n\\n你已解锁了“逝者的重负”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。因为你的...毁灭性倾向，你也获得了大炮族与炸药帮的声望，但是你失去了NCR与凯撒军团的声望。",
     "stage": 1
   },
   {
@@ -17690,7 +17690,7 @@
   {
     "key": "NVDLC04NukedNCRMSG_0100C476#MESG:DESC#af2494ade8c553dfdc6ba763606c8fed",
     "original": "Your merciless nuclear assault on the NCR has devastated the lands of California and reached even the borders of the Mojave. At the Mojave Outpost, you can now travel through the western gate to Long 15, the site of a devastated NCR outpost. Be prepared - the area is highly irradiated and infested with former NCR ghouls.\\n\\nYou have also unlocked the Bear-Slayer Perk, allowing you to put a single point into any of your S.P.E.C.I.A.L. attributes. You also gain reputation with Caesar's Legion for annihilating the NCR's homeland, but lose reputation with the NCR.",
-    "translation": "你对NCR无情的核攻击已经摧毁了加州的土地，甚至波及了莫哈韦的边界。在莫哈维前哨，你现在可以通过西边的大门前往15号公路，一个被毁灭的NCR前哨基地。准请做好准备，这个区域受到高度辐射，并且有大批野蛮的食尸鬼出没。\\n\\n\\n你已解锁了“屠熊者”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。由于毁灭了NCR的家园，你也获得了凯撒军团的声望，但是失去了NCR的声望。",
+    "translation": "你对NCR无情的核攻击已经摧毁了加州的土地，甚至波及了莫哈韦的边界。在莫哈维前哨，你现在可以通过西边的大门前往15号公路，一个被毁灭的NCR前哨基地。准请做好准备，这个区域受到高度辐射，并且有大批前NCR尸鬼出没。\\n\\n你已解锁了“屠熊者”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。由于毁灭了NCR的家园，你也获得了凯撒军团的声望，但是失去了NCR的声望。",
     "stage": 1
   },
   {
@@ -17702,7 +17702,7 @@
   {
     "key": "NVDLC04NukedLegionMSG_0100C475#MESG:DESC#6879d91358eaecf477b61b593ee4e308",
     "original": "Your merciless nuclear assault on Caesar's Legion has devastated the lands east of the Colorado and reached even the borders of the Mojave. At Cottonwood Cove, you can now take a journey by river to the site of Dry wells, a devastated Legion encampment. Be prepared - the area is highly irradiated and infested with Legion ghouls.\\n\\nYou have also unlocked the Scourge of the East Perk, allowing you to put a single point into any of your S.P.E.C.I.A.L. attributes. You also gain reputation with the NCR for breaking the back of Caesar's Legion, but you lose reputation with Caesar's Legion.",
-    "translation": "你对凯撒军团无情的核攻击摧毁了科罗拉多河以东的土地，甚至波及了莫哈韦沙漠的边界。在棉白杨湾，你现在可以通过河流前往枯井，一个被毁灭的军团营地。请做好准备，这个区域受到高度辐射，并且有大批野蛮的食尸鬼出没。\\n\\n你已解锁了“东方之灾”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。因为摧毁了凯撒军团的后方，你也获得了NCR的声望，但是你失去了凯撒军团的声望。",
+    "translation": "你对凯撒军团无情的核攻击摧毁了科罗拉多河以东的土地，甚至波及了莫哈韦沙漠的边界。在棉白杨湾，你现在可以通过河流前往枯井，一个被毁灭的军团营地。请做好准备，这个区域受到高度辐射，并且有大批军团尸鬼出没。\\n\\n你已解锁了“东方之灾”特长，允许你在任意S.P.E.C.I.A.L属性上加一点。因为摧毁了凯撒军团的后方，你也获得了NCR的声望，但是你失去了凯撒军团的声望。",
     "stage": 1
   },
   {
@@ -19407,6 +19407,114 @@
     "key": "NVDLC04NukedSilo2MapMarkerREF_0100C481#REFR:FULL#8ae30a7de6f6a5ddd0b5d70884c9c7c8",
     "original": "The Courier's Mile",
     "translation": "邮差之路",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D28E#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D3D0#REFR:XATO#517d781b604d4c4b2fdadb5f2aeaffda",
+    "original": "Pull Lever",
+    "translation": "推动控制杆",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D20C#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D214#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D294#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D295#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D299#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010039EB#REFR:XATO#200bfc96ace28261167a7bb83e126ae0",
+    "original": "Travel to The Divide",
+    "translation": "通往大裂谷",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010039EE#REFR:XATO#a2f2f4a7a0f18a0418f2c45dd23dbe13",
+    "original": "Enter Collapsed Overpass Tunnel",
+    "translation": "进入坍塌的天桥隧道",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100C610#REFR:XATO#d18c8d4e16586a3272bc635b3bb407ad",
+    "original": "Pick Up Red Glare",
+    "translation": "捡起红色眩光",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D2A0#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_010083FA#REFR:XATO#7153e5273ee8e1ee1ec24ddec245283f",
+    "original": "Enter Tunnel",
+    "translation": "进入隧道",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D2A3#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100D2A7#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
+    "original": "Search Dead Marked Man",
+    "translation": "搜索死去的烙印者",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_01003300#REFR:XATO#36ceb63dd100b17217fe025e50c894b7",
+    "original": "Exit to the Mojave Wasteland",
+    "translation": "出口通往莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100BA55#REFR:XATO#54ef16e2f1d9ff7c88a7bbe020e69e21",
+    "original": "Take Boat to Cottonwood Cove",
+    "translation": "乘船到棉白杨湾",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0100C480#REFR:XATO#34a873665219b7d7e7d341374fffaf8a",
+    "original": "Travel to the Lonesome Road",
+    "translation": "通往孤独之路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04RALPHIEPosterActivator_0100DC64#ACTI:XATO#80030956a9635d1f17c2564251d523c4",
+    "original": "Examine Poster",
+    "translation": "调查海报",
     "stage": 1
   }
 ]
