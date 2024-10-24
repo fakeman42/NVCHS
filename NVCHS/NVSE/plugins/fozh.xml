@@ -72,6 +72,17 @@
 		
 		<json path="Data/NVCHSDict/json/Mods/Unofficial_Patch_NVSE_Plus.json" priority="3" />
 		
+		<!-- Essential Merge -->
+		<xml path="Data/NVCHSDict/Mods/Vanilla_Enhancements.xml"/>
+		<xml path="Data/NVCHSDict/Mods/Vanilla_Enhancements_Dial.xml"/>
+		<json path="Data/NVCHSDict/json/Mods/Vanilla_Enhancements.json" priority="3" />
+		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/Vanilla_Enhancements_Dial.json" priority="2" />
+		
+		<xml path="Data/NVCHSDict/Mods/DLC_Enhancements.xml"/>
+		<xml path="Data/NVCHSDict/Mods/DLC_Enhancements_Dial.xml"/>
+		<json path="Data/NVCHSDict/json/Mods/DLC_Enhancements.json" priority="3" />
+		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/DLC_Enhancements_Dial.json" priority="2" />
+		
 		<!-- TTW -->
 		<xml path="Data/NVCHSDict/TTW/Fallout3.xml"/>
 		<xml path="Data/NVCHSDict/TTW/ThePitt.xml"/>

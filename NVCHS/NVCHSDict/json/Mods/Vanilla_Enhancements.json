@@ -1,0 +1,3032 @@
+[
+  {
+    "key": "sHackingIntro09_060010E2#GMST:DATA#8172d9c927806f8a229f9ce862485a6e",
+    "original": "Copyright 2075-2077 Robco Ind.",
+    "translation": "版权所有 2076-2077 罗伯科工业",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EnchGehennaEffect_05000A8E#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05EnchCleansingFlameEffect_05000893#ENCH:FULL#03beafb2e7b9b3c69f63491cd001b451",
+    "original": "Cleansing Flame",
+    "translation": "净化火焰",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxNVDLC04CamaradereDT_06008587#SPEL:FULL#96f79494971db8a4025863be1835fb65",
+    "original": "Camarader-E",
+    "translation": "E同志",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestDeathclawEggs_001378E2#ACTI:FULL#3a6c9db8775caba2602cfc20b6106e50",
+    "original": "Deathclaw Eggs",
+    "translation": "死亡爪蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestDeathclawEggs_001378E2#ACTI:XATO#030832daecc06295325987bcecf03ca1",
+    "original": "Collect Deathclaw Eggs",
+    "translation": "拿死亡爪蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestFireGeckoEggs_001378E3#ACTI:FULL#f98cb9adf301f8cd08f87a506060485c",
+    "original": "Fire Gecko Eggs",
+    "translation": "火蜥蜴蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestFireGeckoEggs_001378E3#ACTI:XATO#360179c4bd04a2a68bb80c88c751460d",
+    "original": "Collect Fire Gecko Eggs",
+    "translation": "拿火蜥蜴蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestNightStalkerEggs_001378E4#ACTI:FULL#1e6f2e7ea275778610d642d5be9000c4",
+    "original": "Night Stalker Eggs",
+    "translation": "夜枭蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestNightStalkerEggs_001378E4#ACTI:XATO#2aa9987abe8598b40a4a44e3281da9ef",
+    "original": "Collect Night Stalker Eggs",
+    "translation": "拿夜枭蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestScorpionEggs_001378E5#ACTI:FULL#46a8786018025c3382b502aabf5f0eaf",
+    "original": "Radscorpion Eggs",
+    "translation": "辐射蝎蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestScorpionEggs_001378E5#ACTI:XATO#cd872fa9663f8c438a4bf202fd1d8143",
+    "original": "Collect Radscorpion Eggs",
+    "translation": "拿辐射蝎蛋",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxDrinkSinkMetal03PurifiedV21_0600109D#ACTI:FULL#424c1bffda3dd5a9d3f278e36cfbfd08",
+    "original": "Sink",
+    "translation": "水槽",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBox_060061AA#ACTI:FULL#09966865609bf1e3dcc7cbe0767eadd4",
+    "original": "Followers Collection Box",
+    "translation": "天启追随者募捐箱",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBox_060061AA#ACTI:XATO#0286658bc602af5969e9784f3efe81d3",
+    "original": "Donate",
+    "translation": "捐赠",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxMcCafferyHatActivator_0600FD10#ACTI:FULL#504700aa8c0912b0b739bfbc3654d38f",
+    "original": "Caleb McCaffery's Hat",
+    "translation": "卡勒布·麦卡弗里的帽子",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxMcCafferyHatActivator_0600FD10#ACTI:XATO#504700aa8c0912b0b739bfbc3654d38f",
+    "original": "Caleb McCaffery's Hat",
+    "translation": "卡勒布·麦卡弗里的帽子",
+    "stage": 1
+  },
+  {
+    "key": "VintageRadioRepconSTARTON_000CD21B#ACTI:FULL#c771585b45dc6f3c9eebe533f2415ade",
+    "original": "Radio",
+    "translation": "收音机",
+    "stage": 1
+  },
+  {
+    "key": "GoodspringsRadio_00109085#ACTI:FULL#c771585b45dc6f3c9eebe533f2415ade",
+    "original": "Radio",
+    "translation": "收音机",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestMantisEggs_0013494C#ACTI:FULL#42ef16dc655c9c1d3c19dd9e739730c6",
+    "original": "Giant Mantis Eggs",
+    "translation": "巨型螳螂蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestMantisEggs_0013494C#ACTI:XATO#4db354fbc476cb18302987b6b3f3e146",
+    "original": "Collect Giant Mantis Eggs",
+    "translation": "拿巨型螳螂蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestCazadorEggs_001378E1#ACTI:FULL#f7bffda6413075d74ab93068b53059b3",
+    "original": "Cazador Eggs",
+    "translation": "猎蜂蛋",
+    "stage": 1
+  },
+  {
+    "key": "VPitQuestCazadorEggs_001378E1#ACTI:XATO#54b1514bc9987e243e1cc52ec4a10583",
+    "original": "Collect Cazador Eggs",
+    "translation": "拿猎蜂蛋",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:FULL#4c1c6bcaca95084529de318a45941265",
+    "original": "Anthony House's Terminal",
+    "translation": "安东尼·豪斯的终端机",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:DESC#fea328be7299ff650bf976cc5040e914",
+    "original": "H&H Tools, Inc.\\n\"Building the things you need to build a better tomorrow!\"\\nEmployee access terminal",
+    "translation": "H&H工具公司\\n\"供您所需，打造美好未来！\"\\n员工通行终端",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:ITXT#997d0a1327eedb4ccacb9fb8b4470388",
+    "original": "Journal Entry 05/14/2027",
+    "translation": "日志记录 05/14/2027",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:RNAM#79115ed0beab10591a581e5709f4d62f",
+    "original": "Accessing",
+    "translation": "访问中",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:ITXT#ef356bdb545ec25f6d4aaf5e635cb6bd",
+    "original": "Journal Entry 04/14/2042",
+    "translation": "日志记录 04/14/2042",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:ITXT#858d3382af371e958c1a0bda3cd7c97d",
+    "original": "Journal Entry 06/19/2077",
+    "translation": "日志记录 06/19/2077",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:ITXT#5c0ec69d8e6679b3dd6918f2cc23dec9",
+    "original": "Lucky 38 Executive Override.",
+    "translation": "幸运38强制管理程序",
+    "stage": 1
+  },
+  {
+    "key": "HouseToolsOfficeTerminal_000FC96D#TERM:RNAM#541d1df9d9e8db0c37d67cf494f0f51e",
+    "original": "Starting...",
+    "translation": "启动…",
+    "stage": 1
+  },
+  {
+    "key": "NewVegasSteelTerminal_000FFCDD#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "NewVegasSteelTerminal_000FFCDD#TERM:DESC#dfc1a3cd5fb8bbccb8e85c0d548bff91",
+    "original": "New Vegas Steel\\n\\nFactory Automation Test in Progress\\n\\nCurrent Test Time: 204 years",
+    "translation": "新维加斯钢铁\\n\\n工厂自动测试进行中\\n\\n当前测试时间：204年",
+    "stage": 1
+  },
+  {
+    "key": "NewVegasSteelTerminal_000FFCDD#TERM:ITXT#5c0ec69d8e6679b3dd6918f2cc23dec9",
+    "original": "Lucky 38 Executive Override.",
+    "translation": "幸运38最高等级控制。",
+    "stage": 1
+  },
+  {
+    "key": "NewVegasSteelTerminal_000FFCDD#TERM:RNAM#541d1df9d9e8db0c37d67cf494f0f51e",
+    "original": "Starting...",
+    "translation": "开始...",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38CGTerminal02_0015FF72#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38CGTerminal02_0015FF72#TERM:DESC#36736bec6ed0aff6824c4046d4be98a0",
+    "original": "System Online",
+    "translation": "系统在线",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38CGTerminal02_0015FF72#TERM:ITXT#5c0ec69d8e6679b3dd6918f2cc23dec9",
+    "original": "Lucky 38 Executive Override.",
+    "translation": "覆盖幸运38高级管理权限。",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38CGTerminal02_0015FF72#TERM:RNAM#541d1df9d9e8db0c37d67cf494f0f51e",
+    "original": "Starting...",
+    "translation": "开始...",
+    "stage": 1
+  },
+  {
+    "key": "VMS18WhiteGloveMask_001168A4#ARMO:FULL#420d8339b09a28635e2502fbe35c49ab",
+    "original": "White Glove Society Mask",
+    "translation": "白手套社团面具",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxDisguiseOptionToken_060049B3#ARMO:FULL#dcc78bbbfa56e4a7b251dced89ec15a2",
+    "original": "[Disguise Option Token]",
+    "translation": "[伪装选项令牌]",
+    "stage": 1
+  },
+  {
+    "key": "CaravanSpareDeck_0015D8B0#CONT:FULL#1c09a95f3dbe089d9693560923298bc9",
+    "original": "Caravan Card Box",
+    "translation": "商队牌盒",
+    "stage": 1
+  },
+  {
+    "key": "ContrerasFilingCabinet_000FD304#CONT:FULL#2c553470e277f7ff022fa3ff052c98c4",
+    "original": "Filing Cabinet",
+    "translation": "档案柜",
+    "stage": 1
+  },
+  {
+    "key": "SSBottleEmptyNoFloat_00170F87#MISC:FULL#efe98d14bcc8896cb9259708790060fd",
+    "original": "Empty Sunset Sarsaparilla Bottle",
+    "translation": "空的夕阳沙士瓶",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxStool01LHigher_0600109C#FURN:FULL#3ba18c1fddf227188fc6d3753df026ee",
+    "original": "Stool",
+    "translation": "高脚凳",
+    "stage": 1
+  },
+  {
+    "key": "WeapThermicLance_0015C881#WEAP:FULL#0211282f9e461195780cc066267bb11a",
+    "original": "Thermic Lance",
+    "translation": "热喷枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapThermicLance_0015C881#WEAP:VANM#6dabb715abfee977bf02e391b9616eb0",
+    "original": "Scrap Heap",
+    "translation": "废料堆",
+    "stage": 1
+  },
+  {
+    "key": "QJMelissa_000E595C#NPC_:FULL#af0a9eda00d10acd92d2f8dd8204cb3d",
+    "original": "Melissa",
+    "translation": "梅丽莎",
+    "stage": 1
+  },
+  {
+    "key": "KlamathBob_000F839E#NPC_:FULL#55afc2cd94051b847462c7a12a6feca8",
+    "original": "Klamath Bob",
+    "translation": "克拉马斯·鲍勃",
+    "stage": 1
+  },
+  {
+    "key": "CrimsonCaravanTraderCF_000FA235#NPC_:FULL#c832f674a12d69395e4e6cd1d7116db5",
+    "original": "Crimson Caravan Trader",
+    "translation": "深红商队商人",
+    "stage": 1
+  },
+  {
+    "key": "CrimsonCaravanTraderHM_000FA292#NPC_:FULL#c832f674a12d69395e4e6cd1d7116db5",
+    "original": "Crimson Caravan Trader",
+    "translation": "深红商队商人",
+    "stage": 1
+  },
+  {
+    "key": "2CPoindexter_00104311#NPC_:FULL#c6af5d8388c18548ef9efb451230e1ef",
+    "original": "Poindexter",
+    "translation": "波因德克斯特",
+    "stage": 1
+  },
+  {
+    "key": "GSRingo_00104C7C#NPC_:FULL#6883a3d259b2328d6b81b82a9f896a60",
+    "original": "Ringo",
+    "translation": "林戈",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19CM_001411B4#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19HM_001411B5#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19AAM1_001411B6#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19HM1_001411B7#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19AAM_001411B8#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19CM1_001411B9#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "CrimsonCaravanTraderAAMTemplate_001543B9#NPC_:FULL#c832f674a12d69395e4e6cd1d7116db5",
+    "original": "Crimson Caravan Trader",
+    "translation": "深红商队商人",
+    "stage": 1
+  },
+  {
+    "key": "CrimsonCaravanTraderCM_001543BA#NPC_:FULL#c832f674a12d69395e4e6cd1d7116db5",
+    "original": "Crimson Caravan Trader",
+    "translation": "深红商队商人",
+    "stage": 1
+  },
+  {
+    "key": "VES03WastelandAdventurer_0015AD15#NPC_:FULL#6f1022418f119cd6c8d419e21bec5afc",
+    "original": "Wasteland Adventurer",
+    "translation": "废土冒险者",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19TEMPLATE_0017465E#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFSVanGraffDoorGuard_060010A1#NPC_:FULL#e47ed5376391454c73c597284d47c562",
+    "original": "Van Graff Guard",
+    "translation": "范·格拉夫守卫",
+    "stage": 1
+  },
+  {
+    "key": "CrDogVicious_0001CFA3#CREA:FULL#525450b5faa36de2fab0955f6a69c34f",
+    "original": "Vicious Dog",
+    "translation": "恶狗",
+    "stage": 1
+  },
+  {
+    "key": "CrSporeCarrierFD_000E585F#CREA:FULL#9bc3e00176167e90e7a81318e4f3f0bd",
+    "original": "Spore Carrier Runt",
+    "translation": "小孢子带原者",
+    "stage": 1
+  },
+  {
+    "key": "VCrSporeCarrier_000E60F7#CREA:FULL#fbef867e748826e6ded5aaeacca7027f",
+    "original": "Spore Carrier",
+    "translation": "孢子带原者",
+    "stage": 1
+  },
+  {
+    "key": "V22TempSporePlant_000EE6CE#CREA:FULL#0114ea1f38645fcdd363c96d2feceaea",
+    "original": "Spore Plant",
+    "translation": "孢子植物",
+    "stage": 1
+  },
+  {
+    "key": "CrSporePlant_000FE036#CREA:FULL#0114ea1f38645fcdd363c96d2feceaea",
+    "original": "Spore Plant",
+    "translation": "孢子植物",
+    "stage": 1
+  },
+  {
+    "key": "CrSporeCarrierFU_000FE037#CREA:FULL#9bc3e00176167e90e7a81318e4f3f0bd",
+    "original": "Spore Carrier Runt",
+    "translation": "小孢子带原者",
+    "stage": 1
+  },
+  {
+    "key": "NVCompanionEdE_0010C769#CREA:FULL#fcc060ed4297d0eefa43787ff5fe6422",
+    "original": "ED-E",
+    "translation": "ED-E",
+    "stage": 1
+  },
+  {
+    "key": "FortLupa_001252BF#CREA:FULL#9d63ebf82b4cfb1e3ca4131d0516e61a",
+    "original": "Lupa",
+    "translation": "鲁帕",
+    "stage": 1
+  },
+  {
+    "key": "FortLupaGladiator_0013E514#CREA:FULL#9d63ebf82b4cfb1e3ca4131d0516e61a",
+    "original": "Lupa",
+    "translation": "鲁帕",
+    "stage": 1
+  },
+  {
+    "key": "FiendDogVioletta_0013E5B9#CREA:FULL#e96e41db1d8e9241bdfb7227d50929e6",
+    "original": "Violetta",
+    "translation": "维奥列塔",
+    "stage": 1
+  },
+  {
+    "key": "NVCompanionEdEUpgradeArmor_001694E0#CREA:FULL#fcc060ed4297d0eefa43787ff5fe6422",
+    "original": "ED-E",
+    "translation": "ED-E",
+    "stage": 1
+  },
+  {
+    "key": "NVCompanionEdEUpgradeWeapons_001694E2#CREA:FULL#fcc060ed4297d0eefa43787ff5fe6422",
+    "original": "ED-E",
+    "translation": "ED-E",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03CaveFungusINGESTIBLE_0301213E#ALCH:FULL#fbd480d111f476e55e30e812a313b6ad",
+    "original": "Mutant Cave Fungus",
+    "translation": "突变洞穴菇",
+    "stage": 1
+  },
+  {
+    "key": "CaveFungus_00038E0C#ALCH:FULL#201a5a24e3b81401909ec4caae2e96a6",
+    "original": "Cave Fungus",
+    "translation": "洞穴菇",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxUltrajetNote_06011AE3#NOTE:FULL#4b1230e3969f62924a11ceef7f515494",
+    "original": "Recipes - Ultrajet",
+    "translation": "配方 - 超级杰特",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxUltrajetNote_06011AE3#NOTE:TNAM#24b4c0017a5f07b534d044e499561ab8",
+    "original": "The edges are singed and the note itself is badly faded, but you can make out a list of ingredients:\\n\\nAbraxo Cleaner\\nJet\\nSugar Bombs (this part is underlined twice, with a note that says \"brand MATTERS\").",
+    "translation": "边缘被烧毁，纸条本身也严重褪色，但你可以看清成分清单：\\n\\n\\n- 阿伯莱萨清洁剂\\n- 杰特\\n- 甜麦炮弹（这部分有两个下划线，上面写着 \"品牌很重要\"）。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxSchematicsMantisGauntletNote_06011AE4#NOTE:FULL#6a827fbd194ba6f87f2362304988bcc6",
+    "original": "Schematics - Mantis Gauntlet",
+    "translation": "示意图 - 螳螂拳套",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxSchematicsMantisGauntletNote_06011AE4#NOTE:TNAM#0e6f4668f33635c416710a4279500173",
+    "original": "At a workbench, combine:\\nA Medical Brace\\n2 Mantis Forelegs\\nScrap Metal\\n\\nThe armor-destroying power of one of the wasteland's giant mantises can now be in your hands.",
+    "translation": "在工作台上，组合：\\n\\n- 医用绷带\\n- 2个螳螂前腿\\n- 废金属\\n\\n废土上一只巨型螳螂的破甲力量现在掌握在你手中了。",
+    "stage": 1
+  },
+  {
+    "key": "vConcessionMrHouse_00166661#NOTE:FULL#2823d88a7e964fe2bddd12e12e56eda9",
+    "original": "Offer to Permit Annexation",
+    "translation": "同意并购要约",
+    "stage": 1
+  },
+  {
+    "key": "vConcessionMrHouse_00166661#NOTE:TNAM#88da56a40225c7f47c7683469cf0e6dd",
+    "original": "Upon further reflection, I have determined that it is in my best interests, and the best interests of the New California Republic, to transfer sovereignty of the Vegas Strip to the NCR. \\n\\nIf all terms are agreed upon, annexation would occur one year from today.\\n\\na) I am to be granted full status as a citizen of the NCR and immunity from prosecution for any activities prior to annexation.\\n\\nb) I will be recognized as the sole proprietor of the Vegas Strip, a commercial property.\\n\\nc) I will be subject to all laws of the NCR, including personal and property taxes.\\n\\nd) NCR functionaries will police the Strip; I will retire my Securitron police force and limit their movement to the grounds and interior of the Lucky 38.\\n\\nPlease confirm that these terms are agreeable. I do not foresee any objections on your part. \\n\\nRobert Edwin House\\nPresident, CEO, and Sole Proprietor\\nThe New Vegas Strip",
+    "translation": "经过慎重考虑，为实现本人与新加州共和国之间双边利益的最大化，我同意将维加斯长街的主权移交给NCR。\\n\\n在满足下列条款的前提下，长街的兼并工作将在一年后完成。\\n\\na）本人将被授予NCR公民的合法身份，兼并前发生的一切行为不再追究。\\n\\nb）本人将作为维加斯长街全资所有人的身份不予改变。\\n\\nc）本人将受NCR法律的约束，包括缴纳个人税和财产税。\\n\\nd）NCR的将负责长街的安保；本人会辞退所有电子保安部队，并将它们的活动范围限制在地面和幸运38中。\\n\\n请确认你们同意以上条款，我不希望你们就此再提出异议。\\n\\n罗伯特·埃德温·豪斯\\n总裁、首席执行官与全资所有人\\n新维加斯长街",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationNote_060067A6#NOTE:FULL#9b5f3cda42dde8f5fce807055ca05a5f",
+    "original": "Donations",
+    "translation": "捐赠",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationNote_060067A6#NOTE:TNAM#67f86019763cc919aa086af3af0a8561",
+    "original": "The Followers of the Apocolypse will always gratefully receive any donations to help us in our efforts in Freeside and across the Wasteland.\\n\\nA donation box is available at the Old Morman Fort in Freeside, located on the main road to the Strip. Or, speak to one of our doctors.\\n\\nPlease give what you can. The people of the Wasteland are in desperate need of our help.\\n\\n- Julie Farkas",
+    "translation": "天启追随者对任何能帮助我们在自由城和整个废土的努力的捐赠永远感激。\\n\\n在自由之城的旧摩门要塞有一个捐款箱，位于通往长街的主要道路上。或者，跟我们的医生谈谈。\\n\\n请尽你所能。废土的人民迫切需要我们的帮助。\\n\\n- 朱莉·法卡斯",
+    "stage": 1
+  },
+  {
+    "key": "SLniptonRoadMarketINT_00151F80#CELL:FULL#ff81780006b72a25833649bb0777e04f",
+    "original": "Nipton Road General Store",
+    "translation": "尼普顿公路杂货店",
+    "stage": 1
+  },
+  {
+    "key": "SLSulfurCave03INT_00164608#CELL:FULL#d5f02b79fa8b0edd13c61e32c35ddcbc",
+    "original": "Bootjack Cavern",
+    "translation": "鞋拔子山洞",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02ZionSCaveS_0200BB94#CELL:FULL#063e90750c9b25e43e238a444b721906",
+    "original": "Two Skies Cave",
+    "translation": "双天洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SouthVegasAntMound_00103F9C#CELL:FULL#9ea6bd7281606632ae525c1ed28a7a2e",
+    "original": "South Vegas Ant Mound",
+    "translation": "南维加斯蚁丘",
+    "stage": 1
+  },
+  {
+    "key": "SLElDoradoGasINT_00155EF0#CELL:FULL#a8b931992c5ace5b0494dcf8d6e1a58b",
+    "original": "El Dorado Gas & Service",
+    "translation": "埃尔·多拉多服务加油站",
+    "stage": 1
+  },
+  {
+    "key": "SLCoyoteMineINT_00154BD6#CELL:FULL#fcb0bb87159c9fbddc74dd65704cc220",
+    "original": "Coyote Mine",
+    "translation": "郊狼矿洞",
+    "stage": 1
+  },
+  {
+    "key": "SLGoldMine01INT_001555FE#CELL:FULL#6695453c46713219fce3808cb7d5604b",
+    "original": "Searchlight East Gold Mine",
+    "translation": "探照灯营地东部金矿",
+    "stage": 1
+  },
+  {
+    "key": "RepconHQ03_000E5A88#CELL:FULL#dae5330eaf2f25932ce9e5d83db0bc2e",
+    "original": "REPCONN Office Top Floor",
+    "translation": "瑞普康办公室顶楼",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC023MarysCave_02008E1C#CELL:FULL#fb2fc3963d545fd7b7e401b9598f21cb",
+    "original": "Three Marys' Caverns",
+    "translation": "三圣峰洞穴",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02NarrowsAbandoned_02008A3E#CELL:FULL#831969ef24d749013b66b6b03183fa1b",
+    "original": "Sweet Flower Cave",
+    "translation": "甜花洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLDeadWindCavernINT_00164E29#CELL:FULL#b0f986b292fed7df57df978452eeb686",
+    "original": "Dead Wind Cavern",
+    "translation": "逆风洞穴",
+    "stage": 1
+  },
+  {
+    "key": "CannibalJohnsonCave_0010108B#CELL:FULL#c21baa9791e26025d11b8564460c25e9",
+    "original": "Cannibal Johnson's Cave",
+    "translation": "食人者约翰逊的洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLCapCounterfeiterINT_00157387#CELL:FULL#cbbc1291bf8918c9360dd128c1e3d24a",
+    "original": "Cap Counterfeiting Shack",
+    "translation": "瓶盖伪造者的棚屋",
+    "stage": 1
+  },
+  {
+    "key": "MojaveOutpostBarracks01_00141AA5#CELL:FULL#1a90b48551298e07bcb6843563e5087f",
+    "original": "Mojave Outpost Barracks",
+    "translation": "莫哈维前哨站兵营",
+    "stage": 1
+  },
+  {
+    "key": "1EWestPumpStation_000F0849#CELL:FULL#242e0bf85138705b4b9fa1edc9b2c07a",
+    "original": "West Pump Station",
+    "translation": "西部水泵站",
+    "stage": 1
+  },
+  {
+    "key": "FreesideSilverRush_0010E029#CELL:FULL#9334cdd226c879f552cb3c8a3a9b0972",
+    "original": "Silver Rush",
+    "translation": "银色冲击",
+    "stage": 1
+  },
+  {
+    "key": "SharecropperBarracks01_000F4615#CELL:FULL#19b83e71994bd31574471e566a91be41",
+    "original": "Sharecropper Barracks",
+    "translation": "佃农营房",
+    "stage": 1
+  },
+  {
+    "key": "GSHouseInterior01_00105659#CELL:FULL#ca6634b70661cdc49aa635606fb1070b",
+    "original": "Goodsprings Home",
+    "translation": "清泉镇屋舍",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02Survivalist01_02008A3F#CELL:FULL#f54bca6b60d57156449fdd5b38ec86f4",
+    "original": "Stone Bones Cave",
+    "translation": "石骨洞穴",
+    "stage": 1
+  },
+  {
+    "key": "HELIOSOneTower_000D7F7A#CELL:FULL#1a643d6c96bda245339a26fe5df55fc9",
+    "original": "Solar Collection Tower",
+    "translation": "太阳能集能塔",
+    "stage": 1
+  },
+  {
+    "key": "NiptonHouse3_001385C8#CELL:FULL#d97cf726d4e013a0e909b5c50a3a1ab3",
+    "original": "Nipton House",
+    "translation": "尼普顿住房",
+    "stage": 1
+  },
+  {
+    "key": "BisonSteve02_000D6FA8#CELL:FULL#8b31045472351588d65a3be1d07b3bc4",
+    "original": "The Bison Steve Hotel",
+    "translation": "野牛史蒂夫旅馆",
+    "stage": 1
+  },
+  {
+    "key": "TestDance_00117B98#CELL:FULL#5ffeafee65f780eb09e3fe67e6a6cf01",
+    "original": "Mentats Test Level",
+    "translation": "曼他特测试区",
+    "stage": 1
+  },
+  {
+    "key": "3CBSRecreationOffice_00133EC4#CELL:FULL#269d4afdcaca8fc1561535898dd027e6",
+    "original": "Bitter Springs Recreation Office",
+    "translation": "苦泉休闲区办公室",
+    "stage": 1
+  },
+  {
+    "key": "SLRubyHillMineINT_0015626C#CELL:FULL#dd7fdd6e9280a426039b15198cdc5059",
+    "original": "Ruby Hill Mine",
+    "translation": "红宝石山矿洞",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLCuckoosNestINT_03006880#CELL:FULL#5fdbbd1b8664ea5af4b521c584648f03",
+    "original": "Cuckoo's Nest",
+    "translation": "疯人院",
+    "stage": 1
+  },
+  {
+    "key": "SLAlliedTechnologiesOfficesINT_001524BE#CELL:FULL#1dce97ce34afff553b3d7d5f73a226f4",
+    "original": "Allied Technologies Offices",
+    "translation": "联合科技办公室",
+    "stage": 1
+  },
+  {
+    "key": "SLWindfarmShackINT_00155916#CELL:FULL#40f6333629195e695d5a79b811fae1fd",
+    "original": "Wind Farm Maintenance Shack",
+    "translation": "风力电站维修棚",
+    "stage": 1
+  },
+  {
+    "key": "NovacMotelRoomTwin1_000CD3E0#CELL:FULL#e726b8e949ddd7a443fb4ca7572bb26d",
+    "original": "Motel Room",
+    "translation": "汽车旅馆房间",
+    "stage": 1
+  },
+  {
+    "key": "2ENCREmbassy02_00113C64#CELL:FULL#8e3dbfa269e1720a2ae0077f085cace9",
+    "original": "NCR Military Police HQ",
+    "translation": "NCR宪兵总部",
+    "stage": 1
+  },
+  {
+    "key": "LakeMeadCaveINT_0010C482#CELL:FULL#421c68264e6f346a607e6b681a169117",
+    "original": "Lake Mead Cave",
+    "translation": "米德湖山洞",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02NarrowsTunnel_02008A40#CELL:FULL#0d8147fc6438efe2872d62976ef8ec46",
+    "original": "Crossroad Cavern",
+    "translation": "交叉口山洞",
+    "stage": 1
+  },
+  {
+    "key": "CottonwoodCoveRestroomF_00133E39#CELL:FULL#1f88f45786f58fe2c28917c9df9868d6",
+    "original": "Cottonwood Cove Restroom",
+    "translation": "棉白杨湾洗手间",
+    "stage": 1
+  },
+  {
+    "key": "NVVendorChestsCell_0008EAE7#CELL:FULL#23b4a04fb837757fbb4e92a374b05a22",
+    "original": "New Vegas Buried Vendor Chests",
+    "translation": "供货商被掩埋的箱子",
+    "stage": 1
+  },
+  {
+    "key": "BCSaloonInterior_0010D3F1#CELL:FULL#d4afc9642bc7160e65a9fba2098bcef2",
+    "original": "Big Horn Saloon",
+    "translation": "大角沙龙",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02ZionYaoGuaiCave_0200B755#CELL:FULL#93f2c006b59bdee128952f8fbae4f397",
+    "original": "Yao Guai Cave",
+    "translation": "妖怪洞穴",
+    "stage": 1
+  },
+  {
+    "key": "2EOMichaelAngelo_0010EDCD#CELL:FULL#f18299ee16260cf5b969448d3c1aeabf",
+    "original": "Michael Angelo's Workshop",
+    "translation": "米开·朗琪罗的车间",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownNightstalkerCave_0013D7E5#CELL:FULL#6466dc65d5f3d3342a58f83e08fcd825",
+    "original": "Charleston Cave",
+    "translation": "查尔斯顿山洞",
+    "stage": 1
+  },
+  {
+    "key": "SLSilverPeakMineINT_0015626D#CELL:FULL#a20bb0fa01f054fe25d6b96869b9c11f",
+    "original": "Silver Peak Mine",
+    "translation": "银峰矿洞",
+    "stage": 1
+  },
+  {
+    "key": "SLAbandonedShack03INT_00156AA1#CELL:FULL#fc6fed359098167899b89041cda567a0",
+    "original": "Fields' Shack",
+    "translation": "田边小屋",
+    "stage": 1
+  },
+  {
+    "key": "QJMessHall_000E5CCF#CELL:FULL#58be68e8d5094ec7b83333e803b0f3d2",
+    "original": "Mess Hall",
+    "translation": "食堂",
+    "stage": 1
+  },
+  {
+    "key": "CampForlornHope01_00120DCF#CELL:FULL#4e36745e09354762c2b3b31f056aec16",
+    "original": "Camp Forlorn Hope Mess Hall",
+    "translation": "飘零希望营地食堂",
+    "stage": 1
+  },
+  {
+    "key": "1ESteelMill_000FF6B1#CELL:FULL#ce1b0fa8a8fb76d20c78be12ec7cb328",
+    "original": "New Vegas Steel",
+    "translation": "新维加斯钢厂",
+    "stage": 1
+  },
+  {
+    "key": "Vault22c_000E6090#CELL:FULL#975ff31615458f7912c4b594a4105bc7",
+    "original": "Vault 22 - Food Production",
+    "translation": "22号避难所 - 食品加工区",
+    "stage": 1
+  },
+  {
+    "key": "NellisHangar2_00105238#CELL:FULL#7c80d8719d721f4324360141a0b2f989",
+    "original": "Mess Hall & Munitions Storage",
+    "translation": "食堂与军械库",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02ZionSporeCave_0200BF1C#CELL:FULL#6e7bc69b683e007ff3d6afcdf8da4d60",
+    "original": "Cueva Guarache",
+    "translation": "凉鞋洞穴",
+    "stage": 1
+  },
+  {
+    "key": "2CCampGolfResort_0010067A#CELL:FULL#c72e48dc50ccc86ad6e1966094d0f29d",
+    "original": "House Resort",
+    "translation": "豪斯度假庄园",
+    "stage": 1
+  },
+  {
+    "key": "SLFishermansShackINT_00156AA2#CELL:FULL#e69fd51b3a0adfae57dd9ac9e8756637",
+    "original": "Fisherman's Pride Shack",
+    "translation": "渔家傲小屋",
+    "stage": 1
+  },
+  {
+    "key": "FreesideRobotShop_0011ED00#CELL:FULL#682cda8ed3ab6d5de63dfebad1d6cbc5",
+    "original": "Cerulean Robotics",
+    "translation": "蔚蓝机器人公司",
+    "stage": 1
+  },
+  {
+    "key": "CrimsonCaravanMainOffice_000F5E5A#CELL:FULL#bacbc11f2bd598616fe828cb81b4673b",
+    "original": "Crimson Caravan Main Office",
+    "translation": "深红商队主办公室",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
+    "original": "Jacobstown Lodge",
+    "translation": "雅各布斯镇旅社",
+    "stage": 1
+  },
+  {
+    "key": "SLCavern02INT_00154825#CELL:FULL#58bd9b0a81e2c92587c3e2abec79689f",
+    "original": "Walking Box Cavern",
+    "translation": "旅行箱山洞",
+    "stage": 1
+  },
+  {
+    "key": "OVNVTheGray_000FD7B9#CELL:FULL#fe9df86df815ee1d136a224a7eea282b",
+    "original": "The Gray",
+    "translation": "灰楼",
+    "stage": 1
+  },
+  {
+    "key": "GSHouseInterior04_00105CF7#CELL:FULL#ca6634b70661cdc49aa635606fb1070b",
+    "original": "Goodsprings Home",
+    "translation": "清泉镇屋舍",
+    "stage": 1
+  },
+  {
+    "key": "RepconHQ02_000E5A8D#CELL:FULL#5452a76bd3fab4bb82696bb054f7f178",
+    "original": "REPCONN Office 2nd Floor",
+    "translation": "瑞普康办公室二楼",
+    "stage": 1
+  },
+  {
+    "key": "Vault22e_000E60CD#CELL:FULL#35bdd9b29d4d302137efc6153f1007b1",
+    "original": "Vault 22 - Pest Control",
+    "translation": "22号避难所 - 虫害防治区",
+    "stage": 1
+  },
+  {
+    "key": "CampMCTermInt04_000F47B3#CELL:FULL#85d22757a7fa0914e20e0ac133bffbe8",
+    "original": "Camp McCarran Supply Shack",
+    "translation": "麦卡伦营地物资棚",
+    "stage": 1
+  },
+  {
+    "key": "FreesideAtomicWrangler_00110F2B#CELL:FULL#4e7e8c59bca4c7403e406451ef81300b",
+    "original": "Atomic Wrangler",
+    "translation": "原子牛仔",
+    "stage": 1
+  },
+  {
+    "key": "SLSulfurCave02INT_0015B75B#CELL:FULL#4ebf971f160d74d617e6fc75cde3d795",
+    "original": "Nopah Cave",
+    "translation": "诺帕哈洞穴",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02NarrowsWhiteLegs_02008A43#CELL:FULL#e3082bdb6e7d07579d1af473af541ba7",
+    "original": "Glass Chime Cave",
+    "translation": "玻璃风铃洞穴",
+    "stage": 1
+  },
+  {
+    "key": "GunRunnerHQInterior_000ECDE8#CELL:FULL#5b9f77400c709f6274a4b654b6b7b1d3",
+    "original": "Gun Runner Headquarters",
+    "translation": "军火贩子总部",
+    "stage": 1
+  },
+  {
+    "key": "SLAbandonedShack02INT_00154826#CELL:FULL#03c64b878199ca9ea2d7158ec684e600",
+    "original": "Harper's Shack",
+    "translation": "哈珀的小屋",
+    "stage": 1
+  },
+  {
+    "key": "TechatticupMineInterior_000E70AA#CELL:FULL#62dae48d481f375adc598d85484d43cf",
+    "original": "Techatticup Mine",
+    "translation": "泰科阿提卡布矿洞",
+    "stage": 1
+  },
+  {
+    "key": "RepconHQ01_000E5A84#CELL:FULL#257caf183c6503fc238ba35965d23e32",
+    "original": "REPCONN Office Main Floor",
+    "translation": "瑞普康办公室主楼",
+    "stage": 1
+  },
+  {
+    "key": "3CBoatRentals_00134580#CELL:FULL#08c3769e7281b739b52fe46e0792fa8e",
+    "original": "Captain Dean Boat Rentals",
+    "translation": "迪安船长的小艇租借室",
+    "stage": 1
+  },
+  {
+    "key": "NovacMotelLobby_000B83FE#CELL:FULL#cb66ed7aa200a7d18d5a5a39cad37706",
+    "original": "Dino Dee-lite Front Desk",
+    "translation": "快乐小恐龙前台",
+    "stage": 1
+  },
+  {
+    "key": "EDSubstation_000E8202#CELL:FULL#e694cfdacf43ce269a16c74bfb71e989",
+    "original": "Power Substation",
+    "translation": "变电所",
+    "stage": 1
+  },
+  {
+    "key": "HELIOSOnePlant_000D7E48#CELL:FULL#306dd9afdd1d71b2c699af7a91f539d7",
+    "original": "HELIOS One Power Plant",
+    "translation": "太阳神一号机房",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02EasternVirginSurvivalistCave_02008EA5#CELL:FULL#0c0b7e8d3c40c62e2805e769f42098d5",
+    "original": "Fallen Rock Cave",
+    "translation": "坠岩洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLSunkenBeachHouse02INT_00154827#CELL:FULL#92bf508a83f892d384c03b94e9dc3d22",
+    "original": "Sunken Beach House",
+    "translation": "沉没的沙滩房屋",
+    "stage": 1
+  },
+  {
+    "key": "GypsumAbandonedBuilding_0012B7FB#CELL:FULL#3c6f2f770b508252e0383afb33948426",
+    "original": "Gypsum Quarry Office",
+    "translation": "石膏采掘场办公室",
+    "stage": 1
+  },
+  {
+    "key": "VikkiAndVance_000D7845#CELL:FULL#f58092a363f49da8233dc5607d4c5777",
+    "original": "The Vikki and Vance Casino",
+    "translation": "维姬和万斯赌场",
+    "stage": 1
+  },
+  {
+    "key": "NewVegasMedicalClinicInterior_000ED19F#CELL:FULL#af5fa4eff9b6961da96e9cb6d15b1b02",
+    "original": "New Vegas Medical Clinic",
+    "translation": "新维加斯诊疗所",
+    "stage": 1
+  },
+  {
+    "key": "Vault34a_00129E5B#CELL:FULL#eb2e9de04487d55eb0b1c4a53fcf3c5a",
+    "original": "Vault 34 - 1st Floor",
+    "translation": "34号避难所 - 1层",
+    "stage": 1
+  },
+  {
+    "key": "HELIOSOneDeck_000D8052#CELL:FULL#e8af37df9b1f47ddb57dea5927f267c0",
+    "original": "HELIOS One Control Room",
+    "translation": "太阳神一号观察楼层",
+    "stage": 1
+  },
+  {
+    "key": "3CBSCave2_0012B522#CELL:FULL#b6382af97d2ca09063b4d5c2f24f4160",
+    "original": "Great Khan Supply Cave",
+    "translation": "大汗帮补给洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLSunkenBeachHouse01INT_00154828#CELL:FULL#92bf508a83f892d384c03b94e9dc3d22",
+    "original": "Sunken Beach House",
+    "translation": "沉没的沙滩房屋",
+    "stage": 1
+  },
+  {
+    "key": "SLSulfurCave01INT_00158194#CELL:FULL#e5959bf52f735df443f7e91ebf8b1989",
+    "original": "Bloodborne Cave",
+    "translation": "血源洞穴",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightFireStation02_00140418#CELL:FULL#1bc34521141c8589addb8730e87c1088",
+    "original": "Searchlight Fire Station",
+    "translation": "探照灯营地消防局",
+    "stage": 1
+  },
+  {
+    "key": "SLGoldMine02INT_001555FC#CELL:FULL#fdb449ffd74f727f8200c4737adff414",
+    "original": "Searchlight North Gold Mine",
+    "translation": "探照灯营地北部金矿",
+    "stage": 1
+  },
+  {
+    "key": "SLHellsMotel_0015F048#CELL:FULL#022d79d6a5ada0ac91345fc7075f9624",
+    "original": "Hell's Motel",
+    "translation": "赫尔的汽车旅馆",
+    "stage": 1
+  },
+  {
+    "key": "BlackMountainTreasure_000E60D0#CELL:FULL#b5a8d2e744a319667f8d5299016e2225",
+    "original": "Storage Building",
+    "translation": "仓库",
+    "stage": 1
+  },
+  {
+    "key": "SLAbandonedShack01INT_00153928#CELL:FULL#a0cb9cbb280f548310cf1c2a734bbb29",
+    "original": "Bradley's Shack",
+    "translation": "布拉德利的小屋",
+    "stage": 1
+  },
+  {
+    "key": "RatCaveINT_00103F5E#CELL:FULL#6cff9c9852f66c80aeea041c0eaf3d35",
+    "original": "Broc Flower Cave",
+    "translation": "布洛克花洞穴",
+    "stage": 1
+  },
+  {
+    "key": "3CBSCave1_0012B523#CELL:FULL#b6382af97d2ca09063b4d5c2f24f4160",
+    "original": "Great Khan Supply Cave",
+    "translation": "大汗帮补给洞穴",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightHiddenCave_00146607#CELL:FULL#613f57230ee701149dc34a8dc5dd9941",
+    "original": "Hidden Supply Cave",
+    "translation": "隐蔽补给洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLJeanSkyDivingINT_00148A5B#CELL:FULL#c3e8a6a0d7893023feefb36f40f6cf4d",
+    "original": "Jean Sky Diving",
+    "translation": "吉恩跳伞俱乐部",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLBloatFlyCave_0301507B#CELL:FULL#347e00b4f63254f5d88ad40a8d012cea",
+    "original": "Mysterious Cave",
+    "translation": "神秘洞穴",
+    "stage": 1
+  },
+  {
+    "key": "NCRPrisonVisitorsCenter_0008D0D5#CELL:FULL#9fde7e7740523010b4cf8fac327d960f",
+    "original": "Visitors Center",
+    "translation": "访客中心",
+    "stage": 1
+  },
+  {
+    "key": "NovacPlayersRoom_000B8A7D#CELL:FULL#e726b8e949ddd7a443fb4ca7572bb26d",
+    "original": "Motel Room",
+    "translation": "汽车旅馆房间",
+    "stage": 1
+  },
+  {
+    "key": "Vault3b_000ED511#CELL:FULL#cc17040b7007b4797d5f85afbab2d922",
+    "original": "Vault 3 - Living Quarters",
+    "translation": "3号避难所 - 居住区",
+    "stage": 1
+  },
+  {
+    "key": "BisonSteve01_000D6FAF#CELL:FULL#8b31045472351588d65a3be1d07b3bc4",
+    "original": "The Bison Steve Hotel",
+    "translation": "野牛史蒂夫旅馆",
+    "stage": 1
+  },
+  {
+    "key": "CampGuardianCaves_0013DD63#CELL:FULL#e2c4045a87b84fd4cc71eec53e566b94",
+    "original": "Camp Guardian Caves",
+    "translation": "守卫者营地山洞",
+    "stage": 1
+  },
+  {
+    "key": "SLTumbleweedRanchINT_00155EEF#CELL:FULL#df51cd4ba7fa309548195918f6eff381",
+    "original": "Tumbleweed Ranch House",
+    "translation": "风滚草农场房屋",
+    "stage": 1
+  },
+  {
+    "key": "1EHostetlerHome_000FE889#CELL:FULL#7c52368b03d5a641b06113e4e7f1a9f2",
+    "original": "Hostetler Home",
+    "translation": "霍斯泰特勒的家",
+    "stage": 1
+  },
+  {
+    "key": "SLCoyoteMineHouseINT_00154BD5#CELL:FULL#e926437a6d11a5512631168b78e17d0b",
+    "original": "Coyote Mine House",
+    "translation": "郊狼矿洞房屋",
+    "stage": 1
+  },
+  {
+    "key": "RanchHouseInterior01_001037DF#CELL:FULL#8582c37a4620c237c386b318157d2b28",
+    "original": "Hunter's Farmhouse",
+    "translation": "猎人的农舍",
+    "stage": 1
+  },
+  {
+    "key": "2EOVault21_0010FDEB#CELL:FULL#1088b9068e31d0df4d2683b51cd41836",
+    "original": "Vault 21",
+    "translation": "21号避难所",
+    "stage": 1
+  },
+  {
+    "key": "SLGoodspringsCaveINT_00153159#CELL:FULL#58e54497b265c365bf97c20170167fb2",
+    "original": "Goodsprings Cave",
+    "translation": "清泉镇山洞",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "Vault19MapMarker_000CDF52#REFR:FULL#0882bb49417f2f15a521d38956e76fc5",
+    "original": "Vault 19",
+    "translation": "19号避难所",
+    "stage": 1
+  },
+  {
+    "key": "PrimmMapMarker_000CDF46#REFR:FULL#283219f1e9b9159fb8173b837cdc6cc8",
+    "original": "Primm",
+    "translation": "普瑞姆",
+    "stage": 1
+  },
+  {
+    "key": "VCampForlornHopeMapMarker_000CDF08#REFR:FULL#6b4f8ad1011bf420f949d56bce14fdc4",
+    "original": "Camp Forlorn Hope",
+    "translation": "飘零希望营地",
+    "stage": 1
+  },
+  {
+    "key": "NelsonMapMarker_000CDF04#REFR:FULL#4a2b9f4650aa9a51bd980a354b081afa",
+    "original": "Nelson",
+    "translation": "纳尔逊",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_000CDF03#REFR:FULL#62dae48d481f375adc598d85484d43cf",
+    "original": "Techatticup Mine",
+    "translation": "泰科阿提卡布矿洞",
+    "stage": 1
+  },
+  {
+    "key": "SearchlightMapMarker_000CDF02#REFR:FULL#0b48fbf4f4a072d3580fe5d3fa3114c9",
+    "original": "Camp Searchlight",
+    "translation": "探照灯营地",
+    "stage": 1
+  },
+  {
+    "key": "GreatKhanEncampmentMapMarker_000E834C#REFR:FULL#73930bae582f5826a1f678e89c2c7bdd",
+    "original": "Great Khan Encampment",
+    "translation": "大汗帮营地",
+    "stage": 1
+  },
+  {
+    "key": "MedicalClinicMapMarker_000F05DB#REFR:FULL#af5fa4eff9b6961da96e9cb6d15b1b02",
+    "original": "New Vegas Medical Clinic",
+    "translation": "新维加斯诊疗所",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0013849E#REFR:FULL#2fc3c146516de545316a70fe3ffb5255",
+    "original": "Legion Raid Camp",
+    "translation": "军团劫掠队营地",
+    "stage": 1
+  },
+  {
+    "key": "SafehouseNCRMarkerREF_00157F7A#REFR:FULL#3f097b9a3b244bbc5d8437ace311530c",
+    "original": "NCR Ranger Safehouse",
+    "translation": "NCR游骑兵安全屋",
+    "stage": 1
+  },
+  {
+    "key": "BrotherhoodSafehouseMapMarker_00157F7B#REFR:FULL#f5b9805bb43f7c4a338b277838067c12",
+    "original": "Brotherhood of Steel Safehouse",
+    "translation": "钢铁兄弟会安全屋",
+    "stage": 1
+  },
+  {
+    "key": "SafehouseLegionMapMarker_00157F7C#REFR:FULL#dac062a141c36770d80c2bd2541ef227",
+    "original": "Caesar's Legion Safehouse",
+    "translation": "凯撒军团安全屋",
+    "stage": 1
+  },
+  {
+    "key": "FoASafehouseMarker_00158426#REFR:FULL#07f7877ae27b836b1a3e59ba76b9fd91",
+    "original": "Followers Safehouse",
+    "translation": "天启追随者安全屋",
+    "stage": 1
+  },
+  {
+    "key": "FollowersOutpostMapMarker_0015E8AA#REFR:FULL#ed195379fa1b4c277219a001777d5fbf",
+    "original": "Followers' Outpost",
+    "translation": "天启追随者哨站",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0015E8AF#REFR:FULL#34690f3cbaf4dc2773ee6f9d85d40dd5",
+    "original": "Red Rock Drug Lab",
+    "translation": "红岩峡谷制药场",
+    "stage": 1
+  },
+  {
+    "key": "FreesideWorld_0010BEEA#WRLD:FULL#0673adbfdfed4650ae97a321a30ec640",
+    "original": "Freeside",
+    "translation": "自由之城",
+    "stage": 1
+  },
+  {
+    "key": "FreesideFortWorld_0012D94E#WRLD:FULL#a188128b496a3a6ee672258c68fd2c85",
+    "original": "Old Mormon Fort",
+    "translation": "旧摩门要塞",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00124A50#INFO:NAM1#d6c95f28e7220a0f2465464932c61de2",
+    "original": "You know everything you need to know. Be on your way.",
+    "translation": "需要知道的已经都告诉你了。行动吧。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7ABA#INFO:NAM1#db49fe85fad61ce47cbdb8cb821c067e",
+    "original": "Thanks for the assistance, doc. Time for us to go take out Motor-Runner?",
+    "translation": "谢谢你的协助，医生。咱们该去干掉轰鸣恶煞了吧？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7ABB#INFO:NAM1#109376fde852cc86d8e8bfa8c8694a75",
+    "original": "What do you need? I have a job to do.",
+    "translation": "你有什么事？我还有活要干。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7ABC#INFO:NAM1#f52ee8533e42794741d5285bcf7fe399",
+    "original": "I'm ready to take out Motor-Runner when you are.",
+    "translation": "我已经准备好去干掉轰鸣恶煞了，就等你一句话。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00118360#INFO:NAM1#5d9a2db054d16fcc0c99aa022bd26982",
+    "original": "You really don't want to start trouble in here.",
+    "translation": "你最好别在这儿惹麻烦。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00140D97#INFO:NAM1#ebe22cfe977fb4f5fc9990d0a3702587",
+    "original": "{respectful, almost friendly}How's it going?",
+    "translation": "{respectful, almost friendly}一切都顺利吗？",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_000000D2#DIAL:FULL#4fbf9b71397ccdfce15a09b4aca7055e",
+    "original": "Hello",
+    "translation": "你好。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0011835B#INFO:NAM1#0bf2c65dcd329c70cced9562356eeec3",
+    "original": "Keep moving.",
+    "translation": "继续前进。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0011835C#INFO:NAM1#6cc0730df635017ee6c935a6a7159839",
+    "original": "You got a problem?",
+    "translation": "你有问题吗？",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0011835D#INFO:NAM1#9a4f899096a237a80513bc7487d0baaa",
+    "original": "We're watching you. Closely.",
+    "translation": "我们正盯着你呢。",
+    "stage": 1
+  },
+  {
+    "key": "Attack_000000DC#DIAL:FULL#ca99e58c372b1e2709288f2516dcb22e",
+    "original": "Attack",
+    "translation": "攻击",
+    "stage": 1
+  },
+  {
+    "key": "Attack_001586F2#INFO:NAM1#f649b5299c1b1cb6d81298c579362f55",
+    "original": "For the Brotherhood.",
+    "translation": "为了兄弟会。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_00037071#DIAL:FULL#5e2c7cd7e7edc178ccf61fe2f1355fe4",
+    "original": "Wait here.",
+    "translation": "在这等着。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_001579BC#INFO:NAM1#d48a0446504873882022d70214541a95",
+    "original": "{Confirmation Beep}<Makes beeping sounds>",
+    "translation": "{Confirmation Beep}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_001579BC#INFO:RNAM#7f6a71c99ce35b625ede64849ddd43ec",
+    "original": "<Follow Protocol::Wait>",
+    "translation": "<跟从协定::等待>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_00037074#DIAL:FULL#e05fd7cdde0f7308de0664f2548fb571",
+    "original": "Keep your distance. Try to flank them.",
+    "translation": "和他们保持距离。不妨从侧面攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_001579BF#INFO:NAM1#d48a0446504873882022d70214541a95",
+    "original": "{Confirmation Beep}<Makes beeping sounds>",
+    "translation": "{Confirmation Beep}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_001579BF#INFO:RNAM#0b60cf97bb15deae6d610e5e2b72f390",
+    "original": "<Follow Distance::Far>",
+    "translation": "<跟随距离::远>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_0003707A#DIAL:FULL#574ea4607e9463d717a04252c3e6d25f",
+    "original": "I want you to use ranged weapons.",
+    "translation": "我希望你使用远距攻击武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_001579CC#INFO:NAM1#027ac75bc7439568c49430f92c466f65",
+    "original": "{happy Beep}<Makes beeping sounds>",
+    "translation": "{happy Beep}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_001579CC#INFO:RNAM#fec56f003ba8507a2e42c6699c58de85",
+    "original": "<Weapon Type::Ranged>",
+    "translation": "<武器类型::远程>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_0003707B#DIAL:FULL#11c2e5d6e94c9ca9d6fa47cd6788baee",
+    "original": "Switch to a melee weapon.",
+    "translation": "切换到近战武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_001579BD#INFO:NAM1#d3c448bce99c1911fb95f2ca973dc55a",
+    "original": "{beep Laugh}<Makes beeping sounds>",
+    "translation": "{beep Laugh}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_001579BD#INFO:RNAM#dabfb78ee7f13ae59f72a7cae1e1965d",
+    "original": "<Weapon Type::Melee>",
+    "translation": "<武器类型::近战>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_00037082#DIAL:FULL#2a3fad8db23f4235ec00fbf81ec20ea9",
+    "original": "Let's get going.",
+    "translation": "我们走。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_001579D4#INFO:NAM1#a15f2268cad115deb501f663c549677e",
+    "original": "{Happy Beep}<Makes beeping sounds>",
+    "translation": "{Happy Beep}<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_001579D4#INFO:RNAM#31b4bbd4d4e97d7ce4d847844ee58d7c",
+    "original": "<Follow Protocol::Reinitiate>",
+    "translation": "<跟从协定::重新开始>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_00037084#DIAL:FULL#1ea4c0b10fc2430b996d0ae879404aa3",
+    "original": "I think we should travel together.",
+    "translation": "我觉得我们应该同行。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C2#INFO:NAM1#73a30d6253d0e0dea1aec3323f6ea869",
+    "original": "{Sad Beep}<Makes beeping sounds>",
+    "translation": "{Sad Beep}<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C2#INFO:RNAM#78ac767a8059671c0b486f28f387a782",
+    "original": "<Companion Protocol->Conflict::Rex>",
+    "translation": "<同伴协定->冲突::雷克斯>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C3#INFO:NAM1#a15f2268cad115deb501f663c549677e",
+    "original": "{Happy Beep}<Makes beeping sounds>",
+    "translation": "{Happy Beep}<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C3#INFO:RNAM#bbc487e444be344b386bc007b1fb68c3",
+    "original": "<Companion Protocol::Begin>",
+    "translation": "<同伴协定::开始>",
+    "stage": 1
+  },
+  {
+    "key": "PrimmSlimGunYes_000BACC1#INFO:NAM1#6db8a0e45fe37859ef1f78775c1643da",
+    "original": "Those thieves had some gall, stealing from a museum dedicated to romanticizing a couple of criminals!",
+    "translation": "这些小偷真是厚颜无耻，他们居然敢从雌雄大盗的博物馆里偷东西！",
+    "stage": 1
+  },
+  {
+    "key": "PrimmSlimGunYes_000BACC1#INFO:NAM1#4bcdcdb1933c2963d2b9f62c45b7c894",
+    "original": "I'll make sure the gun ends up back on display. I thank you, Primm thanks you, and I do believe Vance'd thank you, if he could.",
+    "translation": "我会把枪重新放回陈列箱里的。谢谢，我代表普瑞姆感谢您，我相信万斯若是泉下有知，也一定会感谢您的。",
+    "stage": 1
+  },
+  {
+    "key": "PrimmSlimGunYes_000BACC1#INFO:RNAM#8a14f8052e7982765a4edb65b747ab57",
+    "original": "I found the gun. Here it is.",
+    "translation": "我找到枪了。就在这里。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_000BD03E#DIAL:FULL#c282787c546316d42c7764cba57d8bb8",
+    "original": "On second thought, stick with me for a little longer.",
+    "translation": "我想了一下，还是留在我身边吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_001579C7#INFO:NAM1#a15f2268cad115deb501f663c549677e",
+    "original": "{Happy Beep}<Makes beeping sounds>",
+    "translation": "{Happy Beep}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_001579C7#INFO:RNAM#66fc46a0ab687b5a83746fb1a062850f",
+    "original": "<Companion Protocol::Continue Companion Protocol>",
+    "translation": "<同伴协定::继续同伴协定>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_000BD03F#DIAL:FULL#aa797b5766b015a8c659071e73048181",
+    "original": "Yes, I'm sure.",
+    "translation": "是的，我确定。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_001579C5#INFO:NAM1#d48a0446504873882022d70214541a95",
+    "original": "{Confirmation Beep}<Makes beeping sounds>",
+    "translation": "{Confirmation Beep}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_001579C5#INFO:RNAM#6076d7ffb9733ca74cf6283a9e836461",
+    "original": "<Companion Protocol::End Companion Protocol>",
+    "translation": "<同伴协议::结束同伴协定>",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32E5#DIAL:FULL#3d8698d9e00d3364be4dfb2095d96923",
+    "original": "I convinced Pauline that you shouldn't go through with this.",
+    "translation": "我已经说服了宝琳，她也觉得应该收手。",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32EB#INFO:NAM1#b525c5819f6be5651dedaae36a93b73d",
+    "original": "Really? Oh, thank god! I love that woman, but I swear this time she was gonna get us killed!",
+    "translation": "真的？哦，感谢上帝！我爱那女人，但她这一次真的差点害死我们！",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32EB#INFO:NAM1#8429f2df3fffa8d61c7fc757038ed976",
+    "original": "The gun's in the safe. The combination's 05-23-34. Take it far away from here, before she changes her mind.",
+    "translation": "枪在保险箱里。密码是05-23-34。在她改变主意之前，带着枪赶紧走吧。",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32EB#INFO:RNAM#f8b9a4d488b22b0c07ec8e76e2b8696a",
+    "original": "Pauline says you should give me the gun.",
+    "translation": "宝琳说你应该把枪给我。",
+    "stage": 1
+  },
+  {
+    "key": "VMS07Greeting_000FE3FA#INFO:NAM1#bf2a495d2133095db2096ab8dc6d2e2f",
+    "original": "Thanks for the assistance taking out Motor-Runner. I'll be heading back to McCarran. I'll put in a good word for you.",
+    "translation": "感谢你干掉了轰鸣恶煞。等我回到麦卡伦，一定会好好宣传你的事迹。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E19#DIAL:FULL#1a32b6349acc32566d7041c3339ce62d",
+    "original": "Right here. <Give McCaffery's hat>",
+    "translation": "在这儿呢。 <交出麦卡弗里的帽子>",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#d6cf6a4ef25d09d88c0630528459460b",
+    "original": "This is great news. No one screws with the Garret Twins and gets away with it. I need to find a place on the wall for this.",
+    "translation": "太振奋人心了。敢戏弄加勒特兄妹的人是绝不会有好下场的。我得找个地方把它挂起来。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#ce8d114a6295f950ea2c732f5e189251",
+    "original": "And for your reward... Here's 150 caps. I trust there were also some valuables on McCaffery. Also, we would like to set you up with a room.",
+    "translation": "至于你的奖励……这是150个瓶盖。麦卡弗里身上应该也有些值钱的东西。另外，我们会给你安排一间房间。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#7b6b2fef4953da536e6a05cb8c725d40",
+    "original": "You can have the corner room, rent free. It was McCaffery's. Now that he's dead, we're happy to let you use it. Thanks for helping us.",
+    "translation": "拐角处的那间房免费给你用了。本来是麦卡弗里住的。既然他死了，我们很乐意把它交给你。谢谢你帮忙。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformBoulderCityBCLieutenantMonroeTopic055_00116FD0#DIAL:FULL#e485511e10d4721dd0cb4fc07dd5522b",
+    "original": "I'm unable to work out a deal. The Great Khans are all yours.",
+    "translation": "我没法达成协议，大汗帮的人归你处置了。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformBoulderCityBCLieutenantMonroeTopic055_00116FDA#INFO:NAM1#a53aaab0d53422633bfbc8bb652bafb1",
+    "original": "It was worth a try. I'll have to proceed with the attack as ordered, then.",
+    "translation": "你已经尽力了。那么我只能依照命令开始强攻了。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57C#DIAL:FULL#636dfedbc7cb5a20a3f439c96a50b59f",
+    "original": "All right. I'm on it.",
+    "translation": "很好。我这就去。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57D#INFO:NAM1#098df67ccd74305c73a30dd6db48a598",
+    "original": "Really? Oh, I wasn't expecting you to agree so easily. That's great!",
+    "translation": "真的吗？哦，没想到你这么容易就答应了。真是太好了！",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57D#INFO:NAM1#3dae963708bf4aa45471e6e929f641a8",
+    "original": "Here, take this packet sniffer. It'll allow us to intercept data on Mr. House's network.",
+    "translation": "拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57D#INFO:NAM1#23bcfe1c6cf676a4260b836b4be1b258",
+    "original": "You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!",
+    "translation": "你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_0011EBCD#DIAL:FULL#f700edd28bb32ac32e1d072ba53c0cf7",
+    "original": "I want you to attack enemies the moment you see them.",
+    "translation": "我要你看到敌人就马上攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C8#INFO:NAM1#032f076e48a0034cae5db36752469ae7",
+    "original": "{Dunce sound}<Makes beeping sounds>",
+    "translation": "{Dunce sound}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C8#INFO:RNAM#373e3bbc54a8736734d3e65bb2716b32",
+    "original": "<Aggression Level::Aggressive>",
+    "translation": "<进攻程度::积极>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C9#INFO:NAM1#e81fec5f1484e7b48e6b1941eb2b9cc1",
+    "original": "{Sonar Beep}<Makes beeping sounds>",
+    "translation": "{Sonar Beep}<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C9#INFO:RNAM#373e3bbc54a8736734d3e65bb2716b32",
+    "original": "<Aggression Level::Aggressive>",
+    "translation": "<进攻程度::积极>",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A2F#DIAL:FULL#b29ff9844d76f0a66599b2c18c9094fb",
+    "original": "All right. I'll do it.",
+    "translation": "好吧，我干。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A32#INFO:NAM1#dc82a2d66e00c58d414a77ca048b178d",
+    "original": "Great. I'll have the medical supplies for you by the time you come back.",
+    "translation": "好极了。等你回来时，我会把药品准备好的。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A32#INFO:NAM1#86c8ed2bd08fabfd289d793d4fc7e24f",
+    "original": "Here, take this packet sniffer. It will allow us to intercept data on Mr. House's network.",
+    "translation": "拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A32#INFO:NAM1#23bcfe1c6cf676a4260b836b4be1b258",
+    "original": "You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!",
+    "translation": "你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic039_00145C51#DIAL:FULL#05631ccbd089a91ef8130b73ca352345",
+    "original": "Legion money, please.",
+    "translation": "军团币，麻烦了。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic039_00145C76#INFO:NAM1#9d4160ab259ffbd9fcf31b6a56702aa7",
+    "original": "Very well. Will there be anything else?",
+    "translation": "好的。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic030_00145C5A#DIAL:FULL#ceaf809b72249c8eafb24018d5aa106e",
+    "original": "I'd like to exchange NCR money for chips.",
+    "translation": "我想用NCR纸币换筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic030_00145C7C#INFO:NAM1#7055885932f5d6bb33cf2cd0c999f511",
+    "original": "How many chips would you like?",
+    "translation": "您想换多少筹码？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic022_00145C60#DIAL:FULL#c965767aaeb63e19a991c954ca1678ca",
+    "original": "I'd like to exchange Legion money for chips.",
+    "translation": "我想用军团第纳尔来换筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic022_00145C80#INFO:NAM1#7055885932f5d6bb33cf2cd0c999f511",
+    "original": "How many chips would you like?",
+    "translation": "您想换多少筹码？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic045_0014CC94#DIAL:FULL#3ea9bb6719ef8b17e60aec6647363032",
+    "original": "Here's 500 caps.",
+    "translation": "我愿意捐500个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic045_0014CCB8#INFO:NAM1#6afdf9ac5fd73db712a3d82e05e8c05e",
+    "original": "Very much appreciated. These caps will go towards funding schools and other services to the poorer part of the community.",
+    "translation": "感激不尽。我们会用这笔钱来资助学校，并且帮助城郊那些穷苦的人们的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic009_00151DBD#DIAL:FULL#6dfbf387b9ef58af95fbeba030331635",
+    "original": "I'd like to exchange caps for chips.",
+    "translation": "我想用瓶盖来换筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic009_00151DC3#INFO:NAM1#7055885932f5d6bb33cf2cd0c999f511",
+    "original": "How many chips would you like?",
+    "translation": "您想换多少筹码？",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_0015299B#DIAL:FULL#8bdf7aa785fd67a56bcb3b68d10874c7",
+    "original": "Why must Mr. House be killed?",
+    "translation": "为什么一定要杀死豪斯先生？",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_001529D2#INFO:NAM1#ad3e2d06e05514e0e6a32d052bc970cb",
+    "original": "Because he complicates the equation of force. He's a free agent, an unpredictable element.",
+    "translation": "因为他打破了势力间的均衡。他不受任何一方约束，是个不稳定因素。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_001529D2#INFO:NAM1#b24181d1ba80935ded5ae406e674108d",
+    "original": "I'm sure he's trying to sit out this battle, just as he did four years ago, hoping the Legion and the Profligates will wipe each other out.",
+    "translation": "我敢肯定他这次还会像四年前一样作壁上观，盼着军团和荒淫之人两败俱伤。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_001529D2#INFO:NAM1#ccef61b5e9a55548cfe3e77d86849569",
+    "original": "When he sees the Profligates losing this battle, however, he might throw his support behind them. Except he won't, because he'll be dead.",
+    "translation": "不过，如果这次荒淫之人输掉的话，他可能会派出援军。当然，假如他死了，我们就不必再操心了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_00156BFC#DIAL:FULL#bde9c76c0fbd51547762fd5383ce557d",
+    "original": "I'd like you to go back to the Lucky 38 for now.",
+    "translation": "我希望你现在回幸运38赌场去。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_001579DA#INFO:NAM1#d48a0446504873882022d70214541a95",
+    "original": "{Confirmation Beep}<Makes beeping sounds>",
+    "translation": "{Confirmation Beep}<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_001579DA#INFO:RNAM#c678534ac3db0ee569822000c124db7e",
+    "original": "<Companion Protocol::Return Base>",
+    "translation": "<同伴协议::回到基地>",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00157F65#DIAL:FULL#bc97d0d2ae5a3488dc90152704f24bdd",
+    "original": "Yeah, let's play again.",
+    "translation": "好啊，再来。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015C53E#INFO:NAM1#edd7e5f7e294d97556faf802093ba246",
+    "original": "I hope you're ready for this.",
+    "translation": "希望你准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00163446#INFO:NAM1#d1070770d659af8f83fae6ac92e6f116",
+    "original": "No more magic spells this time.",
+    "translation": "这次不准玩花样。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00163447#INFO:NAM1#7785cc1bb941c9ef027bf56c4547e722",
+    "original": "I've got a good feeling about this hand.",
+    "translation": "我预感这次手风会顺。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015C53F#INFO:NAM1#da68f9509a9e9ec3e7dfc8fb0e78b545",
+    "original": "Let's get this started!",
+    "translation": "来，开始！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015C540#INFO:NAM1#221acb153e6fbd153f271a02de2a490c",
+    "original": "Excellent. Let the game begin!",
+    "translation": "太好了，开始吧！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015B709#INFO:NAM1#369a2ac17e66b66ded82bbdfe06de091",
+    "original": "Very well. I would wish you luck, but of course peerless intellect is all that matters here.",
+    "translation": "很好。祝你好运，但显然智力才是决定因素。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00157F6F#INFO:NAM1#2f0732188d1f03083cabd268731b65f2",
+    "original": "Okay, hope you're ready to lose.",
+    "translation": "准备好迎接失败了么？",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00157F70#INFO:NAM1#f1e17cd091c2b83dd0a486acfdb8d59b",
+    "original": "Let the Caravan Lesson begin.",
+    "translation": "让我好好教你该怎么玩商队牌。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerLoses_00163448#INFO:NAM1#69e48c72fcb5c5a881e1f82660d09d15",
+    "original": "No-bark wins! A few more like that and the curse'll get lifted for sure.",
+    "translation": "疯嘴获胜！再来几次就能打破魔咒了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerLoses_00163449#INFO:NAM1#d163edc09e6eb3b20f9ea8631cd499e3",
+    "original": "Don't take it to heart. I've studied the strategies of the masters.",
+    "translation": "别太难过，我可是研究了不少大师的策略。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_0016344B#INFO:NAM1#77bf0dfce064dd38c8dc9f7b4e0993ec",
+    "original": "Dang it! Shoulda known you was getting caravan hints from the bloatfly spirits what live in these parts.",
+    "translation": "见鬼！肯定是那些辐射蝇的幽灵帮你作弊了！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_0016344B#INFO:NAM1#87612233b3d3ab6ba826897622e20a5c",
+    "original": "Well I'll be cold and rotting before I let them get the best of me. Let's go again.",
+    "translation": "哼，就算我进了棺材，也绝不能容许有人比我强。再来。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_0016344C#INFO:NAM1#9a779b191197081df7cca7f73d2807c5",
+    "original": "Huh. I wonder where I went wrong. Let's try that again.",
+    "translation": "啊，我究竟是哪里搞错了。我们再来一把好了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_00157F71#INFO:NAM1#5379b0c0f83f6238f6d80ddb2be30445",
+    "original": "Dammit, I thought I had you there. Let's play again.",
+    "translation": "该死，我还以为我赢定了。再来！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_00157F72#INFO:NAM1#13dd84ae091dbc5b675043b7614967b5",
+    "original": "Wow, you're good. Give me another game.",
+    "translation": "你玩得很好啊，再和我来一把。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F69#DIAL:FULL#3473b12e50211201e0b9a27edffec9fd",
+    "original": "Want to play a hand of Caravan?",
+    "translation": "来一把商队牌？",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0600C14F#INFO:NAM1#be7e553dbd919b541d7e118b2ec0e9ae",
+    "original": "Sure.",
+    "translation": "当然。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F6D#INFO:NAM1#89bc33124449110f933676afb61f4a6d",
+    "original": "All right, let's see what you got.",
+    "translation": "好啊，看看你究竟有多大本事。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F6E#INFO:NAM1#f72be4a466c17faf6600215528bc3c16",
+    "original": "I'm going to roll over you.",
+    "translation": "我会让你输得心服口服的。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015D8A5#INFO:NAM1#78754100637d71d72eb0ff15d44a5145",
+    "original": "All right, let's play.",
+    "translation": "好啊，来呀。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00163444#INFO:NAM1#6274479b4c19f385eb9f38b98be57652",
+    "original": "A fellow enthusiast, huh? That's great! Let's play.",
+    "translation": "你也爱玩牌？太好了，来吧！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00163445#INFO:NAM1#a697e55afb259237a2c63b123d323afe",
+    "original": "Sure. Old No-bark is always looking to play. Not for entertainment, mind you, but because if you look at the cards right you can know the future.",
+    "translation": "没问题。老疯嘴可是很喜欢商队牌的。要知道，这可不是单纯的消遣，只要你能看出这些牌的门道，你就能预知未来。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015C544#INFO:NAM1#20d9368b50080828c81a65f5b79e0f39",
+    "original": "Damn straight I would! Let's see what you got.",
+    "translation": "那还用说？来看看你手气如何吧。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015C545#INFO:NAM1#0f27a54f50fb358ccfd576566b71131a",
+    "original": "Bring it on, buddy!",
+    "translation": "尽管放马过来，哥们儿！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015C546#INFO:NAM1#561db76b69ca7dd2bad8127b1c9caad8",
+    "original": "I always have time for a good game of Caravan. I hope you're up to the challenge.",
+    "translation": "玩商队牌我当然有空。就看你有没有本事和我较量一番了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015B70C#INFO:NAM1#8d9ffceb0809fd831a44e7a4efa710d5",
+    "original": "A fascinating proposition. Naturally, my considerable genius makes me a master of the game, so try not to be disappointed if you lose miserably.",
+    "translation": "诱人的提议。以我的天赋，这种游戏根本不在话下。所以如果你输太惨，也没必要伤心哦。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0016120A#INFO:NAM1#b50eaec99e1dfc842f9c0f57e6ad56ad",
+    "original": "You betcha! Caravan's got me through many a long night before. I hope you're ready.",
+    "translation": "那还用说！商队牌可是伴我度过了多少不眠夜啊。希望你准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F6C#INFO:NAM1#529528da2a73eea9cdcacc66ee9933c5",
+    "original": "You think you have what it takes, kid?",
+    "translation": "你真觉得自己牌技不错吗，小子？",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0600C14C#INFO:NAM1#be1bb9252e7ffb839eeec0c318818ba0",
+    "original": "If you wish.",
+    "translation": "请便。",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic008_00163D02#DIAL:FULL#6ced51402eaa9890529cd1e35b696bb5",
+    "original": "Up for some more Caravan?",
+    "translation": "还想再玩商队牌吗？",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic008_00163D2A#INFO:NAM1#900738dbd78c84c0ccac50742c4b8e95",
+    "original": "All right, go on - let's put our cards down.",
+    "translation": "来吧，继续——接着发牌吧。",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic007_00163D03#DIAL:FULL#8e725ff40b49ec1cd493d731057e4870",
+    "original": "I was hoping to pass the time with a game or two.",
+    "translation": "我想玩一两把牌，消磨下时间。",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic007_00163D2C#INFO:NAM1#3d350c0cfbdb4047a9e596de0d41cbe3",
+    "original": "What, Caravan? All right, I'll give it a go. {Shrugs}Haven't exactly got much of a line of folks to serve.",
+    "translation": "什么？商队牌？好吧，我还真会玩。{耸肩}这附近懂得玩的人并不多。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic081_0400A6E0#DIAL:FULL#240c9325a6327066bb74c51236569605",
+    "original": "I'm running low on Small Energy Cells. Can you make me more?",
+    "translation": "我的小型能量电池快用完了，你能帮我再做一些吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic081_0400A6E4#INFO:NAM1#e40b719c93ffc3d39819d4f509c3b20b",
+    "original": "<Happy beeping>{NPCRobotEdEHappy}",
+    "translation": "<开心的哔哔声>{NPCRobotEdEHappy}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic080_0400A6E1#DIAL:FULL#1dcf40860f1bc22f2dd32e3fc423a689",
+    "original": "I need some Microfusion Cells. Can you make some?",
+    "translation": "我需要一些微型核聚变电池。可以制造一点吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic080_0400A6E7#INFO:NAM1#e40b719c93ffc3d39819d4f509c3b20b",
+    "original": "<Happy beeping>{NPCRobotEdEHappy}",
+    "translation": "<开心的哔哔声>{NPCRobotEdEHappy}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic078_0400A6E3#DIAL:FULL#a10cb3d60a52677b06aa96763b72090b",
+    "original": "Can you repair my weapon?",
+    "translation": "帮我修一下武器吧？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic078_0400A6E5#INFO:NAM1#e40b719c93ffc3d39819d4f509c3b20b",
+    "original": "<Happy beeping>{NPCRobotEdEHappy}",
+    "translation": "<开心的哔哔声>{NPCRobotEdEHappy}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic082_0400A868#DIAL:FULL#9f7a0ad614d1c2717a60dab31d408322",
+    "original": "Let me access your multitools. I want to make something.",
+    "translation": "让我用用你的工具组，我想造点东西。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic082_0400D30C#INFO:NAM1#fa729296d03fb004d599676749aec01c",
+    "original": "<Confirmatory beeping>{NPCRobotEdEConfirmed}",
+    "translation": "<确定的哔哔声>{NPCRobotEdEConfirmed}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic077_0400A869#DIAL:FULL#47839ebf6c9daf0f5a511f39228461fb",
+    "original": "I'd like to make some ammo. Can you help me?",
+    "translation": "我想要制造点弹药，能帮帮我吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic077_0400A86A#INFO:NAM1#fa729296d03fb004d599676749aec01c",
+    "original": "<Confirmatory beeping>{NPCRobotEdEConfirmed}",
+    "translation": "<确定的哔哔声>{NPCRobotEdEConfirmed}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic139_0400D0A9#INFO:NAM1#b3da51843f64ec228e7df4f4297a2b80",
+    "original": "[SUCCEEDED] <Happy beeping>{NPCRobotEdEConfirmed}",
+    "translation": "[成功] <开心的哔哔声>{NPCRobotEdEConfirmed}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic139_0400D0A9#INFO:RNAM#68ff2d77aaa90f2455b69d59aa061501",
+    "original": "If you drop the power output by .24, you'll be able to make more energy ammo with no quality loss.",
+    "translation": "如果你将功率输出降低0.24，你将能够在不损失质量的情况下制造更多能量弹药。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic138_0400D0AB#INFO:NAM1#b3da51843f64ec228e7df4f4297a2b80",
+    "original": "[SUCCEEDED] <Happy beeping>{NPCRobotEdEConfirmed}",
+    "translation": "[成功] <开心的哔哔声>{NPCRobotEdEConfirmed}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic138_0400D0AB#INFO:RNAM#a596ff40dce0ff3bf7b3a5126f2297fc",
+    "original": "If you switched to the 3/8 wrench and the smaller drill, those weapon repairs would be easier.",
+    "translation": "如果你改用3/8扳手和较小的钻头，武器修理起来会更容易。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic137_0400D096#DIAL:FULL#d9197abfc826866fb369257487e3ca4e",
+    "original": "I don't need energy cells right now - I'd like some satchel charges, ED-E.",
+    "translation": "我现在不需要能量电池了 - 我需要一些炸药包，ED-E。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic137_0400D0A1#INFO:NAM1#e40b719c93ffc3d39819d4f509c3b20b",
+    "original": "<Happy beeping>{NPCRobotEdEHappy}",
+    "translation": "<开心的哔哔声>{NPCRobotEdEHappy}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic136_0400D097#DIAL:FULL#b014d37698abc04965087576ab3e71b6",
+    "original": "Can you make me some flamer fuel instead of energy cells?",
+    "translation": "你能给我做点火焰喷射器燃料而不是能量电池吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic136_0400D0A2#INFO:NAM1#e40b719c93ffc3d39819d4f509c3b20b",
+    "original": "<Happy beeping>{NPCRobotEdEHappy}",
+    "translation": "<开心的哔哔声>{NPCRobotEdEHappy}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic135_0400D0A5#INFO:NAM1#b3da51843f64ec228e7df4f4297a2b80",
+    "original": "[SUCCEEDED] <Happy beeping>{NPCRobotEdEConfirmed}",
+    "translation": "[成功] <开心的哔哔声>{NPCRobotEdEConfirmed}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic135_0400D0A5#INFO:RNAM#d95bfc3122c921c1224680a4819037d1",
+    "original": "Remove the safety catches on those Microfusion Cells and you could turn them into satchel charges.",
+    "translation": "拔掉那些微型核聚变电池上的保险栓你就能把它们变成炸药包了。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic134_0400D09D#INFO:NAM1#b3da51843f64ec228e7df4f4297a2b80",
+    "original": "[SUCCEEDED] <Happy beeping>{NPCRobotEdEConfirmed}",
+    "translation": "[成功] <开心的哔哔声>{NPCRobotEdEConfirmed}",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic134_0400D09D#INFO:RNAM#606a6b6e851c77b32766008e80e94e55",
+    "original": "You know, if you strip out the plasma relays on those energy cells, you could make flamer fuel.",
+    "translation": "你知道，如果你卸掉那些能量电池的等离子继电器，你就能做出火焰喷射器燃料了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS07V03BryceAndersInventory_06000800#DIAL:FULL#0cdf6db8a74751349a7c874276a049a9",
+    "original": "Let's trade equipment.",
+    "translation": "我们交易装备吧。",
+    "stage": 1
+  },
+  {
+    "key": "VMS07V03BryceAndersInventory_0600CD3F#INFO:NAM1#da58d9d0f6d94c35c239efa96a54fe08",
+    "original": "...",
+    "translation": "...",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic110_060025C5#DIAL:FULL#457703555968ece252b7cf7a77499344",
+    "original": "Exchange all my caps for chips.",
+    "translation": "把我的瓶盖都换成筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic110_06002BC1#INFO:NAM1#43dbf42b5b3e1d28f8ec728df1fb46c5",
+    "original": "Here's your chips. Is there anything else I can help you with?",
+    "translation": "这些是您的筹码。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic120_060025C6#DIAL:FULL#657f2f41aa71b008472c3273d2277f37",
+    "original": "Exchange all my Legion money for chips.",
+    "translation": "把我的军团货币都换成筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic120_06002BC2#INFO:NAM1#43dbf42b5b3e1d28f8ec728df1fb46c5",
+    "original": "Here's your chips. Is there anything else I can help you with?",
+    "translation": "这些是您的筹码。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic130_060025C7#DIAL:FULL#411061794525a7b6e4ba44e032108a09",
+    "original": "Exchange all my NCR money for chips.",
+    "translation": "把我的NCR货币都换成筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic130_06002BC3#INFO:NAM1#43dbf42b5b3e1d28f8ec728df1fb46c5",
+    "original": "Here's your chips. Is there anything else I can help you with?",
+    "translation": "这些是您的筹码。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicTop_06005BA9#DIAL:FULL#96752227dccd7efcdb97d60977e73ebb",
+    "original": "I'd like to make a donation to the Followers.",
+    "translation": "我想给追随者们捐一笔钱。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicTop_06004FAD#INFO:NAM1#b03679e32d40d0ff4be7d6dfe4ebff7e",
+    "original": "How much do you have to donate?",
+    "translation": "你要捐赠多少个？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic01_06005BAA#DIAL:FULL#de8bb77012d96d3745dac8deb3066d5a",
+    "original": "Here's 10 caps.",
+    "translation": "这是10瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic01_06004FB5#INFO:NAM1#f461a29dee80b4d8bbff0a3bee3aab41",
+    "original": "Thanks! Anything else?",
+    "translation": "谢谢！还有什么？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic02_06005BAB#DIAL:FULL#2984e5265b154f0b33982a11a399884b",
+    "original": "Here's 50 caps.",
+    "translation": "50个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic02_06005BAF#INFO:NAM1#f461a29dee80b4d8bbff0a3bee3aab41",
+    "original": "Thanks! Anything else?",
+    "translation": "谢谢！还有什么？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic03_06005BAC#DIAL:FULL#a30bc7984fd2f1d4f6dc8d5fa397d7ff",
+    "original": "Here's 100 caps.",
+    "translation": "给你100个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic03_06005BB0#INFO:NAM1#f461a29dee80b4d8bbff0a3bee3aab41",
+    "original": "Thanks! Anything else?",
+    "translation": "谢谢！还有什么？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicBack_06005BAD#DIAL:FULL#f38a1815b6487a841f9ee25a861f81d8",
+    "original": "Let's talk about something else.",
+    "translation": "让我们谈谈其他事。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicBack_060061A9#INFO:NAM1#1f7d282b5fc51a2aae134029efd24645",
+    "original": "Thanks for the donation. Every bit goes toward helping Freeside.",
+    "translation": "感谢你的捐赠，所有资金都将用于帮助自由城。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicBack_06005BAE#INFO:NAM1#c485362e14e52f81ac91ab920506551b",
+    "original": "That is unfortunate. If you change your mind, please see me right away.",
+    "translation": "真遗憾。如果你改变主意，请立刻来找我。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:FULL#9a1721e268ab49b7741385bad5816033",
+    "original": "Bleed Me Dry",
+    "translation": "血已流干",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#1e8878b555c8ec8933efb43dba2930ed",
+    "original": "Red Lucy needs Giant Mantis' eggs. It's faster to gather them at a breeding ground, like Vault 22.",
+    "translation": "血手露西需要巨型螳螂的卵。可以去它们的产卵地附近收集，比如说22号避难所。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#df3adf09ba74c141c1eb6bc900789f16",
+    "original": "Return to Red Lucy with the Giant Mantis Eggs.",
+    "translation": "带着巨型螳螂卵回去找血手露西。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#9594ce2241851f56cbb384fd6349ca2b",
+    "original": "Red Lucy wants Radscorpion eggs. She suggested searching for them in the mountains north of Goodsprings.",
+    "translation": "血手露西想要辐射蝎的卵。她建议你在清泉镇北部的山脉寻找。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#fa292437e5c13dfc27e1c918619a8bc4",
+    "original": "Return to Red Lucy with the Radscorpion Eggs.",
+    "translation": "带着辐射蝎卵回去找血手露西。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#63952256704a45f7fde6677007c638a2",
+    "original": "Red Lucy wants Fire Gecko eggs. She suggested searching near the Ireteba Peaks.",
+    "translation": "血手露西要火蜥蜴的卵。她建议你在艾瑞特巴峰林附近搜索。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#2d74d6e4bf4eeb01cbe6bbf219dc06c5",
+    "original": "Return to Red Lucy with the Fire Gecko Eggs.",
+    "translation": "带着火蜥蜴卵回去找血手露西。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#ebf9b44f76adbff288eae3d2fffc1bb7",
+    "original": "The elite hunters for The Thorn are looking for Night Stalker eggs. Red Lucy suggested to look at a cave near Bitter Springs.",
+    "translation": "荆棘街的精英猎人们正在寻找夜枭蛋。血手露西建议你到苦泉附近的一个洞穴内寻找。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#cba5bf18922ac85d36f50389f6c7119b",
+    "original": "Return to Red Lucy with the Night Stalker Eggs.",
+    "translation": "带着夜枭蛋回到血手露西处。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#c6bb3cd07041863c3dcb8aebdd00ce52",
+    "original": "The elite hunters of The Thorn are now in search of Cazador eggs. Red Lucy suggested to look for them near Red Rocks.",
+    "translation": "荆棘街的精英猎人们正在寻找着猎蜂卵。血手露西建议你在红岩峡谷附近寻找。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#cf4407d0599191cdaeddeac2c823c4fc",
+    "original": "Return to Red Lucy with the Cazador Eggs.",
+    "translation": "带着猎蜂卵回到血手露西处。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#fadca912b5277da94f4e52c4c6cbeca8",
+    "original": "Red Lucy has given the most dangerous task a hunter could face. She wants Deathclaw Eggs for The Thorn.",
+    "translation": "血手露西向你提出了一项最严峻的挑战。为荆棘街带一个死亡爪蛋回来。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#17ba118667888fc4385fdfb3147b589b",
+    "original": "Return to Red Lucy with the Deathclaw Eggs.",
+    "translation": "带着死亡爪蛋回到血手露西处。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#065b16e4395e6f5707ce732532f45443",
+    "original": "You are the greatest hunter that The Thorn has ever seen.",
+    "translation": "你现在是荆棘街有史以来最好的猎人了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS38_001348DB#QUST:NNAM#2c33635051725ea38a89d4f35e4702ac",
+    "original": "Red Lucy is dead. You can no longer help her.",
+    "translation": "血手露西死了。你无法帮助她了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:FULL#079809f1b701780ba37e96f4bf7b7a6d",
+    "original": "Boulder City Showdown",
+    "translation": "巨石城决战",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#d83d2203df4d06e8406735e81a091241",
+    "original": "Negotiating with the Great Khans.",
+    "translation": "和大汗帮谈判。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#22b1be8694e39f3972b5f0004107b148",
+    "original": "Sneaking in and freeing the hostages.",
+    "translation": "潜入并且解救人质。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#7ad5ca5abb0e3847660451a2e8d8e765",
+    "original": "Optimal Resolution - Hostages alive, NCR escorts Great Khans home.",
+    "translation": "最好的结局 - 人质活了下来，NCR把大汗帮赶走了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#b2cbe6330e7a27307f03b83a09da59c4",
+    "original": "Hostages let go, Great Khans betrayed.",
+    "translation": "放走了人质，背叛了大汗帮。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#563e7f35204647a917bedf455e2af546",
+    "original": "NCR troops wiped out.",
+    "translation": "NCR的部队被消灭了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#c14a934d9d40934ef55e7efe1cc3bc36",
+    "original": "Great Khans wiped out.",
+    "translation": "大汗帮被消灭了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#fdfe1e04650e491b50e60d793843b02f",
+    "original": "NCR bribed.",
+    "translation": "NCR部队接受了贿赂。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:CNAM#7dc4f7753bf5973419511595cba297a7",
+    "original": "NCR attacks (neutral option).",
+    "translation": "Fail state.",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#8aa5dd7eacc9c71e532466392e5128da",
+    "original": "Meet with Jessup, leader of the Great Khans in Boulder City.",
+    "translation": "和躲藏在巨石城里的大汗帮头领杰瑟普会面。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#043409540d2d63ef0cc1cbe64653790d",
+    "original": "Help the NCR kill all the Great Khans holed up in the Boulder City ruins.",
+    "translation": "帮助NCR杀死所有藏匿在巨石城遗迹中的大汗帮。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#429e8a16cc1587ee96b3b5ff9201f23d",
+    "original": "(Optional) Bribe the NCR troopers into letting the Great Khans escape.",
+    "translation": "(可选)贿赂NCR部队，让他们放走大汗帮。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#a1c09e0728618680aff0b44f353b29f3",
+    "original": "Return to Lieutenant Monroe and inform him that you've worked out a deal with the Great Khans.",
+    "translation": "回去找门罗中尉，告诉他你已经和大汗帮达成了协议。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#4bc744f94414f1fde14c3403b1011115",
+    "original": "Free the NCR troopers being held hostage by the Great Khans.",
+    "translation": "释放被大汗帮俘虏的NCR军人。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#e0b8aebe27b36ff12a8a4884a62a676e",
+    "original": "Tell Jessup the Great Khans are free to go.",
+    "translation": "告诉杰瑟普所有大汗帮成员可以安全离开了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#637be6d3b295e46b880edc4e9dc098ab",
+    "original": "Negotiate for the release of the NCR hostages.",
+    "translation": "与大汗帮就释放NCR人质的事情进行谈判。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#33cac1b6f38b6e2b1bda576ec628cc3b",
+    "original": "Help the Great Khans kill all the NCR troops in the Boulder City ruins.",
+    "translation": "帮助大汗帮杀死埋伏在巨石城遗迹周围的NCR部队。",
+    "stage": 1
+  },
+  {
+    "key": "VMS20_0010E908#QUST:NNAM#460e15a911718622410123cf6511e3f6",
+    "original": "Speak with Lieutenant Monroe.",
+    "translation": "和门罗中尉交谈。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:FULL#d09ea04573caf66f88b4be1d195c399c",
+    "original": "The Moon Comes Over the Tower",
+    "translation": "月光掠过高塔",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:CNAM#1ae07ff091b5d73caa551b5f490271d2",
+    "original": "Disable the Lucky 38's network encryption from three executive consoles.",
+    "translation": "骇入三个远程端口，使幸运38的网络加密系统无效化。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:CNAM#46c89bbe678a56e95d67f7505999d678",
+    "original": "Bug an access point to the Lucky 38's data network for the Followers of the Apocalypse.",
+    "translation": "帮助天启追随者骇入幸运38的数据网络接入端口。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:CNAM#170c455a54d3c46cad241b8f42e966ed",
+    "original": "Return to Emily Ortal on the New Vegas strip with news that the tower has been bugged.",
+    "translation": "回到新维加斯长街找艾米莉·欧托，告诉她你已经骇进了高塔的网络。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:CNAM#4412cc1e79f5df6d74cc9fa72acb519e",
+    "original": "Completed quest for Emily.",
+    "translation": "为艾米莉完成任务。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:CNAM#7259593d6d6249cd19058a62d73c0025",
+    "original": "The Lucky 38 Reactor is being powered by the El Dorado substation.",
+    "translation": "幸运38的反应堆是由埃尔·多拉多变电站供电的。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:NNAM#46c89bbe678a56e95d67f7505999d678",
+    "original": "Bug an access point to the Lucky 38's data network for the Followers of the Apocalypse.",
+    "translation": "帮助天启追随者骇入幸运38的数据网络接入端口。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:NNAM#fe5037a3566d7ecdd7cd35e85748e839",
+    "original": "Return to Emily Ortal on the New Vegas Strip with news that the tower has been bugged.",
+    "translation": "回到新维加斯长街找艾米莉·欧托，告诉她你已经骇进了高塔的网络。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38_0011A0C5#QUST:NNAM#1ae07ff091b5d73caa551b5f490271d2",
+    "original": "Disable the Lucky 38's network encryption from three executive consoles.",
+    "translation": "骇入三个远程端口，使幸运38的网络加密系统无效化。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxBurdenToBearPerk_0600F712#PERK:FULL#2bf8d3f29b8e2fdd03a37b5ea3ee045e",
+    "original": "Burden to Bear",
+    "translation": "虎背熊腰",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxBurdenToBearPerk_0600F712#PERK:DESC#514c9d76cd353dd684f8353e81723339",
+    "original": "The wastelander with the most gear wins! (... or at least survives.) Medium and heavy armor no longer impair movement speed.",
+    "translation": "装备最多的废土客获胜！(...或者至少能活下来。) 中甲和重甲不再影响移动速度。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04CamaraderEPerk_0400A602#PERK:FULL#96f79494971db8a4025863be1835fb65",
+    "original": "Camarader-E",
+    "translation": "E同志",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04CamaraderEPerk_0400A602#PERK:DESC#d8c6e16632a2567fa81b3c782c99c624",
+    "original": "Traveling with ED-E has given you a chance to bond with him, unlocking five ranks of potential bonuses. While ED-E is in your party, you both gain:\\n\\nRank 1 - Weapon Condition Bonus (daily 25% weapon condition repair dialogue option)\\nRank 2 - Energy Cell Manufacture (daily Energy or Microfusion Cell creation dialogue option)\\nRank 3 - Increased DT (+2 DT)\\nRank 4 - Damage Bonus (+5 beam weapon damage)\\nRank 5 - V.A.T.S. Attack Bonus (+5% V.A.T.S. targeting)",
+    "translation": "与ED-E一同旅行使得你们俩紧密团结在一起,解锁了5个等级的潜能.当ED-E在你的队伍里,你们俩同时获得\\n等级 1 - 武器耐久度奖励 (每日 25% 耐久度修理的对话选项)\\n等级 2 - 能量电池制造 (每日 能量或核聚变电池制造的对话选项\\n等级 3 - 增强DT (+2 DT\\n等级 4 - 伤害奖励 (+5 光束武器伤害\\n等级 5 - V.A.T.S.攻击奖励 (+5% V.A.T.S. 命中率)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04CamaraderECompanionPerk_0400C61F#PERK:FULL#96f79494971db8a4025863be1835fb65",
+    "original": "Camarader-E",
+    "translation": "E同志",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04CamaraderECompanionPerk_0400C61F#PERK:DESC#911fcfe857bb9f5261b938cf2103c2ac",
+    "original": "Companion version of Camarader-E.",
+    "translation": "E同志的同伴版本。",
+    "stage": 1
+  },
+  {
+    "key": "KhanFactionOutfitWarning_00134B68#MESG:DESC#9d6a596d55acecde178bbc5845969e74",
+    "original": "You are now dressed as a member of the Great Khans.",
+    "translation": "你现在打扮成了大汗帮的一员。",
+    "stage": 1
+  },
+  {
+    "key": "KhanFactionOutfitWarningOff_00134B69#MESG:DESC#0b0994f915b62bad54aa40c31e2275dc",
+    "original": "You are no longer dressed as a member of the Great Khans.",
+    "translation": "你不再打扮成大汗帮的一员。",
+    "stage": 1
+  },
+  {
+    "key": "WhiteGloveSocietyFactionOutfitWarning_00163117#MESG:DESC#cfdad139e6e2eb13371a63350e6d6905",
+    "original": "You are now dressed as a member of the White Glove Society.",
+    "translation": "你现在打扮成了白手套社团的会员。",
+    "stage": 1
+  },
+  {
+    "key": "WhiteGloveSocietyFactionOutfitWarningOff_00163118#MESG:DESC#3a47cdd4406eacc9b9fc8ef653a779f7",
+    "original": "You are no longer dressed as a member of the White Glove Society.",
+    "translation": "你不再打扮成白手套社团的会员。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeUnlockHHMsg_060025C1#MESG:DESC#930d92b8b632ad1b12eae0dce60a82dc",
+    "original": "New crafting recipes are now available.",
+    "translation": "新的制作配方现在可用。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeUnlockOWBMsg_060025C2#MESG:DESC#930d92b8b632ad1b12eae0dce60a82dc",
+    "original": "New crafting recipes are now available.",
+    "translation": "新的制作配方现在可用。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeUnlockDMMsg_060025C3#MESG:DESC#930d92b8b632ad1b12eae0dce60a82dc",
+    "original": "New crafting recipes are now available.",
+    "translation": "新的制作配方现在可用。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeUnlockLRMsg_060025C4#MESG:DESC#930d92b8b632ad1b12eae0dce60a82dc",
+    "original": "New crafting recipes are now available.",
+    "translation": "新的制作配方现在可用。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxEdEUpgradeMsg_060037B6#MESG:DESC#dc83b39faa5db97fb4de387ebc7163e7",
+    "original": "Ed-E has been upgraded with parts from the Divide.",
+    "translation": "Ed-E已经使用大裂谷的部件进行了升级。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxDisguiseOptionMessage_060049B1#MESG:DESC#cea85e1857ce3b072c490c52b0e8f351",
+    "original": "Do you want to disguise yourself as a member of this faction?",
+    "translation": "你想把自己伪装成这个派系的一员吗？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxDisguiseOptionMessage_060049B1#MESG:FULL#e11dad108882e6b3ededfbe9cc69cddd",
+    "original": "Faction Armor",
+    "translation": "派系护甲",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxDisguiseOptionMessage_060049B1#MESG:ITXT#7fbd6abf2abf3fe20cbe7b9693580923",
+    "original": "Yes",
+    "translation": "是",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxDisguiseOptionMessage_060049B1#MESG:ITXT#98850cbf11a030aa2551e98712849d3a",
+    "original": "No",
+    "translation": "不",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationNoCapsMsg_060067A4#MESG:DESC#5398d40c22d185aca33f1000c89dd340",
+    "original": "You don't have enough caps.",
+    "translation": "你没有足够的瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBoxMsg_060067A5#MESG:DESC#38fd8ffb324e52ade6c64953ef785d4f",
+    "original": "How much would you like to donate?\\n\\nCurrent caps: %.0f",
+    "translation": "你想捐赠多少？\\n\\n现有瓶盖: %.0f",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBoxMsg_060067A5#MESG:FULL#e5885e93b41010612ef848b6c15ae08a",
+    "original": "Collection Box",
+    "translation": "募捐箱",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBoxMsg_060067A5#MESG:ITXT#e02a324556ab39cf1bdab1fda152aff2",
+    "original": "10 Caps.",
+    "translation": "10瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBoxMsg_060067A5#MESG:ITXT#201f8066b35640dabaadc0231d2cef33",
+    "original": "50 Caps.",
+    "translation": "50瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBoxMsg_060067A5#MESG:ITXT#04c9eec972a3058db0cfb541984f1f09",
+    "original": "100 Caps.",
+    "translation": "100瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxFollowersDonationBoxMsg_060067A5#MESG:ITXT#a33c13830101f59c4717ac1ee3576266",
+    "original": "Nothing.",
+    "translation": "没什么。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxSkillBookNearbyMsg_0600EB1A#MESG:DESC#495274d6c920142da61e327bcb774d8a",
+    "original": "There is a skill book nearby.",
+    "translation": "附近有一本技能书。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxSkillBookNearbyPluralMsg_0600EB1B#MESG:DESC#d1c7d371f673c15aebd4fbd1bc2f33e1",
+    "original": "There are %.0f skill books nearby.",
+    "translation": "附近有%.0f本技能书。",
+    "stage": 1
+  },
+  {
+    "key": "CaesarsLegionFactionOutfitWarning_001264EA#MESG:DESC#429e82ab1aae65e218787b3663e04bb4",
+    "original": "You are now dressed as a member of Caesar's Legion.",
+    "translation": "你现在打扮成了凯撒军团的一员。",
+    "stage": 1
+  },
+  {
+    "key": "NCRFactionOutfitWarning_0012B03B#MESG:DESC#72ebbd000f4e8a38161248e403787263",
+    "original": "You are now dressed as a member of the NCR.",
+    "translation": "你现在乔装成了NCR的一员。",
+    "stage": 1
+  },
+  {
+    "key": "NCRFactionOutfitWarningOff_00134B62#MESG:DESC#d1128a6014ac1637199876445ca7cc81",
+    "original": "You are no longer dressed as a member of the NCR.",
+    "translation": "你不再穿着NCR的装束。",
+    "stage": 1
+  },
+  {
+    "key": "CaesarsLegionFactionOutfitWarningOff_00134B63#MESG:DESC#235756d3e0a3857647902187e4962411",
+    "original": "You are no longer dressed as a member of Caesar's Legion.",
+    "translation": "你不再打扮成凯撒军团的一员。",
+    "stage": 1
+  },
+  {
+    "key": "BoSFactionOutfitWarning_00134B64#MESG:DESC#a312a164fa5f0c42a5715275510e386d",
+    "original": "You are now dressed as a member of the Brotherhood of Steel.",
+    "translation": "你现在打扮成了钢铁兄弟会的一员。",
+    "stage": 1
+  },
+  {
+    "key": "BoSFactionOutfitWarningOff_00134B65#MESG:DESC#3a90d9e0531394f339b54adcfd8f283c",
+    "original": "You are no longer dressed as a member of the Brotherhood of Steel.",
+    "translation": "你不再打扮成钢铁兄弟会的一员了。",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerFactionOutfitWarning_00134B66#MESG:DESC#5ca96d4b1154fdbf6f811e74fab4165b",
+    "original": "You are now dressed as a Powder Ganger.",
+    "translation": "你现在乔装成了炸药帮的一员。",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerFactionOutfitWarningOff_00134B67#MESG:DESC#ed8369f6754ef52edf76a8e99ac1653c",
+    "original": "You are no longer dressed as a Powder Ganger.",
+    "translation": "你不再穿着炸药帮的装束。",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01KnifeSpearSpaceAge_01010973#RCPE:FULL#4cb537c6b527c4c0444755f943a2733f",
+    "original": "Cosmic Knife Spear",
+    "translation": "干净的餐刀长矛",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01GhostSight_01012C3C#RCPE:FULL#875231e150708faac7c634d0a050926f",
+    "original": "Ghost Sight",
+    "translation": "鬼人视觉",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeDaturaRootPoison_02009909#RCPE:FULL#9320b1fbe50437163a337f14e957a73b",
+    "original": "Dark Datura",
+    "translation": "黑曼陀罗",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeWeaponBindingRitual_0200CCFB#RCPE:FULL#199ff7c7b691957d24831c258503e333",
+    "original": "Weapon Binding Ritual",
+    "translation": "鲜血的仪式",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeDaturana_0200CCFC#RCPE:FULL#73af2331b3e51bf429aab100a43e21a6",
+    "original": "Daturana",
+    "translation": "曼陀罗根",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeDaturaHide_0200CCFD#RCPE:FULL#8f1de6f1934c5d1891c171693aac74e1",
+    "original": "Datura Hide",
+    "translation": "曼陀罗强化剂",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeBreakdown45Auto_02010CD9#RCPE:FULL#9d363c9b9ffaf585cb4add7f90217c88",
+    "original": "Breakdown .45 Auto",
+    "translation": "拆解 .45Auto子弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeHealingPoultice_0201103D#RCPE:FULL#eaaabb5c0ef7af499495d625217172d9",
+    "original": "Healing Poultice",
+    "translation": "疗伤膏",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeGeckoGreenHideTanned_020110FD#RCPE:FULL#e2518a8ce056238b46272961776a6802",
+    "original": "Tanned Green Gecko Hide",
+    "translation": "鞣制绿蜥蜴皮",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeArmorLeatherGecko_02011104#RCPE:FULL#24280cc089ae6abcb9d62b69d2b81c8a",
+    "original": "Gecko-Backed Leather Armor",
+    "translation": "蜥蜴皮甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeArmorLeatherReinforcedGecko_02011105#RCPE:FULL#f19476dee0638da0e88823393886f592",
+    "original": "Gecko-Backed Leather Armor, Reinforced",
+    "translation": "强化蜥蜴皮甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeArmorMetalGecko_02011106#RCPE:FULL#6ce6a8e2a585a5be260e0720b2fce18b",
+    "original": "Gecko-Backed Metal Armor",
+    "translation": "蜥蜴皮制金属甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeArmorMetalReinforcedGecko_02011107#RCPE:FULL#d4fc92b07fa03e6609973e0bd9658c4c",
+    "original": "Gecko-Backed Metal Armor, Reinforced",
+    "translation": "强化蜥蜴皮制金属甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeDaturaAntivenom_02011108#RCPE:FULL#dd107714e7dee569d2c5c580602da643",
+    "original": "Datura Antivenom",
+    "translation": "曼陀罗抗毒素",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeBloodShield_0201110B#RCPE:FULL#f991c1ff130b3e4d643f50abd3f69678",
+    "original": "Blood Shield",
+    "translation": "鲜血护盾",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02GreenGeckoHideBelt_0201120C#RCPE:FULL#776487dad69c1b917d8c05826268819f",
+    "original": "Green Gecko Hide Belt",
+    "translation": "绿蜥蜴皮皮带",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeBlackBloodSausage_030133B2#RCPE:FULL#9a503ffec2f5f45ffe48b14f152c72b1",
+    "original": "Black Blood Sausage",
+    "translation": "黑血肠",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedNevadaAgaveFruit_030133B4#RCPE:FULL#bda8cbd5e412069feb95f66effd6af2e",
+    "original": "Cloned Nevada Agave Fruit",
+    "translation": "克隆的内华达龙舌兰果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeThickRedPaste_030133B5#RCPE:FULL#0febd541a51532c5feb384076868f383",
+    "original": "Thick Red Paste",
+    "translation": "稠血酱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedBarrelCactusFruit_030133B7#RCPE:FULL#29ae8bdddb5dbc0a3642f763611dfb95",
+    "original": "Cloned Barrel Cactus Fruit",
+    "translation": "克隆的巨柱仙人掌果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedPintoBeanPod_030133B8#RCPE:FULL#36530cc51c90a5f7ab6efb01619b8091",
+    "original": "Cloned Pinto Bean Pod",
+    "translation": "克隆的黑白斑豆荚",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedBananaYucca_030133B9#RCPE:FULL#86875e265b19874b7a5ee25b237b16f2",
+    "original": "Cloned Banana Yucca",
+    "translation": "克隆的丝兰蕉",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedBrocFlower_030133BA#RCPE:FULL#adfe7c961845104d984de716e9f4cb04",
+    "original": "Cloned Broc Flower",
+    "translation": "克隆的布洛克花",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedPricklyPearFruit_030133BB#RCPE:FULL#8b1edda82687c3f4a8d63533d7be2e0a",
+    "original": "Cloned Prickly Pear Fruit",
+    "translation": "克隆的仙人掌果",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedXanderRoot_030133BC#RCPE:FULL#25c13dee234035b66940d9aff7b9ac9d",
+    "original": "Cloned Xander Root",
+    "translation": "克隆的山德根",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedHoneyMesquite_030133BD#RCPE:FULL#20431f1c11053ec672c050e270211380",
+    "original": "Cloned Honey Mesquite",
+    "translation": "克隆的蜜豆",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedJalapeno_030133BE#RCPE:FULL#795d85d4bfab160120fce57995e2ba50",
+    "original": "Cloned Jalapeño Pepper",
+    "translation": "克隆的墨西哥椒",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedMaize_030133BF#RCPE:FULL#a3a89c55b2437c6c33644334eef4f5d5",
+    "original": "Cloned Maize",
+    "translation": "克隆的玉米",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeClonedWhiteHorsenettle_030133C0#RCPE:FULL#925fe9bf36b31b4ad0bd522a3fd872a9",
+    "original": "Cloned White Horsenettle",
+    "translation": "克隆的白马荨麻",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeNightstalkerSqueezins_03015076#RCPE:FULL#9b8a7f294d3af8b00760f4be1cc6ead6",
+    "original": "Nightstalker Squeezin's",
+    "translation": "夜行兽提取物",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03RecipeBattleBrew_030158A9#RCPE:FULL#650af2333a0a48aa8b93f890587e41ea",
+    "original": "Battle Brew",
+    "translation": "战啤",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04RocketAmmo_04009266#RCPE:FULL#bb3e7a2e4388c5e901deede7f6cd9ab0",
+    "original": "Rocket Ammo",
+    "translation": "火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04RushingWater_0400926A#RCPE:FULL#c34d891d16f861f5f95453b3ea547720",
+    "original": "Rushing Water",
+    "translation": "激流",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04RocketHEAmmo_0400C42F#RCPE:FULL#9920a7e70ce585b6bdaeafe3acf63e99",
+    "original": "High-Explosive Rocket Ammo",
+    "translation": "火箭弹-高爆型",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04ConversionMissileToRocket_0400CF38#RCPE:FULL#0df6847bd9cd3d3ef373e3c2daf8b2de",
+    "original": "Conversion, Missile to Rocket",
+    "translation": "转化 导弹-火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04NailsAmmo_0400D754#RCPE:FULL#548fe5010fe62678fce8a52acc1ca273",
+    "original": "Nails",
+    "translation": "钉子",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04RocketIncendiaryAmmo_0400DFE3#RCPE:FULL#e5640d4e109a069cb8a1642912794541",
+    "original": "Incendiary Rocket Ammo",
+    "translation": "火箭弹-燃烧型",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04BreakdownRocket_0400E107#RCPE:FULL#d003d695d096f77b365bdf27b83fb9bb",
+    "original": "Breakdown Rocket",
+    "translation": "拆解 火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeTunnelerHideBelt_0600A362#RCPE:FULL#47a4cc78122b7ba15075247b97ad0436",
+    "original": "Tunneler Hide Belt",
+    "translation": "掘穴者皮腰带",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeUltrajet_06011AE5#RCPE:FULL#443e51f91854f991068e37c16ac8dbf1",
+    "original": "Ultrajet",
+    "translation": "超级杰特",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxRecipeMantisGauntlet_06011AE6#RCPE:FULL#d1abe54e8af7bc6bdb462b8b707883b5",
+    "original": "Mantis Gauntlet",
+    "translation": "螳螂拳套",
+    "stage": 1
+  },
+  {
+    "key": "RecipeHealingPowder_0013B2C2#RCPE:FULL#edd21628f80d848872763d2721029565",
+    "original": "Healing Powder",
+    "translation": "治疗粉",
+    "stage": 1
+  },
+  {
+    "key": "RecipeMassPurifiedWater_0013D3C5#RCPE:FULL#ba8db218aab071a42ef273e357a8c3fa",
+    "original": "Mass Purified Water",
+    "translation": "滤制纯净水",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBleakVenom_0013D3C7#RCPE:FULL#e1270812ef3a46c76eba489d6f872ea2",
+    "original": "Bleak Venom",
+    "translation": "寒毒",
+    "stage": 1
+  },
+  {
+    "key": "RecipeCassMoonshine_0016163F#RCPE:FULL#8bc4bed4d7f9f1ca42ea0ce504a22e50",
+    "original": "Cass' Moonshine",
+    "translation": "卡丝的私酿酒",
+    "stage": 1
+  },
+  {
+    "key": "RecipeMotherDarkness_00167478#RCPE:FULL#6d2daba464ef5d4d74f786364808bf00",
+    "original": "Mother Darkness",
+    "translation": "黑暗之母",
+    "stage": 1
+  },
+  {
+    "key": "RecipeSilverSting_00167479#RCPE:FULL#d435508ad200e89ce1d89f4a382d4df1",
+    "original": "Silver Sting",
+    "translation": "灰蜇",
+    "stage": 1
+  },
+  {
+    "key": "RecipeTremble_0016747A#RCPE:FULL#8f1dd619909206c943961ebf1f5bc42d",
+    "original": "Tremble",
+    "translation": "颤毒",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01GasBomb_0101096C#RCPE:FULL#787b58acaa1874b26dd2db0d5ee7eb23",
+    "original": "Gas Bomb",
+    "translation": "毒气弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01KnifeSpear_0101096D#RCPE:FULL#7dba79289f07de474e91c2240b343572",
+    "original": "Knife Spear",
+    "translation": "餐刀长矛",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01CloudKissWeak_0101096F#RCPE:FULL#62e94b64de5d13e7d994fa2a6b7960c3",
+    "original": "Cloud Kiss (Weak)",
+    "translation": "红雾之吻（弱效）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01CloudKissStrong_01010970#RCPE:FULL#b6a5fe2409d8b0eba5722b6b8c38aa7c",
+    "original": "Cloud Kiss (Potent)",
+    "translation": "红雾之吻（强效）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01CloudKissLethal_01010971#RCPE:FULL#7eeb98c791eb2572bea1dc365bbb84b7",
+    "original": "Cloud Kiss (Lethal)",
+    "translation": "红雾之吻（致命）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01SpaceAgeKnifeClean_01010972#RCPE:FULL#1d38033391a1ca8cbbb680c5ae3f87b9",
+    "original": "Cosmic Knife (Clean)",
+    "translation": "干净的宇宙餐刀",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckMayes_00165AC5#CDCK:FULL#f73f8444592cc394af9ac04c6d705978",
+    "original": "Quatermaster's Arsenal",
+    "translation": "军需官的武器库",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckJules_00169E23#CDCK:FULL#847b5462b7928189b8cad69df4f62b46",
+    "original": "Jules Caravan Deck",
+    "translation": "朱尔斯的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckNobark_0017B41B#CDCK:FULL#cce2fd5a49c172583bd602ec3e5e27c5",
+    "original": "No Bark's Bite",
+    "translation": "疯嘴的撕咬",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckRingo_0015D7A2#CDCK:FULL#2a74d78af78636d2e0d08a94638fcc86",
+    "original": "Ringo's Caravan Deck",
+    "translation": "林戈的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckDaleBarton_00163487#CDCK:FULL#9ebcf91dfcb3c6137c407a82839b3165",
+    "original": "Arizona Dealer",
+    "translation": "亚利桑那商人",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckMelissa_00163488#CDCK:FULL#4ea31c0617ca3b0be1cb892e1e95bc65",
+    "original": "Melissa's Caravan Deck",
+    "translation": "梅丽莎的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckKlamathBob_00163489#CDCK:FULL#9b25251aded4ac17eb7519cd9edc0e71",
+    "original": "Klamath Bob's Caravan Deck",
+    "translation": "克拉马斯·鲍勃的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckIsaac_0016348A#CDCK:FULL#9fcd7de58213476914b8db39ea5ddfd0",
+    "original": "Isaac's Caravan Deck",
+    "translation": "艾萨克的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckNash_001649D1#CDCK:FULL#7c1b6ac1ba9c1765b8249f4169c219f8",
+    "original": "Mojave Express Spectacular",
+    "translation": "莫哈维快递导览",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckCrocker_00165AC3#CDCK:FULL#be8d593bdfb3612295a4a9bcc45b265d",
+    "original": "Touring The Strip",
+    "translation": "赌场观光",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckErwin_00165AC4#CDCK:FULL#4a4069743bbb010af770f41c414e474a",
+    "original": "Strip Tease",
+    "translation": "赌场的脱衣挑逗",
+    "stage": 1
+  }
+]

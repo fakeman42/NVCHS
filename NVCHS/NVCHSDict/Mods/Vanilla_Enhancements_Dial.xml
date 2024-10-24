@@ -1,0 +1,2384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GREETING</ORIGINAL>
+    <TRADUIT>问好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00124A50</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You know everything you need to know. Be on your way.</ORIGINAL>
+    <TRADUIT>需要知道的已经都告诉你了。行动吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000F7ABA</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks for the assistance, doc. Time for us to go take out Motor-Runner?</ORIGINAL>
+    <TRADUIT>谢谢你的协助，医生。咱们该去干掉轰鸣恶煞了吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000F7ABB</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What do you need? I have a job to do.</ORIGINAL>
+    <TRADUIT>你有什么事？我还有活要干。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000F7ABC</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'm ready to take out Motor-Runner when you are.</ORIGINAL>
+    <TRADUIT>我已经准备好去干掉轰鸣恶煞了，就等你一句话。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00118360</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You really don't want to start trouble in here.</ORIGINAL>
+    <TRADUIT>你最好别在这儿惹麻烦。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00140D97</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How's it going?</ORIGINAL>
+    <TRADUIT>一切都顺利吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Melissa [000E595C] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D2</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello</ORIGINAL>
+    <TRADUIT>你好。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011835B</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep moving.</ORIGINAL>
+    <TRADUIT>继续前进。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [0011836F] (file)
+NPC : Van Graff Thug [0011839A] (file)
+NPC : Van Graff Thug [0011839B] (file)
+NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Thug [0011836E] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011835C</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You got a problem?</ORIGINAL>
+    <TRADUIT>你有问题吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [0011836F] (file)
+NPC : Van Graff Thug [0011839A] (file)
+NPC : Van Graff Thug [0011839B] (file)
+NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Thug [0011836E] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011835D</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We're watching you. Closely.</ORIGINAL>
+    <TRADUIT>我们正盯着你呢。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [0011836F] (file)
+NPC : Van Graff Thug [0011839A] (file)
+NPC : Van Graff Thug [0011839B] (file)
+NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Thug [0011836E] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000DC</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Attack</ORIGINAL>
+    <TRADUIT>攻击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001586F2</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>For the Brotherhood.</ORIGINAL>
+    <TRADUIT>为了兄弟会。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Veronica [000E32AA] (file)
+Comment (NAM2) : through gritted teeth, mostly to herself
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037071</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wait here.</ORIGINAL>
+    <TRADUIT>在这等着。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BC</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BC</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Follow Protocol::Wait&gt;</ORIGINAL>
+    <TRADUIT>&lt;跟从协定::等待&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037074</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Keep your distance. Try to flank them.</ORIGINAL>
+    <TRADUIT>和他们保持距离。不妨从侧面攻击他们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BF</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BF</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Follow Distance::Far&gt;</ORIGINAL>
+    <TRADUIT>&lt;跟随距离::远&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707A</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to use ranged weapons.</ORIGINAL>
+    <TRADUIT>我希望你使用远距攻击武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579CC</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579CC</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Weapon Type::Ranged&gt;</ORIGINAL>
+    <TRADUIT>&lt;武器类型::远程&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707B</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Switch to a melee weapon.</ORIGINAL>
+    <TRADUIT>切换到近战武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BD</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BD</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Weapon Type::Melee&gt;</ORIGINAL>
+    <TRADUIT>&lt;武器类型::近战&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037082</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's get going.</ORIGINAL>
+    <TRADUIT>我们走。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579D4</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579D4</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Follow Protocol::Reinitiate&gt;</ORIGINAL>
+    <TRADUIT>&lt;跟从协定::重新开始&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037084</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I think we should travel together.</ORIGINAL>
+    <TRADUIT>我觉得我们应该同行。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C2</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C2</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol-&gt;Conflict::Rex&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定-&gt;冲突::雷克斯&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C3</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C3</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Begin&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定::开始&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000BACC1</ID>
+    <EDID>PrimmSlimGunYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Those thieves had some gall, stealing from a museum dedicated to romanticizing a couple of criminals!</ORIGINAL>
+    <TRADUIT>这些小偷真是厚颜无耻，他们居然敢从雌雄大盗的博物馆里偷东西！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [000E2886] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000BACC1</ID>
+    <EDID>PrimmSlimGunYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'll make sure the gun ends up back on display. I thank you, Primm thanks you, and I do believe Vance'd thank you, if he could.</ORIGINAL>
+    <TRADUIT>我会把枪重新放回陈列箱里的。谢谢，我代表普瑞姆感谢您，我相信万斯若是泉下有知，也一定会感谢您的。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [000E2886] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000BACC1</ID>
+    <EDID>PrimmSlimGunYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I found the gun. Here it is.</ORIGINAL>
+    <TRADUIT>我找到枪了。就在这里。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03E</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>On second thought, stick with me for a little longer.</ORIGINAL>
+    <TRADUIT>我想了一下，还是留在我身边吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C7</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C7</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Continue Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定::继续同伴协定&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03F</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yes, I'm sure.</ORIGINAL>
+    <TRADUIT>是的，我确定。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C5</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C5</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::End Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::结束同伴协定&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000E32E5</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I convinced Pauline that you shouldn't go through with this.</ORIGINAL>
+    <TRADUIT>我已经说服了宝琳，她也觉得应该收手。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Really? Oh, thank god! I love that woman, but I swear this time she was gonna get us killed!</ORIGINAL>
+    <TRADUIT>真的？哦，感谢上帝！我爱那女人，但她这一次真的差点害死我们！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sammy Wins [000E2DCF] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The gun's in the safe. The combination's 05-23-34. Take it far away from here, before she changes her mind.</ORIGINAL>
+    <TRADUIT>枪在保险箱里。密码是05-23-34。在她改变主意之前，带着枪赶紧走吧。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sammy Wins [000E2DCF] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Pauline says you should give me the gun.</ORIGINAL>
+    <TRADUIT>宝琳说你应该把枪给我。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000FE3FA</ID>
+    <EDID>VMS07Greeting</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks for the assistance taking out Motor-Runner. I'll be heading back to McCarran. I'll put in a good word for you.</ORIGINAL>
+    <TRADUIT>感谢你干掉了轰鸣恶煞。等我回到麦卡伦，一定会好好宣传你的事迹。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00116E19</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Right here. &lt;Give McCaffery's hat&gt;</ORIGINAL>
+    <TRADUIT>在这儿呢。 &lt;交出麦卡弗里的帽子&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116E1C</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This is great news. No one screws with the Garret Twins and gets away with it. I need to find a place on the wall for this.</ORIGINAL>
+    <TRADUIT>太振奋人心了。敢戏弄加勒特兄妹的人是绝不会有好下场的。我得找个地方把它挂起来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Francine Garret [0010C680] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116E1C</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And for your reward... Here's 150 caps. I trust there were also some valuables on McCaffery. Also, we would like to set you up with a room.</ORIGINAL>
+    <TRADUIT>至于你的奖励……这是150个瓶盖。麦卡弗里身上应该也有些值钱的东西。另外，我们会给你安排一间房间。 </TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Francine Garret [0010C680] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116E1C</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You can have the corner room, rent free. It was McCaffery's. Now that he's dead, we're happy to let you use it. Thanks for helping us.</ORIGINAL>
+    <TRADUIT>拐角处的那间房免费给你用了。本来是麦卡弗里住的。既然他死了，我们很乐意把它交给你。谢谢你帮忙。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Francine Garret [0010C680] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00116FD0</ID>
+    <EDID>VFreeformBoulderCityBCLieutenantMonroeTopic055</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'm unable to work out a deal. The Great Khans are all yours.</ORIGINAL>
+    <TRADUIT>我没法达成协议，大汗帮的人归你处置了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116FDA</ID>
+    <EDID>VFreeformBoulderCityBCLieutenantMonroeTopic055</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It was worth a try. I'll have to proceed with the attack as ordered, then.</ORIGINAL>
+    <TRADUIT>你已经尽力了。那么我只能依照命令开始强攻了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Lieutenant Monroe [0010C6DD] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011D57C</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All right. I'm on it.</ORIGINAL>
+    <TRADUIT>很好。我这就去。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011D57D</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Really? Oh, I wasn't expecting you to agree so easily. That's great!</ORIGINAL>
+    <TRADUIT>真的吗？哦，没想到你这么容易就答应了。真是太好了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011D57D</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here, take this packet sniffer. It'll allow us to intercept data on Mr. House's network.</ORIGINAL>
+    <TRADUIT>拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011D57D</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!</ORIGINAL>
+    <TRADUIT>你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011EBCD</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to attack enemies the moment you see them.</ORIGINAL>
+    <TRADUIT>我要你看到敌人就马上攻击他们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C8</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C8</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Aggression Level::Aggressive&gt;</ORIGINAL>
+    <TRADUIT>&lt;进攻程度::积极&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C9</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C9</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Aggression Level::Aggressive&gt;</ORIGINAL>
+    <TRADUIT>&lt;进攻程度::积极&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00129A2F</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All right. I'll do it.</ORIGINAL>
+    <TRADUIT>好吧，我干。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00129A32</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Great. I'll have the medical supplies for you by the time you come back.</ORIGINAL>
+    <TRADUIT>好极了。等你回来时，我会把药品准备好的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00129A32</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here, take this packet sniffer. It will allow us to intercept data on Mr. House's network.</ORIGINAL>
+    <TRADUIT>拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00129A32</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!</ORIGINAL>
+    <TRADUIT>你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C51</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic039</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion money, please.</ORIGINAL>
+    <TRADUIT>军团币，麻烦了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C76</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic039</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very well. Will there be anything else?</ORIGINAL>
+    <TRADUIT>好的。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C5A</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic030</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange NCR money for chips.</ORIGINAL>
+    <TRADUIT>我想用NCR纸币换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C7C</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic030</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C60</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic022</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange Legion money for chips.</ORIGINAL>
+    <TRADUIT>我想用军团第纳尔来换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C80</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic022</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0014CC94</ID>
+    <EDID>vDialogueMedicalClinicDoctorUsanagiTopic045</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 500 caps.</ORIGINAL>
+    <TRADUIT>我愿意捐500个瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0014CCB8</ID>
+    <EDID>vDialogueMedicalClinicDoctorUsanagiTopic045</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very much appreciated. These caps will go towards funding schools and other services to the poorer part of the community.</ORIGINAL>
+    <TRADUIT>感激不尽。我们会用这笔钱来资助学校，并且帮助城郊那些穷苦的人们的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Doctor Usanagi [000EC7A3] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00151DBD</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic009</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange caps for chips.</ORIGINAL>
+    <TRADUIT>我想用瓶盖来换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00151DC3</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic009</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0015299B</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Why must Mr. House be killed?</ORIGINAL>
+    <TRADUIT>为什么一定要杀死豪斯先生？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001529D2</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Because he complicates the equation of force. He's a free agent, an unpredictable element.</ORIGINAL>
+    <TRADUIT>因为他打破了势力间的均衡。他不受任何一方约束，是个不稳定因素。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001529D2</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'm sure he's trying to sit out this battle, just as he did four years ago, hoping the Legion and the Profligates will wipe each other out.</ORIGINAL>
+    <TRADUIT>我敢肯定他这次还会像四年前一样作壁上观，盼着军团和荒淫之人两败俱伤。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001529D2</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>When he sees the Profligates losing this battle, however, he might throw his support behind them. Except he won't, because he'll be dead.</ORIGINAL>
+    <TRADUIT>不过，如果这次荒淫之人输掉的话，他可能会派出援军。当然，假如他死了，我们就不必再操心了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Surprise</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00156BFC</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like you to go back to the Lucky 38 for now.</ORIGINAL>
+    <TRADUIT>我希望你现在回幸运38赌场去。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579DA</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579DA</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Return Base&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::回到基地&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00157F65</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yeah, let's play again.</ORIGINAL>
+    <TRADUIT>好啊，再来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C53E</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope you're ready for this.</ORIGINAL>
+    <TRADUIT>希望你准备好了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Quartermaster Mayes [00120DCE] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163446</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>No more magic spells this time.</ORIGINAL>
+    <TRADUIT>这次不准玩花样。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163447</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I've got a good feeling about this hand.</ORIGINAL>
+    <TRADUIT>我预感这次手风会顺。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C53F</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Let's get this started!</ORIGINAL>
+    <TRADUIT>来，开始！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Private Jake Erwin [00112642] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C540</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Excellent. Let the game begin!</ORIGINAL>
+    <TRADUIT>太好了，开始吧！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ambassador Dennis Crocker [00112640] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015B709</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very well. I would wish you luck, but of course peerless intellect is all that matters here.</ORIGINAL>
+    <TRADUIT>很好。祝你好运，但显然智力才是决定因素。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6F</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Okay, hope you're ready to lose.</ORIGINAL>
+    <TRADUIT>准备好迎接失败了么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F70</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Let the Caravan Lesson begin.</ORIGINAL>
+    <TRADUIT>让我好好教你该怎么玩商队牌。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163448</ID>
+    <EDID>CaravanPlayerLoses</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>No-bark wins! A few more like that and the curse'll get lifted for sure.</ORIGINAL>
+    <TRADUIT>疯嘴获胜！再来几次就能打破魔咒了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163449</ID>
+    <EDID>CaravanPlayerLoses</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Don't take it to heart. I've studied the strategies of the masters.</ORIGINAL>
+    <TRADUIT>别太难过，我可是研究了不少大师的策略。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016344B</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Dang it! Shoulda known you was getting caravan hints from the bloatfly spirits what live in these parts.</ORIGINAL>
+    <TRADUIT>见鬼！肯定是那些辐射蝇的幽灵帮你作弊了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016344B</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Well I'll be cold and rotting before I let them get the best of me. Let's go again.</ORIGINAL>
+    <TRADUIT>哼，就算我进了棺材，也绝不能容许有人比我强。再来。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016344C</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Huh. I wonder where I went wrong. Let's try that again.</ORIGINAL>
+    <TRADUIT>啊，我究竟是哪里搞错了。我们再来一把好了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F71</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Dammit, I thought I had you there. Let's play again.</ORIGINAL>
+    <TRADUIT>该死，我还以为我赢定了。再来！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F72</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Wow, you're good. Give me another game.</ORIGINAL>
+    <TRADUIT>你玩得很好啊，再和我来一把。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00157F69</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Want to play a hand of Caravan?</ORIGINAL>
+    <TRADUIT>来一把商队牌？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0600C14F</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure.</ORIGINAL>
+    <TRADUIT>当然。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Klamath Bob [000F839E] (mod)
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6D</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All right, let's see what you got.</ORIGINAL>
+    <TRADUIT>好啊，看看你究竟有多大本事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ringo [00104C7C] (mod)
+NPC : Johnson Nash [000DA729] (file)
+NPC : Cliff Briscoe [0008CD27] (file)
+NPC : No-bark Noonan [0008CD23] (file)
+NPC : Quartermaster Mayes [00120DCE] (file)
+NPC : Poindexter [00104311] (mod)
+NPC : Jules [0013E307] (file)
+NPC : Ambassador Dennis Crocker [00112640] (file)
+NPC : Private Jake Erwin [00112642] (file)
+NPC : Melissa [000E595C] (mod)
+NPC : Klamath Bob [000F839E] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6E</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'm going to roll over you.</ORIGINAL>
+    <TRADUIT>我会让你输得心服口服的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ringo [00104C7C] (mod)
+NPC : Johnson Nash [000DA729] (file)
+NPC : Cliff Briscoe [0008CD27] (file)
+NPC : No-bark Noonan [0008CD23] (file)
+NPC : Quartermaster Mayes [00120DCE] (file)
+NPC : Poindexter [00104311] (mod)
+NPC : Jules [0013E307] (file)
+NPC : Ambassador Dennis Crocker [00112640] (file)
+NPC : Private Jake Erwin [00112642] (file)
+NPC : Melissa [000E595C] (mod)
+NPC : Klamath Bob [000F839E] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015D8A5</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All right, let's play.</ORIGINAL>
+    <TRADUIT>好啊，来呀。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ringo [00104C7C] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163444</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A fellow enthusiast, huh? That's great! Let's play.</ORIGINAL>
+    <TRADUIT>你也爱玩牌？太好了，来吧！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163445</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure. Old No-bark is always looking to play. Not for entertainment, mind you, but because if you look at the cards right you can know the future.</ORIGINAL>
+    <TRADUIT>没问题。老疯嘴可是很喜欢商队牌的。要知道，这可不是单纯的消遣，只要你能看出这些牌的门道，你就能预知未来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C544</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Damn straight I would! Let's see what you got.</ORIGINAL>
+    <TRADUIT>那还用说？来看看你手气如何吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Quartermaster Mayes [00120DCE] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C545</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Bring it on, buddy!</ORIGINAL>
+    <TRADUIT>尽管放马过来，哥们儿！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Private Jake Erwin [00112642] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C546</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I always have time for a good game of Caravan. I hope you're up to the challenge.</ORIGINAL>
+    <TRADUIT>玩商队牌我当然有空。就看你有没有本事和我较量一番了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ambassador Dennis Crocker [00112640] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015B70C</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A fascinating proposition. Naturally, my considerable genius makes me a master of the game, so try not to be disappointed if you lose miserably.</ORIGINAL>
+    <TRADUIT>诱人的提议。以我的天赋，这种游戏根本不在话下。所以如果你输太惨，也没必要伤心哦。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016120A</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You betcha! Caravan's got me through many a long night before. I hope you're ready.</ORIGINAL>
+    <TRADUIT>那还用说！商队牌可是伴我度过了多少不眠夜啊。希望你准备好了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Jules [0013E307] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6C</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You think you have what it takes, kid?</ORIGINAL>
+    <TRADUIT>你真觉得自己牌技不错吗，小子？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Johnson Nash [000DA729] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0600C14C</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>If you wish.</ORIGINAL>
+    <TRADUIT>请便。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Melissa [000E595C] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00163D02</ID>
+    <EDID>vMojavevMOLaceyTopic008</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Up for some more Caravan?</ORIGINAL>
+    <TRADUIT>还想再玩商队牌吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163D2A</ID>
+    <EDID>vMojavevMOLaceyTopic008</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All right, go on - let's put our cards down.</ORIGINAL>
+    <TRADUIT>来吧，继续——接着发牌吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Lacey [0013D6A7] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00163D03</ID>
+    <EDID>vMojavevMOLaceyTopic007</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I was hoping to pass the time with a game or two.</ORIGINAL>
+    <TRADUIT>我想玩一两把牌，消磨下时间。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163D2C</ID>
+    <EDID>vMojavevMOLaceyTopic007</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What, Caravan? All right, I'll give it a go. Haven't exactly got much of a line of folks to serve.</ORIGINAL>
+    <TRADUIT>什么？商队牌？好吧，我还真会玩。这附近懂得玩的人并不多。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Lacey [0013D6A7] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A6E0</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic081</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'm running low on Small Energy Cells. Can you make me more?</ORIGINAL>
+    <TRADUIT>我的小型能量电池快用完了，你能帮我再做一些吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A6E4</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic081</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A6E1</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic080</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I need some Microfusion Cells. Can you make some?</ORIGINAL>
+    <TRADUIT>我需要一些微型核聚变电池。可以制造一点吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A6E7</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic080</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A6E3</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic078</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Can you repair my weapon?</ORIGINAL>
+    <TRADUIT>帮我修一下武器吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A6E5</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic078</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A868</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic082</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let me access your multitools. I want to make something.</ORIGINAL>
+    <TRADUIT>让我用用你的工具组，我想造点东西。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D30C</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic082</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;确定的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A869</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic077</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to make some ammo. Can you help me?</ORIGINAL>
+    <TRADUIT>我想要制造点弹药，能帮帮我吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A86A</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic077</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;确定的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A9</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic139</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A9</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic139</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>If you drop the power output by .24, you'll be able to make more energy ammo with no quality loss.</ORIGINAL>
+    <TRADUIT>如果你将功率输出降低0.24，你将能够在不损失质量的情况下制造更多能量弹药。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0AB</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic138</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0AB</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic138</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>If you switched to the 3/8 wrench and the smaller drill, those weapon repairs would be easier.</ORIGINAL>
+    <TRADUIT>如果你改用3/8扳手和较小的钻头，武器修理起来会更容易。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400D096</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic137</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I don't need energy cells right now - I'd like some satchel charges, ED-E.</ORIGINAL>
+    <TRADUIT>我现在不需要能量电池了 - 我需要一些炸药包，ED-E。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A1</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic137</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400D097</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic136</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Can you make me some flamer fuel instead of energy cells?</ORIGINAL>
+    <TRADUIT>你能给我做点火焰喷射器燃料而不是能量电池吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A2</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic136</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A5</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic135</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A5</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic135</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Remove the safety catches on those Microfusion Cells and you could turn them into satchel charges.</ORIGINAL>
+    <TRADUIT>拔掉那些微型核聚变电池上的保险栓你就能把它们变成炸药包了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D09D</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic134</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D09D</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic134</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>You know, if you strip out the plasma relays on those energy cells, you could make flamer fuel.</ORIGINAL>
+    <TRADUIT>你知道，如果你卸掉那些能量电池的等离子继电器，你就能做出火焰喷射器燃料了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06000800</ID>
+    <EDID>VMS07V03BryceAndersInventory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's trade equipment.</ORIGINAL>
+    <TRADUIT>我们交易装备吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0600CD3F</ID>
+    <EDID>VMS07V03BryceAndersInventory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>...</ORIGINAL>
+    <TRADUIT>...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>060025C5</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic110</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exchange all my caps for chips.</ORIGINAL>
+    <TRADUIT>把我的瓶盖都换成筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06002BC1</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic110</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>060025C6</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic120</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exchange all my Legion money for chips.</ORIGINAL>
+    <TRADUIT>把我的军团货币都换成筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06002BC2</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic120</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>060025C7</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic130</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exchange all my NCR money for chips.</ORIGINAL>
+    <TRADUIT>把我的NCR货币都换成筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06002BC3</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic130</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BA9</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicTop</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to make a donation to the Followers.</ORIGINAL>
+    <TRADUIT>我想给追随者们捐一笔钱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06004FAD</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicTop</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How much do you have to donate?</ORIGINAL>
+    <TRADUIT>你要捐赠多少个？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAA</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 10 caps.</ORIGINAL>
+    <TRADUIT>这是10瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06004FB5</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks! Anything else?</ORIGINAL>
+    <TRADUIT>谢谢！还有什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAB</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 50 caps.</ORIGINAL>
+    <TRADUIT>50个瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06005BAF</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic02</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks! Anything else?</ORIGINAL>
+    <TRADUIT>谢谢！还有什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAC</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 100 caps.</ORIGINAL>
+    <TRADUIT>给你100个瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06005BB0</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks! Anything else?</ORIGINAL>
+    <TRADUIT>谢谢！还有什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAD</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicBack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>让我们谈谈其他事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>060061A9</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicBack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks for the donation. Every bit goes toward helping Freeside.</ORIGINAL>
+    <TRADUIT>感谢你的捐赠，所有资金都将用于帮助自由城。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06005BAE</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicBack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That is unfortunate. If you change your mind, please see me right away.</ORIGINAL>
+    <TRADUIT>真遗憾。如果你改变主意，请立刻来找我。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+</DocumentElement>

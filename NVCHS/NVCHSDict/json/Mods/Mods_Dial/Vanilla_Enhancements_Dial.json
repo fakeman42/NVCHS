@@ -1,0 +1,950 @@
+[
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00124A50#INFO:NAM1#d6c95f28e7220a0f2465464932c61de2",
+    "original": "You know everything you need to know. Be on your way.",
+    "translation": "需要知道的已经都告诉你了。行动吧。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7ABA#INFO:NAM1#db49fe85fad61ce47cbdb8cb821c067e",
+    "original": "Thanks for the assistance, doc. Time for us to go take out Motor-Runner?",
+    "translation": "谢谢你的协助，医生。咱们该去干掉轰鸣恶煞了吧？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7ABB#INFO:NAM1#109376fde852cc86d8e8bfa8c8694a75",
+    "original": "What do you need? I have a job to do.",
+    "translation": "你有什么事？我还有活要干。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7ABC#INFO:NAM1#f52ee8533e42794741d5285bcf7fe399",
+    "original": "I'm ready to take out Motor-Runner when you are.",
+    "translation": "我已经准备好去干掉轰鸣恶煞了，就等你一句话。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00118360#INFO:NAM1#5d9a2db054d16fcc0c99aa022bd26982",
+    "original": "You really don't want to start trouble in here.",
+    "translation": "你最好别在这儿惹麻烦。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00140D97#INFO:NAM1#b03fdcb1aebb95d178119d0a8b239498",
+    "original": "How's it going?",
+    "translation": "一切都顺利吗？",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_000000D2#DIAL:FULL#4fbf9b71397ccdfce15a09b4aca7055e",
+    "original": "Hello",
+    "translation": "你好。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0011835B#INFO:NAM1#0bf2c65dcd329c70cced9562356eeec3",
+    "original": "Keep moving.",
+    "translation": "继续前进。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0011835C#INFO:NAM1#6cc0730df635017ee6c935a6a7159839",
+    "original": "You got a problem?",
+    "translation": "你有问题吗？",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0011835D#INFO:NAM1#9a4f899096a237a80513bc7487d0baaa",
+    "original": "We're watching you. Closely.",
+    "translation": "我们正盯着你呢。",
+    "stage": 1
+  },
+  {
+    "key": "Attack_000000DC#DIAL:FULL#ca99e58c372b1e2709288f2516dcb22e",
+    "original": "Attack",
+    "translation": "攻击",
+    "stage": 1
+  },
+  {
+    "key": "Attack_001586F2#INFO:NAM1#f649b5299c1b1cb6d81298c579362f55",
+    "original": "For the Brotherhood.",
+    "translation": "为了兄弟会。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_00037071#DIAL:FULL#5e2c7cd7e7edc178ccf61fe2f1355fe4",
+    "original": "Wait here.",
+    "translation": "在这等着。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_001579BC#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_001579BC#INFO:RNAM#7f6a71c99ce35b625ede64849ddd43ec",
+    "original": "<Follow Protocol::Wait>",
+    "translation": "<跟从协定::等待>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_00037074#DIAL:FULL#e05fd7cdde0f7308de0664f2548fb571",
+    "original": "Keep your distance. Try to flank them.",
+    "translation": "和他们保持距离。不妨从侧面攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_001579BF#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_001579BF#INFO:RNAM#0b60cf97bb15deae6d610e5e2b72f390",
+    "original": "<Follow Distance::Far>",
+    "translation": "<跟随距离::远>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_0003707A#DIAL:FULL#574ea4607e9463d717a04252c3e6d25f",
+    "original": "I want you to use ranged weapons.",
+    "translation": "我希望你使用远距攻击武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_001579CC#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_001579CC#INFO:RNAM#fec56f003ba8507a2e42c6699c58de85",
+    "original": "<Weapon Type::Ranged>",
+    "translation": "<武器类型::远程>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_0003707B#DIAL:FULL#11c2e5d6e94c9ca9d6fa47cd6788baee",
+    "original": "Switch to a melee weapon.",
+    "translation": "切换到近战武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_001579BD#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_001579BD#INFO:RNAM#dabfb78ee7f13ae59f72a7cae1e1965d",
+    "original": "<Weapon Type::Melee>",
+    "translation": "<武器类型::近战>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_00037082#DIAL:FULL#2a3fad8db23f4235ec00fbf81ec20ea9",
+    "original": "Let's get going.",
+    "translation": "我们走。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_001579D4#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_001579D4#INFO:RNAM#31b4bbd4d4e97d7ce4d847844ee58d7c",
+    "original": "<Follow Protocol::Reinitiate>",
+    "translation": "<跟从协定::重新开始>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_00037084#DIAL:FULL#1ea4c0b10fc2430b996d0ae879404aa3",
+    "original": "I think we should travel together.",
+    "translation": "我觉得我们应该同行。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C2#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C2#INFO:RNAM#78ac767a8059671c0b486f28f387a782",
+    "original": "<Companion Protocol->Conflict::Rex>",
+    "translation": "<同伴协定->冲突::雷克斯>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C3#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_001579C3#INFO:RNAM#bbc487e444be344b386bc007b1fb68c3",
+    "original": "<Companion Protocol::Begin>",
+    "translation": "<同伴协定::开始>",
+    "stage": 1
+  },
+  {
+    "key": "PrimmSlimGunYes_000BACC1#INFO:NAM1#6db8a0e45fe37859ef1f78775c1643da",
+    "original": "Those thieves had some gall, stealing from a museum dedicated to romanticizing a couple of criminals!",
+    "translation": "这些小偷真是厚颜无耻，他们居然敢从雌雄大盗的博物馆里偷东西！",
+    "stage": 1
+  },
+  {
+    "key": "PrimmSlimGunYes_000BACC1#INFO:NAM1#4bcdcdb1933c2963d2b9f62c45b7c894",
+    "original": "I'll make sure the gun ends up back on display. I thank you, Primm thanks you, and I do believe Vance'd thank you, if he could.",
+    "translation": "我会把枪重新放回陈列箱里的。谢谢，我代表普瑞姆感谢您，我相信万斯若是泉下有知，也一定会感谢您的。",
+    "stage": 1
+  },
+  {
+    "key": "PrimmSlimGunYes_000BACC1#INFO:RNAM#8a14f8052e7982765a4edb65b747ab57",
+    "original": "I found the gun. Here it is.",
+    "translation": "我找到枪了。就在这里。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_000BD03E#DIAL:FULL#c282787c546316d42c7764cba57d8bb8",
+    "original": "On second thought, stick with me for a little longer.",
+    "translation": "我想了一下，还是留在我身边吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_001579C7#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_001579C7#INFO:RNAM#66fc46a0ab687b5a83746fb1a062850f",
+    "original": "<Companion Protocol::Continue Companion Protocol>",
+    "translation": "<同伴协定::继续同伴协定>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_000BD03F#DIAL:FULL#aa797b5766b015a8c659071e73048181",
+    "original": "Yes, I'm sure.",
+    "translation": "是的，我确定。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_001579C5#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_001579C5#INFO:RNAM#6076d7ffb9733ca74cf6283a9e836461",
+    "original": "<Companion Protocol::End Companion Protocol>",
+    "translation": "<同伴协议::结束同伴协定>",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32E5#DIAL:FULL#3d8698d9e00d3364be4dfb2095d96923",
+    "original": "I convinced Pauline that you shouldn't go through with this.",
+    "translation": "我已经说服了宝琳，她也觉得应该收手。",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32EB#INFO:NAM1#b525c5819f6be5651dedaae36a93b73d",
+    "original": "Really? Oh, thank god! I love that woman, but I swear this time she was gonna get us killed!",
+    "translation": "真的？哦，感谢上帝！我爱那女人，但她这一次真的差点害死我们！",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32EB#INFO:NAM1#8429f2df3fffa8d61c7fc757038ed976",
+    "original": "The gun's in the safe. The combination's 05-23-34. Take it far away from here, before she changes her mind.",
+    "translation": "枪在保险箱里。密码是05-23-34。在她改变主意之前，带着枪赶紧走吧。",
+    "stage": 1
+  },
+  {
+    "key": "SammyPaulineConvinced_000E32EB#INFO:RNAM#f8b9a4d488b22b0c07ec8e76e2b8696a",
+    "original": "Pauline says you should give me the gun.",
+    "translation": "宝琳说你应该把枪给我。",
+    "stage": 1
+  },
+  {
+    "key": "VMS07Greeting_000FE3FA#INFO:NAM1#bf2a495d2133095db2096ab8dc6d2e2f",
+    "original": "Thanks for the assistance taking out Motor-Runner. I'll be heading back to McCarran. I'll put in a good word for you.",
+    "translation": "感谢你干掉了轰鸣恶煞。等我回到麦卡伦，一定会好好宣传你的事迹。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E19#DIAL:FULL#1a32b6349acc32566d7041c3339ce62d",
+    "original": "Right here. <Give McCaffery's hat>",
+    "translation": "在这儿呢。 <交出麦卡弗里的帽子>",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#d6cf6a4ef25d09d88c0630528459460b",
+    "original": "This is great news. No one screws with the Garret Twins and gets away with it. I need to find a place on the wall for this.",
+    "translation": "太振奋人心了。敢戏弄加勒特兄妹的人是绝不会有好下场的。我得找个地方把它挂起来。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#ce8d114a6295f950ea2c732f5e189251",
+    "original": "And for your reward... Here's 150 caps. I trust there were also some valuables on McCaffery. Also, we would like to set you up with a room.",
+    "translation": "至于你的奖励……这是150个瓶盖。麦卡弗里身上应该也有些值钱的东西。另外，我们会给你安排一间房间。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#7b6b2fef4953da536e6a05cb8c725d40",
+    "original": "You can have the corner room, rent free. It was McCaffery's. Now that he's dead, we're happy to let you use it. Thanks for helping us.",
+    "translation": "拐角处的那间房免费给你用了。本来是麦卡弗里住的。既然他死了，我们很乐意把它交给你。谢谢你帮忙。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformBoulderCityBCLieutenantMonroeTopic055_00116FD0#DIAL:FULL#e485511e10d4721dd0cb4fc07dd5522b",
+    "original": "I'm unable to work out a deal. The Great Khans are all yours.",
+    "translation": "我没法达成协议，大汗帮的人归你处置了。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformBoulderCityBCLieutenantMonroeTopic055_00116FDA#INFO:NAM1#a53aaab0d53422633bfbc8bb652bafb1",
+    "original": "It was worth a try. I'll have to proceed with the attack as ordered, then.",
+    "translation": "你已经尽力了。那么我只能依照命令开始强攻了。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57C#DIAL:FULL#636dfedbc7cb5a20a3f439c96a50b59f",
+    "original": "All right. I'm on it.",
+    "translation": "很好。我这就去。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57D#INFO:NAM1#098df67ccd74305c73a30dd6db48a598",
+    "original": "Really? Oh, I wasn't expecting you to agree so easily. That's great!",
+    "translation": "真的吗？哦，没想到你这么容易就答应了。真是太好了！",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57D#INFO:NAM1#3dae963708bf4aa45471e6e929f641a8",
+    "original": "Here, take this packet sniffer. It'll allow us to intercept data on Mr. House's network.",
+    "translation": "拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic006_0011D57D#INFO:NAM1#23bcfe1c6cf676a4260b836b4be1b258",
+    "original": "You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!",
+    "translation": "你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_0011EBCD#DIAL:FULL#f700edd28bb32ac32e1d072ba53c0cf7",
+    "original": "I want you to attack enemies the moment you see them.",
+    "translation": "我要你看到敌人就马上攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C8#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C8#INFO:RNAM#373e3bbc54a8736734d3e65bb2716b32",
+    "original": "<Aggression Level::Aggressive>",
+    "translation": "<进攻程度::积极>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C9#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_001579C9#INFO:RNAM#373e3bbc54a8736734d3e65bb2716b32",
+    "original": "<Aggression Level::Aggressive>",
+    "translation": "<进攻程度::积极>",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A2F#DIAL:FULL#b29ff9844d76f0a66599b2c18c9094fb",
+    "original": "All right. I'll do it.",
+    "translation": "好吧，我干。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A32#INFO:NAM1#dc82a2d66e00c58d414a77ca048b178d",
+    "original": "Great. I'll have the medical supplies for you by the time you come back.",
+    "translation": "好极了。等你回来时，我会把药品准备好的。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A32#INFO:NAM1#86c8ed2bd08fabfd289d793d4fc7e24f",
+    "original": "Here, take this packet sniffer. It will allow us to intercept data on Mr. House's network.",
+    "translation": "拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。",
+    "stage": 1
+  },
+  {
+    "key": "vfreeformlucky38Lucky38FollowerEmilyTopic020_00129A32#INFO:NAM1#23bcfe1c6cf676a4260b836b4be1b258",
+    "original": "You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!",
+    "translation": "你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic039_00145C51#DIAL:FULL#05631ccbd089a91ef8130b73ca352345",
+    "original": "Legion money, please.",
+    "translation": "军团币，麻烦了。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic039_00145C76#INFO:NAM1#9d4160ab259ffbd9fcf31b6a56702aa7",
+    "original": "Very well. Will there be anything else?",
+    "translation": "好的。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic030_00145C5A#DIAL:FULL#ceaf809b72249c8eafb24018d5aa106e",
+    "original": "I'd like to exchange NCR money for chips.",
+    "translation": "我想用NCR纸币换筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic030_00145C7C#INFO:NAM1#7055885932f5d6bb33cf2cd0c999f511",
+    "original": "How many chips would you like?",
+    "translation": "您想换多少筹码？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic022_00145C60#DIAL:FULL#c965767aaeb63e19a991c954ca1678ca",
+    "original": "I'd like to exchange Legion money for chips.",
+    "translation": "我想用军团第纳尔来换筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic022_00145C80#INFO:NAM1#7055885932f5d6bb33cf2cd0c999f511",
+    "original": "How many chips would you like?",
+    "translation": "您想换多少筹码？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic045_0014CC94#DIAL:FULL#3ea9bb6719ef8b17e60aec6647363032",
+    "original": "Here's 500 caps.",
+    "translation": "我愿意捐500个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic045_0014CCB8#INFO:NAM1#6afdf9ac5fd73db712a3d82e05e8c05e",
+    "original": "Very much appreciated. These caps will go towards funding schools and other services to the poorer part of the community.",
+    "translation": "感激不尽。我们会用这笔钱来资助学校，并且帮助城郊那些穷苦的人们的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic009_00151DBD#DIAL:FULL#6dfbf387b9ef58af95fbeba030331635",
+    "original": "I'd like to exchange caps for chips.",
+    "translation": "我想用瓶盖来换筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic009_00151DC3#INFO:NAM1#7055885932f5d6bb33cf2cd0c999f511",
+    "original": "How many chips would you like?",
+    "translation": "您想换多少筹码？",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_0015299B#DIAL:FULL#8bdf7aa785fd67a56bcb3b68d10874c7",
+    "original": "Why must Mr. House be killed?",
+    "translation": "为什么一定要杀死豪斯先生？",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_001529D2#INFO:NAM1#ad3e2d06e05514e0e6a32d052bc970cb",
+    "original": "Because he complicates the equation of force. He's a free agent, an unpredictable element.",
+    "translation": "因为他打破了势力间的均衡。他不受任何一方约束，是个不稳定因素。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_001529D2#INFO:NAM1#b24181d1ba80935ded5ae406e674108d",
+    "original": "I'm sure he's trying to sit out this battle, just as he did four years ago, hoping the Legion and the Profligates will wipe each other out.",
+    "translation": "我敢肯定他这次还会像四年前一样作壁上观，盼着军团和荒淫之人两败俱伤。",
+    "stage": 1
+  },
+  {
+    "key": "VDialogueCaesarFortCaesarTopic127_001529D2#INFO:NAM1#ccef61b5e9a55548cfe3e77d86849569",
+    "original": "When he sees the Profligates losing this battle, however, he might throw his support behind them. Except he won't, because he'll be dead.",
+    "translation": "不过，如果这次荒淫之人输掉的话，他可能会派出援军。当然，假如他死了，我们就不必再操心了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_00156BFC#DIAL:FULL#bde9c76c0fbd51547762fd5383ce557d",
+    "original": "I'd like you to go back to the Lucky 38 for now.",
+    "translation": "我希望你现在回幸运38赌场去。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_001579DA#INFO:NAM1#e5758ce52840681092a6af93d7315d6e",
+    "original": "<Makes beeping sounds>",
+    "translation": "<发出哔哔响声>",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_001579DA#INFO:RNAM#c678534ac3db0ee569822000c124db7e",
+    "original": "<Companion Protocol::Return Base>",
+    "translation": "<同伴协议::回到基地>",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00157F65#DIAL:FULL#bc97d0d2ae5a3488dc90152704f24bdd",
+    "original": "Yeah, let's play again.",
+    "translation": "好啊，再来。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015C53E#INFO:NAM1#edd7e5f7e294d97556faf802093ba246",
+    "original": "I hope you're ready for this.",
+    "translation": "希望你准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00163446#INFO:NAM1#d1070770d659af8f83fae6ac92e6f116",
+    "original": "No more magic spells this time.",
+    "translation": "这次不准玩花样。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00163447#INFO:NAM1#7785cc1bb941c9ef027bf56c4547e722",
+    "original": "I've got a good feeling about this hand.",
+    "translation": "我预感这次手风会顺。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015C53F#INFO:NAM1#da68f9509a9e9ec3e7dfc8fb0e78b545",
+    "original": "Let's get this started!",
+    "translation": "来，开始！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015C540#INFO:NAM1#221acb153e6fbd153f271a02de2a490c",
+    "original": "Excellent. Let the game begin!",
+    "translation": "太好了，开始吧！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_0015B709#INFO:NAM1#369a2ac17e66b66ded82bbdfe06de091",
+    "original": "Very well. I would wish you luck, but of course peerless intellect is all that matters here.",
+    "translation": "很好。祝你好运，但显然智力才是决定因素。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00157F6F#INFO:NAM1#2f0732188d1f03083cabd268731b65f2",
+    "original": "Okay, hope you're ready to lose.",
+    "translation": "准备好迎接失败了么？",
+    "stage": 1
+  },
+  {
+    "key": "CaravanRematchYes_00157F70#INFO:NAM1#f1e17cd091c2b83dd0a486acfdb8d59b",
+    "original": "Let the Caravan Lesson begin.",
+    "translation": "让我好好教你该怎么玩商队牌。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerLoses_00163448#INFO:NAM1#69e48c72fcb5c5a881e1f82660d09d15",
+    "original": "No-bark wins! A few more like that and the curse'll get lifted for sure.",
+    "translation": "疯嘴获胜！再来几次就能打破魔咒了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerLoses_00163449#INFO:NAM1#d163edc09e6eb3b20f9ea8631cd499e3",
+    "original": "Don't take it to heart. I've studied the strategies of the masters.",
+    "translation": "别太难过，我可是研究了不少大师的策略。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_0016344B#INFO:NAM1#77bf0dfce064dd38c8dc9f7b4e0993ec",
+    "original": "Dang it! Shoulda known you was getting caravan hints from the bloatfly spirits what live in these parts.",
+    "translation": "见鬼！肯定是那些辐射蝇的幽灵帮你作弊了！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_0016344B#INFO:NAM1#87612233b3d3ab6ba826897622e20a5c",
+    "original": "Well I'll be cold and rotting before I let them get the best of me. Let's go again.",
+    "translation": "哼，就算我进了棺材，也绝不能容许有人比我强。再来。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_0016344C#INFO:NAM1#9a779b191197081df7cca7f73d2807c5",
+    "original": "Huh. I wonder where I went wrong. Let's try that again.",
+    "translation": "啊，我究竟是哪里搞错了。我们再来一把好了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_00157F71#INFO:NAM1#5379b0c0f83f6238f6d80ddb2be30445",
+    "original": "Dammit, I thought I had you there. Let's play again.",
+    "translation": "该死，我还以为我赢定了。再来！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanPlayerWins_00157F72#INFO:NAM1#13dd84ae091dbc5b675043b7614967b5",
+    "original": "Wow, you're good. Give me another game.",
+    "translation": "你玩得很好啊，再和我来一把。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F69#DIAL:FULL#3473b12e50211201e0b9a27edffec9fd",
+    "original": "Want to play a hand of Caravan?",
+    "translation": "来一把商队牌？",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0600C14F#INFO:NAM1#be7e553dbd919b541d7e118b2ec0e9ae",
+    "original": "Sure.",
+    "translation": "当然。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F6D#INFO:NAM1#89bc33124449110f933676afb61f4a6d",
+    "original": "All right, let's see what you got.",
+    "translation": "好啊，看看你究竟有多大本事。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F6E#INFO:NAM1#f72be4a466c17faf6600215528bc3c16",
+    "original": "I'm going to roll over you.",
+    "translation": "我会让你输得心服口服的。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015D8A5#INFO:NAM1#78754100637d71d72eb0ff15d44a5145",
+    "original": "All right, let's play.",
+    "translation": "好啊，来呀。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00163444#INFO:NAM1#6274479b4c19f385eb9f38b98be57652",
+    "original": "A fellow enthusiast, huh? That's great! Let's play.",
+    "translation": "你也爱玩牌？太好了，来吧！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00163445#INFO:NAM1#a697e55afb259237a2c63b123d323afe",
+    "original": "Sure. Old No-bark is always looking to play. Not for entertainment, mind you, but because if you look at the cards right you can know the future.",
+    "translation": "没问题。老疯嘴可是很喜欢商队牌的。要知道，这可不是单纯的消遣，只要你能看出这些牌的门道，你就能预知未来。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015C544#INFO:NAM1#20d9368b50080828c81a65f5b79e0f39",
+    "original": "Damn straight I would! Let's see what you got.",
+    "translation": "那还用说？来看看你手气如何吧。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015C545#INFO:NAM1#0f27a54f50fb358ccfd576566b71131a",
+    "original": "Bring it on, buddy!",
+    "translation": "尽管放马过来，哥们儿！",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015C546#INFO:NAM1#561db76b69ca7dd2bad8127b1c9caad8",
+    "original": "I always have time for a good game of Caravan. I hope you're up to the challenge.",
+    "translation": "玩商队牌我当然有空。就看你有没有本事和我较量一番了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0015B70C#INFO:NAM1#8d9ffceb0809fd831a44e7a4efa710d5",
+    "original": "A fascinating proposition. Naturally, my considerable genius makes me a master of the game, so try not to be disappointed if you lose miserably.",
+    "translation": "诱人的提议。以我的天赋，这种游戏根本不在话下。所以如果你输太惨，也没必要伤心哦。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0016120A#INFO:NAM1#b50eaec99e1dfc842f9c0f57e6ad56ad",
+    "original": "You betcha! Caravan's got me through many a long night before. I hope you're ready.",
+    "translation": "那还用说！商队牌可是伴我度过了多少不眠夜啊。希望你准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_00157F6C#INFO:NAM1#529528da2a73eea9cdcacc66ee9933c5",
+    "original": "You think you have what it takes, kid?",
+    "translation": "你真觉得自己牌技不错吗，小子？",
+    "stage": 1
+  },
+  {
+    "key": "CaravanOffer_0600C14C#INFO:NAM1#be1bb9252e7ffb839eeec0c318818ba0",
+    "original": "If you wish.",
+    "translation": "请便。",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic008_00163D02#DIAL:FULL#6ced51402eaa9890529cd1e35b696bb5",
+    "original": "Up for some more Caravan?",
+    "translation": "还想再玩商队牌吗？",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic008_00163D2A#INFO:NAM1#900738dbd78c84c0ccac50742c4b8e95",
+    "original": "All right, go on - let's put our cards down.",
+    "translation": "来吧，继续——接着发牌吧。",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic007_00163D03#DIAL:FULL#8e725ff40b49ec1cd493d731057e4870",
+    "original": "I was hoping to pass the time with a game or two.",
+    "translation": "我想玩一两把牌，消磨下时间。",
+    "stage": 1
+  },
+  {
+    "key": "vMojavevMOLaceyTopic007_00163D2C#INFO:NAM1#aa3da37bad442a346a0261fec93b530c",
+    "original": "What, Caravan? All right, I'll give it a go. Haven't exactly got much of a line of folks to serve.",
+    "translation": "什么？商队牌？好吧，我还真会玩。这附近懂得玩的人并不多。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic081_0400A6E0#DIAL:FULL#240c9325a6327066bb74c51236569605",
+    "original": "I'm running low on Small Energy Cells. Can you make me more?",
+    "translation": "我的小型能量电池快用完了，你能帮我再做一些吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic081_0400A6E4#INFO:NAM1#0b90be7e6ffbb1f445fb18c9f646b0df",
+    "original": "<Happy beeping>",
+    "translation": "<开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic080_0400A6E1#DIAL:FULL#1dcf40860f1bc22f2dd32e3fc423a689",
+    "original": "I need some Microfusion Cells. Can you make some?",
+    "translation": "我需要一些微型核聚变电池。可以制造一点吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic080_0400A6E7#INFO:NAM1#0b90be7e6ffbb1f445fb18c9f646b0df",
+    "original": "<Happy beeping>",
+    "translation": "<开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic078_0400A6E3#DIAL:FULL#a10cb3d60a52677b06aa96763b72090b",
+    "original": "Can you repair my weapon?",
+    "translation": "帮我修一下武器吧？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic078_0400A6E5#INFO:NAM1#0b90be7e6ffbb1f445fb18c9f646b0df",
+    "original": "<Happy beeping>",
+    "translation": "<开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic082_0400A868#DIAL:FULL#9f7a0ad614d1c2717a60dab31d408322",
+    "original": "Let me access your multitools. I want to make something.",
+    "translation": "让我用用你的工具组，我想造点东西。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic082_0400D30C#INFO:NAM1#ca53c4f44ec25ad32663965b4b26a7bd",
+    "original": "<Confirmatory beeping>",
+    "translation": "<确定的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic077_0400A869#DIAL:FULL#47839ebf6c9daf0f5a511f39228461fb",
+    "original": "I'd like to make some ammo. Can you help me?",
+    "translation": "我想要制造点弹药，能帮帮我吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic077_0400A86A#INFO:NAM1#ca53c4f44ec25ad32663965b4b26a7bd",
+    "original": "<Confirmatory beeping>",
+    "translation": "<确定的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic139_0400D0A9#INFO:NAM1#1da8785363c744ed18a86e284806e2d2",
+    "original": "[SUCCEEDED] <Happy beeping>",
+    "translation": "[成功] <开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic139_0400D0A9#INFO:RNAM#68ff2d77aaa90f2455b69d59aa061501",
+    "original": "If you drop the power output by .24, you'll be able to make more energy ammo with no quality loss.",
+    "translation": "如果你将功率输出降低0.24，你将能够在不损失质量的情况下制造更多能量弹药。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic138_0400D0AB#INFO:NAM1#1da8785363c744ed18a86e284806e2d2",
+    "original": "[SUCCEEDED] <Happy beeping>",
+    "translation": "[成功] <开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic138_0400D0AB#INFO:RNAM#a596ff40dce0ff3bf7b3a5126f2297fc",
+    "original": "If you switched to the 3/8 wrench and the smaller drill, those weapon repairs would be easier.",
+    "translation": "如果你改用3/8扳手和较小的钻头，武器修理起来会更容易。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic137_0400D096#DIAL:FULL#d9197abfc826866fb369257487e3ca4e",
+    "original": "I don't need energy cells right now - I'd like some satchel charges, ED-E.",
+    "translation": "我现在不需要能量电池了 - 我需要一些炸药包，ED-E。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic137_0400D0A1#INFO:NAM1#0b90be7e6ffbb1f445fb18c9f646b0df",
+    "original": "<Happy beeping>",
+    "translation": "<开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic136_0400D097#DIAL:FULL#b014d37698abc04965087576ab3e71b6",
+    "original": "Can you make me some flamer fuel instead of energy cells?",
+    "translation": "你能给我做点火焰喷射器燃料而不是能量电池吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic136_0400D0A2#INFO:NAM1#0b90be7e6ffbb1f445fb18c9f646b0df",
+    "original": "<Happy beeping>",
+    "translation": "<开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic135_0400D0A5#INFO:NAM1#1da8785363c744ed18a86e284806e2d2",
+    "original": "[SUCCEEDED] <Happy beeping>",
+    "translation": "[成功] <开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic135_0400D0A5#INFO:RNAM#d95bfc3122c921c1224680a4819037d1",
+    "original": "Remove the safety catches on those Microfusion Cells and you could turn them into satchel charges.",
+    "translation": "拔掉那些微型核聚变电池上的保险栓你就能把它们变成炸药包了。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic134_0400D09D#INFO:NAM1#1da8785363c744ed18a86e284806e2d2",
+    "original": "[SUCCEEDED] <Happy beeping>",
+    "translation": "[成功] <开心的哔哔声>",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DialogueEDENVDLC04EDETopic134_0400D09D#INFO:RNAM#606a6b6e851c77b32766008e80e94e55",
+    "original": "You know, if you strip out the plasma relays on those energy cells, you could make flamer fuel.",
+    "translation": "你知道，如果你卸掉那些能量电池的等离子继电器，你就能做出火焰喷射器燃料了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS07V03BryceAndersInventory_06000800#DIAL:FULL#0cdf6db8a74751349a7c874276a049a9",
+    "original": "Let's trade equipment.",
+    "translation": "我们交易装备吧。",
+    "stage": 1
+  },
+  {
+    "key": "VMS07V03BryceAndersInventory_0600CD3F#INFO:NAM1#da58d9d0f6d94c35c239efa96a54fe08",
+    "original": "...",
+    "translation": "...",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic110_060025C5#DIAL:FULL#457703555968ece252b7cf7a77499344",
+    "original": "Exchange all my caps for chips.",
+    "translation": "把我的瓶盖都换成筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic110_06002BC1#INFO:NAM1#43dbf42b5b3e1d28f8ec728df1fb46c5",
+    "original": "Here's your chips. Is there anything else I can help you with?",
+    "translation": "这些是您的筹码。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic120_060025C6#DIAL:FULL#657f2f41aa71b008472c3273d2277f37",
+    "original": "Exchange all my Legion money for chips.",
+    "translation": "把我的军团货币都换成筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic120_06002BC2#INFO:NAM1#43dbf42b5b3e1d28f8ec728df1fb46c5",
+    "original": "Here's your chips. Is there anything else I can help you with?",
+    "translation": "这些是您的筹码。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic130_060025C7#DIAL:FULL#411061794525a7b6e4ba44e032108a09",
+    "original": "Exchange all my NCR money for chips.",
+    "translation": "把我的NCR货币都换成筹码。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueCasinoCashiervCashierTheTopsTopic130_06002BC3#INFO:NAM1#43dbf42b5b3e1d28f8ec728df1fb46c5",
+    "original": "Here's your chips. Is there anything else I can help you with?",
+    "translation": "这些是您的筹码。还有什么能为您效劳的吗？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicTop_06005BA9#DIAL:FULL#96752227dccd7efcdb97d60977e73ebb",
+    "original": "I'd like to make a donation to the Followers.",
+    "translation": "我想给追随者们捐一笔钱。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicTop_06004FAD#INFO:NAM1#b03679e32d40d0ff4be7d6dfe4ebff7e",
+    "original": "How much do you have to donate?",
+    "translation": "你要捐赠多少个？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic01_06005BAA#DIAL:FULL#de8bb77012d96d3745dac8deb3066d5a",
+    "original": "Here's 10 caps.",
+    "translation": "这是10瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic01_06004FB5#INFO:NAM1#f461a29dee80b4d8bbff0a3bee3aab41",
+    "original": "Thanks! Anything else?",
+    "translation": "谢谢！还有什么？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic02_06005BAB#DIAL:FULL#2984e5265b154f0b33982a11a399884b",
+    "original": "Here's 50 caps.",
+    "translation": "50个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic02_06005BAF#INFO:NAM1#f461a29dee80b4d8bbff0a3bee3aab41",
+    "original": "Thanks! Anything else?",
+    "translation": "谢谢！还有什么？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic03_06005BAC#DIAL:FULL#a30bc7984fd2f1d4f6dc8d5fa397d7ff",
+    "original": "Here's 100 caps.",
+    "translation": "给你100个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopic03_06005BB0#INFO:NAM1#f461a29dee80b4d8bbff0a3bee3aab41",
+    "original": "Thanks! Anything else?",
+    "translation": "谢谢！还有什么？",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicBack_06005BAD#DIAL:FULL#f38a1815b6487a841f9ee25a861f81d8",
+    "original": "Let's talk about something else.",
+    "translation": "让我们谈谈其他事。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicBack_060061A9#INFO:NAM1#1f7d282b5fc51a2aae134029efd24645",
+    "original": "Thanks for the donation. Every bit goes toward helping Freeside.",
+    "translation": "感谢你的捐赠，所有资金都将用于帮助自由城。",
+    "stage": 1
+  },
+  {
+    "key": "PWBVxVFreeformFollowersDonationTopicBack_06005BAE#INFO:NAM1#c485362e14e52f81ac91ab920506551b",
+    "original": "That is unfortunate. If you change your mind, please see me right away.",
+    "translation": "真遗憾。如果你改变主意，请立刻来找我。",
+    "stage": 1
+  }
+]

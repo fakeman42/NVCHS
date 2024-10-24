@@ -1,0 +1,7417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>GMST</GRUP>
+    <ID>060010E2</ID>
+    <EDID>sHackingIntro09</EDID>
+    <CHAMP>DATA</CHAMP>
+    <ORIGINAL>Copyright 2075-2077 Robco Ind.</ORIGINAL>
+    <TRADUIT>版权所有 2076-2077 罗伯科工业</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>05000A8E</ID>
+    <EDID>NVDLC05EnchGehennaEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>05000893</ID>
+    <EDID>NVDLC05EnchCleansingFlameEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleansing Flame</ORIGINAL>
+    <TRADUIT>净化火焰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06008587</ID>
+    <EDID>PWBVxNVDLC04CamaradereDT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camarader-E</ORIGINAL>
+    <TRADUIT>E同志</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E2</ID>
+    <EDID>VPitQuestDeathclawEggs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw Eggs</ORIGINAL>
+    <TRADUIT>死亡爪蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E2</ID>
+    <EDID>VPitQuestDeathclawEggs</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Collect Deathclaw Eggs</ORIGINAL>
+    <TRADUIT>拿死亡爪蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E3</ID>
+    <EDID>VPitQuestFireGeckoEggs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fire Gecko Eggs</ORIGINAL>
+    <TRADUIT>火蜥蜴蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E3</ID>
+    <EDID>VPitQuestFireGeckoEggs</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Collect Fire Gecko Eggs</ORIGINAL>
+    <TRADUIT>拿火蜥蜴蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E4</ID>
+    <EDID>VPitQuestNightStalkerEggs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Night Stalker Eggs</ORIGINAL>
+    <TRADUIT>夜枭蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E4</ID>
+    <EDID>VPitQuestNightStalkerEggs</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Collect Night Stalker Eggs</ORIGINAL>
+    <TRADUIT>拿夜枭蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E5</ID>
+    <EDID>VPitQuestScorpionEggs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radscorpion Eggs</ORIGINAL>
+    <TRADUIT>辐射蝎蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E5</ID>
+    <EDID>VPitQuestScorpionEggs</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Collect Radscorpion Eggs</ORIGINAL>
+    <TRADUIT>拿辐射蝎蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>0600109D</ID>
+    <EDID>PWBVxDrinkSinkMetal03PurifiedV21</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sink</ORIGINAL>
+    <TRADUIT>水槽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>060061AA</ID>
+    <EDID>PWBVxFollowersDonationBox</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Followers Collection Box</ORIGINAL>
+    <TRADUIT>天启追随者募捐箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>060061AA</ID>
+    <EDID>PWBVxFollowersDonationBox</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Donate</ORIGINAL>
+    <TRADUIT>捐赠</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>0600FD10</ID>
+    <EDID>PWBVxMcCafferyHatActivator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Caleb McCaffery's Hat</ORIGINAL>
+    <TRADUIT>卡勒布·麦卡弗里的帽子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>0600FD10</ID>
+    <EDID>PWBVxMcCafferyHatActivator</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Caleb McCaffery's Hat</ORIGINAL>
+    <TRADUIT>卡勒布·麦卡弗里的帽子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>000CD21B</ID>
+    <EDID>VintageRadioRepconSTARTON</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radio</ORIGINAL>
+    <TRADUIT>收音机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>00109085</ID>
+    <EDID>GoodspringsRadio</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radio</ORIGINAL>
+    <TRADUIT>收音机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>0013494C</ID>
+    <EDID>VPitQuestMantisEggs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Giant Mantis Eggs</ORIGINAL>
+    <TRADUIT>巨型螳螂蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>0013494C</ID>
+    <EDID>VPitQuestMantisEggs</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Collect Giant Mantis Eggs</ORIGINAL>
+    <TRADUIT>拿巨型螳螂蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E1</ID>
+    <EDID>VPitQuestCazadorEggs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cazador Eggs</ORIGINAL>
+    <TRADUIT>猎蜂蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>001378E1</ID>
+    <EDID>VPitQuestCazadorEggs</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Collect Cazador Eggs</ORIGINAL>
+    <TRADUIT>拿猎蜂蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anthony House's Terminal</ORIGINAL>
+    <TRADUIT>安东尼·豪斯的终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>      H&amp;H Tools, Inc.
+"Building the things you need to build a better tomorrow!"
+Employee access terminal
+</ORIGINAL>
+    <TRADUIT>      H&amp;H工具公司
+"供您所需，打造美好未来！"
+员工通行终端
+</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Journal Entry 05/14/2027</ORIGINAL>
+    <TRADUIT>日志记录 05/14/2027</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Accessing</ORIGINAL>
+    <TRADUIT>访问中</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Journal Entry 04/14/2042</ORIGINAL>
+    <TRADUIT>日志记录 04/14/2042</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Accessing</ORIGINAL>
+    <TRADUIT>访问中</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Journal Entry 06/19/2077</ORIGINAL>
+    <TRADUIT>日志记录 06/19/2077</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Accessing</ORIGINAL>
+    <TRADUIT>访问中</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Lucky 38 Executive Override.</ORIGINAL>
+    <TRADUIT>幸运38强制管理程序</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FC96D</ID>
+    <EDID>HouseToolsOfficeTerminal</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Starting...</ORIGINAL>
+    <TRADUIT>启动…</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FFCDD</ID>
+    <EDID>NewVegasSteelTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Terminal</ORIGINAL>
+    <TRADUIT>终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FFCDD</ID>
+    <EDID>NewVegasSteelTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>New Vegas Steel
+
+Factory Automation Test in Progress
+
+Current Test Time: 204 years</ORIGINAL>
+    <TRADUIT>新维加斯钢铁
+
+工厂自动测试进行中
+
+当前测试时间：204年</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FFCDD</ID>
+    <EDID>NewVegasSteelTerminal</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Lucky 38 Executive Override.</ORIGINAL>
+    <TRADUIT>幸运38最高等级控制。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>000FFCDD</ID>
+    <EDID>NewVegasSteelTerminal</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Starting...</ORIGINAL>
+    <TRADUIT>开始...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0015FF72</ID>
+    <EDID>Lucky38CGTerminal02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Terminal</ORIGINAL>
+    <TRADUIT>终端机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0015FF72</ID>
+    <EDID>Lucky38CGTerminal02</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>System Online</ORIGINAL>
+    <TRADUIT>系统在线</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0015FF72</ID>
+    <EDID>Lucky38CGTerminal02</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Lucky 38 Executive Override.</ORIGINAL>
+    <TRADUIT>覆盖幸运38高级管理权限。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0015FF72</ID>
+    <EDID>Lucky38CGTerminal02</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Starting...</ORIGINAL>
+    <TRADUIT>开始...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>001168A4</ID>
+    <EDID>VMS18WhiteGloveMask</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>White Glove Society Mask</ORIGINAL>
+    <TRADUIT>白手套社团面具</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+EyeGlasses
+Mask
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>060049B3</ID>
+    <EDID>PWBVxDisguiseOptionToken</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>[Disguise Option Token]</ORIGINAL>
+    <TRADUIT>[伪装选项令牌]</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0015D8B0</ID>
+    <EDID>CaravanSpareDeck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Caravan Card Box</ORIGINAL>
+    <TRADUIT>商队牌盒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>000FD304</ID>
+    <EDID>ContrerasFilingCabinet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Filing Cabinet</ORIGINAL>
+    <TRADUIT>档案柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MISC</GRUP>
+    <ID>00170F87</ID>
+    <EDID>SSBottleEmptyNoFloat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Empty Sunset Sarsaparilla Bottle</ORIGINAL>
+    <TRADUIT>空的夕阳沙士瓶</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FURN</GRUP>
+    <ID>0600109C</ID>
+    <EDID>PWBVxStool01LHigher</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stool</ORIGINAL>
+    <TRADUIT>高脚凳</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0015C881</ID>
+    <EDID>WeapThermicLance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Thermic Lance</ORIGINAL>
+    <TRADUIT>热喷枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0015C881</ID>
+    <EDID>WeapThermicLance</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Scrap Heap</ORIGINAL>
+    <TRADUIT>废料堆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>000E595C</ID>
+    <EDID>QJMelissa</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Melissa</ORIGINAL>
+    <TRADUIT>梅丽莎</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Hispanic
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>000F839E</ID>
+    <EDID>KlamathBob</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Klamath Bob</ORIGINAL>
+    <TRADUIT>克拉马斯·鲍勃</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American Old
+Clas : Village Leader</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>000FA235</ID>
+    <EDID>CrimsonCaravanTraderCF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crimson Caravan Trader</ORIGINAL>
+    <TRADUIT>深红商队商人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Traveler Merchant</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>000FA292</ID>
+    <EDID>CrimsonCaravanTraderHM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crimson Caravan Trader</ORIGINAL>
+    <TRADUIT>深红商队商人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Traveler Merchant</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>00104311</ID>
+    <EDID>2CPoindexter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Poindexter</ORIGINAL>
+    <TRADUIT>波因德克斯特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : NCRTrooper</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>00104C7C</ID>
+    <EDID>GSRingo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ringo</ORIGINAL>
+    <TRADUIT>林戈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Settler</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001411B4</ID>
+    <EDID>PowderGangerVault19CM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001411B5</ID>
+    <EDID>PowderGangerVault19HM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001411B6</ID>
+    <EDID>PowderGangerVault19AAM1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001411B7</ID>
+    <EDID>PowderGangerVault19HM1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001411B8</ID>
+    <EDID>PowderGangerVault19AAM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001411B9</ID>
+    <EDID>PowderGangerVault19CM1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Powder Ganger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001543B9</ID>
+    <EDID>CrimsonCaravanTraderAAMTemplate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crimson Caravan Trader</ORIGINAL>
+    <TRADUIT>深红商队商人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Traveler Merchant</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>001543BA</ID>
+    <EDID>CrimsonCaravanTraderCM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crimson Caravan Trader</ORIGINAL>
+    <TRADUIT>深红商队商人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Traveler Merchant</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0015AD15</ID>
+    <EDID>VES03WastelandAdventurer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wasteland Adventurer</ORIGINAL>
+    <TRADUIT>废土冒险者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Adventurer Vendor</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0017465E</ID>
+    <EDID>PowderGangerVault19TEMPLATE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Ganger</ORIGINAL>
+    <TRADUIT>炸药帮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>060010A1</ID>
+    <EDID>PWBVxVFSVanGraffDoorGuard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Van Graff Guard</ORIGINAL>
+    <TRADUIT>范·格拉夫守卫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0001CFA3</ID>
+    <EDID>CrDogVicious</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vicious Dog</ORIGINAL>
+    <TRADUIT>恶狗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>000E585F</ID>
+    <EDID>CrSporeCarrierFD</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spore Carrier Runt</ORIGINAL>
+    <TRADUIT>小孢子带原者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>000E60F7</ID>
+    <EDID>VCrSporeCarrier</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spore Carrier</ORIGINAL>
+    <TRADUIT>孢子带原者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>000EE6CE</ID>
+    <EDID>V22TempSporePlant</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spore Plant</ORIGINAL>
+    <TRADUIT>孢子植物</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>000FE036</ID>
+    <EDID>CrSporePlant</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spore Plant</ORIGINAL>
+    <TRADUIT>孢子植物</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>000FE037</ID>
+    <EDID>CrSporeCarrierFU</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spore Carrier Runt</ORIGINAL>
+    <TRADUIT>小孢子带原者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0010C769</ID>
+    <EDID>NVCompanionEdE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ED-E</ORIGINAL>
+    <TRADUIT>ED-E</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>001252BF</ID>
+    <EDID>FortLupa</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lupa</ORIGINAL>
+    <TRADUIT>鲁帕</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0013E514</ID>
+    <EDID>FortLupaGladiator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lupa</ORIGINAL>
+    <TRADUIT>鲁帕</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0013E5B9</ID>
+    <EDID>FiendDogVioletta</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Violetta</ORIGINAL>
+    <TRADUIT>维奥列塔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>001694E0</ID>
+    <EDID>NVCompanionEdEUpgradeArmor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ED-E</ORIGINAL>
+    <TRADUIT>ED-E</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>001694E2</ID>
+    <EDID>NVCompanionEdEUpgradeWeapons</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ED-E</ORIGINAL>
+    <TRADUIT>ED-E</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>0301213E</ID>
+    <EDID>NVDLC03CaveFungusINGESTIBLE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mutant Cave Fungus</ORIGINAL>
+    <TRADUIT>突变洞穴菇</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00038E0C</ID>
+    <EDID>CaveFungus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave Fungus</ORIGINAL>
+    <TRADUIT>洞穴菇</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06011AE3</ID>
+    <EDID>PWBVxUltrajetNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Recipes - Ultrajet</ORIGINAL>
+    <TRADUIT>配方 - 超级杰特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06011AE3</ID>
+    <EDID>PWBVxUltrajetNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The edges are singed and the note itself is badly faded, but you can make out a list of ingredients:
+
+Abraxo Cleaner
+Jet
+Sugar Bombs (this part is underlined twice, with a note that says "brand MATTERS").</ORIGINAL>
+    <TRADUIT>边缘被烧毁，纸条本身也严重褪色，但你可以看清成分清单：
+
+
+- 阿伯莱萨清洁剂
+- 杰特
+- 甜麦炮弹（这部分有两个下划线，上面写着 "品牌很重要"）。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06011AE4</ID>
+    <EDID>PWBVxSchematicsMantisGauntletNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Schematics - Mantis Gauntlet</ORIGINAL>
+    <TRADUIT>示意图 - 螳螂拳套</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06011AE4</ID>
+    <EDID>PWBVxSchematicsMantisGauntletNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>At a workbench, combine:
+A Medical Brace
+2 Mantis Forelegs
+Scrap Metal
+
+The armor-destroying power of one of the wasteland's giant mantises can now be in your hands.</ORIGINAL>
+    <TRADUIT>在工作台上，组合：
+
+- 医用绷带
+- 2个螳螂前腿
+- 废金属
+
+废土上一只巨型螳螂的破甲力量现在掌握在你手中了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>00166661</ID>
+    <EDID>vConcessionMrHouse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Offer to Permit Annexation</ORIGINAL>
+    <TRADUIT>同意并购要约</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>00166661</ID>
+    <EDID>vConcessionMrHouse</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Upon further reflection, I have determined that it is in my best interests, and the best interests of the New California Republic, to transfer sovereignty of the Vegas Strip to the NCR. 
+
+If all terms are agreed upon, annexation would occur one year from today.
+
+a) I am to be granted full status as a citizen of the NCR and immunity from prosecution for any activities prior to annexation.
+
+b) I will be recognized as the sole proprietor of the Vegas Strip, a commercial property.
+
+c) I will be subject to all laws of the NCR, including personal and property taxes.
+
+d) NCR functionaries will police the Strip; I will retire my Securitron police force and limit their movement to the grounds and interior of the Lucky 38.
+
+Please confirm that these terms are agreeable. I do not foresee any objections on your part. 
+
+Robert Edwin House
+President, CEO, and Sole Proprietor
+The New Vegas Strip
+</ORIGINAL>
+    <TRADUIT>经过慎重考虑，为实现本人与新加州共和国之间双边利益的最大化，我同意将维加斯长街的主权移交给NCR。
+
+在满足下列条款的前提下，长街的兼并工作将在一年后完成。
+
+a）本人将被授予NCR公民的合法身份，兼并前发生的一切行为不再追究。
+
+b）本人将作为维加斯长街全资所有人的身份不予改变。
+
+c）本人将受NCR法律的约束，包括缴纳个人税和财产税。
+
+d）NCR的将负责长街的安保；本人会辞退所有电子保安部队，并将它们的活动范围限制在地面和幸运38中。
+
+请确认你们同意以上条款，我不希望你们就此再提出异议。
+
+罗伯特·埃德温·豪斯
+总裁、首席执行官与全资所有人
+新维加斯长街</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060067A6</ID>
+    <EDID>PWBVxFollowersDonationNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Donations</ORIGINAL>
+    <TRADUIT>捐赠</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>060067A6</ID>
+    <EDID>PWBVxFollowersDonationNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The Followers of the Apocolypse will always gratefully receive any donations to help us in our efforts in Freeside and across the Wasteland.
+
+A donation box is available at the Old Morman Fort in Freeside, located on the main road to the Strip. Or, speak to one of our doctors.
+
+Please give what you can. The people of the Wasteland are in desperate need of our help.
+
+- Julie Farkas</ORIGINAL>
+    <TRADUIT>天启追随者对任何能帮助我们在自由城和整个废土的努力的捐赠永远感激。
+
+在自由之城的旧摩门要塞有一个捐款箱，位于通往长街的主要道路上。或者，跟我们的医生谈谈。
+
+请尽你所能。废土的人民迫切需要我们的帮助。
+
+- 朱莉·法卡斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00151F80</ID>
+    <EDID>SLniptonRoadMarketINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nipton Road General Store</ORIGINAL>
+    <TRADUIT>尼普顿公路杂货店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00164608</ID>
+    <EDID>SLSulfurCave03INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bootjack Cavern</ORIGINAL>
+    <TRADUIT>鞋拔子山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0200BB94</ID>
+    <EDID>NVDLC02ZionSCaveS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two Skies Cave</ORIGINAL>
+    <TRADUIT>双天洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00103F9C</ID>
+    <EDID>SouthVegasAntMound</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>South Vegas Ant Mound</ORIGINAL>
+    <TRADUIT>南维加斯蚁丘</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00155EF0</ID>
+    <EDID>SLElDoradoGasINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>El Dorado Gas &amp; Service</ORIGINAL>
+    <TRADUIT>埃尔·多拉多服务加油站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154BD6</ID>
+    <EDID>SLCoyoteMineINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Coyote Mine</ORIGINAL>
+    <TRADUIT>郊狼矿洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001555FE</ID>
+    <EDID>SLGoldMine01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight East Gold Mine</ORIGINAL>
+    <TRADUIT>探照灯营地东部金矿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E5A88</ID>
+    <EDID>RepconHQ03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>REPCONN Office Top Floor</ORIGINAL>
+    <TRADUIT>瑞普康办公室顶楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008E1C</ID>
+    <EDID>NVDLC023MarysCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Three Marys' Caverns</ORIGINAL>
+    <TRADUIT>三圣峰洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008A3E</ID>
+    <EDID>NVDLC02NarrowsAbandoned</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sweet Flower Cave</ORIGINAL>
+    <TRADUIT>甜花洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00164E29</ID>
+    <EDID>SLDeadWindCavernINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dead Wind Cavern</ORIGINAL>
+    <TRADUIT>逆风洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010108B</ID>
+    <EDID>CannibalJohnsonCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cannibal Johnson's Cave</ORIGINAL>
+    <TRADUIT>食人者约翰逊的洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00157387</ID>
+    <EDID>SLCapCounterfeiterINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cap Counterfeiting Shack</ORIGINAL>
+    <TRADUIT>瓶盖伪造者的棚屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00141AA5</ID>
+    <EDID>MojaveOutpostBarracks01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Outpost Barracks</ORIGINAL>
+    <TRADUIT>莫哈维前哨站兵营</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F0849</ID>
+    <EDID>1EWestPumpStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>West Pump Station</ORIGINAL>
+    <TRADUIT>西部水泵站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010E029</ID>
+    <EDID>FreesideSilverRush</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Silver Rush</ORIGINAL>
+    <TRADUIT>银色冲击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F4615</ID>
+    <EDID>SharecropperBarracks01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sharecropper Barracks</ORIGINAL>
+    <TRADUIT>佃农营房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00105659</ID>
+    <EDID>GSHouseInterior01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings Home</ORIGINAL>
+    <TRADUIT>清泉镇屋舍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008A3F</ID>
+    <EDID>NVDLC02Survivalist01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stone Bones Cave</ORIGINAL>
+    <TRADUIT>石骨洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7F7A</ID>
+    <EDID>HELIOSOneTower</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Solar Collection Tower</ORIGINAL>
+    <TRADUIT>太阳能集能塔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001385C8</ID>
+    <EDID>NiptonHouse3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nipton House</ORIGINAL>
+    <TRADUIT>尼普顿住房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D6FA8</ID>
+    <EDID>BisonSteve02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Bison Steve Hotel</ORIGINAL>
+    <TRADUIT>野牛史蒂夫旅馆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00117B98</ID>
+    <EDID>TestDance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mentats Test Level</ORIGINAL>
+    <TRADUIT>曼他特测试区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00133EC4</ID>
+    <EDID>3CBSRecreationOffice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bitter Springs Recreation Office</ORIGINAL>
+    <TRADUIT>苦泉休闲区办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0015626C</ID>
+    <EDID>SLRubyHillMineINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ruby Hill Mine</ORIGINAL>
+    <TRADUIT>红宝石山矿洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>03006880</ID>
+    <EDID>NVDLC03SLCuckoosNestINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cuckoo's Nest</ORIGINAL>
+    <TRADUIT>疯人院</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001524BE</ID>
+    <EDID>SLAlliedTechnologiesOfficesINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Allied Technologies Offices</ORIGINAL>
+    <TRADUIT>联合科技办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00155916</ID>
+    <EDID>SLWindfarmShackINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wind Farm Maintenance Shack</ORIGINAL>
+    <TRADUIT>风力电站维修棚</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000CD3E0</ID>
+    <EDID>NovacMotelRoomTwin1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Motel Room</ORIGINAL>
+    <TRADUIT>汽车旅馆房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00113C64</ID>
+    <EDID>2ENCREmbassy02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Military Police HQ</ORIGINAL>
+    <TRADUIT>NCR宪兵总部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010C482</ID>
+    <EDID>LakeMeadCaveINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lake Mead Cave</ORIGINAL>
+    <TRADUIT>米德湖山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008A40</ID>
+    <EDID>NVDLC02NarrowsTunnel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crossroad Cavern</ORIGINAL>
+    <TRADUIT>交叉口山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00133E39</ID>
+    <EDID>CottonwoodCoveRestroomF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cottonwood Cove Restroom</ORIGINAL>
+    <TRADUIT>棉白杨湾洗手间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0008EAE7</ID>
+    <EDID>NVVendorChestsCell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Buried Vendor Chests</ORIGINAL>
+    <TRADUIT>供货商被掩埋的箱子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010D3F1</ID>
+    <EDID>BCSaloonInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Horn Saloon</ORIGINAL>
+    <TRADUIT>大角沙龙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0200B755</ID>
+    <EDID>NVDLC02ZionYaoGuaiCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yao Guai Cave</ORIGINAL>
+    <TRADUIT>妖怪洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010EDCD</ID>
+    <EDID>2EOMichaelAngelo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Michael Angelo's Workshop</ORIGINAL>
+    <TRADUIT>米开·朗琪罗的车间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013D7E5</ID>
+    <EDID>JacobstownNightstalkerCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Charleston Cave</ORIGINAL>
+    <TRADUIT>查尔斯顿山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0015626D</ID>
+    <EDID>SLSilverPeakMineINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Silver Peak Mine</ORIGINAL>
+    <TRADUIT>银峰矿洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00156AA1</ID>
+    <EDID>SLAbandonedShack03INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fields' Shack</ORIGINAL>
+    <TRADUIT>田边小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E5CCF</ID>
+    <EDID>QJMessHall</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mess Hall</ORIGINAL>
+    <TRADUIT>食堂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00120DCF</ID>
+    <EDID>CampForlornHope01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp Forlorn Hope Mess Hall</ORIGINAL>
+    <TRADUIT>飘零希望营地食堂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FF6B1</ID>
+    <EDID>1ESteelMill</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Steel</ORIGINAL>
+    <TRADUIT>新维加斯钢厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E6090</ID>
+    <EDID>Vault22c</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 22 - Food Production</ORIGINAL>
+    <TRADUIT>22号避难所 - 食品加工区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00105238</ID>
+    <EDID>NellisHangar2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mess Hall &amp; Munitions Storage</ORIGINAL>
+    <TRADUIT>食堂与军械库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0200BF1C</ID>
+    <EDID>NVDLC02ZionSporeCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cueva Guarache</ORIGINAL>
+    <TRADUIT>凉鞋洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010067A</ID>
+    <EDID>2CCampGolfResort</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>House Resort</ORIGINAL>
+    <TRADUIT>豪斯度假庄园</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00156AA2</ID>
+    <EDID>SLFishermansShackINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fisherman's Pride Shack</ORIGINAL>
+    <TRADUIT>渔家傲小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0011ED00</ID>
+    <EDID>FreesideRobotShop</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cerulean Robotics</ORIGINAL>
+    <TRADUIT>蔚蓝机器人公司</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F5E5A</ID>
+    <EDID>CrimsonCaravanMainOffice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crimson Caravan Main Office</ORIGINAL>
+    <TRADUIT>深红商队主办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013CA81</ID>
+    <EDID>JacobstownLodge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jacobstown Lodge</ORIGINAL>
+    <TRADUIT>雅各布斯镇旅社</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154825</ID>
+    <EDID>SLCavern02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Walking Box Cavern</ORIGINAL>
+    <TRADUIT>旅行箱山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FD7B9</ID>
+    <EDID>OVNVTheGray</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Gray</ORIGINAL>
+    <TRADUIT>灰楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00105CF7</ID>
+    <EDID>GSHouseInterior04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings Home</ORIGINAL>
+    <TRADUIT>清泉镇屋舍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E5A8D</ID>
+    <EDID>RepconHQ02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>REPCONN Office 2nd Floor</ORIGINAL>
+    <TRADUIT>瑞普康办公室二楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E60CD</ID>
+    <EDID>Vault22e</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 22 - Pest Control</ORIGINAL>
+    <TRADUIT>22号避难所 - 虫害防治区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F47B3</ID>
+    <EDID>CampMCTermInt04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp McCarran Supply Shack</ORIGINAL>
+    <TRADUIT>麦卡伦营地物资棚</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00110F2B</ID>
+    <EDID>FreesideAtomicWrangler</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Atomic Wrangler</ORIGINAL>
+    <TRADUIT>原子牛仔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0015B75B</ID>
+    <EDID>SLSulfurCave02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nopah Cave</ORIGINAL>
+    <TRADUIT>诺帕哈洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008A43</ID>
+    <EDID>NVDLC02NarrowsWhiteLegs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glass Chime Cave</ORIGINAL>
+    <TRADUIT>玻璃风铃洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ECDE8</ID>
+    <EDID>GunRunnerHQInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Runner Headquarters</ORIGINAL>
+    <TRADUIT>军火贩子总部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154826</ID>
+    <EDID>SLAbandonedShack02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Harper's Shack</ORIGINAL>
+    <TRADUIT>哈珀的小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E70AA</ID>
+    <EDID>TechatticupMineInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Techatticup Mine</ORIGINAL>
+    <TRADUIT>泰科阿提卡布矿洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E5A84</ID>
+    <EDID>RepconHQ01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>REPCONN Office Main Floor</ORIGINAL>
+    <TRADUIT>瑞普康办公室主楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00134580</ID>
+    <EDID>3CBoatRentals</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Captain Dean Boat Rentals</ORIGINAL>
+    <TRADUIT>迪安船长的小艇租借室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000B83FE</ID>
+    <EDID>NovacMotelLobby</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dino Dee-lite Front Desk</ORIGINAL>
+    <TRADUIT>快乐小恐龙前台</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E8202</ID>
+    <EDID>EDSubstation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Substation</ORIGINAL>
+    <TRADUIT>变电所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7E48</ID>
+    <EDID>HELIOSOnePlant</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>HELIOS One Power Plant</ORIGINAL>
+    <TRADUIT>太阳神一号机房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008EA5</ID>
+    <EDID>NVDLC02EasternVirginSurvivalistCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fallen Rock Cave</ORIGINAL>
+    <TRADUIT>坠岩洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154827</ID>
+    <EDID>SLSunkenBeachHouse02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunken Beach House</ORIGINAL>
+    <TRADUIT>沉没的沙滩房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0012B7FB</ID>
+    <EDID>GypsumAbandonedBuilding</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gypsum Quarry Office</ORIGINAL>
+    <TRADUIT>石膏采掘场办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7845</ID>
+    <EDID>VikkiAndVance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Vikki and Vance Casino</ORIGINAL>
+    <TRADUIT>维姬和万斯赌场</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ED19F</ID>
+    <EDID>NewVegasMedicalClinicInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Medical Clinic</ORIGINAL>
+    <TRADUIT>新维加斯诊疗所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00129E5B</ID>
+    <EDID>Vault34a</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 34 - 1st Floor</ORIGINAL>
+    <TRADUIT>34号避难所 - 1层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D8052</ID>
+    <EDID>HELIOSOneDeck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>HELIOS One Control Room</ORIGINAL>
+    <TRADUIT>太阳神一号观察楼层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0012B522</ID>
+    <EDID>3CBSCave2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Supply Cave</ORIGINAL>
+    <TRADUIT>大汗帮补给洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154828</ID>
+    <EDID>SLSunkenBeachHouse01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunken Beach House</ORIGINAL>
+    <TRADUIT>沉没的沙滩房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00158194</ID>
+    <EDID>SLSulfurCave01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodborne Cave</ORIGINAL>
+    <TRADUIT>血源洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00140418</ID>
+    <EDID>CampSearchlightFireStation02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Fire Station</ORIGINAL>
+    <TRADUIT>探照灯营地消防局</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001555FC</ID>
+    <EDID>SLGoldMine02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight North Gold Mine</ORIGINAL>
+    <TRADUIT>探照灯营地北部金矿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0015F048</ID>
+    <EDID>SLHellsMotel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hell's Motel</ORIGINAL>
+    <TRADUIT>赫尔的汽车旅馆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E60D0</ID>
+    <EDID>BlackMountainTreasure</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Storage Building</ORIGINAL>
+    <TRADUIT>仓库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00153928</ID>
+    <EDID>SLAbandonedShack01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bradley's Shack</ORIGINAL>
+    <TRADUIT>布拉德利的小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00103F5E</ID>
+    <EDID>RatCaveINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Broc Flower Cave</ORIGINAL>
+    <TRADUIT>布洛克花洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0012B523</ID>
+    <EDID>3CBSCave1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Supply Cave</ORIGINAL>
+    <TRADUIT>大汗帮补给洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00146607</ID>
+    <EDID>CampSearchlightHiddenCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Supply Cave</ORIGINAL>
+    <TRADUIT>隐蔽补给洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00148A5B</ID>
+    <EDID>SLJeanSkyDivingINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jean Sky Diving</ORIGINAL>
+    <TRADUIT>吉恩跳伞俱乐部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0301507B</ID>
+    <EDID>NVDLC03SLBloatFlyCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mysterious Cave</ORIGINAL>
+    <TRADUIT>神秘洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0008D0D5</ID>
+    <EDID>NCRPrisonVisitorsCenter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Visitors Center</ORIGINAL>
+    <TRADUIT>访客中心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000B8A7D</ID>
+    <EDID>NovacPlayersRoom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Motel Room</ORIGINAL>
+    <TRADUIT>汽车旅馆房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ED511</ID>
+    <EDID>Vault3b</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 3 - Living Quarters</ORIGINAL>
+    <TRADUIT>3号避难所 - 居住区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D6FAF</ID>
+    <EDID>BisonSteve01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Bison Steve Hotel</ORIGINAL>
+    <TRADUIT>野牛史蒂夫旅馆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013DD63</ID>
+    <EDID>CampGuardianCaves</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp Guardian Caves</ORIGINAL>
+    <TRADUIT>守卫者营地山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00155EEF</ID>
+    <EDID>SLTumbleweedRanchINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tumbleweed Ranch House</ORIGINAL>
+    <TRADUIT>风滚草农场房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FE889</ID>
+    <EDID>1EHostetlerHome</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hostetler Home</ORIGINAL>
+    <TRADUIT>霍斯泰特勒的家</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154BD5</ID>
+    <EDID>SLCoyoteMineHouseINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Coyote Mine House</ORIGINAL>
+    <TRADUIT>郊狼矿洞房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001037DF</ID>
+    <EDID>RanchHouseInterior01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hunter's Farmhouse</ORIGINAL>
+    <TRADUIT>猎人的农舍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010FDEB</ID>
+    <EDID>2EOVault21</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 21</ORIGINAL>
+    <TRADUIT>21号避难所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00153159</ID>
+    <EDID>SLGoodspringsCaveINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings Cave</ORIGINAL>
+    <TRADUIT>清泉镇山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000CDF52</ID>
+    <EDID>Vault19MapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 19</ORIGINAL>
+    <TRADUIT>19号避难所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000CDF46</ID>
+    <EDID>PrimmMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Primm</ORIGINAL>
+    <TRADUIT>普瑞姆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000CDF08</ID>
+    <EDID>VCampForlornHopeMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp Forlorn Hope</ORIGINAL>
+    <TRADUIT>飘零希望营地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000CDF04</ID>
+    <EDID>NelsonMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nelson</ORIGINAL>
+    <TRADUIT>纳尔逊</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000CDF03</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Techatticup Mine</ORIGINAL>
+    <TRADUIT>泰科阿提卡布矿洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000CDF02</ID>
+    <EDID>SearchlightMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp Searchlight</ORIGINAL>
+    <TRADUIT>探照灯营地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000E834C</ID>
+    <EDID>GreatKhanEncampmentMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Encampment</ORIGINAL>
+    <TRADUIT>大汗帮营地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>000F05DB</ID>
+    <EDID>MedicalClinicMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Medical Clinic</ORIGINAL>
+    <TRADUIT>新维加斯诊疗所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0013849E</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion Raid Camp</ORIGINAL>
+    <TRADUIT>军团劫掠队营地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>00157F7A</ID>
+    <EDID>SafehouseNCRMarkerREF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Ranger Safehouse</ORIGINAL>
+    <TRADUIT>NCR游骑兵安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>00157F7B</ID>
+    <EDID>BrotherhoodSafehouseMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brotherhood of Steel Safehouse</ORIGINAL>
+    <TRADUIT>钢铁兄弟会安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>00157F7C</ID>
+    <EDID>SafehouseLegionMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Caesar's Legion Safehouse</ORIGINAL>
+    <TRADUIT>凯撒军团安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>00158426</ID>
+    <EDID>FoASafehouseMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Followers Safehouse</ORIGINAL>
+    <TRADUIT>天启追随者安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0015E8AA</ID>
+    <EDID>FollowersOutpostMapMarker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Followers' Outpost</ORIGINAL>
+    <TRADUIT>天启追随者哨站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0015E8AF</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Red Rock Drug Lab</ORIGINAL>
+    <TRADUIT>红岩峡谷制药场</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0010BEEA</ID>
+    <EDID>FreesideWorld</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Freeside</ORIGINAL>
+    <TRADUIT>自由之城</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0012D94E</ID>
+    <EDID>FreesideFortWorld</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Old Mormon Fort</ORIGINAL>
+    <TRADUIT>旧摩门要塞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>00148C05</ID>
+    <EDID>WastelandNVmini</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GREETING</ORIGINAL>
+    <TRADUIT>问好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00124A50</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You know everything you need to know. Be on your way.</ORIGINAL>
+    <TRADUIT>需要知道的已经都告诉你了。行动吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000F7ABA</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks for the assistance, doc. Time for us to go take out Motor-Runner?</ORIGINAL>
+    <TRADUIT>谢谢你的协助，医生。咱们该去干掉轰鸣恶煞了吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000F7ABB</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What do you need? I have a job to do.</ORIGINAL>
+    <TRADUIT>你有什么事？我还有活要干。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000F7ABC</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'm ready to take out Motor-Runner when you are.</ORIGINAL>
+    <TRADUIT>我已经准备好去干掉轰鸣恶煞了，就等你一句话。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00118360</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You really don't want to start trouble in here.</ORIGINAL>
+    <TRADUIT>你最好别在这儿惹麻烦。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00140D97</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{respectful, almost friendly}How's it going?</ORIGINAL>
+    <TRADUIT>{respectful, almost friendly}一切都顺利吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Melissa [000E595C] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D2</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello</ORIGINAL>
+    <TRADUIT>你好。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011835B</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep moving.</ORIGINAL>
+    <TRADUIT>继续前进。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [0011836F] (file)
+NPC : Van Graff Thug [0011839A] (file)
+NPC : Van Graff Thug [0011839B] (file)
+NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Thug [0011836E] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011835C</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You got a problem?</ORIGINAL>
+    <TRADUIT>你有问题吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [0011836F] (file)
+NPC : Van Graff Thug [0011839A] (file)
+NPC : Van Graff Thug [0011839B] (file)
+NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Thug [0011836E] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011835D</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We're watching you. Closely.</ORIGINAL>
+    <TRADUIT>我们正盯着你呢。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Van Graff Thug [0011836F] (file)
+NPC : Van Graff Thug [0011839A] (file)
+NPC : Van Graff Thug [0011839B] (file)
+NPC : Van Graff Thug [001183A3] (file)
+NPC : Van Graff Thug [0011836E] (file)
+NPC : Van Graff Guard [060010A1] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000DC</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Attack</ORIGINAL>
+    <TRADUIT>攻击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001586F2</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>For the Brotherhood.</ORIGINAL>
+    <TRADUIT>为了兄弟会。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Veronica [000E32AA] (file)
+Comment (NAM2) : through gritted teeth, mostly to herself
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037071</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wait here.</ORIGINAL>
+    <TRADUIT>在这等着。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BC</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BC</ID>
+    <EDID>FollowersWait</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Follow Protocol::Wait&gt;</ORIGINAL>
+    <TRADUIT>&lt;跟从协定::等待&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037074</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Keep your distance. Try to flank them.</ORIGINAL>
+    <TRADUIT>和他们保持距离。不妨从侧面攻击他们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BF</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BF</ID>
+    <EDID>FollowersTacticsDistanceLong</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Follow Distance::Far&gt;</ORIGINAL>
+    <TRADUIT>&lt;跟随距离::远&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707A</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to use ranged weapons.</ORIGINAL>
+    <TRADUIT>我希望你使用远距攻击武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579CC</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{happy Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{happy Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579CC</ID>
+    <EDID>FollowersTacticsCombatRanged</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Weapon Type::Ranged&gt;</ORIGINAL>
+    <TRADUIT>&lt;武器类型::远程&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707B</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Switch to a melee weapon.</ORIGINAL>
+    <TRADUIT>切换到近战武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BD</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{beep Laugh}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{beep Laugh}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BD</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Weapon Type::Melee&gt;</ORIGINAL>
+    <TRADUIT>&lt;武器类型::近战&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037082</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's get going.</ORIGINAL>
+    <TRADUIT>我们走。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579D4</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Happy Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Happy Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579D4</ID>
+    <EDID>FollowersLetsGo</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Follow Protocol::Reinitiate&gt;</ORIGINAL>
+    <TRADUIT>&lt;跟从协定::重新开始&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037084</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I think we should travel together.</ORIGINAL>
+    <TRADUIT>我觉得我们应该同行。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C2</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Sad Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Sad Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C2</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol-&gt;Conflict::Rex&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定-&gt;冲突::雷克斯&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C3</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Happy Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Happy Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C3</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Begin&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定::开始&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000BACC1</ID>
+    <EDID>PrimmSlimGunYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Those thieves had some gall, stealing from a museum dedicated to romanticizing a couple of criminals!</ORIGINAL>
+    <TRADUIT>这些小偷真是厚颜无耻，他们居然敢从雌雄大盗的博物馆里偷东西！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [000E2886] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000BACC1</ID>
+    <EDID>PrimmSlimGunYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'll make sure the gun ends up back on display. I thank you, Primm thanks you, and I do believe Vance'd thank you, if he could.</ORIGINAL>
+    <TRADUIT>我会把枪重新放回陈列箱里的。谢谢，我代表普瑞姆感谢您，我相信万斯若是泉下有知，也一定会感谢您的。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [000E2886] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000BACC1</ID>
+    <EDID>PrimmSlimGunYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I found the gun. Here it is.</ORIGINAL>
+    <TRADUIT>我找到枪了。就在这里。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03E</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>On second thought, stick with me for a little longer.</ORIGINAL>
+    <TRADUIT>我想了一下，还是留在我身边吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C7</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Happy Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Happy Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C7</ID>
+    <EDID>FollowersFiredNo</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Continue Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定::继续同伴协定&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03F</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yes, I'm sure.</ORIGINAL>
+    <TRADUIT>是的，我确定。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C5</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C5</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::End Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::结束同伴协定&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000E32E5</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I convinced Pauline that you shouldn't go through with this.</ORIGINAL>
+    <TRADUIT>我已经说服了宝琳，她也觉得应该收手。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Really? Oh, thank god! I love that woman, but I swear this time she was gonna get us killed!</ORIGINAL>
+    <TRADUIT>真的？哦，感谢上帝！我爱那女人，但她这一次真的差点害死我们！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sammy Wins [000E2DCF] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The gun's in the safe. The combination's 05-23-34. Take it far away from here, before she changes her mind.</ORIGINAL>
+    <TRADUIT>枪在保险箱里。密码是05-23-34。在她改变主意之前，带着枪赶紧走吧。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sammy Wins [000E2DCF] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Pauline says you should give me the gun.</ORIGINAL>
+    <TRADUIT>宝琳说你应该把枪给我。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000FE3FA</ID>
+    <EDID>VMS07Greeting</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks for the assistance taking out Motor-Runner. I'll be heading back to McCarran. I'll put in a good word for you.</ORIGINAL>
+    <TRADUIT>感谢你干掉了轰鸣恶煞。等我回到麦卡伦，一定会好好宣传你的事迹。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00116E19</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Right here. &lt;Give McCaffery's hat&gt;</ORIGINAL>
+    <TRADUIT>在这儿呢。 &lt;交出麦卡弗里的帽子&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116E1C</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This is great news. No one screws with the Garret Twins and gets away with it. I need to find a place on the wall for this.</ORIGINAL>
+    <TRADUIT>太振奋人心了。敢戏弄加勒特兄妹的人是绝不会有好下场的。我得找个地方把它挂起来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Francine Garret [0010C680] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116E1C</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And for your reward... Here's 150 caps. I trust there were also some valuables on McCaffery. Also, we would like to set you up with a room.</ORIGINAL>
+    <TRADUIT>至于你的奖励……这是150个瓶盖。麦卡弗里身上应该也有些值钱的东西。另外，我们会给你安排一间房间。 </TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Francine Garret [0010C680] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116E1C</ID>
+    <EDID>VFreeformFreesideVFSFrancineGarretTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You can have the corner room, rent free. It was McCaffery's. Now that he's dead, we're happy to let you use it. Thanks for helping us.</ORIGINAL>
+    <TRADUIT>拐角处的那间房免费给你用了。本来是麦卡弗里住的。既然他死了，我们很乐意把它交给你。谢谢你帮忙。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Francine Garret [0010C680] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00116FD0</ID>
+    <EDID>VFreeformBoulderCityBCLieutenantMonroeTopic055</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'm unable to work out a deal. The Great Khans are all yours.</ORIGINAL>
+    <TRADUIT>我没法达成协议，大汗帮的人归你处置了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00116FDA</ID>
+    <EDID>VFreeformBoulderCityBCLieutenantMonroeTopic055</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It was worth a try. I'll have to proceed with the attack as ordered, then.</ORIGINAL>
+    <TRADUIT>你已经尽力了。那么我只能依照命令开始强攻了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Lieutenant Monroe [0010C6DD] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011D57C</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All right. I'm on it.</ORIGINAL>
+    <TRADUIT>很好。我这就去。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011D57D</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Really? Oh, I wasn't expecting you to agree so easily. That's great!</ORIGINAL>
+    <TRADUIT>真的吗？哦，没想到你这么容易就答应了。真是太好了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011D57D</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here, take this packet sniffer. It'll allow us to intercept data on Mr. House's network.</ORIGINAL>
+    <TRADUIT>拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011D57D</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!</ORIGINAL>
+    <TRADUIT>你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011EBCD</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I want you to attack enemies the moment you see them.</ORIGINAL>
+    <TRADUIT>我要你看到敌人就马上攻击他们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C8</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Dunce sound}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Dunce sound}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C8</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Aggression Level::Aggressive&gt;</ORIGINAL>
+    <TRADUIT>&lt;进攻程度::积极&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C9</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Sonar Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Sonar Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C9</ID>
+    <EDID>FollowersTacticsCombatAggressive</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Aggression Level::Aggressive&gt;</ORIGINAL>
+    <TRADUIT>&lt;进攻程度::积极&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00129A2F</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All right. I'll do it.</ORIGINAL>
+    <TRADUIT>好吧，我干。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00129A32</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Great. I'll have the medical supplies for you by the time you come back.</ORIGINAL>
+    <TRADUIT>好极了。等你回来时，我会把药品准备好的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00129A32</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here, take this packet sniffer. It will allow us to intercept data on Mr. House's network.</ORIGINAL>
+    <TRADUIT>拿着，带上这个数据探测器。它能让我们截取豪斯先生网络上的数据。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00129A32</ID>
+    <EDID>vfreeformlucky38Lucky38FollowerEmilyTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You might have to manually remove the encryption from his data network, but hopefully you won't have too much trouble. Good luck!</ORIGINAL>
+    <TRADUIT>你也许得手动破解数据网络密钥，不过应该不会遇到太多麻烦。祝你好运！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Emily Ortal [0011904E] (file)
+Quest : ([0011A0C5]vfreeformlucky38) The Moon Comes Over the Tower
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C51</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic039</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion money, please.</ORIGINAL>
+    <TRADUIT>军团币，麻烦了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C76</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic039</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very well. Will there be anything else?</ORIGINAL>
+    <TRADUIT>好的。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C5A</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic030</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange NCR money for chips.</ORIGINAL>
+    <TRADUIT>我想用NCR纸币换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C7C</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic030</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C60</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic022</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange Legion money for chips.</ORIGINAL>
+    <TRADUIT>我想用军团第纳尔来换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C80</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic022</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0014CC94</ID>
+    <EDID>vDialogueMedicalClinicDoctorUsanagiTopic045</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 500 caps.</ORIGINAL>
+    <TRADUIT>我愿意捐500个瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0014CCB8</ID>
+    <EDID>vDialogueMedicalClinicDoctorUsanagiTopic045</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very much appreciated. These caps will go towards funding schools and other services to the poorer part of the community.</ORIGINAL>
+    <TRADUIT>感激不尽。我们会用这笔钱来资助学校，并且帮助城郊那些穷苦的人们的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Doctor Usanagi [000EC7A3] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00151DBD</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic009</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange caps for chips.</ORIGINAL>
+    <TRADUIT>我想用瓶盖来换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00151DC3</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic009</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0015299B</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Why must Mr. House be killed?</ORIGINAL>
+    <TRADUIT>为什么一定要杀死豪斯先生？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001529D2</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Because he complicates the equation of force. He's a free agent, an unpredictable element.</ORIGINAL>
+    <TRADUIT>因为他打破了势力间的均衡。他不受任何一方约束，是个不稳定因素。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001529D2</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'm sure he's trying to sit out this battle, just as he did four years ago, hoping the Legion and the Profligates will wipe each other out.</ORIGINAL>
+    <TRADUIT>我敢肯定他这次还会像四年前一样作壁上观，盼着军团和荒淫之人两败俱伤。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001529D2</ID>
+    <EDID>VDialogueCaesarFortCaesarTopic127</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>When he sees the Profligates losing this battle, however, he might throw his support behind them. Except he won't, because he'll be dead.</ORIGINAL>
+    <TRADUIT>不过，如果这次荒淫之人输掉的话，他可能会派出援军。当然，假如他死了，我们就不必再操心了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Caesar [00121FEF] (file)
+EmotionType : Surprise</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00156BFC</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like you to go back to the Lucky 38 for now.</ORIGINAL>
+    <TRADUIT>我希望你现在回幸运38赌场去。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579DA</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579DA</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Return Base&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::回到基地&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00157F65</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yeah, let's play again.</ORIGINAL>
+    <TRADUIT>好啊，再来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C53E</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope you're ready for this.</ORIGINAL>
+    <TRADUIT>希望你准备好了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Quartermaster Mayes [00120DCE] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163446</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>No more magic spells this time.</ORIGINAL>
+    <TRADUIT>这次不准玩花样。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163447</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I've got a good feeling about this hand.</ORIGINAL>
+    <TRADUIT>我预感这次手风会顺。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C53F</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Let's get this started!</ORIGINAL>
+    <TRADUIT>来，开始！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Private Jake Erwin [00112642] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C540</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Excellent. Let the game begin!</ORIGINAL>
+    <TRADUIT>太好了，开始吧！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ambassador Dennis Crocker [00112640] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015B709</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very well. I would wish you luck, but of course peerless intellect is all that matters here.</ORIGINAL>
+    <TRADUIT>很好。祝你好运，但显然智力才是决定因素。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6F</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Okay, hope you're ready to lose.</ORIGINAL>
+    <TRADUIT>准备好迎接失败了么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F70</ID>
+    <EDID>CaravanRematchYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Let the Caravan Lesson begin.</ORIGINAL>
+    <TRADUIT>让我好好教你该怎么玩商队牌。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163448</ID>
+    <EDID>CaravanPlayerLoses</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>No-bark wins! A few more like that and the curse'll get lifted for sure.</ORIGINAL>
+    <TRADUIT>疯嘴获胜！再来几次就能打破魔咒了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163449</ID>
+    <EDID>CaravanPlayerLoses</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Don't take it to heart. I've studied the strategies of the masters.</ORIGINAL>
+    <TRADUIT>别太难过，我可是研究了不少大师的策略。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016344B</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Dang it! Shoulda known you was getting caravan hints from the bloatfly spirits what live in these parts.</ORIGINAL>
+    <TRADUIT>见鬼！肯定是那些辐射蝇的幽灵帮你作弊了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016344B</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Well I'll be cold and rotting before I let them get the best of me. Let's go again.</ORIGINAL>
+    <TRADUIT>哼，就算我进了棺材，也绝不能容许有人比我强。再来。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016344C</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Huh. I wonder where I went wrong. Let's try that again.</ORIGINAL>
+    <TRADUIT>啊，我究竟是哪里搞错了。我们再来一把好了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F71</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Dammit, I thought I had you there. Let's play again.</ORIGINAL>
+    <TRADUIT>该死，我还以为我赢定了。再来！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F72</ID>
+    <EDID>CaravanPlayerWins</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Wow, you're good. Give me another game.</ORIGINAL>
+    <TRADUIT>你玩得很好啊，再和我来一把。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00157F69</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Want to play a hand of Caravan?</ORIGINAL>
+    <TRADUIT>来一把商队牌？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0600C14F</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure.</ORIGINAL>
+    <TRADUIT>当然。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Klamath Bob [000F839E] (mod)
+EmotionType : Happy</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6D</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All right, let's see what you got.</ORIGINAL>
+    <TRADUIT>好啊，看看你究竟有多大本事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ringo [00104C7C] (mod)
+NPC : Johnson Nash [000DA729] (file)
+NPC : Cliff Briscoe [0008CD27] (file)
+NPC : No-bark Noonan [0008CD23] (file)
+NPC : Quartermaster Mayes [00120DCE] (file)
+NPC : Poindexter [00104311] (mod)
+NPC : Jules [0013E307] (file)
+NPC : Ambassador Dennis Crocker [00112640] (file)
+NPC : Private Jake Erwin [00112642] (file)
+NPC : Melissa [000E595C] (mod)
+NPC : Klamath Bob [000F839E] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6E</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'm going to roll over you.</ORIGINAL>
+    <TRADUIT>我会让你输得心服口服的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ringo [00104C7C] (mod)
+NPC : Johnson Nash [000DA729] (file)
+NPC : Cliff Briscoe [0008CD27] (file)
+NPC : No-bark Noonan [0008CD23] (file)
+NPC : Quartermaster Mayes [00120DCE] (file)
+NPC : Poindexter [00104311] (mod)
+NPC : Jules [0013E307] (file)
+NPC : Ambassador Dennis Crocker [00112640] (file)
+NPC : Private Jake Erwin [00112642] (file)
+NPC : Melissa [000E595C] (mod)
+NPC : Klamath Bob [000F839E] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015D8A5</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All right, let's play.</ORIGINAL>
+    <TRADUIT>好啊，来呀。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ringo [00104C7C] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163444</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A fellow enthusiast, huh? That's great! Let's play.</ORIGINAL>
+    <TRADUIT>你也爱玩牌？太好了，来吧！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163445</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure. Old No-bark is always looking to play. Not for entertainment, mind you, but because if you look at the cards right you can know the future.</ORIGINAL>
+    <TRADUIT>没问题。老疯嘴可是很喜欢商队牌的。要知道，这可不是单纯的消遣，只要你能看出这些牌的门道，你就能预知未来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : No-bark Noonan [0008CD23] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C544</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Damn straight I would! Let's see what you got.</ORIGINAL>
+    <TRADUIT>那还用说？来看看你手气如何吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Quartermaster Mayes [00120DCE] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C545</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Bring it on, buddy!</ORIGINAL>
+    <TRADUIT>尽管放马过来，哥们儿！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Private Jake Erwin [00112642] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015C546</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I always have time for a good game of Caravan. I hope you're up to the challenge.</ORIGINAL>
+    <TRADUIT>玩商队牌我当然有空。就看你有没有本事和我较量一番了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ambassador Dennis Crocker [00112640] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015B70C</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A fascinating proposition. Naturally, my considerable genius makes me a master of the game, so try not to be disappointed if you lose miserably.</ORIGINAL>
+    <TRADUIT>诱人的提议。以我的天赋，这种游戏根本不在话下。所以如果你输太惨，也没必要伤心哦。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Poindexter [00104311] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0016120A</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You betcha! Caravan's got me through many a long night before. I hope you're ready.</ORIGINAL>
+    <TRADUIT>那还用说！商队牌可是伴我度过了多少不眠夜啊。希望你准备好了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Jules [0013E307] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00157F6C</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You think you have what it takes, kid?</ORIGINAL>
+    <TRADUIT>你真觉得自己牌技不错吗，小子？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Johnson Nash [000DA729] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0600C14C</ID>
+    <EDID>CaravanOffer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>If you wish.</ORIGINAL>
+    <TRADUIT>请便。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Melissa [000E595C] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00163D02</ID>
+    <EDID>vMojavevMOLaceyTopic008</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Up for some more Caravan?</ORIGINAL>
+    <TRADUIT>还想再玩商队牌吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163D2A</ID>
+    <EDID>vMojavevMOLaceyTopic008</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All right, go on - let's put our cards down.</ORIGINAL>
+    <TRADUIT>来吧，继续——接着发牌吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Lacey [0013D6A7] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00163D03</ID>
+    <EDID>vMojavevMOLaceyTopic007</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I was hoping to pass the time with a game or two.</ORIGINAL>
+    <TRADUIT>我想玩一两把牌，消磨下时间。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00163D2C</ID>
+    <EDID>vMojavevMOLaceyTopic007</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What, Caravan? All right, I'll give it a go. {Shrugs}Haven't exactly got much of a line of folks to serve.</ORIGINAL>
+    <TRADUIT>什么？商队牌？好吧，我还真会玩。{耸肩}这附近懂得玩的人并不多。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Lacey [0013D6A7] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A6E0</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic081</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'm running low on Small Energy Cells. Can you make me more?</ORIGINAL>
+    <TRADUIT>我的小型能量电池快用完了，你能帮我再做一些吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A6E4</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic081</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;{NPCRobotEdEHappy}</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;{NPCRobotEdEHappy}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A6E1</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic080</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I need some Microfusion Cells. Can you make some?</ORIGINAL>
+    <TRADUIT>我需要一些微型核聚变电池。可以制造一点吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A6E7</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic080</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;{NPCRobotEdEHappy}</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;{NPCRobotEdEHappy}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A6E3</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic078</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Can you repair my weapon?</ORIGINAL>
+    <TRADUIT>帮我修一下武器吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A6E5</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic078</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;{NPCRobotEdEHappy}</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;{NPCRobotEdEHappy}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A868</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic082</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let me access your multitools. I want to make something.</ORIGINAL>
+    <TRADUIT>让我用用你的工具组，我想造点东西。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D30C</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic082</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory beeping&gt;{NPCRobotEdEConfirmed}</ORIGINAL>
+    <TRADUIT>&lt;确定的哔哔声&gt;{NPCRobotEdEConfirmed}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400A869</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic077</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to make some ammo. Can you help me?</ORIGINAL>
+    <TRADUIT>我想要制造点弹药，能帮帮我吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400A86A</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic077</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Confirmatory beeping&gt;{NPCRobotEdEConfirmed}</ORIGINAL>
+    <TRADUIT>&lt;确定的哔哔声&gt;{NPCRobotEdEConfirmed}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A9</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic139</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;{NPCRobotEdEConfirmed}</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;{NPCRobotEdEConfirmed}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A9</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic139</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>If you drop the power output by .24, you'll be able to make more energy ammo with no quality loss.</ORIGINAL>
+    <TRADUIT>如果你将功率输出降低0.24，你将能够在不损失质量的情况下制造更多能量弹药。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0AB</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic138</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;{NPCRobotEdEConfirmed}</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;{NPCRobotEdEConfirmed}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0AB</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic138</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>If you switched to the 3/8 wrench and the smaller drill, those weapon repairs would be easier.</ORIGINAL>
+    <TRADUIT>如果你改用3/8扳手和较小的钻头，武器修理起来会更容易。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400D096</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic137</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I don't need energy cells right now - I'd like some satchel charges, ED-E.</ORIGINAL>
+    <TRADUIT>我现在不需要能量电池了 - 我需要一些炸药包，ED-E。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A1</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic137</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;{NPCRobotEdEHappy}</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;{NPCRobotEdEHappy}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0400D097</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic136</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Can you make me some flamer fuel instead of energy cells?</ORIGINAL>
+    <TRADUIT>你能给我做点火焰喷射器燃料而不是能量电池吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A2</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic136</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>&lt;Happy beeping&gt;{NPCRobotEdEHappy}</ORIGINAL>
+    <TRADUIT>&lt;开心的哔哔声&gt;{NPCRobotEdEHappy}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A5</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic135</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;{NPCRobotEdEConfirmed}</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;{NPCRobotEdEConfirmed}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D0A5</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic135</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Remove the safety catches on those Microfusion Cells and you could turn them into satchel charges.</ORIGINAL>
+    <TRADUIT>拔掉那些微型核聚变电池上的保险栓你就能把它们变成炸药包了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D09D</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic134</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] &lt;Happy beeping&gt;{NPCRobotEdEConfirmed}</ORIGINAL>
+    <TRADUIT>[成功] &lt;开心的哔哔声&gt;{NPCRobotEdEConfirmed}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [04004CDA] (ID)
+NPC : ED-E [0010C769] (mod)
+NPC : ED-E [001694E0] (mod)
+NPC : ED-E [001694E2] (mod)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0400D09D</ID>
+    <EDID>NVDLC04DialogueEDENVDLC04EDETopic134</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>You know, if you strip out the plasma relays on those energy cells, you could make flamer fuel.</ORIGINAL>
+    <TRADUIT>你知道，如果你卸掉那些能量电池的等离子继电器，你就能做出火焰喷射器燃料了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06000800</ID>
+    <EDID>VMS07V03BryceAndersInventory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's trade equipment.</ORIGINAL>
+    <TRADUIT>我们交易装备吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0600CD3F</ID>
+    <EDID>VMS07V03BryceAndersInventory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>...</ORIGINAL>
+    <TRADUIT>...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Bryce Anders [000EF3AA] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>060025C5</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic110</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exchange all my caps for chips.</ORIGINAL>
+    <TRADUIT>把我的瓶盖都换成筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06002BC1</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic110</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>060025C6</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic120</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exchange all my Legion money for chips.</ORIGINAL>
+    <TRADUIT>把我的军团货币都换成筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06002BC2</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic120</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>060025C7</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic130</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Exchange all my NCR money for chips.</ORIGINAL>
+    <TRADUIT>把我的NCR货币都换成筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06002BC3</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic130</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BA9</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicTop</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to make a donation to the Followers.</ORIGINAL>
+    <TRADUIT>我想给追随者们捐一笔钱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06004FAD</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicTop</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How much do you have to donate?</ORIGINAL>
+    <TRADUIT>你要捐赠多少个？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAA</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 10 caps.</ORIGINAL>
+    <TRADUIT>这是10瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06004FB5</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks! Anything else?</ORIGINAL>
+    <TRADUIT>谢谢！还有什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAB</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 50 caps.</ORIGINAL>
+    <TRADUIT>50个瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06005BAF</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic02</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks! Anything else?</ORIGINAL>
+    <TRADUIT>谢谢！还有什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAC</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Here's 100 caps.</ORIGINAL>
+    <TRADUIT>给你100个瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06005BB0</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks! Anything else?</ORIGINAL>
+    <TRADUIT>谢谢！还有什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>06005BAD</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicBack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>让我们谈谈其他事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>060061A9</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicBack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thanks for the donation. Every bit goes toward helping Freeside.</ORIGINAL>
+    <TRADUIT>感谢你的捐赠，所有资金都将用于帮助自由城。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>06005BAE</ID>
+    <EDID>PWBVxVFreeformFollowersDonationTopicBack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That is unfortunate. If you change your mind, please see me right away.</ORIGINAL>
+    <TRADUIT>真遗憾。如果你改变主意，请立刻来找我。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Julie Farkas [0010C682] (file)
+Quest : ([060055AF]PWBVxVFreeformFollowersDonation) Followers Donation Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bleed Me Dry</ORIGINAL>
+    <TRADUIT>血已流干</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Red Lucy needs Giant Mantis' eggs. It's faster to gather them at a breeding ground, like Vault 22.</ORIGINAL>
+    <TRADUIT>血手露西需要巨型螳螂的卵。可以去它们的产卵地附近收集，比如说22号避难所。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Red Lucy with the Giant Mantis Eggs.</ORIGINAL>
+    <TRADUIT>带着巨型螳螂卵回去找血手露西。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Red Lucy wants Radscorpion eggs. She suggested searching for them in the mountains north of Goodsprings.</ORIGINAL>
+    <TRADUIT>血手露西想要辐射蝎的卵。她建议你在清泉镇北部的山脉寻找。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Red Lucy with the Radscorpion Eggs.</ORIGINAL>
+    <TRADUIT>带着辐射蝎卵回去找血手露西。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Red Lucy wants Fire Gecko eggs. She suggested searching near the Ireteba Peaks.</ORIGINAL>
+    <TRADUIT>血手露西要火蜥蜴的卵。她建议你在艾瑞特巴峰林附近搜索。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Red Lucy with the Fire Gecko Eggs.</ORIGINAL>
+    <TRADUIT>带着火蜥蜴卵回去找血手露西。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>The elite hunters for The Thorn are looking for Night Stalker eggs. Red Lucy suggested to look at a cave near Bitter Springs.</ORIGINAL>
+    <TRADUIT>荆棘街的精英猎人们正在寻找夜枭蛋。血手露西建议你到苦泉附近的一个洞穴内寻找。</TRADUIT>
+    <PERSO />
+    <INDEX>7</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Red Lucy with the Night Stalker Eggs.</ORIGINAL>
+    <TRADUIT>带着夜枭蛋回到血手露西处。</TRADUIT>
+    <PERSO />
+    <INDEX>8</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>The elite hunters of The Thorn are now in search of Cazador eggs. Red Lucy suggested to look for them near Red Rocks.</ORIGINAL>
+    <TRADUIT>荆棘街的精英猎人们正在寻找着猎蜂卵。血手露西建议你在红岩峡谷附近寻找。</TRADUIT>
+    <PERSO />
+    <INDEX>9</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Red Lucy with the Cazador Eggs.</ORIGINAL>
+    <TRADUIT>带着猎蜂卵回到血手露西处。</TRADUIT>
+    <PERSO />
+    <INDEX>10</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Red Lucy has given the most dangerous task a hunter could face. She wants Deathclaw Eggs for The Thorn.</ORIGINAL>
+    <TRADUIT>血手露西向你提出了一项最严峻的挑战。为荆棘街带一个死亡爪蛋回来。</TRADUIT>
+    <PERSO />
+    <INDEX>11</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Red Lucy with the Deathclaw Eggs.</ORIGINAL>
+    <TRADUIT>带着死亡爪蛋回到血手露西处。</TRADUIT>
+    <PERSO />
+    <INDEX>12</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>You are the greatest hunter that The Thorn has ever seen.</ORIGINAL>
+    <TRADUIT>你现在是荆棘街有史以来最好的猎人了。</TRADUIT>
+    <PERSO />
+    <INDEX>13</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>001348DB</ID>
+    <EDID>VMS38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Red Lucy is dead. You can no longer help her.</ORIGINAL>
+    <TRADUIT>血手露西死了。你无法帮助她了。</TRADUIT>
+    <PERSO />
+    <INDEX>14</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boulder City Showdown</ORIGINAL>
+    <TRADUIT>巨石城决战</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Negotiating with the Great Khans.</ORIGINAL>
+    <TRADUIT>和大汗帮谈判。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 10
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Sneaking in and freeing the hostages.</ORIGINAL>
+    <TRADUIT>潜入并且解救人质。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 20
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Optimal Resolution - Hostages alive, NCR escorts Great Khans home.</ORIGINAL>
+    <TRADUIT>最好的结局 - 人质活了下来，NCR把大汗帮赶走了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Hostages let go, Great Khans betrayed.</ORIGINAL>
+    <TRADUIT>放走了人质，背叛了大汗帮。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 1</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>NCR troops wiped out.</ORIGINAL>
+    <TRADUIT>NCR的部队被消灭了。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 2</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Great Khans wiped out.</ORIGINAL>
+    <TRADUIT>大汗帮被消灭了。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 3</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>NCR bribed.</ORIGINAL>
+    <TRADUIT>NCR部队接受了贿赂。</TRADUIT>
+    <PERSO />
+    <INDEX>7</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 4</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>NCR attacks (neutral option).</ORIGINAL>
+    <TRADUIT>Fail state.</TRADUIT>
+    <PERSO />
+    <INDEX>8</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 100
+Index : 5</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Meet with Jessup, leader of the Great Khans in Boulder City.</ORIGINAL>
+    <TRADUIT>和躲藏在巨石城里的大汗帮头领杰瑟普会面。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Help the NCR kill all the Great Khans holed up in the Boulder City ruins.</ORIGINAL>
+    <TRADUIT>帮助NCR杀死所有藏匿在巨石城遗迹中的大汗帮。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>(Optional) Bribe the NCR troopers into letting the Great Khans escape.</ORIGINAL>
+    <TRADUIT>(可选)贿赂NCR部队，让他们放走大汗帮。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Lieutenant Monroe and inform him that you've worked out a deal with the Great Khans.</ORIGINAL>
+    <TRADUIT>回去找门罗中尉，告诉他你已经和大汗帮达成了协议。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Free the NCR troopers being held hostage by the Great Khans.</ORIGINAL>
+    <TRADUIT>释放被大汗帮俘虏的NCR军人。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Tell Jessup the Great Khans are free to go.</ORIGINAL>
+    <TRADUIT>告诉杰瑟普所有大汗帮成员可以安全离开了。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Negotiate for the release of the NCR hostages.</ORIGINAL>
+    <TRADUIT>与大汗帮就释放NCR人质的事情进行谈判。</TRADUIT>
+    <PERSO />
+    <INDEX>7</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Help the Great Khans kill all the NCR troops in the Boulder City ruins.</ORIGINAL>
+    <TRADUIT>帮助大汗帮杀死埋伏在巨石城遗迹周围的NCR部队。</TRADUIT>
+    <PERSO />
+    <INDEX>8</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0010E908</ID>
+    <EDID>VMS20</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Speak with Lieutenant Monroe.</ORIGINAL>
+    <TRADUIT>和门罗中尉交谈。</TRADUIT>
+    <PERSO />
+    <INDEX>9</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Moon Comes Over the Tower</ORIGINAL>
+    <TRADUIT>月光掠过高塔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Disable the Lucky 38's network encryption from three executive consoles.</ORIGINAL>
+    <TRADUIT>骇入三个远程端口，使幸运38的网络加密系统无效化。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 5
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Bug an access point to the Lucky 38's data network for the Followers of the Apocalypse.</ORIGINAL>
+    <TRADUIT>帮助天启追随者骇入幸运38的数据网络接入端口。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 10
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Return to Emily Ortal on the New Vegas strip with news that the tower has been bugged.</ORIGINAL>
+    <TRADUIT>回到新维加斯长街找艾米莉·欧托，告诉她你已经骇进了高塔的网络。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 20
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Completed quest for Emily.</ORIGINAL>
+    <TRADUIT>为艾米莉完成任务。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 25
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>The Lucky 38 Reactor is being powered by the El Dorado substation.</ORIGINAL>
+    <TRADUIT>幸运38的反应堆是由埃尔·多拉多变电站供电的。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 30
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Bug an access point to the Lucky 38's data network for the Followers of the Apocalypse.</ORIGINAL>
+    <TRADUIT>帮助天启追随者骇入幸运38的数据网络接入端口。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Emily Ortal on the New Vegas Strip with news that the tower has been bugged.</ORIGINAL>
+    <TRADUIT>回到新维加斯长街找艾米莉·欧托，告诉她你已经骇进了高塔的网络。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0011A0C5</ID>
+    <EDID>vfreeformlucky38</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Disable the Lucky 38's network encryption from three executive consoles.</ORIGINAL>
+    <TRADUIT>骇入三个远程端口，使幸运38的网络加密系统无效化。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600F712</ID>
+    <EDID>PWBVxBurdenToBearPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burden to Bear</ORIGINAL>
+    <TRADUIT>虎背熊腰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600F712</ID>
+    <EDID>PWBVxBurdenToBearPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The wastelander with the most gear wins! (... or at least survives.) Medium and heavy armor no longer impair movement speed.</ORIGINAL>
+    <TRADUIT>装备最多的废土客获胜！(...或者至少能活下来。) 中甲和重甲不再影响移动速度。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400A602</ID>
+    <EDID>NVDLC04CamaraderEPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camarader-E</ORIGINAL>
+    <TRADUIT>E同志</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400A602</ID>
+    <EDID>NVDLC04CamaraderEPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Traveling with ED-E has given you a chance to bond with him, unlocking five ranks of potential bonuses. While ED-E is in your party, you both gain:
+
+Rank 1 - Weapon Condition Bonus (daily 25% weapon condition repair dialogue option)
+Rank 2 - Energy Cell Manufacture (daily Energy or Microfusion Cell creation dialogue option)
+Rank 3 - Increased DT (+2 DT)
+Rank 4 - Damage Bonus (+5 beam weapon damage)
+Rank 5 - V.A.T.S. Attack Bonus (+5% V.A.T.S. targeting)</ORIGINAL>
+    <TRADUIT>与ED-E一同旅行使得你们俩紧密团结在一起,解锁了5个等级的潜能.当ED-E在你的队伍里,你们俩同时获得
+等级 1 - 武器耐久度奖励 (每日 25% 耐久度修理的对话选项)
+等级 2 - 能量电池制造 (每日 能量或核聚变电池制造的对话选项
+等级 3 - 增强DT (+2 DT
+等级 4 - 伤害奖励 (+5 光束武器伤害
+等级 5 - V.A.T.S.攻击奖励 (+5% V.A.T.S. 命中率)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400C61F</ID>
+    <EDID>NVDLC04CamaraderECompanionPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camarader-E</ORIGINAL>
+    <TRADUIT>E同志</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400C61F</ID>
+    <EDID>NVDLC04CamaraderECompanionPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Companion version of Camarader-E.</ORIGINAL>
+    <TRADUIT>E同志的同伴版本。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B68</ID>
+    <EDID>KhanFactionOutfitWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now dressed as a member of the Great Khans.</ORIGINAL>
+    <TRADUIT>你现在打扮成了大汗帮的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B69</ID>
+    <EDID>KhanFactionOutfitWarningOff</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are no longer dressed as a member of the Great Khans.</ORIGINAL>
+    <TRADUIT>你不再打扮成大汗帮的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00163117</ID>
+    <EDID>WhiteGloveSocietyFactionOutfitWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now dressed as a member of the White Glove Society.</ORIGINAL>
+    <TRADUIT>你现在打扮成了白手套社团的会员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00163118</ID>
+    <EDID>WhiteGloveSocietyFactionOutfitWarningOff</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are no longer dressed as a member of the White Glove Society.</ORIGINAL>
+    <TRADUIT>你不再打扮成白手套社团的会员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060025C1</ID>
+    <EDID>PWBVxRecipeUnlockHHMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>New crafting recipes are now available.</ORIGINAL>
+    <TRADUIT>新的制作配方现在可用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060025C2</ID>
+    <EDID>PWBVxRecipeUnlockOWBMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>New crafting recipes are now available.</ORIGINAL>
+    <TRADUIT>新的制作配方现在可用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060025C3</ID>
+    <EDID>PWBVxRecipeUnlockDMMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>New crafting recipes are now available.</ORIGINAL>
+    <TRADUIT>新的制作配方现在可用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060025C4</ID>
+    <EDID>PWBVxRecipeUnlockLRMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>New crafting recipes are now available.</ORIGINAL>
+    <TRADUIT>新的制作配方现在可用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060037B6</ID>
+    <EDID>PWBVxEdEUpgradeMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Ed-E has been upgraded with parts from the Divide.</ORIGINAL>
+    <TRADUIT>Ed-E已经使用大裂谷的部件进行了升级。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060049B1</ID>
+    <EDID>PWBVxDisguiseOptionMessage</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Do you want to disguise yourself as a member of this faction?</ORIGINAL>
+    <TRADUIT>你想把自己伪装成这个派系的一员吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060049B1</ID>
+    <EDID>PWBVxDisguiseOptionMessage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Faction Armor</ORIGINAL>
+    <TRADUIT>派系护甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060049B1</ID>
+    <EDID>PWBVxDisguiseOptionMessage</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Yes</ORIGINAL>
+    <TRADUIT>是</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060049B1</ID>
+    <EDID>PWBVxDisguiseOptionMessage</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>No</ORIGINAL>
+    <TRADUIT>不</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A4</ID>
+    <EDID>PWBVxFollowersDonationNoCapsMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You don't have enough caps.</ORIGINAL>
+    <TRADUIT>你没有足够的瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A5</ID>
+    <EDID>PWBVxFollowersDonationBoxMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>How much would you like to donate?
+
+Current caps: %.0f</ORIGINAL>
+    <TRADUIT>你想捐赠多少？
+
+现有瓶盖: %.0f</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A5</ID>
+    <EDID>PWBVxFollowersDonationBoxMsg</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Collection Box</ORIGINAL>
+    <TRADUIT>募捐箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A5</ID>
+    <EDID>PWBVxFollowersDonationBoxMsg</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>10 Caps.</ORIGINAL>
+    <TRADUIT>10瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A5</ID>
+    <EDID>PWBVxFollowersDonationBoxMsg</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>50 Caps.</ORIGINAL>
+    <TRADUIT>50瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A5</ID>
+    <EDID>PWBVxFollowersDonationBoxMsg</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>100 Caps.</ORIGINAL>
+    <TRADUIT>100瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060067A5</ID>
+    <EDID>PWBVxFollowersDonationBoxMsg</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Nothing.</ORIGINAL>
+    <TRADUIT>没什么。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0600EB1A</ID>
+    <EDID>PWBVxSkillBookNearbyMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>There is a skill book nearby.</ORIGINAL>
+    <TRADUIT>附近有一本技能书。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0600EB1B</ID>
+    <EDID>PWBVxSkillBookNearbyPluralMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>There are %.0f skill books nearby.</ORIGINAL>
+    <TRADUIT>附近有%.0f本技能书。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>001264EA</ID>
+    <EDID>CaesarsLegionFactionOutfitWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now dressed as a member of Caesar's Legion.</ORIGINAL>
+    <TRADUIT>你现在打扮成了凯撒军团的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0012B03B</ID>
+    <EDID>NCRFactionOutfitWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now dressed as a member of the NCR.</ORIGINAL>
+    <TRADUIT>你现在乔装成了NCR的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B62</ID>
+    <EDID>NCRFactionOutfitWarningOff</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are no longer dressed as a member of the NCR.</ORIGINAL>
+    <TRADUIT>你不再穿着NCR的装束。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B63</ID>
+    <EDID>CaesarsLegionFactionOutfitWarningOff</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are no longer dressed as a member of Caesar's Legion.</ORIGINAL>
+    <TRADUIT>你不再打扮成凯撒军团的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B64</ID>
+    <EDID>BoSFactionOutfitWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now dressed as a member of the Brotherhood of Steel.</ORIGINAL>
+    <TRADUIT>你现在打扮成了钢铁兄弟会的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B65</ID>
+    <EDID>BoSFactionOutfitWarningOff</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are no longer dressed as a member of the Brotherhood of Steel.</ORIGINAL>
+    <TRADUIT>你不再打扮成钢铁兄弟会的一员了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B66</ID>
+    <EDID>PowderGangerFactionOutfitWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now dressed as a Powder Ganger.</ORIGINAL>
+    <TRADUIT>你现在乔装成了炸药帮的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>00134B67</ID>
+    <EDID>PowderGangerFactionOutfitWarningOff</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are no longer dressed as a Powder Ganger.</ORIGINAL>
+    <TRADUIT>你不再穿着炸药帮的装束。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01010973</ID>
+    <EDID>RecipeNVDLC01KnifeSpearSpaceAge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cosmic Knife Spear</ORIGINAL>
+    <TRADUIT>干净的餐刀长矛</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01012C3C</ID>
+    <EDID>RecipeNVDLC01GhostSight</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ghost Sight</ORIGINAL>
+    <TRADUIT>鬼人视觉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02009909</ID>
+    <EDID>NVDLC02RecipeDaturaRootPoison</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dark Datura</ORIGINAL>
+    <TRADUIT>黑曼陀罗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0200CCFB</ID>
+    <EDID>NVDLC02RecipeWeaponBindingRitual</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Weapon Binding Ritual</ORIGINAL>
+    <TRADUIT>鲜血的仪式</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0200CCFC</ID>
+    <EDID>NVDLC02RecipeDaturana</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Daturana</ORIGINAL>
+    <TRADUIT>曼陀罗根</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0200CCFD</ID>
+    <EDID>NVDLC02RecipeDaturaHide</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Datura Hide</ORIGINAL>
+    <TRADUIT>曼陀罗强化剂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02010CD9</ID>
+    <EDID>NVDLC02RecipeBreakdown45Auto</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Breakdown .45 Auto</ORIGINAL>
+    <TRADUIT>拆解 .45Auto子弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0201103D</ID>
+    <EDID>NVDLC02RecipeHealingPoultice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Healing Poultice</ORIGINAL>
+    <TRADUIT>疗伤膏</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>020110FD</ID>
+    <EDID>NVDLC02RecipeGeckoGreenHideTanned</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tanned Green Gecko Hide</ORIGINAL>
+    <TRADUIT>鞣制绿蜥蜴皮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02011104</ID>
+    <EDID>NVDLC02RecipeArmorLeatherGecko</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gecko-Backed Leather Armor</ORIGINAL>
+    <TRADUIT>蜥蜴皮甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02011105</ID>
+    <EDID>NVDLC02RecipeArmorLeatherReinforcedGecko</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gecko-Backed Leather Armor, Reinforced</ORIGINAL>
+    <TRADUIT>强化蜥蜴皮甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02011106</ID>
+    <EDID>NVDLC02RecipeArmorMetalGecko</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gecko-Backed Metal Armor</ORIGINAL>
+    <TRADUIT>蜥蜴皮制金属甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02011107</ID>
+    <EDID>NVDLC02RecipeArmorMetalReinforcedGecko</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gecko-Backed Metal Armor, Reinforced</ORIGINAL>
+    <TRADUIT>强化蜥蜴皮制金属甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>02011108</ID>
+    <EDID>NVDLC02RecipeDaturaAntivenom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Datura Antivenom</ORIGINAL>
+    <TRADUIT>曼陀罗抗毒素</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0201110B</ID>
+    <EDID>NVDLC02RecipeBloodShield</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blood Shield</ORIGINAL>
+    <TRADUIT>鲜血护盾</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0201120C</ID>
+    <EDID>NVDLC02GreenGeckoHideBelt</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Green Gecko Hide Belt</ORIGINAL>
+    <TRADUIT>绿蜥蜴皮皮带</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133B2</ID>
+    <EDID>NVDLC03RecipeBlackBloodSausage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Black Blood Sausage</ORIGINAL>
+    <TRADUIT>黑血肠</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133B4</ID>
+    <EDID>NVDLC03RecipeClonedNevadaAgaveFruit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Nevada Agave Fruit</ORIGINAL>
+    <TRADUIT>克隆的内华达龙舌兰果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133B5</ID>
+    <EDID>NVDLC03RecipeThickRedPaste</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Thick Red Paste</ORIGINAL>
+    <TRADUIT>稠血酱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133B7</ID>
+    <EDID>NVDLC03RecipeClonedBarrelCactusFruit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Barrel Cactus Fruit</ORIGINAL>
+    <TRADUIT>克隆的巨柱仙人掌果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133B8</ID>
+    <EDID>NVDLC03RecipeClonedPintoBeanPod</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Pinto Bean Pod</ORIGINAL>
+    <TRADUIT>克隆的黑白斑豆荚</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133B9</ID>
+    <EDID>NVDLC03RecipeClonedBananaYucca</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Banana Yucca</ORIGINAL>
+    <TRADUIT>克隆的丝兰蕉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133BA</ID>
+    <EDID>NVDLC03RecipeClonedBrocFlower</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Broc Flower</ORIGINAL>
+    <TRADUIT>克隆的布洛克花</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133BB</ID>
+    <EDID>NVDLC03RecipeClonedPricklyPearFruit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Prickly Pear Fruit</ORIGINAL>
+    <TRADUIT>克隆的仙人掌果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133BC</ID>
+    <EDID>NVDLC03RecipeClonedXanderRoot</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Xander Root</ORIGINAL>
+    <TRADUIT>克隆的山德根</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133BD</ID>
+    <EDID>NVDLC03RecipeClonedHoneyMesquite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Honey Mesquite</ORIGINAL>
+    <TRADUIT>克隆的蜜豆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133BE</ID>
+    <EDID>NVDLC03RecipeClonedJalapeno</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Jalapeño Pepper</ORIGINAL>
+    <TRADUIT>克隆的墨西哥椒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133BF</ID>
+    <EDID>NVDLC03RecipeClonedMaize</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned Maize</ORIGINAL>
+    <TRADUIT>克隆的玉米</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030133C0</ID>
+    <EDID>NVDLC03RecipeClonedWhiteHorsenettle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloned White Horsenettle</ORIGINAL>
+    <TRADUIT>克隆的白马荨麻</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>03015076</ID>
+    <EDID>NVDLC03RecipeNightstalkerSqueezins</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nightstalker Squeezin's</ORIGINAL>
+    <TRADUIT>夜行兽提取物</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>030158A9</ID>
+    <EDID>NVDLC03RecipeBattleBrew</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Battle Brew</ORIGINAL>
+    <TRADUIT>战啤</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>04009266</ID>
+    <EDID>RecipeNVDLC04RocketAmmo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rocket Ammo</ORIGINAL>
+    <TRADUIT>火箭弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0400926A</ID>
+    <EDID>RecipeNVDLC04RushingWater</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rushing Water</ORIGINAL>
+    <TRADUIT>激流</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0400C42F</ID>
+    <EDID>RecipeNVDLC04RocketHEAmmo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>High-Explosive Rocket Ammo</ORIGINAL>
+    <TRADUIT>火箭弹-高爆型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0400CF38</ID>
+    <EDID>RecipeNVDLC04ConversionMissileToRocket</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Conversion, Missile to Rocket</ORIGINAL>
+    <TRADUIT>转化 导弹-火箭弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0400D754</ID>
+    <EDID>RecipeNVDLC04NailsAmmo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nails</ORIGINAL>
+    <TRADUIT>钉子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0400DFE3</ID>
+    <EDID>RecipeNVDLC04RocketIncendiaryAmmo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Incendiary Rocket Ammo</ORIGINAL>
+    <TRADUIT>火箭弹-燃烧型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0400E107</ID>
+    <EDID>RecipeNVDLC04BreakdownRocket</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Breakdown Rocket</ORIGINAL>
+    <TRADUIT>拆解 火箭弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0600A362</ID>
+    <EDID>PWBVxRecipeTunnelerHideBelt</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tunneler Hide Belt</ORIGINAL>
+    <TRADUIT>掘穴者皮腰带</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>06011AE5</ID>
+    <EDID>PWBVxRecipeUltrajet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ultrajet</ORIGINAL>
+    <TRADUIT>超级杰特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>06011AE6</ID>
+    <EDID>PWBVxRecipeMantisGauntlet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mantis Gauntlet</ORIGINAL>
+    <TRADUIT>螳螂拳套</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0013B2C2</ID>
+    <EDID>RecipeHealingPowder</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Healing Powder</ORIGINAL>
+    <TRADUIT>治疗粉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0013D3C5</ID>
+    <EDID>RecipeMassPurifiedWater</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mass Purified Water</ORIGINAL>
+    <TRADUIT>滤制纯净水</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0013D3C7</ID>
+    <EDID>RecipeBleakVenom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bleak Venom</ORIGINAL>
+    <TRADUIT>寒毒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0016163F</ID>
+    <EDID>RecipeCassMoonshine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cass' Moonshine</ORIGINAL>
+    <TRADUIT>卡丝的私酿酒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>00167478</ID>
+    <EDID>RecipeMotherDarkness</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mother Darkness</ORIGINAL>
+    <TRADUIT>黑暗之母</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>00167479</ID>
+    <EDID>RecipeSilverSting</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Silver Sting</ORIGINAL>
+    <TRADUIT>灰蜇</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0016747A</ID>
+    <EDID>RecipeTremble</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tremble</ORIGINAL>
+    <TRADUIT>颤毒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0101096C</ID>
+    <EDID>RecipeNVDLC01GasBomb</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gas Bomb</ORIGINAL>
+    <TRADUIT>毒气弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0101096D</ID>
+    <EDID>RecipeNVDLC01KnifeSpear</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Knife Spear</ORIGINAL>
+    <TRADUIT>餐刀长矛</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0101096F</ID>
+    <EDID>RecipeNVDLC01CloudKissWeak</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloud Kiss (Weak)</ORIGINAL>
+    <TRADUIT>红雾之吻（弱效）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01010970</ID>
+    <EDID>RecipeNVDLC01CloudKissStrong</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloud Kiss (Potent)</ORIGINAL>
+    <TRADUIT>红雾之吻（强效）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01010971</ID>
+    <EDID>RecipeNVDLC01CloudKissLethal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cloud Kiss (Lethal)</ORIGINAL>
+    <TRADUIT>红雾之吻（致命）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01010972</ID>
+    <EDID>RecipeNVDLC01SpaceAgeKnifeClean</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cosmic Knife (Clean)</ORIGINAL>
+    <TRADUIT>干净的宇宙餐刀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00165AC5</ID>
+    <EDID>CaravanDeckMayes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quatermaster's Arsenal</ORIGINAL>
+    <TRADUIT>军需官的武器库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00169E23</ID>
+    <EDID>CaravanDeckJules</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jules Caravan Deck</ORIGINAL>
+    <TRADUIT>朱尔斯的商队牌牌组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>0017B41B</ID>
+    <EDID>CaravanDeckNobark</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>No Bark's Bite</ORIGINAL>
+    <TRADUIT>疯嘴的撕咬</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>0015D7A2</ID>
+    <EDID>CaravanDeckRingo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ringo's Caravan Deck</ORIGINAL>
+    <TRADUIT>林戈的商队牌牌组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00163487</ID>
+    <EDID>CaravanDeckDaleBarton</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Arizona Dealer</ORIGINAL>
+    <TRADUIT>亚利桑那商人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00163488</ID>
+    <EDID>CaravanDeckMelissa</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Melissa's Caravan Deck</ORIGINAL>
+    <TRADUIT>梅丽莎的商队牌牌组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00163489</ID>
+    <EDID>CaravanDeckKlamathBob</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Klamath Bob's Caravan Deck</ORIGINAL>
+    <TRADUIT>克拉马斯·鲍勃的商队牌牌组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>0016348A</ID>
+    <EDID>CaravanDeckIsaac</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Isaac's Caravan Deck</ORIGINAL>
+    <TRADUIT>艾萨克的商队牌牌组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>001649D1</ID>
+    <EDID>CaravanDeckNash</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Express Spectacular</ORIGINAL>
+    <TRADUIT>莫哈维快递导览</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00165AC3</ID>
+    <EDID>CaravanDeckCrocker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Touring The Strip</ORIGINAL>
+    <TRADUIT>赌场观光</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CDCK</GRUP>
+    <ID>00165AC4</ID>
+    <EDID>CaravanDeckErwin</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Strip Tease</ORIGINAL>
+    <TRADUIT>赌场的脱衣挑逗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
