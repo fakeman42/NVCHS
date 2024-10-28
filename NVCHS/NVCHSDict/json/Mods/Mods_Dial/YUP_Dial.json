@@ -3788,19 +3788,19 @@
   {
     "key": "GREETING_0015FF97#INFO:NAM1#cbeeed97aae23e22c7818166f3175f84",
     "original": "NCR Trooper, reporting for duty!",
-    "translation": "NCR突击兵，向您报道！",
+    "translation": "NCR士兵，向您报道！",
     "stage": 1
   },
   {
     "key": "GREETING_0015FF98#INFO:NAM1#7809a3be9ecf0bd30da3e5f664cc6a4b",
     "original": "Trooper, ready to fight!",
-    "translation": "突击兵，准备完毕！",
+    "translation": "士兵，准备战斗！",
     "stage": 1
   },
   {
     "key": "GREETING_0015FF99#INFO:NAM1#ec4c5855bb11bbdaf629f1babff17b0e",
     "original": "You called for a Trooper?",
-    "translation": "是你呼叫突击兵支援的？",
+    "translation": "是你呼叫士兵支援的？",
     "stage": 1
   },
   {
@@ -18422,7 +18422,7 @@
   {
     "key": "CliffBriscoeSouvenirInfo_0008D081#INFO:NAM1#bec16a1dd5118ed578e212da061982e7",
     "original": "The papers had a name for the condition and everything. They called it the \"REPCONN Shakes.\" Those were bad times for RobCo.",
-    "translation": "媒体甚至专门给这次事件起了个名字。他们管它叫做\"瑞普康奶昔门\"。那段时间对罗伯科公司来说可真是艰难啊。",
+    "translation": "媒体甚至专门给这次事件起了个名字。他们管它叫做\"瑞普康奶昔门\"。那段时间对罗科公司来说可真是艰难啊。",
     "stage": 1
   },
   {
@@ -21074,19 +21074,19 @@
   {
     "key": "REPCONHQFreeformREPCONTourGuideTopic005_000E85DE#DIAL:FULL#5120ddb49685c00ab6e29f95671a27b0",
     "original": "Tell me about RobCo.",
-    "translation": "和我说说罗伯科。",
+    "translation": "和我说说罗科。",
     "stage": 1
   },
   {
     "key": "REPCONHQFreeformREPCONTourGuideTopic005_000E863F#INFO:NAM1#082ea42a00bee2406c62fcb33ce38b43",
     "original": "RobCo Industries purchased REPCONN in 2075 to assist with some of RobCo's military projects, as well as developing unmanned space exploration.",
-    "translation": "罗伯科工业在2075年收购了瑞普康，以协助军方开展相关项目及无人太空探索的研究。",
+    "translation": "罗科工业在2075年收购了瑞普康，以协助军方开展相关项目及无人太空探索的研究。",
     "stage": 1
   },
   {
     "key": "REPCONHQFreeformREPCONTourGuideTopic005_000E863F#INFO:NAM1#1cbf87efbe2c701b1682de1fca8d81ef",
     "original": "The relationship between RobCo and REPCONN is mutually beneficial, and we hope that both companies bolster each other well into the next century.",
-    "translation": "罗伯科与瑞普康的合作本着平等互利的原则，我们希望两个公司能够携手走向下个世纪。",
+    "translation": "罗科与瑞普康的合作本着平等互利的原则，我们希望两个公司能够携手走向下个世纪。",
     "stage": 1
   },
   {
@@ -27716,7 +27716,7 @@
   {
     "key": "SSHQLHPlayerDraw_0010A6D5#DIAL:FULL#2d747653d3e0f5f85468a0fac0457989",
     "original": "<Press the blue button to draw a card.>",
-    "translation": "<按下蓝色键抽牌>",
+    "translation": "<按下蓝色键抽牌。>",
     "stage": 1
   },
   {
@@ -40664,7 +40664,7 @@
   {
     "key": "VHDAssassinationDialogVHDCatoHostiliusTopic016_001406FD#INFO:NAM1#e2feb324f26ef5c1f2fc2cbabf89d28e",
     "original": "As for you, I have a NCR trooper uniform that I acquired. It'll fool most of the troopers and civilians, but it probably won't fool the rangers.",
-    "translation": "至于你，我搞到了一套NCR突击兵的制服。这玩意足够糊弄大部分突击兵和平民，但恐怕骗不过游骑兵。",
+    "translation": "至于你，我搞到了一套NCR士兵的制服。这玩意足够糊弄大部分士兵和平民，但恐怕骗不过游骑兵。",
     "stage": 1
   },
   {
@@ -45217,8 +45217,8 @@
   },
   {
     "key": "VNelsonNVNelsonRangerMiloTopic000_0014E2A5#DIAL:FULL#c7e15d8fbe5b96171d7c1c06763671f7",
-    "original": "The name's &PCName;.",
-    "translation": "我叫&PCName;。",
+    "original": "The name's [%].",
+    "translation": "我叫[%]。",
     "stage": 1
   },
   {
@@ -47276,7 +47276,7 @@
   {
     "key": "MarilynJaneSecuritrons_001547F3#INFO:NAM1#9afc9345e8cf24ec43c95c5efe85df86",
     "original": "Why, I'm a RobCo PDQ-88b Mk I Securitron, you silly goose! We're the finest in personal or civil robotic security on the market!",
-    "translation": "傻孩子，我可是罗伯科PDQ-88bI型电子保安！我们是市面上最好的个人和民用电子安保机器人 !",
+    "translation": "傻孩子，我可是罗科PDQ-88bI型电子保安！我们是市面上最好的个人和民用电子安保机器人 !",
     "stage": 1
   },
   {
@@ -48230,7 +48230,7 @@
   {
     "key": "VCampGolfHanlon2CHanlonTopic070_00156EFD#DIAL:FULL#5922c55396965bded5fdf12c5bb8e70c",
     "original": "Is Moore in charge of all the NCR troopers out here?",
-    "translation": "这儿的所有NCR突击兵都归莫尔管吗？",
+    "translation": "这儿的所有NCR士兵都归莫尔管吗？",
     "stage": 1
   },
   {
@@ -48404,7 +48404,7 @@
   {
     "key": "VCampGolfHanlon2CHanlonTopic041_00156F34#INFO:NAM1#16617214836270bdfe5386067fc87035",
     "original": "Troopers and rangers have been dying here for more than five years while the Families sit pretty behind that... damned wall.",
-    "translation": "突击兵和游骑兵在这里拼了五年多的命，而这帮家族就那么悠闲地躲在…那该死的高墙后面。",
+    "translation": "士兵和游骑兵在这里拼了五年多的命，而这帮家族就那么悠闲地躲在…那该死的高墙后面。",
     "stage": 1
   },
   {
@@ -50036,7 +50036,7 @@
   {
     "key": "VMS29aVFSSilverRushGamblerCustomerTopic000_0015988B#DIAL:FULL#a4b763afd82c04c6ca6c6bdb85fd91b8",
     "original": "Certainly, sir. We need to pat you down for weapons first.",
-    "translation": "当然了，先生。我们要先解除你的武器。",
+    "translation": "当然了，先生。我们需要先搜身来检查是否有武器。",
     "stage": 1
   },
   {
@@ -50156,7 +50156,7 @@
   {
     "key": "VFreeformHooverDamVHDGeneralOliverTopic080_00159949#INFO:NAM1#c38603748fb4659554a9e1ba5711675e",
     "original": "[SUCCEEDED] Fucking Pre-War RobCo pieces of shit...",
-    "translation": "[成功] 操他妈的罗伯科战前狗屎科技……",
+    "translation": "[成功] 操他妈的罗科战前狗屎科技……",
     "stage": 1
   },
   {
@@ -59240,7 +59240,7 @@
   {
     "key": "NVDLC01ElijahDialogueNVDLC01ElijahTopic021_01013A76#INFO:NAM1#6f1ae1a50743947f4d51cfea265648d7",
     "original": "Your piece of RobCo trash will help you, I've ensured it. It can latch on to the signal of the collars...",
-    "translation": "你手上那块罗伯科公司生产的垃圾可以帮你，我已经替你改装过了。它能辨识项圈发出的信号……",
+    "translation": "你手上那块罗科公司生产的垃圾可以帮你，我已经替你改装过了。它能辨识项圈发出的信号……",
     "stage": 1
   },
   {

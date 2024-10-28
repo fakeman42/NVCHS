@@ -17408,7 +17408,7 @@
   {
     "key": "NVDLC04Silo01MainframeCodesMSG_0100D8F4#MESG:ITXT#1318869347c1a1be9a8171942d4826f4",
     "original": "Leave the mainframe alone.",
-    "translation": "不管主机。",
+    "translation": "不去动主机。",
     "stage": 1
   },
   {
@@ -18338,7 +18338,7 @@
   {
     "key": "NVDLC04Silo01MainframeAccessMSG_010092FE#MESG:ITXT#1318869347c1a1be9a8171942d4826f4",
     "original": "Leave the mainframe alone.",
-    "translation": "不管主机。",
+    "translation": "不去动主机。",
     "stage": 1
   },
   {
@@ -18374,7 +18374,7 @@
   {
     "key": "NVDLC04Silo01MainframeMSG_010092FC#MESG:ITXT#1318869347c1a1be9a8171942d4826f4",
     "original": "Leave the mainframe alone.",
-    "translation": "不管主机。",
+    "translation": "不去动主机。",
     "stage": 1
   },
   {
@@ -19410,6 +19410,12 @@
     "stage": 1
   },
   {
+    "key": "NVDLC04RALPHIEPosterActivator_0100DC64#ACTI:XATO#80030956a9635d1f17c2564251d523c4",
+    "original": "Examine Poster",
+    "translation": "调查海报",
+    "stage": 1
+  },
+  {
     "key": "NullEDID_0100D28E#REFR:XATO#f6d3207b41286c509a1c393b102ba5d9",
     "original": "Search Dead Marked Man",
     "translation": "搜索死去的烙印者",
@@ -19512,9 +19518,9 @@
     "stage": 1
   },
   {
-    "key": "NVDLC04RALPHIEPosterActivator_0100DC64#ACTI:XATO#80030956a9635d1f17c2564251d523c4",
-    "original": "Examine Poster",
-    "translation": "调查海报",
+    "key": "NVDLC04WWSeymour_0100BEFA#MSTT:FULL#21de86f314e780179100b5c5bde23d59",
+    "original": "Seymour",
+    "translation": "西摩",
     "stage": 1
   }
 ]

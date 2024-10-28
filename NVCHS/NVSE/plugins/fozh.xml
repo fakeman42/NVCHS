@@ -112,6 +112,23 @@
 		<xml path="Data/NVCHSDict/Mods/TH3/NorthRoad.xml"/>
 		<file target="Data/NVCHSDict/Mods/TH3/DepthsOfDepravity_chs.txt" src="Data/NVCHSDict/Mods/TH3/DepthsOfDepravity_en.txt" type="2" priority="3"/>
 		
+		<!-- Nova Arizona -->
+		<json path="Data/NVCHSDict/json/Mods/NovaArizona.json" priority="3" />
+		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/NovaArizona_Dial.json" priority="2" />
+		
+		<!-- MoreMojave -->
+		<json path="Data/NVCHSDict/json/Mods/MoreMojave.json" priority="3" />
+		
+		<!-- AltStart -->
+		<json path="Data/NVCHSDict/json/Mods/AltStart.json" priority="3" />
+		<json path="Data/NVCHSDict/json/Mods/Alternate_Start_-_Open_World_DC_Patch.json" priority="3" />
+		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/AltStart_Dial.json" priority="2" />
+		<file target="Data/NVCHSDict/Mods/AltStart_chs.txt" src="Data/NVCHSDict/Mods/AltStart_en.txt" type="2" priority="3"/>
+		<file target="Data/NVCHSDict/Mods/Alternate_Start_-_Open_World_DC_Patch_chs.txt" src="Data/NVCHSDict/Mods/Alternate_Start_-_Open_World_DC_Patch_en.txt" type="2" priority="3"/>
+		
+		<!-- Unfriendlier Persuasion -->
+		<json path="Data/NVCHSDict/json/Mods/UnfriendlierPersuasion.json" priority="3" />
+		
 		<!-- Zion trail! -->
 		<xml path="Data/NVCHSDict/Mods/ZionTrail/ZionTrail.xml"/>
 		<xml path="Data/NVCHSDict/Mods/ZionTrail/ZionTrailTweaks.xml"/>

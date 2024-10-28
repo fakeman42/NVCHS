@@ -19670,7 +19670,7 @@
   {
     "key": "NVDLC01ElijahDialogueNVDLC01ElijahTopic061_0101120D#INFO:NAM1#a06034bac3b6145d7aa6792b0eadafbc",
     "original": "{Snorts, contemptuous}You speak as if your fingers have never touched the keys of a RobCo terminal. No machine is foolproof, they are designed to obey us.",
-    "translation": "{Snorts, contemptuous}别跟我说你从来没有碰过罗伯科公司生产的终端。只要是机器，就能被破解，因为它们被制造出来的目的就是为我们服务。",
+    "translation": "{Snorts, contemptuous}别跟我说你从来没有碰过罗科公司生产的终端。只要是机器，就能被破解，因为它们被制造出来的目的就是为我们服务。",
     "stage": 1
   },
   {
@@ -32474,7 +32474,7 @@
   {
     "key": "NVDLC01ElijahDialogueNVDLC01ElijahTopic021_01013A76#INFO:NAM1#9c28ca2746b7b0e11d6d658168c27d4d",
     "original": "{Authoritative, contempt for RobCo tech}Your piece of RobCo trash will help you, I've ensured it. It can latch on to the signal of the collars...",
-    "translation": "{Authoritative, contempt for RobCo tech}你手上那块罗伯科公司生产的垃圾可以帮你，我已经替你改装过了。它能辨识项圈发出的信号……",
+    "translation": "{Authoritative, contempt for RobCo tech}你手上那块罗科公司生产的垃圾可以帮你，我已经替你改装过了。它能辨识项圈发出的信号……",
     "stage": 1
   },
   {
@@ -34976,7 +34976,7 @@
   {
     "key": "NVDLC01LoadScreenActTwo09_0101240A#LSCR:DESC#6003bf79696384c94f927dc5e73d57ae",
     "original": "RobCo guarantees the safety and security of your Pip-Boy from anyone seeking to tamper with it. Your personal logs and archives are yours and yours alone.",
-    "translation": "罗伯科公司保证你的哔哔小子具备绝对的安全性，不会轻易受到他人篡改。你的日志和档案只属于你自己。",
+    "translation": "罗科公司保证你的哔哔小子具备绝对的安全性，不会轻易受到他人篡改。你的日志和档案只属于你自己。",
     "stage": 1
   },
   {
@@ -38355,6 +38355,18 @@
     "key": "NullEDID_0100FDD9#REFR:FULL#ee759ae260e1f091652a4b494aa00818",
     "original": "Campanas del Sol",
     "translation": "太阳钟楼",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01Corpse_1010647#MSTT:FULL#383eac6b2405182285e0b7f4fcc2930c",
+    "original": "Corpse",
+    "translation": "尸体",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01StarletCorpseREF_0101354D#ACHR:XATO#bb5bda9fb945ca0e966ac294ea3d63dc",
+    "original": "Take Vera's Dress",
+    "translation": "拿走维拉的服装",
     "stage": 1
   }
 ]
