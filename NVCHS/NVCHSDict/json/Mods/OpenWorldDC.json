@@ -1,0 +1,4058 @@
+[
+  {
+    "key": "DLC03TidalBasinWaterEffect_0900B400#SPEL:FULL#8c5b0b91cc829a08b68ee0662da81ab5",
+    "original": "Tidal Basin Water",
+    "translation": "潮汐港湾的水",
+    "stage": 1
+  },
+  {
+    "key": "conZAXFEVPanel_0E02CA60#ACTI:FULL#66fdfede05575e3ecb79cc9ba95bf542",
+    "original": "ZAX Panel",
+    "translation": "ZAX控制面板",
+    "stage": 1
+  },
+  {
+    "key": "conAdamsAFBVertibirdEscape_0E036EE6#ACTI:FULL#5edb2efb484c98780f8de7e5f097e835",
+    "original": "Leave Adams AFB",
+    "translation": "离开亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "conAdamsAFBVertibirdEscape2_0E040302#ACTI:FULL#5edb2efb484c98780f8de7e5f097e835",
+    "original": "Leave Adams AFB",
+    "translation": "离开亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "MS16ControlPanelVault01_0602485A#ACTI:FULL#e925fdc3c66d3626ef59282efae440c6",
+    "original": "Vault Door Control Pod",
+    "translation": "避难所大门控制板",
+    "stage": 1
+  },
+  {
+    "key": "conStartTerminal_0E049794#ACTI:FULL#bfb6b4b9ba9f7dac57840e0aec262fd3",
+    "original": "Create Character",
+    "translation": "创建角色",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:FULL#016003c1b6420651b0d9559ecdca86ed",
+    "original": "Medical Wing Maintenance Terminal",
+    "translation": "医学维持终端",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:DESC#8e4f3c745c5f649abfb3941c6f1bc442",
+    "original": "Vault 87 Medical Wing Maintenance Access\\nEmergency Use Only",
+    "translation": "号避难所医学维护访问\\n仅限急症用户",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:ITXT#999e1960e8dc7d21825eedda3ec71776",
+    "original": "Iso Room 01 Door Emergency Release",
+    "translation": "Iso房间01门紧急开放",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:RNAM#e762e56275fd072ff7456e01f4f51343",
+    "original": "Explosive Bolts Deployed -- Door Released",
+    "translation": "爆炸使螺栓脱开－门被开启",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:ITXT#5696e4f9e7b60b5debe333a1e69a262c",
+    "original": "Iso Room 02 Door Emergency Release",
+    "translation": "隔离室 02门紧急开放",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:ITXT#3d7b7fa2e43e6c1929bd80fff62e1a50",
+    "original": "Iso Room 03 Door Emergency Release",
+    "translation": "隔离室 03门紧急开放",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:ITXT#1f3cd548afad3bbd20ce20d7526a1572",
+    "original": "Iso Room 04 Door Emergency Release",
+    "translation": "隔离室 04门紧急开放",
+    "stage": 1
+  },
+  {
+    "key": "MQ08Vault87aCellTerminal_06030ACF#TERM:ITXT#4fb5585b213e1a01616f4d6a06209ddd",
+    "original": "Iso Room 05 Door Emergency Release",
+    "translation": "隔离室 05门紧急开放",
+    "stage": 1
+  },
+  {
+    "key": "Vault112OverSeerComputer_06071044#TERM:FULL#a099836e95dcb7986e2d3fc52e2cc3cc",
+    "original": "Access Computer",
+    "translation": "通道电脑",
+    "stage": 1
+  },
+  {
+    "key": "Vault112OverSeerComputer_06071044#TERM:DESC#06b7ae14685f293c4ee50b25b77ed3dc",
+    "original": "Vault 112 Overseer Access\\nWelcome, Dr. Braun.",
+    "translation": "112号避难所监督者通道\\n欢迎，布劳恩博士。",
+    "stage": 1
+  },
+  {
+    "key": "Vault112OverSeerComputer_06071044#TERM:ITXT#36f01f4ad3ee8c70f6fa8b0ebb4c93ea",
+    "original": "Open Vault-Tec Access Hatch",
+    "translation": "打开避难所科技通道舱口",
+    "stage": 1
+  },
+  {
+    "key": "Vault112OverSeerComputer_06071044#TERM:RNAM#848b28ec29932db08b7517e2ac53f308",
+    "original": "Opening the door for you, Dr. Braun...",
+    "translation": "为您打开大门，布劳恩博士。..",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:FULL#c2731f20bc694c44f4503ab38f6a7147",
+    "original": "Satellite Uplink Terminal",
+    "translation": "卫星上行链路终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:DESC#22d0979ea5a64963289914c477b8b5e7",
+    "original": "ENCLAVE RELAY 0X9-B",
+    "translation": "英克雷继电器 0X9-B",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:ITXT#50ac2f0145625686eaa195ba0d883b17",
+    "original": "Update Standing Orders",
+    "translation": "更新常规命令",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:RNAM#866d7a2b30d4252ae759eab53daa566e",
+    "original": "Orders Remain Unchanged.",
+    "translation": "命令维持不变。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:ITXT#cdd04d4443e421d76ae62549a327b1ec",
+    "original": "Request New Telemetry Data",
+    "translation": "请求新的遥测数据",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:RNAM#4c0762b775667c80988bfc87ada6c976",
+    "original": "Telemetry Data Downloaded.",
+    "translation": "遥测数据下载完成。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:ITXT#88a7c9e9b41c67332ed00f3b555d6011",
+    "original": "Download Telemetry Data to User Device",
+    "translation": "遥测数据下载到用户设备",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:RNAM#c45942a15f74827defe31dd61e584b10",
+    "original": "Data Downloaded.",
+    "translation": "数据下载完成。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:ITXT#b34ebb4eb61bef8b897101ccdd86468d",
+    "original": "Sever Uplink",
+    "translation": "服务器上线",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayTerminal_09000D5C#TERM:RNAM#626ca71b74e10e9a4ae3f5dd1be60214",
+    "original": "Command Override. Unauthorized.",
+    "translation": "指令将覆写。未经授权。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:FULL#ab1f7b8f6b57704f765eb669963464c9",
+    "original": "Enclave Field Research Terminal",
+    "translation": "英克雷战地研究终端机",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:DESC#ace9346234dfb106f7e88d0773aff398",
+    "original": "*************************\\n*Mobile Platform Control*\\n*************************",
+    "translation": "*************************\\n*机动要塞控制*\\n*************************",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:ITXT#bf942f6f6d6124c1161621d60193d9eb",
+    "original": "Open Mobile Platform Loading Ramp",
+    "translation": "开启机动要塞装卸通道",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:RNAM#280b50516fcf5762c09787e6db6dad8b",
+    "original": "Ramp Open",
+    "translation": "通道开启",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:ITXT#7b8d11541fb0ac7e8f344717aae51de0",
+    "original": "Close Mobile Platform Loading Ramp",
+    "translation": "关闭机动要塞装卸通道",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:RNAM#7c62a67b5d4807fc633baf41877e84f0",
+    "original": "Ramp Closed",
+    "translation": "通道关闭",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:ITXT#50c8aa2df88b4e0f01a2c076101e0c5f",
+    "original": "Contact Mobile Platform Control Center",
+    "translation": "联络机动要塞指挥中心",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:RNAM#a3e37873a4e622016a3fd20f6d0eee26",
+    "original": "Unavailable - Radio Silence Protocol A45",
+    "translation": "不可使用 - 无线电缄默A45协议",
+    "stage": 1
+  },
+  {
+    "key": "DLC03ControlTowerTerminal_09005DD1#TERM:ITXT#142697d47b93da77c42f8a49b79b2128",
+    "original": "Contact Vertibird Flight Control",
+    "translation": "联络飞鸟飞行指挥塔",
+    "stage": 1
+  },
+  {
+    "key": "MQ05WaveTerminal_0606B93E#TERM:FULL#5389bb18ba54cdca86a3ee950c8a9ed2",
+    "original": "Overflow Door Control",
+    "translation": "门控制溢出",
+    "stage": 1
+  },
+  {
+    "key": "MQ05WaveTerminal_0606B93E#TERM:DESC#213299970eab49268cdc5ffedd9ce892",
+    "original": "** !! SELECTIVE ACCESS !! **\\nDC Transit Authority Personnel Only",
+    "translation": "** !! 选择访问 !! **\\n 仅限特区运输部人员",
+    "stage": 1
+  },
+  {
+    "key": "MQ05WaveTerminal_0606B93E#TERM:ITXT#c71c98ddafdb472a65409cc0ed4af21c",
+    "original": "Disengage Overflow Door",
+    "translation": "脱离溢出的门",
+    "stage": 1
+  },
+  {
+    "key": "MQ05WaveTerminal_0606B93E#TERM:RNAM#423e3208c968f394c3cd66a9d4b2d727",
+    "original": "Overflow door disengaging...",
+    "translation": "正在脱离门……...",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:FULL#33f9d6dba50537a029a3d6b0965ad0a3",
+    "original": "Fire Control",
+    "translation": "消防终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:DESC#ad3c7fffdb04b721592322632bd189a5",
+    "original": "Satellite Fire Control System\\n+WARNING: Safety Off/System Unlocked+",
+    "translation": "卫星轨道炮火控系统\\n+警告: 保险解除/系统解锁+",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:ITXT#fbf7c71abb8e458c0e4c58ccb7873743",
+    "original": "Preset Target 01: Citadel",
+    "translation": "预设目标01:五角大本营",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:ITXT#4fa4e5990b989e4fcf8ae69216312cf7",
+    "original": "Preset Target 02: Project Purity",
+    "translation": "预设目标02: 净水工程站",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:RNAM#2a7524935320b3a819d911fc26d77323",
+    "original": "Satellite Not In Proper Orbit Path",
+    "translation": "卫星未在适当的轨道路径内",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:ITXT#305cfb4d0313b9f97beaa0d1d1a81e00",
+    "original": "Preset Target 03: Megaton",
+    "translation": "预设目标03: 核弹镇",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:ITXT#e499eb5cb4abe8f231325841e15d5de9",
+    "original": "Preset Target 04: Rivet City Carrier",
+    "translation": "预设目标04: 铆钉城",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:ITXT#4d646805ef896a4ef7c1bb229945d8b2",
+    "original": "Preset Target 05: Adams AFB Platform",
+    "translation": "预设目标05: 亚当斯空军基地机动要塞",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal01_09007394#TERM:ITXT#415b07931ac3d52974088af957e915b3",
+    "original": "Preset Target 06: Citadel & Adams AFB",
+    "translation": "预设目标06：要塞与亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal02_09007395#TERM:FULL#33f9d6dba50537a029a3d6b0965ad0a3",
+    "original": "Fire Control",
+    "translation": "消防终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal02_09007395#TERM:DESC#7e7886801bfdadc110f32700e830a764",
+    "original": "Satellite Fire Control System\\n+TARGET ACQUIRED: Citadel+\\n++WARNING: This will commit all warheads to target and lock this station.++",
+    "translation": "卫星轨道炮火控系统\\n+目标确认: 五角大本营+\\n++警告: 这将提交所有弹头瞄准并锁定该站点。++",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal02_09007395#TERM:ITXT#158730d89842eb63d46948f4791e103c",
+    "original": "Fire Payload",
+    "translation": "确定",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal04_09007397#TERM:FULL#33f9d6dba50537a029a3d6b0965ad0a3",
+    "original": "Fire Control",
+    "translation": "消防终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal04_09007397#TERM:DESC#faea12c0504ad1347afea742a54356cd",
+    "original": "Satellite Fire Control System\\n+TARGET ACQUIRED: Adams AFB Mobile Platform+\\n++FINAL WARNING: This target is for self-destruct purposes only! Final Approval required!++",
+    "translation": "卫星轨道炮火控系统\\n+目标确认: 亚当斯空军基地机动要塞+\\n++最后警告: 该目标仅作为自毁用途 ! 请求最终确认 !++",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal04_09007397#TERM:ITXT#641990627dbe4e5313c541b40d9759fc",
+    "original": "Confirm",
+    "translation": "确认",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal05_0E08823B#TERM:FULL#33f9d6dba50537a029a3d6b0965ad0a3",
+    "original": "Fire Control",
+    "translation": "消防终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal05_0E08823B#TERM:DESC#6dc20729a1bd5a47d09a4368dd194bc5",
+    "original": "Satellite Fire Control System\\n+TARGET ACQUIRED: Citadel and Adams AFB Mobile Platform+\\n++FINAL WARNING: This target is for self-destruct purposes only! Final Approval required!++",
+    "translation": "卫星轨道炮火控系统\\n+目标确认: 五角大本营与亚当斯空军基地机动要塞+\\n++最后警告: 该目标仅作为自毁用途! 请求最终确认!++",
+    "stage": 1
+  },
+  {
+    "key": "DLC03FireControlTerminal05_0E08823B#TERM:ITXT#641990627dbe4e5313c541b40d9759fc",
+    "original": "Confirm",
+    "translation": "确认",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:FULL#fb97977c246ed876cf59544b5b145009",
+    "original": "Options",
+    "translation": "选项",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:DESC#54596639461c6d723ee377bad769f3e7",
+    "original": "Configuration options for True Open World DC",
+    "translation": "真实开放世界华盛顿特区的配置选项",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:ITXT#00a7591d9a8707e3f5d811272cb80a18",
+    "original": "Enable Enclave Encampments",
+    "translation": "启用英克雷营地",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:RNAM#7e07ba6cc09ad38450149ea1f6fe38e7",
+    "original": "Encampments enabled.",
+    "translation": "营地已启用。",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:ITXT#d510a68a201b6715aa35be6264339503",
+    "original": "Disable Enclave Encampments (Default)",
+    "translation": "禁用英克雷营地（默认）",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:RNAM#185cc780a878fc9a68f9bef5afa3104e",
+    "original": "Encampments disabled.",
+    "translation": "营地已禁用。",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:ITXT#79b09d2a86a4b3b2369327d12d98a2d0",
+    "original": "Start Friendly with BOS",
+    "translation": "与钢铁兄弟会友好开局",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:RNAM#ccd0a2c4cbef2acc61a7a985ebda264b",
+    "original": "Citadel will be open from start.",
+    "translation": "五角大本营从一开始就开放。",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal_0E08B383#TERM:ITXT#fddcbc693119b0c7ea4568e3581ba02d",
+    "original": "Starting Locations",
+    "translation": "起始位置",
+    "stage": 1
+  },
+  {
+    "key": "conRavenRockAccessTerminal_0E0905B4#TERM:FULL#7c147e4e255a7e192f0ad721e5f61602",
+    "original": "Raven Rock Access",
+    "translation": "黑鸦领通道",
+    "stage": 1
+  },
+  {
+    "key": "conRavenRockAccessTerminal_0E0905B4#TERM:DESC#a209ea67a3d4770aec65cd0ba0271e6e",
+    "original": "Raven Rock Access Terminal",
+    "translation": "黑鸦领通道终端",
+    "stage": 1
+  },
+  {
+    "key": "conRavenRockAccessTerminal_0E0905B4#TERM:ITXT#5f5503be3fd108a1b121854b4c4cf0df",
+    "original": "Open Blast Door",
+    "translation": "打开防爆门",
+    "stage": 1
+  },
+  {
+    "key": "conRavenRockAccessTerminal_0E0905B4#TERM:RNAM#cd00a6bc4c31d14feeb25d63b44e2006",
+    "original": "Opening door....",
+    "translation": "正在开门....",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:FULL#fddcbc693119b0c7ea4568e3581ba02d",
+    "original": "Starting Locations",
+    "translation": "起始位置",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:DESC#32a8e9af262c3eb64db3fd5a138e64d3",
+    "original": "Choose your starting location.",
+    "translation": "选择你的起始位置。",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#5872d4c5de10757d0dd6bde586185d6c",
+    "original": "Vault 101 (Default)",
+    "translation": "101避难所（默认）",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:RNAM#c9e30611c38e18ba976f4ed74a5d60e7",
+    "original": "Location set.",
+    "translation": "位置已设定。",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#83b151d5a999ab09741146db8bb52486",
+    "original": "Rivet City",
+    "translation": "铆钉城",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#81ae296de3c57a40508b07e01e28ee01",
+    "original": "Tenpenny Tower",
+    "translation": "特佩尼塔",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#0c2e67b9865b1565e89182ddc2750088",
+    "original": "Canterbury Commons",
+    "translation": "坎特伯雷社区",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#616427e2dab23d2cf3235be03af9fa64",
+    "original": "Paradise Falls",
+    "translation": "堕落天堂",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#1d8c19e00e7829b6c84d20ee37319c33",
+    "original": "Big Town",
+    "translation": "大镇",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#2cd0ae940301f3857bca0077e63909f9",
+    "original": "Andale",
+    "translation": "安戴尔",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCOptionsTerminal2_0E09FC5E#TERM:ITXT#2f5b047986afae9f50266d800c4801f8",
+    "original": "Wilderness",
+    "translation": "荒野",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:FULL#28d1449c05446b754be89bf16a18be1a",
+    "original": "Vault 101 Maintenance Terminal",
+    "translation": "号避难所维生终端",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:DESC#fa5dfe1f3fa0984dd83bb9f74d215dd4",
+    "original": "Vault-Tec Inc. -  Vault 101\\nSettle in and stay a while!",
+    "translation": "避难所科技公司－101号避难所\\n尽管在这里定居吧！",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:ITXT#85045ac0098cc2113e3fd43cd51e55ff",
+    "original": "Run Water Chip Diagnostic",
+    "translation": "运行净水芯片诊断",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#a575a1e94de029a1a1656d5ef1d5bf1a",
+    "original": "All systems functional.",
+    "translation": "所有系统功能.",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#d21663fd5cb9b600f0b9fa524cc74cf9",
+    "original": "Systems disengaged for service.",
+    "translation": "系统脱离服务器.",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#48f25844bca6a6d3a059c8e9312f6359",
+    "original": "No water chip found. Contact distributor.",
+    "translation": "没有找到净水芯片。联系销售商。",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:ITXT#a4ace2db170e44e9ad5536d1a7715a21",
+    "original": "Begin Manual Service",
+    "translation": "开始手动服务",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#701af8db718699e9a22b6c0450347505",
+    "original": "Error: System cannot be disengaged.",
+    "translation": "错误：系统无法解除。",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:ITXT#56b327743eafea1f1a04f3ee18fdd14c",
+    "original": "End Manual Service",
+    "translation": "结束手动服务",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#828c24136b0616ae386e2d76672b8b6d",
+    "original": "System re-engaged. Enjoy your water!",
+    "translation": "系统重新连接。享受你的水吧！",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#631ff954f06c3b68df1a5368a5fd39c0",
+    "original": "Error: System cannot be re-engaged.",
+    "translation": "错误：系统不能重新连接。",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:ITXT#cf952ffec7e7082af469cc579c85a7ff",
+    "original": "Extract Water Chip",
+    "translation": "提取净水芯片",
+    "stage": 1
+  },
+  {
+    "key": "MS16WaterChipTerminalSub1_06025C68#TERM:RNAM#ef54e87763f80d94347525d9f8523eaf",
+    "original": "Water Chip extracted.",
+    "translation": "净水芯片已提取。",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:FULL#251e38714b1b079bf7cc475364f8fdd6",
+    "original": "Overseer's Terminal",
+    "translation": "监督的终端机",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:DESC#e199ab3843495a20f4900da1f4fa445c",
+    "original": "Welcome, Overseer.",
+    "translation": "欢迎，监督。",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:ITXT#b1a05bf31d0252710c4f2fe72d0b7331",
+    "original": "View External Contact Report",
+    "translation": "查看外部联系人报告",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:ITXT#97ed128f0ae616b8b78035db1d599eff",
+    "original": "View Security Dossiers",
+    "translation": "查看安保记录",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:ITXT#985c1336724bfbde6448661131ce7dfa",
+    "original": "View Scouting Reports",
+    "translation": "查看侦查报告",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:ITXT#96de38c1506fe97c4935989b4cd2c8f4",
+    "original": "Vault-Tec Instructions",
+    "translation": "避难所科技公司教学",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:ITXT#33bd1ed6d220ed43f4233fe15149f79f",
+    "original": "Open Overseer's Tunnel",
+    "translation": "开启监督者的通道",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:RNAM#30195eec899daab7a766a1056d6789eb",
+    "original": "Error in mechanism.",
+    "translation": "出错。",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:ITXT#590db1eeab5cecc83660c54fc1856728",
+    "original": "Close Overseer's Tunnel",
+    "translation": "关闭监督者的通道",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:RNAM#2bc41eb251fbfd54c463cfeb83971ede",
+    "original": "Closing...",
+    "translation": "关闭……",
+    "stage": 1
+  },
+  {
+    "key": "CG04OverseersTerminal_06029853#TERM:RNAM#71547f69ab49b577b4012c15c2423292",
+    "original": "Opening...",
+    "translation": "打开……",
+    "stage": 1
+  },
+  {
+    "key": "MQ06VaultTecTerminalSubMenuVault87Info_060209DC#TERM:FULL#5cbc3e9cff5825e009ddf14802286700",
+    "original": "Vault-Tec Terminal",
+    "translation": "避难所科技公司终端",
+    "stage": 1
+  },
+  {
+    "key": "MQ06VaultTecTerminalSubMenuVault87Info_060209DC#TERM:DESC#8a40bf6c2d17f019d4ec00b7db4cf091",
+    "original": "Vault 87 Information",
+    "translation": "号避难所信息",
+    "stage": 1
+  },
+  {
+    "key": "MQ06VaultTecTerminalSubMenuVault87Info_060209DC#TERM:ITXT#7f0e4cbbf7d23f95d5382e3ae5207ee9",
+    "original": "Equipment Issuances",
+    "translation": "设备发货",
+    "stage": 1
+  },
+  {
+    "key": "MQ06VaultTecTerminalSubMenuVault87Info_060209DC#TERM:ITXT#320e9bae928d75bb97fd6b270a6ea097",
+    "original": "Personnel Assignments",
+    "translation": "人员分配",
+    "stage": 1
+  },
+  {
+    "key": "MQ06VaultTecTerminalSubMenuVault87Info_060209DC#TERM:ITXT#dad8bcebcee890239e6c113f49f20355",
+    "original": "Project Goals",
+    "translation": "工程目标",
+    "stage": 1
+  },
+  {
+    "key": "VaultSuitUtilityDad_00079F09#ARMO:FULL#08efd2875d21f3fe370c3096edb11e5e",
+    "original": "James' Wasteland Outfit",
+    "translation": "詹姆斯的废土外套",
+    "stage": 1
+  },
+  {
+    "key": "conStartingGearCabinet_0E0B13B4#CONT:FULL#1489494e62ecd29bbd42d69fdaaa48f6",
+    "original": "Gear",
+    "translation": "装备",
+    "stage": 1
+  },
+  {
+    "key": "conAquaPuraBarrel_0E080F01#CONT:FULL#6c4febaab277dd84bbf3937211843e0b",
+    "original": "Aqua Pura Barrel",
+    "translation": "纯净水桶",
+    "stage": 1
+  },
+  {
+    "key": "CG04Vault101CaveDoor_06073E26#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "conStartDoor_0E049792#DOOR:FULL#2973beeaeff60c3ab18d4615b3d111d4",
+    "original": "Start Game",
+    "translation": "开始游戏",
+    "stage": 1
+  },
+  {
+    "key": "conWaterChip_0E06B5AB#MISC:FULL#e722e26f7ce6327dfa2516b362cda10b",
+    "original": "Vault 101 Water Chip",
+    "translation": "101避难所净水芯片",
+    "stage": 1
+  },
+  {
+    "key": "conEnclaveCodeFragment_0E08F53E#MISC:FULL#3c57c482b0d5bcdb20b369fa8affc0eb",
+    "original": "Enclave Code Fragment",
+    "translation": "英克雷代码碎片",
+    "stage": 1
+  },
+  {
+    "key": "MQ09FEVVial_0003BD33#MISC:FULL#4bb57c3c1028f630392f70028432926b",
+    "original": "Modified FEV Virus",
+    "translation": "改良的FEV病毒",
+    "stage": 1
+  },
+  {
+    "key": "MQ08GECK_0003D34D#MISC:FULL#6fd7d39e31e65072b3f6f9de47c12cf5",
+    "original": "G.E.C.K.",
+    "translation": "伊甸园创造器",
+    "stage": 1
+  },
+  {
+    "key": "DLC03TeslaCoil_000E29DE#MISC:FULL#62db806ba394bb2fa3b657884aa8fd69",
+    "original": "Tesla Coil",
+    "translation": "特斯拉线圈",
+    "stage": 1
+  },
+  {
+    "key": "FollowersButch10mmPistol_0601A334#WEAP:FULL#ad3d5956cf9c90aa56eabe0c6f0a07b8",
+    "original": "Butch's 10mm Pistol",
+    "translation": "布奇的10mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "DoctorLi_060156CC#NPC_:FULL#b6fbbd9abd718259f5ebe03ff528ad5e",
+    "original": "Doctor Li",
+    "translation": "李博士",
+    "stage": 1
+  },
+  {
+    "key": "ElderLyons_060156E4#NPC_:FULL#8b23dd11011b693bb032f3c229487207",
+    "original": "Elder Lyons",
+    "translation": "里昂斯长老",
+    "stage": 1
+  },
+  {
+    "key": "StarPaladinCross_060156E5#NPC_:FULL#b9b6ac349fc8f0c0c4cbe35ba2319833",
+    "original": "Star Paladin Cross",
+    "translation": "星骑士 克罗丝",
+    "stage": 1
+  },
+  {
+    "key": "ScribeRothchild_060156EA#NPC_:FULL#ab4419ff40dcc5894c0a2f7879721411",
+    "original": "Scribe Rothchild",
+    "translation": "文员罗斯查德",
+    "stage": 1
+  },
+  {
+    "key": "ScribeBowditch_060156EC#NPC_:FULL#1078e828762fa6e238663376e1d3d9dd",
+    "original": "Scribe Bowditch",
+    "translation": "文员鲍蒂奇",
+    "stage": 1
+  },
+  {
+    "key": "ScribePeabody_060156ED#NPC_:FULL#9d49dc4769432d6240ef1cf9e6e40eef",
+    "original": "Scribe Peabody",
+    "translation": "文员博迪",
+    "stage": 1
+  },
+  {
+    "key": "MQ01BoSGNNBattle_06018FAF#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "ColonelAutumn_06019A1F#NPC_:FULL#983380994c4fda54c5130742d7193dc9",
+    "original": "Colonel Autumn",
+    "translation": "奥托姆上校",
+    "stage": 1
+  },
+  {
+    "key": "MQDad_06019CEF#NPC_:FULL#e998d0056dd5815c72635bf8d71c5570",
+    "original": "James",
+    "translation": "詹姆斯",
+    "stage": 1
+  },
+  {
+    "key": "Stanley_0601CFD8#NPC_:FULL#4553427c19e147ebd8f4bae4f08795c1",
+    "original": "Stanley",
+    "translation": "斯坦利",
+    "stage": 1
+  },
+  {
+    "key": "PepperGomez_0601D02A#NPC_:FULL#cd0fe635afa7bef1a4a0492354ad5599",
+    "original": "Pepper Gomez",
+    "translation": "派派·戈麦斯",
+    "stage": 1
+  },
+  {
+    "key": "MQ01SarahLyons_0601D430#NPC_:FULL#a83eaeff50f1a6fbc5f2fbd30c2b9c6c",
+    "original": "Sentinel Lyons",
+    "translation": "莎拉·里昂斯",
+    "stage": 1
+  },
+  {
+    "key": "GNRKnightSergeantWilks_06025953#NPC_:FULL#d6b98f704904365f502111e94aa591bc",
+    "original": "Knight Sergeant Wilks",
+    "translation": "骑士长威尔克斯",
+    "stage": 1
+  },
+  {
+    "key": "GNRKnightFinley_06025954#NPC_:FULL#32aff27a6a42abe035d0c499f1a5ed99",
+    "original": "Knight Finley",
+    "translation": "骑士芬利",
+    "stage": 1
+  },
+  {
+    "key": "GNRKnightDillon_06025955#NPC_:FULL#4dba33c34d589d14ec2228e923109973",
+    "original": "Knight Dillon",
+    "translation": "骑士迪伦",
+    "stage": 1
+  },
+  {
+    "key": "EllenDeLoria_060273CB#NPC_:FULL#f82eb570a3ae8d99114c87149b474b64",
+    "original": "Ellen DeLoria",
+    "translation": "埃伦·德罗瑞",
+    "stage": 1
+  },
+  {
+    "key": "OldLadyPalmer_060309A6#NPC_:FULL#dd181986a021da5d197afb42e66ee2bf",
+    "original": "Old Lady Palmer",
+    "translation": "帕尔默大妈",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EnclaveOfficer_06039634#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EnclaveControlRoomGuard_0603A389#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EnclaveScriptedGuard_0603C182#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "MrBrotch_0603D347#NPC_:FULL#464edc12219a6d36d93b1ae3f6c86f9b",
+    "original": "Mr. Brotch",
+    "translation": "布洛彻先生",
+    "stage": 1
+  },
+  {
+    "key": "WallyMack_0604E894#NPC_:FULL#39a41ffacf2a060aeabf00de935842aa",
+    "original": "Wally Mack",
+    "translation": "瓦力·麦克",
+    "stage": 1
+  },
+  {
+    "key": "FreddieGomez_0604E896#NPC_:FULL#0079595e88ad01acc1a9a3e0bb4d7a26",
+    "original": "Freddie Gomez",
+    "translation": "弗雷迪·戈麦斯",
+    "stage": 1
+  },
+  {
+    "key": "ChristineKendall_0605157A#NPC_:FULL#853e527cdf73b1cf589568f620396f79",
+    "original": "Christine Kendall",
+    "translation": "克里斯廷·肯德尔",
+    "stage": 1
+  },
+  {
+    "key": "FFEnclaveEncampment03OfficerCorpse_0609634E#NPC_:FULL#daebef7e6fb03969b80772bad90936fd",
+    "original": "Dead Enclave Officer",
+    "translation": "死亡的英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "TaftBoSGuard_060B2995#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "DeadEnclaveCamp33Gun01_060C7D38#NPC_:FULL#93469c619add34b5e2c20c21a8df929b",
+    "original": "Dead Enclave Soldier",
+    "translation": "死亡的英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "DLC03WQ03BrotherGerard_09004C76#NPC_:FULL#c7753e5b8baf29ad237b64477342b2b9",
+    "original": "Brother Gerard",
+    "translation": "教友 杰拉德",
+    "stage": 1
+  },
+  {
+    "key": "DLC03WQ03MotherCurie_09004C77#NPC_:FULL#7dfb4f6507094c4025e154d7be19b8f2",
+    "original": "Mother Curie III",
+    "translation": "圣母 居里三世",
+    "stage": 1
+  },
+  {
+    "key": "DLC03LvlEnclaveSquad01Leader_090068C3#NPC_:FULL#ea5d0f68dc09356b4d572c1a2f04f348",
+    "original": "Enclave Sigma Leader",
+    "translation": "英克雷西格玛小队队长",
+    "stage": 1
+  },
+  {
+    "key": "DLC03GhoulWint_0900B39E#NPC_:FULL#78540cb6ee29ce8d542ce8ef01ed5770",
+    "original": "Wint",
+    "translation": "温特",
+    "stage": 1
+  },
+  {
+    "key": "DLC03GhoulKidd_0900B39F#NPC_:FULL#f46804633c0cfc4cf877895b60779751",
+    "original": "Kidd",
+    "translation": "基德",
+    "stage": 1
+  },
+  {
+    "key": "MQDadDEAD_0E082FDE#NPC_:FULL#e998d0056dd5815c72635bf8d71c5570",
+    "original": "James",
+    "translation": "詹姆斯",
+    "stage": 1
+  },
+  {
+    "key": "conRelayEnclaveBoss_0E086132#NPC_:FULL#a0fe6e210fb204eafac22ef16de813fd",
+    "original": "Enclave Commander",
+    "translation": "英克雷指挥官",
+    "stage": 1
+  },
+  {
+    "key": "TaftBoSGuard2_0E0BE96E#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "conPPEnclaveBoss_0E0CF04B#NPC_:FULL#fb964b7af95c8823c8a33578858c5ce4",
+    "original": "Enclave Squad Leader",
+    "translation": "英克雷小队队长",
+    "stage": 1
+  },
+  {
+    "key": "conEnclaveScientistFrag_0E0D112B#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "conButchDEAD_0E113D07#NPC_:FULL#797a58ad2e71d38aa0fcadab4ff9cd04",
+    "original": "Butch",
+    "translation": "布奇",
+    "stage": 1
+  },
+  {
+    "key": "RavenRockCrSentryBotMGEnclave_000AEC21#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "RavenRockCrSentryBotGLEnclave_000AEC22#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "RavenRockCrSentryBotMGEnclave02_000AF5E4#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "RavenRockCrSentryBotGLEnclave02_000AF5E5#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "DLC03PrimeSequenceTurret02EnclaveAlt_000E2C10#CREA:FULL#163000c9ac82e423284d93cad637c208",
+    "original": "Mark VI Turret",
+    "translation": "VI型炮塔",
+    "stage": 1
+  },
+  {
+    "key": "DLC03PrimeSequenceTurret02EnclaveHighHP_000E2C11#CREA:FULL#163000c9ac82e423284d93cad637c208",
+    "original": "Mark VI Turret",
+    "translation": "VI型炮塔",
+    "stage": 1
+  },
+  {
+    "key": "MQ01Behemoth_0601F1F8#CREA:FULL#8270fbb9edf7fa1997097bfc70fe96d1",
+    "original": "Super Mutant Behemoth",
+    "translation": "超级变种人巨兽",
+    "stage": 1
+  },
+  {
+    "key": "MQ09ControlRoomSentryBot_0603A387#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "MS16Andy_06074163#CREA:FULL#d559da9d916a34b2ce6923eafce5b316",
+    "original": "Andy",
+    "translation": "安迪",
+    "stage": 1
+  },
+  {
+    "key": "MQ09ControlRoomSentryBot2_060AB4A1#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "conFawkesDEAD_0E02FBAA#CREA:FULL#ce1bf70947f87f65657eb8da94bf2ece",
+    "original": "Fawkes",
+    "translation": "福克斯",
+    "stage": 1
+  },
+  {
+    "key": "OWDCEnclaveChimeraTank_0E1025C6#CREA:FULL#3efbe64bd3e527e7916f1baab01e2a71",
+    "original": "Chimera Tank",
+    "translation": "奇美拉坦克",
+    "stage": 1
+  },
+  {
+    "key": "conRocklandKey_0E07183A#KEYM:FULL#c4b547a316c191bbae1a9b76bbbdbcd5",
+    "original": "Rockland Car Tunnel Key",
+    "translation": "洛克兰汽车隧道钥匙",
+    "stage": 1
+  },
+  {
+    "key": "conPresidentialMetroKey_0E07183B#KEYM:FULL#4122492655e5b14658911dfbe28f4d9a",
+    "original": "Presidential Metro Key",
+    "translation": "总统专用地铁钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC03AquaPura_0900104F#ALCH:FULL#8fe7e6ec38c2aeb784b7223b0ad7b02b",
+    "original": "Aqua Pura",
+    "translation": "纯净水",
+    "stage": 1
+  },
+  {
+    "key": "CG04DadNote_060A6A47#NOTE:FULL#85baed520177d1a21aefe058fb4db633",
+    "original": "Shopping List",
+    "translation": "购物清单",
+    "stage": 1
+  },
+  {
+    "key": "CG04DadNote_060A6A47#NOTE:TNAM#77431c1eb6a340851e3db560c9325420",
+    "original": "-Don't forget the bloatfly smoothies",
+    "translation": "-别忘了辐射蝇奶昔",
+    "stage": 1
+  },
+  {
+    "key": "conPPurityCodeNote_0E081F70#NOTE:FULL#57f5b98126466e1832f92874eaf1d93a",
+    "original": "Project Purity Code",
+    "translation": "净化工程代码",
+    "stage": 1
+  },
+  {
+    "key": "conPPurityCodeNote_0E081F70#NOTE:TNAM#43c710c34d5f650416d77d583ef215e1",
+    "original": "725",
+    "translation": "725",
+    "stage": 1
+  },
+  {
+    "key": "conVault101Code_0E08404E#NOTE:FULL#d26c71f2e2d4c033ce4c110cbc2fb610",
+    "original": "Vault 101 Access Code",
+    "translation": "101避难所通行密码",
+    "stage": 1
+  },
+  {
+    "key": "conVault101Code_0E08404E#NOTE:TNAM#46fea9e1b9f2d3aff507cf08dcc34f3a",
+    "original": "Amata",
+    "translation": "阿玛塔",
+    "stage": 1
+  },
+  {
+    "key": "conRavenRockCode_0E08F540#NOTE:FULL#4640510f35a2b97588b0bb009b0db68b",
+    "original": "Raven Rock Passcode",
+    "translation": "黑鸦领密码",
+    "stage": 1
+  },
+  {
+    "key": "MQ01MoriartyDadInfo_0603CA2B#NOTE:FULL#1ce6b15543edce6a42af2df0a547cc38",
+    "original": "Moriarty's Info on James",
+    "translation": "莫里亚蒂关于詹姆斯的信息",
+    "stage": 1
+  },
+  {
+    "key": "MQ01MoriartyDadInfo_0603CA2B#NOTE:TNAM#bb9e55cbf0220e64c55bb0d76f04382a",
+    "original": "So, out of nowhere, James came back to Megaton. Since he stayed here before he asked me where the hell he could get a lay of the land and find out what's going on in the world. I told him about Galaxy News Radio in the ruins of D.C., and that guy Three Dog. Then like that, he was gone again.\\n\\nI remember the first time he showed up almost twenty years ago. I never expected someone to actually want to or be able to get INTO a vault, but he must have had his reasons. He had his kid with him, some baby that wouldn't shut the fuck up. Normally I would have kicked someone like that out of my place, but he had a way with words. Then, like that, he ducks into Vault 101 and he's gone for almost twenty years. Nice guy I guess, but never spends enough caps.",
+    "translation": "那么，反正不知道从哪，詹姆斯回到了核弹镇。在他呆在这里的时候，他问我在哪儿他能得到形势情报，了解这个世界到底发生了什么。我告诉了他有关在华盛顿特区废墟中的银河新闻电台，还有那个叫三狗的家伙，然后就像人们所说的那样，他又离开了。\\n\\n我还记得他第一次出现是在20年前，我从不期望有人会真正愿意且能够进入避难所，但他之所以要去，肯定有他自己的理由。他带着自己的孩子，非常吵闹的孩子。一般来说我会把他们踢出我的地盘，但他能言善辩。然后嘛，他进入了101号避难所并失踪了20年。不错的家伙，可他从来不付足瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01MoriartyBurkeInfo_0606CB48#NOTE:FULL#20785b346af38f5457c641477184fcfa",
+    "original": "Moriarty's Info on Burke",
+    "translation": "莫里亚蒂关于伯克的信息",
+    "stage": 1
+  },
+  {
+    "key": "MQ01MoriartyBurkeInfo_0606CB48#NOTE:TNAM#db12814e2c8d1144b16358031e5a8c0b",
+    "original": "This guy is a class A weirdo. One day I'm wiping down the bar and the fucker comes from out of nowhere... I didn't even hear the door open. He tells me he's here to wait for some sort of an opportunist to come through. Whatever. As long as he pays for his drinks, he can stay here until that damn bomb explodes in the center of town for all I care.",
+    "translation": "这个家伙是A级别的怪人。有一天我在擦拭我的吧台时，突然那个可恶的家伙不知道从那里进来了……我甚至没听到开门声。他告诉我，他在这里是为了等待什么什么机会的到来。不管如何，只要他为自己的酒水付钱，就可以在这里呆着，直到那个该死的炸弹在镇中心爆炸。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0603E536#INFO:NAM1#c3a35ca29361179355825e41db2b238a",
+    "original": "We've been looking for you. Someone's put quite a price on your head.",
+    "translation": "我们正在找你，有人花大价钱买你的脑袋。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0603E536#INFO:NAM1#20099c46eb83ebeb54b15a46e5d4ea3e",
+    "original": "What? You think you can walk around the Wasteland doing the evil that you do and there isn't going to be someone who takes notice?",
+    "translation": "什么？你觉得你能在废土到处游荡，干了什么而不被别人注意？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0603E536#INFO:NAM1#f1fe6379112a5f9f72ff3e128f2694e7",
+    "original": "And now it's time for you to die.",
+    "translation": "现在就是你的死期。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0605CF14#INFO:NAM1#c3a35ca29361179355825e41db2b238a",
+    "original": "We've been looking for you. Someone's put quite a price on your head.",
+    "translation": "我们一直在找你。有人出了大价钱要你的脑袋。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0605CF14#INFO:NAM1#14434b227d568e81d5e95b64d09969d3",
+    "original": "What? You think you can walk around the Wasteland doing the things that you do and there isn't going to be someone who takes notice?",
+    "translation": "什么？你觉得你能在废土到处游荡，干了什么而不被别人注意？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0605CF14#INFO:NAM1#730da88b68e475ded93f368ce420e6eb",
+    "original": "Such a shame. I hear that you could have been something useful. Ah well. Time to die.",
+    "translation": "遗憾。我听说你还有点用。好吧，你该去死了。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06046BAA#INFO:NAM1#fe5a42a6cbb9e9af6cf7fa2e29d26f5a",
+    "original": "Hold it right there.",
+    "translation": "站那儿别动。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06046BAA#INFO:NAM1#6f5ed903102f00ce2bb0e0d1ae088cbc",
+    "original": "State your business in Rivet City.",
+    "translation": "陈述你进入铆钉城的事由。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06014F7E#INFO:NAM1#d36f6bddb7214d3bfa8cefa02065f34c",
+    "original": "Please be seated in the nearest available Tranquility Lounger. Thank you for your cooperation.",
+    "translation": "请就座于附近空置的宁静巷催眠舱上。谢谢你的合作。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296A#INFO:NAM1#56879a21cbedbb0a8298c5c23843d82b",
+    "original": "Please take a seat in the Tranquility Lounger.",
+    "translation": "请找个宁静巷催眠舱就座。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296B#INFO:NAM1#dab71bbb5a61bc392e908e1881fde99f",
+    "original": "Welcome to Vault 112, Resident! According to sensors, you have arrived 202.3 years behind schedule.",
+    "translation": "欢迎来到112号避难所，居民！根据传感器，你比预计到达时间晚到了202. 3年。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296B#INFO:NAM1#d326522306ca07d4fe2639ea0a0bf8a3",
+    "original": "Please re-dress in your Vault-Tec issued Vault suit before proceeding.",
+    "translation": "行动前请重新穿戴你的基于避难所科技的避难所服装",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296B#INFO:NAM1#8a59f558923becc9cf6ce6e7273e4741",
+    "original": "Once dressed, please proceed down the stairs to the main floor so that you may enter your assigned Tranquility Lounger.",
+    "translation": "穿戴完毕后，请由台阶下至主楼层，以便你进入分配给你的宁静巷催眠舱。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296C#INFO:NAM1#4e5f05e938a733e47cb34e0a3fda5f21",
+    "original": "Please dress in your Vault 112 suit. Remove all other articles of clothing to prevent damage to the equipment.",
+    "translation": "请穿上你的112号避难所服装。脱掉所有其他服饰物品以免阻碍与损坏设备。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296C#INFO:NAM1#bf87ef15780729a8b5580257db681e1d",
+    "original": "Thank you for your cooperation.",
+    "translation": "谢谢您的合作。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296D#INFO:NAM1#4e5f05e938a733e47cb34e0a3fda5f21",
+    "original": "Please dress in your Vault 112 suit. Remove all other articles of clothing to prevent damage to the equipment.",
+    "translation": "请穿上你的112号避难所服装。脱掉所有其他服饰物品以免阻碍与损坏设备。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609296D#INFO:NAM1#bf87ef15780729a8b5580257db681e1d",
+    "original": "Thank you for your cooperation.",
+    "translation": "谢谢您的合作。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609934A#INFO:NAM1#1e2ffb344548430f480bb5167a1e90fe",
+    "original": "The look on your face says it all. You're wondering who the heck this guy is and why you should care. Well, prepare to be enlightened.",
+    "translation": "你的表情已经告诉了我一切。你想知道这家伙到底是谁，有什么大不了的。那就准备好洗耳恭听吧。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0609934A#INFO:NAM1#579e3999a53bfbe3e2e84a4c21b03840",
+    "original": "I am Three Dog -- jockey of discs and teller of truths. Lord and master over the finest radio station to grace the Wastes -- Galaxy News Radio.",
+    "translation": "我是三狗 — 节目主持人和真理传达者。庇护废土的最好的电台 — 银河新闻电台的上帝、真主。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06031EC0#INFO:NAM1#fbed7d7a422719ef68f1d4ee1686e11f",
+    "original": "Hey, I hear you're that stray from the Vault! I haven't seen one of you for years!",
+    "translation": "嗨，我听说你从避难所逃出来！我好多年没见过你这样的了！",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06031EC0#INFO:NAM1#a1a215e8beff7182d8b91f51bd7b64c7",
+    "original": "Good to meet you! I'm Moira Brown. I run Craterside Supply, but what I really do is mostly tinkering and research.",
+    "translation": "很高兴见到你！我是莫伊拉·布朗，经营坑边补给点，但我真正从事的是熔补和研究。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06031EC0#INFO:NAM1#6c469463d20c81bf2c48bfd0a1cbf51e",
+    "original": "Say, I'm working on a book about the Wasteland -- it'd be great to have the foreword by a vault dweller. Help me out, would you?",
+    "translation": "看，我在写一本废土的书 — 能有一个避难所居民的序言不是很棒吗？帮帮我行吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060B1823#INFO:NAM1#6a3a1c423f8da6575ad4fc23fdfb85ea",
+    "original": "Hey, new in town? Good to meet you! I'm Moira Brown. I take care of supplies and repairs here, but what I really do is mostly tinkering and research.",
+    "translation": "嗨，刚来镇里的？很高兴认识你！我是莫伊拉·布朗，负责这的供给和修理，但我真正从事的是熔补和研究。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060B1823#INFO:NAM1#f7b9f44cbcd44c40484823f60ebf7428",
+    "original": "Actually, right now I'm working on a book to help the world. And I could use a bit of help. I can pay you, and it'll be fun!",
+    "translation": "事实上，我在写本拯救世界的书。我需要些帮助，我可以给你点报酬，而工作会很有趣！",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0604839E#INFO:NAM1#74c04d79c905a21d0601a2b2e7c53fc8",
+    "original": "Look, this is a restricted area. I'm tired of telling you people...",
+    "translation": "听着，这是限制区。我厌倦了告诉你们这些人……...",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0604839E#INFO:NAM1#f3db55b19d20ab793c67e6c637cb8737",
+    "original": "I... It's you. My heavens, you look so much like him...",
+    "translation": "我……是你。我的天，你看起来真像他……...",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0604839E#INFO:NAM1#e7db16febdff596aff4a1c1034de47d3",
+    "original": "You're James' son, aren't you? What are you doing here?",
+    "translation": "你是詹姆斯的孩子，对吧？你在这干嘛？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060426FC#INFO:NAM1#74c04d79c905a21d0601a2b2e7c53fc8",
+    "original": "Look, this is a restricted area. I'm tired of telling you people...",
+    "translation": "听着，这是限制区。我厌倦了告诉你们这些人……...",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060426FC#INFO:NAM1#f3db55b19d20ab793c67e6c637cb8737",
+    "original": "I... It's you. My heavens, you look so much like him...",
+    "translation": "我……是你。我的天，你看起来真像他……...",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060426FC#INFO:NAM1#32d5cad32fa93e05cc8d090e6200b1d1",
+    "original": "You're James' daughter, aren't you? What are you doing here?",
+    "translation": "你是詹姆斯的女儿，对吧？你在这干嘛？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0601E097#INFO:NAM1#27e40839bb270b068438698939c2ee04",
+    "original": "Oh, look. Another one of your pampered vault assholes. Look here, vault asshole -- I don't like you. Stay clear of me and we'll have no trouble.",
+    "translation": "哦，看。又是个暴饮暴食的避难所混蛋。听好，避难所混蛋 — 我不喜欢你。离我远点，我们就不会有麻烦。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060B7377#INFO:NAM1#b59b192ee36b415495382b865d2343b8",
+    "original": "Hail to you, son of James.",
+    "translation": "你好啊，詹姆斯的儿子。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060B7378#INFO:NAM1#76a6437d383a6d934bdd0651684466d4",
+    "original": "Hail to you, daughter of James.",
+    "translation": "你好啊，詹姆斯的女儿。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060B7379#INFO:NAM1#a45b442955508d51a446d77e760ed8d6",
+    "original": "Ah, it's good to see you again.",
+    "translation": "啊，很高兴再次见到你。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06019491#INFO:NAM1#349f0589bcb3b234608c7bec9b9b395e",
+    "original": "Glad to see you and that egghead Li made it here in one piece. I heard what happened at that purifier. Hell of thing.",
+    "translation": "很高兴见到你和书呆子李安全到了这。我听说净化器那的事。真是见鬼。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06019492#INFO:NAM1#806fb3097a95c344dc71c02b25f19355",
+    "original": "Hail. Name's Greg -- Greg Bear. Most of the guys just call me Kodiak.",
+    "translation": "你好。我叫格雷格 — 格雷·贝尔。大多数人都叫我科迪亚克。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_060194A5#INFO:NAM1#314ac10d20c618458c42d44074099b0a",
+    "original": "Hail, outsider. I am Scribe Jameson.",
+    "translation": "你好，外来人。我是文员詹姆森。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0608A6D1#INFO:NAM1#f1472900b9263472856d027e6550dc19",
+    "original": "Hail to you. By the traction of hospitality and on the word of Elder Lyons, I welcome you to the Citadel.",
+    "translation": "你好。由于盛情的吸引和里昂斯长老的话，我欢迎你来到五角大本营。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0608A6D1#INFO:NAM1#e24634ab92bd0a7dbc1b7b28ff8879ad",
+    "original": "I am Star Paladin Cross, Keeper of the ARM, and Seneschal to Elder Lyons.",
+    "translation": "我是星骑士 克罗丝，装甲管理员，里昂斯长老手下的总管。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0E0FC329#INFO:NAM1#4190752ae471a6d1ff22454ee59c1f65",
+    "original": "May Atom light your path, traveler.",
+    "translation": "愿原子为你指引前路，旅行者。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0606EC61#INFO:NAM1#1ab335c076d37c091c2499a7b62ef8f5",
+    "original": "Keep your shirt on. I'm not opening the door until the commander gives the all clear.",
+    "translation": "沉住气。等指挥官说平安无事后我才能开门。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_001057E8#INFO:NAM1#aed629e2bd683c936f11ce5df7cb10cd",
+    "original": "Here. These are yours. Was all you had on you when you was brought in.",
+    "translation": "给你。这些都是你的。你被送进来的时候，身上就带着这些东西。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_001057E8#INFO:NAM1#f64d4c07a41b3e770c78044b9178d04f",
+    "original": "I hope you don't mind but I gave the note a look. I thought it might help me find a next of kin. But it was just something about a platinum chip.",
+    "translation": "我看了一眼你的笔记，希望你别介意。我本来是想看看你有没有什么亲友，但上面只写了一则关于什么白金筹码的事。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_000000D2#DIAL:FULL#a668d9cd6c3d9b72b7b6152f5217bd2e",
+    "original": "HELLO",
+    "translation": "你好。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_0E0D4279#INFO:NAM1#4ad0d3faf1411a1e4b6d2187f5c23b4d",
+    "original": "Watch your step.",
+    "translation": "注意脚下。",
+    "stage": 1
+  },
+  {
+    "key": "SpeechChallengeFailure_0603E5BB#INFO:NAM1#607b191c2e89eb9ad3c9bf103eb936fe",
+    "original": "[FAILED] If you want help from Galaxy News, you need to contribute to Galaxy News. That's all there is to it.",
+    "translation": "[失败]假如你需要银河新闻伸出援手，你就需要对它有贡献。仅此而已。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyComeInSpeechChallenge_00003132#DIAL:FULL#22ae27ffd628d9aa97aba7083f817167",
+    "original": "Oh, come on. I'm a nice guy, really. May I please come in?",
+    "translation": "哦，拜托。我是个好人，真的。我能进去吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyComeInSpeechChallenge_06003136#INFO:NAM1#eeee6232839e15125d9e8a2596dea5b9",
+    "original": "Well, okay. But you better not be lying, or else we'll shoot you.",
+    "translation": "好吧。你最好别撒谎，不然我们把你射成马蜂窝。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyComeInSpeechChallenge_06003136#INFO:RNAM#22ae27ffd628d9aa97aba7083f817167",
+    "original": "Oh, come on. I'm a nice guy, really. May I please come in?",
+    "translation": "哦，拜托。我是个好人，真的。我能进去吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyComeInSpeechChallenge_060BE4F8#INFO:NAM1#eeee6232839e15125d9e8a2596dea5b9",
+    "original": "Well, okay. But you better not be lying, or else we'll shoot you.",
+    "translation": "好吧。你最好别撒谎，不然我们把你射成马蜂窝。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyComeInSpeechChallenge_060BE4F8#INFO:RNAM#491e56b1d679942807d1f9cd5fb6c2a2",
+    "original": "Oh, come on. I'm a nice gal, really. May I please come in?",
+    "translation": "哦，拜托。我是个好人，真的。我能进去吗？",
+    "stage": 1
+  },
+  {
+    "key": "MegGobGreeting1_0001DCF8#DIAL:FULL#c14d678000e2c82079f5c54c58f2c8ff",
+    "original": "Gah! Fuck! What are you?",
+    "translation": "嗷！他妈的！你是什么东西？",
+    "stage": 1
+  },
+  {
+    "key": "MegGobGreeting1_0601DD19#INFO:NAM1#dda5dea16039098c1fc0935c47b7cc72",
+    "original": "I guess they don't have a lot of Ghouls in the Vault.",
+    "translation": "我猜在避难所中并没有太多僵尸。",
+    "stage": 1
+  },
+  {
+    "key": "MegJerichoPersuade2_0001E080#DIAL:FULL#7353d6a5df6af920bb206382b2d0a9f4",
+    "original": "Whatever your problem is, I suggest you get over it. Now.",
+    "translation": "不管你遇到什么问题，我希望现在你都能克服它。",
+    "stage": 1
+  },
+  {
+    "key": "MegJerichoPersuade2_0601E08A#INFO:NAM1#24541b2e9fae10232f355033e973eee7",
+    "original": "Well, now. That's something I didn't expect.",
+    "translation": "好吧，那并不在我预料中。",
+    "stage": 1
+  },
+  {
+    "key": "MegJerichoPersuade2_0601E08A#INFO:NAM1#4202f30f67a111d207bbcd800de38e2a",
+    "original": "Maybe I had you wrong, kid. You're okay. Now, what did you want to know?",
+    "translation": "或许我是错怪你了，孩子。你是个好人。现在，你想知道什么？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtLooker_0001EF4A#DIAL:FULL#760877631b88f0c4b875e14d6e93598c",
+    "original": "I bet you like to look at butts, don't you?",
+    "translation": "你很喜欢盯着别人的屁股看，对吧？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtLooker_0601F0CB#INFO:NAM1#e06a17ea27827dd5d2a41c8c5323d6f7",
+    "original": "Ha ha ha!",
+    "translation": "哈！哈！哈！",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtLooker_0601F0CB#INFO:NAM1#da15669b41e9e35d1a1787ee0263bd90",
+    "original": "You're all right for a mungo, you know that?",
+    "translation": "你这个毛人还不错，你知道吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtLooker_0601F0CB#INFO:NAM1#e8d8aaf1bf9ce3dd687a5b4db43d43fd",
+    "original": "Why don't you come in. I think we can trust you.",
+    "translation": "为什么你不进来呢，我想我们能信任你了。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtMom_0001EF50#DIAL:FULL#ce576ca4ce546c4e7ae0efe4f881465c",
+    "original": "Yeah, your mom sure likes it.",
+    "translation": "嗯，你妈妈一定会喜欢。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtMom_0601F0C6#INFO:NAM1#e06a17ea27827dd5d2a41c8c5323d6f7",
+    "original": "Ha ha ha!",
+    "translation": "哈！哈！哈！",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtMom_0601F0C6#INFO:NAM1#b4a6c18ff2e8e4c04d37ac723ea4d740",
+    "original": "You're pretty funny for a mungo.",
+    "translation": "你是个非常有趣的毛人。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtMom_0601F0C6#INFO:NAM1#4c1d4a0be38ec6a055c84d6cfd8fbf11",
+    "original": "Why don't you come on in?",
+    "translation": "为什么你不进来呢？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyButtMom_0601F0C6#INFO:RNAM#40a395d3c9539e74471712d6cf805b2d",
+    "original": "Yeah, well at least it doesn't smell as bad as you do.",
+    "translation": "没错，起码它比你好闻多了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT03_0002415F#DIAL:FULL#9e16750fa5e50b4e7377f570dba5afd1",
+    "original": "This is starting to sound risky.",
+    "translation": "这听起来挺冒险，但无论如何我也要找到我的父亲。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT03_06024172#INFO:NAM1#4fa6e3d4b808aceb32c60ddc38c2ded7",
+    "original": "It IS risky. I would never lie to you.",
+    "translation": "这很危险，我不骗你。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT03_06024172#INFO:NAM1#b4c1f417909b1ef7616cd722b64ae968",
+    "original": "But there's something behind those eyes of yours that screams \"I'm the one who can get shit done\"!",
+    "translation": "但从你眼中我能看到一个声音“只有我能做到\"!",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT03_06024172#INFO:RNAM#9e16750fa5e50b4e7377f570dba5afd1",
+    "original": "This is starting to sound risky.",
+    "translation": "这听起来挺冒险，但无论如何我也要找到我的父亲。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT03_060BC71A#INFO:NAM1#4fa6e3d4b808aceb32c60ddc38c2ded7",
+    "original": "It IS risky. I would never lie to you.",
+    "translation": "这很危险，我不骗你。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT03_060BC71A#INFO:NAM1#f70c4591fb0033077ce01be2ec469aba",
+    "original": "But there's something behind those eyes of yours that screams \"I'm the one that can get shit done\"!",
+    "translation": "但从你眼中我能看到一个声音“只有我能做到！”",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskTell_00024164#DIAL:FULL#15a4e8bc694bfed872004155bbb65a59",
+    "original": "I'm ready for anything.",
+    "translation": "为了找我父亲，我什么都可以做。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskTell_06024176#INFO:NAM1#881d6f17fe64a8d9f15e05a531bb0ac8",
+    "original": "Good, 'cause this isn't going to be easy.",
+    "translation": "很好，因为这事将会很难。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskTell_06024176#INFO:NAM1#11ef008517ac2a1b3087c8c424a92af0",
+    "original": "Galaxy News Radio is my baby. I love it, I feed it, I keep it changed. But there's one problem, no one outside of D.C. can hear her cry.",
+    "translation": "银河新闻电台是我的宝贝。我热爱它，哺育它，并不断革新。可是有个问题是，在首都特区外没人能够听见她的呼唤。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskTell_06024176#INFO:NAM1#a110622ff0d5977ce10d9a47ae51297d",
+    "original": "You see, some brainless Super Mutant thought it would be funny to shoot at the shiny round thing on the Washington Monument.",
+    "translation": "你瞧，一些蠢货超级变种人觉得向华盛顿纪念碑上面的闪光处射击是件好玩的事情。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskTell_06024176#INFO:RNAM#15a4e8bc694bfed872004155bbb65a59",
+    "original": "I'm ready for anything.",
+    "translation": "为了找我父亲，我什么都可以做。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogDad_0002416C#DIAL:FULL#98408346d7479804487d29133d089e10",
+    "original": "If you know anything that can help me, please just tell me...",
+    "translation": "如果你知道任何能帮我的忙的方法，请一定要告诉我...",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogDad_06024178#INFO:NAM1#5e662bf43c12e7af6daa20b4d6eb2f90",
+    "original": "I hear things all the time. Most things aren't useful, but once and a while something will sneak up behind your girl and lift her dress.",
+    "translation": "我这消息多到泛滥。大多数时候都用不着，不过像推倒女孩这种关键时刻还总能派上用场。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogDad_06024178#INFO:NAM1#2d2ab969fa3ce679e4f178342e59d485",
+    "original": "Consider this your lucky day. I just so happen to know the location of an old military weapons cache untouched by time.",
+    "translation": "今天是个好日子，刚刚我很开心地得知一个保存完好的军火库的位置。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogDad_06024178#INFO:NAM1#05fe5ccaf4ad5077955cfd82b615bb7a",
+    "original": "If you want to know more, you're going to have to contribute to the Good Fight.",
+    "translation": "如果你还想知道细节，你就得为圣战服务。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogDad_06024178#INFO:RNAM#bf029ac37cdc1a667d305c119994892a",
+    "original": "If you know anything that can help me, I'd appreciate it.",
+    "translation": "如果你知道任何有用的消息，我将不胜感激。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03_0002416E#DIAL:FULL#c969f72386b0262931bad83dc6cc8634",
+    "original": "Wait, why do you trust me so easily? I've never met you before.",
+    "translation": "等等,为什么你这么轻易就信我的？我们不认识吧。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03_0602417B#INFO:NAM1#3c5e317019dc3d1e657e2aed1d2e3f42",
+    "original": "You're giving off a pretty sweet vibe right now. Maybe we can help each other out.",
+    "translation": "我觉得我们比较投缘。或许我们能相互帮帮忙。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03_0602417B#INFO:NAM1#ec96434cb55866b98dcb8ddff0a751da",
+    "original": "But enough yakkin'. Tell me why we're talking.",
+    "translation": "闲话说得差不多了，你找我什么事。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT01_00024170#DIAL:FULL#7f396f563fa0a9961042f5e90c8cc872",
+    "original": "You know my father? Is he here? Please, I've been looking for him!",
+    "translation": "你知道我的父亲？他在这吗？求你，我一直在找他！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT01_0602417A#INFO:NAM1#24570403b33c691e77996371ffe9af32",
+    "original": "Hey, hey. One thing at a time. Nah, your old man ain't here. Not anymore.",
+    "translation": "嗨，嗨。慢慢来。呐，你爸爸现在已经不在这了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT01_0602417A#INFO:NAM1#f4744d8c88dd8959d9e2f56b82656e1b",
+    "original": "He heard ole Three Dog on the radio, figured I knew what was what out here in the Capital Wasteland. And he was right. So I filled the old man in.",
+    "translation": "他听到了三狗的电台，还发现三狗是这片废土的万事通。他是对的。所以我让这个老头进来了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT01_0602417A#INFO:NAM1#07d6c6a3a4a121c594a50c2bf761528a",
+    "original": "But he split. Looks like I've got my way of contributing to the Good Fight... and he's got his own.",
+    "translation": "但是他离开了。对圣战我有我的贡献方式……而他有他的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TLTellMeAboutDad_0002444C#DIAL:FULL#63cdadc290c0422db46e3f1874e508ba",
+    "original": "Well, yeah! Where's my Dad gone?",
+    "translation": "嗯，耶！我父亲去哪了？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TLTellMeAboutDad_0602445E#INFO:NAM1#f19c7c862bd5fe3e1134b800a0ee2645",
+    "original": "When your dad passed through here, he and I talked for a good long time. He's a real stand-up kind of guy.",
+    "translation": "当你父亲路过这的时候，我们聊了很长时间。他的确是个伟大的人。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TLTellMeAboutDad_0602445E#INFO:NAM1#c4f48c94045e1c9fbf3747ef8c4cc9f1",
+    "original": "He mentioned some scientific mumbo-jumbo which didn't make sense to me and mentioned something called \"Project Purity\".",
+    "translation": "他提到的一些我完全不懂的科学术语并提到了某种叫“净化工程”的计划。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TLTellMeAboutDad_0602445E#INFO:NAM1#7f0dc1b85f3993c8c9a9c953415ea9d0",
+    "original": "He also said something about going to visit a Doctor Li in Rivet City. Then, he left in a hurry.",
+    "translation": "他还说要去铆钉城拜访李博士，之后便匆忙走了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT04_0002444D#DIAL:FULL#bf7692ea73f6fb3e2c4d37d861152c9c",
+    "original": "Then Rivet City is where I'm headed. Goodbye, Three Dog.",
+    "translation": "铆钉城就是我迟点要去的地方。再见，三狗。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT04_0602445C#INFO:NAM1#46bcb2858a043c501af8232b6e8abeba",
+    "original": "Goodbye. Remember to keep us tuned in while you're out there, and watch yourself.",
+    "translation": "再见。到那里后记得调好频率和我们保持联系，还有照顾好自己。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT03_0002444E#DIAL:FULL#91e03c4b436f16cafc1f180c9129693a",
+    "original": "Rivet City? Where's that?",
+    "translation": "铆钉城？在什么地方？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT03_06024460#INFO:NAM1#362a4b6de61612a0d1682926326ad0b6",
+    "original": "You've never heard of Rivet City? Wow. Just... wow.",
+    "translation": "你没听说过铆钉城？哇。真是……哇。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT03_06024460#INFO:NAM1#172d91e5141e530a3fb27f6073fa0374",
+    "original": "Well, a whole bunch of people got together and turned a beached aircraft carrier into a town. Pretty cool, huh?",
+    "translation": "嗯，一群人合力把一艘搁浅的航母改造成了一座城镇。真酷，呃？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT03_06024460#INFO:NAM1#8ca5c8d3592edebc3cbf1e49a689bef1",
+    "original": "Just follow the river south from here... there's no way you can miss it.",
+    "translation": "只要沿着这河往南走……你不会错过的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT02_0002444F#DIAL:FULL#fafce8273601559b4f5c9e96e215a878",
+    "original": "Yeah, yeah. It was the thrill of a freakin' lifetime.",
+    "translation": "嗯，嗯。这种怪生活让你太激动了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT02_06058FAB#INFO:NAM1#a877a814969d133bb75d36bdd6f8cc85",
+    "original": "Smoke a peace pipe, man.",
+    "translation": "抽口烟，兄弟。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT02_06058FAB#INFO:NAM1#c1e0752651bdcdc521e0d0b3cedbf410",
+    "original": "I suppose that's what you wanna know about that military weapons cache next?",
+    "translation": "我猜你接下来想知道的就是军火藏在哪儿吧？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT02_060BC719#INFO:NAM1#853c3c3d4a07ef0f8fa3bbc38d4df8fe",
+    "original": "Smoke a peace pipe, man. You know, you are so unlike your father...",
+    "translation": "抽口烟，兄弟。你瞧，你和你父亲一点都不像……...",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT02_060BC719#INFO:NAM1#19808928a65dbcfc510f3e19b1c3367d",
+    "original": "I suppose that's what you wanna know next?",
+    "translation": "我猜这就是你接下来想知道的？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01_00024450#DIAL:FULL#8ee5da25f403ef50cbd46506011ccbdd",
+    "original": "Thanks, Three Dog. I was just glad to help with the Good Fight.",
+    "translation": "谢谢你，三狗。很高兴可以帮助圣战。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01_06058FAD#INFO:NAM1#d72d05f3cf3cfa2c239b2d927aa3b4ec",
+    "original": "Hey, you're the one who deserves all the thanks! You struck a major blow against tyranny!",
+    "translation": "嗨，你才是那个应该被感谢的人！你给了暴政致命一击！",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01_06058FAD#INFO:NAM1#dc6fef3e3d47ee29954c46bf4ae672ce",
+    "original": "Now GNR can be heard clear across the Capital Wasteland again. That'll give Eden and those Muties something to think about.",
+    "translation": "现在银河新闻电台又一次响彻废土上空，伊登总统和那些变种人终于有机会用用他们的脑子了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01_06058FAD#INFO:NAM1#04bdffe91550dae4748cef3bc54c39fd",
+    "original": "But before I get back to my calling, I bet you wanna hear about that military weapons cache.",
+    "translation": "在我继续广播之前，我打赌你想听听关于那隐藏军火库的事。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT04_00026185#DIAL:FULL#2c964587841b343bf20f2a48d13170d6",
+    "original": "Super Mutants? Blowing things up? This sounds out of my league.",
+    "translation": "超级变种人？爆破？听起来已经超出我的能力范围。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT04_06026186#INFO:NAM1#594862c67c1230c7e788ba94b1c11ed9",
+    "original": "Hey, I understand this isn't easy. I mean, most people would be crazy to even try what I'm about to propose.",
+    "translation": "嗨，我明白这不容易。我的意思是几乎所有人听到我的计划都会感到抓狂。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT04_06026186#INFO:NAM1#b4c1f417909b1ef7616cd722b64ae968",
+    "original": "But there's something behind those eyes of yours that screams \"I'm the one who can get shit done\"!",
+    "translation": "但从你眼中我能看到一个声音“只有我能做到\"!",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_00037084#DIAL:FULL#1ea4c0b10fc2430b996d0ae879404aa3",
+    "original": "I think we should travel together.",
+    "translation": "我觉得我们应该同行。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_0606271F#INFO:NAM1#d7eae4298f7d91661ab6812affeba919",
+    "original": "It is regrettable, but I cannot follow one such as you. Restore your good name, and perhaps I shall reconsider.",
+    "translation": "虽然这很抱歉，但我不会听从你这样的人的指挥。如果你恢复了名誉，或许我会重新考虑。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_0606271F#INFO:RNAM#2ad8fa642aa1df5c5764f2fe3b04c14c",
+    "original": "I would like your assistance once again, Paladin Cross.",
+    "translation": "星骑士克罗丝，我需要你的帮助。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_06054E60#INFO:NAM1#cc3df75ed0b8030931b89833bb2501be",
+    "original": "It is my sincere wish to join you, but so long as you travel with one who is not of the Brotherhood, I simply cannot risk myself.",
+    "translation": "我非常期望能加入你的队伍，但只要你和一名非兄弟会的成员在一起，我就不会加入。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_06054E60#INFO:RNAM#2ad8fa642aa1df5c5764f2fe3b04c14c",
+    "original": "I would like your assistance once again, Paladin Cross.",
+    "translation": "星骑士克罗丝，我需要你的帮助。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_0607FDCE#INFO:NAM1#d18c3a1281f82bc922dc49d4bc2e0020",
+    "original": "And it is my duty to offer it, as I have sworn. I shall follow and protect you.",
+    "translation": "正如我之前宣誓时所说，我会履行自己的义务。我会跟随并保护你。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_0607FDCE#INFO:RNAM#2ad8fa642aa1df5c5764f2fe3b04c14c",
+    "original": "I would like your assistance once again, Paladin Cross.",
+    "translation": "星骑士克罗丝，我需要你的帮助。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D4#INFO:NAM1#1b3682cb42b9af86103e0d487ff24163",
+    "original": "It's nice to meet you, too. Did you come from the vault? I heard there's monsters down there.",
+    "translation": "我也很高兴见到你。你是从避难所来的？我听说那有怪物。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D4#INFO:NAM1#8f656c9f1546396db00e45260b98ed51",
+    "original": "Eclair told me once, one of them, they got him and bit him right in the face and that's why he's only got one eye.",
+    "translation": "“夹心奶条”曾经告诉过我，他们抓住了他们中的一个并狠狠咬了他脸一口，这就是他只有一只眼睛的原因。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D4#INFO:NAM1#16d19e04963bccb5e5b436f47d50b19e",
+    "original": "But you don't look like a monster, and I don't think you'd bite anyone in the face.",
+    "translation": "不过你看上去不像怪物，我认为你也不会去咬谁的脸。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D4#INFO:RNAM#af59089712747b3c6146136ce44c70e5",
+    "original": "It's nice to meet you.",
+    "translation": "很高兴认识你。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_06038B64#INFO:NAM1#09efe9b8de29f3c8c56f582cb88dd8c7",
+    "original": "Did you live in the old vault below? I thought nobody lives down there now because it was full of monsters.",
+    "translation": "你在下面的旧避难所住过？我还以为那没有人，因为那里到处都是怪物。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_06038B64#INFO:NAM1#9ab6940ea1f57ed0a33f87569c603267",
+    "original": "Mayor doesn't let us go down there because when they went they didn't come back.",
+    "translation": "镇长不让我们去那下面，因为有些人去了后就再没回来。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_06038B64#INFO:NAM1#c2fc6067587694c8b23d260d5454102e",
+    "original": "You don't look like someone who didn't come back, so maybe you didn't come from there.",
+    "translation": "你看起来不像会一去不回的人，或许你不是从那来的。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_06038B64#INFO:RNAM#69877a7b49255d4c9cdfe9fe16816c86",
+    "original": "I'm not any of those.",
+    "translation": "我哪个都不是。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D6#INFO:NAM1#87b2b049fbaa7dd22c4f9860d47c71ff",
+    "original": "Oh, that was you? Nice work! I hope one of you grabbed some of their gear before you left - gotta make them pay for something like that.",
+    "translation": "哦，那是你？干得好！我希望你在离开前没忘了带走他们的一些东西 — 是该让他们付出点代价。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D6#INFO:NAM1#7a7093233c50210f2444c464b80b4126",
+    "original": "Speaking of which, I'm Knick Knack, and I take care of the general store around here.",
+    "translation": "自我介绍：我叫尼克窍门，我打理着这的杂货店。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D6#INFO:NAM1#3a4d75798ec1d7428d1af62b62bc1de9",
+    "original": "Which is to say, I collect a lot of stuff, and sometimes trade it for other stuff. That's pretty much a store, see?",
+    "translation": "也就是说，我收集很多东西，有时我会用它们来换其它东西。实际上就是个商店，明白吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D6#INFO:RNAM#5190a0f12cdc4f450a613ed63fecdac2",
+    "original": "I'm from the wasteland, and I rescued some of your friends from the Slavers.",
+    "translation": "我来自废土，是我从奴隶贩子手中救了你的朋友。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D7#INFO:NAM1#066506c4ce127645bcfce5020ad184bf",
+    "original": "Oh, was that you? Nice work! I hope you got some good laughs out of it before you left - gotta make sure they know not to try that again!",
+    "translation": "是你干的？干的漂亮！我希望你离开前尽情嘲笑 — 确保他们知道以后别再那样！",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D7#INFO:NAM1#7da2e18cb622a482a8e2f54d5a57e51c",
+    "original": "Speaking of which, I'm Knock Knock, and I take care of the general morale around here.",
+    "translation": "自我介绍：我叫诺克敲门，我负责这附近的士气问题。",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D7#INFO:NAM1#b7140434681af4556059488f2069facd",
+    "original": "Which is to say, I collect a lot of stories, and sometimes trade them to keep the others amused. Morale's better than less-al, see?",
+    "translation": "也就是说，我收集很多故事，有时我会用来它们来鼓舞士气。士气高昂好过低头丧气，明白吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLFirstMeetingResponseA_060383D7#INFO:RNAM#5190a0f12cdc4f450a613ed63fecdac2",
+    "original": "I'm from the wasteland, and I rescued some of your friends from the Slavers.",
+    "translation": "我来自废土，是我从奴隶贩子手中救了你的朋友。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06038E90#INFO:NAM1#6ee78d309ef450a465a7b025863d403f",
+    "original": "So, you're like a three-legged dog, then?",
+    "translation": "你就像一条三条腿的狗，然后呢？",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06038E90#INFO:NAM1#618cc587a5d0ac393782c1033e4c387d",
+    "original": "Looking for your lost paw?",
+    "translation": "寻找你失去的爪子？",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06038E90#INFO:NAM1#1f5628c237146e498f5d4d8bcff2f5b2",
+    "original": "Hah! Anyway, what happened next?",
+    "translation": "哈！总之，接下去发生了什么？",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06038E90#INFO:RNAM#c04cc59e6c1e6635e6eb1a1184edfac1",
+    "original": "Not long ago, my father left me. So I went searching for him.",
+    "translation": "不久前，我爸爸离开了我。所以我就到处找他。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061771#INFO:NAM1#f3b8a4b57f0ae6a82b64ad8b84904948",
+    "original": "Wow... That's some crazy bad timing.",
+    "translation": "哇……那真不是时候。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061771#INFO:NAM1#90ab975466e46b3a1b3b2476270fa655",
+    "original": "I mean, that is to say, I'm real sorry to hear about your loss.",
+    "translation": "我的意思是，听到你失去的，我感到遗憾。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061771#INFO:NAM1#5ae2db5b22efd48863ee5995195e7c17",
+    "original": "So, what happens next?",
+    "translation": "接下来发生了什么？",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061771#INFO:RNAM#74274825e4bbdd035b365929ec6fe3a2",
+    "original": "I finally found Dad, but then he died protecting me and his life's work.",
+    "translation": "我后来找到爸爸了，但他为了保护我和他毕生的心血而牺牲。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061772#INFO:NAM1#83fe05d5d074ebc662dd3e03a0336b06",
+    "original": "Inheriting the family business, huh? Congrats!",
+    "translation": "继承了家族事业，呃？恭喜你！",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061772#INFO:NAM1#5217a4902bdf504f0880d26a1c3358d6",
+    "original": "I sure hope it works out! You'll let me know, right?",
+    "translation": "我真的希望能有好结果！你会告诉我的，对吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061772#INFO:RNAM#24d11d53ec9f29dfed80381cffe64c87",
+    "original": "Now I finally have a chance to finish Dad's legacy and revive the Wasteland.",
+    "translation": "现在我终于有机会去完成爸爸的遗愿，并且复兴废土。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061773#INFO:NAM1#525abbdebce33133825e018c44613dd6",
+    "original": "<gulp> Oh boy... I can't wait.",
+    "translation": "<吞>哦，乖乖……我等不及了。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061773#INFO:RNAM#d998317480195bfc97d7eb4ecf3eb36f",
+    "original": "Oh, you'll see, don't worry.",
+    "translation": "你会听到的，不用担心。",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061774#INFO:NAM1#7f916815bd160d1335b9ac4ad6e603c7",
+    "original": "I sure hope so. Good luck!",
+    "translation": "我当然希望如此。祝你好运！",
+    "stage": 1
+  },
+  {
+    "key": "LLKnockTales2A_06061774#INFO:RNAM#c781cbae237e1d183f0d22ed14fd596a",
+    "original": "You'll hear all about it, don't worry.",
+    "translation": "你会知道一切的，不用担心。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyKidsRescued_00039F62#DIAL:FULL#5ade765f68f099d214b0ce87354d614a",
+    "original": "I got your friends back. Can I come in now?",
+    "translation": "我把你的朋友带回来了。我现在能进去了吗？",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyKidsRescued_06039F65#INFO:NAM1#0af0a55427c624f91ff50268dc3d7232",
+    "original": "I guess you're okay after all, mungo.",
+    "translation": "我想你可以了，毛人。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyKidsRescued_06039F65#INFO:NAM1#3d22d7ddd4fd045d58a292163141f3a2",
+    "original": "You can come in, but you better not piss me off.",
+    "translation": "你可以进来，但你最好不要惹我生气。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01a_0003E578#DIAL:FULL#20aa33f7da5c102995f052561dbe82f6",
+    "original": "I did what had to be done.",
+    "translation": "我做了该做的事。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01a_06058FAE#INFO:NAM1#faf883e3e7b25cd7d4f85a01875cc9fc",
+    "original": "And well done indeed.",
+    "translation": "干得真不错。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01a_06058FAE#INFO:NAM1#dc6fef3e3d47ee29954c46bf4ae672ce",
+    "original": "Now GNR can be heard clear across the Capital Wasteland again. That'll give Eden and those Muties something to think about.",
+    "translation": "现在银河新闻电台又一次响彻废土上空，伊登总统和那些变种人终于有机会用用他们的脑子了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT01a_06058FAE#INFO:NAM1#04bdffe91550dae4748cef3bc54c39fd",
+    "original": "But before I get back to my calling, I bet you wanna hear about that military weapons cache.",
+    "translation": "在我继续广播之前，我打赌你想听听关于那隐藏军火库的事。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT06a_0003E57B#DIAL:FULL#bdb6dc0af36c2e1d5d5616aee71029d7",
+    "original": "This is bullshit! You're blackmailing me!",
+    "translation": "他妈的！你这是勒索！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT06a_0603E5C0#INFO:NAM1#b8080270d5545b2c502b547c6641125e",
+    "original": "I want to make sure I'm perfectly clear on this -- the Good Fight is bigger than you and your dad.",
+    "translation": "我确定我的思路很明确 — 圣战比你和你爸爸更重要。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT06a_0603E5C0#INFO:NAM1#d9870b0ed21b96505f3079bfb8f19ea1",
+    "original": "I'll do whatever it takes to keep the Capital Wasteland free. Whatever. It. Takes.",
+    "translation": "我会做一切能让首都废土保持自由的事情。无论什么代价。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT06a_0603E5C0#INFO:NAM1#e249f637abc1fcf00872338c415a9a36",
+    "original": "And right now, without GNR at full strength, my words are being wasted. And that just ain't acceptable.",
+    "translation": "现在，银河新闻电台无法全功率传播，我的心血的广播付诸流水。那是最让人无法接受的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT04a_0003E57C#DIAL:FULL#1868ea576318745fa0342129b104418a",
+    "original": "No way in hell am I getting near a Super Mutant!",
+    "translation": "让我接近一个超级变种人可他妈没门！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT04a_0603E5C1#INFO:NAM1#fecc611821bb583d9def0e82e44ac4bf",
+    "original": "Look. You approached me, remember? And no one said this would be a cake walk.",
+    "translation": "听着。至少你接近了我，记得吗？也没人会说这很简单。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogTaskCT04a_0603E5C1#INFO:NAM1#ead54c687ffadd017959717660336597",
+    "original": "But there's something behind those eyes of yours that screams \"I'm the one who can get shit done!\"",
+    "translation": "但从你眼中我能看到一个声音“只有我能做到!\"",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03a_0003E581#DIAL:FULL#ffbf7e705db6aba3124bacaaf6a53022",
+    "original": "How did you know I was looking for my Dad?",
+    "translation": "你怎么知道我在找我爸爸？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03a_060BC71E#INFO:NAM1#bfcec41bfeec6c88a8957c923783cf04",
+    "original": "Oh come on. You're a spitting image of the guy. He's been here before, and now you're here. Doesn't take a genius to figure it out.",
+    "translation": "哦，拜托。你和他就像是一个模子里刻出来的。你们两人都曾站在这个位置。简直像得令人难以分辨。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03a_060BC71E#INFO:NAM1#277082e88f79c6ce33f1f65308ea9358",
+    "original": "You want to find your dad, and it just so happens his location is known to yours truly.",
+    "translation": "你想找你父亲，碰巧我知道他在哪。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogCT03a_060BC71E#INFO:NAM1#8a1833c82b005a6c43a1856196921c8e",
+    "original": "But if you want to know more, you're going to have to contribute to the Good Fight.",
+    "translation": "但如果你想再打听什么，就得先为圣战做点贡献。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask05_0003E582#DIAL:FULL#bf7692ea73f6fb3e2c4d37d861152c9c",
+    "original": "Then Rivet City is where I'm headed. Goodbye, Three Dog.",
+    "translation": "那我去铆钉城了。再见，三狗。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask05_0603E5A5#INFO:NAM1#46bcb2858a043c501af8232b6e8abeba",
+    "original": "Goodbye. Remember to keep us tuned in while you're out there, and watch yourself.",
+    "translation": "再见。到那里后记得调好频率和我们保持联系，还有照顾好自己。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask05_0603E5A5#INFO:NAM1#6988278f85728673e224473600c426d5",
+    "original": "Don't forget about your promise... make sure your dad knows about the Good Fight.",
+    "translation": "不要忘记你的承诺……一定要让你的爸爸了解圣战。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask04_0003E583#DIAL:FULL#91e03c4b436f16cafc1f180c9129693a",
+    "original": "Rivet City? Where's that?",
+    "translation": "铆钉城？在什么地方？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask04_0603E5B2#INFO:NAM1#362a4b6de61612a0d1682926326ad0b6",
+    "original": "You've never heard of Rivet City? Wow. Just... wow.",
+    "translation": "你没听说过铆钉城？哇。真是……哇。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask04_0603E5B2#INFO:NAM1#951ff3a4f76ca8e7cc2291f7b2fa6f1a",
+    "original": "Well, a whole bunch of eggheads got together and turned a beached aircraft carrier into a town. Pretty cool, huh?",
+    "translation": "嗯，一群书呆子合力把一艘搁浅的航母改造成了一座城镇。真酷，呃？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask04_0603E5B2#INFO:NAM1#8ca5c8d3592edebc3cbf1e49a689bef1",
+    "original": "Just follow the river south from here... there's no way you can miss it.",
+    "translation": "只要沿着这河往南走……你不会错过的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask01SC_0003E589#DIAL:FULL#dbe44168fe44c7bdaeeed6f4af3732d3",
+    "original": "Look, Three Dog. If I find my Dad, maybe he can help with the Good Fight.",
+    "translation": "你看，三狗，如果我找到了我爸爸，或许他能帮上圣战。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask01SC_0603E5BC#INFO:NAM1#62cfc5bf63aef262254239a70cb27333",
+    "original": "Well, your dad is some sort of scientist type. Some kind of egghead or something.",
+    "translation": "你爸爸属于科学家型的。有些书呆子气。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogSkipTask01SC_0603E5BC#INFO:NAM1#1c0d2abbe5616f6bb0dd1e41190f2f58",
+    "original": "You really think if you find him he'd help our cause?",
+    "translation": "你真的认为如果你找到他之后，他会帮助我们？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight12_0003E593#DIAL:FULL#cd7218a3e479ec433d0c5511117c3340",
+    "original": "I don't give a shit about your \"Good Fight.\" You going to help me or not?",
+    "translation": "我对你那“圣战”不感兴趣。你帮还是不帮？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight12_06024175#INFO:NAM1#9e025a939da1248f6a35bbe0ac4ff818",
+    "original": "Ok, friend. I've been calm. I've been cool. Now I've had enough of your hostility.",
+    "translation": "好的，朋友。我会镇定，我会冷静。你该降低对我的敌意。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight12_06024175#INFO:NAM1#4a138846a9be7bea0fc29a37cdad19f9",
+    "original": "You wanna be all business, fine. I can play like that.",
+    "translation": "你想什么都管，行啊。我奉陪。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight12_06024175#INFO:NAM1#baa526263be90aeb1a66a9a2e263e92b",
+    "original": "You want help, you help me. End of story. You ready or what?",
+    "translation": "你想要找你爸，那就得帮我。就这意思。你干不干？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight12_06024175#INFO:RNAM#cd7218a3e479ec433d0c5511117c3340",
+    "original": "I don't give a shit about your \"Good Fight.\" You going to help me or not?",
+    "translation": "我对你那“圣战”不感兴趣。你帮还是不帮？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_0003E596#DIAL:FULL#7d76708985ceab2f384b841ff12662cc",
+    "original": "I understand your fight, but I still need to find my Dad.",
+    "translation": "我了解了你的圣战，但我还是得找我爸爸。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_0603E5B0#INFO:NAM1#6910291d1cf3aef8d0b7e557fd9ec1a2",
+    "original": "Sorry. I'm so used to talking to an audience that can't answer I just assume you want to hear my voice all the time.",
+    "translation": "抱歉。我习惯于对着没有回应的听众播音，忽略了你不想听这些话。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_0603E5B0#INFO:NAM1#602a29fb404e6dfe5a8d07a281e96848",
+    "original": "We got one rule in the Good Fight, though. You want help, you gotta contribute!",
+    "translation": "在圣战里，我们有条准则：想得到帮助，先贡献自己！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_0603E5B0#INFO:RNAM#10c0b2da4a0c1e20414d45b51ab908cb",
+    "original": "I understand your fight, but I have other concerns of my own.",
+    "translation": "我明白了你的圣战，但我还有自己的问题。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_060BC71C#INFO:NAM1#6910291d1cf3aef8d0b7e557fd9ec1a2",
+    "original": "Sorry. I'm so used to talking to an audience that can't answer I just assume you want to hear my voice all the time.",
+    "translation": "抱歉。我习惯于对着没有回应的听众播音，忽略了你不想听这些话。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_060BC71C#INFO:NAM1#26d7945c91ecb443997d11be2b60ae72",
+    "original": "So, you want to know where your dad is? Fair enough.",
+    "translation": "你想知道你爸爸在哪？别着急。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight09_060BC71C#INFO:NAM1#a8b6bfb1b2661cbb2add05e47cd0772a",
+    "original": "We got one rule in the Good Fight though. You want help, you gotta' contribute!",
+    "translation": "在圣战里，我们有条准则：想得到帮助，先贡献自己！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight04Intelligence_0003E59B#DIAL:FULL#0c30a1f8b58da31046f2deacb0c6e9cf",
+    "original": "So you fight the Good Fight with your voice on Galaxy News Radio.",
+    "translation": "所以你在电台里用声音为圣战而战。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight04Intelligence_0603E5C2#INFO:NAM1#d733c190ca520a7b541ddd2fba83bdc5",
+    "original": "Since you know all about this cause, no need to explain the effect. Let's get you on your way.",
+    "translation": "既然你已经很清楚了，也就不必再废话。我告诉你该怎么做。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_0003E59C#DIAL:FULL#7f37a518bb51bd9dc2ee6734d6bdf23a",
+    "original": "Look, I need to find my Dad. I don't have time for this nonsense.",
+    "translation": "听着，我得去找我爸爸。我没时间来做这事。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_0603E5AC#INFO:NAM1#9bf712322308ce43d3b1d26fc100e214",
+    "original": "Hey, now... I may be many things, but one thing I'm not is a pushover.",
+    "translation": "嗨，我……可能很有很多缺点，但我不是个会轻易放弃的人。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_0603E5AC#INFO:NAM1#e348d4f8793ae17fa868163dbde97404",
+    "original": "It's obvious you're narrow of focus and can't see the bigger picture.",
+    "translation": "显然你的目光过于狭隘，无法着眼于大局。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_0603E5AC#INFO:NAM1#602a29fb404e6dfe5a8d07a281e96848",
+    "original": "We got one rule in the Good Fight, though. You want help, you gotta contribute!",
+    "translation": "在圣战里，我们有条准则：想得到帮助，先贡献自己！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_0603E5AC#INFO:RNAM#bb76547230b1f0be6a6e6251f4c8ee9a",
+    "original": "Look, I have problems of my own. I don't have time for this nonsense.",
+    "translation": "听着，我也有自己的问题要去解决。我不能浪费时间。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_060BC71B#INFO:NAM1#ae55253338c63288b9eb5054f9de82c5",
+    "original": "Three Dog is many things, but one thing he isn't is a pushover.",
+    "translation": "三狗可能很有很多缺点，但他不是个会轻易放弃的人。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_060BC71B#INFO:NAM1#f194522653afd3fb5d45266112f7522e",
+    "original": "It's obvious you're narrow of focus and can't see the bigger picture. Fine. I may have the answers you want.",
+    "translation": "显然你的目光过于狭隘，无法着眼于大局。好吧，我或许有你要的答案。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight06_060BC71B#INFO:NAM1#a8b6bfb1b2661cbb2add05e47cd0772a",
+    "original": "We got one rule in the Good Fight though. You want help, you gotta' contribute!",
+    "translation": "在圣战里，我们有条准则：想得到帮助，先贡献自己！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight02_0003E5A0#DIAL:FULL#adc317393ac23efd2f8aa2ff90dbb933",
+    "original": "Whatever you want. I'm just looking for my Dad.",
+    "translation": "你想要什么都行，我只想找我爸爸。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight02_0603E5B1#INFO:NAM1#a823951eb1eb78cf23143b9d050aef3e",
+    "original": "Hey, not everyone's cut out for bigger and better things. Sometimes the smallest roles in the Good Fight are the most important.",
+    "translation": "嗨，不是每个人都得做大事。有时候，细节决定了圣战的成败。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight02_0603E5B1#INFO:RNAM#cfa41f0f80632f9ebbbd2372bb12b8fe",
+    "original": "Whatever you say. You have your problems, I have mine.",
+    "translation": "随便你怎么说。你有你的麻烦，我也有我的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight02_060BC714#INFO:NAM1#a823951eb1eb78cf23143b9d050aef3e",
+    "original": "Hey, not everyone's cut out for bigger and better things. Sometimes the smallest roles in the Good Fight are the most important.",
+    "translation": "嗨，不是每个人都得做大事。有时候，细节决定了圣战的成败。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogGoodFight02_060BC714#INFO:NAM1#5595eaed186a908690f776cf82931a8e",
+    "original": "But enough of that. If it's your dad you seek, then I will abide.",
+    "translation": "不过也够了。如果你只想找你爸，那就只好这样了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiKnowFatherSeenHim_000432B0#DIAL:FULL#11cdee9469575a54faaa8136a4ba0f19",
+    "original": "My father's gone missing. Have you seen him?",
+    "translation": "我父亲失踪了，你见过他吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiKnowFatherSeenHim_060432B1#INFO:NAM1#6a08dcb65f02068b6d30dc94ad7920c6",
+    "original": "He was here, yes. It was quite a shock to see him after so many years.",
+    "translation": "他到过这里，是的。多年之后又看到了他使我深感震惊。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiKnowFatherSeenHim_060432B1#INFO:NAM1#c90e2f0701775637ea7895c9239b23de",
+    "original": "I'm afraid he's gone now.",
+    "translation": "恐怕他现在已经走了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLKnowMoreAboutYou_00043E9F#DIAL:FULL#2b16e055682eac775d211561fe21a636",
+    "original": "I'd like to know a bit more about you.",
+    "translation": "我很想知道一些关于你的事。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLKnowMoreAboutYou_06044CD1#INFO:NAM1#b0cc5aad4197a243084c0a412b73943a",
+    "original": "What? Well, I... I'm not sure what there is to tell.",
+    "translation": "什么？呃，我……我不知道该从何说起。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLKnowMoreAboutYou_06044CD1#INFO:NAM1#87096bd8bd14c98242d41a24ca90dec6",
+    "original": "Your father and I... We worked together for a long time. I think we were really on to something.",
+    "translation": "你父亲和我……我们在一起工作了很长时间。我想我们在某些地方是志同道合的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLKnowMoreAboutYou_06044CD1#INFO:NAM1#a3a742590e8ea6d655d0d1825de09932",
+    "original": "But then there were... complications. The project was abandoned, and your father disappeared.",
+    "translation": "但是后来就出现了……问题。工程被放弃了，你父亲也消失了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLKnowMoreAboutYou_06044CD1#INFO:NAM1#b629a26eb4e1f5acf5504a792188d678",
+    "original": "I returned here to Rivet City, and established the lab you see before you now.",
+    "translation": "我回到了铆钉城，建成了你眼前的这座实验室。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLTellMoreParents_00043EA1#DIAL:FULL#2b0fc7e7b2afc505212bf106e773049c",
+    "original": "Can you tell me more about my parents?",
+    "translation": "你能告诉我更多关于我父母的事吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLTellMoreParents_06029612#INFO:NAM1#4565982ec0075330899b2ac465426558",
+    "original": "I suppose so. I worked with them for several years until... Until your mother died, and your father decided it was time to leave.",
+    "translation": "可以。我和他们在一起工作了几年，直到……直到你母亲去世，你父亲也因此觉得，是时候该离开了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLTellMoreParents_06029612#INFO:NAM1#e1d4557ee19bbf78c844b2216c162ad5",
+    "original": "What else do you want to know?",
+    "translation": "你还想知道其他什么事吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLTellMoreParents_0605633A#INFO:NAM1#6ac70455cc5c76287f5dba5d9934bad5",
+    "original": "What do you want to know?",
+    "translation": "你想知道什么？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03DadHoloEntry21_06044B68#INFO:NAM1#2b9925548db41d8aedc79b224a33907e",
+    "original": "I'm off to Vault 112 to search for anything of Braun's that might help me get this purifier up and running.",
+    "translation": "我要去112号避难所寻找布劳恩的一些东西，那可能会帮我让这个净化装置运转起来。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03DadHoloEntry21_06044B68#INFO:NAM1#327286ee5555629f145445c1919419bf",
+    "original": "All I know is that it's west of someplace called Evergreen Mills, and it's well-hidden in some sort of garage, but I'll find it. I have to.",
+    "translation": "我所知道的就是它位于一个叫常青饲料厂的地方之西边，被隐藏在一个车库之类的建筑里。但我会找到它的，一定会的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03DadHoloEntry21_06044B68#INFO:NAM1#dccc0090801a9ea419bbac0c21f6293f",
+    "original": "It's so close, but that's the story of Project Purity, isn't it? An eternity of \"almost theres.\"",
+    "translation": "曾经如此接近，不过，那就是净化工程的故事，对吧？永远处于“就要成功”的状态。\"",
+    "stage": 1
+  },
+  {
+    "key": "MQ03DadHoloEntry21_06044B68#INFO:NAM1#d5d3a0bc4aa8b7b0392b82662d2365ec",
+    "original": "Let's see if Braun has the missing puzzle piece.",
+    "translation": "让我们看看布劳恩是否有能揭开谜底的东西。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03HarknessGreetFather_0004695D#DIAL:FULL#595db1c148873e46b6b323de25500dac",
+    "original": "I'm looking for my father.",
+    "translation": "我在找我父亲。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03HarknessGreetFather_06046960#INFO:NAM1#7f24a4d21bb86fd203d62bc52134ae6d",
+    "original": "And who might your father be? If he lives on this boat, I know him.",
+    "translation": "谁又会是你父亲？如果他住在这条船上的话，我肯定认得他。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03ScientistLookingForFather_00049039#DIAL:FULL#e664843bdd43ce2b57fcaa8a89c947b3",
+    "original": "I'm looking for my father. Have you seen him?",
+    "translation": "我正在寻找我父亲，你看到他了吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03ScientistLookingForFather_0604903B#INFO:NAM1#2d80be65183e3631baf9812eb0995456",
+    "original": "I did see a man talking to Doctor Li, but I really shouldn't be discussing it.",
+    "translation": "我的确见过一个男人在和李博士谈话，不过我不该提这事的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03ScientistLookingForFather_0604903B#INFO:NAM1#3d7aad6d735f7dcb8158afe7b494a583",
+    "original": "She's already in a bad mood. I'd hate to make it worse.",
+    "translation": "她的心情已经很差了，我不想让她变得更糟。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03ScientistLookingForFather_0604903B#INFO:NAM1#f86a6e75a054787a0260c6a98c27f4e9",
+    "original": "You should probably just talk to her about it.",
+    "translation": "你不妨直接跟她谈谈。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03ScientistLookingForFather_0604903C#INFO:NAM1#2783f988dd6598e8b21b97856050849b",
+    "original": "Look, some of us are trying to get work done here. There have been enough disruptions recently.",
+    "translation": "听着，我们中的一些人努力想把这工作搞定，近来的干扰已经够多的了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03ScientistLookingForFather_0604903C#INFO:NAM1#7bc1363229d6acdfc6272854f3e5e569",
+    "original": "Anybody coming through here would have to talk to Doctor Li; why don't you go bother her about it?",
+    "translation": "到这来的人都应该和李博士聊聊，不如你去找她吧？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLProjectPurityInfo_00056330#DIAL:FULL#01ea956252d1c79e242706c413b87df3",
+    "original": "Tell me about this project you worked on with my father.",
+    "translation": "说说这个你和我父亲为之奋斗的工程。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLProjectPurityInfo_06056338#INFO:NAM1#c0026637d039349bb51405104d353cf2",
+    "original": "Project Purity, we called it. What do you want to know?",
+    "translation": "我们叫它净化工程，你想要知道些什么？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate03_00058FA6#DIAL:FULL#dfb050cb036a9df220884bb2dc493cce",
+    "original": "Look, I already know about my Dad, so this was all a waste of time.",
+    "translation": "你看，我已经知道我爸爸在哪里了，所以现在这只是浪费时间。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate03_06058FA9#INFO:NAM1#8c89445d5b66f484dbc3411674a69d26",
+    "original": "Don't ever let anyone make you think that fighting the Good Fight is a waste of time!",
+    "translation": "永远也从来不要认为圣战是浪费时间！",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate03_06058FA9#INFO:NAM1#a4258869930c4dcd1fe7ff9d7ab48ceb",
+    "original": "Whether you like it or not, you just made a difference in the world.",
+    "translation": "无论你喜不喜欢，你多少都改变了这世界。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate03_06058FA9#INFO:NAM1#5a2d08930666648bfd9442cf89a3092e",
+    "original": "Here, I want you to take this. I was saving it for someone special... someone who could really help with the Good Fight.",
+    "translation": "拿着，三狗希望你收下这个。我留下它就是为了给某个特殊的人……真正能帮助圣战的人。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate03_06058FA9#INFO:NAM1#f71251b4dbda9cb03c9125292d2b53c4",
+    "original": "It contains the location of an old weapons cache. You're welcome to help yourself to anything inside.",
+    "translation": "它包含了旧武器库的地理位置。你可以随意使用里面任何东西。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate02_00058FA7#DIAL:FULL#79f0afb73a11c823b4d2e3ca530d4a30",
+    "original": "Well, you got what you wanted, and I already know about Dad, so...",
+    "translation": "你得到了你想要的，我也知道了父亲的事，所以……",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate02_06058FAA#INFO:NAM1#e723b31b388cf34a2012cfd1699b7c35",
+    "original": "Yeah, I heard you found out about your Dad, and yet you went ahead and kept your promise to me. That takes some real moxie, kid.",
+    "translation": "是的，我听说你已经自己找到了寻找父亲的线索，而且还继续遵守给我的承诺。你真是好样的，孩子。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate02_06058FAA#INFO:NAM1#32f550768b2c02004ab93ba07eededb6",
+    "original": "Three Dog can't let you walk away from here empty-handed after all that.",
+    "translation": "不管怎样，我三狗可不会让你白白地忙活这么半天。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate02_06058FAA#INFO:NAM1#5a2d08930666648bfd9442cf89a3092e",
+    "original": "Here, I want you to take this. I was saving it for someone special... someone who could really help with the Good Fight.",
+    "translation": "拿着，三狗希望你收下这个。我留下它就是为了给某个特殊的人……真正能帮助圣战的人。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate02_06058FAA#INFO:NAM1#f71251b4dbda9cb03c9125292d2b53c4",
+    "original": "It contains the location of an old weapons cache. You're welcome to help yourself to anything inside.",
+    "translation": "它包含了旧武器库的地理位置。你可以随意使用里面任何东西。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate01_00058FA8#DIAL:FULL#9f4edc8f2d4b80aa4f362d199020b239",
+    "original": "I guess this is goodbye then. It's been a pleasure, Three Dog.",
+    "translation": "我想该说再见了。认识你很高兴，三狗。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate01_06058FAC#INFO:NAM1#4ae9d9ab5b9eb7c3af60171a43d27ab6",
+    "original": "Now hang on a second there. Three Dog can't let you walk away from here empty-handed like this.",
+    "translation": "麻烦等一下。我三狗可不会让你白白地忙活这么半天。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate01_06058FAC#INFO:NAM1#e9c39422ab75498985271734de904e8c",
+    "original": "I heard you found out about your Dad on your own, and yet you went ahead and kept your promise to me. That takes some real moxie, kid.",
+    "translation": "我听说你已经自己找到了寻找父亲的线索，而且还继续遵守给我的承诺。你真是好样的，孩子。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate01_06058FAC#INFO:NAM1#5a2d08930666648bfd9442cf89a3092e",
+    "original": "Here, I want you to take this. I was saving it for someone special... someone who could really help with the Good Fight.",
+    "translation": "拿着，三狗希望你收下这个。我留下它就是为了给某个特殊的人……真正能帮助圣战的人。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCacheAlternate01_06058FAC#INFO:NAM1#f71251b4dbda9cb03c9125292d2b53c4",
+    "original": "It contains the location of an old weapons cache. You're welcome to help yourself to anything inside.",
+    "translation": "它包含了旧武器库的地理位置。你可以随意使用里面任何东西。",
+    "stage": 1
+  },
+  {
+    "key": "RDTopicSecretsTruth_0005E60C#DIAL:FULL#e4d3770c86388e9c7e7be87c228e3aab",
+    "original": "I'm just a humble wastelander.",
+    "translation": "我只是一个卑微的废土游民",
+    "stage": 1
+  },
+  {
+    "key": "RDTopicSecretsTruth_0605E615#INFO:NAM1#7819530e7b3fd3200a724f31aa5a9498",
+    "original": "You hereby are granted asylum within the Republic of Dave. Just don't get on my bad side, refugee.",
+    "translation": "你被戴夫共和国授予庇护。不过别和我作对，难民。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLLookingforFather_0005F9BA#DIAL:FULL#b59a7039757bb6b14cdb42746e24b8fd",
+    "original": "I'm trying to find my father. Have you seen him?",
+    "translation": "我正在找我父亲，你见过他吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLLookingforFather_0605F9BB#INFO:NAM1#40212eb1c6b15cfa865feb07a60f17f2",
+    "original": "You mean you haven't? I assumed he sent you here.",
+    "translation": "你的意思是你不知道？我还以为是他派你来这的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03LiTLLookingforFather_0605F9BB#INFO:NAM1#f7a208905689575c0f80a451fdeb3a8b",
+    "original": "For that matter, aren't you supposed to be in a Vault? James said he left you there.",
+    "translation": "说起来，你不是该待在避难所里吗？詹姆斯说他把你留在那了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT05_00062086#DIAL:FULL#0366b07d4b097687154eb9424cf72e81",
+    "original": "What kind of bullshit is this? That's all you know?",
+    "translation": "胡说些什么？那就是你所知道的？",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT05_06062087#INFO:NAM1#318bddf442ec4a6e503ddfb1718ff26d",
+    "original": "Look, I appreciate what you did for me. And I especially appreciate what you did for the people, by fixing up my station.",
+    "translation": "十分感激你为我做的一切。尤其是谢谢你帮废土居民修好了电台。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT05_06062087#INFO:NAM1#7fbb30f589ce0fe320b33d3baed1efc5",
+    "original": "But an attitude like that ain't winning you any brownie points.",
+    "translation": "但那种态度对你是没什么好处的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02ThreeDogCT05_06062087#INFO:NAM1#f0175805d1ef2208ef5a00b9d6f100b7",
+    "original": "That's all I know, and that's all I'm gonna say about it. So why don't you move on now.",
+    "translation": "我要说的就这么多，这也是我知道的全部了。现在你怎么还不走呢。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHireCrossTopic_000626E5#DIAL:FULL#718298d620cd2b77e124a0ae3220e9fa",
+    "original": "You knew my father?",
+    "translation": "你认识我父亲吗？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHireCrossTopic_060626F7#INFO:NAM1#bdbabb35069e476d99ab49431d72ad68",
+    "original": "I did. And you as well!",
+    "translation": "认识。我还认识你！",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHireCrossTopic_060626F7#INFO:NAM1#5c4f5f53ee9755ee041ae21aa5ceaad8",
+    "original": "Long ago, I helped guard the water purifier against the Super Mutant horde. When your father left, I escorted the two of you to Megaton.",
+    "translation": "很久前，我为保护净化器而阻挡超级变种人的群攻。你父亲离开时，我曾保护你们去了核弹镇。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHireCrossTopic_060626F7#INFO:NAM1#0e36a5d0939d642d083758909f61c0cb",
+    "original": "He was... a noble man. I was saddened to hear of his passing. But from what I've heard, he died with honor. He died for you.",
+    "translation": "他是个高尚的人。听到他的死讯我很悲伤。但我听说他是为荣誉而死，他是为保护你而死的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHireCrossTopic_060626F7#INFO:NAM1#28ae08ccd4208645c6490bc6b9d83c54",
+    "original": "I only pray that my own death has such meaning.",
+    "translation": "我只能祈祷我也能像他一样壮丽地死去。",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1b3_0006B19D#DIAL:FULL#6d8baa5fdb4ab9fffe4d5c59fce23e4e",
+    "original": "I really don't know.",
+    "translation": "我确实不知道。",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1b1_0006B19F#DIAL:FULL#d41fa89465923cbfcfb610894325d606",
+    "original": "Do you think people who fought a war with tyrants wanted unquestioning support?",
+    "translation": "你觉得人们反抗暴政的时候应该得到无条件的支持？",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1b1_0606B1B2#INFO:NAM1#55c2218c891cd2a81f36cf89125b5dc1",
+    "original": "Well.. when you put it that way... wait, you're just trying to confuse me!",
+    "translation": "照你那样说的话……等一下，你只是想把我搞迷糊！",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1b1_0606B1B2#INFO:NAM1#8d2bfbe30890b123631c7fe73a5a9680",
+    "original": "I'll have none of it! Did you have something else you wanted to ask, or were you done with your crazy talk?",
+    "translation": "我才不要！你还有其他什么要问的吗，还是你已经废话完了？",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1_0006B1A6#DIAL:FULL#469b9cc68e5a0bd56015b407e6f9b344",
+    "original": "Why do you support the Enclave?",
+    "translation": "为什么你要支持英克雷呢？",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1_0606B1BF#INFO:NAM1#94a5221885572ac4acda5d586dfdefbe",
+    "original": "Why? Why? Look around you. This is the good ol' USA. Sure, she looks a little bit different these days, but you're still on American soil.",
+    "translation": "为什么呢？为什么？看你的周围。这是美利坚，虽然现在它看起来是有些不一样了，但这依旧是美利坚的土地。",
+    "stage": 1
+  },
+  {
+    "key": "MegNathanEnclave1_0606B1BF#INFO:NAM1#d663a8f28c2f1d53153b55fbdd20c079",
+    "original": "And it's your duty and my duty to support our country and our president, no matter what. Understand?",
+    "translation": "无论怎样，支持我们的国家和总统都是你我的责任，明白吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogQuestHaveDish_00099348#DIAL:FULL#3daae33c3d11d9892c083566693e133f",
+    "original": "Good news, Three Dog. I already have the dish.",
+    "translation": "好消息，三狗。我已经找到你要的天线了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogQuestHaveDish_06099349#INFO:NAM1#0e9e273039bea5a38feaa2c630820ea0",
+    "original": "Whoa! You must be some kind of a psychic or something!",
+    "translation": "哇哦！！你会心灵感应吧！",
+    "stage": 1
+  },
+  {
+    "key": "MQ01ThreeDogQuestHaveDish_06099349#INFO:NAM1#9071809e144d0646dd01c1f1cc5d2ac3",
+    "original": "Well, don't just stand there gawking... go bring that sucker to the Washington Monument so my lady can sing again!",
+    "translation": "好了，别傻站着，把那玩意带到华盛顿纪念碑顶，我的爱人才能再度欢唱！",
+    "stage": 1
+  },
+  {
+    "key": "DogmeatDad1A_0009D246#DIAL:FULL#d21c11683ca8ece97b065723c83949f6",
+    "original": "I know how you feel.",
+    "translation": "我知道你的感受。",
+    "stage": 1
+  },
+  {
+    "key": "MegFFTLSilverOffer_0009EBB3#DIAL:FULL#57ef83d965603b1d0da97a64ac035fa7",
+    "original": "Are you a prostitute?",
+    "translation": "你是妓女吗？",
+    "stage": 1
+  },
+  {
+    "key": "MegFFTLSilverOffer_0609EBB5#INFO:NAM1#8e5ba9c27ff1cb198f9b618a4f177c01",
+    "original": "No, sorry. I've left that part of my life behind.",
+    "translation": "不，对不起，我已经舍弃了我昔日的那种生活。",
+    "stage": 1
+  },
+  {
+    "key": "MegFFTLSilverStory_0009EBB4#DIAL:FULL#33fe4385b007076e70909f6e446f95a0",
+    "original": "What do you do here?",
+    "translation": "你在这干嘛？",
+    "stage": 1
+  },
+  {
+    "key": "BOSEnclave_000B4167#DIAL:FULL#5c4b044ac209ce82c5bcf6e3ee40880a",
+    "original": "What do you know about the Enclave?",
+    "translation": "关于英克雷你知道些什么？",
+    "stage": 1
+  },
+  {
+    "key": "BOSEnclave_060B4169#INFO:NAM1#ce6c39891c1ba9f4c5188d1a10e67d28",
+    "original": "More than anyone else, I dare say. Certainly enough to know they're the greatest threat the Capital Wasteland has ever faced.",
+    "translation": "我敢说没人知道得比我多。当然只要明白他们是首都废土所面对的最大的威胁就够了。",
+    "stage": 1
+  },
+  {
+    "key": "BOSEnclave_060B4169#INFO:NAM1#7de4f955e1c91646f8943f8570fde9ff",
+    "original": "The Brotherhood of Steel has encountered the Enclave before, you see. Over thirty years ago, back in California.",
+    "translation": "你知道，时间倒退30年，在加利福尼亚，钢铁兄弟会就已经和英克雷打过交道了。",
+    "stage": 1
+  },
+  {
+    "key": "BOSEnclave_060B4169#INFO:NAM1#64f78fabd56bfe2258b011efab1ef661",
+    "original": "Then, they were led by a President Richardson. Now we've got this Eden to contend with.",
+    "translation": "他们当时由理查兹总统领导，现在是伊登。",
+    "stage": 1
+  },
+  {
+    "key": "BOSEnclave_060B4169#INFO:NAM1#c5c1cc5c1fae363093d56a02e85ae736",
+    "original": "It matters not -- now, as before, they seek to control and destroy, all in the guise of restoring order.",
+    "translation": "这不重要——就像以前一样，他们打着恢复秩序的幌子，企图控制和毁灭一切。",
+    "stage": 1
+  },
+  {
+    "key": "CitScribeBrotherhoodHistory_000B73A8#DIAL:FULL#228d710db116f4da00963d6c8c1cde89",
+    "original": "What about the Brotherhood's history in this area?",
+    "translation": "兄弟会在这一地区的历史是怎样的？",
+    "stage": 1
+  },
+  {
+    "key": "CitScribeBrotherhoodHistory_060B73A9#INFO:NAM1#68615ec25da8b8fca67352e1c33fb242",
+    "original": "We first arrived in the Capital Wasteland in 2255. In those first couple of years, we discovered the Citadel, Super Mutants, and Project Purity!",
+    "translation": "我们2255年来到首都废土。最初的那些年头，我们建立了大本营，遭遇了超级变种人，发现了净化工程！",
+    "stage": 1
+  },
+  {
+    "key": "CitScribeBrotherhoodHistory_060B73A9#INFO:NAM1#b89513ed2739f5078592eb6a7c15f3cb",
+    "original": "But we were stretched thin as it was, even back then. We had to pull our forces out. When we did, the place was overrun.",
+    "translation": "不过事实上那年头我们的战线太长了。我们只好撤退。当我们撤出后，那里就被攻占了。",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelSuperMutant_000B7F3F#DIAL:FULL#d3cef71a7a44fbe585e45038124d9522",
+    "original": "Care to share anything about the Super Mutants?",
+    "translation": "关于超级变种人，有什么信息可以分享？",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelSuperMutant_060C7766#INFO:NAM1#ca1a85f265e02d54dfc590c95b14ddd1",
+    "original": "You've seen them, so you know what we know. What more is there to say?",
+    "translation": "你见过他们了，所以我知道的你都知道，还有什么其他的呢？",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelSuperMutant_060C7766#INFO:NAM1#2e8d4f57560075b51774cf2b42476cc9",
+    "original": "If we can figure out where they're coming from, we might be able to stop them. If not...",
+    "translation": "我们要是知道他们从哪里来，说不定能阻止他们。如果不行……...",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnclave_000B7F40#DIAL:FULL#93354df1c302e02c7d104163b3182bd9",
+    "original": "Any thoughts on the Enclave?",
+    "translation": "那么……对英克雷有什么看法？",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnclave_060B9979#INFO:NAM1#57c828efc826452ec0d4294e60fa9666",
+    "original": "I've read the reports, seen the initial scans. But I can hardly believe it.",
+    "translation": "我读了这些报告，看过最初的扫描片。但我几乎不能相信。",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnclave_060B9979#INFO:NAM1#9a18ab11e7d932905ea7399838a47bae",
+    "original": "I figured those radio transmissions were just old recordings. Never figured the Enclave would actually show up, in the flesh.",
+    "translation": "我认为广播里只是以前的录音，没想到英克雷居然真的出现了。",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnclave_060B9979#INFO:NAM1#5841a4a3d1fbc37461b37ae1a0a2bce6",
+    "original": "But don't worry. Whatever they try, we'll be ready for it. I'll lead the Pride to knock them out tomorrow. If… my father permits it.",
+    "translation": "不过别担心，不管他们怎么做，我们都会严阵以待。明天我将带领“里昂斯的骄傲”打败他们。如果我父亲批准。",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnter_000B874B#DIAL:FULL#d826587ab8be3a97f3385337c53d8af4",
+    "original": "Can I come in?",
+    "translation": "我能进去吗？",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnter_060B8750#INFO:NAM1#2563bce99712001d70dfdb339e2a0f08",
+    "original": "Negative. No Super Mutants, civilians or traveling salesmen allowed.",
+    "translation": "不行，超级变种人、平民或商队不得入内。",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnter_060B8750#INFO:NAM1#2334be052e75e26f9bf789e40cc4f58a",
+    "original": "Which are you?",
+    "translation": "你是哪一种？",
+    "stage": 1
+  },
+  {
+    "key": "TLCitadelEnter_060BCC55#INFO:NAM1#baf071a884c105c167c50ffceaa94e88",
+    "original": "That's an affirmative. You're clear to enter. But I still don't like it. Or you.",
+    "translation": "是的，你可以进来。但我还是不喜欢这个命令，也不喜欢你。",
+    "stage": 1
+  },
+  {
+    "key": "TLLyonsPride_000B879A#DIAL:FULL#9087fa8dc122cddc1321bab058238cfe",
+    "original": "What can you tell me about the Lyons' Pride?",
+    "translation": "你能跟我说说“里昂斯的骄傲”吗？",
+    "stage": 1
+  },
+  {
+    "key": "TLLyonsPride_060C776E#INFO:NAM1#fb66d434e5b670be693e9f02f1ba310e",
+    "original": "It's the best of the Brotherhood, bar none. No one gets in without my say-so.",
+    "translation": "它是兄弟会的最精锐部队，没有“之一”。没我的同意，没人能加入。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache02_000BC70F#DIAL:FULL#bc44d48aa945dcecf9f97e4e04907536",
+    "original": "Enough with the inane banter! Just tell me already.",
+    "translation": "废话说够了！说正经的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache02_060BC717#INFO:NAM1#7ed7f027f7964fb4111d89993afe39ff",
+    "original": "Fine. Some people just don't appreciate the spoken word.",
+    "translation": "好吧，有些人就是不健谈。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache02_060BC717#INFO:NAM1#c33b393862fe00464d12eb6edc2d3ed4",
+    "original": "This holotape contains the location of the military weapons cache. I hope you put them to good use and keep up the fight.",
+    "translation": "这盘全息磁带包含了军事武器贮藏地的位置。希望你别拿它干坏事，继续战斗。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache02_060BC717#INFO:NAM1#22a69e20fa17827de8cdbccc6bc7854e",
+    "original": "Remember to keep us tuned in while you're out there, and watch yourself.",
+    "translation": "记住与我们保持联络。自己多加小心。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache01_000BC710#DIAL:FULL#e6705ba3631d12ce6edd19e3d60904cd",
+    "original": "I did my part. Now it's your turn to contribute to the Good Fight.",
+    "translation": "我做了我该做的。现在轮到你为圣战做贡献了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache01_060BC716#INFO:NAM1#f781e2b2a981d3c3c9e4396aa6cfba7c",
+    "original": "This holotape contains the location of the military weapons cache.",
+    "translation": "这盘全息磁带包含了隐藏军火库的位置。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache01_060BC716#INFO:NAM1#a9ad5edabd60ce89cd30390eb6697de1",
+    "original": "I hope you put them to good use and keep up the fight.",
+    "translation": "希望你用于正途，继续战斗。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache01_060BC716#INFO:NAM1#22a69e20fa17827de8cdbccc6bc7854e",
+    "original": "Remember to keep us tuned in while you're out there, and watch yourself.",
+    "translation": "记住与我们保持联络。自己多加小心。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache_000BC711#DIAL:FULL#c39b5e4b24603439e5cc3e1407d6b438",
+    "original": "Yes, please.",
+    "translation": "是的。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache_060BC715#INFO:NAM1#5e8e7527bfb21df2eb24f2235d40e75a",
+    "original": "This holotape contains the location of the weapons cache.",
+    "translation": "这盘全息磁带包含了隐藏军火库的位置。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache_060BC715#INFO:NAM1#a9ad5edabd60ce89cd30390eb6697de1",
+    "original": "I hope you put them to good use and keep up the fight.",
+    "translation": "希望你用于正途，继续战斗。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02TellMeCache_060BC715#INFO:NAM1#22a69e20fa17827de8cdbccc6bc7854e",
+    "original": "Remember to keep us tuned in while you're out there, and watch yourself.",
+    "translation": "记住与我们保持联络。自己多加小心。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyISavedPFallsKids_000BF7CD#DIAL:FULL#6a50a32c3afd937898aaf78e6b7d55f5",
+    "original": "I'm the one who saved the kids from Paradise Falls.",
+    "translation": "是我从堕落天堂救了这些孩子。",
+    "stage": 1
+  },
+  {
+    "key": "LLMacCreadyISavedPFallsKids_060BF7CF#INFO:NAM1#6198b5e70376fa1192766e7a044dff40",
+    "original": "Oh yeah? Well why didn't you say so, you stupid mungo?",
+    "translation": "哦，是吗？你为什么不说，你这愚蠢的毛人？",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070023CF#DIAL:FULL#5e42e6d68d9a6868ee621fd8417b338d",
+    "original": "Yeah, I had to kill a few of your guys to get a suit that looked good on me.",
+    "translation": "是啊，我非得杀掉一些你的人来弄一件衣服，这衣服我穿上看起来很不错。",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026A9#INFO:NAM1#4077b18c93cd5fded8f92ffc0d980702",
+    "original": "Are you some kind of idiot? Listen, little girl... hey, wait a second. What's that on your wrist there? Some kind of computer?",
+    "translation": "你是白痴吗？听着，小姑娘…喂，你手腕上那个是什么？是不是某种电脑？",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026A9#INFO:RNAM#59c0b0c49ae304451e6a34e235c92691",
+    "original": "I'm just looking for my dad.",
+    "translation": "我只是在找我的爸爸。",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026AA#INFO:NAM1#1899f1d1ca5d2574e3957dff1073e0c2",
+    "original": "Are you some kind of idiot? Listen, kid... hey, wait a second. What's that on your wrist there? Some kind of computer?",
+    "translation": "你是白痴吗？听着，小伙子…喂，你手腕上那个是什么？是不是某种电脑？",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026AA#INFO:RNAM#59c0b0c49ae304451e6a34e235c92691",
+    "original": "I'm just looking for my dad.",
+    "translation": "我只是在找我的爸爸。",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026AB#INFO:NAM1#08710a45223a01d822594288b8690de0",
+    "original": "I suggest you turn right around before you find yourself full of holes. We've taken over this sector, and...",
+    "translation": "我建议你在被打成马蜂窝之前立即向后转。这里是我们的地盘，还有…...",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026AB#INFO:NAM1#5bcd780bba3db79e9ed5ac71784f4420",
+    "original": "Hang on. Is that some kind of computer on your wrist?",
+    "translation": "等一下。你手腕上那个是某种电脑吗？",
+    "stage": 1
+  },
+  {
+    "key": "DLC02MorrillHelpedNoArmor2_070026AB#INFO:RNAM#e0c666b3b2e52cac0373a914d7fb28c6",
+    "original": "I just stopped in to ransack the place. Didn't expect to find anyone.",
+    "translation": "我只是顺便打一下劫。没想到会找到什么人。",
+    "stage": 1
+  },
+  {
+    "key": "conLLUseMurderPass_0E01E45B#DIAL:FULL#dba4f26ac5ca4e81be8db0b47538215a",
+    "original": "I want to use Murder Pass to reach Vault 87.",
+    "translation": "我想穿过杀戮通道去87号避难所。",
+    "stage": 1
+  },
+  {
+    "key": "conLLUseMurderPass_0E01E45C#INFO:NAM1#b5eb7575e912177e32aeeaf021a10091",
+    "original": "Not unless Mayor says it's okay. You'd better ask him.",
+    "translation": "镇长不答应就不行。你还是去问他吧。",
+    "stage": 1
+  },
+  {
+    "key": "conLLUseMurderPass_0E01E45D#INFO:NAM1#b550cba30cdfe90f4212c6d4efb0e1ce",
+    "original": "You sure about that? It's scary in there. Even I don't like going in there, and I'm really brave.",
+    "translation": "你确定吗？那很可怕的，像我这么勇敢的人都不会轻易去。",
+    "stage": 1
+  },
+  {
+    "key": "conLLUseMurderPass_0E01E45E#INFO:NAM1#5d2eeafb81a63fac5cb4fe08d70926da",
+    "original": "Okay, it's your funeral.",
+    "translation": "好，你就去送死吧。",
+    "stage": 1
+  },
+  {
+    "key": "conLLUseMurderPass_0E01E45E#INFO:NAM1#5638e065511973928cbf32677bd51114",
+    "original": "Come on. We'll open the gate for you.",
+    "translation": "来吧，我们给你开门。",
+    "stage": 1
+  },
+  {
+    "key": "conLLMurderPassYes_0E01E45F#DIAL:FULL#9cfeffd07cc385c9e04965b704f0aad5",
+    "original": "Yeah, I'm sure.",
+    "translation": "嗯，我肯定。",
+    "stage": 1
+  },
+  {
+    "key": "conLLMurderPassYes_0E01E460#INFO:NAM1#e990f9d05c296cc9e9256688f5f6a76c",
+    "original": "Okay, if you say so...",
+    "translation": "好吧，如果你这么说的话..",
+    "stage": 1
+  },
+  {
+    "key": "conLLMurderPassYes_0E01E460#INFO:NAM1#6acf5651c704ed5a32f3dce0f3c3976f",
+    "original": "Come on. Let's get the gate open for you, mungo.",
+    "translation": "来吧。我们给你把门打开，毛人。",
+    "stage": 1
+  },
+  {
+    "key": "conLLMurderPassNo_0E01E461#DIAL:FULL#ef8f3d88d6243a5b425737e065ea2079",
+    "original": "On second thought, nevermind.",
+    "translation": "我又想了想，还是算了吧。",
+    "stage": 1
+  },
+  {
+    "key": "conLLMurderPassNo_0E01E462#INFO:NAM1#6b04492d9e9351ea6afc63a8dd4c7a51",
+    "original": "Okay. Don't worry, I won't tell anyone else you chickened out.",
+    "translation": "好，别担心，我不会告诉任何人你退缩了。",
+    "stage": 1
+  },
+  {
+    "key": "conBOSTelemetry_0E0978DA#DIAL:FULL#710aa00147162702b65dc782ad31c05e",
+    "original": "I've recovered some encrypted Enclave telemetry data to sell.",
+    "translation": "我恢复了一些英克雷的加密遥测数据来卖。",
+    "stage": 1
+  },
+  {
+    "key": "conBOSTelemetry_0E0978DB#INFO:NAM1#f949afca34527280eebd312199692424",
+    "original": "Very well, here is your reward. Use it well, and in good health.",
+    "translation": "很好，这是你的报酬。好好用它吧，祝你身体健康。",
+    "stage": 1
+  },
+  {
+    "key": "conTaftWarning1_0E0C1ABE#INFO:NAM1#6eea615ddf540f5a8ea9d627964c39b7",
+    "original": "Hold it. Keep your distance, or I will fire.",
+    "translation": "站住。保持距离，否则我就开枪了。",
+    "stage": 1
+  },
+  {
+    "key": "conTaftWarning2_0E0C1AC0#INFO:NAM1#304172606ceaa79083ee35c33f1cf3a0",
+    "original": "That's it!",
+    "translation": "到此为止!",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#9d1b8026ed8b490155ef434f6e71d32b",
+    "original": "Walk to Dad.",
+    "translation": "走向父亲。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#554cbd1aeeb2beda47d4334963b17dba",
+    "original": "Open the crib's gate.",
+    "translation": "打开棚屋的门。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#c4b17b556e83afff9b0afa8f35d0faed",
+    "original": "Exit the crib.",
+    "translation": "离开棚屋。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#acdddaa345b215d78a92151b1bc8551e",
+    "original": "Look at the S.P.E.C.I.A.L. book.",
+    "translation": "看看S.P.E.C.I.A.L.书。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#1ecde8b8e5bb47d42d4431c35a20e86c",
+    "original": "Grab a toy and drag it to the play mat.",
+    "translation": "拿个玩具拖到游戏垫上。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#00dc7bb3ee5e9fc451960ae0e362f0d9",
+    "original": "Trigger Dad's return",
+    "translation": "触发爸爸回来",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:CNAM#2636919c89ffc9a7308a3abec18b0ef7",
+    "original": "Follow Dad.",
+    "translation": "跟着父亲。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#9d1b8026ed8b490155ef434f6e71d32b",
+    "original": "Walk to Dad.",
+    "translation": "走向父亲。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#b47f93bf1da4bbb397ba11113aa49a56",
+    "original": "Open the playpen's gate.",
+    "translation": "打开幼儿围栏的门。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#d003b7f9c81024f94087910159338c15",
+    "original": "Exit the playpen.",
+    "translation": "打开围栏。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#a446773deae80fa5f01af55d14e29e88",
+    "original": "Jump onto the chair to reach inside the toy box.",
+    "translation": "跳到椅子上，进到玩具盒里。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#66348acca939f39cd383b79b2c6b6de9",
+    "original": "Grab a toy and drag it into the playpen.",
+    "translation": "抓起一个玩具, 把它扔到婴儿床上。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#1ee44b73860e3c66dbc5f6389b2f44ec",
+    "original": "Play with your toys.",
+    "translation": "和玩具玩。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#2636919c89ffc9a7308a3abec18b0ef7",
+    "original": "Follow Dad.",
+    "translation": "跟着父亲。",
+    "stage": 1
+  },
+  {
+    "key": "CG01_06014E83#QUST:NNAM#25fe852ff6b1570bfd3564d7b3299c46",
+    "original": "Look at the \"You're SPECIAL!\" book.",
+    "translation": "捡起那本\"你非常的特别噢！\"看看。",
+    "stage": 1
+  },
+  {
+    "key": "CG03_06014E85#QUST:NNAM#e541ccab295251208de414f385f2c225",
+    "original": "Sit down and take the G.O.A.T.",
+    "translation": "找个座位坐下，开始G. O. A. T. 测试。",
+    "stage": 1
+  },
+  {
+    "key": "CG03_06014E85#QUST:NNAM#b931197c8a69ef4072a487896fc31c90",
+    "original": "Get to class and talk to Mr. Brotch about the G.O.A.T.",
+    "translation": "到教室找布洛彻先生了解G. O. A. T. 的事情。",
+    "stage": 1
+  },
+  {
+    "key": "CG03_06014E85#QUST:NNAM#c83cb83ec79b08dd569d323dbc7fa804",
+    "original": "Exit the classroom.",
+    "translation": "离开教室。",
+    "stage": 1
+  },
+  {
+    "key": "CG03_06014E85#QUST:NNAM#3c4af711b59563b453f25f752872b756",
+    "original": "Turn in the G.O.A.T. to Mr. Brotch.",
+    "translation": "把G. O. A. T. 答卷交给布洛彻先生。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#302740c571e5711f1f0023b9d3826e9b",
+    "original": "Enter the Overseer's office.",
+    "translation": "进入监督者的办公室。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#0d3ba021cef03e2b8a8f6f8670c37d4b",
+    "original": "Use the Overseer's computer to access the secret tunnel.",
+    "translation": "使用监督者的电脑打开秘密通道。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#951ab2dd260f265441af14f8a5c46858",
+    "original": "Enter the reactor room.",
+    "translation": "进入反应堆室。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#bf0940c7fa7bdff8bff3ce6f21096d8b",
+    "original": "Turn the power back on.",
+    "translation": "打开后备电源。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#6a08f241b7b1aaaffc502514f02ce390",
+    "original": "Player flips first reactor switch -- guards react",
+    "translation": "玩家首先开启反应堆开关——守卫反应",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#9ddfe97a318ef81a5fd920da60e94bf4",
+    "original": "Open the vault door.",
+    "translation": "打开避难所的大门。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:CNAM#89f67e5ef743ad2273b2d990105e851e",
+    "original": "Escape from Vault 101.",
+    "translation": "逃离101号避难所。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#f4484a0c96badba2ec31706c90dbd13f",
+    "original": "Talk to Amata about her plan to escape the Vault.",
+    "translation": "和阿玛塔谈谈逃出避难所的计划。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#302740c571e5711f1f0023b9d3826e9b",
+    "original": "Enter the Overseer's office.",
+    "translation": "进入监督者的办公室。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#fa858a26bf36d1b52133db905a68c4e3",
+    "original": "Enter the reactor control room.",
+    "translation": "进入配电控制室。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#bf0940c7fa7bdff8bff3ce6f21096d8b",
+    "original": "Turn the power back on.",
+    "translation": "打开后备电源。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#3442589a4696a5b5bd607b39709a65cc",
+    "original": "Open the Vault door.",
+    "translation": "打开避难所的大门。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#0d3ba021cef03e2b8a8f6f8670c37d4b",
+    "original": "Use the Overseer's computer to access the secret tunnel.",
+    "translation": "使用监督者的电脑打开秘密通道。",
+    "stage": 1
+  },
+  {
+    "key": "CG04_06014E86#QUST:NNAM#20e81d385513ddb827450524d75d262b",
+    "original": "Escape the Vault.",
+    "translation": "逃离避难所。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:FULL#dd0392b53e334832febc678e7151c1d0",
+    "original": "Galaxy News Radio",
+    "translation": "银河新闻电台",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:CNAM#ef3926fe129975724f675b0aade05eb5",
+    "original": "Find the Museum of Technology",
+    "translation": "找到科技博物馆。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:CNAM#30cf0f0af8677eb2e073c0b561b97216",
+    "original": "Retrieve the Virgo II Communications Dish",
+    "translation": "取回室女座2号通讯碟形天线",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:CNAM#9a32485a0ac3d5e1532772837d5a0008",
+    "original": "Find the Washington Monument",
+    "translation": "找到华盛顿纪念碑。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:CNAM#185b046fa077d74b5b25c1d66da1a88f",
+    "original": "Repair the damaged radio relay",
+    "translation": "修复损坏的中继电台。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:CNAM#4f6f211fd7e31388d99902c5b2c5da8c",
+    "original": "Return to the Galaxy News Radio station and speak with Three Dog.",
+    "translation": "返回银河新闻电台，与三狗交谈。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:NNAM#690f967717e52b3e06c83acd2e38c768",
+    "original": "Find the Museum of Technology.",
+    "translation": "找到科技博物馆。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:NNAM#aea6d5f8e923020859ff0a3eaddab5d2",
+    "original": "Retrieve the Communications Relay Dish.",
+    "translation": "拿到通讯碟形天线。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:NNAM#a5d9a4f05e5f211538a4ebe054923302",
+    "original": "Find the Washington Monument.",
+    "translation": "找到华盛顿纪念碑。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:NNAM#ad511587dd6f49f7245e314b51fb0492",
+    "original": "Repair the damaged radio relay.",
+    "translation": "修复损坏的中继电台。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:NNAM#900034a9f5477e52f28184793687ebf7",
+    "original": "Speak to Three Dog about Dad.",
+    "translation": "找三狗打听父亲的行踪。",
+    "stage": 1
+  },
+  {
+    "key": "MQ02_06014E88#QUST:NNAM#2421951d69fae462095f2acf3df758e9",
+    "original": "Speak to Three Dog about the Weapons Cache.",
+    "translation": "找三狗询问有关武器贮藏处的事情。",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:FULL#e99d43be6a117f104d00e3bf746a0f20",
+    "original": "MQ01 Level Design Quest",
+    "translation": "MQ01关卡设计任务",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#1d06378a004eddc06ac0ff5a95439c8d",
+    "original": "Quickstart to checkpoint scene",
+    "translation": "快速启动至检查点场景",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#1a4aca054d6bf43b3334b24928542caf",
+    "original": "Quickstart to schoolhouse battle",
+    "translation": "快速启动至校舍战斗",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#e9c8d387737e8603de9050bf0d8a93b1",
+    "original": "Quickstart schoolhouse dialogue scene",
+    "translation": "快速启动校舍对话场景",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#a36fc11233df1c1402d0d326d9e5eac0",
+    "original": "Quickstart at start of GNR battle",
+    "translation": "快速启动GNR战斗开始",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#d3608f85d752d47cb29757fbb1d58be2",
+    "original": "Quickstart end of GNR battle",
+    "translation": "快速启动GNR战斗结束",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#aa3d7248bfab8b54dd041006c569a77c",
+    "original": "Quickstart at Behemoth entry",
+    "translation": "快速启动巨兽入口",
+    "stage": 1
+  },
+  {
+    "key": "MQ01LD_0601D493#QUST:CNAM#f9b07dc3ecb0398134f720d174cd7592",
+    "original": "Quickstart to post MQ01 battle",
+    "translation": "快速启动MQ01战斗后",
+    "stage": 1
+  },
+  {
+    "key": "conOpenWorldDCStart_0E00CD1D#QUST:FULL#a91e6c6eb5f0683cb944d6f244ccc964",
+    "original": "Open World DC Startup",
+    "translation": "开放世界DC启动",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:FULL#0fbf12db32a9a484d05bb20f97da1c65",
+    "original": "The Waters of Life",
+    "translation": "生命之水。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:CNAM#4a01386f8b35a0edb1985dcda915a5c5",
+    "original": "Escort Doctor Li inside the Citadel.",
+    "translation": "护送李博士进入五角大本营。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#9e80a4eb52d2b4f8fb47ecdd92ce22b7",
+    "original": "Join the scientists at Project Purity.",
+    "translation": "加入净水工程的科学小组.",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#a0d44db898f9f00950c7b1f010a2a334",
+    "original": "Go to the Rivet City Science Lab.",
+    "translation": "前往铆钉城的科学实验室。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#a063af5e8aaa4327e1d3dcd68f6a7686",
+    "original": "Turn on the Flood Control Pump Power.",
+    "translation": "打开泄洪泵。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#fd1ab97a83db8233fe6a5cbb07145b11",
+    "original": "Get the fuses from Dad.",
+    "translation": "在父亲那里拿到保险丝。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#367031a2d92e914d9f2ae56181ef86a0",
+    "original": "Replace the damaged fuses.",
+    "translation": "替换损坏的保险丝。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#59c28f95cb8f871d56f1ca42d0aa63ed",
+    "original": "Boot up the mainframe.",
+    "translation": "启动主机。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#fedebb2d0b553354fc7c7dfed25db8d4",
+    "original": "Return to the control room.",
+    "translation": "返回控制室。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#6c43b0f9bb770286c7474ce2b8fa0fbf",
+    "original": "Escort Doctor Li to the evacuation point.",
+    "translation": "护送李博士撤退到疏散点。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#be26e0f7155a55934c97d36f32386152",
+    "original": "Escort Doctor Li through Taft Tunnel to the Citadel.",
+    "translation": "护送李博士穿越通往五角大本营的塔夫特隧道。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#93026f053b00d5d4457890963ed635b1",
+    "original": "Deal with the Garza \"situation.\"",
+    "translation": "解决加尔萨的\"问题\"",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#25a33642edc1c037a3a06bdc7e0ae6a1",
+    "original": "Drain the intake pipes.",
+    "translation": "疏通进气管。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#51a0e2ba291791f377972e44c06d043b",
+    "original": "Clear Project Purity of any remaining Mutant threat.",
+    "translation": "扫清净水工厂内残余变种人的威胁。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#62676a33315b16ee1d32e1a6f72d3e92",
+    "original": "Escort the scientists inside Project Purity.",
+    "translation": "护送科学小组进入净水工厂。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#d09fe9a67df1d167df05294a349cedd0",
+    "original": "Tell Dad it's safe to enter Project Purity.",
+    "translation": "告诉父亲净水工厂可以安全进入了。",
+    "stage": 1
+  },
+  {
+    "key": "MQ05_06014E8B#QUST:NNAM#4c4c81b47545c9a88c4e4dfdea442197",
+    "original": "Speak with Dad over the intercom.",
+    "translation": "用对讲机和父亲说话。",
+    "stage": 1
+  },
+  {
+    "key": "conTTWStart_0E0455DC#QUST:FULL#e6f20aacbe7d25bfa4010b01c81afadd",
+    "original": "DC Open World TTW Start Quest",
+    "translation": "DC开放世界TTW启动任务",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:CNAM#151b1dd96aa6a6f5edb5a6a2416a1a92",
+    "original": "Enjoy the party and speak with the guests.",
+    "translation": "享受这个聚会并和客人们聊聊。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:CNAM#efb71155b103718ae334343e94cbdfc2",
+    "original": "Dad finished talking to player",
+    "translation": "爸爸和玩家谈完了",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:CNAM#f0fdfb8bb7087d1ca25db0692586903b",
+    "original": "Follow Dad to my surprise present.",
+    "translation": "跟着爸爸去看我的惊喜礼物。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:CNAM#1785e9aaf03f0d6d6dc5abccb746f789",
+    "original": "Shoot all 3 targets with the BB gun.",
+    "translation": "用BB枪射中所有3个目标。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:CNAM#af4831687692b665ef8cb8711d66e261",
+    "original": "Use the BB gun to kill the radroach.",
+    "translation": "用BB枪杀死辐射蟑螂。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:CNAM#435326d491ac175da1b125b7aa6e5bcc",
+    "original": "Stand next to Dad so Jonas can take the picture.",
+    "translation": "站到父亲身边，乔纳斯给你们俩照张相。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:NNAM#151b1dd96aa6a6f5edb5a6a2416a1a92",
+    "original": "Enjoy the party and speak with the guests.",
+    "translation": "享受这个聚会并和客人们聊聊。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:NNAM#daf720a1980f39d9e6dd0f4917cce66c",
+    "original": "Meet Jonas on the Reactor Level.",
+    "translation": "去反应器层找乔纳斯。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:NNAM#5808b9738d27e3f616e2dd83eba0301f",
+    "original": "Use the BB Gun to kill the Radroach.",
+    "translation": "用BB枪杀死辐射蟑螂。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:NNAM#435326d491ac175da1b125b7aa6e5bcc",
+    "original": "Stand next to Dad so Jonas can take the picture.",
+    "translation": "站到父亲身边，乔纳斯给你们俩照张相。",
+    "stage": 1
+  },
+  {
+    "key": "CG02_00014E84#QUST:NNAM#fa0f2cddf7a63f954f1dcfb4ad5be604",
+    "original": "Shoot all three targets with the BB Gun.",
+    "translation": "用BB枪射击三个靶子各一次。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:FULL#8cae7f8ed70fe2a0e0f479ac5c796c72",
+    "original": "Scientific Pursuits",
+    "translation": "科学的追求",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#5de2c7d84db730dbf73450dd943de935",
+    "original": "Gain entrance to Rivet City.",
+    "translation": "进入铆钉城。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#213b1096e977aa6be33aa4ee9eaae4a6",
+    "original": "Talk to Doctor Li about Dad and Project Purity.",
+    "translation": "和李医生谈谈关于父亲和净水工厂的事情。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#cab288b4f2e7eb249dc9435394d55c22",
+    "original": "Look for Dad in Project Purity's Control Room.",
+    "translation": "去净水工厂控制室里寻找父亲。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#90ed9ce60744f9284a83b351d869b3b0",
+    "original": "Search Dad’s holotapes for clues to his location.",
+    "translation": "寻找父亲的全系磁带, 了解关于他去向的线索。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#89bf03b69ce4f546ef40e6e9876da3a4",
+    "original": "Listen to Dad's personal journal entry 10.",
+    "translation": "收听父亲的10段个人语音日记。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#266868c81bd1d0211163012abf308a56",
+    "original": "Gain access to Vault 112.",
+    "translation": "进入112号避难所。",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#16ef2853b4d310308d09118bdcd08591",
+    "original": "Sit in the unoccupied \"Tranquility Lounger.\"",
+    "translation": "坐进一台空的\"宁静巷催眠舱\"",
+    "stage": 1
+  },
+  {
+    "key": "MQ03_06014E89#QUST:NNAM#6d04e60f40ede669979a9d3e5c4e6545",
+    "original": "Put on a Vault 112 suit.",
+    "translation": "穿上112号避难所的外衣。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHireCross_06062736#QUST:FULL#f9b0c6be281a141ffe27f3f6af1d76a2",
+    "original": "Hiring Star Paladin Cross Quest",
+    "translation": "雇佣星骑士克罗丝任务",
+    "stage": 1
+  },
+  {
+    "key": "DaddysGirl_06069310#PERK:FULL#ed48731311626b188cc821ea29c6b80f",
+    "original": "Technologically Inclined",
+    "translation": "科技达人",
+    "stage": 1
+  },
+  {
+    "key": "DaddysGirl_06069310#PERK:DESC#594bea8b23ca5f4cdff211908e262440",
+    "original": "You've devoted your time to intellectual pursuits. With each rank, hacking gets easier and chems last 10% longer.",
+    "translation": "你全身心投入智力追求。随着等级提升，破解将变得更加容易，化学药物的效果也将延长10%。",
+    "stage": 1
+  },
+  {
+    "key": "DaddysBoy_06044948#PERK:FULL#ed48731311626b188cc821ea29c6b80f",
+    "original": "Technologically Inclined",
+    "translation": "科技达人",
+    "stage": 1
+  },
+  {
+    "key": "DaddysBoy_06044948#PERK:DESC#594bea8b23ca5f4cdff211908e262440",
+    "original": "You've devoted your time to intellectual pursuits. With each rank, hacking gets easier and chems last 10% longer.",
+    "translation": "你全身心投入智力追求。随着等级提升，破解将变得更加容易，化学药物的效果也将延长10%。",
+    "stage": 1
+  },
+  {
+    "key": "TTWStartMessage_0C008DFE#MESG:ITXT#ae9a8be5e7e5d9a185fb63d44e661e17",
+    "original": "Start in Capital Wasteland",
+    "translation": "从首都废土开始",
+    "stage": 1
+  },
+  {
+    "key": "TTWStartMessage_0C008DFE#MESG:ITXT#29d1adc892a07edb45f379572f0f65dd",
+    "original": "Start in Mojave Wasteland",
+    "translation": "从莫哈维废土开始",
+    "stage": 1
+  },
+  {
+    "key": "conBOSAllyMessage_0E08C3F3#MESG:DESC#56ec57bddfef72931599bf6a6eb302ff",
+    "original": "Your assistance to Three Dog has not gone unnoticed.\\nThe Brotherhood of Steel now considers you an ally, and the Citadel is open to you.",
+    "translation": "你对三狗的帮助大家有目共睹。\\n现在钢铁兄弟会将你视为盟友，大本营的大门也向你敞开。",
+    "stage": 1
+  },
+  {
+    "key": "conEnclaveCampMessage_0E08C3F4#MESG:DESC#5115c226ba4382b251d40661410e540e",
+    "original": "Your expedition into Vault 87 has not gone unnoticed.\\nThe Enclave has increased their presence in the Wasteland in an effort to reclaim the stolen technology.",
+    "translation": "你探索87号避难所的行动已经引起了英克雷的注意。\\n为了夺回被盗的技术，他们在废土上加强了兵力部署。",
+    "stage": 1
+  },
+  {
+    "key": "conBOSEnemyMessage_0E08C3F5#MESG:DESC#799ef0ed9325f55660f58dfd5c50b37c",
+    "original": "Your act of overwhelming aggression against the Brotherhood has made you a permanent enemy to them.",
+    "translation": "你对兄弟会的暴力侵略行为使你成为了他们的永久敌人。",
+    "stage": 1
+  },
+  {
+    "key": "conEnclaveCampRemoveMessage_0E08C3F6#MESG:DESC#18af4dfd72b8d901fd9f3e60bae354a1",
+    "original": "The destruction of Adams AFB has forced the Enclave to regroup, and they have abandoned their encampments in the Wasteland.",
+    "translation": "亚当斯空军基地的毁灭迫使英克雷重新集结，他们放弃了在废土的营地。",
+    "stage": 1
+  },
+  {
+    "key": "conCreateCharWarning_0E09CB16#MESG:DESC#6bd02545d63c3b85be8ff761ba067217",
+    "original": "You need to create your character first.",
+    "translation": "你需要先创建角色。",
+    "stage": 1
+  },
+  {
+    "key": "conEnclaveCodeFragmentsMSG_0E0A903E#MESG:DESC#4ca4c5e7842fe868d85aa11ac9bb4332",
+    "original": "You've found an Enclave Code Fragment. If you collect enough fragments, you may be able to piece them together to reveal an access code.",
+    "translation": "你找到了一个英克雷代码碎片。如果你收集到足够的碎片，或许可以将它们拼凑起来以获取访问代码。",
+    "stage": 1
+  },
+  {
+    "key": "conEnclaveBrassMessage_0E0D320B#MESG:DESC#57df03dca51a05e1e01ad74c5cf0a98b",
+    "original": "The death of one of the Enclave's leaders has caused them to retaliate.\\nThe Enclave presence in the Wasteland has greatly increased.",
+    "translation": "英克雷一位领队的死亡引发了他们的报复。\\n如今，英克雷在废土上的势力大大增强。",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:DESC#9d12b6ef3e872d2106b932617e1eb069",
+    "original": "Please create your character.",
+    "translation": "请创建你的角色",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:ITXT#89d42520ec1a78e31ecb5f98e6439818",
+    "original": "Edit Name",
+    "translation": "编辑姓名",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:ITXT#5ff0458ef52af6fe2f46752d9b11ec25",
+    "original": "Edit Race/Sex",
+    "translation": "编辑血统",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:ITXT#ff3f21f550a9bbeaf3c99b6b7d421d82",
+    "original": "Edit S.P.E.C.I.A.L.",
+    "translation": "编辑属性",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:ITXT#00236f0e23a9bc8bdc59fbb947cef0e2",
+    "original": "Edit Traits",
+    "translation": "编辑特征",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:ITXT#c42c3a8b9f8ce7332b6385723d529119",
+    "original": "Edit Tag Skills",
+    "translation": "编辑技能",
+    "stage": 1
+  },
+  {
+    "key": "CG04VaultExitMessage_0005CF94#MESG:ITXT#7b9e1affc547ffbecb5ebb236643bcb6",
+    "original": "Finished - Finalize Character",
+    "translation": "完成-确定角色",
+    "stage": 1
+  },
+  {
+    "key": "PPurityControlNoPowerMessage_00070797#MESG:DESC#c1fb34fb1eb99dd3753a375032a06be9",
+    "original": "You lack a purification method.",
+    "translation": "你缺少净化的方法。",
+    "stage": 1
+  },
+  {
+    "key": "VCG01CasualHardcoreMessage_0011E661#MESG:DESC#9928788d0823c06103980561b8e531ba",
+    "original": "Fallout: New Vegas allows you to play in a new Hardcore mode that greatly increases the challenge of the game. In this mode, Stimpaks heal over time and cannot mend broken limbs, RadAway removes radiation over time, ammunition has weight, and dehydration is a constant concern. This mode is only recommended for advanced players.\\n\\nYou may turn Hardcore mode on or off at any time in the Gameplay menu, but if you activate Hardcore mode now and maintain it through the end of the main storyline, you will receive a special reward. Would you like to activate Hardcore mode?",
+    "translation": "《辐射：新维加斯》允许你在崭新的硬核模式下游玩，大幅度提升游戏难度。在这一模式下，治疗针回血需要时间，也不能通过其使断肢愈合；辐特宁消除辐射需要时间，弹药有重量，缺水会变成持续性问题。只推荐高端玩家启用这一模式。\\n\\n你随时可以在游戏菜单里打开或关闭硬核模式，但如果你现在激活硬核模式，并在硬核模式下打穿主线故事，你就可以获得特别奖励。你愿意启动硬核模式吗？",
+    "stage": 1
+  },
+  {
+    "key": "VCG01CasualHardcoreMessage_0011E661#MESG:FULL#bdb9d473bb0b28f9ae050c05ba1727b1",
+    "original": "Hardcore Mode",
+    "translation": "硬核模式",
+    "stage": 1
+  },
+  {
+    "key": "VCG01CasualHardcoreMessage_0011E661#MESG:ITXT#98850cbf11a030aa2551e98712849d3a",
+    "original": "No",
+    "translation": "不",
+    "stage": 1
+  },
+  {
+    "key": "VCG01CasualHardcoreMessage_0011E661#MESG:ITXT#7fbd6abf2abf3fe20cbe7b9693580923",
+    "original": "Yes",
+    "translation": "是",
+    "stage": 1
+  },
+  {
+    "key": "OWDCTeslaCannonRecipe_0E0F1EE4#RCPE:FULL#68d0e78b177b315797f5212ce7490a96",
+    "original": "Tesla Cannon Prototype",
+    "translation": "特斯拉加农炮",
+    "stage": 1
+  },
+  {
+    "key": "Vault101aMS16_06099E9E#CELL:FULL#adc5be80cdb74e30c21a9af13c49276c",
+    "original": "Vault 101 Entrance",
+    "translation": "号避难所入口",
+    "stage": 1
+  },
+  {
+    "key": "SatComArray02Interior_0607684A#CELL:FULL#0d24cfa982369cddc347032d1b5fc92d",
+    "original": "Satellite Facility",
+    "translation": "卫星设施",
+    "stage": 1
+  },
+  {
+    "key": "TaftTunnel01_0601B56C#CELL:FULL#fde3ff56b884debf5ab0f360ef420b2a",
+    "original": "Taft Tunnel",
+    "translation": "塔夫特隧道",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock04_0601E0F1#CELL:FULL#af64d118c59b2c836e98a81768699b6b",
+    "original": "Raven Rock - Control Room",
+    "translation": "黑鸦领－控制室",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock03_06018539#CELL:FULL#f34cd65e84b393a075938b61f38d19ad",
+    "original": "Raven Rock - Level 3",
+    "translation": "黑鸦领－第3层",
+    "stage": 1
+  },
+  {
+    "key": "DLC03EternalGlowBasement_09003A21#CELL:FULL#dce3c0e314a65524178aa31295f23610",
+    "original": "Eternal Light Monastery",
+    "translation": "永恒之光修道院",
+    "stage": 1
+  },
+  {
+    "key": "DLC03Vertibird03_09005709#CELL:FULL#843650fbae746ba2217496c5a633ceec",
+    "original": "Vertibird Interior",
+    "translation": "飞鸟内部",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock02_0601853A#CELL:FULL#d95a70001cafce51ad392609e0c2fa8e",
+    "original": "Raven Rock - Level 2",
+    "translation": "黑鸦领－第2层",
+    "stage": 1
+  },
+  {
+    "key": "OpenWorldDCStartCell_0E045526#CELL:FULL#b65710a9fc187e5f2ecb97872ff37af4",
+    "original": "Start Room",
+    "translation": "起始房间",
+    "stage": 1
+  },
+  {
+    "key": "Vault87a_06018527#CELL:FULL#0b25f0e8a77b0d4eb452abc3d63aa6a6",
+    "original": "Test Labs",
+    "translation": "测试实验室",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayStation01_09000913#CELL:FULL#0d24cfa982369cddc347032d1b5fc92d",
+    "original": "Satellite Facility",
+    "translation": "卫星设施",
+    "stage": 1
+  },
+  {
+    "key": "DLC03Powerworks02_0900A107#CELL:FULL#30998ec9e2a7a85bc2f37765c8f8b65a",
+    "original": "Old Olney Underground",
+    "translation": "奥尼尔老镇地下城",
+    "stage": 1
+  },
+  {
+    "key": "OldOlney01_0604F4E1#CELL:FULL#ac517edac63de0037c458fe5183a10db",
+    "original": "Olney Sewers",
+    "translation": "奥尔尼老镇下水道",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock01_0601853B#CELL:FULL#503d3aa1e15c548866716f89ad10eb18",
+    "original": "Raven Rock - Level 1",
+    "translation": "黑鸦领－第1层",
+    "stage": 1
+  },
+  {
+    "key": "DLC03EnclaveTower_09000805#CELL:FULL#69d6c04d862988de8578fb175b3ea74c",
+    "original": "Satellite Control Tower",
+    "translation": "卫星控制塔",
+    "stage": 1
+  },
+  {
+    "key": "Vault101a_06024512#CELL:FULL#adc5be80cdb74e30c21a9af13c49276c",
+    "original": "Vault 101 Entrance",
+    "translation": "号避难所入口",
+    "stage": 1
+  },
+  {
+    "key": "DLC03EnclaveBase01_09000806#CELL:FULL#309001ad73a0b08e207bc793e7f48671",
+    "original": "Mobile Base Crawler",
+    "translation": "履带式移动基站",
+    "stage": 1
+  },
+  {
+    "key": "zDLC03CarTunnel_09001490#CELL:FULL#51b153ab92ce967bbf5f6f2e338e27e5",
+    "original": "Rockland Car Tunnel",
+    "translation": "罗克兰汽车隧道",
+    "stage": 1
+  },
+  {
+    "key": "DLC03Powerworks03_0900739A#CELL:FULL#dc6aa9e10f5a01330442e27cfb6da0ef",
+    "original": "Old Olney S. Wilson Building",
+    "translation": "奥尼尔老镇威尔逊大楼",
+    "stage": 1
+  },
+  {
+    "key": "PPurity01_06018520#CELL:FULL#323ce03acc1d0bbf8023ec7e19e230bd",
+    "original": "Jefferson Memorial Rotunda",
+    "translation": "杰斐逊纪念馆圆形大厅",
+    "stage": 1
+  },
+  {
+    "key": "DLC03PresMetro01_09000808#CELL:FULL#e566bbf25066ac406bbc1ee7f20c65a6",
+    "original": "Presidential Sub Level",
+    "translation": "总统专用通道",
+    "stage": 1
+  },
+  {
+    "key": "PPurity02_06018521#CELL:FULL#34b08545e3d7f4b5eedfc5453af55deb",
+    "original": "Jefferson Museum and Gift Shop",
+    "translation": "杰斐逊博物馆和礼品店",
+    "stage": 1
+  },
+  {
+    "key": "Vault101dMS16_06099E9B#CELL:FULL#be4db4b1edd1eb4e8a484f275fccab63",
+    "original": "Vault 101 Lower Level",
+    "translation": "101号避难所下层",
+    "stage": 1
+  },
+  {
+    "key": "LL_06020F91#CELL:FULL#ad6a1c1a1b3e41b531ed9c9ad60bf901",
+    "original": "Lamplight Caverns",
+    "translation": "小灯镇山洞",
+    "stage": 1
+  },
+  {
+    "key": "Vault112a_0601852C#CELL:FULL#69c8ea41d0d09b8813735a04bb269bbc",
+    "original": "Vault 112",
+    "translation": "112号避难所",
+    "stage": 1
+  },
+  {
+    "key": "LLGrandChamber_0604550F#CELL:FULL#3180059376cdf23dd9ace923d3328cb4",
+    "original": "The Great Chamber",
+    "translation": "大议事厅",
+    "stage": 1
+  },
+  {
+    "key": "zDCint08b_06076DA3#CELL:FULL#439bd42c49b3aaae8d636775f33fa4f8",
+    "original": "Utility",
+    "translation": "工作间",
+    "stage": 1
+  },
+  {
+    "key": "Vault87c_06018537#CELL:FULL#acb07dfa83166b86966fc1ec3dceacd1",
+    "original": "Reactor Chamber",
+    "translation": "反应堆大厅",
+    "stage": 1
+  },
+  {
+    "key": "DLC03Vertibird02_09005559#CELL:FULL#843650fbae746ba2217496c5a633ceec",
+    "original": "Vertibird Interior",
+    "translation": "飞鸟内部",
+    "stage": 1
+  },
+  {
+    "key": "CitadelLab_06015157#CELL:FULL#69f2cd57c4125071160cacf1377be265",
+    "original": "Citadel - Laboratory",
+    "translation": "五角大本营－实验室",
+    "stage": 1
+  },
+  {
+    "key": "TaftTunnel02_0606A8FF#CELL:FULL#a57ab0b0408f3b3df2d0a31342a5df18",
+    "original": "Taft Tunnels",
+    "translation": "塔夫特隧道",
+    "stage": 1
+  },
+  {
+    "key": "DCworld08_0601A267#WRLD:FULL#c2b3b6abf38f6f0da77f53def2dc52ad",
+    "original": "Pennsylvania Avenue",
+    "translation": "宾夕法尼亚大道",
+    "stage": 1
+  },
+  {
+    "key": "Wasteland_0607EA1F#WRLD:FULL#510e566fadcbe2d2a758bbdd542b829c",
+    "original": "Capital Wasteland",
+    "translation": "华盛顿废土",
+    "stage": 1
+  },
+  {
+    "key": "RavenRockMapMarkerREF_06003173#REFR:FULL#ab87d23d418da5c7ea21107f6c556fd9",
+    "original": "Raven Rock",
+    "translation": "黑鸦岭基地",
+    "stage": 1
+  },
+  {
+    "key": "DLC03WQ03MonasteryMapMarker_0900B822#REFR:FULL#4d16e923067f2c58816cb627a265c492",
+    "original": "Holy Light Monastery",
+    "translation": "圣光修道院",
+    "stage": 1
+  },
+  {
+    "key": "OWDCAdamsAFBMapMarker_0E0FE404#REFR:FULL#412ced179e4bddd00dd8df560af5a3ad",
+    "original": "Adams Air Force Base",
+    "translation": "亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "DLC03AdamsAFB_09000803#WRLD:FULL#412ced179e4bddd00dd8df560af5a3ad",
+    "original": "Adams Air Force Base",
+    "translation": "亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "OWDCCapitalWastesAFBMarker_0E0FF476#REFR:FULL#510e566fadcbe2d2a758bbdd542b829c",
+    "original": "Capital Wasteland",
+    "translation": "华盛顿废土",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayStation_09000B0D#WRLD:FULL#e5b9455fb94576ccdd39bb02d3b0b59c",
+    "original": "Satellite Relay Station",
+    "translation": "卫星中继站",
+    "stage": 1
+  },
+  {
+    "key": "DLC03CitadelWorld_09001B65#WRLD:FULL#4f6d1678276085115406d79862dfd992",
+    "original": "The Citadel Courtyard",
+    "translation": "五角大本营操场",
+    "stage": 1
+  }
+]

@@ -92,8 +92,25 @@
 		<xml path="Data/NVCHSDict/TTW/Zeta.xml"/>
 		<xml path="Data/NVCHSDict/TTW/TaleOfTwoWastelands.xml" priority="11"/>
 		<xml path="Data/NVCHSDict/TTW/YUPTTW.xml" priority="11"/>
-		<file target="Data/NVCHSDict/TTW/fallout3_chs.txt" src="Data/NVCHSDict/TTW/fallout3_en.txt" type="2" priority="11"/>
-		<file target="Data/NVCHSDict/TTW/fo3map_chs.txt" src="Data/NVCHSDict/TTW/fo3map_en.txt" type="2" priority="11"/>
+		<xml path="Data/NVCHSDict/TTW/TTW_Dial/TaleOfTwoWastelands_Dial.xml" priority="11"/>
+		<xml path="Data/NVCHSDict/TTW/TTW_Dial/YUPTTW_Dial.xml" priority="11"/>
+		<file target="Data/NVCHSDict/TTW/fallout3_chs.txt" src="Data/NVCHSDict/TTW/fallout3_en.txt" type="2" priority="12"/>
+		<file target="Data/NVCHSDict/TTW/fo3map_chs.txt" src="Data/NVCHSDict/TTW/fo3map_en.txt" type="2" priority="12"/>
+		
+		<json path="Data/NVCHSDict/json/TTW/Fallout3.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/Anchorage.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/ThePitt.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/BrokenSteel.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/PointLookout.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/Zeta.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/TaleOfTwoWastelands.json" priority="3" />
+		<json path="Data/NVCHSDict/json/TTW/YUPTTW.json" priority="3" />
+		
+		<json path="Data/NVCHSDict/json/TTW/TTW_Dial/TaleOfTwoWastelands_Dial.json" priority="2" />
+		<json path="Data/NVCHSDict/json/TTW/TTW_Dial/YUPTTW_Dial.json" priority="2" />
+		
+		<!-- Essential Capital Enhancements Merged -->
+		<json path="Data/NVCHSDict/json/Mods/Essential_Capital_Enhancements_Merged.json" priority="3" />
 		
 		<!-- Someguy -->
 		<xml path="Data/NVCHSDict/Mods/Someguy/NewVegasBounties.xml"/>
@@ -125,6 +142,9 @@
 		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/AltStart_Dial.json" priority="2" />
 		<file target="Data/NVCHSDict/Mods/AltStart_chs.txt" src="Data/NVCHSDict/Mods/AltStart_en.txt" type="2" priority="3"/>
 		<file target="Data/NVCHSDict/Mods/Alternate_Start_-_Open_World_DC_Patch_chs.txt" src="Data/NVCHSDict/Mods/Alternate_Start_-_Open_World_DC_Patch_en.txt" type="2" priority="3"/>
+		
+		<!-- Open World DC -->
+		<json path="Data/NVCHSDict/json/Mods/OpenWorldDC.json" priority="3" />
 		
 		<!-- Unfriendlier Persuasion -->
 		<json path="Data/NVCHSDict/json/Mods/UnfriendlierPersuasion.json" priority="3" />
