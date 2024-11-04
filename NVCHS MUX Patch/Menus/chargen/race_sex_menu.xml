@@ -1,0 +1,558 @@
+<!-- Reflectron (Race & Haircut) menu
+Used at chargen to define the race, sex, facial features and haircut. It's also used for haircuts only.
+COPYRIGHT BY ZENIMAX; MODIFIED JUNE 2021 BY AXONIS FOR VANILLA UI PLUS
+* Set color to the Pip-Boy color
+* Fixed the alignment of the string on the NEXT/DONE button
+* Fixed the untextured gray stripe at the top
+* Set the marker to use an thick line instead of a thin text character
+* Added mouseover sounds and target highliting to the slider elements
+-->
+<menu name="RaceSexMenu">
+	<class> &RaceSexMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<id> &pipboymenu; </id> <!-- Not actually a pipboy menu but it's a renderedmenu. -->
+	<systemcolor> &pipboy; </systemcolor>
+
+	<user0></user0> <!-- active list number -->
+	<user1></user1> <!-- slider bar left -->
+	<user2></user2> <!-- slider bar right -->
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<width> 340 </width>
+		<height> 500 </height>
+		<locus> 1 </locus>
+
+		<image name="RSM_Background">
+			<filename> Interface\Shared\Background\pipboy.dds </filename>
+			<id> 0 </id>
+			<zoom> &scale; </zoom>
+			<locus> 1 </locus>
+			<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+			<brightness> 90 </brightness>
+			<depth> 1 </depth>
+			<x> 930 </x>
+			<y> 540 </y> <!--VUI+ remove untextured stripe at the top -->
+			<width> <copy src="parent" trait="width"/> </width>
+			<height> <copy src="parent" trait="height"/> </height>
+			<_top_bound> 80 </_top_bound>
+			<_bot_bound> 336 </_bot_bound>
+
+			<hotrect name="RSM_scroll_up_target">
+				<id> 2 </id>
+				<target> 1 </target>
+				<visible> 0 </visible>
+				<brightness> 128 </brightness>
+				<alpha>
+					<copy> 255 </copy>
+					<onlyif>
+						<copy src="me" trait="mouseover"/>
+						<eq> 1 </eq>
+					</onlyif>
+				</alpha>
+				<locus> 1 </locus>
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="width"/>
+					<div> 2 </div>
+				</x>
+				<y> 62 </y>
+				<width> <copy src="child(RSM_scroll_up)" trait="filewidth"/> </width>
+				<height> <copy src="child(RSM_scroll_up)" trait="fileheight"/> </height>
+				<clicksound> UIPipboyScroll </clicksound>
+
+				<image name="RSM_scroll_up">
+					<filename> Interface\Shared\Scrollbar\arrow_up.dds </filename>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+				</image>
+			</hotrect>
+
+			<hotrect name="RSM_scroll_down_target">
+				<id> 3 </id>
+				<target> 1 </target>
+				<visible> 0 </visible>
+				<brightness> 128 </brightness>
+				<alpha>
+					<copy> 255 </copy>
+					<onlyif>
+						<copy src="me" trait="mouseover"/>
+						<eq> 1 </eq>
+					</onlyif>
+				</alpha>
+				<locus> 1 </locus>
+				<x> <copy src="sibling(RSM_scroll_up_target)" trait="x"/> </x>
+				<y>
+					<copy src="parent" trait="_bot_bound"/>
+					<add> 4 </add>
+				</y>
+				<width> <copy src="child(RSM_scroll_down)" trait="filewidth"/> </width>
+				<height> <copy src="child(RSM_scroll_down)" trait="fileheight"/> </height>
+				<clicksound> UIPipboyScroll </clicksound>
+
+				<image name="RSM_scroll_down">
+					<filename> Interface\Shared\Scrollbar\arrow_down.dds </filename>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="me" trait="fileheight"/> </height>
+				</image>
+			</hotrect>
+
+			<hotrect name="RSM_back_button">
+				<id> 4 </id>
+				<include src="text_box.xml"/>
+				<font> 3 </font>
+				<alpha>
+					<copy> 255 </copy>
+					<onlyif>
+						<copy src="me" trait="mouseover"/>
+						<eq> 1 </eq>
+					</onlyif>
+				</alpha>
+				<brightness> 64 </brightness>
+				<clicksound> UIPipBoyMode </clicksound>
+				<repeatvertical> 1 </repeatvertical> <!-- for moving up from button into list -->
+				<_x> <copy src="me" trait="_indent"/> </_x>
+				<_y> <copy src="sibling(RSM_scroll_down_target)" trait="y"/> </_y>
+				<_box_visible> 0 </_box_visible>
+				<_InheritBrightness> 0 </_InheritBrightness>
+				<_horbuf> 10 </_horbuf>
+				<_verbuf> 5 </_verbuf>
+				<_text_y_adjust> 0 </_text_y_adjust>
+				<_indent> 40 </_indent>
+			</hotrect>
+
+			<hotrect name="RSM_next_button">
+				<id> 5 </id>
+				<include src="text_box.xml"/>
+				<justify> &left; </justify> <!--VUI+ font #5 (and probably fixed width fonts in general) has a buggy right justification so we'll justify by x -->
+				<font> 3 </font>
+				<alpha>
+					<copy> 255 </copy>
+					<onlyif>
+						<copy src="me" trait="mouseover"/>
+						<eq> 1 </eq>
+					</onlyif>
+				</alpha>
+				<brightness> 64 </brightness>
+				<clicksound> UIPipBoyMode </clicksound>
+				<repeatvertical> 1 </repeatvertical> <!-- for moving up from button into list -->
+				<_x>
+					<copy src="parent" trait="width"/>
+					<sub src="sibling(RSM_back_button)" trait="_indent"/>
+					<sub src="me" trait="width" /> <!--VUI+ right justification -->
+				</_x>
+				<_y> <copy src="sibling(RSM_back_button)" trait="_y"/> </_y>
+				<_box_visible> 0 </_box_visible>
+				<_InheritBrightness> 0 </_InheritBrightness>
+				<_horbuf> <copy src="sibling(RSM_back_button)" trait="_horbuf"/> </_horbuf>
+				<_verbuf> <copy src="sibling(RSM_back_button)" trait="_verbuf"/> </_verbuf>
+				<_text_y_adjust> <copy src="sibling(RSM_back_button)" trait="_text_y_adjust"/> </_text_y_adjust>
+			</hotrect>
+		</image>
+
+		<hotrect name="RSM_Face_Grab">
+			<id> 1 </id>
+			<target> 1 </target>
+			<x> 150 </x>
+			<y> 50 </y>
+			<width> 680 </width>
+			<height> 620 </height>
+			<depth> 100 </depth>
+		</hotrect>
+	</rect>
+
+	<template name="RSM_list_item_template">
+		<hotrect name="RSM_list_item">
+			<id> &generic; </id>
+			<locus> 1 </locus>
+			<filename> solid.dds </filename>
+			<texatlas> Interface\InterfaceShared.tai </texatlas>
+			<brightness> 64 </brightness>
+			<alpha>
+				<copy> 255 </copy>
+				<onlyif>
+					<copy src="me" trait="mouseover"/>
+					<eq> 1 </eq>
+				</onlyif>
+			</alpha>
+			<target> 1 </target>
+			<x> 13 </x> <!--VUI+ adjust to better fit in the narrow screen -->
+			<y> 30 </y>
+			<width> 320 </width>
+			<height> 36 </height>
+			<visible>
+				<copy src="me" trait="user0"/>
+				<eq src="RaceSexMenu" trait="user0"/>
+				<and>
+					<copy src="me" trait="_position"/>
+					<eq> 0 </eq>
+					<or src="me" trait="_is_header"/>
+				</and>
+			</visible>
+			<repeatvertical> 1 </repeatvertical>
+			<clicksound>UIMenuOK</clicksound>
+			<mouseoversound>UIMenuFocus</mouseoversound>
+			<user0> -1 </user0> <!-- list id -->
+			<_is_header> 0 </_is_header>
+			<xdefault> 1 </xdefault>
+			<_selected> 0 </_selected> <!-- 0=N/A, 1=deselected, 2=selected -->
+			<_position>
+				<copy> -1 </copy>
+				<onlyif>
+					<copy src="me" trait="y"/>
+					<lt src="parent" trait="_top_bound"/>
+				</onlyif>
+				<add>
+					<copy> 1 </copy>
+					<onlyif>
+						<copy src="me" trait="y"/>
+						<add src="me" trait="height"/>
+						<gt src="parent" trait="_bot_bound"/>
+					</onlyif>
+				</add>
+			</_position>
+
+			<image name="RSM_selection_indicator">
+				<filename> square_filled.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<width> 20 </width>
+				<height> 20 </height>
+				<x> 8 </x>
+				<y> 12 </y>
+				<visible>
+					<copy src="parent" trait="_selected"/>
+					<eq> 2 </eq>
+				</visible>
+			</image>
+
+			<text name="RSM_list_item_text">
+				<depth> 3 </depth>
+				<font> 3 </font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<x>
+					<copy src="sibling(RSM_selection_indicator)" trait="x"/>
+					<add>
+						<copy src="sibling(RSM_selection_indicator)" trait="width"/>
+						<add> 10 </add>
+						<onlyif>
+							<copy src="parent" trait="_selected"/>
+							<gt> 0 </gt>
+						</onlyif>
+					</add>
+				</x>
+				<y> 9 </y>
+			</text>
+		</hotrect>
+	</template>
+
+	<template name="RSM_slider_option_template">
+		<hotrect name="RSM_slider_option">
+			<id> &generic; </id>
+			<locus> 1 </locus>
+			<filename> solid.dds </filename>
+			<texatlas> Interface\InterfaceShared.tai </texatlas>
+			<brightness> 64 </brightness>
+			<alpha>
+				<copy> 255 </copy>
+				<onlyif>
+					<copy src="me" trait="mouseover"/>
+					<add src="child(RSM_slider_arrow_left)" trait="mouseover"/>
+					<add src="child(RSM_slider_bar_left)" trait="mouseover"/>
+					<add src="child(RSM_slider_marker)" trait="mouseover"/>
+					<add src="child(RSM_slider_bar_right)" trait="mouseover"/>
+					<add src="child(RSM_slider_arrow_right)" trait="mouseover"/>
+					<eq> 1 </eq>
+				</onlyif>
+			</alpha>
+			<target> <copy src="me" trait="_enabled"/> </target>
+			<x> 10 </x>
+			<width> 320 </width>
+			<height> 64 </height>
+			<visible>
+				<copy src="me" trait="user0"/>
+				<eq src="RaceSexMenu" trait="user0"/>
+				<and>
+					<copy src="me" trait="_position"/>
+					<eq> 0 </eq>
+				</and>
+			</visible>
+			<repeatvertical> 1 </repeatvertical>
+			<repeathorizontal> 1 </repeathorizontal>
+			<clicksound>nosound</clicksound>
+			<!--VUI+ removed mouseoversound because this area isn't active -->
+			<user0> -1 </user0> <!-- list id -->
+			<user1></user1> <!-- current value -->
+			<user2></user2> <!-- low value -->
+			<user3></user3> <!-- high value -->
+			<user4></user4> <!-- jump value (referenced in code )-->
+			<user5></user5> <!-- display value -->
+			<user6></user6> <!-- increment value -->
+			<xdefault> 1 </xdefault>
+			<_vertical_expanse> <copy src="child(RSM_slider_bar)" trait="height" /> </_vertical_expanse>
+			<_enabled> 1 </_enabled>
+			<_position>
+				<copy> -1 </copy>
+				<onlyif>
+					<copy src="me" trait="y"/>
+					<lt src="parent" trait="_top_bound"/>
+				</onlyif>
+				<add>
+					<copy> 1 </copy>
+					<onlyif>
+						<copy src="me" trait="y"/>
+						<add src="me" trait="height"/>
+						<gt src="parent" trait="_bot_bound"/>
+					</onlyif>
+				</add>
+			</_position>
+			<_alpha>
+				<!--VUI+ to be used in various elements -->
+				<copy> 127 </copy>
+				<onlyif src="me" trait="_enabled"/>
+				<add> 128 </add>
+			</_alpha>
+
+
+			<text name="RSM_slider_label">
+				<depth> 3 </depth>
+				<font> 3 </font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<alpha>
+					<copy> 128 </copy>
+					<add>
+						<copy> 127 </copy>
+						<onlyif src="parent" trait="_enabled"/>
+					</add>
+				</alpha>
+				<x> 10 </x>
+				<y> 9 </y>
+			</text>
+
+			<text name="RSM_slider_value">
+				<depth> 3 </depth>
+				<font> 3 </font>
+				<string> <copy src="parent" trait="user5"/> </string>
+				<alpha> <copy src="sibling(RSM_slider_label)" trait="alpha"/> </alpha>
+				<justify> &left; </justify>
+				<x>
+					<copy src="sibling(RSM_slider_label)" trait="x"/>
+					<add src="sibling(RSM_slider_label)" trait="width"/>
+					<add> 10 </add>
+				</x>
+				<y> <copy src="sibling(RSM_slider_label)" trait="y"/> </y>
+			</text>
+
+			<hotrect name="RSM_slider_arrow_left">
+				<id> 100 </id>
+				<locus> 1 </locus>
+				<target> <copy src="parent" trait="target"/> </target>
+				<depth> 3 </depth>
+				<x>
+					<copy src="sibling(RSM_slider_bar)" trait="x"/>
+					<sub src="me" trait="width"/>
+					<sub> 3 </sub> <!--VUI+ same margin with the right arrow -->
+				</x>
+				<y>
+					<copy src="sibling(RSM_slider_bar)" trait="y"/>
+					<sub> 10 </sub> <!--VUI+ align arrows to the middle of the slider -->
+				</y>
+				<clicksound>UIMenuPrevNext</clicksound>
+				<mouseoversound>UIMenuFocus</mouseoversound> <!--VUI+ to better distinguish from other elements -->
+				<width> <copy src="child(RSM_SAL_text)" trait="width"/> </width>
+				<height> 28 </height>
+
+				<text name="RSM_SAL_text">
+					<string> <copy src="io" trait="user1"/> </string>
+					<!--VUI+ highlighting includes hovering on the left side of the slider -->
+					<alpha>
+						<copy src="globals" trait="_VUI+Highlighting" />
+						<onlyif>
+							<copy src="parent" trait="mouseover"/>
+							<or src="RSM_slider_bar_left" trait="mouseover" />
+						</onlyif>
+						<add src="grandparent" trait="_alpha"/>
+					</alpha>
+					<brightness>
+						<copy src="globals" trait="_VUI+Highlighting" />
+						<onlyif>
+							<copy src="parent" trait="mouseover"/>
+							<or src="RSM_slider_bar_left" trait="mouseover" />
+						</onlyif>
+						<add> 240 </add>
+					</brightness>
+				</text>
+			</hotrect>
+
+			<image name="RSM_slider_bar">
+				<id> 101 </id>
+				<include src="line.xml"/>
+				<alpha> <copy src="parent" trait="_alpha"/> </alpha>
+				<depth> 3 </depth>
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="width"/>
+					<div> 2 </div>
+				</x>
+				<y> 49 </y>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<div> 2 </div>
+				</_length>
+			</image>
+
+			<hotrect name="RSM_slider_bar_left">
+				<id> 102 </id>
+				<alpha> 0 </alpha>
+				<target> <copy src="parent" trait="target"/> </target>
+				<depth> 3 </depth>
+				<x> <copy src="sibling(RSM_slider_bar)" trait="x"/> </x>
+				<y>
+					<copy src="sibling(RSM_slider_bar)" trait="y"/>
+					<sub src="parent" trait="_vertical_expanse"/>
+				</y>
+				<width>
+					<copy src="sibling(RSM_slider_marker)" trait="x"/>
+					<sub src="me" trait="x"/>
+				</width>
+				<height>
+					<copy src="sibling(RSM_slider_bar)" trait="height"/>
+					<add src="parent" trait="_vertical_expanse"/>
+					<add src="parent" trait="_vertical_expanse"/>
+				</height>
+				<clicksound>UIMenuPrevNext</clicksound>
+			</hotrect>
+
+			<hotrect name="RSM_slider_bar_right">
+				<id> 103 </id>
+				<alpha> 0 </alpha>
+				<target> <copy src="parent" trait="target"/> </target>
+				<depth> 3 </depth>
+				<x>
+					<copy src="sibling(RSM_slider_marker)" trait="x"/>
+					<add src="sibling(RSM_slider_marker)" trait="width"/>
+				</x>
+				<y> <copy src="sibling(RSM_slider_bar_left)" trait="y"/> </y>
+				<width>
+					<copy src="sibling(RSM_slider_bar)" trait="x"/>
+					<add src="sibling(RSM_slider_bar)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</width>
+				<height> <copy src="sibling(RSM_slider_bar_left)" trait="height"/> </height>
+				<clicksound>UIMenuPrevNext</clicksound>
+			</hotrect>
+
+			<hotrect name="RSM_slider_arrow_right">
+				<id> 104 </id>
+				<locus> 1 </locus>
+				<target> <copy src="parent" trait="target"/> </target>
+				<depth> 3 </depth>
+				<x>
+					<copy src="sibling(RSM_slider_bar)" trait="x"/>
+					<add src="sibling(RSM_slider_bar)" trait="width"/>
+				</x>
+				<y> <copy src="sibling(RSM_slider_arrow_left)" trait="y"/> </y>
+				<clicksound>UIMenuPrevNext</clicksound>
+				<mouseoversound>UIMenuFocus</mouseoversound>
+				<width> <copy src="child(RSM_SAR_text)" trait="width"/> </width>
+				<height> <copy src="sibling(RSM_slider_arrow_left)" trait="height"/> </height>
+
+				<text name="RSM_SAR_text">
+					<string> <copy src="io" trait="user2"/> </string>
+					<alpha>
+						<copy src="globals" trait="_VUI+Highlighting" />
+						<onlyif>
+							<copy src="parent" trait="mouseover"/>
+							<or src="RSM_slider_bar_right" trait="mouseover" />
+						</onlyif>
+						<add src="grandparent" trait="_alpha"/>
+					</alpha>
+					<brightness> <!--VUI+ target highlighting -->
+						<copy src="globals" trait="_VUI+Highlighting" />
+						<onlyif>
+							<copy src="parent" trait="mouseover"/>
+							<or src="RSM_slider_bar_right" trait="mouseover" />
+						</onlyif>
+						<add> 240 </add>
+					</brightness>
+				</text>
+			</hotrect>
+
+			<hotrect name="RSM_slider_marker">
+				<id> 105 </id>
+				<locus> 1 </locus>
+				<target> <copy src="parent" trait="target"/> </target>
+				<depth> 5 </depth>
+				<x>
+					<copy src="sibling(RSM_slider_bar)" trait="x"/>
+					<add>
+						<copy src="sibling(RSM_slider_bar)" trait="width"/>
+						<mult>
+							<copy src="parent" trait="user1"/> <!-- current value -->
+							<sub src="parent" trait="user2"/> <!-- low value -->
+							<div>
+								<copy src="parent" trait="user3"/> <!-- high value -->
+								<sub src="parent" trait="user2"/> <!-- low value -->
+							</div>
+							<max> 0 </max>
+							<min> 1 </min>
+						</mult>
+					</add>
+					<sub>
+						<copy src="me" trait="width"/>
+						<div> 2 </div>
+					</sub>
+				</x>
+				<y>
+					<!--VUI+ align in the middle -->
+					<copy src="sibling(RSM_slider_bar)" trait="height"/>
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add src="sibling(RSM_slider_bar)" trait="y"/>
+				</y>
+				<width> 16 </width>
+				<height> <copy src="sibling(RSM_slider_arrow_left)" trait="height"/> </height>
+				<mouseoversound>UIMenuFocus</mouseoversound> <!--VUI+ it's important to add a cue to such a small marker -->
+				<clicksound>UIMenuPrevNext</clicksound>
+
+				<image name="RSM_SM_text"> <!--VUI+ changed to image from text -->
+					<alpha>
+						<copy src="globals" trait="_VUI+Highlighting" />
+						<onlyif src="parent" trait="mouseover"/>
+						<add src="grandparent" trait="_alpha"/>
+					</alpha>
+					<brightness> <!--VUI+ target highlighting -->
+						<copy src="globals" trait="_VUI+Highlighting" />
+						<onlyif src="parent" trait="mouseover"/>
+						<add> 240 </add>
+					</brightness>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="width"/>
+						<mul> 0.48 </mul>
+					</x>
+					<!--VUI+ the image can be properly resized inside the parent hotrect which is used for targeting -->
+					<y>
+						<copy src="parent" trait="height" />
+						<sub src="me" trait="height" />
+						<div> 2 </div>
+					</y>
+					<filename> Interface\Shared\solid.dds </filename>
+					<texatlas> Interface\InterfaceShared.tai </texatlas>
+					<width>
+						<copy src="parent" trait="width" />
+						<div> 2.8 </div>
+					</width>
+					<height>
+						<copy src="parent" trait="height" />
+						<div> 1.8 </div>
+					</height>
+				</image>
+			</hotrect>
+		</hotrect>
+	</template>
+</menu>

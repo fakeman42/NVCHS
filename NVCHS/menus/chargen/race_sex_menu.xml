@@ -6,6 +6,7 @@
 	<explorefade> 0.25 </explorefade>
 	<locus> &true; </locus>
 	<id> &pipboymenu; </id>   <!-- Not actually a pipboy menu but it's a renderedmenu. -->
+	<systemcolor> &pipboy; </systemcolor>
 
 	<user0></user0>		<!-- active list number -->
 	<user1></user1>		<!-- slider bar left -->
@@ -37,7 +38,7 @@
 			<id> 0 </id>
 			<zoom> &scale; </zoom>
 			<locus> &true; </locus>
-			<systemcolor> &terminal; </systemcolor>
+			<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
 			<brightness> 90 </brightness>
 			
 			<depth> 1 </depth>

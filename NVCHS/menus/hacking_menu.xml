@@ -192,7 +192,7 @@
 			<height> <copy src="hacking_password_file_rect" trait="height"/> </height>
 
 			<text name="hacking_password_prompt">
-				<font> 3 </font>
+				<font> 5 </font>
 				<string> <copy src="HackingMenu" trait="user0"/> </string>
 				<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
 				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
@@ -206,12 +206,12 @@
 
 			<text name="hacking_password_entry">
 				<id> 5 </id>
-				<font> 3 </font>
+				<font> 5 </font>
 				<alpha> <copy src="HackingMenu" trait="alpha"/> </alpha>
 				<brightness> <copy src="HackingMenu" trait="brightness"/> </brightness>
 				<x>
 					<copy src="sibling(hacking_password_prompt)" trait="x"/>
-					<add> 21 </add>
+					<add src="sibling(hacking_password_prompt)" trait="width" /> <!--VUI+ match with Stewie's password guesses history -->
 				</x>
 				<y> <copy src="sibling(hacking_password_prompt)" trait="y"/> </y>
 			</text>
@@ -302,7 +302,7 @@
 	<template name="hacking_password_log_template">
 		<!-- parent rect = hacking_password_log_rect -->
 		<text name="hacking_password_log_entry">
-			<font> 3 </font>
+			<font> 5 </font>
 			<visible>
 				<copy src="me()" trait="y"/>
 				<gte> 0 </gte>
