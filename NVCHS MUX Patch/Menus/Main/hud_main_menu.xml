@@ -64,7 +64,7 @@
             <text name="AP_Text">
                 <depth>1</depth>
                 <justify>&Center;</justify>
-                <font><copy src="globals" trait="_VUI+ListFont" /></font>
+                <font><copy src="globals" trait="_VUI+MessageFont" /></font>
                 <string>&sActionPointsShort;</string>
                 <zoom>90</zoom>
                 <alpha><copy src="io()" trait="_iHUD+AP"/> </alpha>
@@ -142,7 +142,7 @@
             <text name="HP_Text">
                 <depth>0</depth>
                 <justify>&Center;</justify>
-                <font><copy src="globals" trait="_VUI+ListFont" /></font>
+                <font><copy src="globals" trait="_VUI+MessageFont" /></font>
                 <string>&sHitPointsShort;</string>
                 <zoom>90</zoom>
                 <alpha><copy src="io()" trait="_iHUD+HP"/></alpha>
@@ -614,7 +614,7 @@
             <y>94</y>
             <depth>3</depth>
             <justify>&Left;</justify>
-            <font><copy src="globals" trait="_VUI+ListFont" /></font>
+            <font><copy src="globals" trait="_VUI+MessageFont" /></font>
             <string><copy src="io()" trait="_Script+WeaponTotal"/></string>
             <alpha>
                 <copy src="io()" trait="_Script+WeaponAlpha"/>
@@ -652,7 +652,7 @@
             <y>94</y>
             <depth>3</depth>
             <justify>&Right;</justify>
-            <font><copy src="globals" trait="_VUI+ListFont" /></font>
+            <font><copy src="globals" trait="_VUI+MessageFont" /></font>
             <string><copy src="io()" trait="_Script+WeaponCurrent"/> </string>
             <alpha>
                 <copy src="io()" trait="_Script+WeaponAlpha"/>
@@ -668,7 +668,7 @@
             <y>46</y>
             <depth>3</depth>
             <justify>&Right;</justify>
-            <font><copy src="globals" trait="_VUI+HUDFont" /></font>
+            <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
             <string><copy src="io()" trait="_Script+WeaponName"/></string>
             <alpha>
                 <copy src="io()" trait="_Script+WeaponAlpha"/>

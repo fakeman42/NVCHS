@@ -53,12 +53,12 @@ Sorted from smaller to bigger
 <_VUI+FontGlow_8> 1.1 </_VUI+FontGlow_8>
 
 <!-- Menu-specific fonts -->
-<_VUI+DialogFont> 1 </_VUI+DialogFont>
-<_VUI+SubtitleFont> 1 </_VUI+SubtitleFont>
+<_VUI+DialogFont> 3 </_VUI+DialogFont>
+<_VUI+SubtitleFont> 3 </_VUI+SubtitleFont>
 <_VUI+ListFont> 3 </_VUI+ListFont>
-<_VUI+HeadFont> 1 </_VUI+HeadFont>
-<_VUI+TextFont> 1 </_VUI+TextFont>
-<_VUI+SmallFont> 1 </_VUI+SmallFont>
-<_VUI+HUDFont> 1 </_VUI+HUDFont>
+<_VUI+HeadFont> 3 </_VUI+HeadFont>
+<_VUI+TextFont> 3 </_VUI+TextFont>
+<_VUI+SmallFont> 3 </_VUI+SmallFont>
+<_VUI+HUDFont> 3 </_VUI+HUDFont>
 <_VUI+HUDMainFont> 6 </_VUI+HUDMainFont>
 <_VUI+MessageFont> 1 </_VUI+MessageFont> <!-- alternative fonts require Stewie's Tweaks to work without wrapping issues on the Message menu -->
