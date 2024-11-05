@@ -1,0 +1,1988 @@
+<!-- VATS menu
+The VATS menu is using the same templates with the HUD menu.
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
+* Applied common code for FO3 & NV
+* Improved support for controller hot plugging/unplugging
+* Correct margins for Head & Torso chance infoboxes
+* Specified systemcolor at the meters to allow inheritance from their related templates
+* Added list numbers on queued attacks to point to their FIFO order and also provide a means of determining attacks when the queue grows above the screen
+* Reduced the opacity of older queued attacks, and set them behind the controls to retain usability of the latter
+* Re-ordered the buttons based on their function and always display the Select button
+* Scaled and cropped arrow icons for compatibility with HD textures
+-->
+<menu name="VATSMenu">
+    <class> &VATSMenu; </class>
+    <stackingtype> &no_click_past; </stackingtype>
+    <systemcolor> &hudmain; </systemcolor>
+    <alpha> 0 </alpha>
+    <menufade> 0.2 </menufade>
+    <!--VUI+ safe speed -->
+    <locus> 1 </locus>
+    <user15>0.25</user15>
+    <!--
+	VUI+ all VATS keybinds are hardcoded	
+	<_PCButton_B> return_button </_PCButton_B><_PCButton_E> accept_button </_PCButton_E><_PCButton_R> special_attack_button </_PCButton_R><_PCButton_F> special_attack_2_button </_PCButton_F>
+	-->
+    <wheelable> 1 </wheelable>
+    <!-- MUX Traits Handlers -->
+    <include src="MUX\Mirrage.xml"/>
+	<_System+XPAlt>0</_System+XPAlt>
+	<_System+StatAlt>0</_System+StatAlt>
+	<_System+Invert>1</_System+Invert>
+	<_System+WeaponPath>0</_System+WeaponPath>
+    <!--<include src="HUDTemplates.xml"/> -->
+    <!-- Disable Old one and use custom -->
+    <include src="MUX\HUD_Template.xml"/>
+	<_Exodus+Sneak><copy src="sibling(HUDMainMenu)" trait="_Exodus+Sneak"/></_Exodus+Sneak>
+	<_Exodus+Alpha><copy src="sibling(HUDMainMenu)" trait="_Exodus+Alpha"/></_Exodus+Alpha>
+    <rect name="GlowBranch">
+        <id>&noglow_branch;</id>
+        <systemcolor>
+            <copy src="io" trait="systemcolor" />
+        </systemcolor>
+        <!-- focus arrows ====================================-->
+        <image name="left_arrow">
+            <id>2</id>
+            <include src="VUI+\cropratio.xml" />
+            <_RightCropRatio> 0.2 </_RightCropRatio>
+            <_BottomCropRatio> 0.2 </_BottomCropRatio>
+            <filename>
+                <copy src="me" trait="mouseover"/>
+                <add> 1 </add>
+                <copy src="me" trait="_Filename_"/>
+            </filename>
+            <_Filename_1> VUIE\Shared\Arrows\barter_arrow_sell.dds </_Filename_1>
+            <_Filename_2> VUIE\Shared\Arrows\barter_arrow_sell_on.dds</_Filename_2>
+            <visible>
+                <not src="globals" trait="_Has360Controller" />
+            </visible>
+            <!--VUI+ unlike &xbox; this gets updated when hot plugging/unplugging the controller while the game is running -->
+            <target>1</target>
+            <width> 86 </width>
+            <x>
+                <copy src="screen" trait="cropx"/>
+                <mul>2</mul>
+            </x>
+            <y>
+                <!-- MUX Change. Repositon for better control-->
+                <copy src="screen" trait="height"/>
+                <sub src="me" trait="height"/>
+                <div>2</div>
+				<sub>50</sub>
+				<sub>
+					<copy>200</copy>
+					<onlyifnot src="io()" trait="_MUX+PA"/>
+				</sub>
+            </y>
+        </image>
+        <image name="right_arrow">
+            <id>3</id>
+            <include src="VUI+\cropratio.xml" />
+            <_RightCropRatio> 0.2 </_RightCropRatio>
+            <_BottomCropRatio> 0.2 </_BottomCropRatio>
+            <filename>
+                <copy src="me" trait="mouseover"/>
+                <add> 1 </add>
+                <copy src="me" trait="_Filename_"/>
+            </filename>
+            <_Filename_1> VUIE\Shared\Arrows\barter_arrow_buy.dds </_Filename_1>
+            <_Filename_2> VUIE\Shared\Arrows\barter_arrow_buy_on.dds</_Filename_2>
+            <visible>
+                <not src="globals" trait="_Has360Controller" />
+            </visible>
+            <target>1</target>
+            <width> 86 </width>
+            <x>
+                <copy src="screen" trait="width"/>
+                <sub>
+                    <copy src="screen" trait="cropx"/>
+                    <mul>2</mul>
+                    <add src="me" trait="width"/>
+                </sub>
+            </x>
+            <y>
+                <copy src="sibling(left_arrow)" trait="y" />
+            </y>
+        </image>
+        <!--Chance to hit text===============================-->
+        <template name="body_part_percent">
+            <rect name="limb_percent">
+                <alpha>0</alpha>
+                <locus>1</locus>
+                <justify>&down;</justify>
+                <_MeterPercent>1.0</_MeterPercent>
+                <_filename_1>Interface\VATS\vats_right_divider.dds</_filename_1>
+                <_filename_2>Interface\VATS\vats_left_divider.dds</_filename_2>
+                <_filename_3>Interface\VATS\vats_chest_divider.dds</_filename_3>
+                <_filename_4>Interface\VATS\vats_head_divider.dds</_filename_4>
+                <_shadow_1>Interface\VATS\vats_right_divider_shadow.dds</_shadow_1>
+                <_shadow_2>Interface\VATS\vats_left_divider_shadow.dds</_shadow_2>
+                <_shadow_3>Interface\VATS\vats_chest_divider_shadow.dds</_shadow_3>
+                <_shadow_4>Interface\VATS\vats_head_divider_shadow.dds</_shadow_4>
+                <_justify_1>&left;</_justify_1>
+                <_justify_2>&right;</_justify_2>
+                <_justify_3>&center;</_justify_3>
+                <_justify_4>&center;</_justify_4>
+                <_chanceToHitType>
+                    <copy>0</copy>
+                    <add>
+                        <copy>2</copy>
+                        <onlyif>
+                            <copy src="me" trait="justify"/>
+                            <eq>&left;</eq>
+                        </onlyif>
+                    </add>
+                    <add>
+                        <copy>1</copy>
+                        <onlyif>
+                            <copy src="me" trait="justify"/>
+                            <eq>&right;</eq>
+                        </onlyif>
+                    </add>
+                    <add>
+                        <copy>3</copy>
+                        <onlyif>
+                            <copy src="me" trait="justify"/>
+                            <eq>&down;</eq>
+                        </onlyif>
+                    </add>
+                    <add>
+                        <copy>4</copy>
+                        <onlyif>
+                            <copy src="me" trait="justify"/>
+                            <eq>&up;</eq>
+                        </onlyif>
+                    </add>
+                </_chanceToHitType>
+                <image name="chance_bracket">
+                    <visible>
+                        <copy src="sibling(limb_name)" trait="visible"/>
+                    </visible>
+                    <!-- MUX Added. Reduce the cluttering by show only chance for selected limb-->
+                    <depth>2</depth>
+                    <filename>
+                        <copy src="parent" trait="_chanceToHitType"/>
+                        <copy src="parent" trait="_filename_"/>
+                    </filename>
+                    <x>
+                        <copy>0</copy>
+                        <sub>
+                            <copy>75</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>1</eq>
+                            </onlyif>
+                        </sub>
+                        <sub>
+                            <copy>75</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>2</eq>
+                            </onlyif>
+                        </sub>
+                        <sub>
+                            <copy>45</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>3</eq>
+                            </onlyif>
+                        </sub>
+                        <sub>
+                            <copy>65</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>4</eq>
+                            </onlyif>
+                        </sub>
+                    </x>
+                    <y>
+                        <copy>0</copy>
+                        <sub>
+                            <copy>45</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>1</eq>
+                            </onlyif>
+                        </sub>
+                        <sub>
+                            <copy>45</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>2</eq>
+                            </onlyif>
+                        </sub>
+                        <sub>
+                            <copy>35</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>3</eq>
+                            </onlyif>
+                        </sub>
+                        <sub>
+                            <copy>45</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>4</eq>
+                            </onlyif>
+                        </sub>
+                    </y>
+                    <width>256</width>
+                    <height>128</height>
+                    <alpha>
+                        <copy src="parent" trait="alpha"/>
+                    </alpha>
+                </image>
+                <text name="limb_name">
+                    <depth>2</depth>
+                    <alpha>
+                        <copy src="parent" trait="alpha"/>
+                    </alpha>
+                    <string>
+                        <copy src="parent" trait="_LimbName"/>
+                    </string>
+                    <visible>
+                        <copy src="parent" trait="_LimbNameVisible"/>
+                    </visible>
+                    <font>7</font>
+                    <x>
+                        <copy src="sibling(chance_bracket)" trait="x"/>
+                        <sub>3</sub>
+                        <add>
+                            <copy>18</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>1</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>135</copy>
+                            <sub src="me" trait="width"/>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>2</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>43</copy>
+                            <sub>
+                                <copy src="me" trait="width"/>
+                                <div>2</div>
+                            </sub>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>3</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>63</copy>
+                            <sub>
+                                <copy src="me" trait="width"/>
+                                <div>2</div>
+                            </sub>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>4</eq>
+                            </onlyif>
+                        </add>
+                    </x>
+                    <y>
+                        <copy src="chance_bracket" trait="y"/>
+                        <sub>15</sub>
+                        <sub>
+                            <copy>20</copy>
+                            <onlyif>
+                                <copy src="parent" trait="justify"/>
+                                <eq>&down;</eq>
+                            </onlyif>
+                        </sub>
+                    </y>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+                </text>
+				<include src="VUI+\outline.xml"/>
+                <image name="chance_bracket_shadow">
+                    <visible>
+                        <copy src="sibling(limb_name)" trait="visible"/>
+                    </visible>
+                    <!-- MUX Added. Reduce the cluttering by show only chance for selected limb-->
+                    <filename>
+                        <copy src="parent" trait="_chanceToHitType"/>
+                        <copy src="parent" trait="_shadow_"/>
+                    </filename>
+                    <brightness>&uselocalcolor;</brightness>
+                    <x>
+                        <copy src="sibling(chance_bracket)" trait="x"/>
+                    </x>
+                    <y>
+                        <copy src="sibling(chance_bracket)" trait="y"/>
+                    </y>
+                    <width>256</width>
+                    <height>128</height>
+                    <alpha>
+                        <copy src="parent" trait="alpha"/>
+                    </alpha>
+                </image>
+                <image name="shadow_background">
+                    <visible>
+                        <copy src="sibling(limb_name)" trait="visible"/>
+                    </visible>
+                    <!-- MUX Added. Reduce the cluttering by show only chance for selected limb-->
+                    <brightness>&uselocalcolor;</brightness>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <visible>1</visible>
+                    <width>
+                        <copy src="sibling(chance_bracket_shadow)" trait="width"/>
+                    </width>
+                    <height>
+                        <copy src="sibling(chance_bracket_shadow)" trait="height"/>
+                    </height>
+                    <x>
+                        <copy src="sibling(chance_bracket_shadow)" trait="x"/>
+                    </x>
+                    <y>
+                        <copy src="sibling(chance_bracket_shadow)" trait="y"/>
+                    </y>
+                    <alpha>0</alpha>
+                </image>
+                <text name="chance_to_hit">
+                    <visible>
+                        <copy src="sibling(limb_name)" trait="visible"/>
+                    </visible>
+                    <!-- MUX Added. Reduce the cluttering by show only chance for selected limb-->
+                    <depth>2</depth>
+                    <alpha>
+                        <copy src="parent" trait="alpha"/>
+                    </alpha>
+                    <string>
+                        <copy src="parent" trait="string"/>
+                    </string>
+                    <font>7</font>
+                    <x>
+                        <copy src="sibling(chance_bracket)" trait="x"/>
+                        <add>
+                            <copy>30</copy>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>1</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>120</copy>
+                            <sub src="me" trait="width"/>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>2</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>43</copy>
+                            <sub>
+                                <copy src="me" trait="width"/>
+                                <div>2</div>
+                            </sub>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>3</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>63</copy>
+                            <sub>
+                                <copy src="me" trait="width"/>
+                                <div>2</div>
+                            </sub>
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>4</eq>
+                            </onlyif>
+                        </add>
+                    </x>
+                    <y>
+                        <copy src="sibling(chance_bracket)" trait="y"/>
+                        <add>45</add>
+                        <sub>
+                            <copy>17</copy>
+                            <!--VUI+ correct margins for Torso chance infoboxes -->
+                            <onlyif>
+                                <copy src="parent" trait="justify"/>
+                                <eq>&down;</eq>
+                            </onlyif>
+                        </sub>
+                        <add>
+                            <copy>1</copy>
+                            <!--VUI+ correct margins for Head chance infoboxes -->
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>4</eq>
+                            </onlyif>
+                        </add>
+                    </y>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+                </text>
+				<include src="VUI+\outline.xml"/>
+                <rect name="meter">
+                    <visible>
+                        <copy src="sibling(limb_name)" trait="visible"/>
+                    </visible>
+                    <!-- MUX Added. Reduce the cluttering by show only chance for selected limb-->
+                    <depth>2</depth>
+                    <include src="meter.xml" />
+                    <_SolidMeter>1</_SolidMeter>
+                    <x>
+                        <copy src="sibling(chance_bracket)" trait="x"/>
+                        <add>26</add>
+                        <add>
+                            <copy>98</copy>
+                            <onlyif>
+                                <copy src="me" trait="justify"/>
+                                <eq>&right;</eq>
+                            </onlyif>
+                        </add>
+                        <add>
+                            <copy>37</copy>
+                            <onlyif>
+                                <copy src="me" trait="justify"/>
+                                <eq>&center;</eq>
+                            </onlyif>
+                        </add>
+                        <sub>
+                            <copy>18</copy>
+                            <onlyif>
+                                <copy src="parent" trait="justify"/>
+                                <eq>&down;</eq>
+                            </onlyif>
+                        </sub>
+                    </x>
+                    <y>
+                        <copy src="sibling(chance_bracket)" trait="y"/>
+                        <add>25</add>
+                        <sub>
+                            <copy>18</copy>
+                            <!--VUI+ correct margins for Torso chance infoboxes -->
+                            <onlyif>
+                                <copy src="parent" trait="justify"/>
+                                <eq>&down;</eq>
+                            </onlyif>
+                        </sub>
+                        <add>
+                            <copy>1</copy>
+                            <!--VUI+ correct margins for Head chance infoboxes -->
+                            <onlyif>
+                                <copy src="parent" trait="_chanceToHitType"/>
+                                <eq>4</eq>
+                            </onlyif>
+                        </add>
+                    </y>
+                    <height>16</height>
+                    <width> 70 </width>
+                    <_Value>
+                        <copy src="parent" trait="_MeterPercent"/>
+                    </_Value>
+                    <alpha>
+                        <copy src="parent" trait="alpha"/>
+                    </alpha>
+                    <justify>
+                        <copy src="parent" trait="_chanceToHitType"/>
+                        <copy src="parent" trait="_justify_"/>
+                    </justify>
+                </rect>
+            </rect>
+        </template>
+        <!-- Hit points bracket ==============================-->
+		<rect name="HitPoints">
+			<systemcolor>&hudmain;</systemcolor>
+			<width> 369 </width>
+			<height> 127 </height>
+			<rect name="MUX_Hit_Points">
+				<locus>1</locus>
+				<visible>
+					<copy src="io()" trait="_Master+HP"/>
+					<and src="io()" trait="_MUX+PA"/>
+				</visible>
+				<x>
+					<copy>25</copy>
+					<sub src="parent()" trait="X"/>
+					<add src="io()" trait="_Editor+HPX"/>
+				</x>
+				<y>
+					<copy>870</copy>
+					<sub src="parent()" trait="y"/>
+					<add src="io()" trait="_Editor+HPY"/>
+				</y>
+				<text name="HP_Text">
+					<depth>0</depth>
+					<justify>&Center;</justify>
+					<font><copy src="globals" trait="_VUI+MessageFont" /></font>
+					<string>&sHitPointsShort;</string>
+					<zoom>90</zoom>
+					<alpha><copy src="io()" trait="_iHUD+HP"/></alpha>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+				<image name="Bracket_Meter">
+					<locus>1</locus>
+					<x>25</x>
+					<y>-1</y>
+					<include src="MUX\Templates\Box.xml"/>
+					<_line>2</_line>
+					<_width>300</_width>
+					<_height>14</_height>
+					<_alpha><copy src="io()" trait="_iHUD+HP"/></_alpha>
+				</image>
+				<image name="Bracket">
+					<filename>VUIE\Shared\Gradients\fade_dual_bottom_right.dds</filename>
+					<x>25</x>
+					<y>13</y>
+					<width>300</width>
+					<height>50</height>
+					<depth>1</depth>
+					<systemcolor>0</systemcolor>
+					<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+					<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+					<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+					<alpha>
+						<copy src="io()" trait="_iHUD+HP"/>
+						<min src="globals" trait="_VUIE+Alpha100" />
+					</alpha>
+					<zoom>-1</zoom>
+				</image>
+				<image name="Meter">
+					<locus>1</locus>
+					<x>27</x>
+					<y>1</y>
+					<include src="MUX\Templates\Meter.xml"/>
+					<_width>296</_width>
+					<_height>10</_height>
+					<_Low><copy src="io()" trait="_MUX+LowMeter"/></_Low>
+					<_Meter>MUX\Shared\Meters\Meter.dds</_Meter>
+					<_Value1><copy src="io()" trait="_Script+HPV"/></_Value1>
+					<_Value2><copy src="io()" trait="_Script+HPVH"/></_Value2>
+					<_Value3><copy src="io()" trait="_Script+HPVR"/></_Value3>
+					<_alpha><copy src="io()" trait="_iHUD+HP"/></_alpha>
+					<_brightness>255</_brightness>
+					<_alpha_2>255</_alpha_2>
+				</image>
+			</rect>
+		</rect>
+        <!-- Action points bracket ===========================-->
+        <rect name="ActionPoints">
+            <width> 386 </width>
+            <height> 127 </height>
+            <systemcolor> &hudmain; </systemcolor>
+			<rect name="MUX_Action_Points">
+				<locus>1</locus>
+				<visible>
+					<copy src="io()" trait="_Master+AP"/>
+					<and src="io()" trait="_MUX+PA"/>
+				</visible>
+				<x>
+					<copy src="screen()" trait="width"/>
+					<sub>25</sub>
+					<sub src="parent()" trait="X"/>
+					<add src="io()" trait="_Editor+APX"/>
+				</x>
+				<y>
+					<copy>870</copy>
+					<sub src="parent()" trait="y"/>
+					<add src="io()" trait="_Editor+APY"/>
+				</y>
+				<text name="AP_Text">
+					<depth>1</depth>
+					<justify>&Center;</justify>
+					<font><copy src="globals" trait="_VUI+MessageFont" /></font>
+					<string>&sActionPointsShort;</string>
+					<zoom>90</zoom>
+					<alpha><copy src="io()" trait="_iHUD+AP"/> </alpha>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+				<image name="Bracket">
+					<filename>MUX\Brackets\MUI\AP.dds</filename>
+					<x>-325</x>
+					<y>13</y>
+					<width>300</width>
+					<height>50</height>
+					<depth>1</depth>
+					<systemcolor>0</systemcolor>
+					<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+					<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+					<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+					<alpha>
+						<copy src="io()" trait="_iHUD+AP"/>
+						<min src="globals" trait="_VUIE+Alpha100" />
+					</alpha>
+					<zoom>-1</zoom>
+				</image>
+				<image name="Bracket_Meter">
+					<locus>1</locus>
+					<x>-325</x>
+					<y>-1</y>
+					<include src="MUX\Templates\Box.xml"/>
+					<_line>2</_line>
+					<_width>300</_width>
+					<_height>14</_height>
+					<_alpha><copy src="io()" trait="_iHUD+AP"/></_alpha>
+				</image>
+				<image name="Meter">
+					<locus>1</locus>
+					<x>-323</x>
+					<y>1</y>
+					<include src="MUX\Templates\Meter.xml"/>
+					<_width>296</_width>
+					<_height>10</_height>
+					<_Flip>1</_Flip>
+					<_Low><copy src="io()" trait="_MUX+LowMeter"/></_Low>
+					<_Meter>MUX\Shared\Meters\Meter.dds</_Meter>
+					<_Value1><copy src="io()" trait="_Script+APV"/></_Value1>
+					<_Value2><copy src="io()" trait="_Script+APVats"/></_Value2>
+					<_Value3><copy src="io()" trait="_Script+APRV"/></_Value3>
+					<_alpha><copy src="io()" trait="_iHUD+AP"/></_alpha>
+					<_brightness>255</_brightness>
+					<_alpha_2><copy src="io()" trait="_Script+Vats"/></_alpha_2>
+				</image>
+			</rect>
+        </rect>
+		
+		
+		<rect name="MUX_Air">
+			<visible>
+				<copy src="HitPoints" trait="visible"/>
+				<and src="io()" trait="_Master+Air"/>
+				<and src="io()" trait="_MUX+PA"/>
+			</visible>
+			<locus>1</locus>
+			<x>
+				<copy>65</copy>
+				<add src="io()" trait="_Editor+AirX"/>
+			</x>
+			<y>
+				<copy>855</copy>
+				<add src="io()" trait="_Editor+AirY"/>
+			</y>
+			<text name="Air_Text">
+				<depth>1</depth>
+				<justify>&Center;</justify>
+				<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+				<string>Air</string>
+				<zoom>55</zoom>
+				<alpha><copy src="io" trait="_Script+AirAlpha"/></alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+			<image name="Bracket_Meter">
+				<locus>1</locus>
+				<x>15</x>
+				<y>-1</y>
+				<include src="MUX\Templates\Box.xml"/>
+				<_line>2</_line>
+				<_width>150</_width>
+				<_height>8</_height>
+				<_alpha><copy src="io" trait="_Script+AirAlpha"/></_alpha>
+			</image>
+			<image name="Meter">
+				<locus>1</locus>
+				<x>17</x>
+				<y>1</y>
+				<include src="MUX\Templates\Meter.xml"/>
+				<_width>146</_width>
+				<_height>4</_height>
+				<_Meter>MUX\Shared\Meters\Meter.dds</_Meter>
+				<_Value1><copy src="io()" trait="_Script+Air"/></_Value1>
+				<_alpha><copy src="io" trait="_Script+AirAlpha"/></_alpha>
+				<_Low>1</_Low>
+			 </image>
+		</rect>
+
+		
+		<rect name="MUX_Weapon">
+        <visible>
+            <copy src="ActionPoints" trait="visible"/>
+            <and src="io()" trait="_Master+Weapon"/>
+			<and src="io()" trait="_MUX+PA"/>
+        </visible>
+        <locus>1</locus>
+        <x>
+            <copy src="screen()" trait="width"/>
+            <add src="io()" trait="_Editor+WeaponX"/>
+        </x>
+        <y>
+            <copy>800</copy>
+            <add src="io()" trait="_Editor+WeaponY"/>
+        </y>
+        <text name="Total">
+            <visible>
+                <copy src="io()" trait="_Script+WeaponVis"/>
+            </visible>
+            <x>-182</x>
+            <y>94</y>
+            <depth>3</depth>
+            <justify>&Left;</justify>
+            <font><copy src="globals" trait="_VUI+MessageFont" /></font>
+            <string><copy src="io()" trait="_Script+WeaponTotal"/></string>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+            <_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+        </text>
+        <include src="VUI+\outline.xml"/>
+        <text name="Ammo">
+            <visible><copy src="io()" trait="_Script+WeaponVis"/></visible>
+            <x>-148</x>
+            <y>119</y>
+            <depth>3</depth>
+            <justify>&Right;</justify>
+            <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+            <zoom>55</zoom>
+            <string><copy src="io()" trait="_Script+WeaponAmmo"/></string>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+            <_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+        </text>
+        <include src="VUI+\outline.xml"/>
+        <text name="Current">
+            <visible>
+                <copy src="io()" trait="_Script+WeaponVis"/>
+            </visible>
+            <x>-184</x>
+            <y>94</y>
+            <depth>3</depth>
+            <justify>&Right;</justify>
+            <font><copy src="globals" trait="_VUI+MessageFont" /></font>
+            <string><copy src="io()" trait="_Script+WeaponCurrent"/> </string>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+            <_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+        </text>
+        <include src="VUI+\outline.xml"/>
+        <text name="Weapon">
+            <x>-55</x>
+            <y>46</y>
+            <depth>3</depth>
+            <justify>&Right;</justify>
+            <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+            <string><copy src="io()" trait="_Script+WeaponName"/></string>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <zoom>55</zoom>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+            <_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+        </text>
+        <include src="VUI+\outline.xml"/>
+        <image name="Weapon_Fader">
+            <x>
+                <copy>-50</copy>
+                <sub src="me()" trait="width"/>
+            </x>
+            <y>45</y>
+            <filename>VUIE\Shared\Gradients\fade_dual_left.dds</filename>
+            <width>
+                <copy src="sibling(Weapon)" trait="width"/>
+                <add>40</add>
+				<max>300</max>
+            </width>
+            <height>20</height>
+            <depth>0</depth>
+            <zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+			<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+				<min src="globals" trait="_VUIE+Alpha100" />
+                <max>0</max>
+            </alpha>
+        </image>
+        <image name="Weapon_Fader_2">
+            <x>
+                <copy>-55</copy>
+                <sub src="me()" trait="width"/>
+            </x>
+            <y>61</y>
+            <filename>VUIE\Shared\Gradients\Fade_right.dds</filename>
+            <width>
+                <copy src="sibling(Weapon_Fader)" trait="width"/>
+                <div>4</div>
+            </width>
+            <height>2</height>
+            <depth>1</depth>
+            <zoom>-1</zoom>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+        </image>
+        <image name="Weapon_Fader_3">
+            <x>
+                <copy src="sibling(Weapon_Fader_2)" trait="x"/>
+                <sub src="me()" trait="width"/>
+                <sub>5</sub>
+            </x>
+            <y>61</y>
+            <filename>VUIE\Shared\Gradients\Fade_Left.dds</filename>
+            <width>
+                <copy src="sibling(Weapon_Fader)" trait="width"/>
+                <sub src="sibling(Weapon_Fader_2)" trait="width"/>
+                <sub>15</sub>
+            </width>
+            <height>2</height>
+            <depth>1</depth>
+            <zoom>-1</zoom>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+        </image>
+        <image name="Select_Fire">
+            <visible><copy src="io()" trait="_Script+WeaponVis"/></visible>
+            <x>-163</x>
+            <y>117</y>
+			<_filename_0>VUIE\Shared\Empty.dds</_filename_0>
+			<_filename_1>MUX\NPC\Outline\Single2.dds</_filename_1>
+			<_filename_2>MUX\NPC\Outline\Burst2.dds</_filename_2>
+			<_filename_3>MUX\NPC\Outline\Auto.dds</_filename_3>
+			<filename>
+				<copy src="io()" trait="_Script+WeaponSelect"/>
+				<copy src="me" trait="_filename_"/>
+			</filename>
+            <width>24</width>
+            <height>12</height>
+            <depth>3</depth>
+            <zoom>-1</zoom>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+        </image>
+        <image name="Weapon_Icon">
+            <locus>1</locus>
+            <x>-345</x>
+            <y>90</y>
+            <filename>
+                <copy src="io()" trait="_Script+WeaponIcon"/>
+            </filename>
+            <width>84</width>
+            <height>32</height>
+            <depth>2</depth>
+            <zoom>-1</zoom>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <include src="VUI+\Image_Outline.xml"/>
+        </image>
+        <image name="Weapon_Icon_Heat">
+            <x>-345</x>
+            <y>90</y>
+            <filename><copy src="io()" trait="_Script+WeaponIcon"/></filename>
+            <width>84</width>
+            <height>32</height>
+            <depth>4</depth>
+            <zoom>-1</zoom>
+            <systemcolor>2</systemcolor>
+            <alpha>
+                <copy src="io()" trait="_Script+Heat"/>
+                <div>100</div>
+                <mul>255</mul>
+                <min>255</min>
+                <min>
+                    <copy src="io()" trait="_Script+WeaponAlpha"/>
+                    <sub src="io()" trait="_iHUD+Weapon"/>
+                    <max>0</max>
+                </min>
+            </alpha>
+        </image>
+        <image name="Grenade_Icon">
+            <locus>1</locus>
+            <x>
+				<copy>-125</copy>
+				<sub>
+					<copy>9</copy>
+					<onlyif src="io()" trait="_Script+GrenadeAlt"/>
+				</sub>
+			</x>
+            <y>
+				<copy>90</copy>
+				<sub>
+					<copy>9</copy>
+					<onlyif src="io()" trait="_Script+GrenadeAlt"/>
+				</sub>
+			</y>
+            <filename><copy src="io()" trait="_Script+WeaponGrenade"/></filename>
+            <width>
+				<copy>36</copy>
+				<add>
+					<copy>18</copy>
+					<onlyif src="io()" trait="_Script+GrenadeAlt"/>
+				</add>
+			</width>
+            <height><copy src="me()" trait="width"/></height>
+            <depth>3</depth>
+            <zoom>-1</zoom>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponGrenadeAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <include src="VUI+\Image_Outline.xml"/>
+        </image>
+        <text name="Grenade_Counter">
+            <x>-70</x>
+            <y>102</y>
+            <depth>3</depth>
+            <justify>&Right;</justify>
+            <font><copy src="globals" trait="_VUI+HUDFont" /></font>
+            <string>
+                <copy src="io()" trait="_Script+WeaponGrenadeCount"/>
+            </string>
+            <zoom>90</zoom>
+            <alpha>
+                <copy src="io()" trait="_Script+WeaponGrenadeAlpha"/>
+                <sub src="io()" trait="_iHUD+Weapon"/>
+                <max>0</max>
+            </alpha>
+            <_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+            <_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+        </text>
+        <include src="VUI+\outline.xml"/>
+		</rect>
+
+		
+		<rect name="MUX_NPC">
+			<visible>
+				<copy src="ActionPoints" trait="visible"/>
+				<or src="HitPoints" trait="visible"/>
+				<and src="io()" trait="_Master+NPC"/>
+			</visible>
+			<locus>1</locus>
+			<x>
+				<copy src="screen()" trait="width"/>
+				<div>2</div>
+				<add>
+					<copy src="io()" trait="_Editor+NPCX"/>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</add>
+			</x>
+			<y>
+				<copy>60</copy>
+				<add>
+					<copy src="io()" trait="_Editor+NPCY"/>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</add>
+			</y>
+			<image name="DT">
+				<visible><copy src="io()" trait="_Script+NPCPerk"/> </visible>
+				<x>110</x>
+				<y>25</y>
+				<filename>MUX\NPC\Outline\DT.dds</filename>
+				<width>16</width>
+				<height>16</height>
+				<depth>0</depth>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/></alpha>
+				<zoom>-1</zoom>
+			</image>
+			<text name="DT_Value">
+				<visible><copy src="io()" trait="_Script+NPCPerk"/> </visible>
+				<x>130</x>
+				<y>29</y>
+				<depth>1</depth>
+				<justify>&Left;</justify>
+				<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+				<string><copy src="io()" trait="_Script+NPCLA3"/></string>
+				<zoom>65</zoom>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/></alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+			<image name="DR">
+				<visible><copy src="io()" trait="_Script+NPCPerk"/> </visible>
+				<x>60</x>
+				<y>25</y>
+				<filename>MUX\NPC\Outline\DR.dds</filename>
+				<width>16</width>
+				<height>16</height>
+				<depth>0</depth>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/></alpha>
+				<zoom>-1</zoom>
+			</image>
+			<text name="DR_Value">
+				<visible><copy src="io()" trait="_Script+NPCPerk"/> </visible>
+				<x>80</x>
+				<y>29</y>
+				<depth>1</depth>
+				<justify>&Left;</justify>
+				<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+				<string><copy src="io()" trait="_Script+NPCLA2"/></string>
+				<zoom>65</zoom>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/></alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+			<image name="HP">
+				<visible><copy src="io()" trait="_Script+NPCPerk"/> </visible>
+				<x>-146</x>
+				<y>25</y>
+				<filename>MUX\NPC\Outline\HP.dds</filename>
+				<width>16</width>
+				<height>16</height>
+				<depth>0</depth>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/> </alpha>
+				<zoom>-1</zoom>
+			</image>
+			<text name="HP_Value">
+				<visible><copy src="io()" trait="_Script+NPCPerk"/> </visible>
+				<x>-126</x>
+				<y>29</y>
+				<depth>1</depth>
+				<justify>&Left;</justify>
+				<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+				<string><copy src="io()" trait="_Script+NPCLA1"/></string>
+				<zoom>65</zoom>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/></alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+			<image name="Bracket_Meter">
+				<locus>1</locus>
+				<x>-150</x>
+				<y>0</y>
+				<include src="MUX\Templates\Box.xml"/>
+				<_line>2</_line>
+				<_width>300</_width>
+				<_height>14</_height>
+				<_alpha><copy src="io()" trait="_Script+NPCAlpha"/></_alpha>
+			</image>
+			<image name="Meter">
+				<locus>1</locus>
+				<y>2</y>
+				<include src="MUX\Templates\Meter.xml"/>
+				<_width>296</_width>
+				<_height>10</_height>
+				<_Centered>1</_Centered>
+				<_Color>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</_Color>
+				<_Meter>MUX\Shared\Meters\Meter.dds</_Meter>
+				<_Value1><copy src="io()" trait="_Script+NPCValue"/></_Value1>
+				<_Value2><copy src="io()" trait="_Script+NPCVats"/></_Value2>
+				<_alpha><copy src="io()" trait="_Script+NPCAlpha"/></_alpha>
+				<_brightness>255</_brightness>
+				<_alpha_2><copy src="io()" trait="_Script+Vats"/></_alpha_2>
+			 </image>
+			<text name="Name">
+				<y>-25</y>
+				<depth>1</depth>
+				<justify>&Center;</justify>
+				<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+				<string><copy src="io()" trait="_Script+NPC"/></string>
+				<zoom>75</zoom>
+				<systemcolor>
+					<copy>1</copy>
+					<add src="io()" trait="_Script+NPCColor"/>
+				</systemcolor>
+				<alpha><copy src="io()" trait="_Script+NPCAlpha"/></alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+		</rect>
+
+		
+        <rect name="MUX_Radiation">
+            <locus>1</locus>
+            <visible>
+                <copy src="io()" trait="_Master+Radiation"/>
+				<and src="io()" trait="_MUX+PA"/>
+            </visible>
+            <x>
+                <copy>350</copy>
+                <sub src="parent()" trait="x"/>
+                <add src="io()" trait="_Editor+RadiationX"/>
+            </x>
+            <y>
+                <copy>855</copy>
+                <sub src="parent()" trait="y"/>
+                <add src="io()" trait="_Editor+RadiationY"/>
+            </y>
+            <_alpha><copy src="io" trait="_Script+RadAlpha"/> </_alpha>
+            <_Text_1><copy src="io" trait="_Script+RadText1"/></_Text_1>
+            <_Text_2><copy src="io" trait="_Script+RadText2"/></_Text_2>
+            <text name="Text">
+                <depth>0</depth>
+                <justify>&Right;</justify>
+                <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+                <string><copy src="parent()" trait="_Text_2"/></string>
+                <zoom>55</zoom>
+                <systemcolor>2</systemcolor>
+                <alpha><copy src="parent()" trait="_alpha"/> </alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+            </text>
+            <include src="VUI+\outline.xml"/>
+            <text name="Value">
+                <x>
+                    <copy>-2</copy>
+                    <sub src="sibling(Text)" trait="width"/>
+                </x>
+                <depth>0</depth>
+                <justify>&Right;</justify>
+                <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+                <string> <copy src="parent()" trait="_Text_1"/></string>
+                <zoom>55</zoom>
+                <systemcolor>2</systemcolor>
+                <alpha><copy src="parent()" trait="_alpha"/> </alpha>
+				<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+            </text>
+            <include src="VUI+\outline.xml"/>
+            <image name="Icon">
+                <x>
+                    <copy>30</copy>
+                    <sub>
+                        <copy src="me()" trait="width"/>
+                        <div>2</div>
+                    </sub>
+                </x>
+                <y>
+                    <copy>30</copy>
+                    <sub>
+                        <copy src="me()" trait="height"/>
+                        <div>2</div>
+                    </sub>
+                </y>
+                <filename>MUX\Status\Outline\Radiation.dds</filename>
+                <width><copy src="io()" trait="_Script+Rad"/></width>
+                <height><copy src="io()" trait="_Script+Rad"/></height>
+                <depth>4</depth>
+                <alpha><copy src="parent()" trait="_alpha"/></alpha>
+                <zoom>-1</zoom>
+                <systemcolor>2</systemcolor>
+            </image>
+        </rect>
+		
+		<rect name="MUX_Status">
+			<locus>1</locus>
+			<visible>
+				<copy src="HitPoints" trait="visible"/>
+				<and src="io()" trait="_Master+Status"/>
+			</visible>
+			<x>
+				<copy>55</copy>
+				<sub>
+					<copy>25</copy>
+					<onlyifnot src="io" trait="_MUX+PA"/>
+				</sub>
+				<add>
+					<copy src="io()" trait="_Editor+StatusX"/>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</add>
+			</x>
+			<y>
+				<copy>895</copy>
+				<sub>
+					<copy>235</copy>
+					<onlyifnot src="io" trait="_MUX+PA"/>
+				</sub>
+				<add>
+					<copy src="io()" trait="_Editor+StatusY"/>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</add>
+			</y>
+			<image name="Status">
+				<x>-26</x>
+			</image>
+		</rect>
+		<template name="MUX_Status">
+			<rect name="Status">
+				<locus>1</locus>
+				<x>
+					<copy src="sibling" trait="x"/>
+					<add>26</add>
+				</x>
+				<_Type>0</_Type>
+				<_alpha>0</_alpha>
+				<_systemcolor>1</_systemcolor>
+				<image name="Status">
+					<_Texture_1>MUX\Status\MUI\Food.dds</_Texture_1>
+					<_Texture_2>MUX\Status\MUI\Water.dds</_Texture_2>
+					<_Texture_3>MUX\Status\MUI\Chem.dds</_Texture_3>
+					<_Texture_4>MUX\Status\MUI\Drug.dds</_Texture_4>
+					<_Texture_5>MUX\Status\MUI\Weapon.dds</_Texture_5>
+					<_Texture_6>MUX\Status\MUI\Armor.dds</_Texture_6>
+					<_Texture_7>MUX\Status\MUI\Weight.dds</_Texture_7>
+					<_Texture_8>MUX\Status\MUI\Cripple.dds</_Texture_8>
+					<_Texture_9>MUX\Status\MUI\Poison.dds</_Texture_9>
+					<_Texture_10>MUX\Status\MUI\Stealth.dds</_Texture_10>
+					<_Texture_11>MUX\Status\MUI\Radiation.dds</_Texture_11>
+					<_Texture_12>MUX\Status\MUI\Thirst.dds</_Texture_12>
+					<_Texture_13>MUX\Status\MUI\Hunger.dds</_Texture_13>
+					<_Texture_14>MUX\Status\MUI\Sleep.dds</_Texture_14>
+					<_Texture_15>MUX\Status\MUI\Light.dds</_Texture_15>
+					<filename>
+						<copy src="parent()" trait="_Type"/>
+						<copy src="me()" trait="_Texture_"/>
+					</filename>
+					<width>24</width>
+					<height>28</height>
+					<zoom>-1</zoom>
+					<systemcolor><copy src="parent()" trait="_systemcolor"/></systemcolor>
+					<depth>2</depth>
+					<alpha><copy src="parent()" trait="_alpha"/></alpha>
+				</image>
+			</rect>
+		</template>
+
+		
+		<rect name="MUX_Compass">
+			<visible>
+				<copy src="ActionPoints" trait="visible"/>
+				<or src="HitPoints" trait="visible"/>
+				<and src="io()" trait="_Master+Compass"/>
+			</visible>
+			<locus>&true;</locus>
+			<clipwindow>&true;</clipwindow>
+			<x>
+				<copy src="screen()" trait="width"/>
+				<sub>520</sub>
+				<add>
+					<copy>100</copy>
+					<onlyifnot src="io" trait="_MUX+PA"/>
+				</add>
+				<div>2</div>
+				<add>
+					<copy>26</copy>
+					<onlyifnot src="io" trait="_MUX+PA"/>
+				</add>
+				<add>
+					<copy src="io()" trait="_Editor+CompassX"/>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</add>
+			</x>
+			<height>120</height>
+			<width>
+				<copy>520</copy>
+				<sub>
+					<copy>126</copy>
+					<onlyifnot src="io" trait="_MUX+PA"/>
+				</sub>
+			</width>
+			<y>
+				<copy>869</copy>
+				<add>
+					<copy src="io()" trait="_Editor+CompassY"/>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</add>
+			</y>
+			<image name="Back">
+				<visible>
+					<copy>1</copy>
+					<onlyif src="io" trait="_MUX+PA"/>
+				</visible>
+				<filename>VUIE\Shared\Gradients\Fader.dds</filename>
+				<width>520</width>
+				<height>24</height>
+				<depth>0</depth>
+				<zoom>-1</zoom>
+				<systemcolor>0</systemcolor>
+				<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+				<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+				<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+				<alpha>
+					<copy src="io()" trait="_iHUD+Compass"/>
+					<min src="globals" trait="_VUIE+Alpha100" />
+				</alpha>
+			</image>
+			<image name="Line">
+				<filename>MUX\Compass\MUI.dds</filename>
+				<width><copy src="parent()" trait="width"/></width>
+				<height>24</height>
+				<depth>1</depth>
+				<zoom>-1</zoom>
+				<alpha><copy src="io()" trait="_iHUD+Compass"/> </alpha>
+			</image>
+			<image name="MUX_North">
+				<include src="MUX\Templates\Compass_Alt.xml"/>
+				<_GTE>315</_GTE>
+				<_LTE>45</_LTE>
+				<_Offset>45</_Offset>
+				<_Text>N</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_15">
+				<include src="MUX\Templates\Compass_Alt.xml"/>
+				<_GTE>330</_GTE>
+				<_LTE>60</_LTE>
+				<_Offset>30</_Offset>
+				<_Text>15</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_30">
+				<include src="MUX\Templates\Compass_Alt.xml"/>
+				<_GTE>345</_GTE>
+				<_LTE>75</_LTE>
+				<_Offset>15</_Offset>
+				<_Text>30</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_NE">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>0</_GTE>
+				<_Text>NE</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_60">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>15</_GTE>
+				<_Text>60</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_75">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>30</_GTE>
+				<_Text>75</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_East">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>45</_GTE>
+				<_Text>E</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_105">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>60</_GTE>
+				<_Text>105</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_120">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>75</_GTE>
+				<_Text>120</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_SE">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>90</_GTE>
+				<_Text>SE</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_150">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>105</_GTE>
+				<_Text>150</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_165">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>120</_GTE>
+				<_Text>165</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_S">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>135</_GTE>
+				<_Text>S</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_195">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>150</_GTE>
+				<_Text>195</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_210">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>165</_GTE>
+				<_Text>210</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_SW">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>180</_GTE>
+				<_Text>SW</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_240">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>195</_GTE>
+				<_Text>240</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_255">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>210</_GTE>
+				<_Text>255</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_W">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>225</_GTE>
+				<_Text>W</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_285">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>240</_GTE>
+				<_Text>285</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_300">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>255</_GTE>
+				<_Text>300</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_NW">
+				<include src="MUX\Templates\Compass.xml"/>
+				<_GTE>270</_GTE>
+				<_Text>NW</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_330">
+				<include src="MUX\Templates\Compass_Alt.xml"/>
+				<_GTE>285</_GTE>
+				<_LTE>15</_LTE>
+				<_Offset>75</_Offset>
+				<_Text>330</_Text>
+				<_Type>2</_Type>
+			</image>
+			<image name="MUX_345">
+				<include src="MUX\Templates\Compass_Alt.xml"/>
+				<_GTE>300</_GTE>
+				<_LTE>30</_LTE>
+				<_Offset>60</_Offset>
+				<_Text>345</_Text>
+				<_Type>2</_Type>
+			</image>
+			<rect name="MUX_Compass_Tiles"></rect>
+		</rect>
+		<template name="MUX_Compass">
+			<rect name="MUX_Compass">
+				<locus>1</locus>
+				<_x>0</_x>
+				<_Type>0</_Type>
+				<_Color>0</_Color>
+				<_Unit>AAA</_Unit>
+				<x>
+					<copy src="me()" trait="_x"/>
+					<add>45</add>
+					<div>90</div>
+					<mul src="grandparent()" trait="width"/>
+				</x>
+				<y>
+					<copy>-4</copy>
+					<add>
+						<copy>5</copy>
+						<onlyif>
+							<copy src="me()" trait="_Type"/>
+							<eq>18</eq>
+						</onlyif>
+					</add>
+				</y>
+				<image name="Icon">
+					<_Icon_1>MUX\Compass\Outline\1.dds</_Icon_1>
+					<_Icon_2>MUX\Compass\Outline\2.dds</_Icon_2>
+					<_Icon_3>MUX\Compass\Outline\3.dds</_Icon_3>
+					<_Icon_4>MUX\Compass\Outline\4.dds</_Icon_4>
+					<_Icon_5>MUX\Compass\Outline\5.dds</_Icon_5>
+					<_Icon_6>MUX\Compass\Outline\6.dds</_Icon_6>
+					<_Icon_7>MUX\Compass\Outline\7.dds</_Icon_7>
+					<_Icon_8>MUX\Compass\Outline\8.dds</_Icon_8>
+					<_Icon_9>MUX\Compass\Outline\9.dds</_Icon_9>
+					<_Icon_10>MUX\Compass\Outline\10.dds</_Icon_10>
+					<_Icon_11>MUX\Compass\Outline\11.dds</_Icon_11>
+					<_Icon_12>MUX\Compass\Outline\12.dds</_Icon_12>
+					<_Icon_13>MUX\Compass\Outline\13.dds</_Icon_13>
+					<_Icon_14>MUX\Compass\Outline\14.dds</_Icon_14>
+					<_Icon_15>MUX\Compass\Outline\15.dds</_Icon_15>
+					<_Icon_16>MUX\Compass\Outline\16.dds</_Icon_16>
+					<_Icon_17>MUX\Compass\Outline\17.dds</_Icon_17>
+					<_Icon_18>MUX\Compass\Outline\18.dds</_Icon_18>
+					<_Icon_19>MUX\Compass\Outline\19.dds</_Icon_19>
+					<filename>
+						<copy src="parent()" trait="_Type"/>
+						<copy src="me()" trait="_Icon_"/>
+					</filename>
+					<x>-12</x>
+					<width>24</width>
+					<height>24</height>
+					<depth>
+						<copy>3</copy>
+						<add>
+							<copy>1</copy>
+							<onlyif>
+								<copy src="parent()" trait="_Type"/>
+								<eq>18</eq>
+							</onlyif>
+						</add>
+						<add>
+							<copy>1</copy>
+							<onlyif>
+								<copy src="parent()" trait="_Type"/>
+								<eq>17</eq>
+							</onlyif>
+						</add>
+						<add>
+							<copy>2</copy>
+							<onlyif>
+								<copy src="parent()" trait="_Type"/>
+								<eq>19</eq>
+							</onlyif>
+						</add>
+					</depth>
+					<zoom>-1</zoom>
+					<clips>1</clips>
+					<systemcolor>
+						<copy>1</copy>
+						<add src="parent()" trait="_Color"/>
+					</systemcolor>
+					<alpha><copy src="io()" trait="_iHUD+Compass"/></alpha>
+				</image>
+				<text name="Units">
+					<visible>
+						<copy>1</copy>
+						<onlyif>
+							<copy src="parent()" trait="_Type"/>
+							<Neq>19</Neq>
+						</onlyif>
+					</visible>
+					<y>30</y>
+					<clips>1</clips>
+					<systemcolor>
+						<copy>1</copy>
+						<add src="parent()" trait="_Color"/>
+					</systemcolor>
+					<depth>1</depth>
+					<justify>&Center;</justify>
+					<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+					<string><copy src="parent()" trait="_Unit"/></string>
+					<zoom>40</zoom>
+					<alpha><copy src="io()" trait="_iHUD+Compass"/></alpha>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</rect>
+		</template>
+
+
+        <!-- Enemy health ====================================-->
+        <rect name="EnemyHealth">
+            <width> 350 </width>
+            <height> 52 </height>
+            <locus>1</locus>
+            <systemcolor> &hudmain; </systemcolor>
+        </rect>
+        <!-- Command Buttons =================================-->
+        <!-- VUI+ buttons are re-organized in function groups: Target (xbox), Body Part (xbox), Select, Special Attacks (NV), Return (Undo), Accept -->
+		<_Spacer>25</_Spacer>
+		
+        <image name="MUX_Alignment_Buttons">
+            <!--M-U.I. added Background for better visibility for Buttons -->
+            <locus>1</locus>
+            <x>
+                <copy src="screen" trait="width"/>
+                <sub src="me()" trait="width"/>
+                <div>2</div>
+            </x>
+            <y>
+                <copy src="screen" trait="height"/>
+                <sub>180</sub>
+            </y>
+			<filename>VUIE\Shared\Solid.dds</filename>
+            <width>
+                <copy>110</copy>
+                <add>
+                    <copy src="sibling(Target_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(Target_button)" trait="visible"/>
+                </add>
+                <add>
+                    <copy src="sibling(BodyPart_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(BodyPart_button)" trait="visible"/>
+                </add>
+                <add>
+                    <copy src="sibling(Select_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(Select_button)" trait="visible"/>
+                </add>
+                <add>
+                    <copy src="sibling(special_attack_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(special_attack_button)" trait="visible"/>
+                </add>
+                <add>
+                    <copy src="sibling(special_attack_2_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(special_attack_2_button)" trait="visible"/>
+                </add>
+                <add>
+                    <copy src="sibling(return_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(return_button)" trait="visible"/>
+                </add>
+                <add>
+                    <copy src="sibling(accept_button)" trait="width"/>
+                    <add src="parent()" trait="_Spacer"/>
+                    <onlyif src="sibling(accept_button)" trait="visible"/>
+                </add>
+            </width>
+			<systemcolor>0</systemcolor>
+			<height><copy src="sibling(Target_button)" trait="height"/></height>
+			<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+			<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+			<alpha><copy src="globals" trait="_VUIE+Alpha150" /></alpha>
+        </image>
+		
+		
+		<hotrect name="Target_button">
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<visible> <copy src="globals" trait="_Has360Controller" /> </visible>
+			<string> &-sVatsTarget; </string>
+			<_x>
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>		<!-- MUX Change -->
+				<add>55</add>
+			</_x>		<!-- MUX Change -->
+			<y>
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="y"/>
+				<add>6.4</add>
+			</y>	
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttonrs; </_xbox_button>
+		</hotrect>
+
+		<hotrect name="BodyPart_button">
+			<id>6</id>
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<visible><copy src="globals" trait="_Has360Controller" /></visible>
+			<string> &-sVatsBodyPart; </string>
+			<_x>	<!-- MUX Change -->
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>
+				<add>55</add>
+				<add><copy src="sibling(Target_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Target_button)" trait="visible"/></add>
+			</_x>
+			<y><copy src="sibling()" trait="y"/></y>	<!-- MUX Change -->
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttonls; </_xbox_button>
+		</hotrect>
+
+		<hotrect name="Select_button"> <!--VUI+ there's no reason to hide this button for Keyboard & Mouse users since the Return LMB) button is visible -->
+			<id>7</id>
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<string> &-sVatsSelect;</string>
+			<_x>	<!-- MUX Change -->
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>
+				<add>55</add>
+				<add><copy src="sibling(Target_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Target_button)" trait="visible"/></add>
+				<add><copy src="sibling(BodyPart_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(BodyPart_button)" trait="visible"/></add>
+			</_x>
+			<y><copy src="sibling()" trait="y"/></y>	<!-- MUX Change -->
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttonrt; </_xbox_button>
+			<_PCButtonText> LMB) </_PCButtonText> <!--VUI+ show label as shown for the Return button -->
+		</hotrect>
+
+		<hotrect name="special_attack_button">
+			<id>30</id>
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<target>1</target>
+			<visible> 0 </visible> <!--VUI+ won't display on FO3 -->
+			<_x>	<!-- MUX Change -->
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>
+				<add>55</add>
+				<add><copy src="sibling(Target_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Target_button)" trait="visible"/></add>
+				<add><copy src="sibling(BodyPart_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(BodyPart_button)" trait="visible"/></add>
+				<add><copy src="sibling(Select_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Select_button)" trait="visible"/></add>
+			</_x>
+			<y><copy src="sibling()" trait="y"/></y>	<!-- MUX Change -->
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttony; </_xbox_button>
+			<_PCButtonText> &-sPCMenuHintR; </_PCButtonText>
+		</hotrect>
+
+		<hotrect name="special_attack_2_button">
+			<id>31</id>
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<target>1</target>
+			<visible> 0 </visible>
+			<_x>	<!-- MUX Change -->
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>
+				<add>55</add>
+				<add><copy src="sibling(Target_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Target_button)" trait="visible"/></add>
+				<add><copy src="sibling(BodyPart_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(BodyPart_button)" trait="visible"/></add>
+				<add><copy src="sibling(Select_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Select_button)" trait="visible"/></add>
+				<add><copy src="sibling(special_attack_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(special_attack_button)" trait="visible"/></add>
+			</_x>
+			<y><copy src="sibling()" trait="y"/></y>	<!-- MUX Change -->
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttonx; </_xbox_button>
+			<_PCButtonText> &-sPCMenuHintF; </_PCButtonText>
+		</hotrect>
+
+		<hotrect name="return_button">
+			<id>5</id>
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<target>1</target>
+			<string> &-sReturn;</string>
+			<_x>	<!-- MUX Change -->
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>
+				<add>55</add>
+				<add><copy src="sibling(Target_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Target_button)" trait="visible"/></add>
+				<add><copy src="sibling(BodyPart_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(BodyPart_button)" trait="visible"/></add>
+				<add><copy src="sibling(Select_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Select_button)" trait="visible"/></add>
+				<add><copy src="sibling(special_attack_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(special_attack_button)" trait="visible"/></add>
+				<add><copy src="sibling(special_attack_2_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(special_attack_2_button)" trait="visible"/></add>
+			</_x>
+			<y><copy src="sibling()" trait="y"/></y>	<!-- MUX Change -->
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttonb; </_xbox_button>
+			<_PCButtonText> &-sPCMenuHintRMB; </_PCButtonText>
+		</hotrect>
+
+		<hotrect name="accept_button">
+			<id>4</id>
+			<include src="VUIE\Vats\text_box_modern.xml" />
+			<target>0</target>
+			<string> &-sAccept; </string>
+			<_x>	<!-- MUX Change -->
+				<copy src="sibling(MUX_Alignment_Buttons)" trait="x"/>
+				<add>55</add>
+				<add><copy src="sibling(Target_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Target_button)" trait="visible"/></add>
+				<add><copy src="sibling(BodyPart_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(BodyPart_button)" trait="visible"/></add>
+				<add><copy src="sibling(Select_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(Select_button)" trait="visible"/></add>
+				<add><copy src="sibling(special_attack_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(special_attack_button)" trait="visible"/></add>
+				<add><copy src="sibling(special_attack_2_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(special_attack_2_button)" trait="visible"/></add>
+				<add><copy src="sibling(return_button)" trait="width"/><add src="parent()" trait="_Spacer"/><onlyif src="sibling(return_button)" trait="visible"/></add>
+			</_x>
+			<y><copy src="sibling()" trait="y"/></y>	<!-- MUX Change -->
+			<font><copy src="globals" trait="_VUI+HUDFont" /></font>
+			<justify>&Left;</justify>
+			<_xbox_button> &xbuttona; </_xbox_button>
+			<_PCButtonText> &-sPCMenuHintE; </_PCButtonText>
+		</hotrect>
+		
+        <!-- Aiming text =====================================-->
+        <template name="template_aiming_text">
+            <text name="aiming_text">
+                <visible>0</visible>
+                <string>&-sVatsAiming;</string>
+            </text>
+        </template>
+        <!-- action queue separator ==========================-->
+        <rect name="separator">
+            <locus>1</locus>
+            <!-- MUX Added -->
+            <filename>Interface\VATS\glow_vats_queue_divider.dds</filename>
+            <width>512</width>
+            <height>64</height>
+            <visible>
+                <copy src="sibling(queued_actions)" trait="childcount"/>
+            </visible>
+            <!--VUI+ childcount is now precise because the list no longer contains list_box stuff -->
+            <x>
+                <copy src="screen" trait="width"/>
+                <sub>
+                    <copy src="screen" trait="cropx"/>
+                    <mul>2</mul>
+                    <add src="me" trait="width"/>
+                </sub>
+                <add>127</add>
+                <!--VUI+ align with the AP separator -->
+            </x>
+            <y>
+                <copy src="screen" trait="height"/>
+                <sub>
+                    <copy src="screen" trait="cropy"/>
+                    <mul>2</mul>
+                    <add>
+                        <copy src="me" trait="height"/>
+                    </add>
+                </sub>
+                <sub src="ActionPoints" trait="height"/>
+				<sub>
+					<copy>200</copy>
+					<onlyifnot src="io()" trait="_MUX+PA"/>
+				</sub>
+            </y>
+            <include src="VUI+\Image_Outline.xml"/>
+            <!-- MUX Added -->
+        </rect>
+        <image name="MUX_Seperator">
+            <locus>1</locus>
+            <visible>
+                <copy src="sibling(queued_actions)" trait="childcount"/>
+            </visible>
+            <x>
+                <copy src="screen()" trait="width"/>
+                <sub>450</sub>
+            </x>
+            <y>
+                <copy>800</copy>
+                <sub src="me()" trait="_height"/>
+				<sub>
+					<copy>200</copy>
+					<onlyifnot src="io()" trait="_MUX+PA"/>
+				</sub>
+            </y>
+            <include src="MUX\Templates\Box.xml"/>
+            <_line>2</_line>
+            <_width>400</_width>
+            <_height>
+                <copy>32</copy>
+                <add>
+                    <copy>32</copy>
+                    <mul>
+                        <copy src="sibling(queued_actions)" trait="childcount"/>
+                    </mul>
+                </add>
+                <sub>32</sub>
+                <min>316</min>
+            </_height>
+            <_alpha>255</_alpha>
+        </image>
+        <!-- Queued up action text ===========================-->
+        <rect name="queued_actions">
+            <!--VUI+ removed non-functional list_box stuff to simplify the code -->
+            <id>1</id>
+            <x>
+                <copy src="sibling(MUX_Seperator)" trait="x"/>
+                <add>390</add>
+            </x>
+            <y>
+				<copy>758</copy>
+				<sub>
+					<copy>200</copy>
+					<onlyifnot src="io()" trait="_MUX+PA"/>
+				</sub>
+			</y>
+            <locus> 1 </locus>
+            <depth> -3 </depth>
+            <!--VUI+ set behind the chance/health boxes -->
+        </rect>
+        <template name="queued_action">
+            <rect name="queued_action_list_container">
+                <include src="list_box_template.xml" />
+                <!--VUI+ needed for list item positioning -->
+                <y>
+                    <copy src="me" trait="height"/>
+                    <sub>
+                        <copy src="parent" trait="childcount"/>
+                        <sub src="me" trait="listindex"/>
+                        <mul src="me" trait="height"/>
+                    </sub>
+                </y>
+                <_VerticalSpacing> 0 </_VerticalSpacing>
+                <_MUX+Index>
+                    <!-- MUX Added -->
+                    <copy src="me" trait="listindex" />
+                    <add>10</add>
+                </_MUX+Index>
+                <text name="ListItemText">
+                    <visible>
+                        <!-- MUX Added. Show only last 10 action in the queue -->
+                        <copy>1</copy>
+                        <onlyif>
+                            <copy src="grandparent" trait="childcount" />
+                            <lte>
+                                <copy src="parent" trait="_MUX+Index" />
+                            </lte>
+                        </onlyif>
+                    </visible>
+                    <depth>4</depth>
+                    <font><copy src="globals" trait="_VUI+HUDFont" /></font>
+                    <!-- MUX change to de-clutter the screen by oversize elements -->
+                    <string><copy src="parent()" trait="string"/> </string>
+                    <justify> &right; </justify>
+                    <y> 20 </y>
+                    <zoom>70</zoom>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+                </text>
+                <include src="VUI+\outline.xml"/>
+                <text name="VUI+QueueNumber">
+                    <visible><copy src="sibling(ListItemText)" trait="visible" /></visible>
+                    <!-- MUX Added -->
+                    <font><copy src="sibling" trait="font" /> </font>
+                    <string>
+                        <copy src="parent" trait="listindex" />
+                        <add> 1 </add>
+                    </string>
+                    <depth>4</depth>
+                    <justify> &right; </justify>
+                    <y><copy src="sibling" trait="y" /> </y>
+                    <x>
+                        <copy src="me" trait="font" />
+                        <copy src="globals" trait="_VUI+FontW_" />
+                        <mul> -0.8 </mul>
+                        <sub src="sibling" trait="width" />
+                    </x>
+                    <zoom>70</zoom>
+					<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+                </text>
+                <include src="VUI+\outline.xml"/>
+            </rect>
+        </template>
+    </rect>
+</menu>

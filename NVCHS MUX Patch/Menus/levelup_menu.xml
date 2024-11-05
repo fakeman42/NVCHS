@@ -1,0 +1,627 @@
+<!-- Skill and Perk menu
+COPYRIGHT BY ZENIMAX; MODIFIED AUGUST 2022 BY AXONIS FOR VANILLA UI PLUS
+* Common code for FO3 and NV (search for _VUI+Vegas tags)
+* Added clipping & smooth scrolling for the text description to deal with very large (modded) descriptions
+* Aligned the remaining point counter to the center of its box
+* Slightly zoomed the Skill Requirement Badge
+* Removed the limitation of visible items to accommodate more items for alternative small fonts
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Aligned the list and scrollbar using dynamic calculations 
+* Added the _VUI+bEnableBigGunsSkill option to fit 14 skills on a single page when Big Guns are enabled by the JIP-LN plugin
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="LevelUpMenu">
+	<class> &LevelUpMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<_CurrentPage> 0 </_CurrentPage> <!-- The current page index -->
+	<_EndPage> 1 </_EndPage> <!-- The last page index -->
+	<_CurrPoints></_CurrPoints> <!-- # points that have been assigned for this page -->
+	<_MaxPoints></_MaxPoints> <!-- Max # points that may be assigned for this page -->
+	<xbuttony> <ref src="LUM_ResetButton" trait="clicked"/> </xbuttony>
+	<include src="VUI+\Keybinds\LevelUp.xml" />
+	<_VUI+bEnableBigGunsSkill> <copy src="sibling(HUDMainMenu)" trait="_VUI+bEnableBigGunsSkill" /> </_VUI+bEnableBigGunsSkill>
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<image name="LUM_Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(LUM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(LUM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(LUM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(LUM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> 5 </_VUI+MenuHeader>
+		</image>
+
+		<rect name="LUM_MainRect">
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2 </div>
+			</y>
+			<width> 1024 </width>
+			<height> 800 </height>
+			<locus> 1 </locus>
+			<depth> 2 </depth>
+
+			<rect name="LUM_HeadlineRect">
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> <copy src="child(LUM_Headline_v1)" trait="height" /> </height>
+				<locus> 1 </locus>
+
+				<image name="LUM_Headline_h1">
+					<include src="line.xml"/>
+					<_length> 50 </_length>
+				</image>
+
+				<image name="LUM_Headline_v1">
+					<include src="vertical_fade_line.xml"/>
+				</image>
+
+				<rect name="LUM_Headline_Title">
+					<id> 0 </id>
+					<x>
+						<copy src="sibling(LUM_headline_h1)" trait="_length"/>
+						<add> 20 </add>
+					</x>
+					<width><copy src="child()" trait="width"/></width>
+					<y> -10 </y>
+					<font> 6 </font>
+					<text name="Clone">
+						<x><copy src="parent()" trait="x"/></x>
+						<justify><copy src="parent()" trait="justify"/></justify>
+						<depth>1</depth>
+						<y>-5</y>
+						<font>3</font>
+						<string><copy src="parent()" trait="string"/></string>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</rect>
+
+				<image name="LUM_Headline_h2">
+					<include src="line.xml"/>
+					<_length>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="x"/>
+					</_length>
+					<x>
+						<copy src="sibling(LUM_Headline_Title)" trait="x"/>
+						<add src="sibling(LUM_Headline_Title)" trait="width"/>
+						<add> 20 </add>
+					</x>
+				</image>
+
+				<image name="LUM_Headline_v2">
+					<include src="vertical_fade_line.xml"/>
+					<_x>
+						<copy src="sibling(LUM_Headline_h2)" trait="x"/>
+						<add src="sibling(LUM_Headline_h2)" trait="width"/>
+						<sub src="me" trait="width"/>
+					</_x>
+				</image>
+			</rect>
+
+			<hotrect name="LUM_SkillList">
+				<include src="list_box.xml"/>
+				<id> 1 </id>
+				<_enabled> <copy src="me" trait="visible"/> </_enabled>
+				<x> -15 </x>
+				<_VUI+Top> <copy src="sibling(LUM_HeadlineRect)" trait="height"/> </_VUI+Top>
+				<_VUI+Bottom>
+					<copy src="parent" trait="height" />
+					<sub src="sibling(LUM_BottomBracket)" trait="height" />
+				</_VUI+Bottom>
+				<y>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add src="me" trait="_VUI+Top" />
+				</y>
+				<_VUI+ScrollbarOffsetY>
+					<copy src="me" trait="_VUI+Top" />
+					<sub src="me" trait="y" />
+				</_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight>
+					<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+					<mul> -2 </mul>
+				</_VUI+ScrollbarOffsetHeight>
+				<width> 470 </width>
+				<height> 676 </height>
+				<visible> <copy src="io" trait="_CurrentPage"/> <eq> 0 </eq> </visible>
+			</hotrect>
+
+			<hotrect name="LUM_PerkList">
+				<include src="list_box.xml"/>
+				<id> 2 </id>
+				<_enabled> <copy src="me" trait="visible"/> </_enabled>
+				<x> -15 </x>
+				<_VUI+Top> <copy src="sibling(LUM_HeadlineRect)" trait="height"/> </_VUI+Top>
+				<_VUI+Bottom>
+					<copy src="parent" trait="height" />
+					<sub src="sibling(LUM_BottomBracket)" trait="height" />
+				</_VUI+Bottom>
+				<y>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add src="me" trait="_VUI+Top" />
+				</y>
+				<_VUI+ScrollbarOffsetY>
+					<copy src="me" trait="_VUI+Top" />
+					<sub src="me" trait="y" />
+				</_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight>
+					<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+					<mul> -2 </mul>
+				</_VUI+ScrollbarOffsetHeight>
+				<width> 470 </width>
+				<height> 690 </height>
+				<visible> <copy src="io" trait="_CurrentPage"/> <eq> 1 </eq> </visible>
+			</hotrect>
+
+			<image name="LUM_SelectionIcon">
+				<locus>1</locus>
+				<id> 3 </id>
+				<x> 530 </x>
+				<y> 0 </y>
+				<width> 400 </width>
+				<height> 400 </height>
+				<zoom> &scale; </zoom>
+				<visible> 0 </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="stats_icon_badge"> <!-- NV icon badge for skill requirements -->
+				<locus>1</locus>
+				<id> 9 </id>
+				<visible> 0 </visible>
+				<zoom> &scale; </zoom>
+				<x> <copy src="sibling(LUM_SelectionInfoRect)" trait="x" /> </x>
+				<y> <copy src="sibling(LUM_SelectionInfoRect)" trait="y" /> <sub src="me" trait="height" /> <sub> 14 </sub> </y>
+				<width> 80 </width>
+				<height> 80 </height>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<rect name="LUM_SelectionInfoRect">
+				<x>
+					<copy src="sibling(LUM_SkillList)" trait="x"/>
+					<add src="sibling(LUM_SkillList)" trait="width"/>
+					<add> 10 </add>
+				</x>
+				<y> 385 </y>
+				<width>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</width>
+				<height> 300 </height>
+				<locus> 1 </locus>
+
+				<image name="LUM_DividerA">
+					<include src="line.xml"/>
+					<_length> <copy src="parent" trait="width"/> </_length>
+				</image>
+
+				<image name="LUM_DividerA_v1">
+					<include src="vertical_fade_line.xml"/>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="width"/>
+					</x>
+				</image>
+
+				<image name="LUM_DividerB">
+					<include src="line.xml"/>
+					<_length> 
+						<copy src="parent" trait="width"/> 
+						<sub>110</sub>
+					</_length>
+					<x>
+						<copy>0</copy>
+						<sub src="parent" trait="x"/>
+					</x>
+					<y>
+						<copy> 360</copy>
+						<sub src="me" trait="height"/>
+					</y>
+				</image>
+
+				<image name="LUM_DividerB_v1">
+					<include src="vertical_fade_line.xml"/>
+					<_length>30</_length>
+					<x>-17</x>
+					<y> <copy src="sibling(LUM_DividerB)" trait="y"/> </y>
+				</image>
+
+				<hotrect name="TM_DescriptionBox">
+					<y>
+						<copy src="sibling(LUM_DividerA)" trait="y" />
+						<add> 10 </add>
+					</y>
+					<width>
+						<copy src="parent" trait="width"/>
+						<sub> 17.5 </sub>
+					</width>
+					<height>
+						<copy src="sibling(LUM_DividerB)" trait="y" />
+						<sub src="me" trait="y" />
+						<sub> 10 </sub>
+					</height>
+					<locus> 1 </locus>
+					<wheelable> 1 </wheelable>
+					<clipwindow> <not src="globals" trait="_Has360Controller"/> </clipwindow>
+
+					<hotrect name="TM_DescriptionScrollbar">
+						<include src="scrollbar_vert.xml"/>
+						<_x> <copy src="parent" trait="width"/> </_x>
+						<y> 70 </y>
+						<_height>
+							<copy src="parent" trait="height"/>
+							<add> 60 </add>
+						</_height>
+						<_wheelmoved> <copy src="parent" trait="wheelmoved"/> </_wheelmoved>
+						<_scrolldelta> 36 </_scrolldelta>
+						<_number_of_items>
+							<copy src="sibling(LUM_SelectionText)" trait="height"/>
+							<div src="me" trait="_scrolldelta" />
+						</_number_of_items>
+						<_number_of_visible_items>
+							<copy src="parent" trait="height"/>
+							<div src="me" trait="_scrolldelta" />
+						</_number_of_visible_items>
+						<_VUI+SmoothScrolling> 1 </_VUI+SmoothScrolling>
+					</hotrect>
+
+					<text name="LUM_SelectionText">
+						<id> 4 </id>
+						<y>
+							<copy src="sibling(TM_DescriptionScrollbar)" trait="_current_value"/>
+							<mul src="sibling(TM_DescriptionScrollbar)" trait="_scrolldelta" />
+							<mul> -1 </mul>
+							<add> 5 </add>
+						</y>
+						<wrapwidth>
+							<copy src="parent" trait="width"/>
+							<sub> 10 </sub>
+						</wrapwidth>
+						<font> 3 </font>
+						<zoom>90</zoom>
+						<clips> 1 </clips>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</hotrect>
+
+				<rect name="LUM_PointCounter">
+					<id> 5 </id>
+					<x>
+						<copy src="parent" trait="width" />
+						<div> 2 </div>
+					</x>
+					<justify> &center; </justify>
+					<y>
+						<copy src="sibling(LUM_DividerB)" trait="y"/>
+						<add> 30 </add>
+					</y>
+					<font> 3 </font>
+					<text name="Clone">
+						<id> 5 </id>
+						<justify>&center; </justify>
+						<x>
+							<copy src="LUM_SkillList" trait="x"/>
+							<add src="LUM_SkillList" trait="width"/>
+							<div>2</div>
+							<sub src="grandparent" trait="x" />
+						</x>
+						<y>
+							<copy src="LUM_BottomBracket" trait="y" />
+							<sub src="grandparent" trait="y" />
+							<sub src="me" trait="height" />
+						</y>
+						<depth>1</depth>
+						<font>3</font>
+						<string><copy src="parent()" trait="string"/></string>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</rect>
+			</rect>
+
+			<rect name="LUM_ButtonRect">
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="globals" trait="_VUI+InsideButton" />
+				</x>
+				<y> <copy src="sibling(LUM_HeadlineRect)" trait="height" /> </y>
+				<locus> 1 </locus>
+
+				<hotrect name="LUM_ResetButton">
+					<include src="text_box.xml"/>
+					<id> 6 </id>
+					<justify> &right; </justify>
+					<_xbox_button> &xbuttony; </_xbox_button>
+					<font>3</font>
+					<_PCButtonText> <copy src="io" trait="_LUM_ResetButton" /> </_PCButtonText>
+					<string> &-sReset; </string>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</hotrect>
+
+				<hotrect name="LUM_ContinueButton">
+					<include src="text_box.xml"/>
+					<id> 7 </id>
+					<_y>
+						<copy src="sibling" trait="_y"/>
+						<add src="sibling" trait="height"/>
+					</_y>
+					<_Title_0> &-sContinue; </_Title_0> <!-- Switch between "Continue" and "Done" depending on current page -->
+					<_Title_1> &-sDone; </_Title_1>
+					<_Title>
+						<copy src="io" trait="_CurrentPage"/>
+						<eq src="io" trait="_EndPage"/>
+						<copy src="me" trait="_Title_"/>
+					</_Title>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<font>3</font>
+					<_xbox_button> &xbuttonx; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_LUM_ContinueButton" /> </_PCButtonText>
+					<justify> &right; </justify>
+					<target>
+						<copy src="io" trait="_CurrPoints"/>
+						<eq src="io" trait="_MaxPoints"/>
+					</target>
+					<clicksound> UIMenuOK </clicksound>
+					<string> <copy src="me" trait="_Title"/> </string>
+				</hotrect>
+
+				<hotrect name="LUM_BackButton">
+					<include src="text_box.xml"/>
+					<id> 8 </id>
+					<_y>
+						<copy src="sibling" trait="_y"/>
+						<add src="sibling" trait="height"/>
+					</_y>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<justify> &right; </justify>
+					<visible> <copy src="io" trait="_CurrentPage"/> <gt> 0 </gt> </visible>
+					<_xbox_button> &xbuttonb; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_LUM_BackButton" /> </_PCButtonText>
+					<string> &-sBack; </string>
+					<clicksound> UIMenuOK </clicksound>
+				</hotrect>
+			</rect>
+
+			<rect name="LUM_BottomBracket">
+				<include src="bottom_bracket.xml"/>
+				<y> <copy src="parent" trait="height"/> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> 60 </height>
+			</rect>
+		</rect>
+	</rect>
+
+	<rect name="GLOW_BRANCH">
+		<id> &glow_branch; </id>
+	</rect>
+
+	<template name="LUM_SkillTemplate">
+		<hotrect name="LUM_SkillItem">
+			<include src="list_box_template.xml"/>
+			<_MinValue> 0 </_MinValue> <!-- The min value for a stat -->
+			<_MaxValue> 100 </_MaxValue> <!-- The max value for a stat -->
+			<_BaseValue></_BaseValue> <!-- The base value of this stat -->
+			<_ExtraValue></_ExtraValue> <!-- Any values added to the base value from perks, chems, and other enhancers -->
+			<_AddedValue></_AddedValue> <!-- Any stat points added in the menu-->
+			<_OverflowValue></_OverflowValue> <!-- Any points added that push stats outside their min-max bounds; these are ignored, but stored for addition purposes -->
+			<_DisplayString></_DisplayString> <!-- The string to display for the value -->
+			<clicksound> &nosound; </clicksound>
+			<mouseoversound> &nosound; </mouseoversound>
+			<repeathorizontal> 1 </repeathorizontal> <!--VUI+ necessary for controller navigation (allows continued horizontal button to repeat when pressed continuously) -->
+			<_VerticalSpacing>
+				<!--VUI+ calculate padding to fit all skills on a single page, taking into account the font height and the presence of Big Guns in NV -->
+				<copy src="parent" trait="height" />
+				<div>
+					<copy> 13 </copy>
+					<add src="io" trait="_VUI+bEnableBigGunsSkill" />
+				</div>
+				<sub>
+					<copy src="child(ListItemText)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+				</sub>
+				<!--VUI+ some limits for extremities -->
+				<min> 25 </min>
+				<max> 5 </max>
+				<sub>10</sub>
+			</_VerticalSpacing>
+
+			<text name="ListItemText"> <!-- skill name -->
+				<x> 15 </x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<font>3</font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif>
+						<copy src="sibling(LUM_Template_LeftArrow)" trait="mouseover" /> <!--VUI+ quantity items are only active when pointing at the arrows -->
+						<or src="sibling(LUM_Template_RightArrow)" trait="mouseover" />
+						<or src="globals" trait="_Has360Controller"/>
+						<and src="parent" trait="_VUI+Highlighted" />
+					</onlyif>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="LUM_Template_ItemValue"> <!-- skill value -->
+				<x> 340 </x>
+				<y> <copy src="sibling(ListItemText)" trait="y" /> </y>
+				<font>3</font>
+				<justify> &center; </justify>
+				<brightness> <copy src="sibling(ListItemText)" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<!--VUI+ compatibitility with unlocked levelup mods -->
+				<string>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+				</string>
+				<visible>
+					<copy src="io" trait="_CurrentPage"/>
+					<eq> 0 </eq>
+				</visible>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="LUM_Template_LeftArrow"> <!-- left arrow, decrements value -->
+				<locus>1</locus>
+				<id>
+					<copy> -1 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+					<add> 13 </add>
+				</id>
+				<_Filename_1> Interface\Shared\Arrow\adjust_decrease.dds </_Filename_1>
+				<_Filename_2> Interface\Shared\Arrow\adjust_decrease_over.dds</_Filename_2>
+				<filename>
+					<copy src="me" trait="mouseover"/>
+					<add> 1 </add>
+					<copy src="me" trait="_Filename_"/>
+				</filename>
+				<x> 245 </x>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+				</y>
+				<width> 64 </width>
+				<height> 64 </height>
+				<zoom> &scale; </zoom>
+				<depth> 2 </depth>
+				<target> 1 </target>
+				<clicksound>UIMenuPrevNext</clicksound>
+				<!-- Only visible if total value is > min value and added value is 0 ( can't decrease stats to less than starting value ) -->
+				<visible>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+					<gt src="parent" trait="_MinValue"/>
+					<and>
+						<copy src="parent" trait="_AddedValue"/>
+						<gt> 0 </gt>
+					</and>
+				</visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="LUM_Template_RightArrow"> <!-- right arrow, increments value -->
+				<locus>1</locus>
+				<id>
+					<copy> -1 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+					<add> 14 </add>
+				</id>
+				<_Filename_1> Interface\Shared\Arrow\adjust_increase.dds </_Filename_1>
+				<_Filename_2> Interface\Shared\Arrow\adjust_increase_over.dds</_Filename_2>
+				<filename>
+					<copy src="me" trait="mouseover"/>
+					<add> 1 </add>
+					<copy src="me" trait="_Filename_"/>
+				</filename>
+				<x> 370 </x>
+				<y> <copy src="sibling" trait="y" /> </y>
+				<width> 64 </width>
+				<height> 64 </height>
+				<zoom> &scale; </zoom>
+				<depth> 2 </depth>
+				<target> 1 </target>
+				<clicksound>UIMenuPrevNext</clicksound>
+				<!-- Only visible if total value < max value and if we haven't already used up our stat points -->
+				<visible>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+					<lt src="parent" trait="_MaxValue"/>
+					<and>
+						<copy src="io" trait="_CurrPoints"/>
+						<lt src="io" trait="_MaxPoints"/>
+					</and>
+				</visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+		</hotrect>
+	</template>
+
+	<template name="LUM_PerkTemplate">
+		<hotrect name="LUM_Perk">
+			<include src="list_box_template.xml"/>
+			<_TextAlpha> 255 </_TextAlpha>
+			<mouseoversound> &nosound; </mouseoversound>
+			<clicksound> UIMenuPrevNext </clicksound>
+			<_VerticalSpacing>1.6</_VerticalSpacing> <!--VUI+ reduce padding of list items -->
+
+			<text name="ListItemText"> <!-- perk name -->
+				<x> 42 </x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<font>3</font>
+				<zoom>90</zoom>
+				<wrapwidth> 370 </wrapwidth>
+				<string> <copy src="parent" trait="string"/> </string>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<alpha> <copy src="parent" trait="_TextAlpha"/> </alpha>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="LUM_Template_ItemMarker">
+				<filename> Interface\Shared\Marker\square_filled.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> 13 </x>
+				<y>
+					<copy src="sibling(ListItemText)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="parent" trait="_VerticalSpacing" />
+					<sub>
+						<copy src="me" trait="height" />
+						<mul> 0.59 </mul>
+					</sub>
+					<div> 2 </div>
+				</y>
+				<width> 24 </width>
+				<height> 24 </height>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<visible> <copy src="parent" trait="_selected"/> </visible>
+			</image>
+		</hotrect>
+	</template>
+</menu>

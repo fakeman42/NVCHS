@@ -1,0 +1,72 @@
+		<text name="MUX_Reticle">
+			<visible><copy src="sibling(justify_center_hotrect)" trait="visible"/></visible>
+			<x>
+				<copy>0</copy>
+				<add>
+					<copy src="screen()" trait="width"/>
+					<div>2</div>
+					<sub src="parent()" trait="x"/>
+					<add>80</add>
+					<add src="io()" trait="_Editor+ReticleX"/>
+					<onlyifnot src="io()" trait="_Addon+Prompt"/>
+				</add>
+				<add>
+					<copy src="io()" trait="_PUPD+X"/>
+					<mul src="screen()" trait="width"/>
+					<sub src="parent()" trait="x"/>
+					<onlyif src="io()" trait="_Addon+Prompt"/>
+				</add>
+			</x>
+			<y>
+				<copy>0</copy>
+				<add>
+					<copy>485</copy>
+					<sub src="parent()" trait="y"/>
+					<add src="io()" trait="_Editor+ReticleY"/>
+					<onlyifnot src="io()" trait="_Addon+Prompt"/>
+				</add>
+				<add>
+					<copy src="io()" trait="_PUPD+Y"/>
+					<mul src="screen()" trait="height"/>
+					<add>25</add>
+					<sub src="parent()" trait="y"/>
+					<onlyif src="io()" trait="_Addon+Prompt"/>
+				</add>
+			</y>
+			<_Box_9>A)</_Box_9>
+			<_Box_10>B)</_Box_10>
+			<_Box_11>X)</_Box_11>
+			<_Box_12>Y)</_Box_12>
+			<_Button>
+				<copy src="sibling(justify_center_hotrect)" trait="_xbox_button"/>
+				<copy src="me" trait="_Box_"/>
+			</_Button>
+			<string></string>
+			<systemcolor>
+				<copy src="sibling(justify_center_hotrect)" trait="systemcolor"/>
+				<sub>
+					<copy>1</copy>
+					<onlyif>
+						<copy src="sibling(justify_center_hotrect)" trait="systemcolor"/>
+						<eq>1</eq>
+					</onlyif>
+					<and>
+						<copy src="io()" trait="_VUIE+PromptColor"/>
+						<eq>0</eq>
+					</and>
+				</sub>
+			</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+			<justify>
+				<copy>1</copy>
+				<add src="io()" trait="_Addon+Prompt"/>
+			</justify>
+			<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+			<zoom>70</zoom>
+			<alpha><copy src="sibling(justify_center_hotrect)" trait="alpha"/></alpha>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>

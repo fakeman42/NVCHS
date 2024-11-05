@@ -1,0 +1,170 @@
+﻿<!-- 
+// FILE:		Template.xml
+// VERSION:		???
+// AUTHOR:		Anro	
+// INFO:		Bypassing Hardcoded Text
+-->
+
+<text name="MUX_Subtitle">
+	<visible><copy src="grandparent()" trait="_Subtitle"/></visible>
+	<x>
+		<copy src="screen()" trait="width"/>
+		<div>2</div>
+		<sub src="grandparent()" trait="x"/>
+		<add>
+			<copy src="io()" trait="_Editor+SubtitleX"/>
+			<onlyif>
+				<copy src="grandparent()" trait="_Classic"/>
+				<eq>0</eq>
+			</onlyif>
+		</add>
+	</x>
+	<y>
+		<copy>0</copy>
+		<add>
+			<copy src="screen()" trait="height"/>
+			<sub>110</sub>
+			<sub src="sibling(Bracket)" trait="_height"/>
+			<sub src="grandparent()" trait="y"/>
+			<onlyif>
+				<copy src="grandparent()" trait="_Classic"/>
+				<eq>1</eq>
+			</onlyif>
+		</add>
+		<add>
+			<copy>770</copy>
+			<sub src="grandparent()" trait="y"/>
+			<add src="io()" trait="_Editor+SubtitleY"/>
+			<onlyif>
+				<copy src="grandparent()" trait="_Classic"/>
+				<eq>0</eq>
+			</onlyif>
+		</add>
+	</y>
+
+	<string><copy src="parent()" trait="string"/></string>
+	<systemcolor><copy src="io()" trait="_VUIE+SubColor"/></systemcolor>
+	<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+	<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+	<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+	<justify>&Center;</justify>
+	<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+	<wrapwidth>800</wrapwidth>
+	<depth>3</depth>
+	<zoom>70</zoom>
+	<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+	<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+</text>
+<include src="VUI+\outline.xml"/>
+<image name="Bracket">
+	<visible>
+		<copy src="sibling(MUX_Subtitle)" trait="visible"/>
+		<and src="grandparent()" trait="_Classic"/>
+	</visible>
+	<locus>1</locus>
+	<x>
+		<copy>0</copy>
+		<sub src="grandparent()" trait="x"/>
+	</x>
+	<y>
+		<copy src="screen()" trait="height"/>
+		<sub>120</sub>
+		<sub src="me()" trait="_height"/>
+		<sub src="grandparent()" trait="y"/>
+	</y>
+	<include src="MUX\Templates\Classic_Box.xml"/>
+	<_line>6</_line>
+	<_width>1706</_width>
+	<_height>
+		<copy src="sibling(MUX_Subtitle)" trait="height"/>
+		<add>10</add>
+	</_height>
+	<_alpha>255</_alpha>
+</image>
+
+<text name="MUX_Reticle">
+	<visible>
+		<copy src="grandparent()" trait="_Reticle"/>
+		<and src="parent()" trait="visible"/>
+		<and src="me()" trait="_Vis"/>
+	</visible>
+	<_Count><copy src="grandparent()" trait="childcount"/></_Count>
+	<_Add>0</_Add>
+	<_Vis>0</_Vis>
+	<_X>0</_X>
+	<x>
+		<copy>0</copy>
+		<add>
+			<copy src="screen()" trait="width"/>
+			<div>2</div>
+			<sub src="grandparent()" trait="x"/>
+			<add>80</add>
+			<add src="me()" trait="_X"/>
+			<add src="io()" trait="_Editor+ReticleX"/>
+			<onlyifnot src="io()" trait="_Addon+Prompt"/>
+		</add>
+		<add>
+			<copy src="io()" trait="_PUPD+X"/>
+			<mul src="screen()" trait="width"/>
+			<sub src="grandparent()" trait="x"/>
+			<onlyif src="io()" trait="_Addon+Prompt"/>
+		</add>
+	</x>
+	<y>
+		<copy>0</copy>
+		<add>
+			<copy>460</copy>
+			<sub src="grandparent()" trait="y"/>
+			<add>
+				<copy>50</copy>
+				<onlyif>
+					<copy src="me()" trait="_Add"/>
+					<eq>1</eq>
+				</onlyif>
+			</add>
+			<add src="io()" trait="_Editor+ReticleY"/>
+			<onlyifnot src="io()" trait="_Addon+Prompt"/>
+		</add>
+		<add>
+			<copy src="io()" trait="_PUPD+Y"/>
+			<mul src="screen()" trait="height"/>
+			<add>
+				<copy>50</copy>
+				<onlyif>
+					<copy src="me()" trait="_Add"/>
+					<eq>1</eq>
+				</onlyif>
+			</add>
+			<sub src="grandparent()" trait="y"/>
+			<onlyif src="io()" trait="_Addon+Prompt"/>
+		</add>
+	</y>
+	<string><copy src="parent()" trait="string"/></string>
+	<systemcolor>
+		<copy src="parent()" trait="systemcolor"/>
+		<sub>
+			<copy src="me()" trait="_Add"/>
+			<onlyif>
+				<copy src="parent()" trait="systemcolor"/>
+				<eq>1</eq>
+			</onlyif>
+			<and>
+				<copy src="io()" trait="_VUIE+PromptColor"/>
+				<eq>0</eq>
+			</and>
+		</sub>
+	</systemcolor>
+	<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+	<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+	<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+	<justify>
+		<copy>1</copy>
+		<add src="io()" trait="_Addon+Prompt"/>
+	</justify>
+	<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+	<zoom>70</zoom>
+	<alpha><copy src="parent()" trait="alpha"/></alpha>
+	<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+	<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+</text>
+<include src="VUI+\outline.xml"/>

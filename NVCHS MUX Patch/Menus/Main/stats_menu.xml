@@ -1,0 +1,3145 @@
+<!-- Pip-Boy Stats menu (NV)
+COPYRIGHT BY ZENIMAX; MODIFIED JULY 2022 BY AXONIS FOR VANILLA UI PLUS
+* Reorganized the entire code to fix several alignment issues, to match the appearance of all 3 Pip-Boy menus and to use relative positioning; original block structure is retained
+* Unified the Pip-Boy and the HUD paperdoll scaling and positioning through VUI+\paperdoll.xml which can be customized for alternative paperdolls
+* Adjusted the positioning of the limb health meters and strings according to the set paperdoll scale
+* Expanded the width and reduced the vertical padding of list item to fit more of them and make use of available free space wherever it could be found
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Added highlighting to list contents (text, images etc) and targetable images
+* Streamlined the positioning of buttons for consistency across menus; this also allows for greater width expansion since the buttons no longer protrude outside the rectangle
+* Added options to control the size of the Pip-Boy menus and expanded them on default
+* Reduced the padding of skills to make them all fit without scrolling
+* Wrapped long effect strings into their rows and changed to the default Pip-Boy font to fit much larger strings
+* Reduced brightness of effect names and divider lines to distinguish them from the values
+* Status subpages are displayed when hovering at their respective 3-letter buttons; any other type of navigation, including scrollwheeling multiple Effects, still works reliably
+* Hovering/selection sounds of the Status buttons are modified to reflect the new hovering feature
+* Provided two different means of conveying the magnitude for all Status labels (see settings.xml)
+* Calculated the magnitude of CND through a function that emphasises broken or nearly-broken limbs
+* Enabled smooth scrolling for stat descriptions to fix an issue with scrolling near the bottom of the scrollbar; it also makes it easier to read them
+* Added preloading of common UI textures in the RAM, allowing any menu that uses them to be opened faster
+* Remapped keys in separate Keybind prefabs
+* Streamlined and properly emphasized karma and reputation strings
+* Streamlined the columns of SPECIAL and Skill values and set a slightly different tone of modifier (+/-) symbols for readability
+* Unlocked display of negative SPECIAL and Skill values and improved compatibility with mods that display the modifiers along with the (+/-) symbols
+* Added a selection sound for the General button
+* Increased the size of the Skill Requirement Badge
+* Added an "RBC" report on the RAD subpage to show energy, fire, and poison resistance values
+-->
+<menu name="StatsMenu">
+	<id> &pipboymenu; </id>
+	<class> &StatsMenu; </class>
+	<systemcolor> &pipboy; </systemcolor>
+	<_VUI+StatusInfo> <copy src="sibling(HUDMainMenu)" trait="_VUI+StatusInfo" /> </_VUI+StatusInfo>
+	<_VUI+PipX> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipX" /> </_VUI+PipX>
+	<_VUI+PipY> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipY" /> </_VUI+PipY>
+	<_VUI+PipWidth> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipWidth" /> </_VUI+PipWidth>
+	<_VUI+PipHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipHeight" /> </_VUI+PipHeight>
+	<_VUI+EnergyResist></_VUI+EnergyResist>
+	<_VUI+FireResist></_VUI+FireResist>
+	<_VUI+PoisonResist></_VUI+PoisonResist>
+	<font> 3 </font>
+	<user0> 0 </user0>	<!-- current visible tab page (0-4) -->
+	<user1></user1>		<!-- player rads -->
+	<user2></user2>		<!-- rad max -->
+	<user3> 0.1 </user3><!-- rad variance randomization frequency, in secs -->
+	<user4> 0.03 </user4><!-- rad variance range, as a pct of max rads -->
+	<user5></user5>		<!-- Hit Points Text -->
+	<user6></user6>		<!-- Action Points Text -->
+	<user7></user7>		<!-- Experience Points Text -->
+	<user8></user8>		<!-- Level value text -->
+	<user9> &-sStatsCrippled; </user9>
+	<user10> &-sStatsEFFAbbrev; </user10>
+	<include src="VUI+\preload.xml" />
+	<include src="VUI+\Keybinds\PipBoyStats.xml" />
+	<include src="VUI+\paperdoll.xml" />
+	<_meter_height> 38 </_meter_height>
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+	</rect>
+
+	<rect name="GLOW_BRANCH">
+		<id> &glow_branch; </id>
+
+		<image name="background_layout">
+			<filename> Interface\Shared\Background\pipboy.dds </filename>
+			<width> <copy src="globals" trait="_pipboy_width"/> </width>
+			<height> <copy src="globals" trait="_pipboy_height"/> </height>
+			<zoom> &scale; </zoom>
+			<depth> -3 </depth>
+			<brightness> 90 </brightness>
+		</image>
+
+		<!--============================== HEADLINE ==============================-->
+		<!--VUI+ stats_menu does not have a headline rect, it was probably developed before the other two Pip-Boy menus -->
+		<image name="stats_headline_v1">
+			<include src="vertical_fade_line.xml"/>
+			<x> <copy src="io" trait="_VUI+PipX" /> </x>
+			<y> <copy src="io" trait="_VUI+PipY" /> </y>
+		</image>
+
+		<image name="stats_headline_h1">
+			<include src="line.xml"/>
+			<_length> 50 </_length>
+			<x> <copy src="sibling" trait="x" /> </x>
+			<y> <copy src="sibling" trait="y" /> </y>
+		</image>
+
+		<text name="stats_title">
+			<id> 39 </id>
+			<x>
+				<copy src="me" trait="font" />
+				<copy src="globals" trait="_VUI+FontX_"/>
+				<add src="sibling" trait="x" />
+				<add src="sibling" trait="width" />
+				<add> 20 </add>
+			</x>
+			<y>
+				<copy src="sibling" trait="height" />
+				<sub src="me" trait="height" />
+				<div> 2 </div>
+				<add>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+				</add>
+				<add src="sibling" trait="y" />
+			</y>
+			<font> 3 </font>
+			<string> &-sStats </string>
+			<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+
+		<image name="stats_headline_h2">
+			<include src="line.xml"/>
+			<x> <copy src="sibling(stats_title)" trait="x" /> <add src="sibling" trait="width" /> <add> 20 </add> </x>
+			<y> <copy src="sibling(stats_headline_h1)" trait="y" /> </y>
+			<_length>
+				<copy src="io" trait="_VUI+PipX" />
+				<add src="io" trait="_VUI+PipWidth" />
+				<sub src="me" trait="x" />
+				<sub src="sibling(stats_lvl_info)" trait="width" />
+				<sub src="sibling(stats_hp_info)" trait="width" />
+				<sub src="sibling(stats_ap_info)" trait="width" />
+				<sub src="sibling(stats_xp_info)" trait="width" />
+				<sub> 27 </sub> <!--VUI+ total spacing between those cards -->
+			</_length>
+		</image>
+
+		<rect name="stats_lvl_info">
+			<id> 40 </id>
+			<include src="card_info.xml"/>
+			<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+			<y> <copy src="sibling" trait="y" /> </y>
+			<width> 95 </width>
+			<font>3</font>
+			<_Title> &-sStatsLVLAbbrev; </_Title>
+			<_Value> <copy src="io" trait="user8"/> </_Value> <!-- Widest possible value: LVL 33 -->
+		</rect>
+
+		<rect name="stats_hp_info">
+			<id> 41 </id>
+			<include src="card_info.xml"/>
+			<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 9 </add> </x>
+			<y> <copy src="sibling" trait="y" /> </y>
+			<width> 150 </width>
+			<font>3</font>
+			<_Title> &-sStatsHP; </_Title>
+			<_Value> <copy src="io" trait="user5"/> </_Value> <!-- Widest possible value: HP 333/333 -->
+		</rect>
+
+		<rect name="stats_ap_info">
+			<id> 42 </id>
+			<include src="card_info.xml"/>
+			<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 9 </add> </x>
+			<y> <copy src="sibling" trait="y" /> </y>
+			<width> 140 </width>
+			<font>3</font>
+			<_Title> &-sStatsAP; </_Title>
+			<_Value> <copy src="io" trait="user6"/> </_Value> <!-- Widest possible value: AP 133/133 -->
+		</rect>
+
+		<rect name="stats_xp_info">
+			<id> 43 </id>
+			<include src="card_info.xml"/>
+			<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 9 </add> </x>
+			<y> <copy src="sibling" trait="y" /> </y>
+			<width> 220 </width>
+			<font>3</font>
+			<_Title> &-sStatsXP; </_Title>
+			<_Value> <copy src="io" trait="user7"/> </_Value> <!-- Widest possible value: XP 333333/333333 -->
+			<_VUI+NoLabel> 1 </_VUI+NoLabel>
+			<_VUI+RightVertExtra>
+				<copy src="sibling(stats_headline_v1)" trait="height" />
+				<sub src="me" trait="height" />
+			</_VUI+RightVertExtra>
+		</rect>
+
+		<!--============================== STATUS PAGE ==============================-->
+		<hotrect name="stats_status_container">
+			<id> 5 </id>
+			<locus> 1 </locus>
+			<target> 1 </target>
+			<alpha> 0 </alpha>
+			<visible> <copy src="io" trait="user0"/> <eq> 0 </eq> </visible>
+			<x> <copy src="sibling(stats_headline_v1)" trait="x" /> </x>
+			<y>
+				<copy src="sibling(stats_headline_v1)" trait="y" />
+				<add src="sibling(stats_headline_v1)" trait="height" />
+			</y>
+			<width> <copy src="io" trait="_VUI+PipWidth" /> </width>
+			<height>
+				<copy src="sibling(stats_tailline)" trait="y" />
+				<sub src="sibling(stats_tailline)" trait="height" />
+				<sub src="me" trait="y" />
+			</height>
+			<wheelable> 1 </wheelable> <!--VUI+ allow the mouse wheel to control the effects panel from ANYWHERE as long as it's visible -->
+			<user0> 0 </user0> <!--VUI+ 0=CND, 1=EFF, 2=RAD, 3=H20, 3=FOD, 4=SLP -->
+
+			<!--VUI+ ============= Status tabs (super text-boxes) ============= -->
+			<hotrect name="stats_CND_button">
+				<id> 28 </id>
+				<include src="super_text_box.xml"/>
+				<string> &-sStatsCNDAbbrev; </string>
+				<clicksound> UIMenuOK </clicksound>
+				<mouseoversound> UIPipBoyHighlight </mouseoversound> <!--VUI+ signify that it's practically selected -->
+				<_y> 20 </_y>
+				<_selected> <copy src="parent" trait="user0"/> <eq> 0 </eq> </_selected>
+				<_fixedwidth> 84 </_fixedwidth>
+				<listindex> 1 </listindex> <!-- 14535: Used to signal a turn of the Pipboy knob -->
+				<_VUI+Emphasis> <copy src="child(VUI+Stat)" trait="alpha" /> <sub> 255 </sub> <onlyif src="io" trait="_VUI+StatusInfo" /> </_VUI+Emphasis>
+				<text name="VUI+Stat">
+					<_value>
+						<!--VUI+
+							each limb contributes 5 + 6 / (health + 0.2) - 10 * health points
+							to allow some emphasis for normal wounds and a lot of emphasis for broken or nearly-broken ones
+							that's up to 0-270 total, factored to 0-1000 to match rad/hardcore points.
+						-->
+						<copy> 30 </copy>
+						<add>
+							<copy> 6 </copy>
+							<div> <copy src="stats_player_head_pct_meter" trait="_Value" /> <add> 0.2 </add> </div>
+							<sub> <copy src="stats_player_head_pct_meter" trait="_Value" /> <mul> 10 </mul> </sub>
+						</add>
+						<add>
+							<copy> 6 </copy>
+							<div> <copy src="stats_player_torso_pct_meter" trait="_Value" /> <add> 0.2 </add> </div>
+							<sub> <copy src="stats_player_torso_pct_meter" trait="_Value" /> <mul> 10 </mul> </sub>
+						</add>
+						<add>
+							<copy> 6 </copy>
+							<div> <copy src="stats_player_leftarm_pct_meter" trait="_Value" /> <add> 0.2 </add> </div>
+							<sub> <copy src="stats_player_leftarm_pct_meter" trait="_Value" /> <mul> 10 </mul> </sub>
+						</add>
+						<add>
+							<copy> 6 </copy>
+							<div> <copy src="stats_player_rightarm_pct_meter" trait="_Value" /> <add> 0.2 </add> </div>
+							<sub> <copy src="stats_player_rightarm_pct_meter" trait="_Value" /> <mul> 10 </mul> </sub>
+						</add>
+						<add>
+							<copy> 6 </copy>
+							<div> <copy src="stats_player_leftleg_pct_meter" trait="_Value" /> <add> 0.2 </add> </div>
+							<sub> <copy src="stats_player_leftleg_pct_meter" trait="_Value" /> <mul> 10 </mul> </sub>
+						</add>
+						<add>
+							<copy> 6 </copy>
+							<div> <copy src="stats_player_rightleg_pct_meter" trait="_Value" /> <add> 0.2 </add> </div>
+							<sub> <copy src="stats_player_rightleg_pct_meter" trait="_Value" /> <mul> 10 </mul> </sub>
+						</add>
+						<mul> 100 </mul> <div> 27 </div>
+						<max> 0.1 </max>
+					</_value>
+					<string> <copy src="me" trait="_value" /> </string>
+					<x> <copy src="parent" trait="x" /> <add src="parent" trait="width" /> <add> 10 </add> </x>
+					<y> <copy src="parent" trait="_VUI+TextY" /> </y>
+					<alpha> <!--VUI+ 180 for perfect health, 255 for some limb damage: points/3 + points*60/(points+3) + 180 -->
+						<copy src="me" trait="_value" /> <div> 3 </div>
+						<add>
+							<copy src="me" trait="_value" /> <mul> 60 </mul>
+							<div> <copy src="me" trait="_value" /> <add> 3 </add> </div>
+						</add>
+						<add> 180 </add>
+					</alpha>
+					<brightness> <copy src="me" trait="alpha" /> </brightness>
+					<visible>
+						<not src="stats_effects_container" trait="visible"/> <!--VUI+ hide on effects -->
+						<and> <copy src="io" trait="_VUI+StatusInfo" /> <eq> 2 </eq> </and>
+					</visible>
+					<font> 3 </font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+
+			<hotrect name="stats_RAD_button">
+				<id> 29 </id>
+				<include src="super_text_box.xml"/>
+				<string> &-sStatsRADAbbrev; </string>
+				<clicksound> UIMenuOK </clicksound>
+				<mouseoversound> UIPipBoyHighlight </mouseoversound>
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<_selected> <copy src="parent" trait="user0"/> <eq> 1 </eq> </_selected>
+				<_fixedwidth> <copy src="sibling" trait="_fixedwidth"/> </_fixedwidth>
+				<_horbuf> <copy src="sibling" trait="_horbuf"/> </_horbuf>
+				<_verbuf> <copy src="sibling" trait="_verbuf"/> </_verbuf>
+				<listindex> 2 </listindex>
+				<_VUI+Emphasis> <copy src="child(VUI+Stat)" trait="alpha" /> <sub> 255 </sub> <onlyif src="io" trait="_VUI+StatusInfo" /> </_VUI+Emphasis>
+				<text name="VUI+Stat">
+					<_value> <copy src="io" trait="user1" /> <max> 0.1 </max> </_value>
+					<string> <copy src="me" trait="_value" /> </string>
+					<x> <copy src="parent" trait="x" /> <add src="parent" trait="width" /> <add> 10 </add> </x>
+					<y> <copy src="parent" trait="_VUI+TextY" /> </y>
+					<alpha> <copy src="me" trait="_value" /> <div> 3 </div> <add> 180 </add> </alpha> <brightness> <copy src="me" trait="alpha" /> </brightness>
+					<visible>
+						<not src="stats_effects_container" trait="visible"/>
+						<and> <copy src="io" trait="_VUI+StatusInfo" /> <eq> 2 </eq> </and>
+					</visible>
+					<font>3 </font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+
+			<hotrect name="stats_EFF_button">
+				<id> 30 </id>
+				<include src="super_text_box.xml"/>
+				<string> <copy src="io" trait="user10"/> </string>
+				<clicksound> UIMenuOK </clicksound>
+				<mouseoversound> UIPipBoyHighlight </mouseoversound>
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<_selected> <copy src="parent" trait="user0"/> <eq> 2 </eq> </_selected>
+				<_fixedwidth> <copy src="sibling" trait="_fixedwidth"/> </_fixedwidth>
+				<_horbuf> <copy src="sibling" trait="_horbuf"/> </_horbuf>
+				<_verbuf> <copy src="sibling" trait="_verbuf"/> </_verbuf>
+				<listindex> 3 </listindex>
+				<_VUI+Emphasis> <copy src="child(VUI+Stat)" trait="alpha" /> <sub> 255 </sub> <onlyif src="io" trait="_VUI+StatusInfo" /> </_VUI+Emphasis>
+				<text name="VUI+Stat">
+					<_value> <copy src="stats_effects_container" trait="childcount"/> <sub> 2 </sub> <max> 0.1 </max> </_value>
+					<string> <copy src="me" trait="_value" /> </string>
+					<x> <copy src="parent" trait="x" /> <add src="parent" trait="width" /> <add> 10 </add> </x>
+					<y> <copy src="parent" trait="_VUI+TextY" /> </y>
+					<alpha> <!--VUI+ 180 for no effects, 255 for 2 effects: effects*5 + effects*97.5/(effects+1) + 180 -->
+						<copy src="me" trait="_value" /> <mul> 5 </mul>
+						<add>
+							<copy src="me" trait="_value" /> <mul> 97.5 </mul>
+							<div> <copy src="me" trait="_value" /> <add> 1 </add> </div>
+						</add>
+						<add> 180 </add>
+					</alpha>
+					<brightness> <copy src="me" trait="alpha" /> </brightness>
+					<visible>
+						<not src="stats_effects_container" trait="visible"/>
+						<and> <copy src="io" trait="_VUI+StatusInfo" /> <eq> 2 </eq> </and>
+					</visible>
+					<font> 3 </font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+
+			<hotrect name="stats_H20_button">
+				<id> 53 </id>
+				<include src="super_text_box.xml"/>
+				<string> &-sStatsH20Abbrev; </string>
+				<clicksound> UIMenuOK </clicksound>
+				<mouseoversound> UIPipBoyHighlight </mouseoversound>
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<_selected> <copy src="parent" trait="user0"/> <eq> 3 </eq> </_selected>
+				<_fixedwidth> <copy src="sibling" trait="_fixedwidth"/> </_fixedwidth>
+				<_horbuf> <copy src="sibling" trait="_horbuf"/> </_horbuf>
+				<_verbuf> <copy src="sibling" trait="_verbuf"/> </_verbuf>
+				<listindex> 4 </listindex>
+				<_VUI+Emphasis> <copy src="child(VUI+Stat)" trait="alpha" /> <sub> 255 </sub> <onlyif src="io" trait="_VUI+StatusInfo" /> </_VUI+Emphasis>
+				<text name="VUI+Stat">
+					<_value> <copy src="io" trait="user11" /> <max> 0.1 </max> </_value>
+					<string> <copy src="me" trait="_value" /> </string>
+					<x> <copy src="parent" trait="x" /> <add src="parent" trait="width" /> <add> 10 </add> </x>
+					<y> <copy src="parent" trait="_VUI+TextY" /> </y>
+					<alpha> <copy src="me" trait="_value" /> <div> 3 </div> <add> 180 </add> </alpha> <brightness> <copy src="me" trait="alpha" /> </brightness>
+					<visible>
+						<not src="stats_effects_container" trait="visible"/>
+						<and> <copy src="io" trait="_VUI+StatusInfo" /> <eq> 2 </eq> </and>
+					</visible>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+
+			<hotrect name="stats_FOD_button">
+				<id> 55 </id>
+				<include src="super_text_box.xml"/>
+				<string> &-sStatsFODAbbrev; </string>
+				<clicksound> UIMenuOK </clicksound>
+				<mouseoversound> UIPipBoyHighlight </mouseoversound>
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<_selected> <copy src="parent" trait="user0"/> <eq> 4 </eq> </_selected>
+				<_fixedwidth> <copy src="sibling" trait="_fixedwidth"/> </_fixedwidth>
+				<_horbuf> <copy src="sibling" trait="_horbuf"/> </_horbuf>
+				<_verbuf> <copy src="sibling" trait="_verbuf"/> </_verbuf>
+				<listindex> 5 </listindex>
+				<_VUI+Emphasis> <copy src="child(VUI+Stat)" trait="alpha" /> <sub> 255 </sub> <onlyif src="io" trait="_VUI+StatusInfo" /> </_VUI+Emphasis>
+				<text name="VUI+Stat">
+					<_value> <copy src="io" trait="user12" /> <max> 0.1 </max> </_value>
+					<string> <copy src="me" trait="_value" /> </string>
+					<x> <copy src="parent" trait="x" /> <add src="parent" trait="width" /> <add> 10 </add> </x>
+					<y> <copy src="parent" trait="_VUI+TextY" /> </y>
+					<alpha> <copy src="me" trait="_value" /> <div> 3 </div> <add> 180 </add> </alpha> <brightness> <copy src="me" trait="alpha" /> </brightness>
+					<visible>
+						<not src="stats_effects_container" trait="visible"/>
+						<and> <copy src="io" trait="_VUI+StatusInfo" /> <eq> 2 </eq> </and>
+					</visible>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+
+			<hotrect name="stats_SLP_button">
+				<id> 57 </id>
+				<include src="super_text_box.xml"/>
+				<string> &-sStatsSLPAbbrev; </string>
+				<clicksound> UIMenuOK </clicksound>
+				<mouseoversound> UIPipBoyHighlight </mouseoversound>
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<_selected> <copy src="parent" trait="user0"/> <eq> 5 </eq> </_selected>
+				<_fixedwidth> <copy src="sibling" trait="_fixedwidth"/> </_fixedwidth>
+				<_horbuf> <copy src="sibling" trait="_horbuf"/> </_horbuf>
+				<_verbuf> <copy src="sibling" trait="_verbuf"/> </_verbuf>
+				<listindex> 6 </listindex>
+				<_VUI+Emphasis> <copy src="child(VUI+Stat)" trait="alpha" /> <sub> 255 </sub> <onlyif src="io" trait="_VUI+StatusInfo" /> </_VUI+Emphasis>
+				<text name="VUI+Stat">
+					<_value> <copy src="io" trait="user13" /> <max> 0.1 </max> </_value>
+					<string> <copy src="me" trait="_value" /> </string>
+					<x> <copy src="parent" trait="x" /> <add src="parent" trait="width" /> <add> 10 </add> </x>
+					<y> <copy src="parent" trait="_VUI+TextY" /> </y>
+					<alpha> <copy src="me" trait="_value" /> <div> 3 </div> <add> 180 </add> </alpha> <brightness> <copy src="me" trait="alpha" /> </brightness>
+					<visible>
+						<not src="stats_effects_container" trait="visible"/>
+						<and> <copy src="io" trait="_VUI+StatusInfo" /> <eq> 2 </eq> </and>
+					</visible>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+
+			<!--VUI+ ============= Status Hotkeys (Healing and Anti-radiation) ============= -->
+			<hotrect name="stats_stimpak_button">
+				<id> 10 </id>
+				<include src="text_box.xml"/>
+				<visible> <copy src="sibling(stats_player_head)" trait="visible"/> </visible> <!--VUI+ compatible with hovering -->
+				<_x> <copy src="parent" trait="width" /> <sub src="globals" trait="_VUI+InsideButton" /> </_x>
+				<justify> &right; </justify>
+				<_xbox_button> &xbuttona; </_xbox_button>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_PCButtonText> <copy src="io" trait="_stats_stimpak_button" /> </_PCButtonText>
+				<listindex> 1 </listindex>
+			</hotrect>
+
+			<hotrect name="stats_drbag_button"> <!--VUI+ set doctor's bag under stimpak and xbox healing mode under doctor's bag -->
+				<id> 59 </id>
+				<include src="text_box.xml"/>
+				<visible> <copy src="sibling(stats_player_head)" trait="visible"/> </visible> <!--VUI+ compatible with hovering -->
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<justify> &right; </justify>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_xbox_button> &xbuttony; </_xbox_button>
+				<_PCButtonText> <copy src="io" trait="_stats_drbag_button" /> </_PCButtonText>
+				<listindex> 2 </listindex>
+			</hotrect>
+
+			<hotrect name="stats_healing_mode">
+				<id> 9 </id>
+				<include src="text_box.xml"/>
+				<visible>
+					<copy src="sibling(stats_player_head)" trait="visible"/> <!--VUI+ compatible with hovering -->
+					<and src="globals" trait="_Has360Controller"/>
+				</visible>
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_y>
+					<copy src="sibling" trait="_y"/>
+					<add> <copy src="sibling" trait="height"/> <onlyif src="sibling" trait="visible" /> </add>
+				</_y>
+				<justify> &right; </justify>
+				<listindex> 3 </listindex>
+			</hotrect>
+
+			<hotrect name="stats_radaway_button">
+				<id> 11 </id>
+				<include src="text_box.xml"/>
+				<visible> <copy src="sibling(stats_radiation_container)" trait="visible"/> </visible> <!--VUI+ compatible with hovering -->
+				<_x> <copy src="sibling(stats_stimpak_button)" trait="_x"/> </_x>
+				<_y> <copy src="sibling(stats_stimpak_button)" trait="_y"/> </_y>
+				<justify> &right; </justify>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_xbox_button> &xbuttona; </_xbox_button>
+				<_PCButtonText> <copy src="io" trait="_stats_radaway_button" /> </_PCButtonText>
+				<listindex> 1 </listindex>
+			</hotrect>
+
+			<hotrect name="stats_radx_button">
+				<id> 31 </id>
+				<include src="text_box.xml"/>
+				<visible> <copy src="sibling(stats_radiation_container)" trait="visible"/> </visible> <!--VUI+ compatible with hovering -->
+				<_x> <copy src="sibling" trait="_x"/> </_x>
+				<_y> <copy src="sibling" trait="_y"/> <add src="sibling" trait="height"/> </_y>
+				<justify> &right; </justify>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_xbox_button> &xbuttonx; </_xbox_button>
+				<_PCButtonText> <copy src="io" trait="_stats_radx_button" /> </_PCButtonText>
+				<listindex> 2 </listindex>
+			</hotrect>
+
+			<!--VUI+ ============================== CND SUBPAGE (Paperdoll) ==============================-->
+			<image name="stats_player_head">
+				<id> 12 </id>
+				<visible>
+					<copy src="parent" trait="user0"/> <eq> 0 </eq>
+					<or src="sibling(stats_CND_button)" trait="mouseover" /> <!--VUI+ hovering -->
+					<and><not>
+						<copy src="sibling(stats_EFF_button)" trait="mouseover" />
+						<or src="sibling(stats_RAD_button)" trait="mouseover" />
+						<or src="sibling(stats_H20_button)" trait="mouseover" />
+						<or src="sibling(stats_FOD_button)" trait="mouseover" />
+						<or src="sibling(stats_SLP_button)" trait="mouseover" />
+					</not></and>
+				</visible>
+				<locus> 1 </locus>
+				<target>
+					<copy src="stats_player_head_pct_meter" trait="_Value"/>
+					<lt> 1 </lt>
+				</target>
+				<zoom> <copy src="io" trait="_paperdoll_pipboy_scale" /> <mul src="io" trait="_paperdoll_HD_zoom" /> </zoom>
+				<width> <copy src="io" trait="_paperdoll_head_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+				<height> <copy src="io" trait="_paperdoll_head_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="width"/>
+					<div> 2 </div>
+					<add src="io" trait="_paperdoll_pipboy_x" />
+				</x>
+				<y> <copy src="io" trait="_paperdoll_pipboy_y" /> </y>
+
+				<image name="stats_player_face">
+					<id> 24 </id>
+					<zoom> <copy src="parent" trait="zoom"/> </zoom>
+					<target> <copy src="parent" trait="target"/> </target>
+					<width> <copy src="io" trait="_paperdoll_face_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+					<height> <copy src="io" trait="_paperdoll_face_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+					<x> <copy src="io" trait="_paperdoll_face_x" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </x>
+					<y>
+						<copy src="parent" trait="height" />
+						<sub src="me" trait="height" />
+						<div> 2 </div>
+						<add>
+							<copy src="io" trait="_paperdoll_face_y" />
+							<mul src="io" trait="_paperdoll_pipboy_scale" />
+						</add>
+					</y>
+				</image>
+
+				<image name="stats_player_torso">
+					<id> 14 </id>
+					<zoom> <copy src="parent" trait="zoom"/> </zoom>
+					<locus> 1 </locus>
+					<target>
+						<copy src="stats_player_torso_pct_meter" trait="_Value"/>
+						<lt> 1 </lt>
+					</target>
+					<width> <copy src="io" trait="_paperdoll_torso_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+					<height> <copy src="io" trait="_paperdoll_torso_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+					<x> <copy src="io" trait="_paperdoll_torso_x" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </x>
+					<y> <copy src="io" trait="_paperdoll_torso_y" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </y>
+
+					<image name="stats_player_leftarm">
+						<id> 16 </id>
+						<locus> 1 </locus>
+						<zoom> <copy src="parent" trait="zoom"/> </zoom>
+						<target>
+							<copy src="stats_player_leftarm_pct_meter" trait="_Value"/>
+							<lt> 1 </lt>
+						</target>
+						<width> <copy src="io" trait="_paperdoll_leftarm_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+						<height> <copy src="io" trait="_paperdoll_leftarm_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+						<x> <copy src="io" trait="_paperdoll_leftarm_x" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </x>
+						<y> <copy src="io" trait="_paperdoll_leftarm_y" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </y>
+					</image> <!-- stats_player_leftarm -->
+
+					<image name="stats_player_rightarm">
+						<id> 18 </id>
+						<locus> 1 </locus>
+						<target>
+							<copy src="stats_player_rightarm_pct_meter" trait="_Value"/>
+							<lt> 1 </lt>
+						</target>
+						<zoom> <copy src="parent" trait="zoom"/> </zoom>
+						<width> <copy src="io" trait="_paperdoll_rightarm_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+						<height> <copy src="io" trait="_paperdoll_rightarm_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+						<x> <copy src="io" trait="_paperdoll_rightarm_x" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </x>
+						<y> <copy src="io" trait="_paperdoll_rightarm_y" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </y>
+					</image> <!-- stats_player_rightarm -->
+
+					<image name="stats_player_leftleg">
+						<id> 20 </id>
+						<locus> 1 </locus>
+						<target>
+							<copy src="stats_player_leftleg_pct_meter" trait="_Value"/>
+							<lt> 1 </lt>
+						</target>
+						<zoom> <copy src="parent" trait="zoom"/> </zoom>
+						<width> <copy src="io" trait="_paperdoll_leftleg_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+						<height> <copy src="io" trait="_paperdoll_leftleg_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+						<x> <copy src="io" trait="_paperdoll_leftleg_x" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </x>
+						<y> <copy src="io" trait="_paperdoll_leftleg_y" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </y>
+					</image> <!-- stats_player_leftleg -->
+
+					<image name="stats_player_rightleg">
+						<id> 22 </id>
+						<locus> 1 </locus>
+						<target>
+							<copy src="stats_player_rightleg_pct_meter" trait="_Value"/>
+							<lt> 1 </lt>
+						</target>
+						<zoom> <copy src="parent" trait="zoom"/> </zoom>
+						<width> <copy src="io" trait="_paperdoll_rightleg_width" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </width>
+						<height> <copy src="io" trait="_paperdoll_rightleg_height" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </height>
+						<x> <copy src="io" trait="_paperdoll_rightleg_x" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </x>
+						<y> <copy src="io" trait="_paperdoll_rightleg_y" /> <mul src="io" trait="_paperdoll_pipboy_scale" /> </y>
+					</image> <!-- stats_player_rightleg -->
+				</image> <!-- stats_player_torso -->
+				
+				<!--VUI+ appropriate textures depending on the direction of the health meters
+				1: health meter points to the right (eg. for left arm and leg)
+				2: health meter doesn't have a point (eg. for head and torso)
+				3: health meter points to the left (eg. for right arm and leg) -->
+				<_dir_filename_1> Interface\VATS\vats_left_divider.dds </_dir_filename_1>
+				<_dir_filename_2> Interface\VATS\vats_head_divider.dds </_dir_filename_2>
+				<_dir_filename_4> Interface\VATS\vats_right_divider.dds </_dir_filename_4>
+				<!--VUI+ these are used for positioning the meters with scale -->
+				<_dir_point_x_1> -12 </_dir_point_x_1>
+				<_dir_point_x_2> -64 </_dir_point_x_2>
+				<_dir_point_x_4> -143 </_dir_point_x_4>
+				<!--VUI+ these are used for nudging the text towards the arrow point -->
+				<_dir_text_x_1> 18 </_dir_text_x_1>
+				<_dir_text_x_2> 0 </_dir_text_x_2>
+				<_dir_text_x_4> 12 </_dir_text_x_4>
+
+				<!-- Meters -->
+				<!--VUI+ modified to support the above -->
+				<image name="stats_player_head_pct">
+					<locus> 1 </locus>
+					<_dir> <copy src="io" trait="_paperdoll_head_meter_dir" /> </_dir>
+					<filename>
+						<copy src="me" trait="_dir" />
+						<copy src="parent" trait="_dir_filename_" />
+					</filename>
+					<visible>
+						<copy src="child(stats_player_head_pct_meter)" trait="_Value"/>
+						<gt> 0 </gt>
+					</visible>
+					<alpha> <copy src="child" trait="alpha"/> </alpha>
+					<x>
+						<copy src="io" trait="_paperdoll_head_meter_x" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<add>
+							<copy src="me" trait="_dir" />
+							<copy src="parent" trait="_dir_point_x_" />
+						</add>
+					</x>
+					<y>
+						<copy src="io" trait="_paperdoll_head_meter_y" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<sub src="me" trait="height" />
+					</y>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="io" trait="_meter_height"/> </height>
+
+					<rect name="stats_player_head_pct_meter">
+						<id> 13 </id>
+						<include src="meter.xml"/>
+						<_SolidMeter> 1 </_SolidMeter>
+						<x>
+							<copy> 26 </copy>
+							<onlyif>
+								<copy src="parent" trait="_dir" /> <eq> 1 </eq>
+							</onlyif>
+							<add> 25 </add>
+						</x>
+						<y> 24 </y>
+						<width> 77 </width>
+						<height>
+							<copy src="parent" trait="height"/>
+							<sub> 24 </sub>
+						</height>
+					</rect>
+				</image>
+
+				<text name="stats_player_head_crippled">
+					<visible> <not src="sibling(stats_player_head_pct)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user9"/> </string>
+					<x>
+						<copy src="sibling" trait="_dir" />
+						<copy src="parent" trait="_dir_text_x_" />
+						<add src="sibling" trait="x"/>
+						<add> 7 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<div> 1.7 </div>
+						<add src="sibling" trait="y" />
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="stats_player_torso_pct">
+					<locus> 1 </locus>
+					<_dir> <copy src="io" trait="_paperdoll_torso_meter_dir" /> </_dir>
+					<filename>
+						<copy src="me" trait="_dir" />
+						<copy src="parent" trait="_dir_filename_" />
+					</filename>
+					<visible>
+						<copy src="child(stats_player_torso_pct_meter)" trait="_Value"/>
+						<gt> 0 </gt>
+					</visible>
+					<x>
+						<copy src="io" trait="_paperdoll_torso_meter_x" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<add>
+							<copy src="me" trait="_dir" />
+							<copy src="parent" trait="_dir_point_x_" />
+						</add>
+					</x>
+					<y>
+						<copy src="io" trait="_paperdoll_torso_meter_y" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<sub src="me" trait="height" />
+					</y>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="io" trait="_meter_height"/> </height>
+					<alpha> <copy src="child" trait="alpha"/> </alpha>
+
+					<rect name="stats_player_torso_pct_meter">
+						<id> 15 </id>
+						<include src="meter.xml"/>
+						<_SolidMeter> 1 </_SolidMeter>
+						<x>
+							<copy> 26 </copy>
+							<onlyif>
+								<copy src="parent" trait="_dir" /> <eq> 1 </eq>
+							</onlyif>
+							<add> 25 </add>
+						</x>
+						<y> 24 </y>
+						<width> 77 </width>
+						<height>
+							<copy src="parent" trait="height"/>
+							<sub> 24 </sub>
+						</height>
+					</rect>
+				</image>
+
+				<text name="stats_player_torso_crippled">
+					<visible> <not src="sibling(stats_player_torso_pct)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user9"/> </string>
+					<x>
+						<copy src="sibling" trait="_dir" />
+						<copy src="parent" trait="_dir_text_x_" />
+						<add src="sibling" trait="x"/>
+						<add> 7 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<div> 1.7 </div>
+						<add src="sibling" trait="y" />
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="stats_player_leftarm_pct">
+					<locus> 1 </locus>
+					<_dir> <copy src="io" trait="_paperdoll_leftarm_meter_dir" /> </_dir>
+					<filename>
+						<copy src="me" trait="_dir" />
+						<copy src="parent" trait="_dir_filename_" />
+					</filename>
+					<visible>
+						<copy src="child(stats_player_leftarm_pct_meter)" trait="_Value"/>
+						<gt> 0 </gt>
+					</visible>
+					<x>
+						<copy src="io" trait="_paperdoll_leftarm_meter_x" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<add>
+							<copy src="me" trait="_dir" />
+							<copy src="parent" trait="_dir_point_x_" />
+						</add>
+					</x>
+					<y>
+						<copy src="io" trait="_paperdoll_leftarm_meter_y" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<sub src="me" trait="height" />
+					</y>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="io" trait="_meter_height"/> </height>
+					<alpha> <copy src="child" trait="alpha"/> </alpha>
+
+					<rect name="stats_player_leftarm_pct_meter">
+						<id> 17 </id>
+						<include src="meter.xml"/>
+						<_SolidMeter> 1 </_SolidMeter>
+						<x>
+							<copy> 26 </copy>
+							<onlyif>
+								<copy src="parent" trait="_dir" /> <eq> 1 </eq>
+							</onlyif>
+							<add> 25 </add>
+						</x>
+						<y> 24 </y>
+						<width> 77 </width>
+						<height>
+							<copy src="parent" trait="height"/>
+							<sub> 24 </sub>
+						</height>
+					</rect>
+				</image>
+
+				<text name="stats_player_leftarm_crippled">
+					<visible> <not src="sibling(stats_player_leftarm_pct)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user9"/> </string>
+					<x>
+						<copy src="sibling" trait="_dir" />
+						<copy src="parent" trait="_dir_text_x_" />
+						<add src="sibling" trait="x"/>
+						<add> 7 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<div> 1.7 </div>
+						<add src="sibling" trait="y" />
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="stats_player_rightarm_pct">
+					<locus> 1 </locus>
+					<_dir> <copy src="io" trait="_paperdoll_rightarm_meter_dir" /> </_dir>
+					<filename>
+						<copy src="me" trait="_dir" />
+						<copy src="parent" trait="_dir_filename_" />
+					</filename>
+					<visible>
+						<copy src="child(stats_player_rightarm_pct_meter)" trait="_Value"/>
+						<gt> 0 </gt>
+					</visible>
+					<x>
+						<copy src="io" trait="_paperdoll_rightarm_meter_x" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<add>
+							<copy src="me" trait="_dir" />
+							<copy src="parent" trait="_dir_point_x_" />
+						</add>
+					</x>
+					<y>
+						<copy src="io" trait="_paperdoll_rightarm_meter_y" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<sub src="me" trait="height" />
+					</y>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="io" trait="_meter_height"/> </height>
+					<alpha> <copy src="child" trait="alpha"/> </alpha>
+
+					<rect name="stats_player_rightarm_pct_meter">
+						<id> 19 </id>
+						<include src="meter.xml"/>
+						<_SolidMeter> 1 </_SolidMeter>
+						<x>
+							<copy> 26 </copy>
+							<onlyif>
+								<copy src="parent" trait="_dir" /> <eq> 1 </eq>
+							</onlyif>
+							<add> 25 </add>
+						</x>
+						<y> 24 </y>
+						<width> 77 </width>
+						<height>
+							<copy src="parent" trait="height"/>
+							<sub> 24 </sub>
+						</height>
+					</rect>
+				</image>
+
+				<text name="stats_player_rightarm_crippled">
+					<visible> <not src="sibling(stats_player_rightarm_pct)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user9"/> </string>
+					<x>
+						<copy src="sibling" trait="_dir" />
+						<copy src="parent" trait="_dir_text_x_" />
+						<add src="sibling" trait="x"/>
+						<add> 7 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<div> 1.7 </div>
+						<add src="sibling" trait="y" />
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="stats_player_leftleg_pct">
+					<locus> 1 </locus>
+					<_dir> <copy src="io" trait="_paperdoll_leftleg_meter_dir" /> </_dir>
+					<filename>
+						<copy src="me" trait="_dir" />
+						<copy src="parent" trait="_dir_filename_" />
+					</filename>
+					<visible>
+						<copy src="child(stats_player_leftleg_pct_meter)" trait="_Value"/>
+						<gt> 0 </gt>
+					</visible>
+					<x>
+						<copy src="io" trait="_paperdoll_leftleg_meter_x" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<add>
+							<copy src="me" trait="_dir" />
+							<copy src="parent" trait="_dir_point_x_" />
+						</add>
+					</x>
+					<y>
+						<copy src="io" trait="_paperdoll_leftleg_meter_y" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<sub src="me" trait="height" />
+					</y>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="io" trait="_meter_height"/> </height>
+					<alpha> <copy src="child" trait="alpha"/> </alpha>
+
+					<rect name="stats_player_leftleg_pct_meter">
+						<id> 21 </id>
+						<include src="meter.xml"/>
+						<_SolidMeter> 1 </_SolidMeter>
+						<x>
+							<copy> 26 </copy>
+							<onlyif>
+								<copy src="parent" trait="_dir" /> <eq> 1 </eq>
+							</onlyif>
+							<add> 25 </add>
+						</x>
+						<y> 24 </y>
+						<width> 77 </width>
+						<height>
+							<copy src="parent" trait="height"/>
+							<sub> 24 </sub>
+						</height>
+					</rect>
+				</image>
+
+				<text name="stats_player_leftleg_crippled">
+					<visible> <not src="sibling(stats_player_leftleg_pct)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user9"/> </string>
+					<x>
+						<copy src="sibling" trait="_dir" />
+						<copy src="parent" trait="_dir_text_x_" />
+						<add src="sibling" trait="x"/>
+						<add> 7 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<div> 1.7 </div>
+						<add src="sibling" trait="y" />
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="stats_player_rightleg_pct">
+					<locus> 1 </locus>
+					<_dir> <copy src="io" trait="_paperdoll_rightleg_meter_dir" /> </_dir>
+					<filename>
+						<copy src="me" trait="_dir" />
+						<copy src="parent" trait="_dir_filename_" />
+					</filename>
+					<visible>
+						<copy src="child(stats_player_rightleg_pct_meter)" trait="_Value"/>
+						<gt> 0 </gt>
+					</visible>
+					<x>
+						<copy src="io" trait="_paperdoll_rightleg_meter_x" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<add>
+							<copy src="me" trait="_dir" />
+							<copy src="parent" trait="_dir_point_x_" />
+						</add>
+					</x>
+					<y>
+						<copy src="io" trait="_paperdoll_rightleg_meter_y" />
+						<mul src="io" trait="_paperdoll_pipboy_scale" />
+						<sub src="me" trait="height" />
+					</y>
+					<width> <copy src="me" trait="filewidth"/> </width>
+					<height> <copy src="io" trait="_meter_height"/> </height>
+					<alpha> <copy src="child" trait="alpha"/> </alpha>
+
+					<rect name="stats_player_rightleg_pct_meter">
+						<id> 23 </id>
+						<include src="meter.xml"/>
+						<_SolidMeter> 1 </_SolidMeter>
+						<x>
+							<copy> 26 </copy>
+							<onlyif>
+								<copy src="parent" trait="_dir" /> <eq> 1 </eq>
+							</onlyif>
+							<add> 25 </add>
+						</x>
+						<y> 24 </y>
+						<width> 77 </width>
+						<height>
+							<copy src="parent" trait="height"/>
+							<sub> 24 </sub>
+						</height>
+					</rect>
+				</image>
+
+				<text name="stats_player_rightleg_crippled">
+					<visible> <not src="sibling(stats_player_rightleg_pct)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user9"/> </string>
+					<x>
+						<copy src="sibling" trait="_dir" />
+						<copy src="parent" trait="_dir_text_x_" />
+						<add src="sibling" trait="x"/>
+						<add> 7 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<div> 1.7 </div>
+						<add src="sibling" trait="y" />
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</image> <!-- stats_player_head -->
+
+			<text name="stats_player_name">
+				<id> 27 </id>
+				<visible> <copy src="sibling(stats_player_head)" trait="visible"/> </visible>
+				<font> 3 </font>
+				<justify>
+					<!--VUI+ where x = _paperdoll_pipboy_name_x
+					x < 200: left alignment
+					x > 200: right alignment
+					otherwise: center alignment
+					-->
+					<copy> 1 </copy>
+					<add>
+						<copy src="io" trait="_paperdoll_pipboy_name_x" />
+						<gte> -200 </gte>
+					</add>
+					<add>
+						<copy src="io" trait="_paperdoll_pipboy_name_x" />
+						<gt> 200 </gt>
+						<mul> 2 </mul>
+					</add>
+				</justify>
+				<x>
+					<copy src="sibling(stats_player_head)" trait="width" />
+					<div> 2 </div>
+					<add src="sibling(stats_player_head)" trait="x" />
+					<add src="io" trait="_paperdoll_pipboy_name_x" />
+				</x>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub src="me" trait="height" />
+					<add> 5 </add>
+				</y>
+				<font> 3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<!--VUI+ ============================== RAD PAGE ==============================-->
+			<rect name="stats_radiation_container">
+				<visible>
+					<copy src="parent" trait="user0"/> <eq> 1 </eq>
+					<or src="sibling(stats_RAD_button)" trait="mouseover" /> <!--VUI+ hovering -->
+					<and><not>
+						<copy src="sibling(stats_CND_button)" trait="mouseover" />
+						<or src="sibling(stats_EFF_button)" trait="mouseover" />
+						<or src="sibling(stats_H20_button)" trait="mouseover" />
+						<or src="sibling(stats_FOD_button)" trait="mouseover" />
+						<or src="sibling(stats_SLP_button)" trait="mouseover" />
+					</not></and>
+				</visible>
+				<zoom> 130 </zoom>
+				<_left_edge>
+					<copy> 83 </copy>
+					<mult src="me" trait="zoom"/>
+					<div> 100 </div>
+				</_left_edge>
+
+				<text name="VUI+RBCtitle">
+					<string><copy src="globals" trait="_VUI+RBCtitle" /></string>
+					<x>
+						<copy src="grandparent" trait="width" />
+						<sub src="stats_radaway_button" trait="width" />
+						<sub src="stats_RAD_button" trait="width" />
+						<div> 2 </div>
+						<add src="stats_RAD_button" trait="width" />
+					</x>
+					<y>
+						<copy src="stats_radaway_button" trait="y" />
+						<add> 15 </add>
+					</y>
+					<justify> &center; </justify>
+					<visible> <copy src="sibling(VUI+Resistances)" trait="visible" /> </visible>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="VUI+RBCtitleUnderline">
+					<include src="line.xml"/>
+					<_length> <copy src="sibling(VUI+RBCtitle)" trait="width" /> </_length>
+					<x>
+						<copy src="sibling(VUI+RBCtitle)" trait="width" />
+						<div> -2 </div>
+						<add src="sibling" trait="x" />
+						<sub>
+							<copy src="sibling(VUI+RBCtitle)" trait="font" />
+							<copy src="globals" trait="_VUI+FontX_"/>
+						</sub>
+					</x>
+					<y>
+						<copy src="sibling(VUI+RBCtitle)" trait="y"/>
+						<add src="sibling(VUI+RBCtitle)" trait="height"/>
+						<sub>
+							<copy src="sibling(VUI+RBCtitle)" trait="font" />
+							<copy src="globals" trait="_VUI+FontY_"/>
+						</sub>
+					</y>
+					<visible> <copy src="sibling(VUI+Resistances)" trait="visible" /> </visible>
+				</image>
+				
+				<rect name="VUI+Resistances">
+					<locus> 1 </locus>
+					<x>
+						<copy src="sibling(stats_rad_effects_bracket)" trait="x"/>
+						<add src="parent" trait="_left_edge"/>
+					</x>
+					<y>
+						<copy src="sibling" trait="y" />
+						<add src="sibling" trait="height" />
+						<add> 30 </add>
+					</y>
+					<width> 300 </width>
+					<visible> <copy src="child(VUI+EnergyResistLevel)" trait="width" /> <gt> 15 </gt> </visible>
+
+					<text name="VUI+EnergyResistLabel">
+						<string> <copy src="globals" trait="_VUI+EnergyResistLabel" /> </string>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+
+					<text name="VUI+EnergyResistLevel">
+						<string> <copy src="io" trait="_VUI+EnergyResist" /> </string>
+						<justify> &right; </justify>
+						<x> <copy src="parent" trait="width"/> </x>
+						<y> <copy src="sibling(VUI+EnergyResistLabel)" trait="y" /> </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+
+					<text name="VUI+FireResistLabel">
+						<string> <copy src="globals" trait="_VUI+FireResistLabel" /> </string>
+						<y>
+							<copy src="sibling(VUI+EnergyResistLevel)" trait="y" />
+							<add src="sibling(VUI+EnergyResistLevel)" trait="height" />
+							<add> 5 </add>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+
+					<text name="VUI+FireResistLevel">
+						<string> <copy src="io" trait="_VUI+FireResist" /> </string>
+						<justify> &right; </justify>
+						<x> <copy src="sibling(VUI+EnergyResistLevel)" trait="x"/> </x>
+						<y> <copy src="sibling(VUI+FireResistLabel)" trait="y" /> </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+
+					<text name="VUI+PoisonResistLabel">
+						<string> <copy src="globals" trait="_VUI+PoisonResistLabel" /> </string>
+						<y>
+							<copy src="sibling(VUI+FireResistLevel)" trait="y" />
+							<add src="sibling(VUI+FireResistLevel)" trait="height" />
+							<add> 5 </add>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+
+					<text name="VUI+PoisonResistLevel">
+						<string> <copy src="io" trait="_VUI+PoisonResist" /> </string>
+						<justify> &right; </justify>
+						<x> <copy src="sibling(VUI+EnergyResistLevel)" trait="x"/> </x>
+						<y> <copy src="sibling(VUI+PoisonResistLabel)" trait="y" /> </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</rect>
+
+				<image name="stats_rad_effects_bracket">
+					<id> 32 </id>
+					<locus> 1 </locus>
+					<visible> 0 </visible>
+					<filename> Interface\stats\rad_effects_bracket.dds </filename>
+					<zoom> <copy src="parent" trait="zoom"/> </zoom>
+					<x>
+						<copy src="grandparent" trait="width"/>
+						<sub src="me" trait="filewidth"/>
+					</x>
+					<y> 220 </y>
+					<width> <copy src="me" trait="filewidth"/> </width>		<!-- filewidth/fileheight already -->
+					<height> <copy src="me" trait="fileheight"/> </height>	<!-- adjusted for zoom. -->
+
+					<_tabstop_1>
+						<copy src="me" trait="_tabstop_2"/>
+						<sub> 120 </sub>
+					</_tabstop_1>
+					<_tabstop_2>
+						<copy src="me" trait="_tabstop_3"/>
+						<sub> 120 </sub>
+					</_tabstop_2>
+					<_tabstop_3>
+						<copy src="me" trait="width"/>
+						<sub> 70 </sub>
+					</_tabstop_3>
+
+					<!-- templated items are added here in code -->
+					<!-- DO NOT HARD-CODE ANY CHILDREN TO THIS TILE -->
+				</image>
+				<text name="stats_rad_effects_label">
+					<visible> <copy src="sibling(stats_rad_effects_bracket)" trait="visible"/> </visible>
+					<string> <copy src="io" trait="user10"/> </string>
+					<x>
+						<copy src="sibling(stats_rad_effects_bracket)" trait="x"/>
+						<add src="parent" trait="_left_edge"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_rad_effects_bracket)" trait="y"/>
+						<add> 20 </add>
+					</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+
+				<hotrect name="stats_rad_resist">
+					<clipwindow> 1 </clipwindow>
+					<locus> 1 </locus>
+					<alpha> 0 </alpha>
+					<y> 360 </y>
+					<width>
+						<copy src="sibling(stats_rad_effects_label)" trait="x"/>
+						<sub> 10 </sub>
+					</width>
+					<height> <copy src="child(stats_rad_resist_bracket)" trait="height"/> </height>
+
+					<image name="stats_rad_resist_bracket">
+						<filename> Interface\stats\rad_effects_bracket.dds </filename>
+						<clips> 1 </clips>
+						<zoom> <copy src="parent" trait="zoom"/> </zoom>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+						</x>
+						<width> <copy src="me" trait="filewidth"/> </width>
+						<height> <copy src="me" trait="fileheight"/> </height>
+					</image>
+
+					<text name="stats_rad_resist_label">
+						<id> 44 </id>
+						<string> &-sStatsRadResist; </string>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_rad_resist_level">
+						<id> 38 </id>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub> 20 </sub>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</hotrect>
+
+				<image name="stats_rad_meter">
+					<locus> 1 </locus>
+					<filename> Interface\Stats\rad_meter_bracket.dds </filename>
+					<zoom> <copy src="parent" trait="zoom"/> </zoom>
+					<x> <copy src="sibling(stats_rad_effects_bracket)" trait="x"/> </x>
+					<y> <copy src="sibling(stats_rad_resist)" trait="y"/> </y>
+					<width> <copy src="me" trait="filewidth"/> </width>		<!-- filewidth/fileheight already -->
+					<height> <copy src="me" trait="fileheight"/> </height>	<!-- adjusted for zoom. -->
+
+					<_zero_pos>
+						<copy> 186 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_zero_pos>
+					<_full_pos>
+						<copy> 482 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_full_pos>
+
+					<text name="stats_rads_label">
+						<string> <copy src="io" trait="_rads"/> </string> <!-- set in code -->
+						<x> <copy src="grandparent" trait="_left_edge"/> </x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_rads_zero">
+						<string> <copy src="me" trait="user0"/> </string>
+						<justify> &center; </justify>
+						<x> <copy src="parent" trait="_zero_pos"/> </x>
+						<y> -28 </y>
+						<user0> 0 </user0>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_rads_mid">
+						<string>
+							<copy src="io" trait="user2"/>
+							<div> 2 </div>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<div> 2 </div>
+							</add>
+						</x>
+						<y> <copy src="sibling(stats_rads_zero)" trait="y"/> </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_rads_max">
+						<string> <copy src="io" trait="user2"/> </string>
+						<justify> &right; </justify>
+						<x> <copy src="parent" trait="width"/> </x>
+						<y> <copy src="sibling(stats_rads_zero)" trait="y"/> </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<image name="stats_rads_arrow">
+						<filename> Interface\Shared\Arrow\pointer_tail.dds </filename>
+						<zoom> <copy src="grandparent" trait="zoom"/> </zoom>
+						<width>
+							<copy> 22 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</width>
+						<height>
+							<copy> 40 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</height>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<sub>
+								<copy src="me" trait="width"/>
+								<div> 2 </div>
+							</sub>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<mult src="io" trait="user1"/>
+								<div src="io" trait="user2"/>
+							</add>
+						</x>
+						<y> 30 </y>
+					</image>
+					<text name="stats_player_rads">
+						<string> <copy src="io" trait="user1"/> </string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="sibling(stats_rads_arrow)" trait="x"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_rads_arrow)" trait="y"/>
+							<add src="sibling(stats_rads_arrow)" trait="height"/>
+							<sub> 24 </sub>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</image> <!-- stats_rad_meter -->
+			</rect> <!-- stats_radiation_container -->
+
+			<!--VUI+ ============================== H2O SUBPAGE ==============================-->
+			<rect name="stats_dehydration_container">
+				<visible>
+					<copy src="parent" trait="user0"/> <eq> 3 </eq>
+					<or src="sibling(stats_H20_button)" trait="mouseover" /> <!--VUI+ hovering -->
+					<and><not>
+						<copy src="sibling(stats_CND_button)" trait="mouseover" />
+						<or src="sibling(stats_EFF_button)" trait="mouseover" />
+						<or src="sibling(stats_RAD_button)" trait="mouseover" />
+						<or src="sibling(stats_FOD_button)" trait="mouseover" />
+						<or src="sibling(stats_SLP_button)" trait="mouseover" />
+					</not></and>
+				</visible>
+				<zoom> 130 </zoom>
+				<_left_edge>
+					<copy> 83 </copy>
+					<mult src="me" trait="zoom"/>
+					<div> 100 </div>
+				</_left_edge>
+				<image name="stats_h20_effects_bracket">
+					<id> 54 </id>
+					<locus> 1 </locus>
+					<visible> 0 </visible>
+					<filename> Interface\stats\rad_effects_bracket.dds </filename>
+					<zoom>
+						<copy src="parent" trait="zoom"/>
+					</zoom>
+					<x>
+						<copy src="grandparent" trait="width"/>
+						<sub src="me" trait="filewidth"/>
+					</x>
+					<y> 220 </y>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<!-- filewidth/fileheight already -->
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+					<!-- adjusted for zoom. -->
+
+					<_tabstop_1>
+						<copy src="me" trait="_tabstop_2"/>
+						<sub> 120 </sub>
+					</_tabstop_1>
+					<_tabstop_2>
+						<copy src="me" trait="_tabstop_3"/>
+						<sub> 120 </sub>
+					</_tabstop_2>
+					<_tabstop_3>
+						<copy src="me" trait="width"/>
+						<sub> 70 </sub>
+					</_tabstop_3>
+
+					<!-- templated items are added here in code -->
+					<!-- DO NOT HARD-CODE ANY CHILDREN TO THIS TILE -->
+				</image>
+				<text name="stats_h20_effects_label">
+					<visible>
+						<copy src="sibling(stats_h20_effects_bracket)" trait="visible"/>
+					</visible>
+					<string>
+						<copy src="io" trait="user10"/>
+					</string>
+					<x>
+						<copy src="sibling(stats_h20_effects_bracket)" trait="x"/>
+						<add src="parent" trait="_left_edge"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_h20_effects_bracket)" trait="y"/>
+						<add> 20 </add>
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<hotrect name="stats_h20_resist">
+					<clipwindow> 1 </clipwindow>
+					<locus> 1 </locus>
+					<alpha> 0 </alpha>
+					<y> 360 </y>
+					<width>
+						<copy src="sibling(stats_h20_effects_label)" trait="x"/>
+						<sub> 10 </sub>
+					</width>
+					<height>
+						<copy src="child(stats_h20_resist_bracket)" trait="height"/>
+					</height>
+
+					<image name="stats_h20_resist_bracket">
+						<filename> Interface\stats\rad_effects_bracket.dds </filename>
+						<clips> 1 </clips>
+						<zoom>
+							<copy src="parent" trait="zoom"/>
+						</zoom>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+						</x>
+						<width>
+							<copy src="me" trait="filewidth"/>
+						</width>
+						<height>
+							<copy src="me" trait="fileheight"/>
+						</height>
+					</image>
+					<text name="stats_h20_resist_label">
+					<!---	<id> 44 </id> --->
+						<string> <!-- no string yet --> </string>
+						<y> 20 </y>
+						<visible> 0 </visible>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_h20_resist_level">
+						<!--<id> 38 </id> --->
+						<visible> 0 </visible>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub> 20 </sub>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</hotrect>
+
+
+				<image name="stats_h20_meter">
+					<locus> 1 </locus>
+					<filename> Interface\Stats\rad_meter_bracket.dds </filename>
+					<zoom>
+						<copy src="parent" trait="zoom"/>
+					</zoom>
+					<x>
+						<copy src="sibling(stats_h20_effects_bracket)" trait="x"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_h20_resist)" trait="y"/>
+					</y>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<!-- filewidth/fileheight already -->
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+					<!-- adjusted for zoom. -->
+
+					<_zero_pos>
+						<copy> 186 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_zero_pos>
+					<_full_pos>
+						<copy> 482 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_full_pos>
+
+					<text name="stats_h20_label">
+						<string>
+							<copy src="io" trait="_h20"/>
+						</string>
+						<!-- set in code -->
+						<x>
+							<copy src="grandparent" trait="_left_edge"/>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_h20_zero">
+						<string>
+							<copy src="me" trait="user0"/>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+						</x>
+						<y> -28 </y>
+						<user0> 0 </user0>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_h20_mid">
+						<string>
+							<copy src="io" trait="user2"/>
+							<div> 2 </div>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<div> 2 </div>
+							</add>
+						</x>
+						<y>
+							<copy src="sibling(stats_h20_zero)" trait="y"/>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_h20_max">
+						<string>
+							<copy src="io" trait="user2"/>
+						</string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_h20_zero)" trait="y"/>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<image name="stats_h20_arrow">
+						<filename> Interface\Shared\Arrow\pointer_tail.dds </filename>
+						<zoom>
+							<copy src="grandparent" trait="zoom"/>
+						</zoom>
+						<width>
+							<copy> 22 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</width>
+						<height>
+							<copy> 40 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</height>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<sub>
+								<copy src="me" trait="width"/>
+								<div> 2 </div>
+							</sub>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<mult src="io" trait="user11"/>
+								<div src="io" trait="user2"/>
+							</add>
+						</x>
+						<y> 30 </y>
+					</image>
+					<text name="stats_player_h20">
+						<string>
+							<copy src="io" trait="user11"/>
+						</string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="sibling(stats_h20_arrow)" trait="x"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_h20_arrow)" trait="y"/>
+							<add src="sibling(stats_h20_arrow)" trait="height"/>
+							<sub> 24 </sub>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</image>
+				<!-- stats_h20_meter -->
+			</rect>
+
+			<!--VUI+ ============================== FOD SUBPAGE ==============================-->
+			<rect name="stats_hunger_container">
+				<visible>
+					<copy src="parent" trait="user0"/> <eq> 4 </eq>
+					<or src="sibling(stats_FOD_button)" trait="mouseover" /> <!--VUI+ hovering -->
+					<and><not>
+						<copy src="sibling(stats_CND_button)" trait="mouseover" />
+						<or src="sibling(stats_EFF_button)" trait="mouseover" />
+						<or src="sibling(stats_RAD_button)" trait="mouseover" />
+						<or src="sibling(stats_H20_button)" trait="mouseover" />
+						<or src="sibling(stats_SLP_button)" trait="mouseover" />
+					</not></and>
+				</visible>
+				<zoom> 130 </zoom>
+				<_left_edge>
+					<copy> 83 </copy>
+					<mult src="me" trait="zoom"/>
+					<div> 100 </div>
+				</_left_edge>
+				<image name="stats_hunger_effects_bracket">
+					<id> 56 </id>
+					<locus> 1 </locus>
+					<visible> 0 </visible>
+					<filename> Interface\stats\rad_effects_bracket.dds </filename>
+					<zoom>
+						<copy src="parent" trait="zoom"/>
+					</zoom>
+					<x>
+						<copy src="grandparent" trait="width"/>
+						<sub src="me" trait="filewidth"/>
+					</x>
+					<y> 220 </y>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<!-- filewidth/fileheight already -->
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+					<!-- adjusted for zoom. -->
+
+					<_tabstop_1>
+						<copy src="me" trait="_tabstop_2"/>
+						<sub> 120 </sub>
+					</_tabstop_1>
+					<_tabstop_2>
+						<copy src="me" trait="_tabstop_3"/>
+						<sub> 120 </sub>
+					</_tabstop_2>
+					<_tabstop_3>
+						<copy src="me" trait="width"/>
+						<sub> 70 </sub>
+					</_tabstop_3>
+
+					<!-- templated items are added here in code -->
+					<!-- DO NOT HARD-CODE ANY CHILDREN TO THIS TILE -->
+				</image>
+				<text name="stats_hunger_effects_label">
+					<visible>
+						<copy src="sibling(stats_hunger_effects_bracket)" trait="visible"/>
+					</visible>
+					<string>
+						<copy src="io" trait="user10"/>
+					</string>
+					<x>
+						<copy src="sibling(stats_hunger_effects_bracket)" trait="x"/>
+						<add src="parent" trait="_left_edge"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_hunger_effects_bracket)" trait="y"/>
+						<add> 20 </add>
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<hotrect name="stats_hunger_resist">
+					<clipwindow> 1 </clipwindow>
+					<locus> 1 </locus>
+					<alpha> 0 </alpha>
+					<y> 360 </y>
+					<width>
+						<copy src="sibling(stats_hunger_effects_label)" trait="x"/>
+						<sub> 10 </sub>
+					</width>
+					<height>
+						<copy src="child(stats_hunger_resist_bracket)" trait="height"/>
+					</height>
+
+					<image name="stats_hunger_resist_bracket">
+						<filename> Interface\stats\rad_effects_bracket.dds </filename>
+						<clips> 1 </clips>
+						<zoom>
+							<copy src="parent" trait="zoom"/>
+						</zoom>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+						</x>
+						<width>
+							<copy src="me" trait="filewidth"/>
+						</width>
+						<height>
+							<copy src="me" trait="fileheight"/>
+						</height>
+					</image>
+					<text name="stats_hunger_resist_label">
+						<!---	<id> 44 </id> --->
+						<string>
+							<!-- no string yet -->
+						</string>
+						<y> 20 </y>
+						<visible> 0 </visible>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_hunger_resist_level">
+						<!--<id> 38 </id> --->
+						<visible> 0 </visible>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub> 20 </sub>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</hotrect>
+
+
+				<image name="stats_hunger_meter">
+					<locus> 1 </locus>
+					<filename> Interface\Stats\rad_meter_bracket.dds </filename>
+					<zoom>
+						<copy src="parent" trait="zoom"/>
+					</zoom>
+					<x>
+						<copy src="sibling(stats_hunger_effects_bracket)" trait="x"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_hunger_resist)" trait="y"/>
+					</y>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<!-- filewidth/fileheight already -->
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+					<!-- adjusted for zoom. -->
+
+					<_zero_pos>
+						<copy> 186 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_zero_pos>
+					<_full_pos>
+						<copy> 482 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_full_pos>
+
+					<text name="stats_hunger_label">
+						<string>
+							<copy src="io" trait="_hunger"/>
+						</string>
+						<!-- set in code -->
+						<x>
+							<copy src="grandparent" trait="_left_edge"/>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_hunger_zero">
+						<string>
+							<copy src="me" trait="user0"/>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+						</x>
+						<y> -28 </y>
+						<user0> 0 </user0>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_hunger_mid">
+						<string>
+							<copy src="io" trait="user2"/>
+							<div> 2 </div>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<div> 2 </div>
+							</add>
+						</x>
+						<y>
+							<copy src="sibling(stats_hunger_zero)" trait="y"/>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_hunger_max">
+						<string>
+							<copy src="io" trait="user2"/>
+						</string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_hunger_zero)" trait="y"/>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<image name="stats_hunger_arrow">
+						<filename> Interface\Shared\Arrow\pointer_tail.dds </filename>
+						<zoom>
+							<copy src="grandparent" trait="zoom"/>
+						</zoom>
+						<width>
+							<copy> 22 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</width>
+						<height>
+							<copy> 40 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</height>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<sub>
+								<copy src="me" trait="width"/>
+								<div> 2 </div>
+							</sub>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<mult src="io" trait="user12"/>
+								<div src="io" trait="user2"/>
+							</add>
+						</x>
+						<y> 30 </y>
+					</image>
+					<text name="stats_player_hunger">
+						<string>
+							<copy src="io" trait="user12"/>
+						</string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="sibling(stats_hunger_arrow)" trait="x"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_hunger_arrow)" trait="y"/>
+							<add src="sibling(stats_hunger_arrow)" trait="height"/>
+							<sub> 24 </sub>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</image>
+				<!-- stats_hunger_meter -->
+			</rect>
+
+			<!--VUI+ ============================== SLP SUBPAGE ==============================-->
+			<rect name="stats_sleep_container">
+				<visible>
+					<copy src="parent" trait="user0"/> <eq> 5 </eq>
+					<or src="sibling(stats_SLP_button)" trait="mouseover" /> <!--VUI+ hovering -->
+					<and><not>
+						<copy src="sibling(stats_CND_button)" trait="mouseover" />
+						<or src="sibling(stats_EFF_button)" trait="mouseover" />
+						<or src="sibling(stats_RAD_button)" trait="mouseover" />
+						<or src="sibling(stats_H20_button)" trait="mouseover" />
+						<or src="sibling(stats_FOD_button)" trait="mouseover" />
+					</not></and>
+				</visible>
+				<zoom> 130 </zoom>
+				<_left_edge>
+					<copy> 83 </copy>
+					<mult src="me" trait="zoom"/>
+					<div> 100 </div>
+				</_left_edge>
+				<image name="stats_sleep_effects_bracket">
+					<id> 58 </id>
+					<locus> 1 </locus>
+					<visible> 0 </visible>
+					<filename> Interface\stats\rad_effects_bracket.dds </filename>
+					<zoom>
+						<copy src="parent" trait="zoom"/>
+					</zoom>
+					<x>
+						<copy src="grandparent" trait="width"/>
+						<sub src="me" trait="filewidth"/>
+					</x>
+					<y> 220 </y>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<!-- filewidth/fileheight already -->
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+					<!-- adjusted for zoom. -->
+
+					<_tabstop_1>
+						<copy src="me" trait="_tabstop_2"/>
+						<sub> 120 </sub>
+					</_tabstop_1>
+					<_tabstop_2>
+						<copy src="me" trait="_tabstop_3"/>
+						<sub> 120 </sub>
+					</_tabstop_2>
+					<_tabstop_3>
+						<copy src="me" trait="width"/>
+						<sub> 70 </sub>
+					</_tabstop_3>
+
+					<!-- templated items are added here in code -->
+					<!-- DO NOT HARD-CODE ANY CHILDREN TO THIS TILE -->
+				</image>
+				<text name="stats_sleep_effects_label">
+					<visible>
+						<copy src="sibling(stats_sleep_effects_bracket)" trait="visible"/>
+					</visible>
+					<string>
+						<copy src="io" trait="user10"/>
+					</string>
+					<x>
+						<copy src="sibling(stats_sleep_effects_bracket)" trait="x"/>
+						<add src="parent" trait="_left_edge"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_sleep_effects_bracket)" trait="y"/>
+						<add> 20 </add>
+					</y>
+					<font> 3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<hotrect name="stats_sleep_resist">
+					<clipwindow> 1 </clipwindow>
+					<locus> 1 </locus>
+					<alpha> 0 </alpha>
+					<y> 360 </y>
+					<width>
+						<copy src="sibling(stats_sleep_effects_label)" trait="x"/>
+						<sub> 10 </sub>
+					</width>
+					<height>
+						<copy src="child(stats_sleep_resist_bracket)" trait="height"/>
+					</height>
+
+					<image name="stats_sleep_resist_bracket">
+						<filename> Interface\stats\rad_effects_bracket.dds </filename>
+						<clips> 1 </clips>
+						<zoom>
+							<copy src="parent" trait="zoom"/>
+						</zoom>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+						</x>
+						<width>
+							<copy src="me" trait="filewidth"/>
+						</width>
+						<height>
+							<copy src="me" trait="fileheight"/>
+						</height>
+					</image>
+					<text name="stats_sleep_resist_label">
+						<!---	<id> 44 </id> --->
+						<string>
+							<!-- no string yet -->
+						</string>
+						<y> 20 </y>
+						<visible> 0 </visible>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_sleep_resist_level">
+						<!--<id> 38 </id> --->
+						<visible> 0 </visible>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub> 20 </sub>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</hotrect>
+
+
+				<image name="stats_sleep_meter">
+					<locus> 1 </locus>
+					<filename> Interface\Stats\rad_meter_bracket.dds </filename>
+					<zoom>
+						<copy src="parent" trait="zoom"/>
+					</zoom>
+					<x>
+						<copy src="sibling(stats_sleep_effects_bracket)" trait="x"/>
+					</x>
+					<y>
+						<copy src="sibling(stats_sleep_resist)" trait="y"/>
+					</y>
+					<width>
+						<copy src="me" trait="filewidth"/>
+					</width>
+					<!-- filewidth/fileheight already -->
+					<height>
+						<copy src="me" trait="fileheight"/>
+					</height>
+					<!-- adjusted for zoom. -->
+
+					<_zero_pos>
+						<copy> 186 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_zero_pos>
+					<_full_pos>
+						<copy> 482 </copy>
+						<mult src="me" trait="zoom"/>
+						<div> 100 </div>
+					</_full_pos>
+
+					<text name="stats_sleep_label">
+						<string>
+							<copy src="io" trait="_sleep"/>
+						</string>
+						<!-- set in code -->
+						<x>
+							<copy src="grandparent" trait="_left_edge"/>
+						</x>
+						<y> 20 </y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_sleep_zero">
+						<string>
+							<copy src="me" trait="user0"/>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+						</x>
+						<y> -28 </y>
+						<user0> 0 </user0>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_sleep_mid">
+						<string>
+							<copy src="io" trait="user2"/>
+							<div> 2 </div>
+						</string>
+						<justify> &center; </justify>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<div> 2 </div>
+							</add>
+						</x>
+						<y>
+							<copy src="sibling(stats_sleep_zero)" trait="y"/>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<text name="stats_sleep_max">
+						<string>
+							<copy src="io" trait="user2"/>
+						</string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="parent" trait="width"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_sleep_zero)" trait="y"/>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+					<image name="stats_sleep_arrow">
+						<filename> Interface\Shared\Arrow\pointer_tail.dds </filename>
+						<zoom>
+							<copy src="grandparent" trait="zoom"/>
+						</zoom>
+						<width>
+							<copy> 22 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</width>
+						<height>
+							<copy> 40 </copy>
+							<mult src="me" trait="zoom"/>
+							<div> 100 </div>
+						</height>
+						<x>
+							<copy src="parent" trait="_zero_pos"/>
+							<sub>
+								<copy src="me" trait="width"/>
+								<div> 2 </div>
+							</sub>
+							<add>
+								<copy src="parent" trait="_full_pos"/>
+								<sub src="parent" trait="_zero_pos"/>
+								<mult src="io" trait="user13"/>
+								<div src="io" trait="user2"/>
+							</add>
+						</x>
+						<y> 30 </y>
+					</image>
+					<text name="stats_player_sleep">
+						<string>
+							<copy src="io" trait="user13"/>
+						</string>
+						<justify> &right; </justify>
+						<x>
+							<copy src="sibling(stats_sleep_arrow)" trait="x"/>
+						</x>
+						<y>
+							<copy src="sibling(stats_sleep_arrow)" trait="y"/>
+							<add src="sibling(stats_sleep_arrow)" trait="height"/>
+							<sub> 24 </sub>
+						</y>
+						<font> 3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</image>
+				<!-- stats_sleep_meter -->
+			</rect>
+
+			<!--VUI+ ============================== EFF SUBPAGE ==============================-->
+			<hotrect name="stats_effects_container">
+				<include src="list_box.xml"/>
+				<id> 33 </id>
+				<target> <not src="globals" trait="_Has360Controller"/> </target> <!-- For mouse wheel on PC since none of the children are enabled -->
+				<wheelable> 0 </wheelable> <!--VUI+ otherwise wheelability from elsewhere will break once we use the mouse wheel into the effects list -->
+				<wheelmoved> <copy src="parent" trait="wheelmoved" /> </wheelmoved> <!--VUI+ inherit from parent which also covers the effects panel, that's really GREAT! -->
+				<visible>
+					<copy src="parent" trait="user0"/> <eq> 2 </eq>
+					<or src="sibling(stats_EFF_button)" trait="mouseover" /> <!--VUI+ hovering -->
+					<and><not>
+						<copy src="sibling(stats_CND_button)" trait="mouseover" />
+						<or src="sibling(stats_RAD_button)" trait="mouseover" />
+						<or src="sibling(stats_H20_button)" trait="mouseover" />
+						<or src="sibling(stats_FOD_button)" trait="mouseover" />
+						<or src="sibling(stats_SLP_button)" trait="mouseover" />
+					</not></and>
+				</visible>
+				<x> <copy src="sibling(stats_EFF_button)" trait="width"/> </x>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+				</y>
+				<_VUI+ScrollbarOffsetY>
+					<copy src="me" trait="height"/>
+					<sub src="parent" trait="height" />
+				</_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight>
+					<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+					<mul> -2 </mul>
+				</_VUI+ScrollbarOffsetHeight>
+				<width>
+					<copy src="parent" trait="width" />
+					<sub src="me" trait="x" />
+					<add> 14 </add> <!--VUI+ minor correction to align the scrollbar with the right vertical borders -->
+				</width>
+				<_enabled>
+					<copy src="me" trait="visible"/>
+					<and>
+						<copy src="io" trait="user0"/>
+						<eq> 0 </eq>
+					</and>
+				</_enabled>
+				<_scrollbar_pos> &right; </_scrollbar_pos>
+				<_item_offset> 10 </_item_offset>
+				<!-- Repeat rates for scrollbar -->
+				<user0> 50 </user0>
+				<user1> 500 </user1>
+			</hotrect>
+
+			<text name="stats_no_effects">
+				<id> 45 </id>
+				<visible>
+					<copy src="sibling" trait="visible"/> <!--VUI+ compatible with hovering -->
+					<and>
+						<copy src="sibling" trait="childcount"/>
+						<eq> 2 </eq> <!-- scrollbar, highlight box -->
+					</and>
+				</visible>
+				<string> &-sStatsNoEffects; </string>
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="width"/>
+					<div> 2 </div>
+				</x>
+				<y>
+					<copy src="parent" trait="height"/>
+					<sub src="me" trait="height"/>
+					<div> 2 </div>
+				</y>
+				<font> 3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+		</hotrect>
+
+		<!--========================= S.P.E.C.I.A.L. PAGE =========================-->
+		<hotrect name="stats_special_container">
+			<include src="list_box.xml"/>
+			<id> 6 </id>
+			<visible> <copy src="me" trait="_enabled"/> </visible>
+			<x> <copy src="sibling(stats_headline_v1)" trait="x"/> <sub> 14.5 </sub> </x> <!--VUI+ 14.5 = (scrollbar - vertical line) / 2 -->
+			<!--VUI+ the vertical position and height of the list is calculated based on the available space -->
+			<_VUI+Top>
+				<copy src="sibling(stats_headline_v1)" trait="y"/>
+				<add src="sibling(stats_headline_v1)" trait="height"/>
+			</_VUI+Top>
+			<_VUI+Bottom>
+				<copy src="sibling(stats_tailline)" trait="y" />
+				<sub src="sibling(stats_tailline)" trait="height" />
+			</_VUI+Bottom>
+			<y>
+				<copy src="me" trait="_VUI+Bottom" />
+				<sub src="me" trait="_VUI+Top" />
+				<sub src="me" trait="height" />
+				<div> 2 </div>
+				<add src="me" trait="_VUI+Top" />
+			</y>
+			<width> 350 </width> <!--VUI+ removed dynamic resize for +/- symbols, 350 should be enough to fit extra info from mods -->
+			<user0> 0 </user0> <!-- true if +/- is displayed for any children -->
+			<_number_of_visible_items> 7 </_number_of_visible_items>
+			<_item_offset> 5 </_item_offset> <!--VUI+ move closer to the scrollbar -->
+			<_right_buffer>
+				<copy> 5 </copy> <!--VUI+ corrected right padding -->
+				<add>
+					<copy> 40 </copy>
+					<onlyif src="me" trait="user0"/>
+				</add>
+			</_right_buffer>
+			<_enabled> <copy src="io" trait="user0"/> <eq> 1 </eq> </_enabled>
+			<_VerticalSpacing> 20 </_VerticalSpacing>
+		</hotrect>
+
+		<!--============================= SKILLS PAGE =============================-->
+		<hotrect name="stats_skills_container">
+			<include src="list_box.xml"/>
+			<id> 7 </id>
+			<visible> <copy src="me" trait="_enabled"/> </visible>
+			<x> <copy src="sibling(stats_special_container)" trait="x"/> </x>
+			<!--VUI+ the vertical position and height of the list is calculated based on the available space -->
+			<_VUI+Top>
+				<copy src="sibling(stats_headline_v1)" trait="y"/>
+				<add src="sibling(stats_headline_v1)" trait="height"/>
+			</_VUI+Top>
+			<_VUI+Bottom>
+				<copy src="sibling(stats_tailline)" trait="y" />
+				<sub src="sibling(stats_tailline)" trait="height" />
+			</_VUI+Bottom>
+			<y>
+				<copy src="me" trait="_VUI+Bottom" />
+				<sub src="me" trait="_VUI+Top" />
+				<sub src="me" trait="height" />
+				<div> 2 </div>
+				<add src="me" trait="_VUI+Top" />
+			</y>
+			<width> 380 </width> <!--VUI+ removed dynamic resize for +/- symbols, 380 should be enough to fit extra info from mods -->
+			<height>
+				<copy src="me" trait="_VUI+Bottom" />
+				<sub src="me" trait="_VUI+Top" />
+				<add> 26.5 </add> <!--VUI+ to perfectly fit the last item -->
+			</height>
+			<!--VUI+ the scrollbar will resize to just touch the vertical edges (and not overlap on them) -->
+			<_VUI+ScrollbarOffsetY>
+				<copy src="me" trait="_VUI+Top" />
+				<sub src="me" trait="y" />
+			</_VUI+ScrollbarOffsetY>
+			<_VUI+ScrollbarOffsetHeight>
+				<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+				<mul> -2 </mul>
+			</_VUI+ScrollbarOffsetHeight>
+			<user0> 0 </user0>	<!-- true if +/- is displayed for any children -->
+			<_item_offset> <copy src="sibling(stats_special_container)" trait="_item_offset"/> </_item_offset>
+			<_right_buffer>
+				<copy> 5 </copy> <!--VUI+ corrected right padding -->
+				<add>
+					<copy> 40 </copy>
+					<onlyif src="me" trait="user0"/>
+				</add>
+			</_right_buffer>
+			<_enabled> <copy src="io" trait="user0"/> <eq> 2 </eq> </_enabled>
+			<_VerticalSpacing> 8.5 </_VerticalSpacing>
+		</hotrect>
+
+		<!--============================= PERKS PAGE =============================-->
+		<hotrect name="stats_perks_container">
+			<include src="list_box.xml"/>
+			<id> 34 </id>
+			<visible> <copy src="me" trait="_enabled"/> </visible>
+			<x> <copy src="sibling(stats_special_container)" trait="x"/> </x>
+			<y> <copy src="sibling(stats_skills_container)" trait="y"/> </y>
+			<width> 420 </width>
+			<height> <copy src="sibling(stats_skills_container)" trait="height"/> </height>
+			<_VUI+ScrollbarOffsetY> <copy src="sibling(stats_skills_container)" trait="_VUI+ScrollbarOffsetY"/> </_VUI+ScrollbarOffsetY>
+			<_VUI+ScrollbarOffsetHeight> <copy src="sibling(stats_skills_container)" trait="_VUI+ScrollbarOffsetHeight"/> </_VUI+ScrollbarOffsetHeight>
+			<_item_offset> <copy src="sibling(stats_special_container)" trait="_item_offset"/> </_item_offset>
+			<_right_buffer> 5 </_right_buffer> <!--VUI+ corrected right padding -->
+			<_enabled> <copy src="io" trait="user0"/> <eq> 3 </eq> </_enabled>
+			<_VerticalSpacing> <copy src="sibling(stats_skills_container)" trait="_VerticalSpacing"/> </_VerticalSpacing>
+		</hotrect>
+
+		<!--============================= GENERAL PAGE =============================-->
+		<rect name="stats_genrep_container">
+			<id> 50 </id>
+			<locus> 1 </locus>
+			<target> 1 </target>
+			<visible> <copy src="io" trait="user0"/> <eq> 4 </eq> </visible>
+			<x> <copy src="sibling(stats_special_container)" trait="x"/> </x>
+			<y> <copy src="sibling(stats_skills_container)" trait="y"/> </y>
+			<width> <copy src="io" trait="_VUI+PipWidth" /> <add> 14.5 </add> </width> <!--VUI+ (14.5 for the scrollbar alignment with the left borders) -->
+			<height> <copy src="sibling(stats_skills_container)" trait="height"/> </height>
+			<user0> 1 </user0> <!-- Mode: 0=General 1=Reputation -->
+			<_enabled> <copy src="io" trait="user0"/> <eq> 4 </eq> </_enabled>
+			<_VUI+ScrollbarOffsetY> <copy src="sibling(stats_skills_container)" trait="_VUI+ScrollbarOffsetY"/> </_VUI+ScrollbarOffsetY>
+			<_VUI+ScrollbarOffsetHeight> <copy src="sibling(stats_skills_container)" trait="_VUI+ScrollbarOffsetHeight"/> </_VUI+ScrollbarOffsetHeight>
+			<_VerticalSpacing> <copy src="sibling(stats_skills_container)" trait="_VerticalSpacing"/> </_VerticalSpacing>
+
+			<hotrect name="stats_general_container">
+				<include src="list_box.xml"/>
+				<id> 8 </id>
+				<visible> <copy src="parent" trait="user0"/> <eq>0</eq> </visible>
+				<width> 500 </width>
+				<height> <copy src="parent" trait="height" /> </height>
+				<_VUI+ScrollbarOffsetY> <copy src="parent" trait="_VUI+ScrollbarOffsetY"/> </_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight> <copy src="parent" trait="_VUI+ScrollbarOffsetHeight"/> </_VUI+ScrollbarOffsetHeight>
+				<_VerticalSpacing> <copy src="parent" trait="_VerticalSpacing"/> </_VerticalSpacing>
+			</hotrect>
+
+			<rect name="stats_karma_rect">
+				<visible> <copy src="sibling(stats_general_container)" trait="visible"/> </visible>
+				<locus> 1 </locus>
+				<_x_buffer> 40 </_x_buffer>
+				<x> <copy src="sibling" trait="width"/> </x>
+				<y> <copy src="sibling(stats_genrep_button)" trait="y" /> <add src="sibling(stats_genrep_button)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width" /> <sub src="me" trait="x"/> </width>
+				<height> <copy src="parent" trait="height"/> <sub src="me" trait="y"/> </height>
+
+				<rect name="stats_karma_alignment"> <!--VUI+ below the image, as a caption -->
+					<include src="VUI+\outline_rect.xml" />
+					<id> 35 </id>
+					<font> <copy src="io" trait="font" /> </font>
+					<wrapwidth> <copy src="parent" trait="width"/> <sub src="parent" trait="_x_buffer" /> </wrapwidth>
+					<justify> &center; </justify>
+					<x> <copy src="parent" trait="width"/> <div> 2 </div> </x>
+					<y> <copy src="sibling(stats_karma_image)" trait="y"/> <add src="sibling(stats_karma_image)" trait="height"/> <sub> 40 </sub> </y>
+					<depth> 5 </depth> <!--VUI+ under the image, for alternative icons -->
+				</rect>
+
+				<image name="stats_karma_image">
+					<locus>1</locus>
+					<id> 36 </id>
+					<x> <copy src="parent" trait="width"/> <div> 2 </div> <sub> 170 </sub> </x>
+					<y> <copy src="parent" trait="height" /> <sub src="me" trait="height" /> <div> 2 </div> <sub> 10 </sub> </y>
+					<!--VUI+ edits for High Quality Pip-Boy Icons (nexusmods.com/fallout3/mods/22808) and works in vanilla -->
+					<zoom> &scale; </zoom>
+					<width> 384 </width>
+					<height> 384 </height>
+					<include src="VUI+\Image_outline.xml"/>
+				</image>
+
+				<text name="stats_karma_title"> <!--VUI+ above the image -->
+					<id> 37 </id>
+					<font> <copy src="io" trait="font" /> </font>
+					<wrapwidth> <copy src="sibling(stats_karma_alignment)" trait="wrapwidth" /> </wrapwidth>
+					<justify> &center; </justify>
+					<x> <copy src="sibling(stats_karma_alignment)" trait="x"/> </x>
+					<y> <copy src="parent" trait="_x_buffer" /> </y>
+					<!--VUI+ bold, emphasis -->
+					<alpha> 400 </alpha>
+					<brightness> 300 </brightness>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</rect>
+
+			<!-- Parent rect for reputation page. Uses stats_list_template. -->
+			<hotrect name="stats_reputation_container">
+				<include src="list_box.xml"/>
+				<id> 46 </id>
+				<visible> <copy src="parent" trait="user0"/> <eq> 1 </eq> </visible>
+				<width> 500 </width>
+				<height> <copy src="parent" trait="height" /> </height>
+				<_VUI+ScrollbarOffsetY> <copy src="parent" trait="_VUI+ScrollbarOffsetY"/> </_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight> <copy src="parent" trait="_VUI+ScrollbarOffsetHeight"/> </_VUI+ScrollbarOffsetHeight>
+				<_VerticalSpacing> <copy src="parent" trait="_VerticalSpacing"/> </_VerticalSpacing>
+			</hotrect>
+
+			<rect name="stats_reptitle_rect">
+				<visible> <copy src="sibling(stats_reputation_container)" trait="visible"/> </visible>
+				<locus> 1 </locus>
+				<_x_buffer> 40 </_x_buffer>
+				<x> <copy src="sibling" trait="x"/> <add src="sibling" trait="width"/> <add src="sibling" trait="x"/> </x>
+				<y> <copy src="sibling(stats_genrep_button)" trait="y" /> <add src="sibling(stats_genrep_button)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width" /> <sub src="me" trait="x"/> </width>
+				<height> <copy src="parent" trait="height"/> <sub src="me" trait="y"/> </height>
+
+				<image name="stats_reputation_image">
+					<locus>1</locus>
+					<id> 47 </id>
+					<!--VUI+ should look like the karma icon with slightly different dimensions & positioning (reputation drawings are too large) -->
+					<x> <copy src="parent" trait="width"/> <div> 2 </div> <sub> 170 </sub> </x>
+					<y> <copy src="parent" trait="height" /> <sub src="me" trait="height" /> <div> 2 </div> </y>
+					<zoom> &scale; </zoom>
+					<width> 350 </width>
+					<height> 350 </height>
+					<include src="VUI+\Image_outline.xml"/>
+				</image>
+
+				<text name="stats_reputation_title">
+					<id> 48 </id>
+					<font> <copy src="io" trait="font" /> </font>
+					<wrapwidth> <copy src="parent" trait="width"/> <sub src="parent" trait="_x_buffer" /> </wrapwidth>
+					<justify> &center; </justify>
+					<x> <copy src="parent" trait="width"/> <div> 2 </div> </x>
+					<y> <copy src="parent" trait="_x_buffer" /> </y>
+					<!--VUI+ bold, emphasis -->
+					<alpha> 400 </alpha>
+					<brightness> 300 </brightness>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+				<!--VUI+ no need to display the faction name since it's already displayed on the selected list item --> <rect name="VUI+HideRedundantName"> <text name="stats_reputation_rep_title"><id> 51 </id></text><visible> 0 </visible> </rect>
+			</rect>
+
+			<!-- Action Buttons -->
+			<hotrect name="stats_genrep_button">
+				<id> 49 </id>
+				<include src="text_box.xml"/>
+				<clicksound> UIPipboySelect </clicksound>
+				<visible> <copy src="parent" trait="_enabled"/> </visible>
+				<_y> <copy src="parent" trait="_VUI+ScrollbarOffsetY"/> </_y> <!--VUI+ places this nested button at _VUI+Top which is the ending point of the top vertical line-->
+				<_x> <copy src="parent" trait="width" /> <sub src="globals" trait="_VUI+InsideButton" /> </_x>
+				<justify> &right; </justify>
+				<_xbox_button> &xbuttonx; </_xbox_button>
+				<_PCButtonText> <copy src="io" trait="_stats_genrep_button" /> </_PCButtonText>
+				<string> &-sStatsGeneral </string>
+				<listindex> 1 </listindex>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</hotrect>
+
+		</rect>
+
+		<!--============================ USED BY ALL PAGES ============================-->
+		<!-- This template is rendered in code once for each page item -->
+		<!-- Parent rect is stats_special_container for page 2 -->
+		<!-- Parent rect is stats_skills_container for page 3 -->
+		<!-- Parent rect is stats_perks_container for page 4 -->
+		<template name="stats_list_template">
+			<hotrect name="stats_list_template_item">
+				<include src="list_box_template.xml"/>
+				<user0> 0 </user0> <!-- Extra text visible -->
+				<user1>-999.99</user1> <!-- List item number (-999.99 means don't show) -->
+				<user2></user2> <!-- Extra text -->
+				<clicksound> &nosound; </clicksound> <!-- Handled by pipboy manager -->
+				<mouseoversound> &nosound; </mouseoversound> <!-- Handled by pipboy manager -->
+				<_VerticalSpacing>3.7</_VerticalSpacing>
+
+				<text name="ListItemText">
+					<string> <copy src="parent" trait="string"/> </string>
+					<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+					<x> 11 </x>
+					<y>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+						<add>
+							<copy src="parent" trait="_VerticalSpacing" />
+							<div> 2 </div>
+						</add>
+						<sub> 1 </sub> <!--VUI+ due to space being tight to fit 13 skills, alignment requires some manual tweaking to fit descenders -->
+					</y>
+					<wrapwidth>
+						<copy src="parent" trait="width" />
+						<sub src="me" trait="x" />
+						<sub> 10 </sub>
+					</wrapwidth>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<text name="stats_list_template_number">
+					<font> <copy src="io" trait="font" /> </font>
+					<visible>
+						<copy src="parent" trait="user1"/>
+						<neq> -999.99 </neq> <!--VUI+ allow 0 and negative values to be shown -->
+					</visible>
+					<!--VUI+ set the number to the rightmost column -->
+					<justify> &right; </justify>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub> 11 </sub>
+					</x>
+					<y>
+						<copy src="sibling(ListItemText)" trait="y"/>
+						<add> 1 </add> <!--VUI+ numbers have no descenders (see above) -->
+					</y>
+					<string> <copy src="parent" trait="user1"/> </string>
+					<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<text name="stats_list_template_extra">
+					<font> <copy src="io" trait="font" /> </font>
+					<visible> <copy src="parent" trait="user0"/> </visible>
+					<justify> &right; </justify>
+					<x>
+						<!--VUI+ set the (+xx) modifier to the left of the value for better alignment -->
+						<copy src="sibling(stats_list_template_number)" trait="x" />
+						<sub>
+							<copy src="me" trait="font" />
+							<copy src="globals" trait="_VUI+FontW_" />
+							<mul> 2 </mul>
+						</sub>
+					</x>
+					<y> <copy src="sibling(ListItemText)" trait="y"/> </y>
+					<string> <copy src="parent" trait="user2"/> </string>
+					<brightness>
+						<copy src="parent" trait="brightness" /> <!--VUI+ target highlighting -->
+						<sub> 100 </sub> <!--VUI+ use a different tone to make modifiers easier to read -->
+					</brightness>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</hotrect>
+		</template>
+
+		<rect name="stats_display_rect">
+			<locus>1</locus>
+			<x>
+				<copy src="sibling(stats_special_container)" trait="x"/>
+				<add>
+					<copy src="sibling(stats_special_container)" trait="width"/>
+					<onlyif src="sibling(stats_special_container)" trait="visible"/>
+				</add>
+				<add>
+					<copy src="sibling(stats_skills_container)" trait="width"/>
+					<onlyif src="sibling(stats_skills_container)" trait="visible"/>
+				</add>
+				<add>
+					<copy src="sibling(stats_perks_container)" trait="width"/>
+					<onlyif src="sibling(stats_perks_container)" trait="visible"/>
+				</add>
+			</x>
+			<y> <copy src="sibling(stats_skills_container)" trait="_VUI+Top"/> </y>
+			<width>
+				<copy src="io" trait="_VUI+PipX" />
+				<add src="io" trait="_VUI+PipWidth" />
+				<sub src="me" trait="x"/>
+			</width>
+			<height>
+				<copy src="sibling(stats_skills_container)" trait="_VUI+Bottom"/>
+				<sub src="sibling(stats_skills_container)" trait="_VUI+Top"/>
+			</height>
+
+			<image name="stats_icon">
+				<locus>1</locus>
+				<id> 25 </id>
+				<visible> 0 </visible>
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="width"/>
+					<div> 1.7 </div> <!--VUI+ a bit to the right to better align to the center considering our Pip-Boy expansion -->
+				</x>
+				<y>
+					<copy src="me" trait="height"/>
+					<div> -8 </div>
+				</y>
+				<width> 384 </width>
+				<height> 384 </height>
+				<zoom> &scale; </zoom>
+				<depth> 0 </depth> <!--VUI+ set the icon behind the text in case they overlap (which is impossible to avoid because the real size of the icon is huge) -->
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="stats_icon_badge">
+				<id> 52 </id>
+				<visible> 0 </visible>
+				<zoom> &scale; </zoom>
+				<x> <copy src="sibling(stats_icon_separator)" trait="x" /> </x>
+				<y> <copy src="sibling(stats_icon_separator)" trait="y" /> <sub src="me" trait="height" /> <sub> 12 </sub> </y>
+				<width> 80 </width>
+				<height> 80 </height>
+			</image>
+
+			<image name="stats_icon_separator">
+				<include src="line.xml"/>
+				<locus> 1 </locus>
+				<visible> <copy src="sibling(stats_icon)" trait="visible"/> </visible>
+				<x> 15 </x>
+				<y>
+					<copy src="sibling(stats_icon)" trait="height" />
+					<mul> 0.982 </mul> <!--VUI+ space between the stat icon and the description -->
+					<add src="sibling(stats_icon)" trait="y" />
+				</y>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub> 17.5 </sub> <!--VUI+ align the right edges of the description (search map_menu for that number) -->
+				</_length>
+
+				<image name="stats_icon_separator_vert">
+					<include src="vertical_fade_line.xml"/>
+					<height> 40 </height> <!--VUI+ reduce top description bracket -->
+					<_x> <copy src="parent" trait="width"/> </_x>
+				</image>
+			</image>
+
+			<hotrect name="stats_description_rect">
+				<id> 26 </id>
+				<x> <copy src="sibling(stats_icon_separator)" trait="x"/> </x>
+				<_VUI+Top>
+					<copy src="sibling(stats_icon_separator)" trait="y" />
+					<add src="stats_icon_separator_vert" trait="height" />
+				</_VUI+Top>
+				<_VUI+Bottom> <copy src="parent" trait="height" /> </_VUI+Bottom>
+				<y>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add src="me" trait="_VUI+Top" />
+					<sub> 5 </sub> <!--VUI+ move the text a few pixels closer to the top separator to avoid the bottom tabs -->
+				</y>
+				<height>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<add> 42 </add> <!--VUI+ perfectly fit the text into the description box -->
+				</height>
+				<!--VUI+ the scrollbar will resize to just touch the vertical edges (and not overlap on them) -->
+				<_VUI+ScrollbarOffsetY>
+					<copy src="me" trait="_VUI+Top" />
+					<sub src="me" trait="y" />
+				</_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight>
+					<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+					<mul> -2 </mul>
+					<add> 10 </add> <!--VUI+ compensate the tweak at y -->
+				</_VUI+ScrollbarOffsetHeight>
+				<width> <copy src="sibling(stats_icon_separator)" trait="_length"/> <sub> 15 </sub> </width>
+				<locus> 1 </locus>
+				<wheelable> 1 </wheelable>
+				<clipwindow> 1 </clipwindow>
+				<visible> <copy src="stats_icon_separator" trait="visible"/> </visible>
+
+				<hotrect name="stats_description_scrollbar">
+					<include src="scrollbar_vert.xml"/>
+					<systemcolor> &pipboy; </systemcolor>
+					<_x> <copy src="parent" trait="width"/> </_x>
+					<_y> <copy src="parent" trait="_VUI+ScrollbarOffsetY" /> </_y>
+					<_height>
+						<copy src="parent" trait="height" />
+						<add src="parent" trait="_VUI+ScrollbarOffsetHeight" />
+					</_height>
+					<_wheelmoved> <copy src="parent" trait="wheelmoved"/> </_wheelmoved>
+					<_number_of_visible_items> 1 </_number_of_visible_items>
+					<_ScrollDelta> 20 </_ScrollDelta>
+					<_VUI+SmoothScrolling> 1 </_VUI+SmoothScrolling>
+				</hotrect>
+
+				<text name="stats_description">
+					<locus>1</locus>
+					<font>3</font>
+					<wrapwidth>
+						<copy src="parent" trait="width"/>
+						<sub> 2 </sub>
+					</wrapwidth>
+					<clips> 1 </clips>
+					<y>
+						<copy src="sibling(stats_description_scrollbar)" trait="_current_value"/>
+						<mul src="sibling(stats_description_scrollbar)" trait="_ScrollDelta"/>
+						<mul> -1 </mul>
+						<add> 5 </add> <!--VUI+ needed to fix bugged engine metrics -->
+					</y>
+					<zoom>90</zoom>
+				</text>
+			</hotrect>
+		</rect>
+
+		<!--============================== TAILLINE ==============================-->
+		<!--VUI+ reorganized to match the tablines in Items and Maps -->
+		<rect name="stats_tailline">
+			<locus> 1 </locus>
+			<x> <copy src="sibling(stats_status_container)" trait="x" /> </x>
+			<y>
+				<copy src="io" trait="_VUI+PipY" />
+				<add src="io" trait="_VUI+PipHeight" />
+				<add src="me" trait="height" />
+			</y>
+			<width> <copy src="sibling(stats_status_container)" trait="width" /> </width>
+			<height> 50 </height>
+			<!--VUI+ redone to automatically calculate strech and simplify code -->
+			<_stretch>
+				<copy src="me" trait="width" />
+				<sub src="child(stats_tailline_status)" trait="width" />
+				<sub src="child(stats_tailline_SPECIAL)" trait="width" />
+				<sub src="child(stats_tailline_skills)" trait="width" />
+				<sub src="child(stats_tailline_perks)" trait="width" />
+				<sub src="child(stats_tailline_general)" trait="width" />
+				<div> 6 </div>
+			 </_stretch>
+			<_horbuf> 35 </_horbuf>
+			<_verbuf> 15 </_verbuf>
+
+			<image name="stats_tailline_vleft">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="parent" trait="height" /> </height> <!--VUI+ synchronize with other PIP sections -->
+				<_bottom_to_top> 1 </_bottom_to_top>
+			</image>
+
+			<image name="stats_tailline_h1">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> </x>
+				<_length> <copy src="parent" trait="_stretch"/> </_length>
+			</image>
+
+			<hotrect name="stats_tailline_status">
+				<include src="super_text_box.xml"/>
+				<id> 0 </id>
+				<_horbuf> <copy src="parent" trait="_horbuf" /> </_horbuf>
+				<_verbuf> <copy src="parent" trait="_verbuf" /> </_verbuf>
+				<_x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </_x>
+				<_y> <copy src="me" trait="height"/> <div> -2 </div> </_y>
+				<string> &-sStatsStatus; </string>
+				<_selected> <copy src="io" trait="user0"/> <eq> 0 </eq> </_selected>
+			</hotrect>
+
+			<image name="stats_tailline_h2">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+				<_length> <copy src="parent" trait="_stretch"/> </_length>
+			</image>
+
+			<hotrect name="stats_tailline_SPECIAL">
+				<include src="super_text_box.xml"/>
+				<id> 1 </id>
+				<_horbuf> <copy src="parent" trait="_horbuf" /> </_horbuf>
+				<_verbuf> <copy src="parent" trait="_verbuf" /> </_verbuf>
+				<_x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </_x>
+				<_y> <copy src="me" trait="height"/> <div> -2 </div> </_y>
+				<string> &-sStatsSpecial; </string>
+				<_selected> <copy src="io" trait="user0"/> <eq> 1 </eq> </_selected>
+			</hotrect>
+
+			<image name="stats_tailline_h3">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+				<_length> <copy src="parent" trait="_stretch"/> </_length>
+			</image>
+
+			<hotrect name="stats_tailline_skills">
+				<include src="super_text_box.xml"/>
+				<id> 2 </id>
+				<_horbuf> <copy src="parent" trait="_horbuf" /> </_horbuf>
+				<_verbuf> <copy src="parent" trait="_verbuf" /> </_verbuf>
+				<_x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </_x>
+				<_y> <copy src="me" trait="height"/> <div> -2 </div> </_y>
+				<string> &-sStatsSkills; </string>
+				<_selected> <copy src="io" trait="user0"/> <eq> 2 </eq> </_selected>
+			</hotrect>
+
+			<image name="stats_tailline_h4">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+				<_length> <copy src="parent" trait="_stretch"/> </_length>
+			</image>
+
+			<hotrect name="stats_tailline_perks">
+				<include src="super_text_box.xml"/>
+				<id> 3 </id>
+				<_horbuf> <copy src="parent" trait="_horbuf" /> </_horbuf>
+				<_verbuf> <copy src="parent" trait="_verbuf" /> </_verbuf>
+				<_x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </_x>
+				<_y> <copy src="me" trait="height"/> <div> -2 </div> </_y>
+				<string> &-sStatsPerks; </string>
+				<_selected> <copy src="io" trait="user0"/> <eq> 3 </eq> </_selected>
+			</hotrect>
+
+			<image name="stats_tailline_h5">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+				<_length> <copy src="parent" trait="_stretch"/> </_length>
+			</image>
+
+			<hotrect name="stats_tailline_general">
+				<include src="super_text_box.xml"/>
+				<id> 4 </id>
+				<_horbuf> <copy src="parent" trait="_horbuf" /> </_horbuf>
+				<_verbuf> <copy src="parent" trait="_verbuf" /> </_verbuf>
+				<_x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </_x>
+				<_y> <copy src="me" trait="height"/> <div> -2 </div> </_y>
+				<string> &-sStatsGeneral; </string>
+				<_selected> <copy src="io" trait="user0"/> <eq> 4 </eq> </_selected>
+			</hotrect>
+
+			<image name="stats_tailline_h6">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+				<_length> <copy src="parent" trait="width"/> <sub src="me" trait="x"/></_length>
+			</image>
+
+			<image name="stats_tailline_vright">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="parent" trait="height" /> </height>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> <sub src="me" trait="width"/> </x>
+			</image>
+		</rect><!-- End tailline -->
+	</rect><!-- End Glow Branch-->
+
+	<template name="stats_rad_effects_template">
+		<rect name="stats_rad_effects_template_item">
+			<locus> 1 </locus>
+			<x>
+				<copy src="me" trait="listindex"/>
+				<mod> 3 </mod>
+				<add> 1 </add>
+				<copy src="parent" trait="_tabstop_"/>
+			</x>
+			<y>
+				<copy> 40 </copy>
+				<onlyif>
+					<copy src="me" trait="listindex"/>
+					<gt> 2 </gt>
+				</onlyif>
+			</y>
+
+			<user1></user1>		<!-- actor val abbrev -->
+
+			<text name="stats_rad_effect_magnitude">
+				<y> 20 </y>
+				<justify> &right; </justify>
+				<string> <copy src="parent" trait="string"/> </string>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="stats_rad_effect_abbrev">
+				<x> 10 </x>
+				<y> 20 </y>
+				<string> <copy src="parent" trait="user1"/> </string>
+				<font>3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+		</rect>
+	</template>
+
+	<template name="stats_effects_template">
+		<hotrect name="stats_effects_template_item">
+			<include src="list_box_template.xml"/>
+			<_enabled> 0 </_enabled>
+			<x> 20 </x>
+			<height>
+				<copy src="grandparent" trait="height" />
+				<mul> 0.125</mul> <!--VUI+ fit into the configurable Pip-Boy height -->
+			</height>
+			<user0></user0>			<!-- Effect Name -->
+			<user1></user1>			<!-- Effect String -->
+			<user2> 1 </user2>	<!-- Divider Line -->
+			<_VerticalSpacing>3</_VerticalSpacing>
+
+			<text name="stats_effect_name">
+				<string><copy src="parent" trait="user0"/> </string>
+				<!--VUI+ allow the text to wrap (eg. Weapon Binding Ritual) and for the same reason, use relative values for y -->
+				<wrapwidth>
+					<copy src="parent" trait="width" />
+					<mul> 0.35 </mul>
+				</wrapwidth>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub> <copy src="me" trait="height" /> </sub>
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+						<add>
+							<copy src="parent" trait="_VerticalSpacing" />
+							<div> 2 </div>
+						</add>
+					</add>
+					<sub> 1 </sub> <!--VUI+ for descenders -->
+				</y>
+				<!--VUI+ bold, darker -->
+				<zoom>90</zoom>
+				<alpha> <mul> 2 </mul> </alpha>
+				<brightness> <mul> 0.8 </mul> </brightness>
+				<font> 3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="stats_effect_string">
+				<string><copy src="parent" trait="user1"/> </string>
+				<x> <copy src="sibling(stats_effect_name)" trait="wrapwidth" /> <add> 25 </add> </x>
+				<!--VUI+ same for effect description -->
+				<wrapwidth>
+					<copy src="sibling(stats_effects_divider)" trait="_length" />
+					<sub src="me" trait="x" />
+				</wrapwidth>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub> <copy src="me" trait="height" /> </sub>
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+					<sub> 1 </sub> <!--VUI+ for descenders -->
+				</y>
+				<!--VUI+ bold, brighter -->
+				<alpha> <mul> 2 </mul> </alpha>
+				<zoom>90</zoom>
+				<brightness> <mul> 1.1 </mul> </brightness>
+				<font> 3</font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="stats_effects_divider">
+				<include src="line.xml"/>
+				<alpha> 130 </alpha> <!--VUI+ divider lines shouldn't be bright -->
+				<visible> <copy src="parent" trait="user2"/> </visible>
+				<_length> <copy src="parent" trait="width"/> <sub> 10 </sub> </_length> <!--VUI+ don't overlap with scrollbar arrows -->
+				<y>
+					<copy src="parent" trait="height"/>
+					<sub src="me" trait="height"/>
+				</y>
+			</image>
+		</hotrect>
+	</template>
+</menu>

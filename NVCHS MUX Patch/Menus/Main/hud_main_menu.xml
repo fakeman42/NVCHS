@@ -1866,7 +1866,7 @@
                 <justify>&Right;</justify>
                 <font><copy src="globals" trait="_VUI+HudMainFont" /></font>
                 <string><copy src="parent()" trait="_Text_2"/></string>
-                <zoom>55</zoom>
+                <zoom>60</zoom>
                 <systemcolor>2</systemcolor>
                 <alpha><copy src="parent()" trait="_alpha"/></alpha>
                 <_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
@@ -1882,7 +1882,7 @@
                 <justify>&Right;</justify>
                 <font><copy src="globals" trait="_VUI+HudMainFont" /></font>
                 <string><copy src="parent()" trait="_Text_1"/></string>
-                <zoom>55</zoom>
+                <zoom>60</zoom>
                 <systemcolor>2</systemcolor>
                 <alpha><copy src="parent()" trait="_alpha"/></alpha>
                 <_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
