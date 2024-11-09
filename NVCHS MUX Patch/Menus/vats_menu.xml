@@ -737,7 +737,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
         <text name="Ammo">
             <visible><copy src="io()" trait="_Script+WeaponVis"/></visible>
             <x>-148</x>
-            <y>119</y>
+            <y>122</y>
             <depth>3</depth>
             <justify>&Right;</justify>
             <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
@@ -858,8 +858,8 @@ COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
         </image>
         <image name="Select_Fire">
             <visible><copy src="io()" trait="_Script+WeaponVis"/></visible>
-            <x>-163</x>
-            <y>117</y>
+            <x>-150</x>
+            <y>122</y>
 			<_filename_0>VUIE\Shared\Empty.dds</_filename_0>
 			<_filename_1>MUX\NPC\Outline\Single2.dds</_filename_1>
 			<_filename_2>MUX\NPC\Outline\Burst2.dds</_filename_2>
@@ -881,7 +881,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
         <image name="Weapon_Icon">
             <locus>1</locus>
             <x>-345</x>
-            <y>90</y>
+            <y>88</y>
             <filename>
                 <copy src="io()" trait="_Script+WeaponIcon"/>
             </filename>
@@ -898,7 +898,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
         </image>
         <image name="Weapon_Icon_Heat">
             <x>-345</x>
-            <y>90</y>
+            <y>88</y>
             <filename><copy src="io()" trait="_Script+WeaponIcon"/></filename>
             <width>84</width>
             <height>32</height>

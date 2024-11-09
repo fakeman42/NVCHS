@@ -12570,30 +12570,6 @@
     "stage": 1
   },
   {
-    "key": "PowerAttack_0201027F#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "PowerAttack_02010280#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "PowerAttack_02010281#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "PowerAttack_02010282#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
     "key": "PowerAttack_0015EF1F#INFO:NAM1#d5921f4d89642c723043e56c201662c9",
     "original": "<strenuous grunt.>",
     "translation": "<大声咕哝。>",
@@ -13590,24 +13566,6 @@
     "stage": 1
   },
   {
-    "key": "Death_020101C8#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "Death_020101C9#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "Death_020101CA#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
     "key": "Death_00126EE4#INFO:NAM1#9b64b72b2037b04ad6f54abd8361d59e",
     "original": "Ahh...",
     "translation": "啊...",
@@ -13678,24 +13636,6 @@
     "original": "Ough!",
     "translation": "噢！",
     "stage": 1
-  },
-  {
-    "key": "Death_0015EF14#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "Death_0015EF15#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
-  },
-  {
-    "key": "Death_0015EF16#INFO:NAM1#",
-    "original": "",
-    "translation": "",
-    "stage": -1
   },
   {
     "key": "Death_04008AB9#INFO:NAM1#de0c6173599701f2f7ceffc76b164770",
@@ -16310,13 +16250,13 @@
   {
     "key": "DoctorMedical_0015F069#INFO:NAM1#e1dca082e72c0767e4b892b6545a1e55",
     "original": "I don't see anything wrong with you.",
-    "translation": "我看不出你有啥毛病。",
+    "translation": "我看你不像有什么问题。",
     "stage": 1
   },
   {
     "key": "DoctorMedical_0015F069#INFO:RNAM#16c1041899b3faf58262d0a1c6236768",
     "original": "You're a doctor, right? I could use some help.",
-    "translation": "你是医生对吧？我需要你帮忙。",
+    "translation": "你是医生，对吧？我可能需要些帮助。",
     "stage": 1
   },
   {
@@ -16496,13 +16436,13 @@
   {
     "key": "DoctorMedical_000377FF#INFO:NAM1#e1dca082e72c0767e4b892b6545a1e55",
     "original": "I don't see anything wrong with you.",
-    "translation": "我没看出你有什么问题。",
+    "translation": "我看你不像有什么问题。",
     "stage": 1
   },
   {
     "key": "DoctorMedical_000377FF#INFO:RNAM#16c1041899b3faf58262d0a1c6236768",
     "original": "You're a doctor, right? I could use some help.",
-    "translation": "你是个医生，对吧？我可能需要些帮助。",
+    "translation": "你是医生，对吧？我可能需要些帮助。",
     "stage": 1
   },
   {
@@ -16514,7 +16454,7 @@
   {
     "key": "DoctorMedical_00037800#INFO:RNAM#16c1041899b3faf58262d0a1c6236768",
     "original": "You're a doctor, right? I could use some help.",
-    "translation": "你是个医生，对吧？我可能需要些帮助。",
+    "translation": "你是医生，对吧？我可能需要些帮助。",
     "stage": 1
   },
   {
@@ -16526,7 +16466,7 @@
   {
     "key": "DoctorMedical_000ABFEB#INFO:RNAM#16c1041899b3faf58262d0a1c6236768",
     "original": "You're a doctor, right? I could use some help.",
-    "translation": "你是个医生，对吧？我可能需要些帮助。",
+    "translation": "你是医生，对吧？我可能需要些帮助。",
     "stage": 1
   },
   {
@@ -16538,7 +16478,7 @@
   {
     "key": "DoctorMedical_00037801#INFO:RNAM#16c1041899b3faf58262d0a1c6236768",
     "original": "You're a doctor, right? I could use some help.",
-    "translation": "你是个医生，对吧？我可能需要些帮助。",
+    "translation": "你是医生，对吧？我可能需要些帮助。",
     "stage": 1
   },
   {
@@ -22546,12 +22486,6 @@
     "original": "Okay. I'll just be on my way then.",
     "translation": "好吧。那我这就走。",
     "stage": 1
-  },
-  {
-    "key": "VFreeformMcCarranNVNCRAgentKellerTopic016_000F2448#DIAL:FULL#",
-    "original": "",
-    "translation": "",
-    "stage": -1
   },
   {
     "key": "VFreeformMcCarranNVNCRAgentKellerTopic016_000F2466#INFO:NAM1#22d83951c0f9656f9363bd625ebea07a",
@@ -58276,12 +58210,6 @@
     "original": "You. I know you can hear me. When you die, Courier... I'll be waiting. Your grave's going to look just like this vault.",
     "translation": "你，我知道你能听到我说话。我会等下去，等到你死的那一天……你的坟墓会和这座避难所一样。",
     "stage": 1
-  },
-  {
-    "key": "NVDLC01RadioElijahEnd_01011B24#INFO:NAM1#",
-    "original": "",
-    "translation": "我会耐心等下去，直到你死的那一天……",
-    "stage": -1
   },
   {
     "key": "NVDLC01ElijahDialogueNVDLC01ElijahTopic090_01011B69#DIAL:FULL#0a4a414992988510a48bfd606d64e7e4",

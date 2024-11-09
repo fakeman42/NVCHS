@@ -402,7 +402,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2020 BY AXONIS FOR VANILLA UI PLUS
 			<clicksound> &nosound; </clicksound>
 			<mouseoversound> &nosound; </mouseoversound>
 			<repeathorizontal> 1 </repeathorizontal>
-			<_VerticalSpacing>3.7</_VerticalSpacing>
+			<_VerticalSpacing>5</_VerticalSpacing>
 
 			<text name="ListItemText"> <!-- SPECIAL attribute name -->
 				<x> 15 </x>
