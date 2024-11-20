@@ -1,0 +1,1016 @@
+[
+  {
+    "key": "GorisTheScholar_010011BA#CREA:FULL#ed90299fdc5a1210fdb53b16ece7bb92",
+    "original": "Goris",
+    "translation": "革力士",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0100C9A7#INFO:NAM1#1d170df987ee37674040a8edf1a12201",
+    "original": "[You see a large humanoid figure wearing a long sleeved, hooded robe. There is something odd about him but you're not sure why...]",
+    "translation": "[你看到一个穿着长袖连帽长袍的巨大人形。他有点奇怪，但你不知道为什么...]",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0100C9A7#INFO:NAM1#eaba8e75606d69943a522f2b9c2afed5",
+    "original": "Hello, I'm Goris. I don't recall seeing your face in this area. Are you new here?",
+    "translation": "你好，我是革力士。我不记得在这附近见过你，你是新搬来的？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0100CC85#INFO:NAM1#8c5cd2872dc09680b4df009b6259dc21",
+    "original": "Hello again. What's up?",
+    "translation": "又见面了。有什么事吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0100CC86#INFO:NAM1#f02dd5be97ba74e8f5c8bbecb6ac4eb2",
+    "original": "What can I do for you?",
+    "translation": "我能为你做点什么？",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_000000D4#DIAL:FULL#1dee84433f01809d4cae70c37d6e186a",
+    "original": "Goodbye.",
+    "translation": "再见。",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_0100DDC1#INFO:NAM1#1dee84433f01809d4cae70c37d6e186a",
+    "original": "Goodbye.",
+    "translation": "再见。",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_0100E09F#INFO:NAM1#26c0551b760c08e039ed997996eb3f39",
+    "original": "Let's go.",
+    "translation": "走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_00037071#DIAL:FULL#5e2c7cd7e7edc178ccf61fe2f1355fe4",
+    "original": "Wait here.",
+    "translation": "在这等着。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_0100C9A6#INFO:NAM1#a76e0e8291b1cdddd3506e32f1d4f0e2",
+    "original": "I'll be waiting here for you when you get back.",
+    "translation": "我会在这里等你回来。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_00037072#DIAL:FULL#0cdf6db8a74751349a7c874276a049a9",
+    "original": "Let's trade equipment.",
+    "translation": "我们交易装备吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_0100C9A5#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsEnd_00037073#DIAL:FULL#17b6da244b5214dcdcecf11a5b25aff6",
+    "original": "Enough about tactics.",
+    "translation": "不说战术了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsEnd_0100C9A4#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_00037074#DIAL:FULL#e05fd7cdde0f7308de0664f2548fb571",
+    "original": "Keep your distance. Try to flank them.",
+    "translation": "和他们保持距离。不妨从侧面攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceLong_0100C9A1#INFO:NAM1#31f518cb1266d029826f05862407f251",
+    "original": "I'll hang back and give you some room.",
+    "translation": "我退后一点，给你留点空间。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceGOODBYE_00037075#DIAL:FULL#74a61c0b71a3a6b3b5053b676a3c9923",
+    "original": "All right, you're good. Let's get out of here.",
+    "translation": "好的，就这样。我们走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceGOODBYE_0100C9A3#INFO:NAM1#26c0551b760c08e039ed997996eb3f39",
+    "original": "Let's go.",
+    "translation": "走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceEND_00037076#DIAL:FULL#fb9f4a7fd4216f07f53c07b49c0ab37f",
+    "original": "Your distance is good. Let's talk about something else.",
+    "translation": "你的距离不错。让我们谈谈其他事。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceEND_0100C9A2#INFO:NAM1#bcf05fe7ce16a2dea7a4235c9e857db6",
+    "original": "And?",
+    "translation": "然后呢？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceDefault_00037077#DIAL:FULL#b8a7b360e512886eafbb7227d4a11546",
+    "original": "Stay close to me.",
+    "translation": "紧跟着我。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistanceDefault_0100C9A0#INFO:NAM1#79b38874524d6c27acdaa93345b0d44f",
+    "original": "I'll stay close to you.",
+    "translation": "我会跟紧你的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistance_00037079#DIAL:FULL#aa9a0931096c38b8796818f983f2f4cb",
+    "original": "Let's talk about how close you're following me.",
+    "translation": "我们来讨论下你我之间的距离。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsDistance_0100C99F#INFO:NAM1#73ff528b76857b1a5d1e09dfa5ab8c6a",
+    "original": "What would you have me do?",
+    "translation": "你想让我怎么做？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_0003707A#DIAL:FULL#574ea4607e9463d717a04252c3e6d25f",
+    "original": "I want you to use ranged weapons.",
+    "translation": "我希望你使用远距攻击武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_0100C99D#INFO:NAM1#0dcab09fb36990eaf7fd02e0670ea244",
+    "original": "Not for me, I'm a melee fighter. Don't worry, I'm pretty tough and can take care of myself.",
+    "translation": "不适合我，我是近战选手。别担心，我很坚强，能照顾好自己。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_0100F4B2#INFO:NAM1#a68e7d4131ef599482e612fa4319f44d",
+    "original": "Uh huh, do I have to remind you that I'm a Deathclaw again? If you want me to stay back, just tell me.",
+    "translation": "呃哈哈，要我再提醒你我是死亡爪吗？如果你想让我留在后面，就告诉我。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_0003707B#DIAL:FULL#11c2e5d6e94c9ca9d6fa47cd6788baee",
+    "original": "Switch to a melee weapon.",
+    "translation": "切换到近战武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_0100C99C#INFO:NAM1#81948776058ea05d3411db13e263515e",
+    "original": "I was hoping you would say that.",
+    "translation": "我就希望你这么说。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatEND_0003707C#DIAL:FULL#f38a1815b6487a841f9ee25a861f81d8",
+    "original": "Let's talk about something else.",
+    "translation": "我们谈点别的吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatEND_0100C99A#INFO:NAM1#8ba53b6be0faf4c8deb70a2869d6dc0d",
+    "original": "Anything else?",
+    "translation": "还有别的事吗？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatGOODBYE_0003707D#DIAL:FULL#97bf7abd4d7aaa8156cb1aeaadc66b1e",
+    "original": "That's all. Let's get going.",
+    "translation": "就这样。我们走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatGOODBYE_0100C99B#INFO:NAM1#26c0551b760c08e039ed997996eb3f39",
+    "original": "Let's go.",
+    "translation": "走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombat_0003707E#DIAL:FULL#bfed9cae1b1e42b24f96099a90cf7849",
+    "original": "I want you to change your combat style.",
+    "translation": "我希望你改变你的战斗风格。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombat_0100C998#INFO:NAM1#bc056edc05568323258b20490fe09f4c",
+    "original": "Yes?",
+    "translation": "嗯？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTactics_0003707F#DIAL:FULL#f7cd2190adbe97f397afeb615ba1c302",
+    "original": "Let's talk about your tactics.",
+    "translation": "我们谈谈你的战术吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTactics_0100C997#INFO:NAM1#8b7d70ff0b80cd36e599d50552aaa9ed",
+    "original": "What do you have in mind?",
+    "translation": "你有什么想法？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_00037082#DIAL:FULL#2a3fad8db23f4235ec00fbf81ec20ea9",
+    "original": "Let's get going.",
+    "translation": "我们走。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_0100C996#INFO:NAM1#26c0551b760c08e039ed997996eb3f39",
+    "original": "Let's go.",
+    "translation": "走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFired_00037083#DIAL:FULL#687f7b7aae71234dd99c486211cec3a4",
+    "original": "It's time for us to part ways.",
+    "translation": "我们该分道扬镳了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFired_0100C991#INFO:NAM1#3b9c31018a7203ec9b60562f3380dcb2",
+    "original": "If that is your wish. I'll be waiting for you.",
+    "translation": "如果这是你希望的。我会等你的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_00037084#DIAL:FULL#1ea4c0b10fc2430b996d0ae879404aa3",
+    "original": "I think we should travel together.",
+    "translation": "我觉得我们应该同行。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersHired_0100C995#INFO:NAM1#44a7b449b8eb65e820de7e15ff6f3e43",
+    "original": "It would be an honor!",
+    "translation": "这是我的荣幸！",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_000BD03E#DIAL:FULL#c282787c546316d42c7764cba57d8bb8",
+    "original": "On second thought, stick with me for a little longer.",
+    "translation": "我想了一下，还是留在我身边吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredNo_0100C992#INFO:NAM1#591b858d2baaf712bdef39f26f41be9b",
+    "original": "Let's go then.",
+    "translation": "那我们就走吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_000BD03F#DIAL:FULL#aa797b5766b015a8c659071e73048181",
+    "original": "Yes, I'm sure.",
+    "translation": "是的，我确定。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYes_0100C993#INFO:NAM1#350726edf4bc2fcfef8da944857d6c24",
+    "original": "I'll be waiting in Jacobstown.",
+    "translation": "我会在雅各布斯镇等你。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersAcknowledgeMyOrder_01012B36#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatPassive_0011EBCC#DIAL:FULL#d5bc62d2ad4e5b26bed3f4a0d8e1d3e7",
+    "original": "I want you not to attack enemies unless I've already engaged them.",
+    "translation": "如果我没有动手，你也不要擅自攻击敌人。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatPassive_0100C99E#INFO:NAM1#8155dd6524b73b4d7eebfb46fa0e9f53",
+    "original": "No problem.",
+    "translation": "没问题。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_0011EBCD#DIAL:FULL#f700edd28bb32ac32e1d072ba53c0cf7",
+    "original": "I want you to attack enemies the moment you see them.",
+    "translation": "我要你看到敌人就马上攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_0100C999#INFO:NAM1#3138c71ccedf623298e85ea41546446f",
+    "original": "I wouldn't have it any other way.",
+    "translation": "我本来就不会有其他选择。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_00156BFC#DIAL:FULL#bde9c76c0fbd51547762fd5383ce557d",
+    "original": "I'd like you to go back to the Lucky 38 for now.",
+    "translation": "我希望你现在回幸运38赌场去。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersFiredYesSuite_0100C994#INFO:NAM1#cfd66f9f79423ade018874319d6370e6",
+    "original": "Very well, I'll be waiting in the Lucky 38.",
+    "translation": "很好，我会在幸运38等你。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersOverburdened_01012B37#INFO:NAM1#bebb2f6ecb1167dbef60bc9a0850d43e",
+    "original": "This is a bit too much for me to carry.",
+    "translation": "这对我来说有点太多了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersStealthing_01014DAC#INFO:NAM1#1476b34628139bcda14e9dcae66f3a7a",
+    "original": "I do my best to look inconspicuous.",
+    "translation": "我尽量不引人注意。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction01_0100D51E#DIAL:FULL#9791f0f20269f60a516fa10b417dfdb5",
+    "original": "Yes, I am.",
+    "translation": "没错，我是。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction01_0100D524#INFO:NAM1#b54248fb5a8f40364a13c75263fdda6e",
+    "original": "Pleasure to meet you! It's incredibly rare to see new human faces around here.",
+    "translation": "很高兴认识你！在这附近新面孔是非常罕见的。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction01_0100D524#INFO:NAM1#da42b3359cae1a5883db7efacade6a13",
+    "original": "If you have any questions, I'll be glad to answer them.",
+    "translation": "如果你有任何问题，我很乐意回答。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction02_0100D51F#DIAL:FULL#54151e1357c39a13fdb93bb0c16caf75",
+    "original": "I've been around these parts before.",
+    "translation": "我以前来过这一带。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction02_0100D523#INFO:NAM1#419c00b2f0f633f5bb8bfedd7a8a1906",
+    "original": "Really? Perhaps I have been spending too much time inside this lodge lately then.",
+    "translation": "真的吗？那也许是我最近在这间小屋呆的时间太长了。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction02_0100D523#INFO:NAM1#ae181c22e5a4234f9f3470f65be2f45b",
+    "original": "Well, if you have any questions, I'll be glad to answer them.",
+    "translation": "好吧，如果你有任何问题，我很乐意回答。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction03_0100D520#DIAL:FULL#d304f5a9c6015c3bf6ab05973c4675b6",
+    "original": "That's none of your business.",
+    "translation": "这不关你的事。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction03_0100D525#INFO:NAM1#bae7e8cacd54cf59b1570ec1bfea894f",
+    "original": "Understood. I didn't mean to overstep my boundaries.",
+    "translation": "理解。我不是故意越界的。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction04_0100D521#DIAL:FULL#ce03d7c9635b622d236053388d3c008b",
+    "original": "I've got to go.",
+    "translation": "我得走了。",
+    "stage": 1
+  },
+  {
+    "key": "GorisIntroduction04_0100D526#INFO:NAM1#3ef91ae969d18be1eafdf2e57821da3c",
+    "original": "Suit yourself.",
+    "translation": "随你便。",
+    "stage": 1
+  },
+  {
+    "key": "GorisWhatDoYouDo01_0100DDBE#DIAL:FULL#33fe4385b007076e70909f6e446f95a0",
+    "original": "What do you do here?",
+    "translation": "你在这里做什么？",
+    "stage": 1
+  },
+  {
+    "key": "GorisWhatDoYouDo01_0100DDBF#INFO:NAM1#15d3bd6804f98e6eed61f4d0cce67770",
+    "original": "I am a wandering scholar. A student of the wasteland, if you may. I roam the wastes and study the different cultures that I come across.",
+    "translation": "我是一个流浪的学者。如果可以的这么说的话，我是废土的学生。我漫游荒野，研究我遇到的不同文化。",
+    "stage": 1
+  },
+  {
+    "key": "GorisWhatDoYouDo01_0100DDBF#INFO:NAM1#8ca0298ba3e82ae3b59e7173dec5b1e6",
+    "original": "At the moment, I'm studying the culture of the super mutants, particularly the Nightkin.",
+    "translation": "目前，我正在学习超级变种人的文化，尤其是夜行族。",
+    "stage": 1
+  },
+  {
+    "key": "GorisWhatDoYouDo01_0100DDBF#INFO:NAM1#5d9a80bc2a02021578c06ded8d0f84d7",
+    "original": "Beyond that, while I'm here, I also fill in as Doc Henry's second assistant, whenever Calamity has to step away.",
+    "translation": "除此之外，当阿难离开的时候，只要我在这里，我也会作为亨利博士的第二助手。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutJacobstown01_0100DDC0#DIAL:FULL#37ff7e3dafaefd0596a8844b260d5d9a",
+    "original": "What can you tell me about Jacobstown?",
+    "translation": "你能跟我说说雅各布斯镇的情况吗？",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutJacobstown01_0100E0A0#INFO:NAM1#6b9c231528d51cad934a057616b2909a",
+    "original": "It was Marcus's idea. He wanted to build a sanctuary for all the mutants to settle down. A place far away from humans.",
+    "translation": "这是马可世的主意。他想建立一个庇护所让所有的变种人安定下来，一个远离人类的地方。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutJacobstown01_0100E0A0#INFO:NAM1#0912644088182c28808e2b66fca66e19",
+    "original": "And this of course, makes Jacobstown the perfect location for pursuing my current studies.",
+    "translation": "当然，这也使得雅各布斯镇成了我目前学习的最佳地点。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutMarcus_0100E65B#DIAL:FULL#8e455be5ab8dd0b9e5d11efa29b305f6",
+    "original": "Tell me more about Marcus.",
+    "translation": "跟我说说马可世。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutMarcus_0100E65C#INFO:NAM1#24c527e6607d8e7a6ee765265f6b3419",
+    "original": "Marcus brings some much needed order to the dysfunctional super mutants. He is a competent leader. Without Marcus, there would be no Jacobstown.",
+    "translation": "马可世给功能失调的超级变种人带来了急需的秩序。他是一个称职的领导人，没有马可世，就不会有雅各布斯镇。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutMarcus_0100E65C#INFO:NAM1#ccb69b56dc58f5229f4f44f0a9a4ed95",
+    "original": "But most importantly, he is a friend. Not only did we travel together, but he also helped me when I very much needed it... Him and a few others...",
+    "translation": "但最重要的是，他是我的朋友。我们不仅一起旅行，而且在我非常需要的时候他也帮助了我...他和其他几个人...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutMarcus_0100E65C#INFO:NAM1#5676af458d3da9f08ebdedb91afea25f",
+    "original": "The wasteland is harsh and unforgiving. I'm not afraid of it, but there are times where the brawns and wits of one person prove to be insufficient.",
+    "translation": "废土是残酷无情的。我并不害怕，但有时个体的肌肉和智慧是不够的。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutMarcus_0100E65C#INFO:NAM1#4e05ec35a220f013cb91ac526c362374",
+    "original": "It's good to be among friends when those times call...",
+    "translation": "当需要帮助的时候，能和朋友们在一起是件好事...",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestions_0100EC17#DIAL:FULL#2af247146dc9e919fa4f1b49464d2f9c",
+    "original": "I have some questions.",
+    "translation": "我有几个问题。",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestions_0100EC18#INFO:NAM1#66bf25ea232a1769f445241ba4201a0e",
+    "original": "Go ahead.",
+    "translation": "往下说。",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestionsEnd_0100EC19#DIAL:FULL#f38a1815b6487a841f9ee25a861f81d8",
+    "original": "Let's talk about something else.",
+    "translation": "我们谈点别的吧。",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestionsEnd_0100EC1A#INFO:NAM1#77bcf334b4532c9284c71b5d22c8f512",
+    "original": "Hmm... Okay.",
+    "translation": "嗯...好的。",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B3#DIAL:FULL#2efd97bd47535c4ce1a71ee50eaa8a04",
+    "original": "How about traveling with me?",
+    "translation": "和我一起旅行怎么样？",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B4#INFO:NAM1#af724048d1040e324ab4b4d0952e46c8",
+    "original": "I heard that you have helped Marcus diffuse the situation with the NCR mercenaries peacefully. That is very noble of you.",
+    "translation": "我听说你帮马可世和平化解了与NCR雇佣军的矛盾。你真是太高尚了。",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B4#INFO:NAM1#7d61eca09a517855f9a64f30f5319317",
+    "original": "Very well, I shall take you up on your offer. Besides, I've just finished up my last task here. I'm ready to leave at any time.",
+    "translation": "很好，我接受你的提议。而且，我刚刚完成了我在这里的最后一项任务。我正准备随时离开。",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B6#INFO:NAM1#384fe6124406c95e5bc24ee7f73b127d",
+    "original": "Interesting offer, but not now. I'm still working on my research.",
+    "translation": "很有趣的提议，但现在不行。我还在做我的研究。",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B6#INFO:NAM1#7a0a0df51743ec0c03c76e5188ea2b71",
+    "original": "On top of that, as I've said before, I don't think that it's a good idea for me to leave while tension with the NCR is still running high.",
+    "translation": "最重要的是，就像我之前说过的，我不认为在与NCR的紧张关系还在持续的时候离开是个好主意。",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B6#INFO:NAM1#e0e9bb688fb02971b9ee5c053be3e219",
+    "original": "Check with Marcus and the others here. Maybe they'll have something for you.",
+    "translation": "问问马可世和其他人，也许他们会有活给你。",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B5#INFO:NAM1#5a6547929892673f5c5f862059d586bf",
+    "original": "[Goris hesitates...]",
+    "translation": "[革力士犹豫不决...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisJoin_0100F4B5#INFO:NAM1#a8965193e2194372e1bb46c4a3b9c957",
+    "original": "I'm sorry, but I don't think that you and I share the same ideals. A joint venture would not be in our best interest.",
+    "translation": "我很抱歉，但我觉得我们的理想不一样。合资经营不符合我们的最佳利益。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutTraveling_0100F794#DIAL:FULL#72c0a42590268d1740018b5f468dd41f",
+    "original": "How goes your research?",
+    "translation": "你的研究进展如何？",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutTraveling_0100F795#INFO:NAM1#cd22631d4440cee58bbffe97c531df55",
+    "original": "I'm almost finished with it. Once I'm done, I'm going to head out to the wastes again. Although... I'm not sure if I should do that now.",
+    "translation": "我快完成了。一旦我完成，我将再次前往废土。尽管...我不确定我现在是否应该这么做。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutTraveling_0100F795#INFO:NAM1#f1637f58fb6a49900fc507b0c0d5238b",
+    "original": "You see, the Nightkin here are rather unstable, and the rest of the super mutants only listen to Marcus. And since he's not leaving anytime soon...",
+    "translation": "你知道的，这里的夜行族相当不稳定，其他的超级变种人只听马可世的。既然他短期内不会离开...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutTraveling_0100F795#INFO:NAM1#13d7149948dee7e040090e0781b4b246",
+    "original": "That pretty much leaves me by myself. I can handle myself, but I would much rather have some traveling companions than venturing out alone.",
+    "translation": "差不多就剩我自己的工作了。我可以照顾自己，但我更愿意有一些旅伴，不愿独自外出。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAboutTraveling_0100F795#INFO:NAM1#86859dde1d76cf5afb3be512441bb805",
+    "original": "Besides, with the ever increasing tension between Jacobstown and the NCR, maybe I should just stay here until things calm down.",
+    "translation": "再说了，雅各布斯镇和NCR之间的关系越来越紧张，也许我应该待在这里等事态平息。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrange_010105E8#DIAL:FULL#3c593d2a3e0a5e688b5e4ebeaeb86e3d",
+    "original": "There is something strange about you...",
+    "translation": "你有点奇怪...",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrange_010105E9#INFO:NAM1#73185b2f04c2b5ea1b1e7abbfff3c26f",
+    "original": "Uh huh, I'm not quite sure if I understand what you mean by that.",
+    "translation": "呃呵呵，我不太确定我是否明白你的意思。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA1_0101143B#DIAL:FULL#1c2f9a00443e3fe83dc0ca3907b104cc",
+    "original": "The way you stand and move don't look quite human to me.",
+    "translation": "你的站姿和动作在我看来不太像人类。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA1_0101143F#INFO:NAM1#f4c4b9d027646d97a282a558ef821ac7",
+    "original": "That's very observant of you, as if that isn't the first thing everybody notices about me.",
+    "translation": "你的观察力真敏锐，这好像并不是每个人注意到我的第一印象。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA2_0101143C#DIAL:FULL#4d0d7cb43689ecc10313d1cf012b1efb",
+    "original": "I think you're hiding something underneath those robes.",
+    "translation": "我觉得你在长袍下面藏了什么。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA2_01011440#INFO:NAM1#24b40847268b6aab70f7d610f1ec0b02",
+    "original": "[SUCCESS] Well, do you really think that I would wrap myself up in such a hefty manner if I somewhat resembled a normal human?",
+    "translation": "[成功]好吧，你真的认为如果我长得像个正常人我会把自己裹得这么结实吗？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA2_01011720#INFO:NAM1#83e4347d95a8b5fff1b00ff44c735c18",
+    "original": "[FAILED] Hmm... Wait, what's that over there?",
+    "translation": "[失败]嗯...等等，那是什么？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeEnd_0101143D#DIAL:FULL#5a837be8a91f132811f51ecced1ce8a1",
+    "original": "Nevermind.",
+    "translation": "无所谓。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeEnd_0101143E#INFO:NAM1#4fce912ecbbec6117920473a4cc10b56",
+    "original": "Well, anything else?",
+    "translation": "嗯，还有别的吗？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA3_01011441#DIAL:FULL#6e72e3f93c325503a60ac8695bb5e7e1",
+    "original": "You say you don't look like a human, maybe that's because you aren't human?",
+    "translation": "你说你看起来不像人类，也许是因为你不是人类？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA3_01011442#INFO:NAM1#1b685ac849cc0a52bb24153c5e765e8e",
+    "original": "[SUCCESS] And may I ask, what makes you think that?",
+    "translation": "[成功]我能问一下，你为什么会这么想吗？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA3_01011721#INFO:NAM1#83e4347d95a8b5fff1b00ff44c735c18",
+    "original": "[FAILED] Hmm... Wait, what's that over there?",
+    "translation": "[失败]嗯...等等，那是什么？",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestionsHired_01011CDC#DIAL:FULL#c5ff61dbf25a468af8c33d12ee1744e0",
+    "original": "I got questions.",
+    "translation": "我有问题。",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestionsHired_01011CDE#INFO:NAM1#66bf25ea232a1769f445241ba4201a0e",
+    "original": "Go ahead.",
+    "translation": "往下说。",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestionsHiredEnd_01011CDD#DIAL:FULL#f38a1815b6487a841f9ee25a861f81d8",
+    "original": "Let's talk about something else.",
+    "translation": "我们谈点别的吧。",
+    "stage": 1
+  },
+  {
+    "key": "GorisQuestionsHiredEnd_01011CDF#INFO:NAM1#77bcf334b4532c9284c71b5d22c8f512",
+    "original": "Hmm... Okay.",
+    "translation": "嗯...好的。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskIdentity_01011FBD#DIAL:FULL#7ed90180cef135958029c2476b8f4c17",
+    "original": "Why didn't you tell me you are a Deathclaw?",
+    "translation": "你为什么不告诉我你是死亡爪？",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskIdentity_01011FBE#INFO:NAM1#d0b22379d499da229111ffa27d043f2e",
+    "original": "I'm sorry to have deceived you, but please understand that it was not motivated from a place of malice.",
+    "translation": "我很抱歉欺骗了你，但请理解这并不是出于恶意。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskIdentity_01011FBE#INFO:NAM1#1fa87cdc110ea4d31d1b13ad38d7262d",
+    "original": "There is much animosity between humans and Deathclaws. Very few humans are willing the accept a Deathclaw as their ally.",
+    "translation": "人类和死亡爪之间充满了敌意。很少有人类愿意接受死亡爪作为盟友。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskIdentity_01011FBE#INFO:NAM1#0761617680d93efc1b50451072759403",
+    "original": "Actions weigh more than mere words. I wanted you to see with your own eyes that I'm on your side. That a Deathclaw can be friends with humans.",
+    "translation": "行动比言语更有分量，我想让你亲眼看到我是站在你这边的，死亡爪可以和人类做朋友。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskTalkingDC_01011FBF#DIAL:FULL#9eee3d4080eb5e9abd80a38b7c916deb",
+    "original": "And just as I thought I've seen everything... So you're a talking Deathclaw?",
+    "translation": "就在我以为我什么没见过的时候...你是会说话的死亡爪？",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskTalkingDC_01011FC0#INFO:NAM1#7ee601e00dc9b864e5eead6cb7a85de8",
+    "original": "Yes. A group known as the Enclave was behind it. They wanted to build an army of Deathclaws, so they began tinkering with cognitive enhancements...",
+    "translation": "是的。幕后黑手是一个名为英克雷的组织，他们想建立一支死亡爪军队，于是他们开始捣鼓增强认知能力的东西...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskTalkingDC_01011FC0#INFO:NAM1#d735dc8816018c54b6526bfafeeb0d14",
+    "original": "They needed the Deathclaws to be smart enough to carry out orders, but not smart enough to disobey and question those orders.",
+    "translation": "他们需要死亡爪足够聪明来执行命令，但又不能聪明到违抗和质疑这些命令。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskTalkingDC_01011FC0#INFO:NAM1#b25495e81a5ea59f95022a8332daed2f",
+    "original": "That's where my pack was born. They had no choice but to be slaves. And later, they were exterminated by the very same humans that enslaved them.",
+    "translation": "那是我的族群诞生的地方。他们别无选择，只能做奴隶，后来，它们被奴役它们的人类灭绝了。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskTalkingDC_01011FC0#INFO:NAM1#5042f5fc1651675be1e7c8d9393de626",
+    "original": "As far as I know, I'm the last remaining member of my pack. I have yet to encounter any other.",
+    "translation": "据我所知，我是族群中仅存的成员。我还没有遇到过其他的。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivor_01012B38#DIAL:FULL#5d55afdf13be3a8c83bd67cd7caf628b",
+    "original": "How did you end up as the last of your pack?",
+    "translation": "你是怎么变成族群中最后一个的？",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivor_01012B39#INFO:NAM1#51718d2f9abeb624b8a282fec5123683",
+    "original": "It was out of sheer luck I suppose. We were hiding out inside a Vault, until one day, the tribal showed up, along with Marcus and the others.",
+    "translation": "我想这纯粹是运气。我们躲在一个避难所里，直到有一天，部落出现了，还有马可世和其他人。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivor_01012B39#INFO:NAM1#154b7e46b56868ce3c91ab899a4bbae6",
+    "original": "They helped us repair the Vault's broken main computer, and in return, we gave them the GECK that they had been scouring all over the wasteland for.",
+    "translation": "他们帮我们修理了避难所坏掉的主机，作为回报，我们给了他们在这片废土上一直寻找的G.E.C.K。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivor_01012B39#INFO:NAM1#a4d93b5bb808dc189bf9f91895ce5d3d",
+    "original": "I accompanied them on their way back as part of my scholarly trip. While we were out in the wastes, I sensed my pack was in danger, so I rushed back.",
+    "translation": "作为学术旅行的一部分，我陪同他们返回。 在废土上，我感觉到我的族群有危险，于是就赶了回来。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivor_01012B39#INFO:NAM1#64524cef2e876f47f5418c1e556272f1",
+    "original": "Sadly, by the time I reached the Vault, I was already way too late... There was no one left. Not a single life was spared.",
+    "translation": "不幸的是，当我到达避难所时，已经太迟了...没有了，没有一个幸存者。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3A#DIAL:FULL#f56f8d76997d7f6709285cf64d9229c9",
+    "original": "Are you sure no one else survived?",
+    "translation": "你确定没有其他幸存者吗？",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#8c839225c7786dbd2d6ebccaf4561d82",
+    "original": "Now that you have said that, it's entirely possibly that there existed a second survivor...",
+    "translation": "既然你这么说了，那么很有可能存在第二名幸存者...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#df234f72530763a068c8c348fb336f43",
+    "original": "I remember my tribal friend mentioning about seeing another intelligent Deathclaw, during the infiltration in the Enclave military base of Navarro.",
+    "translation": "我记得我的部落朋友提到过，在渗透纳瓦罗英克雷军事基地时，看到过另一个聪明的死亡爪。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#446b81c118fa1058cab3cfa949cc7df5",
+    "original": "I have no idea what happened to the Deathclaw however... Maybe he was killed... Maybe he managed to escape... Maybe...",
+    "translation": "不过，我并不知道死亡爪怎么了...也许它被杀了...也许它设法逃走了...也许...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#640e3082d5118505320cce73271eded0",
+    "original": "Maybe he was left behind in Navarro... Maybe the NCR found him when they assaulted the base years ago, and hid him somewhere in secret...",
+    "translation": "也许它被留在了纳瓦罗...也许NCR几年前袭击基地的时候发现了他，把他藏在了某个秘密的地方...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#b4e9e06d17d607d1730d93c15e107099",
+    "original": "[Goris ponders for a moment, then turns to you...]",
+    "translation": "[革力士沉思了一会儿，然后转向你...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#65c5340efd866afd94f1353bfcd1b6ef",
+    "original": "If you think about it, a battalion of Deathclaws would no doubt tip the scales heavily in the NCR's favor in this war against the Legion...",
+    "translation": "如果你仔细想想，一个死亡爪营毫无疑问会在这场对抗军团的战争中让天平向NCR倾斜...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskSurvivorLast_01012B3B#INFO:NAM1#4d85f44d6d1752fbe42d01ff045f80d3",
+    "original": "Tell me, my friend. Do you believe the NCR would attempt the same as the Enclave, and engineer their own Deathclaw troops, given the opportunity?",
+    "translation": "告诉我，我的朋友。你认为NCR会像英克雷一样，在有机会的情况下，制造自己的死亡爪部队吗？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeWW_010133D3#DIAL:FULL#e013069612ac0ee7181133d7b4df7291",
+    "original": "You're a talking Deathclaw, aren't you?",
+    "translation": "你是会说话的死亡爪，对吧？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeWW_010133D4#INFO:NAM1#cd7ba0ede60bb1bdff4ca79ef48ad17f",
+    "original": "[Goris stares at you in silence...]",
+    "translation": "[革力士默默地看着你...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeWW_010133D4#INFO:NAM1#4c97ea14d095249d6a94989c62a3238f",
+    "original": "Nope.",
+    "translation": "不是。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeWW_010133D4#INFO:NAM1#4fba105e78efbf57ee27361dfa304378",
+    "original": "And lay off the jet.",
+    "translation": "别磕杰特了。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR01_0101398F#DIAL:FULL#8684ee770deb5d4c5214b9fcd9a95b80",
+    "original": "Yes, of course they would. The NCR is no different than the Enclave or any other organization.",
+    "translation": "是的，他们当然会。NCR与英克雷或其他组织没什么两样。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR01_01013994#INFO:NAM1#a6b334a43ce4578d4453181a36952ded",
+    "original": "[Goris hesitates and you get the feeling you are being carefully scrutinized...]",
+    "translation": "[革力士犹豫了一下，你有一种被仔细审视的感觉...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR01_01013994#INFO:NAM1#cadb16f12b0ca7e64b94e639ecf080ae",
+    "original": "Interesting... Come on, let's keep moving.",
+    "translation": "有趣...来吧，我们继续走。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR02_01013990#DIAL:FULL#fc2eb4223c5b70b63b2b311b66e94474",
+    "original": "Probably, If the situation becomes dire enough.",
+    "translation": "也许，如果情况变得足够糟糕的话。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR02_01013995#INFO:NAM1#a6b334a43ce4578d4453181a36952ded",
+    "original": "[Goris hesitates and you get the feeling you are being carefully scrutinized...]",
+    "translation": "[革力士犹豫了一下，你有一种被仔细审视的感觉...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR02_01013995#INFO:NAM1#cadb16f12b0ca7e64b94e639ecf080ae",
+    "original": "Interesting... Come on, let's keep moving.",
+    "translation": "有趣...来吧，我们继续走。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR03_01013991#DIAL:FULL#a2cb4988d48ae3c86d44d89682e988c1",
+    "original": "Maybe? It's really hard to say...",
+    "translation": "可能吧？这真的很难说...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR03_01013996#INFO:NAM1#a6b334a43ce4578d4453181a36952ded",
+    "original": "[Goris hesitates and you get the feeling you are being carefully scrutinized...]",
+    "translation": "[革力士犹豫了一下，你有一种被仔细审视的感觉...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR03_01013996#INFO:NAM1#cadb16f12b0ca7e64b94e639ecf080ae",
+    "original": "Interesting... Come on, let's keep moving.",
+    "translation": "有趣...来吧，我们继续走。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR04_01013992#DIAL:FULL#1c4eb71396dc3edf61ebbeda8ea8425d",
+    "original": "No, they wouldn't. That's not a part of the mission of the NCR.",
+    "translation": "不，他们不会的。这不是NCR的使命。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR04_01013997#INFO:NAM1#a6b334a43ce4578d4453181a36952ded",
+    "original": "[Goris hesitates and you get the feeling you are being carefully scrutinized...]",
+    "translation": "[革力士犹豫了一下，你有一种被仔细审视的感觉...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR04_01013997#INFO:NAM1#cadb16f12b0ca7e64b94e639ecf080ae",
+    "original": "Interesting... Come on, let's keep moving.",
+    "translation": "有趣...来吧，我们继续走。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR05_01013993#DIAL:FULL#73b37295c8e7a306e4b731088f222a51",
+    "original": "I don't know.",
+    "translation": "我不知道。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR05_01013998#INFO:NAM1#a6b334a43ce4578d4453181a36952ded",
+    "original": "[Goris hesitates and you get the feeling you are being carefully scrutinized...]",
+    "translation": "[革力士犹豫了一下，你有一种被仔细审视的感觉...]",
+    "stage": 1
+  },
+  {
+    "key": "GorisAnswerNCR05_01013998#INFO:NAM1#cadb16f12b0ca7e64b94e639ecf080ae",
+    "original": "Interesting... Come on, let's keep moving.",
+    "translation": "有趣...来吧，我们继续走。",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskPack_01013F53#DIAL:FULL#7b79b4f638adf6c327857a474ee81644",
+    "original": "About the other surviving member of your pack...",
+    "translation": "关于你们族群中其他幸存的成员...",
+    "stage": 1
+  },
+  {
+    "key": "GorisAskPack_01013F54#INFO:NAM1#5951f20a0c6c0abac6b42f57d3065447",
+    "original": "Now is not the time.",
+    "translation": "现在不是时候。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA4_010147ED#DIAL:FULL#bf8bed2efb8a6e834cfb5e6ac7e42688",
+    "original": "Your eyes are clearly not human. In fact, they aren't even mammalian anatomically.",
+    "translation": "你的眼睛明显不属于人类。事实上，从结构上来看，甚至不属于哺乳动物。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA4_010147EE#INFO:NAM1#722cb0811779a2ee12a1b3efd2bb6d0b",
+    "original": "[SUCCESS] I see that you are bright and persistent, but whatever you are trying to insinuate here is erroneous. Don't worry, I'm not a threat.",
+    "translation": "[成功]我知道你很聪明也很执着，但无论你想在这里暗示什么都是错误的。别担心，我不是威胁。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA4_010147EE#INFO:NAM1#026996ee1f1885ed5c82ea6b721c4444",
+    "original": "You had to have traveled far to reach Jacobstown. And surely along the way, you must have encountered all kinds of ghastly and vile abominations.",
+    "translation": "你肯定走了很远的路才来到雅各布斯镇。当然，在这条路上，你肯定也遇到了各种可怕而可憎的东西。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA4_010147EE#INFO:NAM1#90201989b413a61cc37daf9f861b374b",
+    "original": "A lot of these monstrosities were perfectly normal humans at one point. And some of them even display more humanity now than real humans.",
+    "translation": "这些怪物中有很多曾经是完全正常的人类，他们中的某些甚至比真正的人类表现出更多的人性。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA4_010147EE#INFO:NAM1#a3d933a3ef744b3934ccbc73a1618d80",
+    "original": "With intelligence, comes the potential to care. I don't expect you to take my word on this. I wish only to ask you to judge for yourself.",
+    "translation": "有了智慧，就有了关怀的能力。我不指望你相信我的话，我只想请你自己判断一下。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeA4_010147EF#INFO:NAM1#83e4347d95a8b5fff1b00ff44c735c18",
+    "original": "[FAILED] Hmm... Wait, what's that over there?",
+    "translation": "[失败]嗯...等等，那是什么？",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeB1_01014ACD#DIAL:FULL#202d96ad7bfc0bdb7b4e755f477648e6",
+    "original": "I'm not sure either. It's just a hunch.",
+    "translation": "我也不确定，这只是一种直觉。",
+    "stage": 1
+  },
+  {
+    "key": "GorisSomethingStrangeB1_01014ACE#INFO:NAM1#6414e43af91b2e6464670ac07a3d880e",
+    "original": "Hmm... Wait, what's that over there?",
+    "translation": "嗯...等等，那边是什么？",
+    "stage": 1
+  },
+  {
+    "key": "GorisTheScholarQuests_0100C990#QUST:FULL#66845c57776ff5126937b1c4c21b5112",
+    "original": "Goris The Scholar",
+    "translation": "学者革力士",
+    "stage": 1
+  },
+  {
+    "key": "GorisMessageLeaveL38_0100C6B1#MESG:DESC#df113124d0ca068957acf59341cb361b",
+    "original": "Goris has gone to the Lucky 38.",
+    "translation": "革力士已经去了幸运38。",
+    "stage": 1
+  },
+  {
+    "key": "GorisMessagePerkRemoved_0100C6B2#MESG:DESC#945a1af24b0cb4f1b52cf05ea0a774fe",
+    "original": "You have lost Goris's Terrifying Presence perk.",
+    "translation": "你失去了革力士的可怖存在特技。",
+    "stage": 1
+  },
+  {
+    "key": "GorisMessagePerkAdd_0101030A#MESG:DESC#d12bd82e09728acc926914e3c49047e5",
+    "original": "Goris has given you the Terrifying Presence perk.",
+    "translation": "革力士给你带来了可怖存在的特技。",
+    "stage": 1
+  },
+  {
+    "key": "GorisMessageLeave_0100C6B0#MESG:DESC#77fc5565940368ed6a24b9cf07ec9359",
+    "original": "Goris has returned to Jacobstown.",
+    "translation": "革力士回到了雅各布斯镇。",
+    "stage": 1
+  },
+  {
+    "key": "GorisMessageDead_0101257B#MESG:DESC#b7267c5267ff049952ca66d198eef350",
+    "original": "Goris has died.",
+    "translation": "革力士死了。",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
+    "original": "Jacobstown Lodge",
+    "translation": "雅各布斯镇旅社",
+    "stage": 1
+  }
+]

@@ -1,0 +1,806 @@
+[
+  {
+    "key": "NullEDID_00000000#TES4:CNAM#0feb774313708509cd8cdea62dba1902",
+    "original": "DEFAULT",
+    "translation": "预设",
+    "stage": 1
+  },
+  {
+    "key": "arcTestChest_0605E3CA#CONT:FULL#32500b66f522382a6278fd47d8abcf33",
+    "original": "Weapons",
+    "translation": "武器",
+    "stage": 1
+  },
+  {
+    "key": "arcTestChestU_0605E3CC#CONT:FULL#640438a0654ce1e1cea942d2f882ba02",
+    "original": "Unique Weapons",
+    "translation": "独特武器",
+    "stage": 1
+  },
+  {
+    "key": "ArcRefrigeratorWithBotan_07012F64#CONT:FULL#839103521034f443d6c85be10d5c90b0",
+    "original": "Refrigerator",
+    "translation": "冰箱",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapHMSMG_07000ADE#WEAP:FULL#519fc27d69bde786c28017b0d0fbf9a0",
+    "original": "Homemade Submachine Gun",
+    "translation": "自制冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapR870SO_07001662#WEAP:FULL#ea3ec7f77300fad7fa0c489f50cb3308",
+    "original": "12ga Police Shotgun",
+    "translation": "12号警用霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapC1849_0700166A#WEAP:FULL#46dfbcf9663e7051eeefd649e76684b6",
+    "original": "Antique .357 Magnum",
+    "translation": "古董.357马格南",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMMM6U_0700166D#WEAP:FULL#3f233db435b5cc5e75511fc45375e71c",
+    "original": ".44 Auto-Revolver",
+    "translation": ".44自动转轮手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapRBull_07001673#WEAP:FULL#59a33bb8a7c01db6ea4adbe057da4a6c",
+    "original": "Gunrunner's .44 Magnum",
+    "translation": "军火贩子的.44马格南",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapRBnr_07001679#WEAP:FULL#8fc53f4b062e9db58849d75c441d441f",
+    "original": "O Touro",
+    "translation": "公牛",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMAN94_0700167A#WEAP:FULL#939b9f7bd702c4f35d69fd9fefb0f1ff",
+    "original": "Mercenary Assault Rifle",
+    "translation": "雇佣兵突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMAEK972_07001680#WEAP:FULL#26307663a4ca88bc854942f7c570c5f4",
+    "original": "Mercenary Security Rifle",
+    "translation": "雇佣兵安保步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMAK74_07001685#WEAP:FULL#4163da21bf4d448a5ce93ed9c11c79f5",
+    "original": "Officer's Mercenary Rifle",
+    "translation": "军官的佣兵步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMGyrojet_0700168C#WEAP:FULL#8cb9a6cc4d26b40e2c53d4dabd5dc3b8",
+    "original": "Rocket Pistol",
+    "translation": "火箭手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMGyrojetEXP_07001697#WEAP:FULL#a97d70ef12ef03fb9a857ef231c0f81c",
+    "original": "Pocket Rocket",
+    "translation": "袖珍火箭",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMPPSh41_0700169A#WEAP:FULL#8aecf09f39ee6aeda991d1cd9ef43336",
+    "original": "Mercenary Antique Submachine Gun",
+    "translation": "雇佣兵古董冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMPPSh1t_0700169C#WEAP:FULL#3638cd798e9828f72cb9d8c4780a35c0",
+    "original": "Pripyat Plinker",
+    "translation": "普里皮亚季的叮玲",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapM9A91_0700169D#WEAP:FULL#b6df3fa55422a4c610d661bbee815c35",
+    "original": "Mercenary Police Rifle",
+    "translation": "雇佣兵警用步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMTOZ34_070016A4#WEAP:FULL#216aef9b400a0349020168092fa42f41",
+    "original": "Mercenary Caravan Shotgun",
+    "translation": "雇佣兵商队霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMGSh18_070016A8#WEAP:FULL#8d55b17a6ff71bd055a9672a4500c10c",
+    "original": "Mercenary Security Pistol",
+    "translation": "雇佣兵安保手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMFNC_070016AD#WEAP:FULL#c8a329da24b1c827a9ae0c5c8f4be10b",
+    "original": "Security Assault Rifle",
+    "translation": "警卫突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMPB6P9_070016B4#WEAP:FULL#233d4bf0645ef2f8eb83af2a81362266",
+    "original": "Mercenary Assassin Pistol",
+    "translation": "雇佣兵突击手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMG36K_070016BA#WEAP:FULL#2ac0f37059b613f30967bcb96d965c7c",
+    "original": "Security Service Rifle",
+    "translation": "警卫军用步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMM1897_070016C0#WEAP:FULL#1d4b813f436e1b978c22724daec5fb77",
+    "original": "Antique Hunting Shotgun",
+    "translation": "古董狩猎霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMTBayonet_070016C3#WEAP:FULL#89ac187cf175b7872ea5dbb5feafec17",
+    "original": "Throwing Bayonet",
+    "translation": "投掷刺刀",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMBayonet_070016C4#WEAP:FULL#5265ceb3c291c1227f351ca62bae1217",
+    "original": "Bayonet",
+    "translation": "刺刀",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMM16A2_070016D6#WEAP:FULL#c30de707bf0ecce36a01a90a8ffffff7",
+    "original": "Marine Service Rifle",
+    "translation": "陆战队军用步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMTOZ66_070016DA#WEAP:FULL#a71c151cffeddfcce4e10d7eb5c95f01",
+    "original": "Antique Coach Gun",
+    "translation": "古董教练枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMSR556_070016E0#WEAP:FULL#bced44510d61734a4f9e9cc82ba0852e",
+    "original": "Gunrunner's Service Rifle",
+    "translation": "军火贩子的军用步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMDICKBUTT_070016E6#WEAP:FULL#02df6e62bd6170ae357fa14e3f3f9fb5",
+    "original": "The Phallic Firearm",
+    "translation": "生殖崇拜",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMBT87_070016E8#WEAP:FULL#3ff55a0023f3184c23c676a585be3a76",
+    "original": ".22 Target Pistol",
+    "translation": ".22标靶手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMBT87A_070016EF#WEAP:FULL#a928af3975a3739f78e7a067857bdb52",
+    "original": ".22 Auto Target Pistol",
+    "translation": "全自动.22标靶手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapM1906_070016F4#WEAP:FULL#c8c0c0ec124f91381bb01caceaabcf01",
+    "original": "Antique .22 Pistol",
+    "translation": "古董.22手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMGalil_070016FC#WEAP:FULL#b5194481e778ef88dad29d7b228281e1",
+    "original": "Marine Battle Rifle",
+    "translation": "陆战队战斗步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMKP31_07001704#WEAP:FULL#28213b6171096c9fd24234dc2b1927b9",
+    "original": "Antique 9mm Submachine Gun",
+    "translation": "古董9mm冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMSerbu_07001707#WEAP:FULL#0003ccf460f3e069b50cc3162b147b8b",
+    "original": "Compact Security Shotgun",
+    "translation": "紧凑型安保霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMBHP_0700170B#WEAP:FULL#89e37965780dbc6ecb9199a60553ddce",
+    "original": "Gunrunner's 9mm Pistol",
+    "translation": "军火贩子的9mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMCZ805_0700170C#WEAP:FULL#66b929a4d9ffe092ea8966ce6a49da1b",
+    "original": "Marine Combat Rifle",
+    "translation": "陆战队战斗步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMCZ805LB_0700170F#WEAP:FULL#13f79524f91a4d3867cb87ea46d11e84",
+    "original": "Cardinal",
+    "translation": "红衣主教",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapC1849Dual_07002A06#WEAP:FULL#68e30fea7b9dabeb99e0f8af8a796f9b",
+    "original": "Dual Antique .357 Magnums",
+    "translation": "双持古董.357马格南",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDEDual_07002A09#WEAP:FULL#b0f319db63d69deb1575da1f592b2d91",
+    "original": "Dual .44 Pistols",
+    "translation": "双持.44手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUspDual_07002A0A#WEAP:FULL#0f99034db6179d2414764aab19b36ef6",
+    "original": "Dual .45 Tactical Pistols",
+    "translation": "双持.45战术手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapGlockDual_07002A0B#WEAP:FULL#09d49898f951112439150540617a7aae",
+    "original": "Dual 9mm Police Pistols",
+    "translation": "双持9mm警察手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTokarevDual_07002A0C#WEAP:FULL#eae6a7f9c24b56f8bd22f8049755672f",
+    "original": "Dual Mercenary Pistols",
+    "translation": "双持雇佣兵手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap92FSDual_07002A0D#WEAP:FULL#96100f3f7e42e810c66c4a6247f3a43f",
+    "original": "Dual Service Pistols",
+    "translation": "双持军用手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMakarovDual_07002A0E#WEAP:FULL#62fab4779ac58e72bb01a1a472bd4111",
+    "original": "Dual Smuggler's Pistols",
+    "translation": "双持走私贩手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap1911Dual_07002A0F#WEAP:FULL#7ffa85ffb327159361a4a6cb83e52b7c",
+    "original": "Dual Sporting Pistols",
+    "translation": "双持运动手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMBT87Dual_07002A10#WEAP:FULL#4cf3be885abb7ec9802605057e0b2514",
+    "original": "Dual .22 Target Pistols",
+    "translation": "双持.22标靶手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMBHPDual_07002A11#WEAP:FULL#13c8555e0e4ab00f5bc2bba80cd30750",
+    "original": "Dual Gunrunner 9mm Pistols",
+    "translation": "双持军火贩子的9mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapM1906Dual_07002A12#WEAP:FULL#76cd894c6f68bbb5c8cb6a0cc5761923",
+    "original": "Dual Antique .22 Pistols",
+    "translation": "双持古董.22手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMGSh18Dual_07002A13#WEAP:FULL#d09b3c455f2fbce5bce002e469c58ca2",
+    "original": "Dual Mercenary Security Pistols",
+    "translation": "双持雇佣兵安保手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMPB6P9Dual_07002A14#WEAP:FULL#d6a3aabfd57f3e119d4b2b5ed85febf1",
+    "original": "Dual Mercenary Assassin Pistols",
+    "translation": "双持雇佣兵突击手枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMM1897U_07002A2D#WEAP:FULL#8ee51ccf4b3a138fdcdd6341c31e9b58",
+    "original": "Panic Attack",
+    "translation": "恐怖袭击",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMGalilU1_07005ED9#WEAP:FULL#c079136f1ddeb2ece927305b747c8a19",
+    "original": "Three Day Rifle",
+    "translation": "三日",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMG36KU1_070093E3#WEAP:FULL#e1bd45d5b12d6da468adf9e91d2c91bb",
+    "original": "The Classic",
+    "translation": "经典",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapM14Classic_070099E0#WEAP:FULL#d3400e22888098dd794922d356d99b7d",
+    "original": "Classic M14",
+    "translation": "经典 M14",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapM14ClassicU1_070099E1#WEAP:FULL#43bcabb1d422a06a277f439177d04ecb",
+    "original": "Shitting Thunder",
+    "translation": "排泄惊雷",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMPPSh41U1_0700ABCD#WEAP:FULL#2eca3ab20d5d61ff84967011285b242a",
+    "original": "Chilly Dipper",
+    "translation": "冰冷长勺",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapKiparis_0700B1C7#WEAP:FULL#8a3e4b8e14adace61599438317632f05",
+    "original": "Compact Mercenary SMG",
+    "translation": "紧凑型佣兵冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapKiparisU1_0700B1C9#WEAP:FULL#f4ad7de6696d1a151c172f8a74f97bb1",
+    "original": "Classified",
+    "translation": "机密",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapR870SOU1_0700B7C2#WEAP:FULL#01f005b80312a5c1d91be9c247ac6474",
+    "original": "Super Duper Mart Clearance Special",
+    "translation": "超超级商场清仓特惠",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUziU3_0700B7C3#WEAP:FULL#acad8b087e13dd1555fa8c7fad83edba",
+    "original": "Compatriot",
+    "translation": "同胞",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMSerbuU1_0700BDC0#WEAP:FULL#f09d8b7c0d17fb185f689da8e3512b60",
+    "original": "Mark's Meat Masher",
+    "translation": "马克的绞肉机",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMM1897U2_0700DB9F#WEAP:FULL#8d150d2dd1670cd7d9ea11fae6790857",
+    "original": "War Crime",
+    "translation": "战争罪行",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMAK74U1_0700E791#WEAP:FULL#278a62410e8eab3a451835f185dfceae",
+    "original": "Smart Sword",
+    "translation": "智能剑",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapCDE_0700F39D#WEAP:FULL#6026aeba643c62d3f74c04b688a8d435",
+    "original": "Lightning Hawk",
+    "translation": "雷鹰",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapSpas153A_0701058B#WEAP:FULL#27a8c0f263b6a4ba4ed7a740da4f662d",
+    "original": "Security Shotgun",
+    "translation": "安保霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMClassicCAWS_07011776#WEAP:FULL#30e90ff9720e9b6c656b0f7d143fc2cc",
+    "original": "Classic H&K CAWS",
+    "translation": "经典款 H&K CAWS",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMClassic1911_07011779#WEAP:FULL#9b3629704edf44c36ddc1fc6a52bdd8b",
+    "original": "Classic Colt M1911",
+    "translation": "经典款柯尔特M1911",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMClassicFAMAS_0701177C#WEAP:FULL#50a7ef5987f057e5887b08b5930934f3",
+    "original": "Classic FAMAS F1",
+    "translation": "经典款FAMAS F1",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMMM6UU1_07014D3F#WEAP:FULL#526cf1a1edc798272cebb810f46e0c2c",
+    "original": "The User",
+    "translation": "用户",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMTOZ66U1_07014D40#WEAP:FULL#e1cae61f4e1dcbe70aff53a32300600d",
+    "original": "The Bandit Strap",
+    "translation": "强盗皮带",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMTOZ34U1_07014D41#WEAP:FULL#8e0ea92514f1e79484303a551a330972",
+    "original": "Zoned Out",
+    "translation": "走神",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapSpas153AU1_07015935#WEAP:FULL#c4d8298b603fa84e29db70c92eed04f4",
+    "original": "Doorstop",
+    "translation": "门挡",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapSVU_07017118#WEAP:FULL#75d88c60998d3af8290195eda7f99810",
+    "original": "Bullpup Mercenary Rifle",
+    "translation": "无托雇佣兵步枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapSpectreM4_07017714#WEAP:FULL#9e9c40aa70c5a73a94505f9f52b44c93",
+    "original": "Covert .45 Submachine Gun",
+    "translation": "隐蔽型.45 冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMG36KLMG_0701C4C3#WEAP:FULL#a571ad39dca0a7d00b7a0953b2039dc5",
+    "original": "Security Support Weapon",
+    "translation": "警卫支援武器",
+    "stage": 1
+  },
+  {
+    "key": "LolWeapMG36KLMGU1_0701C4C4#WEAP:FULL#c74b409c9f2a557f2fd705bcca528bf0",
+    "original": "Großer Chef.",
+    "translation": "大头目",
+    "stage": 1
+  },
+  {
+    "key": "LolCangaceiroNote_0700EDA3#NOTE:FULL#ec961cd3206d521f14915a35cf5506cf",
+    "original": "Note in another language",
+    "translation": "其他语言的笔记",
+    "stage": 1
+  },
+  {
+    "key": "LolCangaceiroNote_0700EDA3#NOTE:TNAM#22dd637c0c605224a47f561eaaf8fd93",
+    "original": "Desafiado por algum Necrótico imbecil  para um duelo enquanto eu estava bêbado, quase me matou, mas por sorte o imbecil conseguiu apenas ferir meu braço e não teve bolas para terminar o trabalho, mas pra ser sincero, eu já to cheio disso e nem ligo pra es",
+    "translation": "一个亡灵在我喝醉的时候向我发起了决斗，他差点就成功杀了我，但幸运的是那个混蛋只打伤了我的胳膊，他没有胆量来了结我，但说实话，我已经受够了，根本不在乎这些了。（我并不会葡萄牙语，这段话是机翻加人工润色）",
+    "stage": 1
+  },
+  {
+    "key": "LolTF2SoldierNote_07003009#NOTE:FULL#72439c2ccf35e05b37e2911b20a2f8e4",
+    "original": "Scribbles",
+    "translation": "潦草的笔记",
+    "stage": 1
+  },
+  {
+    "key": "LolTF2SoldierNote_07003009#NOTE:TNAM#a8c26be0016d1d23e155c1443b93cdb7",
+    "original": "They said we couldn't do it! They said we shouldn't do it! They begged us not to do it! And we did it anyway!",
+    "translation": "他们说我们做不到! 他们说我们不应该这么做! 他们恳求我们不要这么做!但我们还是做了!",
+    "stage": 1
+  },
+  {
+    "key": "LolMGyrojetProjectileEXP_07001696#PROJ:FULL#f61e0f1845002e8d68f010129c60a005",
+    "original": "Gyrojet Rocket Pistol Projectile(unused for now)",
+    "translation": "火箭手枪射弹(未使用)",
+    "stage": 1
+  },
+  {
+    "key": "LolMBayonet_070016C5#PROJ:FULL#d60cb4550b2ee237ceae4a81dfb5d1e9",
+    "original": "Throwing Bayonet Projectile",
+    "translation": "刺刀投掷发射物",
+    "stage": 1
+  },
+  {
+    "key": "LolMGyrojetProjectile_07001694#PROJ:FULL#9e68e408b03c4dca311d03c2ba5016e5",
+    "original": "Gyrojet Pistol Projectile",
+    "translation": "火箭手枪射弹",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeDEDual_07002A25#RCPE:FULL#6b2f9198f78369a9f8d90e03444280a7",
+    "original": "Dual IMI Desert Eagle",
+    "translation": "双持 IMI 沙漠之鹰",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeDEUnDual_07002A26#RCPE:FULL#4147cb328dbacb547bb4cba6542ee5e9",
+    "original": "UnDual IMI Desert Eagle",
+    "translation": "单持 IMI 沙漠之鹰",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMakarovDual_07002A27#RCPE:FULL#469473434d86dbc3a8036c3d38d35ac4",
+    "original": "Dual Makarov",
+    "translation": "双持 马卡洛夫",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMakarovUnDual_07002A28#RCPE:FULL#0df7090a1acce7b65aa59a510f358afb",
+    "original": "UnDual Makarov",
+    "translation": "单持 马卡洛夫",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMPB6P9Dual_07002A29#RCPE:FULL#249c79babd39d7801486387fdd195696",
+    "original": "Dual PB-6P9",
+    "translation": "双持 PB-6P9",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMPB6P9UnDual_07002A2A#RCPE:FULL#18a46545491ccd4836dcfa3b859d18d7",
+    "original": "UnDual PB-6P9",
+    "translation": "单持 PB-6P9",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeTokarevDual_07002A2B#RCPE:FULL#60d8262ad044b1bf915da90f07cbb8ce",
+    "original": "Dual Tokarev",
+    "translation": "双持 托卡列夫",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeTokarevUnDual_07002A2C#RCPE:FULL#c33d1a8b1cef28ace5beece6aa2e35fb",
+    "original": "UnDual Tokarev",
+    "translation": "单持 托卡列夫",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipePistolGripM14_070099E2#RCPE:FULL#efbd537a0409883d45250d6314c97721",
+    "original": "M14 Pistol Grip Conversion",
+    "translation": "M14手枪握把改造",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeClassicM14_070099E3#RCPE:FULL#afa860c60b327c8b23ce06a8d426ff3e",
+    "original": "Classic M14 Conversion",
+    "translation": "M14改造为经典款",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeClassicCAWS_070194FC#RCPE:FULL#26fb5f641dc1280b6c23741b6b90650e",
+    "original": "CAWS Classic Conversion",
+    "translation": "CAWS改造为经典款",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeClassic1911_070194FD#RCPE:FULL#f286226ec6d7dd6a5af7c263dd6e8c21",
+    "original": "1911 Classic Conversion",
+    "translation": "1911改造为经典款",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeClassicFamas_070194FE#RCPE:FULL#446781c41cea0e83a1ffaf7047cdfc0a",
+    "original": "Famas Classic Conversion",
+    "translation": "法玛斯改造为经典款",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeWoodFamas_070194FF#RCPE:FULL#4c70604220f3761000df4ffd24a95085",
+    "original": "Famas Wood Conversion",
+    "translation": "法玛斯木质枪身改造",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipe357Mag1911_07019500#RCPE:FULL#8ad3a94a2f14b27c8d1d20687a4f43c8",
+    "original": "1911 .357 Magnum Conversion",
+    "translation": "1911转换弹种为.357马格南",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeIronSightsCAWS_07019501#RCPE:FULL#4148150c46febd6d46c85b09c368b563",
+    "original": "CAWS Iron Sights Conversion",
+    "translation": "CAWS机械瞄具改装",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeHMSMG_07000AE9#RCPE:FULL#213c2836d86dae485516637d9d3f949c",
+    "original": "Homemade SMG",
+    "translation": "自制冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMBT87A_070016F1#RCPE:FULL#7c737cf59ecfce9e40778e791deeffa6",
+    "original": "Beretta Target 87",
+    "translation": "贝雷塔87型",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeAutomaticMBT87_070016F2#RCPE:FULL#8c196a3e87bcdc856c87dbd4322b4f15",
+    "original": "Beretta Auto-Target 87",
+    "translation": "全自动贝雷塔87型",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeC1849UnDual_07002A07#RCPE:FULL#48d71d0024148ba0494eab255804c0d9",
+    "original": "UnDual Colt Pocket 1849",
+    "translation": "单持柯尔特口袋手枪 1849",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeC1849Dual_07002A08#RCPE:FULL#c8f5ef8391cb94eb34b972c08790f276",
+    "original": "Dual Colt Pocket 1849",
+    "translation": "双持柯尔特口袋手枪 1849",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipe92FSUnDual_07002A15#RCPE:FULL#07434459db1b02b6ae0d82a2e9db5b49",
+    "original": "UnDual Beretta 92fs",
+    "translation": "单持 贝雷塔 92fs",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipe92FSDual_07002A16#RCPE:FULL#e01d1aac432eb0605c3ff8b1b3df4c1b",
+    "original": "Dual Beretta 92fs",
+    "translation": "双持 贝雷塔 92fs",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMBT87Dual_07002A17#RCPE:FULL#0fda5e86bef8359ba36c3835cde67213",
+    "original": "Dual Beretta Target 87",
+    "translation": "双持 贝雷塔87型",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMBT87UnDual_07002A18#RCPE:FULL#6a6e52ac8b49fcd3f77292880513c36f",
+    "original": "UnDual Beretta Target 87",
+    "translation": "单持 贝雷塔87型",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMBHPDual_07002A19#RCPE:FULL#c80d6116e0caa4864bae92d149d2703a",
+    "original": "Dual Browning P35",
+    "translation": "双持 勃朗宁 P35",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMBHPUnDual_07002A1A#RCPE:FULL#c06b45d89487b5e3484b65eb8818aae7",
+    "original": "UnDual Browning P35",
+    "translation": "单持 勃朗宁 P35",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipe1911Dual_07002A1B#RCPE:FULL#a6ac80d4e8351bb25c22f416650c78a3",
+    "original": "Dual Coonan 1911",
+    "translation": "双持库南1911",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipe1911UnDual_07002A1C#RCPE:FULL#83f08d401106151afbc5c57da277962c",
+    "original": "UnDual Coonan 1911",
+    "translation": "单持库南1911",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeM1906UnDual_07002A1D#RCPE:FULL#604e6abd13a36a5f472de78fa64ccb01",
+    "original": "UnDual FN M1905",
+    "translation": "单持 FN M1905",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeM1906Dual_07002A1E#RCPE:FULL#1ded20186b1e7ab81a38e4c9e3f66ef6",
+    "original": "Dual FN M1905",
+    "translation": "双持 FN M1905",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeGlockDual_07002A1F#RCPE:FULL#05462ee22a7ce89d08e9973b162f5230",
+    "original": "Dual Glock 19",
+    "translation": "双持 格洛克 19",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeGlockUnDual_07002A20#RCPE:FULL#f5d2e318999f79b6a5195fe2a8bfafe0",
+    "original": "UnDual Glock 19",
+    "translation": "单持 格洛克 19",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMGSh18Dual_07002A21#RCPE:FULL#7a43b1b11707e7bac47e08d7ffcfbf21",
+    "original": "Dual GSh-18",
+    "translation": "双持 GSh-18",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeMGSh18UnDual_07002A22#RCPE:FULL#ff57a01dd5ce080f866439cdfe26eea2",
+    "original": "UnDual GSh-18",
+    "translation": "单持 GSh-18",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeUspDual_07002A23#RCPE:FULL#7da0829c850027ed687f6ea3ad561aae",
+    "original": "Dual H&K USP",
+    "translation": "双持 H&K Usp",
+    "stage": 1
+  },
+  {
+    "key": "LolRecipeUspUnDual_07002A24#RCPE:FULL#f58ad9d93fbc9126cdf703924337a6a6",
+    "original": "UnDual H&K USP",
+    "translation": "单持 H&K Usp",
+    "stage": 1
+  },
+  {
+    "key": "HooverDamIntPowerPlant01b_00175D68#CELL:FULL#2525d411d2b76b87b788c6171dce91d4",
+    "original": "Hoover Dam Offices",
+    "translation": "胡佛大坝办公室",
+    "stage": 1
+  },
+  {
+    "key": "FreesideMickandRalphs_0010E02A#CELL:FULL#b44f42b470633fd9b2c60f24da437524",
+    "original": "Mick & Ralph's",
+    "translation": "米克与拉尔夫的武器店",
+    "stage": 1
+  },
+  {
+    "key": "Gomorrah01_0010CC8F#CELL:FULL#93d637b613d378aad6ce4b69eeb890ee",
+    "original": "Gomorrah Main Level",
+    "translation": "罪恶城主层",
+    "stage": 1
+  },
+  {
+    "key": "WestsideLiquorStoreInterior_000F0977#CELL:FULL#9703cb6c1dedd2712258bc663d802072",
+    "original": "Klamath Bob's Liquor Store",
+    "translation": "克拉马斯·鲍勃的酒馆",
+    "stage": 1
+  },
+  {
+    "key": "2ETopsBennysFloor_0010E429#CELL:FULL#fd416ef5a31890f733dbcd0bd15daa7b",
+    "original": "The Tops 13th Floor",
+    "translation": "上好佳13楼",
+    "stage": 1
+  },
+  {
+    "key": "EDSubstation_000E8202#CELL:FULL#e694cfdacf43ce269a16c74bfb71e989",
+    "original": "Power Substation",
+    "translation": "变电所",
+    "stage": 1
+  },
+  {
+    "key": "SLCavernFireRootINT_00154829#CELL:FULL#22326b71b049ac368e5ed933b0f68339",
+    "original": "Fire Root Cavern",
+    "translation": "火源洞穴",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "TheFortWorld_0013C0B6#WRLD:FULL#bec09e1fba22dda8bf079daec18d2353",
+    "original": "Caesar's Tent",
+    "translation": "凯撒的帐篷",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04Road02World_04002F73#WRLD:FULL#aa8020c31a75c9f910e03de71ce3a031",
+    "original": "The High Road",
+    "translation": "高速公路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04NukeSilo2_0400AA02#WRLD:FULL#83371c4712456c20aabe9a25856cbf09",
+    "original": "Courier's Mile",
+    "translation": "信使之旅",
+    "stage": 1
+  }
+]

@@ -1,0 +1,1364 @@
+[
+  {
+    "key": "ZLRailgunUnique2TeslaBombMagicEffect_06000827#MGEF:FULL#4c0d9dde1d3f4d4ec9b672cfd979eabd",
+    "original": "Electrocution Bomb",
+    "translation": "电击炸弹",
+    "stage": 1
+  },
+  {
+    "key": "ZLRailgunUnique2TeslaElecDamage_0600082A#MGEF:FULL#eb564fd5511090f036adde19df77aa98",
+    "original": "Tesla Electric Damage",
+    "translation": "特斯拉电击伤害",
+    "stage": 1
+  },
+  {
+    "key": "ZLEffectReduceSpeed_06001C2D#MGEF:FULL#89abd542a436ff5169f42a4f4426ef5f",
+    "original": "Reduce Speed",
+    "translation": "降低速度乘数",
+    "stage": 1
+  },
+  {
+    "key": "ZLDummyThermalCrit_06003A6F#MGEF:FULL#8dc58392432220e1ab5e3ace2334f90a",
+    "original": "Critical Strike Incendiary",
+    "translation": "暴击造成引燃",
+    "stage": 1
+  },
+  {
+    "key": "ZLEnchFlamerEffectRailgunUnique1_06000828#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "ZLEnchTeslaEffectRailgunUnique2_06000829#ENCH:FULL#cb9d13e1c0a67f5e7ef42b2811eb29ea",
+    "original": "Electrocution",
+    "translation": "电击",
+    "stage": 1
+  },
+  {
+    "key": "ZLZweihanderThermalCritEffect_06001CEA#SPEL:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "ZLZweihanderCryoCritEffect_06001CEC#SPEL:FULL#2916eb1f646a69d523cb1077127b8dd7",
+    "original": "Cryo Freeze",
+    "translation": "冷冻凝固",
+    "stage": 1
+  },
+  {
+    "key": "ZLZweihanderElectricCritEffect_06001CEE#SPEL:FULL#cb9d13e1c0a67f5e7ef42b2811eb29ea",
+    "original": "Electrocution",
+    "translation": "电击",
+    "stage": 1
+  },
+  {
+    "key": "ZLZweihanderUnique1CritEffect_06001CF0#SPEL:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "ZLKatanaThermalCritEffect_06003A67#SPEL:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "ZLKatanaElectricCritEffect_06003A68#SPEL:FULL#cb9d13e1c0a67f5e7ef42b2811eb29ea",
+    "original": "Electrocution",
+    "translation": "电击",
+    "stage": 1
+  },
+  {
+    "key": "ZLKatanaPoisonCritEffect_06003A69#SPEL:FULL#1db418ed1b4a7c8e1606b2525d481897",
+    "original": "Poison",
+    "translation": "中毒",
+    "stage": 1
+  },
+  {
+    "key": "ZLKatanaCryoCritEffect_06003A6A#SPEL:FULL#2916eb1f646a69d523cb1077127b8dd7",
+    "original": "Cryo Freeze",
+    "translation": "冷冻凝固",
+    "stage": 1
+  },
+  {
+    "key": "ZLCryoRevolverCritEffect_0600C478#SPEL:FULL#2916eb1f646a69d523cb1077127b8dd7",
+    "original": "Cryo Freeze",
+    "translation": "冷冻凝固",
+    "stage": 1
+  },
+  {
+    "key": "ZLCryoRevolverUnique1CritEffect_0600C479#SPEL:FULL#2916eb1f646a69d523cb1077127b8dd7",
+    "original": "Cryo Freeze",
+    "translation": "冷冻凝固",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:FULL#b5ff90523380be51b774279bc7164e08",
+    "original": "Zoey Lee's Terminal",
+    "translation": "佐伊·李的终端",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:DESC#41967316b5b545c52099e717c8e84489",
+    "original": "Welcome Zoey Lee",
+    "translation": "欢迎，佐伊·李",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:ITXT#ee978d539b5d68e3cebe9ef57ff694a0",
+    "original": "Back in the Mojave",
+    "translation": "回到莫哈维",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:ITXT#81c1fabbe9c8b0c28143ff1fbdbdd062",
+    "original": "ZL Armaments is open!",
+    "translation": "ZL军备开张了！",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:ITXT#2c3744bb89df5e84a81d405ffb9ec7c5",
+    "original": "Supply Issues",
+    "translation": "供应问题",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:ITXT#f0f49c74eed231e57145d8b12e41f6b9",
+    "original": "The Solution",
+    "translation": "解决方案",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorTerminal_06006000#TERM:ITXT#7f8324e763119af56f4458819803480c",
+    "original": "Coming Up Short",
+    "translation": "出现短缺",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunsmithTerminal_06006001#TERM:FULL#75d13cc2f648d0d208a41d876593b2d6",
+    "original": "Zach Lee's Terminal",
+    "translation": "扎克·李的终端",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunsmithTerminal_06006001#TERM:DESC#c07539c3fa49273353b7332c315e75da",
+    "original": "Welcome Zach Lee",
+    "translation": "欢迎，扎克·李",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunsmithTerminal_06006001#TERM:ITXT#abb8617f4d6529431e22e21dfa0007d5",
+    "original": "Farewell, 188",
+    "translation": "再见了，188",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunsmithTerminal_06006001#TERM:ITXT#a2be7488610bebfe49d751bfd4b2ad87",
+    "original": "New Place, New Toys",
+    "translation": "新地方，新玩具",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunsmithTerminal_06006001#TERM:ITXT#6e610e65c113481948e779425f52606e",
+    "original": "Goddamnit, Zoey!",
+    "translation": "该死的，佐伊！",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunShopTerminal_06006002#TERM:FULL#08eb0ad1f4e25457bb3e1112fc5265b9",
+    "original": "ZL Armaments Terminal",
+    "translation": "ZL军备终端",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunShopTerminal_06006002#TERM:DESC#76bcf5fef4658c524f8d475930f65270",
+    "original": "ZL Armaments Database",
+    "translation": "ZL军备数据库",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunShopTerminal_06006002#TERM:ITXT#9c240f40fd69ee7f30298fc83d15aeb9",
+    "original": "Railgun",
+    "translation": "轨道炮",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunShopTerminal_06006002#TERM:ITXT#19e7efad81b34c9a767502a952b059b8",
+    "original": "Rail Cannon",
+    "translation": "轨道加农炮",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunShopTerminal_06006002#TERM:ITXT#dc89dd0f78949f78e2c58c07f2a9b2e2",
+    "original": "FiveseveN",
+    "translation": "FiveseveN手枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorContainer_06000EB4#CONT:FULL#02275444964c49499ff5c06f7bc0de89",
+    "original": "Zoey Lee's Supplies",
+    "translation": "佐伊·李的补给",
+    "stage": 1
+  },
+  {
+    "key": "ZLToolCabinet_06001B1A#CONT:FULL#6759a9592b5bb93a285b006d35a95e9a",
+    "original": "Tool Cabinet",
+    "translation": "工具柜",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunCabinet_06001B1B#CONT:FULL#8d32b4826810745b18b7aa814cccfee6",
+    "original": "Gun Cabinet",
+    "translation": "枪柜",
+    "stage": 1
+  },
+  {
+    "key": "ZLBigGunsCabinet_06001B1C#CONT:FULL#8d32b4826810745b18b7aa814cccfee6",
+    "original": "Gun Cabinet",
+    "translation": "枪柜",
+    "stage": 1
+  },
+  {
+    "key": "ZLNoBarkLocker_06012A15#CONT:FULL#0c7aacfa1a03e836208fc4907d03f1c6",
+    "original": "No-bark's Mysterious Locker",
+    "translation": "疯嘴的神秘储物柜",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapTeslaSniperRifleChainEffect01_06001CE3#WEAP:FULL#bc61a1f1689b928ee1efbef88589689f",
+    "original": "Tesla Sniper Rifle Chain Lightning 1",
+    "translation": "特斯拉狙击步枪连锁闪电1",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapTeslaSniperRifleUnique1ChainEffect01_06001CE4#WEAP:FULL#ca32eb49b00c9a2bb95a7ef15948f538",
+    "original": "Arc Charger Chain Lightning 1",
+    "translation": "电弧枪连锁闪电1",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapTeslaSniperRifleUnique1ChainEffect02_06001CE5#WEAP:FULL#843ddb28113c173b79c3081ed6ac5002",
+    "original": "Arc Charger Chain Lightning 2",
+    "translation": "电弧枪连锁闪电2",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapNeostead2000Unique2_06002310#WEAP:FULL#abbd3578f62f0d7a6ae0f352f5eda161",
+    "original": "Or Else",
+    "translation": "[否则]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapM82A1_06002815#WEAP:FULL#b18afdd7747172816668426452d66326",
+    "original": ".50MG Precision Rifle",
+    "translation": ".50MG精密步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapTeslaSniperRifle_06002E38#WEAP:FULL#2deacce6d65c4bef3eb19a2d8793ad00",
+    "original": "Tesla Sniper Rifle",
+    "translation": "特斯拉狙击步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapTeslaSniperRifleUnique1_06002E4E#WEAP:FULL#d0a4e7f5c8ec4ed767ffcf3f81bb3bf2",
+    "original": "Arc Charger",
+    "translation": "[电弧枪]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaSteel_06003A61#WEAP:FULL#80a43c7ae1083a7b13efbf234bc9f4c4",
+    "original": "Steel Katana",
+    "translation": "钢制武士刀",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaSteel_06003A61#WEAP:VANM#9d77382cadb05b22a788ee6456221fb3",
+    "original": "Unlabored Flawlessness",
+    "translation": "天衣无缝",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaLaser_06003A62#WEAP:FULL#cdd25bbae839376e80030bfd839f5424",
+    "original": "Laser Katana",
+    "translation": "激光武士刀",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaThermal_06003A63#WEAP:FULL#732a1fa92bb9eb61063207b3f43f1bf7",
+    "original": "Thermal Katana",
+    "translation": "热能武士刀",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaElectric_06003A64#WEAP:FULL#143668de1451bd42d4de0804d0bc9cde",
+    "original": "Electric Katana",
+    "translation": "电光武士刀",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaUnique2_06003A65#WEAP:FULL#bc781a5503fd931682cc75468c8abb5f",
+    "original": "Stinger",
+    "translation": "蛰刺",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaCryo_06003A66#WEAP:FULL#d406375ccefb7c9df1fdbfe941497753",
+    "original": "Cryo Katana",
+    "translation": "低温武士刀",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaPlasma_06003A7B#WEAP:FULL#740659d1053f4f5f679f2c8c1d5b6b8b",
+    "original": "Plasma Katana",
+    "translation": "等离子武士刀",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapKatanaUnique1_06003A7C#WEAP:FULL#d6f431897ebe4df344a316ddfdcac098",
+    "original": "Razer's Edge",
+    "translation": "[剃刀之刃]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapCoilBlunderbuss_0600587B#WEAP:FULL#193d1419e3aed2c7c19e0b91a2ad3bcc",
+    "original": "Coil Blunderbuss",
+    "translation": "电感铳",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapCoilBlunderbussUnique1_06005E79#WEAP:FULL#e5fb63ce3fe5f409ec75aa01c186e676",
+    "original": "Slugga",
+    "translation": "[打个响]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapCryoRevolverUnique1_06008272#WEAP:FULL#99d1825ad0d5b98eaf5d01e87727052a",
+    "original": "Mr. Freezy",
+    "translation": "[极寒先生]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapM82A1Unique1_060083DE#WEAP:FULL#214aa9d54d4a8bafe7cd42b9d291464c",
+    "original": "Mojave Thunder",
+    "translation": "[莫哈维雷鸣]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapFiveseveNUnique1_060089D8#WEAP:FULL#b4f4b75405311f897f433b95650211ba",
+    "original": "Errant Faction",
+    "translation": "[漫游者集团]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapP90Unique1_060089D9#WEAP:FULL#c020454e07e77bcf59a5d0c37e4a44cb",
+    "original": "Angry Waifu",
+    "translation": "[愤怒的老婆]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapMP5Unique1_060095CC#WEAP:FULL#c3a573bc9d1ca4406922fe9596dbc3d4",
+    "original": "Wet Work",
+    "translation": "[湿活儿]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapMP5Unique2_060095CD#WEAP:FULL#e821a9e77401a354f6f1c9b236d24086",
+    "original": "M-Pimp-5",
+    "translation": "[M批5]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapMP5Unique3_060095CE#WEAP:FULL#71f094444e1f0fa5439aaad700fff4f4",
+    "original": "Red Queen's Race",
+    "translation": "[红皇后赛跑]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapVSS_0600B9B6#WEAP:FULL#8b413bd4e521d4ad7a20fc8ffac8be99",
+    "original": "Chinese Special Rifle",
+    "translation": "中式特种步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapVSSUnique1_0600B9DE#WEAP:FULL#709257aec0b85138a619988d94dab770",
+    "original": "Very Special Smooper",
+    "translation": "[超级大烟鬼]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapASVal_0600B9DF#WEAP:FULL#1e3b35f6c3146ccbcd5dcfd045cb9626",
+    "original": "Chinese Spec Ops Assault Rifle",
+    "translation": "中式特种作战突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapVSSUnique2_0600B9E2#WEAP:FULL#ca6e82199600b212bc11b570b24304b5",
+    "original": "Evilest of Nines",
+    "translation": "[最邪恶的九]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapASValUnique1_0600B9E6#WEAP:FULL#bcc034434aa28c5c08944951269b344c",
+    "original": "Conflict Resolver",
+    "translation": "[冲突解决程序]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderSteel_0601180F#WEAP:FULL#56025fe5f4519c4d27a4e4b4bc60ff99",
+    "original": "Zweihander",
+    "translation": "德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderLaser_06011810#WEAP:FULL#f0af22f45d806ea0bc4bb1ade94e35ed",
+    "original": "Laser Zweihander",
+    "translation": "激光德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderRust_06011811#WEAP:FULL#057a0e896d0bd41927977a0945e80524",
+    "original": "Tarnished Zweihander",
+    "translation": "暗淡的德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderPlasma_06011812#WEAP:FULL#0e824a8402b15b419531df40017ef606",
+    "original": "Plasma Zweihander",
+    "translation": "等离子德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderThermal_06011813#WEAP:FULL#f51e7d1d2ddc96f7823e6a8e39285b81",
+    "original": "Thermal Zweihander",
+    "translation": "热能德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderCryo_06011815#WEAP:FULL#a013216dad735c8c331adc84d76839ea",
+    "original": "Cryo Zweihander",
+    "translation": "低温德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderElectric_06011E1B#WEAP:FULL#1cb3beadeb18a80e36bb1b34edd8f4c4",
+    "original": "Electric Zweihander",
+    "translation": "电能德式双手剑",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderUnique1_06012417#WEAP:FULL#7565f7908bf389f346260f073d46ca65",
+    "original": "Chaos Zweihander +5",
+    "translation": "[混沌德式双手剑+5]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapZweihanderUnique2_06012418#WEAP:FULL#d2e3ad052e8727ab0ee22ba2f6abd70a",
+    "original": "Antimatter Zweihander",
+    "translation": "[反物质德式双手剑]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapPP19Bizon_06013C14#WEAP:FULL#db4487e57ada1c1947654651f35ecf5c",
+    "original": "Chinese Riot SMG",
+    "translation": "中式防暴冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapPP19BizonUnique1_06013C16#WEAP:FULL#b38c2b7ed7e4c04cae142e8fa9395c00",
+    "original": "Bizon Steve",
+    "translation": "[野牛史蒂夫]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapRailgun_06000806#WEAP:FULL#9c240f40fd69ee7f30298fc83d15aeb9",
+    "original": "Railgun",
+    "translation": "轨道炮",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapRailgunUnique1_06000807#WEAP:FULL#7ffee117e97e944bb9ea5ebee7685ce6",
+    "original": "Hot Rod",
+    "translation": "[热破]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapRailgunUnique2_06000808#WEAP:FULL#57fea8dfaf7e52c1dcf03ee6a97af80d",
+    "original": "High Voltage",
+    "translation": "[高压]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapRailgunUnique3_06000809#WEAP:FULL#110776b322c8dfdad59bd653629c7698",
+    "original": "Black Turtle",
+    "translation": "[黑乌龟]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapRailCannon_06000843#WEAP:FULL#19e7efad81b34c9a767502a952b059b8",
+    "original": "Rail Cannon",
+    "translation": "轨道加农炮",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapP90_0600084E#WEAP:FULL#87fa42ee1f86184ecc1a27450748b4b9",
+    "original": "5mm Submachine Gun",
+    "translation": "5毫米冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapSVD_06000859#WEAP:FULL#23a420a47f96700ccf6bbb85f355e29f",
+    "original": "Chinese Sniper Rifle",
+    "translation": "中式狙击步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapSVDUnique1_0600085A#WEAP:FULL#ed3dde7e533ab4b29c064d5e4fe400f8",
+    "original": "Ol' Reliable",
+    "translation": "[老可靠]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapSVDUnique2_0600085B#WEAP:FULL#a6f5b360f8fef1e96ba49e7525ffe3f0",
+    "original": "The People's Dragunov",
+    "translation": "[人民的德拉古诺夫]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapFiveseveN_0600086D#WEAP:FULL#a3d48fe109d049b8daa570a6c7d3c15d",
+    "original": "5mm Pistol",
+    "translation": "5毫米手枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapMP5_0600087F#WEAP:FULL#099b608f383893d39ead45453614ab91",
+    "original": "9mm Navy SMG",
+    "translation": "9毫米海军冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapMP510_06000880#WEAP:FULL#3fa987bcc67df2255b899fff49b07c4d",
+    "original": "10mm Navy SMG",
+    "translation": "10毫米海军冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapMP5SD6_06000881#WEAP:FULL#421fa7b83a95b55b83d57dc234ba26c7",
+    "original": "9mm Spec Ops SMG",
+    "translation": "9毫米特种行动冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR105_06001B6F#WEAP:FULL#00f5c878bb8eab5a933830ae064236b3",
+    "original": "ACR 10.5\" Carbine",
+    "translation": "ACR 10.5\"卡宾枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR145_06001B72#WEAP:FULL#4c6f54867a012b54dee706f0f95e1cc2",
+    "original": "ACR 14.5\" Assault Rifle",
+    "translation": "ACR 14.5\"突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR18_06001B73#WEAP:FULL#b6840e04bf18ef08a3117506ba7cb1fc",
+    "original": "ACR 18\" Marksman Rifle",
+    "translation": "ACR 18\" 精确射手步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR16_06001B8D#WEAP:FULL#f0f8081519046add7e98bff1ced44d11",
+    "original": "ACR 16\" Battle Rifle",
+    "translation": "ACR 16\" 战斗步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR18Scope_06001B98#WEAP:FULL#a89431dcccc7d80a0a8b82de41e3c60e",
+    "original": "ACR 18\" Marksman Rifle, Scope",
+    "translation": "ACR 18\" 精确射手步枪,瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR16Scope_06001B9D#WEAP:FULL#eea78aeace9663d33349383ea03d6ccd",
+    "original": "ACR 16\" Battle Rifle, Scope",
+    "translation": "ACR 16\" 战斗步枪,瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR145Scope_06001B9E#WEAP:FULL#b872e5b07b2db91e09a87a90b3c29e94",
+    "original": "ACR 14.5\" Assault Rifle, Scope",
+    "translation": "ACR 14.5\"突击步枪,瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR105Scope_06001B9F#WEAP:FULL#dcface7d50a5efd6960a3d4c76817130",
+    "original": "ACR 10.5\" Carbine, Scope",
+    "translation": "ACR 10.5\"卡宾枪,瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR145ACOG_06001BAF#WEAP:FULL#2de03b8bc6870f1edbc1de6462aacf69",
+    "original": "ACR 14.5\" Assault Rifle, ACOG",
+    "translation": "ACR 14.5\"突击步枪,光学瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR105ACOG_06001BB0#WEAP:FULL#92144bd2d25d7c8504959d6268c5171d",
+    "original": "ACR 10.5\" Carbine, ACOG",
+    "translation": "ACR 10.5\"卡宾枪,光学瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR16ACOG_06001BB4#WEAP:FULL#022585c8c740f1f47b8cb4c1c6cd3f34",
+    "original": "ACR 16\" Battle Rifle, ACOG",
+    "translation": "ACR 16\" 战斗步枪,光学瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR18ACOG_06001BB6#WEAP:FULL#3d12a2199183b7f691ae8eb450886ced",
+    "original": "ACR 18\" Marksman Rifle, ACOG",
+    "translation": "ACR 18\" 精确射手步枪,光学瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACRStripped_06001BC0#WEAP:FULL#722744902d8ceb8271c650ccba6152c7",
+    "original": "ACR Stripped",
+    "translation": "ACR 下机匣",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapNeostead2000_06001BD3#WEAP:FULL#517a70f8e2dce1b1af746801a11f2b2a",
+    "original": "Bulpup Pump Shotgun",
+    "translation": "无托式泵动霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapNeostead2000Unique1_06001BD7#WEAP:FULL#34a112f9635a06a2ded274d3eac94cda",
+    "original": "Homestead",
+    "translation": "[家宅]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapCryoRevolver_06001C14#WEAP:FULL#b3a96e8da2bfcf16b100d5b35afba8fe",
+    "original": "Cryo Revolver",
+    "translation": "冷冻左轮",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapJericho941_06001C1C#WEAP:FULL#e4cef2b775fc0259f1cd77bc4ef84282",
+    "original": ".45 Heavy Pistol",
+    "translation": ".45重型手枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapJericho941Unique1_06001C1D#WEAP:FULL#2d87708b8927f14903bd72e811538cfe",
+    "original": "Sunk Cost",
+    "translation": "[沉没成本]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapJericho941Unique2_06001C1F#WEAP:FULL#ae5ff7c63b642c2b9859c3d63723f180",
+    "original": "High Roller",
+    "translation": "豪赌",
+    "stage": 1
+  },
+  {
+    "key": "ZLHotRod_0600083D#NPC_:FULL#7ffee117e97e944bb9ea5ebee7685ce6",
+    "original": "Hot Rod",
+    "translation": "热破",
+    "stage": 1
+  },
+  {
+    "key": "ZLDeadChineseOperative_0600083E#NPC_:FULL#8461902a0cdf2f3e7fee28ec505e6435",
+    "original": "Dead Chinese Operative",
+    "translation": "死去的中国特工",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendor_06000EAE#NPC_:FULL#c6d0bd3d73838675ee53617e9a6b76ad",
+    "original": "Zoey Lee",
+    "translation": "佐伊·李",
+    "stage": 1
+  },
+  {
+    "key": "ZLGunsmith_06001AD3#NPC_:FULL#81f7138341021601dde100596373f3b5",
+    "original": "Zach Lee",
+    "translation": "扎克·李",
+    "stage": 1
+  },
+  {
+    "key": "ZLGuardAAMTemplate_06001AD4#NPC_:FULL#7be99fc28d135837e19dc85ebead7a45",
+    "original": "ZL Armaments Guard",
+    "translation": "ZL军备守卫",
+    "stage": 1
+  },
+  {
+    "key": "ZLGuardCF_06001AD9#NPC_:FULL#7be99fc28d135837e19dc85ebead7a45",
+    "original": "ZL Armaments Guard",
+    "translation": "ZL军备守卫",
+    "stage": 1
+  },
+  {
+    "key": "ZLGuardAAM_06001CF3#NPC_:FULL#7be99fc28d135837e19dc85ebead7a45",
+    "original": "ZL Armaments Guard",
+    "translation": "ZL军备守卫",
+    "stage": 1
+  },
+  {
+    "key": "ZLGuardCM_06003A0D#NPC_:FULL#7be99fc28d135837e19dc85ebead7a45",
+    "original": "ZL Armaments Guard",
+    "translation": "ZL军备守卫",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeKit_06001B78#ALCH:FULL#402109bdf6bd8de387f7ab40dc72f621",
+    "original": "ACR Mod Kit - Sniper Scope",
+    "translation": "ACR 模组套件 - 狙击镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightKit_06001B79#ALCH:FULL#d86dc54e4367a4a2666a13cba7ccabb3",
+    "original": "ACR - Remove Optic",
+    "translation": "ACR - 移除瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLACR16BarrelKit_06001B84#ALCH:FULL#ccccc0d48bd7c3ae1243d3d194271998",
+    "original": "ACR Mod Kit - 16\" Barrel (12.7mm)",
+    "translation": "ACR 模组套件 - 16英寸枪管(12.7mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripKit_06001BC1#ALCH:FULL#6c86245b3745db786f84fc1be4aa920a",
+    "original": "ACR - Remove All Attachments",
+    "translation": "ACR - 移除所有附件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACR105BarrelKit_06001B74#ALCH:FULL#42a6e8f89e7d404c1f30920ca2b94132",
+    "original": "ACR Mod Kit - 10.5\" Barrel (5mm)",
+    "translation": "ACR 模组套件 - 10.5英寸枪管(5mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLACR145BarrelKit_06001B75#ALCH:FULL#52fae3e0eb6d8bcb1b179f481f5f4ec6",
+    "original": "ACR Mod Kit - 14.5\" Barrel (5.56)",
+    "translation": "ACR 模组套件 - 14.5英寸枪管(5.56)",
+    "stage": 1
+  },
+  {
+    "key": "ZLACR18BarrelKit_06001B76#ALCH:FULL#d8acc938d2cdedd0f91b5aa151451619",
+    "original": "ACR Mod Kit - 18\" Barrel (.308)",
+    "translation": "ACR 模组套件 - 18英寸枪管(.308)",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGKit_06001B77#ALCH:FULL#3fa157957ebcef5bb2b4c5f1e7aea4dd",
+    "original": "ACR Mod Kit - Hybrid ACOG Scope",
+    "translation": "ACR 模组套件 - 混合先进光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoComingUpShort_0600600B#NOTE:TNAM#99e878d1cd92c2dcf87c8494f7cafd28",
+    "original": "For a good while, the deal I bargained with the feinds has been lucrative and relatively stable. Lately however, the supplies left at the drop spot have been rather lacking. I don't know why they dropped off, and I'd be an idiot to try to renegotiate with psychopaths. Maybe I'll hire a merc to act as an inbetween.",
+    "translation": "在很长一段时间里，我与恶魔帮达成的协议利润丰厚，而且相对稳定。然而，最近留在投放点的物资相当匮乏。我不知道他们为什么会减少，如果我想和那些疯子重新谈判，那我就是个白痴。也许我会雇一个雇佣兵做中间人。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoRailCannon_0600A7C7#NOTE:TNAM#528d5b38a554944d336f1404ce8f3b4a",
+    "original": "Originally developed by Nevadatech, this devastating heavy weapon annihilates whatever you aim it at. Fires a heavy slug that creates a large explosion on impact.\\n\\nZach's Notes: Clearly the result of needing more power armor friendly weapons. I wonder what else this mysterious \"Nevadatech\" was cooking up.",
+    "translation": "这种毁灭性的重型武器最初是由内华达科技公司开发的，它能消灭你瞄准的任何物体。发射一枚重型弹头，撞击时产生巨大爆炸。\\n\\n扎克的注释：显然这是需要更多对动力装甲友好的武器的结果。我想知道这个神秘的“内华达科技公司”还在酝酿什么。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoACR_0600A7C8#NOTE:TNAM#6a95acad5ea188c88285f6c5e0ebc2bd",
+    "original": "The \"Adaptive Combat Rifle\" can use special ACR Mod Kits to hot swap different barrels and optics. Standard weapon mods are also available.\\n\\nZach's Notes: The quick change barrel idea is pretty genius. From what I heard, the old company bought out the rights to this gun and perfected it's ambitious engineering. There's a reason we issue these to our guards. It's good.",
+    "translation": "“自适应战斗步枪”可以使用特殊的ACR模组套件来热插拔不同的枪管和光学装置。标准武器模组也可以使用。\\n\\n扎克的注释：快速更换枪管的想法相当天才。据我所知，这家老公司买下了这把枪的所有权，并完善了它雄心勃勃的工程设计。我们把这些发给守卫是有原因的，这个非常好。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoSVD_0600A7C9#NOTE:TNAM#c9fa6f10b85af1ceed201cc5885359f5",
+    "original": "A classic semi-auto sniper rifle. It's sturdy construction and materials have preserved it for many years.\\n\\nZach's Notes: The old reliable. Find these all the time out in the wild, many of them still having their pre-war parts. Sturdy fuckin guns.",
+    "translation": "经典的半自动狙击步枪，坚固的结构和材料使它保存了很多年。\\n\\n扎克的注释：老可靠。在野外经常能找到它们，很多还保留着战前的部分。这枪真他妈耐用。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoMP5s_0600A7CA#NOTE:TNAM#abfb19a0904aebda5370bebe1cfc1a24",
+    "original": "This submachine gun saw widespread use amongst law enforcement, unsavory criminals, and everyone inbetween. A reliable SMG platform that has stood the test of time. Comes in 3 varieties, a 9mm, a 10mm, and a 9mm with an integrated suppressor.\\n\\nZach's Notes: The germans knew what they were doing when they made this. Probably one of our best sellers too. Easy to find them and refurbish them.",
+    "translation": "这把冲锋枪被广泛使用在执法部门，臭名昭著的罪犯，以及所有人之间。可靠的SMG平台，经得起时间的考验。有3个品种，一个9mm，一个10mm，和一个9mm集成抑制器。\\n\\n扎克的注释：德国人在制造这个的时候知道他们在做什么。可能也是我们最畅销的产品之一。很容易找到并翻新它们。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoFiveseveN_0600A7CB#NOTE:TNAM#f4b5c1fa6bcbc61c6fb055202a79d621",
+    "original": "A pistol that utilizes 5mm rounds. \\n\\nZach's Notes: Didn't seem to be terribly popular in it's hey day, but picked up steam when armor became more commonplace. Holds a lot of bullets for a pistol.",
+    "translation": "一种使用5毫米子弹的手枪。\\n\\n扎克的注释：在它的鼎盛时期似乎不太受欢迎，但当护甲变得更加普遍时，它就开始流行起来，能装很多手枪子弹。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoP90_0600A7CC#NOTE:TNAM#f8603d992caceabf762a456feebab7d1",
+    "original": "A submachine gun that fires 5mm rounds at a very high fire rate. Ambidexterous and a great performer in close quarters combat.\\n\\nZach's Notes: These little spitfires are fantastic. Shreds anything that dare's come close.",
+    "translation": "一种冲锋枪，以非常高的射速发射5毫米子弹。双手使用都很灵巧，在近距离战斗中表现出色。\\n\\n扎克的注释：这些小喷火战斗机太棒了，能粉碎任何敢靠近的东西。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoM82A1_0600A7CD#NOTE:TNAM#7e73b4c24f40bd0bfad480f27ad37b11",
+    "original": "One of the most well known semi-auto .50 cal sniper rifles. Originally developed as an anti-vehicle rifle. It saw increased use with the adapting of power armor due to units being able to handle the immense weight and recoil.\\n\\nZach's Notes: Absolutely destructive, and absurdly heavy. If you want something to not exist, this is a good candidate for the job.",
+    "translation": "最著名的.50口径半自动狙击步枪之一，最初是作为反载具步枪开发的。随着动力装甲的调整，它的使用越来越多，因为单位能够处理巨大的重量和后坐力。\\n\\n扎克的注释：绝对是毁灭性的，而且非常重。如果你希望某些东西不存在，这是一个很好的选择。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoGunShopOrigins_06006003#NOTE:TNAM#8dce9bb719b80eeed94ca2d3c4501b98",
+    "original": "After a grueling journey I've finally made it back to the Mojave. I don't want to let Zach know just yet though. I need to get some things sorted first and I don't need his moral high-roading getting in the way of business. I will need him though. My tech work is shit, and he'll be happy sitting in a closet fiddling with guns all day. \\n\\nI found this abandonded storefront with a 2nd floor to set up this terminal in for now. It's got good bones. Not the biggest fan of Westside, but it seems a good a place as any without some gang boss or local politician to boss me around.",
+    "translation": "经过一段艰辛的旅程，我终于回到了莫哈维。但我还不想让扎克知道，我得先把事情处理好，免得他的道德准则妨碍我做生意。不过我需要他，我的技术工作烂透了，他会很乐意整天坐在壁橱里摆弄枪支的。\\n\\n我找到了一个废弃的店面，有一个二楼，现在可以设置这个终端。它的结构很好，我不是西区的头号粉丝，但这似乎是个不错的地方，不会有黑帮老大或当地政客对我指手画脚。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoOldGunShopClosedOut_06006004#NOTE:TNAM#a5845c482e3a126f9b24f688c2b7cd5c",
+    "original": "Today I'm packing up the last of my things here at the 188 Trading Post. I've been earning a modest living there dealing with some small volume of our family's weapons, but the time has come to move on. \\n\\nZoey moved back from Arroyo a few weeks ago. She says she's found a place to rebuild the family's legacy in Westside. She's going to take over sales and distribution which leaves me more time for repairing and tinkering. I'm tired of dealing with hagglers and shitty customers anyway. She says I'll have my own workshop floor. I hope she isn't bullshitting me this time.",
+    "translation": "今天我要去188贸易站收拾最后的东西。我一直在那里处理少量的家族武器，勉强维持生计，但现在是时候继续前进了。\\n\\n佐伊几周前从阿罗约搬回来了，她说她在西区找到了一个重建家族遗产的地方。她将接管销售和分销，这样我就有更多的时间来修理和改装。反正我也厌倦了跟那些讨价还价的人和垃圾顾客打交道。她说我会有自己的车间，希望她这次不是在骗我。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoRailgun_06006005#NOTE:TNAM#cae20026bdbd5103f07afbc29579d440",
+    "original": "The \"Leilong\" Railgun was an unfinished prototype made by the Chinese government that was never completed before the Great War. Somehow a shipment of these models made their way stateside post war, and with some wasteland ingenuity and engineering were able to be completed.\\n\\nZach's Notes: The Chinese were way ahead of miniaturization tech than the US was. Had to compensate by rigging some extra wiring on the exterior. Does the trick. The magazine/battery hybrid is a bit janky but it does work.",
+    "translation": "“雷龙”轨道炮是中国政府制造的一个未完成的原型，在战前一直没有完工。战后，这些模型以某种方式运抵美国，在一些废土的独创性和工程学的帮助下得以完成。\\n\\n扎克的注释：中国在小型化技术方面远远领先于美国。为了弥补这一点，我不得不在外部安装一些额外的电线，很有效。弹匣/电池的混合有点简陋，但它确实能工作。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoNewPlaceNewToys_06006006#NOTE:TNAM#4d0f4a649b531f571a00f4f4a66ad95e",
+    "original": "Well, turns out Zoey surpassed my expectations! I have nearly everything I could ever need to restore and rebuild any weapon I want, including energy weapons! I managed to get my hands on a few of these Chinese railguns. They're currently not functioning, but with some extra engineering I think I can make something work.",
+    "translation": "果然，佐伊超出了我的预期！我几乎拥有了我所需要的一切去恢复和重建任何我想要的武器，包括能量武器！我设法弄到了一些这种中国轨道炮。它们目前不能正常工作，但通过一些额外的工程，我想我可以其中一些工作。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoDealWithFiends_06006007#NOTE:TNAM#58efaba501baadd392a2c43e3eb9fcbd",
+    "original": "I knew it, it was too good to be true. All these gun parts coming in seemed a bit suspicious, especially considering how many people actually come through to trade. Zoey being Zoey made a deal with the worst people possible. Fiends! Those drug crazed raider lunatics! Apparently we have to dead drop these scum a shipment of chems south of here in a dumpster, and they leave weapons and materials in exchange. How she actually arranged all this, I'll never know. Maybe I don't want to.",
+    "translation": "我就知道，这太好了，不可能是真的。所有这些枪支零件看起来都有点可疑，尤其是考虑到有多少人真的来交易。佐伊就是佐伊，和最邪恶的人做了生意，恶魔帮！那群吸毒的掠夺者！显然我们得把一批化学品扔到南边的垃圾箱里，然后让他们留下武器和材料作为交换。她究竟是如何安排这一切的，我永远不会知道。也许我不想知道。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoGunShopOpen_06006008#NOTE:TNAM#c4d438c74db387ba0f9ddd727ada4e66",
+    "original": "It's been a lot of work between Zach and I, but we finally did it. Even hired a few locals to act as guards. I'm sure the free ACRs and combat armor was a nice signing bonus. Most of the local militia is ragtag. Business early on has been very successful.",
+    "translation": "我和扎克做了很多努力，但我们终于做到了。甚至雇了几个当地人当警卫，我相信免费的ACR和战斗装甲是一个不错的签约奖金，当地的民兵大多是乌合之众。早期的业务非常成功。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoSupplyIssues_06006009#NOTE:TNAM#38aa97569d470247b03be574fd1baf8a",
+    "original": "You know the phrase \"Suffering from Success\"? Turns out our guns are very popular. So much so that we're having problems keeping a running stock. I don't want to reduce myself to selling weapons that aren't attached to our family legacy, or chems. I gotta pay these guards, and Zach, somehow.",
+    "translation": "你知道“成功源自苦难”这句话吗？原来我们的枪很受欢迎。太受欢迎了，以至于我们很难保持库存。我不想让自己沦落到卖与家族遗产无关的武器，或者化学药品的境地。我得发工资给这些警卫，还有扎克。",
+    "stage": 1
+  },
+  {
+    "key": "ZLTerminalInfoSolution_0600600A#NOTE:TNAM#3d238f9afb19a6b44caecf161a60b311",
+    "original": "I had a run in with a group of fiends coming back from an errand. It could have ended badly for either of us, but I managed to barter us into a deal that solves a lot of our problems. We have a surplus of chems we don't want to sell in our store. They live out in the wastes, scavenging and looting. I know I shouldn't trust these crazed addict raiders but their whole attitude changed when I mentioned our chem supply. So we worked out a deal. We leave chems at a designated drop point, they leave weapons, scrap and materials.",
+    "translation": "我和一群外出办事回来的恶魔帮发生了冲突。对我们双方来说，结局都可能很糟糕，但我设法把做成了一笔交易，解决了我们之间的很多问题。我们有多余的药物，我不想在店里卖。他们住在荒郊野地里，四处搜刮和抢劫。我知道我不应该相信这些疯狂的瘾君子，但是当我提到我们的化学药物补给时他们的态度完全改变了。所以我们达成了协议，我们把化学药物放在指定的投放点，他们留下武器、废料和材料。",
+    "stage": 1
+  },
+  {
+    "key": "ZL9mmBulletProjectile_06000886#PROJ:FULL#f6888f5932dc43910d050d829ae5c240",
+    "original": "9mm Bullet",
+    "translation": "9mm子弹弹道",
+    "stage": 1
+  },
+  {
+    "key": "ZL556mmBulletProjectile_06001BC9#PROJ:FULL#370a3710c73ef8f8e244cdebf2531c09",
+    "original": "5.56mm Rifle Bullet",
+    "translation": "5.56子弹弹道",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_06000EB2#INFO:NAM1#3429af21e32794d5aef7f04b92c7d1cd",
+    "original": "Hey there. Need anything?",
+    "translation": "你好。有什么事？",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorBuy_06000EB3#INFO:NAM1#fa46fb24564c6d3c24f61af4da679e51",
+    "original": "Sure. Here's what I've got.",
+    "translation": "当然。都在这儿了。",
+    "stage": 1
+  },
+  {
+    "key": "ZLVendorBuy_06000EB3#INFO:RNAM#6130d868f714045fe2df412a436780c5",
+    "original": "I want to browse your goods.",
+    "translation": "我想看看你们的商品。",
+    "stage": 1
+  },
+  {
+    "key": "ZLMessageACREquipError_06001B8F#MESG:DESC#54e1823511cc69669676e565ee1527d0",
+    "original": "You do not have an ACR equipped.",
+    "translation": "你没有装备ACR。",
+    "stage": 1
+  },
+  {
+    "key": "ZLMessageACRSameAttachmentError_06001B94#MESG:DESC#ed84ef5ef3a890482a1d0854d68ac003",
+    "original": "You are already using this attachment.",
+    "translation": "你已经在使用这个附件了。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModMagneticAcceleratorCoils_0600080A#IMOD:FULL#c747dbf085b36df732bf10512f1ee52e",
+    "original": "Magnetic Accelerator Coils",
+    "translation": "轨道炮粒子加速线圈",
+    "stage": 1
+  },
+  {
+    "key": "ZLModMagneticAcceleratorCoils_0600080A#IMOD:DESC#c84af126ef7710a9d7f83b29e686eac2",
+    "original": "Increases damage, compatible with Railgun & Coil Blunderbuss.",
+    "translation": "增加伤害，与轨道炮和线圈炮兼容。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModRailgunSuppressor_0600080B#IMOD:FULL#828f53771a96ac39121d388cb1a5d8da",
+    "original": "Railgun Suppressor",
+    "translation": "轨道炮消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLModRailgunSuppressor_0600080B#IMOD:DESC#4f9d2c640bf2d5137d97733ab05f8a26",
+    "original": "Silences weapon.",
+    "translation": "使武器消音。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModRailgunThermalScope_0600080C#IMOD:FULL#d9c01841078e44b3a20bbd42eb55e044",
+    "original": "Railgun Thermal Scope",
+    "translation": "轨道炮热成像瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLModRailgunThermalScope_0600080C#IMOD:DESC#28bf0b4454470ac1696dabb7d2d3aa73",
+    "original": "Adds mid-range scope.",
+    "translation": "添加中距瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModP90ExtBarrel_06000851#IMOD:FULL#354ce253faeac7d79cb55c3f50598e83",
+    "original": "5mm SMG Extended Barrel",
+    "translation": "5毫米冲锋枪加长枪管",
+    "stage": 1
+  },
+  {
+    "key": "ZLModP90ExtBarrel_06000851#IMOD:DESC#03b105a3f0298c3ce2cb2dc3d749fe48",
+    "original": "Increases damage (+2).",
+    "translation": "增加伤害(+2)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSVDSuppressor_0600085C#IMOD:FULL#76e22d9d83293930189861b87897fcb8",
+    "original": "Chinese Sniper Rifle Suppressor",
+    "translation": "中式狙击步枪消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSVDSuppressor_0600085C#IMOD:DESC#4f9d2c640bf2d5137d97733ab05f8a26",
+    "original": "Silences weapon.",
+    "translation": "使武器消音。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSVDCarbonFiberParts_0600085D#IMOD:FULL#33601ce3fdddbd222759575848516977",
+    "original": "Chinese Sniper Rifle Carbon Fiber Parts",
+    "translation": "中式狙击步枪碳纤维部件",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSVDCarbonFiberParts_0600085D#IMOD:DESC#69fc639cfa394604f721ae35d98ba423",
+    "original": "Decreases weight (-4).",
+    "translation": "减轻武器重量(-4)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModPSO1Scope_0600085E#IMOD:FULL#6a7b021c97978fa517c19b45fb2eb3c1",
+    "original": "Chinese Sniper Rifle Scope",
+    "translation": "中式狙击步枪瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLModPSO1Scope_0600085E#IMOD:DESC#d8a5bc1380973ee28b52a56f18b93461",
+    "original": "Adds long-range scope.",
+    "translation": "添加远程瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModLaserSight_0600086F#IMOD:FULL#727951eb38a03e0e800869a93c1d2878",
+    "original": "Handgun Laser Sight",
+    "translation": "5毫米手枪激光瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLModLaserSight_0600086F#IMOD:DESC#c6a28a2d47661bb651c61418d34357d5",
+    "original": "Decreases spread (-33.33%), adds laser sight effect.",
+    "translation": "降低子弹散布(-33.33%)，增加激光瞄准效果。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModFiveseveNReinforcedLower_06000870#IMOD:FULL#fbf3fed016641f6e406ea1b6a0dfbd93",
+    "original": "5mm Pistol Reinforced Lower Body",
+    "translation": "5毫米手枪加强下枪身",
+    "stage": 1
+  },
+  {
+    "key": "ZLModFiveseveNReinforcedLower_06000870#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModMP5FullStock_06000882#IMOD:FULL#c5b1a8f01fc50bfce9a11f6c3cd11bd6",
+    "original": "Navy SMG Full Stock",
+    "translation": "海军冲锋枪完整枪托",
+    "stage": 1
+  },
+  {
+    "key": "ZLModMP5FullStock_06000882#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModMP5RedDotSight_06000883#IMOD:FULL#2dfaaf9eb0d1bc9c7dde7e11ffdf230a",
+    "original": "Navy SMG Red Dot Sight",
+    "translation": "海军冲锋枪红点瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLModMP5RedDotSight_06000883#IMOD:DESC#15a5d122c02ffeb5858a53a6ad7295de",
+    "original": "Decreases spread (-33.33%), adds a red dot sight with mount.",
+    "translation": "降低子弹散布(-33.33%)，添加一个红点瞄具。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSuppressor_06000884#IMOD:FULL#60f71bbf22a9c8a4b0bf3bb11677f7e6",
+    "original": "Pistol/SMG Suppressor",
+    "translation": "海军冲锋枪消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSuppressor_06000884#IMOD:DESC#fc557625b24030343b6b0c31098f3ab2",
+    "original": "Silences weapon, compatible with multiple pistols & SMGs.",
+    "translation": "静音武器。兼容多种手枪和冲锋枪。",
+    "stage": 1
+  },
+  {
+    "key": "ZLMod5mmSuppressor_06001B5A#IMOD:FULL#b2901cd594ee37bfc7cf9533d56b0495",
+    "original": "5mm Suppressor",
+    "translation": "5毫米消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLMod5mmSuppressor_06001B5A#IMOD:DESC#0d32d7b9bfc11aae4654fccc954bfbd0",
+    "original": "Silences weapon, compatible with 5.7x28mm weapons.",
+    "translation": "静音武器，兼容5.7x28mm武器。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModJericho941WoodGrip_06001C1E#IMOD:FULL#e53fc44b646bf7fcab32fc1b646cb299",
+    "original": ".45 Heavy Pistol Wood Grip",
+    "translation": ".45重型手枪木制握把",
+    "stage": 1
+  },
+  {
+    "key": "ZLModJericho941WoodGrip_06001C1E#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSniperScope_06002817#IMOD:FULL#2036c8ec65554f286d8fb1e5b8e7582c",
+    "original": "High Powered Sniper Rifle Scope",
+    "translation": "狙击枪瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLModSniperScope_06002817#IMOD:DESC#d8a5bc1380973ee28b52a56f18b93461",
+    "original": "Adds long-range scope.",
+    "translation": "添加远程瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModM82A1Barrel_06002818#IMOD:FULL#a4daf78a2a17d5a4e291e48f3e9bb5c0",
+    "original": ".50 Precision Rifle Extended Barrel",
+    "translation": ".50精密步枪加长枪管",
+    "stage": 1
+  },
+  {
+    "key": "ZLModM82A1Barrel_06002818#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModM82A1CustomBolt_0600281B#IMOD:FULL#575081cc7ab374afdf34ae7ba570ed8c",
+    "original": ".50 Precision Rifle Custom Bolt",
+    "translation": ".50精密步枪定制枪机",
+    "stage": 1
+  },
+  {
+    "key": "ZLModM82A1CustomBolt_0600281B#IMOD:DESC#50442f8164f0de23cfee64fb08af5c89",
+    "original": "Increases rate of fire (+25%).",
+    "translation": "增加射速。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModACRSuppressor_0600281C#IMOD:FULL#dbd4b9b0a9a462ef8faa66c07e13654b",
+    "original": "ACR Suppressor",
+    "translation": "ACR消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLModACRSuppressor_0600281C#IMOD:DESC#8cd3ceab32b3a75bfc026062c87603b9",
+    "original": "Silences weapon, compatible with all ACRs.",
+    "translation": "静音武器，兼容所有ACR。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModACRHandguard_0600281D#IMOD:FULL#caaa810d1935f204f65e0af115668f59",
+    "original": "ACR Railed Handguard",
+    "translation": "ACR横杆护木",
+    "stage": 1
+  },
+  {
+    "key": "ZLModACRHandguard_0600281D#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModPEQLaserSight_0600281E#IMOD:FULL#729b2aea45062208394839296c2e05c1",
+    "original": "PEQ Laser Sight",
+    "translation": "PEQ激光瞄准器",
+    "stage": 1
+  },
+  {
+    "key": "ZLModPEQLaserSight_0600281E#IMOD:DESC#c6a28a2d47661bb651c61418d34357d5",
+    "original": "Decreases spread (-33.33%), adds laser sight effect.",
+    "translation": "降低子弹散布(-33.33%)，增加激光瞄准效果。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModTeslaSniperBarrel_06002E40#IMOD:FULL#7ebb0623b94696d5d0cc4c0cd84d4d03",
+    "original": "Tesla Heavy Coil Barrel",
+    "translation": "特斯拉重型线圈枪管",
+    "stage": 1
+  },
+  {
+    "key": "ZLModTeslaSniperBarrel_06002E40#IMOD:DESC#00e8af3d35cd96b40060fbb47847440f",
+    "original": "Increases damage (+6).",
+    "translation": "增加伤害。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModTeslaSniperChamber_06002E41#IMOD:FULL#0a63344d714aa1b92583c320b79336d6",
+    "original": "Tesla Enhanced Chamber",
+    "translation": "特斯拉加强膛室",
+    "stage": 1
+  },
+  {
+    "key": "ZLModTeslaSniperChamber_06002E41#IMOD:DESC#ec2965227bb6c6e17e2b03af9c711341",
+    "original": "Increases ammunition capacity (+8).",
+    "translation": "增加弹药容量(+8)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModTeslaSniperRecycler_06002E42#IMOD:FULL#3d6417602de6c99dee93a659450547c8",
+    "original": "Tesla Energy Recycler",
+    "translation": "特斯拉能量循环器",
+    "stage": 1
+  },
+  {
+    "key": "ZLModTeslaSniperRecycler_06002E42#IMOD:DESC#320aa22bef8731968d4f87f78a0e408d",
+    "original": "Replenishes ammunition (1/4 shots).",
+    "translation": "补充弹药 (1发/4次射击)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLMod9x39mmExtMag_0600B9B9#IMOD:FULL#7dcee66d65506a5867d34edbc4c7aa4e",
+    "original": "Chinese Spec Ops Extended Mags",
+    "translation": "中式特种作战扩展弹匣",
+    "stage": 1
+  },
+  {
+    "key": "ZLMod9x39mmExtMag_0600B9B9#IMOD:DESC#cdf1a28acc339d15245ce0f862acd091",
+    "original": "Increases ammunition capacity, compatible with VSS & AS Val.",
+    "translation": "增加弹药容量，与VSS和AS Val兼容。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModOKP7ReflexSight_0600B9E3#IMOD:FULL#f3543849095d6cf6396f995934d8ecfd",
+    "original": "Chinese Spec Ops Reflex Sight",
+    "translation": "中式特种作战反射瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLModOKP7ReflexSight_0600B9E3#IMOD:DESC#b43b488dd2cc58206972c28df46f638c",
+    "original": "Decreases spread (-33.33%), adds a green dot sight with mount.",
+    "translation": "降低子弹散布(-33.33%)，添加一个绿点瞄具。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModPP19BizonMag_06013C15#IMOD:FULL#87c6672674d99738f8306ac4822e2d29",
+    "original": "Chinese Riot SMG Adv. Magazine",
+    "translation": "中式防暴冲锋枪高级弹匣",
+    "stage": 1
+  },
+  {
+    "key": "ZLModPP19BizonMag_06013C15#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "SLBasincreekINT_0015C89A#CELL:FULL#de41a10a27f734546c2b2f088f38f323",
+    "original": "The Basincreek Building",
+    "translation": "盆湾大楼",
+    "stage": 1
+  },
+  {
+    "key": "Gomorrah00_0010D629#CELL:FULL#21fc32d4f4fdce5f7163c96e43f6bb47",
+    "original": "Gomorrah Lower Lobby",
+    "translation": "蛾摩拉下层休息室",
+    "stage": 1
+  },
+  {
+    "key": "NovacNoBarksShack_000B8FA7#CELL:FULL#13cd36614f314c2b26f7c0b7e047c619",
+    "original": "No-bark's Shack",
+    "translation": "疯嘴的棚屋",
+    "stage": 1
+  },
+  {
+    "key": "SSHQ01_000FF7D1#CELL:FULL#abdaee1b39563c8628aa1f07c84ed4b3",
+    "original": "Factory Floor",
+    "translation": "车间",
+    "stage": 1
+  },
+  {
+    "key": "BisonSteve02_000D6FA8#CELL:FULL#8b31045472351588d65a3be1d07b3bc4",
+    "original": "The Bison Steve Hotel",
+    "translation": "野牛史蒂夫旅馆",
+    "stage": 1
+  },
+  {
+    "key": "LakeMeadCaveINT_0010C482#CELL:FULL#421c68264e6f346a607e6b681a169117",
+    "original": "Lake Mead Cave",
+    "translation": "米德湖山洞",
+    "stage": 1
+  },
+  {
+    "key": "RocketLabBasement_0007EA61#CELL:FULL#4f0d671c59aa08cd78e0bcb2dbeaf005",
+    "original": "REPCONN Basement",
+    "translation": "瑞普康地下室",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsGunShopInterior_06001AB2#CELL:FULL#45fecfca895903a7d2c102de2ac285e6",
+    "original": "ZL Armaments",
+    "translation": "ZL军备",
+    "stage": 1
+  },
+  {
+    "key": "HiddenValley02_000D7505#CELL:FULL#f939b90ee80cd5231fb940b49b9cbe12",
+    "original": "Hidden Valley Bunker L2",
+    "translation": "隐谷地堡二层",
+    "stage": 1
+  },
+  {
+    "key": "2ETopsBennysFloor_0010E429#CELL:FULL#fd416ef5a31890f733dbcd0bd15daa7b",
+    "original": "The Tops 13th Floor",
+    "translation": "九重天13层",
+    "stage": 1
+  },
+  {
+    "key": "CampMCTermInt04_000F47B3#CELL:FULL#85d22757a7fa0914e20e0ac133bffbe8",
+    "original": "Camp McCarran Supply Shack",
+    "translation": "麦卡伦营地物资棚",
+    "stage": 1
+  },
+  {
+    "key": "SecuritronVault_0012428E#CELL:FULL#9604e8b51fe1dec36735557c91f594dc",
+    "original": "Securitron Vault",
+    "translation": "电子保安贮藏库",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLVillageDalaINT_030086CB#CELL:FULL#ac027c857264b9a461dcd72cbbec4e9f",
+    "original": "#104",
+    "translation": "104号寓所",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLHologramINT_03008879#CELL:FULL#73116023110e7859ace903d4323732e5",
+    "original": "Z-38 Lightwave Dynamics Research",
+    "translation": "Z-38光波动力学研究所",
+    "stage": 1
+  },
+  {
+    "key": "FreesideAtomicWranglerRoom_00159954#CELL:FULL#4e7e8c59bca4c7403e406451ef81300b",
+    "original": "Atomic Wrangler",
+    "translation": "原子牛仔",
+    "stage": 1
+  },
+  {
+    "key": "FollowersOutpostInterior_0015A822#CELL:FULL#34e43eba353a94fa6f18bd47a3ba20f6",
+    "original": "Followers Outpost",
+    "translation": "天启追随者哨站",
+    "stage": 1
+  },
+  {
+    "key": "NellisTunnel_001024D9#CELL:FULL#70134c8e75e3c79a78105ad57600a5f9",
+    "original": "Train Tunnel",
+    "translation": "火车隧道",
+    "stage": 1
+  },
+  {
+    "key": "SLTumbleweedRanchINT_00155EEF#CELL:FULL#df51cd4ba7fa309548195918f6eff381",
+    "original": "Tumbleweed Ranch House",
+    "translation": "风滚草农场房屋",
+    "stage": 1
+  },
+  {
+    "key": "SLRemnantsBunkerINT_001591D5#CELL:FULL#5a2d606fb3f35826213fbd34d9900032",
+    "original": "Remnants' Bunker",
+    "translation": "英克雷残部地堡",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0600220E#REFR:FULL#45fecfca895903a7d2c102de2ac285e6",
+    "original": "ZL Armaments",
+    "translation": "ZL军备",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38World_0016D714#WRLD:FULL#cc1ad2269895d13790adcb7b0215b2cd",
+    "original": "Lucky 38",
+    "translation": "幸运38",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03BigMT_03000E81#WRLD:FULL#2b89dd5c09d8facb2c3e4f70e37b3174",
+    "original": "Big MT",
+    "translation": "大山脉",
+    "stage": 1
+  }
+]

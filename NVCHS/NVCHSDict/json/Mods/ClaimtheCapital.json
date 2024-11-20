@@ -1,0 +1,5174 @@
+[
+  {
+    "key": "NullEDID_00000000#TES4:CNAM#0feb774313708509cd8cdea62dba1902",
+    "original": "DEFAULT",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "NullEDID_00000000#TES4:SNAM#c1415e3c2f027942f5d22f9abe1ad398",
+    "original": "1.22",
+    "translation": "1.22",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultEmergencySwitch_0E003FE9#ACTI:FULL#422cca2ff8540b6379af263868b7a11e",
+    "original": "Switch",
+    "translation": "开关",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultElectricalSwitch_0E003FF9#ACTI:FULL#08137470720e39d472de7e005d7b5a71",
+    "original": "Generator Switch",
+    "translation": "发电机开关",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultPowerControl_0E003FFE#ACTI:FULL#5621cc808810bb17e71da7f45e953ce9",
+    "original": "Vault Power Systems Terminal",
+    "translation": "避难所电力系统终端",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultVent_0E004000#ACTI:FULL#7e17a13b2ed17b1646fe92033e3242a1",
+    "original": "Ventilator Duct",
+    "translation": "通风口导管",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultDoorControlPanel_0E004005#ACTI:FULL#e925fdc3c66d3626ef59282efae440c6",
+    "original": "Vault Door Control Pod",
+    "translation": "避难所大门控制板",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWOverseerStartTerminal_0E0042DC#ACTI:FULL#932803b84c02bb0e3a86681635e3da9c",
+    "original": "Overseer's Personal Terminal",
+    "translation": "监督者的个人终端",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultLoudSpeaker_0E00E100#ACTI:FULL#8482a4fd465b012b7652245f8e6eaf09",
+    "original": "Loudspeaker",
+    "translation": "喇叭",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWWarTable_0E015C0A#ACTI:FULL#5f1ec3585ab29627f455e2ebc7f7853a",
+    "original": "Reconnaissance Map",
+    "translation": "勘察地图",
+    "stage": 1
+  },
+  {
+    "key": "RTCDrinkMetalSinkAVG_0E020099#ACTI:FULL#424c1bffda3dd5a9d3f278e36cfbfd08",
+    "original": "Sink",
+    "translation": "水槽",
+    "stage": 1
+  },
+  {
+    "key": "RTCDrinkTolierMetalAvg_0E02009A#ACTI:FULL#caa8e597f60e782b895d822dad4d90a6",
+    "original": "Toilet",
+    "translation": "马桶",
+    "stage": 1
+  },
+  {
+    "key": "RTCDrinkReservoir01_0E0265FD#ACTI:FULL#37c7525b9e3459c262f1a9c47c6cb3f9",
+    "original": "Water Reservoir Access Valve",
+    "translation": "水库阀门",
+    "stage": 1
+  },
+  {
+    "key": "RTCResControlMaster_0E0276D2#ACTI:FULL#e62f19dd0ff0ebc04294fcf2fe934b8a",
+    "original": "Water Treatment Plant Control Panel",
+    "translation": "水处理厂控制面板",
+    "stage": 1
+  },
+  {
+    "key": "RTCResControlGenerator_0E02879B#ACTI:FULL#4961c7f40b0d34df4fa60bf6ee759c1d",
+    "original": "Water Treatment Plant Generator Panel",
+    "translation": "水处理厂发电面板",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandTerminal_0E005F59#TERM:FULL#251e38714b1b079bf7cc475364f8fdd6",
+    "original": "Overseer's Terminal",
+    "translation": "监督的终端机",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandTerminal_0E005F59#TERM:DESC#e199ab3843495a20f4900da1f4fa445c",
+    "original": "Welcome, Overseer.",
+    "translation": "欢迎，监督。",
+    "stage": 1
+  },
+  {
+    "key": "RTCBOSArmorComba_0D003DCF#ARMO:FULL#d3f92d81bf1e097f253c23a2fdf2f108",
+    "original": "Brotherhood Reinforced Combat Armor",
+    "translation": "兄弟会加强战斗装甲",
+    "stage": 1
+  },
+  {
+    "key": "RTCCombatArmorSlev_0E00DE36#ARMO:FULL#6f58315d1d273cf50f8bd6d74f2773ee",
+    "original": "Brotherhood Combat Armor",
+    "translation": "兄弟会战斗装甲",
+    "stage": 1
+  },
+  {
+    "key": "RTChelmetmask_0E00DE37#ARMO:FULL#4d4def1298ffa4058c693b380fbb09dd",
+    "original": "Brotherhood Combat Helmet",
+    "translation": "兄弟会战斗头盔",
+    "stage": 1
+  },
+  {
+    "key": "RTCArmorCombat_0E00DE38#ARMO:FULL#c8556ff638febca99326f3e0df1e7ada",
+    "original": "Brotherhood Light Armor",
+    "translation": "兄弟会轻甲",
+    "stage": 1
+  },
+  {
+    "key": "RTCArmorCombatHelmet_0E00DE39#ARMO:FULL#f7a05659306289f289928d8220ce2a17",
+    "original": "Brotherhood Light Helmet",
+    "translation": "兄弟会轻型头盔",
+    "stage": 1
+  },
+  {
+    "key": "RTCEngineeroutfit_0E00DE3A#ARMO:FULL#34807438a8ceb4b945b191aca102bab7",
+    "original": "Brotherhood Smith Jumpsuit",
+    "translation": "兄弟会工匠连体衣",
+    "stage": 1
+  },
+  {
+    "key": "RTCYeomanArmor_0E00DE3B#ARMO:FULL#2171bc3961fb903bf3ac76da4735c98d",
+    "original": "Yeoman Armor",
+    "translation": "侍从装甲",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultDoctorSuppliesContainer_0E001998#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWResupplyCrate_0E004060#CONT:FULL#2f97c45ef896a6c5517eecc9ccb9e735",
+    "original": "Resupply Crate",
+    "translation": "补给品板条箱",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCookSuppliesContainer_0E004077#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWBunkerQuarterMasterSupplyCrate_0E0042F2#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCPonyExpressBoxNoScript_0E0060CA#CONT:FULL#3ae2092f2467ccbccf68eb1dad5607b9",
+    "original": "Pony Express Dropbox",
+    "translation": "小马快递邮箱",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonDoctorSuppliesContainer_0E008720#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonCookSuppliesContainer_0E008723#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCKitchenCabinetMetal_0E00B252#CONT:FULL#dcab1d13d726ff770cbf91b6f8e742bf",
+    "original": "Kitchen Cabinet",
+    "translation": "橱柜",
+    "stage": 1
+  },
+  {
+    "key": "RTCBarSupplies_0E00BCDC#CONT:FULL#918464eff0ff705e4b831df985e7bb35",
+    "original": "Bin",
+    "translation": "铁箱",
+    "stage": 1
+  },
+  {
+    "key": "RTCLegionBadBox_0E00C3AC#CONT:FULL#42581f37cc468cf3ab3265f062c7b09c",
+    "original": "Desk",
+    "translation": "书桌",
+    "stage": 1
+  },
+  {
+    "key": "RTCLockerVaultFactory_0E00E177#CONT:FULL#9fa2f7a9659b0a52af089aa031456c16",
+    "original": "Locker",
+    "translation": "置物柜",
+    "stage": 1
+  },
+  {
+    "key": "RTCFortIndepDoctorSuppliesContainer_0E0121D8#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCDairyFarmMerchantContainer_0E016C95#CONT:FULL#42581f37cc468cf3ab3265f062c7b09c",
+    "original": "Desk",
+    "translation": "书桌",
+    "stage": 1
+  },
+  {
+    "key": "RTCVDresserRusty_0E0190BE#CONT:FULL#5504f6d3bc4f99a552a20fa9bcd5496f",
+    "original": "Dresser",
+    "translation": "衣柜",
+    "stage": 1
+  },
+  {
+    "key": "RTCBigTownVendorSupplies_0E0190E2#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCWoodenCrate_0E0190EE#CONT:FULL#98bf11ace197d700a98b9d7dbf198bf8",
+    "original": "Wooden Crate",
+    "translation": "板条箱",
+    "stage": 1
+  },
+  {
+    "key": "RTCLincolnCaravanVendorChest_0E01AF61#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCFBDoctorSuppliesContainer_0E030E04#CONT:FULL#693923bcd33a4acab928c492af3a09d3",
+    "original": "Supplies",
+    "translation": "补给",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultDoctorDoor_0E001993#DOOR:FULL#7741419cd10ffa73a81575db2be21ef3",
+    "original": "Clinic Door",
+    "translation": "诊所门",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultFilterRoomDoor_0E002B49#DOOR:FULL#96b24c77df064c5514ab3a810c604b06",
+    "original": "Filter Room Door",
+    "translation": "过滤室门",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultDoorUpsideDownStart_0E002EE5#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultLockedDoorStart_0E003FEB#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultPoweredDoor01_0E003FFC#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWQuarterMasterDoor_0E00403E#DOOR:FULL#f2102d7cec3d37292f865bae57ea40b4",
+    "original": "Quartermaster Door",
+    "translation": "区域门",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWVaultCookDoor_0E00407D#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCHotelDoorOfficeSoundR01_0E0075B8#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCSlidingDoor_0E008CA6#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCommonsHomeDoor_0E00BCEC#DOOR:FULL#042aac0475cb6c6d2f64b4aecf8e2c1a",
+    "original": "Hotel Door",
+    "translation": "旅馆门",
+    "stage": 1
+  },
+  {
+    "key": "RTCSlidingDoorLocked_0E015AEF#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCComputerRoomSlidingDoor_0E015C0D#DOOR:FULL#7f2def87ac97563fbf0ae1a61de5595d",
+    "original": "Computer Room Door",
+    "translation": "机房门",
+    "stage": 1
+  },
+  {
+    "key": "RTCSlidingDoorLockedUpsideDown_0E019D52#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCSlidingDoorUpsideDown_0E01CEA9#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultPlayerBed_0E002EA3#FURN:FULL#d0f74abbfc9fae3b1dff0113602260a6",
+    "original": "Bed",
+    "translation": "床",
+    "stage": 1
+  },
+  {
+    "key": "RTCPlayerSubQueenBed01DirtyBothSides_0E00871D#FURN:FULL#2e904fc2fa0bcd0bc8a8de8087163c30",
+    "original": "Queen Sized Bed",
+    "translation": "双人床",
+    "stage": 1
+  },
+  {
+    "key": "RTCSandbagSquare1seat_0E00BAAE#FURN:FULL#b698dfbdc92a321f937f5ff79a67fca4",
+    "original": "Bench",
+    "translation": "长凳",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultchairF_0E00E182#FURN:FULL#7a82385eedb29a5db95a8f215f995117",
+    "original": "Chair",
+    "translation": "椅子",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultChairTableR_0E017C01#FURN:FULL#7a82385eedb29a5db95a8f215f995117",
+    "original": "Chair",
+    "translation": "椅子",
+    "stage": 1
+  },
+  {
+    "key": "RTCSandbagSquare3seats_0E01916B#FURN:FULL#b698dfbdc92a321f937f5ff79a67fca4",
+    "original": "Bench",
+    "translation": "长凳",
+    "stage": 1
+  },
+  {
+    "key": "RTCinfantryrifle_0E00DE50#WEAP:FULL#928f4d81e1644b56bff054aabf70f921",
+    "original": "Infantry Rifle",
+    "translation": "步兵步枪",
+    "stage": 1
+  },
+  {
+    "key": "RTCEastEnclaveSoldierTemplate_0D025EC3#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultDoctor_0E00198C#NPC_:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWDummyCivilian_0E003BCB#NPC_:FULL#74fb622a0ead059606d931472d9dc758",
+    "original": "Civilian Dummy (please report if see you this man)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWDummyEngineer_0E003BCC#NPC_:FULL#e168ddedacc13618aabdc143f60706f5",
+    "original": "Engineer Dummy (please report if see you this man)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWDummyOfficer_0E003BCD#NPC_:FULL#773ad0ff3fdd64d812c9ac46f196f0db",
+    "original": "Officer Dummy (please report if see you this man)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWDummyScout_0E003BCE#NPC_:FULL#aae0f889e3780efb161c6eaac63d8cd8",
+    "original": "Scout Dummy (please report if see you this man)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWDummySoldier_0E003BCF#NPC_:FULL#88b783fcda2649b0b9ee8b455edd7f7b",
+    "original": "Soldier Dummy (please report if see you this man)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWVaultCook_0E004073#NPC_:FULL#8e1d61f3e2a79aa65fe25f2b899020f6",
+    "original": "Cook",
+    "translation": "烹饪",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWVaultQuartermaster_0E0042F4#NPC_:FULL#4ed99f35c0fbffe076c598b22ec48935",
+    "original": "Quartermaster",
+    "translation": "军需官",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierTemplate_0E0075D4#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerTemplate_0E0075D6#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerTemplate_0E0075D7#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAAF2DC_0E0075D8#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAAF3DC_0E0075D9#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAAM2DC_0E0075DA#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAAM3DC_0E0075DB#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAAMDC_0E0075DC#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAF2DC_0E0075DD#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAF3DC_0E0075DE#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAFDC_0E0075DF#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAM2DC_0E0075E0#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAM3DC_0E0075E1#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierAMDC_0E0075E2#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCF2DC_0E0075E3#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCF3DC_0E0075E4#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCFDC_0E0075E5#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCM2DC_0E0075E6#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCM3DC_0E0075E7#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCM4DC_0E0075E8#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCM5DC_0E0075E9#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierCMDC_0E0075EA#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierHF2DC_0E0075EB#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierHF3DC_0E0075EC#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierHFDC_0E0075ED#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierHM2DC_0E0075EE#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierHM3DC_0E0075EF#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorSoldierHMDC_0E0075F0#NPC_:FULL#28fb8ccfbda6b07a8e6677052933db3b",
+    "original": "Regulator",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAAF2DC_0E0075F1#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAAF3DC_0E0075F2#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAAM2DC_0E0075F3#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAAM3DC_0E0075F4#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAAMDC_0E0075F5#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAF2DC_0E0075F6#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAF3DC_0E0075F7#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAFDC_0E0075F8#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAM2DC_0E0075F9#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAM3DC_0E0075FA#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerAMDC_0E0075FB#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCF2DC_0E0075FC#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCF3DC_0E0075FD#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCFDC_0E0075FE#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCM2DC_0E0075FF#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCM3DC_0E007600#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCM4DC_0E007601#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCM5DC_0E007602#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerCMDC_0E007603#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerHF2DC_0E007604#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerHF3DC_0E007605#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerHFDC_0E007606#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerHM2DC_0E007607#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerHM3DC_0E007608#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorOfficerHMDC_0E007609#NPC_:FULL#421a5d57dfcdc9756cebafd691671caf",
+    "original": "Veteran Regulator",
+    "translation": "资深监管者",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAAF2DC_0E00760A#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAAF3DC_0E00760B#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAAM2DC_0E00760C#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAAM3DC_0E00760D#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAAMDC_0E00760E#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAF2DC_0E00760F#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAF3DC_0E007610#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAFDC_0E007611#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAM2DC_0E007612#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAM3DC_0E007613#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerAMDC_0E007614#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCF2DC_0E007615#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCF3DC_0E007616#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCFDC_0E007617#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCM2DC_0E007618#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCM3DC_0E007619#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCM4DC_0E00761A#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCM5DC_0E00761B#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerCMDC_0E00761C#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerHF2DC_0E00761D#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerHF3DC_0E00761E#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerHFDC_0E00761F#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerHM2DC_0E007620#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerHM3DC_0E007621#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCRegulatorEngineerHMDC_0E007622#NPC_:FULL#42e07beb95483db60922079a587f1e54",
+    "original": "Regulator Repairman",
+    "translation": "监管者修理工",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldierTemplate_0E009901#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficerTemplate_0E009903#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineerTemplate_0E009904#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1GunAM_0E009905#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1GunAMDEAD_0E009906#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1GunCM_0E009907#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1GunHM_0E009908#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1GunHMDEAD_0E009909#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1MeleeAAMTEMPLATE_0E00990A#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1MeleeAM_0E00990B#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1MeleeCM_0E00990C#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1MeleeHM_0E00990D#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1SniperAAMTEMPLATE_0E00990E#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1SniperAM_0E00990F#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1SniperCM_0E009910#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier1SniperHM_0E009911#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2GunAAMTEMPLATE_0E009912#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2GunAM_0E009913#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2GunCM_0E009914#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2GunHM_0E009915#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2MeleeAAMTEMPLATE_0E009916#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2MeleeAM_0E009917#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2MeleeCM_0E009918#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2MeleeHM_0E009919#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SniperAAMTEMPLATE_0E00991A#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SniperAM_0E00991B#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SniperCM_0E00991C#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SniperHM_0E00991D#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SpecialAAMTEMPLATE_0E00991E#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SpecialAM_0E00991F#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SpecialCM_0E009920#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier2SpecialHM_0E009921#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3GunAAMTEMPLATE_0E009922#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3GunAM_0E009923#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3GunCM_0E009924#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3GunHM_0E009925#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MeleeAAMTEMPLATE_0E009926#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MeleeAM_0E009927#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MeleeCM_0E009928#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MeleeHM_0E009929#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MissileAAMTEMPLATE_0E00992A#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MissileAM_0E00992B#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MissileCM_0E00992C#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3MissileHM_0E00992D#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3SniperAAMTEMPLATE_0E00992E#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3SniperAM_0E00992F#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3SniperCM_0E009930#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonSoldier3SniperHM_0E009931#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1GunAM_0E009932#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1GunAMDEAD_0E009933#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1GunCM_0E009934#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1GunHM_0E009935#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1GunHMDEAD_0E009936#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1MeleeAAMTEMPLATE_0E009937#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1MeleeAM_0E009938#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1MeleeCM_0E009939#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1MeleeHM_0E00993A#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1SniperAAMTEMPLATE_0E00993B#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1SniperAM_0E00993C#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1SniperCM_0E00993D#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer1SniperHM_0E00993E#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2GunAAMTEMPLATE_0E00993F#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2GunAM_0E009940#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2GunCM_0E009941#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2GunHM_0E009942#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2MeleeAAMTEMPLATE_0E009943#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2MeleeAM_0E009944#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2MeleeCM_0E009945#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2MeleeHM_0E009946#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SniperAAMTEMPLATE_0E009947#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SniperAM_0E009948#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SniperCM_0E009949#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SniperHM_0E00994A#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SpecialAAMTEMPLATE_0E00994B#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SpecialAM_0E00994C#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SpecialCM_0E00994D#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer2SpecialHM_0E00994E#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3GunAAMTEMPLATE_0E00994F#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3GunAM_0E009950#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3GunCM_0E009951#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3GunHM_0E009952#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MeleeAAMTEMPLATE_0E009953#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MeleeAM_0E009954#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MeleeCM_0E009955#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MeleeHM_0E009956#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MissileAAMTEMPLATE_0E009957#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MissileAM_0E009958#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MissileCM_0E009959#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3MissileHM_0E00995A#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3SniperAAMTEMPLATE_0E00995B#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3SniperAM_0E00995C#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3SniperCM_0E00995D#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonOfficer3SniperHM_0E00995E#NPC_:FULL#0c5c4c2e4297a9f81162ad4a788e0b19",
+    "original": "Talon Company Officer",
+    "translation": "鹰爪公司官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1GunAM_0E00995F#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1GunAMDEAD_0E009960#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1GunCM_0E009961#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1GunHM_0E009962#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1GunHMDEAD_0E009963#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1MeleeAAMTEMPLATE_0E009964#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1MeleeAM_0E009965#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1MeleeCM_0E009966#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1MeleeHM_0E009967#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1SniperAAMTEMPLATE_0E009968#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1SniperAM_0E009969#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1SniperCM_0E00996A#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer1SniperHM_0E00996B#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2GunAAMTEMPLATE_0E00996C#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2GunAM_0E00996D#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2GunCM_0E00996E#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2GunHM_0E00996F#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2MeleeAAMTEMPLATE_0E009970#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2MeleeAM_0E009971#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2MeleeCM_0E009972#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2MeleeHM_0E009973#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SniperAAMTEMPLATE_0E009974#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SniperAM_0E009975#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SniperCM_0E009976#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SniperHM_0E009977#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SpecialAAMTEMPLATE_0E009978#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SpecialAM_0E009979#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SpecialCM_0E00997A#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer2SpecialHM_0E00997B#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3GunAAMTEMPLATE_0E00997C#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3GunAM_0E00997D#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3GunCM_0E00997E#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3GunHM_0E00997F#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MeleeAAMTEMPLATE_0E009980#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MeleeAM_0E009981#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MeleeCM_0E009982#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MeleeHM_0E009983#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MissileAAMTEMPLATE_0E009984#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MissileAM_0E009985#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MissileCM_0E009986#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3MissileHM_0E009987#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3SniperAAMTEMPLATE_0E009988#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3SniperAM_0E009989#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3SniperCM_0E00998A#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCTalonEngineer3SniperHM_0E00998B#NPC_:FULL#9fd21a04f5323c774f0f37a023cfee33",
+    "original": "Talon Company Engineer",
+    "translation": "鹰爪公司工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierTemplate_0E00AA91#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsInnKeeper_0E00AC4D#NPC_:FULL#fd41c299a29ec291359bb52d1456168a",
+    "original": "Innkeeper",
+    "translation": "旅馆店主",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsCaravanGuard_0E00AC4F#NPC_:FULL#e022fd920dc0cce2c3a83400b5d7271d",
+    "original": "Caravan Guard",
+    "translation": "商队护卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerTemplate_0E00BBA1#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAAF_0E00BBA2#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAAM_0E00BBA3#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAAM2_0E00BBA4#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAAM3_0E00BBA5#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAF_0E00BBA6#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAF2_0E00BBA7#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAF3_0E00BBA8#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAM_0E00BBA9#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAM2_0E00BBAA#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerAM3_0E00BBAB#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCF_0E00BBAC#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCF2_0E00BBAD#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCF3_0E00BBAE#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCM_0E00BBAF#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCM2_0E00BBB0#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCM3_0E00BBB1#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCM4_0E00BBB2#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerCM5_0E00BBB3#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerHF_0E00BBB4#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerHF2_0E00BBB5#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerHF3_0E00BBB6#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerHM_0E00BBB7#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerHM2_0E00BBB8#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRREngineerHM3_0E00BBB9#NPC_:FULL#863043c6e329b47c738f8e4ce8bb1ddf",
+    "original": "Reilly's Ranger Technician",
+    "translation": "莱利的游骑兵技师",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierAAF_0E00BBBA#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierAAFGun2_0E00BBBB#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierAAM2_0E00BBBC#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierAAMMelee_0E00BBBD#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierAF_0E00BBBE#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierAM_0E00BBBF#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierCF_0E00BBC0#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierCFGun2_0E00BBC1#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierCM_0E00BBC2#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierCMGun2_0E00BBC3#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierHF_0E00BBC4#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierHFGun2_0E00BBC5#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierHM_0E00BBC6#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierHMGun2_0E00BBC7#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierLeaderAAF_0E00BBC8#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierLeaderCF_0E00BBC9#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierLeaderCM_0E00BBCA#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierLeaderHF_0E00BBCB#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRRSoldierLeaderHM_0E00BBCC#NPC_:FULL#08395584670c8692ee7bcb47d90b973f",
+    "original": "Reilly's Ranger",
+    "translation": "莱利的游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsShopKeeper_0E00BCD6#NPC_:FULL#5cf8e2c5d98fa5891f341681dae7a793",
+    "original": "Shop Keeper",
+    "translation": "店主",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonCaravaneer_0E00BCDF#NPC_:FULL#6d8bf653d1e22cd5583989e939c013a4",
+    "original": "Caravaneer",
+    "translation": "商队成员",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsPostWorker_0E00BCE3#NPC_:FULL#6a0f01cdf3f0da80354a794fa1319357",
+    "original": "Pony Express Manager",
+    "translation": "小马快递经理",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsBlacksmith_0E00BCE6#NPC_:FULL#01b5b06e6fd188e4e23771a0f067dd77",
+    "original": "Blacksmith",
+    "translation": "铁匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsBarrackCook_0E00BCF9#NPC_:FULL#8e1d61f3e2a79aa65fe25f2b899020f6",
+    "original": "Cook",
+    "translation": "烹饪",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsDoctor_0E00BD01#NPC_:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsQuartermaster_0E00BD06#NPC_:FULL#4ed99f35c0fbffe076c598b22ec48935",
+    "original": "Quartermaster",
+    "translation": "军需官",
+    "stage": 1
+  },
+  {
+    "key": "RTCMegatonMoriarty_0E00C391#NPC_:FULL#67cfbfd1731fefbeb8bbffe2c4e97edc",
+    "original": "Colin Moriarty",
+    "translation": "科林.莫里亚蒂",
+    "stage": 1
+  },
+  {
+    "key": "RTCMegatonCromwell_0E00C396#NPC_:FULL#51c9ee207e1fd72956ff95d7f9f9ad81",
+    "original": "Confessor Cromwell",
+    "translation": "忏悔者克伦威尔",
+    "stage": 1
+  },
+  {
+    "key": "RTCMegatonLeo_0E00C39A#NPC_:FULL#2938c800b7c8cbf3515d193831cf6f4a",
+    "original": "Leo Stahl",
+    "translation": "利奥·斯塔尔",
+    "stage": 1
+  },
+  {
+    "key": "RTCMotherMayaDEAD_0E00C39D#NPC_:FULL#08214e246cb2fec1a9ad71ec7912f9a8",
+    "original": "Mother Maya",
+    "translation": "玛雅修女",
+    "stage": 1
+  },
+  {
+    "key": "RTCMegatonChildOfAtom01Dead_0E00C3A0#NPC_:FULL#ac5861de600229155606b8acab7e7fc6",
+    "original": "Child of Atom",
+    "translation": "原子信徒",
+    "stage": 1
+  },
+  {
+    "key": "RTCMegatonChildofAtom02Dead_0E00C3A3#NPC_:FULL#ac5861de600229155606b8acab7e7fc6",
+    "original": "Child of Atom",
+    "translation": "原子信徒",
+    "stage": 1
+  },
+  {
+    "key": "RTCMegatonChildofAtom03Dead_0E00C3A6#NPC_:FULL#ac5861de600229155606b8acab7e7fc6",
+    "original": "Child of Atom",
+    "translation": "原子信徒",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldierTemplate_0E00CD3E#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficerTemplate_0E00CD3F#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineerTemplate_0E00CD40#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScoutTemplate_0E00CD41#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier01B_0E00CD42#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier02ATEMPLATE_0E00CD43#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier03ATEMPLATE_0E00CD44#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldierCaptain_0E00CD45#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier01_0E00CD46#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier02_0E00CD47#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier03_0E00CD48#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier04_0E00CD49#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier05_0E00CD4A#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier06_0E00CD4B#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier07_0E00CD4C#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier08_0E00CD4D#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier09_0E00CD4E#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier10_0E00CD4F#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier11_0E00CD50#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier12_0E00CD51#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldier13_0E00CD52#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldierF1TEMPLATEDC_0E00CD53#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldierM1TEMPLATEDC_0E00CD54#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldierM2DC_0E00CD55#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseSoldierM3DC_0E00CD56#NPC_:FULL#7afc03a3978217f35869a98dba8f6501",
+    "original": "Communist Soldier",
+    "translation": "共产主义战士",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer01_0E00CD57#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer01B_0E00CD58#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer02_0E00CD59#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer02ATEMPLATE_0E00CD5A#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer03_0E00CD5B#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer03ATEMPLATE_0E00CD5C#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer04_0E00CD5D#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer05_0E00CD5E#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer06_0E00CD5F#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer07_0E00CD60#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer08_0E00CD61#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer09_0E00CD62#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer10_0E00CD63#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer11_0E00CD64#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer12_0E00CD65#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficer13_0E00CD66#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficerCaptain_0E00CD67#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficerF1TEMPLATEDC_0E00CD68#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficerM1TEMPLATEDC_0E00CD69#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficerM2DC_0E00CD6A#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseOfficerM3DC_0E00CD6B#NPC_:FULL#b5f73b93ef8aa3360b47197b4372d75a",
+    "original": "Communist Officer",
+    "translation": "共产主义官员",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout01_0E00CD6D#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout01B_0E00CD6E#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout02_0E00CD6F#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout02ATEMPLATE_0E00CD70#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout03_0E00CD71#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout03ATEMPLATE_0E00CD72#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout04_0E00CD73#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout05_0E00CD74#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout06_0E00CD75#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout07_0E00CD76#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout08_0E00CD77#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout09_0E00CD78#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout10_0E00CD79#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout11_0E00CD7A#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout12_0E00CD7B#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScout13_0E00CD7C#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScoutCaptain_0E00CD7D#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScoutF1TEMPLATEDC_0E00CD7E#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScoutM1TEMPLATEDC_0E00CD7F#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScoutM2DC_0E00CD80#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseScoutM3DC_0E00CD81#NPC_:FULL#84b6a0c64deab1b00097f9ea1c27a13c",
+    "original": "Crimson Dragoon",
+    "translation": "中国军队赤龙特战兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer01_0E00CD82#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer01B_0E00CD83#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer02_0E00CD84#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer02ATEMPLATE_0E00CD85#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer03_0E00CD86#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer03ATEMPLATE_0E00CD87#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer04_0E00CD88#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer05_0E00CD89#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer06_0E00CD8A#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer07_0E00CD8B#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer08_0E00CD8C#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer09_0E00CD8D#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer10_0E00CD8E#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer11_0E00CD8F#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer12_0E00CD90#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineer13_0E00CD91#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineerCaptain_0E00CD92#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineerF1TEMPLATEDC_0E00CD93#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineerM1TEMPLATEDC_0E00CD94#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineerM2DC_0E00CD95#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCChineseEngineerM3DC_0E00CD96#NPC_:FULL#d6210be6d4316036ddec05f0da7160e7",
+    "original": "Communist Engineer",
+    "translation": "共产主义工程师",
+    "stage": 1
+  },
+  {
+    "key": "RTCGrisleyRaider_0E00D3AE#NPC_:FULL#ae8090382e4712c4ff907b44953f020d",
+    "original": "Raider",
+    "translation": "掠夺者",
+    "stage": 1
+  },
+  {
+    "key": "RTCGriselyRaiderBoss_0E00D3AF#NPC_:FULL#1527cecdf1a9d43141827de43febb393",
+    "original": "Dot",
+    "translation": "斑点",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldierTemplate_0E00E599#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficerTemplate_0E00E59A#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScoutTemplate_0E00E59B#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineerTemplate_0E00E59C#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunAAM_0E00E59D#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunAF_0E00E59E#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunAM_0E00E59F#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunCF_0E00E5A0#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunCM_0E00E5A1#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunHF_0E00E5A2#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier1GunHM_0E00E5A3#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunAAFTEMPLATE_0E00E5A4#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunAAM_0E00E5A5#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunAF_0E00E5A6#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunAM_0E00E5A7#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunCF_0E00E5A8#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunCM_0E00E5A9#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunHF_0E00E5AA#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier2GunHM_0E00E5AB#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunAAFTEMPLATE_0E00E5AC#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunAAM_0E00E5AD#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunAF_0E00E5AE#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunAM_0E00E5AF#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunCF_0E00E5B0#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunCM_0E00E5B1#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunHF_0E00E5B2#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastSoldier3GunHM_0E00E5B3#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunAAM_0E00E5B4#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunAF_0E00E5B5#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunAM_0E00E5B6#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunCF_0E00E5B7#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunCM_0E00E5B8#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunHF_0E00E5B9#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer1GunHM_0E00E5BA#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunAAFTEMPLATE_0E00E5BB#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunAAM_0E00E5BC#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunAF_0E00E5BD#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunAM_0E00E5BE#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunCF_0E00E5BF#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunCM_0E00E5C0#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunHF_0E00E5C1#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer2GunHM_0E00E5C2#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunAAFTEMPLATE_0E00E5C3#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunAAM_0E00E5C4#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunAF_0E00E5C5#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunAM_0E00E5C6#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunCF_0E00E5C7#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunCM_0E00E5C8#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunHF_0E00E5C9#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastOfficer3GunHM_0E00E5CA#NPC_:FULL#94a9eee6af93d25fca19680612b09ea6",
+    "original": "Outcast Protector",
+    "translation": "放逐者保护者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunAAM_0E00E5CB#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunAF_0E00E5CC#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunAM_0E00E5CD#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunCF_0E00E5CE#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunCM_0E00E5CF#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunHF_0E00E5D0#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout1GunHM_0E00E5D1#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunAAFTEMPLATE_0E00E5D2#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunAAM_0E00E5D3#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunAF_0E00E5D4#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunAM_0E00E5D5#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunCF_0E00E5D6#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunCM_0E00E5D7#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunHF_0E00E5D8#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout2GunHM_0E00E5D9#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunAAFTEMPLATE_0E00E5DA#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunAAM_0E00E5DB#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunAF_0E00E5DC#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunAM_0E00E5DD#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunCF_0E00E5DE#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunCM_0E00E5DF#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunHF_0E00E5E0#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastScout3GunHM_0E00E5E1#NPC_:FULL#9959ffd9aabf55a0c371432d35548878",
+    "original": "Outcast Watcher",
+    "translation": "放逐者观察者",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunAAM_0E00E5E2#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunAF_0E00E5E3#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunAM_0E00E5E4#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunCF_0E00E5E5#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunCM_0E00E5E6#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunHF_0E00E5E7#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer1GunHM_0E00E5E8#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunAAFTEMPLATE_0E00E5E9#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunAAM_0E00E5EA#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunAF_0E00E5EB#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunAM_0E00E5EC#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunCF_0E00E5ED#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunCM_0E00E5EE#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunHF_0E00E5EF#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer2GunHM_0E00E5F0#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunAAFTEMPLATE_0E00E5F1#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunAAM_0E00E5F2#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunAF_0E00E5F3#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunAM_0E00E5F4#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunCF_0E00E5F5#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunCM_0E00E5F6#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunHF_0E00E5F7#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastEngineer3GunHM_0E00E5F8#NPC_:FULL#43c2b43b749d829a86e84a61d8446fce",
+    "original": "Outcast Specialist",
+    "translation": "放逐者专家",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutTemplate_0E00E5F9#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierTemplate_0E00E5FA#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerTemplate_0E00E5FB#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerTemplate_0E00E5FC#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficer3BigGunsAAFDC_0E00E5FD#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficer3GunAAFDC_0E00E5FE#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeAAFTEMPLATEDC_0E00E5FF#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileAAFTEMPLATEDC_0E00E600#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeAAMDC_0E00E601#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeAMDC_0E00E602#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeAFDC_0E00E603#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeCMDC_0E00E604#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeCFDC_0E00E605#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeHMDC_0E00E606#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMeleeHFDC_0E00E607#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileAAMDC_0E00E608#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileAMDC_0E00E609#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileAFDC_0E00E60A#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileCMDC_0E00E60B#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileCFDC_0E00E60C#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileHMDC_0E00E60D#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonOfficerMissileHFDC_0E00E60E#NPC_:FULL#715c68fc136885501ba49300b3f91cdb",
+    "original": "Brotherhood of Steel Paladin",
+    "translation": "钢铁兄弟会圣骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunAAFDC_0E00E60F#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunAAMDC_0E00E610#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunAFDC_0E00E611#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunAMDC_0E00E612#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunCFDC_0E00E613#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunCMDC_0E00E614#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunHFDC_0E00E615#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierGunHMDC_0E00E616#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeAAFDC_0E00E617#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeAAFTEMPLATEDC_0E00E618#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeAAMDC_0E00E619#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeAFDC_0E00E61A#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeAMDC_0E00E61B#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeCFDC_0E00E61C#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeCMDC_0E00E61D#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeHFDC_0E00E61E#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonSoldierMeleeHMDC_0E00E61F#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunAAFDC_0E00E620#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunAAMDC_0E00E621#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunAFDC_0E00E622#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunAMDC_0E00E623#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunCFDC_0E00E624#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunCMDC_0E00E625#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunHFDC_0E00E626#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutGunHMDC_0E00E627#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeAAFDC_0E00E628#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeAAFTEMPLATEDC_0E00E629#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeAAMDC_0E00E62A#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeAFDC_0E00E62B#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeAMDC_0E00E62C#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeCFDC_0E00E62D#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeCMDC_0E00E62E#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeHFDC_0E00E62F#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonScoutMeleeHMDC_0E00E630#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime01_0E00E631#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime02_0E00E632#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime03_0E00E633#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime04_0E00E634#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibrary01_0E00E635#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibrary02_0E00E636#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime07_0E00E637#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime08_0E00E638#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime05_0E00E639#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerCitadelJourneymanScribeLibertyPrime06_0E00E63A#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerDLC03WQScribeATemplate_0E00E63B#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCLyonEngineerDLC03EncounterPPCBrotherhood2_0E00E63C#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunAAFDC_0E00F051#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunAAMDC_0E00F052#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunAFDC_0E00F053#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunAMDC_0E00F054#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunCFDC_0E00F055#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunCMDC_0E00F056#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunHFDC_0E00F057#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierGunHMDC_0E00F058#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeAAFDC_0E00F059#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeAAFTEMPLATEDC_0E00F05A#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeAAMDC_0E00F05B#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeAFDC_0E00F05C#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeAMDC_0E00F05D#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeCFDC_0E00F05E#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeCMDC_0E00F05F#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeHFDC_0E00F060#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierMeleeHMDC_0E00F061#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildSoldierTemplate_0E00F062#NPC_:FULL#00e3f3d9ddce7a061f1e353e5960fc9e",
+    "original": "Brotherhood of Steel Footman",
+    "translation": "钢铁兄弟会步兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunAAFDC_0E00F063#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunAAMDC_0E00F064#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunAFDC_0E00F065#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunAMDC_0E00F066#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunCFDC_0E00F067#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunCMDC_0E00F068#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunHFDC_0E00F069#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutGunHMDC_0E00F06A#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeAAFDC_0E00F06B#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeAAFTEMPLATEDC_0E00F06C#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeAAMDC_0E00F06D#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeAFDC_0E00F06E#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeAMDC_0E00F06F#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeCFDC_0E00F070#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeCMDC_0E00F071#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeHFDC_0E00F072#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutMeleeHMDC_0E00F073#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildScoutTemplate_0E00F074#NPC_:FULL#88c86bec57be0ca99a056d7ae8ef3fd0",
+    "original": "Brotherhood of Steel Yeoman",
+    "translation": "钢铁兄弟会侍从",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAAF2DC_0E00F075#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAAF3DC_0E00F076#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAAM2DC_0E00F077#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAAM3DC_0E00F078#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAAMDC_0E00F079#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAF2DC_0E00F07A#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAF3DC_0E00F07B#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAFDC_0E00F07C#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAM2DC_0E00F07D#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAM3DC_0E00F07E#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerAMDC_0E00F07F#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCF2DC_0E00F080#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCF3DC_0E00F081#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCFDC_0E00F082#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCM2DC_0E00F083#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCM3DC_0E00F084#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCM4DC_0E00F085#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCM5DC_0E00F086#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerCMDC_0E00F087#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerHF2DC_0E00F088#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerHF3DC_0E00F089#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerHFDC_0E00F08A#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerHM2DC_0E00F08B#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerHM3DC_0E00F08C#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerHMDC_0E00F08D#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCRebuildEngineerTemplate_0E00F08E#NPC_:FULL#160dfc5a957ccd35a25fc45eb3b2c306",
+    "original": "Brotherhood of Steel Smith",
+    "translation": "钢铁兄弟会工匠",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAAFTEMPLATEDC_0E00F6B2#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAAF2DC_0E00F6B3#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAAF3DC_0E00F6B4#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAAM2DC_0E00F6B5#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAAM3DC_0E00F6B6#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAAMDC_0E00F6B7#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAF2DC_0E00F6B8#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAF3DC_0E00F6B9#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAFDC_0E00F6BA#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAM2DC_0E00F6BB#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAM3DC_0E00F6BC#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerAMDC_0E00F6BD#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCF2DC_0E00F6BE#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCF3DC_0E00F6BF#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCFDC_0E00F6C0#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCM2DC_0E00F6C1#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCM3DC_0E00F6C2#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCM4DC_0E00F6C3#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCM5DC_0E00F6C4#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerCMDC_0E00F6C5#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerHF2DC_0E00F6C6#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerHF3DC_0E00F6C7#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerHFDC_0E00F6C8#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerHM2DC_0E00F6C9#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerHM3DC_0E00F6CA#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCWastelandSettlerHMDC_0E00F6CB#NPC_:FULL#f0cce5583db08bf195063440e21c4b6e",
+    "original": "Wasteland Settler",
+    "translation": "废土居民",
+    "stage": 1
+  },
+  {
+    "key": "RTCFortIndepDoctor_0E0121D0#NPC_:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCFortIndepOutcastCross_0E0123CF#NPC_:FULL#cf47955b4fb23730560281faf74e53ba",
+    "original": "Brotherhood Outcast",
+    "translation": "兄弟会放逐者",
+    "stage": 1
+  },
+  {
+    "key": "RTCFortIndepQuartermaster_0E0123D2#NPC_:FULL#4ed99f35c0fbffe076c598b22ec48935",
+    "original": "Quartermaster",
+    "translation": "军需官",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierTemplate_0E012581#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerTemplate_0E012582#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityBridgePostNight_0E012583#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityGatePostDay_0E012584#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityGatePostNight_0E012585#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityHangarPostDay_0E012586#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityHangarPostNight_0E012587#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityPatrolDay_0E012588#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityPatrolMid_0E012589#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityPatrolNight_0E01258A#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierRCSecurityPatrolUpper_0E01258B#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerAAF_0E01258C#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerAAM_0E01258D#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerCF_0E01258E#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerCF2_0E01258F#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerCM_0E012590#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerCM2_0E012591#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerHF_0E012592#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerHM_0E012593#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerMatrixAAM_0E012594#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerMatrixAF_0E012595#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerMatrixCM_0E012596#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCEngineerTeacher_0E012597#NPC_:FULL#4c7b2f69aa13b921a59e91efbc9ad3f8",
+    "original": "Rivet City Scientist",
+    "translation": "铆钉城科学家",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunAAFDC_0E0136BC#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunAAMDC_0E0136BD#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunAFDC_0E0136BE#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunAMDC_0E0136BF#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunCFDC_0E0136C0#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunCMDC_0E0136C1#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunHFDC_0E0136C2#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierGunHMDC_0E0136C3#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeAAFDC_0E0136C4#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeAAFTEMPLATEDC_0E0136C5#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeAAMDC_0E0136C6#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeAFDC_0E0136C7#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeAMDC_0E0136C8#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeCFDC_0E0136C9#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeCMDC_0E0136CA#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeHFDC_0E0136CB#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCRCSoldierMeleeHMDC_0E0136CC#NPC_:FULL#c854b24a25a2dfcc155db8704c65d7ff",
+    "original": "Rivet City Security",
+    "translation": "铆钉城警卫",
+    "stage": 1
+  },
+  {
+    "key": "RTCDairyRaiderBoss_0E014B60#NPC_:FULL#b306c2a17b9d80b163a36ef10b7f5571",
+    "original": "The Milkman",
+    "translation": "牛奶人",
+    "stage": 1
+  },
+  {
+    "key": "RTCCharnelBoss_0E017957#NPC_:FULL#4f9b3674c4a701f21f99c280c34d94c3",
+    "original": "Femur",
+    "translation": "大腿骨",
+    "stage": 1
+  },
+  {
+    "key": "RTCBigTownShopKeeper_0E0190DF#NPC_:FULL#a9dc44df1ea35569b1ac106d2c90d727",
+    "original": "Big Town Shop Keeper",
+    "translation": "大镇店主",
+    "stage": 1
+  },
+  {
+    "key": "RTCLincolnQuartermaster_0E01AF54#NPC_:FULL#4ed99f35c0fbffe076c598b22ec48935",
+    "original": "Quartermaster",
+    "translation": "军需官",
+    "stage": 1
+  },
+  {
+    "key": "RTCLincolnCaravaneer_0E01AF5D#NPC_:FULL#6d8bf653d1e22cd5583989e939c013a4",
+    "original": "Caravaneer",
+    "translation": "商队成员",
+    "stage": 1
+  },
+  {
+    "key": "RTCFriendshipRaiderBoss_0E01F1D3#NPC_:FULL#678a7042b9cbb1040f6a78a99811f4ac",
+    "original": "Ticket-to-Ride",
+    "translation": "乘车票",
+    "stage": 1
+  },
+  {
+    "key": "RTCFriendshipRaiderCross_0E01F1DB#NPC_:FULL#ae8090382e4712c4ff907b44953f020d",
+    "original": "Raider",
+    "translation": "掠夺者",
+    "stage": 1
+  },
+  {
+    "key": "RTCHawthroneCross_0E025588#NPC_:FULL#fa789a147da4d21a4cd209c0a9289ca4",
+    "original": "Michael Hawthorne",
+    "translation": "迈克尔·霍桑",
+    "stage": 1
+  },
+  {
+    "key": "RTCFBDoctor_0E030E06#NPC_:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCFBQuartermaster_0E030E0E#NPC_:FULL#4ed99f35c0fbffe076c598b22ec48935",
+    "original": "Quartermaster",
+    "translation": "军需官",
+    "stage": 1
+  },
+  {
+    "key": "RTCFBCrossA_0E031E84#NPC_:FULL#8279eb20d93e88730a3ff34c9bd2fe50",
+    "original": "Talon Company Merc",
+    "translation": "鹰爪雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCWheatonBoss_0E03408F#NPC_:FULL#cceec5688727b6196a94b1acf03bae94",
+    "original": "A-Bomb",
+    "translation": "原子弹",
+    "stage": 1
+  },
+  {
+    "key": "RTCPs08Raidercross_0E038354#NPC_:FULL#ae8090382e4712c4ff907b44953f020d",
+    "original": "Raider",
+    "translation": "掠夺者",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultCreatureDoctor_0E001991#CREA:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultAnimalDoctor_0E001992#CREA:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCOutcastRobobrain_0E00293F#CREA:FULL#98bbaee80070ea95a241cdd40879d913",
+    "original": "Outcast Robobrain",
+    "translation": "游荡的机器脑",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCreatureCook_0E004079#CREA:FULL#8e1d61f3e2a79aa65fe25f2b899020f6",
+    "original": "Cook",
+    "translation": "烹饪",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCreatureAnimalCook_0E00407B#CREA:FULL#8e1d61f3e2a79aa65fe25f2b899020f6",
+    "original": "Cook",
+    "translation": "烹饪",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWVaultCreatureQuarterMaster_0E0042F6#CREA:FULL#4ed99f35c0fbffe076c598b22ec48935",
+    "original": "Quartermaster",
+    "translation": "军需官",
+    "stage": 1
+  },
+  {
+    "key": "RTCCommonsCreatureDoctor_0E00BCFF#CREA:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCSwampfolkScrapper_0E00DE2A#CREA:FULL#62dc2617045f8a0744b60af48d1808bc",
+    "original": "Friendly Scrapper",
+    "translation": "友好的嗜斗狂",
+    "stage": 1
+  },
+  {
+    "key": "RTCSwampfolkBrawler_0E00DE2B#CREA:FULL#5ebd3face9a837c2e403db98c85a1efd",
+    "original": "Friendly Brawler",
+    "translation": "友好的暴躁狂",
+    "stage": 1
+  },
+  {
+    "key": "RTCSwampfolkCreeper_0E00DE2C#CREA:FULL#1c9e9731b138fe4fa5fe6c4470297050",
+    "original": "Friendly Creeper",
+    "translation": "友好的瘸行狂",
+    "stage": 1
+  },
+  {
+    "key": "RTCSwampfolkTracker_0E00DE2D#CREA:FULL#3d934407895d7a623ac26158392ed5eb",
+    "original": "Friendly Tracker",
+    "translation": "友好的追踪狂",
+    "stage": 1
+  },
+  {
+    "key": "RTCSwampfolkBruiser_0E00DE2E#CREA:FULL#a0e821cae58d8dd93c30506ba179a1c5",
+    "original": "Friendly Bruiser",
+    "translation": "友好的捣碎狂",
+    "stage": 1
+  },
+  {
+    "key": "RTCZetaSoldier_0E00DE31#CREA:FULL#6996cae73b082d6af434b77c32e22220",
+    "original": "Zetan Trooper",
+    "translation": "泽塔士兵",
+    "stage": 1
+  },
+  {
+    "key": "RTCZetaGuardianDrone_0E00DE32#CREA:FULL#db8ac3c99e7fe0910c5becdf47c9bcc3",
+    "original": "Zetan Guardian Drone",
+    "translation": "泽塔护卫无人机",
+    "stage": 1
+  },
+  {
+    "key": "RTCZetaSupportDrone_0E00DE33#CREA:FULL#075bb77379d3c91e0ef6bb012aee5681",
+    "original": "Zetan Support Drone",
+    "translation": "泽塔支援无人机",
+    "stage": 1
+  },
+  {
+    "key": "RTCFortIndepCreatureDoctor_0E0121D3#CREA:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCCarFortGhoul_0E01B289#CREA:FULL#c8f7daa157404a22a70aa17e1fc1f157",
+    "original": "Old Mechanic",
+    "translation": "老机械师",
+    "stage": 1
+  },
+  {
+    "key": "RTCShakesDead_0E0244EB#CREA:FULL#acddaed0dab3194f9d62fcb258a87714",
+    "original": "Shakes",
+    "translation": "阿摇",
+    "stage": 1
+  },
+  {
+    "key": "RTCFBCreatureDoctor_0E030E0C#CREA:FULL#05b40b01fb8b73c3aebd1203ee798e93",
+    "original": "Doctor",
+    "translation": "医生",
+    "stage": 1
+  },
+  {
+    "key": "RTCgloveLeft_0E00DE3C#ARMA:FULL#d3b61bef7741edb3f068e33e0ae2e3c4",
+    "original": "BOSgloveLeft",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCgloveRight_0E00DE3D#ARMA:FULL#97de265d9b9971a7fd1a1c15ba23147b",
+    "original": "BOSgloveRight",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCyeomengloveright_0E00DE3E#ARMA:FULL#02bb639e4af66791cd3d143bdb8f4d69",
+    "original": "00BOSyeomengloveright",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCyeomengloveLeft_0E00DE3F#ARMA:FULL#0e89d292f2dc8fc1dd788f1505c21da3",
+    "original": "BOSyeomengloveLeft",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWCommandMSGArefu_0E004DCA#MESG:DESC#ea790d25831eb3d2b61445cd68ca0cfe",
+    "original": "Word along the caravan routes is that Arefu is suffering harrassment at the hands of a nearby gang. If you help them deal with the problem, they may be willing to join us.",
+    "translation": "沿着商队路线，有流言说阿雷富正被附近的帮派骚扰。如果你帮他们解决问题，他们也许会愿意加入我们。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGArefu_0E004DCA#MESG:FULL#487bf564c2f14d60d4c059b18ced0b12",
+    "original": "Arefu",
+    "translation": "断桥镇",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGCommons_0E00A9ED#MESG:DESC#ce83d648e2b57040f65958dd7f4c5fd9",
+    "original": "Word out of Canterbury Commons is that the town has been caught in between two battling costumed \"super heros.\"\\n\\nAs entertaining as it might be, the comic book spectacle has caused caravanners to avoid the settlement. If you help bring order back to the Canterbury Commons, the traders should follow, and we can establish an outpost.",
+    "translation": "传言称坎特伯雷社区中正上演两个“超级英雄”的战斗。\\n\\n也许这很有趣，但是这漫画式的障碍已使商队回避这个定居点。如果你帮坎特伯雷社区恢复秩序，商人们就会回归，而我们可以建立一个前哨。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGCommons_0E00A9ED#MESG:FULL#0c2e67b9865b1565e89182ddc2750088",
+    "original": "Canterbury Commons",
+    "translation": "坎特伯雷社区",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGAndale_0E00CC6B#MESG:DESC#28c74a3034dc58607c38326f8cc2835f",
+    "original": "On the surface, Andale appears to be a picturesque, all-American town.\\n\\nBut there is something...off about the residents. You should investigate and see if the townsfolks have any skeletons in their closets or perhaps in their refrigerators.",
+    "translation": "表面上，安戴尔是一个如画般的美式小镇。\\n\\n但那里的居民有些不对劲……你应该调查一下镇民的衣橱和冰箱，看看里面有没有骷髅！",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGAndale_0E00CC6B#MESG:FULL#2cd0ae940301f3857bca0077e63909f9",
+    "original": "Andale",
+    "translation": "安戴尔",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGVault_0E01544C#MESG:DESC#f5425e9eeec9034c3803f4d11369e3c2",
+    "original": "Placeholder",
+    "translation": "占位符",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGVault_0E01544C#MESG:FULL#bbf89dfd7ef477a166680ee42f2f4b71",
+    "original": "Vault",
+    "translation": "避难所",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGMegaton_0E015C04#MESG:DESC#23d253003887d40b74cb31b28f9477d8",
+    "original": "Before we can move into the settlement, the iconic bomb of Megaton should be diffused.",
+    "translation": "在我们进驻该定居点前，其中标志性的核弹必须被解除。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGMegaton_0E015C04#MESG:FULL#5f7ed3ee7551ea0e806e85e73ba42a9e",
+    "original": "Megaton",
+    "translation": "核弹镇",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGGrisley_0E015C05#MESG:DESC#c5988bbba2a3b8730fa92dcf0349f516",
+    "original": "The ruined diner has been occupied by a group of raiders who harrass passerbys. If you take out the raider leader, Dot, the diner can be turned into an outpost.",
+    "translation": "这个毁坏的餐厅已被一伙掠夺者占据，骚扰附近的行人。如果你干掉头目，斑点，这就能成为一处前哨。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGGrisley_0E015C05#MESG:FULL#aef9b1ba2e0c911e45c2677c115ee925",
+    "original": "Grisly Diner",
+    "translation": "画皮餐厅",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGDairy_0E015C06#MESG:DESC#bcbe1c1e72e29a639fc4290825c5b9e6",
+    "original": "The farm's fields sits unused with barn used as a hideout for a gang of raiders. You will need to take out the gang's leader before we can take over the farm.",
+    "translation": "牧场的土地被闲置着，而谷仓被用作掠夺者的藏身处。先干掉掠夺者头目，我们才能夺取牧场。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGDairy_0E015C06#MESG:FULL#485880509bef02fa30b8b765bf6c55c9",
+    "original": "Chaste Acres Dairy Farm",
+    "translation": "处女地乳业牧场",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGCharnel_0E017907#MESG:DESC#80829d2fcce6abe521e858ae405670da",
+    "original": "Like many other bombed out houses in the wasteland, the aptly named Charnel House is occupied by a gang of raiders.\\n\\nKill their leader, and they should scatter.",
+    "translation": "正如废土上其它被轰炸的房屋一样，藏骸所目前正被掠夺者占据。\\n\\n杀掉头目，其余自会鸟兽散。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGCharnel_0E017907#MESG:FULL#d9c66e2735faa21fde3fe580d0b4ffdf",
+    "original": "Charnel House",
+    "translation": "藏骸所",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGFortIndep_0E017943#MESG:DESC#756856f6965e0b7d3c578c1b1ea9d66d",
+    "original": "Fort Independence is currently serving as the headquarters for the Brotherhood Outcasts.\\n\\nIf you kill their leader, Protector Casdin, we could move in and secure the Fort.\\n\\nYou could also work on gaining their trust, and perhaps we could ally with the Outcasts.",
+    "translation": "独立堡目前是兄弟会放逐者的总部。\\n\\n如果你杀掉他们的领袖，保护者卡斯丁，我们就能进驻要塞。\\n\\n你也可以尝试获得他们的信任，我们或许可以和放逐者结盟。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGFortIndep_0E017943#MESG:FULL#642f4aa9e9b5e8046f19a864b0875887",
+    "original": "Fort Independence",
+    "translation": "独立堡",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGBigTown_0E0190F4#MESG:DESC#ad38787e3c6d88abd018a6e15df35e64",
+    "original": "The settlement of Big Town has seen better days and is frequently raided by Super Mutants.\\n\\nIf you help townfolk with the troubles, they might be interested in joining us.",
+    "translation": "大镇曾比现在更美好，如今它经常被超级变种人劫掠。\\n\\n如果你帮助镇民解决麻烦，他们也许会加入我们。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGBigTown_0E0190F4#MESG:FULL#1d8c19e00e7829b6c84d20ee37319c33",
+    "original": "Big Town",
+    "translation": "大镇",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGLincoln_0E01AF6C#MESG:DESC#4034f5b1a9a9fdf13ca94c0475a8591f",
+    "original": "There are reports that the Lincoln Memorial is occupied by a group of heavily armed men.\\n\\nIt might be worth investigating further.",
+    "translation": "报告称林肯纪念堂被一伙高度武装的人占据。\\n\\n也许值得进一步调查。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGLincoln_0E01AF6C#MESG:FULL#2cc43f9aa5f465654b2db776aee5f6fb",
+    "original": "Lincoln Memorial",
+    "translation": "林肯纪念堂",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGCarFort_0E01B296#MESG:DESC#15be13e6e4ed44f1fe3b62eb8f441740",
+    "original": "There are rumors of a fort constructed out of scrapped cars located somewhere in the north. If you can find it and secure it, we could turn it into an outpost.",
+    "translation": "传言称在北部某处有个由废弃车辆构筑的要塞。如果你能找到它，我们可以把它作为前哨。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGCarFort_0E01B296#MESG:FULL#23f3f6276cece31e754df89d363b1305",
+    "original": "Abandoned Car Fort",
+    "translation": "废弃的汽车销售点",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGFriendship_0E01E0DE#MESG:DESC#a57bbfedae338eb6c27817e5db9e3388",
+    "original": "The DC Ruins is connected by a series of underground metro lines. Friendship Heights serves as an important entryway into this metro system.\\n\\nBefore we can establish a checkpoint at the metro stop, we need to clear out the raiders occupying it first.",
+    "translation": "首都废墟的各处被一系列地下铁线路连接着。友谊高地是进入这个地铁系统的关键点。\\n\\n在地铁站建立检查点前，我们需要清除那里的掠夺者。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGFriendship_0E01E0DE#MESG:FULL#645740f8912776a24ee360ec55757ced",
+    "original": "Friendship Heights",
+    "translation": "友谊高地",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGGirder_0E021366#MESG:DESC#312e4bce63c373aff51f139dd20d43ba",
+    "original": "The often ignored if not totally forgotten settlement of Girdershade has very little of note.\\n\\nStill, rumors of a woman in search of Nuka-Cola Quantum may be worth investigating.",
+    "translation": "梁影镇这个常被忽视的定居点几乎没什么值得注意的。\\n\\n不过，谣言说有个女人正在搜集量子核子可乐，也许值得调查。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGGirder_0E021366#MESG:FULL#c56f16ab90baeca2e1f46ca9c088f338",
+    "original": "Girdershade",
+    "translation": "梁影镇",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGTenpenny_0E025583#MESG:DESC#33553e015f68a9540f6d34adca4a158e",
+    "original": "The residents of Tenpenny Tower are apparently being harrassed by ghouls.\\n\\nIf you help them deal with their unwelcome guest, then perhaps they will be interested in working with us.",
+    "translation": "特佩尼塔的居民们看起来正被尸鬼骚扰。\\n\\n如果你帮他们解决不速之客，也许他们会加入我们。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGTenpenny_0E025583#MESG:FULL#81ae296de3c57a40508b07e01e28ee01",
+    "original": "Tenpenny Tower",
+    "translation": "特佩尼塔",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGRes_0E0287A2#MESG:DESC#f49e828d3b623763ed964062293e76ea",
+    "original": "Currently overrun by a gang of raiders, the water treatment plant is in a sorry state.\\n\\nIf you deal with the raiders and look into repairing the plant, then we can take control of the reservoir.",
+    "translation": "水处理厂正被被掠夺者占据着，并且状态很差。\\n\\n如果你能除掉掠夺者并修复水处理厂，那我们就能控制水库。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGRes_0E0287A2#MESG:FULL#e3419b2616420fda657918ebd95e603c",
+    "original": "Montgomery County Reservoir",
+    "translation": "蒙哥马利水库",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGNW05_0E02987C#MESG:DESC#2ec618c40a46adefa6a44fe7d0ea44de",
+    "original": "There is a mad scientist working at the old Satelitte Facilty who is guarded by Talon Company Mercs.\\n\\nWhatever she is up to, it can't be good.",
+    "translation": "鹰爪公司雇佣兵们在那个老卫星设施中保护着一个疯狂科学家。\\n\\n无论她在搞什么，肯定不是好事。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGNW05_0E02987C#MESG:FULL#443a85b996ecbadfb175d476f1feca29",
+    "original": "SatCom Array NW-05a",
+    "translation": "卫星通讯阵列 NW-05a",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGFB_0E030E11#MESG:DESC#cfe3bab3b0cfe377b07ed3722ab13205",
+    "original": "The headquarters of the merciless Talon Company, Fort Bannister is one of most heavily armed locations in wasteland.\\n\\nCommander Jabsco leads the mercs from a bunker somewhere under the fort. Killing him would deal a serious blow to Talon Company.",
+    "translation": "作为无情的鹰爪公司的总部，班尼斯特要塞是废土中武装程度最高的地点之一。\\n\\n指挥官雅布斯科从要塞底下某处的地堡中领导着佣兵们。杀掉他将重创鹰爪公司。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGFB_0E030E11#MESG:FULL#8a7a4dabf6ccaa6133f3177885aff897",
+    "original": "Fort Bannister",
+    "translation": "班尼斯特要塞",
+    "stage": 1
+  },
+  {
+    "key": "TestMSG_0E034027#MESG:DESC#90d8f83e41fa78e245731498c2f613df",
+    "original": "&sVampireFeed; is real",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "RTCTTWCommandMSGWheaton_0E0340A3#MESG:DESC#b7650e20d6d5c90b90fbecdd2a2117d0",
+    "original": "The irradiated and ruined Wheaton Armory is occupied by a gang of raiders who are lead by a ghoul.\\n\\nWhatever weapons that are stored in the armory are too valuable to be left in the hands of raiders.",
+    "translation": "充满辐射的威顿军械库目前被一伙由尸鬼带领的掠夺者占据。\\n\\n无论里面藏着什么武器，我们都不能把它们留给掠夺者。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGWheaton_0E0340A3#MESG:FULL#5db35340db5cf95f0c2dc894ed7e9601",
+    "original": "Wheaton Armory",
+    "translation": "威顿军械库",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGWash_0E03516C#MESG:DESC#19bc86f4e4029d4b569dc4ae60deca00",
+    "original": "The Washington Monument serves as a small outpost for Lyon's Knights.\\n\\nA top the monument is a GNR satellite dish. Based on the static on the radio, the dish is needed of repairs or even replacement.",
+    "translation": "华盛顿纪念碑是里昂斯的骑士们的一处小前哨。\\n\\n在纪念碑顶部的是银河新闻电台的卫星接收器，它需要维修，甚至更换。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGWash_0E03516C#MESG:FULL#ce609765b0d749385a9134bbf9342b2a",
+    "original": "Washington Monument",
+    "translation": "华盛顿纪念碑",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGPS08_0E03836D#MESG:DESC#00b0b8d447084787046abcbf755a0391",
+    "original": "The power station once belonged to Brotherhood of Steel, but has since been occupied by a gang of raiders.",
+    "translation": "这座发电站一度属于钢铁兄弟会，但目前正被一伙掠夺者占据。",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWCommandMSGPS08_0E03836D#MESG:FULL#3b415c09e569759c9c474a6f304d6a67",
+    "original": "MDPL Mass Relay Station",
+    "translation": "MDPL中继站",
+    "stage": 1
+  },
+  {
+    "key": "Tenpenny01_06017F34#CELL:FULL#7fd22657986be793ef5204f5eb49e81b",
+    "original": "Tenpenny Tower Lobby",
+    "translation": "特佩尼大厦大厅",
+    "stage": 1
+  },
+  {
+    "key": "FortBannister01_0604363E#CELL:FULL#46f6501966d621df00a0c125e6699af7",
+    "original": "Commanding Officer's Quarters",
+    "translation": "指挥官生活区",
+    "stage": 1
+  },
+  {
+    "key": "MegatonCratersideSupply_06003A2A#CELL:FULL#282ff3a76f71defbba932cddf378a6c8",
+    "original": "Craterside Supply",
+    "translation": "坑边杂货店",
+    "stage": 1
+  },
+  {
+    "key": "MegatonMoriartysSaloon_06003A35#CELL:FULL#94ca9752edd1aa9839e06dc772fa1562",
+    "original": "Moriarty's Saloon",
+    "translation": "莫里亚蒂的酒吧",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyTradePost_0E00609B#CELL:FULL#0d87c200f3fc33eb1e8542cfec09f8a9",
+    "original": "Canterbury Supply Store",
+    "translation": "坎特伯雷补给商店",
+    "stage": 1
+  },
+  {
+    "key": "RTCBigTownOutpost_0E017D69#CELL:FULL#6cc09e42c6540e1dadc60b1155a8233f",
+    "original": "Big Town Barracks",
+    "translation": "大镇营房",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyDominic_0E02A207#CELL:FULL#b14ff05666d42b949f18b29dab67daf8",
+    "original": "Dominic and Machete's House",
+    "translation": "多米尼克和玛切蒂的房子",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWBunkerB_0E00CEE1#CELL:FULL#dcbc1ca85413970176cf1380034470de",
+    "original": "Abandoned Vault - Lower Level",
+    "translation": "废弃避难所-底层",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0E00E0BC#REFR:XATO#a359e798d1930b780a1e0b7698e5bc45",
+    "original": "Inspect Ventilator Duct",
+    "translation": "检查通风口导管",
+    "stage": 1
+  },
+  {
+    "key": "FortBannister03_0601A272#CELL:FULL#60e474ab7723070f065c635edfe87487",
+    "original": "Fort Bannister Main",
+    "translation": "班尼斯特要塞主体",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyPonyXpress_0E040E36#CELL:FULL#8ede866862e1e12baedf75eee26fd6fd",
+    "original": "Pony Express Office",
+    "translation": "小马快递办公室",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWBunkerA_0E00186D#CELL:FULL#b036f0a46847aaefd863d528ef372b93",
+    "original": "Abandoned Vault - Entrance",
+    "translation": "废弃避难所-入口",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0E00187E#REFR:XATO#a359e798d1930b780a1e0b7698e5bc45",
+    "original": "Inspect Ventilator Duct",
+    "translation": "检查通风口导管",
+    "stage": 1
+  },
+  {
+    "key": "MegatonChildrenofAtom_06003A2D#CELL:FULL#ab0861a8f7b94e666ce5dd6c119748ff",
+    "original": "Children of Atom",
+    "translation": "原子信徒",
+    "stage": 1
+  },
+  {
+    "key": "LincolnMuseum_0606C019#CELL:FULL#6d37343dfc60cb170c258b3bcbe98329",
+    "original": "Memorial Maintenance Room",
+    "translation": "纪念馆维修间",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWBunkerD_0E002AF1#CELL:FULL#a27744017526dd53b71dc46cc40439ab",
+    "original": "Abandoned Vault - Overseer's Room",
+    "translation": "废弃避难所-监督者办公室",
+    "stage": 1
+  },
+  {
+    "key": "BigTownRedClinic_06024D78#CELL:FULL#dcb8391df5d13f2b5b6c3d92360cc0ad",
+    "original": "Big Town, Red's Clinic",
+    "translation": "大镇, 瑞德的诊所",
+    "stage": 1
+  },
+  {
+    "key": "BigTownCommonHouse2_0602ABA6#CELL:FULL#cd75c580981c982f0dbbadad9bf8fb02",
+    "original": "Big Town, Common House",
+    "translation": "大镇, 公用房屋",
+    "stage": 1
+  },
+  {
+    "key": "FriendshipMetro02_0601A288#CELL:FULL#05514ea6cc1810a5c0233a36e6e6f711",
+    "original": "Tenleytown/Friendship Station",
+    "translation": "藤蕾镇/友谊街车站",
+    "stage": 1
+  },
+  {
+    "key": "MegatonClinic_06003A2E#CELL:FULL#96e4a436f673ef0dd895acce55612765",
+    "original": "Megaton Clinic",
+    "translation": "核弹镇诊所",
+    "stage": 1
+  },
+  {
+    "key": "AndaleTheWilsonsShed_0602DC02#CELL:FULL#6b9ef0f639d156a70392fbe637eefeb4",
+    "original": "Garden Shed",
+    "translation": "花园大棚",
+    "stage": 1
+  },
+  {
+    "key": "BigTownTownHall_06024D79#CELL:FULL#be82acc8e00ca4ee5c652367a9f1d41a",
+    "original": "Big Town, Town Hall",
+    "translation": "大镇, 议事室",
+    "stage": 1
+  },
+  {
+    "key": "BigTownCommonHouse1_0602ABA7#CELL:FULL#c2f022bfb62b0588c392ed7a5f5cda7d",
+    "original": "Big Town, Clubhouse",
+    "translation": "大镇, 更衣室",
+    "stage": 1
+  },
+  {
+    "key": "MegatonTheBrassLantern_06003A2F#CELL:FULL#86075b49a461e93e98512494e9ad2c6e",
+    "original": "The Brass Lantern",
+    "translation": "黄铜灯",
+    "stage": 1
+  },
+  {
+    "key": "AndaleTheSmithsBasement_0602DC03#CELL:FULL#f6c78d5d44362185db60b622760d6bf9",
+    "original": "The Smith's House Basement",
+    "translation": "史密斯住所地下室",
+    "stage": 1
+  },
+  {
+    "key": "AndaleTheWilsonsHouse_06024D7A#CELL:FULL#c5a69887690a73d296822669a780802c",
+    "original": "The Wilson's House",
+    "translation": "威尔逊的房子",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyPorter_0E007414#CELL:FULL#80ad43cbfbfdee9209f06dd32a63c93c",
+    "original": "Joe Porter's House",
+    "translation": "乔.波特的房子",
+    "stage": 1
+  },
+  {
+    "key": "SatcomArray01a_06064BF0#CELL:FULL#0d24cfa982369cddc347032d1b5fc92d",
+    "original": "Satellite Facility",
+    "translation": "卫星设施",
+    "stage": 1
+  },
+  {
+    "key": "CanterburyGarage_060AB546#CELL:FULL#b14ff05666d42b949f18b29dab67daf8",
+    "original": "Dominic and Machete's House",
+    "translation": "多米尼克和玛切蒂的房子",
+    "stage": 1
+  },
+  {
+    "key": "MegatonMisterBurkesHouse_06003A30#CELL:FULL#18ed546de1460c54f0c0772c88006fd6",
+    "original": "Mister Burke's House",
+    "translation": "伯克先生的房子",
+    "stage": 1
+  },
+  {
+    "key": "AndaleTheSmithsHouse_06024D7B#CELL:FULL#30f9166cd0694a53c754cf00e6dd7066",
+    "original": "The Smith's House",
+    "translation": "史密斯住所",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyBarracks_0E004DCD#CELL:FULL#7279dcc9a3a762cdf4de6f01670d3416",
+    "original": "Canterbury Barracks",
+    "translation": "坎特伯雷营房",
+    "stage": 1
+  },
+  {
+    "key": "FortBannister02_0604363B#CELL:FULL#4563d2ba6c82907084c91290b26a6e2e",
+    "original": "Fort Bannister Bunker",
+    "translation": "班尼斯特要塞地堡",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyInn_0E007299#CELL:FULL#812f657ec9791b2104ba5be0ed4f7dc4",
+    "original": "Caravanner's Respite",
+    "translation": "商队歇息处",
+    "stage": 1
+  },
+  {
+    "key": "SatcomArray01bb_06082DF9#CELL:FULL#0d24cfa982369cddc347032d1b5fc92d",
+    "original": "Satellite Facility",
+    "translation": "卫星设施",
+    "stage": 1
+  },
+  {
+    "key": "zWheatonArmory_060534AF#CELL:FULL#5db35340db5cf95f0c2dc894ed7e9601",
+    "original": "Wheaton Armory",
+    "translation": "威顿军械库",
+    "stage": 1
+  },
+  {
+    "key": "RTCCanterburyUncleRoe_0E00899C#CELL:FULL#8ee6b21fca846f7c642b2e62d8d7117f",
+    "original": "Uncle Roe's House",
+    "translation": "罗伊大叔的房子",
+    "stage": 1
+  },
+  {
+    "key": "RTCTTWBunkerC_0E013522#CELL:FULL#ffa39ecfe9aba214a4f3e34a4147a4a3",
+    "original": "Abandoned Vault - Upper Level",
+    "translation": "废弃避难所-上层",
+    "stage": 1
+  },
+  {
+    "key": "FortIndependence02_0603D444#CELL:FULL#cc96bf69f463054863dbaac9c76c268e",
+    "original": "Fort Independence Lower Level",
+    "translation": "独立堡下层",
+    "stage": 1
+  },
+  {
+    "key": "RTCFortIndependence01_0E03655E#CELL:FULL#642f4aa9e9b5e8046f19a864b0875887",
+    "original": "Fort Independence",
+    "translation": "独立堡",
+    "stage": 1
+  },
+  {
+    "key": "CanterburyUncleRoesHouse_06036F5F#CELL:FULL#ea5d2b2c31e51fb38aa1b7d4e417fd73",
+    "original": "Ernest \"Uncle\" Roe's House",
+    "translation": "热心肠洛易“大叔”的房子",
+    "stage": 1
+  },
+  {
+    "key": "zPS08Interior_0604363D#CELL:FULL#8245ab42db46323209b297eb30c6eba7",
+    "original": "Power Station",
+    "translation": "电站",
+    "stage": 1
+  },
+  {
+    "key": "FortIndependence01_0603D445#CELL:FULL#642f4aa9e9b5e8046f19a864b0875887",
+    "original": "Fort Independence",
+    "translation": "独立堡",
+    "stage": 1
+  },
+  {
+    "key": "RTCBigTownSTore_0E017D71#CELL:FULL#e891f468af9c4418d13382b3a258a2be",
+    "original": "Big Town Trading Post",
+    "translation": "大镇贸易站",
+    "stage": 1
+  },
+  {
+    "key": "MegatonWorld_06000A74#WRLD:FULL#5f7ed3ee7551ea0e806e85e73ba42a9e",
+    "original": "Megaton",
+    "translation": "核弹镇",
+    "stage": 1
+  },
+  {
+    "key": "DCworld09_0601A266#WRLD:FULL#678c4eed647dd73645ad356249c9a147",
+    "original": "The Mall",
+    "translation": "国家广场",
+    "stage": 1
+  },
+  {
+    "key": "Wasteland_0607EA1F#WRLD:FULL#510e566fadcbe2d2a758bbdd542b829c",
+    "original": "Capital Wasteland",
+    "translation": "废土",
+    "stage": 1
+  },
+  {
+    "key": "RTCVaultMarkerRef_0E00518D#REFR:FULL#333a26aee450a983adc17564674cca3e",
+    "original": "Abandoned Vault",
+    "translation": "废弃的避难所",
+    "stage": 1
+  },
+  {
+    "key": "WashMonTop_060C617E#WRLD:FULL#0c15c3b1b1bf8410e621f0313928d027",
+    "original": "The Washington Monument",
+    "translation": "华盛顿纪念碑",
+    "stage": 1
+  }
+]
