@@ -1,0 +1,629 @@
+<!-- Recipe, crafting & vending machine menu (NV)
+COPYRIGHT BY OBSIDIAN; MODIFIED AUGUST 2022 BY AXONIS FOR VANILLA UI PLUS
+* Based on the barter menu
+* Fixed various bugs when hovering the mouse pointer over ingredients
+* Fixed condition display for armor and weapon recipes
+* Headers are only displayed when necessary
+* Aligned token requirements for Vending Machine "recipes" on the center of the right pane
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="RecipeMenu">
+	<class> &RecipeMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<_VUI+ContainerHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+ContainerHeight" /> </_VUI+ContainerHeight>
+	<_VUI+noMODSlabel> <copy src="sibling(HUDMainMenu)" trait="_VUI+noMODSlabel" /> </_VUI+noMODSlabel>
+	<_VUI+SpaceBetween> 100 </_VUI+SpaceBetween>
+	<font> <copy src="globals" trait="_VUI+ListFont" /> </font>
+	<xbuttonx> <ref src="RM_ButtonX" trait="clicked"/> </xbuttonx>
+	<xbuttonb> <ref src="RM_ButtonB" trait="clicked"/> </xbuttonb>
+	<include src="VUI+\Keybinds\Recipe.xml" />
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<rect name="RM_MainRect">
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2.3 </div>
+			</y>
+			<width>
+				<copy src="sibling(RM_ItemsRect)" trait="width" />
+				<add src="sibling(RM_ContainerRect)" trait="width" />
+				<add src="io" trait="_VUI+SpaceBetween" />
+			</width>
+			<height>
+				<copy src="sibling(RM_ItemsRect)" trait="height" />
+				<add src="sibling(RM_ItemIcon)" trait="height" />
+				<sub> 30 </sub> <!--VUI+ icon crop -->
+				<sub>
+					<copy> 25 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</height>
+		</rect>
+
+		<image name="RM_Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(RM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(RM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(RM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(RM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> 5 </_VUI+MenuHeader>
+		</image>
+
+		<rect name="RM_ItemsRect">
+			<x> <copy src="sibling(RM_MainRect)" trait="x"/> </x>
+			<y> <copy src="sibling(RM_MainRect)" trait="y"/> </y>
+			<width> 537 </width>
+			<height> <copy src="child(RM_Items_footer_h1)" trait="y" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<image name="RM_Items_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height> 40 </height>
+			</image>
+
+			<image name="RM_Items_headline_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+			</image>
+
+			<image name="RM_Items_LeftFilterArrow">
+				<locus>1</locus>
+				<id> 0 </id>
+				<filename> Interface\Main\main_arrow_left.dds </filename>
+				<x> 33 </x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="RM_ItemsTitle">
+				<id> 1 </id>
+				<x>
+					<copy src="sibling" trait="width" />
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x" />
+					<add> 2 </add>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</add>
+				</x>
+				<y>
+					<copy src="sibling(RM_Items_headline_h1)" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<string> &-sRecipes; </string>
+				<font> <copy src="globals" trait="_VUI+HeadFont" /> </font>
+				<target> 1 </target>
+				<wheelable> 1 </wheelable>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="RM_Items_RightFilterArrow">
+				<locus>1<locus>
+				<id> 2 </id>
+				<filename> Interface\Main\main_arrow_right.dds </filename>
+				<x>
+					<copy src="sibling(RM_ItemsTitle)" trait="x" />
+					<add src="sibling(RM_ItemsTitle)" trait="width" />
+					<add> 7 </add>
+					<sub>
+						<copy src="sibling(RM_ItemsTitle)" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</sub>
+				</x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+			</image>
+
+			<image name="RM_Items_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling" trait="width"/>
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x"/>
+					<add> 3 </add>
+				</x>
+			</image>
+
+			<image name="RM_Items_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="parent" trait="width"/> </x>
+				<height> <copy src="sibling(RM_Items_headline_v1)" trait="height" /> </height>
+			</image>
+
+			<hotrect name="RM_Items_InventoryList">
+				<include src="list_box.xml"/>
+				<id> 3 </id>
+				<x> -15 </x>
+				<y> <copy src="sibling(RM_Items_headline_v1)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<_VerticalSpacing>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontV_" />
+					<sub>0</sub>
+				</_VerticalSpacing>
+				<_MinListHeight>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="me" trait="_VerticalSpacing" />
+				</_MinListHeight>
+				<height>
+					<copy src="io" trait="_VUI+ContainerHeight" />
+					<div src="me" trait="_MinListHeight" />
+					<floor> 1 </floor> <!--VUI+ round to perfectly fit single-line items -->
+					<mul src="me" trait="_MinListHeight" />
+					<add>0</add>
+				</height>
+			</hotrect>
+
+			<image name="RM_Items_footer_v1">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<height> 30 </height>
+				<y> <copy src="sibling(RM_Items_InventoryList)" trait="y" /> <add src="sibling(RM_Items_InventoryList)" trait="height" /> </y>
+			</image>
+
+			<image name="RM_Items_footer_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+				<y> <copy src="sibling(RM_Items_footer_v1)" trait="y"/> <add> <copy src="sibling(RM_Items_footer_v1)" trait="height"/> </add> </y>
+			</image>
+
+			<image name="RM_Items_TitleButton"> <!-- left xbox button -->
+				<locus>1</locus>
+				<_filename_1> general_button_lt.dds </_filename_1>
+				<_filename_2> general_button_lb.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="user0"/>
+					<add> 1 </add>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> 15 </x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div >
+					<add src="sibling(RM_Items_footer_h2)" trait="y" />
+				</y>
+				<width> 85 </width>
+				<height> 85 </height>
+				<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="RM_Items_footer_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(RM_Items_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy> 70 </copy>
+					<onlyif src="globals" trait="_Has360Controller"/>
+					<add> 25 </add>
+				</x>
+				<y> <copy src="sibling(RM_Items_footer_h1)" trait="y"/> </y>
+			</image>
+
+			<image name="RM_Items_footer_v2">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> </x>
+				<y> <copy src="sibling(RM_Items_footer_v1)" trait="y"/> </y>
+				<height> <copy src="sibling(RM_Items_footer_v1)" trait="height"/> </height>
+			</image>
+		</rect>
+
+		<rect name="RM_ContainerRect">
+			<x>
+				<copy src="sibling(RM_ItemsRect)" trait="x"/>
+				<add src="sibling(RM_ItemsRect)" trait="width"/>
+				<add src="io" trait="_VUI+SpaceBetween" />
+			</x>
+			<y> <copy src="sibling(RM_ItemsRect)" trait="y"/> </y>
+			<width> <copy src="sibling(RM_ItemsRect)" trait="width"/> </width>
+			<height> <copy src="child(RM_Container_footer_h1)" trait="y" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<!-- This is the right hand side for the recipe information; now things start to get different from the container/barter menus -->
+			<image name="RM_Container_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height> <!--VUI+ covers the non-active heading elements of the ingredients panel -->
+					<copy src="sibling(RM_Items_IngredientList)" trait="y" />
+					<onlyif src="sibling(RM_Items_IngredientHeader)" trait="visible" />
+					<max> 40 </max>
+				</height>
+			</image>
+
+			<image name="RM_Container_headline_h1">
+				<include src="line.xml"/>
+				<_length> 32 </_length> <!-- no arrows -->
+			</image>
+
+			<!--VUI+ hide redundant "Made at..." title -->
+			<rect name="RM_ContainerTitle"> <id> 12 </id> </rect>
+
+			<text name="RM_MadeAtVariable">
+				<id> 4 </id>
+				<font> <copy src="globals" trait="_VUI+HeadFont" /> </font>
+				<string></string> <!-- SET IN CODE -->
+				<x>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontX_"/>
+					<add src="sibling(RM_Container_headline_h1)" trait="x" />
+					<add src="sibling(RM_Container_headline_h1)" trait="width" />
+					<add> 9 </add>
+				</x>
+				<y>
+					<copy src="sibling(RM_Container_headline_h1)" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="RM_Container_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling" trait="width" />
+					<add> 16 </add>
+					<!--VUI+ this cheap trick allows for the line right of the crafting bench's name to appear without a hole before the player enters a focus area. Until this time the name of the bench does not appear and its width is 14 -->
+					<onlyif> <copy src="sibling(RM_MadeAtVariable)" trait="width"/> <gt> 15 </gt> </onlyif>
+					<add src="sibling(RM_Container_headline_h1)" trait="x" />
+					<add src="sibling(RM_Container_headline_h1)" trait="width" />
+				</x>
+			</image>
+
+			<image name="RM_Container_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="parent" trait="width"/> </x>
+				<height> <copy src="sibling(RM_Container_headline_v1)" trait="height" /> </height>
+			</image>
+
+			<text name="RM_SkillRequirementHeader">
+				<id> 13 </id>
+				<x> 39 </x>
+				<y> 43 </y>
+				<string> &-sSkillRequirement; </string>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<brightness> 220 </brightness>
+				<!--VUI+ show only if there are requirements -->
+				<visible> <copy src="sibling(RM_SkillRequirement)" trait="width"/> <gt> 14 </gt> </visible>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="RM_SkillRequirement">
+				<id> 5 </id>
+				<x> 40 </x>
+				<y>
+					<copy src="sibling(RM_SkillRequirementHeader)" trait="y" />
+					<add src="sibling(RM_SkillRequirementHeader)" trait="height" />
+					<add> 5 </add>
+				</y>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="RM_Items_IngredientHeader">
+				<id> 11 </id>
+				<x> 39 </x>
+				<y>
+					<copy src="sibling(RM_SkillRequirementHeader)" trait="y" />
+					<add src="sibling(RM_SkillRequirementHeader)" trait="height" />
+					<add> 15 </add>
+					<onlyif src="sibling(RM_SkillRequirementHeader)" trait="visible" />
+					<add src="sibling(RM_SkillRequirementHeader)" trait="y" />
+				</y>
+				<string>&-sIngredients;</string>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<brightness> 220 </brightness>
+				<!--VUI+ show only when there are ingredients -->
+				<visible> <copy src="sibling(RM_Items_IngredientList)" trait="childcount" /> <gt> 2 </gt> </visible>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<hotrect name="VUI+ScrollingFix"> <!--VUI+ allow the mouse wheel to scroll the list from the entire right pane -->
+				<width> <copy src="parent" trait="width" /> </width>
+				<height> <copy src="parent" trait="height" /> </height>
+				<wheelable>1</wheelable>
+			</hotrect>
+
+			<hotrect name="RM_Items_IngredientList">
+				<include src="list_box.xml"/>
+				<id> 6 </id>
+				<x> -15 </x>
+				<y>
+					<copy src="sibling(RM_Items_IngredientHeader)" trait="y" />
+					<add src="sibling(RM_Items_IngredientHeader)" trait="height" />
+					<sub> 5 </sub>
+					<add> <!--VUI+ align the single item to the middle (see RM_Items_IngredientHeader) -->
+						<copy src="parent" trait="height" /> <div> 2 </div> <sub> 105 </sub>
+						<onlyif>
+							<not src="sibling(RM_Items_IngredientHeader)" trait="visible" />
+						</onlyif>
+					</add>
+				</y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<_VerticalSpacing>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontV_" />
+				</_VerticalSpacing>
+				<height>
+					<copy src="sibling(RM_Container_footer_v1)" trait="y" />
+					<sub src="me" trait="y" />
+				</height>
+				<!--VUI+ fix for the icon, stats and recipe getting locked when hovering over the scrollbar; last part of this fix is at list_box.xml -->
+				<target> 0 </target>
+				<wheelable> 0 </wheelable>
+				<wheelmoved> <copy src="sibling" trait="wheelmoved" /> </wheelmoved>
+			</hotrect>
+
+			<image name="RM_Container_footer_v1">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<y> <copy src="RM_Items_footer_v1" trait="y" /> </y>
+				<height > 30 </height>
+			</image>
+
+			<image name="RM_Container_footer_h1">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(RM_Container_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+					<sub>
+						<copy> 95 </copy>
+						<onlyif src="globals" trait="_Has360Controller"/>
+					</sub>
+				</_length>
+				<y>
+					<copy src="sibling(RM_Container_footer_v1)" trait="y"/>
+					<add src="sibling(RM_Container_footer_v1)" trait="height"/>
+				</y>
+			</image>
+
+			<image name="RM_Container_TitleButton">
+				<locus>1</locus>
+				<_filename_1> general_button_rt.dds </_filename_1>
+				<_filename_2> general_button_rb.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="user0"/>
+					<add> 1 </add>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x>
+					<copy src="sibling(RM_Container_footer_h1)" trait="x" />
+					<add src="sibling(RM_Container_footer_h1)" trait="width" />
+					<sub> 5 </sub>
+				</x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div >
+					<add src="sibling(RM_Container_footer_h2)" trait="y" />
+				</y>
+				<width> 85 </width>
+				<height> 85 </height>
+				<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="RM_Container_footer_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(RM_Container_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling(RM_Container_footer_h1)" trait="x" />
+					<add src="sibling(RM_Container_footer_h1)" trait="width" />
+					<add>
+						<copy> 70 </copy>
+						<onlyif src="globals" trait="_Has360Controller"/>
+					</add>
+				</x>
+				<y> <copy src="sibling(RM_Container_footer_h1)" trait="y"/> </y>
+			</image>
+
+
+			<image name="RM_Container_footer_v2">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> </x>
+				<y> <copy src="sibling(RM_Container_footer_v1)" trait="y"/> </y>
+				<height> <copy src="sibling(RM_Container_footer_v1)" trait="height"/> </height>
+			</image>
+		</rect>
+
+		<rect name="RM_ButtonRect">
+			<x>
+				<copy src="sibling(RM_BottomBracket)" trait="x"/>
+				<add src="sibling(RM_BottomBracket)" trait="width"/>
+				<add> 20 </add> <!--VUI+ override -20 hardcoded x -->
+				<sub src="globals" trait="_VUI+InsideButton" />
+			</x>
+			<y> <copy src="sibling(RM_BottomBracket)" trait="y"/> <sub src="sibling(RM_BottomBracket)" trait="height" /> </y>
+			<locus> 1 </locus>
+			<depth> 6 </depth>
+
+			<hotrect name="RM_ButtonX">
+				<id> 7 </id>
+				<include src="text_box.xml"/>
+				<_y> <copy src="sibling(RM_ButtonB)" trait="_y" /> <sub src="me" trait="height" /> </_y>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<_verbuf> 15 </_verbuf>
+				<justify> &right; </justify>
+				<target> 0 </target>
+				<_xbox_button> &xbuttonx; </_xbox_button>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_PCButtonText> <copy src="io" trait="_RM_ButtonX" /> </_PCButtonText>
+				<string> &-sAccept; </string>
+			</hotrect>
+
+			<hotrect name="RM_ButtonB">
+				<id> 8 </id>
+				<include src="text_box.xml"/>
+				<_y> <copy> 0 </copy> <sub src="me" trait="height" /> </_y>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<_verbuf> 15 </_verbuf>
+				<justify> &right; </justify>
+				<string> &-sExit; </string>
+				<_xbox_button> &xbuttonb; </_xbox_button>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_PCButtonText> <copy src="io" trait="_RM_ButtonB" /> </_PCButtonText>
+			</hotrect>
+		</rect>
+
+		<image name="RM_ItemIcon">
+			<id> 9 </id>
+			<depth> 2 </depth>
+			<x>
+				<copy src="sibling(RM_ItemsRect)" trait="x"/>
+				<add> 67 </add>
+			</x>
+			<y>
+				<copy src="sibling(RM_ItemsRect)" trait="y" />
+				<add src="sibling(RM_ItemsRect)" trait="height" />
+				<sub>12</sub>
+				<sub>
+					<copy> 25 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</y>
+			<width> 240 </width>
+			<height> 240 </height>
+			<depth> 2 </depth>
+			<zoom> &scale; </zoom>
+			<visible> 0 </visible>
+		</image>
+
+		<rect name="RM_ItemData">
+			<include src="item_stats_display.xml"/>
+			<id> 10 </id>
+			<_VUI+Crafting> 1 </_VUI+Crafting> <!--VUI+ needed to fix those CND bars -->
+			<x> <copy src="sibling(RM_ItemIcon)" trait="x"/> <add src="sibling(RM_ItemIcon)" trait="width"/> </x>
+			<y>
+				<copy src="sibling(RM_ItemsRect)" trait="y" />
+				<add src="sibling(RM_ItemsRect)" trait="height" />
+				<add> 48 </add>
+				<sub>
+					<copy> 15 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</y>
+		</rect>
+
+		<rect name="RM_BottomBracket">
+			<include src="bottom_bracket.xml"/>
+			<x> <copy src="sibling(RM_MainRect)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(RM_MainRect)" trait="y" />
+				<add src="sibling(RM_MainRect)" trait="height" />
+			</y>
+			<width> <copy src="sibling(RM_MainRect)" trait="width"/> </width>
+			<height> 40 </height>
+			<depth> 2 </depth>
+		</rect>
+	</rect>
+
+	<template name="RM_list_template">
+		<hotrect name="RM_list_template_container">
+			<include src="list_box_template.xml"/>
+			<id> 15 </id>
+			<_VerticalSpacing> <copy src="parent" trait="_VerticalSpacing" /> </_VerticalSpacing> <!--VUI+ reduce padding of list items -->
+			<target> <!--VUI+ fix for buzzing noise when hovering over ingredients -->
+				<copy src="parent" trait="id"/> <neq> 6 </neq>
+				<or src="globals" trait="_Has360Controller"/>
+			</target>
+
+			<text name="ListItemText">
+				<font> <copy src="grandparent" trait="font" /> </font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<wrapwidth> <copy src="parent" trait="width"/> <sub> 30 </sub> </wrapwidth>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<x>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add> 20 </add>
+				</x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+		</hotrect>
+	</template>
+</menu>

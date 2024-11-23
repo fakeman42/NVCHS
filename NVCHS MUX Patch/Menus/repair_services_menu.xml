@@ -1,0 +1,581 @@
+<!-- Repair Services menu
+COPYRIGHT BY ZENIMAX; MODIFIED AUGUST 2020 BY AXONIS FOR VANILLA UI PLUS
+* Fixed text_box buttons from <image> to <hotrect>
+* Aligned rightmost vertical lines with those of the stat cards
+* Expanded the item list using repair_menu and container_menu as a template
+* Related most metrics to the main list and the item icon; drastically increased list width
+* Slightly reduced icon size to avoid blur (it's still the biggest icon size in the game, probably more than it should be)
+* Headline card format is based on map_menu.xml
+* Added highlighting to list contents (text, images etc) and targetable images
+* Streamlined the sizing of the background and the positioning of buttons for consistency across menus
+* Changed all main messages (no items to repair, cannot repair and repair improvements) to the large font #6
+* Resized the condition bar based on font height and aligned it using font metrics
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="RepairServicesMenu">
+	<class> &RepairServicesMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<xbuttonx> <ref src="RSM_RepairAllButton" trait="clicked"/> </xbuttonx>
+	<xbuttonb> <ref src="RSM_DoneButton" trait="clicked"/> </xbuttonb>
+	<include src="VUI+\Keybinds\RepairServices.xml" />
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<image name="RSM_Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(RSM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(RSM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(RSM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(RSM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> 5 </_VUI+MenuHeader>
+		</image>
+
+		<rect name="RSM_MainRect">
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2 </div>
+			</y>
+			<width> 1020 </width>
+			<height> 727 </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<!--VUI+ based on map_menu because they both (have to) use manual formatting instead of using card_info -->
+			<image name="RSM_Headline_v1">
+				<include src="vertical_fade_line.xml"/>
+			</image>
+
+			<image name="RSM_Headline_h1">
+				<include src="line.xml"/>
+				<_length> 50 </_length>
+			</image>
+
+			<text name="RSM_Headline_Title">
+				<font> 3 </font>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 20 </add> </x>
+				<y>
+					<copy src="sibling(RSM_Headline_h1)" trait="height"/>
+					<sub src="me" trait="height"/>
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_" />
+					</add>
+				</y>
+				<string> <copy src="me" trait="_Title"/> </string>
+				<_Title> &-sRepairServicesTitle; </_Title>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="RSM_Headline_h2">
+				<include src="line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 20 </add> </x>
+				<_length> <!--VUI+ changes to PipWidth should affect the vendor skill card -->
+					<copy src="parent" trait="width" />
+					<sub src="me" trait="x" />
+					<sub src="sibling(RSM_Headline_v2)" trait="width" />
+					<sub src="sibling(RSM_Headline_h3)" trait="width" />
+					<sub src="sibling(RSM_Headline_v3)" trait="width" />
+					<sub> 9 </sub> <!--VUI+ the spacing between the cards -->
+				</_length>
+			</image>
+
+			<image name="RSM_Headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+				<height> 50 </height>
+			</image>
+
+			<text name="RSM_VendorSkillLabel">
+				<id> 0 </id>
+				<font> 3 </font>
+				<justify> &right; </justify>
+				<x> <copy src="sibling" trait="x" /> <sub> 10 </sub> </x> <!--VUI+ card_info's padding is 10 -->
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_" />
+					<add> 9.5 </add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="RSM_Headline_h3">
+				<include src="line.xml"/>
+				<x>
+					<copy src="sibling(RSM_Headline_v2)" trait="x"/>
+					<add src="sibling(RSM_Headline_v2)" trait="width"/>
+					<add> 9 </add>
+				</x>
+				<_length> <copy src="sibling(RSM_CapsLabel)" trait="width" /> <add> 25 </add> </_length>
+			</image>
+
+			<image name="RSM_Headline_v3">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+			</image>
+
+			<text name="RSM_CapsLabel">
+				<id> 1 </id>
+				<font>3 </font>
+				<justify> &right; </justify>
+				<x> <copy src="sibling" trait="x" /> <sub> 10 </sub> </x>
+				<y> <copy src="sibling(RSM_VendorSkillLabel)" trait="y" /> </y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<hotrect name="RSM_RepairList">
+				<include src="list_box.xml"/>
+				<id> 2 </id>
+				<x> -15 </x>
+				<y> 60 </y>
+				<width> 540 </width> <!--VUI+ plenty of space, so SPLURGE! -->
+				<height> <copy> 13 </copy> <mul> 46 </mul> <add>27</add> </height>
+			</hotrect>
+
+			<!-- Text that shows when broken item list is empty-->
+			<text name="RSM_EmptyRepairListText">
+				<font> 3 </font>
+				<string> &-sNoItemsToRepair; </string>
+				<justify> &center; </justify>
+				<x>
+					<copy src="parent" trait="width" />
+					<div> 2 </div>
+				</x>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+				</y>
+				<brightness> 200 </brightness>
+				<visible>
+					<copy src="sibling(RSM_RepairList)" trait="_num_filtered"/>
+					<sub src="sibling(RSM_RepairList)" trait="childcount"/>
+					<add> 2 </add>
+					<eq> 0 </eq>
+				</visible>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="RSM_ItemIcon">
+				<locus>1</locus>
+				<id> 3 </id>
+				<x>
+					<copy src="sibling(RSM_RepairList)" trait="x"/>
+					<add src="sibling(RSM_RepairList)" trait="width"/>
+					<add> 70 </add>
+				</x>
+				<y> 45 </y>
+				<width> 380 </width>
+				<height> 380 </height>
+				<visible> 0 </visible>
+				<zoom> &scale; </zoom>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<!-- ===== ITEM INFO DISPLAYS ===== -->
+			<rect name="RSM_StatsDisplayRect">
+				<id> 4 </id>
+				<x>
+					<copy src="sibling(RSM_RepairList)" trait="x"/>
+					<add src="sibling(RSM_RepairList)" trait="width"/>
+					<add> 5 </add> <!--VUI+ some space between the list and the info -->
+				</x>
+				<y>
+					<copy src="sibling(RSM_ItemIcon)" trait="y" />
+					<add src="sibling(RSM_ItemIcon)" trait="height" />
+					<sub> 30 </sub>
+				</y>
+				<width>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+					<sub> 10 </sub> <!--VUI+ align with the bottom right vertical line -->
+				</width>
+				<locus> 1 </locus>
+				<visible> 0 </visible>
+
+				<rect name="RSM_BrokenItemHealth">
+					<id> 5 </id>
+					<include src="card_info.xml"/>
+					<width>
+						<copy src="parent" trait="width"/>
+						<div> 2 </div>
+					</width>
+					<height> 60 </height>
+					<_Title> &-sInventoryCondition; </_Title>
+					<font>3</font>
+
+					<rect name="RSM_BrokenItemHealthMeter">
+						<include src="meter.xml"/>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+							<sub> 15 </sub>
+						</x>
+						<y>
+							<copy src="sibling" trait="height" />
+							<sub src="me" trait="height" />
+							<div> 2 </div>
+							<add src="sibling" trait="y" />
+							<sub>
+								<copy src="sibling" trait="font" />
+								<copy src="globals" trait="_VUI+FontY_" />
+							</sub>
+							<add>1</add>
+						</y>
+						<width> 150 </width>
+						<height>
+							<copy src="sibling" trait="height" />
+							<mul> 0.3 </mul>
+							<add> 10 </add>
+						</height>
+						<_SolidMeter> 1 </_SolidMeter>
+						<_ShowBackground> 1 </_ShowBackground>
+						<_Value> <copy src="parent" trait="user0"/> </_Value>
+					</rect>
+				</rect>
+
+				<rect name="RSM_BrokenItemStat">
+					<id> 6 </id>
+					<include src="card_info.xml"/>
+					<x>
+						<copy src="sibling(RSM_BrokenItemHealth)" trait="width"/>
+						<add> 10 </add>
+					</x>
+					<width>
+						<copy src="parent" trait="width"/>
+						<div> 2 </div>
+					</width>
+					<height> 60 </height>
+					<font>3</font>
+				</rect>
+
+				<image name="RSM_ArrowIcon">
+					<locus>1</locus>
+					<filename> Interface\Shared\Arrow\repair_arrow_down.dds </filename>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="width"/>
+						<div> 2 </div>
+					</x>
+					<y>
+						<copy src="sibling(RSM_BrokenItemHealth)" trait="y"/>
+						<add src="sibling(RSM_BrokenItemHealth)" trait="height"/>
+					</y>
+					<height> 80 </height>
+					<width> 80 </width>
+					<zoom> &scale; </zoom>
+					<include src="VUI+\Image_outline.xml"/>
+				</image>
+
+				<text name="RSM_HealthImprovementText">
+					<id> 7 </id>
+					<font> 3 </font>
+					<justify> &center; </justify>
+					<x>
+						<copy src="parent" trait="width"/>
+						<div> 4 </div>
+						<sub> 10 </sub> <!--VUI+ tweak centering to the left due to the narrower width -->
+					</x>
+					<y>
+						<copy src="sibling(RSM_ArrowIcon)" trait="y"/>
+						<add>
+							<copy src="sibling(RSM_ArrowIcon)" trait="height"/>
+							<div> 2 </div>
+						</add>
+						<sub> 5 </sub>
+					</y>
+					<visible> <copy src="sibling(RSM_FixedItemHealth)" trait="visible"/> </visible>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<text name="RSM_StatImprovementText">
+					<id> 8 </id>
+					<font> 3 </font>
+					<justify> &center; </justify>
+					<x>
+						<copy src="parent" trait="width"/>
+						<mul> 3 </mul>
+						<div> 4 </div>
+						<add> 10 </add> <!--VUI+ tweak centering to the right due to the narrower width -->
+					</x>
+					<y> <copy src="sibling(RSM_HealthImprovementText)" trait="y"/></y>
+					<visible> <copy src="sibling(RSM_FixedItemHealth)" trait="visible"/> </visible>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<!-- Error message -- Shows when an item can't be repaired, like if the vendor's skill is too low -->
+				<text name="RSM_ErrorText">
+					<font> 3 </font>
+					<id> 9 </id>
+					<x> 250 </x>
+					<y> 160 </y>
+					<justify> &center; </justify>
+					<wrapwidth> <copy src="parent" trait="width" /> </wrapwidth>
+					<visible> <not src="sibling(RSM_FixedItemHealth)" trait="visible"/> </visible>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<rect name="RSM_FixedItemHealth">
+					<id> 10 </id>
+					<include src="card_info.xml"/>
+					<font>3</font>
+					<y>
+						<copy src="sibling(RSM_ArrowIcon)" trait="y" />
+						<add src="sibling(RSM_ArrowIcon)" trait="height" />
+						<add> 13 </add>
+					</y>
+					<width>
+						<copy src="parent" trait="width"/>
+						<div> 2 </div>
+					</width>
+					<height> 60 </height>
+					<visible> 0 </visible>
+					<_Title> &-sInventoryCondition; </_Title>
+
+					<rect name="RSM_FixedItemHealthMeter">
+						<include src="meter.xml"/>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+							<sub> 15 </sub>
+						</x>
+						<y>
+							<copy src="sibling" trait="height" />
+							<sub src="me" trait="height" />
+							<div> 2 </div>
+							<add src="sibling" trait="y" />
+							<sub>
+								<copy src="sibling" trait="font" />
+								<copy src="globals" trait="_VUI+FontY_" />
+							</sub>
+							<add>1</add>
+						</y>
+						<width> 150 </width>
+						<height>
+							<copy src="sibling" trait="height" />
+							<mul> 0.3 </mul>
+							<add> 10 </add>
+						</height>
+						<_SolidMeter> 1 </_SolidMeter>
+						<_ShowBackground> 1 </_ShowBackground>
+						<_Value> <copy src="parent" trait="user0"/> </_Value>
+					</rect>
+				</rect>
+
+				<rect name="RSM_FixedItemStat">
+					<id> 11 </id>
+					<include src="card_info.xml"/>
+					<font>3</font>
+					<x>
+						<copy src="sibling(RSM_FixedItemHealth)" trait="width"/>
+						<add> 10 </add>
+					</x>
+					<y> <copy src="sibling(RSM_FixedItemHealth)" trait="y"/> </y>
+					<width>
+						<copy src="parent" trait="width"/>
+						<div> 2 </div>
+					</width>
+					<height> 60 </height>
+					<visible> <copy src="sibling(RSM_FixedItemHealth)" trait="visible"/> </visible>
+				</rect>
+
+				<text name="RSM_RepairCostText">
+					<id> 12 </id>
+					<font> 3 </font>
+					<y> 240 </y>
+					<visible> <copy src="sibling(RSM_FixedItemHealth)" trait="visible"/> </visible>
+					<justify> &center; </justify> <!--VUI+ align to the center -->
+					<x> <copy src="sibling(RSM_ArrowIcon)" trait="x" />
+						<add>
+							<copy src="sibling(RSM_ArrowIcon)" trait="width" />
+							<div> 2 </div>
+						</add>
+					</x>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</rect>
+
+			<rect name="RSM_ButtonRect">
+				<x>
+					<copy src="parent" trait="width" />
+					<sub src="globals" trait="_VUI+InsideButton" />
+				</x>
+				<y> <copy src="sibling(RSM_Headline_v3)" trait="height" /> </y>
+				<height> 120 </height>
+				<locus> 1 </locus>
+
+				<hotrect name="RSM_RepairButton">
+					<id> 13 </id>
+					<include src="text_box.xml"/>
+					<_y> <!--VUI+ Repair under Repair All (avoid clipping with icons) -->
+						<copy src="sibling(RSM_RepairAllButton)" trait="y" />
+						<add>
+							<copy src="sibling(RSM_RepairAllButton)" trait="height" />
+							<onlyif src="sibling(RSM_RepairAllButton)" trait="visible" />
+						</add>
+					</_y>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<justify> &right; </justify>
+					<string> &-sRepairItem; </string>
+					<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+					<_xbox_button> &xbuttona; </_xbox_button>
+				</hotrect>
+
+				<hotrect name="RSM_RepairAllButton">
+					<id> 14 </id>
+					<include src="text_box.xml"/>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<string> &-sRepairAllItems; </string>
+					<_xbox_button> &xbuttonx; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_RSM_RepairAllButton" /> </_PCButtonText>
+				</hotrect>
+
+				<hotrect name="RSM_DoneButton">
+					<id> 15 </id>
+					<include src="text_box.xml"/>
+					<_y> <!--VUI+ Exit under Repair -->
+						<copy src="sibling(RSM_RepairButton)" trait="y" />
+						<add>
+							<copy src="sibling(RSM_RepairButton)" trait="height" />
+							<onlyif src="sibling(RSM_RepairButton)" trait="visible" />
+						</add>
+					</_y>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<string> &-sDone; </string>
+					<_xbox_button> &xbuttonb; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_RSM_DoneButton" /> </_PCButtonText>
+				</hotrect>
+			</rect>
+
+			<rect name="RSM_BottomBracket">
+				<include src="bottom_bracket.xml"/>
+				<width> <copy src="parent" trait="width" /> </width> <!--VUI+ align with the cards -->
+				<height> 40 </height>
+				<y> <copy src="parent" trait="height" /> </y>
+			</rect>
+		</rect>
+	</rect>
+
+	<template name="RSM_RepairListTemplate">
+		<hotrect name="RSM_RepairListTemplateRect">
+			<include src="list_box_template.xml"/>
+			<_Value></_Value> <!-- The item's health -->
+			<_RepairCost></_RepairCost> <!-- # caps it costs to repair this item -->
+			<_CanRepair> 1 </_CanRepair> <!-- True if we have enough money and vendor skill to repair this item -->
+			<clicksound> &nosound; </clicksound>
+			<!-- OPTIMIZATION: Explicitly declare traits; avoid action lists -->
+			<x> 35 </x>
+			<width> <copy src="parent" trait="width" /> </width> <!--VUI+ why use a constant ? -->
+			<target> 1 </target>
+			<visible> 1 </visible>
+			<_VerticalSpacing> 3 </_VerticalSpacing> <!--VUI+ reduce padding of list items -->
+
+			<!-- OPTIMIZATION: Alpha set in code; this tile is assumed to be the top-most declared child! -->
+			<text name="ListItemText">
+				<font> 3</font>
+				<wrapwidth> <copy src="sibling(RSM_Template_MeterBackground)" trait="x" /> <sub> 60 </sub> </wrapwidth> <!--VUI+ 60 is a good distance between text and the item health bar -->
+				<string> <copy src="parent" trait="string"/> </string>
+				<x> 41 </x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+			</text>
+
+			<!-- Item condition meter -->
+			<!-- OPTIMIZATION: Avoid meter.xml as it's slow to use and this list can get large -->
+			<image name="RSM_Template_MeterBackground">
+				<filename> solid.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<brightness> <copy src="sibling" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<x> <copy src="parent" trait="width" /> <sub> 114 </sub> </x> <!--VUI+ relative; width of the health bar is 100 -->
+				<y> <copy src="parent" trait="height" /> <sub src="me" trait="height" /> <div> 2 </div> </y> <!--VUI+ align to the middle -->
+				<width> 60 </width>
+				<height> 16 </height>
+				<alpha> 64 </alpha>
+				<clips> 1 </clips>
+				<depth> 1 </depth>
+			</image>
+
+			<image name="RSM_Template_Meter">
+				<id> 18 </id>
+				<filename> solid.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<brightness> <copy src="sibling" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<x> <copy src="sibling(RSM_Template_MeterBackground)" trait="x" /> </x>
+				<y> <copy src="sibling(RSM_Template_MeterBackground)" trait="y" /> </y>
+				<height> 16 </height>
+				<clips> 1 </clips>
+				<depth> 2 </depth>
+			</image>
+
+			<!-- Small square that becomes filled if item is equipped -->
+			<!-- OPTIMIZATION: Visibility set in code; this tile is assumed to be the bottom-most declared child! -->
+			<image name="RSM_Template_ItemMarker">
+				<filename> Interface\Shared\Marker\square_filled.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<width> 24 </width>
+				<height> 24 </height>
+				<x> 13 </x>
+				<y>
+					<copy src="sibling(ListItemText)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="parent" trait="_VerticalSpacing" />
+					<sub>
+						<copy src="me" trait="height" />
+						<mul> 0.59 </mul>
+					</sub>
+					<div> 2 </div>
+				</y>
+				<brightness> <copy src="sibling" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<visible> 0 </visible>
+			</image>
+		</hotrect>
+	</template>
+</menu>

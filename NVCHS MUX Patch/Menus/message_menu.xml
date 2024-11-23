@@ -1,0 +1,329 @@
+<!-- Message menu
+Common dialog used for warnings and multiple choice menus
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
+* Increased weight (bold) of body text and list buttons
+* Emphasized list buttons to make them easier to distinguish and de-emphasized body text to make it more comfortable to read
+* Increased the size of the icon and aligned it to the center
+* Adjusted the background behind the message because the vanilla one is very narrow to be used for variable-height boxes
+* Increased the opacity of the background to make the menu easier to read when it's displayed in front of other menus (eg. missing plugin warning or Project Nevada)
+* Moved the scrollbar (appears when there are a lot of options) to the left edge of the box just like every other list-based menu
+* Added a trait to define the maximum number of list buttons before scrolling
+* Added highlighting to list contents (text, images etc) and targetable images
+* Streamlined the sizing of the background and the positioning of buttons for consistency across menus
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Aligned the title to the center if there's no sufficient space for the standard left alignment margin
+-->
+
+<menu name="MessageMenu">
+	<class> &MessageMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<_MinMenuWidth> 200 </_MinMenuWidth> <!-- Minimum width of the menu -->
+	<_MaxMenuWidth> 700 </_MaxMenuWidth> <!-- Maximum width of the menu -->
+	<_horbuf> 40 </_horbuf> <!-- Extra horizontal spacing to put between text and border -->
+	<_verbuf> 25 </_verbuf> <!-- Extra vertical spacing to put between text and border -->
+	<font> 3 </font>
+	<_VUI+ListItems> 8 </_VUI+ListItems>
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<rect name="MM_Background"> <id> 5 </id> </rect> <!--VUI+ hardcoded alpha, too transparent; New Vegas has an <id> but it doesn't affect FO3 -->
+
+		<image name="VUI+Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(MM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(MM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(MM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(MM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> <copy> 5 </copy> <onlyif src="MM_Title" trait="visible" /> </_VUI+MenuHeader>
+			<alpha> 230 </alpha> <!--VUI+ this menu requires stronger opacity because it can be shown in front of non-blurred menus, making it hard to read -->
+		</image>
+
+		<rect name="MM_MainRect">
+			<id> 0 </id>
+			<depth> 3 </depth>
+			<locus> 1 </locus>
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2 </div>
+			</y>
+			<height> <copy src="child(MM_BottomBracket)" trait="y"/> </height>
+
+			<image name="MM_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height>
+					<!--VUI+ stretch the bracket when the scrollbar is visible -->
+					<copy src="parent" trait="height" />
+					<sub src="sibling(MM_ButtonList)" trait="height" />
+					<onlyif src="sibling(MM_ButtonList)" trait="_VUI+Scroll" />
+					<max> 50 </max> <!--VUI+ match the bottom bracket -->
+				</height>
+			</image>
+
+			<image name="MM_headline_h1">
+				<include src="line.xml"/>
+				<!-- Place so it's touching the left side of the title -->
+				<_length>
+					<copy src="sibling(MM_Title)" trait="width"/>
+					<div> -2 </div>
+					<onlyif> <copy src="sibling(MM_Title)" trait="justify"/> <eq> &center; </eq> </onlyif>
+					<add src="sibling(MM_Title)" trait="x"/>
+					<sub> 10 </sub>
+				</_length>
+				<visible> <copy src="sibling(MM_Title)" trait="visible"/> </visible>
+			</image>
+
+			<text name="MM_Title">
+				<id> 1 </id>
+				<font> 3 </font>
+				<!-- Adjust position based on justification -->
+				<x>
+					<!--VUI+ center the title if there's no sufficient space for the standard left margin -->
+					<copy src="parent" trait="width" />
+					<sub src="me" trait="width" />
+					<div> 2 </div>
+					<min> 60 </min>
+					<onlyif>
+						<copy src="me" trait="justify"/>
+						<eq> &left; </eq>
+					</onlyif>
+					<add>
+						<copy src="parent" trait="width"/>
+						<div> 2 </div>
+						<onlyif>
+							<copy src="me" trait="justify"/>
+							<eq> &center; </eq>
+						</onlyif>
+					</add>
+				</x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_" />
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="MM_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+
+				<!-- Place at the right side of the title; or cover the whole menu if the title is absent -->
+				<x>
+					<copy src="sibling(MM_Title)" trait="x"/>
+					<add>
+						<copy src="sibling(MM_Title)" trait="width"/>
+						<div> 2 </div>
+					</add>
+					<add>
+						<copy src="sibling(MM_Title)" trait="width"/>
+						<div> 2 </div>
+						<onlyif>
+							<copy src="sibling(MM_Title)" trait="justify"/>
+							<eq> &left; </eq>
+						</onlyif>
+					</add>
+					<add> 10 </add>
+					<onlyif src="sibling(MM_Title)" trait="visible"/>
+				</x>
+			</image>
+
+			<image name="MM_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="sibling(MM_headline_v1)" trait="height" /> </height>
+				<x> <copy src="parent" trait="width"/> <sub src="me" trait="width"/> </x>
+			</image>
+
+			<image name="MM_MessageIcon">
+				<locus>1</locus>
+				<id> 2 </id>
+				<x> <copy src="io" trait="_horbuf"/> <sub> 20 </sub> </x> <!--VUI+ align to the center -->
+				<y> <copy src="sibling(MM_MessageText)" trait="y"/> </y>
+				<width> 120 </width> <!--VUI+ enlarge the icon, we have plenty of space -->
+				<height> 120 </height>
+				<zoom> &scale; </zoom>
+				<visible> 0 </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="MM_MessageText">
+				<id> 3 </id>
+				<font> <copy src="io" trait="font" /> </font>
+				<brightness> <mul> 0.8 </mul> </brightness>
+				<wrapwidth>
+					<copy src="io" trait="_MaxMenuWidth"/>
+					<sub>
+						<copy src="io" trait="_horbuf"/>
+						<mul> 2 </mul>
+					</sub>
+					 <!--Make room for icon if present-->
+					<sub>
+						<copy src="sibling(MM_MessageIcon)" trait="width" />
+						<onlyif src="sibling(MM_MessageIcon)" trait="visible"/>
+					</sub>
+					<sub>10</sub>
+				</wrapwidth>
+				<!-- Adjust position based on justification -->
+				<x>
+					<copy> 0 </copy>
+					<add>
+						<copy src="io" trait="_horbuf"/>
+						<!-- Make room for icon if present -->
+						<add>
+							<copy src="sibling(MM_MessageIcon)" trait="width" />
+							<onlyif src="sibling(MM_MessageIcon)" trait="visible"/>
+						</add>
+						<onlyif>
+							<copy src="me" trait="justify"/>
+							<eq> &left; </eq>
+						</onlyif>
+					</add>
+					<add>
+						<copy src="parent" trait="width"/>
+						<!-- Make room for icon if present -->
+						<add>
+							<copy src="sibling(MM_MessageIcon)" trait="width" />
+							<onlyif src="sibling(MM_MessageIcon)" trait="visible"/>
+						</add>
+						<div> 2 </div>
+						<onlyif>
+							<copy src="me" trait="justify"/>
+							<eq> &center; </eq>
+						</onlyif>
+					</add>
+				</x>
+				<y>
+					<copy src="sibling(MM_Title)" trait="y"/>
+					<add src="sibling(MM_Title)" trait="height"/>
+					<add src="io" trait="_verbuf"/>
+					<sub> 5 </sub>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+			
+			<hotrect name="MM_ButtonList">
+				<include src="list_box.xml"/>
+				<id> 4 </id>
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="width"/>
+					<div> 2 </div>
+					<sub> 15 </sub> <!--VUI+ align button to the center -->
+				</x>
+				<y>
+					<copy src="sibling(MM_MessageText)" trait="y"/>
+					<sub> 10 </sub>
+					<add>
+						<copy src="sibling(MM_MessageText)" trait="height"/>
+						<max>
+							<copy> 100 </copy>
+							<onlyif src="sibling(MM_MessageIcon)" trait="visible"/>
+						</max>
+						<add> 30 </add>
+						<onlyif src="sibling(MM_MessageText)" trait="string"/>
+					</add>
+				</y>
+				<height>
+					<min>
+						<copy src="io" trait="_VUI+ListItems" />
+						<mul>
+							<copy src="me" trait="font" />
+							<copy src="globals" trait="_VUI+FontH_" />
+							<add src="me" trait="_VerticalSpacing" />
+						</mul>
+					</min>
+				</height>
+				<width>
+					<min>
+						<copy src="io" trait="_MaxMenuWidth"/>
+						<sub>
+							<copy src="io" trait="_horbuf"/>
+							<mul> 2 </mul>
+						</sub>
+					</min>
+				</width>
+				<font> <copy src="io" trait="font" /> </font>
+				<_VerticalSpacing>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontV_" />
+					<sub>0</sub>
+				</_VerticalSpacing>
+				<_VUI+Scroll> <copy src="child(lb_scrollbar)" trait="visible" /> </_VUI+Scroll>
+				<!--VUI+ position the scrollbar between the left vertical brackets -->
+				<_VUI+ScrollbarOffsetX> <copy> -15 </copy> <sub src="me" trait="x" /> </_VUI+ScrollbarOffsetX>
+				<_VUI+ScrollbarOffsetY> 23 </_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight> -48 </_VUI+ScrollbarOffsetHeight>
+			</hotrect>
+
+			<rect name="MM_BottomBracket">
+				<include src="bottom_bracket.xml"/>
+				<width> <copy src="parent" trait="width"/> </width>
+				<y>
+					<copy src="sibling(MM_ButtonList)" trait="y"/>
+					<add src="sibling(MM_ButtonList)" trait="height"/>
+					<add src="io" trait="_verbuf"/>
+				</y>
+			</rect>
+		</rect>
+	</rect>
+
+	<template name="MM_ButtonTemplate">
+		<hotrect name="MM_Button">
+			<include src="list_box_template.xml"/>
+			<_VerticalSpacing> <copy src="parent" trait="_VerticalSpacing" /> </_VerticalSpacing>
+
+			<text name="ListItemText">
+				<font> 3</font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<justify> &center; </justify>
+				<wrapwidth>
+					<copy src="io" trait="_MaxMenuWidth"/>
+					<sub>
+						<copy src="io" trait="_horbuf"/>
+						<mul> 2 </mul>
+					</sub>
+					<sub> 60 </sub>
+				</wrapwidth>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<x>
+					<copy src="parent" trait="width"/>
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_" />
+					</add>
+				</x>
+				<y>
+					<copy src="parent" trait="_VerticalSpacing" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+		</hotrect>
+	</template>
+</menu>

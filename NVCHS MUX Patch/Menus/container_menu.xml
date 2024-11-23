@@ -1,0 +1,686 @@
+<!-- Container menu
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
+* Based on the barter menu
+* Remapped "Take All" to "R"
+* Replaced the low res direction arrow with a high res one
+* Formatted New Vegas companion subtitles according to dialog subtitles
+* Added the _VUI+ContainerWeight text block to include weight display on the container pane by script
+-->
+<menu name="ContainerMenu">
+	<class> &ContainerMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<_VUI+ContainerHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+ContainerHeight" /> </_VUI+ContainerHeight>
+	<_VUI+noMODSlabel> <copy src="sibling(HUDMainMenu)" trait="_VUI+noMODSlabel" /> </_VUI+noMODSlabel>
+	<_VUI+SpaceBetween> 100 </_VUI+SpaceBetween>
+	<font> <copy src="globals" trait="_VUI+ListFont" /> </font>
+	<include src="VUI+\Keybinds\Container.xml" />
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<rect name="CM_MainRect">
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2.3 </div>
+			</y>
+			<width>
+				<copy src="sibling(CM_ItemsRect)" trait="width" />
+				<add src="sibling(CM_ContainerRect)" trait="width" />
+				<add src="io" trait="_VUI+SpaceBetween" />
+			</width>
+			<height>
+				<copy src="sibling(CM_ItemsRect)" trait="height" />
+				<add src="sibling(CM_ItemIcon)" trait="height" />
+				<sub> 30 </sub> <!--VUI+ icon crop -->
+				<sub>
+					<copy> 25 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</height>
+		</rect>
+
+		<image name="CM_Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(CM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(CM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(CM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(CM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> 5 </_VUI+MenuHeader>
+		</image>
+
+		<text name="CM_Subtitle"> <!--VUI+ subtitles should use text instead of rect/text_box -->
+			<x> <copy src="screen" trait="width"/> <div> 2 </div> </x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="sibling(CM_MainRect)" trait="y" />
+				<sub src="sibling(CM_MainRect)" trait="height" />
+				<sub src="me" trait="height" />
+				<div> 2 </div>
+				<add src="sibling(CM_MainRect)" trait="y" />
+				<add src="sibling(CM_MainRect)" trait="height" />
+				<add> 7 </add>
+				<min> <copy src="screen" trait="height"/> <sub src="me" trait="height" /> </min>
+			</y>
+			<justify> &center; </justify>
+			<font> <copy src="globals" trait="_VUI+DialogFont" /> </font>
+			<depth> 4 </depth>
+			<include src="VUI+\orphancontrol.xml"/>
+			<_VUI+MaxWrapwidth> 1200 </_VUI+MaxWrapwidth>
+			<_VUI+OutlineIntensity>3</_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset> 1</_VUI+ShadowOffset>
+		</text>
+		<!--VUI+ apply outlining and shadow effect to the font if the small version is selected -->
+		<include src="VUI+\outline.xml"/>
+
+		<rect name="CM_ItemsRect">
+			<x> <copy src="sibling(CM_MainRect)" trait="x"/> </x>
+			<y> <copy src="sibling(CM_MainRect)" trait="y"/> </y>
+			<width> 537 </width>
+			<height> <copy src="child(CM_Items_footer_h1)" trait="y" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<image name="CM_Items_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="sibling(CM_Items_CapsLabel)" trait="y" /> <add src="sibling(CM_Items_CapsLabel)" trait="height" /> </height>
+			</image>
+
+			<image name="CM_Items_headline_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+			</image>
+
+			<image name="CM_Items_LeftFilterArrow">
+				<locus>1</locus>
+				<id> 0 </id>
+				<filename> Interface\Main\main_arrow_left.dds </filename>
+				<x> 33 </x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="CM_ItemsTitle">
+				<id> 1 </id>
+				<x>
+					<copy src="sibling" trait="width" />
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x" />
+					<add> 2 </add>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</add>
+				</x>
+				<y>
+					<copy src="sibling(CM_Items_headline_h1)" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<string> &-sInventoryItems; </string>
+				<font> <copy src="globals" trait="_VUI+HeadFont" /> </font>
+				<target> 1 </target>
+				<wheelable> 1 </wheelable>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="CM_Items_RightFilterArrow">
+				<locus>1</locus>
+				<id> 2 </id>
+				<filename> Interface\Main\main_arrow_right.dds </filename>
+				<x>
+					<copy src="sibling" trait="x" />
+					<add src="sibling" trait="width" />
+					<add> 7 </add>
+					<sub>
+						<copy src="sibling" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</sub>
+				</x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="CM_Items_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling" trait="width"/>
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x"/>
+					<add> 3 </add>
+				</x>
+			</image>
+
+			<text name="CM_Items_CapsLabel">
+				<id> 3 </id>
+				<x> <copy src="parent" trait="width"/> <sub> 35 </sub> </x>
+				<y>
+					<copy src="sibling(CM_ItemsTitle)" trait="height" />
+					<mul> 0.95 </mul>
+					<add src="sibling(CM_ItemsTitle)" trait="y" />
+				</y>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<alpha> 220 </alpha>
+				<justify> &right; </justify>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="CM_Items_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="parent" trait="width"/> </x>
+				<height> <copy src="sibling(CM_Items_headline_v1)" trait="height" /> </height>
+			</image>
+
+			<hotrect name="CM_Items_InventoryList">
+				<include src="list_box.xml"/>
+				<id> 4 </id>
+				<x> -15 </x>
+				<y> <copy src="sibling(CM_Items_headline_v1)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<_VerticalSpacing>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontV_" />
+					<sub>0</sub>
+				</_VerticalSpacing>
+				<_MinListHeight>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="me" trait="_VerticalSpacing" />
+				</_MinListHeight>
+				<height>
+					<copy src="io" trait="_VUI+ContainerHeight" />
+					<div src="me" trait="_MinListHeight" />
+					<floor> 1 </floor> <!--VUI+ round to perfectly fit single-line items -->
+					<mul src="me" trait="_MinListHeight" />
+					<add>0</add>
+				</height>
+			</hotrect>
+
+			<image name="CM_Items_footer_v1">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<height> 30 </height>
+				<y> <copy src="sibling(CM_Items_InventoryList)" trait="y" /> <add src="sibling(CM_Items_InventoryList)" trait="height" /> </y>
+			</image>
+
+			<image name="CM_Items_footer_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+				<y> <copy src="sibling(CM_Items_footer_v1)" trait="y"/> <add src="sibling(CM_Items_footer_v1)" trait="height"/> </y>
+			</image>
+
+			<image name="CM_Items_TitleButton"> <!-- left xbox button -->
+				<locus>1</locus>
+				<_filename_1> general_button_lt.dds </_filename_1>
+				<_filename_2> general_button_lb.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="user0"/>
+					<add> 1 </add>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> 15 </x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div >
+					<add src="sibling(CM_Items_footer_h2)" trait="y" />
+				</y>
+				<width> 85 </width>
+				<height> 85 </height>
+				<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="CM_Items_footer_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(CM_Items_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy> 70 </copy>
+					<onlyif src="globals" trait="_Has360Controller"/>
+					<add> 25 </add>
+				</x>
+				<y> <copy src="sibling(CM_Items_footer_h1)" trait="y"/> </y>
+			</image>
+
+			<image name="CM_Items_footer_v2">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> </x>
+				<y> <copy src="sibling(CM_Items_footer_v1)" trait="y"/> </y>
+				<height> <copy src="sibling(CM_Items_footer_v1)" trait="height"/> </height>
+			</image>
+		</rect>
+
+		<rect name="CM_ContainerRect">
+			<x>
+				<copy src="sibling(CM_ItemsRect)" trait="x"/>
+				<add src="sibling(CM_ItemsRect)" trait="width"/>
+				<add src="io" trait="_VUI+SpaceBetween" />
+			</x>
+			<y> <copy src="sibling(CM_ItemsRect)" trait="y"/> </y>
+			<width> <copy src="sibling(CM_ItemsRect)" trait="width"/> </width>
+			<height> <copy src="child(CM_Container_footer_h1)" trait="y" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<image name="CM_Container_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="CM_Items_headline_v1" trait="height" /> </height>
+			</image>
+
+			<image name="CM_Container_headline_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+			</image>
+
+			<image name="CM_Container_LeftFilterArrow">
+				<locus>1</locus>
+				<id> 5 </id>
+				<filename> Interface\Main\main_arrow_left.dds </filename>
+				<x> 33 </x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="CM_ContainerTitle">
+				<id> 6 </id>
+				<x>
+					<copy src="sibling" trait="width" />
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x" />
+					<add> 2 </add>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</add>
+				</x>
+				<y>
+					<copy src="sibling(CM_Container_headline_h1)" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<font> <copy src="CM_ItemsTitle" trait="font" /> </font>
+				<target> 1 </target>
+				<wheelable> 1 </wheelable>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="CM_Container_RightFilterArrow">
+				<locus>1</locus>
+				<id> 7 </id>
+				<filename> Interface\Main\main_arrow_right.dds </filename>
+				<x>
+					<copy src="sibling" trait="x" />
+					<add src="sibling" trait="width" />
+					<add> 7 </add>
+					<sub>
+						<copy src="sibling" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</sub>
+				</x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="CM_Container_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling" trait="width"/>
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x"/>
+					<add> 3 </add>
+				</x>
+			</image>
+
+			<text name="_VUI+ContainerWeight"> <!--VUI+ controlled by script -->
+				<x> <copy src="CM_Items_CapsLabel" trait="x" /> </x>
+				<y> <copy src="CM_Items_CapsLabel" trait="y" /> </y>
+				<font> <copy src="CM_Items_CapsLabel" trait="font" /> </font>
+				<alpha> <copy src="CM_Items_CapsLabel" trait="alpha" /> </alpha>
+				<justify> <copy src="CM_Items_CapsLabel" trait="justify" /> </justify>
+			</text>
+
+			<image name="CM_Container_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="sibling(CM_Container_headline_v1)" trait="height" /> </height>
+				<x> <copy src="parent" trait="width"/> </x>
+			</image>
+
+			<hotrect name="CM_Container_InventoryList">
+				<include src="list_box.xml"/>
+				<id> 8 </id>
+				<x> -15 </x>
+				<y> <copy src="sibling(CM_Container_headline_v1)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> <copy src="CM_Items_InventoryList" trait="height"/> </height>
+				<_VerticalSpacing> <copy src="CM_Items_InventoryList" trait="_VerticalSpacing"/> </_VerticalSpacing>
+			</hotrect>
+
+			<image name="CM_Container_footer_v1">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<y>
+					<copy src="sibling(CM_Container_InventoryList)" trait="y" />
+					<add src="sibling(CM_Container_InventoryList)" trait="height" />
+				</y>
+				<height > 30 </height>
+			</image>
+
+			<image name="CM_Container_footer_h1"> <!-- right xbox button -->
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(CM_Container_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+					<sub>
+						<copy> 95 </copy>
+						<onlyif src="globals" trait="_Has360Controller"/>
+					</sub>
+				</_length>
+				<y>
+					<copy src="sibling(CM_Container_footer_v1)" trait="y"/>
+					<add src="sibling(CM_Container_footer_v1)" trait="height"/>
+				</y>
+			</image>
+
+			<image name="CM_Container_TitleButton">
+				<locus>1</locus>
+				<_filename_1> general_button_rt.dds </_filename_1>
+				<_filename_2> general_button_rb.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="user0"/>
+					<add> 1 </add>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x>
+					<copy src="sibling(CM_Container_footer_h1)" trait="x" />
+					<add src="sibling(CM_Container_footer_h1)" trait="width" />
+					<sub> 5 </sub>
+				</x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div >
+					<add src="sibling(CM_Container_footer_h2)" trait="y" />
+				</y>
+				<width> 85 </width>
+				<height> 85 </height>
+				<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="CM_Container_footer_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(CM_Container_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling(CM_Container_footer_h1)" trait="x" />
+					<add src="sibling(CM_Container_footer_h1)" trait="width" />
+					<add>
+						<copy> 70 </copy>
+						<onlyif src="globals" trait="_Has360Controller"/>
+					</add>
+				</x>
+				<y> <copy src="sibling(CM_Container_footer_h1)" trait="y"/> </y>
+			</image>
+
+			<image name="CM_Container_footer_v2">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> </x>
+				<y> <copy src="sibling(CM_Container_footer_v1)" trait="y"/> </y>
+				<height> <copy src="sibling(CM_Container_footer_v1)" trait="height"/> </height>
+			</image>
+		</rect>
+
+		<image name="CM_ArrowIcon">
+			<locus>1</locus>
+			<id> 9 </id> <!-- Switch arrow direction based on item flow -->
+			<_filename_1> Interface\Barter\barter_arrow_buy.dds </_filename_1> <!--VUI+ the barter arrow isn't blurry -->
+			<_filename_2> Interface\Barter\barter_arrow_sell.dds </_filename_2>
+			<filename>
+				<copy src="me" trait="user0"/>
+				<copy src="me" trait="_filename_"/>
+			</filename>
+			<user0></user0> <!-- Direction of arrow -->
+			<x>
+				<copy src="sibling(CM_ItemsRect)" trait="x"/>
+				<add> <copy src="sibling(CM_ItemsRect)" trait="width"/> </add>
+			</x>
+			<y>
+				<copy src="sibling(CM_ItemsRect)" trait="y" />
+				<add>
+					<copy src="me" trait="height" />
+					<div> -1.89 </div> <!--VUI+ correction factor for the real arrow on the dds file -->
+					<add src="sibling(CM_ItemsRect)" trait="height" />
+					<div> 2 </div>
+				</add>
+			</y>
+			<width> <copy src="io" trait="_VUI+SpaceBetween" /> <add> 20 </add> </width>
+			<height> 270 </height> <!--VUI+ changes to size and positioning because we're using the barter arrow -->
+			<zoom> &scale; </zoom>
+			<depth> 2 </depth>
+			<alpha> 230 </alpha>
+			<visible> 0 </visible>
+			<include src="VUI+\Image_outline.xml"/>
+		</image>
+
+		<rect name="CM_ButtonRect">
+			<x>
+				<copy src="sibling(CM_BottomBracket)" trait="x"/>
+				<add src="sibling(CM_BottomBracket)" trait="width"/>
+				<sub src="globals" trait="_VUI+InsideButton" />
+			</x>
+			<y> <copy src="sibling(CM_BottomBracket)" trait="y"/> <sub src="sibling(CM_BottomBracket)" trait="height" /> </y>
+			<locus> 1 </locus>
+			<depth> 6 </depth>
+
+			<hotrect name="CM_TakeAllButton">
+				<id> 10 </id>
+				<include src="text_box.xml"/>
+				<_y> <copy src="sibling(CM_ExitButton)" trait="_y" /> <sub src="me" trait="height" /> </_y>
+				<_verbuf> 15 </_verbuf>
+				<justify> &right; </justify>
+				<_xbox_button> &xbuttonx; </_xbox_button>
+				<font><copy src="globals" trait="_VUI+ListFont" /></font>
+				<_PCButtonText> <copy src="io" trait="_CM_TakeAllButton" /> </_PCButtonText>
+				<string> &-sTakeAll; </string>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</hotrect>
+
+			<hotrect name="CM_ExitButton">
+				<id> 11 </id>
+				<include src="text_box.xml"/>
+				<_y> <copy> 0 </copy> <sub src="me" trait="height" /> </_y>
+				<_verbuf> 15 </_verbuf>
+				<justify> &right; </justify>
+				<_xbox_button> &xbuttonb; </_xbox_button>
+				<font><copy src="globals" trait="_VUI+ListFont" /></font>
+				<_PCButtonText> <copy src="io" trait="_CM_ExitButton" /> </_PCButtonText>
+				<string> &-sExit; </string>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</hotrect>
+		</rect>
+
+		<image name="CM_ItemIcon">
+			<locus>1</locus>
+			<id> 12 </id>
+			<depth> 2 </depth>
+			<x>
+				<copy src="sibling(CM_ItemsRect)" trait="x"/>
+				<add> 111 </add>
+			</x>
+			<y>
+				<copy src="sibling(CM_ItemsRect)" trait="y" />
+				<add src="sibling(CM_ItemsRect)" trait="height" />
+				<sub>12</sub>
+				<sub>
+					<copy> 25 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</y>
+			<width> 240 </width>
+			<height> 240 </height>
+			<depth> 2 </depth>
+			<zoom> &scale; </zoom>
+			<visible> 0 </visible>
+			<include src="VUI+\Image_outline.xml"/>
+		</image>
+
+		<rect name="CM_ItemData">
+			<include src="item_stats_display.xml"/>
+			<id> 13 </id>
+			<x> <copy src="sibling(CM_ItemIcon)" trait="x"/> <add src="sibling(CM_ItemIcon)" trait="width"/> </x>
+			<y>
+				<copy src="sibling(CM_ItemsRect)" trait="y" />
+				<add src="sibling(CM_ItemsRect)" trait="height" />
+				<add> 48 </add>
+				<sub>
+					<copy>15</copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</y>
+			<font> <copy src="globals" trait="_VUI+HeadFont" /> </font>
+		</rect>
+
+		<rect name="CM_BottomBracket">
+			<include src="bottom_bracket.xml"/>
+			<x> <copy src="sibling(CM_MainRect)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(CM_MainRect)" trait="y" />
+				<add src="sibling(CM_MainRect)" trait="height" />
+			</y>
+			<width> <copy src="sibling(CM_MainRect)" trait="width"/> </width>
+			<height> 40 </height>
+			<depth> 2 </depth>
+		</rect>
+	</rect>
+
+	<template name="CM_list_template">
+		<hotrect name="CM_list_template_container">
+			<include src="list_box_template.xml"/>
+			<id>
+				<copy> 5 </copy>
+				<onlyif src="globals" trait="_VUI+Vegas" />
+				<add> 15 </add>
+			</id>
+
+			<text name="ListItemText">
+				<x>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontX_"/>
+					<add src="sibling(CM_list_template_ItemMarker)" trait="_SquarePadding" />
+				</x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<wrapwidth>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x" />
+					<sub src="globals" trait="_VUI+Padding" />
+				</wrapwidth>
+				<font> <copy src="grandparent" trait="font" /> </font>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<alpha> 255 </alpha> <!-- Set in code -->
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<rect name="CM_list_template_ItemMarker">
+				<include src="VUI+\square.xml" />
+				<visible> 0 </visible> <!-- Set in code -->
+			</rect>
+		</hotrect>
+	</template>
+</menu>

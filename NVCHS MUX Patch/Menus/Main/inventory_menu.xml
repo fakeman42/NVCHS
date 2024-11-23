@@ -200,7 +200,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2020 BY AXONIS FOR VANILLA UI PLUS
 				<rect name="IM_EquipItemMarker"> <!-- Hollow square that appears next to highlighted items that can be equipped -->
 					<include src="VUI+\square.xml" />
 					<_hollow> 1 </_hollow>
-					<_x> <copy src="sibling(lb_highlight_box)" trait="x" /><sub>2.5</sub></_x> <!--VUI+ this is the list_box.xml highlight box -->
+					<_x> <copy src="sibling(lb_highlight_box)" trait="x" /><sub>1</sub></_x> <!--VUI+ this is the list_box.xml highlight box -->
 					<_y> <copy src="sibling(lb_highlight_box)" trait="y"/><sub>2.5</sub></_y>
 					<_item_min_height> <copy src="parent" trait="_item_min_height" /></_item_min_height>
 					<visible> <copy src="io" trait="_EquippableItem"/> </visible>
@@ -587,7 +587,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2020 BY AXONIS FOR VANILLA UI PLUS
 			<!-- Small square that becomes filled if item is equipped -->
 			<rect name="IM_Template_ItemMarker">
 				<include src="VUI+\square.xml" />
-				<_x>2.5</_x>
+				<_x>0</_x>
 				<_y>-2.5</_y>
 				<visible> 0 </visible>
 			</rect>

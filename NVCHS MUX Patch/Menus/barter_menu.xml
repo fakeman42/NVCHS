@@ -238,7 +238,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2022 BY AXONIS FOR VANILLA UI PLUS
 				<_VerticalSpacing>
 					<copy src="me" trait="font" />
 					<copy src="globals" trait="_VUI+FontV_" />
-					<sub>2.6</sub>
+					<sub>0</sub>
 				</_VerticalSpacing>
 				<_MinListHeight>
 					<copy src="me" trait="font" />
@@ -250,7 +250,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2022 BY AXONIS FOR VANILLA UI PLUS
 					<div src="me" trait="_MinListHeight" />
 					<floor> 1 </floor> <!--VUI+ round to perfectly fit single-line items -->
 					<mul src="me" trait="_MinListHeight" />
-					<add>30</add>
+					<add>0</add>
 				</height>
 			</hotrect>
 
@@ -721,7 +721,7 @@ COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2022 BY AXONIS FOR VANILLA UI PLUS
 			<y>
 				<copy src="sibling(BM_ItemsRect)" trait="y" />
 				<add src="sibling(BM_ItemsRect)" trait="height" />
-				<add> 48 </add>
+				<add> 58 </add>
 				<sub>
 					<copy> 15 </copy>
 					<onlyifnot src="globals" trait="_VUI+Vegas" />
@@ -791,8 +791,8 @@ COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2022 BY AXONIS FOR VANILLA UI PLUS
 					<copy src="parent" trait="width" />
 					<sub src="globals" trait="_VUI+Padding" />
 				</x>
-				<y> <copy src="sibling(ListItemText)" trait="y" /> </y>
-				<font> <copy src="sibling(ListItemText)" trait="font" /> </font>
+				<y> <copy src="sibling" trait="y" /> </y>
+				<font> <copy src="sibling" trait="font" /> </font>
 				<justify> &right; </justify>
 				<string> <copy src="parent" trait="_Value"/> </string>
 				<brightness> <copy src="parent" trait="brightness" /> </brightness>

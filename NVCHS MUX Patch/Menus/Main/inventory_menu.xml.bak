@@ -1,0 +1,603 @@
+<!-- Pip-Boy Inventory menu (NV)
+COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2020 BY AXONIS FOR VANILLA UI PLUS
+* Reorganized the entire code to fix several alignment issues, to match the appearance of all 3 Pip-Boy menus and to use relative positioning; original block structure is retained
+* Expanded the width and reduced the vertical padding of list item to fit more of them and make use of available free space wherever it could be found
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Added highlighting to list contents (text, images etc) and targetable images
+* Streamlined the positioning of buttons for consistency across menus; this also allows for greater width expansion since the buttons no longer protrude outside the rectangle
+* Added options to control the size of the Pip-Boy menus and expanded them on default
+* Tightened the hot key menu to prevent the hot item name from overlapping with the items list and added a navigation tip for controller users
+* Set a wrap width for very large hot key item names; the hot key wheel will be accordingly aligned in this case
+* Fixed zooming and cropping issues with the item icon (eg. Plasma Pistol)
+* Fixed repair and mod buttons from displaying where or when they shouldn't
+* Tightened the padding of item stats to allow the DAM/DPS and DR/DT separation feature (see item_stats_display.xml) without shrinking the item icon
+* Replaced Hit Points on top to make room for the separate DR/DT cards; HP is still displayed at the Aid tab in the place of Caps
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="InventoryMenu">
+	<class> &InventoryMenu; </class>
+	<id> &pipboymenu; </id>
+	<_VUI+noMODSlabel> <copy src="sibling(HUDMainMenu)" trait="_VUI+noMODSlabel" /> </_VUI+noMODSlabel> <!--VUI+ hide the MODS label (for mods such as Unisorter) -->
+	<_VUI+PipX> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipX" /> </_VUI+PipX>
+	<_VUI+PipY> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipY" /> </_VUI+PipY>
+	<_VUI+PipWidth> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipWidth" /> </_VUI+PipWidth>
+	<_VUI+PipHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipHeight" /> </_VUI+PipHeight>
+	<font> 3 </font>
+	<_KeyringOpen> 0 </_KeyringOpen> <!-- True if the Keyring page is open -->
+	<_EquippableItem> 0 </_EquippableItem> <!-- True if the highlighted item can be used or equipped -->
+	<systemcolor>&pipboy;</systemcolor>
+	<xbuttonx> <ref src="IM_DropButton" trait="clicked"/> </xbuttonx>
+	<xbuttony> <ref src="IM_RepairButton" trait="clicked"/> </xbuttony>
+	<include src="VUI+\Keybinds\PipBoyInventory.xml" />
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+	</rect>
+
+	<rect name="GLOW_BRANCH">
+		<id> &glow_branch; </id>
+
+		<!-- ===== BACKGROUND TEXTURE ===== -->
+		<image name="IM_Background">
+			<filename> Interface\Shared\Background\pipboy.dds </filename>
+			<width> <copy src="globals" trait="_pipboy_width"/> </width>
+			<height> <copy src="globals" trait="_pipboy_height"/> </height>
+			<zoom> &scale; </zoom>
+			<depth> 1 </depth>
+			<brightness> 90 </brightness>
+		</image>
+
+		<!-- ===== MAIN POSITIONING RECT ===== -->
+		<rect name="IM_MainRect">
+			<x> <copy src="io" trait="_VUI+PipX" /> </x>
+			<y> <copy src="io" trait="_VUI+PipY" /> </y>
+			<width> <copy src="io" trait="_VUI+PipWidth" /> </width>
+			<height> <copy src="io" trait="_VUI+PipHeight" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<!-- ===== HEADLINE RECT ===== -->
+			<!--VUI+ since we're replacing HP with DR there's plenty of available space and most of this space is allocated to Wg to avoid wrapping the weight of hoarders -->
+			<rect name="IM_HeadlineRect">
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> 60 </height>
+
+				<image name="IM_Headline_v1">
+					<include src="vertical_fade_line.xml"/>
+				</image>
+
+				<image name="IM_Headline_h1">
+					<include src="line.xml"/>
+					<_length> 50 </_length>
+				</image>
+
+				<text name="IM_Headline_Title">
+					<x>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+						<add src="sibling" trait="x" />
+						<add src="sibling" trait="width" />
+						<add> 20 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<sub src="me" trait="height" />
+						<div> 2 </div>
+						<add>
+							<copy src="me" trait="font" />
+							<copy src="globals" trait="_VUI+FontY_"/>
+						</add>
+					</y>
+					<font> 3 </font>
+					<string> &-sInventoryItems; </string>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="IM_Headline_h2">
+					<include src="line.xml"/>
+					<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 20 </add> </x>
+					<_length> <!--VUI+ use all the available space -->
+						<copy src="parent" trait="width" />
+						<sub src="me" trait="x" />
+						<sub src="sibling(IM_Headline_PlayerWGInfo)" trait="width" />
+						<sub src="sibling(IM_Headline_PlayerDRInfo)" trait="width" />
+						<sub src="sibling(IM_Headline_PlayerDTInfo)" trait="width" />
+						<sub src="sibling(IM_Headline_PlayerCapsInfo)" trait="width" />
+						<sub> 27 </sub> <!--VUI+ total spacing between those cards -->
+					</_length>
+				</image>
+
+				<rect name="IM_Headline_PlayerWGInfo">
+					<include src="card_info.xml"/>
+					<id> 3 </id>
+					<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> </x>
+					<width> 170 </width>
+					<font>3</font>
+					<_Title> &-sInventoryWeight; </_Title> <!-- Widest possible value: Wg 3333/333 -->
+					<_VUI+NoLabel> 1 </_VUI+NoLabel> <!--VUI+ hoarders need no labels -->
+				</rect>
+
+				<rect name="IM_Headline_PlayerDRInfo">
+					<include src="card_info.xml"/>
+					<id> 2 </id>
+					<font>3</font>
+					<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 9 </add> </x>
+					<width> 90 </width>
+					<_Title> &-sInventoryDamageResistance; </_Title> <!--VUI+ Widest possible value: DR 85 (or some negative value) -->
+					<_VUI+NoBlink> 1 </_VUI+NoBlink>
+				</rect>
+
+				<rect name="IM_Headline_PlayerDTInfo">
+					<include src="card_info.xml"/>
+					<id> 21 </id>
+					<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 9 </add> </x>
+					<width> 115 </width>
+					<_Title> &-sInventoryDamageThreshold; </_Title> <!-- Widest possible value: DT 33.0 -->
+					<_VUI+NoBlink> 1 </_VUI+NoBlink>
+					<font>3</font>
+				</rect>
+
+				<rect name="IM_Headline_PlayerCapsInfo">
+					<include src="card_info.xml"/>
+					<id> 0 </id>
+					<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 9 </add> </x>
+					<width> 185 </width>
+					<_Title> &-sInventoryCaps; </_Title> <!-- Widest possible value: Caps 1000000+ -->
+					<_VUI+RightVertExtra>
+						<copy src="sibling(IM_Headline_v1)" trait="height" />
+						<sub src="me" trait="height" />
+					</_VUI+RightVertExtra>
+					<visible> <copy src="IM_Tabline" trait="_CurrentTab"/> <neq> 2 </neq> </visible> <!--VUI+ hide caps in the Aid tab, HP will be displayed instead -->
+					<font>3</font>
+				</rect>
+
+				<rect name="IM_Headline_PlayerHPInfo">
+					<include src="card_info.xml"/>
+					<id> 1 </id>
+					<x> <copy src="sibling" trait="x" /> </x>
+					<width> <copy src="sibling" trait="width" /> </width>
+					<height> <copy src="sibling" trait="height" /> </height>
+					<_Title> &-sHitPointsShort; </_Title>
+					<_VUI+RightVertExtra> <copy src="sibling" trait="_VUI+RightVertExtra" /> </_VUI+RightVertExtra>
+				 	<visible> <not src="sibling" trait="visible"/> </visible>
+					<font>3</font>
+				</rect>
+			</rect>
+
+			<!-- ===== INVENTORY LIST BOX ===== -->
+			<hotrect name="IM_InventoryList">
+				<include src="list_box.xml"/>
+				<id> 4 </id>
+				<x> -15 </x>
+				<!--VUI+ the vertical position and height of the list is calculated based on the available space -->
+				<_VUI+Top> <copy src="sibling(IM_HeadlineRect)" trait="height"/> </_VUI+Top>
+				<_VUI+Bottom> <copy src="parent" trait="height" /> </_VUI+Bottom>
+				<y>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add src="me" trait="_VUI+Top" />
+				</y>
+				<width> <copy src="parent" trait="width" /> <mul> 0.49 </mul> </width> <!--VUI+ multiplier defines the list/item stats ratio -->
+				<height>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<add> 6 </add> <!--VUI+ to perfectly fit the last item -->
+				</height>
+				<!--VUI+ the scrollbar will resize to just touch the vertical edges (and not overlap on them) -->
+				<_VUI+ScrollbarOffsetY>
+					<copy src="me" trait="_VUI+Top" />
+					<sub src="me" trait="y" />
+				</_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight>
+					<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+					<mul> -2 </mul>
+				</_VUI+ScrollbarOffsetHeight>
+
+				<rect name="IM_EquipItemMarker"> <!-- Hollow square that appears next to highlighted items that can be equipped -->
+					<include src="VUI+\square.xml" />
+					<_hollow> 1 </_hollow>
+					<_x> <copy src="sibling(lb_highlight_box)" trait="x" /><sub>0</sub></_x> <!--VUI+ this is the list_box.xml highlight box -->
+					<_y> <copy src="sibling(lb_highlight_box)" trait="y"/><sub>2.5</sub></_y>
+					<_item_min_height> <copy src="parent" trait="_item_min_height" /></_item_min_height>
+					<visible> <copy src="io" trait="_EquippableItem"/> </visible>
+				</rect>
+			</hotrect>
+
+			<!-- ===== HOT KEY MENU ===== -->
+			<rect name="IM_HotKeyWheel">
+				<id> 5 </id>
+				<include src="HotKeys.xml"/>
+				<visible> 0 </visible>
+				<font> 3 </font>
+				<_VUI+HotKeyAvailableWidth>
+					<copy src="parent" trait="width" />
+					<sub src="sibling(IM_InventoryList)" trait="x" />
+					<sub src="sibling(IM_InventoryList)" trait="width" />
+				</_VUI+HotKeyAvailableWidth>
+				<x>
+					<copy src="me" trait="_VUI+HotKeyAvailableWidth" />
+					<sub src="me" trait="width" />
+					<div> 2 </div>
+					<add src="sibling(IM_InventoryList)" trait="x" />
+					<add src="sibling(IM_InventoryList)" trait="width" />
+				</x>
+				<y>
+					<copy> 72 </copy> <!--VUI+ fine tuned for New Vegas -->
+					<add>
+						<copy src="child(IM_HotKeyText)" trait="height" />
+						<mul> 0.6 </mul>
+					</add>
+				</y> <!--VUI+ move under the text to match the hot key ring in the main screen -->
+				<width> 260 </width>
+				<height> 230 </height> <!--VUI+ reduce size to allow the hot key menu to fit with the additional item info cards -->
+
+				<text name="IM_HotKeyText">
+					<justify> &center; </justify>
+					<font> 3 </font> <!--VUI+ change font to emphasize and fit even the largest item names -->
+					<x> 129 </x>
+					<y>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_" />
+						<sub src="me" trait="height" />
+						<sub> 10 </sub>						
+					</y>
+					<string> <copy src="parent" trait="_SelectedText"/> </string>
+					<wrapwidth>
+						<copy src="parent" trait="_VUI+HotKeyAvailableWidth" />
+						<mul> 0.9 </mul>
+						<max src="parent" trait="width" />
+					</wrapwidth>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<image name="IM_CompassRose">
+					<filename> Interface\HotKeys\hot_keys_rose.dds </filename>
+					<zoom> &scale; </zoom>
+					<width> 140 </width> <!--VUI+ slightly decreased size to better match the Pip-Boy hotkey wheel -->
+					<height> 140 </height>
+					<x> 93 </x>
+					<y> 71 </y>
+				</image>
+
+				<image name="IM_HotkeyIcon">
+					<zoom> &scale; </zoom>
+					<width> 50 </width>
+					<height> 50 </height>
+					<x> 110 </x> <!--VUI+ repositioned to reflect the edits above-->
+					<y> 88 </y>
+				</image>
+			</rect>
+
+			<text name="VUI+HotkeyControllerTip">
+				<x>
+					<copy src="sibling" trait="x" />
+					<add>
+						<copy src="sibling" trait="width" />
+						<div> 2 </div>
+					</add>
+				</x>
+				<y> <copy src="sibling" trait="y" /> <add> 3 </add> <sub src="me" trait="height" /> </y>
+				<justify> &center; </justify>
+				<visible> <!--VUI+ only show the tip when there's no item text -->
+					<copy src="sibling(IM_HotKeyWheel)" trait="visible" />
+					<and src="globals" trait="_Has360Controller"/>
+					<and>
+						<copy src="IM_HotKeyText" trait="width" />
+						<lt> 20 </lt>
+					</and>
+				</visible>
+				<string> <copy src="globals" trait="_VUI+HotkeyControllerTip" /> </string>
+				<font> 3 </font>
+				<alpha> 100 </alpha>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<!-- ===== BUTTON RECT ===== -->
+			<rect name="IM_ButtonRect">
+				<x> <copy src="parent" trait="width" /> <sub src="globals" trait="_VUI+InsideButton" /> </x>
+				<y> <copy src="sibling(IM_HeadlineRect)" trait="height" /> </y>
+				<locus> 1 </locus>
+				<visible>
+					<copy src="IM_ItemIcon" trait="visible"/>
+					<or src="io" trait="_KeyringOpen"/>
+				</visible>
+
+				<hotrect name="IM_EquipButton">
+					<id> 6 </id>
+					<include src="text_box.xml"/>
+					<_line_alpha>
+						<copy> 128 </copy>
+						<add>
+							<copy> 127 </copy>
+							<onlyif src="me" trait="target"/>
+						</add>
+					</_line_alpha>
+					<target> 0 </target>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<string> &-sInventoryEquip; </string>
+					<_xbox_button> &xbuttona; </_xbox_button>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<!-- Only visible on XBox; not when keyring is open -->
+					<visible>
+						<copy src="globals" trait="_Has360Controller"/>
+						<and> <not src="io" trait="_KeyringOpen"/> </and>
+					</visible>
+				</hotrect>
+
+				<hotrect name="IM_DropButton">
+					<id> 7 </id>
+					<include src="text_box.xml"/>
+					<_y>
+						<copy src="sibling(IM_EquipButton)" trait="y"/>
+						<add>
+							<copy src="sibling(IM_EquipButton)" trait="height"/>
+							<onlyif src="sibling(IM_EquipButton)" trait="visible"/>
+						</add>
+					</_y>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<string> &-sInventoryDrop; </string>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<_line_alpha>
+						<copy> 128 </copy>
+						<add>
+							<copy> 127 </copy>
+							<onlyif src="me" trait="target"/>
+						</add>
+					</_line_alpha>
+					<target> 0 </target>
+					<_xbox_button> &xbuttonx; </_xbox_button>
+					<visible> <copy src="sibling(IM_EquipButton)" trait="visible"/> </visible>
+				</hotrect>
+
+				<hotrect name="IM_RepairButton">
+					<id> 8 </id>
+					<include src="text_box.xml"/>
+					<_y>
+						<copy src="sibling(IM_DropButton)" trait="y"/>
+						<add>
+							<copy src="sibling(IM_DropButton)" trait="height"/>
+							<onlyif src="sibling(IM_DropButton)" trait="visible"/>
+						</add>
+					</_y>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<justify> &right; </justify>
+					<string> &-sInventoryRepair; </string>
+					<_line_alpha>
+						<copy> 128 </copy>
+						<add>
+							<copy> 127 </copy>
+							<onlyif src="me" trait="target"/>
+						</add>
+					</_line_alpha>
+					<target> 0 </target>
+					<_xbox_button> &xbuttony; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_IM_RepairButton" /> </_PCButtonText>
+					<visible>
+						<copy src="IM_Tabline" trait="_CurrentTab"/> <lte> 1 </lte> <!--VUI+ only show for weapons or apparel -->
+						<and> <copy src="IM_ItemIcon" trait="visible" /> </and> <!--VUI+ includes IM_HotKeyWheel visibility -->
+					</visible>
+				</hotrect>
+
+				<hotrect name="IM_HotkeyButton">
+					<id> 9 </id>
+					<include src="text_box.xml"/>
+					<_y> <!--VUI+ Hotkey under Mod -->
+						<copy src="IM_ModButton" trait="y"/>
+						<add>
+							<copy src="IM_ModButton" trait="height"/>
+							<onlyif src="sibling(VUI+ModButtonVisibility)" trait="visible"/>
+						</add>
+					</_y>
+					<_horbuf> 20 </_horbuf>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<string> &-sInventoryHotKey; </string>
+					<_xbox_button> &xbuttonrb; </_xbox_button>
+					<visible>
+						<copy src="sibling(IM_EquipButton)" trait="visible"/>
+						<and> <copy src="IM_Tabline" trait="_CurrentTab"/> <lte> 2 </lte> </and> <!--VUI+ don't display the quick button for misc and ammo -->
+					</visible>
+				</hotrect>
+
+				<rect name="VUI+ModButtonVisibility"> <!--VUI+ override the engine's bugged visibility control of the mod button -->
+					<visible> <copy src="IM_ItemIconBadge" trait="visible" /> </visible> <!--VUI+ only display for weapons -->
+					<hotrect name="IM_ModButton">
+						<id> 19 </id>
+						<include src="text_box.xml"/>
+						<_y> <!--VUI+ Mod under Repair -->
+							<copy src="IM_RepairButton" trait="y"/>
+							<add>
+								<copy src="IM_RepairButton" trait="height"/>
+								<onlyif src="IM_RepairButton" trait="visible"/>
+							</add>
+						</_y>
+						<_horbuf> 20 </_horbuf>
+						<font>3</font>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+						<_verbuf> 15 </_verbuf>
+						<justify> &right; </justify>
+						<string> &-sInventoryMod; </string>
+						<_xbox_button> &xbuttonlb; </_xbox_button>
+						<_PCButtonText> <copy src="io" trait="_IM_ModButton" /> </_PCButtonText>
+						<visible> <copy> 1 </copy> </visible> <!--VUI+ fixes a rare bug when first opening the Pip-Boy -->
+					</hotrect>
+				</rect>
+
+				<hotrect name="IM_CancelButton">
+					<id> 10 </id>
+					<include src="text_box.xml"/>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<string> &-sCancel; </string>
+					<_xbox_button> &xbuttonb; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_IM_CancelButton" /> </_PCButtonText>
+					<visible> <copy src="io" trait="_KeyringOpen"/> </visible>
+				</hotrect>
+			</rect>
+
+			<!-- ===== ITEM ICON ===== -->
+			<rect name="VUI+UnHardcodedItemIcon"> <!--VUI+ remove cropx (which breaks Plasma Pistol) and align the image next to the inventory list -->
+				<locus> 1 </locus>
+				<x>
+					<copy src="sibling(IM_ItemInfoRect)" trait="x" />
+					<sub src="child(IM_ItemIcon)" trait="x" /> <!--VUI+ removed hardcoded icon x -->
+					<add>
+						<copy src="sibling(IM_ItemInfoRect)" trait="width"/>
+						<sub src="child(IM_ItemIcon)" trait="width"/>
+						<div> 2 </div>
+					</add>
+					<add> <!--VUI+ avoid collisions with the skill badge -->
+						<copy> 25 </copy>
+						<onlyifnot src="globals" trait="_Has360Controller"/> <!--VUI+ those wide controller buttons... -->
+					</add>
+				</x>
+				<y> 15 </y>
+				<width> <copy src="child(IM_ItemIcon)" trait="width" /> </width>
+				<height> <copy src="child(IM_ItemIcon)" trait="height" /> </height>
+				<image name="IM_ItemIcon">
+					<locus>1</locus>
+					<id> 11 </id>
+					<width> 380 </width>
+					<height> 380 </height>
+					<visible> 0 </visible>
+					<zoom> &scale; </zoom>
+					<include src="VUI+\Image_outline.xml"/>
+				</image>
+			</rect>
+
+			<!--VUI+ ===== SKILL REQUIREMENT ===== -->
+			<image name="IM_ItemIconBadge">
+				<id> 20 </id>
+				<x> <copy src="sibling(IM_ItemInfoRect)" trait="x" /> <add> 5 </add> </x> <!-- Move the skill requirement icon and stat above, so that the additional DPS/DAM data can fit -->
+				<y> <copy src="sibling(IM_ItemInfoRect)" trait="y" /> <sub> 115 </sub> </y>
+				<width> 48 </width>
+				<height> 48 </height>
+				<zoom> &scale; </zoom>
+				<depth> 3 </depth> <!--VUI+ set above the weapon icon -->
+			</image>
+
+			<text name="IM_StrReq"> <!--VUI+ this is skill req not strength -->
+				<id> 22 </id>
+				<x> <copy src="sibling" trait="x" /> <add> 56 </add> </x>
+				<y> <copy src="sibling" trait="y" /> <add> 31 </add> </y>
+				<font> 3 </font>
+				<justify>&left;</justify>
+				<brightness> <copy src="sibling" trait="brightness" /> </brightness>
+				<depth> 3 </depth>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml" /> <!--VUI+ easier to read on top of some wide icons -->
+
+			<!-- ==== ITEM INFORMATION ===== -->
+			<rect name="IM_ItemInfoRect">
+				<include src="item_stats_display.xml"/>
+				<id> 12 </id>
+				<x> <copy src="sibling(IM_InventoryList)" trait="x" /> <add src="sibling(IM_InventoryList)" trait="width" /> </x>
+				<y>
+					<copy src="sibling(VUI+UnHardcodedItemIcon)" trait="height" />
+					<add src="sibling(VUI+UnHardcodedItemIcon)" trait="y" />
+					<sub> 10 </sub> <!--VUI+ fine tuned for New Vegas -->
+				</y>
+				<width> <copy src="parent" trait="width" /> <sub src="me" trait="x" /> <sub> 20 </sub> </width> <!--VUI+ sub 20 because of those gaps, see item_stats_display -->
+				<height> 125 </height> <!--VUI+ reduced height of item cards, default is too big and we need this space for the extra New Vegas cards -->
+				<visible> <not src="sibling(IM_HotKeyWheel)" trait="visible"/> </visible>
+			</rect>
+		</rect>
+
+		<rect name="IM_Tabline">
+			<include src="tabline.xml"/>
+			<id> 13 </id>
+			<height> 50 </height>
+			<x> <copy src="sibling" trait="x"/> </x>
+			<y>
+				<copy src="sibling" trait="y"/>
+				<add src="sibling" trait="height"/>
+				<add src="me" trait="height" />
+			</y>
+			<width> <copy src="sibling" trait="width"/> </width>
+			<depth> 2 </depth>
+		</rect>
+	</rect>
+
+	<!--======================== LIST BOX TEMPLATE =========================-->
+	<template name="IM_InventoryListTemplate">
+		<hotrect name="IM_InventoryListTemplateRect">
+			<include src="list_box_template.xml"/>
+			<mouseoversound> &nosound; </mouseoversound> <!--VUI+ removed sounds because this menu provides its own effects -->
+			<clicksound> &nosound; </clicksound>
+			<_VerticalSpacing>5</_VerticalSpacing>
+
+			<text name="ListItemText">
+				<font>3</font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<wrapwidth>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x" />
+					<sub src="globals" trait="_VUI+Padding" />
+				</wrapwidth>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<x>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontX_"/>
+					<add src="sibling(IM_Template_ItemMarker)" trait="_SquarePadding" />
+				</x>
+				<y>
+					<!--VUI+ font Y correction + the top vertical spacing = a font that is correctly aligned between the vertical spacings -->
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<!-- Small square that becomes filled if item is equipped -->
+			<rect name="IM_Template_ItemMarker">
+				<include src="VUI+\square.xml" />
+				<_x>0</_x>
+				<_y>-2.5</_y>
+				<visible> 0 </visible>
+			</rect>
+		</hotrect>
+	</template>
+
+	<!-- TAB BUTTON TEMPLATE: Used by tabline.xml -->
+	<template name="TabButtonTemplate">
+		<hotrect name="TabButton">
+			<include src="tabline_template.xml"/>
+		</hotrect>
+	</template>
+</menu>
