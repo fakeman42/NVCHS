@@ -1,20 +1,27 @@
 REG00000001	([%] - [%])
-REG00000002	- [%] - [%] - [%] - [%] - [%] - [%] - [%] - [%] - [%] - [%]
-REG00000003	- [%] - [%] - [%] - [%] - [%] - [%] - [%] - [%] - [%]
-REG00000004	- [%] - [%] - [%] - [%] - [%] - [%] - [%] - [%]
-REG00000005	- [%] - [%] - [%] - [%] - [%] - [%] - [%]
-REG00000006	- [%] - [%] - [%] - [%] - [%] - [%]
-REG00000007	- [%] - [%] - [%] - [%] - [%]
-REG00000008	- [%] - [%] - [%] - [%]
-REG00000009	- [%] - [%] - [%]
-REG00000010	- [%] - [%]
-REG00000011	- [%]
-REG00000012	([%]) [%]
-REG00000013	[%] x [%] ([%]/[%])
-REG00000014	[%] x [%] ([%]/[%])+
-REG00000015	[%] ([%])
-REG00000016	> [%]
-
-
-
-
+REG00000002	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000003	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000004	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000005	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000006	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000007	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000008	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000009	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000010	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000011	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000012	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000013	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000014	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000015	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000016	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000017	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000018	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000019	- [%] [CRLF]- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000020	- [%] [CRLF]- [%] [CRLF]- [%]
+REG00000021	- [%] [CRLF]- [%]
+REG00000022	- [%]
+REG00000023	([%]) [%]
+REG00000024	[%] x [%] ([%]/[%])
+REG00000025	[%] x [%] ([%]/[%])+
+REG00000026	[%] ([%])
+REG00000027	> [%]

@@ -1,0 +1,5104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>060714F4</ID>
+    <EDID>MP7LaunhcerBaseEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Underbarrel 25mm Grenade Launcher (Default Button is B)</ORIGINAL>
+    <TRADUIT>25毫米枪管下榴弹发射器(默认按键为B)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>0600CDE4</ID>
+    <EDID>arcEnchHitHeat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0605D775</ID>
+    <EDID>AMmcgQuickdrawSpell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Swap</ORIGINAL>
+    <TRADUIT>切换</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>0606379B</ID>
+    <EDID>MasamuneACTI</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Masamune</ORIGINAL>
+    <TRADUIT>正宗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>06064394</ID>
+    <EDID>arcShinraSuit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>President Shinra's Suit</ORIGINAL>
+    <TRADUIT>辛总统的套装</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605B980</ID>
+    <EDID>arcFootlocker01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3C7</ID>
+    <EDID>arcTestAmmo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ammo</ORIGINAL>
+    <TRADUIT>弹药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3C8</ID>
+    <EDID>arcTestEnergy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Energy Ammo</ORIGINAL>
+    <TRADUIT>能量弹药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3C9</ID>
+    <EDID>arcTestExplosives</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Explosives Ammo</ORIGINAL>
+    <TRADUIT>爆破弹药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3CA</ID>
+    <EDID>arcTestChest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Weapons</ORIGINAL>
+    <TRADUIT>武器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3CB</ID>
+    <EDID>arcTestVanillaMods</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vanilla Mods</ORIGINAL>
+    <TRADUIT>原版模组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3CC</ID>
+    <EDID>arcTestChestU</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Unique Weapons</ORIGINAL>
+    <TRADUIT>独特武器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0605E3CD</ID>
+    <EDID>arcTestMods</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mods</ORIGINAL>
+    <TRADUIT>模组</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0606318F</ID>
+    <EDID>arcStantonsRageCONT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Military Shipping Crate</ORIGINAL>
+    <TRADUIT>军用板条装运箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06071A6C</ID>
+    <EDID>arcCheatChest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cheat chest</ORIGINAL>
+    <TRADUIT>作弊箱子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>060756C0</ID>
+    <EDID>arcRPGGrave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grave</ORIGINAL>
+    <TRADUIT>坟墓</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06081B4A</ID>
+    <EDID>arcFootlocker02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Footlocker</ORIGINAL>
+    <TRADUIT>脚柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600D0C3</ID>
+    <EDID>arcWeapBSRUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Why2000</ORIGINAL>
+    <TRADUIT>Why2000</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600D3A1</ID>
+    <EDID>arcWeapDEUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Enforcer</ORIGINAL>
+    <TRADUIT>执法者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600D3A2</ID>
+    <EDID>arcWeapCShotgunUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Washed</ORIGINAL>
+    <TRADUIT>高压清洗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600D95D</ID>
+    <EDID>arcWeapMMR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Marksman's Rifle</ORIGINAL>
+    <TRADUIT>佣兵神射手步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600DC3B</ID>
+    <EDID>arcWeap92FSUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Elite Service Pistol</ORIGINAL>
+    <TRADUIT>精英服务手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600DC3C</ID>
+    <EDID>arcWeapFrankenUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rye's Caravaneer</ORIGINAL>
+    <TRADUIT>黑麦商队</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06010178</ID>
+    <EDID>arcWeapMarineUniqueDM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Police Carbine</ORIGINAL>
+    <TRADUIT>警用卡宾枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06011917</ID>
+    <EDID>arcWeapMRUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Warlord</ORIGINAL>
+    <TRADUIT>战争领主</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0601228A</ID>
+    <EDID>arcWeapMarineUniqueDMb</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Campaign Rifle</ORIGINAL>
+    <TRADUIT>莫哈维战役步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060130B8</ID>
+    <EDID>arcWeapMakarov</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Smuggler's Pistol</ORIGINAL>
+    <TRADUIT>走私者手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06013574</ID>
+    <EDID>arcWeapMakarovUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Comrades In Arms</ORIGINAL>
+    <TRADUIT>同袍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060143A0</ID>
+    <EDID>arcWeapCShotgunUnique3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cold Heart</ORIGINAL>
+    <TRADUIT>冷酷的心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06014D15</ID>
+    <EDID>arcWeapUsp</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>.45 Tactical Pistol</ORIGINAL>
+    <TRADUIT>.45战术手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06014D16</ID>
+    <EDID>arcWeapUspU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Laszlo</ORIGINAL>
+    <TRADUIT>拉兹洛</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060164B9</ID>
+    <EDID>arcWeapBren</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Paratrooper Machinegun</ORIGINAL>
+    <TRADUIT>伞兵机枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060185CD</ID>
+    <EDID>arcWeapPSRU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Death's Whisper</ORIGINAL>
+    <TRADUIT>死神的轻语</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0601E7FB</ID>
+    <EDID>arcWeapUziU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drug Runner</ORIGINAL>
+    <TRADUIT>运毒者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0601F3A7</ID>
+    <EDID>arcWeapPoliceShotgunU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Breacher</ORIGINAL>
+    <TRADUIT>探照灯破坏者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06021C76</ID>
+    <EDID>arcWeapPJU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Redline</ORIGINAL>
+    <TRADUIT>红线</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060233C7</ID>
+    <EDID>arcWeapMakarovU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Amestrian Sidearm</ORIGINAL>
+    <TRADUIT>亚美斯多利斯手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0602517F</ID>
+    <EDID>arcWeapHybrid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Valkyrie</ORIGINAL>
+    <TRADUIT>女武神</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06025D72</ID>
+    <EDID>arcWeapSR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Service Revolver</ORIGINAL>
+    <TRADUIT>服务左轮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06025D75</ID>
+    <EDID>arcWeapCowboyCarbine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cowboy Carbine</ORIGINAL>
+    <TRADUIT>牛仔卡宾枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06028742</ID>
+    <EDID>arcWeapBrenU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chop Shop</ORIGINAL>
+    <TRADUIT>地下拆车厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06029334</ID>
+    <EDID>arcWeapPoliceShotgunU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lawn Defender 5000</ORIGINAL>
+    <TRADUIT>草坪卫士5000</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0602992D</ID>
+    <EDID>arcWeapSRU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Colt Anaconda</ORIGINAL>
+    <TRADUIT>柯尔特巨蟒左轮</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0602992E</ID>
+    <EDID>arcWeapSRU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Molerat Runner</ORIGINAL>
+    <TRADUIT>狂奔鼹鼠</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0602C301</ID>
+    <EDID>arcWeapKS23SU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kasey</ORIGINAL>
+    <TRADUIT>凯西</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0602C302</ID>
+    <EDID>arcWeapCowboyCarbineU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw Hunter</ORIGINAL>
+    <TRADUIT>死亡爪猎人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0602FEB7</ID>
+    <EDID>arcWeapCShotgunUnique4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jackpot!</ORIGINAL>
+    <TRADUIT>中头奖了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06031698</ID>
+    <EDID>arcWeapMauser</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chinese Pistol</ORIGINAL>
+    <TRADUIT>中式手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06032289</ID>
+    <EDID>arcWeapDuplet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pipe Shotgun</ORIGINAL>
+    <TRADUIT>双管霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06033472</ID>
+    <EDID>arcWeap93R</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burst Pistol</ORIGINAL>
+    <TRADUIT>爆发手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06037C1D</ID>
+    <EDID>arcWeapPKM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary's Machinegun</ORIGINAL>
+    <TRADUIT>佣兵机枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06038216</ID>
+    <EDID>arcWeapTR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Auto Revolver</ORIGINAL>
+    <TRADUIT>自动左轮手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060399FA</ID>
+    <EDID>arcWeapPKMU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>PkWMG</ORIGINAL>
+    <TRADUIT>Pk通用机枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06039FF3</ID>
+    <EDID>arcWeap93RU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Impaciente</ORIGINAL>
+    <TRADUIT>心浮气躁</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0603BDCC</ID>
+    <EDID>arcWeapMauserAuto</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chinese Machine Pistol</ORIGINAL>
+    <TRADUIT>中式自动手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0603D5B0</ID>
+    <EDID>arcWeapPKMU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>PKnyan</ORIGINAL>
+    <TRADUIT>PK喵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06042944</ID>
+    <EDID>arcWeapM14</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enhanced Battle Rifle</ORIGINAL>
+    <TRADUIT>增强型战斗步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06042945</ID>
+    <EDID>arcWeapG3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Marine Assault Rifle</ORIGINAL>
+    <TRADUIT>海军陆战队突击步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06042946</ID>
+    <EDID>arcWeapMP5</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Police Submachine Gun</ORIGINAL>
+    <TRADUIT>警用冲锋枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06044722</ID>
+    <EDID>arcWeapCAWS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Assault Shotgun</ORIGINAL>
+    <TRADUIT>无托突击霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06044D25</ID>
+    <EDID>arcWeapSaiga</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Assault Shotgun</ORIGINAL>
+    <TRADUIT>佣兵突击霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06044D26</ID>
+    <EDID>arcWeapCowboyCarbineU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mare's Leg</ORIGINAL>
+    <TRADUIT>马腿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06044D27</ID>
+    <EDID>arcWeapTRU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Million Knives' Hand</ORIGINAL>
+    <TRADUIT>百万利刃之手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06044D28</ID>
+    <EDID>arcWeapTRU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rex</ORIGINAL>
+    <TRADUIT>雷克斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06044D29</ID>
+    <EDID>arcWeapScout</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Scout Rifle</ORIGINAL>
+    <TRADUIT>侦察步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0604591A</ID>
+    <EDID>arcWeapDEUnique3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cirno's Peace</ORIGINAL>
+    <TRADUIT>琪露诺的和平</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06045F13</ID>
+    <EDID>arcWeapG3U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Precision Sniper Rifle</ORIGINAL>
+    <TRADUIT>精确狙击步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06045F14</ID>
+    <EDID>arcWeapG3U2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Der Bullenwelpe</ORIGINAL>
+    <TRADUIT>牛头梗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06045F15</ID>
+    <EDID>arcWeapM14U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Atticus</ORIGINAL>
+    <TRADUIT>阿提卡斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06045F16</ID>
+    <EDID>arcWeapCAWSU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Desert Storm</ORIGINAL>
+    <TRADUIT>沙漠风暴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060470FF</ID>
+    <EDID>arcWeapKnife1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Marine Combat Knife</ORIGINAL>
+    <TRADUIT>海军陆战队作战刀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060470FF</ID>
+    <EDID>arcWeapKnife1</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047100</ID>
+    <EDID>arcWeapKnife2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Combat Knife</ORIGINAL>
+    <TRADUIT>佣兵作战刀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047100</ID>
+    <EDID>arcWeapKnife2</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047103</ID>
+    <EDID>arcWeapThrow1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Throwing Combat Knife</ORIGINAL>
+    <TRADUIT>投掷战斗刀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Thrown
+</COMMENTAIRE>
+    <ICON>2005</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047104</ID>
+    <EDID>arcWeapThrow2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Throwing Stiletto Knife</ORIGINAL>
+    <TRADUIT>投掷锥刺匕首</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Thrown
+</COMMENTAIRE>
+    <ICON>2005</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047701</ID>
+    <EDID>arcWeapOTS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>.45 Machine Pistol</ORIGINAL>
+    <TRADUIT>.45自动手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047CFB</ID>
+    <EDID>arcWeapMauserAutoU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Captain Lewis' Survival Rifle</ORIGINAL>
+    <TRADUIT>刘易斯上尉的生存步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06047CFC</ID>
+    <EDID>arcWeapMP5U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleaner's Submachinegun</ORIGINAL>
+    <TRADUIT>清洁工的微型冲锋枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060488ED</ID>
+    <EDID>arcWeapMauserU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jinzi</ORIGINAL>
+    <TRADUIT>金子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06048EE6</ID>
+    <EDID>arcWeapDupletU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Force O' Nature</ORIGINAL>
+    <TRADUIT>自然之力</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0604D09D</ID>
+    <EDID>arcWeapScoutU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Woodland Hunter Express</ORIGINAL>
+    <TRADUIT>林地猎人快递</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0604D69D</ID>
+    <EDID>arcWeapOTSU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tempest</ORIGINAL>
+    <TRADUIT>暴风雨</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0604D6A0</ID>
+    <EDID>arcWeapSaigaU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>RockSalt</ORIGINAL>
+    <TRADUIT>洛克索特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06053C19</ID>
+    <EDID>arcWeapMakarovU3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sneaki Breeki</ORIGINAL>
+    <TRADUIT>奥利给</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605480A</ID>
+    <EDID>arcWeapGlock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>9mm Police Pistol</ORIGINAL>
+    <TRADUIT>9mm警用手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605480B</ID>
+    <EDID>arcWeapMP153</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Field Shotgun</ORIGINAL>
+    <TRADUIT>野战霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060559F4</ID>
+    <EDID>arcWeapElectroSledge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Electro Sledge</ORIGINAL>
+    <TRADUIT>电动大锤</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060559F4</ID>
+    <EDID>arcWeapElectroSledge</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Mauler</ORIGINAL>
+    <TRADUIT>猛击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060577CE</ID>
+    <EDID>arcWeapMP153U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Thunderclap</ORIGINAL>
+    <TRADUIT>霹雳</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060577CF</ID>
+    <EDID>arcWeapMP153U2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Old Country Cleaner</ORIGINAL>
+    <TRADUIT>故国清洁工</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060577D0</ID>
+    <EDID>arcWeapMP153U3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pull!</ORIGINAL>
+    <TRADUIT>扣动！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605CB74</ID>
+    <EDID>arcWeapMauserU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Freedom's Wing</ORIGINAL>
+    <TRADUIT>自由之翼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605CB75</ID>
+    <EDID>arcWeapMauserU3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Keyring Pistol</ORIGINAL>
+    <TRADUIT>手枪钥匙扣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605CB76</ID>
+    <EDID>arcWeapMauserU4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Millenium Smuggler</ORIGINAL>
+    <TRADUIT>千禧走私者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D766</ID>
+    <EDID>arcWeapBBRUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Duel</ORIGINAL>
+    <TRADUIT>决斗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D767</ID>
+    <EDID>arcWeapKnife1Unique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Enclave Plasma Cutter</ORIGINAL>
+    <TRADUIT>英克雷等离子切割器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D767</ID>
+    <EDID>arcWeapKnife1Unique</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D768</ID>
+    <EDID>arcWeapKABARSword</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Marine Combat Sword</ORIGINAL>
+    <TRADUIT>海军陆战队战斗剑</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D768</ID>
+    <EDID>arcWeapKABARSword</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D769</ID>
+    <EDID>arcWeapKABARSwordUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Masamune</ORIGINAL>
+    <TRADUIT>正宗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D769</ID>
+    <EDID>arcWeapKABARSwordUnique</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D76A</ID>
+    <EDID>arcWeapFrankenSten</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Antique Submachine Gun</ORIGINAL>
+    <TRADUIT>古董冲锋枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D76B</ID>
+    <EDID>arcWeapBrenU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Leadstorm</ORIGINAL>
+    <TRADUIT>铅弹风暴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D76C</ID>
+    <EDID>arcWeapDupletU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Science Project</ORIGINAL>
+    <TRADUIT>科学计划</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D76D</ID>
+    <EDID>AMsigM4A1M203Launcher</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Noobtube(Launcher)</ORIGINAL>
+    <TRADUIT>菜鸡管(发射器)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D776</ID>
+    <EDID>AMsigM4A1M203</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Noobtube</ORIGINAL>
+    <TRADUIT>菜鸡管</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D778</ID>
+    <EDID>AMsigM4A1M203Equipped</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NoobTube</ORIGINAL>
+    <TRADUIT>菜鸡管</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D77A</ID>
+    <EDID>AMsigTheCommandoEquipped</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Commando</ORIGINAL>
+    <TRADUIT>敢死队</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D77B</ID>
+    <EDID>AMsigTheCommando</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Commando</ORIGINAL>
+    <TRADUIT>敢死队</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605D77C</ID>
+    <EDID>AMsigTheCommandoLauncher</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Commando(Launcher)</ORIGINAL>
+    <TRADUIT>敢死队(发射器)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E38E</ID>
+    <EDID>arcWeap1911</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sporting Pistol</ORIGINAL>
+    <TRADUIT>运动手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E38F</ID>
+    <EDID>arcWeapP220</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Paratrooper Pistol</ORIGINAL>
+    <TRADUIT>伞兵手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E39A</ID>
+    <EDID>arcWeapL85LSW</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Light Machinegun</ORIGINAL>
+    <TRADUIT>无托轻机枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E39B</ID>
+    <EDID>arcWeapMac10U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plissken's Escape</ORIGINAL>
+    <TRADUIT>普林斯肯大逃亡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E39C</ID>
+    <EDID>arcWeapP220U3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>P220 Unique Copper</ORIGINAL>
+    <TRADUIT>P220独特铜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E39D</ID>
+    <EDID>arcWeapP220U2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dagger Custom</ORIGINAL>
+    <TRADUIT>短剑定制</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E988</ID>
+    <EDID>arcWeapP220U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Last Stand</ORIGINAL>
+    <TRADUIT>最后的抵抗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0605E989</ID>
+    <EDID>arcWeapMMRU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vintorez</ORIGINAL>
+    <TRADUIT>文托列兹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060607B9</ID>
+    <EDID>arcWeapBACU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Better British</ORIGINAL>
+    <TRADUIT>更重要的英国人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060607BA</ID>
+    <EDID>arcWeapBACU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anarchy</ORIGINAL>
+    <TRADUIT>安那其</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606253F</ID>
+    <EDID>arcWeap74u</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Carbine</ORIGINAL>
+    <TRADUIT>佣兵卡宾枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06062540</ID>
+    <EDID>arcWeap1911U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Duke</ORIGINAL>
+    <TRADUIT>公爵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606319B</ID>
+    <EDID>arcWeapPPKU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Delivered</ORIGINAL>
+    <TRADUIT>履行诺言</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06063729</ID>
+    <EDID>arcWeap1911U2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dual American Ambition</ORIGINAL>
+    <TRADUIT>双重美式野心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606791F</ID>
+    <EDID>arcWeap74uU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bulldog</ORIGINAL>
+    <TRADUIT>斗牛犬</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06069100</ID>
+    <EDID>arcWeapMP5U2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kitten</ORIGINAL>
+    <TRADUIT>小猫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606A324</ID>
+    <EDID>arcWeapPKMU3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Heat of Reaction</ORIGINAL>
+    <TRADUIT>反应热</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606BAC9</ID>
+    <EDID>arcWeap1911U3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>American Ambition</ORIGINAL>
+    <TRADUIT>美式野心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606BACA</ID>
+    <EDID>arcWeap74uU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Centennial</ORIGINAL>
+    <TRADUIT>百年纪念</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606C102</ID>
+    <EDID>arcWeapPPKU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Megatron</ORIGINAL>
+    <TRADUIT>威震天</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606D2AB</ID>
+    <EDID>arcWeapGlockU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bochii The Glock</ORIGINAL>
+    <TRADUIT>格洛克小孤独</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606D8A4</ID>
+    <EDID>arcWeapAUG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Assault Carbine</ORIGINAL>
+    <TRADUIT>无托突击卡宾枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606D8A5</ID>
+    <EDID>arcWeapFranken50</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anti-Armor Rifle</ORIGINAL>
+    <TRADUIT>反装甲步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606D8ED</ID>
+    <EDID>arcWeap1911U4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>9 Breaker</ORIGINAL>
+    <TRADUIT>9号破坏者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606D8EE</ID>
+    <EDID>arcWeapL85LSWU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>California Star</ORIGINAL>
+    <TRADUIT>加州之星</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606DEA0</ID>
+    <EDID>arcWeapGlockU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Chungus</ORIGINAL>
+    <TRADUIT>大番薯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606E499</ID>
+    <EDID>arcWeapUziU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cyber Dream</ORIGINAL>
+    <TRADUIT>赛博梦境</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606E49A</ID>
+    <EDID>arcWeapFranken50U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stanton's Rage</ORIGINAL>
+    <TRADUIT>斯坦顿的怒火</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606EA93</ID>
+    <EDID>arcWeapAUGU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mystifier</ORIGINAL>
+    <TRADUIT>蒙蔽者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606F08E</ID>
+    <EDID>arcWeap74uU3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stalker's Field Rifle</ORIGINAL>
+    <TRADUIT>潜行者的野战步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606FCD4</ID>
+    <EDID>arcWeapGlockU4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rapid Response</ORIGINAL>
+    <TRADUIT>快速响应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606FCD5</ID>
+    <EDID>arcWeapUspU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Snakelore</ORIGINAL>
+    <TRADUIT>巨蛇传说</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606FCD7</ID>
+    <EDID>arcWeapSaigaU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Survivalist's Shotgun</ORIGINAL>
+    <TRADUIT>生存狂霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0606FCD8</ID>
+    <EDID>arcWeapMSRU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Heilong</ORIGINAL>
+    <TRADUIT>黑龙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06070285</ID>
+    <EDID>arcWeapRPG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Rocket Launcher</ORIGINAL>
+    <TRADUIT>雇佣兵火箭筒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06073EC6</ID>
+    <EDID>arcWeapMakeshiftAMR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Makeshift Anti-Materiel Rifle</ORIGINAL>
+    <TRADUIT>简易反器材步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06074ABD</ID>
+    <EDID>arcWeapRPGU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Market Gardener</ORIGINAL>
+    <TRADUIT>市场园丁</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060762B2</ID>
+    <EDID>arcWeapTokarevUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tooookarev</ORIGINAL>
+    <TRADUIT>托哦哦哦卡列夫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060768AC</ID>
+    <EDID>arcWeapPoliceShotgunU4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stakeout</ORIGINAL>
+    <TRADUIT>监视</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607808E</ID>
+    <EDID>AMsigM4A1Kitty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello Kitty</ORIGINAL>
+    <TRADUIT>凯蒂猫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607808F</ID>
+    <EDID>AMsigM4A1KittyEquipped</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello Kitty</ORIGINAL>
+    <TRADUIT>凯蒂猫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06078090</ID>
+    <EDID>AMsigM4A1KittyLauncher</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello Kitty(Launcher)</ORIGINAL>
+    <TRADUIT>凯蒂猫(发射器)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06078091</ID>
+    <EDID>arcWeapMP153U4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bursting In Air</ORIGINAL>
+    <TRADUIT>空中爆裂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607B64C</ID>
+    <EDID>arcWeapSR25</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Marine Marksman Rifle</ORIGINAL>
+    <TRADUIT>海军陆战队射手步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607B64D</ID>
+    <EDID>arcWeapSR25U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Red Eye</ORIGINAL>
+    <TRADUIT>红眼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607B64F</ID>
+    <EDID>arcWeapAUGU2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>LAUG</ORIGINAL>
+    <TRADUIT>LAUG</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607C789</ID>
+    <EDID>arcWeapMP7</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>5mm Submachine Gun</ORIGINAL>
+    <TRADUIT>5mm冲锋枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607C78B</ID>
+    <EDID>arcWeapMP7U1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Civil Protector</ORIGINAL>
+    <TRADUIT>公民保护者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607DF6C</ID>
+    <EDID>arcWeapMac10</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Compact .45 Submachine Gun</ORIGINAL>
+    <TRADUIT>紧凑型.45冲锋枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607DF6D</ID>
+    <EDID>arcWeapBAC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Marine Rifle</ORIGINAL>
+    <TRADUIT>无托海军陆战队步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607E568</ID>
+    <EDID>arcWeapPoliceShotgunU3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kiss Of Death</ORIGINAL>
+    <TRADUIT>死亡之吻</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607E569</ID>
+    <EDID>arcWeapGlockU3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glockinator</ORIGINAL>
+    <TRADUIT>格洛克制造者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607E56A</ID>
+    <EDID>arcWeapFrankenUnique2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Liquidator</ORIGINAL>
+    <TRADUIT>清算人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607E56B</ID>
+    <EDID>arcWeapMRUnique3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Charcoalov</ORIGINAL>
+    <TRADUIT>恰尔科洛夫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0607E56C</ID>
+    <EDID>arcWeapMSR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Sniper Rifle</ORIGINAL>
+    <TRADUIT>雇佣兵狙击步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06081553</ID>
+    <EDID>arcWeapPPK</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>.22 Pistol</ORIGINAL>
+    <TRADUIT>.22手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06081B4B</ID>
+    <EDID>arcWeapMSRU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bitter Memory</ORIGINAL>
+    <TRADUIT>苦涩回忆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000ADE</ID>
+    <EDID>arcWeap92FS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Service Pistol</ORIGINAL>
+    <TRADUIT>制式手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000AE0</ID>
+    <EDID>arcWeapPoliceShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Police Shotgun</ORIGINAL>
+    <TRADUIT>警用霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000AE2</ID>
+    <EDID>arcWeapPJ</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Combat Shotgun</ORIGINAL>
+    <TRADUIT>无托战斗霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000AE3</ID>
+    <EDID>arcWeapTokarev</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Pistol</ORIGINAL>
+    <TRADUIT>佣兵手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000AE4</ID>
+    <EDID>arcWeapUzi</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Submachine Gun</ORIGINAL>
+    <TRADUIT>佣兵机枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DC2</ID>
+    <EDID>arcWeapBSR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Sniper Rifle</ORIGINAL>
+    <TRADUIT>无托狙击步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DC3</ID>
+    <EDID>arcWeapPSR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Police Sniper Rifle</ORIGINAL>
+    <TRADUIT>警用狙击步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DC5</ID>
+    <EDID>arcWeapDE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>.44 Pistol</ORIGINAL>
+    <TRADUIT>.44手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DC6</ID>
+    <EDID>arcWeapMarine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Marine Carbine</ORIGINAL>
+    <TRADUIT>海军卡宾枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06001386</ID>
+    <EDID>arcWeapMR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Rifle</ORIGINAL>
+    <TRADUIT>佣兵步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600416D</ID>
+    <EDID>arcWeapBBR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bullpup Assault Rifle</ORIGINAL>
+    <TRADUIT>无托突击步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600444D</ID>
+    <EDID>arcWeapFranken</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Defense Submachine Gun</ORIGINAL>
+    <TRADUIT>防卫冲锋枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>060060F2</ID>
+    <EDID>arcWeapCShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Combat Shotgun</ORIGINAL>
+    <TRADUIT>战斗霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600698D</ID>
+    <EDID>arcWeapDEUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Twin Fang</ORIGINAL>
+    <TRADUIT>双生毒牙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06006C6F</ID>
+    <EDID>arcWeapCShotgunUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mean Green Machine</ORIGINAL>
+    <TRADUIT>金钱机器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06006F4D</ID>
+    <EDID>arcWeapBSRUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hitman's Heatmaker</ORIGINAL>
+    <TRADUIT>全面狙杀令</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600722B</ID>
+    <EDID>arcWeapPSRU1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lobrez</ORIGINAL>
+    <TRADUIT>制式修剪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600807F</ID>
+    <EDID>arcWeapMRUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zastava</ORIGINAL>
+    <TRADUIT>红旗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06008BFA</ID>
+    <EDID>arcWeapTokarevUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zipper</ORIGINAL>
+    <TRADUIT>拉链</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06008BFB</ID>
+    <EDID>arcWeap92FSUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cutlass Customs</ORIGINAL>
+    <TRADUIT>短剑定制</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06009770</ID>
+    <EDID>arcWeapKS23</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm Grenade Launcher</ORIGINAL>
+    <TRADUIT>25mm榴弹发射器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600A00A</ID>
+    <EDID>arcWeapKS23S</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mercenary Shotgun</ORIGINAL>
+    <TRADUIT>佣兵霰弹枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600A2E8</ID>
+    <EDID>arcWeapMarineUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Baja Campaign Rifle</ORIGINAL>
+    <TRADUIT>巴哈战役步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0600C26B</ID>
+    <EDID>arcWeapBBRUnique1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Prototype Enclave Battle Rifle</ORIGINAL>
+    <TRADUIT>英克雷原型战斗步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>06074ABC</ID>
+    <EDID>ArcAmmoRPG7Shovel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shovel Round</ORIGINAL>
+    <TRADUIT>铲弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>06074ABC</ID>
+    <EDID>ArcAmmoRPG7Shovel</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Shovel</ORIGINAL>
+    <TRADUIT>铲子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06064393</ID>
+    <EDID>arcPresidentShinra</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>President Shinra</ORIGINAL>
+    <TRADUIT>辛总统</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606DEEB</ID>
+    <EDID>arcRangerLSW</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Veteran Ranger</ORIGINAL>
+    <TRADUIT>NCR资深游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : NCR Ranger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606FC87</ID>
+    <EDID>ArcVRRCGreatKhanAAF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jives</ORIGINAL>
+    <TRADUIT>左文慈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : African American
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0606FC89</ID>
+    <EDID>ArcVViperGangLeaderMale</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Slither</ORIGINAL>
+    <TRADUIT>斯莱特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Wasteland Gunslinger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>06063796</ID>
+    <EDID>arcFiend3GunCMNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rotten</ORIGINAL>
+    <TRADUIT>罗腾</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>06074ABA</ID>
+    <EDID>ArcRPG7Projectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rocket</ORIGINAL>
+    <TRADUIT>动力火箭</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06080951</ID>
+    <EDID>arcBullpupWEAPPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Reverse Engineered</ORIGINAL>
+    <TRADUIT>逆向工程</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06080951</ID>
+    <EDID>arcBullpupWEAPPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've got a strong preference for where you like your weapon magazines. You've now got 5% faster reload speed with Another Millenia Bullpup weaponry.</ORIGINAL>
+    <TRADUIT>你对武器弹匣的位置有强烈的偏好。使用Another Millenia中的无托结构武器时，你的装填速度提高5%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06080952</ID>
+    <EDID>arcMarineWEAPPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tour of Duty</ORIGINAL>
+    <TRADUIT>服役期</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06080952</ID>
+    <EDID>arcMarineWEAPPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>They worked for militaries of the past, so they'll work for you! You've not got 5% more durability for any Another Millenia Marine weaponry.</ORIGINAL>
+    <TRADUIT>它们对过去的军队有用，所以对你也有用！Another Millenia中的海军陆战队武器的耐久性提高 5%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0605CB9C</ID>
+    <EDID>arcMachinePistolPERK</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lucky Spray</ORIGINAL>
+    <TRADUIT>幸运喷雾</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0605CB9C</ID>
+    <EDID>arcMachinePistolPERK</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Aiming is for the weak! You've gained 5% extra crit chance and 5% reduced spread with Machine pistols.</ORIGINAL>
+    <TRADUIT>瞄准是为弱者准备的！使用自动手枪时，你的暴击几率增加5%，子弹散布降低5%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0605D772</ID>
+    <EDID>AMmcgQuickdraw</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Underbarrel Swap Another Milenia</ORIGINAL>
+    <TRADUIT>切换Another Milenia下悬式附挂套件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0605D772</ID>
+    <EDID>AMmcgQuickdraw</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Swap to underbarrel launcher fast</ORIGINAL>
+    <TRADUIT>快速切换到下悬式附挂套件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0607FD52</ID>
+    <EDID>arcGoldWEAPPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>High Roller</ORIGINAL>
+    <TRADUIT>豪赌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0607FD52</ID>
+    <EDID>arcGoldWEAPPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You like to serve up death with a bit of style! Enjoy 5% extra crit chance and 5% reduced weapon degradation when using Another Millenia golden weaponry.</ORIGINAL>
+    <TRADUIT>你喜欢有格调地招待死亡！当使用Another Millenia中的黄金武器时，享受5%额外的暴击几率并降低5%的武器耐久消耗。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0608094E</ID>
+    <EDID>arcHybridWEAPPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Eco Friendly</ORIGINAL>
+    <TRADUIT>生态友好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0608094E</ID>
+    <EDID>arcHybridWEAPPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're a fan of refined weaponry for a more civilized age. You've now got 5% extra attack speed with all Millenia energy weapon uniques.</ORIGINAL>
+    <TRADUIT>你是文明时代精良武器的拥趸。 现在你使用所有Another Millenia中的独特能量武器时获得5%的额外射击速度。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0608094F</ID>
+    <EDID>arcMercWEAPPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Commie Aficionado</ORIGINAL>
+    <TRADUIT>共产主义狂热</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0608094F</ID>
+    <EDID>arcMercWEAPPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're a true comrade! You've now got 5% reduced spread and 5% increase damage with Mercenary weaponry.</ORIGINAL>
+    <TRADUIT>你是真正的同志！雇佣兵武器现在减少5%的子弹散布，增加5%的伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06080950</ID>
+    <EDID>arcPoliceWEAPPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Standard Issue</ORIGINAL>
+    <TRADUIT>标准配置</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06080950</ID>
+    <EDID>arcPoliceWEAPPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>They're nothing fancy, but they do the job. You've now got 5% increased crit chance with Another Millenia Police weaponry.</ORIGINAL>
+    <TRADUIT>它们没什么特别的，但很管用。使用Another Millenia中的警用武器时，你的暴击几率增加5%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0608034C</ID>
+    <EDID>arcGoldChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the High Roller perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk"挥金如土"。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0608034C</ID>
+    <EDID>arcGoldChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>High Roller</ORIGINAL>
+    <TRADUIT>豪赌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080953</ID>
+    <EDID>arcHybridChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the Eco Friendly perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk”生态友好“。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080953</ID>
+    <EDID>arcHybridChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Eco Friendly</ORIGINAL>
+    <TRADUIT>生态友好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0605CB9B</ID>
+    <EDID>arcMachineChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the Lucky Spray perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk”幸运喷雾“。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0605CB9B</ID>
+    <EDID>arcMachineChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lucky Spray</ORIGINAL>
+    <TRADUIT>幸运喷雾</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080954</ID>
+    <EDID>arcMercChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the Commie Aficionado perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk”共产主义狂热“。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080954</ID>
+    <EDID>arcMercChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Commie Aficionado</ORIGINAL>
+    <TRADUIT>共产主义狂热</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080955</ID>
+    <EDID>arcPoliceChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the Standard Issue perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk”标准配置“。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080955</ID>
+    <EDID>arcPoliceChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Standard Issue</ORIGINAL>
+    <TRADUIT>标准配置</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0606676F</ID>
+    <EDID>arcMasamuneMESG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're too weak to pull out this ridiculously long sword! (STR 8 Required)</ORIGINAL>
+    <TRADUIT>你太弱了，拔不出这把可笑的长刀！ (需要力量8）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080956</ID>
+    <EDID>arcBullpupChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the Reverse Engineered perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk”逆向工程“。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080956</ID>
+    <EDID>arcBullpupChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Reverse Engineered</ORIGINAL>
+    <TRADUIT>逆向工程</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080957</ID>
+    <EDID>arcMarineChalMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have gained the Tour of Duty perk.</ORIGINAL>
+    <TRADUIT>你得到了Perk”服役期“。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06080957</ID>
+    <EDID>arcMarineChalMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tour of Duty</ORIGINAL>
+    <TRADUIT>服役期</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06025D74</ID>
+    <EDID>arcModCustomR</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Custom Rifle Parts</ORIGINAL>
+    <TRADUIT>定制步枪部件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06025D74</ID>
+    <EDID>arcModCustomR</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>A magic box full of rifle parts!</ORIGINAL>
+    <TRADUIT>一个装满步枪零件的魔法盒子！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>060066AC</ID>
+    <EDID>arcModCustomS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Custom Shotgun Parts</ORIGINAL>
+    <TRADUIT>定制霰弹枪部件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>060066AC</ID>
+    <EDID>arcModCustomS</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>A magical box that changes your shotgun!</ORIGINAL>
+    <TRADUIT>一个装满霰弹枪零件的魔法盒子！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000ADD</ID>
+    <EDID>arcModCustomH</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Custom Handgun Parts</ORIGINAL>
+    <TRADUIT>定制手枪部件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000ADD</ID>
+    <EDID>arcModCustomH</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases condition (+50%).</ORIGINAL>
+    <TRADUIT>提升耐久 (+50%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000ADF</ID>
+    <EDID>arcModSideSaddle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Side Saddle</ORIGINAL>
+    <TRADUIT>侧鞍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000ADF</ID>
+    <EDID>arcModSideSaddle</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases rate of fire.</ORIGINAL>
+    <TRADUIT>提升射速。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>060010A7</ID>
+    <EDID>arcModRedDot</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Red Dot</ORIGINAL>
+    <TRADUIT>红点</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>060010A7</ID>
+    <EDID>arcModRedDot</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Adds short-range scope.</ORIGINAL>
+    <TRADUIT>添加短程瞄准镜。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06012BFD</ID>
+    <EDID>arcModSyntheticS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Synthetic Shotgun Parts</ORIGINAL>
+    <TRADUIT>合成霰弹枪部件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06012BFD</ID>
+    <EDID>arcModSyntheticS</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Synthetic parts for shotguns.</ORIGINAL>
+    <TRADUIT>霰弹枪的合成部件。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06016E2D</ID>
+    <EDID>arcModCustomM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Custom Machinegun Parts</ORIGINAL>
+    <TRADUIT>定制机枪部件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06016E2D</ID>
+    <EDID>arcModCustomM</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>A magic box that changes your machinegun!</ORIGINAL>
+    <TRADUIT>一个装满机枪零件的魔法盒子！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06016E2E</ID>
+    <EDID>arcModShotgunS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shotgun Suppresor</ORIGINAL>
+    <TRADUIT>狙击步枪消音器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06016E2E</ID>
+    <EDID>arcModShotgunS</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Reduces weapon noise.</ORIGINAL>
+    <TRADUIT>减少开枪时发出的声音。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>06074ABF</ID>
+    <EDID>ArcRecipeShovelAmmo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shovel to Shovel Ammo</ORIGINAL>
+    <TRADUIT>铲子到铲弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>06074AC5</ID>
+    <EDID>ArcRecipeShovelAmmoKnifeSpear</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Knife Spear to Shovel Ammo</ORIGINAL>
+    <TRADUIT>餐刀长矛到铲弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>06074AC6</ID>
+    <EDID>ArcRecipeShovelAmmoThrowingKnifeSpear</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Throwing Knife Spear to Shovel Ammo</ORIGINAL>
+    <TRADUIT>投掷刀矛到铲弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>06074ACD</ID>
+    <EDID>ArcRecipeShovelAmmoThrowingSpear</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Throwing Spear to Shovel Ammo</ORIGINAL>
+    <TRADUIT>投矛到铲弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094C</ID>
+    <EDID>arcBullpupWeapCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Reverse Engineered Violence</ORIGINAL>
+    <TRADUIT>逆向工程暴虐</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094C</ID>
+    <EDID>arcBullpupWeapCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia Bullpup weaponry.</ORIGINAL>
+    <TRADUIT>使用Another Millenia中的无托结构武器造成10,000点伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094D</ID>
+    <EDID>arcMarineWeapCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wasteland Tour of Duty</ORIGINAL>
+    <TRADUIT>废土任期</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094D</ID>
+    <EDID>arcMarineWeapCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia Service/Marine weaponry.</ORIGINAL>
+    <TRADUIT>使用Another Millenia中的服务/海军武器造成10,000点伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0605C59E</ID>
+    <EDID>arcMachinePistolCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lucky Spray</ORIGINAL>
+    <TRADUIT>幸运喷雾</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0605C59E</ID>
+    <EDID>arcMachinePistolCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia machine pistols.</ORIGINAL>
+    <TRADUIT>使用Another Millenia中的自动手枪造成10,000点伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0607FD51</ID>
+    <EDID>arcGoldWeapCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>High Roller</ORIGINAL>
+    <TRADUIT>豪赌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0607FD51</ID>
+    <EDID>arcGoldWeapCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia Golden uniques.</ORIGINAL>
+    <TRADUIT>收集Another Millenia中的所有黄金独特武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>06080949</ID>
+    <EDID>arcHybridWeapCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Eco Friendly</ORIGINAL>
+    <TRADUIT>生态友好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>06080949</ID>
+    <EDID>arcHybridWeapCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia energy weapon uniques.</ORIGINAL>
+    <TRADUIT>收集Another Millenia中的所有能量武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094A</ID>
+    <EDID>arcMercWeapCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Commie Aficionado</ORIGINAL>
+    <TRADUIT>共产主义狂热</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094A</ID>
+    <EDID>arcMercWeapCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia Mercenary weapons.</ORIGINAL>
+    <TRADUIT>使用Another Millenia中的雇佣兵武器造成10,000点伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094B</ID>
+    <EDID>arcPoliceWeapCHAL</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Standard Issue</ORIGINAL>
+    <TRADUIT>标准配置</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>0608094B</ID>
+    <EDID>arcPoliceWeapCHAL</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Deal 10,000 damage with Another Millenia Police weaponry.</ORIGINAL>
+    <TRADUIT>使用Another Millenia中的警用武器造成10,000点伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F0820</ID>
+    <EDID>WestsidePawnShopInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Miguel's Pawn Shop</ORIGINAL>
+    <TRADUIT>米格尔的典当行</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000B1670</ID>
+    <EDID>NovacGiftShop</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dino Bite Gift Shop</ORIGINAL>
+    <TRADUIT>大嘴小恐龙礼品店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00175D68</ID>
+    <EDID>HooverDamIntPowerPlant01b</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hoover Dam Offices</ORIGINAL>
+    <TRADUIT>胡佛大坝办公区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E6A6E</ID>
+    <EDID>Vault11c</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 11 Lower Level</ORIGINAL>
+    <TRADUIT>11号避难所下层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013F07E</ID>
+    <EDID>4BRRCArmory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Armory</ORIGINAL>
+    <TRADUIT>大汗帮军火库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00138A9E</ID>
+    <EDID>Vault34c</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 34 - Armory</ORIGINAL>
+    <TRADUIT>34号避难所 - 军火库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000EDDC8</ID>
+    <EDID>NorthVegasHouseTools</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>H&amp;H Tools Factory</ORIGINAL>
+    <TRADUIT>H&amp;H五金工具厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00130C7C</ID>
+    <EDID>NiptonTownHallInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Town Hall First Floor</ORIGINAL>
+    <TRADUIT>城镇会堂一楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00155A05</ID>
+    <EDID>SLRaulsHomeINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Raul's Home</ORIGINAL>
+    <TRADUIT>劳尔的家</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00164E29</ID>
+    <EDID>SLDeadWindCavernINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dead Wind Cavern</ORIGINAL>
+    <TRADUIT>逆风洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010108B</ID>
+    <EDID>CannibalJohnsonCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cannibal Johnson's Cave</ORIGINAL>
+    <TRADUIT>食人者约翰逊的洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010E19B</ID>
+    <EDID>2ETopsPresidentialSuite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Tops Presidential Suite</ORIGINAL>
+    <TRADUIT>九重天总统套房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0300402F</ID>
+    <EDID>NVDLC03ForbiddenZone</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Forbidden Zone Dome</ORIGINAL>
+    <TRADUIT>禁区穹顶</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00103DF9</ID>
+    <EDID>GSDocMitchellHouse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Doc Mitchell's House</ORIGINAL>
+    <TRADUIT>米切尔医生的宅邸</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013BC27</ID>
+    <EDID>Vault19b</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 19 - Living Quarters</ORIGINAL>
+    <TRADUIT>19号避难所 - 居住区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F4025</ID>
+    <EDID>CampMCTermInt02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp McCarran Terminal Building</ORIGINAL>
+    <TRADUIT>麦卡伦营地候机楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010E029</ID>
+    <EDID>FreesideSilverRush</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Silver Rush</ORIGINAL>
+    <TRADUIT>银色冲击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001592E5</ID>
+    <EDID>SafehouseNCRINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NCR Ranger Safehouse</ORIGINAL>
+    <TRADUIT>NCR游骑兵安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0008D48E</ID>
+    <EDID>NCRPrisonBlockB</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cell Block B</ORIGINAL>
+    <TRADUIT>监狱B栋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00101A46</ID>
+    <EDID>NellisGenerator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nellis Array Generators</ORIGINAL>
+    <TRADUIT>内利斯发电机阵列</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00133E38</ID>
+    <EDID>CottonwoodCoveStorage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cottonwood Cove Storage</ORIGINAL>
+    <TRADUIT>棉白杨湾库房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E508A</ID>
+    <EDID>HiddenValleyBunker4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Valley Bunker</ORIGINAL>
+    <TRADUIT>隐谷地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00112472</ID>
+    <EDID>RSDeltaInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranger Station Delta</ORIGINAL>
+    <TRADUIT>游骑兵德尔塔驻站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00105894</ID>
+    <EDID>NellisWorkshop</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nellis Workshop</ORIGINAL>
+    <TRADUIT>内利斯工房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010E02A</ID>
+    <EDID>FreesideMickandRalphs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mick &amp; Ralph's</ORIGINAL>
+    <TRADUIT>米克和拉尔夫杂货店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00155916</ID>
+    <EDID>SLWindfarmShackINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wind Farm Maintenance Shack</ORIGINAL>
+    <TRADUIT>风力电站维修棚</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001716CA</ID>
+    <EDID>BCKhanHideout</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Hideout</ORIGINAL>
+    <TRADUIT>大汗帮藏身处</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010C482</ID>
+    <EDID>LakeMeadCaveINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lake Mead Cave</ORIGINAL>
+    <TRADUIT>米德湖山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001532F7</ID>
+    <EDID>SLCavern01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Morning Star Cavern</ORIGINAL>
+    <TRADUIT>晨星洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010CC8F</ID>
+    <EDID>Gomorrah01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gomorrah Main Level</ORIGINAL>
+    <TRADUIT>蛾摩拉主层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013D7E5</ID>
+    <EDID>JacobstownNightstalkerCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Charleston Cave</ORIGINAL>
+    <TRADUIT>查尔斯顿山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FF6B1</ID>
+    <EDID>1ESteelMill</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Steel</ORIGINAL>
+    <TRADUIT>新维加斯钢厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001532F8</ID>
+    <EDID>SLscorpionBurrowINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Scorpion Burrow</ORIGINAL>
+    <TRADUIT>蝎子洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>040028AE</ID>
+    <EDID>NVDLC04Silo02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ashton Missile Silo</ORIGINAL>
+    <TRADUIT>阿什顿导弹发射井</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010067A</ID>
+    <EDID>2CCampGolfResort</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>House Resort</ORIGINAL>
+    <TRADUIT>豪斯度假庄园</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F33A8</ID>
+    <EDID>MonteCarloSuitesInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Monte Carlo Suites</ORIGINAL>
+    <TRADUIT>蒙地卡罗套房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E60C2</ID>
+    <EDID>Vault22d</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 22 - Common Areas</ORIGINAL>
+    <TRADUIT>22号避难所 - 公共区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013F41A</ID>
+    <EDID>CampSearchlightPoliceStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Police Station</ORIGINAL>
+    <TRADUIT>探照灯营地警察局</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7505</ID>
+    <EDID>HiddenValley02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Valley Bunker L2</ORIGINAL>
+    <TRADUIT>隐谷地堡二层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013CA81</ID>
+    <EDID>JacobstownLodge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jacobstown Lodge</ORIGINAL>
+    <TRADUIT>雅各布斯镇旅社</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>04007B93</ID>
+    <EDID>NVDLC04DivideSLWaterPlant</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wastewater Treatment Plant</ORIGINAL>
+    <TRADUIT>污水处理厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001188ED</ID>
+    <EDID>ULGourmand</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Gourmand at the Ultra-Luxe</ORIGINAL>
+    <TRADUIT>奢华殿堂的美食家餐厅</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0300CC33</ID>
+    <EDID>NVDLC03SLX12INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>X-12</ORIGINAL>
+    <TRADUIT>X-12研究中心</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E60CD</ID>
+    <EDID>Vault22e</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 22 - Pest Control</ORIGINAL>
+    <TRADUIT>22号避难所 - 虫害防治区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F47B3</ID>
+    <EDID>CampMCTermInt04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp McCarran Supply Shack</ORIGINAL>
+    <TRADUIT>麦卡伦营地物资棚</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008A43</ID>
+    <EDID>NVDLC02NarrowsWhiteLegs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glass Chime Cave</ORIGINAL>
+    <TRADUIT>玻璃风铃洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>030086CA</ID>
+    <EDID>NVDLC03SLCazadorINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Z-14 Pepsinae DNA Splicing Lab</ORIGINAL>
+    <TRADUIT>Z-14蛛蜂DNA剪接实验室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ECDE8</ID>
+    <EDID>GunRunnerHQInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Runner Headquarters</ORIGINAL>
+    <TRADUIT>军火贩子总部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00169E4C</ID>
+    <EDID>OVCentralSewers02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>East Central Sewers</ORIGINAL>
+    <TRADUIT>东部下水道中枢</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>01003080</ID>
+    <EDID>NVDLC01PoliceStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Villa Police Station</ORIGINAL>
+    <TRADUIT>别墅区警察局</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FCCA2</ID>
+    <EDID>1ENeonSignFactory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zapp's Neon Signs</ORIGINAL>
+    <TRADUIT>扎普的霓虹灯厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154826</ID>
+    <EDID>SLAbandonedShack02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Harper's Shack</ORIGINAL>
+    <TRADUIT>哈珀的小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02009426</ID>
+    <EDID>NVDLC02ZionStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranger Station</ORIGINAL>
+    <TRADUIT>护林员站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D70E2</ID>
+    <EDID>PrimmNashResidence</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nash Residence</ORIGINAL>
+    <TRADUIT>纳什的住所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E5A84</ID>
+    <EDID>RepconHQ01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>REPCONN Office Main Floor</ORIGINAL>
+    <TRADUIT>瑞普康办公室主楼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00134580</ID>
+    <EDID>3CBoatRentals</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Captain Dean Boat Rentals</ORIGINAL>
+    <TRADUIT>迪安船长的小艇租借室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0008D0FA</ID>
+    <EDID>NCRPrisonBlockA</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cell Block A</ORIGINAL>
+    <TRADUIT>监狱A栋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F461A</ID>
+    <EDID>IsaacHouseInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Isaac's House</ORIGINAL>
+    <TRADUIT>艾萨克的房子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0012B7FB</ID>
+    <EDID>GypsumAbandonedBuilding</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gypsum Quarry Office</ORIGINAL>
+    <TRADUIT>石膏采掘场办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>04003E4B</ID>
+    <EDID>NVDLC04RoadHQ</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hopeville Missile Base HQ</ORIGINAL>
+    <TRADUIT>黎明镇导弹基地总部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010F23B</ID>
+    <EDID>Lucky38ControlRoom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lucky 38 Control Room</ORIGINAL>
+    <TRADUIT>幸运38控制室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00121481</ID>
+    <EDID>CampForlornHope05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp Forlorn Hope Storage Shed</ORIGINAL>
+    <TRADUIT>飘零希望营地军资棚</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000CAE84</ID>
+    <EDID>NovacVargasRoom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Manny Vargas' Room</ORIGINAL>
+    <TRADUIT>曼尼·瓦尔加斯的房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0015ECEC</ID>
+    <EDID>OVWestSewers03d</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Red Lucy's Chamber</ORIGINAL>
+    <TRADUIT>血手露西的房间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154828</ID>
+    <EDID>SLSunkenBeachHouse01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunken Beach House</ORIGINAL>
+    <TRADUIT>沉没的沙滩房屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00158194</ID>
+    <EDID>SLSulfurCave01INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodborne Cave</ORIGINAL>
+    <TRADUIT>血源洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001244CA</ID>
+    <EDID>NelsonHouse03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nelson House</ORIGINAL>
+    <TRADUIT>纳尔逊屋舍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001555FC</ID>
+    <EDID>SLGoldMine02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight North Gold Mine</ORIGINAL>
+    <TRADUIT>探照灯营地北部金矿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001024D9</ID>
+    <EDID>NellisTunnel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Tunnel</ORIGINAL>
+    <TRADUIT>火车隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>04009CAD</ID>
+    <EDID>NVDLC04SLArmory01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hopeville Armory</ORIGINAL>
+    <TRADUIT>黎明镇军械库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00106499</ID>
+    <EDID>NellisMuseum</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nellis Boomer Museum</ORIGINAL>
+    <TRADUIT>内利斯大炮族博物馆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00146607</ID>
+    <EDID>CampSearchlightHiddenCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Supply Cave</ORIGINAL>
+    <TRADUIT>隐蔽补给洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001544AF</ID>
+    <EDID>SLNuclearTestShackINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuclear Test Shack</ORIGINAL>
+    <TRADUIT>核试验小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00171CF3</ID>
+    <EDID>SLprospectorsDenINT02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Prospector's Den</ORIGINAL>
+    <TRADUIT>淘金客老窝</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0301507B</ID>
+    <EDID>NVDLC03SLBloatFlyCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mysterious Cave</ORIGINAL>
+    <TRADUIT>神秘洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013DD63</ID>
+    <EDID>CampGuardianCaves</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Camp Guardian Caves</ORIGINAL>
+    <TRADUIT>守卫者营地山洞</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001555FD</ID>
+    <EDID>SLBoSBunkerINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brotherhood of Steel Bunker</ORIGINAL>
+    <TRADUIT>钢铁兄弟会地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001591D5</ID>
+    <EDID>SLRemnantsBunkerINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Remnants' Bunker</ORIGINAL>
+    <TRADUIT>英克雷残部地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0013C0B6</ID>
+    <EDID>TheFortWorld</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Caesar's Tent</ORIGINAL>
+    <TRADUIT>凯撒的帐篷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>00148C05</ID>
+    <EDID>WastelandNVmini</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>01001315</ID>
+    <EDID>NVDLC01WestTownN</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Puesta del Sol North</ORIGINAL>
+    <TRADUIT>日落镇北侧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>04002866</ID>
+    <EDID>NVDLC04Road01World</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Lonesome Road</ORIGINAL>
+    <TRADUIT>孤独之路</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>04002C7E</ID>
+    <EDID>NVDLC04DivideWorld</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Divide</ORIGINAL>
+    <TRADUIT>大裂谷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>04002F73</ID>
+    <EDID>NVDLC04Road02World</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The High Road</ORIGINAL>
+    <TRADUIT>正路</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0400AA02</ID>
+    <EDID>NVDLC04NukeSilo2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Courier's Mile</ORIGINAL>
+    <TRADUIT>邮差之路</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
