@@ -1,0 +1,35 @@
+;Requirements check
+if eval GetNVSEVersionFull < 6.35
+	MessageBoxEx "Quest Popup Patch requirement not detected!%rInstall latest xNVSE."
+	return
+endif
+if eval GetPluginVersion "JIP LN NVSE" < 57.30
+	MessageBoxEx "Quest Popup Patch requirement not detected!%rInstall latest JIP LN NVSE Plugin."
+	return
+endif
+if eval GetPluginVersion "JohnnyGuitarNVSE" < 511
+	MessageBoxEx "Quest Popup Patch requirement not detected!%rInstall latest JohnnyGuitar NVSE."
+	return
+endif
+if eval GetPluginVersion "ShowOffNVSE Plugin" < 180
+	MessageBoxEx "Quest Popup Patch requirement not detected!%rInstall latest ShowOff NVSE plugin."
+	return
+endif
+
+SetEventHandlerAlt "ShowOff:OnQuestAdded" (begin function {ref rQsts}
+	if eval (LNGetName rQsts) != ("") && !(MenuMode 1013)
+		MessageEx ("Quest Start: " + (LNGetName rQsts))
+	endif
+end)
+
+SetJohnnyOnFailQuestEventHandler 1 (begin function {ref rQstf}
+	if eval (LNGetName rQstf) != ("") && !(MenuMode 1013)
+		MessageEx ("Quest Failed: " + (LNGetName rQstf))
+	endif
+end) 0
+
+SetJohnnyOnCompleteQuestEventHandler 1 (begin function {ref rQstc}
+	if eval (LNGetName rQstc) != ("") && !(MenuMode 1013)
+		MessageEx ("Quest Completed: " + (LNGetName rQstc))
+	endif
+end) 0
