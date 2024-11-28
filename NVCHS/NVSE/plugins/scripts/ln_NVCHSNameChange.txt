@@ -1,0 +1,31 @@
+;Requirements check
+if eval GetNVSEVersionFull < 6.35
+	MessageBoxEx "NVCHS requirement not detected!%rInstall latest xNVSE."
+	return
+endif
+if eval GetPluginVersion "JIP LN NVSE" < 57.30
+	MessageBoxEx "NVCHS requirement not detected!%rInstall latest JIP LN NVSE Plugin."
+	return
+endif
+
+if eval GetPluginVersion "JohnnyGuitarNVSE" < 511
+	MessageBoxEx "NVCHS requirement not detected!%rInstall latest JohnnyGuitar NVSE."
+endif
+if eval GetPluginVersion "lStewieAl's Tweaks" < 935
+	MessageBoxEx "NVCHS requirement not detected!%rInstall latest lStewieAl's Tweaks and Engine Fixes."
+endif
+
+SetEventHandlerAlt "NVCHSRename" (begin function {ref rRnm, string_var sNnm}
+	if eval IsFormValid rRnm && (ToString sNnm) != ""
+		if eval IsReference rRnm
+			rRnm.LNSetName (ToString sNnm)
+		else
+			LNSetName (ToString sNnm) rRnm
+		endif
+	endif
+end)
+
+DispatchEventAlt "NVCHSRename" Cram, "CramFood"
+DispatchEventAlt "NVCHSRename" WeapNVFireaxeUnique, "KnocKnock"
+DispatchEventAlt "NVCHSRename" geMachinegunNVChallen, "ClickChalg"
+DispatchEventAlt "NVCHSRename" Red, "RedNPC"

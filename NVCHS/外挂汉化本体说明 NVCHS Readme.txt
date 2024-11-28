@@ -25,12 +25,16 @@ TTW 3.3.3b内容汉化词典（部分校对）
 
 
 使用方法：
-首先检查是否已经正确安装xNVSE、JohnnyGuitar NVSE、NVTF、lStewieAl Tweaks，安装方法可参见游骑兵指南
+首先检查是否已经正确安装xNVSE、JIP LN NVSE Plugin、JohnnyGuitar NVSE、NVTF、lStewieAl Tweaks
+具体安装方法可参见游骑兵指南
 
 xNVSE：
 https://www.nexusmods.com/newvegas/mods/67883
 
-JohnnyGuitar NVSE
+JIP LN NVSE Plugin：
+https://www.nexusmods.com/newvegas/mods/58277
+
+JohnnyGuitar NVSE：
 https://www.nexusmods.com/newvegas/mods/66927
 
 NVTF
