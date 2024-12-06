@@ -15,6 +15,9 @@ if eval GetPluginVersion "ShowOffNVSE Plugin" < 180
 	MessageBoxEx "Quest Popup Patch requirement not detected!%rInstall latest ShowOff NVSE plugin."
 	return
 endif
+if eval GetPluginVersion "lStewieAl's Tweaks" < 935
+	MessageBoxEx "Quest Popup Patch requirement not detected!%rInstall latest lStewieAl's Tweaks and Engine Fixes."
+endif
 
 SetEventHandlerAlt "ShowOff:OnQuestAdded" (begin function {ref rQsts}
 	if eval (LNGetName rQsts) != ("") && !(MenuMode 1013)
