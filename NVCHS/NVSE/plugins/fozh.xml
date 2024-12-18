@@ -172,6 +172,11 @@
 		
 		<!-- Open World DC -->
 		<json path="Data/NVCHSDict/json/Mods/OpenWorldDC.json" priority="5" />
+
+		<!-- Claim the Mojave (and the Capital) -->
+		<json path="Data/NVCHSDict/json/Mods/ClaimtheMojave.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/ClaimtheCapital.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/ClaimtheMojave_chs.txt" src="Data/NVCHSDict/Mods/ClaimtheMojave_en.txt" type="2" priority="5"/>
 		
 		<!-- Unfriendlier Persuasion -->
 		<json path="Data/NVCHSDict/json/Mods/UnfriendlierPersuasion.json" priority="5" />
