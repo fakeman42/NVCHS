@@ -1360,5 +1360,863 @@
     "original": "Big MT",
     "translation": "大山脉",
     "stage": 1
+  },
+  {
+    "key": "ZLStealthLaserPistolLaserDisintegrationEffect_0600233F#MGEF:FULL#c759f6c40766fc45c756efc07f3dd9a2",
+    "original": "Disintegration",
+    "translation": "分解",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#b3a8e37077c87b7d5354c6cf3a210cfb",
+    "original": "Leilong Railgun",
+    "translation": "雷龙轨道炮",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#75f3ac993e088675cdc19312ea567fd1",
+    "original": "Leilong Railgun Suppressor",
+    "translation": "雷龙轨道炮消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#d59c053e458ada600e77edab6d2e8a45",
+    "original": "Leilong Railgun Thermal Scope",
+    "translation": "雷龙轨道炮热成像瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#0fffe93aaca8dc636e35c4c5a8deec46",
+    "original": "P90 Extended Barrel",
+    "translation": "P90加长枪管",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#d088581d021f98e383d1d0ef8eb82f46",
+    "original": "SVD Suppressor",
+    "translation": "SVD消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#a446b4245d60a8046657fda2f1e0a7b0",
+    "original": "SVD Carbon Fiber Parts",
+    "translation": "SVD碳纤维部件",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#dc89dd0f78949f78e2c58c07f2a9b2e2",
+    "original": "FiveseveN",
+    "translation": "FiveseveN手枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#6651c76e6124182b621c9e32fee71854",
+    "original": "FiveseveN Reinforced Lower Body",
+    "translation": "FiveseveN手枪加强下枪身",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#2ff5fdef2fc35173d1385785c08a057d",
+    "original": "FN FiveseveN",
+    "translation": "FN FiveseveN手枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#eb60626139748accdafdb7196a899e32",
+    "original": "FN FiveseveN Reinforced Lower Body",
+    "translation": "FiveseveN手枪加强下枪身",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#7a0bafbd10eae8255e5c8a752c6e51ca",
+    "original": "MP5A5 Submachine Gun",
+    "translation": "MP5A5冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#dfa5eaf7a978a9dee86b5a8566636d44",
+    "original": "MP5/10 Submachine Gun",
+    "translation": "MP5/10冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#24c54d5231c7cd54ba0c92740d880444",
+    "original": "MP5SD6 Submachine Gun",
+    "translation": "MP5SD6冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#7bb0095548a2166bf836f9686a87a262",
+    "original": "MP5 Full Stock",
+    "translation": "MP5完整枪托",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#66364bb1f7836d26d2544077e6d900f5",
+    "original": "MP5 Red Dot Sight",
+    "translation": "MP5红点瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#9fb612cd949074e8ce56caf2842d802c",
+    "original": "MP5 Submachine Gun Full Stock",
+    "translation": "MP5冲锋枪完整枪托",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#f114180a808eead0be1935c9c6607fe1",
+    "original": "MP5 Submachine Gun Red Dot Sight",
+    "translation": "MP5冲锋枪红点瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#9f5d296a86b04be3781955a8e6188d17",
+    "original": "M82A1 Long Barrel",
+    "translation": "M82A1加长枪管",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#10181bab625a6b8fda4ed1211f3ba33b",
+    "original": "M82A1 Custom Bolt",
+    "translation": "M82A1定制枪机",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#dabe2fdaf56d203acc13a588e2a2ed68",
+    "original": "Jericho 941",
+    "translation": "耶利哥 941",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#68af41568de79424302f783234199418",
+    "original": "Jericho 941 Wooden Grip",
+    "translation": "Jericho 941木制握把",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#42c0601e06fbfb1dbc80aa811e6fcdd1",
+    "original": "PP-19 Bizon",
+    "translation": "PP-19野牛",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#871a14a19fee753d2527e104e255eb80",
+    "original": "PP-19 Bizon Advanced Magazine",
+    "translation": "PP-19野牛高级弹匣",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#0cb7282fd0776de4507c39c8c20e92d7",
+    "original": "5.7x28mm Suppressor",
+    "translation": "5.7x28mm消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#3b719405c58a6f6cbc30e9587ac48a9c",
+    "original": "PSO-1 Scope",
+    "translation": "PSO-1瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#8eeb44215c0285f02341bfb0bc4a1415",
+    "original": "9x39mm Extended Mags",
+    "translation": "9x39mm扩展弹匣",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCDA#3735bc0717da35aac4fb9a09a632c323",
+    "original": "OKP-7 Reflex Sight",
+    "translation": "OKP-7反射式瞄具",
+    "stage": 1
+  },
+  {
+    "key": "ZLArmamentsRenamingScript_06000805#SCPT:SCTX#58ff185a384479479c6c6dba2dc7ade1",
+    "original": "scn ZLArmamentsRenamingScript\\n\\nBegin GameMode\\n\tif GetGameRestarted\\n\t\tif GetINIFloat \"NameChoices:bLoreFriendlyNamesOnly\" \"zl_armanents_config.ini\" == 0\\n\t\t\tif GetINIFloat \"NameChoices:iRailgun\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"Leilong Railgun\" ZLWeapRailgun\\n\\n\t\t\t\tSetName \"Leilong Railgun Suppressor\" ZLModRailgunSuppressor\\n\t\t\t\tSetName \"Leilong Railgun Thermal Scope\" ZLModRailgunThermalScope\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iP90\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"P90\" ZLWeapP90\\n\t\t\t\tSetName \"P90 Extended Barrel\" ZLModP90ExtBarrel\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iSVD\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"SVD\" ZLWeapSVD\\n\\n\t\t\t\tSetName \"SVD Suppressor\" ZLModSVDSuppressor\\n\t\t\t\tSetName \"SVD Carbon Fiber Parts\" ZLModSVDCarbonFiberParts\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iFiveseveN\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"FiveseveN\" ZLWeapFiveseveN\\n\\n\t\t\t\tSetName \"FiveseveN Reinforced Lower Body\" ZLModFiveseveNReinforcedLower\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iFiveseveN\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"FN FiveseveN\" ZLWeapFiveseveN\\n\\n\t\t\t\tSetName \"FN FiveseveN Reinforced Lower Body\" ZLModFiveseveNReinforcedLower\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"MP5A5\" ZLWeapMP5\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"MP5A5 Submachine Gun\" ZLWeapMP5\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"MP5/10\" ZLWeapMP510\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"MP5/10 Submachine Gun\" ZLWeapMP510\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"MP5SD6\" ZLWeapMP5SD6\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"MP5SD6 Submachine Gun\" ZLWeapMP5SD6\\n\t\t\tendif\\n\\n\t\t\tif (GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 1) || (GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 1) || (GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 1)\\n\t\t\t\tSetName \"MP5 Full Stock\" ZLModMP5FullStock\\n\t\t\t\tSetName \"MP5 Red Dot Sight\" ZLModMP5RedDotSight\\n\t\t\tendif\\n\\n\t\t\tif (GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 2) || (GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 2) || (GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 2)\\n\t\t\t\tSetName \"MP5 Submachine Gun Full Stock\" ZLModMP5FullStock\\n\t\t\t\tSetName \"MP5 Submachine Gun Red Dot Sight\" ZLModMP5RedDotSight\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iM82A1\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"M82A1\" ZLWeapM82A1\\n\\n\t\t\t\tSetName \"M82A1 Long Barrel\" ZLModM82A1Barrel\\n\t\t\t\tSetName \"M82A1 Custom Bolt\" ZLModM82A1CustomBolt\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iVSS\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"VSS\" ZLWeapVSS\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iASVal\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"AS Val\" ZLWeapASVal\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iJericho941\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"Jericho 941\" ZLWeapJericho941\\n\t\t\t\tSetName \"Jericho 941 Wooden Grip\" ZLModJericho941WoodGrip\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iPP19Bizon\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"PP-19 Bizon\" ZLWeapPP19Bizon\\n\t\t\t\tSetName \"PP-19 Bizon Advanced Magazine\" ZLModPP19BizonMag\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iNeostead2000\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"Neostead 2000\" ZLWeapNeostead2000\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:i5mmSuppressor\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"5.7x28mm Suppressor\" ZLMod5mmSuppressor\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iPSO1Scope\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"PSO-1 Scope\" ZLModPSO1Scope\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:i9x39mmExtMag\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"9x39mm Extended Mags\" ZLMod9x39mmExtMag\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iOKP7ReflexSight\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"OKP-7 Reflex Sight\" ZLModOKP7ReflexSight\\n\t\t\tendif\\n\\n\t\t\tif GetDebugMode\\n\t\t\t\tPrint \"ZL Armaments: Weapon Renaming Complete\"\\n\t\t\tendif\\n\t\tendif\\n\tendif\\nend",
+    "translation": "scn ZLArmamentsRenamingScript\\n\\nBegin GameMode\\n\tif GetGameRestarted\\n\t\tif GetINIFloat \"NameChoices:bLoreFriendlyNamesOnly\" \"zl_armanents_config.ini\" == 0\\n\t\t\tif GetINIFloat \"NameChoices:iRailgun\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"雷龙轨道炮\" ZLWeapRailgun\\n\\n\t\t\t\tSetName \"雷龙轨道炮消音器\" ZLModRailgunSuppressor\\n\t\t\t\tSetName \"雷龙轨道炮热成像瞄准镜\" ZLModRailgunThermalScope\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iP90\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"P90\" ZLWeapP90\\n\t\t\t\tSetName \"P90加长枪管\" ZLModP90ExtBarrel\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iSVD\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"SVD\" ZLWeapSVD\\n\\n\t\t\t\tSetName \"SVD消音器\" ZLModSVDSuppressor\\n\t\t\t\tSetName \"SVD碳纤维部件\" ZLModSVDCarbonFiberParts\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iFiveseveN\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"FiveseveN手枪\" ZLWeapFiveseveN\\n\\n\t\t\t\tSetName \"FiveseveN手枪加强下枪身\" ZLModFiveseveNReinforcedLower\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iFiveseveN\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"FN FiveseveN手枪\" ZLWeapFiveseveN\\n\\n\t\t\t\tSetName \"FiveseveN手枪加强下枪身\" ZLModFiveseveNReinforcedLower\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"MP5A5\" ZLWeapMP5\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"MP5A5冲锋枪\" ZLWeapMP5\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"MP5/10\" ZLWeapMP510\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"MP5/10冲锋枪\" ZLWeapMP510\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"MP5SD6\" ZLWeapMP5SD6\\n\\n\t\t\telseif GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 2\\n\t\t\t\tSetName \"MP5SD6冲锋枪\" ZLWeapMP5SD6\\n\t\t\tendif\\n\\n\t\t\tif (GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 1) || (GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 1) || (GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 1)\\n\t\t\t\tSetName \"MP5完整枪托\" ZLModMP5FullStock\\n\t\t\t\tSetName \"MP5红点瞄准镜\" ZLModMP5RedDotSight\\n\t\t\tendif\\n\\n\t\t\tif (GetINIFloat \"NameChoices:iMP5\" \"zl_armanents_config.ini\" == 2) || (GetINIFloat \"NameChoices:iMP510\" \"zl_armanents_config.ini\" == 2) || (GetINIFloat \"NameChoices:iMP5SD6\" \"zl_armanents_config.ini\" == 2)\\n\t\t\t\tSetName \"MP5冲锋枪完整枪托\" ZLModMP5FullStock\\n\t\t\t\tSetName \"MP5冲锋枪红点瞄准镜\" ZLModMP5RedDotSight\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iM82A1\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"M82A1\" ZLWeapM82A1\\n\\n\t\t\t\tSetName \"M82A1加长枪管\" ZLModM82A1Barrel\\n\t\t\t\tSetName \"M82A1定制枪机\" ZLModM82A1CustomBolt\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iVSS\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"VSS\" ZLWeapVSS\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iASVal\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"AS Val\" ZLWeapASVal\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iJericho941\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"Jericho 941\" ZLWeapJericho941\\n\t\t\t\tSetName \"Jericho 941木制握把\" ZLModJericho941WoodGrip\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iPP19Bizon\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"PP-19野牛\" ZLWeapPP19Bizon\\n\t\t\t\tSetName \"PP-19野牛高级弹匣\" ZLModPP19BizonMag\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iNeostead2000\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"Neostead 2000\" ZLWeapNeostead2000\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:i5mmSuppressor\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"5.7x28mm消音器\" ZLMod5mmSuppressor\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iPSO1Scope\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"PSO-1瞄准镜\" ZLModPSO1Scope\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:i9x39mmExtMag\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"9x39mm扩展弹匣\" ZLMod9x39mmExtMag\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"NameChoices:iOKP7ReflexSight\" \"zl_armanents_config.ini\" == 1\\n\t\t\t\tSetName \"OKP-7反射式瞄具\" ZLModOKP7ReflexSight\\n\t\t\tendif\\n\\n\t\t\tif GetDebugMode\\n\t\t\t\tPrint \"ZL Armaments: Weapon Renaming Complete\"\\n\t\t\tendif\\n\t\tendif\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#5bb6f5caa035018d7d27a3b536801c50",
+    "original": "Barrel105",
+    "translation": "桶105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#4f24b9f4ebe508f3c67bc3edc0228eb2",
+    "original": "ZLACR",
+    "translation": "ZLACR",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCDA#c92ed6ec28da14941cbfa07fe5717a42",
+    "original": "BarrelKit",
+    "translation": "枪管组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel105Script_06001B8E#SCPT:SCTX#e921df12319fd57b8eec32a2fde2d916",
+    "original": "scn ZLACRBarrel105Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel105\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"105\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"105\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"BarrelKit\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\t\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRBarrel105Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel105\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"105\"\\n\\n\tif sv_find \"光学瞄准镜 \", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"瞄准镜 \", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"105\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR \" + sFinalBarrel + \"枪管组件 \"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\t\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#e613f002759467970e431b482c102ed7",
+    "original": "Barrel145",
+    "translation": "桶145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCDA#c92ed6ec28da14941cbfa07fe5717a42",
+    "original": "BarrelKit",
+    "translation": "枪管组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel145Script_06001B93#SCPT:SCTX#3fc11bdb8a50433f66de1372e703977a",
+    "original": "scn ZLACRBarrel145Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel145\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"145\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"145\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"BarrelKit\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRBarrel145Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel145\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR105BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"145\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"145\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"枪管组件\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR145BarrelKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#cd2449db383f62516e8b2a98a8307354",
+    "original": "Barrel16",
+    "translation": "桶16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCDA#c92ed6ec28da14941cbfa07fe5717a42",
+    "original": "BarrelKit",
+    "translation": "枪管组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel16Script_06001B95#SCPT:SCTX#4bd8592cb7d9c7ee46e8e464e1f7efd6",
+    "original": "scn ZLACRBarrel16Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel16\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"16\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"16\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\t\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"BarrelKit\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRBarrel16Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel16\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"16\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"16\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\t\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"枪管组件\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR16BarrelKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#c093ee0ded31b2cb8ca375b48ee8eb84",
+    "original": "Barrel18",
+    "translation": "桶18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCDA#c92ed6ec28da14941cbfa07fe5717a42",
+    "original": "BarrelKit",
+    "translation": "枪管组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRBarrel18Script_06001B96#SCPT:SCTX#7919735b3a07b1cbb23c1c6876d0d6ef",
+    "original": "scn ZLACRBarrel18Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\n\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel18\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"18\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"18\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"BarrelKit\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRBarrel18Script\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalBarrel\\nstring_var sOldBarrel\\nstring_var sNewBarrel\\n\\nstring_var sFinalSight\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\nfloat fBarrelSwapTimerA\\nfloat fBarrelSwapTimerB\\nfloat fBarrelSwapTimerC\\nfloat fBarrelSwapTimerD\\nfloat fAnimSpeed\\nfloat fAgilityModifier\\nfloat fQuickDrawValue\\n\\nint iModsBitMask\\nint iAgility\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Barrel18\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewBarrel = \"18\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalSight\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalBarrel == \"18\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"枪管组件\"\\n\\n\tif GetDebugMode\\n\t\tPrintVar sOldBarrel\\n\tendif\\n\\n\trModToAdd = EditorIdToFormID (sOldBarrel)\\n\\n\tif GetDebugMode\\n\t\tPrintVar rModToAdd\\n\tendif\\n\\n\tsFinalVariant = sPrefix + sNewBarrel + sFinalSight\\n\\n\tif GetDebugMode\\n\t\tPrintVar sFinalVariant\\n\tendif\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\t;No Change\\n\t\telse\\n\t\t\tfBarrelSwapTimerA = 0.1\\n\t\t\tfBarrelSwapTimerB = 0.2\\n\t\t\tfBarrelSwapTimerC = 0.3\\n\t\t\tfBarrelSwapTimerD = 0.4\\n\t\tendif\\n\\n\t\tPlayer.SetWeaponOut 1 \\n\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tif (Player.HasPerk QuickDraw == 1) && (GetNthPerkEntryFunction QuickDraw 0 == 38)\\n\t\t\t\tfQuickDrawValue = GetNthPerkEntryValue1 QuickDraw 0\\n\t\t\telse\\n\t\t\t\tfQuickDrawValue = 1\\n\t\t\tendif\\n\\n\t\t\tiAgility = Player.GetActorValue Agility\\n\t\t\tfAgilityModifier = GetNumericGameSetting fAgilityReloadModifier\\n\\n\t\t\tfAnimSpeed = (1 + ((iAgility - 5) * fAgilityModifier)) * fQuickDrawValue\\n\\n\t\t\tfBarrelSwapTimerA = 5.0 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerB = 5.025 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerC = 5.05 / fAnimSpeed\\n\t\t\tfBarrelSwapTimerD = 10.366667 / fAnimSpeed\\n\\n\t\t\tSetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haUnEquip v1.16.kf\"\\n\t\t\\n\t\t\tCallAfterSeconds 0.1 ({} => Player.SetWeaponOut 0 )\t\\n\\n\t\t\tCallAfterSeconds fBarrelSwapTimerA ({} => SetWeaponAnimationPath rCurrentWeap 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haUnEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerA (begin function {}\\n\t\t\tref rWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\t\trWeapInvReference.RemoveMeIRAlt\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerB (begin function {}\\n\t\t\tPlayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\t\tPlayer.AddItem rModToAdd 1 1\\n\t\t\tPlayer.EquipItem rWeaponToAdd\\n\t\t\t\\n\t\tend)\\n\\n\t\tCallAfterSeconds fBarrelSwapTimerC (begin function {}\\n\t\t\trWeapInvReference = Player.GetEquippedItemRef 5\\n\t\t\trWeapInvReference.SetWeaponRefModFlags iModsBitMask\\n\t\t\tPlayer.SetWeaponOut 1\\n\t\tend)\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerC ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACRBarrelSwap\\_1stperson\\2haEquip v1.16.kf\" )\\n\t\tendif\\n\\n\t\tif GetINIFltOrCreateC \"Main:bACRBarrelSwapAnim\" \"zl_armanents_config.ini\"\\n\t\t\tCallAfterSeconds fBarrelSwapTimerD ({} => SetWeaponAnimationPath rWeaponToAdd 1 1 \"AnimGroupOverride\\Ani_ZLACR\\_1stperson\\2haEquip v1.16.kf\")\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACR18BarrelKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCDA#9e6f0a457a93ab34a5e41615082b15cc",
+    "original": "Kit",
+    "translation": "组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRScopeScript_06001BAA#SCPT:SCTX#451ac438100028ab91781d19b1d111f9",
+    "original": "scn ZLACRScopeScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalOptic\\nstring_var sOldOptic\\nstring_var sNewOptic\\n\\nstring_var sFinalSight\\nstring_var sFinalBarrel\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"Scope\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewOptic = \"Scope\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalOptic = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalOptic = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalSight == \"Scope\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\t\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif eval sFinalOptic == \"\"\\n\t\tsFinalOptic = \"IronSight\"\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalOptic + \"Kit\"\\n\\n\trModToAdd = EditorIdToFormID (sOldOptic)\\n\\n\tsFinalVariant = sPrefix + sFinalBarrel + sNewOptic\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rModToAdd 1 1\\n\t\tplayer.equipitem rWeaponToAdd\\n\t\tplayer.SetEquippedWeaponModFlags iModsBitMask\\n\t\tplayer.setweaponout 1 \\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRScopeScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalOptic\\nstring_var sOldOptic\\nstring_var sNewOptic\\n\\nstring_var sFinalSight\\nstring_var sFinalBarrel\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"瞄准镜\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewOptic = \"瞄准镜\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalOptic = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalOptic = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalSight == \"Scope\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\t\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif eval sFinalOptic == \"\"\\n\t\tsFinalOptic = \"IronSight\"\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalOptic + \"组件\"\\n\\n\trModToAdd = EditorIdToFormID (sOldOptic)\\n\\n\tsFinalVariant = sPrefix + sFinalBarrel + sNewOptic\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rModToAdd 1 1\\n\t\tplayer.equipitem rWeaponToAdd\\n\t\tplayer.SetEquippedWeaponModFlags iModsBitMask\\n\t\tplayer.setweaponout 1 \\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRScopeKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCDA#9e6f0a457a93ab34a5e41615082b15cc",
+    "original": "Kit",
+    "translation": "组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRIronSightScript_06001BAB#SCPT:SCTX#a53c62b079675379a1ee4c25e7683d3a",
+    "original": "scn ZLACRIronSightScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalOptic\\nstring_var sOldOptic\\nstring_var sNewOptic\\n\\nstring_var sFinalSight\\nstring_var sFinalBarrel\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"IronSight\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLACRWeapBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewOptic = \"\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalSight == \"\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalSight + \"Kit\"\\n\\n\trModToAdd = EditorIdToFormID (sOldOptic)\\n\\n\tsFinalVariant = sPrefix + sFinalBarrel + sNewOptic\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rModToAdd 1 1\\n\t\tplayer.equipitem rWeaponToAdd\\n\t\tplayer.SetEquippedWeaponModFlags iModsBitMask\\n\t\tplayer.setweaponout 1 \\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRIronSightScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalOptic\\nstring_var sOldOptic\\nstring_var sNewOptic\\n\\nstring_var sFinalSight\\nstring_var sFinalBarrel\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"IronSight\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLACRWeapBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewOptic = \"\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalSight == \"\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalSight + \"组件\"\\n\\n\trModToAdd = EditorIdToFormID (sOldOptic)\\n\\n\tsFinalVariant = sPrefix + sFinalBarrel + sNewOptic\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rModToAdd 1 1\\n\t\tplayer.equipitem rWeaponToAdd\\n\t\tplayer.SetEquippedWeaponModFlags iModsBitMask\\n\t\tplayer.setweaponout 1 \\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRIronSightKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCDA#9e6f0a457a93ab34a5e41615082b15cc",
+    "original": "Kit",
+    "translation": "组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRACOGScript_06001BAE#SCPT:SCTX#433bac1b20c002161b407fc1d6c58891",
+    "original": "scn ZLACRACOGScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalOptic\\nstring_var sOldOptic\\nstring_var sNewOptic\\n\\nstring_var sFinalSight\\nstring_var sFinalBarrel\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"ACOG\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLACRWeapBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewOptic = \"ACOG\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalOptic = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalOptic = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalSight == \"ACOG\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif eval sFinalOptic == \"\"\\n\t\tsFinalOptic = \"IronSight\"\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalOptic + \"Kit\"\\n\\n\trModToAdd = EditorIdToFormID (sOldOptic)\\n\\n\tsFinalVariant = sPrefix + sFinalBarrel + sNewOptic\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintvar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rModToAdd 1 1\\n\t\tplayer.equipitem rWeaponToAdd\\n\t\tplayer.SetEquippedWeaponModFlags iModsBitMask\\n\t\tplayer.setweaponout 1 \\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRACOGScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sFinalOptic\\nstring_var sOldOptic\\nstring_var sNewOptic\\n\\nstring_var sFinalSight\\nstring_var sFinalBarrel\\nstring_var sFinalVariant\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rModToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\tsModKitID = \"光学瞄准镜\"\\n\tif sv_find sModKitID, sCurrentID != -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLACRWeapBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewOptic = \"光学瞄准镜\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalOptic = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalOptic = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tif eval sFinalSight == \"ACOG\"\\n\t\tShowMessage ZLMessageACRSameAttachmentError\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif eval sFinalOptic == \"\"\\n\t\tsFinalOptic = \"IronSight\"\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalOptic + \"组件\"\\n\\n\trModToAdd = EditorIdToFormID (sOldOptic)\\n\\n\tsFinalVariant = sPrefix + sFinalBarrel + sNewOptic\\n\\n\trWeaponToAdd = EditorIdToFormID (sFinalVariant)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintvar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rModToAdd 1 1\\n\t\tplayer.equipitem rWeaponToAdd\\n\t\tplayer.SetEquippedWeaponModFlags iModsBitMask\\n\t\tplayer.setweaponout 1 \\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRACOGKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#c86c5da1f804110f9bce3c9b3b45265e",
+    "original": "ACOG",
+    "translation": "光学瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#9501ee4281b932f98dd6e1565698b0ca",
+    "original": "Scope",
+    "translation": "瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#af20b7defeff04d09f3e78da58ae3d33",
+    "original": "Silencer",
+    "translation": "消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#200300cc554954a4f309af388d8c4618",
+    "original": "105",
+    "translation": "105",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#fa87e0b7b9cb1389b26e197518c34538",
+    "original": "145",
+    "translation": "145",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#6e981ee214d1cfae27777b36d51890e9",
+    "original": "18",
+    "translation": "18",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#e78a79170988d1445304af3b657cc134",
+    "original": "16",
+    "translation": "16",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#9e6f0a457a93ab34a5e41615082b15cc",
+    "original": "Kit",
+    "translation": "组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCDA#c92ed6ec28da14941cbfa07fe5717a42",
+    "original": "BarrelKit",
+    "translation": "枪管组件",
+    "stage": 1
+  },
+  {
+    "key": "ZLACRFieldStripScript_06001BC2#SCPT:SCTX#fcd28f458b09f8e5c07258400f5e50a9",
+    "original": "scn ZLACRFieldStripScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sOldOptic\\nstring_var sOldBarrel\\nstring_var sNewWeapon\\n\\nstring_var sFinalSight\\nstring_var sFinalMuzzle\\nstring_var sFinalBarrel\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rBarrelToAdd\\nref rOpticToAdd\\nref rMuzzleToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRFieldStripKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRFieldStripKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewWeapon = \"ZLWeapACRStripped\"\\n\\n\tif sv_find \"ACOG\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"Scope\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"SI\", sCurrentID != -1\\n\t\tsFinalMuzzle = \"Silencer\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalSight + \"Kit\"\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"BarrelKit\"\\n\\n\trBarrelToAdd = EditorIdToFormID (sOldBarrel)\\n\trOpticToAdd = EditorIdToFormID (sOldOptic)\\n\\n\trWeaponToAdd = EditorIdToFormID (sNewWeapon)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rBarrelToAdd 1 1\\n\t\tif IsFormValid rOpticToAdd\\n\t\t\tplayer.additem rOpticToAdd 1 1\\n\t\tendif\\n\t\tplayer.equipitem rWeaponToAdd\\n\\n\t\tif iModsBitMask == 1  \\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\telseif iModsBitMask == 2\\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\telseif iModsBitMask == 3  \\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\telseif iModsBitMask == 4  \\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\telseif iModsBitMask == 5  \\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\telseif iModsBitMask == 6  \\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\telseif iModsBitMask == 7  \\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRFieldStripKit 1 1\\n\tendif\\nend",
+    "translation": "scn ZLACRFieldStripScript\\n\\nstring_var sCurrentID\\nstring_var sModKitID\\n\\nstring_var sPrefix\\nstring_var sOldOptic\\nstring_var sOldBarrel\\nstring_var sNewWeapon\\n\\nstring_var sFinalSight\\nstring_var sFinalMuzzle\\nstring_var sFinalBarrel\\n\\nref rCurrentWeap\\nref rWeaponToAdd\\nref rBarrelToAdd\\nref rOpticToAdd\\nref rMuzzleToAdd\\n\\nfloat fHealthPercent\\n\\nint iModsBitMask\\n\\nbegin ScriptEffectStart\\n\trCurrentWeap = player.GetEquippedObject 5\\n\\n\tif GetDebugMode\\n\t\tPrintVar rCurrentWeap\\n\tendif\\n\\n\tif isRefInList ZLListACRUniqueAll rCurrentWeap > -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRFieldStripKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tif isRefInList ZLListACRAll rCurrentWeap == -1\\n\t\tShowMessage ZLMessageACREquipError\\n\t\tplayer.additem ZLACRFieldStripKit 1 1\\n\t\treturn\\n\tendif\\n\\n\tsCurrentID = GetEditorID rCurrentWeap\\n\\n\tif GetDebugMode\\n\t\tPrint (\"ID: \"+sCurrentID)\\n\tendif\\n\\n\t;EIDs *must* be ordered in this format:\\n\t;ZLWeapACRBarrelSightMuzzle\\n\\n\tif GetDebugMode\\n\t\tPrint \"ACR Modkit Script Start\"\\n\tendif\\n\\n\tsPrefix = \"ZLWeapACR\"\\n\tsNewWeapon = \"ZLWeapACRStripped\"\\n\\n\tif sv_find \"光学瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"ACOG\"\\n\telseif sv_find \"瞄准镜\", sCurrentID != -1\\n\t\tsFinalSight = \"Scope\"\\n\tendif\\n\\n\tif sv_find \"SI\", sCurrentID != -1\\n\t\tsFinalMuzzle = \"消音器\"\\n\tendif\\n\\n\tif sv_find \"105\", sCurrentID != -1\\n\t\tsFinalBarrel = \"105\"\\n\telseif sv_find \"145\", sCurrentID != -1\\n\t\tsFinalBarrel = \"145\"\\n\telseif sv_find \"18\", sCurrentID != -1\\n\t\tsFinalBarrel = \"18\"\\n\telseif sv_find \"16\", sCurrentID != -1\\n\t\tsFinalBarrel = \"16\"\\n\tendif\\n\\n\tsOldOptic = \"ZLACR\" + sFinalSight + \"组件\"\\n\tsOldBarrel = \"ZLACR\" + sFinalBarrel + \"枪管组件\"\\n\\n\trBarrelToAdd = EditorIdToFormID (sOldBarrel)\\n\trOpticToAdd = EditorIdToFormID (sOldOptic)\\n\\n\trWeaponToAdd = EditorIdToFormID (sNewWeapon)\\n\\n\tif IsFormValid rWeaponToAdd\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Valid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tref rWeapInvReference = player.GetEquippedItemRef 5\\n\t\tfHealthPercent = rWeapInvReference.GetItemRefCurrentHealth 2\\n\t\\n\t\t;player.removeitem rCurrentWeap 1 1\\n\t\tset iModsBitMask to player.GetEquippedWeaponModFlags\\n\t\trWeapInvReference.RemoveMeIRAlt\\n\t\\n\t\t;Animation Here\\n\t\\n\t\tplayer.AddItemHealthPercent rWeaponToAdd 1 fHealthPercent\\n\t\tplayer.additem rBarrelToAdd 1 1\\n\t\tif IsFormValid rOpticToAdd\\n\t\t\tplayer.additem rOpticToAdd 1 1\\n\t\tendif\\n\t\tplayer.equipitem rWeaponToAdd\\n\\n\t\tif iModsBitMask == 1  \\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\telseif iModsBitMask == 2\\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\telseif iModsBitMask == 3  \\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\telseif iModsBitMask == 4  \\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\telseif iModsBitMask == 5  \\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\telseif iModsBitMask == 6  \\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\telseif iModsBitMask == 7  \\n\t\t\tplayer.additem ZLModACRHandguard 1 1\\n\t\t\tplayer.additem ZLModACRSuppressor 1 1\\n\t\t\tplayer.additem ZLModPEQLaserSight 1 1\\n\t\tendif\\n\telse\\n\t\tif GetDebugMode\\n\t\t\tPrint \"Invalid form!\"\\n\t\t\tPrintVar rWeaponToAdd\\n\t\tendif\\n\\n\t\tplayer.additem ZLACRFieldStripKit 1 1\\n\tendif\\nend",
+    "stage": 1
+  },
+  {
+    "key": "ZLTeslaSniperRifleChainEffectVTwo01Script_06001CE0#SCPT:SCTX#f0447baabd56fb809cc2e3562721c676",
+    "original": "scn ZLTeslaSniperRifleChainEffectVTwo01Script\\n\\nShort DoOnce\\nShort DeleteMe\\nShort Init\\nFloat Timer\\n\\nfloat zAngle\\nfloat thisX\\nfloat thisY\\nfloat targetX\\nfloat targetY\\nfloat deltaX\\nfloat deltaY\\nfloat tanZAngle\\n\\n\\nfloat distance\\nfloat triggerZCoord\\nfloat targetZCoord\\nfloat deltaZ\\nfloat AimAngleX\\nfloat RatioDist\\n\\n;// vars for vertibird\\nref TriggerObject\\nref triggerActor\\n\\n\\n\\nBegin OnLoad\\n\tif Init == 0\\n\t\tSet Timer to (0.5 + getRandomPercent * 0.003)\\n\t\tSet DeleteMe to 0\\n\t\tSet DoOnce to 0\\n\t\tSet Init to 1\\n\tendif\\nend\\n\\n;///////////////////////////////////////////////////////\\n;// VERTIBIRD EXPLOSION STUFF\\n;////////////////////////////////////////////////////////\\nBEGIN ONTRIGGEREnter\\n\\n\t;// store who triggered us\\n\tset TriggerObject to getActionRef\\n\t\\n\t;// if its in the vertibird list, blow it up!\\n\t;IF TriggerObject.isInList DLC03TeslaExplosionList\\n\t;\t\tTriggerObject.do 50000\\n\t;\t\tIncrementScriptedChallenge TTWDLC03ChallengeVertibird\\n\t;ENDIF\\n\t\\n\tif TriggerObject.isActor == 1\\n\t\tif TriggerObject.GetDead == 0\\n\t\t\tset triggerActor to getActionRef\\n\t\tendif\\n\tendif\\n\t\\nEND\\n\\n\\nBegin GameMode\\n\\n\tIf DeleteMe == 1\\n\t\tMarkForDelete\\n\tendif\\n\t\\n\tIf Timer <= 0\\n\t\tDisable\\n\t\tset DeleteMe to 1\\n\tendif\\n\\n\tif timer < 0.3\\n\t\tif DoOnce == 0\\n\t\t\tif triggerActor.isActor == 1\\n\t\t\t\tif triggerActor.GetDead == 0\\n\t\t\t\t\tset distance to GetDistance triggerActor\\n\t\t\t\t\tif distance > 100\\n\t\t\t\t\t\tSet thisX to GetPos X\\n\t\t\t\t\t\tSet thisY to GetPos Y\\n\t\t\t\t\t\tSet targetX to triggerActor.GetPos X\\n\t\t\t\t\t\tSet targetY to triggerActor.GetPos Y\\n\t\t\t\t\t\tSet deltaX to (targetX - thisX)\\n\t\t\t\t\t\tSet deltaY to (targetY - thisY)\\n\\n\t\t\t\t\t\tif deltaX < 0\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 270 - zAngle\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / -deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle - 90\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\telse\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (-deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle + 90\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 90 - zAngle\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\tendif\\n\t\\n\t\t\t\t\t\tset triggerZCoord to GetPos Z \t\t\t\t\t\t;;// you want the z component of the trigger’s location\\n\t\t\t\t\t\tset targetZCoord to triggerActor.GetPos Z\t\t;;// you want the z component of the target’s location\\n\\n\t\t\t\t\t\tset targetZCoord to targetZCoord + 64 \t\t\t;; Aim for the middle of the target (fudge)\\n\\n\t\t\t\t\t\tset deltaZ to (triggerZCoord - targetZCoord)\\n\t\t\t\t\t\tset RatioDist to (deltaZ / distance)\\n\t\t\t\t\t\tset AimAngleX to Sin RatioDist 1 \t\t\t\t\t;// the extra 1 is what tells the script to use arcsine and not sine\\n\\n\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\tSet AimAngleX to (0 - AimAngleX)\\n\t\t\t\t\t\tendif\\n\t\t\t\t\t\tSetAngle X AimAngleX\\n\\n\t\t\t\t\t\tsetangle z zAngle\\n\\n\t\t\t\t\t\tFireWeapon ZLWeapTeslaSniperRifleChainEffect01\\n\t\t\t\t\t\tset DoOnce to 1\\n\t\t\t\t\tendIf\\n\t\t\t\tendIf\\n\t\t\tendif\\n\t\tendIf\\n\tendif\\n\\n\tSet Timer to (Timer - GetSecondsPassed)\\nEnd",
+    "translation": "scn ZLTeslaSniperRifleChainEffectVTwo01Script\\n\\nShort DoOnce\\nShort DeleteMe\\nShort Init\\nFloat Timer\\n\\nfloat zAngle\\nfloat thisX\\nfloat thisY\\nfloat targetX\\nfloat targetY\\nfloat deltaX\\nfloat deltaY\\nfloat tanZAngle\\n\\n\\nfloat distance\\nfloat triggerZCoord\\nfloat targetZCoord\\nfloat deltaZ\\nfloat AimAngleX\\nfloat RatioDist\\n\\n;// vars for vertibird\\nref TriggerObject\\nref triggerActor\\n\\n\\n\\nBegin OnLoad\\n\tif Init == 0\\n\t\tSet Timer to (0.5 + getRandomPercent * 0.003)\\n\t\tSet DeleteMe to 0\\n\t\tSet DoOnce to 0\\n\t\tSet Init to 1\\n\tendif\\nend\\n\\n;///////////////////////////////////////////////////////\\n;// VERTIBIRD EXPLOSION STUFF\\n;////////////////////////////////////////////////////////\\nBEGIN ONTRIGGEREnter\\n\\n\t;// store who triggered us\\n\tset TriggerObject to getActionRef\\n\t\\n\t;// if its in the vertibird list, blow it up!\\n\t;IF TriggerObject.isInList DLC03TeslaExplosionList\\n\t;\t\tTriggerObject.do 50000\\n\t;\t\tIncrementScriptedChallenge TTWDLC03ChallengeVertibird\\n\t;ENDIF\\n\t\\n\tif TriggerObject.isActor == 1\\n\t\tif TriggerObject.GetDead == 0\\n\t\t\tset triggerActor to getActionRef\\n\t\tendif\\n\tendif\\n\t\\nEND\\n\\n\\nBegin GameMode\\n\\n\tIf DeleteMe == 1\\n\t\tMarkForDelete\\n\tendif\\n\t\\n\tIf Timer <= 0\\n\t\tDisable\\n\t\tset DeleteMe to 1\\n\tendif\\n\\n\tif timer < 0.3\\n\t\tif DoOnce == 0\\n\t\t\tif triggerActor.isActor == 1\\n\t\t\t\tif triggerActor.GetDead == 0\\n\t\t\t\t\tset distance to GetDistance triggerActor\\n\t\t\t\t\tif distance > 100\\n\t\t\t\t\t\tSet thisX to GetPos X\\n\t\t\t\t\t\tSet thisY to GetPos Y\\n\t\t\t\t\t\tSet targetX to triggerActor.GetPos X\\n\t\t\t\t\t\tSet targetY to triggerActor.GetPos Y\\n\t\t\t\t\t\tSet deltaX to (targetX - thisX)\\n\t\t\t\t\t\tSet deltaY to (targetY - thisY)\\n\\n\t\t\t\t\t\tif deltaX < 0\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 270 - zAngle\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / -deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle - 90\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\telse\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (-deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle + 90\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 90 - zAngle\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\tendif\\n\t\\n\t\t\t\t\t\tset triggerZCoord to GetPos Z \t\t\t\t\t\t;;// you want the z component of the trigger抯 location\\n\t\t\t\t\t\tset targetZCoord to triggerActor.GetPos Z\t\t;;// you want the z component of the target抯 location\\n\\n\t\t\t\t\t\tset targetZCoord to targetZCoord + 64 \t\t\t;; Aim for the middle of the target (fudge)\\n\\n\t\t\t\t\t\tset deltaZ to (triggerZCoord - targetZCoord)\\n\t\t\t\t\t\tset RatioDist to (deltaZ / distance)\\n\t\t\t\t\t\tset AimAngleX to Sin RatioDist 1 \t\t\t\t\t;// the extra 1 is what tells the script to use arcsine and not sine\\n\\n\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\tSet AimAngleX to (0 - AimAngleX)\\n\t\t\t\t\t\tendif\\n\t\t\t\t\t\tSetAngle X AimAngleX\\n\\n\t\t\t\t\t\tsetangle z zAngle\\n\\n\t\t\t\t\t\tFireWeapon ZLWeapTeslaSniperRifleChainEffect01\\n\t\t\t\t\t\tset DoOnce to 1\\n\t\t\t\t\tendIf\\n\t\t\t\tendIf\\n\t\t\tendif\\n\t\tendIf\\n\tendif\\n\\n\tSet Timer to (Timer - GetSecondsPassed)\\nEnd",
+    "stage": 1
+  },
+  {
+    "key": "ZLTeslaSniperRifleUnique1ChainEffectVTwo01Script_06001CE1#SCPT:SCTX#92c3ab233f11ef044626b876aba702de",
+    "original": "scn ZLTeslaSniperRifleUnique1ChainEffectVTwo01Script\\n\\nShort DoOnce\\nShort DeleteMe\\nShort Init\\nFloat Timer\\n\\nfloat zAngle\\nfloat thisX\\nfloat thisY\\nfloat targetX\\nfloat targetY\\nfloat deltaX\\nfloat deltaY\\nfloat tanZAngle\\n\\n\\nfloat distance\\nfloat triggerZCoord\\nfloat targetZCoord\\nfloat deltaZ\\nfloat AimAngleX\\nfloat RatioDist\\n\\n;// vars for vertibird\\nref TriggerObject\\nref triggerActor\\n\\n\\n\\nBegin OnLoad\\n\tif Init == 0\\n\t\tSet Timer to (0.5 + getRandomPercent * 0.003)\\n\t\tSet DeleteMe to 0\\n\t\tSet DoOnce to 0\\n\t\tSet Init to 1\\n\tendif\\nend\\n\\n;///////////////////////////////////////////////////////\\n;// VERTIBIRD EXPLOSION STUFF\\n;////////////////////////////////////////////////////////\\nBEGIN ONTRIGGEREnter\\n\\n\t;// store who triggered us\\n\tset TriggerObject to getActionRef\\n\t\\n\t;// if its in the vertibird list, blow it up!\\n\t;IF TriggerObject.isInList DLC03TeslaExplosionList\\n\t;\t\tTriggerObject.do 50000\\n\t;\t\tIncrementScriptedChallenge TTWDLC03ChallengeVertibird\\n\t;ENDIF\\n\t\\n\tif TriggerObject.isActor == 1\\n\t\tif TriggerObject.GetDead == 0\\n\t\t\tset triggerActor to getActionRef\\n\t\tendif\\n\tendif\\n\t\\nEND\\n\\n\\nBegin GameMode\\n\\n\tIf DeleteMe == 1\\n\t\tMarkForDelete\\n\tendif\\n\t\\n\tIf Timer <= 0\\n\t\tDisable\\n\t\tset DeleteMe to 1\\n\tendif\\n\\n\tif timer < 0.3\\n\t\tif DoOnce == 0\\n\t\t\tif triggerActor.isActor == 1\\n\t\t\t\tif triggerActor.GetDead == 0\\n\t\t\t\t\tset distance to GetDistance triggerActor\\n\t\t\t\t\tif distance > 100\\n\t\t\t\t\t\tSet thisX to GetPos X\\n\t\t\t\t\t\tSet thisY to GetPos Y\\n\t\t\t\t\t\tSet targetX to triggerActor.GetPos X\\n\t\t\t\t\t\tSet targetY to triggerActor.GetPos Y\\n\t\t\t\t\t\tSet deltaX to (targetX - thisX)\\n\t\t\t\t\t\tSet deltaY to (targetY - thisY)\\n\\n\t\t\t\t\t\tif deltaX < 0\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 270 - zAngle\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / -deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle - 90\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\telse\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (-deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle + 90\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 90 - zAngle\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\tendif\\n\t\\n\t\t\t\t\t\tset triggerZCoord to GetPos Z \t\t\t\t\t\t;;// you want the z component of the trigger’s location\\n\t\t\t\t\t\tset targetZCoord to triggerActor.GetPos Z\t\t;;// you want the z component of the target’s location\\n\\n\t\t\t\t\t\tset targetZCoord to targetZCoord + 64 \t\t\t;; Aim for the middle of the target (fudge)\\n\\n\t\t\t\t\t\tset deltaZ to (triggerZCoord - targetZCoord)\\n\t\t\t\t\t\tset RatioDist to (deltaZ / distance)\\n\t\t\t\t\t\tset AimAngleX to Sin RatioDist 1 \t\t\t\t\t;// the extra 1 is what tells the script to use arcsine and not sine\\n\\n\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\tSet AimAngleX to (0 - AimAngleX)\\n\t\t\t\t\t\tendif\\n\t\t\t\t\t\tSetAngle X AimAngleX\\n\\n\t\t\t\t\t\tsetangle z zAngle\\n\\n\t\t\t\t\t\tFireWeapon ZLWeapTeslaSniperRifleUnique1ChainEffect01\\n\t\t\t\t\t\tset DoOnce to 1\\n\t\t\t\t\tendIf\\n\t\t\t\tendIf\\n\t\t\tendif\\n\t\tendIf\\n\tendif\\n\\n\tSet Timer to (Timer - GetSecondsPassed)\\nEnd",
+    "translation": "scn ZLTeslaSniperRifleUnique1ChainEffectVTwo01Script\\n\\nShort DoOnce\\nShort DeleteMe\\nShort Init\\nFloat Timer\\n\\nfloat zAngle\\nfloat thisX\\nfloat thisY\\nfloat targetX\\nfloat targetY\\nfloat deltaX\\nfloat deltaY\\nfloat tanZAngle\\n\\n\\nfloat distance\\nfloat triggerZCoord\\nfloat targetZCoord\\nfloat deltaZ\\nfloat AimAngleX\\nfloat RatioDist\\n\\n;// vars for vertibird\\nref TriggerObject\\nref triggerActor\\n\\n\\n\\nBegin OnLoad\\n\tif Init == 0\\n\t\tSet Timer to (0.5 + getRandomPercent * 0.003)\\n\t\tSet DeleteMe to 0\\n\t\tSet DoOnce to 0\\n\t\tSet Init to 1\\n\tendif\\nend\\n\\n;///////////////////////////////////////////////////////\\n;// VERTIBIRD EXPLOSION STUFF\\n;////////////////////////////////////////////////////////\\nBEGIN ONTRIGGEREnter\\n\\n\t;// store who triggered us\\n\tset TriggerObject to getActionRef\\n\t\\n\t;// if its in the vertibird list, blow it up!\\n\t;IF TriggerObject.isInList DLC03TeslaExplosionList\\n\t;\t\tTriggerObject.do 50000\\n\t;\t\tIncrementScriptedChallenge TTWDLC03ChallengeVertibird\\n\t;ENDIF\\n\t\\n\tif TriggerObject.isActor == 1\\n\t\tif TriggerObject.GetDead == 0\\n\t\t\tset triggerActor to getActionRef\\n\t\tendif\\n\tendif\\n\t\\nEND\\n\\n\\nBegin GameMode\\n\\n\tIf DeleteMe == 1\\n\t\tMarkForDelete\\n\tendif\\n\t\\n\tIf Timer <= 0\\n\t\tDisable\\n\t\tset DeleteMe to 1\\n\tendif\\n\\n\tif timer < 0.3\\n\t\tif DoOnce == 0\\n\t\t\tif triggerActor.isActor == 1\\n\t\t\t\tif triggerActor.GetDead == 0\\n\t\t\t\t\tset distance to GetDistance triggerActor\\n\t\t\t\t\tif distance > 100\\n\t\t\t\t\t\tSet thisX to GetPos X\\n\t\t\t\t\t\tSet thisY to GetPos Y\\n\t\t\t\t\t\tSet targetX to triggerActor.GetPos X\\n\t\t\t\t\t\tSet targetY to triggerActor.GetPos Y\\n\t\t\t\t\t\tSet deltaX to (targetX - thisX)\\n\t\t\t\t\t\tSet deltaY to (targetY - thisY)\\n\\n\t\t\t\t\t\tif deltaX < 0\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 270 - zAngle\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / -deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle - 90\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\telse\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (-deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle + 90\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 90 - zAngle\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\tendif\\n\t\\n\t\t\t\t\t\tset triggerZCoord to GetPos Z \t\t\t\t\t\t;;// you want the z component of the trigger抯 location\\n\t\t\t\t\t\tset targetZCoord to triggerActor.GetPos Z\t\t;;// you want the z component of the target抯 location\\n\\n\t\t\t\t\t\tset targetZCoord to targetZCoord + 64 \t\t\t;; Aim for the middle of the target (fudge)\\n\\n\t\t\t\t\t\tset deltaZ to (triggerZCoord - targetZCoord)\\n\t\t\t\t\t\tset RatioDist to (deltaZ / distance)\\n\t\t\t\t\t\tset AimAngleX to Sin RatioDist 1 \t\t\t\t\t;// the extra 1 is what tells the script to use arcsine and not sine\\n\\n\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\tSet AimAngleX to (0 - AimAngleX)\\n\t\t\t\t\t\tendif\\n\t\t\t\t\t\tSetAngle X AimAngleX\\n\\n\t\t\t\t\t\tsetangle z zAngle\\n\\n\t\t\t\t\t\tFireWeapon ZLWeapTeslaSniperRifleUnique1ChainEffect01\\n\t\t\t\t\t\tset DoOnce to 1\\n\t\t\t\t\tendIf\\n\t\t\t\tendIf\\n\t\t\tendif\\n\t\tendIf\\n\tendif\\n\\n\tSet Timer to (Timer - GetSecondsPassed)\\nEnd",
+    "stage": 1
+  },
+  {
+    "key": "ZLTeslaSniperRifleUnique1ChainEffectVTwo02Script_06001CE2#SCPT:SCTX#595d4439ed0520b133ad64a57c6c4983",
+    "original": "scn ZLTeslaSniperRifleUnique1ChainEffectVTwo02Script\\n\\nShort DoOnce\\nShort DeleteMe\\nShort Init\\nFloat Timer\\n\\nfloat zAngle\\nfloat thisX\\nfloat thisY\\nfloat targetX\\nfloat targetY\\nfloat deltaX\\nfloat deltaY\\nfloat tanZAngle\\n\\n\\nfloat distance\\nfloat triggerZCoord\\nfloat targetZCoord\\nfloat deltaZ\\nfloat AimAngleX\\nfloat RatioDist\\n\\n;// vars for vertibird\\nref TriggerObject\\nref triggerActor\\n\\n\\n\\nBegin OnLoad\\n\tif Init == 0\\n\t\tSet Timer to (0.5 + getRandomPercent * 0.003)\\n\t\tSet DeleteMe to 0\\n\t\tSet DoOnce to 0\\n\t\tSet Init to 1\\n\tendif\\nend\\n\\n;///////////////////////////////////////////////////////\\n;// VERTIBIRD EXPLOSION STUFF\\n;////////////////////////////////////////////////////////\\nBEGIN ONTRIGGEREnter\\n\\n\t;// store who triggered us\\n\tset TriggerObject to getActionRef\\n\t\\n\t;// if its in the vertibird list, blow it up!\\n\t;IF TriggerObject.isInList DLC03TeslaExplosionList\\n\t;\t\tTriggerObject.do 50000\\n\t;\t\tIncrementScriptedChallenge TTWDLC03ChallengeVertibird\\n\t;ENDIF\\n\t\\n\tif TriggerObject.isActor == 1\\n\t\tif TriggerObject.GetDead == 0\\n\t\t\tset triggerActor to getActionRef\\n\t\tendif\\n\tendif\\n\t\\nEND\\n\\n\\nBegin GameMode\\n\\n\tIf DeleteMe == 1\\n\t\tMarkForDelete\\n\tendif\\n\t\\n\tIf Timer <= 0\\n\t\tDisable\\n\t\tset DeleteMe to 1\\n\tendif\\n\\n\tif timer < 0.3\\n\t\tif DoOnce == 0\\n\t\t\tif triggerActor.isActor == 1\\n\t\t\t\tif triggerActor.GetDead == 0\\n\t\t\t\t\tset distance to GetDistance triggerActor\\n\t\t\t\t\tif distance > 100\\n\t\t\t\t\t\tSet thisX to GetPos X\\n\t\t\t\t\t\tSet thisY to GetPos Y\\n\t\t\t\t\t\tSet targetX to triggerActor.GetPos X\\n\t\t\t\t\t\tSet targetY to triggerActor.GetPos Y\\n\t\t\t\t\t\tSet deltaX to (targetX - thisX)\\n\t\t\t\t\t\tSet deltaY to (targetY - thisY)\\n\\n\t\t\t\t\t\tif deltaX < 0\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 270 - zAngle\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / -deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle - 90\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\telse\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (-deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle + 90\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 90 - zAngle\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\tendif\\n\t\\n\t\t\t\t\t\tset triggerZCoord to GetPos Z \t\t\t\t\t\t;;// you want the z component of the trigger’s location\\n\t\t\t\t\t\tset targetZCoord to triggerActor.GetPos Z\t\t;;// you want the z component of the target’s location\\n\\n\t\t\t\t\t\tset targetZCoord to targetZCoord + 64 \t\t\t;; Aim for the middle of the target (fudge)\\n\\n\t\t\t\t\t\tset deltaZ to (triggerZCoord - targetZCoord)\\n\t\t\t\t\t\tset RatioDist to (deltaZ / distance)\\n\t\t\t\t\t\tset AimAngleX to Sin RatioDist 1 \t\t\t\t\t;// the extra 1 is what tells the script to use arcsine and not sine\\n\\n\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\tSet AimAngleX to (0 - AimAngleX)\\n\t\t\t\t\t\tendif\\n\t\t\t\t\t\tSetAngle X AimAngleX\\n\\n\t\t\t\t\t\tsetangle z zAngle\\n\\n\t\t\t\t\t\tFireWeapon ZLWeapTeslaSniperRifleUnique1ChainEffect02\\n\t\t\t\t\t\tset DoOnce to 1\\n\t\t\t\t\tendIf\\n\t\t\t\tendIf\\n\t\t\tendif\\n\t\tendIf\\n\tendif\\n\\n\tSet Timer to (Timer - GetSecondsPassed)\\nEnd",
+    "translation": "scn ZLTeslaSniperRifleUnique1ChainEffectVTwo02Script\\n\\nShort DoOnce\\nShort DeleteMe\\nShort Init\\nFloat Timer\\n\\nfloat zAngle\\nfloat thisX\\nfloat thisY\\nfloat targetX\\nfloat targetY\\nfloat deltaX\\nfloat deltaY\\nfloat tanZAngle\\n\\n\\nfloat distance\\nfloat triggerZCoord\\nfloat targetZCoord\\nfloat deltaZ\\nfloat AimAngleX\\nfloat RatioDist\\n\\n;// vars for vertibird\\nref TriggerObject\\nref triggerActor\\n\\n\\n\\nBegin OnLoad\\n\tif Init == 0\\n\t\tSet Timer to (0.5 + getRandomPercent * 0.003)\\n\t\tSet DeleteMe to 0\\n\t\tSet DoOnce to 0\\n\t\tSet Init to 1\\n\tendif\\nend\\n\\n;///////////////////////////////////////////////////////\\n;// VERTIBIRD EXPLOSION STUFF\\n;////////////////////////////////////////////////////////\\nBEGIN ONTRIGGEREnter\\n\\n\t;// store who triggered us\\n\tset TriggerObject to getActionRef\\n\t\\n\t;// if its in the vertibird list, blow it up!\\n\t;IF TriggerObject.isInList DLC03TeslaExplosionList\\n\t;\t\tTriggerObject.do 50000\\n\t;\t\tIncrementScriptedChallenge TTWDLC03ChallengeVertibird\\n\t;ENDIF\\n\t\\n\tif TriggerObject.isActor == 1\\n\t\tif TriggerObject.GetDead == 0\\n\t\t\tset triggerActor to getActionRef\\n\t\tendif\\n\tendif\\n\t\\nEND\\n\\n\\nBegin GameMode\\n\\n\tIf DeleteMe == 1\\n\t\tMarkForDelete\\n\tendif\\n\t\\n\tIf Timer <= 0\\n\t\tDisable\\n\t\tset DeleteMe to 1\\n\tendif\\n\\n\tif timer < 0.3\\n\t\tif DoOnce == 0\\n\t\t\tif triggerActor.isActor == 1\\n\t\t\t\tif triggerActor.GetDead == 0\\n\t\t\t\t\tset distance to GetDistance triggerActor\\n\t\t\t\t\tif distance > 100\\n\t\t\t\t\t\tSet thisX to GetPos X\\n\t\t\t\t\t\tSet thisY to GetPos Y\\n\t\t\t\t\t\tSet targetX to triggerActor.GetPos X\\n\t\t\t\t\t\tSet targetY to triggerActor.GetPos Y\\n\t\t\t\t\t\tSet deltaX to (targetX - thisX)\\n\t\t\t\t\t\tSet deltaY to (targetY - thisY)\\n\\n\t\t\t\t\t\tif deltaX < 0\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 270 - zAngle\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / -deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle - 90\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\telse\\n\t\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (-deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to zAngle + 90\\n\t\t\t\t\t\t\telse\\n\t\t\t\t\t\t\t\tSet tanZAngle  to (deltaY / deltaX)\\n\t\t\t\t\t\t\t\tSet zAngle to Tan tanZAngle 1\\n\t\t\t\t\t\t\t\tSet zAngle to 90 - zAngle\\n\t\t\t\t\t\t\tendif\\n\t\t\t\t\t\tendif\\n\t\\n\t\t\t\t\t\tset triggerZCoord to GetPos Z \t\t\t\t\t\t;;// you want the z component of the trigger抯 location\\n\t\t\t\t\t\tset targetZCoord to triggerActor.GetPos Z\t\t;;// you want the z component of the target抯 location\\n\\n\t\t\t\t\t\tset targetZCoord to targetZCoord + 64 \t\t\t;; Aim for the middle of the target (fudge)\\n\\n\t\t\t\t\t\tset deltaZ to (triggerZCoord - targetZCoord)\\n\t\t\t\t\t\tset RatioDist to (deltaZ / distance)\\n\t\t\t\t\t\tset AimAngleX to Sin RatioDist 1 \t\t\t\t\t;// the extra 1 is what tells the script to use arcsine and not sine\\n\\n\t\t\t\t\t\tif deltaY < 0\\n\t\t\t\t\t\t\tSet AimAngleX to (0 - AimAngleX)\\n\t\t\t\t\t\tendif\\n\t\t\t\t\t\tSetAngle X AimAngleX\\n\\n\t\t\t\t\t\tsetangle z zAngle\\n\\n\t\t\t\t\t\tFireWeapon ZLWeapTeslaSniperRifleUnique1ChainEffect02\\n\t\t\t\t\t\tset DoOnce to 1\\n\t\t\t\t\tendIf\\n\t\t\t\tendIf\\n\t\t\tendif\\n\t\tendIf\\n\tendif\\n\\n\tSet Timer to (Timer - GetSecondsPassed)\\nEnd",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#6a2a824b428bc6d8044e3037c720ae35",
+    "original": "ACR Mod Kit - 10.5\" Barrel (5.56mm)",
+    "translation": "ACR 模组套件 - 10.5英寸枪管(5.56mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#337f4e2f3e05088b6b1f25cf925b07ac",
+    "original": "ACR Mod Kit - 10.5\" Barrel (5.45x39mm)",
+    "translation": "ACR模组套件 - 10.5英寸枪管(5.45x39mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#3e5b6f2face92c161a622d4b08319646",
+    "original": "ACR Mod Kit - 10.5\" Barrel (.300 BLK)",
+    "translation": "ACR模组套件 - 10.5英寸枪管(.300 BLK)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#115e6133a48d3792132a315266603646",
+    "original": "ACR Mod Kit - 10.5\" Barrel (7.62x39mm)",
+    "translation": "ACR模组套件 - 10.5英寸枪管(7.62x39mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#337beef16bcfdc6fd5fbd3dd75b10ca0",
+    "original": "ACR Mod Kit - 14.5\" Barrel (5.45x39mm)",
+    "translation": "ACR模组套件 - 14.5英寸枪管(5.45x39mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#6ff40a99177ce9c4880e4e9621340593",
+    "original": "ACR Mod Kit - 14.5\" Barrel (.300 BLK)",
+    "translation": "ACR模组套件 - 14.5英寸枪管(.300 BLK)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#72e216e28eecd5cf38b88d5c983556cb",
+    "original": "ACR Mod Kit - 14.5\" Barrel (7.62x39mm)",
+    "translation": "ACR模组套件 - 14.5英寸枪管(7.62x39mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#b219c37ce7bef03a86b6bbb9cd4f58bb",
+    "original": "ACR Mod Kit - 16\" Barrel (12.7x42mm)",
+    "translation": "ACR模组套件 - 16英寸枪管(12.7x42mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#d877790de28e2bbe9f64e85ce8dcb76f",
+    "original": "ACR Mod Kit - 16\" Barrel (12.7x55mm)",
+    "translation": "ACR模组套件 - 16英寸枪管(12.7x55mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#8ac4b2401a41efde936af987277606f6",
+    "original": "ACR Mod Kit - 16\" Barrel (.458 SOCOM)",
+    "translation": "ACR模组套件 - 16英寸枪管(.458 SOCOM)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#784c68f5b8fe4584ebb6df97939a1968",
+    "original": "ACR Mod Kit - 18\" Barrel (7.62x51mm)",
+    "translation": "ACR模组套件 - 18英寸枪管(7.62x51mm)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#c3f1d86ddacb2e54b96b86fe6821cf1a",
+    "original": "ACR Mod Kit - 18\" Barrel (.30-06)",
+    "translation": "ACR模组套件 - 18英寸枪管(.30-06)",
+    "stage": 1
+  },
+  {
+    "key": "ZLCaliberScript_0600284D#SCPT:SCDA#83aea845c68cb9158424ac2958ac1453",
+    "original": "ACR Mod Kit - 18\" Barrel (7.62x54R)",
+    "translation": "ACR模组套件 - 18英寸枪管(7.62x54R)",
+    "stage": 1
+  },
+  {
+    "key": "ZLStealthLaserPistolLaserDisintegrationFXSpell_0600233E#SPEL:FULL#c759f6c40766fc45c756efc07f3dd9a2",
+    "original": "Disintegration",
+    "translation": "分解",
+    "stage": 1
+  },
+  {
+    "key": "ZLAshPilePurple_06002360#ACTI:FULL#8e22e8d26104f7d41261474169b2f480",
+    "original": "Ash Pile",
+    "translation": "灰烬堆",
+    "stage": 1
+  },
+  {
+    "key": "ZLModStealthLaserPistolThermalDispersionKit_06002348#IMOD:FULL#b3170280da2a7bacd64d280857465dc9",
+    "original": "Stealth Laser Pistol Thermal Dispersion Kit",
+    "translation": "隐形激光手枪热分散套件",
+    "stage": 1
+  },
+  {
+    "key": "ZLModStealthLaserPistolThermalDispersionKit_06002348#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ZLModOKP7ReflexSight_0600B9E3#IMOD:DESC#f275a3ef647a2907a245ef37fd2751b2",
+    "original": "Decreases spread (-33.33%), adds a reflex sight with mount.",
+    "translation": "降低子弹散布(-33.33%)，在底座上添加一个反射式瞄具。",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapStealthLaserPistol_0600235D#WEAP:FULL#f3289732e2249c32844ca205d4debd4a",
+    "original": "Stealth Laser Pistol",
+    "translation": "隐形激光手枪",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapRailCannonUnique1_0600235E#WEAP:FULL#e9d43986e418d2086f2614192f45362b",
+    "original": "EC-25 \"Eigenweapon\"",
+    "translation": "[EC-25\"本征武器\"]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapStealthLaserPistolUnique1_06002971#WEAP:FULL#c948fa0d67c4254fcfd6730f6dbe0b33",
+    "original": "Cannibal's Spitter",
+    "translation": "[汉尼拔喷吐]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR145Unique1_06002F3D#WEAP:FULL#30293d3b8f94d63cfb0b6bd5091d96f3",
+    "original": "SakurACR",
+    "translation": "[樱花ACR]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR105Unique2_06002F3E#WEAP:FULL#1a38da21e781e9436bc5ac76efc4e4be",
+    "original": "Mojave Commando",
+    "translation": "[莫哈维突击队]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR16Unique3_06002F3F#WEAP:FULL#c4bac502a7d0612b3cf46abb4a046ec5",
+    "original": "Big Bear",
+    "translation": "[大熊]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapACR18Unique4_06002F40#WEAP:FULL#663289eef7a07601ef810c4ecafa0da4",
+    "original": "Anchorage Avenger",
+    "translation": "[安克雷奇复仇者]",
+    "stage": 1
+  },
+  {
+    "key": "ZLWeapStealthLaserPistolUnique2_06002F89#WEAP:FULL#bac88507443f8dd5c68cf48863993297",
+    "original": "Chief's Sidekick",
+    "translation": "[首领的死党]",
+    "stage": 1
+  },
+  {
+    "key": "ZLMercenaryFTemplate_06002356#NPC_:FULL#28b82b3c71086bd13e64cc968ee561e7",
+    "original": "Mercenary",
+    "translation": "雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "ZLMercenaryFACR105_0600D14D#NPC_:FULL#28b82b3c71086bd13e64cc968ee561e7",
+    "original": "Mercenary",
+    "translation": "雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "ZLMercenaryMACR105_0600D14E#NPC_:FULL#28b82b3c71086bd13e64cc968ee561e7",
+    "original": "Mercenary",
+    "translation": "雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "ZLMercenaryFACR18_0600D14F#NPC_:FULL#d7e709b17515ec33931891be52d4d522",
+    "original": "Mercenary Sharpshooter",
+    "translation": "雇佣兵神枪手",
+    "stage": 1
+  },
+  {
+    "key": "ZLMercenaryFACR105Boss_0600D150#NPC_:FULL#80f9478eeafa81ca961bff5c05009c57",
+    "original": "Mercenary Commando",
+    "translation": "雇佣兵突击队",
+    "stage": 1
+  },
+  {
+    "key": "ZLStealthLaserPistolProjectile_06002358#PROJ:FULL#76faab4aae8b7f09fbd890a758f11401",
+    "original": "Laser Beam",
+    "translation": "激光束",
+    "stage": 1
+  },
+  {
+    "key": "CannibalJohnsonCave_0010108B#CELL:FULL#c21baa9791e26025d11b8564460c25e9",
+    "original": "Cannibal Johnson's Cave",
+    "translation": "食人者约翰逊的洞穴",
+    "stage": 1
+  },
+  {
+    "key": "FreesideSilverRush_0010E029#CELL:FULL#9334cdd226c879f552cb3c8a3a9b0972",
+    "original": "Silver Rush",
+    "translation": "银色冲击",
+    "stage": 1
+  },
+  {
+    "key": "NellisWorkshop_00105894#CELL:FULL#d46204e913b9db87c42fe322ef900f98",
+    "original": "Nellis Workshop",
+    "translation": "内利斯工房",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLVillageDalaINT_050086CB#CELL:FULL#ac027c857264b9a461dcd72cbbec4e9f",
+    "original": "#104",
+    "translation": "104号寓所",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLHologramINT_05008879#CELL:FULL#73116023110e7859ace903d4323732e5",
+    "original": "Z-38 Lightwave Dynamics Research",
+    "translation": "Z-38光波动力学研究所",
+    "stage": 1
+  },
+  {
+    "key": "SLSulfurCave01INT_00158194#CELL:FULL#e5959bf52f735df443f7e91ebf8b1989",
+    "original": "Bloodborne Cave",
+    "translation": "血源洞穴",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03BigMT_05000E81#WRLD:FULL#2b89dd5c09d8facb2c3e4f70e37b3174",
+    "original": "Big MT",
+    "translation": "大山脉",
+    "stage": 1
+  },
+  {
+    "key": "ZLMessageACREquipError_06001B8F#MESG:DESC#f812e5f2b3f8df3af148a39552d5fe3f",
+    "original": "You do not have a compatible ACR equipped.",
+    "translation": "你没有装备兼容的ACR。",
+    "stage": 1
   }
 ]
