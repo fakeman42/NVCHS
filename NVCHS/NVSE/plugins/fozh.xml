@@ -160,23 +160,21 @@
 		<!-- Claim Series -->
 		<json path="Data/NVCHSDict/json/Mods/ClaimtheMojave.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/ClaimtheCapital.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/ClaimtheMojave_chs.txt" src="Data/NVCHSDict/Mods/ClaimtheMojave_en.txt" type="2" priority="5"/>
+		
 		<json path="Data/NVCHSDict/json/Mods/Mojave_NPCs.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/D.C_NPCs.json" priority="5" />
 		
-		<!-- AltStart -->
+		<!-- Alternate Start -->
 		<json path="Data/NVCHSDict/json/Mods/AltStart.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Alternate_Start_-_Open_World_DC_Patch.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/AltStart_Dial.json" priority="4" />
 		<file target="Data/NVCHSDict/Mods/AltStart_chs.txt" src="Data/NVCHSDict/Mods/AltStart_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/Alternate_Start_-_Open_World_DC_Patch_chs.txt" src="Data/NVCHSDict/Mods/Alternate_Start_-_Open_World_DC_Patch_en.txt" type="2" priority="5"/>
 		
-		<!-- Open World DC -->
+		<!-- True Open World DC -->
 		<json path="Data/NVCHSDict/json/Mods/OpenWorldDC.json" priority="5" />
-
-		<!-- Claim the Mojave (and the Capital) -->
-		<json path="Data/NVCHSDict/json/Mods/ClaimtheMojave.json" priority="5" />
-		<json path="Data/NVCHSDict/json/Mods/ClaimtheCapital.json" priority="5" />
-		<file target="Data/NVCHSDict/Mods/ClaimtheMojave_chs.txt" src="Data/NVCHSDict/Mods/ClaimtheMojave_en.txt" type="2" priority="5"/>
+		
 		
 		<!-- Unfriendlier Persuasion -->
 		<json path="Data/NVCHSDict/json/Mods/UnfriendlierPersuasion.json" priority="5" />
@@ -207,6 +205,14 @@
 		<json path="Data/NVCHSDict/json/Mods/mil_Add-On.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/mil-Shop.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/ZL_Armaments_Remastered.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/10mmpistolReduxTTW.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/123456_Weapons.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Cowpack.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Forgotten_Millenia.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/HitExplosives.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/PhotonLaserWeapons.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Tactapack.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/ThrowableExplosiveSpears.json" priority="5" />
 		
 		<!-- Classic Goris -->
 		<json path="Data/NVCHSDict/json/Mods/Classic_Goris.json" priority="5" />
@@ -250,6 +256,74 @@
 		<file target="Data/NVCHSDict/Mods/EnhancedMovement_ch.txt" src="Data/NVCHSDict/Mods/EnhancedMovement_en.txt" type="2" priority="5"/>
 		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="5" />
+		
+		<json path="Data/NVCHSDict/json/Mods/AmaccurzerO's_Animated_Wastelands.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/AndJusticeForAll.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/AnotherInteriorMod.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/AWOPDeadMoney.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/AWorldOfPainFO3.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/B42Inspect.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/B42Retrievables.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/BakaSkillBookScanner.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Better_Brotherhood.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/B42Inspect.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Cyberware.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Cyberware_OWB.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/DelayDLCRedux.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/DMHO.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/DynamicWeaponSpread.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/emalphi_ar10.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Enclave_Auxiliary_TTW.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Fallout4PowerArmorsTTW.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/FEV.json" priority="5" />
+		
+		<json path="Data/NVCHSDict/json/Mods/FOVSlider.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Friends_With_Benefits_Perk_Pack.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Garden_of_Ethan.json" priority="5" />
+		
+		<json path="Data/NVCHSDict/json/Mods/ImmersiveRecoil.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Item_Assistant.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/ManifestDestiny.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/MeleeCleave.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/MetroCars.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/MWRWPMeleePack.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/MZX.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/NERO.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/NVCollectiblesMerged.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/NVInteriors_ComboEdition.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/NVInteriors_Core.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/P6UltimateHome.json" priority="5" />
+		
+		<json path="Data/NVCHSDict/json/Mods/Quickthrow.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/QuickthrowTweaks.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Reload_Reloaded.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/S6S_Perks.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Scum's_Cool_Load_Screens.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/SMAC.csv.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/STAR_TTW_2.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/STG44_(556_version).json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/SUPER_Lively_Goodsprings.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/SUPER_Lively_New_Vegas.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/Supplemental_Ammo_Crafting.json" priority="5" />
+		
+		<json path="Data/NVCHSDict/json/Mods/Tale_of_Bi_Wastelands.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/TGMIO.csv.json" priority="5" />
+		
+		<json path="Data/NVCHSDict/json/Mods/Titans_of_The_New_West.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/TTWCaravanInDCFixed.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/TTWCollectiblesMerged.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/TTW-TrainStationAccessViaInventory.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/WillowMiscChanges.json" priority="5" />
+		<json path="Data/NVCHSDict/json/Mods/zMCArmorCombatBOS.json" priority="5" />
+
+		<file target="Data/NVCHSDict/Mods/B42Inspect_ch.txt" src="Data/NVCHSDict/Mods/B42Inspect_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/Cyberware_ch.txt" src="Data/NVCHSDict/Mods/Cyberware_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/ESP-ESM_Explorer_ch.txt" src="Data/NVCHSDict/Mods/ESP-ESM_Explorer_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/P6UltimateHome_ch.txt" src="Data/NVCHSDict/Mods/P6UltimateHome_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/Pip-BoyCasino_ch.txt" src="Data/NVCHSDict/Mods/Pip-BoyCasino_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/S6S_Perks_ch.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/STAR_TTW_2_ch.txt" src="Data/NVCHSDict/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
+		
 		
 	</replacetext>
 
