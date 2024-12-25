@@ -1,0 +1,1028 @@
+[
+  {
+    "key": "FNVIntWLETVSwitch_0300EECC#ACTI:FULL#ebfbc4b3db10d6117b72bdef76765808",
+    "original": "Automatic Door Override",
+    "translation": "自动门超驰",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLETVSwitch_0300EECC#ACTI:XATO#df7d50b2af49d6748b62f35cd18c05bd",
+    "original": "Activate Door",
+    "translation": "激活门",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEControlPanel01_03017583#ACTI:FULL#7ed9877edc1b9d5f4d72d60a539e8fc5",
+    "original": "Bank Vault Control Panel",
+    "translation": "银行金库控制面板",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEControlPanel01_03017583#ACTI:XATO#4952f34872c402d668d98207c999db1f",
+    "original": "Open Vault Door",
+    "translation": "打开避难所大门",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEControlPanel02_0303E8FD#ACTI:FULL#7a0adaf5017f12a5b1886bcfcb7190ce",
+    "original": "Bank Vault Mainframe",
+    "translation": "银行保险库主机",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEControlPanel02_0303E8FD#ACTI:XATO#f6849ec84cb0eac611ef392e818b4d41",
+    "original": "Bank Vault, Mainframe, No Power",
+    "translation": "银行金库主机, 无电源",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEHiddenBed01_03051A68#ACTI:FULL#d0f74abbfc9fae3b1dff0113602260a6",
+    "original": "Bed",
+    "translation": "床",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEHiddenBed01_03051A68#ACTI:XATO#775abafb486eb7c57320b5f69cbccaa1",
+    "original": "Move Bed",
+    "translation": "移动床",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDoorControlPanel_030F5A1A#ACTI:FULL#5b370aeb689ed43d957fc0063a2b8a6c",
+    "original": "Vault Door Control Pad",
+    "translation": "避难所大门控制板",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDoorControlPanel01_030F7136#ACTI:FULL#5b370aeb689ed43d957fc0063a2b8a6c",
+    "original": "Vault Door Control Pad",
+    "translation": "避难所大门控制板",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDoorControlPanel01_030F7136#ACTI:XATO#3ba5c6454a9d96d39a6e15cf2f31cd75",
+    "original": "Vault Door Control Pad, Locked",
+    "translation": "避难所大门控制台，锁定",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksTransPC_030151F0#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksTransPC_030151F0#TERM:DESC#b1c85e69522ce22138eee367afcdc623",
+    "original": "Logging in...",
+    "translation": "正在登录...",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksTransPC_030151F0#TERM:ITXT#8c2035af7326e17f9d611295df041d2d",
+    "original": "Jack Brian's bill",
+    "translation": "杰克·布莱恩的账单",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksPCNote001_030151F1#TERM:DESC#19e198ae5a44077ee09d2b9ffeb177d3",
+    "original": "Mr. Brian's\\n\\nYou car will be done this Tuesday around noon so come on down just call first. Your warranty did cover most of the bill, but they do have a deductible of $250.00. \\n\\nThanks for your business\\n\\nHank Hill\\n\\nHanks Transmissions, we'll get you going again.",
+    "translation": "布莱恩先生，\\n\\n您的车将于本周二中午左右修好，请提前打电话确认后前来取车。您的保修涵盖了大部分费用，但仍有250美元的免赔额。\\n\\n感谢您的惠顾。\\n\\n汉克·希尔\\n\\n汉克斯变速器维修，让您的爱车再次驰骋。",
+    "stage": 1
+  },
+  {
+    "key": "NVIntPappyTruckBox_0300487F#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
+    "original": "Footlocker",
+    "translation": "脚柜",
+    "stage": 1
+  },
+  {
+    "key": "NVIntDeadPowGangStashSafe_0300610C#CONT:FULL#5fc11af8eeb63ae72c7cfa803ba363e4",
+    "original": "Safe",
+    "translation": "保险柜",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksTransVent_03014E73#CONT:FULL#84967c1ef4b3b1f11181d3f65d16c05b",
+    "original": "Vent",
+    "translation": "通风孔",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksTransSafe_03014EF9#CONT:FULL#af44dbee66c77cfed956aa415b688c00",
+    "original": "Floor Safe",
+    "translation": "地嵌保险柜",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBCDeskWoodTop01Container_03040319#CONT:FULL#42581f37cc468cf3ab3265f062c7b09c",
+    "original": "Desk",
+    "translation": "书桌",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLELootSafeWallNCRBank01_03042C0A#CONT:FULL#5fc11af8eeb63ae72c7cfa803ba363e4",
+    "original": "Safe",
+    "translation": "保险柜",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoomerMerchantBox_03072ED3#CONT:FULL#610a17f26f7118fe8f3bf8978caf66ab",
+    "original": "Boomer Merchant Container",
+    "translation": "大炮族商人商品柜",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNVDuffleBagContainerEmpty_030D3725#CONT:FULL#a9acd25b26501a5bf027e58eab668314",
+    "original": "Postal Bag",
+    "translation": "邮政袋",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNVDuffleBagRandomLoot_030D3727#CONT:FULL#a9acd25b26501a5bf027e58eab668314",
+    "original": "Postal Bag",
+    "translation": "邮政袋",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLELootAmmoBoxEmpty_030F4019#CONT:FULL#d7e40073c79acae8864135504b8be8cd",
+    "original": "Ammunition Box",
+    "translation": "弹药箱",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLELootAmmoBoxEmpty01_030F45E1#CONT:FULL#d7e40073c79acae8864135504b8be8cd",
+    "original": "Ammunition Box",
+    "translation": "弹药箱",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLELootAmmoBoxEmpty02_030F48C7#CONT:FULL#d7e40073c79acae8864135504b8be8cd",
+    "original": "Ammunition Box",
+    "translation": "弹药箱",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLENVInvisibleDoorZ_030017D8#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHankTransDoor_0301369D#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperAAFGun2_0300B53A#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperCMGun2_0300B53F#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperHMGun2_0300B543#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderWastelanderAAM_0300BB0E#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperCMGun2MP_03011930#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperCMGun3MP_0301D017#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperLeaderHM01_0301D018#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperAAFGun3_0301DE6D#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooper2Dead_0301F57B#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRDoctor01_0301F85D#NPC_:FULL#d761b42c8455b10fe6a98d89e7c4264f",
+    "original": "NCR Medic",
+    "translation": "NCR医师",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRRanger02_03020C6D#NPC_:FULL#9e915ab7569d78124782247fe92415e2",
+    "original": "NCR Ranger",
+    "translation": "NCR游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperHMGun3_03021ECA#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoulderNCRTrooperLeaderHM2_03021ECE#NPC_:FULL#935bea5451a311ece608c0710b8e0292",
+    "original": "NCR Trooper",
+    "translation": "NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBCGreatKhanCF_0303ABEB#NPC_:FULL#7767aae7e7c978ed5dd7353437dc70d1",
+    "original": "Great Khan",
+    "translation": "大汗帮成员",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBCGreatKhanCM_0303ABED#NPC_:FULL#7767aae7e7c978ed5dd7353437dc70d1",
+    "original": "Great Khan",
+    "translation": "大汗帮成员",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBCGreatKhanAAMTemplate_0303ABEF#NPC_:FULL#7767aae7e7c978ed5dd7353437dc70d1",
+    "original": "Great Khan",
+    "translation": "大汗帮成员",
+    "stage": 1
+  },
+  {
+    "key": "FNVintWLEVFSFollowersDoctorHM_0305660E#NPC_:FULL#707f0596eb3d6ea587e28252a08df1a6",
+    "original": "Followers Doctor",
+    "translation": "天启追随者医生",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDEADWastelanderHM_030609EC#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDEADWastelanderAM_030609ED#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDEADWastelanderCFNV_030609EF#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEWastelanderAAFTEMPLATE_03061B21#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDEADWastelanderAF_03062696#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEFiend3MeleeAMNVDead_03062697#NPC_:FULL#71e37f9df16d6f5c8910aea6e92cf3c5",
+    "original": "Fiend",
+    "translation": "恶魔帮",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLENVMerchantFemaleB_03073783#NPC_:FULL#a2334c551de48992fbb5bf1829809187",
+    "original": "Rosie",
+    "translation": "萝丝",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomerNVMerchantMaleB_0309BC6A#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomerNVMerchantMaleC_0309BF54#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomerNVMerchantMaleD_0309C240#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer02FFarmer_0309F498#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer02M_0309F49A#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer04F_0309FA64#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomerCook3M_030A2015#NPC_:FULL#82cb81e8b689131438649bef11df567c",
+    "original": "Boomer Chef",
+    "translation": "大炮族厨师",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer03F_030A22FC#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer03M_030A22FE#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer04M_030A2300#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer06F_030A2302#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer06M_030A2304#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer15M_030A2307#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer13M_030A230A#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer16M_030A572C#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer15F_030A572E#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer11M_030A5730#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer09F_030A5A2A#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer09M_030A5A2C#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer08M_030A5A2E#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer05M_030A5A30#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer05F_030A5A32#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer07M_030A62EF#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer07F_030A62F1#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer10F_030A62F3#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVintWLEBoomer01MFarmer_030A65EB#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer00MFarmer_030A65ED#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer00FFarmer_030A65EF#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNvintWLEBoomer02F_030A65F1#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEBoomer03MFarmer_030A65F3#NPC_:FULL#904184e3f77accff54ea9cd3c940989c",
+    "original": "Boomer",
+    "translation": "大炮族",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHankTheGhoul_030157B0#CREA:FULL#9470f43c16c14ed44166a5496b431f46",
+    "original": "Hank",
+    "translation": "汉克",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDeadDogVicious_030609EE#CREA:FULL#525450b5faa36de2fab0955f6a69c34f",
+    "original": "Vicious Dog",
+    "translation": "恶狗",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLEDEADDeathClaw_03062975#CREA:FULL#d0aefa3a46d98fb3dd38ee2b57ce4542",
+    "original": "Deathclaw",
+    "translation": "死亡爪",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntWLECrMisterGutsyNellis_0307B2EC#CREA:FULL#b3f7e1c0ed96a5d77db149ce9408277a",
+    "original": "Mister Gutsy",
+    "translation": "狂风先生",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLCampSearchlightFeralTrooperGhoul_030EE5A4#CREA:FULL#856011c65cbddaff5cc406df28af14da",
+    "original": "Feral Trooper Ghoul",
+    "translation": "狂尸鬼士兵",
+    "stage": 1
+  },
+  {
+    "key": "NVIntVaultKey_03022093#KEYM:FULL#8ce6bbb1a55a48db1cb93428c42cfd67",
+    "original": "Boulder City HQ Vault Key",
+    "translation": "巨石城总部金库钥匙",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarNVSteel01_0304D134#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "NVINTFPGECell_03022C4A#CELL:FULL#e36fef0013d9e9aef4bb00c4cbdc8064",
+    "original": "NV Interiors Dump Cell",
+    "translation": "NV内部转储单元",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarNellis02_03081222#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLUSPS01_030D2F82#CELL:FULL#3a1f83f667ec221475107eab2a2ed05c",
+    "original": "NCR Post Office",
+    "translation": "NCR邮局",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisTower02_03001B1C#CELL:FULL#237ad01c01827e8fe63afd5bc318c808",
+    "original": "Nellis Control Tower Offices",
+    "translation": "内利斯控制塔办公室",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks03a_030B5874#CELL:FULL#e3aaf5396f766cd31b14b8346d3f8c56",
+    "original": "Bathroom",
+    "translation": "厕所",
+    "stage": 1
+  },
+  {
+    "key": "FNVintBCAcuppaJoe_03014532#CELL:FULL#7080abbe3882fa3cd9d818d06b02855a",
+    "original": "A Cuppa Joe",
+    "translation": "一杯乔",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY04_0305B8A6#CELL:FULL#93b25c7783df7b256a666ef07d4d191f",
+    "original": "Hunter's Outpost",
+    "translation": "亨特前哨站",
+    "stage": 1
+  },
+  {
+    "key": "FNVintSLACuppaJoe01_030C0E86#CELL:FULL#7080abbe3882fa3cd9d818d06b02855a",
+    "original": "A Cuppa Joe",
+    "translation": "一杯乔",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisGuardTower_0308023C#CELL:FULL#d38dcd3b04d4f04f8ab2407d6d95b261",
+    "original": "Rosie's House",
+    "translation": "萝丝的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBank01_030D46B6#CELL:FULL#b74125861812f28cdbbc9f05146bb666",
+    "original": "Serchlight Federal Savings",
+    "translation": "探照灯联邦储蓄",
+    "stage": 1
+  },
+  {
+    "key": "FNVintSLMedCenter01_030E1BFE#CELL:FULL#09115b45396a9167dd461aa2c6fc6ba1",
+    "original": "NCR Medical Clinic",
+    "translation": "NCR医疗诊所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisRobotRepair_03079DEC#CELL:FULL#609c373aec19ac50f7c872db63bad112",
+    "original": "Robot Workshop",
+    "translation": "机器人车间",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisTower03_030021F2#CELL:FULL#17af0ea2a9beb2134fff1b6d93292657",
+    "original": "Flight Control",
+    "translation": "飞行指挥塔",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse03_030B8B0A#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBCShop01_0302D907#CELL:FULL#7fdb776708ec20c830f46090ee6b18ba",
+    "original": "VFW Lounge",
+    "translation": "VFW休息室",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse04_030BAFF5#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNHouse04_03003945#CELL:FULL#4f535418c96eaa4e3286f63799f97ae8",
+    "original": "North Vegas Home",
+    "translation": "北维加斯住宅",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisTower06_03007761#CELL:FULL#7b039c04f18e39b4feab443e87279610",
+    "original": "Nellis AFB Security",
+    "translation": "内利斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks04a_030B582F#CELL:FULL#e3aaf5396f766cd31b14b8346d3f8c56",
+    "original": "Bathroom",
+    "translation": "厕所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarNellis01_03000ADD#CELL:FULL#12006adbef22e06047378b1de035be7d",
+    "original": "Munitions Storage",
+    "translation": "弹药军械库",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBSShack_0302FC6B#CELL:FULL#92661692742afdc97bd3bbe22af588e4",
+    "original": "Shack",
+    "translation": "小屋",
+    "stage": 1
+  },
+  {
+    "key": "NVIntHanksTransWestside_0300D81A#CELL:FULL#cf07ca66d6681915b8652e7ad1c13392",
+    "original": "Hank's Transmissions",
+    "translation": "汉克变电站",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks04_030B5BE6#CELL:FULL#bcde5f4a656533970bdcff0ce3c08b20",
+    "original": "NCR Women's Barracks",
+    "translation": "NCR女子营房",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBCBank3rdFloor_03014C28#CELL:FULL#bcff4dc3b0e8bb756301f06c2f15239d",
+    "original": "Boulder City HQ 3rd Floor",
+    "translation": "巨石城总部三楼",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntCottonwoodCoveShack01_03030270#CELL:FULL#c6101c5c0bafd49edaaccbf950beba6e",
+    "original": "Cottonwood Cove Recreation Center",
+    "translation": "棉白杨湾娱乐中心",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY07_0305D70C#CELL:FULL#f5a8bc2a246b5487e48b6b9b338443d6",
+    "original": "Super-Duper Mart Freezer Car",
+    "translation": "顶好超市冷冻车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNHouse02_0300192A#CELL:FULL#4f535418c96eaa4e3286f63799f97ae8",
+    "original": "North Vegas Home",
+    "translation": "北维加斯住宅",
+    "stage": 1
+  },
+  {
+    "key": "FNVintSLMedCenter02_030E373A#CELL:FULL#9577227c9ed663f0c32dd10848f3e62f",
+    "original": "NCR Medical Clinic 2nd Floor",
+    "translation": "NCR医疗诊所二楼",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse05_030BCFA4#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY05_0305C1AE#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisTower05_03004CD8#CELL:FULL#237ad01c01827e8fe63afd5bc318c808",
+    "original": "Nellis Control Tower Offices",
+    "translation": "内利斯控制塔办公室",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY03_03058EFA#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntCottonwoodCoveShop_0303D920#CELL:FULL#bbd35be260e190d6b0fd427f5b9c19fa",
+    "original": "Higher Ground Cafe",
+    "translation": "高地咖啡馆",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY02_03057745#CELL:FULL#ae436236d487895ea096c41e6bbe9429",
+    "original": "Nuka Cola Boxcar",
+    "translation": "核子可乐棚车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks02a_030B5151#CELL:FULL#e3aaf5396f766cd31b14b8346d3f8c56",
+    "original": "Bathroom",
+    "translation": "厕所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse06_030BE819#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVintBCCornucopiaFresh_030224AF#CELL:FULL#3d0ae4969dd686e72fc382f90dfbf8ed",
+    "original": "Cornucopia Fresh",
+    "translation": "聚宝盆杂货",
+    "stage": 1
+  },
+  {
+    "key": "FNVintSLTraval_030C3D0F#CELL:FULL#3e3afd7c706ee665e47a42d671bd9ea9",
+    "original": "Dusty Trails Travel Agency",
+    "translation": "尘土飞扬小道旅行社",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNHouse05_03004955#CELL:FULL#4f535418c96eaa4e3286f63799f97ae8",
+    "original": "North Vegas Home",
+    "translation": "北维加斯住宅",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarNVSteel04_03050ED1#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLSalon_030AFDF5#CELL:FULL#80aac1c0048565f9fb9dc4dd62a4cde2",
+    "original": "Jessica's Beauty Salon",
+    "translation": "杰西卡的美容院",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBank02_030D6EF5#CELL:FULL#22dccfd981c4dd2dbf1a959f9aa905fc",
+    "original": "Serchlight Federal Savings 2nd Floor",
+    "translation": "探照灯联邦储蓄二楼",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntCottonwoodCoveClinicShop_030337D8#CELL:FULL#9e7240f7474253aa9364530b48ef5fba",
+    "original": "Cottonwood Cove Clinic",
+    "translation": "棉白杨湾诊所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisCrain_0301C52E#CELL:FULL#bd23db96b639b1e09dacdaa5e95c46e2",
+    "original": "Crane Tower",
+    "translation": "起重机塔架",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLUSPS02_030D3684#CELL:FULL#62fbf9f8e8ff3469505b7d7fae10dcb3",
+    "original": "NCR Post Office 2nd Floor",
+    "translation": "NCR邮局二楼",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarSSCache01_03047C2E#CELL:FULL#036cd10019931a162f4046254882fc0d",
+    "original": "Sunset Sarsaparilla Boxcar",
+    "translation": "夕阳沙士棚车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLCleaners_030AE1AE#CELL:FULL#3c82563f6fbd945370bb005af667a781",
+    "original": "B&K Cleaners",
+    "translation": "B&K洗衣店",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks03_030B57BA#CELL:FULL#22566309dea169f1de664daf035f6046",
+    "original": "NCR Men's Barracks",
+    "translation": "NCR男子营房",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisfuleDepot_0301D118#CELL:FULL#8cefe3bc8a28ea9d13463093aede10d0",
+    "original": "Fuel Depot",
+    "translation": "燃料库",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks01_030B475C#CELL:FULL#22566309dea169f1de664daf035f6046",
+    "original": "NCR Men's Barracks",
+    "translation": "NCR男子营房",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarNVSteel03_0304F19A#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse08_030BFF8B#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisWaterPlant_0301A1AD#CELL:FULL#7e2ba21d89ef92bb311b5514ae9e079e",
+    "original": "Water Treatment Plant",
+    "translation": "污水净化厂",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNShack01_03000F91#CELL:FULL#8c34afeeafb3b13e6d505f29d230929a",
+    "original": "Barn Storage",
+    "translation": "谷仓",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNHome01_030F811F#CELL:FULL#4f535418c96eaa4e3286f63799f97ae8",
+    "original": "North Vegas Home",
+    "translation": "北维加斯住宅",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarPG01_0304705A#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisOfficersClub01_03071936#CELL:FULL#b926a9fd2d07f7db5807768a1445acf5",
+    "original": "Rosie's",
+    "translation": "萝丝",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisRobotOffice_0307FB76#CELL:FULL#fc2d483eafd10b8a1b9975d9ba73a5bf",
+    "original": "Robot Repair Office",
+    "translation": "机器人修理办公室",
+    "stage": 1
+  },
+  {
+    "key": "NVIntGoodspringShack_030F8526#CELL:FULL#042422d0922c9e7fe6c95bf5fa8af4db",
+    "original": "Abandoned Shack",
+    "translation": "废弃的棚屋",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntCottonwoodCoveBateShop01_030442D8#CELL:FULL#4a0d3255f6adfe930c9f14b36b2a0cc4",
+    "original": "Bing's Boat Rentals",
+    "translation": "宾的船只租赁",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY06_0305CB08#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse07_030BF208#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBCBank_0300E336#CELL:FULL#40de126b2cee0e6d908a56a1f9c8987b",
+    "original": "Boulder City HQ",
+    "translation": "巨石城总部",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNHouse03_030F8199#CELL:FULL#4f535418c96eaa4e3286f63799f97ae8",
+    "original": "North Vegas Home",
+    "translation": "北维加斯住宅",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisOfficersClubBathroom_0307F2FD#CELL:FULL#e3aaf5396f766cd31b14b8346d3f8c56",
+    "original": "Bathroom",
+    "translation": "厕所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLHouse01_030B3DA5#CELL:FULL#b768ca0ce37e6f5f3f3f5c638636d56d",
+    "original": "Abandoned House",
+    "translation": "废弃的房子",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBCBankValult_0300EC47#CELL:FULL#26d22925c64b2525a70886b428a7d3d4",
+    "original": "Boulder City HQ Vault",
+    "translation": "巨石城总部避难所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY08_0305ECD4#CELL:FULL#07dc0d96c73c09e91ef69db16006cd58",
+    "original": "Boxcar",
+    "translation": "篷车",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBCBank2ndFloor_03013978#CELL:FULL#a9030f35c9c7a6b132f6e174d6404f08",
+    "original": "Boulder City HQ 2nd Floor",
+    "translation": "巨石城总部二楼",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntFSNHouse06_03005CCE#CELL:FULL#4f535418c96eaa4e3286f63799f97ae8",
+    "original": "North Vegas Home",
+    "translation": "北维加斯住宅",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLButcherShop_030E613E#CELL:FULL#ec763393db9820abdde2b26568562b97",
+    "original": "Butcher Pete's Fresh Meats",
+    "translation": "屠夫皮特鲜肉",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks02_030B50E9#CELL:FULL#bcde5f4a656533970bdcff0ce3c08b20",
+    "original": "NCR Women's Barracks",
+    "translation": "NCR女子营房",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisTower01_03001143#CELL:FULL#8ed1aabe262a27febf8817c8d824a3e5",
+    "original": "Nellis Control Tower",
+    "translation": "内利斯控制塔",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_03005480#REFR:XATO#df7d50b2af49d6748b62f35cd18c05bd",
+    "original": "Activate Door",
+    "translation": "激活门",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntSLBarracks01a_030B4793#CELL:FULL#e3aaf5396f766cd31b14b8346d3f8c56",
+    "original": "Bathroom",
+    "translation": "厕所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntNellisTower04_030039ED#CELL:FULL#8ed1aabe262a27febf8817c8d824a3e5",
+    "original": "Nellis Control Tower",
+    "translation": "内利斯控制塔",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntCottonwoodCoveShopbathroom_030158A5#CELL:FULL#e3aaf5396f766cd31b14b8346d3f8c56",
+    "original": "Bathroom",
+    "translation": "厕所",
+    "stage": 1
+  },
+  {
+    "key": "FNVIntBoxCarGypsumTY01_03054BC7#CELL:FULL#c3f95649f944e05ac718250d54b7878d",
+    "original": "Follower's Research Outpost",
+    "translation": "追随者研究前哨",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "CottonwoodOverlookMapMarker_001392C4#REFR:FULL#7e19cdbcb82a8a5e9da01788d86ede79",
+    "original": "Cottonwood Overlook",
+    "translation": "棉白杨湾瞭望台",
+    "stage": 1
+  },
+  {
+    "key": "BoulderCityWorld_0014C723#WRLD:FULL#cc365b232292ccaee171d9a50eff9eff",
+    "original": "Boulder City Ruins",
+    "translation": "巨石城废墟",
+    "stage": 1
+  }
+]

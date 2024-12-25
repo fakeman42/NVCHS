@@ -1,0 +1,458 @@
+[
+  {
+    "key": "WaterHeal4Bad_00045656#SPEL:FULL#9533056448caaae81da74c59576ec184",
+    "original": "Bad Water",
+    "translation": "坏水",
+    "stage": 1
+  },
+  {
+    "key": "CWxYUPxNVDLC03SpinelessDT_03003848#SPEL:FULL#043d483ca4be780b87580afe89b0d8b4",
+    "original": "Spineless",
+    "translation": "无脊椎",
+    "stage": 1
+  },
+  {
+    "key": "CWxYUPxNVDLC03ReinforcedSpineDT_03003849#SPEL:FULL#5c82a4e73eb07d5d273cf37f705d368d",
+    "original": "Reinforced Spine",
+    "translation": "增强脊椎",
+    "stage": 1
+  },
+  {
+    "key": "WaterHeal2Good_00020517#SPEL:FULL#9c9bd58f18fc24760280cfdcaf314565",
+    "original": "Good Water",
+    "translation": "好水",
+    "stage": 1
+  },
+  {
+    "key": "WaterHeal1Rads500_00020D76#SPEL:FULL#153764321968139922531050624b7737",
+    "original": "Lethal Water",
+    "translation": "有毒的水",
+    "stage": 1
+  },
+  {
+    "key": "WaterHeal5Terrible_00020D77#SPEL:FULL#de6d144812ae19383a319ec10def5459",
+    "original": "Terrible Water",
+    "translation": "糟糕的水",
+    "stage": 1
+  },
+  {
+    "key": "WaterHeal3Average_00020D78#SPEL:FULL#df270a9fd0f064c797872f6a8fda186a",
+    "original": "Average Water",
+    "translation": "普通的水",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY7L1Msg_03000804#BOOK:FULL#1d67396e1d8524a6a991fa905a10a2e1",
+    "original": "Implant Y-7",
+    "translation": "植入体Y-7",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY7L1Msg_03000804#BOOK:DESC#9f5fdea23525173e254e39a136d5987f",
+    "original": "Implant Y-7 is an enzyme booster that increases the Health, gained from foods and recovers additional Action Points per food item consumed.\\n\\nEffects: Food restores +5 Health and +2 Action Points\\nLevel: 1 / 2",
+    "translation": "植入体Y-7是一种催化酶，它能提高从食物中回复的HP值，并在每次摄入食物时获得额外AP点数。\\n\\n效果: 食物HP恢复+5并且+2AP\\n等级:1/2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantC13L2Msg_03000805#BOOK:FULL#2fdc8a8f63dea5af75d9fa958b162c4a",
+    "original": "Implant C-13",
+    "translation": "植入体C-13",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantC13L2Msg_03000805#BOOK:DESC#8c3c05a6a3225b4caddfa5256696b9d0",
+    "original": "Implant C-13 was originally designed as a defense turret subroutine to help eliminate Cazadores should they escape from their containment, but it's been repurposed for testing on human subjects. \\n\\nEffects: +20%%%% damage to Cazadores\\nLevel: 2 / 2",
+    "translation": "植入体C-13原本是一个防御炮塔的子程序，用于帮助消灭逃逸的猎蜂。但它正被重新尝试用于人体。\\n\\n效果：对猎蜂伤害增加20%\\n等级：2/2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGRXL2Msg_03000806#BOOK:FULL#cd886fc2cd68697e9413d1e7656b1f1d",
+    "original": "Implant GRX",
+    "translation": "植入体 - GRX",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGRXL2Msg_03000806#BOOK:DESC#21da6028fdcf5a8514ada9fc67d7c49b",
+    "original": "You gain a non-addictive subdermal Turbo injector. [Activated in the Pip-Boy inventory.]\\n\\nEffects: Turbo for 3 seconds, 10 uses per day\\nLevel: 2 / 2",
+    "translation": "你获得了一个不会上瘾的增压剂注射器。[在哔哔小子物品栏启用]\\n\\n效果:增压效果3秒，每天10次\\n等级: 2 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY7L2Msg_03000807#BOOK:FULL#1d67396e1d8524a6a991fa905a10a2e1",
+    "original": "Implant Y-7",
+    "translation": "植入体Y-7",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY7L2Msg_03000807#BOOK:DESC#2a1c2311266e6efd90d7ce5fea6d0a10",
+    "original": "Implant Y-7 is an enzyme booster that increases the Health, gained from foods and recovers additional Action Points per food item consumed.\\n\\nEffects: Food restores +10 Health and +4 Action Points\\nLevel: 2 / 2",
+    "translation": "植入体Y-7是一种催化酶，它能提高从食物中回复的HP值，并在每次摄入食物时获得额外AP点数。\\n\\n效果: 食物HP恢复+10并且+4AP\\n等级: 2 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY3L2Msg_03000808#BOOK:FULL#405aebbd0c0195ce5797479cab8986c5",
+    "original": "Implant Y-3",
+    "translation": "植入体Y-3",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY3L2Msg_03000808#BOOK:DESC#3bc7751add6f6bfdfd2875a15377a397",
+    "original": "Implant Y-3 places an internal filtration system in the digestive tract that strips any liquid consumed of all radioactive particles before being processed by the body.\\n\\nEffect: Immunity to irradiated liquids, 50%%%% of absorbed rads are converted into Action Points\\nLevel: 2 / 2",
+    "translation": "植入体Y-3在消化系统中内置了一个过滤系统。它能在身体吸收前，将摄入液体所含的辐射粒子剥离。\\n\\n效果: 免疫饮品辐射，将辐射量以50% 比例转化为AP\\n等级: 2 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantM5L2Msg_03000809#BOOK:FULL#18a4d089846b6258b264c4823017bc05",
+    "original": "Implant M-5",
+    "translation": "植入体M-5",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantM5L2Msg_03000809#BOOK:DESC#9e318662f06769760939bb5bbb925278",
+    "original": "You can be made... better... faster... stronger... Actually, just faster. The M-5 implant increases your crouched movement speed for greater efficiency as a test subject.\\n\\nEffect: +40%%%% crouched movement speed\\nLevel: 2 / 2",
+    "translation": "你会变得……更高……更快……更强……事实上，只是更快啦。植入体M-5可以使你的潜行的移动速度增加20%，让你作为实验体更有效率。\\n\\n效果: +40% 潜行移动速度\\n等级: 2 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantC13L1Msg_03000800#BOOK:FULL#2fdc8a8f63dea5af75d9fa958b162c4a",
+    "original": "Implant C-13",
+    "translation": "植入体C-13",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantC13L1Msg_03000800#BOOK:DESC#82d71c6e666c03f84dab3c8de971d12b",
+    "original": "Implant C-13 was originally designed as a defense turret subroutine to help eliminate Cazadores should they escape from their containment, but it's been repurposed for testing on human subjects. \\n\\nEffect: +10%%%% damage to Cazadores\\nLevel: 1 / 2",
+    "translation": "植入体C-13原本是一个防御炮塔的子程序，用于帮助消灭逃逸的猎蜂。但它正被重新尝试用于人体。\\n\\n效果：对猎蜂的伤害+10%\\n等级：1 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGRXL1Msg_03000801#BOOK:FULL#cd886fc2cd68697e9413d1e7656b1f1d",
+    "original": "Implant GRX",
+    "translation": "植入体 - GRX",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGRXL1Msg_03000801#BOOK:DESC#d208b8f8247284eaa93c6f0a89c33ffb",
+    "original": "You gain a non-addictive subdermal Turbo injector. [Activated in the Pip-Boy inventory.]\\n\\nEffects: Turbo for 2 seconds, 5 uses per day\\nLevel: 1 / 2",
+    "translation": "你获得了一个不会上瘾的增压剂注射器。[在哔哔小子物品栏启用]\\n\\n效果:增压效果2秒，每天5次\\n等级: 1 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantM5L1Msg_03000802#BOOK:FULL#18a4d089846b6258b264c4823017bc05",
+    "original": "Implant M-5",
+    "translation": "植入体M-5",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantM5L1Msg_03000802#BOOK:DESC#f4e7eeeed23714e9138e6ec1d99e4948",
+    "original": "You can be made... better... faster... stronger... Actually, just faster. The M-5 implant increases your crouched movement speed for greater efficiency as a test subject.\\n\\nEffect: +20%%%% crouched movement speed\\nLevel: 1 / 2",
+    "translation": "你会变得……更高……更快……更强……事实上，只是更快啦。植入体M-5可以使你的潜行的移动速度增加20%，让你作为实验体更有效率。\\n\\n效果: +20% 潜行移动速度\\n等级: 1 / 2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY3L1Msg_03000803#BOOK:FULL#405aebbd0c0195ce5797479cab8986c5",
+    "original": "Implant Y-3",
+    "translation": "植入体Y-3",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY3L1Msg_03000803#BOOK:DESC#f5e1f7091b43156f1547a6d1d2ef54b4",
+    "original": "Implant Y-3 places an internal filtration system in the digestive tract that strips any liquid consumed of all radioactive particles before being processed by the body.\\n\\nEffect: Immunity to irradiated liquids\\nLevel: 1 / 2",
+    "translation": "植入体Y-3在消化系统中内置了一个过滤系统。它能在身体吸收前，将摄入液体所含的辐射粒子剥离。\\n\\n效果:免疫饮品辐射\\n等级:1/2",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantsTestContainer_02003934#CONT:FULL#1cf0c9c6c50173648ffd40454085c961",
+    "original": "Added Implants",
+    "translation": "增加植入体",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantC13L2_03000817#MISC:FULL#395136676f87de32e308d434406b30de",
+    "original": "C-13 Implant (L2)",
+    "translation": "C-13 植入体 (L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGRXL1_03000818#MISC:FULL#ffdb2cca0bdd2c725bdfac65f457e20d",
+    "original": "GRX Implant",
+    "translation": "GRX 植入体",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY7L1_03000819#MISC:FULL#1b01d1b3ffa4bfe7aefcbdb38259c9df",
+    "original": "Y-7 Implant",
+    "translation": "Y-7 植入体",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY3L1_0300081A#MISC:FULL#252b41866ad8ede8b1953f7fd004e267",
+    "original": "Y-3 Implant",
+    "translation": "Y-3 植入体",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantM5L1_0300081B#MISC:FULL#f87a183238158033dd0ca8e390370579",
+    "original": "M-5 Implant",
+    "translation": "M-5 植入体",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantC13L1_0300081C#MISC:FULL#d64942409a4c7b6f789f0e50fa8bae1d",
+    "original": "C-13 Implant",
+    "translation": "C-13 植入体",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY7L2_03000813#MISC:FULL#769115479eef08bb69794b7ded352482",
+    "original": "Y-7 Implant (L2)",
+    "translation": "Y-7 植入体 (L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantY3L2_03000814#MISC:FULL#374f6a0ae7a2e1e07d2dcdd81b6e63a0",
+    "original": "Y-3 Implant (L2)",
+    "translation": "Y-3 植入体 (L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantM5L2_03000815#MISC:FULL#704256073488fec7d6a25d478e14d88a",
+    "original": "M-5 Implant (L2)",
+    "translation": "M-5 植入体 (L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGRXL2_03000816#MISC:FULL#ffb30b3a00c4489177d785ae5ce5f47f",
+    "original": "GRX Implant (L2)",
+    "translation": "GRX 植入体 (L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxUpgradeAutoDocGRXNOTE_03000822#NOTE:FULL#2a23cd8b805cfc004b985b14cfe04305",
+    "original": "Auto-Doc Upgrade: Implant GRX",
+    "translation": "自动医生升级：植入体GRX",
+    "stage": 1
+  },
+  {
+    "key": "CWxUpgradeAutoDocGRXNOTE_03000822#NOTE:TNAM#986aca8b28d5af4c8916de3174f0ca7d",
+    "original": "This holotape contains an upgrade file for the Sink robotic assistant: \"Auto-Doc.\"",
+    "translation": "这盘全息磁带记录着汇聚节点机械助手\"自动医生\"的升级文件",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantY7Perk_0100961A#PERK:FULL#1d67396e1d8524a6a991fa905a10a2e1",
+    "original": "Implant Y-7",
+    "translation": "植入体Y-7",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantY7Perk_0100961A#PERK:DESC#ee5b8ae5ef4413c816cef7ccadc7a4b8",
+    "original": "Implant Y-7 is an enzyme booster that increases the Health (HP) gained from foods and recovers additional Action Points (AP) per food item consumed.",
+    "translation": "植入体Y-7是一种酶加速器，它能提高从食物中回复的HP值，并在每次摄入食物时获得额外AP点数",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SpinelessPerk_010098BC#PERK:FULL#043d483ca4be780b87580afe89b0d8b4",
+    "original": "Spineless",
+    "translation": "无脊椎",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SpinelessPerk_010098BC#PERK:DESC#71a0e7317e4d4b41dee6a81ee84fd52d",
+    "original": "Your spine has been replaced with advanced technologies: Your torso can no longer be crippled and your Strength (STR) and Damage Threshold (DT) have been increased (+1).",
+    "translation": "你的脊椎被替换成了更高科技的产物：你的躯干再也不会残疾了，而且你的力量和DT全都+1。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ReinforcedSpinePerk_01015BBC#PERK:FULL#5c82a4e73eb07d5d273cf37f705d368d",
+    "original": "Reinforced Spine",
+    "translation": "增强脊椎",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ReinforcedSpinePerk_01015BBC#PERK:DESC#1880617220d5e20161069377fc163a84",
+    "original": "Your spine is back in your body, but some advance technologies remain: Your torso can now be crippled again, but your Strength (STR) and Damage Threshold (DT) bonuses have doubled! (+2)",
+    "translation": "你的脊椎又回来了，但一些先进技术留了下来：虽然你的躯干现在会残废，但你的力量和DT全都+2。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantM5Perk_01009614#PERK:FULL#18a4d089846b6258b264c4823017bc05",
+    "original": "Implant M-5",
+    "translation": "植入体M-5",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantM5Perk_01009614#PERK:DESC#6780c137da7b4f23ca833e9502ab8185",
+    "original": "You can be made... better... faster... stronger... Actually, just faster. The M-5 implant increases your crouched movement speed by 20% (40%) for greater efficiency as a test subject.",
+    "translation": "你会变得……更高……更快……更强……事实上，只是更快啦。植入体M-5可以使你的潜行的移动速度增加20%/40%，让你作为实验体更有效率。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantY3Perk_01009615#PERK:FULL#405aebbd0c0195ce5797479cab8986c5",
+    "original": "Implant Y-3",
+    "translation": "植入体Y-3",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantY3Perk_01009615#PERK:DESC#f890185e25e62016d3f498bf28c29118",
+    "original": "Implant Y-3 places an internal filtration system in the digestive tract that strips any liquid consumed of all radioactive particles before being processed by the body.",
+    "translation": "植入体Y-3在消化系统中内置了一个过滤系统。它能在身体吸收前，将摄入液体所含的辐射粒子剥离。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantC13Perk_01009616#PERK:FULL#2fdc8a8f63dea5af75d9fa958b162c4a",
+    "original": "Implant C-13",
+    "translation": "植入体C-13",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantC13Perk_01009616#PERK:DESC#ee3dd5b522d2855b616d8157d73973a0",
+    "original": "Implant C-13 was originally designed as a defense turret subroutine to help eliminate Cazadores should they escape from their containment, but it's been repurposed for testing on human subjects. (+10%/+20% damage to Cazadores)",
+    "translation": "植入体C-13原本是一个防御炮塔的子程序，用于帮助消灭逃逸的猎蜂。但它正被重新尝试用于人体。（对猎蜂伤害增加10%/20%）",
+    "stage": 1
+  },
+  {
+    "key": "CWxAutoDocImplantGRXUnlockMSG_03000821#MESG:DESC#94df2671f66492072b8b04eca3f1ad08",
+    "original": "Implant GRX is now available for surgical installation.",
+    "translation": "植入体GRX可用手术安装。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:DESC#a8b5d3179affd443e3d4fc6f31191b7c",
+    "original": "This prototype Auto-Doc is capable of performing a thorough physical exam and curing the patient of all common ailments - radiation sickness, lacerations, broken bones, even chemical addictions. In addition, it can also give haircuts and perform cosmetic surgery.",
+    "translation": "这个原型自助医生可以执行完整的身体检查，并且治疗所有的常见病痛，如辐射病，撕裂伤，骨折甚至化学上瘾。另外，它还可以理发和整容。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:FULL#1332c6e9c6ba982a2f9f03bc38cdd219",
+    "original": "Prototype Auto-Doc",
+    "translation": "自动医生原型机",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:ITXT#949a6803872629425cf12d4c008bf6d5",
+    "original": "Do Nothing.",
+    "translation": "什么都不做",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:ITXT#a5f068e6d1d87249baa7eb12588d26c1",
+    "original": "Basic Physical Exam.",
+    "translation": "基本健康检查",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:ITXT#d0b25fcde2efb6c0430ec65dca11f2b8",
+    "original": "Initiate Cosmetic Surgery.",
+    "translation": "启动整容手术",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:ITXT#443c55aac5947df0f75f2438984edd17",
+    "original": "Get a Haircut.",
+    "translation": "理发",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:ITXT#11204f06b233eb8f8630f26424ad9dee",
+    "original": "Swap Body Parts.",
+    "translation": "更换身体器官",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutoDocMsg_01004530#MESG:ITXT#9ad84099a5d29a24e1364ae5b3c25f5e",
+    "original": "Manage Implants.",
+    "translation": "管理植入体。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:DESC#e0150ecd11ae555f6dd451ef299a053a",
+    "original": "Perform surgery to install cybernetic implants?",
+    "translation": "是否执行手术来安装机械植入体？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:FULL#9809a38daace4784d1a887b99771d3df",
+    "original": "Implant Interface",
+    "translation": "植入体界面",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#949a6803872629425cf12d4c008bf6d5",
+    "original": "Do Nothing.",
+    "translation": "什么都不做",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#c449dab130a599bf2738cc36c6a2118c",
+    "original": "Prepare Implant C-13: +10% Cazador damage. (8,000 caps)",
+    "translation": "准备植入C-13：+10%对猎蜂的伤害。（8,000瓶盖）",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#3ba79abe6871f520b65cf0a531c04b9c",
+    "original": "Prepare Implant M-5: Increased speed while crouched. (10,000 caps)",
+    "translation": "准备植入M-5：增加潜行时移动速度。（10,000瓶盖）",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#2f2fc007a4080bb28fb36b38052792f8",
+    "original": "Prepare Implant Y-3: Drinking radiation removed. (12,000 caps)",
+    "translation": "准备植入Y-3：移除饮品辐射。（12,000瓶盖）",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#a5277417cd2c0eb3f2312935d9b43b23",
+    "original": "Prepare Implant Y-7: Bonus HP/AP from food. (20,000 caps)",
+    "translation": "准备植入Y-7：食物额外获得HP/AP。（20,000瓶盖）",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#69a1d4a5f37c5fe1073590d1dcd3ec4f",
+    "original": "Prepare Implant GRX: Turbo Injector (20,000 caps)",
+    "translation": "准备植入GRX：增压剂注射器。（20,000瓶盖）",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03HQAutodocImplantMSG_010133AF#MESG:ITXT#b2f76a3b92934842593f8bad681c24df",
+    "original": "Perform Surgery",
+    "translation": "执行手术",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeY31to2_0300082F#RCPE:FULL#031ad6e993399b51865ecbaf268bae2b",
+    "original": "Upgrade, Y-3 Implant (L2)",
+    "translation": "升级, Y-3植入体(L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeY71to2_03000830#RCPE:FULL#eb08212fecfde482bf17dd97b5b6b65c",
+    "original": "Upgrade, Y-7 Implant (L2)",
+    "translation": "升级, Y-7植入体(L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeM51to2_03000831#RCPE:FULL#382e7cd6f384ff0a9727f63ce572dcc7",
+    "original": "Upgrade, M-5 Implant (L2)",
+    "translation": "升级, M-5植入体(L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeGRX1to2_03000832#RCPE:FULL#a8f738f2651f1166ae26add5b21e8c56",
+    "original": "Upgrade, GRX Implant (L2)",
+    "translation": "升级, GRX植入体(L2)",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeC131to2_0300082E#RCPE:FULL#e4ca367c696b55fee8176f6b20c54549",
+    "original": "Upgrade, C-13 Implant (L2)",
+    "translation": "升级, C-13植入体(L2)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLBloatFlyCave_0101507B#CELL:FULL#347e00b4f63254f5d88ad40a8d012cea",
+    "original": "Mysterious Cave",
+    "translation": "神秘洞穴",
+    "stage": 1
+  }
+]

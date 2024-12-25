@@ -1,0 +1,1352 @@
+[
+  {
+    "key": "beZebumperLivAtomTimerForComingBack_0301281F#MGEF:FULL#d1595764f9d9f16238eb17b5409b28b6",
+    "original": "timer pour faire revenir les clients partis",
+    "translation": "利用定时器吸引流失顾客回归",
+    "stage": 1
+  },
+  {
+    "key": "scrZebumperLivAtomEnter_03004B45#SCPT:SCDA#a08b91aca8cbd806ef7260532da0eb07",
+    "original": "Crusoe",
+    "translation": "克鲁索",
+    "stage": 1
+  },
+  {
+    "key": "scrZebumperLivAtomEnter_03004B45#SCPT:SCTX#f8d3a2b921fb2d9fa096825e1ca0922a",
+    "original": "scn scrZebumperLivAtomEnter\\n\\nfloat fTmHenry ; timer for henry\\nfloat fTmDetective ; timer for detective\\nref rR\\n\\nBEGIN onTriggerEnter player\\n\\n; refZebumperRobinHoodTrigger\\n; refZebumperLivAtomPack1Enabler\\n; refZebumperLivAtomPack2Enabler\\n; refZebumperLivAtomEscortEnabler\\n; refZebumperLivAtomRobinHood1\\n; refZebumperLivAtomRobinHood2\\n; refZebumperLivAtomDog\\n; refZebumperLivAtomKid\\n\\n;\treset the robin hood\\n\trefZebumperLivAtomRobinHood1.removeItem wrench01 10\\n\trefZebumperLivAtomRobinHood2.removeItem wrench01 10\\n\\n\t; reset robin hood\\n\tif eval refZebumperLivAtomRobinHood1.getDisabled || refZebumperLivAtomRobinHood1.getDead\\n\t\trefZebumperLivAtomRobinHood1.removeItem caps001 1000\\n\t\trefZebumperLivAtomRobinHood1.stopCombat\\n\t\trefZebumperLivAtomRobinHood1.resetAI\\n\t\trefZebumperLivAtomRobinHood1.resurrect\\n\t\trefZebumperLivAtomRobinHood1.enable\\n\t\trefZebumperLivAtomRobinHood1.moveTo FistoWranglerMarker\\n\tendif\\n\tif eval refZebumperLivAtomRobinHood2.getDisabled || refZebumperLivAtomRobinHood2.getDead\\n\t\trefZebumperLivAtomRobinHood2.removeItem caps001 1000\\n\t\trefZebumperLivAtomRobinHood2.stopCombat\\n\t\trefZebumperLivAtomRobinHood2.resetAI\\n\t\trefZebumperLivAtomRobinHood2.resurrect\\n\t\trefZebumperLivAtomRobinHood2.enable\\n\t\trefZebumperLivAtomRobinHood2.moveTo VMS21aGunForHire02MarkerREF\\n\tendif\\n\\n\tif eval (refZebumperLivAtomHenryDEAD.getDisabled == 0 && GameDaysPassed > (fTmHenry + 2) && fTmHenry) || getINIFloat \"LivelyWrangler:bDisableHenry\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomHenryDEAD.disable\\n\t\trefZebumperLivAtomHenryDEAD.markForDelete\\n\tendif\\n\\n\tif eval VStreetFluffNPC.bFirstTime || (refZebumperLivAtomDetectiveREF.getDisabled == 0 && (GameDaysPassed > (fTmDetective + 0.5)) && fTmDetective) || getINIFloat \"LivelyWrangler:bDisableDetective\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomDetectiveREF.disable\\n\t\trefZebumperLivAtomDetectiveREF.markForDelete\\n\tendif\\n\\n\t; HENRY TRAGIC END\\n\tif eval getRandomPercent < 10 && fTmHenry == 0 && getObjectiveCompleted VMS05 40 && HenryJamisonRef.getDead == 0 && HenryJamisonRef.getDisabled == 0 && getINIFloat \"LivelyWrangler:bDisableHenry\" \"zebumper\\SuperLivelyVegas.ini\" == 0\\n\t\tHenryJamisonRef.disable\\n\t\trefZebumperLivAtomHenryDEAD.enable\\n;\t\trefZebumperLivAtomHenryDEAD.kill\\n\t\tset fTmHenry to GameDaysPassed\\n;\t\tset fTmHenry to 1\\n\tendif\\n\\n\t; DETECTIVE IS HERE !\\n\tif eval VStreetFluffNPC.bFirstTime == 0 && (GameDaysPassed <= (fTmDetective + 0.5) || fTmDetective == 0) && getINIFloat \"LivelyWrangler:bDisableDetective\" \"zebumper\\SuperLivelyVegas.ini\" == 0\\n\\n\t\trefZebumperLivAtomDetectiveREF.resetInventory\\n\t\trefZebumperLivAtomDetectiveREF.enable\\n\t\trefZebumperLivAtomDetectiveREF.addItem WithAmmoNV44MagnumNPC 1 1\\n\t\trefZebumperLivAtomDetectiveREF.evp\\n\t\t\\n\t\tif player.hasPerk WildWasteland\\n\t\t; change Jay to Crusoe\\n\\n\\n;\t\t\tLNSetActorTemplate npcZebumperLivAtomDetective VMS18Crusoe\\n;\t\t\tsetFullNameAlt \"Crusoe\" npcZebumperLivAtomDetective ; savebaked\\n\t\t\tLNSetName \"Crusoe\" npcZebumperLivAtomDetective ; not savebaked\\n\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem GlassesShades 1 1\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem OutfitPrewarBusinesswearDirtyDARK 1 1\\n\\n\t\telse\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem OutfitTrenchCoat 1 1\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem OutFitFedoraHat 1 1\\n\t\tendif\\n\\n\t\tif eval fTmDetective == 0\\n\t\t\tset fTmDetective to GameDaysPassed\\n\t\tendif\\n\tendif\\n\\n\tif getINIFloat \"LivelyWrangler:bDisableNPCPack1\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomPack1Enabler.disable\\n\telse\\n\t\trefZebumperLivAtomPack1Enabler.enable\\n\tendif\\n\\n\trefZebumperLivAtomDog.disable\\n\trefZebumperLivAtomKid.disable\\n\trefZebumperLivAtomTravel.disable\\n\tif getINIFloat \"LivelyWrangler:bEnableNPCSpecial\" \"zebumper\\SuperLivelyVegas.ini\"\\n\\n\t\trefZebumperLivAtomTravel.enable\\n\t\\n\t\tif eval refZebumperLivAtomTravel.getDead == 0\\n\t\t\tif eval getRandomPercent < 33\\n\t\t\t\tif eval getRandomPercent < 50\\n\t\t\t\t\trefZebumperLivAtomDog.enable\\n\t\t\t\telse\\n\t\t\t\t\trefZebumperLivAtomKid.enable\\n\t\t\t\tendif\\n\t\t\tendif\\n\t\telse\\n\t\t\trefZebumperLivAtomTravel.resurrect\\n\t\tendif\\n\tendif\\n\\n\tif eval getINIFloat \"LivelyWrangler:bDisableNPCPack2\" \"zebumper\\SuperLivelyVegas.ini\" == 1 || (getStageDone VFSAtomicPimp 100 && getINIFloat \"LivelyWrangler:bDisableNPCPack2\" \"zebumper\\SuperLivelyVegas.ini\" >= 0)\\n\t\trefZebumperLivAtomPack2Enabler.disable\\n\telse\\n\t\trefZebumperLivAtomPack2Enabler.enable\\n\tendif\\n\\n\tif getINIFloat \"LivelyWrangler:bEnableNPCPack3\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomPack3Enabler.enable\\n\telse\\n\t\trefZebumperLivAtomPack3Enabler.disable\\n\tendif\\n\\n\tif getINIFloat \"LivelyWrangler:bDisableEscort\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomEscortEnabler.disable\\n\telse\\n\t\trefZebumperLivAtomescortEnabler.enable\\n\tendif\\n\\n\tif eval getINIFloat \"LivelyWrangler:bDisableThief\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperRobinHoodTrigger.disable\\n\t\trefZebumperLivAtomRobinHood1.disable\\n\t\trefZebumperLivAtomRobinHood2.disable\\n\telse\\n\t\trefZebumperRobinHoodTrigger.enable\\n\tendif\\n\\n\tif eval getINIFloat \"LivelyWrangler:bDisableFrancineSmoker\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\tVFSFrancineGarretREF.removeFromFaction SmokerFaction\\n\telse\\n\t\tVFSFrancineGarretREF.addToFaction SmokerFaction 0\\n\tendif\\n\\nEND",
+    "translation": "scn scrZebumperLivAtomEnter\\n\\nfloat fTmHenry ; timer for henry\\nfloat fTmDetective ; timer for detective\\nref rR\\n\\nBEGIN onTriggerEnter player\\n\\n; refZebumperRobinHoodTrigger\\n; refZebumperLivAtomPack1Enabler\\n; refZebumperLivAtomPack2Enabler\\n; refZebumperLivAtomEscortEnabler\\n; refZebumperLivAtomRobinHood1\\n; refZebumperLivAtomRobinHood2\\n; refZebumperLivAtomDog\\n; refZebumperLivAtomKid\\n\\n;\treset the robin hood\\n\trefZebumperLivAtomRobinHood1.removeItem wrench01 10\\n\trefZebumperLivAtomRobinHood2.removeItem wrench01 10\\n\\n\t; reset robin hood\\n\tif eval refZebumperLivAtomRobinHood1.getDisabled || refZebumperLivAtomRobinHood1.getDead\\n\t\trefZebumperLivAtomRobinHood1.removeItem caps001 1000\\n\t\trefZebumperLivAtomRobinHood1.stopCombat\\n\t\trefZebumperLivAtomRobinHood1.resetAI\\n\t\trefZebumperLivAtomRobinHood1.resurrect\\n\t\trefZebumperLivAtomRobinHood1.enable\\n\t\trefZebumperLivAtomRobinHood1.moveTo FistoWranglerMarker\\n\tendif\\n\tif eval refZebumperLivAtomRobinHood2.getDisabled || refZebumperLivAtomRobinHood2.getDead\\n\t\trefZebumperLivAtomRobinHood2.removeItem caps001 1000\\n\t\trefZebumperLivAtomRobinHood2.stopCombat\\n\t\trefZebumperLivAtomRobinHood2.resetAI\\n\t\trefZebumperLivAtomRobinHood2.resurrect\\n\t\trefZebumperLivAtomRobinHood2.enable\\n\t\trefZebumperLivAtomRobinHood2.moveTo VMS21aGunForHire02MarkerREF\\n\tendif\\n\\n\tif eval (refZebumperLivAtomHenryDEAD.getDisabled == 0 && GameDaysPassed > (fTmHenry + 2) && fTmHenry) || getINIFloat \"LivelyWrangler:bDisableHenry\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomHenryDEAD.disable\\n\t\trefZebumperLivAtomHenryDEAD.markForDelete\\n\tendif\\n\\n\tif eval VStreetFluffNPC.bFirstTime || (refZebumperLivAtomDetectiveREF.getDisabled == 0 && (GameDaysPassed > (fTmDetective + 0.5)) && fTmDetective) || getINIFloat \"LivelyWrangler:bDisableDetective\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomDetectiveREF.disable\\n\t\trefZebumperLivAtomDetectiveREF.markForDelete\\n\tendif\\n\\n\t; HENRY TRAGIC END\\n\tif eval getRandomPercent < 10 && fTmHenry == 0 && getObjectiveCompleted VMS05 40 && HenryJamisonRef.getDead == 0 && HenryJamisonRef.getDisabled == 0 && getINIFloat \"LivelyWrangler:bDisableHenry\" \"zebumper\\SuperLivelyVegas.ini\" == 0\\n\t\tHenryJamisonRef.disable\\n\t\trefZebumperLivAtomHenryDEAD.enable\\n;\t\trefZebumperLivAtomHenryDEAD.kill\\n\t\tset fTmHenry to GameDaysPassed\\n;\t\tset fTmHenry to 1\\n\tendif\\n\\n\t; DETECTIVE IS HERE !\\n\tif eval VStreetFluffNPC.bFirstTime == 0 && (GameDaysPassed <= (fTmDetective + 0.5) || fTmDetective == 0) && getINIFloat \"LivelyWrangler:bDisableDetective\" \"zebumper\\SuperLivelyVegas.ini\" == 0\\n\\n\t\trefZebumperLivAtomDetectiveREF.resetInventory\\n\t\trefZebumperLivAtomDetectiveREF.enable\\n\t\trefZebumperLivAtomDetectiveREF.addItem WithAmmoNV44MagnumNPC 1 1\\n\t\trefZebumperLivAtomDetectiveREF.evp\\n\t\t\\n\t\tif player.hasPerk WildWasteland\\n\t\t; change Jay to Crusoe\\n\\n\\n;\t\t\tLNSetActorTemplate npcZebumperLivAtomDetective VMS18Crusoe\\n;\t\t\tsetFullNameAlt \"克鲁索\" npcZebumperLivAtomDetective ; savebaked\\n\t\t\tLNSetName \"Crusoe\" npcZebumperLivAtomDetective ; not savebaked\\n\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem GlassesShades 1 1\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem OutfitPrewarBusinesswearDirtyDARK 1 1\\n\\n\t\telse\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem OutfitTrenchCoat 1 1\\n\t\t\trefZebumperLivAtomDetectiveREF.addItem OutFitFedoraHat 1 1\\n\t\tendif\\n\\n\t\tif eval fTmDetective == 0\\n\t\t\tset fTmDetective to GameDaysPassed\\n\t\tendif\\n\tendif\\n\\n\tif getINIFloat \"LivelyWrangler:bDisableNPCPack1\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomPack1Enabler.disable\\n\telse\\n\t\trefZebumperLivAtomPack1Enabler.enable\\n\tendif\\n\\n\trefZebumperLivAtomDog.disable\\n\trefZebumperLivAtomKid.disable\\n\trefZebumperLivAtomTravel.disable\\n\tif getINIFloat \"LivelyWrangler:bEnableNPCSpecial\" \"zebumper\\SuperLivelyVegas.ini\"\\n\\n\t\trefZebumperLivAtomTravel.enable\\n\t\\n\t\tif eval refZebumperLivAtomTravel.getDead == 0\\n\t\t\tif eval getRandomPercent < 33\\n\t\t\t\tif eval getRandomPercent < 50\\n\t\t\t\t\trefZebumperLivAtomDog.enable\\n\t\t\t\telse\\n\t\t\t\t\trefZebumperLivAtomKid.enable\\n\t\t\t\tendif\\n\t\t\tendif\\n\t\telse\\n\t\t\trefZebumperLivAtomTravel.resurrect\\n\t\tendif\\n\tendif\\n\\n\tif eval getINIFloat \"LivelyWrangler:bDisableNPCPack2\" \"zebumper\\SuperLivelyVegas.ini\" == 1 || (getStageDone VFSAtomicPimp 100 && getINIFloat \"LivelyWrangler:bDisableNPCPack2\" \"zebumper\\SuperLivelyVegas.ini\" >= 0)\\n\t\trefZebumperLivAtomPack2Enabler.disable\\n\telse\\n\t\trefZebumperLivAtomPack2Enabler.enable\\n\tendif\\n\\n\tif getINIFloat \"LivelyWrangler:bEnableNPCPack3\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomPack3Enabler.enable\\n\telse\\n\t\trefZebumperLivAtomPack3Enabler.disable\\n\tendif\\n\\n\tif getINIFloat \"LivelyWrangler:bDisableEscort\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperLivAtomEscortEnabler.disable\\n\telse\\n\t\trefZebumperLivAtomescortEnabler.enable\\n\tendif\\n\\n\tif eval getINIFloat \"LivelyWrangler:bDisableThief\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\trefZebumperRobinHoodTrigger.disable\\n\t\trefZebumperLivAtomRobinHood1.disable\\n\t\trefZebumperLivAtomRobinHood2.disable\\n\telse\\n\t\trefZebumperRobinHoodTrigger.enable\\n\tendif\\n\\n\tif eval getINIFloat \"LivelyWrangler:bDisableFrancineSmoker\" \"zebumper\\SuperLivelyVegas.ini\"\\n\t\tVFSFrancineGarretREF.removeFromFaction SmokerFaction\\n\telse\\n\t\tVFSFrancineGarretREF.addToFaction SmokerFaction 0\\n\tendif\\n\\nEND",
+    "stage": 1
+  },
+  {
+    "key": "SecuritronMk2DT_00160140#SPEL:FULL#edac485696f4c6f4d3b4123ea09ab08b",
+    "original": "Securitron Mk 2 DT",
+    "translation": "II型电子保安免伤",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomCloseDoorTwins_03002C7D#ACTI:FULL#050e0b4175940df03e7272011c144fe1",
+    "original": "Ferme porte",
+    "translation": "关门",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomEnter_03004B47#ACTI:FULL#6809d9728d78af9f3bd6126037d0bfa9",
+    "original": "player enter and surprise",
+    "translation": "玩家进入并感到惊讶",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomRobin_03009A31#ACTI:FULL#3e5da9fee6f6aee49595d8eed2bf7e3f",
+    "original": "Robin Hood Trigger",
+    "translation": "罗宾汉触发器",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomKeepAnEye_0300A35F#ACTI:FULL#5e220197aeeb2e5e9e274b2f30c4a0e8",
+    "original": "gard 5 keep an eye on player",
+    "translation": "守卫5注意玩家",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomNonYupRoom_0300C771#ACTI:FULL#b1c29fb2854dc525640149ce6a589569",
+    "original": "unlock door if no Yup",
+    "translation": "如果没有“Yup”则解锁门",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomEnterExit_0300C7B4#ACTI:FULL#8ec43f11730ab5207b466640fc63a142",
+    "original": "customer enter exit wrangler",
+    "translation": "顾客进出管理",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivAtomSinkRustyPure_0300EA59#ACTI:FULL#424c1bffda3dd5a9d3f278e36cfbfd08",
+    "original": "Sink",
+    "translation": "水槽",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivBillyForceDialog_03017293#ACTI:FULL#5e4cfcf54c2ea5c8abd031172c7db4db",
+    "original": "force billy to say his jokes",
+    "translation": "强迫比利讲他的笑话",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivPhebsAIPacks_030172A7#ACTI:FULL#20df121e208713e07de6ab61ae79051b",
+    "original": "script for adding ai packs to npcs",
+    "translation": "为NPC添加AI包的脚本",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLivGmdHungryTrigger_030173C2#ACTI:FULL#fbd8a1d3f61866f387028abb36560215",
+    "original": "gourmand waiting line",
+    "translation": "美食家排队等候",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLiv13YesMan_030175ED#ACTI:FULL#51dbb9f7cbec422744ab390f1fd11be5",
+    "original": "Déclencheur de béni",
+    "translation": "本尼的触发器",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLiv13BennyDoorOwner_03017674#ACTI:FULL#d1aacaef9c4c0604328eeb3b8220b8c3",
+    "original": "Déclencheur de la porte de Benny",
+    "translation": "本尼之门的触发器",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperLiv13ModOptions_0301769A#ACTI:FULL#9ea78c5e6a2247a58d70a8240a1a312a",
+    "original": "enable disable npcs and new rooms",
+    "translation": "启用禁用npc和新房间",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperHungHatHat_030176B3#ACTI:FULL#323659d192548f86fade459714fcbfcc",
+    "original": "McCaffery's Hat",
+    "translation": "麦卡菲里的帽子",
+    "stage": 1
+  },
+  {
+    "key": "actZebumperHungHatHat_030176B3#ACTI:XATO#323659d192548f86fade459714fcbfcc",
+    "original": "McCaffery's Hat",
+    "translation": "麦卡菲里的帽子",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:DESC#afe58b49708aaa459a53334ca26338c6",
+    "original": "Welcome back, M. MELENDEZ",
+    "translation": "欢迎回来，梅伦德斯先生",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:ITXT#d3e3bb35e54e94518862a77d135c76e6",
+    "original": "Access TOPS data",
+    "translation": "访问九重天数据",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:RNAM#5d79630dd607281d71cc88098f9a916a",
+    "original": "ERROR 0x02C773DD::System Corruption",
+    "translation": "错误0x02C773D::系统损坏",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:ITXT#19765aee28bc49b58b4e1b91a432d195",
+    "original": "Received Messages",
+    "translation": "收到的消息",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:ITXT#7c95c6f7c92216e1d6771a1867ab1b9d",
+    "original": "Sent Messages",
+    "translation": "发送的信息",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminal_030175B5#TERM:ITXT#cbf422fb724ca620b1cc2698c460b714",
+    "original": "Archived Messages",
+    "translation": "存档的邮件",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalReceivedSub_030175B9#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalReceivedSub_030175B9#TERM:DESC#a3729b7d0a25f33f585ba344657de600",
+    "original": "Received messages",
+    "translation": "收到的消息",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalReceivedSub_030175B9#TERM:ITXT#82172eebd56e2ae948028b63baba94a4",
+    "original": "01/23/2279 from <Direction>",
+    "translation": "2279年1月23日来自<方向>",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalReceivedSub_030175B9#TERM:ITXT#35716f05a31cfaa09f1ff3dd0dc37c7e",
+    "original": "04/12/2279 from <Direction>",
+    "translation": "04/12/2279来自<方向>",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalReceivedSub_030175B9#TERM:ITXT#1c9eae5cfe9b7b4602b653465fd6c4f6",
+    "original": "04/29/2279 from <ERROR 0x02FF1::Null>",
+    "translation": "2279年4月29日，来自<错误0x02FF1::Null>",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalReceivedSub_030175B9#TERM:RNAM#5d79630dd607281d71cc88098f9a916a",
+    "original": "ERROR 0x02C773DD::System Corruption",
+    "translation": "错误0x02C773D::系统损坏",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalSentSub_030175BA#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalSentSub_030175BA#TERM:DESC#d88ea5f093d63f5d30c152772238bdea",
+    "original": "Sent messages",
+    "translation": "已发送邮件",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalSentSub_030175BA#TERM:ITXT#b8947eca537b4ce4339abf33bf82d03a",
+    "original": "04/14/2279 to <Direction>",
+    "translation": "2279年4月14日至<方向>",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalSentSub_030175BA#TERM:ITXT#d06ee141a28fbfbe95c458b7874c96ea",
+    "original": "04/21/2279 to <ERROR 0x02FF1::Null>",
+    "translation": "04/21/2279到＜错误0x02FF1::Null＞",
+    "stage": 1
+  },
+  {
+    "key": "termZebumperLiv13JanitorTerminalSentSub_030175BA#TERM:ITXT#5a323dd5efa6894ff8883d25b479034b",
+    "original": "04/24/2279 to <ERROR 0x02FF1::Null>",
+    "translation": "04/24/2279 to <错误 0x02FF1::Null>",
+    "stage": 1
+  },
+  {
+    "key": "ContZebumperLiv13MelendezGrave_030175A6#CONT:FULL#2a3703da3cc6618565d4fcc18a2b8f52",
+    "original": "Grave",
+    "translation": "坟墓",
+    "stage": 1
+  },
+  {
+    "key": "doorZebumperTopsDoor_030179B8#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "mscZebumperLivGmdNoEntryVIP_03017408#MISC:FULL#d1bea53deee2abca2ca04c91f04086ba",
+    "original": "Invitation from the Gourmand",
+    "translation": "美食家餐厅的邀请",
+    "stage": 1
+  },
+  {
+    "key": "mscZebumperLivGmdNoEntryVIPList_03017427#MISC:FULL#ac596323148aad12b305b4d8dbb350cc",
+    "original": "List of The Gourmand guests of honor",
+    "translation": "美食家餐厅主宾名单",
+    "stage": 1
+  },
+  {
+    "key": "VFSAtomicWranglerEscort3_00159A00#NPC_:FULL#a1ffba90f39500bb7ae96bdddaeabafb",
+    "original": "Escort",
+    "translation": "伴游",
+    "stage": 1
+  },
+  {
+    "key": "VFSAtomicWranglerEscort_00159A01#NPC_:FULL#a1ffba90f39500bb7ae96bdddaeabafb",
+    "original": "Escort",
+    "translation": "伴游",
+    "stage": 1
+  },
+  {
+    "key": "npcZebumperLivAtomJamisonDEAD_03004B30#NPC_:FULL#fc1d5bad1d9857e7b970ca2cfb46a259",
+    "original": "Henry Jamison",
+    "translation": "亨利·贾米森",
+    "stage": 1
+  },
+  {
+    "key": "npcZebumperLivAtomDetective_0300514B#NPC_:FULL#6ddfefcefef3fefa4c1613226c236f32",
+    "original": "Jay Barnes",
+    "translation": "杰伊·巴恩斯",
+    "stage": 1
+  },
+  {
+    "key": "npcZebumperLivAtomKid_0301359A#NPC_:FULL#ea36e2336dffda9970946cb135524d90",
+    "original": "Young Traveler",
+    "translation": "年轻旅行家",
+    "stage": 1
+  },
+  {
+    "key": "npcZebumperLivGmdNoEntryGard_030173D6#NPC_:FULL#a23e883a850f45168ef0ef0741ec9244",
+    "original": "White Glove",
+    "translation": "白手套",
+    "stage": 1
+  },
+  {
+    "key": "npcZebumperLiv13Chairman1_0301751C#NPC_:FULL#a38943df713aaf84dd9d41ae0caa4336",
+    "original": "Chairman",
+    "translation": "会长帮",
+    "stage": 1
+  },
+  {
+    "key": "npcZebumperLiv13Chairman2_0301751D#NPC_:FULL#a38943df713aaf84dd9d41ae0caa4336",
+    "original": "Chairman",
+    "translation": "会长帮",
+    "stage": 1
+  },
+  {
+    "key": "crZebumperLivAtomDog_03013597#CREA:FULL#7dc636ea5ee948ebfbea4fa185a4ec6f",
+    "original": "Dog",
+    "translation": "狗",
+    "stage": 1
+  },
+  {
+    "key": "keyZebumperLively13Storage_030174C5#KEYM:FULL#5e9ee717d3c932fdcd0f8b8362e341fa",
+    "original": "Tops maintenance room key",
+    "translation": "九重天维修室钥匙",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLivGmdNoEntryVIP_030173EF#NOTE:FULL#d1bea53deee2abca2ca04c91f04086ba",
+    "original": "Invitation from the Gourmand",
+    "translation": "美食家餐厅的邀请",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLivGmdNoEntryVIP_030173EF#NOTE:TNAM#c10194883d898ebeadaa189e32688633",
+    "original": "Dear Partner,\\nThe White Glove Society is pleased to grant you entry rights to our restaurant the Gourmand, without the need for any prior reservation. This invitation extends to those accompanying you, subject to seat availability.\\n\\nPlease present this document, signed by your own hand, along with its unique reference (at the bottom of the document) at the entrance of the Gourmand to finalize your inclusion on our special guest list. We will retain the document, but your name will be permanently added to our list of esteemed guests.\\n\\nThe management of the White Glove Society reserves the right to revoke this privilege at any time, without requiring any justification.\\n\\nWe remind you that this invitation is nothing more than what it is: by accepting it, you commit to adhering to the established rules just like any other customer of our establishment.\\n\\nBon appétit!\\n\\nThe White Glove Society\\n\\nYour unique reference: VIP82572",
+    "translation": "亲爱的合作伙伴,\\n白手套协会很高兴允许您进入我们的美食家餐厅，无需事先预订。此邀请适用于您的随行人员，视座位情况而定。\\n\\n请在美食家餐厅门口出示这份由您亲笔签名的文件，连同其独特的参考资料(在文件的底部)，以确定您是否被列入我们的特别嘉宾名单。我们将保留这份文件，但您的名字将被永久地列入我们尊敬的客人名单。\\n\\n白手套协会的管理层保留在任何时候取消这一特权的权利，而不需要任何理由。\\n\\n我们提醒您，这份邀请就是这样的:接受邀请，您就像我们公司的其他客户一样，承诺遵守既定的规则。\\n好好享用吧\\n\\n白手套协会\\n\\n您的编号:VIP82572",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLivGmdNoEntryList_030173F0#NOTE:FULL#e4ff39089e9381ee4f67755ad971b701",
+    "original": "Special guests at the Gourmand",
+    "translation": "美食家餐厅的特邀嘉宾",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLivGmdNoEntryList_030173F0#NOTE:TNAM#c284b98e7bbaf7a97b946ace009df717",
+    "original": "Dear collaborators.\\nHere, for your information, is the list of the latest people to receive an official invitation from Le Gourmand:\\n\\nRackatansky M., Gastown\\nVila Tabella R., Old Mexico\\nSteyn J., Nipton\\nWeyne B., Batland\\nCraft L., L.A\\n\\nI'm counting on you to ensure that these people are treated with the utmost consideration throughout their stay here.\\n\\nMarjorie.",
+    "translation": "亲爱的合作伙伴们：\\n\\n此处附上最新收到美食家餐厅正式邀请的人员名单，供你们参考：\\n\\n加斯镇的拉卡坦斯基·M\\n老墨西哥的维拉·塔贝拉·R\\n尼普顿的斯泰恩·J\\n巴特兰的韦恩·B\\n洛杉矶的克拉夫特·L\\n\\n我希望你们确保这些人在逗留期间得到最大程度的礼遇。\\n\\n玛乔里",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLivGmdNoEntryCosplayer_03017426#NOTE:FULL#814e9a689790ddd922bc50c6491b7a94",
+    "original": "Beware of imposters!",
+    "translation": "当心骗子！",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLivGmdNoEntryCosplayer_03017426#NOTE:TNAM#07c99b3289e6d461fbcacc18b6e865d4",
+    "original": "I had no idea one could sink so low as to wear our attire and masks to enter the Gourmand. This scoundrel got his fill, and I had a discussion with our doorman to keep an eye out for any supposed members of our society who might be coming or going from the restaurant. For practical reasons as well as for appearances, it would be inappropriate to control staff accessing the Gourmand, but vigilance will be heightened. Instructions have been given to keep this matter hushed, so as not to give any ideas to other crooks. \\n\\nMarjorie",
+    "translation": "我没想到竟有人堕落至此，穿着我们的衣服、戴着面具混进美食家餐厅。这个无赖已经酒足饭饱，我和门卫讨论过了，让他留意那些可能进出餐厅的所谓社会人士。出于实际考虑和形象问题，我们不便控制员工进出美食家，但我们会加强警惕。我已经吩咐下去，对此事要严格保密，以免给其他骗子可乘之机。\\n\\n玛乔里",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromMMToDir_030175A4#NOTE:FULL#ee6411531b1e3f8254a26f6ecd03f3c6",
+    "original": "Memo",
+    "translation": "备忘录",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromMMToDir_030175A4#NOTE:TNAM#80f119d1c524f3b424ef37afd887ddf9",
+    "original": "The thirteenth floor had suffered a lot of damage, but we can be proud of the work we've put into its restoration. The rooms still need to be remade from the ground up, but in the current state you should be able to rent them.\\n\\nHowever, the room facing the High Roller suite remains unusable. The bathroom wall has still not been repaired. As you know, the gaping hole opens directly into a maintenance room adjoining the service corridor. Unfortunately, we never managed to get our hands on the key to the door leading to this corridor.\\n\\nWith everything caved in above, it's no surprise to see parts of the building crumbling. If you wish, I can take care of the wall when I return from my trip, although it will condemn the maintenance room.\\n\\nMelendez",
+    "translation": "第十三层受损严重，但我们为修复工作感到自豪。房间需要从零开始重建，但目前的状况应该可以出租了。\\n\\n然而，面对巨型摩天轮套房的房间仍然无法使用。浴室的墙壁还没有修复。你知道，那个大洞直接通向与服务走廊相邻的维修室。不幸的是，我们从未设法拿到通往这条走廊的门的钥匙。\\n\\n上面的建筑已经全部坍塌，所以看到部分建筑倒塌也不足为奇。如果你愿意，我可以在旅行回来后处理那堵墙，尽管这会导致维修室无法使用。\\n\\n梅伦德斯",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13LetterFromMMToGirl_030175A5#NOTE:FULL#28a6e27a47cf1aa6d2d7f342ce846072",
+    "original": "Letter to Constanza",
+    "translation": "给康斯坦扎的信",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13LetterFromMMToGirl_030175A5#NOTE:TNAM#3a0374644ae8583ef7a25d393309201b",
+    "original": "My dear Constanza,\\n\\nI'm writing to you from my little camp in the desert. I can't remain so far from Goodsprings any longer. I will stop there to deliver this letter to you. The weather is perfect and, unlike the last time, I've hardly had any bad encounters. The hostility of the desert is no longer what it was.\\n\\nI hope you are doing well.\\n\\nHow you must have changed since the last time! I've lost count of the years...\\n\\nI know that I could not earn your forgiveness. What I did caused terrible damage to our family. But if you or your mother wish to write to me, I've made a stable career for myself here on The Strip, in a snazzy casino called The Tops. They know me there as Miguel Melendez.\\n\\nKisses.\\n\\nDad",
+    "translation": "我亲爱的康斯坦萨:\\n\\n我在沙漠的小营地给你写信。我不能再离开清泉镇这么远了。\\n我将在那里停下来把这封信交给你。\\n天气很好，不像上次，我几乎没有遇到什么糟糕的遭遇。沙漠的敌意已不复当年。\\n\\n我希望你一切都好。\\n\\n自从上次以来，你一定变了很多!我已经记不清多少年了……\\n\\n我知道我无法赢得你的原谅。我的所作所为对我们的家庭造成了严重的伤害。但如果你或你妈妈想写信给我，我在长街有了稳定的工作，在一家叫九重天的时髦赌场。他们都叫我米格尔·梅伦德斯。\\n\\n亲吻。\\n\\n爸爸",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromDirection_030175BB#NOTE:FULL#ee6411531b1e3f8254a26f6ecd03f3c6",
+    "original": "Memo",
+    "translation": "备忘录",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromDirection_030175BB#NOTE:TNAM#cf5a6b904f4bdf1cc6ec5d354932214a",
+    "original": "Dear Mr. Melendez,\\n\\nCould you visit the thirteenth floor again to give a final report on the repairs made and any remaining problems?\\n\\nDuring the first restoration of the Tops, we had wanted to condemn this floor for the personal use of the President, but today we would like to be able to rent two or three rooms to wealthy visitors.\\n\\nWe want to do it without risk for them, given the price they will have to pay. The reputation of the Tops is our priority.\\n\\nThe Tops must stay the tops!\\n\\nThe Director",
+    "translation": "亲爱的梅伦德斯先生:\\n\\n你能不能再来一趟十三层，给我们一份关于维修和遗留问题的最终报告?\\n\\n在第一次修复九重天时，我们曾想将这一层用作总统的私人使用，但今天我们希望能够将两三个房间租给富有的游客。\\n\\n考虑到他们将不得不付出的代价，我们希望这样做不会给他们带来风险。九重天的声誉是我们的首要任务。\\n\\n九重天必须在九天之上!\\n\\n导演",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromDirection2_030175BC#NOTE:FULL#ee6411531b1e3f8254a26f6ecd03f3c6",
+    "original": "Memo",
+    "translation": "备忘录",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromDirection2_030175BC#NOTE:TNAM#4223646b964bcb7e2c30f03bf64018cb",
+    "original": "Dear Mr. Melendez.\\n\\nAs agreed during our interview, you will now be responsible for continuing the restoration work on the thirteenth floor. Your predecessor has already made quite a bit of headway on the project.\\n\\nThe Tops is counting on you!\\n\\nThe Director",
+    "translation": "亲爱的梅伦德斯先生。\\n\\n根据我们面谈时的约定，你现在将负责继续十三层的修复工作。你的前任已经在这个项目上取得了相当大的进展。\\n\\n九重天就指望你了!\\n\\n导演",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromMMToUnknown_030175BD#NOTE:FULL#ee6411531b1e3f8254a26f6ecd03f3c6",
+    "original": "Memo",
+    "translation": "备忘录",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromMMToUnknown_030175BD#NOTE:TNAM#968b42c0295e9551df71133a13fa7b40",
+    "original": "Dear Mr C.,\\n\\nI have given your offer some thought and have decided to accept it.\\n\\nYour information is correct - the wall of the en suite in one of the thirteenth floor bedrooms has collapsed and left a gaping hole leading directly into an old maintenance room that is now unused.\\n\\nThe latter should itself open onto a service corridor, through a locked door. I am currently looking for the key, I'll let you know if I find it.\\n\\nThis corridor, according to my predecessor, runs along the central suite, used by the President. From there you can easily start your investigative work towards this suite and its occupant. Strange things are happening there, believe me. We heard something like an explosion there a few months ago, but the President denies he heard anything of the sort.\\n\\nSince I am in charge, the restoration work will drag on. I hope you'll act during my trip, because otherwise I'll have to repair the wall when I get back and condemn the maintenance room, and thereby any access to the corridor. President's orders.\\n\\nKnow that the floor is guarded and that access to the room where the wall collapsed is forbidden.\\n\\nI have complete confidence in you. I'll recover the agreed upon sum from your subordinates at the location indicated. It's on the way back from Red Rock anyway.\\n\\nMelendez",
+    "translation": "尊敬的C先生，\\n\\n我已经仔细考虑了您的提议，并决定接受。\\n\\n您所说的情况属实——十三层其中一间卧室的配套卫生间墙壁已经倒塌，留下了一个直通废弃旧维修室的大洞。\\n\\n那个维修室本身应该通过一扇锁着的门通向一条服务走廊。我现在正在找钥匙，如果找到了会通知您。\\n\\n据我的前任所说，这条走廊沿着总统套房延伸。从那里您可以轻松地开始对这套房间及其居住者进行调查。相信我，那里正发生着奇怪的事情。我们几个月前曾听到类似爆炸的声音，但总统否认听到了任何声响。\\n\\n既然我负责此事，修复工作将会拖延下去。我希望您能在我的旅行期间采取行动，否则我回来后就得修补墙壁并废弃那个维修室，从而切断通往走廊的通道。这是总统的命令。\\n\\n请注意，楼层有守卫，通往倒塌墙壁所在房间的路被禁止通行。\\n\\n我完全信任您。我会在您指定的地点从您的下属那里收回约定的款项。反正从红岩回来也要经过那里。\\n\\n梅伦德斯",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromMMToUnknownKey_030175C2#NOTE:FULL#ee6411531b1e3f8254a26f6ecd03f3c6",
+    "original": "Memo",
+    "translation": "备忘录",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13MailFromMMToUnknownKey_030175C2#NOTE:TNAM#ef1071591ac2ea1be811106cc08c2e58",
+    "original": "Dear Mr C.\\n\\nI haven't found the key I was telling you about. My predecessor left a note saying that he dropped off said key in the maintenance room, but I couldn't find it anywhere. My poor eyesight does me no favors. Maybe you'll have better luck.\\n\\nOtherwise, we may just have to pick the lock, but that could be a real pain. I don't know anything about stuff like that.\\n\\nMelendez",
+    "translation": "尊敬的C先生：\\n\\n我还没找到之前跟您说的那把钥匙。我的前任留了一张纸条，说他把钥匙放在了维修室，但我哪儿都找遍了，就是没找到。我的视力不好，这对我来说可不利。或许您能找到。\\n\\n不然的话，我们可能只能撬锁了，但那可真够麻烦的。我对这些一窍不通。\\n\\n梅伦德斯",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13NoteFromChairmanStalion_030175D6#NOTE:FULL#0c55122bc4be3f7810328f23031fec5d",
+    "original": "Sweet Words",
+    "translation": "甜言蜜语",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13NoteFromChairmanStalion_030175D6#NOTE:TNAM#64dbb995ea69733ea92d950ed573e1d5",
+    "original": "What a night, my butterfly!\\n\\nI don't regret borrowing the keys to the High Roller Suite.\\n\\nIt felt like you'd been doing this your whole life. Are you sure you're just a simple farmer? The way you use your mouth, I would have bet on a completely different line of work.\\n\\nEnjoy this rest - I have to get to work now. Since Melendez disappeared I have to do twice as much.\\n\\nThe \"Tops\" must remain the tops, they say. Still, the guy went on a trip and we never saw him again. I remember he was bragging about going to have a good time in Red Rock Canyon and that he was going to meet an important guy on the way back. Somewhere between Goodsprings and Bonnie Springs.\\n\\nWhat I believe is that he got away with the cash. The leaders have done the accounts. More than a handful of caps are missing in the safes. Disappeared. Vanished.\\n\\nI always had a bad feeling about Melendez. I'm sure he is the culprit. Well, we'll never know. It's been almost a year now.\\n\\nBefore you go, come see me. We'll have one last little party.\\n\\nAnd if you want to go gambling, I can fix it for you. One of the dealers is a good friend. You'll earn so much maybe you'll want to return some day!\\n\\nYour stallion",
+    "translation": "多么美好的夜晚啊，我的小蝴蝶！\\n\\n我不后悔借用豪赌客套房的钥匙。\\n\\n你表现得就像是个老手。你确定你只是个普通的农民吗？你用嘴的技巧那么高超，我会以为你从事的是完全不同的职业。\\n\\n好好休息吧——我现在得去工作了。自从梅伦德斯消失后，我得干双倍的工作。\\n\\n“九重天”必须保持其巅峰地位，他们说。不过，那家伙去旅行了，我们再也没有见过他。我记得他吹嘘说要去红岩峡谷享受一番，还说在回来的路上要见一个重要的人。在清泉镇和美泉镇之间的某个地方。\\n\\n我相信他带着现金逃跑了。领导们已经查了账。保险箱里少了不少瓶盖。消失了。不见了。\\n\\n我一直对梅伦德斯有不好的预感。我确定他就是罪魁祸首。好吧，我们永远不会知道了。现在已经快一年了。\\n\\n你走之前，来见我。我们会举行最后一次小聚会。\\n\\n如果你想去赌博，我可以帮你安排。其中一个庄家是我的好朋友。你会赚很多钱，也许有一天你会想再回来的！\\n\\n你的牡马",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13BennyJournalPage_0301764B#NOTE:FULL#1a7ae2d054b5706c5c51dad42e46e980",
+    "original": "Benny's Old Diary Page",
+    "translation": "本尼的旧日记页",
+    "stage": 1
+  },
+  {
+    "key": "noteZebumperLiv13BennyJournalPage_0301764B#NOTE:TNAM#b552a0fb91e416a6157937aaa54174af",
+    "original": "December 16, 2278\\n\\nGonna have to relinquish a few rooms to paying customers real soon. Gone are the days of having a whole floor to my own serene self - the fat cats need their caps and all. Can't exactly put up a fight. There'll be too much asking why. Can't be losing the loyalty of my constituents now, can I? Timing's too vital at the moment.\\n\\nJanuary 2, 2279\\n\\nThat damn Melendez!\\n\\nThe guy's onto me like bloat flies on a bad stink. He's trying to get through the secret entrance in the adjoining room, but luckily the door is locked tight. Can't have anyone knowing I had access to it through the service corridor.\\n\\nThe guy before Melendez entered the picture had the key, but God only knows where he might've left it. Suits me fine. Melendez hasn't seen hide nor hair of it, and I'm betting it'll stay that way a while.\\nBetter compel him to fix the bathroom wall at his... earliest convenience. Customers shouldn't be worrying about strange doors and all, right? And it ain't like he can deny a direct order from the big man himself. House runs The Strip, but The Tops is my domain. He better keep that in mind, lest I have to remind him.",
+    "translation": "2278年12月16日\\n\\n很快就得把几间房让给付费客人了。过去独自享用一整层楼的日子一去不复返——那些有钱人需要他们的瓶盖。不能直接反抗。会有太多人追问原因。我现在可不能失去选民的忠诚，对吧？时机太重要了。\\n\\n2279年1月2日\\n\\n那个该死的梅伦德斯！\\n\\n这家伙像苍蝇一样叮着我。他试图通过隔壁房间的秘密入口进来，但幸运的是门锁得紧紧的。不能让任何人知道我可以通过服务走廊进入那里。\\n\\n在梅伦德斯之前的那个人有钥匙，但天知道他可能把它丢在哪里了。这对我来说正好。梅伦德斯没见过它，我敢打赌它会一直保持这样一段时间。\\n\\n最好迫使他尽快修理浴室的墙。顾客可不该担心奇怪的门和其他东西，对吧？他不能拒绝来自大人物本人的直接命令。豪斯管理着长街，但九重天是我的地盘。他最好记住这一点，我得提醒他。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0301740E#INFO:NAM1#91fc5d0e3cdec746ad359df8cd62c802",
+    "original": "Hey, hold up. What do you think you're doing ?",
+    "translation": "嘿，站住。你觉得自己在做什么？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030173E2#INFO:NAM1#fc7d7ded2390f02f2a83a7900c49f438",
+    "original": "Howdy.",
+    "translation": "你好。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030173D9#INFO:NAM1#005ad475a7d320d492aac5004279f5d3",
+    "original": "Hey, where the hell do you think you're going?",
+    "translation": "嘿，你到底要去哪儿？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030173E8#INFO:NAM1#78f3fda3efb2e70f4649cb482ec3070b",
+    "original": "Hello, friend.",
+    "translation": "你好，朋友。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030173E9#INFO:NAM1#fbaaf5d18fb349f660982bdaa6ffde1d",
+    "original": "Got business here?",
+    "translation": "你有什么事？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0301741E#INFO:NAM1#78f3fda3efb2e70f4649cb482ec3070b",
+    "original": "Hello, friend.",
+    "translation": "你好，朋友。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030182D0#INFO:NAM1#7657aaaabddedd3fdc0a1aa3ce557be8",
+    "original": "Stop by Mick & Ralph's for all your shopping needs, sir.",
+    "translation": "米克与拉尔夫的杂货店，满足您的一切购物需求，先生。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030182D1#INFO:NAM1#7ccd85a4af1127208254222d31ea225e",
+    "original": "Stop by Mick & Ralph's for all your shopping needs, ma'am.",
+    "translation": "米克与拉尔夫的杂货店，满足您的一切购物需求，女士。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030182D2#INFO:NAM1#71c039972ae1c4b1d049a89de68e274e",
+    "original": "Mick & Ralph's is located just before the east gate.",
+    "translation": "米克与拉尔夫的杂货店就在东大门前面一点。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_030182D3#INFO:NAM1#bfd6075675f395f53f09613b036cc760",
+    "original": "Leave me alone!",
+    "translation": "离我远点！",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00163C91#INFO:NAM1#7657aaaabddedd3fdc0a1aa3ce557be8",
+    "original": "Stop by Mick & Ralph's for all your shopping needs, sir.",
+    "translation": "米克与拉尔夫的杂货店，满足您的一切购物需求，先生。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00163C92#INFO:NAM1#7ccd85a4af1127208254222d31ea225e",
+    "original": "Stop by Mick & Ralph's for all your shopping needs, ma'am.",
+    "translation": "米克与拉尔夫的杂货店，满足您的一切购物需求，女士。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00163C93#INFO:NAM1#71c039972ae1c4b1d049a89de68e274e",
+    "original": "Mick & Ralph's is located just before the east gate.",
+    "translation": "米克与拉尔夫的杂货店就在东大门前面一点。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0011D8BD#INFO:NAM1#301ecf5250e64ec405569afcf5eb21cc",
+    "original": "Can't wait to hit the Wrangler tonight. Just me and my favorite girl.",
+    "translation": "我都等不及今晚去原子牛仔了。我要和我最喜欢的姑娘泡一晚上。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0004C1A3#INFO:NAM1#2fd86b2d995d5b365930f6a427e12deb",
+    "original": "I'm not supposed to talk to strangers.",
+    "translation": "我不应该和陌生人说话。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E19#DIAL:FULL#1a32b6349acc32566d7041c3339ce62d",
+    "original": "Right here. <Give McCaffery's hat>",
+    "translation": "在这儿呢。 <交出麦卡弗里的帽子>",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#d6cf6a4ef25d09d88c0630528459460b",
+    "original": "This is great news. No one screws with the Garret Twins and gets away with it. I need to find a place on the wall for this.",
+    "translation": "太振奋人心了。敢戏弄加勒特兄妹的人是绝不会有好下场的。我得找个地方把它挂起来。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#ce8d114a6295f950ea2c732f5e189251",
+    "original": "And for your reward... Here's 150 caps. I trust there were also some valuables on McCaffery. Also, we would like to set you up with a room.",
+    "translation": "至于你的奖励……这是150个瓶盖。麦卡弗里身上应该也有些值钱的东西。另外，我们会给你安排一间房间。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformFreesideVFSFrancineGarretTopic006_00116E1C#INFO:NAM1#7b6b2fef4953da536e6a05cb8c725d40",
+    "original": "You can have the corner room, rent free. It was McCaffery's. Now that he's dead, we're happy to let you use it. Thanks for helping us.",
+    "translation": "拐角处的那间房免费给你用了。本来是麦卡弗里住的。既然他死了，我们很乐意把它交给你。谢谢你帮忙。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012547F#INFO:NAM1#cf862ed3c70a726dc890b9e9714285dd",
+    "original": "It's great to be here at the Tops, folks. The room I'm in has a lovely little closet. A nail, ho.",
+    "translation": "能来到九重天简直太棒了，大伙。我住的房间里有个很漂亮的小壁橱。用钉子挂着的。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012547E#INFO:NAM1#c2fd014e9b1794dc92498f4153e3d1fe",
+    "original": "Thank you everybody, you've been a great audience, good night.",
+    "translation": "感谢大家，你们是最好的观众，晚安。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125480#INFO:NAM1#020693c6569169d1e50d4ca6e55de577",
+    "original": "It's hard to sleep in this place, I tell you. Last night some girl was pounding on my door all night. Finally I had to let her out. What?",
+    "translation": "告诉你们，这地方真是难以入眠。昨晚有个女孩通宵砸我房门。最后我只能将她撵出去。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125481#INFO:NAM1#f772e3b5654e775ec1419159e46c1b5f",
+    "original": "They really care about your privacy here at the Tops. Even room service has an unlisted number! What?",
+    "translation": "他们真的很注重你在九重天的隐私。甚至连客房服务的号码都是隐藏的！",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125482#INFO:NAM1#743c52cd9c1b56da4993079212b36a4a",
+    "original": "My hotel room is so small, when I put the key in the lock, I broke the window!",
+    "translation": "我的房间实在太小了，上次我把钥匙插进锁孔时，居然把窗玻璃给捅破了！",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125483#INFO:NAM1#5e2c32bb2779ae85afe315f90a18f7b4",
+    "original": "Hey, what about that suit Benny wears? If I had a suit like that, the ladies would be all over me. What, you expect a punchline? The guy pays my salary, it's true!",
+    "translation": "本尼的衣服怎么样？如果我能有那样一套衣服，小姐们就会围着我转了。什么，你想听我说他的笑话？那家伙可是付了我工钱的！",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125484#INFO:NAM1#1e1923c9100048d78c80618dd466a8ea",
+    "original": "I told my wife, she's good-looking for a Ghoul. It's just too bad she's not a Ghoul, ay ay ay.",
+    "translation": "我告诉我老婆，作为一个尸鬼她的确很漂亮。可惜她不是尸鬼。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125485#INFO:NAM1#e17a1a63b7f4b734a02aa2b0d746975e",
+    "original": "I love these robots with their friendly little policeman faces. Sure, they still rough you up, but they look so happy!",
+    "translation": "我喜欢那些长着好警察面孔的机器人。没错，它们虽然会揍你，但它们揍人时也面带笑容！",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125486#INFO:NAM1#1c2b3de5cbe802c6c21af028a1293440",
+    "original": "My cousin and his wife are a fastidious couple. She's fast and he's hideous, ha cha cha.",
+    "translation": "我表哥和他老婆都很难伺候。她是个急脾气，而他是个丑八怪。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125487#INFO:NAM1#0adeb0a8df2fbd39c88ae40b177b9b5b",
+    "original": "I know a guy, his motto is Love Thy Neighbor. He lives next to a brothel, oh no.",
+    "translation": "我认识一个家伙，他的座右铭是睦邻友好。他就住在妓院的隔壁。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125489#INFO:NAM1#f662acfc51cb3a485c8d65391d3843ea",
+    "original": "I've been married for 17 years. Where did I go wrong? Ohh.",
+    "translation": "我都结婚17年了。我哪里做错了？",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548A#INFO:NAM1#ec8222e0a17c845b2ee53efe9911bf73",
+    "original": "I've been in love with the same woman for 17 years. If my wife ever finds out, she'll kill me! No!",
+    "translation": "我跟一个女人有17年的感情。这事要是让我老婆知道了，她会杀了我！",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548B#INFO:NAM1#6d3c819b6c550e417c0a2ee4fbfb1006",
+    "original": "My wife and I know the secret to a happy marriage. Two times a week, we go to a nice restaurant. She goes Mondays, I go Fridays.",
+    "translation": "我老婆和我都知道维持幸福婚姻的秘诀。有家不错的餐馆，我们每周都去两次。她周一去，我周五去。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548C#INFO:NAM1#ce50bda50450d7b0e5074d1aa2e9ea75",
+    "original": "I take my wife everywhere, but somehow she keeps finding her way back. I did it!",
+    "translation": "我常带着我老婆四处逛，但不知怎么她总能自己找回家。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548D#INFO:NAM1#00954f6aecd1bc5e1791fe658fb33b98",
+    "original": "I bought my wife a little car here in New Vegas. An Omerta. It has a hood under the hood. Ay ay ay.",
+    "translation": "我在新维加斯给我老婆买了辆小车。黑手党的。还装了个折叠车篷。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548E#INFO:NAM1#d935edd06b4f7239ec7215b017a2bb2a",
+    "original": "People say it's hard to survive the Wasteland - hey, how hard can it be, the water glows in the dark! And it burns.",
+    "translation": "人们都说在废土难以生存——有多难，水在夜里会发荧光！",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125490#INFO:NAM1#da4f6c21530adf2bb8b99bd006314c7f",
+    "original": "I had dinner at the Ultra-Luxe the other night. I told them my steak tasted funny. They said it was a clown. I ate a person!",
+    "translation": "前两天晚上我在奢华殿堂吃晚餐。我告诉他们我牛排的味道很奇怪。他们却骂我是个乡巴佬。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125491#INFO:NAM1#975400033b96b6469e8d644ed630ead6",
+    "original": "I hear James Garret drove 5,000 head of Brahmin to New Reno. No bodies, just the heads.",
+    "translation": "我听说詹姆斯·加勒特运了5000只脑袋的双头牛到新里诺。没有身体，只有脑袋。",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125492#INFO:NAM1#79c7517f906a11093582c40a4ab76315",
+    "original": "A Ghoul goes to a doctor and says, \"Doctor, Doctor, I have this horrible rash!\" The Doctor says, \"Son, that's called your face.\" Ding dong!",
+    "translation": "一个尸鬼去看大夫，他说\"大夫，大夫，我起了很严重的疹子 !\"医生说\"孩子，那就是你的脸啊。\"",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPlayerTop_030173DB#DIAL:FULL#44013a91af4c4f3d9e956b4944309e1a",
+    "original": "Let me guess... You need a reservation or an invitation to get in.",
+    "translation": "让我猜猜...您需要预订或邀请才能进入。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPlayerTop_030173DC#INFO:NAM1#045d22f972d75dd504f2d1d53c0dbce5",
+    "original": "Yes. Sorry.",
+    "translation": "对，抱歉",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMortimer_030173DD#DIAL:FULL#8ed3f45d9dbe1e3034b199ba702a9e2e",
+    "original": "I'm working for Mortimer.",
+    "translation": "我在为莫蒂默工作。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMortimer_030173DE#INFO:NAM1#9dc0f52ca4039312a91a012d72740998",
+    "original": "Yes, I just got word of that. Go ahead.",
+    "translation": "是的，我刚听说。继续。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMortimer_0301740C#INFO:NAM1#3605167b4bda787513339c4070849de4",
+    "original": "Yeah, good luck with that.",
+    "translation": "嗯，祝你好运。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMortimer_0301740C#INFO:RNAM#d3132da15c3b6eade140dfbb326e3741",
+    "original": "I'm still working for Mortimer.",
+    "translation": "我仍在为莫蒂默工作。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_030173DF#DIAL:FULL#93e1e78781835c760bdc3153c30bce3f",
+    "original": "speech test",
+    "translation": "口才检定",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_030173E0#INFO:NAM1#f7c576e48233268bfa5f4decf635a99b",
+    "original": "[FAILED] Now you're just wasting my time.",
+    "translation": "[失败]你是在浪费我的时间",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_030173E0#INFO:RNAM#2746454454f21760b65781873a5d521d",
+    "original": "This is kind of weird, I... I believe I left my invitation in one of the rooms...",
+    "translation": "这有点奇怪，我…我想我把邀请函忘在某个房间了...",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_030173E1#INFO:NAM1#d3c5b573f3d1f682957b54f6a9df06f0",
+    "original": "[SUCCEEDED] Alright, but just for once, I'm warning you.",
+    "translation": "[成功]好吧，但就这一次，我警告你。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_030173E1#INFO:RNAM#d3aee206dc13b13592eeaef4086b1afd",
+    "original": "Listen, I've lost my invitation and I've come from far away. Do me a favor. What would people say if they found out that the Gourmand rejected a special guest?",
+    "translation": "听着，我把请柬弄丢了，而且我是从很远的地方来的。帮我个忙。如果人们发现美食家餐厅拒绝了一位特别的客人，他们会怎么说?",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_03017416#INFO:NAM1#d3c5b573f3d1f682957b54f6a9df06f0",
+    "original": "[SUCCEEDED] Alright, but just for once, I'm warning you.",
+    "translation": "[成功]好吧，但就这一次，我警告你。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_03017416#INFO:RNAM#d3aee206dc13b13592eeaef4086b1afd",
+    "original": "Listen, I've lost my invitation and I've come from far away. Do me a favor. What would people say if they found out that the Gourmand rejected a special guest?",
+    "translation": "听着，我把请柬弄丢了，而且我是从很远的地方来的。帮我个忙。如果人们发现美食家餐厅拒绝了一位特别的客人，他们会怎么说?",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_03017417#INFO:NAM1#92c90b5cd1a92580e4ec371b32afd9c1",
+    "original": "No.",
+    "translation": "不。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySpeech_03017417#INFO:RNAM#10fc9a307755813357c8208a161a6c70",
+    "original": "Would you let me in one more time?",
+    "translation": "你能再让我进一次吗？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryVIP_030173E3#DIAL:FULL#89fb082075a20ee093891df1576f6469",
+    "original": "Don't you recognize me? I'm the one who solved the casino's issues.",
+    "translation": "你没认出我来吗？是我解决了赌场的问题。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryVIP_030173E4#INFO:NAM1#98a3857137c78d8600f4a7a328a75379",
+    "original": "Oh, it's you. Sorry about that, friend. We don't get many visitors of your esteem. Head on through.",
+    "translation": "哦，是你。对不起，朋友。像您这样尊贵的客人不多。往前走。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryVIP_03017423#INFO:NAM1#66dd8563398e48afa0e29d44f74b5026",
+    "original": "Sure. Welcome to the pinnacle of society.",
+    "translation": "当然。欢迎加入上流社会。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryVIP_03017423#INFO:RNAM#9556a74e2d7adfeabd7bad0a730f4642",
+    "original": "I assume Marjorie let you know that I've been added to the guest list at the Gourmand.",
+    "translation": "我想玛乔里已经告诉你我已经被列入美食家餐厅的客人名单了。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySuite_030173EA#DIAL:FULL#b64a9d7eb69b85be144700c0005c91ea",
+    "original": "I've got the Bon Vivant Suite at my disposal, permanently!",
+    "translation": "我已永久获得享乐家套房的使用权！",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntrySuite_030173EB#INFO:NAM1#c71c00f099dc5ff4075f4076a32fd3cf",
+    "original": "It's still against regulations, I can't help you.",
+    "translation": "但违规就是违规，我帮不了你。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaper_030173ED#DIAL:FULL#88bd431ea95afb07458c7337d0f75ca3",
+    "original": "I'm one of The Gourmand's special guests.",
+    "translation": "我是美食家餐厅的特邀嘉宾之一。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaper_030173EE#INFO:NAM1#85647434c28d9f885acdca4049bfbe6b",
+    "original": "How ever did you get on that guest list?",
+    "translation": "你是怎么上那宾客名单的?",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaperA_030173F4#DIAL:FULL#08179639d30b5449e27e8703c4f5d320",
+    "original": "See this? I've got an invitation. The reference is VIP82572.",
+    "translation": "看到了吗?我收到了请柬。编号是VIP82572。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaperA_030173F7#INFO:NAM1#e1b12d7390425610cd259525444ea930",
+    "original": "You've got to be kidding me... Wow! Where'd you get it from?",
+    "translation": "你在跟我开玩笑吧……哇!你从哪弄来的?",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaperA_030173F7#INFO:NAM1#771e70261935d3f7959aca8e664ceeec",
+    "original": "Whatever. We don't get many visitors of your esteem. Please, head on through.",
+    "translation": "无论怎样。像您这样尊贵的客人不多。请往前走。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaperB_030173F5#DIAL:FULL#d04a9aa2967d4c0934157875f579596a",
+    "original": "Never mind. I was just kidding.",
+    "translation": "没事。我只是开玩笑。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryPaperB_030173F6#INFO:NAM1#7db5e8c4065ca18564d7a2ad9938abd9",
+    "original": "Now you're just wasting my time...",
+    "translation": "现在你只是在浪费我的时间…",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCorrupt_0301740A#DIAL:FULL#aef1d5852b1ef709e920e53766f04cc3",
+    "original": "Could we overlook the whole invitation thing if I slide you 500 caps?",
+    "translation": "如果我给你塞500瓶盖，我们能忽略邀请这件事吗?",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCorrupt_0301740B#INFO:NAM1#30352b45eba5f05a7df1b87541960b32",
+    "original": "Get away from me.",
+    "translation": "离我远点。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCorrupt_0301740D#INFO:NAM1#bc9ef346e7700a1f8f5e6bb161061c19",
+    "original": "Nice try.",
+    "translation": "干的不错。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail_0301740F#DIAL:FULL#00b76eaa619351038dbc55de6ac78b31",
+    "original": "costume fail",
+    "translation": "伪装失败",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail_03017410#INFO:NAM1#2972c57da277de0e6fcfbd2b0f0e5379",
+    "original": "Who the fuck do you think you are?",
+    "translation": "你他妈的认为自己是谁？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail_03017410#INFO:RNAM#94678294186ab4d5e5e424c4b42a777a",
+    "original": "Do we have a problem, mate?",
+    "translation": "有什么问题吗，伙计？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail_03017411#INFO:NAM1#3e5a7a6415daba78010f708613bf1b56",
+    "original": "You vile cad. I've half a mind to give you a solid thrashing with my cane.",
+    "translation": "你这肮脏的无赖，我现在已经想好怎么用我手中的手杖教训你了。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail_03017411#INFO:RNAM#3a6c67f4c8410d4603a53b0d26cf5768",
+    "original": "Darn it. I'm terrible at disguises...",
+    "translation": "该死，我伪装得很糟糕...",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail3_03017412#DIAL:FULL#41af00c9006308758271d6747874fd55",
+    "original": "Come on, it's me: your colleague...",
+    "translation": "拜托，是我：你的同事...",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail3_03017413#INFO:NAM1#610bf60aeb62286b84cce26d17b46a59",
+    "original": "Get the fuck away from me.",
+    "translation": "你他妈的离我远点。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail4_03017414#DIAL:FULL#83ee0bfc156f08456a3ab61a5ceea9ca",
+    "original": "Alright, you've caught me. But I assure you it was just a tasteless joke.",
+    "translation": "好吧，你抓住我了。但我向你保证，这只是一个无趣的笑话。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryCostFail4_03017415#INFO:NAM1#90592450269d128f998f30379c7e155c",
+    "original": "Better not try that again.",
+    "translation": "最好别再这么做了。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMember_03017418#DIAL:FULL#2e44b381e2b6824969e744b0128471cc",
+    "original": "I'm an honorary member of the White Glove Society.",
+    "translation": "我是白手套协会的荣誉会员。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMember_03017419#INFO:NAM1#9a8823e0a3c7f2ba7c1e2b5f4cf95616",
+    "original": "Well, that is great and all, but it's really against regulations.",
+    "translation": "你确实不错，但这么做真的违反规定了。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMember_03017419#INFO:NAM1#63800d49944fd389567ebf4a32d27098",
+    "original": "Being an honorary member isn't the same as being a real member, but it still makes you better than everyone else.",
+    "translation": "虽然荣誉会员离真正的会员还有很大差距，但依然能让你高人一等。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMemberInsist_0301741A#DIAL:FULL#a669dfb45f7d3579676ca642e16cc725",
+    "original": "Can't you make an exception? Just for this time, so I can take a peek.",
+    "translation": "你不能破例吗？只是这一次，让我可以看一眼。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMemberInsist_0301741B#INFO:NAM1#b29666d5b26bde63b2da70475db1929f",
+    "original": "Hmm. Okay. I guess I can make an exception, but just for once, I'm warning you.",
+    "translation": "嗯。好吧。我想我可以破例一次，但仅此一次，我警告你。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMemberNoInsist_0301741C#DIAL:FULL#48c23b14bd5fb5f05d5496c97d78a679",
+    "original": "I see. Never mind.",
+    "translation": "我懂了。不要介意。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMemberNoInsist_0301741D#INFO:NAM1#23afc27876698cb9339467af1715f721",
+    "original": "Sorry about that, friend.",
+    "translation": "对不起，朋友。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_0301741F#DIAL:FULL#82c28cd93c248ba17a8efc06d25d10b0",
+    "original": "marjorie",
+    "translation": "玛乔里",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_03017420#INFO:NAM1#da8a091ecd56cb75a9babed1c6fb681a",
+    "original": "The answer is no, I fear.",
+    "translation": "恐怕答案是否定的。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_03017420#INFO:RNAM#838426917ebc65578af7585f4dca3b23",
+    "original": "Could I book a table?",
+    "translation": "我能订一张桌子吗？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_03017422#INFO:NAM1#b1aae5f287b2d0778bf81a9d3f889c86",
+    "original": "Most definitely! You have become quite an impressive person in my estimation.",
+    "translation": "当然了！你在我心目中已经成为了一个令人印象深刻的人。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_03017422#INFO:RNAM#8861876229a0589e61992e8f0f1e3a82",
+    "original": "Considering all I've done for the casino, can I expect unlimited access to the Gourmand?",
+    "translation": "考虑到我为赌场所做的一切，我能无限量地访问美食家餐厅吗？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_03017421#INFO:NAM1#025c0abe2febf7022d8a6dc19095368c",
+    "original": "The answer is still no, I fear.",
+    "translation": "恐怕答案仍然是否定的。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperLivGmdNoEntryMarj_03017421#INFO:RNAM#f3cea682afbf66e36b04a961757d0240",
+    "original": "Still no tables available?",
+    "translation": "仍然没有可用的桌子？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPerkII_030182DD#DIAL:FULL#036f25943fa4e9426028b93f532ca3f7",
+    "original": "Yeah... But you gotta be quiet when I walk by. Okay?",
+    "translation": "嗯……不过我路过的时候你得安静点。好吗？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPerkII_030182DE#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "OK。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPay_030182DF#DIAL:FULL#e10f278f675a76b60d0a373a14d86e8e",
+    "original": "<Give 250 caps> Take this and stop bugging me already.",
+    "translation": "<给250瓶盖>拿着这个，别再烦我了。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPay_030182E0#INFO:NAM1#e46896c5f1eb8cd2444e6aca73e6a16a",
+    "original": "Uh... You mean it? Wow!",
+    "translation": "呃……你是说真的吗？哇！",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPay_030182E0#INFO:NAM1#0541a205eda58b93327646b2479b3f56",
+    "original": "Thanks, mister.",
+    "translation": "谢谢，先生。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPay_030182E2#INFO:NAM1#e46896c5f1eb8cd2444e6aca73e6a16a",
+    "original": "Uh... You mean it? Wow!",
+    "translation": "呃……你是说真的吗？哇！",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPay_030182E2#INFO:NAM1#d2fc230151922e5598563d28487563bc",
+    "original": "Thanks, lady.",
+    "translation": "谢谢，女士。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierScold_030182E3#DIAL:FULL#4615bf81f39b246c6140c910d42118f9",
+    "original": "Shut it, kid. Or I'll beat you up.",
+    "translation": "闭嘴，小子。不然我揍你了。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierScold_030182E4#INFO:NAM1#c3ba9007dca9cf5f185a7bd04e6e59f1",
+    "original": "What's your problem? Get lost.",
+    "translation": "怎么了？走开。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPerk_030182E5#DIAL:FULL#da3e5a7eba8d4eac51cad9265af889f5",
+    "original": "[Child at Heart] See this scar? A Deathclaw gave it to me and my ear is super sensitive now.",
+    "translation": "[童心未泯]看到这个伤疤没？一只死亡爪给我抓的，现在我的耳朵特别敏感。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPerk_030182E6#INFO:NAM1#92fe1c3ced8530333237bec6be45bf86",
+    "original": "Ooo... Really? That's cool!",
+    "translation": "噢……真的吗？太酷了！",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierTerror_030182E7#DIAL:FULL#789c16e4be1a607d2831fc85b2d393ef",
+    "original": "[Terrifying Presence] Either you shut up, or you're gonna get smacked so hard your folks up there won't even recognize you.",
+    "translation": "[凶神恶煞]你最好闭嘴，不然我会把你揍得你妈都不认识。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierTerror_030182E8#INFO:NAM1#8bd4764cc75284d2639a24034c67dcf7",
+    "original": "Please no! Leave me alone!",
+    "translation": "求你了！放过我吧！",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPunch_030182E9#DIAL:FULL#d53015912f80e526bb41be008536e814",
+    "original": "<Punch the kid in the face> You asked for it.",
+    "translation": "<揍孩子一拳>你自找的。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierPunch_030182EA#INFO:NAM1#dbe13b11bf513cbb1c28ffda007a52fd",
+    "original": "Uh...",
+    "translation": "呃…",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierAsk_030182EB#DIAL:FULL#263de62e1685717dc953dd4ed5139ca1",
+    "original": "So, are you going to keep bothering me with Mick & Ralph's?",
+    "translation": "那么，你还会不会拿米克与拉尔夫杂货店的事来烦我？",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierAsk_030182EC#INFO:NAM1#0a885341520fc4d68480c34c18025861",
+    "original": "Sorry sir, they give me caps to do it.",
+    "translation": "对不起，先生，他们给我瓶盖让我这么做的。",
+    "stage": 1
+  },
+  {
+    "key": "tpcZebumperCrierAsk_030182ED#INFO:NAM1#0ec6e97adcf5c0428ff960a59c2c70e7",
+    "original": "Sorry ma'am, they give me caps to do it.",
+    "translation": "对不起，夫人，他们给我瓶盖让我这么做的。",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperCrierMain_03017258#QUST:FULL#e4949d4feab10807654cf9bd0e4b0bbb",
+    "original": "main quest",
+    "translation": "主要任务",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:FULL#5118978b902eff4ef2f08563daf47d32",
+    "original": "Gourmandise",
+    "translation": "暴食",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:CNAM#41ac455dd456962d5eb038f9ff668b65",
+    "original": "Access to the Gourmand is tightly controlled. However, there must be a way to obtain unlimited access to the venue.",
+    "translation": "进入美食家餐厅是受到严格控制的。但是，必须有一种方法可以无限制地进入会场。",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:CNAM#d4e2ad8ef965ed4ad7ab63d544161417",
+    "original": "Using the list of granted invitations to secure one.",
+    "translation": "使用已授予的邀请列表来确保一个邀请。",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:CNAM#f582df0d0cb3cc82d02e3adabcf96f99",
+    "original": "I've secured the position of an honored guest at the Gourmand, ensuring my entry to the Ultra-Luxe Gourmand without requiring a table reservation.",
+    "translation": "我已经获得了美食家餐厅的贵宾职位，确保我无需预订餐桌即可进入奢华殿堂美食家餐厅。",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:NNAM#f79da0be5d4218a5ef7a11e9a3d4828e",
+    "original": "Find a way to be among the Gourmand's guests of honor.",
+    "translation": "想办法成为美食家餐厅的贵宾。",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:NNAM#94a948c134896cfd9a0870738216898e",
+    "original": "Use the list to obtain an official invitation from The Gourmand.",
+    "translation": "使用此列表可获得美食家餐厅的正式邀请。",
+    "stage": 1
+  },
+  {
+    "key": "qstZebumperLivGmdNoEntry_030173DA#QUST:NNAM#bce649131243cd8b41188a779ebad5bb",
+    "original": "Present your honored guest status at the Gourmand to the doorman.",
+    "translation": "向看门人展示您在美食家餐厅的贵宾身份。",
+    "stage": 1
+  },
+  {
+    "key": "msgZebumperHungHat_030176B4#MESG:DESC#444574d8ea5363442105c635da93895c",
+    "original": "This hat reminds all the citizens of Freeside that no one screws with the Garrets twins!",
+    "translation": "这顶帽子让自由城的所有公民都知道，没人敢招惹加勒特兄妹！",
+    "stage": 1
+  },
+  {
+    "key": "msgZebumperHungHat_030176B4#MESG:FULL#504700aa8c0912b0b739bfbc3654d38f",
+    "original": "Caleb McCaffery's Hat",
+    "translation": "卡勒布·麦卡弗里的帽子",
+    "stage": 1
+  },
+  {
+    "key": "Gomorrah01_0010CC8F#CELL:FULL#93d637b613d378aad6ce4b69eeb890ee",
+    "original": "Gomorrah Main Level",
+    "translation": "蛾摩拉主层",
+    "stage": 1
+  },
+  {
+    "key": "ULKitchen_00119670#CELL:FULL#c2d0ee374d47b9852d226139a671f1b5",
+    "original": "Ultra-Luxe Kitchen",
+    "translation": "奢华殿堂厨房",
+    "stage": 1
+  },
+  {
+    "key": "ULMembersOnly_00119508#CELL:FULL#8580a75df21d5181c24a8f711f6efef4",
+    "original": "White Glove Members Only Section",
+    "translation": "白手套会员专用区",
+    "stage": 1
+  },
+  {
+    "key": "ULGourmand_001188ED#CELL:FULL#131153e755f71a9e27eb1863893b1d27",
+    "original": "The Gourmand at the Ultra-Luxe",
+    "translation": "奢华殿堂的美食家餐厅",
+    "stage": 1
+  },
+  {
+    "key": "NiptonTownHallInteriorFloor3_00131F9B#CELL:FULL#b9d9546af24824be74901e34028cc389",
+    "original": "Town Hall Steyn's Office",
+    "translation": "城镇会堂斯泰恩的办公室",
+    "stage": 1
+  },
+  {
+    "key": "ULCasino_0010D4ED#CELL:FULL#e5076c326da5cbdae69ca85da8c16dea",
+    "original": "Ultra-Luxe Casino Floor",
+    "translation": "奢华殿堂赌场",
+    "stage": 1
+  },
+  {
+    "key": "2ETopsBennysFloor_0010E429#CELL:FULL#fd416ef5a31890f733dbcd0bd15daa7b",
+    "original": "The Tops 13th Floor",
+    "translation": "九重天13层",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0010E435#REFR:XATO#1cdcee9e9362917b4dd2c34513a0360b",
+    "original": "Take Elevator to Tops Casino Main Floor",
+    "translation": "乘电梯到九重天赌场主层",
+    "stage": 1
+  },
+  {
+    "key": "FreesideAtomicWrangler_00110F2B#CELL:FULL#4e7e8c59bca4c7403e406451ef81300b",
+    "original": "Atomic Wrangler",
+    "translation": "原子牛仔",
+    "stage": 1
+  },
+  {
+    "key": "2ELVBStation_00110DB1#CELL:FULL#4c8c4b201aeb67d08779d7d03fa32d08",
+    "original": "Las Vegas Boulevard Station",
+    "translation": "拉斯维加斯林荫大道站",
+    "stage": 1
+  },
+  {
+    "key": "FreesideAtomicWrangler2_00111DE7#CELL:FULL#4e7e8c59bca4c7403e406451ef81300b",
+    "original": "Atomic Wrangler",
+    "translation": "原子牛仔",
+    "stage": 1
+  },
+  {
+    "key": "TOPSCasino_0010D2D4#CELL:FULL#1248137f0a5f36c83100526835725c79",
+    "original": "The Tops Casino Main Floor",
+    "translation": "九重天赌场大厅",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0010E4D9#REFR:XATO#fa0232faf4fcdb994d94d7d604bd4f18",
+    "original": "Take Elevator to 13th Floor",
+    "translation": "乘坐电梯到13层",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "GamorrahWorld_00110628#WRLD:FULL#457ad616436ee3586d03b41ed45c990a",
+    "original": "Courtyard",
+    "translation": "庭院",
+    "stage": 1
+  },
+  {
+    "key": "FreesideNorthWorld_0012D94D#WRLD:FULL#0673adbfdfed4650ae97a321a30ec640",
+    "original": "Freeside",
+    "translation": "自由之城",
+    "stage": 1
+  },
+  {
+    "key": "TheStripWorldNew_0013B308#WRLD:FULL#c243a7753521da7719cd77b75a3d6ee6",
+    "original": "The Strip",
+    "translation": "长街",
+    "stage": 1
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012547F#INFO:NAM1#7c1d8a72b7fd1de07f59cf94e0e31854",
+    "original": "It's great to be here at the Tops, folks. The room I'm in has a lovely little closet. A nail.",
+    "translation": "能来到九重天简直太棒了，大伙。我住的房间里有个很漂亮的小壁橱。用钉子挂着的。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125480#INFO:NAM1#1053890024083d4b66dc719f0cb9579a",
+    "original": "It's hard to sleep in this place, I tell you. Last night some girl was pounding on my door all night. Finally I had to let her out.",
+    "translation": "告诉你们，这地方真是难以入眠。昨晚有个女孩通宵砸我房门。最后我只能将她撵出去。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125481#INFO:NAM1#bccc0e39193a9e71a0f420f77e3164f9",
+    "original": "They really care about your privacy here at the Tops. Even room service has an unlisted number!",
+    "translation": "他们真的很注重你在九重天的隐私。甚至连客房服务的号码都是隐藏的！",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125483#INFO:NAM1#4aad018dd73caee5ea266f071d4dbea8",
+    "original": "How about that suit Benny wears? If I had a suit like that, the ladies would be all over me. What, you expect a punchline? This guy pays my salary!",
+    "translation": "本尼的衣服怎么样？如果我能有那样一套衣服，小姐们就会围着我转了。什么，你想听我说他的笑话？那家伙可是付了我工钱的！",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125485#INFO:NAM1#fc94cfa08f5949ab0e3654a268604141",
+    "original": "I love these robots with the friendly little policeman's faces. Sure, they still rough you up, but they look so happy!",
+    "translation": "我喜欢那些长着好警察面孔的机器人。没错，它们虽然会揍你，但它们揍人时也面带笑容！",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125486#INFO:NAM1#7778ece10ffab21295019e5c9fdc17ca",
+    "original": "My cousin and his wife are a fastidious couple. She's fast and he's hideous.",
+    "translation": "我表哥和他老婆都很难伺候。她是个急脾气，而他是个丑八怪。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125487#INFO:NAM1#f5ba7d47933eb02559f60a791c42250c",
+    "original": "I know a guy, his motto is Love Thy Neighbor. He lives next door to a brothel.",
+    "translation": "我认识一个家伙，他的座右铭是睦邻友好。他就住在妓院的隔壁。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125489#INFO:NAM1#808ea5ca4e28167854c23fb3a1abdf40",
+    "original": "I've been married for 17 years. Where did I go wrong?",
+    "translation": "我都结婚17年了。我哪里做错了？",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548A#INFO:NAM1#1ccc12070b0931c1f30430d821814e21",
+    "original": "I've been in love with the same woman for 17 years. If my wife ever finds out, she'll kill me!",
+    "translation": "我跟一个女人有17年的感情。这事要是让我老婆知道了，她会杀了我！",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548C#INFO:NAM1#96586f76f1336f698a050ab2be3a4cd2",
+    "original": "I take my wife everywhere, but somehow she keeps finding her way back.",
+    "translation": "我常带着我老婆四处逛，但不知怎么她总能自己找回家。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548D#INFO:NAM1#47b3dce52c5e6bfdf7b653f4532ec86e",
+    "original": "I bought my wife a little car here in New Vegas. An Omerta. It has a hood under the hood.",
+    "translation": "我在新维加斯给我老婆买了辆小车。黑手党的。还装了个折叠车篷。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_0012548E#INFO:NAM1#d01c69dec160e3a0e53e19c7781fd401",
+    "original": "People say it's hard to survive the Wasteland - how hard can it be, the water glows in the dark!",
+    "translation": "人们都说在废土难以生存——有多难，水在夜里会发荧光！",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125490#INFO:NAM1#eb139d28440180b230ba6b79f710820f",
+    "original": "I had dinner at the Ultra-Luxe the other night. I told them my steak tasted funny. They said it was a clown.",
+    "translation": "前两天晚上我在奢华殿堂吃晚餐。我告诉他们我牛排的味道很奇怪。他们却骂我是个乡巴佬。",
+    "stage": 0
+  },
+  {
+    "key": "TopsBillyKnightPerformanceStrings_00125492#INFO:NAM1#7ebb016158d10f0a6910a457488a8151",
+    "original": "A ghoul goes to a doctor and he says \"Doctor, Doctor, I have this horrible rash!\" The Doctor says \"Son, that's called your face.\"",
+    "translation": "一个尸鬼去看大夫，他说\"大夫，大夫，我起了很严重的疹子 !\"医生说\"孩子，那就是你的脸啊。\"",
+    "stage": 0
+  }
+]

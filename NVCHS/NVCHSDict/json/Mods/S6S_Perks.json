@@ -1,0 +1,2210 @@
+[
+  {
+    "key": "ReduceSkillBarter_110039A4#MGEF:FULL#ffd77b46dddef76501b3ee390db4320f",
+    "original": "Reduced Barter",
+    "translation": "降低交易",
+    "stage": 1
+  },
+  {
+    "key": "ReduceSkillSpeech_110039A5#MGEF:FULL#6365b4a2d7e999077d83895b206b6400",
+    "original": "Reduced Speech",
+    "translation": "降低口才惩罚",
+    "stage": 1
+  },
+  {
+    "key": "ReduceFireResistance_11009C5E#MGEF:FULL#82fdee25c8b3182442ee4fbf9883a441",
+    "original": "Reduced Fire Resistance",
+    "translation": "减少火焰抗性",
+    "stage": 1
+  },
+  {
+    "key": "ReduceSkillScience_1100CDAB#MGEF:FULL#776251162e7aadd4fdb38c4cabd72046",
+    "original": "Reduced Science",
+    "translation": "降低科学",
+    "stage": 1
+  },
+  {
+    "key": "ReduceDamageThresholdS6SPerks_11010F6B#MGEF:FULL#7b2a506854cd5a61282e33fb550c59df",
+    "original": "Reduced Damage Threshold",
+    "translation": "降低DT",
+    "stage": 1
+  },
+  {
+    "key": "ReduceChameleonS6S_110140B9#MGEF:FULL#c6d9a980f841055e71981cffd168711d",
+    "original": "Reduced Sneak Chance",
+    "translation": "降低潜行成功率",
+    "stage": 1
+  },
+  {
+    "key": "IncreaseChameleonS6S_110140BA#MGEF:FULL#8a6d796b1b910f5ad767945bec7c47a7",
+    "original": "Increased Sneak Chance",
+    "translation": "增加潜行成功率",
+    "stage": 1
+  },
+  {
+    "key": "DummyAttackSpeedBonus_1101513C#MGEF:FULL#be05dc7b0692544f9d482889e5748646",
+    "original": "Bonus Attack Speed",
+    "translation": "增加攻击速度",
+    "stage": 1
+  },
+  {
+    "key": "ReduceSkillSneak_1101C470#MGEF:FULL#2fbf7c37e56e5ce8bae4feba10018d92",
+    "original": "Reduced Sneak",
+    "translation": "减少潜行技能",
+    "stage": 1
+  },
+  {
+    "key": "SCPTS6SOnAddPerk_1101F5ED#SCPT:SCDA#635a9da2de089feec375bcdf60f3f338",
+    "original": "You have become Twisted, and you are no longer an Idealogue.",
+    "translation": "你已变为癫佬，不再是理想主义者。",
+    "stage": 1
+  },
+  {
+    "key": "SCPTS6SOnAddPerk_1101F5ED#SCPT:SCDA#721b63813cb0018707aca0e1d70e73d5",
+    "original": "You have become an Idealogue, and you are no longer Twisted.",
+    "translation": "你已成为理想主义者，不再是癫佬。",
+    "stage": 1
+  },
+  {
+    "key": "AbilityInertialDampening_110018A2#SPEL:FULL#0fe7e1fb7ad9f0c8ceaa6a8d22f6e054",
+    "original": "Inertial Dampening",
+    "translation": "空中舞者",
+    "stage": 1
+  },
+  {
+    "key": "AbilityDiplomat_11002919#SPEL:FULL#2b1d30cf60cf36d4ee4a77d71dbf75bc",
+    "original": "Diplomat",
+    "translation": "外交官",
+    "stage": 1
+  },
+  {
+    "key": "AbilityNervous_1100291B#SPEL:FULL#00a3e66864f9b58d35a429d3dd50231b",
+    "original": "Nervous",
+    "translation": "惊魂不定",
+    "stage": 1
+  },
+  {
+    "key": "AbilityAtomBombBaby_1100291E#SPEL:FULL#ce3922cd7d951dc5fac303c0eed1f763",
+    "original": "Atom Bomb Baby",
+    "translation": "原子弹宝贝",
+    "stage": 1
+  },
+  {
+    "key": "AbilityBreakinASweat_11002920#SPEL:FULL#579a0b7572d5f4557451352361630d46",
+    "original": "Breakin' A Sweat",
+    "translation": "满身大汗",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySuckerPunch_11002922#SPEL:FULL#85e25b8bba66c46474c945530dcb0286",
+    "original": "Sucker Punch",
+    "translation": "暗杀拳法",
+    "stage": 1
+  },
+  {
+    "key": "AbilityHeadlessCourier_11002925#SPEL:FULL#99ba6629767d2477e134a3613a8b819f",
+    "original": "Headless Courier",
+    "translation": "无头邮差",
+    "stage": 1
+  },
+  {
+    "key": "AbilityGunFu_11002928#SPEL:FULL#10639c7fcef376c6fabf95922ce853ef",
+    "original": "Gun-Fu",
+    "translation": "功夫枪法",
+    "stage": 1
+  },
+  {
+    "key": "AbilityNonCombatant_1100292A#SPEL:FULL#bf48c9bcf10005a112978956832ba6cd",
+    "original": "Non-Combatant",
+    "translation": "非战斗人员",
+    "stage": 1
+  },
+  {
+    "key": "AbilityIndirectBartering_1100292C#SPEL:FULL#bd405ee85d1d208f4095b6ca2d71cd14",
+    "original": "Indirect Bartering",
+    "translation": "核蔼可亲",
+    "stage": 1
+  },
+  {
+    "key": "AbilityGunGuru_11003995#SPEL:FULL#46e828d5475f573fd1c264d9ed908ca8",
+    "original": "Gun Guru",
+    "translation": "枪弹大师",
+    "stage": 1
+  },
+  {
+    "key": "AbilityCrouchingTurtle_1100399D#SPEL:FULL#da68dde9becf0e53da362c27fd272bbd",
+    "original": "Crouching Turtle",
+    "translation": "卧龟",
+    "stage": 1
+  },
+  {
+    "key": "AbilityCoiledSnake_1100399F#SPEL:FULL#840d967be810b0d8c16d4842c424e510",
+    "original": "Coiled Snake",
+    "translation": "盘蛇",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySneakingTiger_110039A1#SPEL:FULL#d4af499bcaa9b5cd722fca2609ec92ea",
+    "original": "Sneaking Tiger",
+    "translation": "潜虎",
+    "stage": 1
+  },
+  {
+    "key": "AbilityShhh_110039A3#SPEL:FULL#cc78d78a7611526533e2474543d72b50",
+    "original": "Shhh!",
+    "translation": "嘘！",
+    "stage": 1
+  },
+  {
+    "key": "AbilityWastelandMasquerade_110039A7#SPEL:FULL#7fa41a1a83ae86314f2b67b11250f9da",
+    "original": "Wasteland Masquerade",
+    "translation": "废土假面",
+    "stage": 1
+  },
+  {
+    "key": "AbilityBoxer_110039A9#SPEL:FULL#c10e1b3d1b429c49df8da5002df843fb",
+    "original": "Boxer",
+    "translation": "拳击手",
+    "stage": 1
+  },
+  {
+    "key": "AbilityThickSkin_110039AC#SPEL:FULL#8630bcb7d526dcca233050fac0013feb",
+    "original": "Thick Skin",
+    "translation": "厚皮",
+    "stage": 1
+  },
+  {
+    "key": "AbilityIdealogue_110039AE#SPEL:FULL#4565cfa25da9771f3c8652d8edb971dc",
+    "original": "Idealogue",
+    "translation": "理想主义者",
+    "stage": 1
+  },
+  {
+    "key": "AbilityMartyr_110039B1#SPEL:FULL#043fb99c0d139249056a901fb38f4880",
+    "original": "Martyr",
+    "translation": "卫道士",
+    "stage": 1
+  },
+  {
+    "key": "AbilityWarChild_110039B4#SPEL:FULL#d24dfaee5f734668caa2888b64980c0f",
+    "original": "War Child",
+    "translation": "战争之子",
+    "stage": 1
+  },
+  {
+    "key": "AbilityVain_110039B6#SPEL:FULL#50f64a83614692c09cab3f2f19d5e377",
+    "original": "Vain",
+    "translation": "自视甚高",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySuperSleuth_11005A9F#SPEL:FULL#a3dc93cbef0582fa1f1b8bcbf7a1ee13",
+    "original": "Super Sleuth",
+    "translation": "超级侦探",
+    "stage": 1
+  },
+  {
+    "key": "AbilityPlayWithFire_11005AA0#SPEL:FULL#bc40535e062b462a3716fc86e3d6d8dc",
+    "original": "Play With Fire",
+    "translation": "与火共舞",
+    "stage": 1
+  },
+  {
+    "key": "AbilityValkyrie_11009C5D#SPEL:FULL#51f43bd7ec285c25353fa9d979d9f985",
+    "original": "Valkyrie",
+    "translation": "女武神",
+    "stage": 1
+  },
+  {
+    "key": "AbilityGunGuruTemp_1100ACC7#SPEL:FULL#46e828d5475f573fd1c264d9ed908ca8",
+    "original": "Gun Guru",
+    "translation": "枪弹大师",
+    "stage": 1
+  },
+  {
+    "key": "AbilityTypingTutor_1100CDAA#SPEL:FULL#e69a12a18b648957be7ec41473190086",
+    "original": "Typing Tutor",
+    "translation": "键盘侠",
+    "stage": 1
+  },
+  {
+    "key": "AbilityTheoriesandHyptheses_1100CDAD#SPEL:FULL#d4029c4d870228f8d8ce59c19ed3ac6f",
+    "original": "Theories and Hypotheses",
+    "translation": "理论和假设",
+    "stage": 1
+  },
+  {
+    "key": "AbilityFirewalker_1100CDAF#SPEL:FULL#a6df24d4895b7255e3bf80f4d342308d",
+    "original": "Firewalker",
+    "translation": "火焰行者",
+    "stage": 1
+  },
+  {
+    "key": "AbilityRadiationRenegade_1100DE1C#SPEL:FULL#13079eb6dbab0220a2ff5f9e4dba5b4d",
+    "original": "Radiation Renegade",
+    "translation": "辐射叛徒",
+    "stage": 1
+  },
+  {
+    "key": "AbilityFrictionAddiction_11010F69#SPEL:FULL#ede5063bae910455a0716bab76cedf89",
+    "original": "Friction Addiction",
+    "translation": "招架狂",
+    "stage": 1
+  },
+  {
+    "key": "AbilityHurtMeMore_11010F6A#SPEL:FULL#093275371dd8d6f1ed63f288e4a379c2",
+    "original": "Hurt Me More",
+    "translation": "伤我更多",
+    "stage": 1
+  },
+  {
+    "key": "AbilityRightHandRule_11010F6C#SPEL:FULL#32f3aa826b836c70e5d4240a65930bf6",
+    "original": "Right Hand Rule",
+    "translation": "右撇子",
+    "stage": 1
+  },
+  {
+    "key": "AbilityAStrangeriRemain_110140B8#SPEL:FULL#ad94a43590bb24e65d370a911060e571",
+    "original": "A Stranger I Remain",
+    "translation": "仍是过客",
+    "stage": 1
+  },
+  {
+    "key": "AbilityMyOwnMasterNow_110140BD#SPEL:FULL#cad866bf3cff775f591246450f616521",
+    "original": "My Own Master Now",
+    "translation": "得道寡助",
+    "stage": 1
+  },
+  {
+    "key": "AbilityCollectiveConsciousness_110140C1#SPEL:FULL#909ff9bc2bbf67bb8414906e472ca519",
+    "original": "Collective Consciousness",
+    "translation": "集体意识",
+    "stage": 1
+  },
+  {
+    "key": "AbilityMazeRunner2_110140C7#SPEL:FULL#afab7c454a5ebd4e43b5c540166dec33",
+    "original": "Maze Runner",
+    "translation": "迷宫逃生者",
+    "stage": 1
+  },
+  {
+    "key": "AEBigIronAttackSpeedBonus_11015134#SPEL:FULL#5cfc7dfa144556a8f909ee07dc3ebf1a",
+    "original": "Big Iron",
+    "translation": "大铁",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySilverTongueLeadPocket_110192FC#SPEL:FULL#47c30fe920d6f1fe9e48d9ce5212f29a",
+    "original": "Silver Tongue, Lead Pocket",
+    "translation": "巧言难过金钱关",
+    "stage": 1
+  },
+  {
+    "key": "AbilityAnodizedArmor_1101B3ED#SPEL:FULL#f43f125202127249906368444e6af52a",
+    "original": "Anodized Armor",
+    "translation": "阳极氧化盔甲",
+    "stage": 1
+  },
+  {
+    "key": "AbilityIronFocus_1101B3EF#SPEL:FULL#82402cc055e79c3eabc4c0d72cc6e931",
+    "original": "Iron Focus",
+    "translation": "铁之专注",
+    "stage": 1
+  },
+  {
+    "key": "AbilityMadScience_1101B3F1#SPEL:FULL#f1c8e5beca36729cff4e605107abacee",
+    "original": "Mad Science",
+    "translation": "疯狂科学家",
+    "stage": 1
+  },
+  {
+    "key": "AbilityMazeRunner_1101B3F2#SPEL:FULL#afab7c454a5ebd4e43b5c540166dec33",
+    "original": "Maze Runner",
+    "translation": "迷宫逃生者",
+    "stage": 1
+  },
+  {
+    "key": "AbilityRocketGuy_1101B3F3#SPEL:FULL#bc5e734829d8c8d70e959611bec6698a",
+    "original": "Rocket Guy",
+    "translation": "火箭男孩",
+    "stage": 1
+  },
+  {
+    "key": "AbilityTenacious_1101B3F4#SPEL:FULL#ab389b8b41a37ecc47e8fd14fa102bd4",
+    "original": "Tenacious",
+    "translation": "身残志坚",
+    "stage": 1
+  },
+  {
+    "key": "AbilityThreatRange_1101B3F5#SPEL:FULL#d0a2444746236b97a76b36a0045fdb6d",
+    "original": "Threat Range",
+    "translation": "凶兆领域",
+    "stage": 1
+  },
+  {
+    "key": "AbilityDevilsAdvocate_1101B3F6#SPEL:FULL#490ef65baaee7cb5a26d7609bd7db882",
+    "original": "Devil's Advocate",
+    "translation": "魔鬼代言人",
+    "stage": 1
+  },
+  {
+    "key": "AbilityFightHungry_1101B3F7#SPEL:FULL#33ef916d50e0a02810aca8297188b29d",
+    "original": "Fight Hungry",
+    "translation": "饥动战士",
+    "stage": 1
+  },
+  {
+    "key": "AbilityThirsty_1101B3F8#SPEL:FULL#2c610209b5e8388bcc024abedc65c4cb",
+    "original": "Thirsty",
+    "translation": "饥渴难耐",
+    "stage": 1
+  },
+  {
+    "key": "AbilityHardy_1101B3F9#SPEL:FULL#6341d8205c28e7a3cf6bd8643cc8e2aa",
+    "original": "Hardy",
+    "translation": "硬核",
+    "stage": 1
+  },
+  {
+    "key": "AbilityAscetic_1101C467#SPEL:FULL#41a53ad0feeb7e4371f7a95b77141e91",
+    "original": "Ascetic",
+    "translation": "苦行僧",
+    "stage": 1
+  },
+  {
+    "key": "AbilityAssassinsStep_1101C46C#SPEL:FULL#1193350f6786af9a28e7ae6ce8c023d8",
+    "original": "Way of the Assassin",
+    "translation": "刺客之道",
+    "stage": 1
+  },
+  {
+    "key": "AbilityScientificMethod_1101C471#SPEL:FULL#b036d2684dac31f85704a9b3a2aa3339",
+    "original": "Scientific Method",
+    "translation": "科学之道",
+    "stage": 1
+  },
+  {
+    "key": "WayOfTheTraderAbility_1101C474#SPEL:FULL#2d4876bd30eb70e8f5b074bd7e7200f3",
+    "original": "Trader's Touch",
+    "translation": "贸易达人",
+    "stage": 1
+  },
+  {
+    "key": "AbilityNonDucorDuco_1101C489#SPEL:FULL#b6a85e4a0a34fc8681b39d584f84f1fc",
+    "original": "Non Ducor Duco",
+    "translation": "宁为鸡头不为凤尾",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySurvivorsGuilt_1101C48A#SPEL:FULL#1641f570701a4efeb8dd6e71f844d99d",
+    "original": "Survivor's Guilt",
+    "translation": "幸存者的内疚",
+    "stage": 1
+  },
+  {
+    "key": "AbilityThisIsAKnife_1101D500#SPEL:FULL#da173e0b63312e8635656417401444fb",
+    "original": "This Is A Knife",
+    "translation": "这就是刀",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySexAppeal_110213B2#SPEL:FULL#e00f978382cd326de70e564ea98ffdfe",
+    "original": "Sex Appeal",
+    "translation": "性感诉求",
+    "stage": 1
+  },
+  {
+    "key": "AbilityTwisted_110213B4#SPEL:FULL#5245fa847c97c8e9505dcc7e4399050c",
+    "original": "Twisted",
+    "translation": "癫佬",
+    "stage": 1
+  },
+  {
+    "key": "AbilityAppliedBallistics_11022423#SPEL:FULL#f2ecb4dacad3f7895f292ca74cb88563",
+    "original": "Applied Ballistics",
+    "translation": "应用弹道学",
+    "stage": 1
+  },
+  {
+    "key": "EffectRollingWithThePunches_11023494#SPEL:FULL#6be050fd04710fa71f2a8063fd87e164",
+    "original": "Rolling With The Punches",
+    "translation": "老头滚动拳",
+    "stage": 1
+  },
+  {
+    "key": "AbilityHighRoller_11025890#SPEL:FULL#ae5ff7c63b642c2b9859c3d63723f180",
+    "original": "High Roller",
+    "translation": "豪赌",
+    "stage": 1
+  },
+  {
+    "key": "AbilitySaguaroStalker_110434F0#SPEL:FULL#43704058cdd18a0da68323e68d3947fc",
+    "original": "Saguaro Stalker",
+    "translation": "仙人掌潜行者",
+    "stage": 1
+  },
+  {
+    "key": "AbilityRocketGirl_11000811#SPEL:FULL#843dc7ee33c4818f277bf1610229382c",
+    "original": "Rocket Girl",
+    "translation": "火箭女孩",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVGrenadeFragHolyCraftable_1101C47C#WEAP:FULL#a2000309157ead9ca70571c34cdf1081",
+    "original": "Holy Frag Grenade",
+    "translation": "神圣破片手雷",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo44blood_11000814#AMMO:FULL#d13711fb8c36c19315a46f184617cb7f",
+    "original": ".44 Blood Round",
+    "translation": ".44血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo44blood_11000814#AMMO:ONAM#8546f764894e5b23b30c81b738a7fc27",
+    "original": ".44M BLD",
+    "translation": ".44M血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo44blood_11000814#AMMO:QNAM#70861272a3e306851d15fc498bd6a365",
+    "original": "BLD",
+    "translation": "血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo4570blood_11000815#AMMO:FULL#a1bf0b775ee42f059279532d2d053513",
+    "original": ".45-70 Blood Round",
+    "translation": ".45-70血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo4570blood_11000815#AMMO:ONAM#b4a383caca4d16d70bb473136c6d0e4e",
+    "original": ".45-70 BLD",
+    "translation": ".45-70血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo4570blood_11000815#AMMO:QNAM#70861272a3e306851d15fc498bd6a365",
+    "original": "BLD",
+    "translation": "血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo556blood_11000816#AMMO:FULL#96a294731fc924b618d143e65d91113a",
+    "original": "5.56 Blood Round",
+    "translation": "5.56血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo556blood_11000816#AMMO:ONAM#ceefeba3ed1855a33f8fad6d7860caf5",
+    "original": "5.56mm BLD",
+    "translation": "5.56mm血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo556blood_11000816#AMMO:QNAM#70861272a3e306851d15fc498bd6a365",
+    "original": "BLD",
+    "translation": "血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo32blood_11000817#AMMO:FULL#5463494519cf51538cce008f73a9f6da",
+    "original": ".32 Blood Round",
+    "translation": ".32血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo32blood_11000817#AMMO:ONAM#8a8d181b57c51f271317fc654ddfe59c",
+    "original": ".32 BLD",
+    "translation": ".32血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo32blood_11000817#AMMO:QNAM#70861272a3e306851d15fc498bd6a365",
+    "original": "BLD",
+    "translation": "血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo45blood_11000818#AMMO:FULL#a015b05e3c3f9da77b168203e985685e",
+    "original": ".45 Blood Round",
+    "translation": ".45血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo45blood_11000818#AMMO:ONAM#260b33aeebf20bf6abfc664884e72cc6",
+    "original": ".45 Auto BLD",
+    "translation": ".45 Auto血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo45blood_11000818#AMMO:QNAM#70861272a3e306851d15fc498bd6a365",
+    "original": "BLD",
+    "translation": "血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo357blood_11000813#AMMO:FULL#c46bb138548e5575d6cd75af9c3d2fa0",
+    "original": ".357 Blood Round",
+    "translation": ".357血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo357blood_11000813#AMMO:ONAM#ed83459b488741e2b98670920971f0ea",
+    "original": ".357 BLD",
+    "translation": ".357血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssAmmo357blood_11000813#AMMO:QNAM#70861272a3e306851d15fc498bd6a365",
+    "original": "BLD",
+    "translation": "血弹",
+    "stage": 1
+  },
+  {
+    "key": "GrenadeFragHolyProjectileCraftable_1101C47A#PROJ:FULL#a2000309157ead9ca70571c34cdf1081",
+    "original": "Holy Frag Grenade",
+    "translation": "神圣破片手雷",
+    "stage": 1
+  },
+  {
+    "key": "CG03DadSpeech_060341F7#INFO:NAM1#5d042703bae555c2d507b0c8203a6b3f",
+    "original": "As far as I can tell, you're a perfectly healthy 16-year-old boy. So yes, you have to go to class to take your G.O.A.T. exam!",
+    "translation": "在我看来，你是个非常健康的16岁男孩。所以，没错，你需要去参加G.O.A.T.！",
+    "stage": 1
+  },
+  {
+    "key": "CG03DadSpeech_060341F8#INFO:NAM1#026088fd6ca7027dc5e1b3ba1f8a50b7",
+    "original": "As far as I can tell, you're a perfectly healthy 16-year-old girl. So yes, you have to go to class to take your G.O.A.T. exam!",
+    "translation": "在我看来，你是个非常健康的16岁女孩。所以，没错，你必须去参加G.O.A.T.！",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRoadRage_11000800#PERK:FULL#87f9c5b66617d2f884869cd9ab00700e",
+    "original": "Road Rage",
+    "translation": "路怒症",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRoadRage_11000800#PERK:DESC#82a982a55c493994f233506fc1d34594",
+    "original": "Redden the road, release the rage! With the Road Rage perk, you gain +25% attack speed, +10% damage, and -10% spread when using knuckle weapons, Chinese/.32 pistols, tire irons, throwing spears, single and double barrel shotguns, lead pipes, and other wasteland weapons.",
+    "translation": "血染公路,释放狂怒!\\n当你使用指虎、毛瑟手枪、.32转轮手枪、卸胎棒、投矛、单管和双管猎枪、铅管和其他废土武器时,\\n你将增加25%攻击速度、10%伤害和减少10%弹道散布。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRocketGirl_11000801#PERK:FULL#843dc7ee33c4818f277bf1610229382c",
+    "original": "Rocket Girl",
+    "translation": "火箭女孩",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRocketGirl_11000801#PERK:DESC#7de770b5947ee590c0200ee12e24da1a",
+    "original": "It's T minus 1! Rocket Girl grants you +15 Explosives, and 25% more damage with rocket weapons. However, you are 3x more likely to be critically hit by energy weapons.",
+    "translation": "倒计时还剩1!火箭女孩会给予你15点爆破和25%火箭武器伤害,然而,你被能量武器暴击的概率增加了3倍。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSweet6Shooter_11000802#PERK:FULL#5eb1d58f468c2d18b0a9d8887fdff12f",
+    "original": "Sweet Six Shooter",
+    "translation": "甜蜜六射手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSweet6Shooter_11000802#PERK:DESC#9a7fd652ad329dab6ba47f88e1269b44",
+    "original": "The glint of your gun and the shine of your grin are nearly equal. You've gained access to powerful \"Blood\" revolver ammo recipes, along with 15% faster reload speed, 10% faster attack speed, +30% crit. chance and -60% weapon condition damage with revolvers while your Karma is Good or Very Good (Requires Good Karma).",
+    "translation": "你的枪闪闪发光,你的笑容灿烂无比。\\n你已解锁强大的“鲜血”左轮手枪弹药配方,\\n同时,当你的道德值为“好”或 “非常好”时,你的左轮手枪装弹速度增加15%,攻击速度增加10%,\\n暴击率增加30%,武器耐久磨损降低60%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTruePartyMember_11000804#PERK:FULL#c8bdc794a80f640eb2e7bcb99414fd01",
+    "original": "True Party Member",
+    "translation": "废土小王",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTruePartyMember_11000804#PERK:DESC#fd5af5a7775da0525772c299bd30e493",
+    "original": "The proletariat majority may have passed, but your belief in the ideal stays true. You gain +30% attack speed, +25% crit. damage, and -30% spread with communist weapons, but your crit. chance is reduced by 20% when you are alone.",
+    "translation": "我是来重建废土的,你们要干什么！\\n使用共产主义武器时增加30%攻击速度、25%暴击伤害,\\n减少30%武器散布,当你独自一人旅行时,暴击率降低20%",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBigIron_11000805#PERK:FULL#5cfc7dfa144556a8f909ee07dc3ebf1a",
+    "original": "Big Iron",
+    "translation": "大铁",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBigIron_11000805#PERK:DESC#24348ffaed558754120fcbda17672aa1",
+    "original": "Like the legendary ranger of old, your handgun handling is extraordinary - only when you face your opponent in a fair fight. During combat, while not sneaking and using a handgun, you gain +20% draw speed, as well as +35% attack speed for three seconds after unholstering your weapon.",
+    "translation": "就像旧时的传奇游骑兵一样,你的手枪技巧非同一般-在你和对手公平战斗时。\\n在战斗中,只要不处于潜行状态并使用手枪,你就能获得20%拔枪速度,\\n以及在拔出武器后的三秒内增加35%攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHandgunHotshot_11000806#PERK:FULL#5d28e5e112d56367384b3128ea3c0619",
+    "original": "Handgun Hotshot",
+    "translation": "手铳高手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHandgunHotshot_11000806#PERK:DESC#89ff8ce8981917c3fde1b5e7decec003",
+    "original": "The Handgun Hotshot perk grants 5 DT penetration to ballistic handguns and 15% attack speed with non-automatic, ballistic handguns.\\nThe second rank grants an additional +20% damage, at cost of increasing strength requirements by 1.",
+    "translation": "为实弹手枪增加5DT穿甲,为非自动实弹手枪增加15%攻击速度,\\n第二级额外增加20%伤害,但是使用手枪的力量要求增加1点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBoltActionHero_11000807#PERK:FULL#6151cca826ce48fcdcb82401f3d2ce3d",
+    "original": "Bolt-Action Hero",
+    "translation": "大栓英雄",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBoltActionHero_11000807#PERK:DESC#5c917ee556ec98327e89783bd4f1be85",
+    "original": "Rack em up! Bolt-action weapons gain 10% attack speed and +5 DT penetration. The second rank grants a 15% damage bonus and 5% faster attack speed.",
+    "translation": "拉大栓!栓动武器攻击速度增加10%,增加5DT穿甲能力。\\n第二级再增加5%攻击速度和15%伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThreatRange_11000809#PERK:FULL#d0a2444746236b97a76b36a0045fdb6d",
+    "original": "Threat Range",
+    "translation": "凶兆领域",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThreatRange_11000809#PERK:DESC#ac27fe26cadcfa348a29f91c8b9e61ed",
+    "original": "When using a heavy melee weapon, you gain 10% attack speed and damage, and your DR is increased by 15% while you are attacking.",
+    "translation": "当你使用重型近战武器时,你增加了10%攻击速度和额外伤害\\n并且在你进行攻击时,你的DR增加15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOverkiller_1100080A#PERK:FULL#dc8a5b6e2b6913bfb741eea097a4b071",
+    "original": "Overkiller",
+    "translation": "过度屠戮",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOverkiller_1100080A#PERK:DESC#c8c13fac9f08d6371e0e7eee29fec268",
+    "original": "Big guns, big muscles, big melee. When using a heavy melee weapon, you gain 15% damage, +20% power attack damage, and any hits that cripple a limb will knock your target down.",
+    "translation": "大枪枪,大肌肌,战战战,当你使用重型近战武器时,增加15%武器伤害,增加20%重击伤害,\\n任何使肢体致残的攻击都会将敌人击倒。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRocketGuy_11000820#PERK:FULL#bc5e734829d8c8d70e959611bec6698a",
+    "original": "Rocket Guy",
+    "translation": "火箭男孩",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRocketGuy_11000820#PERK:DESC#f67a3ee086cb4f6095f1373e7e048ed3",
+    "original": "It's T minus 1! Rocket Guy grants you +15 Explosives, and 25% more damage with rocket weapons. However, you are 3x as likely to be critically hit by energy weapons.",
+    "translation": "倒计时还剩1!火箭男孩会给予你15点爆破和25%火箭武器伤害,\\n然而,你被能量武器暴击的概率增加了3倍。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRepairRascal_11000825#PERK:FULL#3a7d4143fca0f88d1e259c529374e7de",
+    "original": "Repair Rascal",
+    "translation": "流氓快修",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRepairRascal_11000825#PERK:DESC#adf39c3e2c5a47385c378a8f35b809f3",
+    "original": "Repair Rascal grants +15% damage, equip and attack speed with repair-related weapons, and reduces their strength requirement by 1. The second rank grants an additional +10% damage and crit. damage, and +15% crit. chance.",
+    "translation": "可使与修理有关的武器伤害、拔枪速度和攻击速度提高15%,并将力量要求降低1点。\\n第二级可增加10%伤害和暴击伤害,以及15%暴击率。\\n(大多数自制武器和爆炸物,以及射钉枪、电锯、钢筋棍和电焊枪都属于与修理有关的武器)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMadScience_1100082A#PERK:FULL#f1c8e5beca36729cff4e605107abacee",
+    "original": "Mad Science",
+    "translation": "疯狂科学家",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMadScience_1100082A#PERK:DESC#ddc815c92b1ff798802f9a8a2521c4b3",
+    "original": "Harness the power of your intellect with the Mad Science perk! You've gained 15% damage, reload speed, and attack speed with mad science weapons, and your luck is increased by 1 for the duration of combat for each critical kill you deal in a battle, up to a max of +10.",
+    "translation": "用疯狂科学家来驾驭你的智慧之力!\\n使用疯狂科学武器时,\\n你的伤害、装填速度和攻击速度都会增加15%。\\n而且在战斗中每造成一个暴击击杀,\\n你的幸运值就会在战斗持续时间内+1,最高可+10。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHiddenWeapons_1100082B#PERK:FULL#ee317b59507d7bedf10ef4b5b10bdce7",
+    "original": "Hidden Weapons",
+    "translation": "后备隐藏能源",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHiddenWeapons_1100082B#PERK:DESC#0522b50a3b4a32c7beccee6f1b6f88ef",
+    "original": "Whether your weapon jams, or it gets shot out of your hand, you'll be ready. Basic holdout weapons are granted additional 5/10/15/20/25/30/35% crit. chance and damage for 0-15/16-25/26-35/36-50/51-65/66-80/81-100 points in the Survival skill.\\nYour equip speed with basic holdout weapons is also increased by 35%.",
+    "translation": "无论你的武器是卡壳了,还是被打飞了,你都会做好准备。\\n在生存0-15/16-25/26-35/36-50/51-65/66-80/81-100时,\\n基本隐藏武器可获得额外5/10/15/20/25/30/35%的暴击率和伤害。\\n你使用基本隐藏武器的拔枪速度也会提高35%。\\n基本隐藏武器指的是不需要潜行技能也能带进赌场的武器",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHeavyGunner_1100082C#PERK:FULL#8c4786a9a8d6d08c8d98e4782bdaad9a",
+    "original": "Heavy Gunner",
+    "translation": "重炮手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHeavyGunner_1100082C#PERK:DESC#43bd6b00a914341e414a7fb659bbd3d5",
+    "original": "While using Big Guns, Heavy Gunner grants +15% improved equip speed and V.A.T.S. chance to hit, -20% movement spread penalty, and your automatic weapon spread is reduced by 5% per second while continuously firing, to a max of -25%.",
+    "translation": "增加15%大枪拔枪速度和V.A.T.S.中大枪的命中率,\\n你的移动精度惩罚减少20%,\\n你的自动武器连发散布在持续射击时每秒减少5%,最高可达到25%",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTargetedDemolition_1100082D#PERK:FULL#e44e322698d36388d8643c2130bb2b18",
+    "original": "Targeted Demolition",
+    "translation": "定向爆破",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTargetedDemolition_1100082D#PERK:DESC#f4c870951a8e119de85369694c59480f",
+    "original": "Targeted Demolition reduces explosive Big Guns' explosion radius by 20%, increases their attack speed by 20%, and increases their explosive projectile damage by 10%.",
+    "translation": "使爆炸类大型枪械的爆炸半径减少20%,攻击速度增加20%,爆炸物伤害增加10%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCarpetBomber_1100082E#PERK:FULL#155ab2bb56e5e99528f8f9f01a45a6e5",
+    "original": "Carpet Bomber",
+    "translation": "地毯式轰炸",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCarpetBomber_1100082E#PERK:DESC#203c428239dd4916653c2ce5e1885db1",
+    "original": "Carpet Bomber increases Big Guns' explosion radius, attack speed, and spread by 25%.\\n(Requires tag skill: Big Guns or Explosives)",
+    "translation": "地毯式轰炸可增加大型枪械的爆炸半径、攻击速度和散布范围25%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFullMetalJacket_1100082F#PERK:FULL#996b271d35421b89747f290d034cdc65",
+    "original": "Full Metal Jacket",
+    "translation": "全金属外壳",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFullMetalJacket_1100082F#PERK:DESC#8031677542e4ecd62e5761c16821f599",
+    "original": "Full Metal Jacket grants 8 DT penetration, +10% crit. chance, +15% reload speed, and -15% enemy crit. chance when using a Grunt weapon and wearing medium armor.",
+    "translation": "使用大兵类武器并穿着中型护甲时,\\n增加8DT穿透,增加10%暴击率,增加15%换弹速度,减少敌人15%暴击率。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkIronFocus_11000830#PERK:FULL#82402cc055e79c3eabc4c0d72cc6e931",
+    "original": "Iron Focus",
+    "translation": "铁之专注",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkIronFocus_11000830#PERK:DESC#d953b631b4007a089e36e6d85bf91978",
+    "original": "Iron Focus grants 10% DR while aiming with any ranged weapon, as well as -20% spread and +25% crit. chance while aiming with Big Guns.",
+    "translation": "当使用任何远程武器瞄准时,增加10%DR,\\n使用大型枪械瞄准时减少20%散布,增加25%暴击率。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRollingWithThePunches_1100189B#PERK:FULL#6be050fd04710fa71f2a8063fd87e164",
+    "original": "Rolling With The Punches",
+    "translation": "老头滚动拳",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRollingWithThePunches_1100189B#PERK:DESC#f3765f08ed2a71850ca869dc35292858",
+    "original": "When your fists are out, you float like a bloatfly. You gain +12% speed for 5 seconds whenever you're hit by a melee attack with an unarmed weapon equipped. (This effect does not stack)",
+    "translation": "当你出拳时,你就像辐射蝇一样飞在空中。\\n每当你被近战武器或徒手武器击中时,你都会增加12%的速度,持续5秒。\\n(此效果不叠加)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDiscusChamp_1100189C#PERK:FULL#d64e6039f4112f1fde4a3ed280e07115",
+    "original": "Discus Champ",
+    "translation": "铁饼冠军",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDiscusChamp_1100189C#PERK:DESC#ce185e82ecee5dfd0154303dcbc5085f",
+    "original": "There's nobody quite as good at throwing heavy, flat objects as you are! Your thrown mines travel with 2x/1.75x/1.5x speed while moving forward/backward/sideways, respectively.\\nYou also gain +50% attack speed with mines, which increases to +75% while moving!",
+    "translation": "没有人比你更擅长投掷扁平的重物了!\\n当你向前/向后/向侧面移动时,\\n你投掷的地雷速度分别增加2倍/1.75倍/1.5倍。\\n同时,你使用地雷的攻击速度增加50%,\\n在移动时这个增幅会提高到75%!",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFrictionAddiction_1100189D#PERK:FULL#ede5063bae910455a0716bab76cedf89",
+    "original": "Friction Addiction",
+    "translation": "招架狂",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFrictionAddiction_1100189D#PERK:DESC#c95572b1afaa4acbb5eca251e0800a19",
+    "original": "The best offense is a good defense, and you're at your toughest when taking punishment. You gain +1 DT and your enemy crit. chance is reduced by 3% per each point in Strength while you're blocking, and a percentage of your action points are restored each time you are hit. ((Luck / 20) * Max AP)",
+    "translation": "最好的进攻就是防守,而在格挡时,你是最硬的。\\n在你格挡攻击时,你会增加1DT,每增加1点力量,敌人暴击率就会降低3%,\\n而且每次被击中都会恢复一定比例的AP。\\n((幸运/20)*最大AP)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAnodizedArsenal_110018A1#PERK:FULL#2ca2287a3b8527dd4c8d97719c90ed90",
+    "original": "Anodized Arsenal",
+    "translation": "阳极氧化兵工厂",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAnodizedArsenal_110018A1#PERK:DESC#796d3a5966336a198f3a5886ae29e109",
+    "original": "You've devised a way to focus the anodized charge of your armor into your energy weapons. While carrying your scrap electronics and an additional 3+ fission batteries, your energy weapon projectile speed is increased by 25%, and you gain 25% DT penetration with energy weapons.",
+    "translation": "你想出了一种方法将你护甲中的阳极电荷聚焦到你的能量武器上。\\n当你携带废金属和3个以上的裂变电池时,\\n你的能量武器弹速增加25％,\\n并且你的能量武器增加25％DT穿甲。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAnodizedArmor_110018A3#PERK:FULL#f43f125202127249906368444e6af52a",
+    "original": "Anodized Armor",
+    "translation": "阳极氧化护甲",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAnodizedArmor_110018A3#PERK:DESC#1f3d748c5e86cca1be0b8b81da772810",
+    "original": "Holding onto all those scrap electronics has begun to magnetize your armor. When wearing any metal armor and carrying 10+ scrap electronics, your item condition damage is reduced by 35%, and you gain +8% DR.",
+    "translation": "收集这些电子废料已经开始使你的护甲具有磁性。\\n当穿戴任何金属护甲并携带10个或更多的电子废料时,\\n你的护甲耐久磨损减少35％,并增加8％DR。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkInertialDampening_110018A4#PERK:FULL#0fe7e1fb7ad9f0c8ceaa6a8d22f6e054",
+    "original": "Inertial Dampening",
+    "translation": "空中舞者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkInertialDampening_110018A4#PERK:DESC#e3c4eca4dcef7012d4fc6bff99a7b1d8",
+    "original": "You've learned to avoid damage by diving away from it at just the right time. Whenever you're in the air, you gain +7 DT and +20% damage resistance.",
+    "translation": "你已学会在恰当的时机避开伤害，利用俯冲减少损失。\\n在空中时，你的DT增加7点，DR提高20%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBoozer_11002916#PERK:FULL#816fd5919cf5f08f9999537e8e327f5f",
+    "original": "Boozer",
+    "translation": "酒徒",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBoozer_11002916#PERK:DESC#af65685a88ce2d1e28e3b5ec9e7d6544",
+    "original": "When under the effects of alcohol, your addiction duration is halved, and prices are reduced by 10%.",
+    "translation": "当你饮酒时,你的上瘾时间减半,交易价格降低10%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRiskyBusiness_1100291C#PERK:FULL#6307c32dc7ed36103d5a088d87dd6e90",
+    "original": "Risky Business",
+    "translation": "风投者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRiskyBusiness_1100291C#PERK:DESC#c3ae6fec0ab7e58816ac0ba8257919e6",
+    "original": "Bring the roof down! You've gained +15% to your explosives' radius while indoors.",
+    "translation": "摧毁屋顶!在室内时,你的爆炸半径增加15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAtomBombBaby_1100291D#PERK:FULL#ce3922cd7d951dc5fac303c0eed1f763",
+    "original": "Atom Bomb Baby",
+    "translation": "原子弹宝贝",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAtomBombBaby_1100291D#PERK:DESC#020735fefe2f87e5ab44f63ee0827db7",
+    "original": "It's hard to operate heavy weaponry while also wearing heavy armor! You gain increased equip and reload speed (30/20/10%), as well as increased Big Guns (+15/10/5), while wearing clothes/light, medium, or heavy (non-power) armors.",
+    "translation": "既要操作重型武器,又要穿重型盔甲,真是太难了!\\n如果你穿着衣服、轻型护甲、中型护甲或重型(非动力)护甲,\\n你将获得拔枪速度和换弹速度增益(30/20/10%)\\n并增加大枪技能(15/10/5)。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBreakinASweat_1100291F#PERK:FULL#579a0b7572d5f4557451352361630d46",
+    "original": "Breakin' A Sweat",
+    "translation": "满身大汗",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBreakinASweat_1100291F#PERK:DESC#220562fc5a1c23265639f4b7d001b49a",
+    "original": "Gotta keep that heart rate up! You gain +1 AGI and +15% AP regen. while moving, but suffer -1 and -15% while not moving.",
+    "translation": "必须保持心率!移动时你会增加1敏捷和15%AP恢复,\\n但在不移动时会减少1敏捷和15%的AP恢复。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSuckerPunch_11002921#PERK:FULL#85e25b8bba66c46474c945530dcb0286",
+    "original": "Sucker Punch",
+    "translation": "暗杀拳法",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSuckerPunch_11002921#PERK:DESC#c8acf15a22439af0453e51a37565d69c",
+    "original": "Get 'em while they're not looking! You gain +15 unarmed damage if your target is not in combat, or you are out of their line of sight. This bonus increases by +10 if your karma is Evil or Very Evil.",
+    "translation": "趁他们不注意时干掉他们!\\n如果你的目标不在战斗中,或者你没有被他们察觉,你将增加15点徒手伤害。\\n如果你的道德值为邪恶或非常邪恶,就再增加10点徒手伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHeadlessCourier_11002924#PERK:FULL#99ba6629767d2477e134a3613a8b819f",
+    "original": "Headless Courier",
+    "translation": "无头邮差",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHeadlessCourier_11002924#PERK:DESC#d786e1d9eb15149dae3d9397e8da0dff",
+    "original": "Ride on through the night, chasing that perfect helmet that doesn't exist. When not wearing any headgear, your head takes half damage and you gain +2 Perception.",
+    "translation": "在黑夜中驰骋,追逐那顶并不存在的完美头盔。\\n不戴任何头饰时,你的头部受到的伤害减半,并增加2点感知。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBlueMoon_11002926#PERK:FULL#38b0c77ec28583c9db52924b6f1cf968",
+    "original": "Blue Moon",
+    "translation": "蓝月亮",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBlueMoon_11002926#PERK:DESC#1b6ae71c0a5c1bbfb30da3bba5a4decb",
+    "original": "Under the calming gaze of the moon, from 9 p.m. to 5 a.m., you gain +5% crit. chance, and +50% crit. damage while also using a scope.",
+    "translation": "在平静的月光下,从晚上9点到凌晨5点,\\n你在使用瞄准镜时将增加5%暴击率和50%暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkGunFu_11002927#PERK:FULL#10639c7fcef376c6fabf95922ce853ef",
+    "original": "Gun-Fu",
+    "translation": "功夫枪法",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkGunFu_11002927#PERK:DESC#5866dea6a83a661fcf70d0231859cc43",
+    "original": "You've mastered the ancient ways of firearm martial arts. While in the air and using a one handed weapon, you gain +50% crit. damage. While sneaking and in combat, you gain +35% attack speed. While running, you gain a 10% knockdown chance. While walking, you gain +3 DT, +8% damage resistance, and +1 Strength. While moving left or right in combat, you gain +15% reload speed.",
+    "translation": "你掌握了古老的枪斗术，\\n在空中使用单手武器时,增加50%暴击伤害。\\n在潜行和战斗时,增加35%攻击速度。\\n奔跑时增加10%击倒概率。\\n在行走时增加3DT、8%DR和1点力量。\\n在战斗中向左或向右移动时，装弹速度增加15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkNonCombatant_11002929#PERK:FULL#bf48c9bcf10005a112978956832ba6cd",
+    "original": "Non-Combatant",
+    "translation": "非战斗人员",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkNonCombatant_11002929#PERK:DESC#9a71595bdba779662230d22283278677",
+    "original": "It's not your fight, you're just trying to stay alive. You gain +8 DT and +15% damage resistance while your weapon is holstered in combat.",
+    "translation": "这不是你的战斗,你只想活下去。\\n战斗中当你的武器被收起来时,你将增加8DT与15%DR。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkIndirectBartering_1100292B#PERK:FULL#bd405ee85d1d208f4095b6ca2d71cd14",
+    "original": "Indirect Bartering",
+    "translation": "核蔼可亲",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkIndirectBartering_1100292B#PERK:DESC#c3a9e3f2e936def2182c53a2e1adc6ad",
+    "original": "You're not actually threatening any violence, but anybody with a pair of eyes can tell that you could if you chose to. You gain +1 to Barter and Speech for each point of STR while your Karma is Evil or Very Evil.",
+    "translation": "你并没有威胁要使用暴力,\\n但任何人都可以看得出,只要你愿意,你会不择手段。\\n当你的道德值为邪恶或非常邪恶时,每一点力量都会使你的砍价和口才增加1点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOvertCoercion_1100292D#PERK:FULL#5c3b05ed02badedd2d437016da2a70bb",
+    "original": "Overt Coercion",
+    "translation": "极道胁迫",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOvertCoercion_1100292D#PERK:DESC#543b381e5cb2b36fd365ba575e02f13e",
+    "original": "Implication and insinuation has given way to explicit threats. Each point of STR above 5 grants -5% to purchase prices while your Karma is Evil or Very Evil, up to a maximum of -25% (Requires Evil Karma).",
+    "translation": "暗示和影射已经让位于明确的威胁。\\n当你的道德值为邪恶或非常邪恶,\\n力量高于5点时每提高1点都会减少5%的商品价格,最高可减少25%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkGunGuru_11003994#PERK:FULL#46e828d5475f573fd1c264d9ed908ca8",
+    "original": "Gun Guru",
+    "translation": "枪弹大师",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkGunGuru_11003994#PERK:DESC#ce0b3325d264bf1ad74c8bcae2fa6e28",
+    "original": "You're so good with brass and powders that they'd hire you at the Gun Runners as a reloader. You gain +30 Repair while using a physical Reloading Bench.",
+    "translation": "你对黄铜和火药如此精通,以至于军火贩子会雇你当弹药重装手。\\n使用弹药工作台时,增加30点修理。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCrouchingTurtle_1100399C#PERK:FULL#da68dde9becf0e53da362c27fd272bbd",
+    "original": "Crouching Turtle",
+    "translation": "卧龟",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCrouchingTurtle_1100399C#PERK:DESC#ac0d2e266ca28fe2a2c0db198c004363",
+    "original": "You may not sneak anywhere quickly, but you'll definitely get there safe. When crouched, you gain +3 DR per point of Endurance above 5, up to a maximum of +15. However, your sneaking move speed is reduced by 20%.",
+    "translation": "你可能无法迅速潜行到某个地方,但你一定能安全到达。\\n蹲下时,耐力每超过5点,你就会增加3DR,最多增加15。\\n不过,你的潜行移动速度会降低20%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCoiledSnake_1100399E#PERK:FULL#840d967be810b0d8c16d4842c424e510",
+    "original": "Coiled Snake",
+    "translation": "盘蛇",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCoiledSnake_1100399E#PERK:DESC#1dc8dd97641cf6e44afbe69f52c9e8a3",
+    "original": "You're extra dangerous when cornered or unseen. You gain +15% attack speed and + 35% throwing velocity and damage with thrown melee weapons while crouched.",
+    "translation": "当你被逼入绝境或处于隐蔽状态时，你会变得格外危险。\\n蹲下时，你的攻击速度提高15%，投掷近战武器的速度和伤害提高35%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSneakingTiger_110039A0#PERK:FULL#d4af499bcaa9b5cd722fca2609ec92ea",
+    "original": "Sneaking Tiger",
+    "translation": "潜虎",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSneakingTiger_110039A0#PERK:DESC#fd173d29d41236da7cf88d91592c6d85",
+    "original": "Lithe and nimble, you move so quickly that you only take glancing hits. While crouched and moving, you gain +1 DT per point of Agility up to 5, and +2 DT for each point of Agility above 5.",
+    "translation": "你的移动速度如此之快以至于只会受到轻微的伤害。\\n蹲下移动时,每点敏捷增加1DT(最高5点),\\n超过5点敏捷时每点敏捷增加2DT(最多增加15)。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkShhh_110039A2#PERK:FULL#cc78d78a7611526533e2474543d72b50",
+    "original": "Shhh!",
+    "translation": "嘘！",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkShhh_110039A2#PERK:DESC#e1881837721ca8f980fc7d29cff96d8e",
+    "original": "You're more the sneakin' type, than the speakin' type. You suffer -7 to Speech and Barter, but gain +10 Sneak.",
+    "translation": "你更适合潜行而不是交谈,你的口才和砍价减少7点,但你的潜行增加10点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMasquerade_110039A6#PERK:FULL#7fa41a1a83ae86314f2b67b11250f9da",
+    "original": "Wasteland Masquerade",
+    "translation": "废土假面",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMasquerade_110039A6#PERK:DESC#20a2e530014c229f1a6b429130cfb9b7",
+    "original": "“The irony of life is that those who wear masks often show more truth than those without them.” You gain +1 Charisma and Intelligence and gain +15% XP outside of combat while wearing headwear.\\n(Exclusive from Headless Courier)",
+    "translation": "生活的讽刺在于,戴面具的人往往比不戴面具的人表现得更真实。\\n佩戴头饰时,你的魅力和智力增加1,\\n并在战斗外增加15%经验。\\n(不能和无头邮差同时选择)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBoxer_110039AA#PERK:FULL#c10e1b3d1b429c49df8da5002df843fb",
+    "original": "Boxer",
+    "translation": "拳击手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBoxer_110039AA#PERK:DESC#ac314b288daed599a38243c1b0455174",
+    "original": "You gotta roll with the punches. You've gained +10% attack speed with unarmed weapons, and +1 unarmed damage per point of Agility.",
+    "translation": "你必须顺势而为。增加10%徒手攻击速度,每点敏捷增加1点徒手伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCallous_110039AB#PERK:FULL#6dafcaa42d71a1db0b417a0ebd6c584a",
+    "original": "Callous",
+    "translation": "冷酷无情",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCallous_110039AB#PERK:DESC#2e9e08c90456fedd3f6a95fa368d031a",
+    "original": "You don't care what the person you're bartering with thinks of you, you just gotta get them to agree to the lowest price possible. Your Charisma is reduced by 1, but your purchase prices are multiplied by 0.98x for every 10 points of Survival.",
+    "translation": "你并不在意与你交易的人对你的看法,你只需要让他们同意尽可能低的价格。\\n尽管你的魅力减少了1点,\\n但每增加10点生存技能,你的购买价格就会乘以0.98",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkIdealogue_110039AD#PERK:FULL#3ba95bf8d067358a985bede22ee9a36b",
+    "original": "Ideologue",
+    "translation": "理想主义者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkIdealogue_110039AD#PERK:DESC#3e32dac884c24e6410f94a8c0c91b97b",
+    "original": "It's not about the methods, it's about the ideals. Your addiction chance is doubled, and you always lose health equal to any karma loss, but you gain 4% more experience, +1 skill point from skill books and per level, 6% lower buying prices, and +1 Luck while your Karma is Good or Very Good. However, while your Karma is Evil or Very Evil, you suffer a harsher penalty to the same factors.",
+    "translation": "这不是方法的问题,而是理想的问题。\\n你的成瘾几率会翻倍，并且每次道德值下降时，你都会损失等量的生命值。\\n但在你的道德值良好或非常好时，会获得4%的额外经验值，\\n从技能书以及每升一级时获得+1技能点，购买价格降低6%，获得+1幸运值。\\n然而，当你的道德值为邪恶或非常邪恶时，\\n你会受到相同因素更严厉的惩罚。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMartyr_110039B0#PERK:FULL#043fb99c0d139249056a901fb38f4880",
+    "original": "Martyr",
+    "translation": "卫道士",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMartyr_110039B0#PERK:DESC#bb12f814ab181f0bcb3115c0a30f70bc",
+    "original": "When struck, you're inclined to simply turn the other cheek, rather than strike back. Your divine Luck grants you a small chance for each wound's health loss to be partially restored.",
+    "translation": "“只是我告诉你们:不要与恶人作对。有人打你的右脸,连左脸也转过来由他打。”-马太福音5:39 \\n你天赐的好运气决定给你一个机会,\\n你每次受伤后的损失生命值都有几率得到部分恢复。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTenacious_110039B2#PERK:FULL#ab389b8b41a37ecc47e8fd14fa102bd4",
+    "original": "Tenacious",
+    "translation": "身残志坚",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTenacious_110039B2#PERK:DESC#05e6fefbacb1a775ef37986605d8809c",
+    "original": "You've been bruised and scraped enough times to know how to give it your all when wounded. You gain improved movement speed with a crippled leg, improved gun spread with a crippled arm, +2 Endurance with a crippled torso, and improved chance to hit in V.A.T.S. with a crippled head.",
+    "translation": "你已经受伤了太多次,知道如何在伤残时全力以赴。\\n腿部伤残可以提高移动速度,\\n手臂伤残可以减少枪械散布,\\n躯干伤残可以增加2耐力,\\n头部伤残可以增加VATS模式命中率。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkWarChild_110039B3#PERK:FULL#d24dfaee5f734668caa2888b64980c0f",
+    "original": "War Child",
+    "translation": "战争之子",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkWarChild_110039B3#PERK:DESC#ccfd6d4b10cb2370c5388cf9a6b23bc7",
+    "original": "If your adrenaline isn't pumping, you're not performing your best. You gain +1 to all SPECIAL stats while in combat, but suffer -1 while outside combat.",
+    "translation": "如果你的肾上腺素没有飙升,你就不能发挥出最佳状态。\\n你在战斗中所有属性增加1点,但在战斗外减少1点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkVain_110039B5#PERK:FULL#50f64a83614692c09cab3f2f19d5e377",
+    "original": "Vain",
+    "translation": "自视甚高",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkVain_110039B5#PERK:DESC#0c1e919280a5c0f2ff5ae482e11be202",
+    "original": "You're obsessed with perfection of your appearance. You gain +1 Charisma and Luck while your health is above 90%, but suffer -2 while your health is below 90%.",
+    "translation": "你痴迷于完美的外表,\\n当你的健康状况在90%以上时,增加1点魅力和幸运,\\n但健康状况低于90%时,你会遭受减少2点的惩罚。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHighRoller_110039B8#PERK:FULL#ae5ff7c63b642c2b9859c3d63723f180",
+    "original": "High Roller",
+    "translation": "豪赌",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHighRoller_110039B8#PERK:DESC#512ca44b2d00e24c85191896e7e995b6",
+    "original": "All those chips have got you feeling lucky! You gain +2% critical chance per when holding 2500+ Tops, Ultra-Luxe, Sierra Madre, Atomic Wrangler, or Gomorrah chips, up to a maximum of +10%.",
+    "translation": "所有这些筹码让你感到幸运!\\n每拥有2500个不同赌场的筹码,就可以增加2%暴击率，最多可以提升10%。\\n（分别是九重天、奢华殿堂、马德雷、蛾摩拉、原子牛仔）",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHurtMeMore_11005A96#PERK:FULL#7d07f772af3955f6a1b0812bc5f03d5b",
+    "original": "Hurt Me More!",
+    "translation": "伤我更多 !",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHurtMeMore_11005A96#PERK:DESC#aef74c4af46b996c50b03fb081d4f2cf",
+    "original": "It's all about pain; your DT has been reduced by 5, but your DR has increased by 5%, and 1% of your AP is restored each time you are hit.",
+    "translation": "这一切都与痛苦有关;你的DT减少5,但你的DR增加5%,\\n每次你被击中时,你的AP都会恢复1%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSlickShooter_11005A98#PERK:FULL#f2e07e7c79dc72af0ade3524d5d687fd",
+    "original": "Slick Shooter",
+    "translation": "狡诈射手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSlickShooter_11005A98#PERK:DESC#df06abdb44bfef1d2ed1d38fdabc32bc",
+    "original": "You know to target an enemy when they're most vulnerable. You gain a 50% boost to your crit. chance while your target is reloading.",
+    "translation": "你知道在敌人最脆弱的时候瞄准他们。在敌人装弹时,你的暴击率提高50%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkWesternStandoff_11005A99#PERK:FULL#2602605a1a20fa1390dae3065851860b",
+    "original": "Western Standoff",
+    "translation": "西部对决",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkWesternStandoff_11005A99#PERK:DESC#74ae72440e9393b114e439b0af8dc787",
+    "original": "There's one way to guarantee that you have the upper hand in a fight; make sure you're the only one holding a weapon. You gain a +25% chance to hit an enemy's weapon in V.A.T.S., which doubles if your target isn't in combat.",
+    "translation": "有一种方法可以保证你在战斗中占上风,那就是确保只有你一个人拿着武器。\\n在使用VATS模式时,击中敌人武器的几率增加25%。\\n如果你的敌人处于非战斗状态,几率还会翻倍。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkViolentVendetta_11005A9A#PERK:FULL#7b5f95383e9a250071aca1abc98ff1b0",
+    "original": "Violent Vendetta",
+    "translation": "V字仇杀队",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkViolentVendetta_11005A9A#PERK:DESC#a92b57a8cc13755e77e8f3f7a972a5de",
+    "original": "You are the true apex of evolution. Those disgusting blue and green Super Mutants are nothing but an abomination. You've gained a 25% accuracy bonus when attacking Super Mutants in V.A.T.S., as well as +25% damage against them.",
+    "translation": "你是真正的进化顶点。\\n那些蓝色和绿色的超级变种人令人作呕。\\n使用VATS模式攻击超级变种人时命中率增加25%,同时造成的伤害也增加25%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkNowhereToHide_11005A9B#PERK:FULL#4945d7a59569036ba1d1c4045d7d3d48",
+    "original": "Nowhere To Hide",
+    "translation": "无处藏身",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkNowhereToHide_11005A9B#PERK:DESC#8d9001056d1fced062981d1b6b55e1cf",
+    "original": "Where do you think you're going? Nobody gets away. You deal double damage to fleeing targets, and +50% damage to cloaked targets.",
+    "translation": "哼,想逃?你对逃跑的目标造成双倍伤害，对隐形的敌人+50%伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBurningWastelandSun_11005A9C#PERK:FULL#ff428e0b039e48188d34854b09431b97",
+    "original": "Burning Wasteland Sun",
+    "translation": "废土骄阳",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBurningWastelandSun_11005A9C#PERK:DESC#d2e656c28baa55d96cd1df14537260e2",
+    "original": "Can you feel that blazing sun, beating down on you? Then your fire based weapons have +8% crit. chance and +15% crit. damage, and they deal bonus limb and fatigue damage!",
+    "translation": "你能感受到那炽热的阳光，无情地炙烤着你吗？\\n当你使用火焰类武器时增加8%暴击率,暴击伤害增加15%，\\n并造成额外的肢体伤害和疲劳伤害！",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBladeInTheShadow_11005A9D#PERK:FULL#52598425528d5f2af845c804b60ba179",
+    "original": "Blade In The Shadow",
+    "translation": "暗影之刃",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBladeInTheShadow_11005A9D#PERK:DESC#1c80a02e1789d068d426c50fc9422794",
+    "original": "You're most devastating when unnoticed. Your bladed weapon attacks gain +10 damage while outside of your target's line of sight, and another +10 and +50% crit. damage if they are also outside of combat.",
+    "translation": "当你不被注意时,你的破坏力最大。\\n未被敌人发现时,你的刃类武器攻击增加10点伤害,\\n如果目标在非战斗状态,还会再增加10点伤害和50%暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkNotoriousEVIL_11005A9E#PERK:FULL#67ece26f44be45b90621cbd09d5a2c63",
+    "original": "Notorious E.V.I.L.",
+    "translation": "恶魔转生",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkNotoriousEVIL_11005A9E#PERK:DESC#3bb910b25820419513eb45791fec2e9e",
+    "original": "While you are Evil or Very Evil, Miss Fortune and the Mysterious Stranger will appear to help you twice as often (Requires Evil Karma).",
+    "translation": "当你的道德值处于邪恶或非常邪恶时,幸运小姐和神秘陌生人出现的概率提高两倍。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkPlayWithFire_11005AA3#PERK:FULL#bc40535e062b462a3716fc86e3d6d8dc",
+    "original": "Play With Fire",
+    "translation": "与火共舞",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkPlayWithFire_11005AA3#PERK:DESC#d01e0bab54c267b2be7392a522e312b6",
+    "original": "You've got a habit of playing with fire; your burns have increased your fire resistance. You've gained +15% fire resistance and +10% attack speed while using a fire-based weapon.",
+    "translation": "你有玩火的习惯;你的烧伤增加了你的耐火性。\\n使用火焰武器时,你将增加15%火焰抗性和10%攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMazeRunner_11005AA4#PERK:FULL#afab7c454a5ebd4e43b5c540166dec33",
+    "original": "Maze Runner",
+    "translation": "迷宫逃生者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMazeRunner_11005AA4#PERK:DESC#e585606b4a041c8b8506a5cb0fe85568",
+    "original": "You're most agile when cornered; you gain +10% movement speed while indoors and not sneaking. You also gain an additional +2 Agility while in combat in an interior.",
+    "translation": "你在被逼入绝境时最为敏捷;\\n在室内不潜行时,你会增加10%移动速度。\\n在室内战斗时,还能额外增加2点敏捷。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkInfighter_11009C59#PERK:FULL#2c6f1b6ac70ad251d0694deebd5f1004",
+    "original": "Infighter",
+    "translation": "近士",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkInfighter_11009C59#PERK:DESC#9c24dac608c944d22f7ba5635d224d6d",
+    "original": "If you can't see the whites of their eyes, you can't put a bullet between them. While close to your target, your DT is increased by 5 and damage is improved by 10%, your enemy's crit chance is reduced by 30%, and their DT is reduced by 5.",
+    "translation": "如果你连敌人的眼白都看不见，那你也别想击中他们。\\n当你接近目标时，你的DT增加5点，伤害提升10%，\\n敌人的暴击几率降低30%，他们的DT减少5点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkGunJuggler_11009C5B#PERK:FULL#ac51c2279d6f5b0b24dc163915d4ab5d",
+    "original": "Gun Juggler",
+    "translation": "耍枪",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkGunJuggler_11009C5B#PERK:DESC#573ee02b982f931a20b81ed34b2bb5e5",
+    "original": "Who needs to reload when you've got so many loaded guns? You've gained +50% equip speed with ranged weapons, but suffer 30% reduced reload speed.",
+    "translation": "有这么多上膛的枪,谁还需要装弹?\\n你的远程武器拔枪速度提高了50%,但装弹速度降低了30%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkValkyrie_11009C5C#PERK:FULL#51f43bd7ec285c25353fa9d979d9f985",
+    "original": "Valkyrie",
+    "translation": "女武神",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkValkyrie_11009C5C#PERK:DESC#4d65755b37d9950267913244e0550b94",
+    "original": "You move so fast it's like you're sweating gasoline! In combat you gain +10% run speed, and gain +25% melee/unarmed attack speed while on fire.",
+    "translation": "你动作迅捷如风，仿佛身体在燃烧汽油！\\n在战斗中，你的奔跑速度提升10%，\\n当你处于燃烧状态时，近战和徒手攻击速度提高25%!",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkStrongSwimmer_11009C5F#PERK:FULL#b7b980bf964fb5a3ef7df0ef16cf4d58",
+    "original": "Strong Swimmer",
+    "translation": "游泳健将",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkStrongSwimmer_11009C5F#PERK:DESC#84edc9e7fc1ba3e4490da231777cc4ae",
+    "original": "You're practically an irradiated mako shark! While not wearing power armor, you gain bonus swim speed based on your armor class, up to a maximum of +25%. This bonus is reduced by 5% for medium and heavy armors while diving.",
+    "translation": "你简直就是一条被辐照过的灰鲭鲨!\\n在不穿动力装甲时,你会根据装甲等级获得游泳速度加成,最大加成为25%。\\n然而，在潜水时，中型和重型护甲会使这一加成减少5%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHeadhunter_1100BD3A#PERK:FULL#f43cc03f3620179572b612aba23bcc50",
+    "original": "Headhunter",
+    "translation": "猎头者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHeadhunter_1100BD3A#PERK:DESC#d94948a9373e0d48c94a31b5e9e29970",
+    "original": "You take your time to ensure that your bullets will land right between your target's eyes. You gain +25% chance to hit your target's head in V.A.T.S., at cost of 50% increased AP cost. The second rank increases your crit. damage while attacking your target's head in V.A.T.S. by 15%.",
+    "translation": "慢慢来,确保你的子弹正好落在目标的眼睛之间。\\n在VATS模式下击中敌人头部的概率增加25%,,但AP消耗增加50%。\\n二级可将攻击目标头部时的暴击伤害提高15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkContentsUnderPressure_1100CDA8#PERK:FULL#fae02ad3844e01c96d5508693f4eb6ec",
+    "original": "Contents Under Pressure",
+    "translation": "压力山大",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkContentsUnderPressure_1100CDA8#PERK:DESC#ffe65c51f79440da644a30e710f90afd",
+    "original": "You're absolutely bursting at the seams with pyrotechnic pressure! While using a ranged fire-based weapon, you gain +20% attack speed, at the cost of 15% more condition damage. The second rank reduces the condition damage by 5%, and increases the attack speed bonus by 5%.",
+    "translation": "你的火药味十足!\\n使用远程火焰武器时,你的攻击速度增加20%,但耐久磨损增加15%。\\n二级将装备耐久磨损减少5%,再增加5%攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTypingTutor_1100CDA9#PERK:FULL#e69a12a18b648957be7ec41473190086",
+    "original": "Typing Tutor",
+    "translation": "键盘侠",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTypingTutor_1100CDA9#PERK:DESC#f04a000e9732dfda375811e50d50a98b",
+    "original": "You're not concerned with formulas and numbers and the scientific method. You just gotta get your fingers tapping on a keyboard, and you feel right at home. You gain +15 Science while hacking, but suffer -10 at all other times.\\n(Exclusive from Theories and Hypotheses)",
+    "translation": "你不关心公式、数字和科学方法。\\n你只需要用手指敲击键盘,就可以感觉宾至如归。\\n你在破解电脑时增加15点科学,但在其他时候减少10点科学。\\n(不能和“理论与假设”同时选择)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTheoriesandHypotheses_1100CDAC#PERK:FULL#d4029c4d870228f8d8ce59c19ed3ac6f",
+    "original": "Theories and Hypotheses",
+    "translation": "理论与假设",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTheoriesandHypotheses_1100CDAC#PERK:DESC#f0713effb376f385e7aec3e5ca03d4ef",
+    "original": "You're more comfortable in front of a chalkboard than a set of keys. You gain +15 Science, but suffer -15 Science when hacking.\\n(Exclusive from Typing Tutor)",
+    "translation": "你在黑板前比在键盘前更加自在。\\n增加15点科学,但在破解电脑时减少15点科学。\\n(不能和“键盘侠”同时选择)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFirewalker_1100CDAE#PERK:FULL#a6df24d4895b7255e3bf80f4d342308d",
+    "original": "Firewalker",
+    "translation": "火焰行者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFirewalker_1100CDAE#PERK:DESC#c80e844caa215a65999d0862fde6f2e5",
+    "original": "While moving, you gain +10 fire resistance. While walking, not running, you gain an additional +15.",
+    "translation": "移动时你增加10点火焰抗性,如果是步行而非跑步状态,将额外获得15点火焰抗性。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCombustionKid_1100CDB0#PERK:FULL#f03f2a742348c7b4a7ef362371f83050",
+    "original": "Combustion Kid",
+    "translation": "燃烧小子",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCombustionKid_1100CDB0#PERK:DESC#d566bea3b433ccd830a8137be06641ca",
+    "original": "Wait, where did you get that grenade from? You gain +25% equip speed and +15% attack speed with throwable explosives and the detonator.",
+    "translation": "等等,你从哪拿到了那个手榴弹?\\n你的可投掷爆炸物装备速度增加25%,爆炸性投掷物和雷管的攻击速度增加15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRadiationRenegade_1100DE1B#PERK:FULL#13079eb6dbab0220a2ff5f9e4dba5b4d",
+    "original": "Radiation Renegade",
+    "translation": "辐射叛徒",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRadiationRenegade_1100DE1B#PERK:DESC#35a9f992ab6fb2e2bfe2f1582dff1cfb",
+    "original": "Why forgo radiation protection in favor of damage protection when you could have both? While wearing a radiation suit, you gain the following benefits:\\n\\n+10% carry weight\\n+10 DT/+20% DR\\n+25 AP\\n-20% limb damage\\n-25% enemy crit. chance\\n\\nYou also don't suffer a sneaking detection penalty while running!",
+    "translation": "为什么要放弃辐射防护而选择伤害防护呢?\\n穿上防辐射服后,你可以二者兼得:\\n增加10%负重、增加10DT、增加20%DR\\n增加25AP、减少20%肢体伤害、减少25%敌人暴击率。\\n你在奔跑时也不会受到潜行惩罚!",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSocialDrinker_1100DE20#PERK:FULL#e97294183eb50f9673f1038672631156",
+    "original": "Social Drinker",
+    "translation": "以酒交友",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSocialDrinker_1100DE20#PERK:DESC#fe0698692f0ae88ef50d85464f38d433",
+    "original": "You're not drinking to get drunk, you're drinking to have a good time with your friends. You have -20% addiction chance when traveling with at least one companion.",
+    "translation": "你喝酒不是为了买醉,而是为了和朋友玩得开心。\\n与至少一名同伴一起旅行时,上瘾几率减少20%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkShellShock_1100EE8E#PERK:FULL#de8c002d501443f841a7d50366521d99",
+    "original": "Shell Shock",
+    "translation": "弹震症",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkShellShock_1100EE8E#PERK:DESC#658b599c8f1f6e0cf3d37d9341e97a58",
+    "original": "You've always got a shotgun handy for close encounters, and you'll never get caught with it unloaded. You've gained +35% equip speed and +25% reload speed with shotguns.",
+    "translation": "你总是随身带着霰弹枪以应对近距离冲突,而且永远不会因为装弹太慢导致暴毙。\\n使用霰弹枪时增加35%拔枪速度和25%装弹速度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkViewToAKill_1100FEFC#PERK:FULL#3f9ac083ae86a63377a2e505f869b170",
+    "original": "View To A Kill",
+    "translation": "观察杀戮",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkViewToAKill_1100FEFC#PERK:DESC#24471d10c10817337f5bb000d3222823",
+    "original": "You're an avid learner on the battlefield. When your weapon is holstered, you gain +50% XP during combat.",
+    "translation": "你是战场的好学生,当你收起武器时,战斗中获得的经验增加50%。\\n(在同伴击杀或者敌人死亡之前收起武器也可生效)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMetacarpalMayhem_110140B5#PERK:FULL#cae9b974f877a6dc65de2c46fab939f3",
+    "original": "Metacarpal Mayhem",
+    "translation": "骨屠掌",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMetacarpalMayhem_110140B5#PERK:DESC#c2f87bdb780e2dda4cedc24248b0324c",
+    "original": "Your fists are practically weapons of mass destruction! Your unarmed power attack speed is increased by 15%, your unarmed crit chance increases with your Strength, and your unarmed crit damage increases with Endurance, both applying a multiplicative x1.01 per point, up to a maximum of +21%.",
+    "translation": "你的拳头是大规模杀伤性武器!\\n你的徒手攻击速度提高15%,你的徒手暴击率随力量增加,\\n你的徒手暴击伤害随耐力增加,\\n每一点力量和耐力×1.01,最高可增加21%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRulesOfNature_110140B6#PERK:FULL#48eb6165d86d8c2a12bfe6aeb410aa67",
+    "original": "Rules of Nature",
+    "translation": "自然法则",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRulesOfNature_110140B6#PERK:DESC#bc2e0679eca34fe6f3531f09789993ff",
+    "original": "You're fiercer when you're on the brink of death; but so is everyone else. When your health is below 25%, you gain +8% crit chance, which increases to +13% when using a melee or unarmed weapon, but your enemies also gain the same bonus while they're below 25% health.",
+    "translation": "当你濒临死亡时,你会更加凶猛;但其他人也一样。\\n当你的生命值低于25%时,你会增加8%暴击率,\\n使用近战武器或徒手时,暴击率会提高到13%,\\n但你的敌人在生命值低于25%时也会获得同样的增益。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAStrangerIRemain_110140B7#PERK:FULL#ad94a43590bb24e65d370a911060e571",
+    "original": "A Stranger I Remain",
+    "translation": "仍是过客",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAStrangerIRemain_110140B7#PERK:DESC#5d4b65ce2820e788764c5182d3388b60",
+    "original": "You don't belong here; the fewer factions that know of you, the higher your sneak bonus. (+26 Sneak, reduced by 2 for each faction that knows you)",
+    "translation": "你不属于这里;知道你的派系越少,你的潜行加成就越高。\\n(最高增加26点潜行,每个派系认识你后减少2点)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMyOwnMasterNow_110140BC#PERK:FULL#cad866bf3cff775f591246450f616521",
+    "original": "My Own Master Now",
+    "translation": "得道寡助",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMyOwnMasterNow_110140BC#PERK:DESC#4c30deee7b53703af6d20e2023b36914",
+    "original": "You've worked under the shackles of the wasteland factions long enough! You're your own master! You gain +1 Endurance, and for each faction that dislikes you you gain +1% damage, and -1% limb damage.",
+    "translation": "你在废土派系的桎梏下待得够久了!你是自己的主人!\\n你将增加1点耐力,\\n并且每有一个派系厌恶你都将增加1%伤害和减少1%肢体伤害",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCollectiveConsciousness_110140C0#PERK:FULL#909ff9bc2bbf67bb8414906e472ca519",
+    "original": "Collective Consciousness",
+    "translation": "集体意识",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCollectiveConsciousness_110140C0#PERK:DESC#9cd8c8e439128e365602f79583417ec9",
+    "original": "You're a master of manipulation. As you gain positive reputation with each faction, your Speech increases by +2 for each faction that likes you, and your barter purchase prices are also reduced by 2% each if your karma is Evil or Very Evil.",
+    "translation": "你是一位操纵大师,\\n当你在每个派系中获得正面声誉时,每有一个喜欢你的派系,你的口才都会增加2点,\\n如果你的道德值是邪恶或非常邪恶,你的购买价格也会减少2%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTryptophobe_110140C3#PERK:FULL#71aa525dd1b3801349b879f2e502b652",
+    "original": "Tryptophobe",
+    "translation": "恐惧症",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTryptophobe_110140C3#PERK:DESC#4109892c8860e806ffb59b3680658344",
+    "original": "\"Birdshot\" is practically a profanity to you. When using shotguns, your spread is reduced by 20% and your crit. damage is increased by 10%, but your attack speed is reduced by 20% and your crit. chance is reduced by 10%.",
+    "translation": "“鸟弹”对你来说简直就是亵渎。\\n当你使用霰弹枪时，你的射击散布减少20%，暴击伤害提高10%，\\n但攻击速度降低20%，暴击几率降低10%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCyborgJustice_110140C4#PERK:FULL#b2464da3f1dc82abf6491d03910a1fc2",
+    "original": "Cyborg Justice",
+    "translation": "赛博审判",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCyborgJustice_110140C4#PERK:DESC#8cbd4244ed6c9eb85c316491360f3bbd",
+    "original": "Your cybernetically enhanced arms vibrate your blade so finely that it can't be perceived by the naked eye. You've gained +15 DT penetration and doubled limb damage when using a bladed weapon, and +15% damage when attacking a robot with your bladed weapon.",
+    "translation": "你的赛博增强手臂使你的刀刃产生肉眼无法感知的细微振动。\\n使用刃类武器时,你获得15DT穿甲和双倍的肢体伤害,\\n使用刃类武器攻击机器人时增加15%伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRedSun_1101513B#PERK:FULL#64aa77f969458c885c4325a401b7830c",
+    "original": "Red Sun",
+    "translation": "红日",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkRedSun_1101513B#PERK:DESC#19d7225226329d975221429c0b405ef9",
+    "original": "Can you feel the rays of the glorious sunshine? When you're charged by the rays of the sun (outside, between 7 a.m. and 7 p.m.) your laser weapons will penetrate 5 DT and gain a moderate damage bonus which increases the further away your target is. (+3-7 damage)",
+    "translation": "像红日之火,燃点真的我!\\n在室外的早上7点到下午7点之间,你的激光武器将增加5DT穿透,并获得伤害加成,\\n目标越远,伤害加成越高(伤害增加3-7)",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThatsNotAKnife_1101513D#PERK:FULL#519d58338a4e7d95a5b1928887538f1b",
+    "original": "That's Not A Knife",
+    "translation": "这也算刀?",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThatsNotAKnife_1101513D#PERK:DESC#aff2cf10fc4f626f13f869715dec6b46",
+    "original": "Your skin has been toughened by adversity and the wasteland sun. You gain +3 DT, and an additional +1 DT per point in Endurance, when facing a target with a bladed weapon.",
+    "translation": "你的皮肤在逆境和废土烈日下变得坚韧。\\n在面对使用刀刃武器的敌人时,你获得3DT,每点耐力值还会额外增加1DT。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThisIsAKnife_1101513E#PERK:FULL#da173e0b63312e8635656417401444fb",
+    "original": "This Is A Knife",
+    "translation": "这就是刀",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThisIsAKnife_1101513E#PERK:DESC#8b2970579de2570249ed844a19624fc7",
+    "original": "Your enemy's crit chance is reduced by 20% and you gain +5 DT when you guard with a combat knife, bowie knife, or machete. The DT bonus doubles if your target is also wielding any handheld bladed weapon.\\n\\nThe second rank grants +10% attack speed and +15% damage with combat knives, bowie knives, and machetes.",
+    "translation": "当你使用战斗匕首、博伊猎刀或砍刀时,你的敌人暴击率减少20%,你获得5DT,\\n同时如果你的敌人使用着任何刀刃武器,DT加成翻倍。\\n二级时，使用战斗匕首、博伊猎刀和砍刀时，攻击速度增加10%,伤害增加15%",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBluntForceTrauma_11015140#PERK:FULL#ae35ed3d76cc411ce3da68cd1a4a4253",
+    "original": "Blunt Force Trauma",
+    "translation": "钝力创伤",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBluntForceTrauma_11015140#PERK:DESC#bfd02543075c4916c358ee1078736d74",
+    "original": "Blunt Force Trauma increases your crit. chance and attack speed with blunt weapons by 10%, and the second rank increases your crit. damage by 15% and your damage by an additional 15%.",
+    "translation": "你使用钝器的暴击率和攻击速度增加10%,\\n二级时暴击伤害和伤害增加15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkReturnToAshes_11015141#PERK:FULL#2649ead50fd2dc781d0ea7039f18ae34",
+    "original": "Return To Ashes",
+    "translation": "灰飞烟灭",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkReturnToAshes_11015141#PERK:DESC#3c285ee8cb45286953e63c33c6e58768",
+    "original": "Your flames burn hotter than anyone else's! You gain +50% damage when you and your enemy are both using fire-based weapons.",
+    "translation": "你的火焰比任何人的都要炽热!\\n当你和敌人都使用火焰武器时,你将获得50%额外伤害",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDuelist_110161B4#PERK:FULL#43311ee6f1cbc24d957d071867501467",
+    "original": "Duelist",
+    "translation": "决斗者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDuelist_110161B4#PERK:DESC#a015c5bd2c27c98551b02da08d14a381",
+    "original": "Fight 'em on fair ground. When you kill a human or ghoul using a weapon of the same skill as you, you gain +15 XP. For every 150 kills in this manner per each weapon type, you will gain +1 to that skill.",
+    "translation": "在公平的战场上与他们战斗。\\n当你杀死使用与你相同技能类型武器的敌人时,你将获得15经验。\\n每使用这种方式击杀150个敌人,就会获得使该技能增加1点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCritterCruncher_1101828C#PERK:FULL#b7ae34514d825f8ef0458a9b49da71b9",
+    "original": "Critter Cruncher",
+    "translation": "动物粉碎者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCritterCruncher_1101828C#PERK:DESC#df76da078acb63edcb39c760750905a6",
+    "original": "The puny creatures of the wasteland can hardly scratch you. You suffer 50% less limb damage when being attacked by an insect or an animal, and you deal 50% more damage to them with your bare fists.",
+    "translation": "那些弱小的废土生物几乎伤不到你。\\n当你被昆虫或动物攻击时,你的肢体损伤会减少50%，徒手伤害提高50%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBalancedLoad_110192FA#PERK:FULL#3392a3583bd3a2ada6f201c268dc7eb3",
+    "original": "Balanced Load",
+    "translation": "平衡负重",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkBalancedLoad_110192FA#PERK:DESC#2bf52dbd9197eae5c07955aedd6ffbcf",
+    "original": "You're experienced with leverage and fulcrums. With a little attention to the finer details, you've gained +10% carry weight, which increases to 15% when your weapon is holstered.",
+    "translation": "你精通杠杆和支点的运用。\\n通过关注一些细节，你的负重能力增加了10%，\\n当你的武器收起时，这一加成提升至15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSilverTongueLeadPocket_110192FB#PERK:FULL#47c30fe920d6f1fe9e48d9ce5212f29a",
+    "original": "Silver Tongue, Lead Pocket",
+    "translation": "巧言难过金钱关",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSilverTongueLeadPocket_110192FB#PERK:DESC#c36997a99e204053b6864a5fc40a30c0",
+    "original": "You're excellent at convincing others to do you favors, but your words weigh little when compared to material assets. You've gained +20 Barter, but your purchase prices are also increased by 15%.",
+    "translation": "你很善于说服别人帮你的忙,但与物质财富相比,你的话没什么分量。\\n你增加了20点砍价,但购买价格也增加了15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkScientificConsensus_1101B3F0#PERK:FULL#ab8c6ec46c82e4ad5c0ac570cb13dad5",
+    "original": "Scientific Consensus",
+    "translation": "科学共识",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkScientificConsensus_1101B3F0#PERK:DESC#aa56474c6548e8bf6eb80306aff80238",
+    "original": "Against all odds, you've managed to balance the Big Mountain equation. The Big Empty isn't so empty with all these scientists floating around! Your Energy Weapons deal 10% more damage, and you deal double crit. damage with mad science weapons.",
+    "translation": "尽管困难重重,你还是设法平衡了大山脉方程式。\\n有了这些漂浮在周围的科学家,“大空”就不那么空了!\\n你的能量武器增加10%额外伤害,\\n使用疯狂科学武器可造成双倍暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSurvivalist_1101B3FA#PERK:FULL#6af5e583e5a909af3cd93cf9157e560c",
+    "original": "Survivalist",
+    "translation": "生存狂",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSurvivalist_1101B3FA#PERK:DESC#37a950867cdddc5fb4036a38dd9efec4",
+    "original": "Material comforts and the buzz of conversation just aren't for you. With the Survivalist perk, actions which sate your hunger, thirst, and sleep deprivation will be twice as effective.",
+    "translation": "物质享受和热闹的交谈并不适合你。你缓解饥饿、脱水和困倦的效果是原来的两倍。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOneHander_1101B3FB#PERK:FULL#91959435a7118f90534733a7f95013dc",
+    "original": "Right Handed",
+    "translation": "右撇子",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOneHander_1101B3FB#PERK:DESC#c5aae754ede1a5f5ffbb5ead9d5246df",
+    "original": "Your right hand could shoot the wings off a fly, but your left hand ruins your stability. When using one-handed weapons, you gain +20% accuracy, but you suffer -40% accuracy when using two-handed weapons.",
+    "translation": "你的右手可以击中苍蝇的翅膀,但左手却会破坏你的稳定性。\\n使用单手武器时,你会增加20%准确度,\\n但使用双手武器时,你会减少40%准确度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDevilsAdvocate_1101B3FC#PERK:FULL#490ef65baaee7cb5a26d7609bd7db882",
+    "original": "Devil's Advocate",
+    "translation": "魔鬼代言人",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDevilsAdvocate_1101B3FC#PERK:DESC#6bc999aadc90657f33a35c432dc19041",
+    "original": "You're most convincing when you lie; people immediately mistrust you when you're being truthful. You've gained +25 Speech, but only while your karma is Very Evil. (Requires Evil Karma.)",
+    "translation": "当你撒谎时，你的说服力最强\\n而当你坦诚相待，人们反而会立刻对你产生怀疑。\\n道德值得保持在非常邪恶增加25点口才。\\n（需要邪恶道德）",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkASolitarySoul_1101B3FD#PERK:FULL#e5dbd35d21f61ee7241dd02e91481ce9",
+    "original": "A Solitary Soul",
+    "translation": "孤独之魂",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkASolitarySoul_1101B3FD#PERK:DESC#f741a8fd6c3fc2ae2b0bdf4cf7e1c74a",
+    "original": "Traveling with a crowd just isn't for you. When not accompanied by any companions, you recover 10% more health from healing sources, gain 15% more experience, and while facing more than one target at once, the adrenaline rush from any non-fatal critical hit will restore the hit's health damage by 2% per point of Endurance, if you have an equal amount of AP available.",
+    "translation": "你天生就不适合与人结伴旅行。\\n在没有同伴的情况下，你使用治疗物品回复效果增加10%,获得的经验会增加15%。\\n当你同时面对多个敌人时,任何非致命的暴击都会引发肾上腺素激增，\\n如果你的行动点数足够，每点耐力将恢复所受暴击伤害的2%生命值。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLuckyStreak_1101B3FE#PERK:FULL#75295ede8fdb05c6376b3042376bbac5",
+    "original": "Winning Streak",
+    "translation": "赢赢赢",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLuckyStreak_1101B3FE#PERK:DESC#4a6d9066d5da947039824d09e1feb6e2",
+    "original": "Once your ticket comes up, you'll be on your way to the high-roller life. After you've scored a critical hit, your crit. chance is doubled.",
+    "translation": "一旦你时来运转,就会扶摇直上。每次暴击后暴击率翻倍。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMonkeyWrench_1101B3FF#PERK:FULL#a4a44623c01cd0e7dc6910b53118f2f2",
+    "original": "Monkey Wrench",
+    "translation": "活动扳手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMonkeyWrench_1101B3FF#PERK:DESC#801d615e873d702e00a5e9aa65201ac8",
+    "original": "You're familiar enough with robots that taking them apart is a snap - doubly so if you don't care about putting them back together again. You deal 50% more damage against robots when using melee weapons.",
+    "translation": "你对机器人非常熟悉,拆卸它们易如反掌,\\n如果你不在乎把它们重新组装起来,那就更容易了。\\n使用近战武器时对机器人造成的伤害增加50%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSharpshooter_1101B400#PERK:FULL#2c4ee194d1786c873b4ec93e2b87a67e",
+    "original": "Sharpshooter",
+    "translation": "神射手",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSharpshooter_1101B400#PERK:DESC#1572fd2a4589cb6e67d3b88ee580ee1b",
+    "original": "Your visual acuity borders on clairvoyance. With this perk, the spread of all ranged weapons is decreased by 25%.",
+    "translation": "你的视力近乎千里眼,所有远程武器的散布减少25%",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOverwhelmingOdds_1101B401#PERK:FULL#1fb574f76ef21c276fd82f3448920e76",
+    "original": "Overwhelming Odds",
+    "translation": "逆境无赖",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkOverwhelmingOdds_1101B401#PERK:DESC#14bd7e5f2e33955d1cfc74297378bb5b",
+    "original": "You've learned how to tilt the odds in your favor when outnumbered. Your weapon damage and V.A.T.S. accuracy are increased by 15% and you gain +5 DT penetration while fighting a group of five or more enemies.",
+    "translation": "你已经懂得在寡不敌众的情况下将局势往有利于你的方向逆转。\\n在与五个或以上的敌人战斗时，你的武器伤害和VATS精度增加15%,\\n并增加5DT穿甲。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDustbowl_1101B402#PERK:FULL#982bfa7f8d3905021c8daae165329a2e",
+    "original": "Dustbowl",
+    "translation": "沙尘暴",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDustbowl_1101B402#PERK:DESC#5111d2e04ec1f32405798aa6781f0fce",
+    "original": "It's a desolate wasteland out there, but you know how to subsist on just the bare necessities. Your Dehydration advances twice as quickly, but your Hunger advances only one-third as quickly.",
+    "translation": "外面是一片荒凉的废土,但你知道如何仅靠最基本的必需品维持生计。\\n你的脱水速度是原来的两倍,但饥饿速度只有原来的三分之一。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFightHungry_1101B403#PERK:FULL#33ef916d50e0a02810aca8297188b29d",
+    "original": "Fight Hungry",
+    "translation": "饥动战士",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFightHungry_1101B403#PERK:DESC#bf7907b395407b2b2aba8d4098b1a089",
+    "original": "Desperation is your strongest motivator. In combat, when you have any level of starvation, you gain +20% damage and +3 Endurance.",
+    "translation": "绝望是你最强大的动力。\\n在战斗中,当你处于任何饥饿状态时,都会增加20%伤害和3点耐力。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThirsty_1101B404#PERK:FULL#2c610209b5e8388bcc024abedc65c4cb",
+    "original": "Thirsty",
+    "translation": "饥渴难耐",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkThirsty_1101B404#PERK:DESC#5be16b8c2f89217ca0333ca8d901cc37",
+    "original": "Something about the dehydration headaches makes you much more Charismatic. When you suffer any degree of dehydration, you gain +2 Charisma and a -10% reduction in buying prices.",
+    "translation": "脱水会让你更有魅力。\\n当你遭受任何程度的脱水时,你会增加2点魅力和10%的交易折扣。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHardy_1101B405#PERK:FULL#6341d8205c28e7a3cf6bd8643cc8e2aa",
+    "original": "Hardy",
+    "translation": "硬核",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkHardy_1101B405#PERK:DESC#cf37fb180ad134cdb366a53819676f93",
+    "original": "The natural healing power of the human body is your greatest resource. While your Hunger and/or Dehydration are over 150, you gain +15 Survival and +15% to recovered health.",
+    "translation": "人体的自然愈合能力是你最大的财富。\\n当你的饥饿值或口渴值超过150时,你将增加15点生存和15%恢复能力。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAscetic_1101C468#PERK:FULL#41a53ad0feeb7e4371f7a95b77141e91",
+    "original": "Ascetic",
+    "translation": "苦行僧",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAscetic_1101C468#PERK:DESC#a2973a26b63035ecbfdbba2ea933d582",
+    "original": "Through meditation, you've touched the fibers which connect all life, and you've sworn not to sever them; preservation of the beauty of life is the highest moral imperative.\\nYou gain +2 Endurance, and +2 Strength while in combat, but your carry weight is reduced by 50 at all times, and you may only fight using non-lethal unarmed techniques.\\n(Requires tag skill: Unarmed)",
+    "translation": "通过冥想,你触摸到了连接所有生命的纤维,你发誓不会破坏它们;\\n维护生命之美是至高的准则。\\n在战斗中,你的耐力和力量各增加2点,但你的负重会减少50,\\n而且你只能使用非致命的徒手攻击方式进行战斗。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAssassinsStep_1101C46D#PERK:FULL#fedb3310e666ea18b54af290ecc9714c",
+    "original": "Assassin's Step",
+    "translation": "刺客步伐",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAssassinsStep_1101C46D#PERK:DESC#42762654562e7ee79938cd9aaea260c0",
+    "original": "Stealth and discretion come second nature to you, but due to your... suspicious demeanor, people really lock onto you as soon as you've been spotted. You gain +10 Sneak, +8% run speed, and 12.5% improved AP cost and regen while sneaking and undetected, but you suffer an inverse penalty to those stats while detected.\\n(Requires tag skill: Sneak)",
+    "translation": "对你来说，潜行和谨慎是第二本能，\\n但由于你...可疑的举止，人们一旦看到你，就会立刻锁定你。\\n在潜行和未被察觉的情况下，\\n你获得+10潜行、+8%奔跑速度，以及12.5%的AP消耗和恢复速度提升;\\n但是,当你被察觉时,这些能力会受到同样惩罚。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLuckyAccident_1101C46F#PERK:FULL#18326de36a510d5abb92a8ba80e40aa0",
+    "original": "Lucky Accident",
+    "translation": "歪打正着",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLuckyAccident_1101C46F#PERK:DESC#f2da5056ce7c22f35e6b13b6fa58227c",
+    "original": "You've always been lucky, so you never learned to aim properly; your crit. chance is increased by 25%, but your crit. damage is reduced by 50%.",
+    "translation": "你一直都很幸运,所以你从来没有学会正确瞄准;\\n你的暴击几率增加25%,但你的暴击伤害减少50%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkScientificMethod_1101C472#PERK:FULL#b036d2684dac31f85704a9b3a2aa3339",
+    "original": "Scientific Method",
+    "translation": "科学之道",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkScientificMethod_1101C472#PERK:DESC#973b14d1cbb5fb4efbce84e1131aced9",
+    "original": "Your dedication to science and technology is admirable, if bordering on obsessive. Standing in front of monitors and taking samples from irradiated puddles has started to take its toll, but it's all in the name of progress.\\nYou've gained +2 INT and +20 Science, but you've lost -2 PER and -10 Radiation Resistance, and you've become obsessed with using nothing but the most advanced of weapons.\\n(Requires tag skill: Science and Energy Weapons)",
+    "translation": "你对科学和技术的执着令人钦佩,甚至近乎痴迷。\\n站在显示屏前,从辐照水坑中采集样本已经开始让你付出代价,但这一切都是为了进步。\\n你增加了2点智力和20点科学。\\n但你减少了2点感知和10点辐射抗性,而且你已经痴迷于只使用最先进的武器。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTradersTouch_1101C475#PERK:FULL#2d4876bd30eb70e8f5b074bd7e7200f3",
+    "original": "Trader's Touch",
+    "translation": "贸易达人",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTradersTouch_1101C475#PERK:DESC#0e1c3f51716b88a8e0a3dfc4281dd16b",
+    "original": "Your understanding of the markets is second-to-none, and you intend to prove it to the entire Mojave, though your pack brahmin is long dead. You suffer -30 carry weight, but you gain +15 Barter after each transaction, which lasts until you barter with a merchant twice in a row.\\n(Requires tag skill: Barter and Speech)",
+    "translation": "你对市场的洞察无人能及,你打算向整个莫哈维证明这一点,\\n尽管你的运货双头牛早已死亡。\\n你的负重减少30,但每次交易后你会增加15点砍价技能,\\n这个加成将持续到你连续两次与同一个商人进行交易。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkExodusOfTheFailthful_1101C476#PERK:FULL#410aae30c6b4a80332f59f41af2e76f5",
+    "original": "Exodus Of The Faithul",
+    "translation": "出埃及记",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkExodusOfTheFailthful_1101C476#PERK:DESC#9aeabb826ae57d0e1ef84aba5b47cacf",
+    "original": "\"Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.\" - Psalm 23:4\\nYour run speed is increased by 10%, and enemies are 10% less likely to critically hit you, so long as you have your Bible.",
+    "translation": "“我虽然行过死荫的幽谷,也不怕遭害;因为你与我同在,你的杖,你的竿,都安慰我。”\\n-圣经诗篇 23:4\\n只要你带着圣经,你的移动速度就会增加10%,敌人的暴击率减少10%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkWrathOfTheFaithful_1101C477#PERK:FULL#6b78fb031a516bc47a857d1be2838b0b",
+    "original": "Wrath Of The Faithful",
+    "translation": "信徒之怒",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkWrathOfTheFaithful_1101C477#PERK:DESC#a77f049c629fde32d2990e3519131409",
+    "original": "\"And I will execute great vengeance upon them with furious rebukes; and they shall know that I am the LORD, when I shall lay my vengeance upon them.\" - Ezekiel 25:17\\n\\nYou deal 15% more damage with holy weapons, and your weapon degrades 50% slower, so long as you have your Bible with you.",
+    "translation": "“我向他们大施报应,发怒斥责他们。我报复他们的时候,他们就知道我是耶和华。”以西结书 25:17\\n\\n只要你带着圣经,你使用神圣武器造成的伤害增加15%,\\n你的武器耐久磨损降低50%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFallOfTheFalthful_1101C478#PERK:FULL#3eb4d7d05cecc8eb2a24a4508e52adfc",
+    "original": "Fall Of The Faithful",
+    "translation": "堕落信徒",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFallOfTheFalthful_1101C478#PERK:DESC#34b8e55b25daa2a092f10a9e4b4c6ec9",
+    "original": "\"And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him. And power was given unto them over the fourth part of the earth, to kill with sword, and with hunger, and with death, and with the beasts of the earth.\"  - Revelation 6:8\\nSo long as you have your Bible, you are 5% more likely to critically hit, and deal +10% critical damage.",
+    "translation": "“我就观看,见有一匹灰色马;骑在马上的,名字叫作死,\\n阴府也随着他;有权柄赐给他们,\\n可以用刀剑、饥荒、死亡、野兽,杀害地上四分之一的人。”-启示录 6:8\\n只要你带着圣经,就能提高5%暴击率,并增加10%暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDeadMoneyTrapped_1101C47E#PERK:FULL#9d42b777b1ddd31b25dc03834f947132",
+    "original": "Elijah's Montresor",
+    "translation": "安息吧，伊利亚",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDeadMoneyTrapped_1101C47E#PERK:DESC#50467d8f47338aed2abd7125ec78abfd",
+    "original": "Elijah is now trapped in the vault, with the treasure that he coveted for so long. You, however, are free to begin again. You gain +30% XP and 2 skill points per level, so long as you're outdoors and carry less than 75% of your maximum carry weight.\\nIn pace requiescat, Elijah.",
+    "translation": "伊利亚现在被困在金库中,与他梦寐以求的宝藏相伴。\\n而你可以重新开始。\\n只要你在户外,并且携带的重量少于最大负重的75%,\\n你就能获得30%额外经验和每级2点技能点数。\\n安息吧,伊利亚。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDeadMoneySurvivor_1101C480#PERK:FULL#1641f570701a4efeb8dd6e71f844d99d",
+    "original": "Survivor's Guilt",
+    "translation": "幸存者的内疚",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDeadMoneySurvivor_1101C480#PERK:DESC#b5d860a614b8e9dc43777d73d74abf65",
+    "original": "You survived the hell that was the Sierra Madre, but after all of the deaths you've seen, you feel as though a piece of you has been left behind there forever. Your Luck is reduced by 1 when you have a teammate, but your AP will also regenerate 15% faster and AP costs will be reduced by 5% at all times.",
+    "translation": "你从马德雷赌场的地狱里活了下来,\\n但在经历了这么多死亡之后,你觉得自己的一部分仿佛永远留在了那里。\\n当你拥有同伴时,你的运气减少1,但你的AP恢复速度也会增加15%,AP消耗减少5%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDeadMoneySavior_1101C481#PERK:FULL#c44d316c47e51e792aa6517453a384ef",
+    "original": "The Ties That Bind",
+    "translation": "羁绊",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDeadMoneySavior_1101C481#PERK:DESC#0526a8e64fdf8b9ff3c382f604ef2fea",
+    "original": "Elijah's collars may have brought you together initially, but it's the bonds you made that will keep them in your heart. As long as you have at least one teammate, you ignore 4 points of enemy DT, gain an additional 4 points yourself, and have a 4% increased crit. chance and crit. damage.",
+    "translation": "以利亚的项圈也许在一开始将你们聚集起来,\\n但是你们建立的羁绊使对方留在了自己心中,\\n只要你拥有至少一名同伴,你就可以忽略敌人4点DT,自身增加4点DT,\\n并增加4%暴击率和暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMobiusStrip_1101C482#PERK:FULL#d6492e674fa6a7cc73005270fd9cb752",
+    "original": "Mobius Strip",
+    "translation": "莫比乌斯环",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkMobiusStrip_1101C482#PERK:DESC#2233273097479c41c94e14d7d1a70b4f",
+    "original": "After experiencing the delirium of the Think Tank first-\"hand\", it seemed only natural to side with Mobius, and you ended their deranged experiments once and for all. Mad science weapons will deal 15% more damage, and cost 25% less AP in V.A.T.S.",
+    "translation": "在亲身经历了智囊团的疯狂后,站在莫比乌斯一边似乎是理所当然的事,\\n而你也彻底结束了他们疯狂的实验。\\n在使用VATS模式时疯狂科学武器的伤害增加15%,AP消耗减少25%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkKleinBottle_1101C483#PERK:FULL#89558017bf48a559d52427a24ec269ee",
+    "original": "Klein Bottle",
+    "translation": "克莱因瓶",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkKleinBottle_1101C483#PERK:DESC#b2d3ee96d50b5bbbfebdb0a4146f568d",
+    "original": "While the Think Tank may be unreliable and chaotic, they're at least well intentioned. Mobius was clearly the aggressor, so you've taken him out of the equation. When using mad science weapons, you attack 15% faster, and their strength requirements are lowered by 1.",
+    "translation": "虽然智囊团可能不可靠,但他们至少是出于善意。\\n莫比乌斯显然是侵略者,所以你已经把他排除在等式之外了。\\n使用疯狂科学武器时,你的攻击速度增加15%,\\n疯狂科学武器的力量要求降低1点。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLonesomeRoadFinalDelivery_1101C486#PERK:FULL#35082c51561c5bd41097ba7c332ba2b6",
+    "original": "The Final Delivery",
+    "translation": "最终快递",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLonesomeRoadFinalDelivery_1101C486#PERK:DESC#64b2d7bbc3b7c8a1218fbf7d6b576546",
+    "original": "Ulysses was right about something: One person's decisions can irrevocably change history. While you wear your Courier Duster, you gain +50% rocket damage and projectile velocity.",
+    "translation": "尤利西斯说的道理:一个人可以不可逆转地改变历史。\\n当你穿上信使风衣时,你会增加50%火箭伤害和投掷物速度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLonesomeRoadMendedDivide_1101C487#PERK:FULL#ee4a31ba4e80d3abc74beaf28294df4e",
+    "original": "A Mended Divide",
+    "translation": "弥合分裂",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkLonesomeRoadMendedDivide_1101C487#PERK:DESC#691a154905bb7b6a22928927db9a385a",
+    "original": "Ulysses once faced you down with malice, from across a deep divide, but you've found common ground and a mutual understanding. While wearing your Courier Duster, you have 20% increased carry weight, and 15% better accuracy in V.A.T.S.",
+    "translation": "尤利西斯曾以恶意对你,跨越了深深的鸿沟,\\n但你们已经找到了共同点并相互理解。\\n当你穿着邮差风衣时,\\n你的负重增加20%,在VATS模式中的命中率提高15%。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedBarter_1101D503#PERK:FULL#552f6bda875e861c3cca5a017c9e32ba",
+    "original": "Barter Tagged",
+    "translation": "将砍价作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedSneak_1101D504#PERK:FULL#a4a17d8a5fb5e5093c40ee9bfc1870d4",
+    "original": "Sneak Tagged",
+    "translation": "将潜行作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedGuns_1101D505#PERK:FULL#67fa5a8461d1e81e864bce890afc1c2a",
+    "original": "Guns Tagged",
+    "translation": "将枪械作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedBigGuns_1101D506#PERK:FULL#dd6faa53b294be59d01d4372f9d13bc6",
+    "original": "Big Guns Tagged",
+    "translation": "将大枪作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedExplosives_1101D507#PERK:FULL#27f88428ed4ca539e52a9b55ddd9348d",
+    "original": "Explosives Tagged",
+    "translation": "将爆破作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedEnergyWeapons_1101D508#PERK:FULL#8a7c87f67a8a40955cedcdb5e1e5b683",
+    "original": "Energy Weapons Tagged",
+    "translation": "将能量武器作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedRepair_1101D509#PERK:FULL#f2e3cbefcfac8d1a7bac6de1ee34d179",
+    "original": "Repair Tagged",
+    "translation": "将修理作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedUnarmed_1101D50A#PERK:FULL#207fa401632fe92ee262ee962b029aae",
+    "original": "Unarmed Tagged",
+    "translation": "将徒手作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedMeleeWeapons_1101D50B#PERK:FULL#4f31d90860aca24c3cf88bd40fef4452",
+    "original": "Melee Weapons Tagged",
+    "translation": "将近战武器作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedSpeech_1101D50C#PERK:FULL#c9dad5102634a93ef73bb000048db933",
+    "original": "Speech Tagged",
+    "translation": "将口才作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedScience_1101D50D#PERK:FULL#bd48247a0118b0ff4aef5f6283d3a551",
+    "original": "Science Tagged",
+    "translation": "将科学作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedLockpick_1101D50E#PERK:FULL#6e0191c0b33b63e274e901c0e0e9f063",
+    "original": "Lockpick Tagged",
+    "translation": "将开锁作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedSurvival_1101D50F#PERK:FULL#ff07d7fcd0d7bb7408afbd257ec8cf95",
+    "original": "Survival Tagged",
+    "translation": "将生存作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTaggedMedicine_1101D510#PERK:FULL#c591ead8eea885fe2c59356620f910cc",
+    "original": "Medicine Tagged",
+    "translation": "将医疗作为招牌技能",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDesperado_1101F2D6#PERK:FULL#6143009474b20c5763b761334020282a",
+    "original": "Desperado",
+    "translation": "亡命之徒",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDesperado_1101F2D6#PERK:DESC#ed4685109db0f567b22c84b8e9818059",
+    "original": "You're a true desperado with impeccable precision. When using a cowboy weapon, you gain a crit. chance bonus that scales with your Perception (1% per point), an additional 3% crit. chance bonus if you're alone and facing more than three enemies at once, and you deal +20% damage against targets using ranged cowboy weapons.",
+    "translation": "你是一个真正的亡命之徒,枪法无可挑剔。\\n使用牛仔武器时,每点感知增加1%暴击率。\\n如果你独自一人面对三名以上的敌人,\\n还会额外获得3%的暴击率,并且对使用远程牛仔武器的目标增加20%伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkShunnedByFactions_1101F5F3#PERK:FULL#cff19b28c8d731ce24a55f25b8a3ade1",
+    "original": "Shunned by Legion+NCR+Strip",
+    "translation": "在NCR、军团和长街的好感属于“被躲避”",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSexAppeal_110213B1#PERK:FULL#e00f978382cd326de70e564ea98ffdfe",
+    "original": "Sex Appeal",
+    "translation": "性感诉求",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSexAppeal_110213B1#PERK:DESC#1d9a24471ca5300842240c83869be08a",
+    "original": "You've always been able to rely on your looks to get your way, not your words. You have +2 Charisma, but -10 Barter and Speech.",
+    "translation": "你一直以来都能依靠你的外貌而非言辞来达到目的。\\n你的魅力增加2,但砍价和口才减少10。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTwisted_110213B3#PERK:FULL#5245fa847c97c8e9505dcc7e4399050c",
+    "original": "Twisted",
+    "translation": "癫佬",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkTwisted_110213B3#PERK:DESC#4dc477f9616e68c63dbd4e1dbd41f524",
+    "original": "You're sick and twisted, seeing suffering delights you. Your addiction duration is doubled, and while Evil or Very Evil, you gain +5/10% XP and AP regeneration, +6/15% positive chem duration, +5/10% healing, and +1 Luck, though you suffer an extra harsh penalty to those stats while Good or Very Good.",
+    "translation": "你扭曲而邪恶,快乐于看到他人的痛苦。\\n你的成瘾持续时间加倍,\\n当道德值处于邪恶或非常邪恶状态时,\\n你获得5/10%的经验和AP恢复速度,6/15%的药物持续时间,5/10%的治疗效果和增加1点幸运,\\n但是道德值处于善良或非常善良时,你会遭受额外严厉的惩罚。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAppliedBallistics_11022422#PERK:FULL#f2ecb4dacad3f7895f292ca74cb88563",
+    "original": "Applied Ballistics",
+    "translation": "应用弹道学",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkAppliedBallistics_11022422#PERK:DESC#c5488277eb2188577ae1cccd05ff22f3",
+    "original": "Your experience with conventionally sized weaponry has taught you fundamental skills that can be applied to more powerful weapons. You've gained +25 Big Guns.",
+    "translation": "你使用常规武器的经验教会了你可以应用于更强大武器的基本技能。\\n你增加25点大枪技能。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFatalCounter_11022424#PERK:FULL#354016c0fb3d1078de16f4b70784462b",
+    "original": "Fatal Counter",
+    "translation": "弹刀侠",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkFatalCounter_11022424#PERK:DESC#0a11b314d148d757af99cab5e50c9147",
+    "original": "You're excellent at capitalizing on your enemy's vulnerabilities. When using unarmed or melee, you deal double damage and have doubled critical chance when attacking an enemy that has been staggered by a block.",
+    "translation": "你善于利用敌人的弱点。\\n当使用徒手或近战攻击时,如果敌人陷入了格挡后的硬直状态,\\n你将造成双倍伤害,并且提高双倍暴击率。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSaguaroStalker_110434EF#PERK:FULL#43704058cdd18a0da68323e68d3947fc",
+    "original": "Saguaro Stalker",
+    "translation": "仙人掌潜行者",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkSaguaroStalker_110434EF#PERK:DESC#0d476a3dcbe920c721759fefc7989e3d",
+    "original": "Like the silent spectres of the Sonoran desert, you blend in most effectively when staying still. You gain +10 Sneak, +15% silenced weapon crit. chance, and +15% damage against targets which do not have you anywhere in their line of sight while not moving.",
+    "translation": "就像索诺兰沙漠中无声的幽灵,你在静止不动时能最有效地混入人群。\\n在不移动的情况下,增加10点潜行和15%消音武器暴击率\\n,并对没有发现你的目标造成15%额外伤害。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDuckAndCover_11061152#PERK:FULL#fb3fc989772e636704d4eb577822d2d3",
+    "original": "Duck And Cover",
+    "translation": "躲避掩护",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkDuckAndCover_11061152#PERK:DESC#cea1d2010516bd37b21d853b3afd61c9",
+    "original": "When danger threatens you, you never get hurt, you know just what to do! Duck.. and cover!\\nYou've gained 15% damage resistance against explosions.",
+    "translation": "当危险威胁到你时，你永远不会受伤，你知道该怎么做!   闪躲还有掩护!\\n你获得了15%的爆炸伤害抗性",
+    "stage": 1
+  },
+  {
+    "key": "sssRecipeAmmo44Blood_1100081B#RCPE:FULL#d13711fb8c36c19315a46f184617cb7f",
+    "original": ".44 Blood Round",
+    "translation": ".44血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssRecipeAmmo4570Blood_1100081D#RCPE:FULL#a1bf0b775ee42f059279532d2d053513",
+    "original": ".45-70 Blood Round",
+    "translation": ".45-70血弹",
+    "stage": 1
+  },
+  {
+    "key": "sssRecipeAmmo12GaCoinShotDiscount_11000821#RCPE:FULL#0dc071abcdbf802c8c789325ddf9c19c",
+    "original": "12 Ga. Coin Shot",
+    "translation": "12铅径硬币弹",
+    "stage": 1
+  },
+  {
+    "key": "sssRecipeAmmo32Blood_1101722E#RCPE:FULL#5463494519cf51538cce008f73a9f6da",
+    "original": ".32 Blood Round",
+    "translation": ".32血弹",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVGrenadeFragHolyCraftableRecipe_1101722F#RCPE:FULL#a2000309157ead9ca70571c34cdf1081",
+    "original": "Holy Frag Grenade",
+    "translation": "神圣破片手雷",
+    "stage": 1
+  },
+  {
+    "key": "sssRecipeAmmo357Blood_1100081A#RCPE:FULL#c46bb138548e5575d6cd75af9c3d2fa0",
+    "original": ".357 Blood Round",
+    "translation": ".357血弹",
+    "stage": 1
+  },
+  {
+    "key": "ChallengeBlockHits_11015144#CHAL:FULL#2333e42a7903b1a14743bb81f5ada316",
+    "original": "Immovable Object",
+    "translation": "不可撼动",
+    "stage": 1
+  },
+  {
+    "key": "ChallengeBlockHits_11015144#CHAL:DESC#0b937128a54e099c66738d0d7eae4fff",
+    "original": "Block enemy attacks.",
+    "translation": "格挡敌人攻击",
+    "stage": 1
+  }
+]

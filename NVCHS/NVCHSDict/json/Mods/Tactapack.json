@@ -1,0 +1,536 @@
+[
+  {
+    "key": "arcLaFrancePerkScriptEffect_06001F01#MGEF:FULL#d088f43fa06b3b8c0e46d498c3a79a00",
+    "original": "Sneak attacks deal twice as much damage in the hands of a trained commando.",
+    "translation": "经过训练的突击队员使用潜行攻击将造成两倍伤害。",
+    "stage": 1
+  },
+  {
+    "key": "AECritBoost_060082A7#SPEL:FULL#c6ac1d83663e6f29c2fab642536d47a6",
+    "original": "Guaranteed Critical Chance",
+    "translation": "保证暴击率",
+    "stage": 1
+  },
+  {
+    "key": "000ClassicPowerFistLimbCripple_06001C16#SPEL:FULL#da1e2ea5a88741908058a81d8e6568f0",
+    "original": "Limb Cripple",
+    "translation": "肢体瘫痪",
+    "stage": 1
+  },
+  {
+    "key": "REPHQTourSignGyrojet_06000DE0#ACTI:FULL#e6464bf75bec78ca72fdb466b82e3b2f",
+    "original": "\"A Rifle That Fires Rockets!\"",
+    "translation": "\"发射火箭的步枪!\"",
+    "stage": 1
+  },
+  {
+    "key": "000TestArmor_06000DBE#ARMO:FULL#ce7816800d087b5b61e21b74e389d681",
+    "original": "Test Armor",
+    "translation": "测试护甲",
+    "stage": 1
+  },
+  {
+    "key": "000SuitCaseJules_06000DBD#CONT:FULL#f08302082eb6f59695cc3d61562af203",
+    "original": "Suitcase",
+    "translation": "手提箱",
+    "stage": 1
+  },
+  {
+    "key": "Case13mmRocket_06000AEA#MISC:FULL#8257e70a935bb86889659999e0e32b2a",
+    "original": "Case, 13mm Rocket",
+    "translation": "弹壳  13mm火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "arcUltimateAccuracy_06000801#WEAP:FULL#6ee2055b57efa1720f1ed73b653d5e05",
+    "original": "Anti-Personnel Rifle",
+    "translation": "反人员步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcAutomag_06000802#WEAP:FULL#ebba575a6d60b287a3cef053833fc1f7",
+    "original": ".357 Automag",
+    "translation": ".357自动马格南手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcClassicAssaultRifle_06000804#WEAP:FULL#dd962ff54c3ebf9cf7f87b60ac85fbfa",
+    "original": "Wasteland Assault Rifle",
+    "translation": "废土突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcRuger1022_06000805#WEAP:FULL#a56ada32c28a6464a6490fd45020bd70",
+    "original": ".22 Rifle",
+    "translation": ".22步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcClassicDoubleBarrel_06000806#WEAP:FULL#d9a127a619b24c4c6bd63727b9c1fa25",
+    "original": "Coach Gun",
+    "translation": "马车枪",
+    "stage": 1
+  },
+  {
+    "key": "arcClassicPowerFist_0600080D#WEAP:FULL#7749b4e1de5949327a93c473f98fb134",
+    "original": "Spiked Power Fist",
+    "translation": "带刺动力拳套",
+    "stage": 1
+  },
+  {
+    "key": "arcClassicPowerFist_0600080D#WEAP:VANM#aae718d5f880f1dc7dbe680b5a4a8964",
+    "original": "Devil's Grip",
+    "translation": "恶魔之握",
+    "stage": 1
+  },
+  {
+    "key": "arcColtWoodsman_06000811#WEAP:FULL#65b3ba70ace173392f203786b882910a",
+    "original": ".22 Survival Pistol",
+    "translation": ".22生存手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcGatlingPlasma_06000819#WEAP:FULL#5646cb093e7a44217024f8ff1516b333",
+    "original": "Gatling Plasma Caster",
+    "translation": "加特林等离子发射器",
+    "stage": 1
+  },
+  {
+    "key": "WeapGyrojetCarbine_06000822#WEAP:FULL#367e22a6d792570b3cc92dede1e4da1d",
+    "original": "Gyrojet Carbine",
+    "translation": "爆弹卡宾枪",
+    "stage": 1
+  },
+  {
+    "key": "arcJatimatic_0600082D#WEAP:FULL#7e780a409f14eb92258675fddd254584",
+    "original": "Tactical 9mm Submachine Gun",
+    "translation": "战术型9mm冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "arcLewisGun_06000835#WEAP:FULL#1de5d9d643f6403858f0fae08cf2974a",
+    "original": "Anti-Air Machine Gun",
+    "translation": "防空机枪",
+    "stage": 1
+  },
+  {
+    "key": "arcLaFranceM16K45_06000839#WEAP:FULL#3741fe5f862bd9018444341edaeb1425",
+    "original": "Commando Service SMG",
+    "translation": "军用突击冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "arcLaFranceM16K_0600083E#WEAP:FULL#c0283427f08727bc3745a5aa596ace7e",
+    "original": "Commando Service Rifle",
+    "translation": "军用突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcMarlinModel55_06000847#WEAP:FULL#11618c80e64b88813d48554212264eda",
+    "original": "Bolt-Action Shotgun",
+    "translation": "栓动式霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "arcMossberg590_0600084C#WEAP:FULL#cd1290bb8c9bad10b9284723a361bb78",
+    "original": "Home Defense Shotgun",
+    "translation": "家庭防御霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapRemington_0600084F#WEAP:FULL#9373c4e81ce438cd90f3a8ce9a8c0268",
+    "original": "Hunting Carbine",
+    "translation": "狩猎卡宾枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapRemingtonUnique_06000850#WEAP:FULL#a034d2c684699167dd0b73f1bceb8832",
+    "original": "Libra Justitae",
+    "translation": "天秤审判长",
+    "stage": 1
+  },
+  {
+    "key": "WeapSolarScorcher_06000856#WEAP:FULL#d64543bfd1e243aa5b36b265662f0351",
+    "original": "Solar Scorcher",
+    "translation": "太阳灼烧者",
+    "stage": 1
+  },
+  {
+    "key": "arcSuperMag_0600085A#WEAP:FULL#0f822326a49b60292b757d3e221dc1c5",
+    "original": "Sharpshooter .357 Magnum",
+    "translation": "神射手.357马格南",
+    "stage": 1
+  },
+  {
+    "key": "arcWildeySurvivor_0600086F#WEAP:FULL#551614a4e7daa738818e70a80c1205ad",
+    "original": ".44 Automag",
+    "translation": ".44自动马格南手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapWinchester_06000873#WEAP:FULL#6ec0a0d6133d2fc376930d10f827a1b8",
+    "original": "Ranch Shotgun",
+    "translation": "牧场霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWinchesterModel70_0600087A#WEAP:FULL#b2b9de28e96a873d2c52208a82708346",
+    "original": "Sharpshooter Hunting Rifle",
+    "translation": "神射手猎枪",
+    "stage": 1
+  },
+  {
+    "key": "arcStarModelB_06000ADE#WEAP:FULL#b06f13b9659a300c0fd19b94b7918f40",
+    "original": "Officer's 9mm Pistol",
+    "translation": "军官用9mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWebleyFosbery_06009E3A#WEAP:FULL#389a8c87c3bbbac188c4e6c5616bb725",
+    "original": ".45 Revolver",
+    "translation": ".45左轮手枪",
+    "stage": 1
+  },
+  {
+    "key": "Ammo13mmRocket_06000821#AMMO:FULL#bf5feade6af40972674cd63cee6fa898",
+    "original": "13mm Rocket Round",
+    "translation": "13mm火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo13mmRocket_06000821#AMMO:ONAM#9882008d338514598fddffe502e27057",
+    "original": "13mm Rocket",
+    "translation": "13mm火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo13mmRocketHE_06000823#AMMO:FULL#ce594605ead3eff21a822635940d61ba",
+    "original": "13mm Rocket Round, High Explosive",
+    "translation": "13mm高爆火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo13mmRocketHE_06000823#AMMO:ONAM#cf7d10aaca18fd4c2ba2a393dc4d4bc3",
+    "original": "13mm HE",
+    "translation": "13mm高爆弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo13mmRocketAP_06000824#AMMO:FULL#d012c8983f460b0524ae901a403ec3d2",
+    "original": "13mm Rocket Round, Armor Piercing",
+    "translation": "13mm穿甲火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo13mmRocketAP_06000824#AMMO:ONAM#ed00cad015f052aa8472c2680b309bee",
+    "original": "13mm AP",
+    "translation": "13mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSunlight_06000DDF#AMMO:FULL#359ecfa39b8f64bee63e7899796e837d",
+    "original": "Sunlight",
+    "translation": "日光",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSunlight_06000DDF#AMMO:ONAM#359ecfa39b8f64bee63e7899796e837d",
+    "original": "Sunlight",
+    "translation": "日光",
+    "stage": 1
+  },
+  {
+    "key": "AmmoLastShotDummy_06001CFD#AMMO:FULL#75307fd7c3063cc2195898579b4d2102",
+    "original": "Dummy Nonplayable Item to tell the perk that it's the last round",
+    "translation": "虚拟不可玩物品，用来告知特长技能这是最后一轮",
+    "stage": 1
+  },
+  {
+    "key": "AmmoLastShotDummy_06001CFD#AMMO:ONAM#7fae799db421e58f7c538357da6b8dee",
+    "original": "x",
+    "translation": "x",
+    "stage": 1
+  },
+  {
+    "key": "Ammo50MGDepletedUranium_06006275#AMMO:FULL#1b47950d05860a5105e7c362542735a5",
+    "original": ".50 MG, Depleted Uranium",
+    "translation": ".50机枪贫铀弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo50MGDepletedUranium_06006275#AMMO:ONAM#c5e24e7f46b037f9dbe5f96401d5675d",
+    "original": ".50MG DU",
+    "translation": ".50贫铀机枪弹",
+    "stage": 1
+  },
+  {
+    "key": "000RutgerHauer_0600330D#NPC_:FULL#e28ef8444254fd88cfa0e8e5f1455196",
+    "original": "Hobo With A Shotgun",
+    "translation": "拿霰弹枪的流浪汉",
+    "stage": 1
+  },
+  {
+    "key": "RNGesus_0600305C#NPC_:FULL#23d79a92479e1f4603d01fd745bab241",
+    "original": "Todd Howard",
+    "translation": "陶德霍华德",
+    "stage": 1
+  },
+  {
+    "key": "000GatlingPlasmaHolotape_060010A9#NOTE:FULL#526dfbf84ebfd9de2fdecc30a01a93f4",
+    "original": "Glastinghouse Rotary Pneumatic Turboplasma Gatling Rifle",
+    "translation": "伽马镜屋旋转气动涡轮等离子体加特林步枪",
+    "stage": 1
+  },
+  {
+    "key": "000GatlingPlasmaHolotape_060010A9#NOTE:TNAM#35ab3a6634e0bfa113a74b42d4c7a153",
+    "original": "Glastinghouse Electric Co.\\nRotary Pneumatic Turboplasma Rifle\\nUS Pat. Pending\\nOperator's Manual\\n\\nOperating Instructions\\nIn order to initialize the weapon, insert a fully charged 1040VDC Electron Charge Pack into the power supply receptacle. Hold the power switch on the main transformer in the ON postion until the green light activates. The mercury thyratrons powering the inverter will begin heating up until they begin conducting current, and the charge indicator tubes will light. A fully charged ECP should register 120 shots worth of charge. At this point, the gyroscopic stabilization rotor will begin to spin and the plasma compressor will engage. CAUTION: do not attempt to initialize the weapon if the rotor is blocked from turning, this may damage the clutch or the motor windings. Once the rotor has begun spinning, release the starter switch into the OFF position. HV current will be supplied to the stator electrodes, meaning the trigger is now hot and the gun will fire. \\n\\nAdditional Safety Warnings\\nDo not allow children under the age of 3 years to operate this weapon. Keep the exposed stator electrodes and RF stabilization electrode well away from ground, and do not touch them during operation. If two weapons are used simultaneously, do not cross the plasma streams, as nuclear fusion may occur resulting in a catastrophic explosion. Do not block the compressor intake or introduce any gas other than air into the intake, as this will affect the properties of the plasma beam. Never feed the weapon ECPs after midnight, no matter how much it wants them. Do not operate sensitive electronic devices near the weapon during firing, as the high current capacitive resonance will interfere with nearby circuitry. Do not use the weapon to draw silly shapes on the ground.",
+    "translation": "伽马镜屋科技公司\\n旋转气动涡轮等离子步枪\\n美国专利待批\\n操作手册\\n\\n操作指南\\n为了初始化武器，请将充满电的1040VDC电池插入电源插座。\\n将主变压器上的电源开关保持在开启位置，直到绿灯亮起。\\n为逆变器供电的水银闸流管将开始加热，直到它们开始导电，充电指示管将亮起。\\n一个完全充电的ECP应该能显示相当于120次射击的电量。\\n此时，陀螺仪稳定转子将开始旋转，等离子体压缩机将启动。\\n注意：如果转子受阻无法旋转，请勿尝试初始化武器，这可能会损坏离合器或电机绕组。\\n一旦转子开始旋转，将启动开关释放到关闭位置。\\n高压电流将供给定子电极，意味着触发器现在已预热，枪支将射击。\\n\\n其他安全警告\\n不要让3岁以下儿童操作此武器。\\n保持暴露的定子电极和射频稳定电极远离地面，并在操作过程中不要触摸它们。\\n如果同时使用两把武器，请不要交叉等离子流，因为可能会发生核聚变，导致灾难性爆炸。\\n请勿阻塞压缩机进风口或向进风口引入除空气以外的任何气体，因为这会影响等离子体射束的特性。\\n无论枪支多么需要，午夜后切勿为武器提供ECP。\\n在射击期间，不要在武器附近操作敏感电子设备，因为高电流电容共振会干扰附近的电路。\\n不要使用武器在地面上绘制愚蠢的形状。",
+    "stage": 1
+  },
+  {
+    "key": "000GatlingPlasmaHolotape2_060010AB#NOTE:FULL#2c4902fdd6c9be30f354199180dfe0f0",
+    "original": "Gatling Plasma Modifications",
+    "translation": "加特林等离子改造",
+    "stage": 1
+  },
+  {
+    "key": "000GatlingPlasmaHolotape2_060010AB#NOTE:TNAM#a3198d11c07d91a437602eb07c90ce47",
+    "original": "I've been tinkering with the gatling plasma prototype we found, and I've come up with a few interesting modifications. Reversing the polarity of the AC current to the stabilization electrode so it's out of phase with the acceleration electrodes causes the beams to repel each other and split apart, giving three separate beams instead of one, each of which possesses more energy than one alone due to the extra propulsion force offered by the stabilizer. In addition, I found that using deuterium gas as the plasma source not only causes the beams to travel faster due to the low density of hydrogen, it also causes them to explode on impact from a combination of nuclear fusion into helium-4 and combustion with oxygen. These modifications when used together are inordinately potent, reality-breakingly potent in fact, such that it makes me wonder if god suddenly went mad with power and allowed such a thing to exist only for the annihilation of mutant communists.",
+    "translation": "我一直在研究我们找到的加特林等离子原型机，并想出了一些有趣的改造方案。\\n将稳定电极的交流电极性反转，使其与加速电极的相位相反，会导致光束相互排斥并分裂成三束，而不是一束。\\n由于稳定器提供的额外推进力，每束光都拥有比单独一束更多的能量。\\n此外，我发现使用氘气作为等离子源不仅因为氢的低密度使光束传播得更快，\\n而且当它们与氧气结合发生核聚变变成氦-4时，还会在撞击时发生爆炸。\\n这些改造措施如果同时使用，其威力将无比强大，事实上强大到足以打破现实，\\n这不禁让我怀疑，上帝是不是突然发疯了，\\n赋予这种力量，只是为了消灭那些变异的共产主义者。",
+    "stage": 1
+  },
+  {
+    "key": "LewisNote_0600138F#NOTE:FULL#b3506859244f1816556f469227c8de8f",
+    "original": "Obligatory Death Note",
+    "translation": "死亡笔记",
+    "stage": 1
+  },
+  {
+    "key": "LewisNote_0600138F#NOTE:TNAM#d1b74c86ccf7f176f193baf2549edc46",
+    "original": "Haha! That old doctor in Goodsprings is so stupid. His house is full to the brim with military-grade weaponry and the senile bastard doesn't even bother to lock his door. I just waltzed right in there and grabbed the biggest gun I could carry, he didn't even notice! Ha! I'm gonna go tell some of my friends back east and we'll get together and loot that poor SOB's stash.Wait a minute. I hear something in the cliffs above. Is it Legionaries? Why the hell am I wri (the rest of the note is covered in dried blood and is unreadable)",
+    "translation": "哈哈！清泉镇的那个老医生真蠢。他家里堆满了军用武器，可这老糊涂虫甚至懒得锁门。\\n我轻轻松松地走了进去，拿走了我能带走的最大的枪，他居然都没发现！\\n哈哈！我要去告诉我的一些东部的朋友，我们一起来洗劫这个可怜的家伙的存货。\\n等一下。我听到悬崖上面有什么声音。\\n是军团的人吗？我到底在写\\n（笔记的其余部分沾满了干涸的血迹，无法辨认）",
+    "stage": 1
+  },
+  {
+    "key": "SolarScorcherNote_06001687#NOTE:FULL#a05f27034bf06d9eee102516f5871ba7",
+    "original": "Solar Scorcher Mark II Operator's Manual",
+    "translation": "太阳灼烧者II号操作手册",
+    "stage": 1
+  },
+  {
+    "key": "SolarScorcherNote_06001687#NOTE:TNAM#ef44ed40079046b02ab35f7dd49c4cfe",
+    "original": "Thank you for your purchase of the Solar Scorcher Mark II Eco-Friendly Handheld Laser Defense System (TM). For further information, please contact the California Environmental Protection Agency offices.\\n\\nThe new and improved Solar Scorcher is a 100-kilowatt pulse laser entirely powered by the sun's rays. Rather than a traditional photoelectric cell as our first model used, the Mark II uses a photonic resonation chamber in conjunction with a quantum harmonizer to store and release photons with a calculated 99.8% efficiency. This allows the weapon to increase in power substantially during the daytime, and this increase is reduced during dawn, and practically non-existent at night. \\n\\nTo use the weapon effectively, please follow these instructions:\\n\\n1.) The digital display is always on and is powered by ambient light. The laser will always divide its power supply into 32 shots, no matter the ambient light level. However, the output of the laser is affected greatly by ambient light. The minimum operating capacity is just under 200J per pulse in the darkest of areas. Try to keep the solar collector pointed toward a light source, and use outside during the brightest part of the day if possible.\\n\\n2.) Fire the weapon like any traditional handgun. Be careful; there is no safety device and the trigger is extremely sensitive. The beam is extraordinarily bright, please wear sunglasses when shooting.",
+    "translation": "感谢您购买太阳灼烧者II号环保型手持激光防御系统（TM）。\\n如需更多信息，请联系加利福尼亚州环境保护局办公室。\\n\\n全新升级的太阳灼烧者是一款完全由太阳光驱动的100千瓦脉冲激光武器。\\n与我们第一代产品使用的传统光电元件不同，\\nII号采用了光子共振腔与量子谐振器相结合的方式来存储和释放光子，效率高达99.8%。\\n这使得该武器在白天时能够大幅度增加功率，而在黎明时分功率会降低，夜晚时则几乎无法使用。 \\n\\n为了有效使用本武器，请遵循以下说明：\\n\\n1) 数字显示屏始终开启，由环境光供电。\\n无论环境光线如何，激光都会将其电源分成32次射击。\\n但是，激光的输出功率受环境光线的影响很大。\\n在最暗的地区，每次脉冲的最低操作容量略低于200焦耳。\\n请尽量让太阳能收集器指向光源，如果可能的话，请在一天中最明亮的时候在户外使用。\\n\\n2) 像使用传统手枪一样使用本武器。\\n请注意，没有安全装置，且扳机极其灵敏。光束极其明亮，请在射击时佩戴太阳镜。",
+    "stage": 1
+  },
+  {
+    "key": "000LaFranceNote_060010A1#NOTE:FULL#47dbfa336f739d92d301d26a0b49e920",
+    "original": "Weapons Cache",
+    "translation": "武器库",
+    "stage": 1
+  },
+  {
+    "key": "000LaFranceNote_060010A1#NOTE:TNAM#a65a4934131a3e5de1ce0a636844c4d7",
+    "original": "Joshua,\\n\\nLast week, a group of Sorrows scouts discovered a crate of submachine guns in an abandoned police vehicle, the likes of which I have never seen before. They are chambered in .45 Auto and accept the same magazines as the other .45 submachine guns captured from Spanish Fork, but appear to be of a more advanced design. The receiver stamp indicates that they were manufactured in the west before the war, but why such a large number were sent into the area around Zion is unknown. I've sent the entirety of the shipment to you, as the Sorrows have no use for them and your knowledge of firearms far surpasses my own. In any case, I'm glad the Sorrows discovered the guns before the White Legs, or we'd have an even greater threat to contend with.\\n\\n- Daniel",
+    "translation": "约书亚，\\n\\n上周，一群悲伤部落侦查员在一辆废弃的警车中发现了一箱冲锋枪，这样的武器我以前从未见过。\\n这些冲锋枪使用的是.45口径自动手枪子弹，与从西班牙福克缴获的其他.45口径冲锋枪使用的弹匣相同，但看起来设计更为先进。\\n枪身上的标记显示，这些武器是在战前西部制造的，\\n但为什么会有如此多的武器被运送到锡安地区附近，尚不得而知。\\n我已经将全部货都发给你了，因为它们对悲恸部落没用，而且你对火器的了解远远超过我。\\n无论如何，我很高兴悲恸部落能在白腿部落之前发现这些枪支，否则我们将面临更大的威胁。\\n\\n- 丹尼尔",
+    "stage": 1
+  },
+  {
+    "key": "13mmRocketProjectile_0600082A#PROJ:FULL#9882008d338514598fddffe502e27057",
+    "original": "13mm Rocket",
+    "translation": "13mm火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "556mmSBRBulletProjectile_0600083D#PROJ:FULL#89087fcf5b374dc1a869590f08f3ac92",
+    "original": "5.56mm Short-Barrel Rifle Bullet",
+    "translation": "5.56mm短管步枪子弹",
+    "stage": 1
+  },
+  {
+    "key": "SolarScorcherBeam_06000857#PROJ:FULL#cf8118f102fc3f02f002986cd95bcbf1",
+    "original": "Sunbeam",
+    "translation": "日光",
+    "stage": 1
+  },
+  {
+    "key": "13mmRocketAPProjectile_06000AE7#PROJ:FULL#41a05b6e64b8fb722f230f64c0b2f8fc",
+    "original": "13mm Rocket, Armor-Piercing",
+    "translation": "13mm穿甲火箭",
+    "stage": 1
+  },
+  {
+    "key": "13mmRocketHEProjectile_06000AE8#PROJ:FULL#681bcd54814d2abd5f680ef79278bcac",
+    "original": "13mm Rocket, High Explosive",
+    "translation": "13mm高爆火箭",
+    "stage": 1
+  },
+  {
+    "key": "50MGDepletedUraniumDart_06006278#PROJ:FULL#40154b7df1bc74ed6c4b1dc1d6e75db6",
+    "original": ".50MG DU Dart",
+    "translation": ".50机枪贫铀弹飞镖",
+    "stage": 1
+  },
+  {
+    "key": "arcGatlingPlasmaProjectileExplosive_0600081F#PROJ:FULL#fea02b68251413310aad19165a4852ad",
+    "original": "Deuterium Plasma Bolt",
+    "translation": "氘等离子体弩箭",
+    "stage": 1
+  },
+  {
+    "key": "PerkSolarScorcherDamageController_06001680#PERK:FULL#d64543bfd1e243aa5b36b265662f0351",
+    "original": "Solar Scorcher",
+    "translation": "太阳灼烧者",
+    "stage": 1
+  },
+  {
+    "key": "PerkSolarScorcherDamageController_06001680#PERK:DESC#183100248d6d371faf5f28518f46fc3d",
+    "original": "This perk controls the solar scorcher's damage during certain times of day and in interiors.",
+    "translation": "这个特长可以控制太阳灼烧者在一天中某些时间和室内造成的伤害。",
+    "stage": 1
+  },
+  {
+    "key": "000WoodsmanMessage_06000817#MESG:DESC#6d42414e8dec86b098ce9de7791164e7",
+    "original": "The Woodsman malfunctions and dumps its entire magazine!",
+    "translation": "伐木工出故障了，一下子射出了整个弹匣的子弹！",
+    "stage": 1
+  },
+  {
+    "key": "REPCONHQTourMessageGyrojet_06000DE1#MESG:DESC#37829a9009026c017e6194241e7ec37e",
+    "original": "The Gyrojet Rocket Carbine is a prototype weapon, designed for use by astronauts. REPCONN acquired the manufacturer, MBAssociates, in 2072, and began producing armor-piercing and high-explosive rounds.\\n\\nThe rocket-propelled bullets allowed the gun to be very accurate and have practically no recoil, while still maintaining lethal projectile force.",
+    "translation": "爆弹卡宾枪是一款原型武器，专为宇航员设计。\\n2072年，REPCONN收购了制造商MBAssociates，并开始生产穿甲弹和高爆弹。\\n\\n这种火箭推进子弹使枪支非常精准，几乎没有后坐力，同时仍保持着致命的弹丸力量。",
+    "stage": 1
+  },
+  {
+    "key": "REPCONHQTourMessageGyrojet_06000DE1#MESG:FULL#e6464bf75bec78ca72fdb466b82e3b2f",
+    "original": "\"A Rifle That Fires Rockets!\"",
+    "translation": "\"发射火箭的步枪!\"",
+    "stage": 1
+  },
+  {
+    "key": "RecipeDepletedUranium_06006E72#RCPE:FULL#1b47950d05860a5105e7c362542735a5",
+    "original": ".50 MG, Depleted Uranium",
+    "translation": ".50机枪贫铀弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe13mmRocket_06000AE9#RCPE:FULL#9882008d338514598fddffe502e27057",
+    "original": "13mm Rocket",
+    "translation": "13mm火箭弹",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectMaximumConditionPenalty_06000862#AMEF:FULL#19b36d7c6c426fd6cec61f1cf141f480",
+    "original": "Condition Penalty",
+    "translation": "耐久惩罚",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectMaximumSWCDTBonus_06000863#AMEF:FULL#ba7af3265f3766560380fb5efb2431e3",
+    "original": "DT Bonus",
+    "translation": "DT加成",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectDUDTReduction_06006276#AMEF:FULL#ed1238956c5718560a0af51d2799143c",
+    "original": "Dam. Thresh. Reduction",
+    "translation": "减DT",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectMaximumHPDamageBonus_0600085F#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害加成",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectMaximumDamageBonus_06000860#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害加成",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectMaximumSWCDamageBonus_06000861#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害加成",
+    "stage": 1
+  },
+  {
+    "key": "Vault34c_00138A9E#CELL:FULL#9c82e73fde1c82a60b39b45583cb65ca",
+    "original": "Vault 34 - Armory",
+    "translation": "34号避难所 - 军火库",
+    "stage": 1
+  },
+  {
+    "key": "GSDocMitchellHouse_00103DF9#CELL:FULL#7c4aeaa9b0a86a5fff4317369e22503a",
+    "original": "Doc Mitchell's House",
+    "translation": "米切尔医生的宅邸",
+    "stage": 1
+  },
+  {
+    "key": "FreesideSilverRush_0010E029#CELL:FULL#9334cdd226c879f552cb3c8a3a9b0972",
+    "original": "Silver Rush",
+    "translation": "银色冲击",
+    "stage": 1
+  },
+  {
+    "key": "SafehouseNCRINT_001592E5#CELL:FULL#3f097b9a3b244bbc5d8437ace311530c",
+    "original": "NCR Ranger Safehouse",
+    "translation": "NCR游骑兵安全屋",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
+    "original": "Jacobstown Lodge",
+    "translation": "杰克博镇旅社",
+    "stage": 1
+  },
+  {
+    "key": "NovacBoonesRoom_000CAE83#CELL:FULL#bde1552914dd31090db7996fe0aba898",
+    "original": "Boone's Room",
+    "translation": "布恩的房间",
+    "stage": 1
+  },
+  {
+    "key": "HELIOSOneDeck_000D8052#CELL:FULL#8182c17312e4c90dcd20de178864a312",
+    "original": "HELIOS One Observation Level",
+    "translation": "太阳神一号观察楼层",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02EasternVirginAngelCave_02008EA6#CELL:FULL#0436e37a16921b8fbc460b5711029c38",
+    "original": "Angel Cave",
+    "translation": "天使洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLNuclearTestShackINT_001544AF#CELL:FULL#be13a5bf019e0f4f791549fd2c3032ac",
+    "original": "Nuclear Test Shack",
+    "translation": "核试验小屋",
+    "stage": 1
+  },
+  {
+    "key": "SLRemnantsBunkerINT_001591D5#CELL:FULL#5a2d606fb3f35826213fbd34d9900032",
+    "original": "Remnants' Bunker",
+    "translation": "英克雷残部地堡",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "FreesideNorthWorld_0012D94D#WRLD:FULL#0673adbfdfed4650ae97a321a30ec640",
+    "original": "Freeside",
+    "translation": "自由之城",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38World_0016D714#WRLD:FULL#cc1ad2269895d13790adcb7b0215b2cd",
+    "original": "Lucky 38",
+    "translation": "幸运38",
+    "stage": 1
+  }
+]

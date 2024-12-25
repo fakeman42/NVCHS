@@ -1,0 +1,602 @@
+[
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#05b8c7a2542bca4d0842ef070b0ad443",
+    "original": "Global Settings",
+    "translation": "全局设置",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#74e2d44a3b5802137825fee611508612",
+    "original": "Gloabal Settings",
+    "translation": "全局设置",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#43a6d61f7d87c40377f439b6fe69d701",
+    "original": "Weapon Settings",
+    "translation": "武器设置",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#7e773fc589eab9a3bac81397da09e9f5",
+    "original": "Hud Element",
+    "translation": "Hud元素",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#72fe2d7a8c1b83784165bb736ee1d9ab",
+    "original": "Spread Reset Timer",
+    "translation": "散布复位定时器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#88d9578d75fca814983a79dc14705bb5",
+    "original": "Spread Increment Settings",
+    "translation": "散布增量设置",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#24e6a9822148e10d08f30be2c072dc21",
+    "original": "Skill Penalty",
+    "translation": "技能惩罚",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#04e7511036b3c8f80583123f11a8016a",
+    "original": "Preset",
+    "translation": "预设",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#25ba4c32cf10fec846bff6af04c4a42a",
+    "original": "Add Weapon to Ignore List",
+    "translation": "将武器添加到忽略列表",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#e31194a39bc18dbf997e7042b7a546e7",
+    "original": "Click to show",
+    "translation": "点击显示",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#350ac56a2afab6891c558c00553b3b90",
+    "original": "Weapons Currently Ignored",
+    "translation": "目前被忽视的武器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#f07273e4818864b39c8f2ce58b65fef9",
+    "original": "Click to Restore",
+    "translation": "点击恢复",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#2b0d2aec5dba116531890acd35ebc20a",
+    "original": "Restore Default Ignore List",
+    "translation": "恢复默认忽略列表",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#70d039878997a54c5383423640bbecb6",
+    "original": "Debug",
+    "translation": "调试",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#3fd6964092d43c0e76e3207adeb4161c",
+    "original": "Cap Spread to Vanilla",
+    "translation": "瓶盖散布到原版",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#a33cc479609828072a6d6b0ecb4facfa",
+    "original": "Hip-fire",
+    "translation": "腰射",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#cee1c13766258aba76528edf7d9ae418",
+    "original": "Pistols, Energy Pistols",
+    "translation": "手枪、能量手枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#5b539b8af4bbb1138812fe73341207f5",
+    "original": "Rifles, Energy Rifles",
+    "translation": "步枪、能量步枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#4ddabbd323ee1e0ded242d764a3225e3",
+    "original": "Shotguns, Heavy Weapons",
+    "translation": "霰弹枪、重型武器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#72feb6bd21a685453b80db37dd4394f2",
+    "original": "Aiming Down Sights",
+    "translation": "瞄准目标",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#083cea135495b35c44fbb5c6c09723c2",
+    "original": "Max Spread",
+    "translation": "最大散布",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#58c8ba2f842fc849728f898343e0e0d2",
+    "original": "Spread Increment Modifiers",
+    "translation": "散布增量修改器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#c663e9eca9bdeaff07cfce04ce5f5299",
+    "original": "Misc.",
+    "translation": "杂项",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#b23739a9b979e62736e6673eccebd0b6",
+    "original": "Hip-fire Max Start Percent",
+    "translation": "腰射最大起始百分比",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#2084b86eb5bc3c8e57df7cce0fcc415a",
+    "original": "%",
+    "translation": "%",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#8aab1f3bb567257e72779ee409a87837",
+    "original": "Shotgun Slug Accuracy Bonus",
+    "translation": "霰弹枪子弹精度奖励",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#77df9a6bd21f5369f8dfd2a98f2523ec",
+    "original": "Aiming Max Spread",
+    "translation": "瞄准最大散布",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#4a45aa141297cb4f5f4f40da559533aa",
+    "original": "Min Hip-fire Spread",
+    "translation": "最小腰射散布",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#b4817ea4b7f88f818f67ccbe4382dc0e",
+    "original": "Enable",
+    "translation": "启用",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#8cccc55d921376c5bae0fa22724134f7",
+    "original": "Screen Percent X",
+    "translation": "屏幕百分比 X",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#e1751b32f72c13952aad19e3e6788941",
+    "original": "Screen Percent Y",
+    "translation": "屏幕百分比 Y",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#cdd840266170c32fa175c8e6fbf7b2e5",
+    "original": "Element Width",
+    "translation": "元素宽度",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#2d15a758c819e933d8942eb8fdc63271",
+    "original": "Only show while ADS",
+    "translation": "仅在瞄准时显示",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#800749a77623cd1358ca48f723d88de8",
+    "original": "Show HUD element now",
+    "translation": "立即显示 HUD 元素",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#0652c61d6feb019f975f4a4cc2746cb9",
+    "original": "Fade In/Out time",
+    "translation": "淡入/淡出时间",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#7fee5568883bcb7bb04a574b9ba0154e",
+    "original": "Seconds",
+    "translation": "秒数",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#b05da62985dfd17a35104dc4729ace9e",
+    "original": "Preset List",
+    "translation": "预设列表",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#87f54fc3bcceeec5563601e552521979",
+    "original": "Max",
+    "translation": "最大",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#f4dfe909864d683826b3173bf2ddeaf7",
+    "original": "Min",
+    "translation": "最小",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#b871f7726c8e06bb263f7d9352e6dfb3",
+    "original": "Reset timer settings",
+    "translation": "重置定时器设置",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#9f2e9703a6a0c2c170dd43a894f29227",
+    "original": "Maximum",
+    "translation": "最大限度",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#3646d1de8b5d6cc67fd3ec0533f85aae",
+    "original": "Minimum",
+    "translation": "最低限度",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#4678c8106693fabcd6a574ec4cbbb889",
+    "original": "Spread increment settings",
+    "translation": "散布增量设置",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#0e91c596eb3d7050b13d2fe9111f161b",
+    "original": "Skill requirement penalty",
+    "translation": "技能要求惩罚",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#0c568e81558990f702a26434966d4a81",
+    "original": "Balistic pistols",
+    "translation": "弹道手枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#7daf64e07f2b2bdac0622580b0fca277",
+    "original": "Energy pistols",
+    "translation": "能量手枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#39cec9cb446d8e28b91d9e3d0daab95c",
+    "original": "Hip-fire multiplier",
+    "translation": "腰射倍率",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#138865a86fd8795d1c9449d739c16b57",
+    "original": "Balistic rifles",
+    "translation": "弹道步枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#1c7cdbbd9098f1ec39524cb7bfbe26da",
+    "original": "Energy rifles",
+    "translation": "能量步枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#de815b3a9973b2c85567ea1c5bfb5df4",
+    "original": "Shotguns",
+    "translation": "霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#b6389cddb9d328926215e5ea2cf54d00",
+    "original": "Heavy Weapons",
+    "translation": "重型武器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#3d9b2a10685597cf8ec0804d8a6d366b",
+    "original": "ADS Bonus",
+    "translation": "瞄准加成",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#78c17e802fee0462a223d659292c24b9",
+    "original": "Pistols",
+    "translation": "手枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#8f724ebde117a908e7b11b84c16003a5",
+    "original": "Max spread values",
+    "translation": "最大散布值",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#7c91b1d9de06548333f34ff838d12bd0",
+    "original": "Rifles",
+    "translation": "步枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#408a0dad4ebf5fa0867054d26a57801d",
+    "original": "Heavy weapons",
+    "translation": "重型武器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#32bf8eb1b5e0f892dfe60950ebbfdca0",
+    "original": "Spread inc. mod.",
+    "translation": "散布增量修改器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#ba5cb4962d406d3cdc5fb2d83d219869",
+    "original": "Starting hip-fire as percent of max spread",
+    "translation": "以最大散布百分比开始腰射",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#cb86ffa7b24316c8a8e7a60bbba664d5",
+    "original": "Slug shell accuracy bonus",
+    "translation": "弹壳精度加成",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#330e190f7884aef3a0a5fd711d05b4e9",
+    "original": "ADS Max Spread percent",
+    "translation": "瞄准最大散布百分比",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#0d5e1409632ba6dd7308548fb52634d6",
+    "original": "Minimum Spread for Hip-fire",
+    "translation": "腰射最小散布",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#264ffd0d29c40c6a18e6831e0a3adeac",
+    "original": "Bar Width",
+    "translation": "条形宽度",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#d46747cf13019410064e55e1b70243bd",
+    "original": "Fade In/Out Time",
+    "translation": "淡入/淡出时间",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#c3e95123b5d537351de4584909b3008f",
+    "original": "The reset timer is how long it takes for your weapon spread to return to normal when not shooting, measured in seconds. The base value is skill level dependent but here you can set min and max values.",
+    "translation": "重置计时器是指您的武器在不射击时恢复正常散布所需的时间，以秒为单位。基本值取决于技能水平，但您可以在此处设置最小值和最大值。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#055371680e7f814409f424a703f13e84",
+    "original": "The spread increment is how much your weapon spread will increase per shot. This value is based on the weapon damage and affected by your skill level.",
+    "translation": "散布增量是指每次射击你的武器散布会增加多少。该值基于武器伤害并受你的技能水平影响。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#69958e86dd7c3f327b5547dde8c828c2",
+    "original": "The penalty for not meeting the weapon skill requirement. This is a multiplier that affects your weapons starting spread, and how quickliy the spread increases while firing.",
+    "translation": "不满足武器技能要求时使用武器的惩罚。这是一个乘数，会影响您的武器开始扩散以及射击时扩散增加的速度。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#02ca6336ad54aa5db69d377ac5156786",
+    "original": "Select a preset. Presets are found in the 'Data\\Config\\DynamicWeaponSpread\\Presets' folder. Presets do not override your hud element settings.",
+    "translation": "选择预设。预设位于“Data\\Config\\DynamicWeaponSpread\\Presets”文件夹中。预设不会覆盖您的 HUD 元素设置。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#640d936daac777c628594eae9e8e8a35",
+    "original": "Makes DWS ignore the currently equipped weapon (it will use vanilla spread behaviour)",
+    "translation": "使 DWS 忽略当前装备的武器（它将使用原版散布行为）",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#ee7ad146668325fbaea731e21683a35c",
+    "original": "Displays the list of weapons currently ignored by DWS",
+    "translation": "显示当前被 DWS 忽略的武器列表",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#80a06ef977c10975931611c5bf58fd24",
+    "original": "Restores the list of weapons that DWS ignores to default",
+    "translation": "将DWS忽略的武器列表恢复为默认",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#d519075cabc1b4e05cc97836b04b163e",
+    "original": "View useful debug info on screen in real time.",
+    "translation": "在屏幕上实时查看有用的调试信息。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#bff81a7fea8e802cc57928811cf2b592",
+    "original": "Your max weapon spread will be capped at the base spread (aka \"Vanilla spread\"). This overrides max spread settings on the Weapon Settings tab.",
+    "translation": "你的最大武器散布将被限制在基础散布（又名“原版散布”）。这会覆盖“武器设置”选项卡上的最大散布设置。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#3de6c3d2ebafebf374d201bf10116a1a",
+    "original": "This is the multiplier applied to your weapon base spread when aiming from the hip. Spread = (default spread) * (this value)",
+    "translation": "这是从腰射时应用于武器基础扩散的乘数。散布=（默认散布）*（该值）",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#ac374a2ed318853698246364ce864878",
+    "original": "This is the accuracy bonus you recieve from aiming with your weapon sights (Scope or iron sights). Applies to balistic pistols and energy pistols. Spread = (default spread) / (this value)",
+    "translation": "这是您使用武器瞄准器（瞄准镜或机械瞄准器）瞄准时获得的精度加成。适用于弹道手枪和能量手枪。散布=（默认散布）/（该值）",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#3b8a124fa5f15de7b962f8715562bbcf",
+    "original": "This is the accuracy bonus you recieve from aiming with your weapon sights (Scope or iron sights). Applies to balistic rifles and energy rifles. Spread = (default spread) / (this value)",
+    "translation": "这是您使用武器瞄准器（瞄准镜或机械瞄准器）瞄准时获得的精度加成。适用于弹道步枪和能量步枪。散布=（默认散布）/（该值）",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#c2ede6f258eb8c9ed199893be03d6d31",
+    "original": "This is the accuracy bonus you recieve from aiming with your weapon sights (Scope or iron sights). Applies to all multi-projectile weapons (Shotguns, Tri-beam, etc.) and heavy weapons. Spread = (default spread) / (this value).",
+    "translation": "这是您使用武器瞄准器（瞄准镜或铁瞄）瞄准时获得的准确度奖励。适用于所有多射弹武器（霰弹枪、三光束等）和重型武器。散布 =（默认散布）/（此值）。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#2bdc8400067060b22fc855fdb1c980b3",
+    "original": "The max spread values for pistols. This is a cap on how large your weapon spread can become and is affected by the skill penalty multiplier.",
+    "translation": "手枪的最大散布值。这是武器散布的上限，受技能惩罚乘数的影响。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#406b3bd8790fb0d5d66e3f4b6fc5eb03",
+    "original": "The max spread values for rifles. This is a cap on how large your weapon spread can become and is affected by the skill penalty multiplier.",
+    "translation": "步枪的最大散布值。这是你的武器散布范围的上限，并受到技能惩罚乘数的影响。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#5255494f1a69180e9c44b2ff32378d57",
+    "original": "The max spread values for shotguns and heavy weapons. This is a cap on how large your weapon spread can become and is affected by the skill penalty multiplier.",
+    "translation": "霰弹枪和重型武器的最大散布值。这是你的武器散布范围的上限，并受到技能惩罚乘数的影响。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#b8e7bc1a16c841c0f871feb003bb8581",
+    "original": "A multiplier for the spread increment. Determines how quickly spread increases while shooting.",
+    "translation": "扩散增量的乘数。决定了射击时扩散增加的速度。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#d42b8e71fd1fb7ed4bd0423bedac671f",
+    "original": "Sets your starting hip-fire spread to a percent of your max spread. Only applies if this ends up being less than (default spread) * (weapon's class hip-fire multiplier)",
+    "translation": "将你的起始腰射火力范围设置为最大火力范围的百分比。仅当最终小于（默认散布）*（武器等级腰射倍数）时才适用",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#1e580affdc2a88efabc09bc536201ccc",
+    "original": "This is the accuracy bonus you recieve when using slugs in a shotgun. Applies while aiming (scope or iron sights). Spread = (default spread) / (this value)",
+    "translation": "这是您在霰弹枪中使用弹头时获得的准确度加成。在瞄准（瞄准镜或机械瞄准具）时适用。散布=（默认散布）/（该值）",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#5dbd765563aa775f0a09103b3b0913de",
+    "original": "The Max spread while aiming down sights (scope or iron sights) as a percent of the weapon class max spread. Max spread = (weapon class max spread) * (this value)",
+    "translation": "瞄准瞄准器（瞄准镜或机械瞄准器）时，最大散布为武器类别最大散布的百分比。最大散布=（武器类别最大散布）*（该值）",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#d319ee61a80e2caea2d123d0cff39c06",
+    "original": "The minimum spread that your weapon will have while firing from the hip as a percent of the weapon class max spread. Applies to all weapons.",
+    "translation": "腰射时，武器的最小散布占武器类别最大散布的百分比。适用于所有武器。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#941eb9602339158448c41fce8105df47",
+    "original": "Enable or disbale the hud element.",
+    "translation": "启用或禁用 HUD 元素。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#d043c750b978818b1e2ee3c6cef1411c",
+    "original": "The X-axis posistion of the HUD element as a percent of screen width.",
+    "translation": "HUD 元素的 X 轴位置（以屏幕宽度的百分比表示）。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#940e8acc29139ec1c4caf6f63b9a8db6",
+    "original": "The Y-axis posistion of the HUD element as a percent of screen height.",
+    "translation": "HUD 元素的 Y 轴位置占屏幕高度的百分比。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#3a067c1541659c5f5bfccf1431bc9a83",
+    "original": "The width of the whole HUD element.",
+    "translation": "整个 HUD 元素的宽度。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#a88c538d21a2f30d318f55d7ff8ff903",
+    "original": "Only show the HUD element while aiming down sights.",
+    "translation": "仅在瞄准时才显示 HUD 元素。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#576bc1d6e404b3faf2cb75bb84a178c5",
+    "original": "Show the HUD element in the pause menu, so you can adjust it right now.",
+    "translation": "在暂停菜单中显示 HUD 元素，以便您立即进行调整。",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMScript_01000AFE#SCPT:SCDA#418f5eec06127d7e21f77ed8f5ba7c82",
+    "original": "Adjust how long it takes for the HUD element to fade in and out.",
+    "translation": "调整 HUD 元素淡入和淡出所需的时间。",
+    "stage": 1
+  },
+  {
+    "key": "DWSEquipScript_01002A81#SCPT:SCDA#1688f1b6d642b90f028e4cb81e1af7f2",
+    "original": "Shotgun + slug",
+    "translation": "霰弹枪+子弹",
+    "stage": 1
+  },
+  {
+    "key": "DWSEquipScript_01002A81#SCPT:SCDA#d0d145011d59a0243b63e1d1293e7702",
+    "original": "Shotgun",
+    "translation": "霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSEquipScript_01002A81#SCPT:SCDA#e741bdcd64e1c4c699847005ffa7cc44",
+    "original": "Energy Pistol",
+    "translation": "能量手枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSEquipScript_01002A81#SCPT:SCDA#e1a83e343245943ddda4f4f11f655f19",
+    "original": "Rifle",
+    "translation": "步枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSEquipScript_01002A81#SCPT:SCDA#8ada92e73f1d0d00c8c080cacc8cdf06",
+    "original": "Energy Rifle",
+    "translation": "能量步枪",
+    "stage": 1
+  },
+  {
+    "key": "DWSEquipScript_01002A81#SCPT:SCDA#ffe6c26043ae8411f0994e35a2f27038",
+    "original": "Heavy Weapon",
+    "translation": "重型武器",
+    "stage": 1
+  },
+  {
+    "key": "DWSMCMItem_01000AFC#MISC:FULL#44ac9a7909735e14bae955fe46c243e0",
+    "original": "Dynamic Weapon Spread",
+    "translation": "动态武器散布",
+    "stage": 1
+  },
+  {
+    "key": "DWSFAMastery_0100B12D#PERK:FULL#364c09c02865a0ec1e39f35cf7af03cd",
+    "original": "Firearms Mastery",
+    "translation": "枪械精通",
+    "stage": 1
+  },
+  {
+    "key": "DWSFAMastery_0100B12D#PERK:DESC#6b66408479aa49c5852c30032c0089a4",
+    "original": "Through extensive use in battle, you have achieved mastery over firearms of all types! So long as you meet the skill requirement of any firearm, the first few shots will not decrease the accuracy. The number of free shots depends on the weapons base damage. Accuracy will also decrease slower during sustained fire.",
+    "translation": "百般武艺，离不开坚持与努力！只要达到武器的使用技能限制，你的前几次开火都将会指哪打哪。精准射击次数取决于武器的基础伤害。在持续射击期间，准确度也会下降得更慢。",
+    "stage": 1
+  }
+]

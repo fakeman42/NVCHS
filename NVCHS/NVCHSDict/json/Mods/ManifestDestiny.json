@@ -1,0 +1,2858 @@
+[
+  {
+    "key": "EIPArchivesActivator_1207F1AC#ACTI:FULL#96f7dbd7b1c3dfd627cfd9feb7485961",
+    "original": "Raven Rock Archive Mainframe",
+    "translation": "黑鸦领档案主机",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonMonumentTerminal_12033B61#TERM:FULL#5aea50383623cfba27005d2642285702",
+    "original": "Washington Monument Security Terminal",
+    "translation": "华盛顿纪念碑验证终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonMonumentTerminal_12033B61#TERM:DESC#f09fd89987b0e541cdab6e83009f68bd",
+    "original": "Washington Monument Access Terminal\\nENCLAVE Access Only",
+    "translation": "华盛顿纪念塔访问终端\\n仅限英克雷访问",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonMonumentTerminal_12033B61#TERM:ITXT#3b95ae9a6d038810d51f180bcf4c961f",
+    "original": "Open Outer Security Gate",
+    "translation": "打开外部安全大门",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonMonumentTerminal_12033B61#TERM:RNAM#6d03cecdf576e277184f419f11826e93",
+    "original": "Gate Opening",
+    "translation": "大门正在打开",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonMonumentTerminal_12033B61#TERM:ITXT#1644590a12ac69b372a844715b255157",
+    "original": "Close Outer Security Gate",
+    "translation": "关闭外部安全大门",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonMonumentTerminal_12033B61#TERM:RNAM#45f4e8b2ea5771587af13f19721caa13",
+    "original": "Gate Closing",
+    "translation": "大门正在关闭",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:FULL#38a89cc7efd2189b3870d947a3681c8a",
+    "original": "Colonel's Terminal",
+    "translation": "上校终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:DESC#a48d185a1d62ca526f6198dbf4ceeeae",
+    "original": "*****------  ENCLAVEntwrk\\n*****------  COLONEL CLASS\\n*****------  REMOTE ORDER TERMINAL\\n-----------\\n-----------  GOD BLESS AMERICA",
+    "translation": "*****------  英克雷网络\\n*****------  上校级别\\n*****------  远程命令终端\\n-----------\\n-----------  上帝与美国同在",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#8bb52a893eaff9c23ea8a7d5810d74f9",
+    "original": "Recall Enclave Wasteland Patrols",
+    "translation": "召回英克雷废土巡逻队",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:RNAM#207782cd28708a4db6b5597ea2dcdf40",
+    "original": "Issuing order...",
+    "translation": "发布命令……",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#c43203f5f419da240956dc8d3665032e",
+    "original": "Re-establish Enclave Wasteland Patrols",
+    "translation": "重建英克雷废土巡逻队",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#e1940d3a04a765763fd5b0f4fea79384",
+    "original": "Take over Pentagon",
+    "translation": "占领大本营",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#2fd81344acc1bafa674c6c1e9940d5f1",
+    "original": "Take over Megaton",
+    "translation": "占领核弹镇",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#c61795878c6afe8bdcc8afcac6a9f34d",
+    "original": "Take over Tenpenny Tower",
+    "translation": "占领特佩尼大厦",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#6a72640f20093356c3940b6713f06a64",
+    "original": "Take over Big Town",
+    "translation": "占领大镇",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#a4eb7a6f783c694a0be1c6a603e7b8b0",
+    "original": "Take over Washington Monument",
+    "translation": "占领华盛顿纪念碑",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#0c89a5edcc50f2578483843ee1411bf6",
+    "original": "Take over Jefferson Memorial",
+    "translation": "占领杰斐逊纪念馆",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#1fc0e2a9f9fb3d0e9bb5498467cb76ee",
+    "original": "Establish Outpost (Raven Rock)",
+    "translation": "建立哨站（黑鸦领）",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#fa9f9bd855af0690c901f0ff0b120601",
+    "original": "Establish Outpost (Rivet City)",
+    "translation": "建立哨站（铆钉城）",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal02_1205BD3C#TERM:ITXT#f5e3de35d1db4f50cb58e58a7512e5ae",
+    "original": "Establish Outpost (Annandale)",
+    "translation": "建立哨站（安南德尔）",
+    "stage": 1
+  },
+  {
+    "key": "EIP03Vault87Term_120030FD#TERM:FULL#9f63d619a4c1bf0ebbb2a327133bb652",
+    "original": "Doctor Mason's Terminal",
+    "translation": "梅森医生的终端",
+    "stage": 1
+  },
+  {
+    "key": "EIP03Vault87Term_120030FD#TERM:DESC#4c0ce127282589f4ba13653f280a7bfa",
+    "original": "Unauthorized use of this terminal is strictly prohibited.",
+    "translation": "严禁擅自使用本终端。",
+    "stage": 1
+  },
+  {
+    "key": "EIP03Vault87Term_120030FD#TERM:ITXT#aaa913e5dd15a70b3608860b368040e4",
+    "original": "4/10/77 - FEV Antidote",
+    "translation": "1977年4月10日 - FEV解毒剂",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:FULL#38a89cc7efd2189b3870d947a3681c8a",
+    "original": "Colonel's Terminal",
+    "translation": "上校终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:DESC#a48d185a1d62ca526f6198dbf4ceeeae",
+    "original": "*****------  ENCLAVEntwrk\\n*****------  COLONEL CLASS\\n*****------  REMOTE ORDER TERMINAL\\n-----------\\n-----------  GOD BLESS AMERICA",
+    "translation": "*****------  英克雷网络\\n*****------  上校级别\\n*****------  远程命令终端\\n-----------\\n-----------  上帝与美国同在",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#8bb52a893eaff9c23ea8a7d5810d74f9",
+    "original": "Recall Enclave Wasteland Patrols",
+    "translation": "召回英克雷废土巡逻队",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:RNAM#207782cd28708a4db6b5597ea2dcdf40",
+    "original": "Issuing order...",
+    "translation": "发布命令……",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#40aa8940d6834c697d86c07f3e4f3141",
+    "original": "Divert Manpower to Levels 4 & 5 Repair",
+    "translation": "将人力转移至4层与5层维修",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#e1940d3a04a765763fd5b0f4fea79384",
+    "original": "Take over Pentagon",
+    "translation": "占领大本营",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#2fd81344acc1bafa674c6c1e9940d5f1",
+    "original": "Take over Megaton",
+    "translation": "占领核弹镇",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#c61795878c6afe8bdcc8afcac6a9f34d",
+    "original": "Take over Tenpenny Tower",
+    "translation": "占领特佩尼大厦",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#6a72640f20093356c3940b6713f06a64",
+    "original": "Take over Big Town",
+    "translation": "占领大镇",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#a4eb7a6f783c694a0be1c6a603e7b8b0",
+    "original": "Take over Washington Monument",
+    "translation": "占领华盛顿纪念碑",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#0c89a5edcc50f2578483843ee1411bf6",
+    "original": "Take over Jefferson Memorial",
+    "translation": "占领杰斐逊纪念馆",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#1fc0e2a9f9fb3d0e9bb5498467cb76ee",
+    "original": "Establish Outpost (Raven Rock)",
+    "translation": "建立哨站（黑鸦领）",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#fa9f9bd855af0690c901f0ff0b120601",
+    "original": "Establish Outpost (Rivet City)",
+    "translation": "建立哨站（铆钉城）",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#f5e3de35d1db4f50cb58e58a7512e5ae",
+    "original": "Establish Outpost (Annandale)",
+    "translation": "建立哨站（安南德尔）",
+    "stage": 1
+  },
+  {
+    "key": "EIPOrderTerminal_120053F3#TERM:ITXT#c43203f5f419da240956dc8d3665032e",
+    "original": "Re-establish Enclave Wasteland Patrols",
+    "translation": "重建英克雷废土巡逻队",
+    "stage": 1
+  },
+  {
+    "key": "EIPGenericTerminal_1200E98F#TERM:FULL#c3de6fe54747ae7e6323dac3d744b27b",
+    "original": "Enclave Terminal",
+    "translation": "英克雷终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPGenericTerminal_1200E98F#TERM:DESC#b89332b58f1faf8644a21b428693bd88",
+    "original": "I HATE MY JOB",
+    "translation": "我恨我的工作",
+    "stage": 1
+  },
+  {
+    "key": "EIPGenericTerminalDesk_1200E991#TERM:FULL#c3de6fe54747ae7e6323dac3d744b27b",
+    "original": "Enclave Terminal",
+    "translation": "英克雷终端",
+    "stage": 1
+  },
+  {
+    "key": "ChildBlastoffHelmet_0007C109#ARMO:FULL#988cafcd770f058ffb94f01b601c695f",
+    "original": "Blast Off Helmet",
+    "translation": "星空头盔",
+    "stage": 1
+  },
+  {
+    "key": "EIPEnclaveSuit_120075DA#ARMO:FULL#c15cf6774d50e9840613c65abd5fc06d",
+    "original": "Enclave Jumpsuit",
+    "translation": "英克雷制服",
+    "stage": 1
+  },
+  {
+    "key": "EIPFridge_12004CDE#CONT:FULL#839103521034f443d6c85be10d5c90b0",
+    "original": "Refrigerator",
+    "translation": "冰箱",
+    "stage": 1
+  },
+  {
+    "key": "EIP03CureBox_1200FEF8#CONT:FULL#ada9174390c66b8bf82d9b526922c199",
+    "original": "Small Container",
+    "translation": "小容器",
+    "stage": 1
+  },
+  {
+    "key": "EIPEcvDoorBg01Scripted_1205295E#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "EIP03Cure_120030FC#MISC:FULL#cb5355e9a5ccf5fe0bdcf995ec4b4cf7",
+    "original": "Sample of FEV Antidote",
+    "translation": "FEV解毒剂样本",
+    "stage": 1
+  },
+  {
+    "key": "EIPBed_12004CE1#FURN:FULL#d1d3da64acef3d6d892da8b61cdbd380",
+    "original": "My Bed",
+    "translation": "我的床",
+    "stage": 1
+  },
+  {
+    "key": "EIP03Scientist_120030F9#NPC_:FULL#1fbbd7aa4616605bb40f8a874917b4a1",
+    "original": "Dr. Curling III",
+    "translation": "柯林博士三世",
+    "stage": 1
+  },
+  {
+    "key": "EIP3BigGunCM_120037C4#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIP4OfficerCM_120037C5#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIP4OfficerCF_120037C6#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIP4OfficerAF_120037C7#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIP3GunHM_120037C8#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIP4NapalmCF_120037CA#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIP4NapalmAAM_120037CB#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIP4GunHF_120037CC#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPScientistHF_120037CD#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPScientistAM_120037CE#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIP4PentagonCommander_120037D1#NPC_:FULL#0a6fa29f7c6a61d8ad217ff4b1e92a1f",
+    "original": "Commander LeMay",
+    "translation": "指挥官莱梅",
+    "stage": 1
+  },
+  {
+    "key": "EIPBaileyCF_120037EB#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPBailey02_12003805#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonExterior3_12003808#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonExterior4_1200380A#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonExterior1_1200380C#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonExterior2_1200380F#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonInitiate06_12003811#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonInitiate07_12003813#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonInitiate08_12003815#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonAScientistLibrary01_12003818#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonAScientistLibrary02_1200381A#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonAScientistArchives01_1200381C#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonLabPost02_12003EEA#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonSleepFemale_12003EEC#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonLabPost01_12003EEE#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonLabPatrol_12003EF0#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonBarracksPost2_12003EF2#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonBarracksPost1_12003EF4#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime01_12003F0E#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime02_12003F10#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime07_12003F12#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime04_12003F14#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime05_12003F16#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime06_12003F18#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonScientistLibertyPrime08_12003F1A#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonArmoryMaster_12003F1C#NPC_:FULL#86e607314adddccdf0d8162ffc11632b",
+    "original": "Armory Master",
+    "translation": "军械库主管",
+    "stage": 1
+  },
+  {
+    "key": "EIPRREGate1_12004CE8#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPHouseGuard2_12004CE9#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGoodWillOfficer_12004D02#NPC_:FULL#42cbfbef49fd5167b8edcc94c071d6b7",
+    "original": "Megaton Goodwill Officer",
+    "translation": "核弹镇亲善大使",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonScientistAF_12004D04#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGWGuard_12004D06#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonPatrolCF_12004D24#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyPatrol2ndFloor_12006F0C#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyGroundGuard_12006F0F#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyPatrolShops_12006F11#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyPenthouseGuard_12006F13#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPCivlianAFTEMPLATE_120075DD#NPC_:FULL#78ba0b9ef7a474dece04210c8ec0a317",
+    "original": "Enclave Civilian",
+    "translation": "英克雷公民",
+    "stage": 1
+  },
+  {
+    "key": "EIPSarge_12008A2D#NPC_:FULL#ad3cd8b299e732da614c6c00f66c457f",
+    "original": "Sgt. Mayfield",
+    "translation": "梅菲尔德中士",
+    "stage": 1
+  },
+  {
+    "key": "EIPRRECivAF_12009101#NPC_:FULL#78ba0b9ef7a474dece04210c8ec0a317",
+    "original": "Enclave Civilian",
+    "translation": "英克雷公民",
+    "stage": 1
+  },
+  {
+    "key": "EIPRREGateGuard3_12009109#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPRREGateGuard2_1200910C#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPHouseGuard1_120097E5#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPRCGuard1_12009EB3#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPRCGuard2_12009EB5#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPRCGuard3_12009EB9#NPC_:FULL#aa99e36e2dad135774487c6654e6ebab",
+    "original": "Guard",
+    "translation": "守卫",
+    "stage": 1
+  },
+  {
+    "key": "EIPCivilianCM_12009EC6#NPC_:FULL#78ba0b9ef7a474dece04210c8ec0a317",
+    "original": "Enclave Civilian",
+    "translation": "英克雷公民",
+    "stage": 1
+  },
+  {
+    "key": "EIPCivilianAAF_12009EC8#NPC_:FULL#78ba0b9ef7a474dece04210c8ec0a317",
+    "original": "Enclave Civilian",
+    "translation": "英克雷公民",
+    "stage": 1
+  },
+  {
+    "key": "EIPCivilanAM_12009ECA#NPC_:FULL#78ba0b9ef7a474dece04210c8ec0a317",
+    "original": "Enclave Civilian",
+    "translation": "英克雷公民",
+    "stage": 1
+  },
+  {
+    "key": "EIPCivilianCF_12009ECC#NPC_:FULL#78ba0b9ef7a474dece04210c8ec0a317",
+    "original": "Enclave Civilian",
+    "translation": "英克雷公民",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyPatrolLobbyUpper_1200CE38#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyGuardSleep1_1200CE3A#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyGuardOfficer_1200CE3C#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPTenpennyTargetPractice1_1200CE3E#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPCitadelFrontGateGuard_1200D527#NPC_:FULL#c9f379223c4b73f9e95ed9d69b98d8e3",
+    "original": "Sgt. Mook",
+    "translation": "莫克中士",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonGateGuard_1200D529#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonExteriorGuard1_1200D52C#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPCitadelLookout_1200D52F#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPRCOfficer_1200E98B#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPRCOfficerInt_1200EA35#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPWashingtonInteriorGuard1_1201134B#NPC_:FULL#4294e3119cf6b6212ba1bae80c7fb081",
+    "original": "Enclave Officer",
+    "translation": "英克雷军官",
+    "stage": 1
+  },
+  {
+    "key": "EIPCitadelCollector1_12011A1C#NPC_:FULL#f24f0422378744d0433817ffdb91ec24",
+    "original": "Research Specialist Higgs",
+    "translation": "研究专员希格斯",
+    "stage": 1
+  },
+  {
+    "key": "EIPCitadelCollector2_12011A2D#NPC_:FULL#858b09f49c4e6804056c9a6deda91cf2",
+    "original": "2nd Lt. Chenzy",
+    "translation": "陈兹少尉",
+    "stage": 1
+  },
+  {
+    "key": "EIPBigTownTrooper1_12012EB2#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPBigTownTrooper2_12012EB4#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPBigTownTrooper3_12012EB7#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPBigTownMechanic_1201430E#NPC_:FULL#c17d4cd9d600b739564ab85147859b70",
+    "original": "Enclave Mechanic",
+    "translation": "英克雷技师",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityScientistATemplate_1201509F#NPC_:FULL#9bd31952b978fbefa2fbae407b5f7e7e",
+    "original": "Jefferson Memorial Scientist",
+    "translation": "杰斐逊纪念堂科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityScientistHF_120150A0#NPC_:FULL#9bd31952b978fbefa2fbae407b5f7e7e",
+    "original": "Jefferson Memorial Scientist",
+    "translation": "杰斐逊纪念堂科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityScientistAM_120150A1#NPC_:FULL#9bd31952b978fbefa2fbae407b5f7e7e",
+    "original": "Jefferson Memorial Scientist",
+    "translation": "杰斐逊纪念堂科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityScientistCM_120150A2#NPC_:FULL#9bd31952b978fbefa2fbae407b5f7e7e",
+    "original": "Jefferson Memorial Scientist",
+    "translation": "杰斐逊纪念堂科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityLeadScientist_12017954#NPC_:FULL#4e8446cc20fcc24aba26c97b8b2b924d",
+    "original": "Enclave Lead Scientist",
+    "translation": "英克雷首席科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityGuard_12017959#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityScientistExt2_1201795C#NPC_:FULL#766e554504d045091c54be647afa6c62",
+    "original": "Enclave Scientist",
+    "translation": "英克雷科学家",
+    "stage": 1
+  },
+  {
+    "key": "EIPPurityGuardExt1_1201795E#NPC_:FULL#a39a93ed266499b304662c2ed8d55779",
+    "original": "Enclave Hellfire Trooper",
+    "translation": "英克雷地狱火骑兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPBigTownOfficer_1201796D#NPC_:FULL#0964d7cced3421a1244d596a850e8843",
+    "original": "Big Town Goodwill Officer",
+    "translation": "大镇亲善大使",
+    "stage": 1
+  },
+  {
+    "key": "EIPBigTownEnclaveKid_1201796F#NPC_:FULL#4b3ae19a9c16b7d909a24abcc7cc73e0",
+    "original": "Enclave Recruit",
+    "translation": "英克雷新兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPEnclaveControlRoomGuard_120494B6#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPAnnaHolt_120A5201#NPC_:FULL#08fd5afb3fa2a7f7f06a7f7e597a2186",
+    "original": "Anna Holt",
+    "translation": "安娜·霍尔特",
+    "stage": 1
+  },
+  {
+    "key": "EIPPinkerton_120A5203#NPC_:FULL#fb9a474ebce995e63fade5a4fdc4315b",
+    "original": "Horace Pinkerton",
+    "translation": "平克顿",
+    "stage": 1
+  },
+  {
+    "key": "EIPCrSentryBotGLEnclave_120494B5#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPSentryBotGLEnclave_120037C9#CREA:FULL#ee75bc0b18326607a75cde030f1698a1",
+    "original": "Sentry Bot",
+    "translation": "铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "EIPGutsyDoctor_12003821#CREA:FULL#23cf50314bf4c51f78fc64dabedae998",
+    "original": "Bonesaw",
+    "translation": "骨锯",
+    "stage": 1
+  },
+  {
+    "key": "EIPRavenRock4BaracksCard_1205ACCE#KEYM:FULL#f4f8dbf1690e514e7b9741e1390bf507",
+    "original": "Raven Rock Access Card",
+    "translation": "黑鸦领通行卡",
+    "stage": 1
+  },
+  {
+    "key": "EIP04Radio_12009EAD#ALCH:FULL#c771585b45dc6f3c9eebe533f2415ade",
+    "original": "Radio",
+    "translation": "收音机",
+    "stage": 1
+  },
+  {
+    "key": "EIPPrezDisk_12000EC8#NOTE:FULL#b63d7544457afc44967025ed2f1f0cb0",
+    "original": "From the President",
+    "translation": "来自总统",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03TN_1200911F#NOTE:TNAM#2da1f806800cb27c6efa678842a74735",
+    "original": "Most of the FEV antidote has been removed from the vault. I am told we have no need for antidotes in our project. Fucking Mariposa, like I don't know they had something to do with this.\\n\\nI was able to recover a single vial. Just in case.\\n\\nStorage room, on the way to GECK.",
+    "translation": "大多数FEV解毒剂已从避难所中取出。据说我们的项目无需解毒剂。可恶的马里波萨，好像我不知道他们与此事有牵连。\\n\\n我设法找回了一瓶单剂。以备不时之需。\\n\\n前往GECK的储藏室。",
+    "stage": 1
+  },
+  {
+    "key": "EIPRecallNote_12032AEF#NOTE:TNAM#1fdc44a93decce5e45899f8cd87e2326",
+    "original": "Operation Status Update:\\nManpower consumption significantly decreased. Personnel on standby.\\nExpansion Operation recommended.\\n\\n**WARNING**\\nDue to limitations in ENCLAVEntwrk, do NOT issue a \"Take over\" order until specifically given verbal assurance to do so by on-site logistics officer.\\n\\nADDENDUM 2262 - Pip-Boy Technology:\\nAgents with Pip-Boy equipment are advised to NOT accept automated Personal Information Processor notifications as sufficient enough to issue \"Take over\" orders. You MUST receive verbal confirmation from an on-site logistics officer before issuing an ENCLAVEntwrk order.",
+    "translation": "运行状态更新：\\n人力消耗显著降低。人员目前处于待命状态。\\n建议执行扩张行动。\\n\\n?**警告?**\\n由于英克雷网络系统的限制，在未获得现场后勤官员的口头确认前，严禁发出“接管”指令。\\n\\n附录2262 - 哔哔小子技术：\\n建议携带哔哔小子设备的特工不要仅凭自动个人信息处理器的通知就发出“接管”指令。在发出英克雷网络指令前，您必须获得现场后勤官员的口头确认。",
+    "stage": 1
+  },
+  {
+    "key": "EIPDeployNote_12035C41#NOTE:TNAM#9fa405c0ac09e75b6cf462dc3cf2b74a",
+    "original": "Operation Status Update:\\nSector control development successful. Installation, Resource, Manpower level(s) equalized. Field personnel re-established.\\nStabilization Operation recommended.\\n\\n**WARNING**\\nDue to limitations in ENCLAVEntwrk, do NOT issue a \"Take over\" order until specifically given verbal assurance to do so by on-site logistics officer.\\n\\nADDENDUM 2262 - Pip-Boy Technology:\\nAgents with Pip-Boy equipment are advised to NOT accept automated Personal Information Processor notifications as sufficient enough to issue \"Take over\" orders. You MUST receive verbal confirmation from an on-site logistics officer before issuing an ENCLAVEntwrk order.",
+    "translation": "行动状态更新：\\n区域控制开发成功。设施、资源、人力水平已均衡。现场人员已重新部署。\\n建议执行扩张行动。\\n\\n?**警告**?\\n由于英克雷网络存在限制，在未得到现场后勤军官的口头确认前，切勿下达“接管”指令。\\n\\n附录2262 - 哔哔小子技术：\\n配备哔哔小子设备的特工请注意，切勿将自动个人信息处理器通知视为足以发布“接管”指令的依据。在发布英克雷网络指令前，您必须获得现场后勤军官的口头确认。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_12009118#INFO:NAM1#a33dd49bf5416b29bf997020268076f3",
+    "original": "Honored to meet you, sir. Sergeant Mayfield, Logistics Officer.",
+    "translation": "很荣幸见到您，先生。我是后勤军官梅菲尔德中士。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_12009118#INFO:NAM1#de51191b97bb7c4e1095a7e5578f40b9",
+    "original": "Let me say up front that High Command wishes to extend their deepest condolences regarding your father. He was an incredibly intelligent man, and would have made an invaluable member of our Science division.",
+    "translation": "首先，我要代表高层向您表达对您父亲的深切哀悼。他是一位极其聪明的人，本来可以成为我们科学部门的中流砥柱。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_12009118#INFO:NAM1#d95b3200b719ecd3e6b6653c0c617737",
+    "original": "Colonel Autumn's actions were inexcusable; that is clear to all of us now. It is commendable that his overzealous behavior did not cloud your views of our organization.",
+    "translation": "奥特姆上校的行为不可原谅；现在我们大家都很清楚这一点。值得赞扬的是，他的狂热并未影响您对我们组织的看法。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_12009118#INFO:NAM1#7c6bfe9dadece76cf09c750696b39663",
+    "original": "Now, with introductions out of the way; how may I be of assistance?",
+    "translation": "好了，介绍就到这里；有什么需要我帮忙的吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_1200B31F#INFO:NAM1#5433586c4c2f73b317a1697e3935bb0e",
+    "original": "Very good, sir. This should alleviate much of our manpower strains for the time being. Are we ready to resume our expansion operations?",
+    "translation": "很好，先生。这应该能在一定程度上缓解我们的人力紧张。准备好重启扩张行动了吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_1203BF1E#INFO:NAM1#97cc1da7ae5afe0ff9589d4b90710b43",
+    "original": "Pleasure to meet you, Colonel. Doctor Curling, Head Physician.",
+    "translation": "很高兴见到您，上校。我是首席医生柯林博士。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_1200F7FE#INFO:NAM1#6dadd69abf50799e836c35712c401deb",
+    "original": "Excellent. I'm pleased to know I can count on you.",
+    "translation": "很好。我很高兴知道我能依靠你。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_1200F7FE#INFO:NAM1#7a221bbf4438c685f508e8a038b28d85",
+    "original": "There is a bright future ahead of us, my young friend.",
+    "translation": "年轻人，我们的前途一片光明。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_12021598#INFO:NAM1#ad24c2fe8de47aaa6368ab89d9f1ad05",
+    "original": "Greetings again, my confidant.",
+    "translation": "我的密友，再次问候。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_1200F7FF#INFO:NAM1#113e7e2086aa015b788c0299737777b2",
+    "original": "[The President does not respond.]",
+    "translation": "[总统没有回应。]",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_000000D4#DIAL:FULL#11cefa43ece6e79d0bcaaa53e0101de2",
+    "original": "I have to go now.",
+    "translation": "我现在要走了。",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_12021599#INFO:NAM1#c0366ae82c213fc3ca18afc8f771ac54",
+    "original": "Good, good. I'll be watching you...",
+    "translation": "很好，很好。我会盯着你的...",
+    "stage": 1
+  },
+  {
+    "key": "SpeechChallengeFailure_1200B9E5#INFO:NAM1#cdf03a436cc743bcdbd52d047f7c55e7",
+    "original": "Not going to happen. You guys steer clear from Megaton. We are perfectly fine without you.",
+    "translation": "没门儿。你们别惹核弹镇。没有你们我们也过得很好。",
+    "stage": 1
+  },
+  {
+    "key": "SpeechChallengeFailure_1200B9E6#INFO:NAM1#e56bc498d0a33bcb74f0e03dc0307458",
+    "original": "No. I don't think so. This tower remains as it is.",
+    "translation": "不。我不这么想。这大厦得保持原样。",
+    "stage": 1
+  },
+  {
+    "key": "RadioHello_06058CDE#INFO:NAM1#eda5d97c613a5edf3e6de9144af9254c",
+    "original": "People of the Capital Wasteland, you can HEAR MEEEE!!!! Yeeeaa haaaa!!! You can't stop the signal, baby!",
+    "translation": "首都废土的人们，你们能听-到-我-吗！！！！耶-哈-！！！你们挡不住我的信号，宝贝！",
+    "stage": 1
+  },
+  {
+    "key": "RadioHello_06045B31#INFO:NAM1#b915b63411d146ad02a0a82f32564925",
+    "original": "We stand now at the precipice.",
+    "translation": "我们现在站在悬崖边上。",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_00064B4B#DIAL:FULL#1384694ed7f67988df1c2ab3d3b89572",
+    "original": "Why do you want my help? Why not have Colonel Autumn help you?",
+    "translation": "怎么想到找我帮忙？这个时候不是应该是奥特姆上校在你身边吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_06064B57#INFO:NAM1#1302c921c0b554491544ad150c299d76",
+    "original": "Ah, yes. Colonel Autumn. My trusted subordinate.",
+    "translation": "啊，对。奥特姆上校，我的得力下属。",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_06064B57#INFO:NAM1#402d8c8ce9239411e8833eb290d2186c",
+    "original": "I'm sure you've noticed that Colonel Autumn and I do not see eye-to-eye these days, figuratively speaking of course.",
+    "translation": "你肯定已经察觉，最近我和奥特姆上校有些不和。",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_06064B57#INFO:NAM1#dc4847afdd4d5612c46f456afc052d9f",
+    "original": "The good Colonel and I disagree on how best to approach the problem of the Wasteland. He feels my methods are too extreme.",
+    "translation": "我和这位上校在如何解决废土问题上意见相左。他觉得我的手段太过激。",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_06064B57#INFO:NAM1#c508bc08c51db32cb363fea93c3cbd13",
+    "original": "He has allowed his humanity to cloud his objectivity. And now that he is publicly countermanding my orders, I can no longer rely on him.",
+    "translation": "他的人性让他失去了客观性。现在他公然违抗我的命令，我已经无法再信任他。",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_06064B57#INFO:NAM1#7f587b2c67e04bf4b4144ebe72dfce3c",
+    "original": "And so I turn to you. I hope that you are able to see the larger picture, to understand what's at stake.",
+    "translation": "所以我来找你。我希望你能看到全局，理解当前的危急形势。",
+    "stage": 1
+  },
+  {
+    "key": "MQ09EdenWhyNotAutumn_06064B57#INFO:NAM1#2d9e9779510dc75f262478ec02d5526b",
+    "original": "And of course, if you are successful, there is a place for you in the Enclave. Perhaps you could succeed the Colonel as my confidant.",
+    "translation": "当然，如果你成功了，你在英克雷会有一席之地。也许你可以取代上校，成为我的亲信。",
+    "stage": 1
+  },
+  {
+    "key": "RCPinkertonFacialReconstruction_060B8822#INFO:NAM1#04b5e531dfdc9ddfe16574dbeddb8ff1",
+    "original": "What do you want to look like?",
+    "translation": "你想要变成什么样子？",
+    "stage": 1
+  },
+  {
+    "key": "RCPinkertonFacialReconstruction_060B8822#INFO:RNAM#464b83eeed4d66ec70bd197a9ba71adb",
+    "original": "I need a Facial Reconstruction.",
+    "translation": "我需要面部整形。",
+    "stage": 1
+  },
+  {
+    "key": "RCPinkertonFacialReconstruction_120A6272#INFO:NAM1#04b5e531dfdc9ddfe16574dbeddb8ff1",
+    "original": "What do you want to look like?",
+    "translation": "你想要变成什么样子？",
+    "stage": 1
+  },
+  {
+    "key": "RCPinkertonFacialReconstruction_120A6272#INFO:RNAM#464b83eeed4d66ec70bd197a9ba71adb",
+    "original": "I need a Facial Reconstruction.",
+    "translation": "我需要面部整形。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03BS1Tristan1QEnclavePutUpFight_0A002DA6#DIAL:FULL#76dfc71a184528d70c69edcca4c36dce",
+    "original": "Has the Enclave been putting up much of a fight?",
+    "translation": "英克雷一直在进行顽强的抵抗吗？",
+    "stage": 1
+  },
+  {
+    "key": "DLC03BS1Tristan1QEnclavePutUpFight_0A00943D#INFO:NAM1#bdb9352ee20226f4d2e4cf3b1cae18c5",
+    "original": "Not like they did at the purifier, no.",
+    "translation": "不，没有他们在净化器那时那么顽强了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03BS1Tristan1QEnclavePutUpFight_0A00943D#INFO:NAM1#07f98248358d9d77f8ae4ee3ea1f813b",
+    "original": "Since then, their operations have been severely disrupted. We're trying to use that to our advantage -- we keep hitting them while they're down.",
+    "translation": "从那以后，他们的行动就受到了严重干扰。我们正试图利用这一点——乘他们虚弱时不断打击他们。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03BS1Tristan1QEnclavePutUpFight_0A00943D#INFO:NAM1#50014f57b963c28d98337481f6242f1d",
+    "original": "We can't give them a moment to breathe safely, or else they might pose more of a threat to us in the long run.",
+    "translation": "我们不能给他们片刻喘息的机会，否则他们将来可能会对我们构成更大的威胁。",
+    "stage": 1
+  },
+  {
+    "key": "EIPPresidentHoloDisk_12000ECA#INFO:NAM1#b13c7755f244971becfc7321c2e46e1a",
+    "original": "What I require of you is really very simple.",
+    "translation": "我要你做的其实很简单。",
+    "stage": 1
+  },
+  {
+    "key": "EIPPresidentHoloDisk_12000ECA#INFO:NAM1#e4e2544ea1ab9c22c06a476a66810fea",
+    "original": "While I have direct control over the technology in Raven Rock, Colonel Autumn has control of the human soldiers.",
+    "translation": "虽然我能直接控制黑鸦岭的电子设备，但奥托姆上校控制着人类士兵。",
+    "stage": 1
+  },
+  {
+    "key": "EIPPresidentHoloDisk_12000ECA#INFO:NAM1#5e7825e1c2da1c263c1741871aa1f6db",
+    "original": "I cannot stop Colonel Autumn. That much will be up to you.",
+    "translation": "我阻止不了奥托姆上校。这得靠你了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPPresidentHoloDisk_12000ECA#INFO:NAM1#0fbb42d2f7cf636fc951285eaea91dda",
+    "original": "But it's not too much to ask of you, is it?",
+    "translation": "但这对你来说要求不算高吧？",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityPentagon_12002A23#INFO:NAM1#ce669f672d83caceef4940af00c51a9b",
+    "original": "It's sad to hear you have chosen this path, really is.",
+    "translation": "听说你选择了这条路，真是遗憾。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityPentagon_12002A23#INFO:NAM1#fd890270a97a804e4d20e88550bf6fd6",
+    "original": "But I'm afraid you won't make us surrender without a fight. We won't submit to the tyrannic \"government\" you represent.",
+    "translation": "但我恐怕你们不经过一场战斗是不会让我们投降的。我们不会屈服于你们所代表的暴政“政府”。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityPentagon_12002A23#INFO:RNAM#390e1d0cb3b393d83b1df6c123ee2ecf",
+    "original": "On the orders of the President I hereby demand you to stand down at once!",
+    "translation": "奉总统之命，我要求你们立即投降！",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny_12002A24#INFO:NAM1#bb67e0a8341c60e38c4a1a940bf9aecc",
+    "original": "What? That's preposterous! I run this tower! You have absolutely no right to ruin my business!",
+    "translation": "什么？太荒谬了！这座大厦我说了算！你们没有权利毁掉我的生意！",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny_12002A24#INFO:RNAM#e2e1688008fdfad071cc6b638ff1fb9d",
+    "original": "I'm here to request access for the Enclave.",
+    "translation": "我来此请求英克雷的通行权。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny2_12002A25#INFO:NAM1#c869bf9af1bbd8238b753c911f56c359",
+    "original": "Hmm.. I guess we have a deal. But don't play dirty on me. You better keep your promises or it's an empty tower you're ruling.",
+    "translation": "嗯……我想我们达成交易了。但别跟我耍花招。你最好信守承诺，否则你们统治的将是一座空大厦。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny2_12002A25#INFO:RNAM#a1e0e72dd0e44f3e694826be5d740d10",
+    "original": "Don't worry. You can continue your daily routine. We'll just be here as backup.",
+    "translation": "别担心。你们可以继续日常活动。我们只是在这里作为后援。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny2_120053EF#INFO:NAM1#da88ed5062d2565ce731fc6938726219",
+    "original": "All right. It's a deal. Behave well and we'll get along just fine then.",
+    "translation": "好吧。成交。好好表现，我们就能相处得很好。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny2_120053EF#INFO:RNAM#357aade1c8241eb1ac7580c6b5f33210",
+    "original": "We will be here to protect you. For free.",
+    "translation": "我们会在这里保护你们。免费的。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny3_12002A26#INFO:NAM1#5945bf1f33ac4b362ebeaae7cd5db5a4",
+    "original": "Guards!",
+    "translation": "守卫！",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityTenpenny3_12002A26#INFO:RNAM#3e5b200084ec361bd380864e31ac1343",
+    "original": "Looks like it's nap time for you then, grandpa.",
+    "translation": "那你该去睡觉了，老爷子。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityMegatonA1_12002A20#INFO:NAM1#faf7cfb6b33f69db32fdb372e74f5e33",
+    "original": "I'm afraid that's not going to happen. Megaton is a safe and a happy place even without you guys.",
+    "translation": "恐怕这事不行。没有你们，核弹镇也是个安全快乐的地方。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityMegatonA1_12002A20#INFO:RNAM#e40aedc8d8e253dfa207151d99804fd3",
+    "original": "I'm here to request full access for the Enclave in Megaton.",
+    "translation": "我来此请求英克雷在核弹镇的完全通行权。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityMegatonB1_12002A22#INFO:NAM1#f59ad322bdc201f0e4fba312cf6de256",
+    "original": "Hmmh.. Fine.. All right. You win. But you better treat my people well, or face the consequences.",
+    "translation": "嗯……好吧……行。你赢了。但你们最好善待我的人民，否则后果自负。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityMegatonB1_12002A22#INFO:RNAM#4987c6f78b4c3cb930666a3524d11ac2",
+    "original": "We'll be here as backup. Nothing more.",
+    "translation": "我们只是后援。仅此而已。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityMegatonB2_12002A21#INFO:NAM1#67c41cd072e7122f0579e54f2b190917",
+    "original": "So be it.",
+    "translation": "就这样吧。",
+    "stage": 1
+  },
+  {
+    "key": "EIP2AuthorityMegatonB2_12002A21#INFO:RNAM#17457df2f1371400e760b2e40ab1f016",
+    "original": "If war is what you want, war you shall get.",
+    "translation": "如果你们想要战争，那就让你们如愿以偿。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA1_12002A2E#INFO:NAM1#5665d8013a8a8179a53e33369eb79505",
+    "original": "No, sir. The modified FEV that \"cleansed\" the Jefferson Memorial appears to be a dud. So far it has only proven fatal to naturally bipedal mutants.",
+    "translation": "长官，用来“净化”杰斐逊纪念堂的改良型FEV似乎是个哑炮。到目前为止，它只对天生双足行走的变种人有致命性。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA1_12002A2E#INFO:NAM1#cc34f30a5308ea3d50727d7996b2bbc9",
+    "original": "It's *possible* that long term effects could manifest, but at this rate it would not be an effective cleanse.",
+    "translation": "长期影响可能会显现，但照这个速度下去，它不会是一个有效的净化手段。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA1_12002A2E#INFO:NAM1#c8f89b98f4b25c67e7bda635714582f8",
+    "original": "So it appears that this side of the plan is once again a failure...",
+    "translation": "因此，计划的这个部分似乎再次失败了……",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA1_12002A2E#INFO:NAM1#3978dff9e2cddd099e9c45ba47f8955b",
+    "original": "High Command would like you to know that they are glad you have continued our expansion efforts... using the same strategies Autumn had planned...",
+    "translation": "高层希望你知道，他们很高兴你继续使用奥特姆制定的策略来推进我们的扩张。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA1_12002A2E#INFO:RNAM#579c440cc83a168782f3509d91ca9f4c",
+    "original": "The FEV didn't quite work, did it?",
+    "translation": "FEV不太奏效，是吧？",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemB1_12002A2F#INFO:NAM1#fd2697c29e8b5dbe2921a97d2e8c012a",
+    "original": "We used to have a stockpile of FEV and FEV antidote, but that was before my time. Since then that number has dwindled to a handful of each.",
+    "translation": "我们过去有FEV和FEV解毒剂的库存，但那是在我任职之前。从那时起，这些库存已经大幅减少到每种只有几个。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemB1_12002A2F#INFO:NAM1#594a75b2c16b4e955a24f1966d86a956",
+    "original": "Over the years we've used our few remaining doses to test antiFEV cures, just like this past one. Our very last dose...",
+    "translation": "多年来，我们用剩下的少数剂量来测试抗FEV疗法，就像最近的一次一样。我们的最后一剂...",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemB1_12002A2F#INFO:NAM1#2da9f30b9206b8c5e1923382a5854ee6",
+    "original": "The most irritating part is we could definitely produce a cure for the modified FEV... If we just had the damned original...",
+    "translation": "最令人恼火的是，我们肯定可以为改良型FEV制造解药...如果我们有那该死的原始版本的话...",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemB1_12002A2F#INFO:RNAM#060ebb5ee3550af0d23ae5337f82b50c",
+    "original": "Is it possible that an antidote could exist against the modified FEV?",
+    "translation": "针对改良型FEV病毒的解毒剂可能存在吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemB2_12002A30#INFO:NAM1#592e14334d2696d96f37ca95df15a49d",
+    "original": "Er... Yes, sir. You know what's best... sir.",
+    "translation": "嗯，是的，长官。您知道怎么做最好...长官。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemB2_12002A30#INFO:RNAM#ed3a93b0bebba3e36b3df81bfad22104",
+    "original": "But it did still pack quite a punch, didn't it? Good for us!",
+    "translation": "但它的威力还是很大，不是吗？对我们有利！",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemC1_12002A31#INFO:NAM1#89eaa63d355e77d6d574914a35eef7c8",
+    "original": "My best bet would be Vault 87, considering their work on FEV in the region.",
+    "translation": "我觉得最好的选择是87号避难所，考虑到他们在这一区域对FEV的研究。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemC1_12002A31#INFO:NAM1#c267954efe93974f41214407f095994d",
+    "original": "If you can recover a sample of original FEV antidote, bring it to us. We'll see if we can make anything out of it.",
+    "translation": "如果你能找回一份原始的FEV解药样本，就带来给我们。我们看看能不能从中发现些什么。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemC1_12002A31#INFO:RNAM#4ee92c2cc2d05dd760892688c97238f4",
+    "original": "Then we need to find more antidote. Any ideas?",
+    "translation": "那么我们需要找到更多的解药。有什么办法吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemC2_12002A32#INFO:NAM1#8df5e508aece8c1694f1da7c6493c994",
+    "original": "Y-Yessir.",
+    "translation": "是……是的，长官。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemC2_12002A32#INFO:RNAM#5a3ab40210f96f1373620d60905aaf4d",
+    "original": "Too much trouble for so little fun, I think. Not worth the trip to find a cure.",
+    "translation": "我觉得这太麻烦了，收获很少。不值得为了找解药跑一趟。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3CureA1_120030FB#INFO:NAM1#be34e07cf4671a8efc16178b84a01179",
+    "original": "Let me see that... hmm.",
+    "translation": "让我看看……嗯。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3CureA1_120030FB#INFO:NAM1#14b1254fb60098c126776f16c2664c30",
+    "original": "Yes... Yes, this is an intact antidote! And it survived all this time in that hole in the ground? Fascinating...",
+    "translation": "对……没错，这是一份完整的解药！它竟然在地下的那个洞里保存了这么久？真是令人惊讶……",
+    "stage": 1
+  },
+  {
+    "key": "EIP3CureA1_120030FB#INFO:NAM1#69a7732896c22f7caae86ac4ecb3eea2",
+    "original": "We'll start work on disinfecting the memorial right away. Tremendous work, Colonel; I can see you've certainly earned your rank.",
+    "translation": "我们会立刻开始着手对纪念碑进行消毒。干得好，上校 ；我看得出你确实配得上你的军衔。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3CureA1_120030FB#INFO:RNAM#69b468047df56f04453e1225964c6759",
+    "original": "I found this vial in Vault 87. Is this what we need?",
+    "translation": "我在87号避难所找到了这个瓶子。这是我们需要的吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIP02ArmoryMasterTrade_12003F26#DIAL:FULL#68cff57b3c5f91ec6f00c4bc7cb30b3a",
+    "original": "I'd like to see what you have.",
+    "translation": "我想看看你的货。",
+    "stage": 1
+  },
+  {
+    "key": "EIP02ArmoryMasterTrade_12003F28#INFO:NAM1#9663ba4fd2b11a4c5eabc2493c92c55e",
+    "original": "Very well sir. But I'm afraid that by Presidential orders you have to pay, too.",
+    "translation": "好，先生。但恐怕根据总统的命令，你也得付钱。",
+    "stage": 1
+  },
+  {
+    "key": "EIP02ArmoryMasterTrade_12003F29#INFO:NAM1#0c9696d511393a636a3e1d3a13cccad8",
+    "original": "All right, as long as you're ready to pay.",
+    "translation": "好的，只要你愿意付钱就行。",
+    "stage": 1
+  },
+  {
+    "key": "EIP02ArmoryMasterRepair_12003F27#DIAL:FULL#6752e4c89fcb02074a994938393cf2be",
+    "original": "Can you repair my equipment?",
+    "translation": "能修理我的装备吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIP02ArmoryMasterRepair_12003F2A#INFO:NAM1#d7e5aaa146273ebc5966a9387393af2c",
+    "original": "Very well sir, but I'm afraid you will have to pay for it.",
+    "translation": "好，长官，但我恐怕你得付钱。",
+    "stage": 1
+  },
+  {
+    "key": "EIP02ArmoryMasterRepair_12003F2B#INFO:NAM1#17940358c789591befd543dc54f31ffc",
+    "original": "All right, sir.",
+    "translation": "好的，长官。",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGWProgress_12004D27#INFO:NAM1#c03330dc0c72a42df4a1aed67890599a",
+    "original": "We've received a healthy reception from the locals. Not everyone trusts us yet, but they should come around if we continue supporting the community.",
+    "translation": "我们受到了当地人的热情接待。虽然他们现在还不完全信任我们，但如果我们继续帮助社区，他们应该会慢慢接受我们。",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGWProgress_12004D27#INFO:RNAM#64bc1248654ac79c742a191090c18a11",
+    "original": "How's our progress here?",
+    "translation": "我们在这里的进展如何？",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGWWater_12004D29#INFO:NAM1#a90406ab4328e203f3703bab93731bae",
+    "original": "Yes, sir. We are giving out water from our own supply until we're able to pump -you know what- from the Jefferson Memorial.",
+    "translation": "是的，长官。我们正在分发我们自己的水源，直到能从杰斐逊纪念堂抽出-你懂的-为止。",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGWWater_12004D29#INFO:NAM1#4a24fe1d6caac2434c17725dacc61e47",
+    "original": "Still, the \"sickness\" has tainted the public perception of the Brotherhood and Project Purity, which should make the wasteland populous much more accepting of our takeover.",
+    "translation": "尽管如此，“疾病”已经玷污了公众对兄弟会和净化工程的看法，这应该会让废土的居民更容易接受我们的接管。",
+    "stage": 1
+  },
+  {
+    "key": "EIPMegatonGWWater_12004D29#INFO:RNAM#a5d78742895d073211aa63fe00cac83f",
+    "original": "I see you're giving out normal water here.",
+    "translation": "我看到你们在这里分发普通的水。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeBrotherhood_12008A30#INFO:NAM1#bc70101a649c843d80145c6d9ba2d1e7",
+    "original": "All but annihilated. Their victory at the Jefferson Memorial was short-lived; it's clear that they were nothing without their stolen military asset.",
+    "translation": "几乎全军覆没。他们在杰斐逊纪念堂取得的胜利只是短暂的。很明显，没有他们偷来的军事资产，他们什么都不是。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeBrotherhood_12008A30#INFO:NAM1#fa622ad829abd7500abb1e9b1a030021",
+    "original": "Their offensive ceased immediately following the permanent neutralization of Liberty Prime - a real shame, but necessary.",
+    "translation": "在永久消灭自由先锋后，他们的攻势立即停止了——真是可惜，但这是必要的。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeBrotherhood_12008A30#INFO:NAM1#b398783855fb00ceefa646903ae69c0e",
+    "original": "Between that and the infection of the Jefferson Memorial, they crumbled when we descended on the Pentagon.",
+    "translation": "在那之后，杰斐逊纪念堂被污染，当我们攻入五角大本营时，他们彻底崩溃了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeBrotherhood_12008A30#INFO:NAM1#0759cc1cad08b879cd2e93ff74fb4773",
+    "original": "There is still the Outcasts, as I'm sure you're aware. Our main concern is any Brotherhood stragglers out in the wastes will likely flock to them.",
+    "translation": "还有那些放逐者，我相信你也知道。我们最担心的是，那些在废土上流浪的兄弟会残余分子很可能会投奔他们。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeBrotherhood_12008A30#INFO:NAM1#c2c10208c046b32e2847ec076d6b3958",
+    "original": "We will leave the decision on how we approach them up to you, sir.",
+    "translation": "关于如何对付他们，我们会把决定权交给你，长官。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeBrotherhood_12008A30#INFO:RNAM#2b295b906da2f2058b070824ea83e3aa",
+    "original": "What is the status of the Brotherhood?",
+    "translation": "兄弟会的现状如何？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePopulating_12008A32#INFO:NAM1#2935a4151898305802675c38fa52714b",
+    "original": "Rather well actually. Our civilians are coming out for the first time since we came here. And you can really see the difference.",
+    "translation": "其实还挺顺利的。我们的平民百姓自我们来到这儿之后，是第一次外出。你真的能感觉到变化。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePopulating_12008A32#INFO:NAM1#40efffa853c3c0d2239a71d081bec468",
+    "original": "Sure, we are all still unnaturally pale and frightened by anything that moves, but we're just fine considering what we've been through.",
+    "translation": "没错，我们看起来依然不自然地苍白，对任何移动的东西都感到害怕，但考虑到我们所经历的一切，我们还算不错。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePopulating_12008A32#INFO:RNAM#089895ad4814fc60f62f8a4aa9ccc000",
+    "original": "How is our populating process going?",
+    "translation": "我们的人口增长情况如何？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeExpansion_12008A34#INFO:NAM1#eb45dbbd05de4bab45a6149221d04511",
+    "original": "That's classified... to an extent.",
+    "translation": "这在一定程度上……是机密。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeExpansion_12008A34#INFO:NAM1#a1a066863c92361e7f38b25fa4f13443",
+    "original": "All you need to know is: Across the country are facilities, bunkers, strongholds, et cetera just like Raven Rock, all connected through ENCLAVEntwrk",
+    "translation": "你只需要知道：全国各地都有像黑鸦岭一样的设施、掩体、要塞等，它们都通过英克雷网络相互连接。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeExpansion_12008A34#INFO:NAM1#ba1b1ef3c53fd6ad5759fa5e441928bc",
+    "original": "Many of these installations house vital members of our government, President Eden being one such example prior to his disappearance. Again, all in constant communication through ENCLAVEntwrk.",
+    "translation": "许多这些设施都安置着我们政府的重要成员，总统伊登在失踪前便是一个典型例子。再次强调，所有人员都通过英克雷网络保持持续沟通。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeExpansion_12008A34#INFO:NAM1#2a25d29f9715d13ee27b5e1fcde4761d",
+    "original": "This not only ensures High Command is fully cognizant of our organization's status on a national scale, but also allows them to effectively allocate resources as needed if a particular sector requires assistance.",
+    "translation": "这不仅确保高层指挥部充分掌握我们组织在全国范围内的状况，还允许他们在特定部门需要援助时有效地调配资源。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeExpansion_12008A34#INFO:RNAM#a66e9447a2b230dc6792e62fb650d779",
+    "original": "Who, or what, is High Command?",
+    "translation": "高层指挥部究竟是何方神圣？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSarge04Start_12008A36#INFO:NAM1#58cbbf46802d7dac1aac6a32bf561d41",
+    "original": "Be my guest sir. Folks here might not know you well, but you're their boss so just plant a flag and we'll do the rest.",
+    "translation": "请便，长官。这里的人可能对你还不太熟悉，但你是他们的上司，所以只需树个威信，剩下的交给我们就好。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSarge04Start_12008A36#INFO:NAM1#423c732b1bee8d08aee3e93fc553e1b4",
+    "original": "We will have to tie up considerable forces and dispatch any locals, so we got only a few locations for you though.",
+    "translation": "我们需要集结大量兵力并疏散当地居民，所以能为你提供的地点有限。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSarge04Start_12008A36#INFO:NAM1#52294345222a26696907b5376a314617",
+    "original": "We may want to convince the locals, but we sure as hell ain't doing that by moving our folks near them.",
+    "translation": "我们或许需要说服当地人，但我们绝不会通过将我们的人手移到他们附近来实现这一点。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSarge04Start_12008A36#INFO:RNAM#8b05cb10301ae0260cc6f2230c97563b",
+    "original": "I'm thinking of expanding our realm, sergeant.",
+    "translation": "我正在考虑扩张我们的领地，中士。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A38#INFO:NAM1#3e1c15d13a6d4dbfadc380635e7b72b2",
+    "original": "Sure thing chief. The first we got is, well, just outside Raven Rock.",
+    "translation": "当然，长官。第一个目标嘛，嗯，就在黑鸦领外面。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A38#INFO:NAM1#550e2edce0f08e716f50b158da131d28",
+    "original": "You don't need to do much. Just walk out of the door and call us using this radio.",
+    "translation": "你无需多做什么。只需走出门，用这个无线电联络我们即可。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A38#INFO:RNAM#d2a44ba566137c418dcce949376f3b51",
+    "original": "I'm ready to start.",
+    "translation": "我准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A39#INFO:NAM1#4b12c7575e5a7514a9a8123f8e25159f",
+    "original": "All right. Next stop we got way south, near Rivet City.",
+    "translation": "好的。下一个地点在遥远的南方，靠近铆钉城。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A39#INFO:NAM1#874cc19a57050fa7a3ad2cd3de959829",
+    "original": "The place is quiet since the locals don't leave the ship, and the nearest mutie outpost will be quite far from us.",
+    "translation": "那里很安静，因为当地人从不离开船只，离我们最近的变种人据点也会很远。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A39#INFO:NAM1#1ca366a5f46b11bd4b9dc7565c516119",
+    "original": "So just head there, and give us a call. We do the rest.",
+    "translation": "所以只需前往那里，然后联络我们。剩下的交给我们。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_12008A39#INFO:RNAM#30717ce31e75f93f75f951afdddfefec",
+    "original": "Where shall I move next?",
+    "translation": "我接下来该去哪里？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_1200CE37#INFO:NAM1#1e21f33fc765210e6b5dab1e471139dd",
+    "original": "Good. Our next target needs some more work. It's this place called Andale. Most likely what remains of pre-war Annandale.",
+    "translation": "很好。我们的下一个目标需要多花些功夫。这个地方叫安戴尔，很可能是战前安南德尔的遗址。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_1200CE37#INFO:NAM1#42092b243c9eef1b03a96cee84d3c0c4",
+    "original": "Seems that it has a bad reputation among the locals.. So no one would miss them if the inhabitants.. Disappeared.",
+    "translation": "看来它在当地人中的名声不太好……所以如果那里的居民……消失了，也不会有人在意。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeLocations_1200CE37#INFO:RNAM#ae76191703f71f95ed7c29619540d9da",
+    "original": "Rivet City done. Where to next?",
+    "translation": "铆钉城的任务完成了。接下来去哪里？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePresident_12009115#INFO:NAM1#8e2849f17eb91583076642de758b074d",
+    "original": "President Eden went missing shortly before our initial defeat at the Jefferson Memorial, followed by Colonel Autumn. Neither have been seen since.",
+    "translation": "总统伊登在我们于杰斐逊纪念堂初次战败前不久失踪，接着是奥托姆上校。从那之后他们便再无音讯。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePresident_12009115#INFO:NAM1#d69c94487cda64a1766af21c8b85a46e",
+    "original": "We are in the process of conducting an internal investigation. The control room is our primary interest, as Autumn had exclusive security clearance to that level of Raven Rock.",
+    "translation": "我们正在展开内部调查。控制室是我们的重点调查对象，因为奥托姆上校拥有进入黑鸦岭那个级别的专属安全许可。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePresident_12009115#INFO:NAM1#f895e94bf74f2dfa365a6af51a672e62",
+    "original": "Furthermore, a highly sophisticated mainframe of some kind was discovered in the control room. We believe it is voice-activated, however, it has yet to respond to any commands or phrases.",
+    "translation": "此外，在控制室中发现了一种高度精密的主机。我们认为它是语音控制的，然而，它尚未响应任何指令或短语。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePresident_12009115#INFO:NAM1#3c5c1b6f9bc8f30fb4b52334c9765601",
+    "original": "Regardless, High Command is reviewing options for our next president. If or when they'll be sworn into office depends on if Eden ever turns up.",
+    "translation": "无论如何，高层指挥部正在筛选下一任总统的人选。他们是否宣誓就职还要取决于伊登是否现身。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePresident_12009115#INFO:NAM1#5110ef03f0fcc2a6d808b67b1509fe19",
+    "original": "And before you ask; while you are Colonel, the position's ranking will be based on seniority. It is very unlikely that you will be selected, at least for the near future.",
+    "translation": "还有你之前问的，虽然你是上校，但这个职位的排名将基于资历。你被选中的可能性非常小，至少在近期内是这样。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargePresident_12009115#INFO:RNAM#34c8060e4ff57b1be2d7c6d5eed0257b",
+    "original": "Do we know what happened to the President?",
+    "translation": "我们知道总统的下落吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityQuestStart_12009117#INFO:NAM1#302e1eb992ac95e06501e5ddc00f72ae",
+    "original": "Very well, sir. Our first set of locations of interest are the Pentagon, as well as the settlements of Megaton and Tenpenny Tower.",
+    "translation": "非常好，长官。我们首批关注的地点是五角大本营，以及核弹镇和特佩尼大厦这两个定居点。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityQuestStart_12009117#INFO:NAM1#cc771b6c2123ebd50e57da96d6197af2",
+    "original": "Our strike team that assaulted the Pentagon has remained in the ruins to deter scavengers. Give the order and we'll fully garrison the complex.",
+    "translation": "进攻五角大本营的突击队仍留在废墟中，以震慑拾荒者。一旦下令，我们就会全面驻守那片区域。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityQuestStart_12009117#INFO:NAM1#ca305af0afc1c00e9414dfded56873b0",
+    "original": "As for independent settlements; make contact with their leaders as an emissary, establish our intentions as peacekeepers, or perhaps do a favor for them, and they should accept our occupation.",
+    "translation": "至于独立的定居点，要以使节的身份与他们的领导人接触，表明我们作为和平维护者的意图，或者为他们做点好事，他们应该会接受我们的驻扎。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityQuestStart_12009117#INFO:NAM1#e3f068642d56e49abded55b9218eb56a",
+    "original": "Of course, if a settlement's leadership chooses to be uncooperative, lethal force is authorized.",
+    "translation": "当然，如果某个定居点的领导人不愿合作，我们可以使用致命武力。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityQuestStart_12009117#INFO:NAM1#e92c5c951501fdde4c54b83f4152c695",
+    "original": "Good luck, Colonel.",
+    "translation": "祝你好运，上校。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityQuestStart_12009117#INFO:RNAM#4fa2b5163d465b247e76ead3cd75d383",
+    "original": "Yes, I'm ready.",
+    "translation": "我准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthority_1200911B#INFO:NAM1#728ff5be7ec4087ef4d1c2a8829a2e1c",
+    "original": "With Eden and Autumn both missing in action, High Command made the decision to give you a field promotion. Congratulations, Colonel.",
+    "translation": "由于伊登和奥托姆都下落不明，高层决定对你进行战地晋升。恭喜你，上校。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthority_1200911B#INFO:NAM1#07f83d6a7a91e7487d60bd20df11d9f5",
+    "original": "That leaves you in command of our forces in the Capital sector, and myself as your personal advisor.",
+    "translation": "这意味着你将指挥我们在首都地区的部队，而我则担任你的私人顾问。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthority_1200911B#INFO:NAM1#f5449b575231420b6f360a6caebff674",
+    "original": "First things first: Our current situation. Despite recent victories, we have taken heavy casualties. This is simply not sustainable.",
+    "translation": "首先，说说我们的现状。尽管最近取得了一些胜利，但我们损失惨重。这根本不可持续。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthority_1200911B#INFO:NAM1#124e48eaac850052451fe64df9d5cf39",
+    "original": "In order to maintain our prominent installations, we need to recall our smaller outposts across the wastes, *especially* if we want to continue growing our influence in established settlements.",
+    "translation": "为了维持我们的重要据点，我们需要从废土上撤回一些小型哨所的人员，特别是如果我们想继续在已建立的定居点扩大影响力的话。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthority_1200911B#INFO:NAM1#fed81e35224e2fc5180acb97a693cde3",
+    "original": "There is a terminal in your quarters that will allow you to broadcast orders to our personnel in the field. Use it to send out the recall signal.",
+    "translation": "你的住处有一台终端，可以向我们前线的人员发布命令。用它来发出撤回信号。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthority_1200911B#INFO:RNAM#63f5227e9a4b3a52406aae6a6e989572",
+    "original": "What are our plans moving forward?",
+    "translation": "我们接下来的计划是什么？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityNo_1200911C#INFO:NAM1#9d49fc81c604695dd1fb801a6e4517a4",
+    "original": "Yes sir. Let me know when you are ready to get started.",
+    "translation": "是的，长官。准备好后请告诉我。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeAuthorityNo_1200911C#INFO:RNAM#f0fc897e76bd2425c60d4e45d76700fe",
+    "original": "I need to make some preparations first.",
+    "translation": "我需要先做一些准备。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3CureFinished_1200A594#INFO:NAM1#2fdc51490bc9a56aacf1857171308d82",
+    "original": "Yes, Colonel. The memorial's purifier has been fully disinfected. Any trace amounts of FEV should be flushed out of the system in a matter of days.",
+    "translation": "好的，上校。纪念碑的净化器已经彻底消毒。系统中的任何FEV痕迹都会在几天内被清除。",
+    "stage": 1
+  },
+  {
+    "key": "EIP3CureFinished_1200A594#INFO:RNAM#5c94a97643c2b0376a8d210502584c0f",
+    "original": "Has the Jefferson Memorial been cleaned of FEV yet?",
+    "translation": "杰斐逊纪念碑的FEV净化工作完成了吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFaction_1200D50A#INFO:NAM1#918af0172adcae18f054385b7b3ac436",
+    "original": "Debatable, sir. While we ultimately came out on top against the Brotherhood, it did not come without significant loss of our resources and manpower.",
+    "translation": "很难说，长官。虽然我们最终击败了兄弟会，但也付出了巨大的资源和人力损失。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFaction_1200D50A#INFO:NAM1#15de80f7bde3863b67df66b21b4f1c6f",
+    "original": "We're reeling from the casualties of this war, and yet still have a long way to go if we wish to maintain our foothold in the region.",
+    "translation": "我们还在为这场战争的伤亡而苦恼，如果我们想在该地区保持立足点，还有很长的路要走。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFaction_1200D50A#INFO:NAM1#c1563d86420626418beaca5c4f3724df",
+    "original": "Nonetheless, with our primary oppostion in the Capital sector eliminated, we are optimistic.",
+    "translation": "不过，既然我们在首都地区的主要对手已被消灭，我们的情况还是乐观的。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFaction_1200D50A#INFO:RNAM#66c99906266d7060b5e69585423dfec3",
+    "original": "What is the status of the Enclave?",
+    "translation": "英克雷的现状如何？",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F131#DIAL:FULL#03f8f2d3d87059cfc630ffe84f27dfa6",
+    "original": "I believe we're ready for the next set of plans.",
+    "translation": "我想我们已经准备好执行下一套计划了。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F138#INFO:NAM1#d2277860f60b3d778a1b6b69c22ec8bc",
+    "original": "Very well, sir.",
+    "translation": "很好，先生。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F138#INFO:NAM1#6afe94813f6eccccddb85c7096a58f0e",
+    "original": "As of now, we have three locations of interest: the Jefferson Memorial, the Washington Monument, and the settlement of Big Town.",
+    "translation": "目前，我们关注三个地点：杰斐逊纪念堂、华盛顿纪念碑和大镇聚居区。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F138#INFO:NAM1#b319138a4973c4558898281d35343e97",
+    "original": "We assaulted the Jefferson Memorial a short time after Liberty Prime was destroyed. The Brotherhood was unable to retake the location a second time.",
+    "translation": "在自由先锋被摧毁后不久，我们就袭击了杰斐逊纪念堂。兄弟会无法再次夺回那个地点。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F138#INFO:NAM1#080307552d06dd448ac2a35157ffdd29",
+    "original": "The same goes for the Washington Monument. Like the Pentagon, we have skeleton crews at both locations awaiting further orders.",
+    "translation": "华盛顿纪念碑的情况也是如此。和五角大本营一样，我们在两个地点都只留下了少数人员待命。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F138#INFO:NAM1#ae5d78655e0e44aa2a74b64014fdf3b3",
+    "original": "As for Big Town, they are struggling with hostile super-mutants. We believe eliminating the abominations would make us popular in the settlement.",
+    "translation": "至于大镇，他们正在与敌对超级变种人作战。我们相信，消灭这些怪物会让我们在聚居区里更受欢迎。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05Start_1200F138#INFO:NAM1#e92c5c951501fdde4c54b83f4152c695",
+    "original": "Good luck, Colonel.",
+    "translation": "祝你好运，上校。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureA1_1200F136#INFO:NAM1#5fee67c7b93cc4f4b0a1e91f7c8794ae",
+    "original": "What? The Enclave? Who are they?",
+    "translation": "什么？英克雷？他们是谁？",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureA1_1200F136#INFO:RNAM#33a99a792d7e08f5a680623aa5c23c6a",
+    "original": "I'm here to ask permission for the Enclave to protect this settlement.",
+    "translation": "我来此是请求允许英克雷保护这个定居点。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureA1_12011354#INFO:NAM1#c68eacd5650593502edb4f0fab6853b1",
+    "original": "I'm not sure. Honestly, I've heard the Enclave's nothing but trouble...",
+    "translation": "我不确定。老实说，我听说英克雷只会带来麻烦……",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureA1_12011354#INFO:RNAM#a4997ca4984c4726cc4ffcd2919eb9f9",
+    "original": "I'm here to ask for permission to let the Enclave protect this settlement.",
+    "translation": "我是来请求允许英克雷保护这个定居点的。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureA1_12011353#INFO:NAM1#c12ca6d8b23525aa169c53aae4523bbb",
+    "original": "I'm not sure. Honestly, I've heard the Enclave's nothing but trouble. Sorry, we'll have turn down your offer for now.",
+    "translation": "我不确定。老实说，我听说英克雷只会带来麻烦。抱歉，我们目前只能拒绝你的提议。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureA1_12011353#INFO:RNAM#a4997ca4984c4726cc4ffcd2919eb9f9",
+    "original": "I'm here to ask for permission to let the Enclave protect this settlement.",
+    "translation": "我是来请求允许英克雷保护这个定居点的。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_1200F135#INFO:NAM1#38c0bc7f3331cf0a9de221809e137919",
+    "original": "No! This is my republic. You can't have my Republic!",
+    "translation": "不！这是我的共和国。你们不能占有我的共和国！",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_1200F135#INFO:RNAM#d416d224cbb3f58a956e6c22a3badc0c",
+    "original": "The United States government. Are you letting us in or not?",
+    "translation": "美国政府。你让不让我们进去？",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_12017960#INFO:NAM1#f5de86be5737e6e5521f7e247520473e",
+    "original": "I... Uhh.. I don't know.. I guess that I owe that to you, since you got me into this position in the first place.",
+    "translation": "我...呃...我不知道..我想我欠你的，毕竟是你把我带到这个位置的。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_12017960#INFO:NAM1#294b59e9186e1213bcbc53a8f9cfb57e",
+    "original": "All right. We'll be ready for you.",
+    "translation": "好的。我们会为你做好准备的。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_12017960#INFO:RNAM#d416d224cbb3f58a956e6c22a3badc0c",
+    "original": "The United States government. Are you letting us in or not?",
+    "translation": "美国政府。你让不让我们进去？",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_12011355#INFO:NAM1#80cfb7d571627e7c67d4f8944983caae",
+    "original": "Well... That's true. We know you have good intentions, and we could use the protection.",
+    "translation": "嗯...这是真的。我们知道你是好意，我们也需要保护。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_12011355#INFO:NAM1#1ad9fec434a16229a33a8b780a5cf91e",
+    "original": "All right. The Enclave can come here if they help keep the mutants, slavers, and the rest of the wasteland away.",
+    "translation": "好的。如果英克雷能帮我们抵御变种人、奴隶贩子和其他废土的威胁，他们可以来这里。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB1_12011355#INFO:RNAM#34a19f62275c242ce0d01a25ac99a534",
+    "original": "I've helped out before, but I can't stay. The Enclave can.",
+    "translation": "我以前帮过忙，但我不能留下。英克雷可以。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB2_1200F137#INFO:NAM1#2faf81bf52f56e5f8afed59b1b6f8b72",
+    "original": "He's a Communist!",
+    "translation": "他是共产主义者！",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB2_1200F137#INFO:RNAM#1b34f76a1ecd33472f707833f86334fc",
+    "original": "This is leading nowhere. Time to die, \"President\".",
+    "translation": "这没意义。该死了，“总统”。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB2_12011356#INFO:NAM1#659d3ffc98f6267a7c3222e1058108c9",
+    "original": "We appreciate it, but things have been looking up lately. I think we'll be fine on our own.",
+    "translation": "我们很感激，但最近情况有所好转。我想我们自己能行。",
+    "stage": 1
+  },
+  {
+    "key": "EIP05SecureB2_12011356#INFO:RNAM#f6d5d0ae15d4c6966071dc223464b49a",
+    "original": "If you are uncertain, we can postpone this.",
+    "translation": "如果你不确定，我们可以推迟。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVA1_1200F801#INFO:NAM1#3536e3f25586eb402b0bed0a2d6c63d2",
+    "original": "Well that's certainly within your right. What would you like to know?",
+    "translation": "这当然是你的权利。你想知道什么？",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVA1_1200F801#INFO:RNAM#7ea7701171dc495f0525deb8e3f83d30",
+    "original": "Mr. President, I need to have a word with you about the FEV.",
+    "translation": "总统先生，我需要和你谈谈FEV病毒的事。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVB2_1200F806#INFO:NAM1#14fc39e01308a827f16a59bb6f4faba7",
+    "original": "Even I appreciate a good joke, but I'm afraid that was in rather poor taste.",
+    "translation": "即使我欣赏好笑话，但那个笑话的品位也太差了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVB2_1200F806#INFO:RNAM#396df505528a6b026e5e4954007b69fa",
+    "original": "Actually, I'm just kidding... Made you think I really cared about muties, didn't I?",
+    "translation": "其实我只是在开玩笑...让你以为我真的关心变种人了，不是吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVB1_1200F805#INFO:NAM1#fb4a43d4a17f4f2b7ca5f83f7a62e17f",
+    "original": "Really? Do go on.",
+    "translation": "真的?继续。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVB1_1200F805#INFO:RNAM#6b914dd4a47c376ccbf437a3059e2b0a",
+    "original": "With all due respect, the FEV was rather short sighted.",
+    "translation": "恕我直言，FEV真是短视之举。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVC1_1200F807#INFO:NAM1#869502fa4269594f993c4fcb09008948",
+    "original": "No, it's not.",
+    "translation": "不，不是。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVC1_1200F807#INFO:NAM1#130854d9d00223ad732c7c39cf6e3188",
+    "original": "Sacrifices must be made for the greater good.",
+    "translation": "为了更大的利益必须有所牺牲。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVC1_1200F807#INFO:RNAM#70262b14d99302e7c72a5fe047efae3b",
+    "original": "Much of our manpower consists of recruits from the wasteland. Isn't it cruel that we're letting them die?",
+    "translation": "我们的人力大多来自废土的招募。我们让他们去死，不是很残忍吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVD1_1200F80A#INFO:NAM1#4f8629f392593ed66364b8c055b9917a",
+    "original": "Perhaps... Perhaps you're right... But does that really mean all this progress should be wasted? Destroyed?",
+    "translation": "也许...也许你是对的...但这真的意味着所有的进步都要被浪费？被摧毁？",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVD1_1200F80A#INFO:RNAM#08616828b94345f63ffd8bc4aa1c1d55",
+    "original": "No offense, Mr. President. We NEED our wasteland recruits; especially after the Vault 18 incident.",
+    "translation": "无意冒犯，总统先生。我们需要废土的招募人员 ；尤其是18号避难所那件事之后。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVE1_1200F80D#INFO:NAM1#92768101ae44dfdbead66af3456f9bdf",
+    "original": "This is quite true. The process was certainly unintended.",
+    "translation": "这确实是真的。那个过程完全是意外。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVE1_1200F80D#INFO:NAM1#c4807a71ea991ca0e73863b855d575c6",
+    "original": "Yes, I suppose it is... Very well. You shall have your wish.",
+    "translation": "是的，我想是这样的...很好。你会如愿的。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVE1_1200F80D#INFO:RNAM#429ec3579e2fdc39fedaa0c47ae32e89",
+    "original": "Hell, the FEV turned out to be a dud! It only seems to affect humanoid mutants.",
+    "translation": "该死，FEV原来是个没用的东西！它似乎只影响类人变种人。",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVD2_1200F80C#INFO:NAM1#04d26cebe561cd0f2b5e4799ae3452c1",
+    "original": "Ah yes, that is a bit of a problem...",
+    "translation": "啊，是的，这确实是个问题...",
+    "stage": 1
+  },
+  {
+    "key": "EIPEdenFEVD2_1200F80C#INFO:RNAM#23983fdf383cb43ae1a520390e050b97",
+    "original": "There simply aren't enough pure humans to sustain another generation. No recruits, no Enclave.",
+    "translation": "没有足够的纯人类来繁衍下一代。没有招募人员，就没有英克雷。",
+    "stage": 1
+  },
+  {
+    "key": "EIP03FEV_1200FEF7#INFO:NAM1#777b7a366bfd347b09136a2d13bcb9fb",
+    "original": "Colonel Autumn implied that we were not going to use the FEV. However the President insisted we completed the modification, so we did.",
+    "translation": "奥托姆上校暗示过我们不要使用FEV。但总统坚持要我们完成修改，所以我们照做了。",
+    "stage": 1
+  },
+  {
+    "key": "EIP03FEV_1200FEF7#INFO:NAM1#6bcd8235ec5c4045084f36210ab13e7e",
+    "original": "We simply modified the FEV Curling-13 to spread through water, instead airborne like it used to.",
+    "translation": "我们只是修改了FEV Curling-13，使其能通过水传播，而不是像过去那样通过空气。",
+    "stage": 1
+  },
+  {
+    "key": "EIP03FEV_1200FEF7#INFO:RNAM#1e9ecac13fcdae5589587abdd6bb6746",
+    "original": "Where did this FEV come from?",
+    "translation": "这种FEV是从哪里来的？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsSellALL_12011A1F#INFO:NAM1#240bf533d1bd58404320507d420ccbd1",
+    "original": "Very good, sir. Let me take those.",
+    "translation": "很好，先生。交给我。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsSellALL_12011A1F#INFO:RNAM#b18077e21f20f9ba01217b0003250486",
+    "original": "Here are some dog tags.",
+    "translation": "这是一些狗牌。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsAbout_12011A27#INFO:NAM1#0f2dcea2e55c683a207bb5a06dc65ff8",
+    "original": "We use them primarily to count bodies, but they also serve a propaganda purpose when we gather large amounts of them.",
+    "translation": "我们主要用它们来统计尸体，但收集到大量狗牌·时，也起到宣传作用。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsAbout_12011A27#INFO:NAM1#9a29bb2559fcd20576d8bf6fc8359441",
+    "original": "In the end, some tags end up in the pockets of our soldiers and the rest are melted to make ammunation.",
+    "translation": "最后，一些狗牌被士兵拿走了，其余的则被融化制成弹药。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsAbout_12011A27#INFO:RNAM#55aa8d53d2a3c1372c540739a7297d60",
+    "original": "What are you doing with the dogtags?",
+    "translation": "你在拿这些狗牌做什么？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsA1_12011A26#INFO:NAM1#043a3a0478d1c9202976c36c67561056",
+    "original": "Now that you mentioned it, we've noticed Brotherhood soldiers carry dogtags for identification purposes.",
+    "translation": "既然你提到了，我们注意到兄弟会的士兵携带狗牌作为身份标识。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsA1_12011A26#INFO:NAM1#6f93c1c5038a58849043689b60d1f73b",
+    "original": "You could collect these dogtags and return them here to me. I can supply you with bottlecaps in exchange.",
+    "translation": "你可以收集这些狗牌，然后回来交给我。我可以拿瓶盖和你交换。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsA1_12011A26#INFO:RNAM#987c729da6d594a4c3076b3a9944425a",
+    "original": "Is there anything I can do to help here?",
+    "translation": "这里有什么我能帮忙的吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsB1_12011A28#INFO:NAM1#194fed5c7e3957a6b66e32376f4545a4",
+    "original": "You can find them on most Brotherhood field units. Just take one down and search the corpse. So, are you interested?",
+    "translation": "你可以在兄弟会的大多数野战部队身上找到它们。杀死，然后搜索尸体。那么，你感兴趣吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsB1_12011A28#INFO:RNAM#312db3191ecfb06890ab67add03000d5",
+    "original": "Where I find these dogtags?",
+    "translation": "我在哪能找到这些狗牌？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsB2_12011A29#INFO:NAM1#97aee748c906b44d3ef1af6e2d8c15a7",
+    "original": "You talk to second lieutenant Chenzy here in level A. He can also supply you with a simple mission like this. So, are you interested in this, too?",
+    "translation": "你去和A区的少尉陈兹谈谈。他也可以给你安排一个这样的简单任务。那么，这你感兴趣吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsB2_12011A29#INFO:RNAM#59a876bc7cb0918cfd4b8da1c172a2a1",
+    "original": "Is there anything else I can do to help?",
+    "translation": "还有什么我能帮忙的吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsC1_12011A2A#INFO:NAM1#5c466f6cf9e6570e804f2f7f5561b165",
+    "original": "Very well, sir. Return to me when you have holotags.",
+    "translation": "很好，先生。等你拿到狗牌后再来找我。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsC1_12011A2A#INFO:RNAM#fdca67f30e8e041096d37c9e82f3e94d",
+    "original": "I'll take the job.",
+    "translation": "我接受这个任务。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsC2_12011A2B#INFO:NAM1#a2370a43676452c3c55d602e8b939a0f",
+    "original": "Very well, sir. Return to me if you change your mind.",
+    "translation": "好，先生。如果你改变主意了，就回来找我。",
+    "stage": 1
+  },
+  {
+    "key": "EIPLeMayDogtagsC2_12011A2B#INFO:RNAM#6ec22c788d9c9c4d79447afaedba4f24",
+    "original": "I think I'll pass this time.",
+    "translation": "这次我想算了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodA1_12011A35#INFO:NAM1#8802390815d7b866f1dc8e30b89481c6",
+    "original": "Now that you mentioned it, our scientists would be pleased if you delivered them samples of mutant blood.",
+    "translation": "既然你提到了，如果你能给我们送来一些变种人的血液样本，我们的科学家会很高兴的。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodA1_12011A35#INFO:NAM1#e52d6c7367c56cb87eeebcdc63363071",
+    "original": "You go out often so you fit well for this task. Just bring me any super mutant blood you find from their carcasses and bring it to me. Interested?",
+    "translation": "你经常外出，所以很适合执行这个任务。把你从他们的尸体上找到的任何超级变种人血液带给我。感兴趣吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodA1_12011A35#INFO:RNAM#84c4e14080c02adf4db18bf3775ae452",
+    "original": "Anything I can do to help?",
+    "translation": "我能帮上什么忙吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodAbout_12011A36#INFO:NAM1#a3487e1f5962cc31245aaed02ddf4e6c",
+    "original": "It goes to scientific research.",
+    "translation": "为了科学研究。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodAbout_12011A36#INFO:RNAM#8863520f6ff9e1bac9c834bc30914f0e",
+    "original": "What you do with the mutant blood?",
+    "translation": "你们用这些变种人血液做什么？",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodB1_12011A37#INFO:NAM1#8879b1f49d367bcb4747eff8f6f79314",
+    "original": "Very well sir. Return me any mutant blood you find and I can give you bottlecaps in return.",
+    "translation": "很好，先生。把你找到的任何变种人血液带给我，我可以拿瓶盖和你交换。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodB1_12011A37#INFO:NAM1#64a5960911b4c34fe25f81ddaeac80f9",
+    "original": "Also, if you haven't already, you should visit doctor LeMay here in Ring A. He has a similar task for you.",
+    "translation": "还有，如果你还没去的话，你应该去环形区A的莱梅博士那里看看。他也有类似的任务给你。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodB1_12011A37#INFO:RNAM#cda1732e29187baff3e6d503872bb614",
+    "original": "I'll take the task.",
+    "translation": "我接受这个任务。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodB2_12011A38#INFO:NAM1#4354cc440f52800753deabe60f3535a9",
+    "original": "All right, come to me if you change your mind.",
+    "translation": "好吧，如果你改变主意了，就来找我。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodB2_12011A38#INFO:RNAM#33623159fdb9a7a26a56fb5730880358",
+    "original": "I think I'll pass.",
+    "translation": "还是算了吧。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodSellALL_12011A34#INFO:NAM1#381bdfc8a6d5b16deb5190f6d6f5531f",
+    "original": "Very good. I'll have them delivered to our labs.",
+    "translation": "很好。我会把它们送到我们的实验室。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChenzyBloodSellALL_12011A34#INFO:RNAM#b50f18670a8daa28c39bf2aec461cc79",
+    "original": "Here's some Mutie blood.",
+    "translation": "这是一些变种人的血液。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06Start_1201509C#INFO:NAM1#4771c03a7bd7def2bacc101b40a45c12",
+    "original": "Now that we have secured major settlements in the region, we can finally move to establishing permanent outposts across the city.",
+    "translation": "既然我们已经在这个地区确保了主要的定居点，我们终于可以开始在全市范围内建立永久的前哨站了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06Start_1201509C#INFO:NAM1#3b2a50df3529474fed8af30d4907564a",
+    "original": "I'm talking about securing the streets of D.C. so we can stem the Super Mutant tide there, and major roads so we can protect trade routes.",
+    "translation": "我指的是要确保华盛顿特区街道的安全，以便我们能够遏制那里的超级变种人潮，并确保主要道路的安全，以便我们能够保护贸易路线。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06Start_1201509C#INFO:NAM1#24783c46f4a350e51f224083c2c45e65",
+    "original": "So I got a few locations for you, although these will be much simpler than the ones before. Usually just involve some shooting.",
+    "translation": "所以我为你准备了一些地点，尽管这些会比之前的简单很多。通常只是需要开枪射击而已。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06Start_1201509C#INFO:RNAM#26ed6cdc62574cc4c22646260c0d1dbd",
+    "original": "I'm ready to expand the Enclave further.",
+    "translation": "我准备进一步扩大英克雷的势力范围。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06StartB_1201509E#INFO:NAM1#171bb730a38749ccf3866a5ceb8f2ff6",
+    "original": "We have delivered remote terminals in the locations we want to secure. They are directly connected to Enclave operational command.",
+    "translation": "我们已经在想要确保安全的地点安装了远程终端。它们直接连接到英克雷作战指挥中心。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06StartB_1201509E#INFO:NAM1#7c387bc58de9ad13f6fe186c940f0e87",
+    "original": "When you have cleared any resistance in the area, use the terminal and we send our boys. Then just return here and as usual, confirm the order.",
+    "translation": "当你清除掉该地区的所有抵抗力量后，使用终端，我们会派人过去。然后回到这里，像往常一样，确认命令。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06StartB_1201509E#INFO:RNAM#87ee60ac4f937b3587097533db62db64",
+    "original": "Sounds good. What I have to do?",
+    "translation": "听起来不错。我要做什么？",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA15_1203F069#INFO:NAM1#7baa92afaaad752da85951990e988a0b",
+    "original": "Many times, in fact. They've been at it since long before I entered the science division. But there's *always* a defect that puts us back to square one...",
+    "translation": "事实上，很多次了。在我进入科学部门之前很久，他们就已经开始这么做了。但总是有一个缺陷让我们回到原点……",
+    "stage": 1
+  },
+  {
+    "key": "EIP3ProblemA15_1203F069#INFO:RNAM#e549651c99f4fbd7af3d4d169c208620",
+    "original": "\"Once again\"? Has the FEV been used like this before?",
+    "translation": "“又一次”？以前也这样用过FEV吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFEVDud_12068465#INFO:NAM1#9bca4d6b7679dfb044f3ac4681db50d4",
+    "original": "Yes sir, but it appears to be bad news.",
+    "translation": "是的，长官，但似乎是个坏消息。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFEVDud_12068465#INFO:NAM1#a794d366c6114b30a6e7aba7a7d48e61",
+    "original": "The FEV has simply not been as effective as originally anticipated. Most mutated fauna have not been affected by the poison.",
+    "translation": "FEV的效果并没有最初预期的那么有效。大多数变异的动物并没有受到这种毒素的影响。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFEVDud_12068465#INFO:NAM1#848651daaf446123bf08f1f8906563f9",
+    "original": "My advice? Check up on the mainframe we discovered in the control room. Colonel Autumn knew of the FEV project, and had access to the mainframe.",
+    "translation": "我的建议？检查一下我们在控制室发现的那台主机。奥托姆上校知晓FEV项目，并且能够访问那台主机。",
+    "stage": 1
+  },
+  {
+    "key": "EIPSargeFEVDud_12068465#INFO:RNAM#4e5be9ebc0561e557c4a03a6ddbed218",
+    "original": "Any updates on the FEV in the Purifier?",
+    "translation": "净化器中的FEV有什么最新进展吗？",
+    "stage": 1
+  },
+  {
+    "key": "MQA_06014E93#QUST:FULL#87d0af94340a04c96ad98b7a1ffb1225",
+    "original": "Project Impurity",
+    "translation": "不洁之水",
+    "stage": 1
+  },
+  {
+    "key": "MQA_06014E93#QUST:NNAM#8e85e63b2cc06e3acc0fd66476228d2d",
+    "original": "Infect the Project Purity water supply... Or not.",
+    "translation": "使用病毒污染净化工程的供水系统……或者不这么做。",
+    "stage": 1
+  },
+  {
+    "key": "MQA_06014E93#QUST:NNAM#bb56a0ca509969753587498535702953",
+    "original": "You have infected the Project Purity water supply.",
+    "translation": "你已感染净化工程的水供应。",
+    "stage": 1
+  },
+  {
+    "key": "MQA_06014E93#QUST:NNAM#9403f19607b338ec6422230c0d3812ea",
+    "original": "You have turned the FEV virus over to Elder Lyons.",
+    "translation": "你已将FEV病毒交给里昂斯长老。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:FULL#2887cbeda202d3567295b9db8a20cd91",
+    "original": "Joining the Enclave",
+    "translation": "加入英克雷",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:CNAM#92b8251b5fefe3ad4b8aab4dc900c2c5",
+    "original": "President Eden has told player about the possible position as his confidant",
+    "translation": "伊登总统已告知玩家可能担任他的亲信一职。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:CNAM#9846badde191954a80dcc6576cab056b",
+    "original": "Objectives 10 and 20",
+    "translation": "目标10和20",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:CNAM#a3b7438a4971105f45e92a164e4ed945",
+    "original": "Player decided not to join the Enclave",
+    "translation": "玩家决定不加入英克雷",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:CNAM#d183f82e6b3d91fc27fcbddfee91a831",
+    "original": "Player has joined The Enclave",
+    "translation": "玩家已加入英克雷",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:NNAM#48477a22145a5ace5ee74bed49e6025a",
+    "original": "Stop Colonel Autumn",
+    "translation": "阻止奥特姆上校",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest_12000EC5#QUST:NNAM#918fb0f57bd53aa11fb425d03085e140",
+    "original": "Use the FEV to infect Project Purity.",
+    "translation": "使用FEV病毒感染净化工程。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest02_12002A18#QUST:FULL#c5c309404fdec76878433f48a93ed1b8",
+    "original": "Consolidating Power, I",
+    "translation": "巩固权力，I",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest02_12002A18#QUST:CNAM#ea0760dc5680b86b35bca96ee004aba2",
+    "original": "Establish Federal Authority",
+    "translation": "建立联邦权威",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest02_12002A18#QUST:CNAM#721201614aeb949eabc450f62a1dc00f",
+    "original": "Quest Complete",
+    "translation": "任务完成",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest02_12002A18#QUST:NNAM#226367dffbcc4ee770a1dff867047abb",
+    "original": "Establish Federal Authority in the Pentagon.",
+    "translation": "在大本营建立联邦权威",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest02_12002A18#QUST:NNAM#77316e04d372096d358bf712b71550d6",
+    "original": "Establish Federal Authority in Megaton",
+    "translation": "在核弹镇建立联邦权威",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest02_12002A18#QUST:NNAM#5bffba51c3f3763451e66cf5e6a3c78c",
+    "original": "Establish Federal Authority in Tenpenny Tower.",
+    "translation": "在特佩尼大厦建立联邦权威。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:FULL#b075574e338c29730c67365cff4fd059",
+    "original": "The Dud",
+    "translation": "废物",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:CNAM#2904fb1482dd09ec4138786291d73f89",
+    "original": "Player has insisted that a countermeasure for FEV is to be made.",
+    "translation": "玩家坚持要制定针对FEV的应对措施。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:CNAM#fe79e7966386d519a283a1a0d8f5bad5",
+    "original": "Player debates FEV with Eden",
+    "translation": "玩家与伊登就FEV展开辩论",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:CNAM#377684e38ccd80e86f76f5e9d74e1702",
+    "original": "Player meets Dr. Curling",
+    "translation": "玩家会见柯林博士",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:CNAM#d27a5fa7e279f2fdcfa486773128cf54",
+    "original": "Player is sent to recover the Cure",
+    "translation": "玩家被派去寻找解药",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:CNAM#a86728b6b970ac385456c30b7de48c43",
+    "original": "Player has the cure.",
+    "translation": "玩家已找到解药。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:CNAM#7a7bfe3079712e4ceb9e4419df9900e6",
+    "original": "Player returned cure and the ultimate anti-FEV cure is going to be devved.",
+    "translation": "玩家带回解药，终极反FEV解药即将研发。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:NNAM#8a50d6fd860012efb1aba57ebd7af3cf",
+    "original": "Look for FEV antidote in Vault 87.",
+    "translation": "在87号避难所寻找FEV解药。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:NNAM#f9346dd9a4408423e849348e2c6e7cbe",
+    "original": "Return the FEV antidote to Dr. Curling",
+    "translation": "将FEV解药归还给柯林博士",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:NNAM#cd3c5ceefb1878461114d0714d60b018",
+    "original": "Meet Dr. Curling in Raven Rock.",
+    "translation": "在黑鸦领会见柯林博士。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest03_12002A28#QUST:NNAM#8ae4bab83bca029d3cc3b41b211f9fb6",
+    "original": "Discuss the modified FEV with President Eden.",
+    "translation": "与伊登总统讨论改良后的FEV。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:FULL#58a9577f89cb50b41eb68cbbf9e9f7ab",
+    "original": "Founding Father",
+    "translation": "建国之父",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#edf871e50f5421dade4186baf408ca98",
+    "original": "Ask where to go",
+    "translation": "询问去哪里",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#e1f782b10d1d272b773d6aee1aa5d380",
+    "original": "Go to RR",
+    "translation": "前往黑鸦领",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#104e0aa0cb7504492288acb2ec52a64b",
+    "original": "Go to terminal - Raven Rock",
+    "translation": "前往黑鸦领终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#fa73cfb130d6d34cef461f6a3893eb3a",
+    "original": "Raven Rock done. Ask where to go",
+    "translation": "黑鸦领任务完成。询问去哪里",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#2f8336f5f1a32fc504d4268d021e8d05",
+    "original": "Go to RC",
+    "translation": "前往铆钉城",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#4337e2b96b0288b80521417b2c82cbe2",
+    "original": "Terminal - RC",
+    "translation": "铆钉城终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#8cdd531a4e0a1cba41ea36c85160ed52",
+    "original": "RC Done - Where to go - Andale",
+    "translation": "铆钉城任务完成-去哪里-安戴尔",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#cfae0d4e2463802c0751881f5d73ee6c",
+    "original": "Go Andale",
+    "translation": "前往安戴尔",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#af03ba6ebaccd289d793b9dbb43f1ede",
+    "original": "Go to Terminal (Andale)",
+    "translation": "前往安戴尔终端",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#68f4acfe3207a279719d483826cbce6f",
+    "original": "Andale taken over. Go to Sarge",
+    "translation": "安戴尔已被占领。去见中士",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:CNAM#e3a9aa89a02a8012c7396cfdc1b9071f",
+    "original": "quest complete",
+    "translation": "任务完成",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:NNAM#5676983abe2e59b68c1b3ca5cf742d49",
+    "original": "Establish Enclave settlements around the Capital Wasteland.",
+    "translation": "在首都废土周围建立英克雷定居点。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:NNAM#20e1e7f804612d2ae45dde00fad6e9f8",
+    "original": "Establish an Enclave settlement outside Raven Rock.",
+    "translation": "在黑鸦领外建立英克雷定居点。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:NNAM#0fa9429da92a22d572cfecec1202c9ac",
+    "original": "Establish an Enclave settlement Northeast from Rivet City.",
+    "translation": "在铆钉城东北建立英克雷定居点。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest04_12006F0A#QUST:NNAM#af045850f18d57beea13f3bf90cd76af",
+    "original": "Establish an Enclave settlement in Andale, after clearing out its current residents.",
+    "translation": "在清理完安戴尔现有居民后，在那里建立英克雷定居点。",
+    "stage": 1
+  },
+  {
+    "key": "EIPGeneric_12008A2E#QUST:FULL#c5408bf3146a60f887bae692d8eb027c",
+    "original": "Generic off-quest dialogue for EIP",
+    "translation": "EIP的非任务对话",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest05_1200C771#QUST:FULL#e9e3ebb56259dcca3d17e2d571ec6f5b",
+    "original": "Consolidating Power, II",
+    "translation": "巩固权力，II",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest05_1200C771#QUST:NNAM#c6ff80aaa2afd28322995e26653c5f15",
+    "original": "Establish Federal Authority in the Jefferson Memorial.",
+    "translation": "在杰斐逊纪念堂建立联邦权威",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest05_1200C771#QUST:NNAM#ae199e4b141672159c2d29f9ba4f2eca",
+    "original": "Establish Federal Authority in the \"Republic of Dave\"",
+    "translation": "在“戴夫共和国”建立联邦权威",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest05_1200C771#QUST:NNAM#530780c1fb98b87512cc9f972cfa812e",
+    "original": "Establish Federal Authority in the Washington Monument.",
+    "translation": "在华盛顿纪念碑建立联邦权威",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest05_1200C771#QUST:NNAM#aaabbd9504874624908ecb0f6f7eda32",
+    "original": "Establish Federal Authority in Big Town.",
+    "translation": "在大镇建立联邦权威。",
+    "stage": 1
+  },
+  {
+    "key": "EIPQuest06_1201509A#QUST:FULL#072cfbc8927095822535abcbbb67c0eb",
+    "original": "Consolidating Power, III",
+    "translation": "巩固权力，III",
+    "stage": 1
+  },
+  {
+    "key": "EIPAgentofAmerica_1207F1AB#PERK:FULL#3f5aa4b55832f0f73293c25d1c4a2fda",
+    "original": "Agent of America",
+    "translation": "美国特工",
+    "stage": 1
+  },
+  {
+    "key": "EIPAgentofAmerica_1207F1AB#PERK:DESC#48fa542d23869fb15e3754a3f6bd09e8",
+    "original": "You are Uncle Sam's best, the knight savior of Lady Liberty, the champion of the Enclave. You deal +15% Damage towards mutants, abominations, tribals, and those wearing the faction armor of the NCR and Brotherhood.",
+    "translation": "你是山姆大叔的骄傲，自由女神的骑士救星，也是避难所科技的冠军。\\n你对变种人、异形生物、部落民以及穿着NCR和兄弟会阵营护甲的敌人造成额外15%的伤害。",
+    "stage": 1
+  },
+  {
+    "key": "EIP02Order_120053F4#MESG:DESC#373dcc4d8f4f8776c6c8e9a5d79f37d3",
+    "original": "You may now issue the order to take over this location.",
+    "translation": "你现在可以下令接管这个地方。",
+    "stage": 1
+  },
+  {
+    "key": "EIPKillAutumnistsMSG_12000EC7#MESG:DESC#60a6d611cc151daad4f214b656f80ae4",
+    "original": "Even though you successfully followed President's orders and infected Project Purity, the war is on, but not over. Autumn was defeated, but his forces are still loyal to him and are following their current orders. For you to finally gain the position the President promised, something.. Shocking.. Has be done to make them submit. You are too weak to proceed alone yet. You need to co-operate with the Brotherhood and take out the main Autumnist force in Adams Air Force Base. By any means necessary.",
+    "translation": "尽管你成功地执行了总统的命令并污染了净化工程，但战争仍在继续，并未结束。奥特姆被打败了，但他的部队仍然忠于他，并执行着当前的命令。为了让你最终坐上总统承诺的那个位置，必须做些壮举来让他们屈服。你独自行动还为时过早。你需要与兄弟会合作，在亚当斯空军基地消灭奥特姆的主力部队。不惜一切代价。",
+    "stage": 1
+  },
+  {
+    "key": "EIPKillAutumnistsMSG_12000EC7#MESG:FULL#bf60e81122b5040ca7cb70c97ce16378",
+    "original": "Enclave Improvement Project",
+    "translation": "英克雷改进计划",
+    "stage": 1
+  },
+  {
+    "key": "EIPRRDoorRepairMSG_12052960#MESG:DESC#cfec2867c720d5bff713456eecb06f8d",
+    "original": "This section of Raven Rock has been repaired!",
+    "translation": "黑鸦领的这一区域已经修复！",
+    "stage": 1
+  },
+  {
+    "key": "EIPJoiningMSG_12001590#MESG:DESC#634385f364a474b95a9a7521c5a7c50c",
+    "original": "With Colonel Autumn removed from the scene and Project Purity infected, the door is open for you to join the Enclave as President Eden promised. Do you wish to join the Enclave?",
+    "translation": "随着奥特姆上校的消失和净化工程被污染，你加入英克雷的大门已经向你敞开，正如总统伊登所承诺的那样。你想加入英克雷吗？",
+    "stage": 1
+  },
+  {
+    "key": "EIPJoiningMSG_12001590#MESG:FULL#fd58e01bc50250011e44293894097c73",
+    "original": "The Enclave Wants You!",
+    "translation": "英克雷需要你！",
+    "stage": 1
+  },
+  {
+    "key": "EIPJoiningMSG_12001590#MESG:ITXT#c229afd86da22e09ddd7311c4bb383d2",
+    "original": "Yes, join the Enclave!",
+    "translation": "是的，加入英克雷！",
+    "stage": 1
+  },
+  {
+    "key": "EIPJoiningMSG_12001590#MESG:ITXT#b52a6b752a76c2299ceca5791e2c9bc5",
+    "original": "No, I don't want to join the Enclave.",
+    "translation": "不，我不想加入英克雷。",
+    "stage": 1
+  },
+  {
+    "key": "EIPRRDoorRepairTriggerMSG_12055AA9#MESG:DESC#09d3cbc9d025703347f79c18276009a2",
+    "original": "Portions of Raven Rock were heavily damaged following your initial escape.\\n\\nThe facility's automated resources have worked hard since then to repair most of the damage, but some manpower needs to be diverted to finalizing repairs.\\n\\nThis will cost 5000 caps.",
+    "translation": "在你初次逃脱后，黑鸦领的部分区域遭到了严重破坏。\\n\\n从那时起，该设施的自动化资源就一直在努力修复大部分损坏，但仍需调配部分人力来完成最终的修复工作。\\n\\n这将花费5000瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "EIPRRDoorRepairTriggerMSG_12055AA9#MESG:FULL#79e80d1ff1b6ae001f283449d3e7822c",
+    "original": "She's Seen Better Days",
+    "translation": "她已光彩不再",
+    "stage": 1
+  },
+  {
+    "key": "EIPDudMSG_1206D687#MESG:DESC#895772562019c3edc40cd684574aa505",
+    "original": "Reports have come in regarding Project Purity - It appears as though the modified FEV is a dud.\\n\\nNot only is Aqua Pura getting Enclave personnel sick, it is proving ineffective towards more heavily mutated fauna.\\n\\nYour best course of action is to consult President Eden.",
+    "translation": "关于净化工程的报告已经收到——看起来改良后的FEV病毒毫无效果。\\n\\n净化工程不仅让英克雷人员生病，对更高度变异的生物也毫无作用。\\n\\n你最好的行动方案是咨询伊登总统。",
+    "stage": 1
+  },
+  {
+    "key": "EIPDudMSG_1206D687#MESG:FULL#75ddd80a4ea5abd0669c9e35fb3d6a5b",
+    "original": "Unforseen Consequences",
+    "translation": "未预见的后果",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonMSG_12003F33#MESG:DESC#6082c7f3981e743d144c0aadf245995b",
+    "original": "Though the Enclave has begun expanding their territory, progress has stagnated significantly. In order to minimize more unnecessary casualties, diplomatic approaches to further settlement occupation is recommended. \\n\\nYou are the Colonel, however, so you may do as you please.",
+    "translation": "尽管英克雷已经开始扩张他们的领土，但进展已经大大放缓。为了减少更多不必要的伤亡，建议采取外交手段进一步解决定居点问题。\\n\\n你是上校，你可以自行决定。",
+    "stage": 1
+  },
+  {
+    "key": "EIPPentagonMSG_12003F33#MESG:FULL#bdfc1148e9c084002c20f057d3dd0157",
+    "original": "Manifest Destiny",
+    "translation": "天命所归",
+    "stage": 1
+  },
+  {
+    "key": "EIPRRArchivesMSG_1207F1A9#MESG:DESC#f53bcacfe1856dab4cf2986fac320371",
+    "original": "This mainframe serves as an extremely comprehensive database of the Enclave's history.\\n\\nYou learn of America, life before and leading to the Great War, the Whitespring Congressional Bunker, Control Station ENCLAVE, Navarro, Vault 18, Raven Rock, and Adams Air Force Base.\\n\\nYou also learn the history of FEV, Mariposa, the Brotherhood of Steel, and the New California Republic.\\n\\nUpon reading about prevalent figures colloquially known as \"The Vault Dweller\" and especially \"The Tribal\", it is becoming quite clear as to why the Enclave has such an interest in keeping someone of your capabilities on their side.\\n\\nYou have gained the \"Agent of America\" perk.",
+    "translation": "这个主机是一个极其全面的英克雷历史数据库。\\n\\n你了解了美国，大战前后的生活，白泉国会议员避难所、英克雷管制站、纳瓦罗、18号避难所、黑鸦领和亚当斯空军基地。\\n\\n你还了解了FEV、马里波萨、钢铁兄弟会和新加州共和国的历史。\\n\\n在阅读了俗称“避难所居民”和特别是“部落”的知名人物后，\\n英克雷如此希望有你这样能力的人站在他们一边的原因很明显了。\\n\\n你获得了“美国特工”的特长。",
+    "stage": 1
+  },
+  {
+    "key": "EIPRRArchivesMSG_1207F1A9#MESG:FULL#3f5aa4b55832f0f73293c25d1c4a2fda",
+    "original": "Agent of America",
+    "translation": "美国特工",
+    "stage": 1
+  },
+  {
+    "key": "EIP02President_120053F0#MESG:DESC#1b2cc8b23e19a1b271ddd63407064ef1",
+    "original": "The President does not respond. Something has happened.",
+    "translation": "总统没有回应。出事了。",
+    "stage": 1
+  },
+  {
+    "key": "EIPChallengeAgentofAmerica_120895FC#CHAL:FULL#49b8057f12f010b95b7ea74b011e2c56",
+    "original": "National Archivist",
+    "translation": "国家档案员",
+    "stage": 1
+  },
+  {
+    "key": "EIPChallengeAgentofAmerica_120895FC#CHAL:DESC#f8bde9fb73482e76622ce30234a599ef",
+    "original": "Learn the history of the Enclave.",
+    "translation": "了解英克雷的历史。",
+    "stage": 1
+  },
+  {
+    "key": "Tenpenny01_06017F34#CELL:FULL#7fd22657986be793ef5204f5eb49e81b",
+    "original": "Tenpenny Tower Lobby",
+    "translation": "特佩尼大厦大厅",
+    "stage": 1
+  },
+  {
+    "key": "WashingtonMonument01_06018525#CELL:FULL#0c15c3b1b1bf8410e621f0313928d027",
+    "original": "The Washington Monument",
+    "translation": "华盛顿纪念碑",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock04_0601E0F1#CELL:FULL#af64d118c59b2c836e98a81768699b6b",
+    "original": "Raven Rock - Control Room",
+    "translation": "黑鸦领－控制室",
+    "stage": 1
+  },
+  {
+    "key": "RCHangarDeckAft_0601D6AB#CELL:FULL#13f996cb6e22c15f6f8ebcd45f251e20",
+    "original": "Science Lab",
+    "translation": "科技实验室",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock02_0601853A#CELL:FULL#d95a70001cafce51ad392609e0c2fa8e",
+    "original": "Raven Rock - Level 2",
+    "translation": "黑鸦领－第2层",
+    "stage": 1
+  },
+  {
+    "key": "DLC03PPurity01_0A0045B2#CELL:FULL#323ce03acc1d0bbf8023ec7e19e230bd",
+    "original": "Jefferson Memorial Rotunda",
+    "translation": "杰斐逊纪念馆圆形大厅",
+    "stage": 1
+  },
+  {
+    "key": "Vault87a_06018527#CELL:FULL#0b25f0e8a77b0d4eb452abc3d63aa6a6",
+    "original": "Test Labs",
+    "translation": "测试实验室",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayStation01_0A000913#CELL:FULL#0d24cfa982369cddc347032d1b5fc92d",
+    "original": "Satellite Facility",
+    "translation": "卫星设施",
+    "stage": 1
+  },
+  {
+    "key": "DLC03Powerworks02_0A00A107#CELL:FULL#30998ec9e2a7a85bc2f37765c8f8b65a",
+    "original": "Old Olney Underground",
+    "translation": "奥尼尔老镇地下城",
+    "stage": 1
+  },
+  {
+    "key": "RavenRock01_0601853B#CELL:FULL#503d3aa1e15c548866716f89ad10eb18",
+    "original": "Raven Rock - Level 1",
+    "translation": "黑鸦领－第1层",
+    "stage": 1
+  },
+  {
+    "key": "RepDaveCapitol_0602B0E1#CELL:FULL#5e4b170ae2955fbb3796f16ed8f82e00",
+    "original": "Republic of Dave Capitol Building",
+    "translation": "戴夫共和国国会大厦",
+    "stage": 1
+  },
+  {
+    "key": "BigTownRedClinic_06024D78#CELL:FULL#dcb8391df5d13f2b5b6c3d92360cc0ad",
+    "original": "Big Town, Red's Clinic",
+    "translation": "大镇, 瑞德的诊所",
+    "stage": 1
+  },
+  {
+    "key": "CitadelBRing_060207A1#CELL:FULL#8c003e2f9a3230bb42ba5934a1021958",
+    "original": "Citadel - B Ring",
+    "translation": "五角大本营－B环",
+    "stage": 1
+  },
+  {
+    "key": "DLC03PPurity02_0A003D64#CELL:FULL#34b08545e3d7f4b5eedfc5453af55deb",
+    "original": "Jefferson Museum and Gift Shop",
+    "translation": "杰斐逊博物馆和礼品店",
+    "stage": 1
+  },
+  {
+    "key": "CitadelARing_060207A2#CELL:FULL#090813adacf735c25a56686b520894d8",
+    "original": "Citadel - A Ring",
+    "translation": "五角大本营－A环",
+    "stage": 1
+  },
+  {
+    "key": "PPurity02_06018521#CELL:FULL#34b08545e3d7f4b5eedfc5453af55deb",
+    "original": "Jefferson Museum and Gift Shop",
+    "translation": "杰斐逊博物馆和礼品店",
+    "stage": 1
+  },
+  {
+    "key": "EIPRavenRock04Baracks_12001D0E#CELL:FULL#32d043a616f3f5db120ce87c7fb3aa06",
+    "original": "Raven Rock - Level 4",
+    "translation": "黑鸦领－第4层",
+    "stage": 1
+  },
+  {
+    "key": "MuseumAmericanEntrance_06074EB2#CELL:FULL#8dd177351d3425024ba7b6b5ddbda057",
+    "original": "Museum of History Entrance",
+    "translation": "历史博物馆入口",
+    "stage": 1
+  },
+  {
+    "key": "EIPRCRooms_1200E9AB#CELL:FULL#76fd2a370c8318d1b5a5d61d7ddfcef1",
+    "original": "Enclave Office",
+    "translation": "英克雷办公室",
+    "stage": 1
+  },
+  {
+    "key": "Tenpenny03Player_060170E7#CELL:FULL#15f6c7a26969e0fcbc18ca2f4bc5f5ca",
+    "original": "Tenpenny Tower - Empty Suite",
+    "translation": "特佩尼大厦－空房间",
+    "stage": 1
+  },
+  {
+    "key": "CitadelLab_06015157#CELL:FULL#69f2cd57c4125071160cacf1377be265",
+    "original": "Citadel - Laboratory",
+    "translation": "五角大本营－实验室",
+    "stage": 1
+  },
+  {
+    "key": "EIPRavenRock05Archives_1207EF35#CELL:FULL#019a4d07c0602aa12391077905157f99",
+    "original": "Raven Rock - Level 5",
+    "translation": "黑鸦领－第5层",
+    "stage": 1
+  },
+  {
+    "key": "MegatonPlayerHouse_000151E3#CELL:FULL#aec78cf60e026b6e2e6fc06eea00dc6c",
+    "original": "Empty House",
+    "translation": "空房间",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01WestTownS_01006EDB#WRLD:FULL#ee9945349d39e7f7b1f4ccb798e987a8",
+    "original": "Puesta del Sol South",
+    "translation": "日落镇南侧",
+    "stage": 1
+  },
+  {
+    "key": "MegatonWorld_06000A74#WRLD:FULL#5f7ed3ee7551ea0e806e85e73ba42a9e",
+    "original": "Megaton",
+    "translation": "核弹镇",
+    "stage": 1
+  },
+  {
+    "key": "CitadelWorld_06015145#WRLD:FULL#4f6d1678276085115406d79862dfd992",
+    "original": "The Citadel Courtyard",
+    "translation": "五角大本营操场",
+    "stage": 1
+  },
+  {
+    "key": "DCworld01_06018DE6#WRLD:FULL#47223621eb3e9c4d187d7d48de44098c",
+    "original": "Chevy Chase",
+    "translation": "彻维-彻斯",
+    "stage": 1
+  },
+  {
+    "key": "DCworld09_0601A266#WRLD:FULL#678c4eed647dd73645ad356249c9a147",
+    "original": "The Mall",
+    "translation": "国家广场",
+    "stage": 1
+  },
+  {
+    "key": "DCworld08_0601A267#WRLD:FULL#c2b3b6abf38f6f0da77f53def2dc52ad",
+    "original": "Pennsylvania Avenue",
+    "translation": "宾夕法尼亚大道",
+    "stage": 1
+  },
+  {
+    "key": "Wasteland_0607EA1F#WRLD:FULL#510e566fadcbe2d2a758bbdd542b829c",
+    "original": "Capital Wasteland",
+    "translation": "废土",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayStation_0A000B0D#WRLD:FULL#e5b9455fb94576ccdd39bb02d3b0b59c",
+    "original": "Satellite Relay Station",
+    "translation": "卫星中继站",
+    "stage": 1
+  }
+]

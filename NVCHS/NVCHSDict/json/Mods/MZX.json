@@ -1,0 +1,500 @@
+[
+  {
+    "key": "GraveKanoon_030083C6#CONT:FULL#f05f7a4f46ad4cb025a7ecab82bd114f",
+    "original": "Grave Kanoon",
+    "translation": "卡农墓",
+    "stage": 1
+  },
+  {
+    "key": "FilterSchematics_03013C98#MISC:FULL#c1c82aefdf640e541d75cac8e7a4abc7",
+    "original": "Schematics - Silence Homemade",
+    "translation": "图纸 - 自制消音器",
+    "stage": 1
+  },
+  {
+    "key": "ZModST_0300138F#IMOD:FULL#d10279b61b1d7038654d79ca0be13224",
+    "original": "ZOMX Tool Kit Modify Other Part Upgrade",
+    "translation": "ZOMX工具包 其他部件升级",
+    "stage": 1
+  },
+  {
+    "key": "ZModST_0300138F#IMOD:DESC#4c449131904ba0f7565faa8af57e5771",
+    "original": "Adds special part upgrade for weapons.",
+    "translation": "为武器添加特殊部件升级",
+    "stage": 1
+  },
+  {
+    "key": "ZModBM_03001390#IMOD:FULL#b88f7a37d57ce96a94dc95c6110dc989",
+    "original": "ZOMX Tool Kit Modify Upper Or Muzzle Part",
+    "translation": "ZOMX工具包 修改上枪管或枪口部件",
+    "stage": 1
+  },
+  {
+    "key": "ZModBM_03001390#IMOD:DESC#4ad3ad47434c8aafaf1f34abe1ea62a4",
+    "original": "Adds special upper barrel part or muzzle for weapons.",
+    "translation": "为武器添加特殊上枪管部件或枪口",
+    "stage": 1
+  },
+  {
+    "key": "ZModS_03001391#IMOD:FULL#1b98bcd1c67a7a97dc80173eb4710a26",
+    "original": "ZOMX Tool Kit Modify Scope and Dot",
+    "translation": "ZOMX工具包 修改瞄准镜和红点",
+    "stage": 1
+  },
+  {
+    "key": "ZModS_03001391#IMOD:DESC#e8a92782bcdb661cdf0f6cd71b54fb28",
+    "original": "Adds scope or reddot for weapons",
+    "translation": "为武器添加瞄准镜或红点",
+    "stage": 1
+  },
+  {
+    "key": "AKWZModSilencer_03004764#IMOD:FULL#6e95008da9cec590d206a3427502b6c6",
+    "original": "Silencer Homemade",
+    "translation": "自制消音器",
+    "stage": 1
+  },
+  {
+    "key": "AKWZModSilencer_03004764#IMOD:DESC#4f9d2c640bf2d5137d97733ab05f8a26",
+    "original": "Silences weapon.",
+    "translation": "将武器消音。",
+    "stage": 1
+  },
+  {
+    "key": "ZModMags_03004765#IMOD:FULL#c901d64ad79de68cc9b1d53ff3519116",
+    "original": "ZOMX Tool Kit Modify Magazine Capacity",
+    "translation": "ZOMX工具包 修改弹匣容量",
+    "stage": 1
+  },
+  {
+    "key": "ZModMags_03004765#IMOD:DESC#675595c4c5410120fdada0e8f310faca",
+    "original": "Adds capacity for all weapon.",
+    "translation": "为所有武器增加弹容量",
+    "stage": 1
+  },
+  {
+    "key": "Shotguzs_03000DBC#WEAP:FULL#ced84e8d761047865a28e4603fa6dc40",
+    "original": "Short Shotguns",
+    "translation": "短霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "FNC_03000DBE#WEAP:FULL#dffcc9da269a1fe584f165fed174b5a6",
+    "original": "FNC .10mm Pistol",
+    "translation": "FNC .10mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "MasadaCQBM4A_03000DC9#WEAP:FULL#ed6ce8bd6e709e83ef0a6cb3476c7c3f",
+    "original": "M40A5 Custom",
+    "translation": "定制M40A5",
+    "stage": 1
+  },
+  {
+    "key": "CombatZ_03000FF1#WEAP:FULL#c82f015b7fc3fa8fbfefc670695e7c92",
+    "original": "Combat Rifle",
+    "translation": "战斗步枪",
+    "stage": 1
+  },
+  {
+    "key": "ShotguzsUQ_03001381#WEAP:FULL#d9d8e1efe145de8d9196f8665be60c66",
+    "original": "The Old Man",
+    "translation": "老人",
+    "stage": 1
+  },
+  {
+    "key": "AEK972CUQ_0300194D#WEAP:FULL#68b461f291c19c72be11aaafdafa5e9f",
+    "original": "Ramiel",
+    "translation": "耶利米尔",
+    "stage": 1
+  },
+  {
+    "key": "Type89AssaultRifleUQ_03001C11#WEAP:FULL#d3829fd80a901683534bd6376caa5c94",
+    "original": "Raguel",
+    "translation": "神之友",
+    "stage": 1
+  },
+  {
+    "key": "TarZUQ_03001C24#WEAP:FULL#d2986e9d82a31cceb6dcf0d1f3d3d647",
+    "original": "Bloodlust",
+    "translation": "嗜血",
+    "stage": 1
+  },
+  {
+    "key": "Skif_03001EED#WEAP:FULL#e94082f0d3ff348db34f6efd7b5fb7f0",
+    "original": "Skif-A3000",
+    "translation": "天火-A3000",
+    "stage": 1
+  },
+  {
+    "key": "SIG552UQ2_0300302B#WEAP:FULL#4457306bd071be2695f7122cc23f33bb",
+    "original": "Galahad",
+    "translation": "加拉哈德",
+    "stage": 1
+  },
+  {
+    "key": "SIG552UQ1_0300302F#WEAP:FULL#da3302c2e08a563f423ae94606fff007",
+    "original": "Percival",
+    "translation": "珀西瓦尔",
+    "stage": 1
+  },
+  {
+    "key": "MasadaCQBB_0300471F#WEAP:FULL#9339eebb9b001593033f04eeb235c7b2",
+    "original": "Masada CQB",
+    "translation": "马萨达步枪-近战",
+    "stage": 1
+  },
+  {
+    "key": "M16VAssaultUQ_03004D3B#WEAP:FULL#4ab06c321ffaf133f67a8a7cea141530",
+    "original": "G.I. Rifle",
+    "translation": "军用步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZXM4_0300527B#WEAP:FULL#1e89012f705770fead404d09956f2ae5",
+    "original": "XM4 Nevada",
+    "translation": "XM4内华达步枪",
+    "stage": 1
+  },
+  {
+    "key": "ZXM4U_03005B14#WEAP:FULL#7feabd36f68a9a352c96758333bda538",
+    "original": "OSR Auto Rifle",
+    "translation": "OSR自动步枪",
+    "stage": 1
+  },
+  {
+    "key": "MasadaCQBRare_03007519#WEAP:FULL#bd53770c1806959972c6ae9ec8ffde9c",
+    "original": "Coyote CQB",
+    "translation": "郊狼-近战",
+    "stage": 1
+  },
+  {
+    "key": "ZSPAZUQ_03007CD0#WEAP:FULL#dec619c0f1c1d05d2b2bf104aeb4d38d",
+    "original": "The Stinger",
+    "translation": "毒刺",
+    "stage": 1
+  },
+  {
+    "key": "AKWZUQ_030089E7#WEAP:FULL#fd6ea15401fcb665b51ee669a3dcffc2",
+    "original": "AK Custom",
+    "translation": "定制AK",
+    "stage": 1
+  },
+  {
+    "key": "M4SDLZUQ_030093B1#WEAP:FULL#87f181b1144cb118faa3418d670e0e8d",
+    "original": "M4 Marksman Auto",
+    "translation": "M4神枪手自动步枪",
+    "stage": 1
+  },
+  {
+    "key": "MasadaCQB_030093C3#WEAP:FULL#b68a8325aec98d9b96b0db757864b51e",
+    "original": "Masada Upgrade",
+    "translation": "升级马萨达步枪",
+    "stage": 1
+  },
+  {
+    "key": "M4SDZUQ_030097AB#WEAP:FULL#93a4290064d970fae638d50a84fe6d8e",
+    "original": "M4 Commando",
+    "translation": "M4突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "SIGMLegUQ_030097C1#WEAP:FULL#b645efe9b44ab3708e624fb82c7bac76",
+    "original": "The Lost",
+    "translation": "迷失",
+    "stage": 1
+  },
+  {
+    "key": "FNC2_0301F5A3#WEAP:FULL#7b64c767cddd7e90baf555b733ce60de",
+    "original": "The Wolf",
+    "translation": "战狼",
+    "stage": 1
+  },
+  {
+    "key": "FNC3_0301F5A6#WEAP:FULL#9aa3acbfa8c895ce910b2593f9abea37",
+    "original": "FNC .10mm Pistol Akimbo",
+    "translation": "FNC .10mm手枪双持",
+    "stage": 1
+  },
+  {
+    "key": "WCX556UQ_0301F5C4#WEAP:FULL#7fdff7c2fb0c220cb02f9c7116147611",
+    "original": "Hyena",
+    "translation": "鬣狗",
+    "stage": 1
+  },
+  {
+    "key": "M4SDZ_0301F5D0#WEAP:FULL#509a687ffa12eed39f88ef11b58c7be5",
+    "original": "M4 Mini SD",
+    "translation": "M4迷你消音步枪",
+    "stage": 1
+  },
+  {
+    "key": "TarZ_0301F5E5#WEAP:FULL#8c048e3506c346e236801a4aee46dd85",
+    "original": "Tavor Custom",
+    "translation": "定制塔沃尔战术步枪",
+    "stage": 1
+  },
+  {
+    "key": "Type89AssaultRifle_0301F8DF#WEAP:FULL#df6386d42a060816f84fc72c3c49eac1",
+    "original": "Type89 Modern",
+    "translation": "现代89式突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "CombatZ2_0302019C#WEAP:FULL#5892342b7d41cc4756fddc1ff6d66a66",
+    "original": "Ranger Combat Rifle",
+    "translation": "游骑兵战斗步枪",
+    "stage": 1
+  },
+  {
+    "key": "CombatZUQ_03020D86#WEAP:FULL#40f018b4d366a59122217118bb929082",
+    "original": "The Stealth",
+    "translation": "潜行者",
+    "stage": 1
+  },
+  {
+    "key": "SaigaZ2_03025CF6#WEAP:FULL#14307887336b31f48dd45865d44ce178",
+    "original": "Saiga EXT",
+    "translation": "Saiga改进版",
+    "stage": 1
+  },
+  {
+    "key": "SaigaZUQ_030264E8#WEAP:FULL#41768937e4ca39dcd4d655be2044bbf4",
+    "original": "The Slayer",
+    "translation": "刽子手",
+    "stage": 1
+  },
+  {
+    "key": "ZSPAZ_0302773A#WEAP:FULL#bdd420175478657069651a5e626d773c",
+    "original": "SPAS Auto Custom",
+    "translation": "定制SPAS Auto",
+    "stage": 1
+  },
+  {
+    "key": "ZHK23_03029E5C#WEAP:FULL#1192f2b64964578a7ea93a2819f0b90e",
+    "original": "HK Mark 23",
+    "translation": "HK Mark 23",
+    "stage": 1
+  },
+  {
+    "key": "ZHK23UQ_03029E5D#WEAP:FULL#e70248c92fcd37238b3b0f164c52032e",
+    "original": "Old Snake",
+    "translation": "老蛇",
+    "stage": 1
+  },
+  {
+    "key": "ST64Z_03000ADE#WEAP:FULL#c934b63613818e4806842c790adb0294",
+    "original": "Type64",
+    "translation": "64式",
+    "stage": 1
+  },
+  {
+    "key": "AR556UQ_03000ADF#WEAP:FULL#337f68c12c14e59810e531407ac750eb",
+    "original": "Kanoon",
+    "translation": "卡农",
+    "stage": 1
+  },
+  {
+    "key": "SIGMLeg_03000AE5#WEAP:FULL#87230b9fe540787612d7f71f241235ee",
+    "original": "SIG Mare's Leg Custom",
+    "translation": "SIG定制马腿枪",
+    "stage": 1
+  },
+  {
+    "key": "AKWZ_03000BF9#WEAP:FULL#8816d31ac6e77f26f76c3904e11de8ca",
+    "original": "Outland AK",
+    "translation": "奥克兰AK",
+    "stage": 1
+  },
+  {
+    "key": "ARZkanoon_030083CD#NOTE:FULL#2c3b2ffc1cc2bf7c2bf465ac247fde1b",
+    "original": "Note",
+    "translation": "笔记",
+    "stage": 1
+  },
+  {
+    "key": "ARZkanoon_030083CD#NOTE:TNAM#b299fb5de5f4e109d9d93afe238338f0",
+    "original": "The first time she came into my life, she made my life very happy.\\nShe gently encouraged me on the worst days of my life.\\n\\nThank you there for each other for me\\n\\nYou is my best friend forever...\\n\\nRest in peace here Kanoon\\n\\nI made this gun for you...",
+    "translation": "她第一次走进我的生活时，她让我的生活变得非常快乐。\\n在我生命中最糟糕的日子里，她温柔地鼓励我。\\n\\n谢谢你为我做的一切\\n\\n你永远是我最好的朋友...\\n\\n安息吧，卡农\\n\\n我为你制作了这把枪...",
+    "stage": 1
+  },
+  {
+    "key": "Filter_03013544#NOTE:FULL#915b746edf35e1b3bdab040dd915aa18",
+    "original": "Schematics -  Silencer Homemade",
+    "translation": "图纸 - 自制消音器",
+    "stage": 1
+  },
+  {
+    "key": "Filter_03013544#NOTE:TNAM#8d168ef0110cb32f5161e9ed1a135427",
+    "original": "This schematic seems to list components for constructing Silencer from oil filter, and how to craft it.",
+    "translation": "这份示意图看起来列出了用机油滤清器制作消音器的组件，以及制作方法。",
+    "stage": 1
+  },
+  {
+    "key": "HooverDamIntPowerPlant01b_00175D68#CELL:FULL#2525d411d2b76b87b788c6171dce91d4",
+    "original": "Hoover Dam Offices",
+    "translation": "胡佛大坝办公区",
+    "stage": 1
+  },
+  {
+    "key": "Vault11c_000E6A6E#CELL:FULL#3d1c9d422c980aa754700fb92cac1cba",
+    "original": "Vault 11 Lower Level",
+    "translation": "11号避难所下层",
+    "stage": 1
+  },
+  {
+    "key": "SLCoyoteMineINT_00154BD6#CELL:FULL#fcb0bb87159c9fbddc74dd65704cc220",
+    "original": "Coyote Mine",
+    "translation": "郊狼矿洞",
+    "stage": 1
+  },
+  {
+    "key": "IsolatedCamp04Interior_00064C6C#CELL:FULL#dff42c7b0622a495939fd81f1216dd3a",
+    "original": "Abandoned Tent",
+    "translation": "废弃的帐篷",
+    "stage": 1
+  },
+  {
+    "key": "ElReyMotelRoom01_000E551B#CELL:FULL#9bac71fcfa8d97a553fb60281941f3f7",
+    "original": "El Rey Motel Room",
+    "translation": "埃尔·雷伊汽车旅馆房间",
+    "stage": 1
+  },
+  {
+    "key": "NellisGenerator_00101A46#CELL:FULL#90c6d6be471421b713fe33458d10214e",
+    "original": "Nellis Array Generators",
+    "translation": "内利斯发电机阵列",
+    "stage": 1
+  },
+  {
+    "key": "SLWindfarmShackINT_00155916#CELL:FULL#40f6333629195e695d5a79b811fae1fd",
+    "original": "Wind Farm Maintenance Shack",
+    "translation": "风力电站维修棚",
+    "stage": 1
+  },
+  {
+    "key": "BCTrainStationInterior_0010BDF3#CELL:FULL#f663afef404002d26ce4cdefd7e0e4ed",
+    "original": "Boulder City Train Station",
+    "translation": "巨石城火车站",
+    "stage": 1
+  },
+  {
+    "key": "HiddenValleyBunker2_000E508B#CELL:FULL#7ad20178ae9698236dd5ffb5dd1ecef4",
+    "original": "Hidden Valley Bunker",
+    "translation": "隐谷地堡",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownNightstalkerCave_0013D7E5#CELL:FULL#6466dc65d5f3d3342a58f83e08fcd825",
+    "original": "Charleston Cave",
+    "translation": "查尔斯顿山洞",
+    "stage": 1
+  },
+  {
+    "key": "2CCampGolfResort_0010067A#CELL:FULL#c72e48dc50ccc86ad6e1966094d0f29d",
+    "original": "House Resort",
+    "translation": "豪斯度假庄园",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightPoliceStation_0013F41A#CELL:FULL#1d979adb4756629e897da123b27399f3",
+    "original": "Searchlight Police Station",
+    "translation": "探照灯营地警察局",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
+    "original": "Jacobstown Lodge",
+    "translation": "杰克博镇旅社",
+    "stage": 1
+  },
+  {
+    "key": "NovacAbandonedShack_000E5745#CELL:FULL#8f5be7af89075f4ca88ea2c6a12cb3b0",
+    "original": "Gibson's Shack",
+    "translation": "吉布森的棚屋",
+    "stage": 1
+  },
+  {
+    "key": "NiptonTownHallInteriorFloor3_00131F9B#CELL:FULL#b9d9546af24824be74901e34028cc389",
+    "original": "Town Hall Steyn's Office",
+    "translation": "城镇会堂斯泰恩的办公室",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightChurch_0013F41B#CELL:FULL#a4c16b489fcb87ddec90bcd2bfc3da6c",
+    "original": "Searchlight Church Basement",
+    "translation": "探照灯营地教堂地下室",
+    "stage": 1
+  },
+  {
+    "key": "PrimmGenericHouse04_000A2086#CELL:FULL#6cdf636808a99c5ef83f5b777882a16d",
+    "original": "Primm House",
+    "translation": "普瑞姆房屋",
+    "stage": 1
+  },
+  {
+    "key": "PrimmGenericHouse02_0009A283#CELL:FULL#6cdf636808a99c5ef83f5b777882a16d",
+    "original": "Primm House",
+    "translation": "普瑞姆房屋",
+    "stage": 1
+  },
+  {
+    "key": "GSShackVictorInt_0010AAFC#CELL:FULL#a87078a4a71ba250626d2e6a3277294d",
+    "original": "Victor's Shack",
+    "translation": "维克多的棚屋",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightHiddenCave_00146607#CELL:FULL#613f57230ee701149dc34a8dc5dd9941",
+    "original": "Hidden Supply Cave",
+    "translation": "隐蔽补给洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLJeanSkyDivingINT_00148A5B#CELL:FULL#c3e8a6a0d7893023feefb36f40f6cf4d",
+    "original": "Jean Sky Diving",
+    "translation": "吉恩跳伞俱乐部",
+    "stage": 1
+  },
+  {
+    "key": "CrimsonCaravanBarracks01_000F3BD7#CELL:FULL#ffa845606fcecfcebd35d8f02326acf9",
+    "original": "Guard Barracks",
+    "translation": "守卫营房",
+    "stage": 1
+  },
+  {
+    "key": "RanchHouseInterior01_001037DF#CELL:FULL#8582c37a4620c237c386b318157d2b28",
+    "original": "Hunter's Farmhouse",
+    "translation": "猎人的农舍",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04NukeNCR_0200A9ED#WRLD:FULL#80d6269452370bb9473e624e5e43debc",
+    "original": "Long 15",
+    "translation": "15号公路",
+    "stage": 1
+  },
+  {
+    "key": "FNARecipe2_030093C8#RCPE:FULL#8e2bc32559056f8b3bf739757b70b49f",
+    "original": "Perk Unlock FNC .10mm Pistol Single",
+    "translation": "解锁特长FNC .10mm手枪单持",
+    "stage": 1
+  },
+  {
+    "key": "FilterN_03013545#RCPE:FULL#940a76a2240c5eb5ab10f3cbd7404051",
+    "original": "Oil FilterSilence",
+    "translation": "机油滤清器消音器",
+    "stage": 1
+  },
+  {
+    "key": "FNARecipe_03008BD7#RCPE:FULL#20b3b582f65f797bda54639cebf950e6",
+    "original": "Perk Unlock FNC .10mm Pistol Akimbo",
+    "translation": "解锁特长FNC .10mm手枪双持",
+    "stage": 1
+  }
+]

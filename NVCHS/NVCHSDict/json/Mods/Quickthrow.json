@@ -1,0 +1,140 @@
+[
+  {
+    "key": "xlrQTBaseEffect_010010A5#MGEF:FULL#0fe58ab8e4534f5b57aec1c1a579cfe2",
+    "original": "Quick Throw",
+    "translation": "快速投掷",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTBaseSTOPEffect_01006C68#MGEF:FULL#a6b1baf93da8507297f215aac27b3967",
+    "original": "Quick Throw Force Stop",
+    "translation": "强制停止快速投掷",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTs_01000ADF#SCPT:SCDA#c0116dbbefc766e8f6139b1d96d311b3",
+    "original": "B42 Quickthrow:%rBone missing, incorrect skeleton installed. Mod disabled. Re-install the mod AFTER all other mods that are replacing player skeletons",
+    "translation": "B42快速投掷：%r骨骼缺失，已安装不正确的人体骨架。模组已禁用。在所有替换玩家人体骨架的其他模组之后重新安装此模组",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#26fba5996e11fe47f8aa25fb795d1b05",
+    "original": "Throw key",
+    "translation": "投掷键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#1fc8fa227ae6e7f06bf2ec13411931ae",
+    "original": "Select key",
+    "translation": "选择键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#46fef03bd2546d0b4d9349946ef7e947",
+    "original": "Stop throw key",
+    "translation": "停止投掷键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#5ced8ab4464ab73ab2fa4d0a5b902939",
+    "original": "Adaptive aim",
+    "translation": "自适应瞄准",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#53b32dcfa95156fee0fe070659b84100",
+    "original": "Cooldown multiplier",
+    "translation": "冷却时间倍数",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#f5969468efaceca917d25006ca622df4",
+    "original": "Icon position",
+    "translation": "图标位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#3f70d9d1e6c6dae5a44ece2e740c014f",
+    "original": "Gauge position",
+    "translation": "指示器位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#1a4ef5437106680bea07874e399f307d",
+    "original": "Show icon in MCM",
+    "translation": "在MCM中显示图标",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#d63b2920f5c21b0cf5001a6bf35159e7",
+    "original": "Key used to throw any selected compatible weapon",
+    "translation": "用于投掷任何已选兼容武器的键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#fd452feef403bfe77ca4edac5ac09b57",
+    "original": "Key used to select throwing weapon (press) or change weapon type (hold)",
+    "translation": "用于选择投掷武器（按下）或更改武器类型（长按）的键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#1cad17e97beab37589f775f380978dab",
+    "original": "Key used to reset throwing",
+    "translation": "用于重置投掷的键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#f1205b1c974a2eca7da855d033e807dc",
+    "original": "Turn Adaptive Aim on or off. Turning it off might help with performance on older machines.",
+    "translation": "打开或关闭自适应瞄准。关闭它可能有助于旧机器的性能",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#129d9e62584f645781d12672042f6e4f",
+    "original": "Calibrate cooldown speed multiplier (lower is faster)",
+    "translation": "校准冷却速度倍数（数值越低速度越快）",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#fdb9de08571aa6d0d21963238f3c169c",
+    "original": "Throwing weapon icon screen position",
+    "translation": "投掷武器图标屏幕位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#9e5dbcd74a2afa7be0bd3bdc3c1e323b",
+    "original": "Throwing power gauge screen position",
+    "translation": "投掷力度指示器屏幕位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#e99a6dd75d3de1f0235f162acb4811af",
+    "original": "Show throwing icon and gauge in this menu for easy screen position adjustments",
+    "translation": "在此菜单中显示投掷图标和指示器，以便轻松调整屏幕位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTHitAE_01009494#SPEL:FULL#9204c52587ce6f90d9ff99e89e47ea58",
+    "original": "Hit",
+    "translation": "命中",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMenuDummy_01007AC5#MISC:FULL#0ecf828f15f1b49d10b6752d30e6e282",
+    "original": "Quickthrow",
+    "translation": "快速投掷",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTReturnToSender_01007AC4#PERK:FULL#d5727f9e4293b1ed84875d89af9aae5c",
+    "original": "Return to Sender",
+    "translation": "回掷",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTReturnToSender_01007AC4#PERK:DESC#ee2b5f594f21e8a676c48be093b4d47f",
+    "original": "Throw enemy grenades back at them!",
+    "translation": "将敌人的手雷扔回给他们！",
+    "stage": 1
+  }
+]

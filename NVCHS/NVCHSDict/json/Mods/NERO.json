@@ -1,0 +1,440 @@
+[
+  {
+    "key": "aaaResilient1_08000ADD#SPEL:FULL#074eb72e81fcfe661c2ec8d0915edf36",
+    "original": "Resilient1",
+    "translation": "顽强如斯1",
+    "stage": 1
+  },
+  {
+    "key": "aaaResilient2_08000ADE#SPEL:FULL#1e081c91563ba7b3bc6d873726ef4505",
+    "original": "Resilient2",
+    "translation": "顽强如斯2",
+    "stage": 1
+  },
+  {
+    "key": "aaaResilient3_08000AE0#SPEL:FULL#db1e0cba1781ada971c36d7ae1174dd8",
+    "original": "Resilient3",
+    "translation": "顽强如斯3",
+    "stage": 1
+  },
+  {
+    "key": "aaaWithdrawalDrinkBelowAll_080049B1#SPEL:FULL#523116a0ab700f72cdd294aab2e10883",
+    "original": "Drink Below All Withdrawal",
+    "translation": "“喝下所有”戒断反应",
+    "stage": 1
+  },
+  {
+    "key": "Vodka_00032C74#ALCH:FULL#99172b589e8c930419d8c81690f9bcdd",
+    "original": "Vodka",
+    "translation": "伏特加",
+    "stage": 1
+  },
+  {
+    "key": "Whiskey_00032C75#ALCH:FULL#b322138ac864e65dec1e1b060d2f8fea",
+    "original": "Whiskey",
+    "translation": "威士忌",
+    "stage": 1
+  },
+  {
+    "key": "Absinthe_00115EB1#ALCH:FULL#4abe90ab13d40c4bf5208a678fc16357",
+    "original": "Absinthe",
+    "translation": "苦艾酒",
+    "stage": 1
+  },
+  {
+    "key": "WhiskeyDixon_00122B4A#ALCH:FULL#eb9290a135b8cad7ca4a504194984343",
+    "original": "Dixon's Whiskey",
+    "translation": "迪克森的威士忌",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedWhiskey_00143FE1#ALCH:FULL#93d416895745b4cca4913c5eef263b76",
+    "original": "Irradiated Whiskey",
+    "translation": "受辐射的威士忌",
+    "stage": 1
+  },
+  {
+    "key": "aaaDrinkBelowAll_080049AF#ALCH:FULL#9a6815fba3f12f2768985e5d276d58c8",
+    "original": "Drink Below All",
+    "translation": "喝下所有",
+    "stage": 1
+  },
+  {
+    "key": "aaaBigGameHunter_08000801#PERK:FULL#6afc58acc63c0f2e419fec0ab750cd0f",
+    "original": "Big Game Hunter",
+    "translation": "巨兽猎人",
+    "stage": 1
+  },
+  {
+    "key": "aaaBigGameHunter_08000801#PERK:DESC#6506cfdaa8960fe7df351240e789494c",
+    "original": "Your understanding of animal behavior combined with targeted combat techniques allows you to inflict 25% more damage when engaging in combat against any creature.",
+    "translation": "你对动物行为的理解加上有针对性的战斗技巧，使你在与任何生物战斗时都能造成25%的额外伤害。",
+    "stage": 1
+  },
+  {
+    "key": "aaaFullMetalJacket_08000802#PERK:FULL#996b271d35421b89747f290d034cdc65",
+    "original": "Full Metal Jacket",
+    "translation": "全金属弹壳",
+    "stage": 1
+  },
+  {
+    "key": "aaaFullMetalJacket_08000802#PERK:DESC#4b8fe5430e70f05129c81cc23b8466c6",
+    "original": "At rank 1, Full Metal Jacket allows you to ignore 3 points of Damage Threshold from your enemies' armor when using guns. Your bullets find the chinks and gaps in their protective gear, delivering more effective damage with each shot. At rank 2, this bonus is increased to 6 points.",
+    "translation": "一级时，全金属外壳能让你在使用枪械时忽略敌人盔甲的3点伤害减免。你的子弹能够找到他们防护装备中的缝隙和漏洞，每发射一次都能造成更有效的伤害。二级时，这个加成增加到6点。",
+    "stage": 1
+  },
+  {
+    "key": "aaaIdiotSavant_08000803#PERK:FULL#266a0736f941b7a1c26fa6c776d927a7",
+    "original": "Idiot Savant",
+    "translation": "白痴学者",
+    "stage": 1
+  },
+  {
+    "key": "aaaIdiotSavant_08000803#PERK:DESC#796140fde6a1d995ddb9e335c82394ee",
+    "original": "You're not stupid! Just... different. Randomly receive 5x XP from any action, and the lower your Intelligence, the greater the chance.",
+    "translation": "你并不笨，只是...与众不同。你可以从任何行动中随机获得5倍的经验值，而且你的智力越低，获得这种额外经验值的机会就越大。",
+    "stage": 1
+  },
+  {
+    "key": "aaaSelfDefense_08000ADF#PERK:FULL#6d7ddffdb13e8a9e584e6edf4c0103e3",
+    "original": "Self Defense",
+    "translation": "自卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaSelfDefense_08000ADF#PERK:DESC#d535291646ab490d86528339c5cc0393",
+    "original": "This perk reflects your mastery of melee combat techniques and your ability to fortify yourself against incoming attacks while wielding such weapons. You'll now gain 5 DT with each rank of this perk when you have a melee weapon equip.",
+    "translation": "这个技能反映了你对近战格斗技巧的精通以及你在使用这类武器时抵御攻击的能力。现在，当你装备近战武器时，每提升这个技能的一个等级，你将获得5点DT。",
+    "stage": 1
+  },
+  {
+    "key": "aaaAddictionImmunity_08000AE3#PERK:FULL#965c22cf1f85194e437dfda407a5ef7e",
+    "original": "Addiction Immunity",
+    "translation": "成瘾免疫",
+    "stage": 1
+  },
+  {
+    "key": "aaaAddictionImmunity_08000AE3#PERK:DESC#82f5f59bec86459df94c269ad7091f4c",
+    "original": "I'll give you a hint about what this perk does. You don't have to worry about withdrawals anymore.",
+    "translation": "关于这个技能的作用，我给你点提示吧。你再也不用担心戒断反应了。",
+    "stage": 1
+  },
+  {
+    "key": "aaaShoulderTheLoad_08000DBE#PERK:FULL#8d1042a0cc3e05f37b19e92d5853528d",
+    "original": "Shoulder The Load",
+    "translation": "肩负重任",
+    "stage": 1
+  },
+  {
+    "key": "aaaShoulderTheLoad_08000DBE#PERK:DESC#da0a3f807a1c49a72e2677ae2123e066",
+    "original": "Your familiarity and expertise with heavy armor allow you to alleviate its adverse effects. This perk reduces the negative impacts of heavy armor on your mobility and agility, granting you improved movement speed as though you were wearing light armor.",
+    "translation": "你对重型护甲的熟悉程度和专业技能让你能够减轻其不良影响。这个技能可以减少重型护甲对你移动速度和敏捷的负面影响，使你的移动速度仿佛穿着轻型护甲一样快。",
+    "stage": 1
+  },
+  {
+    "key": "aaaResilientPerk_08000DBF#PERK:FULL#66b7c1d3471e287718637d07691064e4",
+    "original": "Resilient",
+    "translation": "顽强如斯",
+    "stage": 1
+  },
+  {
+    "key": "aaaResilientPerk_08000DBF#PERK:DESC#deff246e34b56f966fc9cbbc5f306170",
+    "original": "What hasn't happened to you? Spine stolen, heart stolen, brain missing, shot, stabbed, burned, poisoned, and as we speak you are melting from radiation! Your experiences in the wasteland has made you more resilient to most forms of damage as well as radiation.",
+    "translation": "还有什么事没在你身上发生过吗？脊髓被偷、心脏被偷、脑子不翼而飞、挨过枪击、被刺伤、烧伤、下毒，我们说话这会儿你还在受辐射的影响，身体在逐渐融化！你在废土上的经历让你对大多数形式的伤害以及辐射都有了更强的抵抗力。",
+    "stage": 1
+  },
+  {
+    "key": "aaaRooted_08000DC4#PERK:FULL#d4b97c4484eca79abd6efda28cc84a85",
+    "original": "Rooted",
+    "translation": "扎根",
+    "stage": 1
+  },
+  {
+    "key": "aaaRooted_08000DC4#PERK:DESC#18398f9100c361ef754919a51bb76a65",
+    "original": "If you can't hurt you, then they sure can't either! Firmly planting your feet onto the ground makes you as tough and as thick as a tree. You gain 25 DT when standing still and will do more melee damage.",
+    "translation": "若你坚不可摧，他们便无计可施！\\n双脚稳稳地扎根于地面，你便如参天大树般坚韧厚实。\\n当你静止不动时，你将获得25点DT，\\n并在近战攻击中造成更多伤害。",
+    "stage": 1
+  },
+  {
+    "key": "aaaLifeGranter_08000DC5#PERK:FULL#829083e5125c8df5775d1fffe24a59bb",
+    "original": "Life Granter",
+    "translation": "赐命者",
+    "stage": 1
+  },
+  {
+    "key": "aaaLifeGranter_08000DC5#PERK:DESC#753c1546d4df3973fd236ba338bac3eb",
+    "original": "You have bestowed your blessings upon your peers and now a higher power is bestowing their blessing unto you. You will gain a small amount of health and now regen health at a slow rate.",
+    "translation": "你已经把你的祝福赐给了你的同伴，\\n现在一股更强大的力量正在把他们的祝福赐给你。\\n你将获得少量的生命值，并以缓慢的速度恢复生命值。",
+    "stage": 1
+  },
+  {
+    "key": "aaaStrategicStrike_0800109C#PERK:FULL#9df636880a38f46ec3060771452c3004",
+    "original": "StrategicStrike",
+    "translation": "战略打击",
+    "stage": 1
+  },
+  {
+    "key": "aaaStrategicStrike_0800109C#PERK:DESC#9456c517defaa2eb47a07222a4cc75d4",
+    "original": "Your proficiency with melee weapons grants you a significant advantage when in VATS. This perk reduces the AP cost of performing melee attacks in VATS by 20%.",
+    "translation": "你对近战武器的精通使你在VATS中具有显著优势。\\n此技能可减少在VATS中进行近战攻击所需的AP消耗20%。",
+    "stage": 1
+  },
+  {
+    "key": "aaaOvercharge_0800109D#PERK:FULL#f4dacc5bdd4ed7bd0ae9123c2d2b4f1d",
+    "original": "Overcharge",
+    "translation": "过载启动",
+    "stage": 1
+  },
+  {
+    "key": "aaaOvercharge_0800109D#PERK:DESC#76757b8023506a544224481781e0a6c6",
+    "original": "Your proficiency with energy weapons grants you a distinct advantage when facing enemies donning light armor. Each rank of this perk enhances your damage output with energy weapons against lightly armored foes by 15%.",
+    "translation": "你对能量武器的精通使你在面对轻甲敌人时具有明显优势。\\n此技能的每个等级都会使你对轻甲敌人的能量武器伤害提高15%。",
+    "stage": 1
+  },
+  {
+    "key": "aaaPsychoAndGuns_0800109E#PERK:FULL#0bcb1c831c07ee38978e15a33c6ce2a8",
+    "original": "Psycho and Guns",
+    "translation": "狂躁与枪火",
+    "stage": 1
+  },
+  {
+    "key": "aaaPsychoAndGuns_0800109E#PERK:DESC#319677bfccb36f101bf239c439bd94ee",
+    "original": "Are you feeling okay? You're shaking, your cold but your hands are sweating, did you take a ton of psycho again? Now, not only your attack speed be increased with each rank of this perk but also your reload and draw speed.",
+    "translation": "你没事吧？你浑身颤抖，身体冰冷但双手却冒汗，是不是又服用了大量疯狂药？\\n现在，随着这个技能的等级提升，不止你的攻击速度会增加，连换弹和拔枪速度都会有所提高。",
+    "stage": 1
+  },
+  {
+    "key": "aaaTwoEyesOpen_0800109F#PERK:FULL#17070ef511949e161cecf89632cc494e",
+    "original": "Two Eyes Open",
+    "translation": "双眼睁开",
+    "stage": 1
+  },
+  {
+    "key": "aaaTwoEyesOpen_0800109F#PERK:DESC#a735575fa7d012e56fca15725eb7d96a",
+    "original": "You finally became one of those shooters who shoots with both eyes open! Congrats! Now your chance to hit an opponent in and outside of V.A.T.S. is significantly increased.",
+    "translation": "恭喜你终于成为了使用双眼瞄准的射击高手！现在，无论在V.A.T.S.系统内外，你击中敌人的几率都将大幅提高！",
+    "stage": 1
+  },
+  {
+    "key": "aaaGatWithAGat_080010A0#PERK:FULL#061d35384b9a855be15029826d44975e",
+    "original": "The Gat with a Gat",
+    "translation": "持枪者之枪",
+    "stage": 1
+  },
+  {
+    "key": "aaaGatWithAGat_080010A0#PERK:DESC#32f6ac327c238da14b3de8b0dd89503c",
+    "original": "You read a book once about something with a... thing? With each rank of this perk you will do more damage with weapons governed by the Guns skill.",
+    "translation": "你曾经读过一本书，是关于...某种东西吗？每获取这个特长的一个等级，你使用枪支技能时造成的伤害就会增加。",
+    "stage": 1
+  },
+  {
+    "key": "aaaBeamingWithHate_080010A1#PERK:FULL#20161a76e6f4df5b21d64471d3072625",
+    "original": "Beaming With Hate",
+    "translation": "满怀仇恨",
+    "stage": 1
+  },
+  {
+    "key": "aaaBeamingWithHate_080010A1#PERK:DESC#43cc5fd5949ae0343b67629a79e88995",
+    "original": "You just really hate those guys over there. With each rank of this perk, you will do more damage with weapons governed by the Energy Weapons skill.",
+    "translation": "你真的很恨那边的那些家伙。每获取这个特长的一个等级，你使用能量武器技能时造成的伤害就会增加。",
+    "stage": 1
+  },
+  {
+    "key": "aaaBonk_0800137F#PERK:FULL#ae6a3206be7311004b71567bd5cb6be8",
+    "original": "Bonk!",
+    "translation": "砰！",
+    "stage": 1
+  },
+  {
+    "key": "aaaBonk_0800137F#PERK:DESC#ddbdc92782b599a28b0d5690b4dcdb83",
+    "original": "That guy stole your sandwich! Are you just gonna sit there and take it? With each rank of this perk, you will do more damage with weapons governed by the Melee Weapons and the Unarmed skills.",
+    "translation": "那家伙偷了你的三明治！你就打算坐在这儿任他摆布吗？每获取这个特长的一个等级，你使用近战武器和徒手技能时造成的伤害就会增加。",
+    "stage": 1
+  },
+  {
+    "key": "aaaToughness2O_0800165D#PERK:FULL#163ab49d791396414dcb0012b4b7114b",
+    "original": "Toughness 2.0",
+    "translation": "坚韧2.0",
+    "stage": 1
+  },
+  {
+    "key": "aaaToughness2O_0800165D#PERK:DESC#5976dab81e22cf1bacaaeeed9e089198",
+    "original": "With the Toughness 2.0 perk, you gain +5 to overall Damage Threshold. This perk may be taken twice, with the second rank granting an additional +5.",
+    "translation": "有了坚韧2.0这个特长，你的总体伤害减免提高+5点。\\n这个特长可以获取两次，第二次获取时会额外增加+5点伤害减免。",
+    "stage": 1
+  },
+  {
+    "key": "aaaCarefulHunter_08001976#PERK:FULL#812eda96d04937dcb8b38a51a0ef51f7",
+    "original": "Careful Hunter",
+    "translation": "谨慎猎手",
+    "stage": 1
+  },
+  {
+    "key": "aaaCarefulHunter_08001976#PERK:DESC#2021a9daf76cf57c5c48c6eb196db638",
+    "original": "With Careful Hunter, you become a force to be reckoned with in any close-range encounter, turning even the most chaotic skirmishes into decisive victories. This perk enhances your aim and control, granting you a 20% increase in accuracy when using shotguns.",
+    "translation": "有了谨慎猎手这个特长，你在任何近距离遭遇中都会成为一股不可小觑的力量，将最混乱的混战变成决定性的胜利。这个特长提高了你的瞄准和控制能力，使你在使用霰弹枪时准确度提高20%。",
+    "stage": 1
+  },
+  {
+    "key": "aaaObliterator_08001C55#PERK:FULL#0da179469a301937ab51cdf1bb1bd202",
+    "original": "Obliterator",
+    "translation": "歼灭者",
+    "stage": 1
+  },
+  {
+    "key": "aaaObliterator_08001C55#PERK:DESC#a904379497698940088354ed4fbf7b21",
+    "original": "Your shotgun attacks become a relentless assault on your opponents' protective gear. This perk reduces the Damage Threshold of your enemies by a significant 25 points whenever you engage them with a shotgun. With each blast, you tear through their armor, making them regret getting out of bed in the morning.",
+    "translation": "你的霰弹枪攻击成为对敌人防护装备的无情打击。当你用霰弹枪攻击敌人时，这个特长能显著降低他们25点的伤害减免。每一发子弹都能撕裂他们的盔甲，让他们后悔早上从床上爬起来。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMending_0800224F#PERK:FULL#7dd1e96e90bc73b35fa0e4caa29acc10",
+    "original": "Mending",
+    "translation": "修复大师",
+    "stage": 1
+  },
+  {
+    "key": "aaaMending_0800224F#PERK:DESC#79603af8f2d33f47688dc8333e3fe639",
+    "original": "This perk signifies your innate talent for maximizing the effectiveness of restorative items and techniques, allowing you to bounce back from wounds with newfound vigor. All healing effects are boosted by 10%.",
+    "translation": "这个特长代表了你最大化恢复物品和技术效果的天赋，使你能够以新发现的活力从伤口中恢复过来。所有治疗效果提高10%。",
+    "stage": 1
+  },
+  {
+    "key": "aaaPhoenix_08002250#PERK:FULL#0ef698de4673dd77e71e2cf3d59b9914",
+    "original": "Phoenix",
+    "translation": "凤凰",
+    "stage": 1
+  },
+  {
+    "key": "aaaPhoenix_08002250#PERK:DESC#e55657cddff19f62aa2096e5495a0898",
+    "original": "Your time in the wastes has caused your body undergo a remarkable transformation. You now regenerate 1 point of health every 10 seconds, enabling you to recover from injuries sustained during your adventures in the wasteland.",
+    "translation": "你在废土的时间让你的身体发生了惊人的转变。你现在每10秒就能恢复1点生命值，使你能够从废土冒险中受到的伤害中恢复过来。",
+    "stage": 1
+  },
+  {
+    "key": "aaaDeadeye_08002251#PERK:FULL#a103b2e059bd3461986fd60d8b826ebd",
+    "original": "Deadeye",
+    "translation": "死神之眼",
+    "stage": 1
+  },
+  {
+    "key": "aaaDeadeye_08002251#PERK:DESC#371062194026803f143a6aad916727c4",
+    "original": "With this perk, your affinity for cowboy weaponry - revolvers, lever-action rifles, and dynamite - becomes even more pronounced. This perk reduces the Action Point cost of using VATS with cowboy weapons by 25%,",
+    "translation": "这个特长让你的牛仔武器——左轮手枪、杠杆式步枪和炸药—的使用能力更加出色。这个特长可以降低使用V.A.T.S.与牛仔武器所需的行动点数25%。",
+    "stage": 1
+  },
+  {
+    "key": "aaaPopFly_08002252#PERK:FULL#62af48485b6b0315529857d5d454da5d",
+    "original": "Pop Fly",
+    "translation": "轻抛飞弹",
+    "stage": 1
+  },
+  {
+    "key": "aaaPopFly_08002252#PERK:DESC#f8ccdb1e99c7cfedee774ebaba174fb7",
+    "original": "This perk reduces the Action Point cost of using VATS with throwable explosives, such as grenades and dynamite by 25%. With each explosive toss, you can precisely target enemies and unleash devastating blasts with enhanced efficiency.",
+    "translation": "这个特长可以降低使用V.A.T.S.投掷爆炸物（如手榴弹和炸药）所需的行动点数成本25%。每次投掷爆炸物时，你可以精确地瞄准敌人，并以更高的效率释放毁灭性的爆炸。",
+    "stage": 1
+  },
+  {
+    "key": "aaaManhunter_08002253#PERK:FULL#84de91e33301ca4f362a56cf08ed9b97",
+    "original": "Manhunter",
+    "translation": "猎人本能",
+    "stage": 1
+  },
+  {
+    "key": "aaaManhunter_08002253#PERK:DESC#fac6046c7e26078f4220b6bf3d127b48",
+    "original": "Maybe you prefer to take them back alive. Maybe you prefer to watch them suffer. You are now 50% more likely to hit the target's legs in V.A.T.S. Have fun, weirdo.",
+    "translation": "也许你更喜欢将他们活捉，也许你更喜欢看着他们受苦。你现在在V.A.T.S.中击中目标腿部的概率提高了50%。好好享受吧，怪人。",
+    "stage": 1
+  },
+  {
+    "key": "aaaRussianBlood_080022FC#PERK:FULL#d575e977620a69ce57514f15e8202fd2",
+    "original": "Russian Tastes",
+    "translation": "俄罗斯口味",
+    "stage": 1
+  },
+  {
+    "key": "aaaRussianBlood_080022FC#PERK:DESC#22af42894501581f7c363a80c56e5358",
+    "original": "Maybe you actually grew up in Idaho. Maybe your family comes from a long line of spies. Maybe you're just an alcoholic. Vodka now removes radiation.",
+    "translation": "也许你真的在爱达荷州长大。也许你的家族来自间谍世家。也许你只是个酒鬼。伏特加现在可以消除辐射。",
+    "stage": 1
+  },
+  {
+    "key": "aaaTrickyTrajectory_0800284C#PERK:FULL#6b785fac7e65b1b3b4a1ea5adf91b035",
+    "original": "Tricky Trajectory",
+    "translation": "诡谲弹道",
+    "stage": 1
+  },
+  {
+    "key": "aaaTrickyTrajectory_0800284C#PERK:DESC#e182c34e0bf88496b61cc6a0321afdf5",
+    "original": "This perk increases the damage dealt with all launcher-type weapons, including grenade launchers, missile launchers, and other explosive ordnance, by a substantial margin. All of these now ignore 30% of the enemies damage threshold.",
+    "translation": "这一特长能显著提高所有发射器类武器造成的伤害，包括榴弹发射器、导弹发射器和其他爆炸性弹药。现在，这些武器将忽略敌人30%的伤害减免。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMagDump_0800284D#PERK:FULL#f51f6ff4d198eb9ae43e1ed6e14b3d8d",
+    "original": "Mag Dump",
+    "translation": "疯狂射击",
+    "stage": 1
+  },
+  {
+    "key": "aaaMagDump_0800284D#PERK:DESC#1e7233fbcdb1dc691eb68d46db40d5f8",
+    "original": "Upon acquiring this perk, your proficiency with full-auto weapons grants you the ability to increase their rate of fire by 33%. With each squeeze of the trigger, your weapon unleashes a torrent of bullets at a blistering pace, overwhelming your enemies with sheer firepower.",
+    "translation": "在获得这一特长后，你熟练使用全自动武器的能力使你能够将其射速提高33%。每次扣动扳机，你的武器都会以惊人的速度射出大量子弹，以纯粹的火力压制你的敌人。",
+    "stage": 1
+  },
+  {
+    "key": "aaaSwissTastes_080049AC#PERK:FULL#bd5de5baaebcd2a8a27a90fb3d19995f",
+    "original": "Swiss Tastes",
+    "translation": "瑞士口味",
+    "stage": 1
+  },
+  {
+    "key": "aaaSwissTastes_080049AC#PERK:DESC#fb0cb792460d16f25dee2cc0d6c89b70",
+    "original": "You like alcohol from the cheese people. Addiction is a rocky road though... best be safe and not drink too much. Absinthe now restores AP.",
+    "translation": "你喜欢奶酪国的酒。尽管上瘾是一条崎岖的道路..最好注意安全，不要喝太多。苦艾酒现在恢复AP。",
+    "stage": 1
+  },
+  {
+    "key": "aaaIrishTastes_080049AD#PERK:FULL#d41baad209a72bf9c83c7a25b4e3381e",
+    "original": "Irish Tastes",
+    "translation": "爱尔兰口味",
+    "stage": 1
+  },
+  {
+    "key": "aaaIrishTastes_080049AD#PERK:DESC#1caed63df44c6b51303cb1f8cdc0bba4",
+    "original": "You would think a country known for the potato would make an alcohol out of the potato but instead they are known for making an alcohol out of grains. Whiskey now increases damage.",
+    "translation": "你可能会认为一个以土豆闻名的国家会用土豆酿酒，但相反，他们因用谷物酿酒而闻名。威士忌现在会增加伤害。",
+    "stage": 1
+  },
+  {
+    "key": "aaaOneBelowAll_080049AE#PERK:FULL#07f5e8ffe69b7abb69c85386d5e27a57",
+    "original": "One Below All",
+    "translation": "喝比天高",
+    "stage": 1
+  },
+  {
+    "key": "aaaOneBelowAll_080049AE#PERK:DESC#0b23f62339b0438ba2da4efec78d3b60",
+    "original": "You are a sad creature. Everyone thinks you are a loser. Enjoy your destroyed liver. You can now brew a custom alcohol at campfires.",
+    "translation": "你是个可悲的生物。每个人都认为你是个失败者。享受你被毁的肝脏。你现在可以在篝火上酿造定制的酒。",
+    "stage": 1
+  },
+  {
+    "key": "Blitz_08005B9A#PERK:FULL#94834b6170cde1d2194e7f38d77e0662",
+    "original": "Blitz",
+    "translation": "闪电突袭",
+    "stage": 1
+  },
+  {
+    "key": "Blitz_08005B9A#PERK:DESC#955637598c74ca6098736d382f320e01",
+    "original": "Find the gap and make the tackle! Greatly increases the range of unarmed and melee attacks when using V.A.T.S. At level 2, the attack range is even farther.",
+    "translation": "找到破绽，发动攻击！\\n在使用V.A.T.S.时，会极大增加徒手和近战攻击的范围。\\n2级时攻击距离更远",
+    "stage": 1
+  },
+  {
+    "key": "aaaRecipeDrinkBelowAll_080049B3#RCPE:FULL#9a6815fba3f12f2768985e5d276d58c8",
+    "original": "Drink Below All",
+    "translation": "喝下所有",
+    "stage": 1
+  }
+]

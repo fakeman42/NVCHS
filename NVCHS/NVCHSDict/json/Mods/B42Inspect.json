@@ -1,0 +1,74 @@
+[
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#036c7e25795099fc8b80ec5d2e969b25",
+    "original": "Ammo Check Key",
+    "translation": "弹药检查键",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#15b003a8488a7991a7a83a848026627b",
+    "original": "Weapon Condition Key",
+    "translation": "武器状态键",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#a6f68e74807dd6eeec9d9d58b5375f38",
+    "original": "Minimalistic",
+    "translation": "极简风格",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#a5e9ff27e4e83e121e05c41f8c290fb1",
+    "original": "Enable cutoff",
+    "translation": "启用中断",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#987f7212af32e850add150d4a85c28e5",
+    "original": "Animation cutoff",
+    "translation": "动画中断",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#7e36a874a7c4ead44068135a3f7a9439",
+    "original": "Debug for animators",
+    "translation": "动画师调试",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#2d7c75174c73d4d7f0cae0dea4b28ded",
+    "original": "Set ammo check hotkey",
+    "translation": "设置弹药检查快捷键",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#dc8f6313907ec72e3f6ce72c51593e5a",
+    "original": "Set weapon condition check hotkey",
+    "translation": "设置武器状态检查快捷键",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#7450ed4d9beecc989760bc9cae3a7249",
+    "original": "Immersive, minimalistic info",
+    "translation": "沉浸式、极简信息",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#07b75712c1238234682305b51d4d982e",
+    "original": "Enables cutoff. Could cause issues if times inside custom anims are set incorrectly",
+    "translation": "启用中断。如果自定义动画中的时间设置不正确，可能会导致问题",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#2bbdadf3f961d9c7870b29d581922e5c",
+    "original": "Cuts selected time from the end of the animation, for better cross compatibility between animation mods. Could cause issues if times inside custom anims are set incorrectly",
+    "translation": "从动画的末尾中断所选时间，以便更好地在动画模组之间进行交叉兼容。如果自定义动画中的时间设置不正确，可能会导致问题",
+    "stage": 1
+  },
+  {
+    "key": "B42InspectMCMS_01000DC1#SCPT:SCDA#bf05170a6bc187cfed7158f9eca662d1",
+    "original": "Prints all the paths and weapon information into the console during any inspect action",
+    "translation": "在任何检查动作期间，将所有路径和武器信息打印到控制台中",
+    "stage": 1
+  }
+]

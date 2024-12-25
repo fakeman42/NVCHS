@@ -1,0 +1,998 @@
+[
+  {
+    "key": "SACCase22LR_05000867#MISC:FULL#78986ad295d6c07481692f2f04fc93fd",
+    "original": "Case, .22LR",
+    "translation": "弹壳 .22LR子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe44MagnumHandLoad_0013E44D#RCPE:FULL#00b2cf1e769bd10666cffb3d48f86668",
+    "original": ".44 Magnum Round, SWC",
+    "translation": ".44马格南平头弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe10mmHandLoad_00140AAD#RCPE:FULL#58d87983f97e0a36ba39df8d9bfc8428",
+    "original": "10mm Round, JHP",
+    "translation": "10mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe308HandLoad_00140AAE#RCPE:FULL#f8a68761f1d10833f81bd124f1c337e5",
+    "original": ".308 Round, JSP",
+    "translation": ".308被甲软尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe357MagnumHandLoad_00140AAF#RCPE:FULL#e83be86aab8428a52d5159081c271054",
+    "original": ".357 Magnum Round, JFP",
+    "translation": ".357马格南被甲平头弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe4570GovtHandLoad_00140AB0#RCPE:FULL#058b8db5c5f2b3941334a0e1b9481511",
+    "original": ".45-70 Gov't Round, SWC",
+    "translation": ".45-70政府定制平头弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe50MGHandLoad_00140AB1#RCPE:FULL#cc8a5a652ebcb7e282ec0134514425e2",
+    "original": ".50 MG Round, Match",
+    "translation": ".50MG竞赛弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown10mm_00140AB4#RCPE:FULL#adfaea6f87900af25d1d3cfb0bf88247",
+    "original": "Breakdown 10mm Round",
+    "translation": "拆解 10mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown22LR_00140AB6#RCPE:FULL#60473b741c782b5049c2de564e8ba50a",
+    "original": "Breakdown .22LR Round",
+    "translation": "拆解.22LR子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown9mm_00140AB7#RCPE:FULL#2d8dca50d989b1ce635c6c2cdc75769f",
+    "original": "Breakdown 9mm Round",
+    "translation": "拆解 9mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown357Magnum_00140AB8#RCPE:FULL#586c8a7c484d84314eeaca4e7580df87",
+    "original": "Breakdown .357 Magnum Round",
+    "translation": "拆解 .357马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown44Magnum_00140AB9#RCPE:FULL#f8f2901b13155f63756a2f16bbb52ab2",
+    "original": "Breakdown .44 Magnum Round",
+    "translation": "拆解 .44马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown4570Govt_00140ABA#RCPE:FULL#fdac2c09f01fdc26dbc2e409e9c3e38a",
+    "original": "Breakdown .45-70 Gov't Round",
+    "translation": "拆解 .45-70政府定制弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown556mm_00140ABB#RCPE:FULL#7c89ed061f9d51f706aa7123a95b4e0f",
+    "original": "Breakdown 5.56mm Round",
+    "translation": "拆解 5.56mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown308_00140ABC#RCPE:FULL#3b37d5ec105905121fc909943e313e39",
+    "original": "Breakdown .308 Round",
+    "translation": "拆解 .308子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown5mm_00140ABD#RCPE:FULL#f445d15eeeafdc4e3d37a1b94deefc94",
+    "original": "Breakdown 5mm Round",
+    "translation": "拆解 5mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50MG_00140ABE#RCPE:FULL#dd4a42cf6bb55aae53a40bd504d69312",
+    "original": "Breakdown .50 MG Round",
+    "translation": "拆解.50 MG子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe10mm_00140AE1#RCPE:FULL#67dda057841027db3062566712a23f75",
+    "original": "10mm Round",
+    "translation": "10mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe9mm_00140AE2#RCPE:FULL#5c935e764e692ddfc98b34aa11a1b598",
+    "original": "9mm Round",
+    "translation": "9mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe308_00140AE3#RCPE:FULL#6d25436a5a36327bbb4f19e70b49ada4",
+    "original": ".308 Round",
+    "translation": ".308子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe357Magnum_00140AE4#RCPE:FULL#13eb34bb20c3d0da9a9be029cfa9e8e0",
+    "original": ".357 Magnum Round",
+    "translation": ".357马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe44Magnum_00140AE5#RCPE:FULL#210c7406dd073bcaa63b9411464ce9b1",
+    "original": ".44 Magnum Round",
+    "translation": ".44马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe4570Govt_00140AE6#RCPE:FULL#50913265eef48064c3db4facb375a91b",
+    "original": ".45-70 Gov't Round",
+    "translation": ".45-70政府定制弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe50MG_00140AE7#RCPE:FULL#5f576d28c88d8dba59ff31d97f8ff779",
+    "original": ".50 MG Round",
+    "translation": ".50 MG子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe5mm_00140AE8#RCPE:FULL#92021214c04f0969474c1a0a1d1c71bf",
+    "original": "5mm Round",
+    "translation": "5mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe556mm_00140AE9#RCPE:FULL#413d0e45f1862eed6aa660321a5ff1ab",
+    "original": "5.56mm Round",
+    "translation": "5.56mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe20Ga_00140AED#RCPE:FULL#dbfd3f66dfcc9c4d6b8f21f1ae3cf9d0",
+    "original": "20 Gauge Round",
+    "translation": "20铅径霰弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12Ga_00140AEE#RCPE:FULL#e545a2a0f97a6479b05287995a2e340e",
+    "original": "12 Gauge Round",
+    "translation": "12铅径霰弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20Ga_00140AEF#RCPE:FULL#79c044f325442636367ebf27f270f603",
+    "original": "Breakdown 20 Gauge Round",
+    "translation": "拆解 20铅径霰弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12Ga_00140AF0#RCPE:FULL#a5796ee67b1ba09237a160f3765a6c9c",
+    "original": "Breakdown 12 Gauge Round",
+    "translation": "拆解12号霰弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe20GaMagnum_00165E7B#RCPE:FULL#f36b0939f2f555fdfc27ef2fc6a3d0d6",
+    "original": "20 Gauge Round, Magnum",
+    "translation": "20铅径马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaMagnum_00165E7C#RCPE:FULL#4e613a5335a8b0dc28daf8e2f2864a25",
+    "original": "12 Gauge Round, Magnum",
+    "translation": "12铅径马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaCoinShot_00165E7D#RCPE:FULL#8938be9c95458e05f4d3669ffcdeb06d",
+    "original": "12 Gauge Round, Coin Shot",
+    "translation": "12铅径硬币弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe20GaSlug_00165E7E#RCPE:FULL#935fca3f213bacde07f80216d0590827",
+    "original": "20 Gauge Round, Slug",
+    "translation": "20铅径独头弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaSlug_00165E7F#RCPE:FULL#57e22c922937d1aa30658d6f1de0468e",
+    "original": "12 Gauge Round, Slug",
+    "translation": "12铅径独头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown127mm_0017BA3D#RCPE:FULL#4180a49e19f11e71a13ed15467a5f05a",
+    "original": "Breakdown 12.7mm Round",
+    "translation": "拆解12.7mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe127mm_0017BA3E#RCPE:FULL#0a0982fd8eed79dcd5444620e343d5e6",
+    "original": "12.7mm Round",
+    "translation": "12.7mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0110mmJunkRounds_0100FB7A#RCPE:FULL#e04bde8c34a98d0634c66b08cb42739e",
+    "original": "10mm Round, Junk",
+    "translation": "10mm子弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0112GaJunkRounds_0100FB7B#RCPE:FULL#f81920307c522cd977d4511857229284",
+    "original": "12 Gauge Round, Junk",
+    "translation": "12铅径霰弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0120GaJunkRounds_0100FB7C#RCPE:FULL#a2e3e2869ec79971f82ee4f02fc3fc59",
+    "original": "20 Gauge Round, Junk",
+    "translation": "20铅径霰弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01308JunkRounds_0100FB7D#RCPE:FULL#9414c909a90872f17211a61c6d5a67af",
+    "original": ".308 Round, Junk",
+    "translation": ".308子弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01357MagnumJunkRounds_0100FB7E#RCPE:FULL#f72435166a1c6abdffdda57344d2506c",
+    "original": ".357 Magnum Round, Junk",
+    "translation": ".357马格南弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0144MagnumJunkRounds_0100FB7F#RCPE:FULL#a7bc62bc6f8d614da1622cc7936833ff",
+    "original": ".44 Magnum Round, Junk",
+    "translation": ".44马格南弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC014570GovtJunkRounds_0100FB80#RCPE:FULL#61c59d69267ea92640457e42e5b80bed",
+    "original": ".45-70 Gov't Round, Junk",
+    "translation": ".45-70政府定制弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0150MGJunkRounds_0100FB81#RCPE:FULL#aaf24df077b04f786ce2096c87b56aad",
+    "original": ".50 MG Round, Junk",
+    "translation": ".50MG子弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01556mmJunkRounds_0100FB82#RCPE:FULL#d26f3f71ea65022e94f2810799b67894",
+    "original": "5.56mm Round, Junk",
+    "translation": "5.56mm子弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC015mmJunkRounds_0100FB83#RCPE:FULL#e1751f7161b966a5ec3ab8e30d72ac0d",
+    "original": "5mm Round, Junk",
+    "translation": "5mm子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC019mmJunkRounds_0100FB84#RCPE:FULL#0a33d5da44a79df696a0106601140223",
+    "original": "9mm Round, Junk",
+    "translation": "9mm子弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02Recipe45Auto_02009E74#RCPE:FULL#23d2a2c6fae6e307ae4c5a99eb14a331",
+    "original": ".45 Auto Round",
+    "translation": ".45Auto子弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02Recipe45Super_02009E75#RCPE:FULL#862ac90d7f6ccbf30465fb63c962d796",
+    "original": ".45 Super Round",
+    "translation": ".45超级弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02Recipe45AutoP_02009E76#RCPE:FULL#b4c1f79600fccd05683cc0e0374a3cce",
+    "original": ".45 Auto Round, +P",
+    "translation": ".45Auto+P弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeBreakdown45Auto_02010CD9#RCPE:FULL#350cce90c3acde90cdedf4ae3d12cc2b",
+    "original": "Breakdown .45 Auto Round",
+    "translation": "拆解 .45Auto子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC04NailsAmmo_0300D754#RCPE:FULL#548fe5010fe62678fce8a52acc1ca273",
+    "original": "Nails",
+    "translation": "钉子",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe556mmHandLoad_0400092A#RCPE:FULL#280b2a7afffcf173a7ea88bf5146ce35",
+    "original": "5.56mm Round, Match",
+    "translation": "5.56mm竞赛弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe9mmHandLoad_0400092B#RCPE:FULL#e8c2de78e6866c8cd2e94fced4cfdb9f",
+    "original": "9mm Round, JHP",
+    "translation": "9mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe5mmHandLoad_0400092C#RCPE:FULL#5ecf08431f14a91cfff399e30e447af1",
+    "original": "5mm Round, JSP",
+    "translation": "5mm被甲软尖弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe20Ga30BuckMagnum_04000939#RCPE:FULL#b4d7f451561d37ed8a37071fc8d1ac7f",
+    "original": "20 Gauge Round, 3/0 Buck Magnum",
+    "translation": "20铅径马格南3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe12Ga40BuckMagnum_0400093A#RCPE:FULL#f936ba16588dc1bc07a09a9330ec5581",
+    "original": "12 Gauge Round, 4/0 Buck Magnum",
+    "translation": "12铅径马格南4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe127mmHandLoad_04000A2C#RCPE:FULL#ce646ca744a95d693fd31d9385155b04",
+    "original": "12.7mm Round, JHP",
+    "translation": "12.7mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe10mmHP_05000801#RCPE:FULL#8d9c1eb7952c2fa5baeb382230a501d2",
+    "original": "10mm Round, Hollow Point",
+    "translation": "10mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe127mmHP_05000802#RCPE:FULL#e916011107b8e28a9b9aa5b5df3ca955",
+    "original": "12.7mm Round, Hollow Point",
+    "translation": "12.7mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaBeanBag2_05000803#RCPE:FULL#8ffbcb6fc47f1f6b60a42da9bdb08739",
+    "original": "12 Gauge Round, Beanbag",
+    "translation": "12铅径豆袋弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe223_05000804#RCPE:FULL#7b68a338fbdd30262f98d1b3e6ff3ad1",
+    "original": ".223 Round",
+    "translation": ".223子弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe22LRHP_05000805#RCPE:FULL#20b4e5ac073972046e5f42be8c7e5832",
+    "original": ".22LR Round, Hollow Point",
+    "translation": ".22LR空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe308AP_05000806#RCPE:FULL#30d8ce2a4dd501c36909629ea3de0bb5",
+    "original": ".308 Round, Armor Piercing",
+    "translation": ".308穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe308HP_05000807#RCPE:FULL#a8c4835d740f8aae687a7fba3edcd5bb",
+    "original": ".308 Round, Hollow Point",
+    "translation": ".308空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe357MagnumHP_05000808#RCPE:FULL#c4150cdcaa6a8d5b802de9a8c24bde5f",
+    "original": ".357 Magnum Round, Hollow Point",
+    "translation": ".357马格南空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe38Special_05000809#RCPE:FULL#cf23435879bb4f93f825fcd3cf82e96e",
+    "original": ".38 Special Round",
+    "translation": ".38特制弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe44MagnumHP_0500080A#RCPE:FULL#c3160168f01132a50a0311d5205a0c32",
+    "original": ".44 Magnum Round, Hollow Point",
+    "translation": ".44马格南空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe44Special_0500080B#RCPE:FULL#5aa5ed21e53e2d946aa6bf1abb7f7a68",
+    "original": ".44 Special Round",
+    "translation": ".44特制弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe4570GovtHP_0500080C#RCPE:FULL#c40fe0729fd30f34bb04722dda3c3bb1",
+    "original": ".45-70 Gov't Round, Hollow Point",
+    "translation": ".45-70政府定制空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe50MGAP_0500080E#RCPE:FULL#2626cb586629294986d053c658e08cf7",
+    "original": ".50 MG Round, Armor Piercing",
+    "translation": ".50MG穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe50MGIncendiary_0500080F#RCPE:FULL#8cf6f22562d55deecc9aaa9bc5dfe7b1",
+    "original": ".50 MG Round, Incendiary",
+    "translation": ".50MG燃烧弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe556mmAP_05000810#RCPE:FULL#1cfa7a8e5d6bc0501c5a3a8cb439fefd",
+    "original": "5.56mm Round, Armor Piercing",
+    "translation": "5.56mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe556mmHollowPoint_05000811#RCPE:FULL#db7f5e3978cfd4e1630cdd5b024c216e",
+    "original": "5.56mm Round, Hollow Point",
+    "translation": "5.56mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe5mmAP_05000812#RCPE:FULL#cdd04d7e404b4a58eb1630ee1bfe9536",
+    "original": "5mm Round, Armor Piercing",
+    "translation": "5mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe5mmHP_05000813#RCPE:FULL#db77ddca73dcb477ff5575e48b8f5612",
+    "original": "5mm Round, Hollow Point",
+    "translation": "5mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe9mmHP_05000814#RCPE:FULL#d831055828e5254f21caa9524f15474c",
+    "original": "9mm Round, Hollow Point",
+    "translation": "9mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe9mmP_05000815#RCPE:FULL#4425bd9e9cf6f2344423d46a4657cbec",
+    "original": "9mm Round, +P",
+    "translation": "9mm+P弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBB_05000816#RCPE:FULL#8bbba32eb9ff8813e4f2e1d75028ad8b",
+    "original": "BB",
+    "translation": "BB弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe45ACPHP_05000818#RCPE:FULL#e37630fc55353d3e93af08d24217cfea",
+    "original": ".45 Auto Round, Hollow Point",
+    "translation": ".45Auto空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12Ga40Buck_05000819#RCPE:FULL#61f0713881a0cfc6ae3b565308cbf0cb",
+    "original": "12 Gauge Round, 4/0 Buck",
+    "translation": "12铅径4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaDragonsBreath_0500081A#RCPE:FULL#a88b76e3c82924f2b0a9dab613c02b50",
+    "original": "12 Gauge Round, Dragon's Breath",
+    "translation": "12铅径龙息弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaFlechette_0500081B#RCPE:FULL#c9c41a7bb5f2555d7d07c3a8454978ac",
+    "original": "12 Gauge Round, Flechette",
+    "translation": "12铅径箭形弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe12GaPulseSlug_0500081C#RCPE:FULL#74b4df3c9721901cc06c4600a42daacd",
+    "original": "12 Gauge Round, Pulse Slug",
+    "translation": "12铅径脉冲独头弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe20Ga30Buck_0500081D#RCPE:FULL#3f4b15f7cbfda7148adbb7c67034f2ff",
+    "original": "20 Gauge Round, 3/0 Buck",
+    "translation": "20铅径3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe20gaPulseSlug_0500081E#RCPE:FULL#a5b1f33f216df6d78eba251fd6d77163",
+    "original": "20 Gauge Round, Pulse Slug",
+    "translation": "20铅径脉冲独头弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe50MGExplosive_0500081F#RCPE:FULL#1ebcc6ea80cd42057dc325ce793d874e",
+    "original": ".50 MG Round, Explosive",
+    "translation": ".50MG高爆弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown10mmHP_05000821#RCPE:FULL#d9899bcfeff7527bc516a5561935ca82",
+    "original": "Breakdown 10mm Round, Hollow Point",
+    "translation": "拆解10mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown10mmJHP_05000822#RCPE:FULL#eaecbeb8c861c0762f6382ba5adadf0c",
+    "original": "Breakdown 10mm Round, JHP",
+    "translation": "拆解10mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown10mmJunk_05000823#RCPE:FULL#f7b802b5250e681aa97cab1f96fd7569",
+    "original": "Breakdown 10mm Round, Junk",
+    "translation": "拆解10mm子弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown127HP_05000824#RCPE:FULL#afee18d4356412c60a56da51e89cf144",
+    "original": "Breakdown 12.7mm Round, Hollow Point",
+    "translation": "拆解12.7mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaBeanbag_05000826#RCPE:FULL#7e0468459f24e2dbac16f37f68194615",
+    "original": "Breakdown 12 Gauge Round, Beanbag",
+    "translation": "拆解12铅径豆袋弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaCoinshot_05000827#RCPE:FULL#154b1d59e8ecae738d8a5d9ad07fe828",
+    "original": "Breakdown 12 Gauge Round, Coinshot",
+    "translation": "拆解12铅径硬币弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaJunkRounds_05000828#RCPE:FULL#2438b7470356bf41cd499b8de5b2383f",
+    "original": "Breakdown 12 Gauge Round, Junk",
+    "translation": "拆解12铅径霰弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaMag_05000829#RCPE:FULL#3c7fe92d6bdec943678a80600c0b9e94",
+    "original": "Breakdown 12 Gauge Round, Magnum",
+    "translation": "拆解12铅径马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaSlug_0500082A#RCPE:FULL#1496cb5264c91b684b265c1940f4967b",
+    "original": "Breakdown 12 Gauge Round, Slug",
+    "translation": "拆解12铅径独头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20GaJunk_0500082B#RCPE:FULL#2b055745955451d2d0600d9c1b14c7a3",
+    "original": "Breakdown 20 Gauge Round, Junk",
+    "translation": "拆解20铅径霰弹(土制)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20GaMag_0500082C#RCPE:FULL#206640505f421c886b1f5a7d206ee38b",
+    "original": "Breakdown 20 Gauge Round, Magnum",
+    "translation": "拆解20铅径马格南弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20GaSlug_0500082D#RCPE:FULL#cea080a6f3a71a9349524fb6637f275c",
+    "original": "Breakdown 20 Gauge Round, Slug",
+    "translation": "拆解20铅径独头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown223_0500082E#RCPE:FULL#3a92cf16afc3d8c548c58433c924f406",
+    "original": "Breakdown .223 Round",
+    "translation": "拆解.223子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown22LRHP_0500082F#RCPE:FULL#ff030fee537e6b6f266cd3802635b254",
+    "original": "Breakdown .22LR Round, Hollow Point",
+    "translation": "拆解.22LR空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown22LRJunk_05000830#RCPE:FULL#9c3f53b554bc4072d2656a0f7b507d95",
+    "original": "Breakdown .22LR Round, Junk",
+    "translation": "拆解.22LR子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown22LRPlinking_05000831#RCPE:FULL#bc027eb801ade16b606703c7183e23ae",
+    "original": "Breakdown .22LR Round, Plinking",
+    "translation": "拆解.22LR娱乐用弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown308AP_05000832#RCPE:FULL#4055d55d1808d833d5f4701eb60307f0",
+    "original": "Breakdown .308 Round, Armor Piercing",
+    "translation": "拆解.308穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown308HP_05000833#RCPE:FULL#f030044285c3dd09e00f5a663f204e57",
+    "original": "Breakdown .308 Round, Hollow Point",
+    "translation": "拆解.308空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown308JSP_05000834#RCPE:FULL#60197daf73da2f3160b5a5f4954daa1b",
+    "original": "Breakdown .308 Round, JSP",
+    "translation": "拆解.308被甲软尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown308Junk_05000835#RCPE:FULL#15058a17ef5be78b60a5ac3214084e92",
+    "original": "Breakdown .308 Round, Junk",
+    "translation": "拆解.308子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown357HP_05000839#RCPE:FULL#40ad8741f5c509e035b985ed66ec781c",
+    "original": "Breakdown .357 Magnum Round, Hollow Point",
+    "translation": "拆解.357马格南空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown357JFP_0500083A#RCPE:FULL#91cf0268694a3a0c93523deea778024f",
+    "original": "Breakdown .357 Magnum Round, JFP",
+    "translation": "拆解.357马格南被甲平头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown357Junk_0500083B#RCPE:FULL#388701ad2577cb064b40b9cd840f4246",
+    "original": "Breakdown .357 Magnum Round, Junk",
+    "translation": "拆解.357马格南弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown38Special_0500083C#RCPE:FULL#59dd3efe3767c663fde27f75947dccab",
+    "original": "Breakdown .38 Special Round",
+    "translation": "拆解.38特制弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown44HP_0500083D#RCPE:FULL#de1d35eb88a7012365edc3bec57ab2c4",
+    "original": "Breakdown .44 Magnum Round, Hollow Point",
+    "translation": "拆解.44马格南空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown44Junk_0500083E#RCPE:FULL#fbe93712f00ad5df351664f2e5c4661d",
+    "original": "Breakdown .44 Magnum Round, Junk",
+    "translation": "拆解.44马格南弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown44SWC_0500083F#RCPE:FULL#851e04fad9b19feeefac4ca55581983c",
+    "original": "Breakdown .44 Magnum Round, SWC",
+    "translation": "拆解.44马格南平头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown44Special_05000840#RCPE:FULL#ee28ed57dd2c1e9adda5322aae93b1f2",
+    "original": "Breakdown .44 Special Round",
+    "translation": "拆解.44特制弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown4570HP_05000841#RCPE:FULL#fe710245dd9051a5163161a54aac7e12",
+    "original": "Breakdown .45-70 Gov't Round, Hollow Point",
+    "translation": "拆解.45-70政府定制空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown4570Junk_05000842#RCPE:FULL#2af2404117ceb3f94ac9935b26a5ed5f",
+    "original": "Breakdown .45-70 Gov't Round, Junk",
+    "translation": "拆解.45-70定制弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown4570GovtHandLoad_05000843#RCPE:FULL#e04b511e765ff0328976ec3c757da734",
+    "original": "Breakdown .45-70 Gov't Round, SWC",
+    "translation": "拆解.45-70政府定制平头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50BMGAP_05000845#RCPE:FULL#9becc40e74f7f19dccdf73516251fc90",
+    "original": "Breakdown .50 MG Round, Armor Piercing",
+    "translation": "拆解.50MG穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50BMGMatch_05000846#RCPE:FULL#a15e8eb2e036d2b50fc709cd708e72c3",
+    "original": "Breakdown .50 MG Round, Match",
+    "translation": "拆解.50MG竞赛弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50BMGIncendiary_05000847#RCPE:FULL#519634d5727e22f109bca005e82c3b2e",
+    "original": "Breakdown .50 MG Round, Incendiary",
+    "translation": "拆解.50MG燃烧弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50BMGJunk_05000848#RCPE:FULL#b52f481767c4de370f063d2574e2534e",
+    "original": "Breakdown .50 MG Round, Junk",
+    "translation": "拆解.50 MG子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown556AP_05000849#RCPE:FULL#88380b3535f39c224c1355546ee8fc92",
+    "original": "Breakdown 5.56mm Round, Armor Piercing",
+    "translation": "拆解5.56mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown556HP_0500084A#RCPE:FULL#616fe4d84cb162358466dce0547ca21a",
+    "original": "Breakdown 5.56mm Round, Hollow Point",
+    "translation": "拆解5.56mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown556mmJunk_0500084B#RCPE:FULL#3100a01e7da1ce6e744c820c3cdcdada",
+    "original": "Breakdown 5.56mm Round, Junk",
+    "translation": "拆解5.56mm子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown556Surplus_0500084C#RCPE:FULL#ef4b2ad1850b643ec49cba206eb00a68",
+    "original": "Breakdown 5.56mm Round, Surplus",
+    "translation": "拆解5.56mm军剩弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown5mmAP_0500084D#RCPE:FULL#a7c7cf4a5d07c163db83f1526672898a",
+    "original": "Breakdown 5mm Round, Armor Piercing",
+    "translation": "拆解5mm子弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown5mmHP_0500084E#RCPE:FULL#6e63b8d8ced0a9b2a83a143876fc5922",
+    "original": "Breakdown 5mm Round, Hollow Point",
+    "translation": "拆解5mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown5mmJunk_0500084F#RCPE:FULL#f483755dbb5ab1f32304ba76fe694ba3",
+    "original": "Breakdown 5mm Round, Junk",
+    "translation": "拆解5mm子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown5mmSurplus_05000850#RCPE:FULL#18cb6ece2c053409d45c2e9c7c91f6f9",
+    "original": "Breakdown 5mm Round, Surplus",
+    "translation": "拆解5mm军剩弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown9mmHP_05000851#RCPE:FULL#3c0962484ea159d0cef810c27b612b75",
+    "original": "Breakdown 9mm Round, Hollow Point",
+    "translation": "拆解9mm空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown9mmJunk_05000852#RCPE:FULL#4508029920dea3fc61c4db3fc8921185",
+    "original": "Breakdown 9mm Round, Junk",
+    "translation": "拆解9mm子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown9mmP_05000853#RCPE:FULL#4b42247e0117c99d521cd6bf64849ed4",
+    "original": "Breakdown 9mm Round, +P",
+    "translation": "拆解9mm+P弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdownBB_05000854#RCPE:FULL#6693f8da8077a6902a3b00e3d327e108",
+    "original": "Breakdown BB",
+    "translation": "拆解BB弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdownNails_05000855#RCPE:FULL#c7907c726418147e158a00680e04407b",
+    "original": "Breakdown Nails",
+    "translation": "拆解钉子",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown45ACPHP_05000856#RCPE:FULL#57aa20851ac3d1a31da3fe7c7d69a3ee",
+    "original": "Breakdown .45 Auto Round, Hollow Point",
+    "translation": "拆解.45Auto空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown45ACPP_05000857#RCPE:FULL#2929984e12558c2d3105aac5f9e372c7",
+    "original": "Breakdown .45 Auto Round, +P",
+    "translation": "拆解.45+P Auto弹,",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown45ACPSuper_05000858#RCPE:FULL#9922183e2e21fb0ef6c78a6bc9f0a7c2",
+    "original": "Breakdown .45 Super Round",
+    "translation": "拆解.45超级弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown127JHP_05000859#RCPE:FULL#ff40837db8950a27c8b7ba7280d5f612",
+    "original": "Breakdown 12.7mm Round, JHP",
+    "translation": "拆解12.7mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12Ga40Buck_0500085A#RCPE:FULL#f7839645cbb0a671444a6f5544e4c9a3",
+    "original": "Breakdown 12 Gauge Round, 4/0 Buck",
+    "translation": "拆解12铅径4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12Ga40BuckMag_0500085B#RCPE:FULL#1b606b52e74f082b49c82d0be3735161",
+    "original": "Breakdown 12 Gauge Round, 4/0 Buck Magnum",
+    "translation": "拆解12铅径马格南4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaDragonsBreath_0500085C#RCPE:FULL#ffdacba18c02c3d2f02cc0eaa797b665",
+    "original": "Breakdown 12 Gauge Round, Dragon's Breath",
+    "translation": "拆解12铅径龙息弹,",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaFlechette_0500085D#RCPE:FULL#e698e34d0013cd4b310cab8bd99a8396",
+    "original": "Breakdown 12 Gauge Round, Flechette",
+    "translation": "拆解12铅径箭形弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown12GaPulseSlug_0500085E#RCPE:FULL#ad5867596840a18c9d2be4607d8854d1",
+    "original": "Breakdown 12 Gauge Round, Pulse Slug",
+    "translation": "拆解12铅径脉冲独头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20Ga40Buck_0500085F#RCPE:FULL#629a77a77971190446c9da605619790a",
+    "original": "Breakdown 20 Gauge Round, 3/0 Buck",
+    "translation": "拆解20铅径3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20Ga30BuckMag_05000860#RCPE:FULL#7fe95bd56638d367e854adfd3aecfd7d",
+    "original": "Breakdown 20 Gauge Round, 3/0 Buck Magnum",
+    "translation": "拆解20铅径马格南3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown20GaPulseSlug_05000861#RCPE:FULL#229236e68191475c5e16c7ee43da5c9b",
+    "original": "Breakdown 20 Gauge Round, Pulse Slug",
+    "translation": "拆解20铅径脉冲独头弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50BMGExplosive_05000862#RCPE:FULL#46b305ec5d2af62a4c5282b78dd969fc",
+    "original": "Breakdown .50 MG Round, Explosive",
+    "translation": "拆解.50 MG高爆弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown556Match_05000863#RCPE:FULL#b351f31b3c75b1c84d96d735ae6640fd",
+    "original": "Breakdown 5.56mm Round, Match",
+    "translation": "拆解5.56mm竞赛弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown5mmJSP_05000864#RCPE:FULL#e04ae3b3c49b8d60127eb4be47fdfedc",
+    "original": "Breakdown 5mm Round, JSP",
+    "translation": "拆解5mm被甲软尖弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown9mmJHP_05000865#RCPE:FULL#5f4d9cd4bb06ccec1bf80f81b7f3f56e",
+    "original": "Breakdown 9mm Round, JHP",
+    "translation": "拆解9mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe22LRJunkRounds_05000868#RCPE:FULL#060f8b3b643a89a068f2a84ee86eafa1",
+    "original": ".22LR Round, Junk",
+    "translation": "步枪口径",
+    "stage": 1
+  },
+  {
+    "key": "Recipe22LR_05000869#RCPE:FULL#e28f465c66a0baded24f4b1a1424cbdb",
+    "original": ".22LR Round",
+    "translation": "霰弹枪口径",
+    "stage": 1
+  },
+  {
+    "key": "Recipe127mmJunkRounds_0500086D#RCPE:FULL#9e1183666b01bcfd3f61b590330d1383",
+    "original": "12.7mm Round, Junk",
+    "translation": "12.7mm子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown127mmJunkRounds_0500086E#RCPE:FULL#abd88825788a63c5e13f27642b6d2858",
+    "original": "Breakdown 12.7mm Round, Junk",
+    "translation": "拆解12.7mm子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "Recipe10mmAP_05000870#RCPE:FULL#664fb5b78c043e70b76dd31f328c8227",
+    "original": "10mm Round, Armor Piercing",
+    "translation": "10mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown10mmAP_05000871#RCPE:FULL#f238b5ae2467ae90f9ccdbd92fa9e37d",
+    "original": "Breakdown 10mm Round, Armor Piercing",
+    "translation": "拆解10mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02RecipeBreakdown45AutoJunk_05000872#RCPE:FULL#039e0070c4ff864ad3f62d19209b7a9d",
+    "original": "Breakdown .45 Auto Round, Junk",
+    "translation": "拆解.45自动子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown32P_05000874#RCPE:FULL#8523e9f42b8ed8612586f7780ef8a2bc",
+    "original": "Breakdown .32 Round, +P",
+    "translation": "拆解.32+P弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown32Junk_05000875#RCPE:FULL#65b170cc2f3690ef65f95bd9db3beb04",
+    "original": "Breakdown .32 Round, Junk",
+    "translation": "拆解.32子弹（土制）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown32Match_05000876#RCPE:FULL#9d59f1cbe7a225c1d584d45833c84330",
+    "original": "Breakdown .32 Round, Match",
+    "translation": "拆解.32竞赛弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown50BMGDU_05001422#RCPE:FULL#3a0d2a0aea888f59bd396c0820948a0b",
+    "original": "Breakdown .50 MG Round, Depleted Uranium",
+    "translation": "拆解.50 MG贫铀弹",
+    "stage": 1
+  },
+  {
+    "key": "PistolAmmoSubRecipes_0500086A#RCCT:FULL#99302fb0790849d53b87c1255b680563",
+    "original": "Pistol Calibers",
+    "translation": "手枪口径",
+    "stage": 1
+  },
+  {
+    "key": "RifleAmmoSubRecipes_0500086B#RCCT:FULL#2960a84d1895e149e6880680e5ea835f",
+    "original": "Rifle Calibers",
+    "translation": "步枪口径",
+    "stage": 1
+  },
+  {
+    "key": "ShotgunAmmoSubRecipes_0500086C#RCCT:FULL#6360e6090216053e2e48564a7844fb87",
+    "original": "Shotgun Calibers",
+    "translation": "霰弹枪口径",
+    "stage": 1
+  }
+]

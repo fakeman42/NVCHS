@@ -1,0 +1,2318 @@
+[
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#30b1e8300347c0d0054893067cd34187",
+    "original": "Bionic Eyes",
+    "translation": "仿生眼",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#9b64be5f0c72874d709fb0efbb27a858",
+    "original": "Vision Mode Hotkey",
+    "translation": "视觉模式热键",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#1f1d0f106c446dfdefdb542fdcc85629",
+    "original": "Dynamic Grain",
+    "translation": "动态噪点",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#d059d7245b77cf3d086ce33afb7bf65c",
+    "original": "Brighter Enhanced Vision",
+    "translation": "增强视觉亮度增加",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#33a05785a561bf6d080553c34010ef0c",
+    "original": "Stealth Nano-Bots",
+    "translation": "隐形纳米机器人",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#2eabbcd30724df9305bed7066d8dff81",
+    "original": "Stealth Field Hotkey",
+    "translation": "隐身力场热键",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#7ec7b08a17402554c048573c5a9e6d80",
+    "original": "Use dynamic grain, when a vision mode is active.",
+    "translation": "启用视觉模式时，使用动态噪点",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMQuestScript_0100BC78#SCPT:SCDA#53e520b3044ae664f1e6853db2e4ed60",
+    "original": "Brighter Night Vision etc. for use with mods that add Darker Nights.",
+    "translation": "夜视模式亮度增加，提供给使用让夜晚变得更暗mod的人",
+    "stage": 1
+  },
+  {
+    "key": "CWxEMPEnch_010195E6#ENCH:FULL#cdf90f659118fe370763cef05e0532b8",
+    "original": "Electromagnetic Pulse",
+    "translation": "电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "CWxHFPEnch_010195E7#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight1RBoost_01005BD3#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBarter2Boost_01008149#SPEL:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBarter3Boost_0100814B#SPEL:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBarter4Boost_0100814D#SPEL:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight2LBoost_0100814F#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight3LBoost_01008151#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight4LBoost_01008153#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight2RBoost_01008155#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight3RBoost_01008157#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight4RBoost_01008159#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns2LBoost_0100815B#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns2RBoost_0100815D#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns3LBoost_0100815F#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns3RBoost_01008161#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns4LBoost_01008163#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns4RBoost_01008165#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick2LBoost_01008167#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick3LBoost_01008169#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick4LBoost_0100816B#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick2RBoost_0100816D#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick3RBoost_0100816F#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick4RBoost_01008171#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience2LBoost_01008173#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience3LBoost_01008175#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience4LBoost_01008177#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience2RBoost_01008179#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience3RBoost_0100817B#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience4RBoost_0100817D#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak2LBoost_0100817F#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak3LBoost_01008181#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak4LBoost_01008183#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak2RBoost_01008185#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak3RBoost_01008187#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak4RBoost_01008189#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxStealthField_0100BBBB#SPEL:FULL#2d8d8fce650f54d5e2c37f3e760a2dee",
+    "original": "Stealth Field",
+    "translation": "隐身力场",
+    "stage": 1
+  },
+  {
+    "key": "ImplantDTBoost_0014CCE0#SPEL:FULL#5c6a5329df39c3009fafc70e50f60000",
+    "original": "Sub-Dermal Armor",
+    "translation": "皮下护甲",
+    "stage": 1
+  },
+  {
+    "key": "CWxWaterBreathingAbility_01003068#SPEL:FULL#4f99bee7b6675c2667034aebb3993add",
+    "original": "Water Breathing",
+    "translation": "水下呼吸",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak1RBoost_01005BBF#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick1RBoost_01005BC0#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBarter1Boost_01005BC3#SPEL:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick1LBoost_01005BC5#SPEL:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak1LBoost_01005BC7#SPEL:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns1LBoost_01005BC9#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns1RBoost_01005BCA#SPEL:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience1RBoost_01005BCD#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience1LBoost_01005BCE#SPEL:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight1LBoost_01005BD1#SPEL:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL3Msg_0101655C#BOOK:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL3Msg_0101655C#BOOK:DESC#006bc63c3dbc2d785a00dd2a5ccc763c",
+    "original": "The human body can easily support its own weight, even in the presence of additional force caused by jumping or movement in general. With the Weight Absorber this ability is further enhanced, allowing its user to carry more things without becoming immobilized.\\n\\nEffect: Carry Weight +30\\nLevel: 3 / 4",
+    "translation": "人体能够轻松支撑自身的重量，即便在跳跃或一般运动产生的额外力量作用下也是如此。有了负重缓冲器，这一能力将得到进一步增强，使用户能够携带更多物品而不至于行动不便。\\n\\n功效：负重 +30\\n等级：3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL4Msg_0101655D#BOOK:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL4Msg_0101655D#BOOK:DESC#bd52a7e082e0f0e348504b4d90b158bb",
+    "original": "The human body can easily support its own weight, even in the presence of additional force caused by jumping or movement in general. With the Weight Absorber this ability is further enhanced, allowing its user to carry more things without becoming immobilized.\\n\\nEffect: Carry Weight +40\\nLevel: 4 / 4",
+    "translation": "人体能够轻松支撑自身的重量，即便在跳跃或一般运动产生的额外力量作用下也是如此。有了负重缓冲器，这一能力将得到进一步增强，使用户能够携带更多物品而不至于行动不便。\\n\\n功效：负重 +40\\n等级：4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL2Msg_0101655E#BOOK:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL2Msg_0101655E#BOOK:DESC#5b74441f186717dd0463367c30f4af43",
+    "original": "Why bother with expensive seminars or books on rhetorical training? The Voice Modulator adjusts the vibrations of your vocal chords to avoid any unpleasant frequencies. And everybody knows: It's not what you say, but how you say it!\\n\\nEffect: Barter +3, Speech +3\\nLevel: 2 / 4",
+    "translation": "为什么还要用昂贵的修辞训练书籍？语音调制器调整你的声带振动，以避免任何不愉快的的频率。大家都知道关键不是你说什么，而是你怎么说\\n\\n功效:砍价+ 3,口才+ 3\\n等级:2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL3Msg_0101655F#BOOK:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL3Msg_0101655F#BOOK:DESC#32168a8a710615289ac9f96b2abe9ddb",
+    "original": "Why bother with expensive seminars or books on rhetorical training? The Voice Modulator adjusts the vibrations of your vocal chords to avoid any unpleasant frequencies. And everybody knows: It's not what you say, but how you say it!\\n\\nEffect: Barter +4, Speech +4\\nLevel: 3 / 4",
+    "translation": "为什么还要用昂贵的修辞训练书籍？语音调制器调整你的声带振动，以避免任何不愉快的的频率。大家都知道关键不是你说什么，而是你怎么说\\n\\n功效:砍价+ 4,口才+ 4\\n等级:3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL4Msg_01016560#BOOK:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL4Msg_01016560#BOOK:DESC#45a7d6c2d087c12f940e38b027ad13ee",
+    "original": "Why bother with expensive seminars or books on rhetorical training? The Voice Modulator adjusts the vibrations of your vocal chords to avoid any unpleasant frequencies. And everybody knows: It's not what you say, but how you say it!\\n\\nEffect: Barter +5, Speech +5\\nLevel: 4 / 4",
+    "translation": "为什么还要用昂贵的修辞训练书籍？语音调制器调整你的声带振动，以避免任何不愉快的的频率。大家都知道关键不是你说什么，而是你怎么说\\n\\n功效:砍价+ 5,口才+ 5\\n等级:4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL2Msg_01016561#BOOK:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL2Msg_01016561#BOOK:DESC#a37c8ea1f0748682b96061cbb3d245a5",
+    "original": "The Tread Damper uses a set of ultra-sensitive sensors to detect the distance between sole and ground. Just before surface contact, adaptive motion actuators slow down movement to minimize the resulting noise. This system is best utilized when moving carefully, preferably in light clothes.\\n\\nEffect: Sneak +6\\nLevel: 2 / 4",
+    "translation": "步态减震器采用了超灵敏的传感器检测鞋底和地面之间的距离。前表面接触，自适应运动执行器缓慢上下运动，以尽量减少由此产生的噪音。该系统是最好的利用方式是潜行移动。\\n\\n功效:潜行 +6\\n等级: 2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL3Msg_01016562#BOOK:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL3Msg_01016562#BOOK:DESC#c65e47db7cc92a43f044262682e38184",
+    "original": "The Tread Damper uses a set of ultra-sensitive sensors to detect the distance between sole and ground. Just before surface contact, adaptive motion actuators slow down movement to minimize the resulting noise. This system is best utilized when moving carefully, preferably in light clothes.\\n\\nEffect: Sneak +8\\nLevel: 3 / 4",
+    "translation": "步态减震器采用了超灵敏的传感器检测鞋底和地面之间的距离。前表面接触，自适应运动执行器缓慢上下运动，以尽量减少由此产生的噪音。该系统是最好的利用方式是潜行移动。\\n\\n功效:潜行 +8\\n等级: 3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL4Msg_01016563#BOOK:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL4Msg_01016563#BOOK:DESC#094c80d82fc7dbad11c9c6a3792809e7",
+    "original": "The Tread Damper uses a set of ultra-sensitive sensors to detect the distance between sole and ground. Just before surface contact, adaptive motion actuators slow down movement to minimize the resulting noise. This system is best utilized when moving carefully, preferably in light clothes.\\n\\nEffect: Sneak +10\\nLevel: 4 / 4",
+    "translation": "步态减震器采用了超灵敏的传感器检测鞋底和地面之间的距离。前表面接触，自适应运动执行器缓慢上下运动，以尽量减少由此产生的噪音。该系统是最好的利用方式是潜行移动。\\n\\n功效:潜行 +10\\n等级: 4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL2Msg_01016564#BOOK:FULL#2b92c05e70e052bd31da33367d859a8f",
+    "original": "Razor Nails",
+    "translation": "剃刀爪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL2Msg_01016564#BOOK:DESC#3c055b4ec203ab95594f342b72bee321",
+    "original": "Developed for spies and assassins, Razor Nails turn the human hand into a lethal weapon. To avoid detection or self-inflicted injuries, the blades stay retracted under the fingernails until activated. The most effective attack locations are the major arteries.\\n\\nEffect: Unarmed critical chance and damage +40%%%%\\nLevel: 2 / 4",
+    "translation": "专为间谍和刺客打造，剃刀指甲能将人类的手掌变成致命的武器。为了避免被发现或造成意外伤害，刀片平时隐藏在指甲下方，直到激活时才会弹出。最有效的攻击部位是主动脉。\\n\\n功效: 徒手暴击伤害和几率 +40%%\\n等级: 2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL3Msg_01016565#BOOK:FULL#2b92c05e70e052bd31da33367d859a8f",
+    "original": "Razor Nails",
+    "translation": "剃刀爪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL3Msg_01016565#BOOK:DESC#b30e2545f8a76e59a403f1cfd62bb341",
+    "original": "Developed for spies and assassins, Razor Nails turn the human hand into a lethal weapon. To avoid detection or self-inflicted injuries, the blades stay retracted under the fingernails until activated. The most effective attack locations are the major arteries.\\n\\nEffect: Unarmed critical chance and damage +55%%%%\\nLevel: 3 / 4",
+    "translation": "专为间谍和刺客打造，剃刀指甲能将人类的手掌变成致命的武器。为了避免被发现或造成意外伤害，刀片平时隐藏在指甲下方，直到激活时才会弹出。最有效的攻击部位是主动脉。\\n\\n功效: 徒手暴击伤害和几率 +55%%\\n等级: 3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL4Msg_01016566#BOOK:FULL#2b92c05e70e052bd31da33367d859a8f",
+    "original": "Razor Nails",
+    "translation": "剃刀爪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL4Msg_01016566#BOOK:DESC#29d1633499c2372582b0f3cc3c046621",
+    "original": "Developed for spies and assassins, Razor Nails turn the human hand into a lethal weapon. To avoid detection or self-inflicted injuries, the blades stay retracted under the fingernails until activated. The most effective attack locations are the major arteries.\\n\\nEffect: Unarmed critical chance and damage +70%%%%\\nLevel: 4 / 4",
+    "translation": "专为间谍和刺客打造，剃刀指甲能将人类的手掌变成致命的武器。为了避免被发现或造成意外伤害，刀片平时隐藏在指甲下方，直到激活时才会弹出。最有效的攻击部位是主动脉。\\n\\n功效: 徒手暴击伤害和几率 +70%%\\n等级: 4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL2Msg_01016567#BOOK:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL2Msg_01016567#BOOK:DESC#8abe71a7067a05757f4ca6be61cf2bcd",
+    "original": "Though development in this sector still is in its early stages, the Neural Datatool allows its user to directly interact with machines through common interfaces. Even though low-level machine access is not yet possible, the datatool speeds up data in/output, resulting in a moderate efficiency boost.\\n\\nEffect: Science +6\\nLevel: 2 / 4",
+    "translation": "虽然在这个领域的发展仍处于早期阶段,神经数据工具允许用户直接与机器通过常见的接口。尽管访问底层机器是不可能的,但是数据工具还是能加速数据输入输出,得到一个稳定的效率改善。\\n\\n功效:科学 + 6\\n等级:2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL3Msg_01016568#BOOK:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL3Msg_01016568#BOOK:DESC#f08766b95bca5ae4d8b4fcfe9c8c482f",
+    "original": "Though development in this sector still is in its early stages, the Neural Datatool allows its user to directly interact with machines through common interfaces. Even though low-level machine access is not yet possible, the datatool speeds up data in/output, resulting in a moderate efficiency boost.\\n\\nEffect: Science +8\\nLevel: 3 / 4",
+    "translation": "虽然在这个领域的发展仍处于早期阶段,神经数据工具允许用户直接与机器通过常见的接口。尽管访问底层机器是不可能的,但是数据工具还是能加速数据输入输出,得到一个稳定的效率改善。\\n\\n功效:科学 + 8\\n等级:3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL4Msg_01016569#BOOK:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL4Msg_01016569#BOOK:DESC#0f562072fde7672fa14c544d888b33dd",
+    "original": "Though development in this sector still is in its early stages, the Neural Datatool allows its user to directly interact with machines through common interfaces. Even though low-level machine access is not yet possible, the datatool speeds up data in/output, resulting in a moderate efficiency boost.\\n\\nEffect: Science +10\\nLevel: 4 / 4",
+    "translation": "虽然在这个领域的发展仍处于早期阶段,神经数据工具允许用户直接与机器通过常见的接口。尽管访问底层机器是不可能的,但是数据工具还是能加速数据输入输出,得到一个稳定的效率改善。\\n\\n功效:科学 + 10\\n等级:4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL2Msg_0101656A#BOOK:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL2Msg_0101656A#BOOK:DESC#8c09e7dfa4c3300b439e69bf881939fd",
+    "original": "The RobCo Hand Stabilizer uses several heuristic approaches to detect and isolate nerve signals that would otherwise cause involuntary muscle movement. To avoid negative side effects, jitter is not removed completely. Still, the Hand Stablizer is popular in work environments that require precise craftsmanship.\\n\\nEffect: Lockpick +3, Repair +3\\nLevel: 2 / 4",
+    "translation": "手臂稳定器使用一些启发式方法来检测和隔离,否则会引起无意识肌肉的运动。为了避免消极的副作用、抖动是不能完全去除。尽管如此，手的稳定在工作环境中，需要精确的工艺。\\n\\n\\n功效:开锁 + 3,修理 + 3\\n等级:2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL3Msg_0101656B#BOOK:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL3Msg_0101656B#BOOK:DESC#38c5c1d6bf49d93433f457d03e02394a",
+    "original": "The RobCo Hand Stabilizer uses several heuristic approaches to detect and isolate nerve signals that would otherwise cause involuntary muscle movement. To avoid negative side effects, jitter is not removed completely. Still, the Hand Stablizer is popular in work environments that require precise craftsmanship.\\n\\nEffect: Lockpick +4, Repair +4\\nLevel: 3 / 4",
+    "translation": "手臂稳定器使用一些启发式方法来检测和隔离,否则会引起无意识肌肉的运动。为了避免消极的副作用、抖动是不能完全去除。尽管如此，手的稳定在工作环境中，需要精确的工艺。\\n\\n\\n功效:开锁 + 4,修理 + 4\\n等级:3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL4Msg_0101656C#BOOK:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL4Msg_0101656C#BOOK:DESC#fd7bfa56e62253e27bb0ffccf342ceef",
+    "original": "The RobCo Hand Stabilizer uses several heuristic approaches to detect and isolate nerve signals that would otherwise cause involuntary muscle movement. To avoid negative side effects, jitter is not removed completely. Still, the Hand Stablizer is popular in work environments that require precise craftsmanship.\\n\\nEffect: Lockpick +5, Repair +5\\nLevel: 4 / 4",
+    "translation": "手臂稳定器使用一些启发式方法来检测和隔离,否则会引起无意识肌肉的运动。为了避免消极的副作用、抖动是不能完全去除。尽管如此，手的稳定在工作环境中，需要精确的工艺。\\n\\n\\n功效:开锁 + 5,修理 + 5\\n等级:4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL2Msg_0101656D#BOOK:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL2Msg_0101656D#BOOK:DESC#7819ecad29603ad3c4f2e437d255c2fa",
+    "original": "By analyzing movement patterns and comparing them to those stored in its database, the Motor Memorizer can detect certain actions associated with weapon handling. Once triggered, brain regions responsible for muscle memory are stimulated to increase learning speed.\\n\\nEffect: Guns +3, Energy Weapons +3\\nLevel: 2 / 4",
+    "translation": "通过分析动作模式并将其与数据库中存储的模式进行比较，动作记忆器能够检测出与武器操作相关的特定动作。一旦触发，负责肌肉记忆的大脑区域就会受到刺激，从而提高学习速度。\\n\\n功效:枪械 + 3,能量武器 + 3\\n等级:2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL3Msg_0101656E#BOOK:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL3Msg_0101656E#BOOK:DESC#33921444494b0abaa0f56c23fa2e0485",
+    "original": "By analyzing movement patterns and comparing them to those stored in its database, the Motor Memorizer can detect certain actions associated with weapon handling. Once triggered, brain regions responsible for muscle memory are stimulated to increase learning speed.\\n\\nEffect: Guns +4, Energy Weapons +4\\nLevel: 3 / 4",
+    "translation": "通过分析动作模式并将其与数据库中存储的模式进行比较，动作记忆器能够检测出与武器操作相关的特定动作。一旦触发，负责肌肉记忆的大脑区域就会受到刺激，从而提高学习速度。\\n\\n功效:枪械 + 4,能量武器 + 4\\n等级:3 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL4Msg_0101656F#BOOK:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL4Msg_0101656F#BOOK:DESC#1c71b21b07e4a1f824415465af030cd5",
+    "original": "By analyzing movement patterns and comparing them to those stored in its database, the Motor Memorizer can detect certain actions associated with weapon handling. Once triggered, brain regions responsible for muscle memory are stimulated to increase learning speed.\\n\\nEffect: Guns +5, Energy Weapons +5\\nLevel: 4 / 4",
+    "translation": "通过分析动作模式并将其与数据库中存储的模式进行比较，动作记忆器能够检测出与武器操作相关的特定动作。一旦触发，负责肌肉记忆的大脑区域就会受到刺激，从而提高学习速度。\\n\\n功效:枪械 + 5,能量武器 + 5\\n等级:4 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantEMPMsg_01016570#BOOK:FULL#c7ea336eb4305b1233a534ea28146bb4",
+    "original": "EMP Generator",
+    "translation": "电磁脉冲发生器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantEMPMsg_01016570#BOOK:DESC#6ea08380d9ce84b04b23278d476e7305",
+    "original": "The pinnacle of cybernetic weapons research, and it's right there in your hands - literally. The portable EMP Generator is embedded in forearm and palms. Designed for infiltration and sabotage missions, it is self-powered and highly effective against automated protection systems or energy-based weaponry and equipment.\\n\\nEffect: Implanted EMP Generator",
+    "translation": "神经机械学武器研究的巅峰之作，它就在你的手中 - 很准确的说。便携式电磁脉冲发生器嵌入在前臂和手掌中。它被设计用于渗透和破坏任务，这是自动充能并且对与自动保护系统或者能量装备非常有效。\\n\\n效果：植入EMP电磁脉冲发生器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHFPMsg_01016571#BOOK:FULL#c9dd3373c826656756812c0ec65b52b0",
+    "original": "Hyperfrequency Emitter",
+    "translation": "超高频发射器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHFPMsg_01016571#BOOK:DESC#2b657993c63790928acf657d74757cc0",
+    "original": "While similiar implants utilize electromagnetic bursts to deal with (partly) non-organic adversaries, the Hyperfrequency Emitter is most effective against unarmored human or animal targets. Short-range microwaves quickly energize the air, causing an instantaneous combustion.\\n\\nEffect: Implanted Hyperfrequency Emitter",
+    "translation": "虽然类似的植入物利用电磁脉冲伤害（部分）无机的敌人，而超高频发射器无对装甲目标非常有效。短程微波快速激发空气，造成瞬时燃烧。\\n\\n效果：植入超高频发射器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantEmpathySynthesizerMsg_01016572#BOOK:FULL#0fc7844631f36041c39ff016a0d5f26a",
+    "original": "Empathy Synthesizer",
+    "translation": "共情同调仪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantEmpathySynthesizerMsg_01016572#BOOK:DESC#1aa5565796c2ab0d2598fbaeb8fc31b8",
+    "original": "Do you ofen feel like you don't get people at all? With the Empathy Synthesizer these problems are in the past. Residing in your prefrontal cortex, its enhanced emotional capabilities will take you to the next level - personally and professionally.\\n\\nEffect: Charisma +1",
+    "translation": "你是否经常觉得自己完全无法理解他人？有了共情同调仪，这些问题都将不复存在。它位于你的前额叶皮层中，其增强的情感能力将让你在个人和职业方面都更上一层楼。\\n\\n效果：魅力+1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLogicCoProcessorMsg_01016573#BOOK:FULL#386414bb40a83e30fe642687c758f749",
+    "original": "Logic Co-Processor",
+    "translation": "逻辑协处理器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLogicCoProcessorMsg_01016573#BOOK:DESC#7a3b60bc3431405170fbdd7c8d2c3e8c",
+    "original": "Implanted directly in your cerebral cortex, the Logic Co-Processor greatly enhances higher brain functions for faster learning, better concentration and an instant understanding of even the most complicated things.\\n\\nEffect: Intelligence +1",
+    "translation": "逻辑协处理器直接植入你的大脑皮层中，能极大地增强你的高级脑功能，让你学习速度更快、注意力更集中，甚至能瞬间理解最复杂的事物。\\n\\n效果：智力+1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantOpticsEnhancerMsg_01016574#BOOK:FULL#94d7a75839f0c2dfedddf5ca5eb5d22e",
+    "original": "Optics Enhancer",
+    "translation": "视觉增强器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantOpticsEnhancerMsg_01016574#BOOK:DESC#ba00d2ab1d8ce56e334ebefd97ea197c",
+    "original": "By using advanced algorithms developed for image recognition, the Optics Enhancer pre-processes data in the optical nerve to create a sharper and more detailed vision. Open your eyes and see the world in a new light!\\n\\nEffect: Perception +1",
+    "translation": "视觉增强器利用为图像识别开发的先进算法，对视神经中的数据进行预处理，从而创造出更锐利、更详细的视觉。睁开眼睛，用全新的视角看待世界！\\n\\n效果：感知+1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantProbabilityCalculatorMsg_01016575#BOOK:FULL#44e1c022868d0b97aabe11f1c041c7e2",
+    "original": "Probability Calculator",
+    "translation": "概率计算器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantProbabilityCalculatorMsg_01016575#BOOK:DESC#38884bcb39d89aa32d893a1a1d0357d0",
+    "original": "Your life is too important to leave anything to chance! With the Probability Calculator, the decision-making controlled by the frontal lobe is optimized to maximize the likeliness of a desired outcome. For personal safety reasons, we discourage its use for excessive gambling.\\n\\nEffect: Luck +1",
+    "translation": "你的生命太过宝贵，不能留下任何偶然！概率计算器能够优化由前额叶控制的决策制定，从而最大化理想结果的可能性。为了个人安全起见，我们不建议过度将其用于赌博。\\n\\n效果：幸运+1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHypertrophyAcceleratorMsg_01016576#BOOK:FULL#b9122476fcdbc218c3768554566406fa",
+    "original": "Hypertrophy Accelerator",
+    "translation": "肢端增长器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHypertrophyAcceleratorMsg_01016576#BOOK:DESC#fafefca6fa91bc2f875ef2a95e07bbd5",
+    "original": "Already used by thousands of athletes all over the world, the Hypertrophy Accelerator allows for a quick and safe increase of muscle mass without leaving any traceable substances in your organism. Certified to be undetectable by any recent testing method.\\n\\nEffect: Strength +1",
+    "translation": "数以千计的世界各地的运动员已经使用，肢端增长器可以安全快速增加肌肉质量，同时不会在体内留下任何可追踪的物质。经过认证，任何最新的检测方法都无法发现其踪迹。\\n\\n效果: 力量 +1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMonocyteBreederMsg_01016577#BOOK:FULL#e82f135566a1d25933ad7edc751b655d",
+    "original": "Monocyte Breeder",
+    "translation": "细胞增殖器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMonocyteBreederMsg_01016577#BOOK:DESC#bf4d775d0236c86c6928f87ac476b91f",
+    "original": "Developed by Med-Tek, the PHOENIX Monocyte Breeder greatly enhances the healing capabilities of the human body. Due to rapid cell regeneration, recovery after even the most severe injuries is reduced to several days instead of weeks or months.\\n\\nEffect: Health Regeneration",
+    "translation": "由Med-Tek公司开发的凤凰细胞增殖器，大大增强了人体的康复能力。由于快速的细胞再生，复苏的时间周期减少到几天，而不是数周或者数月\\n\\n效果: 增加生命恢复速度",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNociceptionRegulatorMsg_01016578#BOOK:FULL#29963157d62e8145b78e96174b7cd962",
+    "original": "Nociception Regulator",
+    "translation": "痛觉调整器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNociceptionRegulatorMsg_01016578#BOOK:DESC#f81ea3b12964b5455a62cd67c4d64c4e",
+    "original": "Finally there's hope for the millions of people suffering from chronic pain! Unlike any pain medication that can give only temporal release with often severe side-effects, the Nociception Regulator permanently regulates the pain at its root without diminishing its important natural warning function.\\n\\nEffect: Endurance +1",
+    "translation": "数百万遭受长期病痛的人们最终看到了希望，与有严重副作用的且只能暂时缓解疼痛的止痛片不同，痛觉调整器能永久的根除疼痛且又不消弱其重要的正常警告功能。\\n\\n效果: 耐力 +1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantReflexBoosterMsg_01016579#BOOK:FULL#f0bc3dd172395900b3e9f1155380dc4a",
+    "original": "Reflex Booster",
+    "translation": "反射加速器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantReflexBoosterMsg_01016579#BOOK:DESC#1260f74bd97a93fcb4205a027a9f5c15",
+    "original": "In situations where milliseconds make the difference between victory and defeat - or even between life and death - the Reflex Booster will give you the essential edge. Learning from the physiology of animals whose survival depends on ultra-fast responses, your central nervous node is enhanced to transmit motor signals with minimal delay.\\n\\nEffect: Agility +1",
+    "translation": "在胜负乃至生死只在一念之间的关键时刻，反射加速器将赋予你至关重要的优势。它借鉴了那些生存依赖超快反应的动物的生理机制，你的中枢神经节点经过强化，能够以最小的延迟传输运动信号。\\n\\n效果：敏捷+1",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSubDermalArmorMsg_0101657A#BOOK:FULL#5c6a5329df39c3009fafc70e50f60000",
+    "original": "Sub-Dermal Armor",
+    "translation": "皮下护甲",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSubDermalArmorMsg_0101657A#BOOK:DESC#c6cbd659e51c8926e910fd0c92261717",
+    "original": "Studies have shown that NEMEAN Sub-Dermal Armor allows a man clothed only in civilian attire to survive a live fire scenario which under most circumstances would have killed a fully armed soldier. However, due to high-end production costs, it's kept for those who can afford the luxury of sure-fire safety, as others must scrape by with Kevlar.\\n\\nEffect: DT +4",
+    "translation": "研究表明，NEMEAN皮下装甲能使只穿普通服饰的人在一场能够杀死全副武装的士兵的火灾中存活。但是，由于高昂的生产成本，它只确保那些能够负担的起这种奢侈的人的绝对安全，而其他人只能依靠凯夫拉尔装甲\\n\\n效果: 防御 +4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScannerMsg_0101657B#BOOK:FULL#394aec47242e3b61c3755a6ecc0f006c",
+    "original": "AR Scanner",
+    "translation": "AR扫描仪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScannerMsg_0101657B#BOOK:DESC#ed57000215c04bb56b21c56aa0fdd1c2",
+    "original": "The West Tek Augmented Reality Scanner was designed to provide computer-assisted combat intelligence in real-time. When moving behind enemy lines, it assists in evaluating potential threats, analyzing enemy defenses and reviewing inflicted damage.\\n\\nEffect: Scanner",
+    "translation": "西泰克增强实相(AR)扫描仪被设计用来提供计算机辅助实时作战智能。当移动到敌军后方时，它有助于评估潜在的威胁，分析敌人的防御并评估造成的伤害。\\n\\n效果: 实时战术分析",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBionicEyesMsg_0101657C#BOOK:FULL#30b1e8300347c0d0054893067cd34187",
+    "original": "Bionic Eyes",
+    "translation": "仿生眼",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBionicEyesMsg_0101657C#BOOK:DESC#9667b7b3ae67e05f6c958ed15411ea7f",
+    "original": "In the effort to improve combat abilities of soldiers by cybernetically enhancing their bodies, Bionic Eyes were one of the first targets for research. As such, they come in multiple variations with different features, ranging from improved night vision to advanced heat or electro-magnetic vision modes.\\n\\nEffect: Enhanced Vision Modes",
+    "translation": "通过神经机械学增强士兵的身体能够提高他们的作战能力，而仿生眼就是最初的研究目标之一。同样地，仿生眼也有多种变化对应不同的功能，包括改善夜视能力的热学或电磁模式。\\n\\n效果: 增强视觉模式",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantAdrenalineBoosterMsg_0101657D#BOOK:FULL#de18d4eb299fab7e7bf9822bfcfa52da",
+    "original": "Adrenaline Booster",
+    "translation": "肾上腺素增幅器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantAdrenalineBoosterMsg_0101657D#BOOK:DESC#1444c7e570c42342a7e0437ccf666b18",
+    "original": "Most human feelings and abilities are greatly amplified by stressful situations. The RUSH Adrenaline Booster controls and further enhances this effect, pushing you far beyond anything you've ever experienced. Use of a synthetic heart in conjunction is recommended for both performance and safety reasons.\\n\\nEffect: AP regeneration bonus for kills",
+    "translation": "大多数人在紧张的情况下情感和能力会极大地放大。RUSH肾上腺素增幅器控制并进一步加强了这种效果，给你一种前所未有的体验。为了性能和安全，建议和人造心脏一起使用。\\n\\n效果: 杀敌加快AP回复",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantStealthNanoBotsMsg_0101657E#BOOK:FULL#33a05785a561bf6d080553c34010ef0c",
+    "original": "Stealth Nano-Bots",
+    "translation": "隐形纳米机器人",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantStealthNanoBotsMsg_0101657E#BOOK:DESC#b6cc1dbe7bfcddb7a27b2d45cf25dfd6",
+    "original": "Based on previous innovations, RobCo presents its latest breakthrough in stealth technology. Nano-Bots reside on the users skin, eliminating the need for any special device to generate the stealth field.\\n\\nEffect: Stealth Field Ability",
+    "translation": "在以往创新的基础上，罗科公司推出了其隐形技术的最新突破。纳米机器人附着在用户皮肤上，无需任何特殊装置即可生成隐形立场。\\n\\n效果：隐形立场能力",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSyntheticLungsMsg_0101657F#BOOK:FULL#f52492bb5e2618a965b74b4525cada99",
+    "original": "Synthetic Lungs",
+    "translation": "人造肺",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSyntheticLungsMsg_0101657F#BOOK:DESC#36d7e4a8fd86debcc7a7dab8409d63e9",
+    "original": "Synthetic elements are implanted at several key locations in the respiratory system, greatly enhancing the users' oxygen supply. Initially developed for victims of chronic lung diseases, these implants were later utilized in the civilian sector (firefighters, divers) as well as by the military.\\n\\nEffects: Water Breathing",
+    "translation": "人工合成元素被植入到呼吸道的几个关键位置，这极大的提高了用户的氧气供应。这些植入体最初是为慢性肺部疾病患者开发的，后来被民用部门（消防队员，潜水员）\\n及军方使用。\\n\\n效果: 水下呼吸",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNanobionicWeaveMsg_01016580#BOOK:FULL#2a4c5a172300afbf2f4f282e2e1858bb",
+    "original": "Nanobionic Weave",
+    "translation": "纳米编织器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNanobionicWeaveMsg_01016580#BOOK:DESC#985b45694a328ccc8d2440ae54437076",
+    "original": "Usable in any non-vital body region, the Nanobionic Weave combines a number of techniques to make the respective area highly resilient. Genetic information is replicated and decentrally stored to allow identical reconstruction if necessary. This reconstruction is handled by nanobots which will repair any sustained structural damage in minutes as long as the user is still alive.\\n\\nEffect: Limb Regeneration",
+    "translation": "纳米编织器结合了一系列技术使各个区域迅速恢复原状，可以使用在任何非关键的人体部位。遗传信息能在必要时复制并分散存储以允许同源重塑。这种重塑是由可以修复任何持续结构损伤的纳米机器人完成的，只要用户在几分钟内仍然存活。\\n\\n效果: 肢体再生",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantKineticAcceleratorMsg_01016581#BOOK:FULL#6ae3c25808ec82c89d9bbf83ecbe2f9c",
+    "original": "Kinetic Accelerator",
+    "translation": "动力加速器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantKineticAcceleratorMsg_01016581#BOOK:DESC#b6d2f323adf72b45e9c5ee645d4e13f9",
+    "original": "Consisting of a mechanical and a neurological control component, the Kinetic Accelerator can be used to speed up movement of various body parts. Generally, hydraulic parts near the joints are used for rapid acceleration, while the brain implant takes care of coordinating the movement at increased velocity.\\n\\nArms: Reload speed +10%%%% (+20%%%%), attack speed +5%%%% (+10%%%%)\\nLegs: Running speed +10%%%% (+20%%%%)",
+    "translation": "动力加速器由一个机械组件和一个神经系统控制组件组合而成，用于加快身体各部位的运动。一般来说，关节附近的液压部件用于加速，而大脑植入体负责协调加速运动\\n\\n手部：换弹速度 +10%%%% (+20%%%%)，攻击速度 +5%%%% (+10%%%%)\\n腿部：跑步速度 +10%%%% (+20%%%%)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL1Msg_01016553#BOOK:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL1Msg_01016553#BOOK:DESC#5ea20fa6c5525f30505719b55f30f97b",
+    "original": "Why bother with expensive seminars or books on rhetorical training? The Voice Modulator adjusts the vibrations of your vocal chords to avoid any unpleasant frequencies. And everybody knows: It's not what you say, but how you say it!\\n\\nEffect: Barter +2, Speech +2\\nLevel: 1 / 4",
+    "translation": "为什么还要用昂贵的修辞训练书籍？语音调制器调整你的声带振动，以避免任何不愉快的的频率。大家都知道关键不是你说什么，而是你怎么说\\n\\n功效:砍价+ 2,口才+ 2\\n等级:1 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL1Msg_01016554#BOOK:FULL#d107a6c2d83fd886565f19050e0a77ae",
+    "original": "Hand Stabilizer",
+    "translation": "手臂稳定器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL1Msg_01016554#BOOK:DESC#4dba7e7dc4f94d7e65b74d3780178701",
+    "original": "The RobCo Hand Stabilizer uses several heuristic approaches to detect and isolate nerve signals that would otherwise cause involuntary muscle movement. To avoid negative side effects, jitter is not removed completely. Still, the Hand Stablizer is popular in work environments that require precise craftsmanship.\\n\\nEffect: Lockpick +2, Repair +2\\nLevel: 1 / 4",
+    "translation": "手臂稳定器使用一些启发式方法来检测和隔离,否则会引起无意识肌肉的运动。为了避免消极的副作用、抖动是不能完全去除。尽管如此，手的稳定在工作环境中，需要精确的工艺。\\n\\n功效:开锁 + 2,修理 + 2\\n等级:1 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL1Msg_01016555#BOOK:FULL#8229412805494ee83ff6ea20299a861d",
+    "original": "Motor Memorizer",
+    "translation": "动作记忆器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL1Msg_01016555#BOOK:DESC#a62488bf0853a8809d1c46ca59c554e8",
+    "original": "By analyzing movement patterns and comparing them to those stored in its database, the Motor Memorizer can detect certain actions associated with weapon handling. Once triggered, brain regions responsible for muscle memory are stimulated to increase learning speed.\\n\\nEffect: Guns +2, Energy Weapons +2\\nLevel: 1 / 4",
+    "translation": "通过分析动作模式并将其与数据库中存储的模式进行比较，动作记忆器能够检测出与武器操作相关的特定动作。一旦触发，负责肌肉记忆的大脑区域就会受到刺激，从而提高学习速度。\\n\\n效果：枪械+2，能量武器+2\\n等级：1/4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL1Msg_01016556#BOOK:FULL#a9c4d542ac1ee0a662c05c8621a9bb7e",
+    "original": "Neural Datatool",
+    "translation": "神经数据工具",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL1Msg_01016556#BOOK:DESC#1cb27bb06e154a94e19cf8876de3adf9",
+    "original": "Though development in this sector still is in its early stages, the Neural Datatool allows its user to directly interact with machines through common interfaces. Even though low-level machine access is not yet possible, the datatool speeds up data in/output, resulting in a moderate efficiency boost.\\n\\nEffect: Science +4\\nLevel: 1 / 4",
+    "translation": "虽然在这个领域的发展仍处于早期阶段,神经数据工具允许用户直接与机器通过常见的接口。尽管访问底层机器是不可能的,但是数据工具还是能加速数据输入输出,得到一个稳定的效率改善。\\n\\n功效:科学 + 4\\n等级:1 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL1Msg_01016557#BOOK:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL1Msg_01016557#BOOK:DESC#516ea2af1dca5b7436d3f4af2ae4dab6",
+    "original": "The human body can easily support its own weight, even in the presence of additional force caused by jumping or movement in general. With the Weight Absorber this ability is further enhanced, allowing its user to carry more things without becoming immobilized.\\n\\nEffect: Carry Weight +10\\nLevel: 1 / 4",
+    "translation": "人体能够轻松支撑自身的重量，即便在跳跃或一般运动产生的额外力量作用下也是如此。有了负重缓冲器，这一能力将得到进一步增强，使用户能够携带更多物品而不至于行动不便。\\n\\n效果：负重+10\\n等级：1/4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL1Msg_01016558#BOOK:FULL#2b92c05e70e052bd31da33367d859a8f",
+    "original": "Razor Nails",
+    "translation": "剃刀爪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL1Msg_01016558#BOOK:DESC#11ab05331088af74db42ad96eef2aa65",
+    "original": "Developed for spies and assassins, Razor Nails turn the human hand into a lethal weapon. To avoid detection or self-inflicted injuries, the blades stay retracted under the fingernails until activated. The most effective attack locations are the major arteries.\\n\\nEffect: Unarmed critical chance and damage +25%%%%\\nLevel: 1 / 4",
+    "translation": "专为间谍和刺客打造，剃刀指甲能将人类的手掌变成致命的武器。为了避免被发现或造成意外伤害，刀片平时隐藏在指甲下方，直到激活时才会弹出。最有效的攻击部位是主动脉。\\n\\n效果：徒手攻击暴击几率和伤害+25%%\\n等级：1/4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL1Msg_01016559#BOOK:FULL#85ff5efc6b16593f7a3e062583b675ca",
+    "original": "Tread Damper",
+    "translation": "步态减震器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL1Msg_01016559#BOOK:DESC#aa8ce18c0dd76bea38718263d881e018",
+    "original": "The Tread Damper uses a set of ultra-sensitive sensors to detect the distance between sole and ground. Just before surface contact, adaptive motion actuators slow down movement to minimize the resulting noise. This system is best utilized when moving carefully, preferably in light clothes.\\n\\nEffect: Sneak +4\\nLevel: 1 / 4",
+    "translation": "步态减震器采用了超灵敏的传感器检测鞋底和地面之间的距离。前表面接触，自适应运动执行器缓慢上下运动，以尽量减少由此产生的噪音。该系统是最好的利用方式是潜行移动。\\n\\n功效:潜行 +4\\n等级: 1 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL2Msg_0101655B#BOOK:FULL#f01d74e2cb9c75d6230622082fce29ef",
+    "original": "Weight Absorber",
+    "translation": "负重缓冲器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL2Msg_0101655B#BOOK:DESC#56c44033bb9ab10811167d28dc482a3b",
+    "original": "The human body can easily support its own weight, even in the presence of additional force caused by jumping or movement in general. With the Weight Absorber this ability is further enhanced, allowing its user to carry more things without becoming immobilized.\\n\\nEffect: Carry Weight +20\\nLevel: 2 / 4",
+    "translation": "人体能够轻松支撑自身的重量，即便在跳跃或一般运动产生的额外力量作用下也是如此。有了负重缓冲器，这一能力将得到进一步增强，使用户能够携带更多物品而不至于行动不便。\\n\\n功效：负重 +20\\n等级：2 / 4",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantsTestContainer_01003934#CONT:FULL#1cf0c9c6c50173648ffd40454085c961",
+    "original": "Added Implants",
+    "translation": "加入植入物",
+    "stage": 1
+  },
+  {
+    "key": "CWxVendorContainerOldLadyGibson_0100A747#CONT:FULL#3cc17972f2874071e88847e4325cdd52",
+    "original": "Inventory Storage",
+    "translation": "储物箱",
+    "stage": 1
+  },
+  {
+    "key": "CWxVendorContainerGunRunnerHQ_0100A748#CONT:FULL#3cc17972f2874071e88847e4325cdd52",
+    "original": "Inventory Storage",
+    "translation": "储物箱",
+    "stage": 1
+  },
+  {
+    "key": "CWxVendorContainerJulieFarkas_0100A749#CONT:FULL#3cc17972f2874071e88847e4325cdd52",
+    "original": "Inventory Storage",
+    "translation": "储物箱",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantReflexBooster_0100195A#MISC:FULL#2d9838fbd452207c58fdca90aee6fa41",
+    "original": "Reflex Booster Implant",
+    "translation": "反射加速器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantStealthNanobots_0100195B#MISC:FULL#29d55d24a35bf4b03a28a844ca582d01",
+    "original": "Stealth Nano-Bots Implant",
+    "translation": "隐形纳米机器人植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantKineticAccelerator_0100195E#MISC:FULL#14fa8a4b755365d4a65429adbf8b1c28",
+    "original": "Kinetic Accelerator Implant",
+    "translation": "动力加速器植入物",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNanobionicWeave_0100195F#MISC:FULL#df6a2dca648d9972adbefa2b8f12d3a2",
+    "original": "Nanobionic Weave Implant",
+    "translation": "纳米编织器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryManual_01003EF7#MISC:FULL#8d9a77cb9b68e1bbb58f90adacf2eb37",
+    "original": "Cybernetic Surgery, Standard Edition",
+    "translation": "神经机械学手术，标准版",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL1_01005BAA#MISC:FULL#1e958d94e284f11dcd5bdbe93a359243",
+    "original": "Hand Stabilizer Implant",
+    "translation": "手臂稳定器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL1_01005BAB#MISC:FULL#8a6427fe9dc984d838f4c6c7a197fc68",
+    "original": "Motor Memorizer Implant",
+    "translation": "动作记忆器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL1_01005BAC#MISC:FULL#579208632716a50faa82ce6ec1029400",
+    "original": "Neural Datatool Implant",
+    "translation": "神经数据工具植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL1_01005BAD#MISC:FULL#0a47a14a49cf7bf42020d6b026b9d7ad",
+    "original": "Weight Absorber Implant",
+    "translation": "负重缓冲器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL1_01005BAE#MISC:FULL#c14bf152d13df34f45c082832e4330c2",
+    "original": "Voice Modulator Implant",
+    "translation": "语音调制器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL1_01005BB9#MISC:FULL#aa4adbe2af5e7b7653f392879557bc8d",
+    "original": "Razor Nail Implants",
+    "translation": "剃刀爪植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL1_01005BBA#MISC:FULL#cec9f64a71c55dd0a4208ba4a18b6699",
+    "original": "Tread Damper Implant",
+    "translation": "步态减震器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL2_01008142#MISC:FULL#bbf33473305a633bc8cfe8892e063b7a",
+    "original": "Voice Modulator Implant (L2)",
+    "translation": "语音调制器植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL3_01008143#MISC:FULL#128415d425cfcd4dcc9594947854810b",
+    "original": "Voice Modulator Implant (L3)",
+    "translation": "语音调制器植入（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVoiceModulatorL4_01008144#MISC:FULL#ce77b5097bbfa891f9ccbc1659eeabf1",
+    "original": "Voice Modulator Implant (L4)",
+    "translation": "语音调制器植入（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL2_010081A9#MISC:FULL#c431fbc0899120bb1e65279e5132017e",
+    "original": "Weight Absorber Implant (L2)",
+    "translation": "负重缓冲器植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL3_010081AA#MISC:FULL#bb4f01fd1d51719de9de5a98a6d7ae38",
+    "original": "Weight Absorber Implant (L3)",
+    "translation": "负重缓冲器植入（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantWeightAbsorberL4_010081AB#MISC:FULL#52a8db2db90498eb767a19669f4ce622",
+    "original": "Weight Absorber Implant (L4)",
+    "translation": "负重缓冲器植入（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL2_010081AC#MISC:FULL#31e45faacde3e937f016ed0edec378fd",
+    "original": "Tread Damper Implant (L2)",
+    "translation": "步态减震器植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL3_010081AD#MISC:FULL#0472227464c887902f008cab0c69e438",
+    "original": "Tread Damper Implant (L3)",
+    "translation": "步态减震器植入（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantTreadDamperL4_010081AE#MISC:FULL#eae2e812bdb777f178fe79946a58bc46",
+    "original": "Tread Damper Implant (L4)",
+    "translation": "步态减震器植入（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL2_010081AF#MISC:FULL#5aba492c4ffb23af448fd807d547862f",
+    "original": "Razor Nail Implants (L2)",
+    "translation": "剃刀爪植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL3_010081B0#MISC:FULL#9a3a07370f010157e23ad16b4f39d249",
+    "original": "Razor Nail Implants (L3)",
+    "translation": "剃刀爪植入 (L3)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRazorNailsL4_010081B1#MISC:FULL#b3b7a324fb7b499c1a7e928af01895a0",
+    "original": "Razor Nail Implants (L4)",
+    "translation": "剃刀爪植入 (L4)",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL2_010081B2#MISC:FULL#a5096081cb179abe409584eac1518f1b",
+    "original": "Neural Datatool Implant (L2)",
+    "translation": "神经数据工具植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL3_010081B3#MISC:FULL#20e84d1719e688c02001e4cb260c0429",
+    "original": "Neural Datatool Implant (L3)",
+    "translation": "神经数据工具植入（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNeuralDatatoolL4_010081B4#MISC:FULL#543f1aa2f8e35697f4b1e0a9502f8062",
+    "original": "Neural Datatool Implant (L4)",
+    "translation": "神经数据工具植入（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL2_010081B5#MISC:FULL#8acd78a4753e1cc145313b7e0be9abab",
+    "original": "Motor Memorizer Implant (L2)",
+    "translation": "动作记忆器植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL3_010081B6#MISC:FULL#4fabd0398d78863d9f6ab33e3bdad8e1",
+    "original": "Motor Memorizer Implant (L3)",
+    "translation": "动作记忆器植入（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMotorMemorizerL4_010081B7#MISC:FULL#b8f1ef822bf81eb1cea6eb0e4048ef4c",
+    "original": "Motor Memorizer Implant (L4)",
+    "translation": "动作记忆器植入（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL2_010081B8#MISC:FULL#62101e577c8af17a52ef6e6a10d3f9c8",
+    "original": "Hand Stabilizer Implant (L2)",
+    "translation": "手臂稳定器植入（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL3_010081B9#MISC:FULL#c396619701cf80cc3bd3ef359b4f8982",
+    "original": "Hand Stabilizer Implant (L3)",
+    "translation": "手臂稳定器植入（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHandStabilizerL4_010081BA#MISC:FULL#e82d1e40ec6a003d888c471b402a430b",
+    "original": "Hand Stabilizer Implant (L4)",
+    "translation": "手臂稳定器植入（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxMCMItem_0100BC76#MISC:FULL#88a06dccb955af12e26d996a3693a42f",
+    "original": "Cyberware",
+    "translation": "赛博植入物",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSubDermalArmor_01010DEF#MISC:FULL#8405e5b43cad1586f6c17a6af5a7c4cd",
+    "original": "Sub-Dermal Armor Implant",
+    "translation": "皮下护甲植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHFP_010195EC#MISC:FULL#ec1f0b376244dda93de7a68a24ba9d8c",
+    "original": "Hyperfrequency Emitter Implant",
+    "translation": "超高频发射器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantEMP_010195ED#MISC:FULL#4ccde2852c9fec7e490281dc0d6ba486",
+    "original": "EMP Generator Implant",
+    "translation": "EMP发生器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSyntheticLungs_01000818#MISC:FULL#ca09ff637240be7418fe655b6bd7aef0",
+    "original": "Synthetic Lung Implants",
+    "translation": "人造肺植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScanner_01001950#MISC:FULL#262c9d9638054d73dc4ec8bdbe4a3fe9",
+    "original": "AR Scanner Implant",
+    "translation": "AR扫描仪植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBionicEyes_01001951#MISC:FULL#f21ea5f4c2f4bf57c3e0fd4ae8a22ce1",
+    "original": "Bionic Eyes Implant",
+    "translation": "仿生眼植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantEmpathySynthesizer_01001952#MISC:FULL#cee6197a39640fe11c75c4e14bf39f2f",
+    "original": "Empathy Synthesizer Implant",
+    "translation": "共情同调仪植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLogicCoProcessor_01001953#MISC:FULL#309ced26c9bd52236b816fe48e494787",
+    "original": "Logic Co-Processor Implant",
+    "translation": "逻辑协处理器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantOpticsEnhancer_01001954#MISC:FULL#00c4bce0a71b59de24a20e5679f78516",
+    "original": "Optics Enhancer Implant",
+    "translation": "视觉增强器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantProbabilityCalculator_01001955#MISC:FULL#6b288a34b4d0bf7bdc0c9a0af21f7da6",
+    "original": "Probability Calculator Implant",
+    "translation": "概率计算器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantAdrenalineBooster_01001956#MISC:FULL#6c4c52e3a8125486f6151e1305e849a1",
+    "original": "Adrenaline Booster Implant",
+    "translation": "肾上腺素增幅器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantHypertrophyAccelerator_01001957#MISC:FULL#2bf147c71f301991f3ab10aa804df455",
+    "original": "Hypertrophy Accelerator Implant",
+    "translation": "肢端增长器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMonocyteBreeder_01001958#MISC:FULL#8e6c851071f93538bbaa69296b3bdc28",
+    "original": "Monocyte Breeder Implant",
+    "translation": "凤凰细胞增殖器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantNociceptionRegulator_01001959#MISC:FULL#25ceafd321a32dd3e0308e9a1c4144aa",
+    "original": "Nociception Regulator Implant",
+    "translation": "痛觉调整器植入",
+    "stage": 1
+  },
+  {
+    "key": "CWxWeapEMP_010195E0#WEAP:FULL#a022ca1490cbedfd99c07fe6e9669282",
+    "original": "EM Pulse",
+    "translation": "电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "CWxWeapHFP_010195E1#WEAP:FULL#85e2add227b4ebdd607933f453c1ce28",
+    "original": "HF Pulse",
+    "translation": "高频脉冲",
+    "stage": 1
+  },
+  {
+    "key": "GunRunnerProtectron_000EDC34#CREA:FULL#e6dd1d9ff8e1deaa119d3befa4d3cc06",
+    "original": "Vendortron",
+    "translation": "贩卖机器人",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantsNote_01006FE8#NOTE:FULL#2f1e4456a9ba896e150c5ba615b34f19",
+    "original": "Cybernetic Implants",
+    "translation": "神经机械植入手术",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantsNote_01006FE8#NOTE:TNAM#e47294af3a31136ed43ab81be9391151",
+    "original": "(The cybernetic implant you found came with a booklet in its case:)\\n\\nThe NEVADA Group\\n\\nWhile at first research and development of cybernetic implants was conducted exclusively for the military, several big companies were prepared to go the next step towards general commercialization. However, despite the fact that the technology itself was solid and more or less safe, multiple studies concluded that the public was not yet ready to accept these products. And no single company alone could change this fact.\\n\\n[... other problems associated with the commercialization of cybernetic implants ...]\\n\\nTo address those issues, the NEVADA group was founded. Its members believed that by pooling their influence and ressources, they could turn the public opinion in their favor. And even after they had accomplished this goal, the group persisted to deal with various other problems that manifested when the first implants hit the market.\\n\\n[... more info about the general history of the NEVADA group ...]\\n\\nThese cornerstones are:\\n\\nRecoverability\\nInstallation of a NEVADA-certified implant does not require in any permanent alterations to the user's body. This enables the option of a later removal. While at first sounding like a serious limitation, this constraint comes with several advantages, i.e. a lower entry barrier and the opportunity to apply more flexible business models (leasing).\\n\\nInteroperability\\nUnless explicitely stated, implants constructed according to NEVADA standards can co-exist in the same body without interference.\\n\\nUnification\\nWhile all NEVADA members pursue their own goals and interests, non-competitive areas are standardized by the group. As a result, the required training time for medical personnel is highly reduced. Costs are lowered further by allowing to use a common set of tools and devices for all implants.\\n\\n[...]\\n\\nAvailable models:\\n\\nHead Implants\\n* AR Scanner: Real-time target analysis\\n* Bionic Eyes: Enhanced vision modes\\n* Empathy Synthesizer: Charisma +1\\n* Logic Co-Processor: Intelligence +1\\n* Optics Enhancer: Perception +1\\n* Probability Calculator: Luck +1\\n* Voice Modulator: Speech +2 (3, 4, 5), Barter +2 (3, 4, 5)\\n\\nTorso Implants\\n* Adrenaline Booster: AP regeneration bonus for kills\\n* Hypertrophy Accelerator: Strength +1\\n* Monocyte Breeder: Health regeneration\\n* Nociception Regulator: Endurance +1\\n* Reflex Booster: Agility +1\\n* Stealth Nano-Bots: Controllable stealth field\\n* Sub-Dermal Armor: DT +4\\n* Synthetic Lungs: water breathing\\n\\nArm Implants\\n* Kinetic Accelerator: reload 10% (20%) and melee attack 5% (10%) faster\\n* Nanobionic Weave: Limb regeneration\\n* Hand Stabilizer: Lockpick +2 (3, 4, 5), Repair +2 (3, 4, 5)\\n* Motor Memorizer: Guns +2 (3,4,5), Energy Weapons +2 (3, 4, 5)\\n* Neural Datatool: Science +4 (6,8,10)\\n* Razor Nails: Unarmed critical chance and damage increased by 25% (40, 55, 70)\\n* EMP Generator: EM Burst (with MF breeder)\\n* Hyperfrequence Emitter: HF Burst (with MF breeder)\\n\\nLeg Implants\\n* Kinetic Accelerator: movement 10% faster (20%, when installed on both legs)\\n* Nanobionic Weave: Limb regeneration\\n* Tread Damper: Sneak +4 (6, 8, 10)\\n* Weight Absorber: Carry weight +10 (20, 30, 40)",
+    "translation": "(在这个箱子里你发现了一个关于神经机械学植入的小册子：)\\n\\n内华达集团\\n\\n虽然最初神经机械学植入的研究和发展是专门为军方服务的，但是几家大公司已经为进一步的商业化做好了准备。可是,事实上这项技术固有或多或少的安全问题，多项研究结论表明公众还未准备好接受这些产品。并且没有一家公司能够改变这个事实。\\n\\n[...其他关于商业化神经机械学植入的问题...]\\n\\n为了解决这些问题，内华达集团成立了。它的成员相信通过集中势力和资源，能够使公众支持他们。 并且自从他们完成了这个目标后， 这个集团坚持不懈的解决其他不同的问题直到第一个植入体冲击了市场。\\n\\n[... 更多关于内华达集团基本历史信息 ...]\\n\\n基础:\\n\\n可回收性\\n安装一个内华达植入体不需要永久的改变用户的身体。它可以在一段时间之后被移除。 虽然这起初听起来像是一个限制，不过这种限制能得到几个好处，即低门槛和灵活的商业化模式 (比如出租)。\\n\\n互操作性\\n除非明确的阐明，否则根据内华达标准制作的植入体就能够共存于一个身体中互不干扰。.\\n\\n统一性\\n虽然所有的内华达成员追求自己的目标和利益，但是集团规定了非竞争性标准。因此， 培训一个医务人员所需的时间大大减少。.由于允许使用通用的工具和设备，所有的植入体成本都降低了。\\n\\n[...]\\n\\n可用的植入模组：\\n\\n头部植入\\n* AR扫描仪: 实时分析目标\\n* 仿生眼: 增强视觉模式\\n* 共情同调仪: 魅力 +1\\n* 逻辑协处理器: 智力 +1\\n* 视觉增强器: 感知 +1\\n* 概率计算器: 幸运 +1\\n* 语音调制器: 口才 +2 (3, 4, 5), 砍价 +2 (3, 4, 5)\\n\\n躯干植入\\n* 肾上腺增幅器: 杀敌加快AP回复\\n* 肢端增长器: 力量 +1\\n* 细胞增殖器: 生命回复\\n* 痛觉调整器: 耐力 +1\\n* 反射加速器: 敏捷 +1\\n* 隐形纳米机器人: 可控的隐身力场\\n* 皮下装甲: DT +4\\n* 人造肺: 水下呼吸\\n\\n手部植入\\n* 动力加速器: 上弹速度加快 10% (20%) ，近战攻速加快 5% (10%) \\n* 纳米编织器: 肢体回复\\n* 手部稳定器: 开锁 +2 (3, 4, 5), 修理 +2 (3, 4, 5)\\n* 动作记忆器: 枪械 +2 (3,4,5), 能量武器 +2 (3, 4, 5)\\n* 神经数据工具: 科学 +4 (6,8,10)\\n* 剃刀爪: 徒手暴击几率和暴击伤害增加 25% (40, 55, 70)\\n* EMP发生器: 电磁爆炸 (使用微聚核电增殖器)\\n* 超高频发生器: 高频冲击 (使用微聚核电增殖器)\\n\\n腿部植入\\n* 动力加速器: 移动速度加快 10% (20%, 如果双腿同时植入)\\n* 纳米编织器: 肢体恢复\\n* 步态减震器: 潜行 +4 (6, 8, 10)\\n* 负重缓冲器: 负重 +10 (20, 30, 40)",
+    "stage": 1
+  },
+  {
+    "key": "CWxEMPProjectile_010195E2#PROJ:FULL#a022ca1490cbedfd99c07fe6e9669282",
+    "original": "EM Pulse",
+    "translation": "电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "CWxHFPProjectile_010195E3#PROJ:FULL#85e2add227b4ebdd607933f453c1ce28",
+    "original": "HF Pulse",
+    "translation": "高频脉冲",
+    "stage": 1
+  },
+  {
+    "key": "Vault11c_000E6A6E#CELL:FULL#3d1c9d422c980aa754700fb92cac1cba",
+    "original": "Vault 11 Lower Level",
+    "translation": "11号避难所下层",
+    "stage": 1
+  },
+  {
+    "key": "Vault34c_00138A9E#CELL:FULL#9c82e73fde1c82a60b39b45583cb65ca",
+    "original": "Vault 34 - Armory",
+    "translation": "34号避难所 - 军火库",
+    "stage": 1
+  },
+  {
+    "key": "RepconHQ03_000E5A88#CELL:FULL#dae5330eaf2f25932ce9e5d83db0bc2e",
+    "original": "REPCONN Office Top Floor",
+    "translation": "瑞普康办公室顶楼",
+    "stage": 1
+  },
+  {
+    "key": "NorthVegasHouseTools_000EDDC8#CELL:FULL#3a2c434a267e894321f0f4f6a7d34562",
+    "original": "H&H Tools Factory",
+    "translation": "H&H五金工具厂",
+    "stage": 1
+  },
+  {
+    "key": "GSDocMitchellHouse_00103DF9#CELL:FULL#7c4aeaa9b0a86a5fff4317369e22503a",
+    "original": "Doc Mitchell's House",
+    "translation": "米切尔医生的宅邸",
+    "stage": 1
+  },
+  {
+    "key": "GSSchoolHouse_00108F39#CELL:FULL#113bd894bf99956feeacaaa90f5af4a9",
+    "original": "Goodsprings Schoolhouse",
+    "translation": "清泉镇校舍",
+    "stage": 1
+  },
+  {
+    "key": "CampMCTermInt02_000F4025#CELL:FULL#7238691dd9643099049e188b23aaf9ac",
+    "original": "Camp McCarran Terminal Building",
+    "translation": "麦卡伦营地候机楼",
+    "stage": 1
+  },
+  {
+    "key": "NellisWorkshop_00105894#CELL:FULL#d46204e913b9db87c42fe322ef900f98",
+    "original": "Nellis Workshop",
+    "translation": "内利斯工房",
+    "stage": 1
+  },
+  {
+    "key": "Vault19c_0013BC28#CELL:FULL#95d584bc5cff1261c96570238dcc8882",
+    "original": "Sulfur Cave",
+    "translation": "硫磺洞",
+    "stage": 1
+  },
+  {
+    "key": "HiddenValleyBunker2_000E508B#CELL:FULL#7ad20178ae9698236dd5ffb5dd1ecef4",
+    "original": "Hidden Valley Bunker",
+    "translation": "隐谷地堡",
+    "stage": 1
+  },
+  {
+    "key": "Vault22b_000E608F#CELL:FULL#53ce2fdea72f601410aa68401eff87b6",
+    "original": "Vault 22 - Oxygen Recycling",
+    "translation": "22号避难所 - 制氧区",
+    "stage": 1
+  },
+  {
+    "key": "RocketLabBasement_0007EA61#CELL:FULL#4f0d671c59aa08cd78e0bcb2dbeaf005",
+    "original": "REPCONN Basement",
+    "translation": "瑞普康地下室",
+    "stage": 1
+  },
+  {
+    "key": "1ESteelMill_000FF6B1#CELL:FULL#ce1b0fa8a8fb76d20c78be12ec7cb328",
+    "original": "New Vegas Steel",
+    "translation": "新维加斯钢厂",
+    "stage": 1
+  },
+  {
+    "key": "FreesideRobotShop_0011ED00#CELL:FULL#682cda8ed3ab6d5de63dfebad1d6cbc5",
+    "original": "Cerulean Robotics",
+    "translation": "蔚蓝机器人公司",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
+    "original": "Jacobstown Lodge",
+    "translation": "雅各布斯镇旅社",
+    "stage": 1
+  },
+  {
+    "key": "GibsonScrapYardInterior_000841D9#CELL:FULL#a872642af3dbc5dea69ee0c5dcdb7cce",
+    "original": "Gibson Garage",
+    "translation": "吉布森的车库",
+    "stage": 1
+  },
+  {
+    "key": "RocketLabTop_00081CFA#CELL:FULL#19c824ae43aba3b74808ef952d2773c3",
+    "original": "REPCONN Research Labs",
+    "translation": "瑞普康研究实验室",
+    "stage": 1
+  },
+  {
+    "key": "3CBSCave3_0012B521#CELL:FULL#b6382af97d2ca09063b4d5c2f24f4160",
+    "original": "Great Khan Supply Cave",
+    "translation": "大汗帮补给洞穴",
+    "stage": 1
+  },
+  {
+    "key": "HELIOSOneDeck_000D8052#CELL:FULL#8182c17312e4c90dcd20de178864a312",
+    "original": "HELIOS One Observation Level",
+    "translation": "太阳神一号观察楼层",
+    "stage": 1
+  },
+  {
+    "key": "BlackMountainTreasure_000E60D0#CELL:FULL#b5a8d2e744a319667f8d5299016e2225",
+    "original": "Storage Building",
+    "translation": "仓库",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "FreesideFortWorld_0012D94E#WRLD:FULL#a188128b496a3a6ee672258c68fd2c85",
+    "original": "Old Mormon Fort",
+    "translation": "旧摩门要塞",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic011_0014BF96#DIAL:FULL#de5cfd74f9c24bf2ae87189fac5b497b",
+    "original": "I want to buy an implant.",
+    "translation": "我想购买植入体。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic011_0014BF97#INFO:NAM1#41604afeef22ff6624203df4d4eaae54",
+    "original": "Which surgery option are you considering?",
+    "translation": "你打算进行哪种手术？",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic015_0014C126#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic015_0100A15D#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic019_0014C504#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic019_0100A15F#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic018_0014C505#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic018_0100A15E#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic050_0014CC8F#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic050_0100A166#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic048_0014CC91#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic048_0100A165#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic025_0014CCA6#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic025_0100A164#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic024_0014CCA7#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic024_0100A163#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic023_0014CCA8#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic023_0100A162#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic022_0014CCA9#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic022_0100A161#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic020_0014CCAB#DIAL:FULL#d70482218eadd3459ad2030a4b706ae5",
+    "original": "Here's the caps.",
+    "translation": "给你瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "vDialogueMedicalClinicDoctorUsanagiTopic020_0100A160#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "好的。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_01000ADD#DIAL:FULL#58a1c4109012481fce83b24cb2674eb8",
+    "original": "I'd like you to perform cybernetic surgery.",
+    "translation": "我希望你操刀神经机械学手术。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_01003EF4#INFO:NAM1#adba964645733af2780d092dcbb4751e",
+    "original": "Sure. I can help you out.",
+    "translation": "当然，我可以治好你。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_01003EFE#INFO:NAM1#442a03deec01f6565c5fb0f5b2e9dbbe",
+    "original": "Then what do you need?",
+    "translation": "想要点什么？",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_010072D8#INFO:NAM1#8236b09f0465d806d75f77a6b23087b1",
+    "original": "This could take a while. Did you bring caps?",
+    "translation": "这得花些时间，你带瓶盖了吗？",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_0100A750#INFO:NAM1#a5b4dc6d00247c4aceec4f53b8122ac8",
+    "original": "What do you need?",
+    "translation": "你需要什么？",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_0100A76E#INFO:NAM1#4d06262f67dcfae4f06b914ba52cd677",
+    "original": "Easy as a heart transplant.",
+    "translation": "简单，就和心脏移植一样。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_01000AE0#INFO:NAM1#8bfdb6ffc925d03d79dec9ee83100414",
+    "original": "Very well.",
+    "translation": "那好吧。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryTopic_01003EFC#INFO:NAM1#be1bb9252e7ffb839eeec0c318818ba0",
+    "original": "If you wish.",
+    "translation": "请便。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSurgeonQuest_0100A724#QUST:FULL#9f22aa5cb4c413abfbe67526817ae4bc",
+    "original": "I Dream of Electric Sheep",
+    "translation": "我梦见了电子羊",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSurgeonQuest_0100A724#QUST:NNAM#615637b3a2eefc64f5be3ab9a29237b2",
+    "original": "(Optional) Find training manuals to unlock cybernetic surgery for more doctors.",
+    "translation": "（可选）寻找培训手册，为医生解锁更多的神经机械学方面的手术。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSurgeonQuest_0100A724#QUST:NNAM#2919158023df93100014bb11a4c7817b",
+    "original": "Find a doctor who is able to install cybernetic implants.",
+    "translation": "找到一个能够安装神经机械学植入体的医生。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRightArmRegenPerk_01001973#PERK:FULL#31c6f406a73ed7be18a35d46fe208e5c",
+    "original": "Nanobionic Weave (Right Arm)",
+    "translation": "纳米编织器（右臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRightArmRegenPerk_01001973#PERK:DESC#9844548b5d29c9b7c040e91f6821c52b",
+    "original": "Your right arm is implanted with Nanobionic Weave, causing the limb to regenerate itself if it takes any damage.",
+    "translation": "你的右臂植入了纳米编织器，能让肢体受损时自我再生。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLeftLegRegenPerk_01001974#PERK:FULL#bdb9dee279456d1f4afdbd8249aeb4f2",
+    "original": "Nanobionic Weave (Left Leg)",
+    "translation": "纳米编织器（左腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLeftLegRegenPerk_01001974#PERK:DESC#0fe436e235b1b59b95468df70ac5b309",
+    "original": "Your left leg is implanted with Nanobionic Weave, causing the limb to regenerate itself if it takes any damage.",
+    "translation": "你的左腿植入了纳米编织器，能让肢体受损时自我再生。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRightLegRegenPerk_01001975#PERK:FULL#f10ae313480d572ebf0ab9a582ed6405",
+    "original": "Nanobionic Weave (Right Leg)",
+    "translation": "纳米编织器（右腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantRightLegRegenPerk_01001975#PERK:DESC#44b4b3e55495bd60013bcf313ae60aae",
+    "original": "Your right leg is implanted with Nanobionic Weave, causing the limb to regenerate itself if it takes any damage.",
+    "translation": "你的右腿植入了纳米编织器，能让肢体受损时自我再生。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBarter1Perk_01005BB4#PERK:FULL#30f31d3d1ec0e83cd641fe8c6f9030e8",
+    "original": "Voice Modulator",
+    "translation": "语音调制器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBarter1Perk_01005BB4#PERK:DESC#3571229666dad72bc3deed0194148dc9",
+    "original": "Thanks to the Voice Modulator, everything you say has a nice sound to it, thus increasing your Barter and Speech skills.",
+    "translation": "得益于声音调制器，你说出的每句话都很好听，你的砍价和口才技能得到提升。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick1RPerk_01005BB5#PERK:FULL#35c48131c4412edb587c6ee536b027fc",
+    "original": "Hand Stabilizer (Right Arm)",
+    "translation": "手臂稳定器（右臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick1RPerk_01005BB5#PERK:DESC#a1b1919947fbe5ab71292f007b356c33",
+    "original": "Your fine motor abilities have been enhanced with the Hand Stabilzer, increasing your Lockpick and Repair skills.",
+    "translation": "手部稳定器增强了你的精细运动能力，提升了你的撬锁和修理技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns1RPerk_01005BB6#PERK:FULL#d5abb32a0220b714ec4bfb8c38667331",
+    "original": "Motor Memorizer (Right Arm)",
+    "translation": "动作记忆器（右臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns1RPerk_01005BB6#PERK:DESC#3c3d1ed2de5db7113b81c1fb1fed5c50",
+    "original": "Your muscle memory is enhanced by the Motor Memorizer, increasing your Energy Weapons and Guns skills.",
+    "translation": "动作记忆器增强了你的肌肉记忆，提升了你的能量武器和枪械技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience1LPerk_01005BB7#PERK:FULL#7030c16c9ab76232684dd60ef07b404b",
+    "original": "Neural Datatool (Left Arm)",
+    "translation": "神经数据工具（左臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience1LPerk_01005BB7#PERK:DESC#3b8f2c6845eb50c9889bde059379d8fa",
+    "original": "The Neural Datatool interface has been installed in your hand, increasing your Science skill.",
+    "translation": "你的手部安装了神经数据工具接口，提升了你的科学技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak1RPerk_01005BB8#PERK:FULL#368ab56398c6edccf5d6afd8bf06fad0",
+    "original": "Tread Damper (Right Leg)",
+    "translation": "步态减震器（右腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak1RPerk_01005BB8#PERK:DESC#6a905b60c721d64057ec3db9b60b2bb6",
+    "original": "The sound of your footsteps has been reduced by the Tread Damper, increasing your Sneak skill.",
+    "translation": "步态减震器减少了你的脚步声，提升了你的潜行技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight1RPerk_01005BBE#PERK:FULL#8bde3b8ab8739a49b1c2caf901dafd41",
+    "original": "Weight Absorber (Right Leg)",
+    "translation": "负重缓冲器（右腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight1RPerk_01005BBE#PERK:DESC#eb520b36c7a035f3c7f0eb84fca793ee",
+    "original": "The strain on your legs has been reduced by the Weight Absorber, increasing your carry capacity.",
+    "translation": "负重缓冲器减轻了你的腿部负担，提升了你的负重能力。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak1LPerk_01005BD5#PERK:FULL#835c19f03c13f5033cfc198ca8dd39d2",
+    "original": "Tread Damper (Left Leg)",
+    "translation": "步态减震器（左腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSneak1LPerk_01005BD5#PERK:DESC#6a905b60c721d64057ec3db9b60b2bb6",
+    "original": "The sound of your footsteps has been reduced by the Tread Damper, increasing your Sneak skill.",
+    "translation": "步态减震器减少了你的脚步声，提升了你的潜行技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantUnarmed1LPerk_01005BD6#PERK:FULL#53bbba8038e4f54ad0bdb4c1562117ad",
+    "original": "Razor Nails (Left Arm)",
+    "translation": "剃刀爪（左臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantUnarmed1LPerk_01005BD6#PERK:DESC#ef124f0d45f5fdbe3b17832a67c0a5ab",
+    "original": "Hidden blades have been installed under your fingernails, increasing chance and damage of an Unarmed critical hit.",
+    "translation": "你的指甲下安装了隐藏刀片，增加了徒手攻击暴击率和暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns1LPerk_01005BD7#PERK:FULL#b5e22dfbb1349e1dff68420fb599c7af",
+    "original": "Motor Memorizer (Left Arm)",
+    "translation": "动作记忆器（左臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantGuns1LPerk_01005BD7#PERK:DESC#3c3d1ed2de5db7113b81c1fb1fed5c50",
+    "original": "Your muscle memory is enhanced by the Motor Memorizer, increasing your Energy Weapons and Guns skills.",
+    "translation": "动作记忆器增强了你的肌肉记忆，提升了你的能量武器和枪械技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight1LPerk_01005BD8#PERK:FULL#0555d736895ed2d95769acc69a8c2d8c",
+    "original": "Weight Absorber (Left Leg)",
+    "translation": "负重缓冲器（左腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantCarryWeight1LPerk_01005BD8#PERK:DESC#eb520b36c7a035f3c7f0eb84fca793ee",
+    "original": "The strain on your legs has been reduced by the Weight Absorber, increasing your carry capacity.",
+    "translation": "负重缓冲器减轻了你的腿部负担，提升了你的负重能力。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick1LPerk_01005BD9#PERK:FULL#4e9166f72984c68038acb7154c07a369",
+    "original": "Hand Stabilizer (Left Arm)",
+    "translation": "手臂稳定器（左臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLockpick1LPerk_01005BD9#PERK:DESC#a1b1919947fbe5ab71292f007b356c33",
+    "original": "Your fine motor abilities have been enhanced with the Hand Stabilzer, increasing your Lockpick and Repair skills.",
+    "translation": "手部稳定器增强了你的精细运动能力，提升了你的撬锁和修理技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience1RPerk_01005BDA#PERK:FULL#7810d16b2c9f8ef1414bf761b6737871",
+    "original": "Neural Datatool (Right Arm)",
+    "translation": "神经数据工具（右臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScience1RPerk_01005BDA#PERK:DESC#3b8f2c6845eb50c9889bde059379d8fa",
+    "original": "The Neural Datatool interface has been installed in your hand, increasing your Science skill.",
+    "translation": "你的手部安装了神经数据工具接口，提升了你的科学技能。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantUnarmed1RPerk_01005BDC#PERK:FULL#de366f5bf1dadc8a51fa1263a331ac6f",
+    "original": "Razor Nails (Right Arm)",
+    "translation": "剃刀爪（右臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantUnarmed1RPerk_01005BDC#PERK:DESC#ef124f0d45f5fdbe3b17832a67c0a5ab",
+    "original": "Hidden blades have been installed under your fingernails, increasing chance and damage of an Unarmed critical hit.",
+    "translation": "你的指甲下安装了隐藏刀片，增加了徒手攻击暴击率和暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraTorsoSlotsPerk_0100A721#PERK:FULL#d9e073e7d29ce18545d3f46f186dfaf2",
+    "original": "Man Machine",
+    "translation": "人形机器",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraTorsoSlotsPerk_0100A721#PERK:DESC#83aebab8ad1115601272463ecb527d7c",
+    "original": "A robust constitution has no problems handling a few foreign elements! You can install up to 4 implants in your body.",
+    "translation": "你强健的体魄完全能够容纳一些外来元素！你可以在躯干安装多达4个植入物。",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraHeadSlotsPerk_0100A722#PERK:FULL#281024de1b1d6240bd0137bdfad45f98",
+    "original": "Tin Head",
+    "translation": "锡头",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraHeadSlotsPerk_0100A722#PERK:DESC#375443e49e73121694127f4e0e7cf5ac",
+    "original": "The number of implants your mind can handle would make other people's brain explode. You can install up to 4 implants in your head.",
+    "translation": "你的脑袋能承受的植入物数量足以让别人的脑袋爆炸。你可以在头部安装多达4个植入物。",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraArmSlotsPerk_0100A75E#PERK:FULL#ceca46d37a2ec01125751d6ae8486842",
+    "original": "Iron Handshake",
+    "translation": "铁掌",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraArmSlotsPerk_0100A75E#PERK:DESC#2b37d51bdf10849447f2f560e767cb13",
+    "original": "You like doing things with your hands... like replacing them! You can install up to 2 implants in each arm.",
+    "translation": "你喜欢亲自动手做事...比如换掉它们！你可以在每只手臂上安装多达2个植入物。",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraLegSlotsPerk_0100A75F#PERK:FULL#064ee8688345cbcfde45075a267fbde0",
+    "original": "Cyberlimbic",
+    "translation": "边缘行者",
+    "stage": 1
+  },
+  {
+    "key": "CWxExtraLegSlotsPerk_0100A75F#PERK:DESC#d3f2d5647fc39449b3156ec208215666",
+    "original": "Your legs don't grow hair anymore. Wonder how that happened... You can install up to 2 implants in each leg.",
+    "translation": "不知道为什么你的大腿不长毛了..你可以在每条腿上安装2个植入体。",
+    "stage": 1
+  },
+  {
+    "key": "CWxVisionModeAPRegenPerk_0100BCCC#PERK:FULL#d6c08317d9a74339b36bb4003bcc4bd7",
+    "original": "Stop AP Regen",
+    "translation": "停止AP再生",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMovementPerk_0100D610#PERK:FULL#df4f5512c141c1ff70828618a4d1ee58",
+    "original": "Kinetic Accelerator (Legs)",
+    "translation": "动力加速器（双腿）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantMovementPerk_0100D610#PERK:DESC#f915fe3dfbb925c5532d3a442e92a17b",
+    "original": "The movement speed of your legs is increased by the Kinetic Accelerator by 10% (20%, when installed in both legs).",
+    "translation": "动力加速器能让你的移动速度增加10%（如果双腿都安装的话，则为20%）。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantPulseEMPerk_010195E8#PERK:FULL#c7ea336eb4305b1233a534ea28146bb4",
+    "original": "EMP Generator",
+    "translation": "电磁脉冲发生器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantPulseEMPerk_010195E8#PERK:DESC#e6fddd5c6a1269ec204fb288b6e0fd3a",
+    "original": "You can fire an electromagnetic pulse from your hands.",
+    "translation": "你可以从手部发射电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantPulseHFPerk_010195EA#PERK:FULL#c0f8821055b72c6168f9e2b050fd09d4",
+    "original": "HF Emitter",
+    "translation": "超高频脉冲发生器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantPulseHFPerk_010195EA#PERK:DESC#a2afd64726645080ad368934eca7a07c",
+    "original": "You can fire an hyperfrequency pulse from your hands, causing a combustion, causing additional damage over time.",
+    "translation": "你可以从手部发射一个超高频脉冲,引发燃烧，并造成持续附加伤害",
+    "stage": 1
+  },
+  {
+    "key": "ImplantStrengthPerk_0014C069#PERK:FULL#b9122476fcdbc218c3768554566406fa",
+    "original": "Hypertrophy Accelerator",
+    "translation": "肢端增长器",
+    "stage": 1
+  },
+  {
+    "key": "ImplantStrengthPerk_0014C069#PERK:DESC#cd67eb78dc3c7c6eef871771b9b9edaa",
+    "original": "Your muscle mass has been enhanced with the Hypertrophy Accelerator, increasing your Strength by 1.",
+    "translation": "肢端增长器强化了你的肌肉密度。你的力量上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantAgilityPerk_0014C12A#PERK:FULL#f0bc3dd172395900b3e9f1155380dc4a",
+    "original": "Reflex Booster",
+    "translation": "反射加速器",
+    "stage": 1
+  },
+  {
+    "key": "ImplantAgilityPerk_0014C12A#PERK:DESC#49ea969e1f1963b8a72ab9319e300b9e",
+    "original": "Your central nervous node has been enhanced with the Reflex Booster, increasing your Agility by 1.",
+    "translation": "反射加速器强化了你的中枢神经。你的敏捷上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantPerceptionPerk_0014C12D#PERK:FULL#94d7a75839f0c2dfedddf5ca5eb5d22e",
+    "original": "Optics Enhancer",
+    "translation": "视觉增强器",
+    "stage": 1
+  },
+  {
+    "key": "ImplantPerceptionPerk_0014C12D#PERK:DESC#c2ede75aa8459adcfab8b3320453d69f",
+    "original": "Your optic nerve has been enhanced with the Optics Enhancer, increasing your Perception by 1.",
+    "translation": "视觉增强器强化了你的视觉神经。你的感知上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantEndurancePerk_0014C12E#PERK:FULL#29963157d62e8145b78e96174b7cd962",
+    "original": "Nociception Regulator",
+    "translation": "痛觉调整器",
+    "stage": 1
+  },
+  {
+    "key": "ImplantEndurancePerk_0014C12E#PERK:DESC#48a2cf048ef8f841b2800ca51b52133a",
+    "original": "Your nervous system has been enhanced with the Nociception Regulator, increasing your Endurance by 1.",
+    "translation": "痛觉调整器强化了你的神经系统。你的耐力上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantCharismaPerk_0014C130#PERK:FULL#0fc7844631f36041c39ff016a0d5f26a",
+    "original": "Empathy Synthesizer",
+    "translation": "共情同调仪",
+    "stage": 1
+  },
+  {
+    "key": "ImplantCharismaPerk_0014C130#PERK:DESC#808d5f88f66882f0bdaeff9520a3cae9",
+    "original": "Your prefrontal cortex has been enhanced with the Empathy Synthesizer, increasing your Charisma by 1.",
+    "translation": "共情同调仪强化了你的前额叶皮区。你的魅力上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantIntelligencePerk_0014C132#PERK:FULL#386414bb40a83e30fe642687c758f749",
+    "original": "Logic Co-Processor",
+    "translation": "逻辑协处理器",
+    "stage": 1
+  },
+  {
+    "key": "ImplantIntelligencePerk_0014C132#PERK:DESC#08f12194e2b9b8a37ec078e8fe63973e",
+    "original": "Your cerebral cortex has been enhanced with the Logic Co-Processor, increasing your Intelligence by 1.",
+    "translation": "逻辑协处理器强化了你的大脑皮层。你的智力上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantLuckPerk_0014C134#PERK:FULL#44e1c022868d0b97aabe11f1c041c7e2",
+    "original": "Probability Calculator",
+    "translation": "概率计算器",
+    "stage": 1
+  },
+  {
+    "key": "ImplantLuckPerk_0014C134#PERK:DESC#0627db35c79e7d7194e4cefd65936269",
+    "original": "Your frontal lobe has been enhanced with the Probability Calculator, increasing your Luck by 1.",
+    "translation": "概率计算器强化了你的头鞍前叶。你的幸运上升1。",
+    "stage": 1
+  },
+  {
+    "key": "ImplantDTPerk_0014CCDF#PERK:FULL#5c6a5329df39c3009fafc70e50f60000",
+    "original": "Sub-Dermal Armor",
+    "translation": "皮下护甲",
+    "stage": 1
+  },
+  {
+    "key": "ImplantDTPerk_0014CCDF#PERK:DESC#fe42614ea2118ac7dfdd0fe65784ff08",
+    "original": "Your skin has been toughened by the NEMEAN Sub-Dermal Armor, increasing your total Damage Threshold by 4.",
+    "translation": "复仇女神皮下装甲强化了你的皮肤。你的总伤害减免值提高4。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantStealthPerk_01001671#PERK:FULL#33a05785a561bf6d080553c34010ef0c",
+    "original": "Stealth Nano-Bots",
+    "translation": "隐形纳米机器人",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantStealthPerk_01001671#PERK:DESC#cd575022e473e4e7fb62990c549c760f",
+    "original": "Stealth Nano-Bots grant you a portable stealth field, making you practicallly invisible for short durations.",
+    "translation": "隐形纳米机器人能为你提供一个便携式隐形场，让你在短时间内几乎隐形。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVisionModePerk_0100196A#PERK:FULL#30b1e8300347c0d0054893067cd34187",
+    "original": "Bionic Eyes",
+    "translation": "仿生眼",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantVisionModePerk_0100196A#PERK:DESC#a5a66dc3d538bfa2f7e09ce3099fd3b9",
+    "original": "Your bionic eyes grant you enhanced vision modes to see at night and to pick up heat/electro-magnetic signatures.",
+    "translation": "你的仿生眼允许你通过热感应/电磁增强视觉得到夜视能力。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScannerPerk_0100196B#PERK:FULL#394aec47242e3b61c3755a6ecc0f006c",
+    "original": "AR Scanner",
+    "translation": "AR扫描仪",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantScannerPerk_0100196B#PERK:DESC#372ea017f781c2717d58c42bd3b7aeaa",
+    "original": "The AR combat scanner allows you to analyze enemies over long distances.",
+    "translation": "AR战斗扫描器允许您分析远距离敌人。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantAPRegenPerk_0100196C#PERK:FULL#de18d4eb299fab7e7bf9822bfcfa52da",
+    "original": "Adrenaline Booster",
+    "translation": "肾上腺素增幅器",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantAPRegenPerk_0100196C#PERK:DESC#6a5624fa0ed3669318c6b5fcdd6abd20",
+    "original": "Your adrenaline production is increased by the the RUSH Adrenaline Booster, resulting an AP regeneration bonus for killing enemies.",
+    "translation": "肾上腺素增幅器能提高你的肾上腺素的分泌能力,杀死敌人时能加强你的AP回复能力。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSyntheticLungsPerk_0100196D#PERK:FULL#f52492bb5e2618a965b74b4525cada99",
+    "original": "Synthetic Lungs",
+    "translation": "人造肺",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSyntheticLungsPerk_0100196D#PERK:DESC#0056939a7d62b569d7dec0a4d45c4f55",
+    "original": "Your lungs are synthetically enhanced, allowing you to breathe underwater.",
+    "translation": "你的肺得到综合增强,允许你在水下呼吸。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBTShoot1Perk_0100196E#PERK:FULL#8ac2643d65d5b722c6c984e694c17b02",
+    "original": "Kinetic Accelerator (Arms)",
+    "translation": "动力加速器（手部）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantBTShoot1Perk_0100196E#PERK:DESC#02e4e34d98d2bb5c3b9da76554e43f46",
+    "original": "The movement speed of your arms is increased by the Kinetic Accelerator, making reload 10% (20%, when installed in both arms) and melee attacks 5% (10%) faster.",
+    "translation": "动力加速器增加了你的手臂速度,使装弹速度加快10%（20%，双手安装），近战攻速加快5%（10%）。",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLeftArmRegenPerk_01001972#PERK:FULL#c6c01b56e3147762fb8a7ff3dd9e9c48",
+    "original": "Nanobionic Weave (Left Arm)",
+    "translation": "纳米编织器（左臂）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantLeftArmRegenPerk_01001972#PERK:DESC#4c62b05a9672d23ba7fe370a054fe948",
+    "original": "Your left arm is implanted with Nanobionic Weave, causing the limb to regenerate itself if it takes any damage.",
+    "translation": "你的左臂植入了纳米编织器，能让肢体受损时自我再生。",
+    "stage": 1
+  },
+  {
+    "key": "CWxPanelInstallMsg_01010E25#MESG:ITXT#d0afc7177de67dd3f877c2ca9c9d4c94",
+    "original": "Install",
+    "translation": "安装",
+    "stage": 1
+  },
+  {
+    "key": "CWxPanelInstallMsg_01010E25#MESG:ITXT#909a3c3443b31a63ff3eea0f7e347ca3",
+    "original": "Cancel",
+    "translation": "取消",
+    "stage": 1
+  },
+  {
+    "key": "CWxPanelRemoveMsg_01010E26#MESG:ITXT#8d182b3e5bf57e178edf674712413d77",
+    "original": "Remove",
+    "translation": "清除",
+    "stage": 1
+  },
+  {
+    "key": "CWxPanelRemoveMsg_01010E26#MESG:ITXT#909a3c3443b31a63ff3eea0f7e347ca3",
+    "original": "Cancel",
+    "translation": "取消",
+    "stage": 1
+  },
+  {
+    "key": "CWxStealthFieldHelpMsg_0100082A#MESG:DESC#0072a068009b46f3c6027a879a6a3647",
+    "original": "Stealth Fields greatly reduce the chance of being detected by an enemy while they are active. The default hotkey to switch them on/off is X, or press the Grab control on your controller while sneaking.\\n\\nGenerally, there are two types of cloaking devices:\\n* Single-use (Stealth Boy)\\n* Reusable (implants)\\n\\nThe field stability of a single-use device will degrade when it's active. Once it has reached zero, the device is broken and no longer usable.\\nFor reusable devices, stability will always recover over time once the stealth field is disabled. When active, implants display their status in the top center region of the HUD.",
+    "translation": "隐身力场能极大的减少你被警觉的敌人侦测到的概率。开关隐身力场的预设按键是 X 。使用手柄时开关力场的预设是潜行时按拾取键。\\n\\n通常来说游戏里有两类隐身设备：\\n单次使用的（如隐身小子）\\n能重复使用的（植入物）\\n\\n单次使用的设备一经启用，其隐身力场的稳定性就会降低。如果稳定性降至0，设备就会损坏。\\n对于能重复使用的设备，一旦关闭力场，其力场稳定性会逐渐恢复。设备启用时，在HUD的最上方中间，你能看到植入物的状态。",
+    "stage": 1
+  },
+  {
+    "key": "CWxStealthFieldHelpMsg_0100082A#MESG:FULL#2d8d8fce650f54d5e2c37f3e760a2dee",
+    "original": "Stealth Field",
+    "translation": "隐身力场",
+    "stage": 1
+  },
+  {
+    "key": "CWxStealthBoyIsActive_0100082B#MESG:DESC#e0645ad53186003887bf819adafd21a6",
+    "original": "Nano-Bots stealth field can't be started while Stealth Boy is active.",
+    "translation": "隐身小子正在生效时，隐身纳米机器人无法被启动",
+    "stage": 1
+  },
+  {
+    "key": "CWxScannerHelpMsg_010010A5#MESG:DESC#4ded902a8c14c94d0571e734dd9e1ed0",
+    "original": "The scanner gives you the ability to analyze potential enemies over long distances to help on deciding if and how they should be approached.\\n\\nTo scan something, aim at it while zooming or using ironsights. If it's a valid target, you can press E to start the scanning process.",
+    "translation": "扫描仪能分析远距离的潜在敌人，帮助你决定是否及怎样接近他们。\\n\\n要进行分析，先对准目标，然后放大镜头或使用机械瞄准。假如目标有效，你可以按 E 键开始分析进程。",
+    "stage": 1
+  },
+  {
+    "key": "CWxScannerHelpMsg_010010A5#MESG:FULL#e8dab6f0fee94dcfe5b621dcacdb98eb",
+    "original": "Scanner",
+    "translation": "扫描仪",
+    "stage": 1
+  },
+  {
+    "key": "CWxBionicEyesHelpMsg_010010B5#MESG:DESC#aaaa7c1ab63461dda84370bbbae00403",
+    "original": "To activate enhanced vision, press the M key or the Grab control on your controller. There are three different modes:\\n\\n* Night Vision, for a clear vision during the night and in poorly lit areas.\\n\\n* Heat Vision, to identify endothermic enemies.\\n\\n* EM Vision, which picks up electro-magnetic fields produced by enemies, electronic components in explosives and energy weapons.",
+    "translation": "按 M 键启用增强视觉能力（手柄按拾取键）。该能力有三种模式：\\n\\n夜视模式，在夜晚和黑暗地区提供清晰的视觉。\\n\\n热感模式，能侦测会吸收热能的敌人。\\n\\n电感模式，能捕捉敌人和爆炸物、能量武器中的电子部件产生的电磁场。",
+    "stage": 1
+  },
+  {
+    "key": "CWxBionicEyesHelpMsg_010010B5#MESG:FULL#c3f364e48ccba0dc834e5bd29546c795",
+    "original": "Enhanced Vision",
+    "translation": "增强视觉",
+    "stage": 1
+  },
+  {
+    "key": "CWxErrorNoImplantsMsg_01001F33#MESG:DESC#83a380866b1d27b00b5bebd2eb7fcd44",
+    "original": "You don't have any implants compatible with this body part.",
+    "translation": "你没有任何符合该身体部位的植入体。",
+    "stage": 1
+  },
+  {
+    "key": "CWxErrorUniqueImplantMsg_01001F34#MESG:DESC#95f9d78510c1f20115008e78151a84b8",
+    "original": "You can't install two implants of this kind in the same body region.",
+    "translation": "你不能在相同的身体部位安装两个同类植入体。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryManualMsg_01003EF8#MESG:DESC#836a79bd61da6397a0a7c536ac16f520",
+    "original": "While not really useful in your hands, with this highly educational and particulary rare book every decent doctor should be able to learn the art of cybernetic surgery.",
+    "translation": "这种高深且罕见的书虽然对你没有用，但任何像样的医生都能通过这本书学习这种具有神经机械学艺术的手术。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryManualMsg_01003EF8#MESG:FULL#3e2b1f5bb896c87fbab051c7d5e485d2",
+    "original": "Cybernetic surgery",
+    "translation": "神经机械学手术",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryUnlockedMsg_01004796#MESG:DESC#06c52b7b173bbbda3a3d4275f50e3603",
+    "original": "Thanks to your book on cybernetic surgery, this doctor learned how to install and remove implants from your body.",
+    "translation": "感谢你的神经机械学的书，这名医生学会了如果在你的身体里安装和取出植入体。",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryUnlockedMsg_01004796#MESG:FULL#3e2b1f5bb896c87fbab051c7d5e485d2",
+    "original": "Cybernetic surgery",
+    "translation": "神经机械学手术",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryDummyMsg_0100479A#MESG:DESC#da58d9d0f6d94c35c239efa96a54fe08",
+    "original": "...",
+    "translation": "...",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryConfirmMsg_01004A78#MESG:DESC#b13fce088e89a91d9b8249b183cea016",
+    "original": "Are you sure?",
+    "translation": "你确定？",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryConfirmMsg_01004A78#MESG:ITXT#7fbd6abf2abf3fe20cbe7b9693580923",
+    "original": "Yes",
+    "translation": "是",
+    "stage": 1
+  },
+  {
+    "key": "CWxSurgeryConfirmMsg_01004A78#MESG:ITXT#98850cbf11a030aa2551e98712849d3a",
+    "original": "No",
+    "translation": "不",
+    "stage": 1
+  },
+  {
+    "key": "CWxErrorNoPanelMsg_010058CC#MESG:DESC#2b9ef63e441c1565629c218b90a14b01",
+    "original": "There seems to be a problem with your Cyberware 2281 installation because the menu extensions were not detected.",
+    "translation": "未检测到Cyberware 2281的菜单扩展",
+    "stage": 1
+  },
+  {
+    "key": "CWxErrorNoPanelMsg_010058CC#MESG:FULL#085f5a55717c72420f962882b57660af",
+    "original": "Error",
+    "translation": "错误",
+    "stage": 1
+  },
+  {
+    "key": "CWxPanelGamepadHelpMsg_01012376#MESG:DESC#90f50cd364c93d2d9e32d02e68fc654a",
+    "original": "Use D-pad to navigate:\\nUP/DOWN - select a body part\\nLEFT/RIGHT - select an implant slot\\nA - show an implant menu",
+    "translation": "使用手柄的十字键来选择：\\n上/下：选择身体部位\\n左/右：选择植入槽\\nA：显示植入体菜单",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeWeightAbsorber2to3_010081DB#RCPE:FULL#0cc6a2c0d65f2f7b45b99f291a9a35ec",
+    "original": "Upgrade, Weight Absorber Implant (L3)",
+    "translation": "升级，负重缓冲器植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeWeightAbsorber3to4_010081DC#RCPE:FULL#5bee0d507db97a815abd52bae65ba2b5",
+    "original": "Upgrade, Weight Absorber Implant (L4)",
+    "translation": "升级，负重缓冲器植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeVoiceModulator1to2_010081C8#RCPE:FULL#c93ce13b9eb7b05c994f9837e9b1baa6",
+    "original": "Upgrade, Voice Modulator Implant (L2)",
+    "translation": "升级，语音调制器植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeVoiceModulator2to3_010081C9#RCPE:FULL#eaa48e88902ca44a9c8beb9d98ff4e4b",
+    "original": "Upgrade, Voice Modulator Implant (L3)",
+    "translation": "升级，语音调制器植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeVoiceModulator3to4_010081CA#RCPE:FULL#a9f84fcf96fbdd3f423a17eb29b080f3",
+    "original": "Upgrade, Voice Modulator Implant (L4)",
+    "translation": "升级，语音调制器植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeHandStabilizer1to2_010081CB#RCPE:FULL#f54a9daf6470a45eca3f54401ea2123f",
+    "original": "Upgrade, Hand Stabilizer Implant (L2)",
+    "translation": "升级，手臂稳定器植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeMotorMemorizer1to2_010081CC#RCPE:FULL#119cac82e026cb15854d65065274ca2d",
+    "original": "Upgrade, Motor Memorizer Implant (L2)",
+    "translation": "升级，动作记忆器植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeNeuralDatatool1to2_010081CD#RCPE:FULL#241e010844526901f9790acd734ef72a",
+    "original": "Upgrade, Neural Datatool Implant (L2)",
+    "translation": "升级，神经数据工具植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeRazorNails1to2_010081CE#RCPE:FULL#7517c88a226eb1baba4e9826b3347372",
+    "original": "Upgrade, Razor Nail Implants (L2)",
+    "translation": "升级，剃刀爪植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeTreadDamper1to2_010081CF#RCPE:FULL#539a2873d32863f088fc16bb523ba2f0",
+    "original": "Upgrade, Tread Damper Implant (L2)",
+    "translation": "升级，步态减震器植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeWeightAbsorber1to2_010081D0#RCPE:FULL#f05a353511c42b50edf45a2e2c0e4afd",
+    "original": "Upgrade, Weight Absorber Implant (L2)",
+    "translation": "升级，负重缓冲器植入体（L2）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeHandStabilizer2to3_010081D1#RCPE:FULL#4ce2a9837b2ce0744d43557f9aebe01b",
+    "original": "Upgrade, Hand Stabilizer Implant (L3)",
+    "translation": "升级，手臂稳定器植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeHandStabilizer3to4_010081D2#RCPE:FULL#3f3db50f10a1637d79fd31486b120237",
+    "original": "Upgrade, Hand Stabilizer Implant (L4)",
+    "translation": "升级，手臂稳定器植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeMotorMemorizer2to3_010081D3#RCPE:FULL#fcdd64e08fbd2d31ca7157b064ce1fa5",
+    "original": "Upgrade, Motor Memorizer Implant (L3)",
+    "translation": "升级，动作记忆器植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeMotorMemorizer3to4_010081D4#RCPE:FULL#d1539031c6b21600f7defdc2e9174c26",
+    "original": "Upgrade, Motor Memorizer Implant (L4)",
+    "translation": "升级，动作记忆器植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeNeuralDatatool2to3_010081D5#RCPE:FULL#2ca0fa828e4cca98757fc41e24d01b5f",
+    "original": "Upgrade, Neural Datatool Implant (L3)",
+    "translation": "升级，神经数据工具植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeNeuralDatatool3to4_010081D6#RCPE:FULL#4be83bebda8cb0c9e66435082578cd9d",
+    "original": "Upgrade, Neural Datatool Implant (L4)",
+    "translation": "升级，神经数据工具植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeRazorNails2to3_010081D7#RCPE:FULL#422a6c53ffb76ac31027a22398bd42ea",
+    "original": "Upgrade, Razor Nail Implants (L3)",
+    "translation": "升级，剃刀爪植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeRazorNails3to4_010081D8#RCPE:FULL#fefd79cae9393651784631f37ac88a96",
+    "original": "Upgrade, Razor Nail Implants (L4)",
+    "translation": "升级，剃刀爪植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeTreadDamper2to3_010081D9#RCPE:FULL#1fe3d16965324482d592c8d7824820f9",
+    "original": "Upgrade, Tread Damper Implant (L3)",
+    "translation": "升级，步态减震器植入体（L3）",
+    "stage": 1
+  },
+  {
+    "key": "CWxRecipeUpgradeTreadDamper3to4_010081DA#RCPE:FULL#a3c5762be50e38a49af215979cf17da7",
+    "original": "Upgrade, Tread Damper Implant (L4)",
+    "translation": "升级，步态减震器植入体（L4）",
+    "stage": 1
+  },
+  {
+    "key": "CWxImplantSubRecipes_010081C7#RCCT:FULL#2f1e4456a9ba896e150c5ba615b34f19",
+    "original": "Cybernetic Implants",
+    "translation": "神经机械植入手术",
+    "stage": 1
+  }
+]

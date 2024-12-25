@@ -1,0 +1,674 @@
+[
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#32ce9d4aa7478e7ff53ed9e75c076823",
+    "original": "Main",
+    "translation": "主要",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#000f7274e15f7dbdc162dc3eb969060e",
+    "original": "Main Settings",
+    "translation": "主要设置",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e1aa5bfb13c71a274f739022d7f7ae0a",
+    "original": "Highlighter",
+    "translation": "高亮",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e7c9f3bb30b9d65d7e374d8b4d4ba88c",
+    "original": "Item Highlighter",
+    "translation": "物品高亮",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#ba51a5bfd884f24b8ab3a71fe5e3d737",
+    "original": "Junk Filter",
+    "translation": "垃圾过滤",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#173e66455692846474f2e527b379bbc7",
+    "original": "Auto-Load INI",
+    "translation": "自动加载INI",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#1847963e85a2c458a4c26e74ef4ab96d",
+    "original": "Auto-load INI settings.",
+    "translation": "自动应用INI设置",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#659e1a1ff8e2221c7b43c9949baedbaa",
+    "original": "Save To INI",
+    "translation": "保存到ini",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f69465b94b9c233c9a8ebacb54bb6553",
+    "original": "Click To Save",
+    "translation": "单击保存",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#cb273b6f44cd56e553cfdf823bdd9151",
+    "original": "Save current settings to INI file.",
+    "translation": "保存当前设置到INI文件。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#79609a969d705cf926170da0a9385361",
+    "original": "Load From INI",
+    "translation": "从ini加载",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#4201760ba1406c3e0d34bd68453a4661",
+    "original": "Click To Load",
+    "translation": "单击加载",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f07d3a06769a85f7ab8b6c2c0cfa1254",
+    "original": "Load settings from INI file.",
+    "translation": "从INI文件加载设置。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#b4817ea4b7f88f818f67ccbe4382dc0e",
+    "original": "Enable",
+    "translation": "启用",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#a94a43124eb09c95fac4f88c50272075",
+    "original": "Enable Item Assistant. Game restart is required to fully disable Improved Menus.",
+    "translation": "启用物品助手。需要重新启动游戏才能完全禁用改进菜单",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f35f7c297b33ef3c72de040c7a03aefe",
+    "original": "Improved Menus",
+    "translation": "改进菜单",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#0c3859c09abaa3554c4adc1934698287",
+    "original": "(Requires Restart To Disable) Improved item menus for VUI+/DarnUI and JLM. Use IA Key on weapons to show extra stats - Calculated Crit Chance, Crit Chance Multiplier, Crit Damage, Weapon Spread, AP Cost, Reload Time/Ammo Regen Rate/Area of Effect/Melee Reach, and Attacks Per Sec.",
+    "translation": "（需要重启以禁用）为VUI+/DarnUI和JLM改进了改进的物品菜单。在武器上使用IA键以显示额外属性：\\n%r计算后暴击率、暴击倍数、暴击伤害、武器散布范围、AP消耗、\\n%r装填时间/弹药再生率/作用范围/近战攻击范围以及每秒攻击次数。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#ba45b9a9e96f3c2f32dce354988866ac",
+    "original": "IA Key",
+    "translation": "IA键",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#d32cfd17b78550085a6accb761a2e2cd",
+    "original": "The Item Assistant Key. This key is used for showing expanded weapon info in Improved Menus, activating Item Highlighter, and enabling pick up prompt and menu modifiers in Junk Filter.",
+    "translation": "物品助手键。此键用于在改进菜单中显示扩展的武器信息，激活物品高亮显示，并在垃圾过滤器中启用拾取提示和菜单修改。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#971e6036c3115fce693d97c7456cd634",
+    "original": "Toggle Mode",
+    "translation": "切换模式",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#c297dd2308feef9cbcdeab84de231a13",
+    "original": "Enable toggle mode.",
+    "translation": "启用切换模式",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#14d548f9b5f90f1da3732ac662f0325b",
+    "original": "Highlighter Shader",
+    "translation": "高亮着色器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#b00240189c965c3f9de2f4ad91e40e16",
+    "original": "Flat Shader",
+    "translation": "平面着色器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#9a7c7e3d294e4c07e815c1894b01442b",
+    "original": "Use a flat color shader instead of edge outlining.",
+    "translation": "使用平面颜色着色器而不是边缘轮廓",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e7eced8fb6b035722fb994a0413c860a",
+    "original": "No Pulsing",
+    "translation": "无脉冲",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#548a11dfc21931c1e0bc3e8b682e0688",
+    "original": "Disable pulsing.",
+    "translation": "禁用脉冲",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#06d1e1bab1e3ce3cb55ca0df2d8bd5a4",
+    "original": "Pickup Color",
+    "translation": "拾取颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#66ef39b4ed74d6bd18f2de369a37ecb0",
+    "original": "Use System Color",
+    "translation": "使用系统颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#1b5a1676a47517f03ba070150beff372",
+    "original": "Use Pip-Boy Color",
+    "translation": "使用Pip-Boy颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#7d39a99e98a9ebcb68673d21fce91718",
+    "original": "Use Custom Color",
+    "translation": "使用自定义颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#76650ff22e1cbb80c3d2a6723798227e",
+    "original": "System",
+    "translation": "系统",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#07c99f52373aff923a9cdd20eb3021fc",
+    "original": "Pip-Boy",
+    "translation": "哔哔小子",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#22959d50218fc0c99a3c9139d6b899b7",
+    "original": "Custom",
+    "translation": "自定义",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#4aed332720991c649f956edbd562194e",
+    "original": "Highlighter color on regular objects.",
+    "translation": "在常规对象上使用高亮颜色。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#972c183426f4e4f6922d8a42a5f32d25",
+    "original": "Custom Color",
+    "translation": "自定义颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#83c085915bf431c7f258261eb195f6f1",
+    "original": "Custom highlighter color on regular objects.",
+    "translation": "在常规对象上使用自定义高亮颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#0d9bfe350603e0ef069eea8fe9d0a7e1",
+    "original": "Steal Color",
+    "translation": "偷窃颜色",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e0ebb49e134950e035eb9b6bd898c407",
+    "original": "Highlighter color on stealable objects.",
+    "translation": "可窃取物品上的高亮颜色。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#59e84406822ac3b95972a521675957fa",
+    "original": "Custom highlighter color on stealable objects.",
+    "translation": "可窃取物品上的自定义高亮颜色。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#b461a41d56155185b7e64a4a1794f369",
+    "original": "Use the Item Assistant Key to highlight ground items.",
+    "translation": "使用物品助手键高亮显示地面物品。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#a5e825f8714d117d80d36be4bf3101e3",
+    "original": "Canine Only",
+    "translation": "仅犬类",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#d2cb6d603e5b5c55a30bebea7728f371",
+    "original": "Off",
+    "translation": "关闭",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#60aef5ddd36964fbd4dcb89eee5f40af",
+    "original": "Rex",
+    "translation": "雷克斯",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#d8c1863d5cd7db2c15c008606071b2e2",
+    "original": "Rex or Dogmeat",
+    "translation": "雷克斯或狗肉",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#736d714b4ad917e9a75b5ad20e542568",
+    "original": "Enable Highlighter only when Rex is present, to not devalue his Search And Mark companion perk.",
+    "translation": "只有在雷克斯在场时，才启用高亮，以免降低他的“搜索与标记”同伴特长的价值。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#c6040f73f07ea2d1bf8b95fb25355925",
+    "original": "Alcohol",
+    "translation": "酒精",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#8f595262887d9cd4ed5c2451bbb896fd",
+    "original": "Highlight alcoholic drinks.",
+    "translation": "高亮显示酒精饮料。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#501f1a4a511fdbbe5e2e7d6bb906fce3",
+    "original": "Ammo",
+    "translation": "弹药",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#09a80358bca784df9cd8d91248dde412",
+    "original": "Highlight ammo and ammo boxes.",
+    "translation": "高亮弹药和弹药箱",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#28f273c71a3307b5c129c04c20cf744d",
+    "original": "Armors",
+    "translation": "护甲",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#122876d453fd8d42c25898fe2d1cb127",
+    "original": "Highlight armors.",
+    "translation": "高亮护甲",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#d9bb38aaa11a9be76fec646b7df498ab",
+    "original": "Books",
+    "translation": "书籍",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#cfb6397f33eea8e690b54dfa720a6ddc",
+    "original": "Highlight skill books.",
+    "translation": "高亮技能书",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#82b682ff53bc5cca12edb87083978eb9",
+    "original": "Cases",
+    "translation": "弹壳",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#bb6cb9c138b5324e05119da49f97d838",
+    "original": "Highlight ammunition cases and drained cells.",
+    "translation": "高亮显示弹壳和耗尽的电池",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#b7c0e424f525e7132ba126160e128a2d",
+    "original": "Chems",
+    "translation": "化学品",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e42413a4c19e5b941ef3ab12f0ae04ba",
+    "original": "Highlight chems and stimpaks.",
+    "translation": "高亮显示化学品和治疗针",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#50733e1d60b7cc07e3167d19e22172b6",
+    "original": "Containers",
+    "translation": "容器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#5d9daafafa5c12ee4c5bfefd1716b3e2",
+    "original": "Highlight non-empty containers.",
+    "translation": "高亮显示非空容器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#804ee57badab4ed21f11bf553ae4c805",
+    "original": "Corpses",
+    "translation": "尸体",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#079ea104a7d94e669170e4a61427be77",
+    "original": "Highlight non-empty corpses.",
+    "translation": "高亮显示非空尸体。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#2484f4adad35a6a98ca39c1ea4e207f8",
+    "original": "Food",
+    "translation": "食物",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#b420abd6ffc35ded38b663cfa1563a0d",
+    "original": "Highlight food items.",
+    "translation": "高亮显示食物项目。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#05a4fb564a9dcfe7c99ccc643b2fa647",
+    "original": "Keys",
+    "translation": "钥匙",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#6ebea05d94249eff543996fa2a8a2ed0",
+    "original": "Highlight keys.",
+    "translation": "高亮显示钥匙",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#8f43d6c9802bf1831ae5d0bee30555d9",
+    "original": "Magazines",
+    "translation": "杂志",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#053e1ad64f36269df19d084ba89f4a58",
+    "original": "Highlight magazines.",
+    "translation": "高亮显示杂志",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#c27bccf8da995556c9c6599df302b1fc",
+    "original": "Misc",
+    "translation": "杂项",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#3b5e087352e4519bc79da1217dff515f",
+    "original": "Highlight all misc items.",
+    "translation": "高亮显示所有杂项物品",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#2465a3feee513bd92305eb306d576175",
+    "original": "Notes",
+    "translation": "笔记",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#d2fcad0b258b63fef0efef8676ac0c24",
+    "original": "Highlight notes.",
+    "translation": "高亮笔记",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#6343fe3d31bae7c9acdbbb21d59a6043",
+    "original": "Recipes",
+    "translation": "配方",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f2c5930853901d659b02e8e45f8a6e35",
+    "original": "Highlight recipes and schematics.",
+    "translation": "高亮显示配方和图纸",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#1dcf12a4ebe0bf112dbab4848b632d62",
+    "original": "Snow Globes",
+    "translation": "雪花球",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#212f787bd8a6bf95c06f20f0cf53a5e0",
+    "original": "Highlight Snow Globes.",
+    "translation": "高亮显示雪花球",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#32500b66f522382a6278fd47d8abcf33",
+    "original": "Weapons",
+    "translation": "武器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#32b4b67005c8cd3c1f98e25e081e4b23",
+    "original": "Highlight weapons.",
+    "translation": "高亮显示武器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e327dad7c8e44ccc0162943087594716",
+    "original": "Weapon Mods",
+    "translation": "武器配件",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f1e41386f73ebd627f4653b915ebd3b4",
+    "original": "Highlight weapon mods.",
+    "translation": "高亮显示武器配件",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f73de15aa29863b554a2f4bee7fa0398",
+    "original": "**Whitelist**",
+    "translation": "**白名单**",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#6a4aa88629d25ba67075b9010f22dd38",
+    "original": "Whitelisted items will always be highlighted. The list can be modified in the INI. The default whitelist includes basic useful items - Bottle Caps, Cigarette Packages, Lockpicks, Sierra Madre Chips, Rocket Canisters, Weapon Repair Kits, MREs, Pre-War Money, and Sunset Sarsaparillas.",
+    "translation": "白名单中的物品将始终被高亮显示。可以在INI文件中修改列表。默认白名单包括基本有用的物品：瓶盖、香烟包、开锁器、马德雷赌场筹码、火箭燃料、武器修理包、MRE、战前货币和夕阳沙士",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#e0550942fa69e9f5f0e8c4c3d4eb6f54",
+    "original": "**Blacklist**",
+    "translation": "**黑名单**",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#aed690f846409e44fefbbd70053c120c",
+    "original": "Blacklisted items will always be ignored. The list can be modified in the INI. The default blacklist is empty.",
+    "translation": "黑名单中的物品将始终被忽略。可以在INI文件中修改列表。默认黑名单为空。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#a4ec03335255f72d508cb03087a61c0f",
+    "original": "Modify Menu Buttons",
+    "translation": "修改菜单按钮",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#214a4c39e9c1f8c040c524a254f7f2ab",
+    "original": "Modify Menu Buttons + Block Pick Up",
+    "translation": "修改菜单按钮 + 阻止拾取",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#95820148b44488aebba5b236319d7ba6",
+    "original": "Junk Filter Mode",
+    "translation": "垃圾过滤模式",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#f0e754e7a889fee66f96fefbec350d06",
+    "original": "Help reduce screen and inventory clutter by filtering junk items out. Modify Menu Buttons: 'Exit' -> 'Dump Junk' and 'Take All' -> 'Take Except Junk' in the container menu when IA key is on. Block Pick Up: Pick up prompts on junk will be hidden until IA key is on.",
+    "translation": "通过过滤垃圾物品来减少屏幕和库存的杂乱。修改菜单按钮：当IA键开启时，容器菜单中的“退出” -> “丢弃垃圾”和“全部拿走” -> “拿走除垃圾外的所有物品”。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#5950af716e95cff0a0448d2dbc658a55",
+    "original": "Don't Highlight Junk Containers",
+    "translation": "不高亮显示垃圾容器",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#2b5ad1f838ed91cf3de0a52a990f896a",
+    "original": "(For Item Highlighter) Do not highlight containers/corpses that only contain junk items.",
+    "translation": "（针对物品高亮器）不高亮显示仅包含垃圾项目的容器/尸体。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#683bb6d9e3f0f695a81e89cfcef36331",
+    "original": "Clutter",
+    "translation": "阻止拾取",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#93c318751a49fbd59beaaf523efe5b80",
+    "original": "Items that are almost solely used for decorative purposes (Cups, chessboards, burnt books, plates, clipboards...).",
+    "translation": "当IA键开启前，垃圾物品的拾取提示将被隐藏。杂物，几乎仅用于装饰用途的物品（杯子、棋盘、烧毁的书、盘子、剪贴板...）。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#d0ce24122fcba3012c211e3c153e7c57",
+    "original": "Common Materials",
+    "translation": "常见材料",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#9a2e7d151f3a513d30201f62e43096ce",
+    "original": "Common misc items used in basic crafting (Scrap metal, empty bottles, clean books, regular tin cans, duct tapes...).",
+    "translation": "用于基本制作的常见杂项物品（废金属、空瓶子、干净的书、普通的锡罐、胶带...）。",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#a3aef683e041467a943cfbf528f8a1fa",
+    "original": "Any alcoholic drinks.",
+    "translation": "任何酒精饮料",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMScript_00000804#SCPT:SCDA#960900630bf5eefdd9fa58ba4c00f154",
+    "original": "Most common food items that are of little use outside of Hardcore mode.",
+    "translation": "大多数在硬核模式之外几乎没有用处的常见食物。",
+    "stage": 1
+  },
+  {
+    "key": "IAVUIplusScript_00000827#SCPT:SCDA#0567e91c733b30b24a81fab0702c6ebd",
+    "original": "Heavy",
+    "translation": "重",
+    "stage": 1
+  },
+  {
+    "key": "IAVUIplusScript_00000827#SCPT:SCDA#922e5b85fecb853c838640a3a9e65bf2",
+    "original": "Medium",
+    "translation": "中",
+    "stage": 1
+  },
+  {
+    "key": "IAVUIplusScript_00000827#SCPT:SCDA#870f32b0bbe72dabeb31f372e146eb61",
+    "original": "Light",
+    "translation": "轻",
+    "stage": 1
+  },
+  {
+    "key": "IAMCMItem_00000800#MISC:FULL#7bd13dce526441c39c99365fcf92830e",
+    "original": "Item Assistant",
+    "translation": "物品助手",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelCritDamage_0000082D#MESG:DESC#bb18614f3f652c3ccd12479b78f1f090",
+    "original": "CRT",
+    "translation": "暴击伤害",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelAttackSpeed_0000082E#MESG:DESC#f2dc30184d3db80e5db8641b80b5ab21",
+    "original": "A/S",
+    "translation": "攻击频率",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelReload_0000082F#MESG:DESC#acaebd8cbd56f0e67a8163025665eb0a",
+    "original": "R/L",
+    "translation": "装弹时间",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelReach_00000830#MESG:DESC#e647fd12563e12f18efdaa844e0d4947",
+    "original": "RCH",
+    "translation": "攻击范围",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuButtonExitDump_0000081A#MESG:DESC#4fd1f11414a556d4bbcea0b774e11e57",
+    "original": "Dump Junk",
+    "translation": "丢弃垃圾",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuButtonTakeAllDump_0000081C#MESG:DESC#11caccedb6bb1aad7956a17256428407",
+    "original": "Take Except Junk",
+    "translation": "拾取非垃圾物品",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelRatio_0000082B#MESG:DESC#93a02d1f84e296be68de5dceed33c01e",
+    "original": "V/W",
+    "translation": "价重比",
+    "stage": 1
+  },
+  {
+    "key": "IAMessErrorINI_00000834#MESG:DESC#1229c35200f76aed88c8773aec2bb2cd",
+    "original": "INI Missing\\n\\nPlease download and install the INI file first before using this function.",
+    "translation": "INI缺失\\n\\n请先下载并安装INI文件，再使用此功能。",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelRegen_00000835#MESG:DESC#fcf64446a3940d4a34715db2decc1e08",
+    "original": "REG",
+    "translation": "弹药再生",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelAOE_00000836#MESG:DESC#d09b10a9c539a74d4420988a93ca2b7c",
+    "original": "AOE",
+    "translation": "溅射半径",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelMax_00000837#MESG:DESC#f6313aa7f5fefc90acb1cbe3aebd9de9",
+    "original": "MAX",
+    "translation": "最大价格",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelCritChance_0000082C#MESG:DESC#478882763d035f7a880ecafe14afdfbb",
+    "original": "MUL",
+    "translation": "暴击系数",
+    "stage": 1
+  },
+  {
+    "key": "IAMessMenuLabelSpread_00000839#MESG:DESC#5e6509c38deed3f8dc6c0443eed3be71",
+    "original": "WS",
+    "translation": "武器散布",
+    "stage": 1
+  }
+]
