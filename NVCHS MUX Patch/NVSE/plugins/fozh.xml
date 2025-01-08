@@ -216,6 +216,9 @@
 		
 		<!-- Classic Goris -->
 		<json path="Data/NVCHSDict/json/Mods/Classic_Goris.json" priority="5" />
+
+		<!-- 独立车 -->
+		<file target="Data/NVCHSDict/Mods/StandaloneCars_chs.txt" src="Data/NVCHSDict/Mods/StandaloneCars_en.txt" type="2" priority="5"/>
 		
 		<!-- mods -->
 		<xml path="Data/NVCHSDict/Mods/JustAssortedMods.xml"/>
