@@ -223,6 +223,8 @@
 		<!-- mods -->
 		<xml path="Data/NVCHSDict/Mods/JustAssortedMods.xml"/>
 		<file target="Data/NVCHSDict/Mods/JAM_ch.txt" src="Data/NVCHSDict/Mods/JAM_en.txt" type="2" priority="5"/>
+
+		<json path="Data/NVCHSDict/json/Mods/ChainGang.json" priority="5" />
 		
 		<xml path="Data/NVCHSDict/Mods/3DNPCFO3Bundle.xml"/>
 		<xml path="Data/NVCHSDict/Mods/3DNPCFNVBundle.xml"/>
