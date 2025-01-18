@@ -1,0 +1,1036 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06000ADD</ID>
+    <EDID>aaaResilient1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Resilient1</ORIGINAL>
+    <TRADUIT>顽强如斯1</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06000ADE</ID>
+    <EDID>aaaResilient2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Resilient2</ORIGINAL>
+    <TRADUIT>顽强如斯2</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06000AE0</ID>
+    <EDID>aaaResilient3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Resilient3</ORIGINAL>
+    <TRADUIT>顽强如斯3</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>060049B1</ID>
+    <EDID>aaaWithdrawalDrinkBelowAll</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drink Below All Withdrawal</ORIGINAL>
+    <TRADUIT>“喝下所有”戒断反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00115EB1</ID>
+    <EDID>Absinthe</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Absinthe</ORIGINAL>
+    <TRADUIT>苦艾酒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>060049AF</ID>
+    <EDID>aaaDrinkBelowAll</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drink Below All</ORIGINAL>
+    <TRADUIT>喝下所有</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00032C74</ID>
+    <EDID>Vodka</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vodka</ORIGINAL>
+    <TRADUIT>伏特加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00032C75</ID>
+    <EDID>Whiskey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Whiskey</ORIGINAL>
+    <TRADUIT>威士忌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00122B4A</ID>
+    <EDID>WhiskeyDixon</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dixon's Whiskey</ORIGINAL>
+    <TRADUIT>迪克森的威士忌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00143FE1</ID>
+    <EDID>IrradiatedWhiskey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Irradiated Whiskey</ORIGINAL>
+    <TRADUIT>受辐射的威士忌</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000801</ID>
+    <EDID>aaaBigGameHunter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Game Hunter</ORIGINAL>
+    <TRADUIT>巨兽猎人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000801</ID>
+    <EDID>aaaBigGameHunter</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your understanding of animal behavior combined with targeted combat techniques allows you to inflict 25% more damage when engaging in combat against any creature.</ORIGINAL>
+    <TRADUIT>你对动物行为的理解加上有针对性的战斗技巧，使你在与任何生物战斗时都能造成25%的额外伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000802</ID>
+    <EDID>aaaFullMetalJacket</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Full Metal Jacket</ORIGINAL>
+    <TRADUIT>全金属弹壳</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000802</ID>
+    <EDID>aaaFullMetalJacket</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>At rank 1, Full Metal Jacket allows you to ignore 3 points of Damage Threshold from your enemies' armor when using guns. Your bullets find the chinks and gaps in their protective gear, delivering more effective damage with each shot. At rank 2, this bonus is increased to 6 points.</ORIGINAL>
+    <TRADUIT>一级时，全金属外壳能让你在使用枪械时忽略敌人盔甲的3点伤害减免。你的子弹能够找到他们防护装备中的缝隙和漏洞，每发射一次都能造成更有效的伤害。二级时，这个加成增加到6点。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000803</ID>
+    <EDID>aaaIdiotSavant</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Idiot Savant</ORIGINAL>
+    <TRADUIT>白痴学者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000803</ID>
+    <EDID>aaaIdiotSavant</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're not stupid! Just... different. Randomly receive 5x XP from any action, and the lower your Intelligence, the greater the chance.</ORIGINAL>
+    <TRADUIT>你并不笨，只是...与众不同。你可以从任何行动中随机获得5倍的经验值，而且你的智力越低，获得这种额外经验值的机会就越大。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000ADF</ID>
+    <EDID>aaaSelfDefense</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Self Defense</ORIGINAL>
+    <TRADUIT>自卫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000ADF</ID>
+    <EDID>aaaSelfDefense</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>This perk reflects your mastery of melee combat techniques and your ability to fortify yourself against incoming attacks while wielding such weapons. You'll now gain 5 DT with each rank of this perk when you have a melee weapon equip.</ORIGINAL>
+    <TRADUIT>这个技能反映了你对近战格斗技巧的精通以及你在使用这类武器时抵御攻击的能力。现在，当你装备近战武器时，每提升这个技能的一个等级，你将获得5点DT。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000AE3</ID>
+    <EDID>aaaAddictionImmunity</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Addiction Immunity</ORIGINAL>
+    <TRADUIT>成瘾免疫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000AE3</ID>
+    <EDID>aaaAddictionImmunity</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>I'll give you a hint about what this perk does. You don't have to worry about withdrawals anymore.</ORIGINAL>
+    <TRADUIT>关于这个技能的作用，我给你点提示吧。你再也不用担心戒断反应了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DBE</ID>
+    <EDID>aaaShoulderTheLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shoulder The Load</ORIGINAL>
+    <TRADUIT>肩负重任</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DBE</ID>
+    <EDID>aaaShoulderTheLoad</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your familiarity and expertise with heavy armor allow you to alleviate its adverse effects. This perk reduces the negative impacts of heavy armor on your mobility and agility, granting you improved movement speed as though you were wearing light armor.</ORIGINAL>
+    <TRADUIT>你对重型护甲的熟悉程度和专业技能让你能够减轻其不良影响。这个技能可以减少重型护甲对你移动速度和敏捷的负面影响，使你的移动速度仿佛穿着轻型护甲一样快。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DBF</ID>
+    <EDID>aaaResilientPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Resilient</ORIGINAL>
+    <TRADUIT>顽强如斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DBF</ID>
+    <EDID>aaaResilientPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>What hasn't happened to you? Spine stolen, heart stolen, brain missing, shot, stabbed, burned, poisoned, and as we speak you are melting from radiation! Your experiences in the wasteland has made you more resilient to most forms of damage as well as radiation.</ORIGINAL>
+    <TRADUIT>还有什么事没在你身上发生过吗？脊髓被偷、心脏被偷、脑子不翼而飞、挨过枪击、被刺伤、烧伤、下毒，我们说话这会儿你还在受辐射的影响，身体在逐渐融化！你在废土上的经历让你对大多数形式的伤害以及辐射都有了更强的抵抗力。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DC4</ID>
+    <EDID>aaaRooted</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rooted</ORIGINAL>
+    <TRADUIT>扎根</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DC4</ID>
+    <EDID>aaaRooted</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>If you can't hurt you, then they sure can't either! Firmly planting your feet onto the ground makes you as tough and as thick as a tree. You gain 25 DT when standing still and will do more melee damage.</ORIGINAL>
+    <TRADUIT>若你坚不可摧，他们便无计可施！
+双脚稳稳地扎根于地面，你便如参天大树般坚韧厚实。
+当你静止不动时，你将获得25点DT，
+并在近战攻击中造成更多伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DC5</ID>
+    <EDID>aaaLifeGranter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Life Granter</ORIGINAL>
+    <TRADUIT>生命赠予者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06000DC5</ID>
+    <EDID>aaaLifeGranter</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You have bestowed your blessings upon your peers and now a higher power is bestowing their blessing unto you. You will gain a small amount of health and now regen health at a slow rate.</ORIGINAL>
+    <TRADUIT>你已经把你的祝福赐给了你的同伴，
+现在一股更强大的力量正在把他们的祝福赐给你。
+你将获得少量的生命值，并以缓慢的速度恢复生命值。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109C</ID>
+    <EDID>aaaStrategicStrike</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>StrategicStrike</ORIGINAL>
+    <TRADUIT>战略打击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109C</ID>
+    <EDID>aaaStrategicStrike</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your proficiency with melee weapons grants you a significant advantage when in VATS. This perk reduces the AP cost of performing melee attacks in VATS by 20%.</ORIGINAL>
+    <TRADUIT>你对近战武器的精通使你在VATS中具有显著优势。
+此技能可减少在VATS中进行近战攻击所需的AP消耗20%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109D</ID>
+    <EDID>aaaOvercharge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Overcharge</ORIGINAL>
+    <TRADUIT>过载启动</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109D</ID>
+    <EDID>aaaOvercharge</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your proficiency with energy weapons grants you a distinct advantage when facing enemies donning light armor. Each rank of this perk enhances your damage output with energy weapons against lightly armored foes by 15%.</ORIGINAL>
+    <TRADUIT>你对能量武器的精通使你在面对轻甲敌人时具有明显优势。
+此技能的每个等级都会使你对轻甲敌人的能量武器伤害提高15%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109E</ID>
+    <EDID>aaaPsychoAndGuns</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Psycho and Guns</ORIGINAL>
+    <TRADUIT>狂躁与枪火</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109E</ID>
+    <EDID>aaaPsychoAndGuns</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Are you feeling okay? You're shaking, your cold but your hands are sweating, did you take a ton of psycho again? Now, not only your attack speed be increased with each rank of this perk but also your reload and draw speed.</ORIGINAL>
+    <TRADUIT>你没事吧？你浑身颤抖，身体冰冷但双手却冒汗，是不是又服用了大量疯狂药？
+现在，随着这个技能的等级提升，不止你的攻击速度会增加，连换弹和拔枪速度都会有所提高。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109F</ID>
+    <EDID>aaaTwoEyesOpen</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two Eyes Open</ORIGINAL>
+    <TRADUIT>双眼睁开</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600109F</ID>
+    <EDID>aaaTwoEyesOpen</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You finally became one of those shooters who shoots with both eyes open! Congrats! Now your chance to hit an opponent in and outside of V.A.T.S. is significantly increased.</ORIGINAL>
+    <TRADUIT>恭喜你终于成为了使用双眼瞄准的射击高手！现在，无论在V.A.T.S.系统内外，你击中敌人的几率都将大幅提高！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060010A0</ID>
+    <EDID>aaaGatWithAGat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Gat with a Gat</ORIGINAL>
+    <TRADUIT>持枪者之枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060010A0</ID>
+    <EDID>aaaGatWithAGat</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You read a book once about something with a... thing? With each rank of this perk you will do more damage with weapons governed by the Guns skill.</ORIGINAL>
+    <TRADUIT>你曾经读过一本书，是关于...某种东西吗？每获取这个特长的一个等级，你使用枪支技能时造成的伤害就会增加。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060010A1</ID>
+    <EDID>aaaBeamingWithHate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Beaming With Hate</ORIGINAL>
+    <TRADUIT>满怀仇恨</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060010A1</ID>
+    <EDID>aaaBeamingWithHate</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You just really hate those guys over there. With each rank of this perk, you will do more damage with weapons governed by the Energy Weapons skill.</ORIGINAL>
+    <TRADUIT>你真的很恨那边的那些家伙。每获取这个特长的一个等级，你使用能量武器技能时造成的伤害就会增加。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600137F</ID>
+    <EDID>aaaBonk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bonk!</ORIGINAL>
+    <TRADUIT>砰！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600137F</ID>
+    <EDID>aaaBonk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>That guy stole your sandwich! Are you just gonna sit there and take it? With each rank of this perk, you will do more damage with weapons governed by the Melee Weapons and the Unarmed skills.</ORIGINAL>
+    <TRADUIT>那家伙偷了你的三明治！你就打算坐在这儿任他摆布吗？每获取这个特长的一个等级，你使用近战武器和徒手技能时造成的伤害就会增加。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600165D</ID>
+    <EDID>aaaToughness2O</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Toughness 2.0</ORIGINAL>
+    <TRADUIT>坚韧2.0</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600165D</ID>
+    <EDID>aaaToughness2O</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>With the Toughness 2.0 perk, you gain +5 to overall Damage Threshold. This perk may be taken twice, with the second rank granting an additional +5.</ORIGINAL>
+    <TRADUIT>有了坚韧2.0这个特长，你的总体伤害减免提高+5点。
+这个特长可以获取两次，第二次获取时会额外增加+5点伤害减免。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06001976</ID>
+    <EDID>aaaCarefulHunter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Careful Hunter</ORIGINAL>
+    <TRADUIT>谨慎猎手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06001976</ID>
+    <EDID>aaaCarefulHunter</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>With Careful Hunter, you become a force to be reckoned with in any close-range encounter, turning even the most chaotic skirmishes into decisive victories. This perk enhances your aim and control, granting you a 20% increase in accuracy when using shotguns.</ORIGINAL>
+    <TRADUIT>有了谨慎猎手这个特长，你在任何近距离遭遇中都会成为一股不可小觑的力量，将最混乱的混战变成决定性的胜利。这个特长提高了你的瞄准和控制能力，使你在使用霰弹枪时准确度提高20%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06001C55</ID>
+    <EDID>aaaObliterator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Obliterator</ORIGINAL>
+    <TRADUIT>歼灭者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06001C55</ID>
+    <EDID>aaaObliterator</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your shotgun attacks become a relentless assault on your opponents' protective gear. This perk reduces the Damage Threshold of your enemies by a significant 25 points whenever you engage them with a shotgun. With each blast, you tear through their armor, making them regret getting out of bed in the morning.</ORIGINAL>
+    <TRADUIT>你的霰弹枪攻击成为对敌人防护装备的无情打击。当你用霰弹枪攻击敌人时，这个特长能显著降低他们25点的伤害减免。每一发子弹都能撕裂他们的盔甲，让他们后悔早上从床上爬起来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600224F</ID>
+    <EDID>aaaMending</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mending</ORIGINAL>
+    <TRADUIT>修复大师</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600224F</ID>
+    <EDID>aaaMending</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>This perk signifies your innate talent for maximizing the effectiveness of restorative items and techniques, allowing you to bounce back from wounds with newfound vigor. All healing effects are boosted by 10%.</ORIGINAL>
+    <TRADUIT>这个特长代表了你最大化恢复物品和技术效果的天赋，使你能够以新发现的活力从伤口中恢复过来。所有治疗效果提高10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002250</ID>
+    <EDID>aaaPhoenix</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Phoenix</ORIGINAL>
+    <TRADUIT>凤凰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002250</ID>
+    <EDID>aaaPhoenix</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your time in the wastes has caused your body undergo a remarkable transformation. You now regenerate 1 point of health every 10 seconds, enabling you to recover from injuries sustained during your adventures in the wasteland.</ORIGINAL>
+    <TRADUIT>你在废土的时间让你的身体发生了惊人的转变。你现在每10秒就能恢复1点生命值，使你能够从废土冒险中受到的伤害中恢复过来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002251</ID>
+    <EDID>aaaDeadeye</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deadeye</ORIGINAL>
+    <TRADUIT>死神之眼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002251</ID>
+    <EDID>aaaDeadeye</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>With this perk, your affinity for cowboy weaponry - revolvers, lever-action rifles, and dynamite - becomes even more pronounced. This perk reduces the Action Point cost of using VATS with cowboy weapons by 25%,</ORIGINAL>
+    <TRADUIT>这个特长让你的牛仔武器——左轮手枪、杠杆式步枪和炸药—的使用能力更加出色。这个特长可以降低使用V.A.T.S.与牛仔武器所需的行动点数成本25%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002252</ID>
+    <EDID>aaaPopFly</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pop Fly</ORIGINAL>
+    <TRADUIT>轻抛飞弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002252</ID>
+    <EDID>aaaPopFly</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>This perk reduces the Action Point cost of using VATS with throwable explosives, such as grenades and dynamite by 25%. With each explosive toss, you can precisely target enemies and unleash devastating blasts with enhanced efficiency.</ORIGINAL>
+    <TRADUIT>这个特长可以降低使用V.A.T.S.投掷爆炸物（如手榴弹和炸药）所需的行动点数成本25%。每次投掷爆炸物时，你可以精确地瞄准敌人，并以更高的效率释放毁灭性的爆炸。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002253</ID>
+    <EDID>aaaManhunter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Manhunter</ORIGINAL>
+    <TRADUIT>猎人本能</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06002253</ID>
+    <EDID>aaaManhunter</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Maybe you prefer to take them back alive. Maybe you prefer to watch them suffer. You are now 50% more likely to hit the target's legs in V.A.T.S. Have fun, weirdo.</ORIGINAL>
+    <TRADUIT>也许你更喜欢将他们活捉，也许你更喜欢看着他们受苦。你现在在V.A.T.S.中击中目标腿部的概率提高了50%。好好享受吧，怪人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060022FC</ID>
+    <EDID>aaaRussianBlood</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Russian Tastes</ORIGINAL>
+    <TRADUIT>俄罗斯口味</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060022FC</ID>
+    <EDID>aaaRussianBlood</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Maybe you actually grew up in Idaho. Maybe your family comes from a long line of spies. Maybe you're just an alcoholic. Vodka now removes radiation.</ORIGINAL>
+    <TRADUIT>也许你真的在爱达荷州长大。也许你的家族来自间谍世家。也许你只是个酒鬼。伏特加现在可以消除辐射。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600284C</ID>
+    <EDID>aaaTrickyTrajectory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tricky Trajectory</ORIGINAL>
+    <TRADUIT>诡谲弹道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600284C</ID>
+    <EDID>aaaTrickyTrajectory</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>This perk increases the damage dealt with all launcher-type weapons, including grenade launchers, missile launchers, and other explosive ordnance, by a substantial margin. All of these now ignore 30% of the enemies damage threshold.</ORIGINAL>
+    <TRADUIT>这一特长能显著提高所有发射器类武器造成的伤害，包括榴弹发射器、导弹发射器和其他爆炸性弹药。现在，这些武器将忽略敌人30%的伤害减免。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600284D</ID>
+    <EDID>aaaMagDump</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mag Dump</ORIGINAL>
+    <TRADUIT>疯狂射击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0600284D</ID>
+    <EDID>aaaMagDump</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Upon acquiring this perk, your proficiency with full-auto weapons grants you the ability to increase their rate of fire by 33%. With each squeeze of the trigger, your weapon unleashes a torrent of bullets at a blistering pace, overwhelming your enemies with sheer firepower.</ORIGINAL>
+    <TRADUIT>在获得这一特长后，你熟练使用全自动武器的能力使你能够将其射速提高33%。每次扣动扳机，你的武器都会以惊人的速度射出大量子弹，以纯粹的火力压制你的敌人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060049AC</ID>
+    <EDID>aaaSwissTastes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Swiss Tastes</ORIGINAL>
+    <TRADUIT>瑞士口味</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060049AC</ID>
+    <EDID>aaaSwissTastes</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You like alcohol from the cheese people. Addiction is a rocky road though... best be safe and not drink too much. Absinthe now restores AP.</ORIGINAL>
+    <TRADUIT>你喜欢奶酪国的酒。尽管上瘾是一条崎岖的道路..最好注意安全，不要喝太多。苦艾酒现在恢复AP。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060049AD</ID>
+    <EDID>aaaIrishTastes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Irish Tastes</ORIGINAL>
+    <TRADUIT>爱尔兰口味</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060049AD</ID>
+    <EDID>aaaIrishTastes</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You would think a country known for the potato would make an alcohol out of the potato but instead they are known for making an alcohol out of grains. Whiskey now increases damage.</ORIGINAL>
+    <TRADUIT>你可能会认为一个以土豆闻名的国家会用土豆酿酒，但相反，他们因用谷物酿酒而闻名。威士忌现在会增加伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060049AE</ID>
+    <EDID>aaaOneBelowAll</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>One Below All</ORIGINAL>
+    <TRADUIT>喝比天高</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>060049AE</ID>
+    <EDID>aaaOneBelowAll</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are a sad creature. Everyone thinks you are a loser. Enjoy your destroyed liver. You can now brew a custom alcohol at campfires.</ORIGINAL>
+    <TRADUIT>你是个可悲的生物。每个人都认为你是个失败者。享受你被毁的肝脏。你现在可以在篝火上酿造定制的酒。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06005B9A</ID>
+    <EDID>Blitz</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blitz</ORIGINAL>
+    <TRADUIT>闪电突袭</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06005B9A</ID>
+    <EDID>Blitz</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Find an opening and attack! When using V.A.T.S., the range of unarmed and melee attacks is greatly increased. At level 2, the attack range is even further.</ORIGINAL>
+    <TRADUIT>找到破绽，发动攻击！
+在使用V.A.T.S.时，会极大增加徒手和近战攻击的范围。
+2级时攻击距离更远</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>060049B3</ID>
+    <EDID>aaaRecipeDrinkBelowAll</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drink Below All</ORIGINAL>
+    <TRADUIT>喝下所有</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
