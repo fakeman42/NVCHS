@@ -261,6 +261,8 @@
 		<file target="Data/NVCHSDict/Mods/EnhancedMovement_ch.txt" src="Data/NVCHSDict/Mods/EnhancedMovement_en.txt" type="2" priority="5"/>
 		<xml path="Data/NVCHSDict/Mods/Casino_Exchange_All.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/Uncut_Extra_Collection_VNV.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/SD_Transporters.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/SD_Transporters spelling.xml" priority="5" />
 		
 		<json path="Data/NVCHSDict/json/Mods/AmaccurzerO's_Animated_Wastelands.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/AndJusticeForAll.json" priority="5" />
@@ -618,6 +620,8 @@
 		<regex from="^(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)$" to="$1 $2&#xA;$3 $4&#xA;$5 $6&#xA;$7 $8&#xA;$9 $10&#xA;$11 $12"/>
 		<regex from="^(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)$" to="$1 $2&#xA;$3 $4&#xA;$5 $6&#xA;$7 $8&#xA;$9 $10&#xA;$11 $12&#xA;$13 $14"/>
 		<regex from="^(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)$" to="$1 $2&#xA;$3 $4&#xA;$5 $6&#xA;$7 $8&#xA;$9 $10&#xA;$11 $12&#xA;$13 $14&#xA;$15 $16"/>
+		<!-- SD_transpoter菜单 -->
+		<regex from="^(.+):\s(.+)\s(.+)$" to="$1: $2 $3"/>
 		
 	</captureGroup>
 
