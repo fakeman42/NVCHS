@@ -1,0 +1,1906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>me!</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Master Files :
+00 - FalloutNV.esm
+01 - SD_Transporters.esp
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>SNAM</CHAMP>
+    <ORIGINAL>spelling and grammar fixes for the Transporters mod</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Master Files :
+00 - FalloutNV.esm
+01 - SD_Transporters.esp
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0100149A</ID>
+    <EDID>1zzTransporterJacket04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Transporter Uniform, Brown</ORIGINAL>
+    <TRADUIT>运输者制服·棕色</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+
+Meshes : armor\Leather_Jackets\leatherjacket_m.nif</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0100274B</ID>
+    <EDID>1zzTransporterJacket01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Transporter Uniform, Black</ORIGINAL>
+    <TRADUIT>运输者制服·黑色</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+
+Meshes : armor\Leather_Jackets\blackleatherjacket_m.nif</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0100274C</ID>
+    <EDID>1zzTransporterJacket02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Transporter Uniform, Rider</ORIGINAL>
+    <TRADUIT>运输者制服·骑手款</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+
+Meshes : armor\Leather_Jackets\aviatoroutfit_m.nif</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0100274D</ID>
+    <EDID>1zzTransporterJacket03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Transporter Uniform, Freeside</ORIGINAL>
+    <TRADUIT>运输者制服·自由城款</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+
+Meshes : armor\Leather_Jackets\uncrownedkings_outfit_m.nif</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0100274F</ID>
+    <EDID>1zzBikerGoggles</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Biker Goggles, Raised</ORIGINAL>
+    <TRADUIT>机车护目镜·凸框式</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+EyeGlasses
+Mask
+
+Meshes : MojaveTravel\1zzGoggles_m.nif</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0100276D</ID>
+    <EDID>1zzTransporterLocations</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Below you will find a list of all our current Transporter pick up/drop off locations.
+
+- Pueblo Manifesto, our headquarters.
+
+- Novac, on the other side of the overpass.
+
+- Nipton, right at the entrance.
+
+- Goodsprings, down the road towards Jean Sky Diving.
+
+- Primm, on the side of the road before the underpass.
+
+- Grub n' Gulp, located within the premises.
+
+- Westside, outside in the direction of the Thorn.
+
+- Freeside, outside the East Gate.
+
+- North Vegas Square, outside the east entrance.
+
+- Red Rock Canyon, outside the Khan Armory.
+
+- Cottonwood Cove, tucked away in the camp. 
+
+- Jacobstown, outside the entrance.
+
+- 188 Trading Post, on Highway 93 to the east.
+
+- Boulder City, on a ridge overlooking the dry lake.
+
+- Camp McCarran, outside near the El Rey Motel.
+
+- NCRCF, outside the main entrance.
+
+- Camp Searchlight, above the NCR camp.
+
+- Mojave Outpost, on the road at the foot of the hill.
+
+- Sloan, on the ridge near the barracks.
+
+- Camp Forlorn Hope, outside the north entrance.
+
+- Nelson, east of the water tower.
+
+If you find yourself using our services frequently, consider purchasing a Premium Travel Membership. They can be bought from our Elder at Pueblo Manifesto, our headquarters, just off Highway 95 south of Novac.</ORIGINAL>
+    <TRADUIT>以下是当前所有接送点列表：
+
+1.普韦布洛曼菲斯托，总部所在地；
+2.诺瓦克，立交桥另一侧；
+3.尼普顿，入口处；
+4.好泉镇，沿路下行（朝向吉恩跳伞点）；
+5.普里姆，地下通道前的路边；
+6.狼吞虎咽补给站，位于区域内；
+7.西区，朝荆棘丛方向的外围；
+8.自由城，东门外；
+9.北维加斯广场，外维加斯旁；
+10.红岩峡谷，汗帮军械库外围；
+11.棉木湾，营地角落；
+12.雅各布斯镇，入口外；
+13.188号贸易站，南坡下方；
+14.巨石城，俯瞰干湖的山脊上；
+15.麦卡伦营地，埃尔雷汽车旅馆附近；
+16.NCR惩戒所，正门外；
+17.探照灯营地，NCR营地上方；
+18.莫哈韦前哨站，朝尼普顿方向的山坡下；
+19.斯隆，兵营附近山脊；
+20.福伦希望营地，墓地前后的营区外；
+21.纳尔逊，水塔东侧。
+
+若您频繁使用我们的服务，请考虑购买"高级旅行通行证"。可在总部普韦布洛曼菲斯托购买，靠近95号公路。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F54</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Another visitor? I take it you're here to purchase a Premium Travel Membership, yes?</ORIGINAL>
+    <TRADUIT>又来一位？是来买高级旅行会员的吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F54</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>If not, I just finished cooking some food for my people - if you would like a helping.</ORIGINAL>
+    <TRADUIT>不然的话，我刚给族人做了饭——想蹭一口也行。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002961</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Greetings, traveller.</ORIGINAL>
+    <TRADUIT>你好啊，旅行者。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001C55</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Greetings, traveller.</ORIGINAL>
+    <TRADUIT>你好啊，旅行者。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100168D</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A few of our babies escaped the Pueblo the other day, hope they turn up soon.</ORIGINAL>
+    <TRADUIT>前几天几只驮鼠崽子跑出部落了，但愿能找回来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001692</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hope we can find more suitable mates for our mole rats.</ORIGINAL>
+    <TRADUIT>盼着给鼹鼠找个好配偶吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001675</ID>
+    <EDID>PLAYERINIRONSITES</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Not the best idea you've had, is it?</ORIGINAL>
+    <TRADUIT>这不是你最好的主意吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D2</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello</ORIGINAL>
+    <TRADUIT>你好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001696</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It's not often we get women within the Pueblo... that sounded bad.</ORIGINAL>
+    <TRADUIT>部落里不常有女人来……这话听着不太对。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100169C</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Now that the Khans are all dead, should we send the Red Rock Transporter elsewhere?</ORIGINAL>
+    <TRADUIT>可汗都死光了，红岩运输者该换地方了吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100169D</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>With the monorail gone, we should be getting more NCR on our Pack Rats.</ORIGINAL>
+    <TRADUIT>单轨废了，NCR的人该多搭咱们的驮鼠了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016A1</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You ever fall off a mole rat before?</ORIGINAL>
+    <TRADUIT>你从鼹鼠上摔下来过吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016A4</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You think we'll find a new bull anytime soon?</ORIGINAL>
+    <TRADUIT>你觉得咱们能找到新“公牛”吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [01002936] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016C0</ID>
+    <EDID>1zzHooverDam2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You're right, why was I even worried?</ORIGINAL>
+    <TRADUIT>你说得对，我为什么要担心呢。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016BA</ID>
+    <EDID>1zzElderDead1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We need to get all of the Transporters together to hold an election for the next elder.</ORIGINAL>
+    <TRADUIT>我们需要召集所有运输者来选举下一位长老。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016CD</ID>
+    <EDID>1zzSetUp1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Probably the Grub n' Gulp, Transporters there seem to make good money.</ORIGINAL>
+    <TRADUIT>可能是狼吞虎咽补给站，那里的运输者似乎赚得不错。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016D0</ID>
+    <EDID>1zzSetUp1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>188 Trading Post, Transporters there barely get to sleep.</ORIGINAL>
+    <TRADUIT>188号贸易站，那里的运输者几乎没时间睡觉。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010016D2</ID>
+    <EDID>1zzSetUp2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ooh, that's a good plan.</ORIGINAL>
+    <TRADUIT>哦，这计划不错。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CAA</ID>
+    <EDID>1zzStory1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Was ambushed by some Fiends the other week while I had a passenger in tow. Thought it was the end for me, until a ranger started taking heads.</ORIGINAL>
+    <TRADUIT>前几周我载客时被几个毒虫伏击，以为要完蛋了，结果游骑兵开始砍人头。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CAD</ID>
+    <EDID>1zzStory1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Was heading towards 188 the other week when I heard a shot ring off from Novac. Turned and saw some legionnaire without his head. It was midnight.</ORIGINAL>
+    <TRADUIT>前几周往188号走时，听见诺瓦克传来枪响，回头看见个没脑袋的军团兵——那可是半夜。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CAE</ID>
+    <EDID>1zzStory1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Was bringing a passenger home the other week. They'd hit it big at one of the casinos. When they got off my pack, they'd left their earnings behind.</ORIGINAL>
+    <TRADUIT>前几周送个赌场赢大钱的客人回家，结果他把赢的钱全落我驮兽上了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001C5F</ID>
+    <EDID>1zzAskMolerat</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>She comes from a rare breed on the verge of extinction.</ORIGINAL>
+    <TRADUIT>她属于濒临灭绝的稀有品种</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001C5F</ID>
+    <EDID>1zzAskMolerat</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Not long after the bombs fell, there were many of her kind wandering the wastes. People sought them for their large hides and abundant meat.</ORIGINAL>
+    <TRADUIT>核爆后废土上曾遍布她的同类，人们猎取厚皮和丰腴肉质</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001C5F</ID>
+    <EDID>1zzAskMolerat</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>My people and I have been fighting for her kind's survival, but they can be awfully hard to mate.</ORIGINAL>
+    <TRADUIT>我们部族为保育它们抗争至今，可惜配种实在太难</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001C5F</ID>
+    <EDID>1zzAskMolerat</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Why's your mole rat so big?</ORIGINAL>
+    <TRADUIT>你的地鼠为何这么大？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CBA</ID>
+    <EDID>1zzHowFar</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The grounds that we cover vary from Transporter to Transporter. We usually cover small areas so we don't compete with each other too much.</ORIGINAL>
+    <TRADUIT>每个运输者负责区域不同，划分地盘避免恶性竞争</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CBA</ID>
+    <EDID>1zzHowFar</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We also do this so we can return to our pick-up locations as soon as possible, to lessen the chance of wildlife and ruffians moving into our spots.</ORIGINAL>
+    <TRADUIT>这么做也能快速返回接客点，防止野兽或匪徒占窝</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CBA</ID>
+    <EDID>1zzHowFar</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>If the transporter who's assisting you isn't travelling as far as you'd like, you can see what the next transporter offers if that works for you.</ORIGINAL>
+    <TRADUIT>若当前运输者路线太短，可找下个运输者协商</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CBA</ID>
+    <EDID>1zzHowFar</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We also offer premium memberships at our Pueblo Manifiesto, our headquarters. If you're interested, seek our Elder.</ORIGINAL>
+    <TRADUIT>总部普韦布洛曼菲斯托提供高级会员服务，有兴趣找长老</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001CBA</ID>
+    <EDID>1zzHowFar</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>How much distance do you cover per trip?</ORIGINAL>
+    <TRADUIT>单程运输多远？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002941</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>While we Transporters typically set to do things for ourselves, I do have something a wastelander such as yourself may accomplish.</ORIGINAL>
+    <TRADUIT>虽然运输者习惯自力更生，但有件事适合你这种废土客</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002941</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The mole rat pups, our "babies", tend to stick with their birth parents. Naturally.</ORIGINAL>
+    <TRADUIT>地鼠幼崽天生黏着亲代</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002941</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Naturally, we trust that the parent mole rats keep their flock among them, but sadly that wasn't the case in this situation.</ORIGINAL>
+    <TRADUIT>本该由成年鼠管束幼崽，可惜这次出了岔子</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002941</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A few nights ago, all of the pups abandoned their nest and set out into the wilds. We haven't made any progress in locating them.</ORIGINAL>
+    <TRADUIT>几晚前所有幼崽离巢出走，至今搜寻无果</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002941</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Do you need help with anything?</ORIGINAL>
+    <TRADUIT>需要帮忙吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294F</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yes, you are to find the mole rat pup and lure them back to the Pueblo with banana yucca fruit.</ORIGINAL>
+    <TRADUIT>对，用香蕉丝兰果把幼崽引回普韦布洛</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294F</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>About that task you sent me to do.</ORIGINAL>
+    <TRADUIT>关于你交代的任务</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C4D</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This is terrible news. I hope you at least tried to prevent their demises. It will take a great while to recoup this loss.</ORIGINAL>
+    <TRADUIT>噩耗，望你至少尽力阻止死亡，弥补损失需时良久</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C4D</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>As I may have said before, I'm paying per head of pup, and you brought back one head. Sadly.</ORIGINAL>
+    <TRADUIT>说过按头计费，可惜只带回一颗头</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C4D</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope this amount is to your liking.</ORIGINAL>
+    <TRADUIT>希望酬劳合意</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C4D</ID>
+    <EDID>1zzQuestTopic01</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Only one of your pups made it back.</ORIGINAL>
+    <TRADUIT>仅一只幼崽生还</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002942</ID>
+    <EDID>1zzQuestTopic02</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I would have you set out to find those delinquents, and lure them back to the confines of the Pueblo using sweet banana yucca.</ORIGINAL>
+    <TRADUIT>本要你用香甜香蕉丝兰诱回那些叛逆崽子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002942</ID>
+    <EDID>1zzQuestTopic02</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I will provide you with what I can, but I do not have much yucca to offer.</ORIGINAL>
+    <TRADUIT>能提供的丝兰有限</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002942</ID>
+    <EDID>1zzQuestTopic02</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>So what would you have me do?</ORIGINAL>
+    <TRADUIT>要我怎么做？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002943</ID>
+    <EDID>1zzQuestTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I'll take your ill manners as ignorance, but I understand if our way seems strange or even foreign to you.</ORIGINAL>
+    <TRADUIT>姑且当你无知，理解你对我们传统感到怪异</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002943</ID>
+    <EDID>1zzQuestTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>For many years, the mole rat has been a sigil to our way. There is much to learn from mole rats and the way they lead their lives.</ORIGINAL>
+    <TRADUIT>地鼠是部族百年图腾，其生存之道蕴含智慧</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002943</ID>
+    <EDID>1zzQuestTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Unlike many of the other mole rats you may have encountered beyond these walls, ours are domesticated, docile, non-territorial.</ORIGINAL>
+    <TRADUIT>与外头野鼠不同，我们的地鼠驯化温顺且无领地意识</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002943</ID>
+    <EDID>1zzQuestTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Take the parents for example. They know their place, they stay put and keep the younger generations in check.</ORIGINAL>
+    <TRADUIT>以亲代为例，它们安分守己并约束幼崽</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002943</ID>
+    <EDID>1zzQuestTopic03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The pups typically follow suit as they grow, following the customs of their parents. Though sometimes you have a bad litter.</ORIGINAL>
+    <TRADUIT>幼崽通常随成长效仿亲代习俗，偶尔出窝劣种</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002943</ID>
+    <EDID>1zzQuestTopic03</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Install a gate, that'll solve your problems.</ORIGINAL>
+    <TRADUIT>装个栅栏门解决问题</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002945</ID>
+    <EDID>1zzQuestTopic06</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yes, "banana yucca".</ORIGINAL>
+    <TRADUIT>对，"香蕉丝兰"</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002945</ID>
+    <EDID>1zzQuestTopic06</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It is solemnly reserved as a dessert when they abide by our teachings, their diets usually consist of maize and other vegetables.</ORIGINAL>
+    <TRADUIT>遵训时会作为甜点，平日主食是玉米蔬菜</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002945</ID>
+    <EDID>1zzQuestTopic06</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They will follow the yucca, should you have enough to capture their interest.</ORIGINAL>
+    <TRADUIT>若有足够丝兰就能吸引它们</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002945</ID>
+    <EDID>1zzQuestTopic06</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I can provide you some, but you may need to get some of your own. We spent ours on the parents after their punishment for losing their litter.</ORIGINAL>
+    <TRADUIT>可提供部分，但需自筹——惩戒亲代时用光了库存</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002945</ID>
+    <EDID>1zzQuestTopic06</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Banana yucca?</ORIGINAL>
+    <TRADUIT>香蕉丝兰？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002946</ID>
+    <EDID>1zzQuestTopic07</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You cannot beat a baby into submission, they will simply cry. Pups are no different, except for the luxury of having legs to flee with.</ORIGINAL>
+    <TRADUIT>不能靠殴打驯服幼崽，它们只会哭嚎逃跑。地鼠崽子同理，只不过多四条腿逃命。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002946</ID>
+    <EDID>1zzQuestTopic07</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>No, beating them will earn you nothing among them but fear and distrust. You must give them a tangible reason to follow.</ORIGINAL>
+    <TRADUIT>不，靠暴力只会换来恐惧与猜忌。你得给他们实际的追随理由。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002946</ID>
+    <EDID>1zzQuestTopic07</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Can't I just beat them into submission?</ORIGINAL>
+    <TRADUIT>就不能直接打服他们吗？打到听话自然就跟了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294D</ID>
+    <EDID>1zzQuestTopic08</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Then it is up to you to find more.</ORIGINAL>
+    <TRADUIT>那你就得自己找更多货源。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294D</ID>
+    <EDID>1zzQuestTopic08</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You may find them growing around the Mojave, hopefully with yield. My men have had luck finding or purchasing them within Westside.</ORIGINAL>
+    <TRADUIT>莫哈韦各地或许能找到野生的，西区据点的人倒常能收购到。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294D</ID>
+    <EDID>1zzQuestTopic08</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>So, what if I run out of banana yucca?</ORIGINAL>
+    <TRADUIT>要是香蕉丝兰用完了怎么办？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294E</ID>
+    <EDID>1zzQuestTopic09</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The breed of mole rats we breed are some of the fastest creatures in the wasteland. Fully grown ones are known to outpace Deathclaws.</ORIGINAL>
+    <TRADUIT>我们养的地鼠是废土最快的生物，成年个体能跑赢死亡爪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294E</ID>
+    <EDID>1zzQuestTopic09</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Unless hunted with firearms, I'm certain that they've found means to feed themselves.</ORIGINAL>
+    <TRADUIT>只要不用枪猎杀，它们自有觅食的法子。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100294E</ID>
+    <EDID>1zzQuestTopic09</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What if your pups are dead already?</ORIGINAL>
+    <TRADUIT>万一你的幼崽早死了呢？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002947</ID>
+    <EDID>1zzQuestTopic10</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Excellent, we will talk pay when you return with the pups.</ORIGINAL>
+    <TRADUIT>很好，带回幼崽再谈报酬。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002947</ID>
+    <EDID>1zzQuestTopic10</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And please keep in mind that I am paying per head, so be on your best effort to bring them home alive.</ORIGINAL>
+    <TRADUIT>记住我是按头付费，尽量抓活的回来。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002947</ID>
+    <EDID>1zzQuestTopic10</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It would be in your best interest to search south of the Pueblo. All other directions lead to civilization or danger.</ORIGINAL>
+    <TRADUIT>建议往普韦布洛南边搜索，其他方向不是人烟就是险地。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002947</ID>
+    <EDID>1zzQuestTopic10</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'll find your molerats.</ORIGINAL>
+    <TRADUIT>我会找到你的地鼠。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C47</ID>
+    <EDID>1zzPremiumMember01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The Premium Travel Membership allows you to get more out of our transportation service.</ORIGINAL>
+    <TRADUIT>高级旅行会员能让运输服务物超所值。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C47</ID>
+    <EDID>1zzPremiumMember01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It will make all of your trips much cheaper, as well as extend the distance our Transporters will take you.</ORIGINAL>
+    <TRADUIT>所有行程费用打折，运输距离也翻倍。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C47</ID>
+    <EDID>1zzPremiumMember01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The cost is 1000 caps, but if you are a frequent patron of our transportation services, then I highly recommend it.</ORIGINAL>
+    <TRADUIT>1000瓶盖入会，常搭车的话强烈推荐。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C47</ID>
+    <EDID>1zzPremiumMember01</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What's a "Premium Travel Membership"?</ORIGINAL>
+    <TRADUIT>什么是"高级旅行会员"？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C48</ID>
+    <EDID>1zzPremiumMember02</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I trust you won't be dissatisfied with your purchase.</ORIGINAL>
+    <TRADUIT>相信您不会对这笔交易失望。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C48</ID>
+    <EDID>1zzPremiumMember02</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here, show this to any of our Transporters before embarking and enjoy this new luxury.</ORIGINAL>
+    <TRADUIT>出示这个给运输者，享受贵宾待遇吧。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002C48</ID>
+    <EDID>1zzPremiumMember02</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'd like to buy a Premium Travel Membership for 1,000 caps.</ORIGINAL>
+    <TRADUIT>[支付1000瓶盖] 我要办高级会员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F36</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hey, hey... it's got ups and downs.</ORIGINAL>
+    <TRADUIT>害，这鬼地方…总有好有坏。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F36</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Forecast is always pukey green skies, the radiation keeps me warm and somewhat sick, and the ghouls do wonders for foot traffic.</ORIGINAL>
+    <TRADUIT>天永远泛着辐射绿，ghoul倒是带来不少客流量。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F36</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It wasn't always bad, it was a quaint little town before this. Was here when it all went to shit. Well, not here, but I was on my way back.</ORIGINAL>
+    <TRADUIT>以前这儿挺安宁的小镇，灾难降临时我正往回赶——虽然没赶上。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F36</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Makes me mention, if you got any spare Radaway - I'll buy it off of you. I can only bum so much off of the NCR patrols.</ORIGINAL>
+    <TRADUIT>话说你要有多的消辐宁，我全收。NCR巡逻队的配额根本不够蹭。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F36</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Looks like you got the short end of the stick with this spot.</ORIGINAL>
+    <TRADUIT>看来你抽中了下下签才被派到这破地方。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F37</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Nice, how much can you fork over?</ORIGINAL>
+    <TRADUIT>行啊，能出多少价？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F37</ID>
+    <EDID>1zzHaz00</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I have some RadAway I can sell you.</ORIGINAL>
+    <TRADUIT>我有些消辐宁要卖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F47</ID>
+    <EDID>1zzElderAsk00</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ask and you shall recieve.</ORIGINAL>
+    <TRADUIT>要多少有多少。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F47</ID>
+    <EDID>1zzElderAsk00</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I have some questions for you.</ORIGINAL>
+    <TRADUIT>有些事想打听。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The why lies in the mutual respect we have for one another.</ORIGINAL>
+    <TRADUIT>答案在于我们彼此的尊重。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They inhabit many mines, caves, cliffs, and wherever else the sun may touch.</ORIGINAL>
+    <TRADUIT>它们栖息在矿洞、悬崖、日照充足处。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Being herbivores leads them to travel from place to place, for nowhere has the abundance that they need. They eat and eat.</ORIGINAL>
+    <TRADUIT>草食习性让它们四处迁徙，永远吃不饱。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In the beginning, we began trapping them and only euthanized them when they were crippled or old.</ORIGINAL>
+    <TRADUIT>起初我们设陷阱捕捉，只处决老弱病残。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They are almost akin to puppies when they are young, so eager and full of adventure, and we believe that to domesticate them - is to save them.</ORIGINAL>
+    <TRADUIT>幼崽像小狗般活泼亲人，驯化等于拯救。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Much of this sentiment may not be sensible to an outsider. We look to the mole rat as our children, and as they grow: as our protectors. As is our way.</ORIGINAL>
+    <TRADUIT>外人或许不解——地鼠是我们的孩子、护卫，更是生存之道。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4B</ID>
+    <EDID>1zzElderAsk03</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>So, why mole rats?</ORIGINAL>
+    <TRADUIT>所以为啥选地鼠？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yes, but that is because of the mole rat, and how their matriarchy is.</ORIGINAL>
+    <TRADUIT>没错，这和地鼠的母系社会有关。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Mole rats hate women, or at least the mothers do.</ORIGINAL>
+    <TRADUIT>地鼠仇恨雌性，至少母鼠如此。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The females tend to be very territorial with their offspring, thus we need to separate them from their litters, lest chaos will spring.</ORIGINAL>
+    <TRADUIT>雌兽护崽时极具攻击性，必须隔离幼崽免生混乱。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Whether it be dog, cat, human, or rat: the mother will show malice towards female of any species.</ORIGINAL>
+    <TRADUIT>无论对狗、人还是同类，母兽都敌视雌性生物。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Care is not only physical, but emotional as well. And to care for our children, we must remove any negative trigger from their bounds.</ORIGINAL>
+    <TRADUIT>养育需身心兼顾，必须隔绝负面刺激。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It is our way, our doctrine.</ORIGINAL>
+    <TRADUIT>这是我们的教义。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4C</ID>
+    <EDID>1zzElderAsk04</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I notice a severe lack of women within your group.</ORIGINAL>
+    <TRADUIT>我发现你们队伍里没女人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4D</ID>
+    <EDID>1zzElderAsk05</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>One cannot become a Transporter through their own desire, they must be found and accepted.</ORIGINAL>
+    <TRADUIT>运输者不能自封，需经选拔认可。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4D</ID>
+    <EDID>1zzElderAsk05</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Those around you were orphaned or sent to us by their familes. From an early age, a Transporter learns their lives will differ from others.</ORIGINAL>
+    <TRADUIT>周围人都是孤儿或被家族送来，自幼接受不同命运。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4D</ID>
+    <EDID>1zzElderAsk05</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We are all sworn to celibacy, our children are the mole rats.</ORIGINAL>
+    <TRADUIT>我们立誓独身，地鼠即是子嗣。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4D</ID>
+    <EDID>1zzElderAsk05</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So to answer your question: no, one cannot "become a Transporter". We are bred.</ORIGINAL>
+    <TRADUIT>所以答案是不能"成为"运输者，我们生来如此。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4D</ID>
+    <EDID>1zzElderAsk05</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Can I become a Transporter?</ORIGINAL>
+    <TRADUIT>我能加入运输者吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4E</ID>
+    <EDID>1zzElderAsk06</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>An Elder is chosen once the previous passes on. I accepted this mantle out of necessity alone.</ORIGINAL>
+    <TRADUIT>长老在前任去世后推举产生，我继任纯属形势所迫。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4E</ID>
+    <EDID>1zzElderAsk06</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>My role is to guide, teach, and care for those who will be here after me.</ORIGINAL>
+    <TRADUIT>我的职责是引导、教导、守护后继者。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4E</ID>
+    <EDID>1zzElderAsk06</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>How do you become an Elder?</ORIGINAL>
+    <TRADUIT>怎么当上长老的？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4F</ID>
+    <EDID>1zzElderAsk07</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We seek neutrality. Many of those who reap the wastes have come to accept and acknowledge this.</ORIGINAL>
+    <TRADUIT>我们保持中立，废土各方逐渐承认这点。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4F</ID>
+    <EDID>1zzElderAsk07</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That isn't to say we are passive. If attacked on the road or within our own Pueblo, we will not falter; we will not surrender.</ORIGINAL>
+    <TRADUIT>但这不意味软弱——若在运输途中或驻地遇袭，我们绝不退缩。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4F</ID>
+    <EDID>1zzElderAsk07</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The NCR has tried to form us into a corporation, the Legion has tried to consume us. They have both accepted we cannot be harnessed.</ORIGINAL>
+    <TRADUIT>NCR想把我们收编成企业，军团想吞噬我们。但他们都明白——我们无法被驯服。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F4F</ID>
+    <EDID>1zzElderAsk07</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Do you have any issues with other groups in the Mojave?</ORIGINAL>
+    <TRADUIT>你和莫哈韦其他势力有矛盾吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F51</ID>
+    <EDID>1zzElderAsk09</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Safe travels.</ORIGINAL>
+    <TRADUIT>一路顺风。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F51</ID>
+    <EDID>1zzElderAsk09</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Goodbye.</ORIGINAL>
+    <TRADUIT>我得走了……</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F49</ID>
+    <EDID>1zzElderAsk01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We began as a lowly tribe known as the "Rat Barons", to when we civilized our tribe's name: no one knows.</ORIGINAL>
+    <TRADUIT>我们最初叫"地鼠领主"部落，后来文明化了名字——鬼知道怎么改的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F49</ID>
+    <EDID>1zzElderAsk01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We spawned out of Idaho, where we learned to domesticate the mole rat. Learned to ride it, and through selective breeding: grow it.</ORIGINAL>
+    <TRADUIT>发源于爱达荷，在那里学会驯化地鼠、骑乘地鼠、选育地鼠。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F49</ID>
+    <EDID>1zzElderAsk01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We trekked much of the West and its coasts atop our mighty four legged children. Much of our kind can be found in any which direction.</ORIGINAL>
+    <TRADUIT>骑着四足巨兽穿越西部和海岸，我们的足迹遍布各处。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F49</ID>
+    <EDID>1zzElderAsk01</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We built this "Pueblo" from the concepts of housing we came to know throughout California. It's been our home for many decades.</ORIGINAL>
+    <TRADUIT>这座普韦布洛按加州建筑风格搭建，住了几十年了。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002F49</ID>
+    <EDID>1zzElderAsk01</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Tell me about the Transporters.</ORIGINAL>
+    <TRADUIT>讲讲运输者的来历。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004035</ID>
+    <EDID>1zzElderFood</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>My dear boy, as long as there are empty stomachs, I will always provide.</ORIGINAL>
+    <TRADUIT>孩子，只要有人挨饿，我永远管饱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004035</ID>
+    <EDID>1zzElderFood</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Can I have some food?</ORIGINAL>
+    <TRADUIT>能给我点吃的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004037</ID>
+    <EDID>1zzElderFood</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>My dear girl, as long as there are empty stomachs, I will always provide.</ORIGINAL>
+    <TRADUIT>姑娘，只要有人挨饿，我永远管饱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004037</ID>
+    <EDID>1zzElderFood</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Can I have some food?</ORIGINAL>
+    <TRADUIT>能给我点吃的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+</DocumentElement>
