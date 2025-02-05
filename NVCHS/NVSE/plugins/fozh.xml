@@ -201,6 +201,7 @@
 		<json path="Data/NVCHSDict/json/Mods/TTWCollectiblesMerged.json" priority="5" />
 		
 		<!-- 武器mod -->
+		<xml path="Data/NVCHSDict/Mods/Arsenal Weapons Overhaul_part.xml"/>
 		<json path="Data/NVCHSDict/json/Mods/mil.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/mil_Add-On.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/mil-Shop.json" priority="5" />
@@ -213,6 +214,8 @@
 		<json path="Data/NVCHSDict/json/Mods/PhotonLaserWeapons.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Tactapack.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/ThrowableExplosiveSpears.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/NVRAUzi_chs.txt" src="Data/NVCHSDict/Mods/NVRAUzi_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/AWOMarksmancarbine_chs.txt" src="Data/NVCHSDict/Mods/AWOMarksmancarbine_en.txt" type="2" priority="5"/>
 		
 		<!-- Classic Goris -->
 		<json path="Data/NVCHSDict/json/Mods/Classic_Goris.json" priority="5" />
@@ -330,11 +333,7 @@
 		<file target="Data/NVCHSDict/Mods/Pip-BoyCasino_ch.txt" src="Data/NVCHSDict/Mods/Pip-BoyCasino_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/S6S_Perks_ch.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/STAR_TTW_2_ch.txt" src="Data/NVCHSDict/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
-		<file target="Data/NVCHSDict/Mods/NVRAUzi_chs.txt" src="Data/NVCHSDict/Mods/NVRAUzi_en.txt" type="2" priority="5"/>
 		
-		<!-- AWO系列 -->
-		<xml path="Data/NVCHSDict/Mods/Arsenal Weapons Overhaul_part.xml"/>
-		<file target="Data/NVCHSDict/Mods/AWOMarksmancarbine_chs.txt" src="Data/NVCHSDict/Mods/AWOMarksmancarbine_en.txt" type="2" priority="5"/>
 		
 		
 	</replacetext>
