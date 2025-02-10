@@ -621,6 +621,11 @@
 		<regex from="^(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)$" to="$1 $2&#xA;$3 $4&#xA;$5 $6&#xA;$7 $8&#xA;$9 $10&#xA;$11 $12&#xA;$13 $14&#xA;$15 $16"/>
 		<!-- SD_transpoter菜单 -->
 		<regex from="^(.+):\s(.+)\s(.+)$" to="$1: $2 $3"/>
+
+		<!-- Claim the Mojave -->
+		<regex from="[^\r\n]+?( is now under the control of )([^\r\n]+?)$" to="$1在$2的控制下"/>
+		<regex from="[^\r\n]+?( is returning to )([^\r\n]+?)$" to="$1正在返回$2"/>
+		<regex from="[^\r\n]+?( has returned to )([^\r\n]+?)$" to="$1已返回$2"/>
 		
 	</captureGroup>
 
