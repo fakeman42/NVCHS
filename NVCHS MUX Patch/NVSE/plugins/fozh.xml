@@ -328,7 +328,8 @@
 		<file target="Data/NVCHSDict/Mods/Pip-BoyCasino_ch.txt" src="Data/NVCHSDict/Mods/Pip-BoyCasino_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/S6S_Perks_ch.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/STAR_TTW_2_ch.txt" src="Data/NVCHSDict/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
-		
+		<xml path="Data/NVCHSDict/Mods/WWM.xml" priority="5" />
+
 	</replacetext>
 
 	<fonts>
