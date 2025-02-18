@@ -1,0 +1,2570 @@
+[
+  {
+    "key": "_00000000#TES4:CNAM#5f835bb0ce21eed98f89c76ff2fe9620",
+    "original": "DefinitelyNotSade",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "_00000000#TES4:SNAM#0bcfe29697c06cfa23c8e271e06729e4",
+    "original": "Compilation of my 3 vanilla-style Legion quest mods: Five-Card Ante, Yes, I Would Actually, and You Go To My Head.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "GreatKhansSupplyObjectives_001376E9#SCPT:SCTX#648e0a4fa46fff3c5998502f3d3b544f",
+    "original": "SCN GreatKhansSupplyObjectives\\nint button\\n\\nBegin OnActivate Player\\n\tIf GetIsID VBSGreatKhanSupplies == 1\\n\t\tShowMessage VBSSuppliesMSG\\n\tElse\\n\t\tActivate\\n\tEndIf\\n\\nEnd\\n\\nBegin MenuMode  1001\\n\tSet button to GetButtonPressed\\n\tIf button == 1\\n\t\tActivate\\n\tElseIf button == 2\\n\t\tDisable\\n\t\tPlayer.AddItem VBSDirtySupplies 1\\n\tElseIf button == 3\\n\t\tDisable\\n\t\tPlayer.AddItem VBSDirtySupplies 1\\n\t\tPlayer.RemoveItem WaterUnpurified 3\\n\tElseIf button == 4\\n\t\tDisable\\n\t\tPlayer.AddItem VBSDirtySupplies 1\\n\t\tPlayer.RemoveItem IrradiatedWaterUnpurified 1\\n\tEndIf\\nEnd\\n\\nBEGIN OnAdd Player\\n\\n\tif Player.GetInCell 3CBSCave1\\n\t\tset VMS36.Cave1SupplyMarker to 1\\n\telseif Player.GetInCell 3CBSCave2\\n\t\tset VMS36.Cave2SupplyMarker to 1\\n\telseif Player.GetInCell 3CBSCave3\\n\t\tset VMS36.Cave3SupplyMarker to 1\\n\tendif\\n\\n\tif (Player.GetItemCount VBSGreatKhanSupplies == 2 || Player.GetItemCount VBSDirtySupplies >= 2) && GetStage VMS36 >= 10\\n\t\tSetObjectiveCompleted VMS36 70 1\\n\t\tSetObjectiveDisplayed VMS36 75 1\\n\t\tIf GetStage YesIWouldActually >= 30 && Player.GetItemCount VBSDirtySupplies >= 2\\n\t\t\tSetObjectiveCompleted YesIWouldActually 34 1\\n\t\t\tSetObjectiveDisplayed YesIWouldActually 35 1\\n\t\tEndIf\\n\tendif\\n\\nEND",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "VNelsonHostageRestrain2_001541EC#SCPT:SCTX#0df69f77bcade94d11a2344526711ce3",
+    "original": "scn VNelsonHostageRestrain2\\n\t\t\\n\t\tfloat timer\\n\t\tShort Freed\\n\t\tShort\tDoOnce\\n\t\tShort \tButton\\n\t\tShort\tiCount\t\t\t\t\t; Counter to enable Legion enemies if hostages are rescued\\n\t\tShort bBooneReacted;\\n\t\tShort Home\\n\t\tint PlantedExplosives\\n\\nBEGIN GameMode\\n\t\t;forces to check restrain\\n\t\t;getfurnituremarkerid == 26\\n\\n\tif DoOnce == 0\\n          if GetSitting == 3\\n               IgnoreCrime 1\\n               setRestrained 1\\n               set DoOnce to 1\\n          endif\\n     endif\\n\\n; Too many NPCs in the area\\n\t;If VNelson.bLegionSpawned != 1\\n\t;\tIf Freed == 1\\n\t;\t\tIf iCount < 1\\n\t;\t\t\tNelsonLegion01REF.Enable 1\\n\t;\t\t\tSet iCount to 1\\n\t;\t\t\tReturn\\n\t;\t\tElseif iCount == 1\\n\t;\t\t\tNelsonLegion02REF.Enable 1\\n\t;\t\t\tSet iCount to 2\\n\t;\t\t\tReturn\\n\t;\t\tElseif iCount == 2\\n\t;\t\t\tNelsonLegion03REF.Enable 1\\n\t;\t\t\tSet iCount to 3\\n\t;\t\t\tSet VNelson.bLegionSpawned to 1\\n\t;\t\tEndif\\n\t;\tEndif\\n\t;Endif\\n\\n\tIf NelsonNCRTrooperCheck1REF.GetDead == 1 && NelsonNCRTrooperCheck2REF.GetDead == 1 && NVNelsonRangerMiloREF.GetDead == 1 && GetDead == 0 && PlantedExplosives == 1\\n\t\tKill\\n\tEndIf\\n\\nEND\\n\\nBEGIN OnLoad\\n\t\tIgnoreCrime 1\\n\t\t\t;Cripples both legs for all three\\n\t\tNelsonNCRHostage01REF.DamageActorValue LeftMobilityCondition 5\\n\t\tNelsonNCRHostage01REF.DamageActorValue\tRightMobilityCondition 5\\n\\n\t\tNelsonNCRHostage02REF.DamageActorValue LeftMobilityCondition 5\\n\t\tNelsonNCRHostage02REF.DamageActorValue\tRightMobilityCondition 5\\n\\n\t\tNelsonNCRHostage03REF.DamageActorValue LeftMobilityCondition 5\\n\t\tNelsonNCRHostage03REF.DamageActorValue\tRightMobilityCondition 5\\nEND\\n\\nBegin onhit player\\n\t\tsetenemy caesarslegionnelsonfaction playerfaction\\nEnd\\n\t\\nBEGIN OnActivate \\n\\nIf IsActionRef Player == 1\\n\tif ( GetDead == 0 ) && ( Freed == 0 )\\n\t\tIf Eval (GetStage YouGoToMyHead >= 10) && (GetStage YouGoToMyHead < 20)\\n\t\t\tShowMessage YGTMHTecMineHostageAltMSG\\n\t\tElse\\n\t\t\tShowMessage TecMineHostageMSG\\n\t\tEndIf\\n\telseIf ( GetDead == 1 ) || ( Home == 1 )\\n\t\tActivate\\n\tendif\\nEndif\\nEND\\n\t\\n\\nBEGIN Menumode 1001\\n\t\\n\tif ( freed == 0 )\\n\t\tset button to GetButtonPressed\\n\t\tif ( button == 1 )\\n\t\t\tSetRestrained 0\\n\t\t\tignoreCrime 0\\n\t\t\t;Addtofaction NCRFactionNV 1\\n\t\t\t;setenemy caesarslegionnelsonfaction playerfaction\\n\t\t\tsetpcenemyoffaction caesarslegionnelsonfaction 1\\n\t\t\tset VNelson.NumHostages to VNelson.NumHostages + 1\\n\t\t\tset VNelson.HostagesFreedTotal to VNelson.HostagesFreedTotal + 1;\\n\t\t\tif VNelson.NumHostages == 3\\n\t\t\t\tset VNelson.HostagesFreed to 1\\n\t\t\t\tif GetObjectiveDisplayed VNelson 10 == 1 && GetQuestCompleted VNelson == 0\t\t\t; <<< (Added 7_27_10) Added conditions to address issue where during VMS30: Restoring Hope...\\n\t\t\t\t\tSetObjectiveDisplayed VNelson 15 1\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t; <<<  ...this objective would be set even though the Player had not started VNelson quest yet.\\n\t\t\t\tendif\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t; <<< (7_29_10) Changed first condition from \"GetQuestRunning\" to \"GetObjectiveDisplayed\" -ETB\\n\t\t\tendif\\n\t\t\tif (VNPCFollowers.bBooneHired == 1 && bBooneReacted == 0 && VNelson.HostagesFreedTotal + VNelson.HostagesKilled >= 3)\\n\t\t\t\t\t\\n\t\t\t\t\tset VDialogueCraigBoone.nOpenness to VDialogueCraigboone.nOpenness + 1;\\n\t\t\t\t\tif (VNelson.HostagesFreedTotal>= 3)\t; bonus for saving all three\\n\t\t\t\t\t\tset VDialogueCraigBoone.nOpenness to VDialogueCraigboone.nOpenness + 1;\\n\t\t\t\t\tendif\\n\t\t\t\t\tset bBooneReacted to 1;\\n\t\t\t\t\tCraigBooneREF.SayTo player VDialogueCraigBooneNelsonReactSave\\n\t\t\t\tendif\\n\t\t\tset Freed to 1\\n\t\t\tevp\\n\t\tElseIf button == 2 || button == 4\\n\t\t\tSetRestrained 0\\n\t\t\tignoreCrime 0\\n\t\t\tPlayer.RemoveItem Psycho 3\\n\t\t\tRemoveFromAllFactions\\n\t\t\tAddToFaction vCaesarsLegionFaction 1\\n\t\t\t\\n\t\t\tSetAV Strength 10\\n\t\t\tSetAV Endurance 10\\n\t\t\tIf button == 2\\n\t\t\t\tSetAV Health ((GetAV Health) * 3)\\n\t\t\t\tSetAV Aggression 1\\n\t\t\t\tSetAV Confidence 4\\n\t\t\tEndIf\\n\t\t\tSet Freed to 1\\n\t\t\tSet YouGoToMyHead.IntimidatedSoldiers to YouGoToMyHead.IntimidatedSoldiers + 1\\n\t\t\tEvp\\n\t\tElseIf button == 3\\n\t\t\tSetRestrained 0\\n\t\t\tignoreCrime 0\\n\t\t\tIf GetIsReference NelsonNCRHostage02REF == 1\\n\t\t\t\ttrapNelsonBIYOB2REF.Enable\\n\t\t\t\tIf NVNelsonRangerMiloREF.GetDead == 0\\n\t\t\t\t\tNVNelsonRangerMiloREF.SetRestrained 1\\n\t\t\t\t\tNVNelsonRangerMiloREF.MoveTo trapNelsonBIYOB2REF\\n\t\t\t\t\tNelsonNCRHostage02REF.TravelToREF NVNelsonRangerMiloREF\\n\t\t\t\t\tSet YouGoToMyHead.NelsonTrooper2FreedExplosives to 1\\n\t\t\t\tEndIf\\n\t\t\tElseIf GetIsReference NelsonNCRHostage01REF == 1\\n\t\t\t\ttrapNelsonBIYOB1REF.Enable\\n\t\t\t\tIf NelsonNCRTrooperCheck2REF.GetDead == 0\\n\t\t\t\t\tNelsonNCRTrooperCheck2REF.SetRestrained 1\\n\t\t\t\t\tNelsonNCRTrooperCheck2REF.MoveTo trapNelsonBIYOB1REF\\n\t\t\t\t\tNelsonNCRHostage01REF.TravelToREF NelsonNCRTrooperCheck2REF\\n\t\t\t\t\tSet YouGoToMyHead.NelsonTrooper1FreedExplosives to 1\\n\t\t\t\tEndIf\\n\t\t\tElseIf GetIsReference NelsonNCRHostage03REF == 1\\n\t\t\t\ttrapNelsonBIYOB3REF.Enable\\n\t\t\t\tIf NelsonNCRTrooperCheck1REF.GetDead == 0\\n\t\t\t\t\tNelsonNCRTrooperCheck1REF.SetRestrained 1\\n\t\t\t\t\tNelsonNCRTrooperCheck1REF.MoveTo trapNelsonBIYOB3REF\\n\t\t\t\t\tNelsonNCRHostage03REF.TravelToREF NelsonNCRTrooperCheck1REF\\n\t\t\t\t\tSet YouGoToMyHead.NelsonTrooper3FreedExplosives to 1\\n\t\t\t\tEndIf\\n\t\t\tEndIf\\n\t\t\tSet Freed to 1\\n\t\t\tSet YouGoToMyHead.PlantedExplosives to YouGoToMyHead.PlantedExplosives + 1\\n\t\t\tSet PlantedExplosives to 1\\n\t\t\tEvp\\n\t\tendif\\n\tendif\\nEND\\n\\nBEGIN OnDeath\\n\\n\tset VNelson.NumHostages to VNelson.NumHostages - 1\\n\tset VNelson.HostagesKilled to VNelson.HostagesKilled + 1\\n\\n\t; there was previously a check inserted here to see that the Nelson quest was running and incomplete. I don't think that's necessary for Boone to react to the mercy killings,\\n\t; and have removed it. -EPF 7/29/10\\n\tif (VNPCFollowers.bBooneHired == 1 && bBooneReacted == 0 && VNelson.HostagesKilled + VNelson.HostagesFreedTotal>= 3)\\n\t\tCraigBooneREF.SayTo player VDialogueCraigBooneNelsonReactMercyKill\\n\t\tset VDialogueCraigBoone.nOpenness to VDialogueCraigboone.nOpenness + 1;\\n\t\tset bBooneReacted to 1;\\n\tendif\\n\\n\tif VNelson.HostagesKilled == 3 && NVNelsonRangerMiloREF.getdead == 0\\n\t\tif GetObjectiveDisplayed VNelson 10 == 1 && GetQuestCompleted VNelson == 0\\n       \t\t\tsetStage VNelson 15\\n\t\tendif\\n\tendif\\n\\nEND",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "trapNelsonBIYOB_02001099#SCPT:SCTX#36be74b56087b232267de727197c2ef7",
+    "original": "scn trapNelsonBIYOB\\n\\n\\nBegin GameMode\\n\\n\tIf Eval ((GetDistance2D NelsonNCRHostage02REF < 300) || (GetDistance2D NelsonNCRHostage01REF < 300) || (GetDistance2D NelsonNCRHostage03REF < 300))\\n\t\tDamageObject 100\\n\tEndIf\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YouGoToMyHeadSCRIPT_0200137C#SCPT:SCTX#7ff63ba554b7a7232f588cb8b6122e0f",
+    "original": "Scn YouGoToMyHeadSCRIPT\\n\\nInt TalkedToMilo\\nInt TalkedToDeadSea\\nInt DruggedSoldiers\\nInt IntimidatedSoldiers\\nInt PlantedExplosives\\nInt NelsonTrooper1FreedExplosives\\nInt NelsonTrooper2FreedExplosives\\nInt NelsonTrooper3FreedExplosives\\nInt iNCRTroopersDead\\nRef rNCRTrooperREF\\n\\n\\nBegin Gamemode\\n\t\\n\tIf Eval (GetGameRestarted) || (GetGameLoaded)\\n\t\tSetJohnnyOnDyingEventHandler 1 (Begin Function {rNCRTrooperREF}\\n\t\t\t\tLet iNCRTroopersDead += 1\\n\t\t\t\tIf Eval iNCRTroopersDead >= 3\\n\t\t\t\t\tSetStage YouGoToMyHead 20\\n\t\t\t\tEndIf\\n\t\tEnd) 0 YGTMHNCRCheckpointRefFormList\\n\tEndIf\\n\t\\n\tIf Eval (IntimidatedSoldiers + PlantedExplosives) == 3\\n\t\tSetObjectiveCompleted YouGoToMyHead 15 1\\n\tEndIf\\n\t\\n\tIf Eval (NelsonTrooper1FreedExplosives) && (NelsonNCRHostage01REF.GetDistance2D NelsonNCRTrooperCheck2REF < 1000)\\n\t\tNelsonNCRHostage01REF.TravelToREF NelsonNCRTrooperCheck2REF 1\\n\tEndIf\\n\t\\n\tIf Eval (NelsonTrooper2FreedExplosives) && (NelsonNCRHostage02REF.GetDistance2D NVNelsonRangerMiloREF < 1000)\\n\t\tNelsonNCRHostage02REF.TravelToREF NVNelsonRangerMiloREF 1\\n\tEndIf\\n\t\\n\tIf Eval (NelsonTrooper3FreedExplosives) && (NelsonNCRHostage03REF.GetDistance2D NelsonNCRTrooperCheck1REF < 1000)\\n\t\tNelsonNCRHostage03REF.TravelToREF NelsonNCRTrooperCheck1REF 1\\n\tEndIf\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FiveCardAnteScript_02000DBE#SCPT:SCDA#e61044608dbe08bc18441abfc3b49ac9",
+    "original": "key",
+    "translation": "钥匙",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteScript_02000DBE#SCPT:SCTX#5c1fa3b6d77ee1aafd1db876544a0f68",
+    "original": "Scn FiveCardAnteScript\\n\\nInt TalkedToDhatri\\nInt HuntingNephi\\nInt TalkedToFrumentarius\\nInt AcceptedOffer\\nInt DeclinedOffer\\nInt SamsonPlantDirect\\nInt ChoseSneak\\nInt ChoseExplosives\\nInt MinesSet\\nInt EnabledMines\\nInt PursuingFirstRecon\\n\\nInt GorobetsAtSamson\\nInt BetsyAtSamson\\nInt TenAtSamson\\nInt SterlingAtSamson\\nInt BitterAtSamson\\nInt FirstReconAtSamson\\n\\nInt DetonatedMines\\nInt DetonatedGasMines\\nInt DetonatedC4\\nInt ChoseSpeech\\nInt XPCheck\\nInt SabotagedFirstReconEquipment\\n\\nInt FirstReconDead\\nInt HandedInQuest\\nInt FirstReconEnslaved\\nInt ConvincedMotorRunner\\nInt DriverNephiAttackingFR\\nInt FiendsAttackingFR\\nInt FiendsReset\\nInt LegionnariesSpawned\\n\\nInt PlayerAtSamson\\nInt fBeeping\\n\\nInt Cleanup\\n\\nRef rFRMember\\n\\nInt SetArrays\\nArray_Var FirstReconRefs \\nArray_Var C4Refs\\nArray_Var MineRefs \\nArray_Var GasRefs\\nArray_Var RestrainedMarkerRefs\\nArray_Var LegionaryRefs\\nArray_Var LegionMarkers \\nArray_Var FCAAllRefs\\nArray_Var FiendRefs\\nArray_Var FiendOutfits \\n\\nArray_Var Entry\\nRef GenericRef\\nRef rMarker\\nRef FiendWarningScriptRef\\nInt RefPos\\n\\nBegin MenuMode 4\\n\t\\n\t; Add FiendOutfitWarningScript from Raiders Disguise Mod via script to prevent potential mod overrides (i.e. JSawyer Ultimate)\\n\tIf Eval GetGameRestarted\\n\t\tLet FiendOutfits := Ar_List ArmorRaider01 ArmorRaider02 ArmorRaider03 ArmorRaider04\\n\t\tForEach Entry <- FiendOutfits\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tSetScript FiendOutfitWarningScript, GenericRef\\n\t\tLoop\\n\tEndIf\\n\t\\nEnd\\n\\nBegin GameMode\\n\t\\n\tIf Eval (GetGameRestarted || GetGameLoaded)\\n\t\tLet FiendOutfits := Ar_List ArmorRaider01 ArmorRaider02 ArmorRaider03 ArmorRaider04\\n\t\tForEach Entry <- FiendOutfits\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tSetScript FiendOutfitWarningScript, GenericRef\\n\t\tLoop\\n\t\t\\n\t\t; ----------- Constructing Arrays ------------------------\\n\t\t\\n\t\tLet FCAAllRefs := Ar_Construct \"array\"\\n\t\t;; Activator Mines\\n\t\tLet MineRefs := Ar_List FCAGorobetsMine FCASterlingMine FCABetsyMine FCABitterRootMine FCATenOfSpadesMine\\n\t\t\\n\t\t;; C4 Explosives\\n\t\tLet C4Refs := Ar_List FCAGorobetsC4 FCASterlingC4 FCABetsyC4 FCABitterRootC4 FCATenOfSpadesC4\\n\t\t\\n\t\t;; Gas Mines\\n\t\tLet GasRefs := Ar_List FCAGorobetsGas FCASterlingGas FCABetsyGas FCABitterRootGas FCATenOfSpadesGas\\n\t\t\\n\t\t;; Restrained Markers\\n\t\tLet RestrainedMarkerRefs := Ar_List FCAGorobetsRestrained FCASterlingRestrained FCABetsyRestrained FCABitterRootRestrained FCATenOfSpadesRestrained\\n\t\t\\n\t\t;; Legionnaries\\n\t\tLet LegionaryRefs := Ar_List FCALegionVexSamsonSpawnREF FCALegionVetSamson01REF FCALegionVetSamson02REF FCALegionVetSamson03REF\\n\t\tLet LegionMarkers := Ar_List FCALegionVexMoveREF FCALegionVet01MoveREF FCALegionVet02MoveREF FCALegionVeto3MoveREF\\n\t\t\\n\t\t;; First Recon Refs\\n\t\tLet FirstReconRefs := Ar_List LieutenantGorobetsRef CorporalSterlingRef CorporalBetsyRef SergeantBitterRootRef TenOfSpadesRef\\n\t\t\\n\t\t; Replacement for OnDeath blocks in scripts attached to each First Recon member for mod compatibility reasons\\n\t\tSetJohnnyOnDyingEventHandler 1 FCAFirstReconDeathHandlerScript 0 FCAFirstReconList\\n\t\t\\n\tEndIf\\n\t\\n\t; -------- AUTO-FAIL CONDITIONS -------------------------------------------------------------------\\n\t; Fail quest if Hated or worse with the Legion. Mixed reputation with Legion allows completion\\n\tIf Eval GetReputationThreshold RepNVCaesarsLegion 2 >= 5\\n\t\tSetStage FiveCardAnteQuest 95\\n\tEndIf\\n\t\\n\t; Auto Fail Quest if Driver Nephi is dead before First Recon get to Samson\\n\tIf Eval (FiendDriverNephiRef.GetDead) && (!FirstReconAtSamson)\\n\t\tSetStage FiveCardAnteQuest 95\\n\tEndIf\\n\t; ------------- END -------------------------------\\n\t\\n\t\\n\t; Start Helper Quest If Not Started\\n\tIf Eval (GetStage FiveCardAnteQuest >= 10) && (GetStage FiveCardAnteQuest < 90) && (!GetQuestRunning FCAFirstReconCrucifiedQuest)\\n\t\tStartQuest FCAFirstReconCrucifiedQuest\\n\tEndIf\\n\t\\n\t\\n\t; ----------------- END -------------------\\n\t\\n\t\\n\t; Enable mines at Samson if either the Sneak or Explosives route is chosen\\n\tIf Eval GetStage FiveCardAnteQuest >= 30 && EnabledMines == 0 && (ChoseSneak || ChoseExplosives)\\n\t\tForEach Entry <- MineRefs \\n\t\t\tLet GenericREF := *Entry\\n\t\t\tGenericREF.Enable\\n\t\tLoop\\n\t\tLet EnabledMines := 1\\n\t\t; Disable mines at Samson if Sneak or Explosives are not chosen\\n\tElseIf Eval GetStage FiveCardAnteQuest >= 30 && ChoseSneak == 0 && ChoseExplosives == 0\\n\t\tForEach Entry <- MineRefs \\n\t\t\tLet GenericREF := *Entry\\n\t\t\tGenericREF.Disable\\n\t\tLoop\\n\t\tLet EnabledMines := 0\\n\tEndIf\\n\t\\n\t; Set stage where Gas mines are set for Stealth route\\n\tIf Eval MinesSet == 5 && ChoseSneak\\n\t\tSetStage FiveCardAnteQuest 41\\n\t\t\\n\t\t; Set stage where Explosives mines are set for Explosives route\\n\tElseIf Eval MinesSet == 5 && ChoseExplosives\\n\t\tSetStage FiveCardAnteQuest 45\\n\tEndIf\\n\t\\n\t; Advance quest stage to springing trap once First Recon has arrived at Samson\\n\tIf Eval FirstReconAtSamson\\n\t\tSetStage FiveCardAnteQuest 50\\n\tEndIf\\n\t\\n\t; Hide sabotage equipment objective if First Recon has made it to Samson\\n\tIf Eval GetObjectiveDisplayed FiveCardAnteQuest 33 && GetObjectiveCompleted FiveCardAnteQuest 33 == 0 && GetStage FiveCardAnteQuest >= 50\\n\t\tSetObjectiveDisplayed FiveCardAnteQuest 33 0\\n\tEndIf\\n\t\\n\t; Gas mines haver been detonated or First Recon has been killed, move to quest completion phase\\n\tIf Eval (DetonatedGasMines) || (FirstReconDead == 5)\\n\t\tSetStage FiveCardAnteQuest 60\\n\t\t; Disable teleport REF for quest giver if mines weren't detonated and First Recon are killed\\n\tElseIf Eval (!DetonatedGasMines) && (FirstReconDead == 5)\\n\t\tFCAInFrontFirstReconMarker.Disable\\n\tEndIf\\n\t\\n\t; If all of First Recon are at Samson, advance stage to springing trap(s)\\n\tIf Eval LieutenantGorobetsRef.GetDistance2D FCAInFrontFirstReconMarker <= 3000 && FirstReconAtSamson == 0\\n\t\tLet GorobetsAtSamson := 1\\n\tEndIf\\n\tIf Eval CorporalBetsyRef.GetDistance2D FCAInFrontFirstReconMarker <= 3000 && FirstReconAtSamson == 0\\n\t\tLet BetsyAtSamson := 1\\n\tEndIf\\n\tIf Eval CorporalSterlingRef.GetDistance2D FCAInFrontFirstReconMarker <= 3000 && FirstReconAtSamson == 0\\n\t\tLet SterlingAtSamson := 1\\n\tEndIf\\n\tIf Eval TenOfSpadesRef.GetDistance2D FCAInFrontFirstReconMarker <= 3000 && FirstReconAtSamson == 0\\n\t\tLet TenAtSamson := 1\\n\tEndIf\\n\tIf Eval SergeantBitterRootRef.GetDistance2D FCAInFrontFirstReconMarker <= 3000 && FirstReconAtSamson == 0\\n\t\tLet BitterAtSamson := 1\\n\tEndIf\\n\tIf Eval (GorobetsAtSamson + BetsyAtSamson + SterlingAtSamson + TenAtSamson + BitterAtSamson) >= 5 && FirstReconAtSamson == 0\\n\t\tSetStage FiveCardAnteQuest 50\\n\t\tLet FirstReconAtSamson := 1\\n\tEndIf\\n\t\\n\t; Detonated gas mines for Sneak route; play out enslavement cutscene\\n\tIf Eval HandedInQuest == 1 && FirstReconEnslaved == 0 && DetonatedGasMines\\n\t\t\\n\t\timod FadeToBlack5sISFX\\n\t\t\\n\t\tFCADisguisedFrumentariusRef.Disable\\n\t\t\\n\t\t; Fail I Don't Hurt Anymore if the quest hasn't been completed\\n\t\tIf Eval GetQuestCompleted VMS56 == 0\\n\t\t\tSetStage VMS56 110\\n\t\tEndIf\\n\t\t\\n\t\t; Move First Recon to Marker for Enslavement\\n\t\t\\n\t\tForEach Entry  <- FirstReconRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tGenericRef.RemoveFromAllFactions\\n\t\t\tGenericRef.RemoveAllPackages\\n\t\t\tGenericRef.MoveTo FCAFirstReconTeleportMarker\\n\t\tLoop\t\\n\t\t\\n\t\tLet FirstReconEnslaved := 1\\n\t\tSetStage FiveCardAnteQuest 90\t\\n\tEndIf\\n\t\\n\t; Enable Legion reinforcements if sought help from the Fiends\\n\tIf Eval DriverNephiAttackingFR == 1 && LegionnariesSpawned == 0\\n\t\tForEach Entry  <- LegionaryRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tLet rMarker := LegionMarkers[Entry[\"key\"]]\\n\t\t\tGenericRef.Enable\\n\t\t\tGenericRef.MoveTo rMarker\\n\t\tLoop\\n\t\tLet LegionnariesSpawned := 1\\n\tEndIf\\n\t\\n\t; Set all Fiends to Go to FR's general location for combat\\n\tIf Eval DriverNephiAttackingFR && FirstReconDead < 5 && !FiendsAttackingFR\\n\t\tForEach Entry <- FiendRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tIf Eval GenericRef.GetInFaction FiendsFactionNV\\n\t\t\t\tIf Eval !GenericRef.GetDead\\n\t\t\t\t\tGenericRef.AddScriptPackage FCAFiendsAttackFirstRecon\\n\t\t\t\t\tGenericRef.Evp\\n\t\t\t\tEndIf\\n\t\t\tEndIf\\n\t\tLoop\\n\t\tLet FiendsAttackingFR := 1\\n\tEndIf\\n\t\\n\t; Reset Fiends AI once FR are all dead\\n\tIf Eval DriverNephiAttackingFR && FirstReconDead >= 5 && !FiendsReset\\n\t\tForEach Entry <- FiendRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tIf Eval GenericRef.GetInFaction FiendsFactionNV\\n\t\t\t\tIf Eval !GenericRef.GetDead\\n\t\t\t\t\tGenericRef.ResetAI\\n\t\t\t\tEndIf\\n\t\t\tEndIf\\n\t\tLoop\\n\t\tLet FiendsReset := 1\\n\tEndIf\\n\t\\n\t; Clean Up Unneeded References and Objects\\n\tIf HandedInQuest && Cleanup == 0\\n\t\t\\n\t\t; Construct master array to loop through\\n\t\tAr_Cat FCAAllRefs MineRefs\\n\t\tAr_Cat FCAAllRefs C4Refs\\n\t\tAr_Cat FCAAllRefs GasRefs\\n\t\tAr_Cat FCAAllRefs RestrainedMarkerRefs\\n\t\tAr_Cat FCAAllRefs LegionaryRefs\\n\t\tAr_Cat FCAAllRefs LegionMarkers\\n\t\t\\n\t\tForEach Entry  <- FCAAllRefs \\n\t\t\tLet GenericRef := *Entry\\n\t\t\tGenericRef.Disable\\n\t\t\tGenericRef.MarkForDelete\\n\t\tLoop\\n\t\t\\n\t\t; Teleport Markers\\n\t\tFCAInFrontFirstReconMarker.Disable\\n\t\tFCAFrumentariusFRSpawnMarker.Disable\\n\t\tFCAInFrontFirstReconMarker.MarkForDelete\\n\t\tFCAFrumentariusFRSpawnMarker.MarkForDelete\\n\t\t\\n\t\tLet Cleanup := 1\\n\tEndIf\\n\t\\n\t; Check to see if Player is at Samon usinng xmarker ref. Avoids needing to use a trigger box\\n\tIf Eval Player.GetDistance2D FCAInFrontFirstReconMarker <= 3000\\n\t\tLet PlayerAtSamson := 1\\n\tElse\\n\t\tLet PlayerAtSamson := 0\\n\tEndIf\\n\t\\n\t; If Player and First Recon are at Samson, and chose Sneak or Explosives route, start beeping sequence with detonator\\n\tIf Eval GetObjectiveDisplayed FiveCardAnteQuest 50 && FirstReconAtSamson && PlayerAtSamson && (ChoseSneak || ChoseExplosives) && DetonatedC4 == 0 && DetonatedGasMines == 0 && Player.GetEquipped FCAWeapNVDetonatorFrumentarius\\n\t\tIf fBeeping == 0\\n\t\t\tLet fBeeping := (GetSecondsPassed + fBeeping)\\n\t\t\tplaysound WPNMineTick\\n\t\t\tShowMessage FCADetonatorBeepingMsg\\n\t\tElse\\n\t\t\tLet fBeeping := (GetSecondsPassed + fBeeping)\\n\t\t\tIf fBeeping >= .5\\n\t\t\t\tLet fBeeping := 0\\n\t\t\tEndIf\\n\t\tEndIf\\n\tEndIf\\n\t\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCALegionConcealedMineScript_02003602#SCPT:SCTX#0d9c98abe7ff9f038e1dc3fe1a1706a7",
+    "original": "scn FCALegionConcealedMineScript\\nint ButtonVar\\n\\n\\nBegin OnActivate\\n\tif IsActionRef player\\n\t\tShowMessage FCALegionMineMsg\\n\tendif\\nEnd\\n\\nBegin MenuMode 1001\\n\tLet ButtonVar := GetButtonPressed ;Always save the output of GetButtonPressed to a Variable!\\n\tIf ButtonVar == 1\\n\t\tRewardXP 10\\n\t\tLet FiveCardAnteQuest.MinesSet += 1\\n\t\tIf GetIsReference FCATenOfSpadesMine == 1\\n\t\t\tFCATenOfSpadesMine.Disable\\n\t\tElseIf GetIsReference FCAGorobetsMine == 1\\n\t\t\tFCAGorobetsMine.Disable\\n\t\tElseIf GetIsReference FCASterlingMine == 1\\n\t\t\tFCASterlingMine.Disable\\n\t\tElseIf GetIsReference FCABitterRootMine == 1\\n\t\t\tFCABitterRootMine.Disable\\n\t\tElse GetIsReference FCABetsyMine == 1\\n\t\t\tFCABetsyMine.Disable\\n\t\tEndIf\\n\tElseIf ButtonVar == 2\\n\t\tRewardXP 10\\n\t\tLet FiveCardAnteQuest.MinesSet += 1\\n\t\tIf GetIsReference FCATenOfSpadesMine == 1\\n\t\t\tFCATenOfSpadesMine.Disable\\n\t\t\tFCATenOfSpadesC4.Enable\\n\t\tElseIf GetIsReference FCAGorobetsMine == 1\\n\t\t\tFCAGorobetsMine.Disable\\n\t\t\tFCAGorobetsC4.Enable\\n\t\tElseIf GetIsReference FCASterlingMine == 1\\n\t\t\tFCASterlingMine.Disable\\n\t\t\tFCASterlingC4.Enable\\n\t\tElseIf GetIsReference FCABitterRootMine == 1\\n\t\t\tFCABitterRootMine.Disable\\n\t\t\tFCABitterRootC4.Enable\\n\t\tElse GetIsReference FCABetsyMine == 1\\n\t\t\tFCABetsyMine.Disable\\n\t\t\tFCABetsyC4.Enable\\n\t\tEndIf\\n\tEndIf\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusDetonatorScript_02004A2A#SCPT:SCDA#e61044608dbe08bc18441abfc3b49ac9",
+    "original": "key",
+    "translation": "钥匙",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusDetonatorScript_02004A2A#SCPT:SCDA#a743689bfda8d332ddde78849e17e8c0",
+    "original": "value",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusDetonatorScript_02004A2A#SCPT:SCTX#762b14d622f5d36c0f1b84f4618d3bd6",
+    "original": "scn FCAFrumentariusDetonatorScript\\n\\narray_var FRMembers\\narray_var FRGasMines\\narray_var FRPackages\\narray_var FRMarkers\\narray_var FRC4\\narray_var LegionRefs\\narray_var LegionMarkers\\n\\narray_var Entry\\n\\nint SetArrays\\n\\nref rFRMember\\nref rGas\\nref rPackage\\nref rMarker\\nref rLegionary\\nref rC4\\n\\nBegin GameMode\\n\\n\tIf Eval SetArrays == 0\\n\t\tLet FRMembers := Ar_List LieutenantGorobetsREF CorporalSterlingREF CorporalBetsyREF SergeantBitterRootREF TenOfSpadesREF\\n\t\tLet FRGasMines := Ar_List FCAGorobetsGas FCASterlingGas FCABetsyGas FCABitterRootGas FCATenOfSpadesGas\\n\t\tLet FRPackages := Ar_List FCAGorobetsRestrainedPackage FCASterlingRestrainedPackage FCABetsyRestrainedPackage FCABitterRootRestrainedPackage FCATenOfSpadesRestrainedPackage\\n\t\tLet FRMarkers := Ar_List FCAGorobetsRestrained FCASterlingRestrained FCABetsyRestrained FCABitterRootRestrained FCATenOfSpadesRestrained\\n\t\tLet FRC4 := Ar_List FCAGorobetsC4 FCASterlingC4 FCABetsyC4 FCABitterRootC4 FCATenOfSpadesC4\\n\t\tLet LegionRefs := Ar_List FCALegionVexSamsonSpawnREF FCALegionVetSamson01REF FCALegionVetSamson02REF FCALegionVetSamson03REF\\n\t\tLet LegionMarkers := Ar_List FCALegionVexMoveREF FCALegionVet01MoveREF FCALegionVet02MoveREF FCALegionVeto3MoveREF\\n\t\tLet SetArrays := 1\\n\tEndIf\\n\\nEnd\\n\\nBegin OnFire\\n\tIf Eval FiveCardAnteQuest.ChoseSneak && FiveCardAnteQuest.FirstReconAtSamson && FiveCardAnteQuest.MinesSet == 5 && FiveCardAnteQuest.DetonatedGasMines == 0 && FiveCardAnteQuest.PlayerAtSamson == 1\\n\t\t\\n\t\tPlaySound DRSVaultGearOpenSteam01\\n\\n\t\t; Remove Factions from First Recon\\n\t\t; Remove packages\\n\t\t; Enable Gas mines and play hiss sounds\\n\t\t; Knock first Recon unconscious\\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet rFRMember := *Entry\\n\t\t\tLet rGas := FRGasMines[Entry[\"key\"]]\\n\t\t\trFRMember.RemoveFromAllFactions\\n\t\t\trFRMember.RemoveAllPackages\\n\t\t\trGas.Enable\\n\t\t\trGas.PlaySound3D DRSVaultGearOpenSteam01\\n\t\t\trFRMember.DamageActorValue Fatigue 1000\\n\t\tLoop\\n\\n\t\t; Fade to Black and Move First Recon and Player\\n\t\tApplyImageSpaceModifier FadeToBlack4sISFX\\n\t\tPlayer.SetWeaponOut 0\\n\t\tPlayer.SetRestrained 1\\n\\n\t\tScriptWait 180\\n\t\t\\n\t\t; Wake first recon up and move to restrained markers\\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet rFRMember := *Entry\\n\t\t\tLet rMarker := FRMarkers[Entry[\"key\"]]\\n\t\t\trFRMember.ResurrectActor\\n\t\t\trFRMember.MoveTo rMarker\\n\t\tLoop\\n\\n\t\t; Unequip FR's rifles so they properly appear \"bounded\"\\n\t\tTenOfSpadesRef.UnequipItem WeapHuntingRifle 0 1\\n\t\tLieutenantGorobetsRef.UnequipItem WeapHuntingRifle 0 1\\n\t\tCorporalBetsyRef.UnequipItem WeapHuntingRifle 0 1\\n\t\tCorporalSterlingRef.UnequipItem WeapNVCowboyRepeaterUnique 0 1\\n\t\tSergeantBitterRootRef.UnequipItem WeapHuntingRifle 0 1\\n\\n\t\tScriptWait 120\\n\\n\t\t; Remove packages, add each FR member's restrained/bounded package, and evaluate package\\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet rFRMember := *Entry\\n\t\t\tLet rPackage := FRPackages[Entry[\"key\"]]\\n\t\t\trFRMember.RemoveAllPackages\\n\t\t\trFRMember.AddScriptPackage rPackage\\n\t\t\trFRMember.Evp\\n\t\tLoop\\n\\n\t\tPlayer.MoveTo FCAInFrontFirstReconMarker\\n\\n\t\tScriptWait 120\\n\\n\t\t; Enable Legionaries, restrain and move to markers\\n\t\tForEach Entry <- LegionRefs\\n\t\t\tLet rLegionary := *Entry\\n\t\t\tLet rMarker := LegionMarkers[Entry[\"key\"]]\\n\t\t\trLegionary.Enable\\n\t\t\trLegionary.SetRestrained 1\\n\t\t\trLegionary.MoveTo rMarker\\n\t\tLoop\\n\\n\t\tForEach Entry <- FRGasMines\\n\t\t\tLet rGas := Entry[\"value\"]\\n\t\t\trGas.Disable\\n\t\tLoop\\n\t\t\\n\\n\t\tScriptWait 120\\n\t\tPlayer.SetRestrained 0\\n\t\tFCADisguisedFrumentariusRef.MoveTo FCAFrumentariusFRSpawnMarker\\n\\n\t\tLet FiveCardAnteQuest.DetonatedGasMines := 1\\n\\n\tElseIf Eval FiveCardAnteQuest.ChoseExplosives && FiveCardAnteQuest.FirstReconAtSamson && FiveCardAnteQuest.MinesSet == 5 && FiveCardAnteQuest.DetonatedC4 == 0 && FiveCardAnteQuest.PlayerAtSamson\\n\\n\t\t; Detonate C4 charges\\n\t\tForEach Entry <- FRC4\\n\t\t\tLet rC4 := *Entry\\n\t\t\trC4.DamageObject 100\\n\t\tLoop\\n\\n\t\tLet FiveCardAnteQuest.DetonatedC4 := 1\\n\tEndIf\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCADisguisedFrumentariusScript_02005000#SCPT:SCTX#f88b56397bef875a40b5704bca15b446",
+    "original": "scn FCADisguisedFrumentariusScript\\n\\n\\nBegin OnDeath\\n\tSetStage FiveCardAnteQuest 95\\n\tPlayer.AddReputationExact RepNVCaesarsLegion 0 5\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFirstReconPoisonFootlockerSCRIPT_0200E2AC#SCPT:SCTX#ae1b6cb74d6114cca3a332eb59748a0b",
+    "original": "scn FCAFirstReconPoisonFootlockerSCRIPT\\nint button\\nint SetArrays\\narray_var Entry\\nref GenericRef\\n\\nBegin GameMode\\n\\n\tIf Eval GetGameRestarted\\n\t\tLet array_var FRMembers := Ar_List LieutenantGorobetsREF CorporalSterlingREF CorporalBetsyREF SergeantBitterRootREF TenOfSpadesREF\\n\t\t; Let SetArrays := 1\\n\tEndIf\\n\\nEnd\\n\\nBegin OnActivate\\n\\n\tIf Eval GetStage FiveCardAnteQuest >= 30 && GetStage FiveCardAnteQuest < 50 && FiveCardAnteQuest.SabotagedFirstReconEquipment == 0\\n\t\tShowMessage FCAFirstReconPoisonMsg\\n\tElse\\n\t\tActivate\\n\tEndIf\\n\\nEnd\\n\\n\\nBegin MenuMode 1001\\n\tLet button := GetButtonPressed\\n\tIf Eval button == 0\\n\tElseIf button == 1\\n\t\tActivate\\n\tElseIf Eval button == 2\\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tLet int iFRHealth := GenericRef.GetAV Health\\n\t\t\tGenericRef.ForceAV Health (Floor (iFRHealth * 0.6))\\n\t\tLoop\\n\\n\t\tSetObjectiveCompleted FiveCardAnteQuest 33 1\\n\t\tLet FiveCardAnteQuest.SabotagedFirstReconEquipment := 1\\n\tElseIf Eval button == 3\\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tLet short iFRGuns := GenericRef.GetAV Guns\\n\t\t\tGenericRef.ForceAV Guns (Floor (iFRGuns * 0.6))\\n\t\tLoop\\n\\n\t\tSetObjectiveCompleted FiveCardAnteQuest 33 1\\n\t\tLet FiveCardAnteQuest.SabotagedFirstReconEquipment := 1\\n\tEndIf\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFirstReconDeathHandlerScript_0200EE1C#SCPT:SCTX#6df3fd440a13f2141934dc7e8229f124",
+    "original": "scn FCAFirstReconDeathHandlerScript\\n\\nref rFRMember\\n\\nBegin Function {rFRMember}\\n\tLet FiveCardAnteQuest.FirstReconDead += 1\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFirstReconCrucifiedScript_0200F0FA#SCPT:SCDA#e61044608dbe08bc18441abfc3b49ac9",
+    "original": "key",
+    "translation": "钥匙",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconCrucifiedScript_0200F0FA#SCPT:SCTX#7a4637a1f74202f0a28f1a0764e0c4e9",
+    "original": "scn FCAFirstReconCrucifiedScript\\n\\narray_var Entry\\narray_var FRMembers\\narray_var FRCrucpackages\\narray_var FRCrucifixTeleportREFS \\nref rFRMember\\nref rFRPackage\\nref rFRTeleport\\nint DoOnce\\n\\nBegin GameMode\\n\\n\tLet FRMembers := AR_List LieutenantGorobetsREF CorporalSterlingREF CorporalBetsyREF SergeantBitterRootREF TenOfSpadesREF\\n\tLet FRCrucpackages := Ar_List FCAGorobetsCrucifiedPackage FCASterlingCrucifiedPackage FCABetsyCrucifiedPackage FCABitterRootCrucifiedPackage FCATenOfSpadesCrucifiedPackage\\n\tLet FRCrucifixTeleportREFS := Ar_List FCAGorobetsCrucifixTeleportREF FCASterlingCrucifixTeleportREF FCABetsyCrucifixTeleportREF FCABitterRootCrucifixTeleportREF FCATenOfSpadesCrucifixTeleportREF\\n\\n\\n\tIf Eval DoOnce == 0 && GetQuestCompleted FiveCardAnteQuest && FiveCardAnteQuest.FirstReconEnslaved\\n\t\tForeach Entry <- FRMembers \\n\t\t\tLet rFRMember := *Entry\\n\t\t\trFRMember.RemoveFromAllFactions\\n\t\t\trFRMember.RemoveAllPackages\\n\t\tLoop\\n\t\tLet DoOnce := 1\\n\tEndIf\\n\\n\t; Move First Recon to the fort on game load\\n\tIf Eval GetGameLoaded && GetQuestCompleted FiveCardAnteQuest && FiveCardAnteQuest.FirstReconEnslaved \\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet rFRMember := *Entry\\n\t\t\tLet rFRTeleport := FRCrucifixTeleportRefs[Entry[\"key\"]]\\n\t\t\trFRMember.MoveTo rFRTeleport\\n\t\tLoop\\n\tEndIf\\n\\n\t; Make sure First Recon has their crucified packages if they're enslaved to the Legion\\n\tIf Eval GetQuestCompleted FiveCardAnteQuest && FiveCardAnteQuest.FirstReconEnslaved\\n\t\tForEach Entry <- FRMembers\\n\t\t\tLet rFRmember := *Entry\\n\t\t\tLet rFRPackage := FRCrucPackages[Entry[\"key\"]]\\n\t\t\tIf Eval rFRMember.GetIsCurrentPackage rFRPackage == 0\\n\t\t\t\trFRMember.AddPackageAt rFRPackage 0\\n\t\t\t\trFRMember.Evp\\n\t\t\tEndIf\\n\t\tLoop\\n\tEndIf\\n\\n\\n\tForEach Entry <- FRMembers\\n\t\tLet rFRMember := *Entry\\n\t\tIf Eval rFRMember.GetSitting == 3 && GetQuestCompleted FiveCardAnteQuest && FiveCardAnteQuest.FirstReconEnslaved\\n\t\t\trFRMember.SetRestrained 1\\n\t\t\trFRMember.SetUnconscious 1\\n\t\t\trFRMember.IgnoreCrime 1\\n\t\tElseIf rFRMember.GetSitting != 3 && GetQuestCompleted FiveCardAnteQuest && FiveCardAnteQuest.FirstReconEnslaved\\n\t\t\trFRMember.SetRestrained 0\\n\t\t\trFRMember.SetUnconscious 0\\n\t\t\trFRMember.IgnoreCrime 1\\n\t\tEndIf\\n\tLoop\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FiendOutfitWarningScript_0201440B#SCPT:SCTX#afeefbe29599ee5064a7129b188eae99",
+    "original": "scn FiendOutfitWarningScript\\n\\nfloat fUpdatedNegNCR\\nfloat fUpdatedPosNCR\\n\\nfloat fUpdatedNegCL\\nfloat fUpdatedPosCL\\n\\nfloat fUpdatedNegBoS\\nfloat fUpdatedPosBoS\\n\\nfloat fUpdatedNegGK\\nfloat fUpdatedPosGK\\n\\nfloat fUpdatedNegPG\\nfloat fUpdatedPosPG\\n\\nBegin OnEquip Player\\n\\n\t;Check to see if player was wearing faction armor. \\n\tif DisguiseFactionPulseQuest.bFactionArmorEquipped == 0\\n\\n\t\t;Set variable to track wearing faction armor\\n\t\tset DisguiseFactionPulseQuest.bFactionArmorEquipped to 1\\n\\n\t\t;Player was not wearing faction armor - so we store their reputation values, we don't need to clear it here, it'll get cleared below\\n\t\t;Store Reputations\\n\t\tset DisguiseFactionPulseQuest.fNCRNegReputation to GetReputation RepNVNCR 0\\n\t\tset DisguiseFactionPulseQuest.fNCRPosReputation to GetReputation RepNVNCR 1\\n\t\\n\t\tset DisguiseFactionPulseQuest.fLegionNegReputation to GetReputation RepNVCaesarsLegion 0\\n\t\tset DisguiseFactionPulseQuest.fLegionPosReputation to GetReputation RepNVCaesarsLegion 1\\n\t\\n\t\tset DisguiseFactionPulseQuest.fBoSNegReputation to GetReputation RepNVBrotherhood 0\\n\t\tset DisguiseFactionPulseQuest.fBoSPosReputation to GetReputation RepNVBrotherhood 1\\n\t\\n\t\tset DisguiseFactionPulseQuest.fKhanNegReputation to GetReputation RepNVGreatKhans 0\\n\t\tset DisguiseFactionPulseQuest.fKhanPosReputation to GetReputation RepNVGreatKhans 1\\n\t\\n\t\tset DisguiseFactionPulseQuest.fPowderNegReputation to GetReputation RepNVPowderGanger 0\\n\t\tset DisguiseFactionPulseQuest.fPowderPosReputation to GetReputation RepNVPowderGanger 1\\n\\n\telse\\n\t\t;Get Current Faction Values and add stored values\\n\t\tset DisguiseFactionPulseQuest.fNCRNegReputation to GetReputation RepNVNCR 0 + DisguiseFactionPulseQuest.fNCRNegReputation\\n\t\tset DisguiseFactionPulseQuest.fNCRPosReputation to GetReputation RepNVNCR 1+ DisguiseFactionPulseQuest.fNCRPosReputation\\n\\n\t\tset DisguiseFactionPulseQuest.fLegionNegReputation to GetReputation RepNVCaesarsLegion 0 + DisguiseFactionPulseQuest.fLegionNegReputation\\n\t\tset DisguiseFactionPulseQuest.fLegionPosReputation to GetReputation RepNVCaesarsLegion 1 + DisguiseFactionPulseQuest.fLegionPosReputation\\n\\n\t\tset DisguiseFactionPulseQuest.fBoSNegReputation to GetReputation RepNVBrotherhood 0 + DisguiseFactionPulseQuest.fBoSNegReputation\\n\t\tset DisguiseFactionPulseQuest.fBoSPosReputation to GetReputation RepNVBrotherhood 1 + DisguiseFactionPulseQuest.fBoSPosReputation\\n\\n\t\tset DisguiseFactionPulseQuest.fKhanNegReputation to GetReputation RepNVGreatKhans 0 + DisguiseFactionPulseQuest.fKhanNegReputation\\n\t\tset DisguiseFactionPulseQuest.fKhanPosReputation to GetReputation RepNVGreatKhans 1 + DisguiseFactionPulseQuest.fKhanPosReputation\\n\\n\t\tset DisguiseFactionPulseQuest.fPowderNegReputation to GetReputation RepNVPowderGanger 0 + DisguiseFactionPulseQuest.fPowderNegReputation\\n\t\tset DisguiseFactionPulseQuest.fPowderPosReputation to GetReputation RepNVPowderGanger 1 + DisguiseFactionPulseQuest.fPowderPosReputation\\n\\n\tendif\\n\\n\tif VFactionArmorTutorial == 0\\n\t\tShowMessage VFactionOutfitTutorial\\n\t\tset VFactionArmorTutorial to 1\\n\tendif\\n\\n\tShowMessage FCAFiendsFactionOutfitWarning\\n\tStartQuest DisguiseFactionPulseQuest ;Kicks the pulse placing quest\\n\tsetally FiendsFactionNV PlayerFaction 1 1\\n\tplayer.addtofaction FiendsFactionNV 0\\n\\n\t;Clear Reputations\\n\tSetReputation RepNVNCR 0 0.0\\n\tSetReputation RepNVNCR 1 0.0\\n\\n\tSetReputation RepNVCaesarsLegion 0 0.0\\n\tSetReputation RepNVCaesarsLegion 1 0.0\\n\\n\tSetReputation RepNVBrotherhood 0 0.0\\n\tSetReputation RepNVBrotherhood 1 0.0\\n\\n\tSetReputation RepNVGreatKhans 0 0.0\\n\tSetReputation RepNVGreatKhans 1 0.0\\n\\n\tSetReputation RepNVPowderGanger 0 0.0\\n\tSetReputation RepNVPowderGanger 1 0.0\\n\\nend\\n\\nBegin OnUnequip Player\\n\tif Player.GetEquipped RepairRaiderArmor == 0\\n\t\tSetEnemy FiendsFactionNV PlayerFaction 1 1\\n\t\tplayer.RemoveFromFaction FiendsFactionNV \\n\t\tShowMessage FCAFiendsFactionOutfitWarningoff\\n\\n\t\t;Restore Factions\\n\t\t;Get Current Values and add stored values\\n\t\tset fUpdatedNegNCR to GetReputation RepNVNCR 0 + DisguiseFactionPulseQuest.fNCRNegReputation\\n\t\tset fUpdatedPosNCR to GetReputation RepNVNCR 1+ DisguiseFactionPulseQuest.fNCRPosReputation\\n\\n\t\tset fUpdatedNegCL to GetReputation RepNVCaesarsLegion 0 + DisguiseFactionPulseQuest.fLegionNegReputation\\n\t\tset fUpdatedPosCL to GetReputation RepNVCaesarsLegion 1 + DisguiseFactionPulseQuest.fLegionPosReputation\\n\\n\t\tset fUpdatedNegBoS to GetReputation RepNVBrotherhood 0 + DisguiseFactionPulseQuest.fBoSNegReputation\\n\t\tset fUpdatedPosBoS to GetReputation RepNVBrotherhood 1 + DisguiseFactionPulseQuest.fBoSPosReputation\\n\\n\t\tset fUpdatedNegGK to GetReputation RepNVGreatKhans 0 + DisguiseFactionPulseQuest.fKhanNegReputation\\n\t\tset fUpdatedPosGK to GetReputation RepNVGreatKhans 1 + DisguiseFactionPulseQuest.fKhanPosReputation\\n\\n\t\tset fUpdatedNegPG to GetReputation RepNVPowderGanger 0 + DisguiseFactionPulseQuest.fPowderNegReputation\\n\t\tset fUpdatedPosPG to GetReputation RepNVPowderGanger 1 + DisguiseFactionPulseQuest.fPowderPosReputation\\n\\n\tendif\\n\\n\t;If the player is not wearing ANY faction armor, clear this variable.\\n\tif (Player.GetEquipped FactionGearNVNCR == 0) && (Player.GetEquipped FactionGearNVCaesar == 0) && (Player.GetEquipped FactionGearNVBrotherhood == 0) && (Player.GetEquipped FactionGearNVGreatKhans == 0) && (Player.GetEquipped FactionGearNVPowder == 0) && (player.GetEquipped VMS18WhiteGloveMask == 0 || (Player.GetEquipped OutfitFormalWear == 0 && player.GetEquipped ArmorWhiteGloveSociety == 0))\\n\t\t;Clear Wearing Faction Armor Variable\\n\t\tset DisguiseFactionPulseQuest.bFactionArmorEquipped to 0\\n\\n\t\t;Set Reputation Values to Updated\\n\t\tSetReputation RepNVNCR 0 fUpdatedNegNCR\\n\t\tSetReputation RepNVNCR 1 fUpdatedPosNCR\\n\\n\t\tSetReputation RepNVCaesarsLegion 0 fUpdatedNegCL\\n\t\tSetReputation RepNVCaesarsLegion 1 fUpdatedPosCL\\n\\n\t\tSetReputation RepNVBrotherhood 0 fUpdatedNegBoS\\n\t\tSetReputation RepNVBrotherhood 1 fUpdatedPosBoS\\n\\n\t\tSetReputation RepNVGreatKhans 0 fUpdatedNegGK\\n\t\tSetReputation RepNVGreatKhans 1 fUpdatedPosGK\\n\\n\t\tSetReputation RepNVPowderGanger 0 fUpdatedNegPG\\n\t\tSetReputation RepNVPowderGanger 1 fUpdatedPosPG\\n\tendif\\n\\nend\\n\\n;Restriction on Companions\\n\\nBegin OnAdd CraigBooneREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd RoseofSharonCassidyREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd VeronicaREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd LilyREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd RaulREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd ArcadeREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd EDE1REF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd EDE2REF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd EDE3REF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd\\n\\nBegin OnAdd RexREF\\n\tShowMessage CompanionFactionArmorMsg\\n\tDropMe\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "LegionYIWAMarcellusScript_0200080E#SCPT:SCTX#6feae77de5116e0d789dd897cf372462",
+    "original": "scn LegionYIWAMarcellusScript\\n\\nBegin OnDeath\\n\tSetStage YesIWouldActually 95\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActuallySCRIPT_02001378#SCPT:SCTX#31579e070e705f321c07e68d43248008",
+    "original": "Scn YesIWouldActuallySCRIPT\\n\\n\\nInt TalkedToMarcellus ; Check to not repeating first greeting dialogue when talking to Marcellus\\nInt AcceptedOffer\\nInt OfferedHelpToGilles\\nInt NoNotMuchTasksDetailed ; Maximum of 3: has the player heard all the problems with Bitter Springs from Gilles\\nInt ReinforcementsAtBitterSprings ; Amount of NCR troopers sent to Bitter Springs as a result of the Player completing objectives in No, Not Much\\nInt BitterSpringsDeadNCR ; Amount of dead NCR troopers at Bitter Springs\\nInt BitterSpringsNCRSoldiers\\nInt RecruitedNCRHelp\\nInt BadPsychBookDelivered\\nInt BadPediaBookDelivered\\nInt BooksDelivered\\nInt TalkedToOscar\\nInt TalkedToGilles\\nInt RecruitedOscarVelasco\\nInt KnowsAllTasks\\nInt AllNCRDead\\nInt OscarReturnedToCave\\nInt OscarAttackingBitterSprings\\nInt LegionAttackingBitterSprings\\nInt RecruitedKhansHelp\\nInt RangerSpawnChance\\nInt RangerSpawned\\nInt HelpSpawned\\nInt PatrolsEnabled\\nInt OscarScripts\\n\\nInt iArraysSet\\nInt iReinforcementsCounted\\nArray_Var aNCRSoldierCoreREFS\\nArray_Var aNCRSoldierReinforcementsREFS\\nArray_Var aNCRAllSoldierRefs\\nArray_Var aKhanReinforcementREFS\\nArray_Var aLegionReinforcementREFS\\nArray_Var aPlayerReinforcementREFS\\nArray_Var aRefugeeRefs\\nArray_Var aSuppliesForms\\nArray_Var aRefugeeRestrainedMarkers\\nArray_Var aRefugeePackages\\nArray_Var Entry\\nRef GenericREF\\n\\nInt iSetEvent\\nInt iRepChangedToLegion\\nRef rKhanSupplies\\n\\nBegin GameMode\\n\t\\n\tIf Eval (GetGameRestarted || GetGameLoaded)\\n\t\t\\n\t\tLet aNCRSoldierCoreREFS := Ar_List VBSCaptainGillesREF, VBSTrooper3REF, VBSTrooper1REF, VBSTrooper2REF\\n\t\tLet aNCRSoldierReinforcementsREFS := Ar_List VBSGolfTrooper2REF, VBSGolfTrooper1REF, VBSMcCarranTrooper1REF, VBSMcCarranTrooper2REF, VBSForlornHopeTrooper1REF, VBSForlornHopeTrooper2REF, VBSRangerSupport2REF\\n\t\tAr_Cat aNCRAllSoldierRefs aNCRSoldierCoreREFS \\n\t\tAr_Cat aNCRAllSoldierRefs aNCRSoldierReinforcementsREFS \\n\t\tLet aKhanReinforcementREFS := Ar_List VBSKhan1REF, VBSKhan2REF, VBSKhan3REF\\n\t\tLet aLegionReinforcementREFS := Ar_List VBSLegVex1REF, VBSLegRecruit1REF, VBSLegRecruit2REF, VBSLegDecanus1REF\\n\t\tLet aRefugeeRefs := Ar_List VBSRefugeeFemale1REF, VBSRefugeeMale1REF, VBSRefugeeChild1REF, VBSRefugeeChild2REF, VBSRefugeeFemale2REF, VBSRefugeeFemaleSick1REF, VBSRefugeeMaleSick1REF, VBSRefugeeChildSick1REF, VBSRefugeeChildSick2REF, VBSRefugeeFemaleSick2REF, VBSRefugeeMaleSick2REF\\n\t\tLet aRefugeeRestrainedMarkers := Ar_List YIWARefugeeFemale1RestrainedMarker, YIWARefugeeMale1RestrainedMarker, YIWARefugeeChild1RestrainedMarker, YIWARefugeeChild2RestrainedMarker, YIWARefugeeFemale2RestrainedMarker, YIWARefugeeFemaleSick1RestrainedMarker\\n\t\tLet Array_Var aMarkersToAdd := Ar_List YIWARefugeeMaleSick1RestrainedMarker, YIWARefugeeChildSick1RestrainedMarker, YIWARefugeeChildSick2RestrainedMarker, YIWARefugeeFemaleSick2RestrainedMarker, YIWARefugeeMaleSick2RestrainedMarker\\n\t\tAr_Cat aRefugeeRestrainedMarkers aMarkersToAdd\\n\t\tLet aRefugeePackages := Ar_List YIWARefugeeFemale1RestrainedPackage, YIWARefugeeMale1RestrainedPackage, YIWARefugeeChild1RestrainedPackage, YIWARefugeeChild2RestrainedPackage, YIWARefugeeFemale2RestrainedPackage, YIWARefugeeFemaleSick1RestrainedPackage\\n\t\tLet Array_Var aPackagesToAdd := Ar_List YIWARefugeeMaleSick1RestrainedPackage, YIWARefugeeChildSick1RestrainedPackage, YIWARefugeeChildSick2RestrainedPackage, YIWARefugeeFemaleSick2RestrainedPackage, YIWARefugeeMaleSick2RestrainedPackage\\n\t\tAr_Cat aRefugeePackages aPackagesToAdd\\n\t\tLet aSuppliesForms := Ar_List VBSGreatKhanSupplies, VBSDirtySupplies\\n\t\t\\n\t\t\\n\t\t; Replacement for OnDeath scripts attached to NCR soldier objects\\n\t\t; For Some reason SetJohnnyOnDyingEventHandler doesn't work with the following UDF, no idea why :pepesad:\\n\t\tSetEventHandler \"OnDeath\" YIWANCRDeathHandlerUDFSCRIPT  \"first\"::YIWANCRSoldierForms \"priority\"::1\\n\t\tSetJohnnyOnDyingEventHandler 1 YIWAOscarDeathHandlerScript 0 VBSOscarVelasco\\n\t\t; SetOnHitEventHandler YIWAOnHitNCRHandlerScript 1 VBSCaptainGillesREF\\n\t\tSetEventHandler \"OnHit\" YIWAOnHitNCRHandlerScript \"first\"::YIWANCRSoldierForms \"priority\"::1\\n\t\t\\n\tEndIf\\n\t\\n\tLet ReinforcementsAtBitterSprings := (!(VBSGolfTrooper1REF.GetDisabled) + !(VBSGolfTrooper2REF.GetDisabled) + !(VBSMcCarranTrooper1REF.GetDisabled) + !(VBSMcCarranTrooper2REF.GetDisabled) + !(VBSForlornHopeTrooper1REF.GetDisabled) + !(VBSForlornHopeTrooper2REF.GetDisabled) + !(VBSRangerSupport2REF.GetDisabled))\\n\t\\n\t; Indicator variable for if any NCR reinforcements are at Bitter Springs from No, Not Much\\n\tIf Eval ReinforcementsAtBitterSprings > 0\\n\t\tLet RecruitedNCRHelp := 1\\n\tEndIf\\n\t\\n\tLet BitterSpringsNCRSoldiers := (5 + ReinforcementsAtBitterSprings)\\n\t\\n\t\\n\t\\n\t; Progress quest once help offerred to Gilles\\n\tIf Eval NoNotMuchTasksDetailed == 3\\n\t\tSetStage YesIWouldActually 20\\n\tEndIf\\n\t\\n\t; Player has both bad books\\n\tIf Eval Player.GetItemCount VBSPsychologyBookBad >= 1 && Player.GetItemCount VBSPediatricsBookBad >= 1 && GetStage YesIWouldActually >= 30 && GetStage YesIWouldActually < 70\\n\t\tSetObjectiveCompleted YesIWouldActually 32 1\\n\t\tSetObjectiveDisplayed YesIWouldActually 33 1\\n\tEndIf\\n\t\\n\tLet BooksDelivered := (BadPsychBookDelivered + BadPediaBookDelivered)\\n\t\\n\t; All NCR soldiers are dead, return for reward\\n\tIf Eval (BitterSpringsDeadNCR >= BitterSpringsNCRSoldiers) && (GetStage YesIWouldActually >= 10)\\n\t\tLet AllNCRDead := 1\\n\t\tSetStage YesIWouldActually 80\\n\tEndIf\\n\t\\n\t; Delivering the 2 bad books\\n\tIf Eval (BooksDelivered == 2) && (GetStage YesIWouldActually >= 30)\\n\t\tSetObjectiveCompleted YesIWouldActually 33 1\\n\tEndIf\\n\t\\n\t; Crafting Unsanitary Doctor's Bags\\n\tIf Eval (Player.GetItemCount NVDoctorBagBad >= 3) && (GetStage YesIWouldActually >= 30) && (GetStage YesIWouldActually < 70)\\n\t\tSetObjectiveCompleted YesIWouldActually 40 1\\n\t\tSetObjectiveDisplayed YesIWouldActually 43 1\\n\tEndIf\\n\t\\n\t; Has the player completed at least 2 tasks (3 if the NCR has reinforcements) to be ready to assault Bitter Springs?\\n\tIf Eval (GetObjectiveCompleted YesIWouldActually 33 + GetObjectiveCompleted YesIWouldActually 35 + GetObjectiveCompleted YesIWouldActually 43 + GetObjectiveCompleted YesIWouldActually 50 + GetObjectiveCompleted YesIWouldActually 85) >= (2 + RecruitedNCRHelp)\\n\t\tSetStage YesIWouldActually 40\\n\tEndIf\\n\t\\n\t; If the NCR has reinforcements, suggest the player recruit the Khans\\n\tIf Eval (ReinforcementsAtBitterSprings > 0) && (GetStage YesIWouldActually >= 30) && (GetStage YesIWouldActually < 70)\\n\t\tSetObjectiveDisplayed YesIWouldActually 50 1\\n\tEndIf\\n\t\\n\tIf Eval RecruitedKhansHelp == 1 && GetStage YesIWouldActually >= 30 && GetStage YesIWouldActually < 70\\n\t\tSetObjectiveCompleted YesIWouldActually 50 1 \\n\t\t; SetObjectiveDisplayed YesIWouldActually 60 1\\n\tEndIf\\n\t\\n\t; Spawn Ranger if random percent chance is less than 25\\n\tIf Eval (ReinforcementsAtBitterSprings > 0 || RecruitedKhansHelp == 1) && (LegionAttackingBitterSprings == 1 || OscarAttackingBitterSprings == 1) && RangerSpawned == 0\\n\t\tLet RangerSpawnChance := GetRandomPercent\\n\t\tIf Eval RangerSpawnChance < 25\\n\t\t\tVBSRangerSupport2REF.Enable\\n\t\tEndIf\\n\t\tLet RangerSpawned := 1\\n\tEndIf\\n\t\\n\t\\n\t\\n\t; Ready Oscar's Packages\\n\tIf Eval (RecruitedOscarVelasco) && (!AllNCRDead) && (VBSOscarVelascoREF.GetIsCurrentPackage YIWAMoveOscarToRendezvousPackage == 0) && (GetStage YesIWouldActually < 70)\\n\t\tVBSOscarVelascoREF.AddScriptPackage YIWAMoveOscarToRendezvousPackage\\n\t\t; VBSOscarVelascoREF.Evp\\n\tEndIf\\n\t\\n\t; Enable Reinforcements, Add attack package, and Evaluate Packages\\n\tIf Eval (LegionAttackingBitterSprings) && (!AllNCRDead) && (!HelpSpawned)\\n\t\t\\n\t\tForEach Entry <- aRefugeeRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tGenericRef.RemoveFromAllFactions\\n\t\tLoop\\n\t\t\\n\t\tForEach Entry <- aLegionReinforcementRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tGenericRef.Enable\\n\t\t\tGenericRef.AddScriptPackage YIWAAttackBitterSprings\\n\t\t\t; GenericRef.Evp\\n\t\tLoop\\n\t\t\\n\t\tIf Eval (RecruitedKhansHelp)\\n\t\t\tForEach Entry <- aKhanReinforcementRefs\\n\t\t\t\tLet GenericRef := *Entry\\n\t\t\t\tGenericRef.Enable\\n\t\t\t\tGenericRef.AddScriptPackage YIWAAttackBitterSprings\\n\t\t\t\t; GenericRef.Evp\\n\t\t\tLoop\\n\t\tEndIf\\n\t\t\\n\t\tLegionYIWAMarcellusREF.AddScriptPackage YIWAAttackBitterSprings\\n\t\t; LegionYIWAMarcellusREF.Evp\\n\t\t\\n\t\tIf Eval (VBSLegVex1REF.GetIsCurrentPackage YIWAAttackBitterSprings) + (VBSLegVex1REF.GetIsCurrentPackage YIWAAttackBitterSprings) >= 2\\n\t\t\tIf Eval OscarAttackingBitterSprings == 1 && VBSOscarVelascoREF.GetIsCurrentPackage YIWAAttackBitterSprings == 1\\n\t\t\t\tLet HelpSpawned := 1\\n\t\t\tElseIf Eval OscarAttackingBitterSprings == 1 && VBSOscarVelascoREF.GetIsCurrentPackage YIWAAttackBitterSprings == 0\\n\t\t\t\t; VBSOscarVelascoREF.RemoveAllPackages\\n\t\t\t\tVBSOscarVelascoREF.AddScriptPackage YIWAAttackBitterSprings\\n\t\t\t\t; VBSOscarVelascoREF.Evp\\n\t\t\t\t; Let HelpSpawned := 1\\n\t\t\tElseIf Eval OscarAttackingBitterSprings == 0\\n\t\t\t\tLet HelpSpawned := 1\\n\t\t\tEndIf\\n\t\tEndIf\\n\tEndIf\\n\t\\n\tIf Eval AllNCRDead && GetQuestCompleted YesIWouldActually == 0\\n\t\tBitterSpringsMarkerREF.SetMapMarkerRep RepNVCaesarsLegion\\n\t\t\\n\t\tForEach Entry <- aLegionReinforcementRefs\\n\t\t\tLet GenericRef := *Entry\\n\t\t\tGenericRef.RemoveScriptPackage YIWAAttackBitterSprings\\n\t\t\tGenericRef.AddPackageAt VBSTrooperPatrol29x8 0\\n\t\t\tGenericRef.Evp\\n\t\tLoop\\n\t\t\\n\t\tIf Eval RecruitedKhansHelp == 1\\n\t\t\tForEach Entry <- aKhanReinforcementRefs\\n\t\t\t\tLet GenericRef := *Entry\\n\t\t\t\tGenericRef.RemoveScriptPackage YIWAAttackBitterSprings\\n\t\t\t\tGenericRef.AddPackageAt VBSTrooperPatrol17x8 0\\n\t\t\t\tGenericRef.Evp\\n\t\t\tLoop\\n\t\tEndIf\\n\t\t\\n\t\tIf Eval OscarAttackingBitterSprings == 1\\n\t\t\tVBSOscarVelascoREF.RemoveScriptPackage YIWAAttackBitterSprings\\n\t\t\tVBSOscarVelascoREF.RemoveScriptPackage YIWAMoveOscarToRendezvousPackage\\n\t\t\tVBSOscarVelascoREF.ResetAI\\n\t\tEndIf\\n\t\t\\n\t\tLegionYIWAMarcellusREF.AddPackageAt VBSCaptainGillesPatrol16x5 0\\n\t\tLegionYIWAMarcellusREF.Evp\\n\tEndIf\\n\t\\n\t\\n\t\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWADeadNCRScript_02002A85#SCPT:SCTX#b9793925eb7ab78f9f3e24bdac619227",
+    "original": "scn YIWADeadNCRScript\\n\\n\\nBegin OnDeath\\n\\n\tIf GetStage YesIWouldActually >= 10\\n\t\tSet YesIWouldActually.BitterSpringsDeadNCR to YesIWouldActually.BitterSpringsDeadNCR + 1\\n\tEndIf\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWANCRDeathHandlerUDFSCRIPT_020044A5#SCPT:SCTX#2ffaf4d9e622ab843c42dfa1cd784ad5",
+    "original": "scn YIWANCRDeathHandlerUDFSCRIPT\\n\\nref rActor\\nref rActor2\\n\\nBegin Function {rActor, rActor2}\\n\tLet YesIWouldActually.BitterSpringsDeadNCR += 1\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWADynamicSuppliesMenuSCRIPT_02004783#SCPT:SCDA#3ecad9918822db56a9180458f870c33f",
+    "original": "^Great Khan Supplies^You see a set of Great Khan Supplies.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWADynamicSuppliesMenuSCRIPT_02004783#SCPT:SCDA#dd7ce5dd36119273b262bd2aa92f94e8",
+    "original": "|Leave it alone.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWADynamicSuppliesMenuSCRIPT_02004783#SCPT:SCDA#0596f9aa1a7a19543fd6dd3758997280",
+    "original": "|Pick Up The Supplies As-Is.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWADynamicSuppliesMenuSCRIPT_02004783#SCPT:SCTX#e5cc4e036751b13a058cf62829df25f5",
+    "original": "scn YIWADynamicSuppliesMenuSCRIPT\\n\\nint iButton\\n\\nint iIndex\\nstring_var sMenu\\nref rSupplies\\n\\nBegin Function {iButton} ; Need to pass -1 by default when calling\\n\\n\tLet iIndex := -1\\n\tLet sMenu := \"^Great Khan Supplies^You see a set of Great Khan Supplies.\"\\n\\n\t; Add option to do nothing\\n\tLet iIndex += 1\\n\tLet sMenu += \"|Leave it alone.\"\\n\tIf Eval iButton == iIndex\\n\t\tReturn\\n\tEndIf\\n\\n\tLet iIndex += 1\\n\tLet sMenu += \"|Pick Up The Supplies As-Is.\"\\n\tIf Eval iButton == iIndex\\n\t\tLet rSupplies := YesIWouldActually.rKhanSupplies\\n\t\trSupplies.Activate\\n\t\tReturn\\n\tEndIf\\n\\n\tMessageBoxExAlt YIWADynamicSuppliesMenuSCRIPT $sMenu\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWASuppliesMenuHandlerUDF_02004784#SCPT:SCTX#6725387c4b16d5eaa2c0510f075d6f83",
+    "original": "scn YIWASuppliesMenuHandlerUDF\\n\\nref rSupplies\\nref rSupplies2\\n\\nBegin Function {rSupplies, rSupplies2}\\n\tLet YesIWouldActually.rKhanSupplies := rSupplies\\n\tCall YIWADynamicSuppliesMenuSCRIPT -1\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarDeathHandlerSCRIPT_02004787#SCPT:SCTX#fa0d3febdd03b725115020b92cae60f9",
+    "original": "scn YIWAOscarDeathHandlerSCRIPT\\n\\nref rOscar ; Not used\\n\\n\\nBegin Function {rOscar}\\n\\n\tIf Eval GetObjectiveDisplayed YesIWouldActually 85 == 1 && GetObjectiveCompleted YesIWouldActually 85 == 0\\n\t\tSetObjectiveDisplayed YesIWouldActually 85 0\\n\tEndIf\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAHelpQuestScript_02004A67#SCPT:SCDA#e61044608dbe08bc18441abfc3b49ac9",
+    "original": "key",
+    "translation": "钥匙",
+    "stage": 1
+  },
+  {
+    "key": "YIWAHelpQuestScript_02004A67#SCPT:SCTX#d8d0f8cd51cdb42b5454fb2295ccdd44",
+    "original": "scn YIWAHelpQuestScript\\n\\n\\narray_var aKhanReinforcementREFS\\narray_var aLegionReinforcementREFS\\narray_var aRefugeeRefs\\narray_var aLegionMovePackages\\narray_var aLegionMoveMarkers\\narray_var Entry\\nref GenericREF\\nint iCFTMIndex\\nref rCFTMBitterSpringsTentREF\\nint iArraysSet\\narray_var aRefugeePackages\\narray_var aRefugeeRestrainedMarkers\\nref GenericPackage\\nref GenericMarker\\nint RefugeesTeleported\\nint RefugeesRestrained\\n\\n\\nBegin GameMode\\n\\n\\n\tIf Eval YesIWouldActually.AllNCRDead\\n\\n\t\t\\n\\n\t\tIf Eval GetGameLoaded\\n\\n\t\t\tLet aKhanReinforcementREFS := Ar_List VBSKhan1REF, VBSKhan2REF, VBSKhan3REF\\n\t\t\tLet aLegionReinforcementREFS := Ar_List VBSLegVex1REF, VBSLegRecruit1REF, VBSLegRecruit2REF, VBSLegDecanus1REF\\n\t\t\tLet aRefugeeRefs := Ar_List VBSRefugeeFemale1REF, VBSRefugeeMale1REF, VBSRefugeeChild1REF, VBSRefugeeChild2REF, VBSRefugeeFemale2REF, VBSRefugeeFemaleSick1REF, VBSRefugeeMaleSick1REF, VBSRefugeeChildSick1REF, VBSRefugeeChildSick2REF, VBSRefugeeFemaleSick2REF, VBSRefugeeMaleSick2REF\\n\t\t\tLet aRefugeeRestrainedMarkers := Ar_List YIWARefugeeFemale1RestrainedMarker, YIWARefugeeMale1RestrainedMarker, YIWARefugeeChild1RestrainedMarker, YIWARefugeeChild2RestrainedMarker, YIWARefugeeFemale2RestrainedMarker, YIWARefugeeFemaleSick1RestrainedMarker\\n\t\t\tLet array_var aMarkersToAdd := Ar_List YIWARefugeeMaleSick1RestrainedMarker, YIWARefugeeChildSick1RestrainedMarker, YIWARefugeeChildSick2RestrainedMarker, YIWARefugeeFemaleSick2RestrainedMarker, YIWARefugeeMaleSick2RestrainedMarker\\n\t\t\tAr_Cat aRefugeeRestrainedMarkers aMarkersToAdd\\n\t\t\tLet aRefugeePackages := Ar_List YIWARefugeeFemale1RestrainedPackage, YIWARefugeeMale1RestrainedPackage, YIWARefugeeChild1RestrainedPackage, YIWARefugeeChild2RestrainedPackage, YIWARefugeeFemale2RestrainedPackage, YIWARefugeeFemaleSick1RestrainedPackage\\n\t\t\tLet array_var aPackagesToAdd := Ar_List YIWARefugeeMaleSick1RestrainedPackage, YIWARefugeeChildSick1RestrainedPackage, YIWARefugeeChildSick2RestrainedPackage, YIWARefugeeFemaleSick2RestrainedPackage, YIWARefugeeMaleSick2RestrainedPackage\\n\t\t\tAr_Cat aRefugeePackages aPackagesToAdd\\n\t\t\tLet aLegionMoveMarkers := Ar_List YIWALeg1MoveMarker, YIWALeg2MoveMarker, YIWALeg3MoveMarker, YIWALeg4MoveMarker\\n\t\t\tLet aLegionMovePackages := Ar_List YIWALeg1MovePackage, YIWALeg2MovePackage, YIWALeg3MovePackage, YIWALeg4MovePackage\\n\\n\t\t\tBitterSpringsMarkerREF.SetMapMarkerRep RepNVCaesarsLegion\\n\t\t\tIf Eval IsModLoaded \"Convenient Fast Travel Markers.esp\"\\n\t\t\t\t; Let rCFTMBitterSpringsTentREF := EditorIDToFormID \"bitterspringsCommandMarker\"\\n\t\t\t\tLet rCFTMBitterSpringsTentREF := GetFormFromMod \"Convenient Fast Travel Markers.esp\" \"2A76\"\\n\t\t\t\trCFTMBitterSpringsTentREF.SetMapMarkerRep RepNVCaesarsLegion\\n\t\t\tEndIf\\n\\n\t\t\tForEach Entry <- aLegionReinforcementRefs\\n\t\t\t\tLet GenericRef := *Entry\\n\t\t\t\tLet GenericMarker := aLegionMoveMarkers[Entry[\"key\"]]\\n\t\t\t\tLet GenericPackage := aLegionMovePackages[Entry[\"key\"]]\\n\t\t\t\t; GenericRef.RemoveScriptPackage YIWAAttackBitterSprings\\n\t\t\t\tIf Eval GenericRef.GetDisabled\\n\t\t\t\t\tGenericRef.Enable\\n\t\t\t\tEndIf\\n\t\t\t\tIf Eval !(GenericRef.GetDisabled)\\n\t\t\t\t\tGenericRef.RemoveAllPackages\\n\t\t\t\t\tGenericRef.MoveTo GenericMarker\\n\t\t\t\t\tIf Eval !(GenericRef.GetIsCurrentPackage GenericPackage)\\n\t\t\t\t\t\tGenericRef.AddPackageAt GenericPackage 0\\n\t\t\t\t\t\tGenericRef.Evp\\n\t\t\t\t\tEndIf\\n\t\t\t\tEndIf\\n\t\t\tLoop\\n\\n\t\t\tIf Eval YesIWouldActually.RecruitedOscarVelasco\\n\t\t\t\tVBSOscarVelascoREF.RemoveScriptPackage YIWAAttackBitterSprings\\n\t\t\t\tVBSOscarVelascoREF.RemoveScriptPackage YIWAMoveOscarToRendezvousPackage\\n\t\t\t\t; VBSOscarVelascoREF.AddScriptPackage VBSOscarCaveSandbox\\n\t\t\t\t; VBSOscarVelascoREF.Evp\\n\t\t\t\tVBSOscarVelascoREF.ResetAI\\n\t\t\tEndIf\\n\\n\t\t\tLegionYIWAMarcellusREF.AddPackageAt VBSCaptainGillesPatrol16x5 0\\n\\n\t\t\tIf Eval !RefugeesTeleported\\n\t\t\t\tForEach Entry <- aRefugeeRefs\\n\t\t\t\t\tLet GenericRef := *Entry\\n\t\t\t\t\tIf Eval !(GenericRef.GetDead) && !(GenericRef.GetDisabled)\\n\t\t\t\t\t\tGenericRef.RemoveFromAllFactions\\n\t\t\t\t\t\tGenericRef.RemoveAllPackages\\n\t\t\t\t\t\tGenericRef.AddToFaction VCaesarsLegionFaction 0\\n\t\t\t\t\t\tLet GenericMarker := aRefugeeRestrainedMarkers[Entry[\"key\"]]\\n\t\t\t\t\t\tIf Eval GenericMarker.GetDisabled\\n\t\t\t\t\t\t\tGenericMarker.Enable\\n\t\t\t\t\t\tEndIf\\n\t\t\t\t\t\tLet GenericPackage := aRefugeePackages[Entry[\"key\"]]\\n\t\t\t\t\t\tGenericRef.MoveTo GenericMarker\\n\t\t\t\t\t\tIf Eval GenericRef.GetIsCurrentPackage GenericPackage == 0\\n\t\t\t\t\t\t\tGenericRef.AddPackageAt GenericPackage 0\\n\t\t\t\t\t\t\t; GenericRef.Evp\\n\t\t\t\t\t\tEndIf\\n\t\t\t\t\tEndIf\\n\t\t\t\tLoop\\n\t\t\t\tLet RefugeesTeleported := 1\\n\t\t\tEndIf\\n\\n\t\tEndIf\\n\t\t\\n\\n\t\t\\n\t\t; Set Refugees as Restrained to Get them to Sit at the Restrained Markers\\n\t\tIf Eval !(RefugeesRestrained)\\n\t\t\tForEach Entry <- aRefugeeRefs\\n\t\t\t\tLet GenericRef := *Entry\\n\t\t\t\tLet GenericMarker := aRefugeeRestrainedMarkers[Entry[\"key\"]]\\n\t\t\t\tIf Eval !(GenericRef.GetDead)\\n\t\t\t\t\tIf Eval GenericRef.GetSitting == 3 && GenericRef.GetDistance2D GenericMarker < 200\\n\t\t\t\t\t\tGenericRef.SetRestrained 1\\n\t\t\t\t\t\tGenericRef.SetUnconscious 1\\n\t\t\t\t\t\tGenericRef.IgnoreCrime 1\\n\t\t\t\t\tElseIf Eval GenericRef.GetSitting != 3 && GenericRef.GetDistance2D GenericMarker < 200\\n\t\t\t\t\t\tGenericRef.SetRestrained 0\\n\t\t\t\t\t\tGenericRef.SetUnconscious 0\\n\t\t\t\t\t\tGenericRef.IgnoreCrime 1\\n\t\t\t\t\tEndIf\\n\t\t\t\tEndIf\\n\t\t\tLoop\\n\t\t\t; Let RefugeesRestrained := 1\\n\t\tEndIf\\n\\n\tEndIf\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOnHitNCRHandlerSCRIPT_020083CA#SCPT:SCTX#4dbd6ec5a43c45b47ee758d9d191f50d",
+    "original": "scn YIWAOnHitNCRHandlerSCRIPT\\n\\nref rTarget\\nref rAttacker\\n\\n\\nBegin Function {rTarget, rAttacker}\\n\\n\t; Set rTarget to this\\n\tSet rAttacker to rTarget.GetHitAttacker\\n\\n\tIf Eval rAttacker == PlayerREF && GetStage YesIWouldActually >= 10 && GetStage YesIWouldActually < 90\\n\t\tSetStage YesIWouldActually 70\\n\tEndIf\\n\\n\t; Print $rAttacker\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "trapNelsonLegionBIYOB_02001098#ACTI:FULL#1a2942fc237173f6aea7d1546e127e2f",
+    "original": "Concealed Mine",
+    "translation": "埋好的地雷",
+    "stage": 1
+  },
+  {
+    "key": "FCATrapLegionConcealedMine_02003600#ACTI:FULL#a7d790b115f85f0aaec03cd8c4564730",
+    "original": "Concealed Legion Mine Placement",
+    "translation": "埋好的军团地雷",
+    "stage": 1
+  },
+  {
+    "key": "FCATrapLegionConcealedC4_0200644F#ACTI:FULL#a7d790b115f85f0aaec03cd8c4564730",
+    "original": "Concealed Legion Mine Placement",
+    "translation": "埋好的军团地雷",
+    "stage": 1
+  },
+  {
+    "key": "FCAFootlocker01HouseholdNVPoison_0200E2AA#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
+    "original": "Footlocker",
+    "translation": "脚柜",
+    "stage": 1
+  },
+  {
+    "key": "VBSPediatricsBookBad_0200080C#MISC:FULL#4f6aa5d2f1516a92d0cede016cb16aef",
+    "original": "Alternative Pediatrics #46: The Benefits of Psyco on Treating Post-Traumatic Stress",
+    "translation": "儿科替代疗法46：疯狂药辅助治疗创伤后压力",
+    "stage": 1
+  },
+  {
+    "key": "VBSPsychologyBookBad_0200109E#MISC:FULL#c039941a6b5268081b2ddb2dd3d3a7db",
+    "original": "Indentured Servitude: A Practitioner's Guide to Instilling Gratitude in Refugees",
+    "translation": "契约奴役：如何让难民感恩的实战教学",
+    "stage": 1
+  },
+  {
+    "key": "FCAWeapNVDetonatorFrumentarius_02004A29#WEAP:FULL#dd5c0d27857195af7a13c74762036889",
+    "original": "Frumentarius' Detonator",
+    "translation": "军团特工的引爆器",
+    "stage": 1
+  },
+  {
+    "key": "FCAWeapNVC4PlasticExplosiveLegion_02005E91#WEAP:FULL#c6630763655c772854961127030aca1f",
+    "original": "C-4 Plastic Explosive",
+    "translation": "C-4塑胶炸药",
+    "stage": 1
+  },
+  {
+    "key": "FCADisguisedFrumentarius_02000ADD#NPC_:FULL#7fd0dd7b32e4a405144b09ea4fef5e6f",
+    "original": "Disguised Frumentarius",
+    "translation": "伪装的军团特工",
+    "stage": 1
+  },
+  {
+    "key": "LegionaryVexillariusTemplateFCA_02008F69#NPC_:FULL#6cf080257064468273e4e1222622dcc3",
+    "original": "Legion Vexillarius",
+    "translation": "军团掌旗官",
+    "stage": 1
+  },
+  {
+    "key": "LegionaryVeteranTemplateFCA_02008F6B#NPC_:FULL#f086df89e546cde7eb38c9d49d038b45",
+    "original": "Veteran Legionary",
+    "translation": "军团老兵",
+    "stage": 1
+  },
+  {
+    "key": "LegionYIWAMarcellus_02000809#NPC_:FULL#4c32535381790df174c42b26aa1e9ec6",
+    "original": "Frumentarius Marcellus",
+    "translation": "军团特工马塞勒斯",
+    "stage": 1
+  },
+  {
+    "key": "NCRRangerPatrolAAMTemplateYIWA_0200336E#NPC_:FULL#9e915ab7569d78124782247fe92415e2",
+    "original": "NCR Ranger",
+    "translation": "NCR游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "NVDoctorBagBad_02003C0A#ALCH:FULL#521a7e721effe801cb3bb8e911b9d8d7",
+    "original": "Unsanitary Doctor's Bag",
+    "translation": "不卫生的医疗包",
+    "stage": 1
+  },
+  {
+    "key": "FCAC4ProjectileLegion_02005BB1#PROJ:FULL#d84402a380c326e2e167e96f975afde6",
+    "original": "C4",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0200080A#INFO:NAM1#896a4ced8f19d7aaceb360134274e60f",
+    "original": "Hail, traveller. If you're on your way to the \"Refugee\" camp to the North, I would indenture your services for the Legion.",
+    "translation": "你好，旅行者。如果你正要去北边的“难民营”，我想让你帮军团做些事。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02000DBB#INFO:NAM1#9c421578a5cbc324ffaac55c0d1ba10a",
+    "original": "Hail, amicus. I could use your aid with a task concerning the \"Refugee\" camp to the North. What do you say?",
+    "translation": "你好，顾问大人。你能帮我在北边的“难民营”处理点事吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0200080B#INFO:NAM1#3c18e8fb2f87f811095425461b074000",
+    "original": "Well, have you reconsidered my offer?",
+    "translation": "你考虑我的提议了吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02001940#INFO:NAM1#5146ce8967d3e3b0c91ebeb0ea05714f",
+    "original": "Have you offered your aid to Captain Gilles yet?",
+    "translation": "你向吉勒斯上尉提出帮忙了吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02002AB8#INFO:NAM1#d5f467a1c67b65cfe01717f0944d5c09",
+    "original": "How goes your progress with the profligates' \"refugee\" camp?",
+    "translation": "在荒淫之人们的“难民营”进展如何？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02002AB9#INFO:NAM1#e7964fa7b8f440e4b66244277f4d758a",
+    "original": "You have done a remarkable job here today, amicus. Know that Caesar will not forget what you have done here today.",
+    "translation": "顾问大人，你做得真好。凯撒不会忘记你的奉献。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02002AB9#INFO:NAM1#8c3faa651ec93f0fa34742628f6d4705",
+    "original": "I look forward to working with you again. Now, we have would-be slaves to tend to. Vale.",
+    "translation": "期待再次与你共事。现在该去处理预备奴隶们了。再见。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02002ABA#INFO:NAM1#f7401e2e21dc71ed8ba8fe62aec55c5c",
+    "original": "Many refugees to deal with. We can talk later, amicus.",
+    "translation": "我还要应付难民们，之后再聊，顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000F7EA4#INFO:NAM1#4d06b6bdf9747f9fa6f4792cf9fbb285",
+    "original": "If it's bad news, you can take it up with the Colonel. If it's good news, it better involve some dead Fiends.",
+    "translation": "如果是坏消息，你就去找上校说。如果是好消息，那最好是死了几个恶魔帮。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02000DBD#INFO:NAM1#737b89a8b657a02b87532329ad0d89b7",
+    "original": "I saw you enter Camp McCarran a short while ago, would you be interested in hearing a proposition?",
+    "translation": "我看你刚进了麦卡伦营地，有兴趣听个提案吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02000DBF#INFO:NAM1#bf7e741242f4852082c0de3524df70da",
+    "original": "This does not concern you, profligate. Simply move along.",
+    "translation": "不关你事，荒淫之人。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0200137A#INFO:NAM1#56aa81e523e3d38b27511dcdff709a1f",
+    "original": "Have you reconsidered my offer, profligate?",
+    "translation": "你考虑我的提议了吗，荒淫之人？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02000805#INFO:NAM1#3adb7a4d113d73cf66020c22e937bad3",
+    "original": "Well, have you talked to the Profligate Dhatri yet?",
+    "translation": "你和荒淫之人达特里聊过了吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0200446B#INFO:NAM1#c3d430e8d60a8501649f549dabdfb4f3",
+    "original": "Stop wasting my time, profligate, and deal with First Recon already!",
+    "translation": "荒淫之人，别浪费我的时间！还要对付第一侦察营。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02004FF7#INFO:NAM1#e57f3e281cb89f5cf25d27e2c3bf0a2e",
+    "original": "You have done well, amicus. Here the mighty First Recon sit and bound like our common slave girls.",
+    "translation": "做得好，顾问大人。威风的第一侦察营像我们的女奴们一样了。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02004FF7#INFO:NAM1#8f553d8f095d555ba313314922dfa65a",
+    "original": "Caesar himself will hear word of what you have done for the Legion.",
+    "translation": "凯撒会知晓你对军团的奉献。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02008104#INFO:NAM1#7ebcebdc92215fb418c41c0ee8122e7c",
+    "original": "OooOOooOOoOoo, a new blood walking into my camp?! You better have some fuckin' Jet or I'm braining you with this driver!",
+    "translation": "哇哦哇哦哇哦，我的营地里有新鲜血液了？！你最好有杰特，要不我就用球杆打出你的脑浆。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02008107#INFO:NAM1#fe3f0cefdba3c8fbf36dd73b0937eb4a",
+    "original": "Well?! Tell me what you want before I brain you and ransack you for Psyco!",
+    "translation": "怎么？！在我想整死你拿疯狂药之前，说出你的目的！",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_02008109#INFO:NAM1#f56b1ddd7177e5e75e6ec9b7599bf0f8",
+    "original": "Hail, amicus. It is good you are here. I have a proposition for you, regarding weakening Camp McCarran's elite forces",
+    "translation": "你好，顾问大人。你来的正好，我有个削弱麦卡伦营地精锐部队的提议。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00125E56#INFO:NAM1#2744fbb472d8a380163c34d1ab6e10d7",
+    "original": "{AH-way}Ave. Why have you come to Nelson?",
+    "translation": "{AH-way}致敬。你来纳尔逊干什么？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00125E57#INFO:NAM1#77ce40a79d1e2e8f26087a56fd49b739",
+    "original": "{annoyed}What is it this time?",
+    "translation": "{annoyed}这次又有什么事？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00127E43#INFO:NAM1#bc056edc05568323258b20490fe09f4c",
+    "original": "Yes?",
+    "translation": "是的？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_001587EB#INFO:NAM1#659736aa1d2886d4003600c07d4da3ea",
+    "original": "It's always a pleasure to see you around the camp.",
+    "translation": "很高兴能在营地里看见你。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0014B5AC#INFO:NAM1#7b4fae85f8ee77c8bc3f3ac6c93a57f6",
+    "original": "Ah, you're back. What else do you need?",
+    "translation": "啊，你回来了。你还有什么事？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0014B5A9#INFO:NAM1#03a85366725bbfc76b2f80e967eff00b",
+    "original": "So, the cub enters the wolf's den. What do you want, cub?",
+    "translation": "哎呀，小绵羊闯进狼窝里来了。你有什么事，小绵羊？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_00137B87#INFO:NAM1#a2651fc5b7e4ec807aed9b3d8fc045e2",
+    "original": "{Resigned}Back again. What now?",
+    "translation": "{Resigned}你回来了。又有什么事？",
+    "stage": 1
+  },
+  {
+    "key": "VMS07Greeting_000F26E0#DIAL:FULL#992f27a070275557fcc16830e356d867",
+    "original": "VMS07Greeting",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "VMS07Greeting_000F26E7#INFO:NAM1#4e3c0ac622fe71ac2ddcd12d10721615",
+    "original": "What the fuck are you doing here? You got some kind of fucking death wish, asshole?",
+    "translation": "你他妈在这干什么？准备好他妈的遗言了吗，混蛋？",
+    "stage": 1
+  },
+  {
+    "key": "VMS07Greeting_000F378E#INFO:NAM1#2eec6ead69d8d3d7d1db3022ab2554fc",
+    "original": "I wasn't expecting a resupply so soon, so you have anything from Red Rock Canyon to sell me?",
+    "translation": "我没想到这么快就有人来补货了，你从红岩峡谷那边带了什么东西来卖给我？",
+    "stage": 1
+  },
+  {
+    "key": "VMS07Greeting_000F3791#INFO:NAM1#a0196b60608b02759c64b9fe047bd2a2",
+    "original": "How the hell did you get in here? Where the fuck are my guards?",
+    "translation": "你他妈的怎么进来的？我的守卫都他妈死哪去了？",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformMcCarran31EMajorDhatriTopic007_000F7E7B#DIAL:FULL#aee756abca8e17fb5c84d3ce6acbe7ff",
+    "original": "Driver Nephi.",
+    "translation": "球杆尼法。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformMcCarran31EMajorDhatriTopic007_000F7E94#INFO:NAM1#560864c7e607269746b0b25e5671e95d",
+    "original": "You've got some guts, I'll give you that. Nephi is one tough son of a bitch. You let him get close, and he'll take your head off.",
+    "translation": "你很有胆量嘛，我佩服你。尼法是个难缠的王八羔子。你要是让他近了身，那就等着脑袋落地吧。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformMcCarran31EMajorDhatriTopic007_000F7E94#INFO:NAM1#9c9c305bbd06f968672a47e043d17e5b",
+    "original": "My advice is this. Talk to Lieutenant Gorobets. He's in charge of Alpha Team, 1st Recon. Snipers.",
+    "translation": "我给你个建议。去找格罗别茨中尉。他负责指挥第一侦察营的阿尔法小队，全队都是狙击手。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformMcCarran31EMajorDhatriTopic007_000F7E94#INFO:NAM1#e9ab60c59742e52f2bd3698823c4c64d",
+    "original": "If you're lucky, you can lure Nephi into the open, and the sharpshooters can bring him down. You bring me the head, you'll still get the bounty.",
+    "translation": "如果你命够硬，可以把尼法引到开阔地带，这样神射手们就能干掉他。只要你把他的首级带给我，赏金依然算你的。",
+    "stage": 1
+  },
+  {
+    "key": "VFreeformMcCarran31EMajorDhatriTopic007_000F7E94#INFO:NAM1#444ad9325067b446245b0d2d8167832a",
+    "original": "It's a better bet than trying to take Nephi one-on-one, but it's your call.",
+    "translation": "这样至少比跟他一对一单挑更有胜算，不过全看你的意思了。",
+    "stage": 1
+  },
+  {
+    "key": "GorobetsGetIntoPosition_000FA98E#DIAL:FULL#a6e3bc32d4a389bb65340424b453d45e",
+    "original": "GorobetsGetIntoPosition",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "GorobetsGetIntoPosition_000FA98F#INFO:NAM1#b271cfaef9417a9586149bda352850e1",
+    "original": "We're here. First Recon, get into your positions and wait for the target.",
+    "translation": "我们到了。第一侦察营，各就各位，等待目标出现。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandAid_0013304B#DIAL:FULL#3250bac7a27d6f84236450aba0233d5b",
+    "original": "Captain Gilles said to talk to you about medical aid for the camp.",
+    "translation": "吉勒斯上尉派我来问你关于营地医疗物资的事情。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandAid_00133F0F#INFO:NAM1#6e8fc7b65ec53816922ca302df07bc39",
+    "original": "{Pleased}Hey, if you can help, I'll take whatever I can get. Doctor's Bags would be a huge help, but what I really need are medical texts.",
+    "translation": "{Pleased}嘿，只要能派上用场，什么都行。医疗包就不错，但我真正需要的是医疗书籍。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandAid_00133F0F#INFO:NAM1#b7857c3b43e17e2572e9a21ca330f897",
+    "original": "I'm not trained to deal with major psychological trauma, and we've got a lot of kids in this camp.",
+    "translation": "毕竟抚平心理创伤不是我的强项。此外，营地里还有不少孩子。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_0013304C#DIAL:FULL#8e372be5159a84b8adf2c36f9c83547b",
+    "original": "I found one of those books you wanted.",
+    "translation": "我找到了一本你要的书。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_00133F16#INFO:NAM1#666cacef1c61460e0c197dfef5a1997b",
+    "original": "{Excited}Both of them? Wow, that's very resourceful. Thank you.",
+    "translation": "{Excited}两种都有吗？太好了！谢谢你！",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_00133F16#INFO:RNAM#fddcee741f5cf7513644579b0ead5af3",
+    "original": "I found those books you wanted.",
+    "translation": "我找到你要的书了。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_00133F17#INFO:NAM1#85f331ac6a3cecfe3f1415ceaab6c4bb",
+    "original": "{Pleased}That's great! Thank you. I'm sure this will go a long way toward making things better here.",
+    "translation": "{Pleased}这太棒了！谢谢你。这些东西肯定会对我们大有帮助的。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_00133F18#INFO:NAM1#04679cb4202cb4c382d146cb9ad892a0",
+    "original": "{Pleased}This is exactly the kind of thing I was looking for. Thank you.",
+    "translation": "{Pleased}这正是我想要找的书，谢谢你。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_00133F18#INFO:RNAM#ba42b1b5a938ba137ad8a8ca300b0e64",
+    "original": "I found another book for you.",
+    "translation": "我又找着一本。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_02002799#INFO:NAM1#666cacef1c61460e0c197dfef5a1997b",
+    "original": "{Excited}Both of them? Wow, that's very resourceful. Thank you.",
+    "translation": "{Excited}两种都有吗？太好了！谢谢你！",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_02002799#INFO:RNAM#d12b41fad5990bbfd557364f24c5814c",
+    "original": "<Give Bad Books> I found those books you wanted.",
+    "translation": "<给予有害书籍>我找到你要的书了。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_0200279A#INFO:NAM1#85f331ac6a3cecfe3f1415ceaab6c4bb",
+    "original": "{Pleased}That's great! Thank you. I'm sure this will go a long way toward making things better here.",
+    "translation": "{Pleased}这太棒了！谢谢你。这些东西肯定会对我们大有帮助的。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_0200279A#INFO:RNAM#f58e53f265bbb819d5c705b5d03dce81",
+    "original": "<Give Bad Book> I found one of those books you wanted.",
+    "translation": "<给予有害书籍>我找到了一本你要的书。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_0200279B#INFO:NAM1#04679cb4202cb4c382d146cb9ad892a0",
+    "original": "{Pleased}This is exactly the kind of thing I was looking for. Thank you.",
+    "translation": "{Pleased}这正是我想要找的书，谢谢你。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandMedicine_0200279B#INFO:RNAM#603f6c4613aac430e8384bbb7e9b7117",
+    "original": "<Give Bad Book> I found another book for you.",
+    "translation": "<给予有害书籍>我又找着一本你要的书。",
+    "stage": 1
+  },
+  {
+    "key": "CaptainGillesRadioactiveSupplies_00133EFE#DIAL:FULL#e994f6bd6a111c99af733b5ea1fa953a",
+    "original": "<Lie, give radioactive supplies> These supplies should be \"helpful.\" Enjoy them.",
+    "translation": "<撒谎，拿出放射性补给>这些补给品应该会\"有用\"。别客气。",
+    "stage": 1
+  },
+  {
+    "key": "CaptainGillesRadioactiveSupplies_00133F1C#INFO:NAM1#90eb2586d156884778cbfb3ea99f82f9",
+    "original": "Where did you get this? You know what, it doesn't even matter. Thank you. This will be a tremendous help.",
+    "translation": "你这是从哪儿搞到的？算了，这不重要，谢谢你。帮了我一个大忙。",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic003_00133F05#DIAL:FULL#6b4fe09aca15110c906d1805bc8a6cf9",
+    "original": "What's this about someone killing refugees?",
+    "translation": "你说有人在杀害难民？",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic003_00133F1B#INFO:NAM1#7075dd49c990a2d0582ba7ea7f306fc1",
+    "original": "{Worried, a little afraid}It started about six months ago. At first it was just supplies going missing - we figured it was refugees. Then people started dying.",
+    "translation": "{Worried, a little afraid}大概从6个月之前就开始了。起初只是有些补给品丢失——我们认为是难民干的。然后就有人被杀了。",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic003_00133F1B#INFO:NAM1#6502f182aa7800acdd7b4e4e1b45b9bb",
+    "original": "Always a single bullet to the head, always from extreme range. We've lost eight refugees and three soldiers to this son of a bitch.",
+    "translation": "都是一枪正中头部，远距离射杀。我们已经有八个难民和三名士兵遭到了这个畜生的毒手。",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic003_00133F1B#INFO:NAM1#4147c6881fcf2fc8192a2a01023a43f1",
+    "original": "We know he must be hiding out in one of the caves up in the mountains, but I don't have enough men to send out looking for him!",
+    "translation": "我们知道他肯定是藏在山上的某个山洞里，但我现在没有足够的士兵能派出去搜捕他。",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic002_00133F06#DIAL:FULL#d5abe8053c3119a67ce27f8af4493f75",
+    "original": "How can I help with medical supplies?",
+    "translation": "我如何才能帮助解决医疗用品问题呢？",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic002_00133F11#INFO:NAM1#e52660acba953922c7910396bf335f82",
+    "original": "You'll want to talk to Lieutenant Markland about that, he's our medical officer. He should be down at the medical tent now.",
+    "translation": "你需要和马克兰中尉谈谈，他是我们的医疗官。他现在应该就在下边的医疗帐篷里。",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic001_00133F07#DIAL:FULL#847a16845e5514769d3c75421b744bb0",
+    "original": "What kind of supplies?",
+    "translation": "什么种类的补给品？",
+    "stage": 1
+  },
+  {
+    "key": "VMS36VBSCaptainGillesTopic001_00133F12#INFO:NAM1#3ae6e3ee6faab540c25cda1bb6c6f2b8",
+    "original": "{Frustrated}Food, blankets, clothes, tools. The army used to ship out caches of supplies regularly, but with the Legion so active we haven't gotten any in months.",
+    "translation": "{Frustrated}食物、毛毯、衣服、工具等。军队以前会定期地运来补给品，但由于军团活动频繁，我们已经数月没有得到补给了。",
+    "stage": 1
+  },
+  {
+    "key": "OscarVelascoCamp_001376E2#DIAL:FULL#67e7283da4213689408e15a7a356013a",
+    "original": "Are you the one who's been raiding the refugee camp at Bitter Springs?",
+    "translation": "袭击苦泉难民营的人就是你吗？",
+    "stage": 1
+  },
+  {
+    "key": "OscarVelascoCamp_001377FA#INFO:NAM1#82674a593c0ee92d8d1e0d120b5f3bb8",
+    "original": "{Disdainful}Refugee camp? Is that what they're calling it? Good old NCR, they can whitewash anything.",
+    "translation": "{Disdainful}难民营？现在他们管那儿叫难民营了？不愧是NCR，这帮人什么事都能洗白。",
+    "stage": 1
+  },
+  {
+    "key": "OscarVelascoCamp_001377FA#INFO:NAM1#9ee50772787ee173ad4a7ad6ded60a97",
+    "original": "Let me tell you something, that refugee camp? It's built on the blood and tears of my people. Nobody likes to talk about it, but I remember.",
+    "translation": "我告诉你吧，那个难民营？它可是建立在我人民的血泪之上。虽然没人喜欢谈论这件事，但是我还记得。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandSupplies2_0013A02E#DIAL:FULL#572567748ab66efb75d6cd2c99b927f1",
+    "original": "<Give 3 Unsanitary Doctor's Bags> I brought you these Doctor's Bags. I hope they \"help.\"",
+    "translation": "<给予3个不卫生的医疗包> 我给你带了几个医疗包。希望“有用”。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandSupplies2_0013A031#INFO:NAM1#ffc26ed8263a2eb8b1da2077e85b3eb5",
+    "original": "{Grateful}Thank you, this will keep us well-stocked for a good long while.",
+    "translation": "{Grateful}谢谢你，这些应该够我们用一段时间了。",
+    "stage": 1
+  },
+  {
+    "key": "LtMarklandSupplies2_02003C0D#INFO:NAM1#ffc26ed8263a2eb8b1da2077e85b3eb5",
+    "original": "{Grateful}Thank you, this will keep us well-stocked for a good long while.",
+    "translation": "{Grateful}谢谢你，这些应该够我们用一段时间了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferr_02000801#DIAL:FULL#918f5c6cdf0e40fc3b7e7c9413bde76f",
+    "original": "FrumentariusAcceptOffer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusDeclineOffer_02000802#DIAL:FULL#6195a8dd95f7fd4276130fc833f1c726",
+    "original": "FrumentariusDeclineOffer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusDeclineOffer_02000803#INFO:NAM1#dd1ad5909636b19bff68a698dd3faae5",
+    "original": "A shame. Then do not waste any more of mine, or the mighty Caesar's time with your ambivalent drivel.",
+    "translation": "真遗憾。那就不要浪费我或伟大的凯撒的时间听你这些模棱两可的废话了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusDeclineOffer_02000803#INFO:RNAM#eafca936fd9f3df2ad3030ccf0a1455d",
+    "original": "Eh, this doesn't sound up my alley.",
+    "translation": "呃，这听着不适合我。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000806#DIAL:FULL#e5a52e99db287ba3c0feda49faa62b65",
+    "original": "FrumentariusNephiBounty",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:NAM1#338086e3771ae8b690de3ac243ca1fae",
+    "original": "Hmm, it seems the ongoing conflict between the various tribes of raiders and the NCR has given an opportunity to exploit the situation.",
+    "translation": "我们可以利用掠夺者帮派们和NCR日益激化的冲突。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:NAM1#33215dfe36196b68ea2f732cb30255d5",
+    "original": "I would hazard a guess that they would use the old rock crushing plant to the south as a sniping ground.",
+    "translation": "盲猜他们会用南边的老碎石厂作为狙击点。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:NAM1#45cacac0bef77dee5804be3b5d629b51",
+    "original": "If you could lure them there and devise a trap to either incapacitate or kill them, you would embolden your relations with the Legion.",
+    "translation": "如果你把他们引诱到那并设下陷阱，军团将对你刮目相看。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:NAM1#f510fd5ff300e408452637d25f4f245c",
+    "original": "You could attempt to broker with the local Fiend leader as to a method to capture or kill them. Though gaining their trust could be an issue.",
+    "translation": "你可以尝试联手当地的恶魔帮领袖。不过要想办法争取其信任。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:NAM1#7e1d105d0f7c28a207e0a42645ea362e",
+    "original": "The Legion would normally never condone any co-operation with drug-addled lessers. Though the threat of First Recon precludes this now.",
+    "translation": "军团通常不和瘾君子有任何形式的合作，这次为了处理第一侦察营的威胁而破例。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:NAM1#cd40d0ba970556c90945aade68736689",
+    "original": "Alternatively, should you possess any expertise, you could devise a trap yourself at the rock crushing plant to incapacitate or kill them.",
+    "translation": "如果你的技能足够熟练，你可以自己在碎石厂埋设陷阱。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNephiBounty_02000808#INFO:RNAM#1ba515b401c582a48066dbdd042d12a3",
+    "original": "There is an open bounty on a local Fiend named Driver Nephi. He wants me to enlist First Recon.",
+    "translation": "有个针对当地的恶魔帮球杆尼法的赏金。他想让我和第一侦察营合作。",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusNephiBountyDUPLICATE000_02000807#DIAL:FULL#e5a52e99db287ba3c0feda49faa62b65",
+    "original": "FrumentariusNephiBounty",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000810#DIAL:FULL#f929694d7f3f78fbb77b3ab1482babe1",
+    "original": "MarcellusAcceptOffer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000811#INFO:NAM1#62bc4bcaaa36178d01f00949036e6fcf",
+    "original": "Excellent. Should you be successful with this task, you will have earned immense favour with Caesar himself.",
+    "translation": "很好。你完成这个任务，就是给凯撒一个大人情。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000811#INFO:NAM1#9f13631e919ad0382f5a80037bd8ad2b",
+    "original": "The NCR's position with their refugee camp to the North is exceptionally weak as it is now.",
+    "translation": "NCR在北边难民营的处境空前地差。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000811#INFO:NAM1#69b9ec60a3d5f4b42e602a178bccfb2f",
+    "original": "Caesar seeks to rid the presence here of NCR, and if possible, acquire the site for the Legion.",
+    "translation": "凯撒希望除掉他们，将此地占为军团所有。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000811#INFO:NAM1#fb13d1bfa75ea1522b7c8669fcf82635",
+    "original": "Try to make sure the refugees are not killed. Bolstering our slave trade is paramount.",
+    "translation": "尽量别杀难民，他们可以补充我们的奴隶经济。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000811#INFO:NAM1#cc0074085a43d81bec05cc97d9a788d0",
+    "original": "Seek out the NCR captain and offer your aid to them. Once they've laid out what they want, we can discuss our strategy.",
+    "translation": "找到NCR的上校，提出帮助他们。摸清他们的需求后我们再讨论策略。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusAcceptOffer_02000811#INFO:RNAM#65e21de90e7732bb6df130138b0ba973",
+    "original": "Sure. I would relish an opportunity to further Caesar's cause.",
+    "translation": "当然。我会抓住这个推进凯撒伟业的机会。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvince_02000812#DIAL:FULL#cd9a6d283af4bfedfa0b7c4bb0c91d49",
+    "original": "YIWAOscarConvince",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarConvince_020027A0#INFO:NAM1#da6a1a0f00b671a235c86411cd43e4ca",
+    "original": "[SUCCESS] You're right. The pain I've held onto all these years ago has never found release. I outta really commit to hurting them like they did us.",
+    "translation": "[成功]你说得对。他们多年来给我的伤痛从未平息。我要以牙还牙。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvince_020027A0#INFO:NAM1#d3fb326557c7c33fb4b9819d2ccb29d8",
+    "original": "You and the Legion can count on my help to wiping that \"refugee\" camp off the face of the Mojave. I'll regroup with your Frumentarius near the camp.",
+    "translation": "我会帮助你和军团从莫哈维大地上抹除那个“难民营”。我会在营地附近与军团特工们会合。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvince_020027A0#INFO:RNAM#6580500066b46ca2d24eafb3aa4001a7",
+    "original": "The only way for you to avenge your kin and compatriots is to commit *fully* to vengeance.",
+    "translation": "告慰你亲朋们的唯一方式就是*彻底*地复仇。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvince_020027A1#INFO:NAM1#0424e1ca1a275a137d08b412b35f6b67",
+    "original": "[FAILURE] Papa Khan might be getting all chummy with you Legion boys as of late, but I'm not convinced.",
+    "translation": "[失败]也许父汗最近被你们这些军团人忽悠了，但我不会。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvince_020027A1#INFO:NAM1#85e0cb7084b89a82864330ec425e4859",
+    "original": "I'm not about to risk the literal high ground I have here for you and the Legion's agenda.",
+    "translation": "我可不想为了你和军团的计划冒险放弃我在这里的制高点。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvince_020027A1#INFO:RNAM#21c7f3e42441a71794183ff061dca319",
+    "original": "I mean, aren't they kinda annoying enough? And doesn't it sounds like a fun challenge?!",
+    "translation": "难道他们还不够惹人生气吗？这难道不是个有趣的挑战吗？",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusDeclineOffer_02001379#DIAL:FULL#d064ad3290cf25d8bc0e096855f8c64c",
+    "original": "MarcellusDeclineOffer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusDeclineOffer_0200080F#INFO:NAM1#cee6a3021f4a3121bba0c559f99e5e59",
+    "original": "Very well then. I shall remain here in case you change your mind.",
+    "translation": "好吧。我会等你改变主意的。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusDeclineOffer_0200080F#INFO:RNAM#18782cc59ad525eb44368a8e3ebdb5ef",
+    "original": "No, thanks. This doesn't sound up my alley.",
+    "translation": "谢了，但这听着不适合我。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_0200137D#DIAL:FULL#c09e48ee11445e1f413bebc95a28d358",
+    "original": "DeadSeaYGTMHOffer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_0200137E#INFO:NAM1#fc630d935c48e7100e1ef8f1a0f84a39",
+    "original": "You undoubtedly have noticed that NCR Ranger and his checkpoint troopers to the West.",
+    "translation": "你肯定已经注意到了一个NCR游骑兵在西边设置的检查点。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_0200137E#INFO:NAM1#48bb893c63c0b99dc38014a36a1bc91b",
+    "original": "So far, they have not dared attack us since we hold 3 of their incompetent profligate soldiers on those crosses outside.",
+    "translation": "目前，他们还慑于我们钉起来的几个荒淫之人士兵，不敢进攻。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_0200137E#INFO:NAM1#3c48661eba0592ed5e9979e1a4c8eb12",
+    "original": "I fear, however, that they might soon find their balls and attack us here regardless, their crucified brethren be damned.",
+    "translation": "但我担心他们会孤注一掷，他们十字架上的兄弟们就要遭殃了。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_0200137E#INFO:NAM1#aa63052cc0a80b6935e3a7f7c771a9dc",
+    "original": "If you could rid me of this problem by killing the Ranger and his men, we can better maintain our attention to taking Camp Forlorn Hope to the North.",
+    "translation": "如果你能除掉那个游骑兵一行，我们就能把精力集中于对付北边的飘零希望营地。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_0200137E#INFO:RNAM#ab3a7eb12f993a362e68244ee5a8fb97",
+    "original": "It seems you're a bit pinned here, do you need any assistance?",
+    "translation": "你还在此逗留，有什么需要吗？",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_02001380#INFO:NAM1#48bb893c63c0b99dc38014a36a1bc91b",
+    "original": "So far, they have not dared attack us since we hold 3 of their incompetent profligate soldiers on those crosses outside.",
+    "translation": "目前，他们还慑于我们钉起来的几个荒淫之人士兵，不敢进攻。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_02001380#INFO:NAM1#3c48661eba0592ed5e9979e1a4c8eb12",
+    "original": "I fear, however, that they might soon find their balls and attack us here regardless, their crucified brethren be damned.",
+    "translation": "但我担心他们会孤注一掷，他们十字架上的兄弟们就要遭殃了。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_02001380#INFO:NAM1#03080198f9bc670184fe97b8ec9a4910",
+    "original": "If you could rid me of this problem by killing the Ranger and his men, we can turn our attention to taking Camp Forlorn Hope to the North.",
+    "translation": "如果你能除掉那个游骑兵一行，我们就能把精力集中于对付北边的飘零希望营地。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOffer_02001380#INFO:RNAM#3a9317bbc825c9afc449ff0b1536328e",
+    "original": "I noticed the Ranger and his men to the West, do you require aid eliminating them?",
+    "translation": "我注意到了游骑兵一行，你需要我帮忙除掉他们吗？",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferInitial_0200137F#DIAL:FULL#33ed9dc8f5d46173cd3c003bb45ad671",
+    "original": "FrumentariusAcceptOfferInitial",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferInitial_02000804#INFO:NAM1#603d5684da6a2d4d1efc639a1c9cfc61",
+    "original": "Most excellent.",
+    "translation": "太好了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferInitial_02000804#INFO:NAM1#bbd939807108a75b55faaf2a778e23ae",
+    "original": "Know that you will have gained the mighty Caesar's favour, if you succesfully complete your task.",
+    "translation": "你完成这个任务，就是给伟大的凯撒一个人情。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferInitial_02000804#INFO:NAM1#5fb5deaaf909b935121a4e9179143180",
+    "original": "Seek out the Major in Camp McCarran. Try to coax out details as to making First Recon vulnerable.",
+    "translation": "找到麦卡伦营地的上校。探听能削弱第一侦察营的信息。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferInitial_02000804#INFO:NAM1#35f5b2b5d949ec90882f2259e409d0f4",
+    "original": "Once you've discovered a means to lure out the Profligate First Recon soldiers, report back to me for next steps.",
+    "translation": "如果你找到了引诱第一侦察营的荒淫之人们的方法，向我回报，讨论下一步。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAcceptOfferInitial_02000804#INFO:RNAM#cf258b199d88d7ad78818569711afa8f",
+    "original": "Sure, I accept for now.",
+    "translation": "当然，我接受。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001381#DIAL:FULL#0bf3b148d62abed0360a4ad6bf567592",
+    "original": "DeadSeaYGTMHOptions",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001382#INFO:NAM1#4c0374f5e13612214cc5a98895ee5a79",
+    "original": "I care not how they perish, only that they do. You might use the crucified NCR soldiers outside somehow to achieve that end.",
+    "translation": "我不在乎他们怎么死。你可以尝试利用十字架上的NCR士兵。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001382#INFO:NAM1#c37266f291af31e2be73203f1f8b654f",
+    "original": "Return to me once you've accomplished your task.",
+    "translation": "完成任务后回来找我。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001382#INFO:RNAM#754f8b882e798493a2813eed399584c1",
+    "original": "How would you suggest I kill them?",
+    "translation": "有什么建议吗？",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001EF9#INFO:NAM1#551a803bd4993869df5ed1ccc328ab04",
+    "original": "You do not jest? Excellent. You've earned this reward.",
+    "translation": "没开玩笑？很好，这是你的奖赏。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001EF9#INFO:NAM1#20188037ab52288da8f538cd08eb2d03",
+    "original": "May Caesar's favor grant you strength in your travels.",
+    "translation": "愿凯撒的人情给你力量。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaYGTMHOptions_02001EF9#INFO:RNAM#5b1f01b6cc6697225a80053386b847bf",
+    "original": "Actually, I've already eliminated the Ranger and his buddies on my way over here.",
+    "translation": "其实我在来的路上已经除掉了游骑兵一行。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaRangerDead_02001383#DIAL:FULL#1a357e96c6d30225f5215ac1f0cbb826",
+    "original": "DeadSeaRangerDead",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "DeadSeaRangerDead_02001384#INFO:NAM1#67a3b2ac10a14241d8f106e4a6bbe6f8",
+    "original": "Excellent! Caesar will be sure to hear of this. Take this as a reward.",
+    "translation": "很好，凯撒会知晓的。这是你的奖赏。",
+    "stage": 1
+  },
+  {
+    "key": "DeadSeaRangerDead_02001384#INFO:RNAM#87424aeab13cf2503a2dc06c414f8526",
+    "original": "Ranger Milo and his men are dead.",
+    "translation": "游骑兵米罗一行已经死了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner_02001385#DIAL:FULL#21b33ccd7f3a91b02be3a2f36eccc189",
+    "original": "FrumentariusTalkMotorRunner",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusNoNephi_02001387#DIAL:FULL#b1f97078448f9c3ca19a4ca687f41d45",
+    "original": "FrumentariusNoNephi",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusNoNephi_02001388#INFO:NAM1#6b6902ca95461eb0932f44f20f5cc8ed",
+    "original": "Stop wasting time profligate. Talk to the Major if you truly want to appease the Legion.",
+    "translation": "不要浪费时间了，荒淫之人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusNoNephi_02001388#INFO:RNAM#6c71a1e98a657e392a97437656e15a7e",
+    "original": "No, I haven't found the time yet.",
+    "translation": "我还没空去做。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunnerConfirm_02001666#DIAL:FULL#85c01695b15ba5dd7676264f8fe6d564",
+    "original": "FrumentariusTalkMotorRunnerConfirm",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunnerConfirm_02001667#INFO:NAM1#471b6083ffa4966befb0f493041515c3",
+    "original": "Very well. Co-operation with the local raider tribes is sure to ensure the death of First Recon. Glory to Caesar!",
+    "translation": "非常好。和当地的掠夺者部落合作，务必杀死第一侦察营。荣耀归于凯撒。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunnerConfirm_02001667#INFO:NAM1#288bcabac912ebb691b75e062119c997",
+    "original": "Return to me once First Recon has been dealt with.",
+    "translation": "解决第一侦察营后回来找我。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunnerConfirm_02001667#INFO:RNAM#66f4095bcab45e5b1547ba60e8e92983",
+    "original": "I'm sure; I will seek out the leader of the Fiends for help. Death to First Recon!",
+    "translation": "我确定，我会去找恶魔帮领袖帮忙。第一侦察营必死！",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusReconsider_02001669#DIAL:FULL#893326b97175d201dadc7438d09c2ee5",
+    "original": "FrumentariusReconsider",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusReconsider_0200166A#INFO:NAM1#20751bcbeecf283f8d037eec2fadb900",
+    "original": "It depends, profligate. What are your areas of expertise?",
+    "translation": "看情况，荒淫之人。你有什么专长？",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusReconsider_0200166A#INFO:RNAM#e2bf0324918eea425db59350dfe9ee8c",
+    "original": "On second thought, I don't think I could pull it off. Could you assist me with this?",
+    "translation": "转念一想，我自己办不成，你能帮助我吗？",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusSuggestions_0200193E#DIAL:FULL#eb5aa73410946b8c54f7ec05d851ca1b",
+    "original": "MarcellusSuggestions",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusSuggestions_0200193F#INFO:NAM1#b30c850c4c35074c2bbe6beb5c04ab6b",
+    "original": "From what I've observed, the camp appears to be in dire straits. They're sure to be short on supplies and probably reinforcements.",
+    "translation": "据我观察，营地急缺补给和增援。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusSuggestions_0200193F#INFO:NAM1#b47d35a01c291318155ebe6f4f45d020",
+    "original": "As well, I hear gunshots intermittently close to the camp. Some digsruntled saboteur seems to be doing some of the work for us.",
+    "translation": "另外，我在营地附近听到过断断续续的枪声。看来我们有个隐秘的帮手。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusSuggestions_0200193F#INFO:NAM1#3d299baa2a06c0a7777b569a1c3bb943",
+    "original": "Offer to help with these problems, and get as much information as you can from them. Once you've done this, we can discuss our strategy.",
+    "translation": "提出帮忙，尽可能收集情报。之后回来商讨策略。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusSuggestions_0200193F#INFO:RNAM#1ff6cca06c96f4db1bf08221a9d0d5e5",
+    "original": "How would you suggest I lend my services to them?",
+    "translation": "你有什么建议？",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusHaventTalkedToGilles_02001941#DIAL:FULL#eeb1464ecd787a20fc6f2b8d11723766",
+    "original": "MarcellusHaventTalkedToGilles",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusHaventTalkedToGilles_02001942#INFO:NAM1#a72652422de2f9a03660921a43af062e",
+    "original": "Well make haste then! We waste precious time while NCR gathers strength.",
+    "translation": "那就赶快！我们每浪费一点宝贵的时间，NCR就变强一分。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusHaventTalkedToGilles_02001942#INFO:RNAM#34b5294843af97e3898f28c343ccea6c",
+    "original": "I haven't talked to Captain Gilles yet.",
+    "translation": "我还没和吉勒斯上尉谈过。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFD#DIAL:FULL#cbc10a5df9095d7483ede160f8686b71",
+    "original": "MarcellusTalkedToGilles",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:NAM1#fa696d3483273f5714e8a6d147bacb73",
+    "original": "Interesting. So they are low on troops, supplies, medicine, and continue to suffer losses from an unidentified assailant.",
+    "translation": "有趣。他们缺乏人手、补给、医药，还在遭受神秘人的攻击。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:NAM1#5e4b53eaaa4b059a209e69c297a06d06",
+    "original": "Considering the proximity of the Refugee Camp to one of the Ranger Stations, handling this discreetly would be advantageous to our cause.",
+    "translation": "考虑到附近就有个游骑兵驻站，我们最好隐秘行事。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:NAM1#fc1b3d5814d8936212f7955c39ed60bf",
+    "original": "To that end, ensure the Medic's treatment of the refugees or troops worsens.",
+    "translation": "为此，去破坏他们对难民和士兵的治疗。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:NAM1#5923fa15c56870f36a04bbccf1c0950e",
+    "original": "The Crimson Caravan ought to have a *variety* of texts. Some will undoubtedly endorse some unsavoury \"medical practices.\"",
+    "translation": "赤红商队应该会有各种书籍。有些人喜欢另类的非主流医学。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:NAM1#927ee0b7bf1f6e3e5783f04ad878e030",
+    "original": "Additionally, ensure any Doctor's Bags you donate are *at least* unsanitized. At best irradiated.",
+    "translation": "此外，给他们不卫生的医疗包，最好加上辐射。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:NAM1#8074cc7459814c03a81b2aff72f092a0",
+    "original": "Next are the supplies. Should you be resourceful, it should prove trivial to lace the aid you donate with a bit of radiation.",
+    "translation": "之后就是补给品。如果你有能力，加上些辐射不难。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFE#INFO:RNAM#cd640b9b98b990dd7d543b69a5c2fb68",
+    "original": "The camp is seeking reinforcements, medical and general supplies, and help eliminating a vigilante.",
+    "translation": "营地正需要增援，医疗和一般补给品，还需要帮忙处理一个袭击者。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#685c14e67add52649d390a8d1255c69d",
+    "original": "Interesting. So they are low on supplies, medicine, and continue to suffer losses from an unidentified assailant.",
+    "translation": "有趣。他们缺乏补给、医药，还在遭受神秘人的攻击。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#9e78e24731c3efe9c336c65943f9c848",
+    "original": "However, since you've already aided the profligates in the camp with finding them reinforcements, we will need to find some in turn.",
+    "translation": "不过，既然你之前帮营地的荒淫之人们找来了增援，我们需要做点应对。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#b31d91f4ddfbc9bb169dff88245a77a0",
+    "original": "Our presence here is limited. Consider enlisting the aid of the Great Khans. They seek vengeance for the massacre the NCR committed here previously.",
+    "translation": "我们在此力量有限，你应该考虑拉拢大汗帮。他们渴望对NCR的屠杀复仇。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#b258963a5422bed31e33af96c690a390",
+    "original": "Next, ensure the Medic's treatment of the refugees or troops worsens.",
+    "translation": "之后，去破坏他们对难民和士兵的治疗。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#5923fa15c56870f36a04bbccf1c0950e",
+    "original": "The Crimson Caravan ought to have a *variety* of texts. Some will undoubtedly endorse some unsavoury \"medical practices.\"",
+    "translation": "赤红商队应该会有各种书籍。有些人喜欢另类的非主流医学。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#9637257d3a4c6e91e1a72ff4dc3505c1",
+    "original": "Additionally, ensure any Doctor's Bags you donate are *at least* unsanitized, and at best irradiated.",
+    "translation": "此外，给他们不卫生的医疗包，最好加上辐射。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:NAM1#8074cc7459814c03a81b2aff72f092a0",
+    "original": "Next are the supplies. Should you be resourceful, it should prove trivial to lace the aid you donate with a bit of radiation.",
+    "translation": "之后就是补给品。如果你有能力，加上些辐射不难。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusTalkedToGilles_02001EFF#INFO:RNAM#be36707c3c3d9fac73e56b4e96c8c8cb",
+    "original": "The camp is seeking medical and general supplies, and help eliminating a vigilante.",
+    "translation": "营地正需要医疗和一般补给品，还需要帮忙处理一个袭击者。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_020024BE#DIAL:FULL#34c19019cd17b6d52b1683c161a03f21",
+    "original": "FrumentariusTalkMotorRunner2",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_020024BF#INFO:NAM1#1f853ba7bd1d9bdd16273883c3eef019",
+    "original": "[SUCCESS] I've head word of the local Fiends making their base of operations in a Vault-Tec Vault to the southwest.",
+    "translation": "[成功]我听说当地的恶魔帮的基地在西南的一处避难所科技避难所内。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_020024BF#INFO:NAM1#907b95fa771e747344b5e6abfd69ec98",
+    "original": "The challenge of even getting to converse with the Fiends' leader, I leave to you.",
+    "translation": "尝试和恶魔帮领袖对话的挑战就交给你了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_020024BF#INFO:NAM1#22e7569493fa1948fd90b0b0411a6320",
+    "original": "I will arrange for a handful of Legionaries to meet you near the Rock Crushing Plant to assist you once you've gained the aid of the Fiends.",
+    "translation": "一旦你取得了恶魔帮的援助，我会派一些军团士兵在碎石厂附近与你会合。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_020024BF#INFO:RNAM#4f86c8564444efc77580c01008643950",
+    "original": "Swaying the minds of drug-addled lessers should prove no challenge, dear amicus.",
+    "translation": "操纵瘾君子的思想应该轻而易举，亲爱的顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_02009806#INFO:NAM1#679c76b796c7cb271fbda1b612d5d2f9",
+    "original": "[FAILURE] Do not insult me by trying your failed tounge at oration.",
+    "translation": "[失败]不要用你蹩脚的说辞侮辱我。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_02009806#INFO:NAM1#9abd7d3a589ecbf9522d22d7219f6c91",
+    "original": "In any other circumstance, I would have you lashed to a cross for displaying such incompetence.",
+    "translation": "要是别人，我非要为你的无能把你钉上十字架不可。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_02009806#INFO:NAM1#38d04f6ee6d01c12ac087adaa3028e1b",
+    "original": "No, profligate. I advise you seek alternate means.",
+    "translation": "不行，荒淫之人。我建议你另寻他法。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusTalkMotorRunner2_02009806#INFO:RNAM#110caad26c0f4026006fd883001d89bf",
+    "original": "<Overconfidently> Oh come on, do I not just EXUDE charisma and charm, dear amicus?",
+    "translation": "<过度自信>得了吧，难道我不够魅力四射吗？亲爱顾问大人？",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusTalkMotorRunnerFail_020024C0#DIAL:FULL#576e353da2700c24e7c200fd8d3b1b4f",
+    "original": "FrumentariusTalkMotorRunnerFail",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarHelpLegion_0200279D#DIAL:FULL#6fde928bf690e90f59ab658c7bbfcb3d",
+    "original": "YIWAOscarHelpLegion",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarHelpLegion_0200279E#INFO:NAM1#6f6f81f0276549545b0737b42efacc45",
+    "original": "Hmm, I've only been able to pick off a few of them so far. Lemme hear your offer.",
+    "translation": "嗯，我目前只解决了几个，听听你的提议吧。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarHelpLegion_0200279E#INFO:RNAM#88b1167d662db85b0398ed2a8aa98a36",
+    "original": "You misunderstand; I want your *help* in eliminating the NCR located in the \"refugee\" camp.",
+    "translation": "你误会了，我要你帮忙除掉“难民营”里的NCR。",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusImperialist_0200279F#DIAL:FULL#dac5cb37cb3a67456ab53b08675772e6",
+    "original": "FrumentariusImperialist",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarConvinceAlt_020027A3#DIAL:FULL#0fff6fb7554e45b9b697b9f71ba10e17",
+    "original": "YIWAOscarConvinceAlt",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarConvinceAlt_020027A5#INFO:NAM1#5fb0f31cd84b4dface68dec8d8a7dfc7",
+    "original": "Well if you've already done the effort to hobble their defenses, I guess I can't resist that opportunity, can I.",
+    "translation": "好吧，如果你能削弱他们的防御，我不会放过这次机会的。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvinceAlt_020027A5#INFO:NAM1#3aabbbf44584bab6f7c4970bc72bc5b0",
+    "original": "It is time for the NCR to witness the power of one of the Flails of God! I'll first regroup with your Frumentarius near the camp.",
+    "translation": "是时候让NCR见识下神之枷锁的力量了。我会在营地附近和军团特工们会合。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarConvinceAlt_020027A5#INFO:RNAM#64748263d52cf87483ed79f68e87545c",
+    "original": "I've already laid the groundwork by sabotaging most of the aid they've tried to acquire.",
+    "translation": "我已尽量破坏了他们需要的各项援助，铺平了道路。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAltSkills_02002A7E#DIAL:FULL#5275426799886a2837a532152169ce63",
+    "original": "FrumentariusAltSkills",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusAltSkills_02002A7F#INFO:NAM1#ed258847d2172c9cf780a7e691c95607",
+    "original": "That depends, profligate. What are your areas of expertise?",
+    "translation": "看情况，荒淫之人。你有什么专长？",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusAltSkills_02002A7F#INFO:RNAM#7c2fb31a1f43b4ce0bb8f99b93825a30",
+    "original": "I wasn't blessed with a silver tongue. Could you aid me with this somehow?",
+    "translation": "我没有什么巧舌。你能帮助我妈？",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusSneak_02002A80#DIAL:FULL#2a90092fdf4c918ea99420d6e11606e3",
+    "original": "FrumentariusSneak",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D5F#DIAL:FULL#b324879187ddba4d0668674afb97f86f",
+    "original": "FrumentariusSneak2",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D60#INFO:NAM1#dc4ae2da9222456b48d95728c5fb95d4",
+    "original": "[SUCCESS] Clever, profligate. That is sure to leave First Recon incapacitated. Caesar would be pleased with such an outcome.",
+    "translation": "[成功]聪明，荒淫之人。这肯定能俘获第一侦察营。这个大成功会让凯撒很高兴。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D60#INFO:NAM1#e5892797a08a09e45e529b4db797c4d7",
+    "original": "Once you've rendered them unconscious, I will arrive shortly thereafter to deal with them.",
+    "translation": "你把他们打晕后，我会很快赶到处理。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D60#INFO:NAM1#d0802cf7e1ff3fc8dcce64825fb7fcfe",
+    "original": "I would relish the opportunity to test the might of an NCR sniper in the arena without the arms they cling to so dearly.",
+    "translation": "我很期待看这些威风的NCR狙击手们没了趁手武器后在竞技场中的样子。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D60#INFO:NAM1#34caebbb9d353357b3f85bba822b6bf7",
+    "original": "Then it is decided. Lure First Recon to the rock crushing plant and render them unconscious for the Legion. Ave, amicus.",
+    "translation": "那决定了，把第一侦察营引诱到碎石厂再俘虏。万岁，顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D60#INFO:NAM1#a63d7db8c9019a0c2d5cedbb1e01f392",
+    "original": "Here, take this detonator to render First Recon unconscious.",
+    "translation": "拿着这个引爆器，炸晕第一侦察营。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_02002D60#INFO:RNAM#ccc622ba3af5b1c4a63bce89570e0204",
+    "original": "The Samson Plant has long been abandoned. Concealing gas traps would prove no challenge.",
+    "translation": "萨姆森碎石厂废弃已久。埋藏些气罐陷阱轻而易举。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_0200D711#INFO:NAM1#d186bae20bb9610f85f8724bfaaa49cb",
+    "original": "[FAILURE] Quiet down, profligate! Lest you blow this whole operation.",
+    "translation": "[失败]安静点！荒淫之人！你差点毁了整个行动。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_0200D711#INFO:NAM1#774b3b8d20b95e146fd80abd3756f606",
+    "original": "I'm afraid you'll have to think of something else.",
+    "translation": "恐怕你得考虑点别的。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusSneak2_0200D711#INFO:RNAM#19d04dbac5c93e61e0b8bd7443e14636",
+    "original": "<In a raised voice, obliviously> Discreetly eliminating NCR soldiers? No problem!",
+    "translation": "<提高声音>隐秘地除掉NCR士兵？没问题！",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusRegroup_02002DA3#DIAL:FULL#d7abab422ace044e6290da4f2b267c17",
+    "original": "MarcellusRegroup",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusRegroup_0200308D#INFO:NAM1#3564a4d17db77b564fe921e77fc7ea39",
+    "original": "Excellent! We are ready to storm the camp. It is a shame that the Khans cannot lend their assistance.",
+    "translation": "很好！我们已准备好横扫营地。大汗帮没来是他们的遗憾。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusRegroup_0200308D#INFO:NAM1#1053c3f9147a8eb9a531dff2be2f2f0f",
+    "original": "As I've said previously, spare the refugees. They are to bolster our slave operations. Now, onward!",
+    "translation": "如我之前所说，留着难民补充奴隶。前进！",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusRegroup_0200308D#INFO:RNAM#25d1f28fa4ac4ed6ec83ec9d5a672ab4",
+    "original": "I'm ready to storm the camp.",
+    "translation": "我准备好横扫营地了。",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusRegroup_0200308E#INFO:NAM1#2d0b9f6e5648291d463e070ce1cd606e",
+    "original": "Excellent! We are ready to storm the camp. With the aid of the Khans, we are sure to be victorious!",
+    "translation": "很好！我们已准备好横扫营地。有大汗帮的协助，胜利已无可置疑！",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusRegroup_0200308E#INFO:NAM1#8bfa47daea05e0177868b3dfb5e50312",
+    "original": "As I've said previously, spare the refugees. They are to bolster our slaving operations. Now, onward!",
+    "translation": "如我之前所说，留着难民补充奴隶。前进！",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusInProgress_02002DA9#DIAL:FULL#00a942ff3c34e5f3835e4c98f2c7fc77",
+    "original": "MarcellusInProgress",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MarcellusInProgress_02002DAA#INFO:NAM1#3cecc9be107f67e871fe87f215f1a729",
+    "original": "Make haste! Caesar desires this camp to bolster our slave trade. We lose precious strength while you tarry!",
+    "translation": "加快脚步！凯撒想用这个营地补充奴隶，你的拖延将减弱我们的力量！",
+    "stage": 1
+  },
+  {
+    "key": "MarcellusInProgress_02002DAA#INFO:RNAM#d47d65a1251039e4f766792df41f8848",
+    "original": "Still working on it.",
+    "translation": "我还在尝试。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAB#DIAL:FULL#7aac2c7bac48047b410b1900794fd250",
+    "original": "YIWAPapaConvince",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAC#INFO:NAM1#71f6feac691b3892e1da0c965dcecda8",
+    "original": "[SUCCESS] Very well, cub. The Flails of God would love to show those NCR dogs the wrath we should have demonstrated that day.",
+    "translation": "[成功]很好，小子。神之枷锁要让NCR狗东西尝尝我们早该展露的怒火！",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAC#INFO:NAM1#580c792863838291bb6c502d1c244075",
+    "original": "I will give you 3 of my troops to deal with that \"refugee\" camp. The Legion may have the spoils of enslaving the squatters who deface our graves.",
+    "translation": "我会派你三个战士去解决那个“难民营”。军团可以奴役那些玷污我们坟墓的占地者。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAC#INFO:RNAM#29f3d442c69ab9cdfa245773646479e2",
+    "original": "The Legion requests aid wiping out the NCR garrison at Bitter Springs. We know you seek vengeance.",
+    "translation": "军团需要协助抹除苦泉镇的NCR驻军。我们知道你一直寻求复仇。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAD#INFO:NAM1#986204ad1ddc7d68b442d37f35bf0438",
+    "original": "[FAILURE] I don't think so, cub. One day you might witness the might of the Flails of God, but today is not that day.",
+    "translation": "[失败]我不同意，小子。有一天你会见识神之枷锁的力量，但不是今天。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAD#INFO:NAM1#99553f7843b9270d8774512ecc115664",
+    "original": "Karl here assures me it's a task you are more than equipped with to deal with. I wish you luck.",
+    "translation": "卡尔让我对你的准备放心了，祝你好运。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvince_02002DAD#INFO:RNAM#9a503d8c11f5a441002ce0a911d1f6ff",
+    "original": "I heard a bunch of your people died like chumps at Bitter Springs. Feel like some good ol' revenge?",
+    "translation": "我听说你的人在苦泉镇死伤惨重，想报仇吗？",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvinceAlt_02002DAE#DIAL:FULL#d75157b5f04a962d498a6d0a9a64fbc3",
+    "original": "YIWAPapaConvinceAlt",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAPapaConvinceAlt_02002DAF#INFO:NAM1#ad6155576fc100b67bf35d1e30bfc7e0",
+    "original": "Since you have already done so much for us, I would be glad to help you deal with those war piles of New California refuse.",
+    "translation": "既然你已经帮了我们这么多，我很乐意帮你处理那些新加州人。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvinceAlt_02002DAF#INFO:NAM1#f95bb50c4ecfaea9e041f5ac7dbc48c8",
+    "original": "Take 3 of my troops and they will meet you at the Recreation Camp just outside. I wish you swift vengeance for our brothers and sisters.",
+    "translation": "带着我的三名战士，他们会在娱乐区外面和你会合。愿你为我们的弟兄姐妹复仇。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvinceAlt_02002DAF#INFO:RNAM#64c0c999a0829141622ad08c9cd5f698",
+    "original": "Our Legion allies by sending some troopers to Bitter Springs. We should seek retrtibution!",
+    "translation": "我们的军团盟友已经向苦泉镇派兵，我们应该寻求复仇！",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarHelpLegionAgain_02002DB0#DIAL:FULL#ba56a03f63706502a3b47c2812d93b1a",
+    "original": "YIWAOscarHelpLegionAgain",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAOscarHelpLegionAgain_02002DB1#INFO:NAM1#250aefb83eb439e96f350c7ffb1e56e8",
+    "original": "Well you didn't convince me last time. Do you have anything new to offer?",
+    "translation": "你上次没说服我，有什么新话吗？",
+    "stage": 1
+  },
+  {
+    "key": "YIWAOscarHelpLegionAgain_02002DB1#INFO:RNAM#7da98e6a5b460061c146a890d356dc2e",
+    "original": "Do you still not want to help eliminate the NCR at Bitter Springs?",
+    "translation": "你还是不想帮忙除掉苦泉镇的NCR吗？",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvincePower_0200392B#DIAL:FULL#4dcc4859849d147a762d0e17331c9645",
+    "original": "YIWAPapaConvincePower",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YIWAPapaConvincePower_0200392C#INFO:NAM1#4b2cac876cbc66901fad194ad2897316",
+    "original": "Well said, friend. If we don't show the NCR that The Flails of God aren't to be trifled with, we may lose more territory.",
+    "translation": "说得好，朋友。如果我们不让NCR明白神之枷锁不是好惹的，将来还会失去更多领地。",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvincePower_0200392C#INFO:NAM1#255b82ac55b2917aa3c12b9116c43f1a",
+    "original": "Take some of my troops with you, and leave the NCR with as many unmarked graves as they had left us.",
+    "translation": "带上我的部队。像NCR对待我们那样，给他们造个乱葬岗！",
+    "stage": 1
+  },
+  {
+    "key": "YIWAPapaConvincePower_0200392C#INFO:RNAM#f3c51b73251fbb41578eb29ca91fa76d",
+    "original": "You're the Flails of God! It's time to fight back and knock the NCR down a couple pegs!",
+    "translation": "你可是神之枷锁！是时候反击NCR了！",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_02004465#DIAL:FULL#b3cb4617847cd2380ea62f4e217d1de6",
+    "original": "FrumentariusExplosives",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusExplosives_02004466#INFO:NAM1#6d73068ef90de7f146290a1af10002ee",
+    "original": "[SUCCESS] Most excellent. May the Bear be decimated by a thousand cuts from Legion shrapnel.",
+    "translation": "[成功]很好。愿熊被军团的弹片千刀万剐。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_02004466#INFO:NAM1#1df36aeca16f07c5bfd9655547f815bc",
+    "original": "Plant the explosives in discreet locations, and then draw First Recon into the trap.",
+    "translation": "在隐秘处埋设爆炸物，把第一侦察营引入陷阱。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_02004466#INFO:NAM1#4acf79df84290932288ab9e0fd7ca03b",
+    "original": "Take this detonator for the C4 charges. Once you are ready, draw out First Recon to the Plant.",
+    "translation": "拿着这个C4引爆器。准备好后就把第一侦察营引诱进碎石厂。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_02004466#INFO:RNAM#998d3979561cd4d447bd777687ccfa2a",
+    "original": "I'm handy with C4, I could rig some hidden traps if you have a detonator.",
+    "translation": "我很熟悉C4。如果你给我个起爆器，我可以设置陷阱。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_0200D712#INFO:NAM1#208e2d84ee625417f693393016b7b2b7",
+    "original": "[FAILURE] What, try?! And let you blow your own foot off? As well as compromise the deaths of First Recon? I think not, profligate.",
+    "translation": "[失败]尽力？然后把你的脚炸掉吗？我可不能让你破坏杀掉第一侦察营的行动，荒淫之人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_0200D712#INFO:NAM1#9e9934276fbabfd7bdc35bbc366a9b22",
+    "original": "No, I think you'll have to think something else, profligate.",
+    "translation": "另寻他法吧，荒淫之人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusExplosives_0200D712#INFO:RNAM#fa3400599d8ab5c0a30b32f053c78f38",
+    "original": "I made a pipe bomb with a pilot light and gecko hides one time. It didn't detonate, but I tried!",
+    "translation": "我用点火器和蜥蜴皮做过一个土制炸弹。它没成功起爆，但我尽力了！",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusCombat_02004467#DIAL:FULL#ec8da2f3ad5949d5495f5b1c930301cf",
+    "original": "FrumentariusCombat",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusCombat_02004468#INFO:NAM1#2db9f08e063aae69f1d33d8f4cb5bd8c",
+    "original": "Bold. Then I wish you luck, profligate. I would still advise you draw them away from Camp McCarran, first.",
+    "translation": "大胆的想法。那我祝你好运，荒淫之人。不过我建议你先把他们从麦卡伦营地引走。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusCombat_02004468#INFO:NAM1#74d29c3e7b631912d058deefc2b3097e",
+    "original": "If you can convince the Fiends' leader some other way to assist you, I would recommend you pursue that end.",
+    "translation": "如果你能说服恶魔帮领袖帮助你，那可以。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusCombat_02004468#INFO:NAM1#31e09bc03a55d6e0b36f5b6a1dec6b87",
+    "original": "Report back to me when First Recon's blood stains the Mojave's soil.",
+    "translation": "让第一侦察营血洒莫哈维后就向我报告。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusCombat_02004468#INFO:RNAM#076961e0ea5eb139413c2a2e338ffe43",
+    "original": "Actually, I'm pretty useless. I will see if I can't just deal with them head-on.",
+    "translation": "其实我挺没用的。我看看能不能直接正面解决他们。",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusDismiss_02004469#DIAL:FULL#1703daa783add1fe58cdb7f8a6a1720f",
+    "original": "FrumentariusDismiss",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusReconsiderOptions_02004749#DIAL:FULL#a34dd22cbf91329d6ba765191cea7cad",
+    "original": "FrumentariusReconsiderOptions",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusReconsiderOptions_0200474A#INFO:NAM1#622c428d69c9a90cdcd83a37b06e4c92",
+    "original": "Very well, profligate. Tell me what you can offer.",
+    "translation": "很好，荒淫之人。告诉我你有什么本事。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusReconsiderOptions_0200474A#INFO:RNAM#0996c2be2223908a9bdaf5cd7b3dcdbb",
+    "original": "I want to reconsider how I will deal with First Recon.",
+    "translation": "我要重新考虑如何对付第一侦察营。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGracious_02004FF8#DIAL:FULL#e8767c5b8d4fb977ac946c7573726b70",
+    "original": "FrumentariusGracious",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusGracious_02004FF9#INFO:NAM1#cc39d837ce448365ec4f031dc16dca61",
+    "original": "With more subjects as headstrong as you, Caesar will surely conquer the Mojave.",
+    "translation": "要是有更多像你一样勇往直前的臣子，凯撒征服莫哈维就指日可待。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGracious_02004FF9#INFO:NAM1#1e5897cdf299af35ae548ba256f0f7a6",
+    "original": "Consider seeking out Aurelius of Phoenix in Cottonwood Cove for further work, if you would continue providing your service for the Legion.",
+    "translation": "如果你想继续为军团工作，就去棉白杨湾找凤凰城的奥勒留。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGracious_02004FF9#INFO:NAM1#7e78812c7a708b9b9a8e3cd827784434",
+    "original": "Now, I must arrange for secure transport of the prisoners back to the Fort. Vale, amicus.",
+    "translation": "现在我得着手把俘虏们押送到要塞了。再见，顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGracious_02004FF9#INFO:RNAM#e667b336de11a867c4f08896ee954705",
+    "original": "It was an honour to show my fealty to Caesar by capturing these dogs.",
+    "translation": "能为凯撒俘获这些狗东西是我的荣幸。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusMercResponse_02004FFA#DIAL:FULL#bccb7a6340ab570175b9306885a84a89",
+    "original": "FrumentariusMercResponse",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusMercResponse_02004FFB#INFO:NAM1#ac5101cef877f7ddee7c93b779dbf354",
+    "original": "Your ambivalence to our Legion is of no concern to me. Whether for mere currency or not, you have done Caesar a service.",
+    "translation": "我不介意你对军团的矛盾态度。不论是不是只为钱，你确实为凯撒服务了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusMercResponse_02004FFB#INFO:NAM1#1e5897cdf299af35ae548ba256f0f7a6",
+    "original": "Consider seeking out Aurelius of Phoenix in Cottonwood Cove for further work, if you would continue providing your service for the Legion.",
+    "translation": "如果你想继续为军团工作，就去棉白杨湾找凤凰城的奥勒留。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusMercResponse_02004FFB#INFO:NAM1#3d6eedc413a16c1065561bd31e864a21",
+    "original": "Now, I must arrange transport to bring these profligates to the Fort. Vale, amicus.",
+    "translation": "现在我得着手把荒淫之人们押送到要塞了。再见，顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusMercResponse_02004FFB#INFO:RNAM#f53a1135229552fad73a827cb03f765b",
+    "original": "I don't really care, man, just give me my caps.",
+    "translation": "我不在乎，只要给钱。",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusAwaitingKills_02004FFC#DIAL:FULL#20a23cb4b9c8421089dd59e629c30f3b",
+    "original": "FrumentariusAwaitingKills",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusKilledFR_02004FFE#DIAL:FULL#3f21655ae7cb44b63e0ff3e4ef81d8fa",
+    "original": "FrumentariusKilledFR",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusKilledFR_02004FFF#INFO:NAM1#4c4cd0201ea50de9cbec00689cba13dd",
+    "original": "Most excellent, amicus. You have done much to earn Caesar's favour.",
+    "translation": "很好，顾问大人。你挣得了凯撒的一个人情。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusKilledFR_02004FFF#INFO:NAM1#51203c70795cced7aa8980eea0839c08",
+    "original": "Should you wish to provide further services for the Legion, seek out Aurelius of Phoenix at Cottonwood Cove.",
+    "translation": "如果你想继续为军团工作，就去棉白杨湾找凤凰城的奥勒留。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusKilledFR_02004FFF#INFO:NAM1#177a1ca44e3dd5cad3379c2e48871da1",
+    "original": "Now that our business has conclued, I must make my way back to the Fort. Vale, amicus.",
+    "translation": "任务业已完成，我必须会要塞了，再见，顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusKilledFR_02004FFF#INFO:RNAM#e4e56bffbd0bcddef6280fa139dffda8",
+    "original": "I've scattered the remains of First Recon across the Mojave.",
+    "translation": "我已把第一侦察营的遗骸撒遍莫哈维。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerLegionOffer_02007B43#DIAL:FULL#e3efff8c68870048e7bb2e479d5a730b",
+    "original": "MotorRunnerLegionOffer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAMotorRunnerLegionOffer_02007B44#INFO:NAM1#08777ce6cf9bbce280ed38852a1983f8",
+    "original": "You want me to organize the rest of the Fiends against First Recon? Does it look like we organize fucking anything?",
+    "translation": "你想让我集结恶魔帮对抗第一侦察营？我们看着像有什么组织度吗？",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerLegionOffer_02007B44#INFO:NAM1#9570c80e1f081ca7d18f2cfcacc56b0c",
+    "original": "Besides, why would I risk my position and our forces here for someone who hasn't done shit all for me?",
+    "translation": "另外，我为什么要为一个从没帮过我的人冒险损伤我目前的力量？",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerLegionOffer_02007B44#INFO:RNAM#a4f0a5b8b4b85af952167ef45efc5cea",
+    "original": "What do you say to killing those First Recon fuckers?",
+    "translation": "想杀掉第一侦察营的杂种们吗？",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerConvinceForHelp_020080FF#DIAL:FULL#864bca9f09ec91863dc8cdc70b4a1b2d",
+    "original": "MotorRunnerConvinceForHelp",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAMotorRunnerConvinceForHelp_02008100#INFO:NAM1#76a61495f504eb1a2a5647b55ed77b38",
+    "original": "[SUCCESS] Hmm, you make a decent point. Besides mutual benefit for me and the Legion, I can't say no to wiping out those First Recon fucks.",
+    "translation": "[成功]嗯，你说得有道理。这不仅让军团和我互利，我也很想干掉第一侦察营那些杂种。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerConvinceForHelp_02008100#INFO:RNAM#6bd447a4712ef63681a751edbc62d233",
+    "original": "The Legion has a vested interest in making sure the Fiends encroach further into NCR territory.",
+    "translation": "恶魔帮进一步蚕食NCR的地盘对军团很有利。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerConvinceForHelp_02008101#INFO:NAM1#f39877f2a31f1274bf37c4d4c43a479e",
+    "original": "[FAILURE] Nuh-uh, and I'm sure as shit going to throw you out of this Vault if you don't come up with a single compelling argument why I should.",
+    "translation": "[失败]呐，要是你没有个有力的论点，我就要把你轰出去了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerConvinceForHelp_02008101#INFO:RNAM#de858cefd622c74541e67ef9a6de8391",
+    "original": "<Nervously> Uhhh... Doesn't getting into this bloody VAULT count for anything?!",
+    "translation": "<紧张>呃……敢迈进这个血腥的避难所还不够吗？",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerExplainPlan_02008102#DIAL:FULL#de3afa9b5e352d5d5d40a08ec139ce9a",
+    "original": "MotorRunnerExplainPlan",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAMotorRunnerExplainPlan_02008103#INFO:NAM1#f9898d8cd5a098358ff83336db599b83",
+    "original": "Alright, sounds good. Take this outfit and put it on so my guys know not to pump you full of holes.",
+    "translation": "听着不错。穿上这件外套，我的人就不会给你添枪眼了。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerExplainPlan_02008103#INFO:NAM1#ea72f6f727b38c3cc2721bc1032f5284",
+    "original": "Meet with Driver Nephi and his goons to the south. They'll help you kill those shits once they've reached the Rock Crushing Plant.",
+    "translation": "到南边和球杆尼法一行会合，他们会帮你在碎石厂杀掉那些狗屎。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerExplainPlan_02008103#INFO:RNAM#dfd22d77197554cf2000d445df228d42",
+    "original": "We're luring them out to the Samson Rock Crushing Plant so we can ambush them there.",
+    "translation": "我们要把他们引诱进萨姆森碎石厂，在那里埋伏他们。",
+    "stage": 1
+  },
+  {
+    "key": "FCADriverNephiReconBeforeAttack_02008105#DIAL:FULL#9727168414296b7402c2875e8f6aa7ee",
+    "original": "DriverNephiReconBeforeAttack",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCADriverNephiReconBeforeAttack_02008106#INFO:NAM1#60c6697c730361be69434a4800ad78a7",
+    "original": "Ahhhh! So you're the smooth-talkin' little bitch Motor-Runner told me to wait for.",
+    "translation": "啊！原来你就是轰鸣恶煞让我等着的那个巧舌如簧的家伙。",
+    "stage": 1
+  },
+  {
+    "key": "FCADriverNephiReconBeforeAttack_02008106#INFO:NAM1#190005c99611d5b405f9eb9e8193c137",
+    "original": "Finally! Let's fucking GO before I come down from this high.",
+    "translation": "终于！在我过了药劲之前就赶紧行动吧！",
+    "stage": 1
+  },
+  {
+    "key": "FCADriverNephiReconBeforeAttack_02008106#INFO:RNAM#057b5b1cb0c2ebad49313d0881b2a0f3",
+    "original": "Motor-Runner should have told you to expect me, dipshit. We're wiping out First Recon.",
+    "translation": "轰鸣恶煞应该通知了我要来，蠢货。我们要去铲除第一侦察营。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerImperialist_0200A93C#DIAL:FULL#e1c4113cefbecfe1f0f2a8e0b2e6c30d",
+    "original": "MotorRunnerImperialist",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAMotorRunnerImperialist_0200A93D#INFO:NAM1#1fd551930dd8ee6ab649ca1a214ca056",
+    "original": "[SUCCESS] Alright, fine, man! Just calm the fuck down, and I'll help you kill First Recon.",
+    "translation": "[成功]好吧！冷静点，我会帮你杀掉第一侦察营的。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerImperialist_0200A93D#INFO:NAM1#202c43f8584bcb2b03d0c1c7c631cb30",
+    "original": "Just tell me your plan and I'll see what I can do.",
+    "translation": "说你的计划吧，我看看我能帮什么。",
+    "stage": 1
+  },
+  {
+    "key": "FCAMotorRunnerImperialist_0200A93D#INFO:RNAM#5273dc86d84b24ce8cd567d28157e5d0",
+    "original": "You will help eliminate First Recon, or so help me, I will wipe your filthy genes off this planet!",
+    "translation": "帮我除掉第一侦察营，不然我就把你的下等基因从这颗星球上断绝。",
+    "stage": 1
+  },
+  {
+    "key": "FCAVault3ShooterImperialist_0200A93E#DIAL:FULL#bfce6162d0c92adf030ac3513ab2907c",
+    "original": "Vault3ShooterImperialist",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAVault3ShooterImperialist_0200A93F#INFO:NAM1#49f77262cd27f8ce450829a57468f180",
+    "original": "Alright, chill out! You'll find Motor-Runner in the Maintenance area of the Vault.",
+    "translation": "好吧，冷静！你可以在避难所的维护区找到轰鸣恶煞。",
+    "stage": 1
+  },
+  {
+    "key": "FCAVault3ShooterImperialist_0200A93F#INFO:RNAM#f7d69d02ee26487f6b808fb7794a872d",
+    "original": "Stand down, you filthy dogs! I WILL speak to your leader, lest seeing your blood cover this Vault!",
+    "translation": "退下，你这狗杂种！我要和你的领头说话，要么我就血洗这里。",
+    "stage": 1
+  },
+  {
+    "key": "FrumentariusAlreadyTalkedToDhatri_0200E2A8#DIAL:FULL#00dc470995e4522935ed1359807f24bb",
+    "original": "FrumentariusAlreadyTalkedToDhatri",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusInProgress_0200E2AE#DIAL:FULL#988ff80145d194201baeec481c015ebf",
+    "original": "FrumentariusInProgress",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusInProgress_0200E2AF#INFO:NAM1#a60c354a19c6f82e8ae8d1c455e60da4",
+    "original": "I do not wish to see you again until First Recon has been dealt with.",
+    "translation": "在第一侦察营被解决之前我不想再看到你。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusInProgress_0200E2AF#INFO:RNAM#a456ef2237edd858553a43ae07b2cea5",
+    "original": "Sorry, I'll go deal with them.",
+    "translation": "抱歉，我会去解决他们。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGunsSneakReward_020146EB#DIAL:FULL#64ac3e0806b35f735c812c2aeef28a78",
+    "original": "FCAFrumentariusGunsSneakReward",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusGunsSneakReward_020146EC#INFO:NAM1#08be54837c5a3c8fbdf47f1f374eea0b",
+    "original": "Very well, take it, and be sure to vanquish any enemy of the Legion you cross.",
+    "translation": "好吧，拿着。消灭你遇到的每个军团之敌。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGunsSneakReward_020146EC#INFO:NAM1#64ae758d84f4a8f4526bd36b2ed9ff14",
+    "original": "Should you wish to do further work for the Legion, seek out Aurelius of Phoenix at Cottonwood Cove.",
+    "translation": "如果你还想为军团做更多工作，去棉白杨湾找凤凰城的奥勒留。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGunsSneakReward_020146EC#INFO:RNAM#5bb165d82a1a5f0d9b033ea36d6dc793",
+    "original": "The Legion has little use for armaments. The Corporal's rifle will kill more in my hands than yours.",
+    "translation": "军团要这些没什么用。下士的步枪在我手里能更多杀敌。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGunsSneakReward_020146ED#INFO:NAM1#e2b3b3d2663fa7a77716df167c3cba46",
+    "original": "Don't try my patience. Their weapons are a spoil of victory, and will be sent to Caesar as trophies.",
+    "translation": "别试探我的耐心，他们的武器要作为战利品呈给凯撒。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusGunsSneakReward_020146ED#INFO:RNAM#a419930533e1b86a049a0193f39bf8ce",
+    "original": "You guys don't *really* need that rifle anymore, right? It's probably not even very good...",
+    "translation": "你们又不缺那一把步枪，而且也不是什么好货。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146EE#DIAL:FULL#a93055bfcf7fd032a04e3edec9d47688",
+    "original": "FCAFrumentariusBarterSneakReward",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146EF#INFO:NAM1#40f8b3a59a67c992cc981874bd976da8",
+    "original": "Very well, you have rendered quite a service for Caesar.",
+    "translation": "非常好，你为凯撒奉献了很多。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146EF#INFO:NAM1#1ef7fc2bc053c392954c7a4e4127d32f",
+    "original": "Take it and put holes in the heads of the Legion's enemies.",
+    "translation": "拿着它，把子弹打进军团敌人的头颅。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146EF#INFO:NAM1#1064043f0496ca9a35acd067db28686b",
+    "original": "Should you desire further work, seek out Aurelius of Phoenix in Cottonwood Cove.",
+    "translation": "如果你还想做更多工作，去棉白杨湾找凤凰城的奥勒留。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146EF#INFO:NAM1#5811d3d13b0b8d2448aaa81006d86434",
+    "original": "Vale, amicus.",
+    "translation": "再见，顾问大人。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146EF#INFO:RNAM#772e708c8c0d94a3fe3482e641bedad6",
+    "original": "Considering all the legwork I've done for this, I think the Corporal's rifle would be a fair reward.",
+    "translation": "考虑到我费的功夫，我觉得下士的步枪是个合适的奖赏。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146F0#INFO:NAM1#d2aaf90404407fe2771d9305ceb3fb87",
+    "original": "Do not try my patience. Their weapons are spoils of victory, and will be sent to Caesar as trophies.",
+    "translation": "别试探我的耐心，他们的武器要作为战利品呈给凯撒。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFrumentariusBarterSneakReward_020146F0#INFO:RNAM#027ff0482c03ac58cd3e74729aefbecd",
+    "original": "This took a lot of effort, and I'm a little tired. Can't I take one of their guns?",
+    "translation": "我费了好多功夫，我能拿一把他们的枪吗？",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:FULL#d9c9c8cad0541a3a60ec138b5f6f2246",
+    "original": "You Go To My Head",
+    "translation": "你冲昏我头脑",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:CNAM#27e8407ea2978efa2e577c76883367fd",
+    "original": "Started quest by talking to Dead Sea",
+    "translation": "和死海对话开始任务",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:CNAM#6e49d6c455671b31d372b5dbdc83f41b",
+    "original": "Milo and his men are dead",
+    "translation": "米罗一行人死了",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:CNAM#033980a841a485422feb18f8b47c15f5",
+    "original": "Handed in Quest",
+    "translation": "交付任务",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:CNAM#0e5bd27c4f3cc1a0ca4f1261590c0937",
+    "original": "Dead Sea was Killed",
+    "translation": "死海被杀了",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:NNAM#c822a5fa0a7dd00d5a42cd4afd0a5fea",
+    "original": "Eliminate Ranger Milo and his two soldiers at the checkpoint to the West.",
+    "translation": "消灭在西边检查点的游骑兵米罗一行人。",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:NNAM#6e54a2ccab6984cd942f883f0a2b641d",
+    "original": "(Optional) Use the crucified NCR soldiers to try and eliminate the Ranger and his men.",
+    "translation": "（可选）利用十字架上的NCR士兵。",
+    "stage": 1
+  },
+  {
+    "key": "YouGoToMyHead_0200137B#QUST:NNAM#5225428dadf60cf26f0e01415f7d01b1",
+    "original": "Return to Dead Sea for your reward.",
+    "translation": "回到死海处领取你的报酬。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:FULL#32d92097b07d783215f22933f17839bd",
+    "original": "Five-Card Ante",
+    "translation": "五牌赌注",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#15ca27b9da28d8ae7e83556adb0e0b0d",
+    "original": "Accepted Frumentarius' offer",
+    "translation": "接受了军团特务的提议",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#5eb846a3454ffd7d8cd8faf94ce8a794",
+    "original": "Accepted Dhatri's bounty for Driver Nephi",
+    "translation": "从达特里少校处接受了对球杆尼法的悬赏",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#dcb387abef7ad47cd5744e3b2d0032ce",
+    "original": "Decided on a means of killing/capturing First Recon",
+    "translation": "决定了杀死/俘虏第一侦察营的方法",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#20fd92016586aab176f75f3cd592810d",
+    "original": "Chose Combat",
+    "translation": "选择战斗",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#32d30418e4f352b4919191e134879977",
+    "original": "Gas mines have been set",
+    "translation": "气罐地雷已安放",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#6ac01a65204383417170de004f2e8e88",
+    "original": "Explosives have been set",
+    "translation": "爆炸物已安放",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#c5b8f1c2079864839bf250b29f52dda7",
+    "original": "Convinced MotorRunner for help",
+    "translation": "说服了轰鸣恶煞帮忙",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#48d692f95c24025944322262d2d839f1",
+    "original": "First Recon at Samson Plant",
+    "translation": "第一侦察营在萨姆森碎石厂",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#25fd8f52a61634cf14743f0f09ccc67e",
+    "original": "First Recon rendered Unconscious or Killed",
+    "translation": "第一侦察营已失去意识或被杀",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#91e9c2bc11c4f425581348b3a5488ee1",
+    "original": "Talked to Frumentarius for reward",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:CNAM#c8504967c1a38f9f73825594c6c82362",
+    "original": "The Frumentarius has died, Driver Nephi is already dead, or the Player is Hated by Caesars Legion",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#6137ac8d522431cd9330ec0d1d81dc4f",
+    "original": "Talk to Major Dhatri and volunteer to help with his bounty problem.",
+    "translation": "告诉达特里少校你愿意帮忙处理悬赏。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#fef757bac1a9a5d61708e2973a13c7ef",
+    "original": "You discovered Dhatri has an open bounty on Driver Nephi. Regroup with the Frumentarius.",
+    "translation": "你得知达特里少校正发布对球杆尼法的悬赏，和军团特工们会合。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#3b12a0f37f919c4e27ea82ee47278cb6",
+    "original": "Prepare for capturing or killing First Recon.",
+    "translation": "准备俘虏或杀死第一侦察营",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#dd04b0e947a7815fa51ead9aeb165671",
+    "original": "(Optional) Rig gas traps at the Samson Rock Crushing Plant to render First Recon unconscious.",
+    "translation": "（可选）在萨姆森碎石厂布置气罐陷阱对付第一侦察营。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#c3d36fbe51034992d0f9c08a2a2033f3",
+    "original": "Lure First Recon out to the Samson Rock Crushing Plant.",
+    "translation": "将第一侦察营引诱到萨姆森碎石厂。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#8c674f3501c0ab6f293ae0b78786f509",
+    "original": "(Optional) Rig concealed explosives at the Samson Rock Crushing Plant.",
+    "translation": "（可选）在萨姆森碎石厂布置诡雷。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#c9a2a69846e15cfa14ac537fb7fa06f7",
+    "original": "Kill or render First Recon unconscious for the Legion.",
+    "translation": "为军团除掉或俘虏第一侦察营。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#f99d63192fbc9a4fca826ba90dee2161",
+    "original": "Talk to the Frumentarius for your reward.",
+    "translation": "和军团特工聊聊你的奖赏。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#3c3f6de4088d86daaf33b504261cb103",
+    "original": "(Optional) Seek out Motor-Runner in Vault 3 for the Fiends' assistance before luring out First Recon.",
+    "translation": "（可选）在引诱第一侦察营前，到3号避难所寻求轰鸣恶煞和恶魔帮们的帮助。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#b7d03d2c1104863f0bb6310a94401e11",
+    "original": "(Optional) Meet with Driver Nephi before ambushing First Recon.",
+    "translation": "（可选）在埋伏第一侦察营前与球杆尼法谈谈。",
+    "stage": 1
+  },
+  {
+    "key": "FiveCardAnteQuest_02000ADF#QUST:NNAM#857aba25f4de335ad5818d5160776d1b",
+    "original": "(Optional) Sabotage First Recon's equipment in Camp McCarran.",
+    "translation": "（可选）到麦卡伦营地破坏第一侦察营的装备。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:FULL#b072e02421c96d6155cf519c3582ea42",
+    "original": "Yes, I Would, Actually",
+    "translation": "让我拥抱你",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#947da2b1869cc563b67478cdc863298c",
+    "original": "Started Quest",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#31e76c2a270982be04816270a6d66d49",
+    "original": "Offered help to Captain Gilles for Bitter Springs' problems",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#a53cd741993823c0be90c8bc89cfdd2c",
+    "original": "Discussed the plan of sabotage (or attack) with Marcellus",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#21690cb8ed52d4d600c2fa8a874e3b26",
+    "original": "Done initial sabotages with medicine and supplies",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#ce78fecf2cdfb01752bdfa20fbcc1847",
+    "original": "(NOT USED) Recruited help from Papa Khan since reinforcements are at Bitter Springs",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#f80c06bb95bd44b63a570e8a9812945c",
+    "original": "Attacking Bitter Springs",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#4ca61ffbae2e40af39ff874c2a949cda",
+    "original": "NCR eliminated at Bitter Springs, talk to Marcellus for reward",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#8d647a74b39769a0ba33cbdc212c29e8",
+    "original": "Completed the quest",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:CNAM#354c84bae951689dada22e14baafee99",
+    "original": "Killed Marcellus, or failed to kill NCR",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#37d0d9c8f32c85c6959371eda7625000",
+    "original": "Offer to help with the situation at Bitter Springs Refugee Camp.",
+    "translation": "提出帮助苦泉镇难民营。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#ddc56cfd873977eaf1369cc8e77662a1",
+    "original": "Regroup with Marcellus to discuss how to sabotage Gilles' operations.",
+    "translation": "和马塞勒斯会合，谈谈如何破坏吉勒斯的行动。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#165c45c132007be398e33a90b4677992",
+    "original": "Sabotage the aid received by Bitter Springs by any means possible.",
+    "translation": "用一切手段破坏苦泉镇收到的援助。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#8c6c89bb187f27124befa89602966d67",
+    "original": "(Optional) Acquire 2 harmful medical texts to deliver to Lt. Markland.",
+    "translation": "（可选）给马克兰中尉找两本垃圾医学书。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#1316404ebcbf4c305095fd2ec9d4405f",
+    "original": "(Optional) Acquire at least 2 contaminated supply caches to give to Gilles.",
+    "translation": "（可选）给吉勒斯取回至少两个被污染的补给。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#7b3f15534df61345c6c850ac5cfa3caf",
+    "original": "Eliminate all NCR soldiers at the Bitter Springs refugee camp.",
+    "translation": "除掉所有在苦泉镇难民营的NCR士兵。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#90f4d1e9782d040cca845b9e13177c1f",
+    "original": "(Optional) Recruit the mysterious assailant to aid you eliminating the NCR soliders.",
+    "translation": "（可选）招募神秘袭击者加入你扫除NCR士兵的行动。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#96e4bd55356eb956832d92f3a7ac121f",
+    "original": "Talk to Marcellus to receive your reward.",
+    "translation": "和马塞勒斯谈谈你的奖赏。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#6a57117e5091ad84817d4d52f2ea8cb5",
+    "original": "(Optional) Convince the Great Khans in Red Rock Canyon to help taking over the refugee camp.",
+    "translation": "（可选）说服红岩峡谷的大汗帮协助攻击难民营。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#a89f0a2e39258f584b29db3a85b3538f",
+    "original": "Regroup with Marcellus when you feel you're ready to assault Bitter Springs.",
+    "translation": "准备好进攻苦泉镇就找马塞勒斯会合。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#63f0d5d59029cb2b77a9c9adfcd46ee2",
+    "original": "(Optional) Deliver the 2 bad medical texts to Lt. Markland.",
+    "translation": "（可选）把两本垃圾医学书交给马克兰中尉。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#ff886e29218f2cba20b05c477a2eb0ef",
+    "original": "(Optional) Deliver the contaminated supply caches to Captain Gilles.",
+    "translation": "（可选）给吉勒斯被污染的补给。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#bf1f29f3e16eb91e275cde33299db347",
+    "original": "(Optional) Craft 3 Unsanitary Doctor's Bags at a workbench.",
+    "translation": "（可选）在工作台制作三个不卫生的医疗包。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#0895bc88691a3d21b089490da3a939e3",
+    "original": "(Optional) Deliver the Unsanitary Doctor's Bags to Lt. Markland.",
+    "translation": "（可选）给马克兰中尉不卫生的医疗包。",
+    "stage": 1
+  },
+  {
+    "key": "YesIWouldActually_02000DBC#QUST:NNAM#c09ebc311f1cacec25324693bf724929",
+    "original": "Offer to help with Lieutenant Markland's medical problems.",
+    "translation": "提出帮助马克兰中尉解决医疗问题。",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:DESC#ba019e8cea93436ecd54a36a30b0401d",
+    "original": "You could leverage their unfortunate situation to your benefit if you have:\\n\\nA Strength of at least 9, or have the Terrifying Presence Perk.\\n3 doses of Psycho, and a Medicine skill of at least 60.\\nA Sneak AND Explosives skill of at least 50, each.",
+    "translation": "你可以利用他们悲惨的处境，如果满足：\\n\\n至少9点力量，或拥有凶神恶煞特长。\\n3剂疯狂药，且医疗至少60。\\n潜行和爆破都至少50。",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:FULL#32f08876ace7f05760b0a4bef6fc1af1",
+    "original": "A Crucified NCR Soldier",
+    "translation": "十字架上的NCR士兵",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:ITXT#11bc59e00167d29084db9622711070b7",
+    "original": "Leave him tied up.",
+    "translation": "不管他。",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:ITXT#904431369acc52048481493683bbfd2d",
+    "original": "Untie him.",
+    "translation": "帮他松绑。",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:ITXT#ada886125765298569c2dab70167fcda",
+    "original": "[Medicine 60+] Administer 3 doses of Psycho to induce a berserk-rage fit and send him after Ranger Milo.",
+    "translation": "[医疗60+]注射3剂疯狂药以诱发狂暴状态，让他去追杀游骑兵米罗。",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:ITXT#d79362e5b438bbb38ffe18213d173534",
+    "original": "[Sneak 50+ and Explosives 50+] Discreetly plant a timed explosive on his person and send him to the NCR checkpoint.",
+    "translation": "[潜行50+且爆破50+]在他身上藏个定时炸弹，把他放去NCR检查点。",
+    "stage": 1
+  },
+  {
+    "key": "YGTMHTecMineHostageAltMSG_02003305#MESG:ITXT#793bc169773bd8f3d5cd57bb4801a4e6",
+    "original": "[Strength 9+/Terrifying Presence] Exploit the trooper's delirious state to easily intimidate him into attacking the NCR checkpoint.",
+    "translation": "[力量9或凶神恶煞]威逼这个神志不清的士兵去攻击NCR检查点。",
+    "stage": 1
+  },
+  {
+    "key": "FCALegionMineMsg_02003042#MESG:DESC#5516b24ebd144f85879c72c76c141a7b",
+    "original": "You see a place where a mine could be placed to kill or render a First Recon member unconscious.\\n\\nYou can place a mine here if you have a Sneak or Explosives skill above 50.",
+    "translation": "你找到了一处用地雷埋伏第一侦察营的好地点。\\n\\n如果潜行或爆破技能在50以上，你可以在此埋藏地雷。",
+    "stage": 1
+  },
+  {
+    "key": "FCALegionMineMsg_02003042#MESG:FULL#06f5aad4f53d8a393f9a952a41b7714b",
+    "original": "Mound At The Rock Crushing Plant",
+    "translation": "碎石厂的石堆",
+    "stage": 1
+  },
+  {
+    "key": "FCALegionMineMsg_02003042#MESG:ITXT#a11b421602b4be881849e9403065d58c",
+    "original": "Leave it alone.",
+    "translation": "别去碰它。",
+    "stage": 1
+  },
+  {
+    "key": "FCALegionMineMsg_02003042#MESG:ITXT#f12f5519fe52d685ea5bba8b0f5d919f",
+    "original": "[Sneak 50+] Install a concealed (non-lethal) gas mine under the mound.",
+    "translation": "[潜行50+]在石堆下安放一个非致命的气罐地雷。",
+    "stage": 1
+  },
+  {
+    "key": "FCALegionMineMsg_02003042#MESG:ITXT#742bb30d5747afbd78ca85d445a357d0",
+    "original": "[Explosives 50+] Discreetly conceal a C4 explosive under the mound.",
+    "translation": "[爆破50+]在石堆下安放一个C4炸弹。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconPoisonMsg_0200E2AD#MESG:DESC#3c1d00e0a7f8612201b4102dc9543469",
+    "original": "This is one of First Recon's footlockers for their equipment.\\n\\nYou can sabotage their equipment via one of two ways:\\n\\nHave a Medicine above 60 AND Sneak above 50.\\nHave a Strength above 8 OR Repair above 75.",
+    "translation": "这是第一侦察营的一个装备脚柜。\\n\\n你可以用两种方式破坏他们的装备：\\n\\n医疗60以上且潜行50以上。\\n力量8以上或修理75以上。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconPoisonMsg_0200E2AD#MESG:FULL#6ebcfa57a22e2e84c4e6d41dfd8182f7",
+    "original": "First Recon's Equipment Footlocker",
+    "translation": "第一侦察营装备脚柜",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconPoisonMsg_0200E2AD#MESG:ITXT#6f1def82f07192cfe934bc8e52e92708",
+    "original": "Leave the footlocker alone.",
+    "translation": "放着不管",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconPoisonMsg_0200E2AD#MESG:ITXT#2749f4ff2717d8f9883bd73d76de57d2",
+    "original": "Open the footlocker normally.",
+    "translation": "正常打开脚柜",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconPoisonMsg_0200E2AD#MESG:ITXT#98061e5e3a85dfbc2a15e3b410b5bf59",
+    "original": "[Medicine 60+ and Sneak 50+] Discreetly apply a nerve toxin to their clothing and armor.",
+    "translation": "[医疗60+且潜行50+]在他们的服装和护甲里下神经毒素。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFirstReconPoisonMsg_0200E2AD#MESG:ITXT#ef2a33fa7d39b5884d280b16c71eae5b",
+    "original": "[Strength 8+ or Repair 75+] Damage their weapons enough that their damage output will be reduced.",
+    "translation": "[力量8+或修理75+]搞坏他们的武器。",
+    "stage": 1
+  },
+  {
+    "key": "FCADetonatorBeepingMsg_0200FF4D#MESG:DESC#e6de4e88d9dda4f143ea7fa2d563e14a",
+    "original": "The Frumentarius' Detonator starts beeping.",
+    "translation": "军团特工的引爆器开始哔哔作响。",
+    "stage": 1
+  },
+  {
+    "key": "FCAFiendsFactionOutfitWarning_0201440C#MESG:DESC#5efde630f4f3339b0e85509412e6a9b9",
+    "original": "You are now dressed as a Fiend!",
+    "translation": "你现在穿得像个恶魔帮！",
+    "stage": 1
+  },
+  {
+    "key": "FCAFiendsFactionOutfitWarningOff_0201440D#MESG:DESC#9bd47fe7d155549feaf04d09ac152a5c",
+    "original": "You are no longer dressed as a Fiend!",
+    "translation": "你不再穿得像个恶魔帮了。",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:DESC#57f055dfcda7d3aff7fe9400912b06f7",
+    "original": "You have encountered a set of clean Great Khan supplies.\\n\\nYou can \"sanitize\" them via two ways:\\n\\nHave a Science or Medicine skill of 50 or above.\\nHave 3 Dirty Waters or 1 Irradiated Water in your inventory.",
+    "translation": "你发现了一组干净的大汗帮补给品。\\n\\n你可以用两种方式给它们“消毒”：\\n\\n科学或医疗50以上。\\n有3瓶污水或1瓶辐射水。",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:FULL#d69573fd1c807a1d7b2f760ffd773867",
+    "original": "Great Khan Supply Cache",
+    "translation": "大汗帮补给储藏箱",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:ITXT#a11b421602b4be881849e9403065d58c",
+    "original": "Leave it alone.",
+    "translation": "别去碰它。",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:ITXT#d02e9c89b61effb2ef4e1530ad18b389",
+    "original": "Pick up the supplies and leave them unaltered.",
+    "translation": "正常拿走补给品。",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:ITXT#d6b59f8c16100b8d6c07e80784566efd",
+    "original": "[Science/Medicine 50+] Contaminate the contents of the cache to irradiate the camp.",
+    "translation": "[科学或医疗50+]污染补给品，让它们辐射营地。",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:ITXT#f5e2e348e5ad3ff955925ec3d8741602",
+    "original": "Use 3 Dirty Water bottles to \"sanitize\" the contents of the cache.",
+    "translation": "用3瓶污水给补给品“消毒”。",
+    "stage": 1
+  },
+  {
+    "key": "VBSSuppliesMSG_0200279C#MESG:ITXT#51408460bfd3389c18829ce2419026e4",
+    "original": "Use 1 Irradiated Water bottle to \"sanitize\" the contents of the cache.",
+    "translation": "用1瓶辐射水给补给品“消毒”。",
+    "stage": 1
+  },
+  {
+    "key": "RecipeDoctorsBagBad_02003C0B#RCPE:FULL#521a7e721effe801cb3bb8e911b9d8d7",
+    "original": "Unsanitary Doctor's Bag",
+    "translation": "不卫生的医疗包",
+    "stage": 1
+  },
+  {
+    "key": "3CBSRecreationOffice_00133EC4#CELL:FULL#269d4afdcaca8fc1561535898dd027e6",
+    "original": "Bitter Springs Recreation Office",
+    "translation": "苦泉休闲区办公室",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  }
+]
