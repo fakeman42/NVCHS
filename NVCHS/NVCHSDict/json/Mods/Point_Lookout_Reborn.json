@@ -1,0 +1,2960 @@
+[
+  {
+    "key": "NullEDID_00000000#TES4:SNAM#b08ff18d8ee53f0275ada326976767b6",
+    "original": "Point Lookout Reborn is an overhaul mod designed to make Point Lookout more enjoyable, level friendly and mainly to make exploration more rewarding. This mod contains many lore friendly changes and improvements that fit in with Point Lookouts environment. Point Lookout Reborn is all about exploration. Those who take the time to explore the vast swampland will be rewarded with over 40% more additional content and around 2-3 hours of extended game play on top or the original 8 hours expected to complete ever",
+    "translation": "望海崖重生是一款旨在让望海崖更加有趣、等级更友好，并主要让探索更具回报性的大修模组。这个模组包含了许多与望海崖环境相契合的、符合游戏背景的改动和改进。\\n\\n望海崖重生全都是为了探索。那些花时间探索广阔沼泽地的人，将获得超过40%的额外内容和大约2到3小时的额外游戏时间，这将为原本预计8小时就能完成的游戏增加不少趣味。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelGenerator2SCRIPT_1100A4E3#SCPT:SCTX#d0ea174b8a5bdd2b872a6dc63965b3af",
+    "original": "scn DLC04MotelGenerator2SCRIPT\\n\\nshort\tButton\\nshort\tFixed\\n\\nshort doOnce\\n\\nBegin OnActivate\\n\\n\tif (doOnce == 0)\\n      \\n   if (DLC04ElectricBoxREF.getDestroyed == 0)\\n\\nShowMessage DLC04MotelGeneratorMsg\\n\\nendif\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the generator\\n\t\tif ( Button == 1 )\\n                   set Fixed to 1\\nPlayer.removeitem SpareParts 2\\nPlayer.removeitem TinCan01 3\\nPlayer.removeitem FissionBattery 1\\n\t\t\tShowMessage DLC04FixedGeneratorMsg\\n\t\t\tRewardXP 50\\n\t          MotelLightingParentREF.Enable\\n;DLC04ExplodeBoxREF.Enable\\n;DLC04MotelElectricBoxREF.Disable\\nDLC04ElectricBoxREF.Disable\\n\\nset doOnce to 1\\n\\nendif\\n\tendif\\n          END",
+    "translation": "scn DLC04MotelGenerator2SCRIPT\\n\\nshort\tButton\\nshort\tFixed\\n\\nshort doOnce\\n\\nBegin OnActivate\\n\\n\tif (doOnce == 0)\\n      \\n   if (DLC04ElectricBoxREF.getDestroyed == 0)\\n\\nShowMessage DLC04MotelGeneratorMsg\\n\\nendif\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the generator\\n\t\tif ( Button == 1 )\\n                   set Fixed to 1\\nPlayer.removeitem 00031944 2\\nPlayer.removeitem 00022104 3\\nPlayer.removeitem 00033BC6 1\\n\t\t\tShowMessage DLC04FixedGeneratorMsg\\n\t\t\tRewardXP 50\\n\t          MotelLightingParentREF.Enable\\n;DLC04ExplodeBoxREF.Enable\\n;DLC04MotelElectricBoxREF.Disable\\nDLC04ElectricBoxREF.Disable\\n\\nset doOnce to 1\\n\\nendif\\n\tendif\\n          END",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelGeneratorScript_11058A26#SCPT:SCTX#a2e91700ffb1c7c48a45568dc5018f2a",
+    "original": "Scn DLC04MotelGeneratorScript\\n\\nshort\tButton\\nshort\tFixed\\n\\nshort doOnce\\n\\nBegin OnActivate\\n\\n\tif (doOnce == 0)\\n      \\n   if (DLC04ElectricBoxREF.getDestroyed == 0)\\n\\nSetStage DLC04MotelLighting 50\\nShowMessage DLC04MotelGeneratorMsg\\n\\nendif\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the generator\\n\t\tif ( Button == 1 )\\n                   set Fixed to 1\\nPlayer.removeitem SpareParts 2\\nPlayer.removeitem TinCan01 3\\nPlayer.removeitem FissionBattery 1\\nShowMessage DLC04FixedGeneratorMsg\\nSetStage DLC04MotelLighting 100\\nDLC04ExplodingGeneratorREF.Enable\\nDLC04MotelMainElectricBoxREF.Disable\\nDLC04MotelGeneratorPartsREF.Enable\\n\\nset doOnce to 1\\n\\nendif\\n\tendif\\n          END",
+    "translation": "Scn DLC04MotelGeneratorScript\\n\\nshort\tButton\\nshort\tFixed\\n\\nshort doOnce\\n\\nBegin OnActivate\\n\\n\tif (doOnce == 0)\\n      \\n   if (DLC04ElectricBoxREF.getDestroyed == 0)\\n\\nSetStage DLC04MotelLighting 50\\nShowMessage DLC04MotelGeneratorMsg\\n\\nendif\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the generator\\n\t\tif ( Button == 1 )\\n                   set Fixed to 1\\nPlayer.removeitem 00031944 2\\nPlayer.removeitem 00022104 3\\nPlayer.removeitem 00033BC6 1\\nShowMessage DLC04FixedGeneratorMsg\\nSetStage DLC04MotelLighting 100\\nDLC04ExplodingGeneratorREF.Enable\\nDLC04MotelMainElectricBoxREF.Disable\\nDLC04MotelGeneratorPartsREF.Enable\\n\\nset doOnce to 1\\n\\nendif\\n\tendif\\n          END",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotScript_1106E679#SCPT:SCTX#2e8bc2b357a62ac2ca14271e06db8872",
+    "original": "scn DLC04BWSentryBotScript\\n\\nshort\tButton\\nshort\tFixed\\nshort  doOnce\\nshort  Disabled\\n\\nBegin OnActivate\\n\\nif doOnce == 0 && Disabled == 0\\n\\nShowMessage DLC04BWSentryBotRepairMessage\\n\\nendif\\n\\nif Disabled == 1\\n\\nShowMessage DLC04BWSentryBotDisabledMessage\\n\\nEndif\\n\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the robot\\n\\n                  if ( Button == 1 )\\n                   set Fixed to 1\\n\t\t\tPlayer.removeitem Conductor 1\\n\t\t\tPlayer.removeitem SpareParts 2\\n\t\t\tPlayer.removeitem FissionBattery 2\\n\t\t\tPlayer.removeitem WonderGlue 1\\n\t\t\tDLC04BWSentrybot1REF.Resurrect\\n               DLC04BWSentrybot1REF.Modav Health 550\\n\t\t\tShowMessage DLC04BWSentryBotRepairedMessage\\n               RewardXP 35\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\\n\t\t\tendif \t\\n\\n\t\t\t\tif ( Button == 2 )\\n\t\t\tPlayer.additem SpareParts 3\\n\t\t\tPlayer.additem FissionBattery 2\t\t\\n\t\t\tPlayer.additem AmmoMissile 4\\n\t\t\tPlayer.additem AmmoElectronChargePack 150\\n\t\t\tSet Disabled to 1\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n\\n\\n            elseif ( Button == 0 )\\n\t          ;Do nothing \\n\\n\t\t\\n\t\tendif\\n\\nEnd\\n\\nBegin OnCombatEnd\\n\\nDLC04BWSentrybot1REF.ResetHealth\\n\\nEND",
+    "translation": "scn DLC04BWSentryBotScript\\n\\nshort\tButton\\nshort\tFixed\\nshort  doOnce\\nshort  Disabled\\n\\nBegin OnActivate\\n\\nif doOnce == 0 && Disabled == 0\\n\\nShowMessage DLC04BWSentryBotRepairMessage\\n\\nendif\\n\\nif Disabled == 1\\n\\nShowMessage DLC04BWSentryBotDisabledMessage\\n\\nEndif\\n\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the robot\\n\\n                  if ( Button == 1 )\\n                   set Fixed to 1\\n\t\t\tPlayer.removeitem 00022102 1\\n\t\t\tPlayer.removeitem 00031944 2\\n\t\t\tPlayer.removeitem 00033BC6 2\\n\t\t\tPlayer.removeitem 0002210A 1\\n\t\t\tDLC04BWSentrybot1REF.Resurrect\\n               DLC04BWSentrybot1REF.Modav Health 550\\n\t\t\tShowMessage DLC04BWSentryBotRepairedMessage\\n               RewardXP 35\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\\n\t\t\tendif \t\\n\\n\t\t\t\tif ( Button == 2 )\\n\t\t\tPlayer.additem 00031944 3\\n\t\t\tPlayer.additem 00033BC6 2\t\t\\n\t\t\tPlayer.additem 00029383 4\\n\t\t\tPlayer.additem 0006B53E 150\\n\t\t\tSet Disabled to 1\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n\\n\\n            elseif ( Button == 0 )\\n\t          ;Do nothing \\n\\n\t\t\\n\t\tendif\\n\\nEnd\\n\\nBegin OnCombatEnd\\n\\nDLC04BWSentrybot1REF.ResetHealth\\n\\nEND",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronScript_11070FA0#SCPT:SCTX#dd4e9e000ec4e7e30eaba9d9f002acae",
+    "original": "scn DLC04BWProtectronScript\\n\\nshort\tButton\\nshort\tFixed\\nshort  doOnce\\nshort  Disabled\\n\\nBegin OnActivate\\n\\nif doOnce == 0 && Disabled == 0\\n\\nShowMessage DLC04BWProtectronRepairMessage\\n\\nendif\\n\\nif Disabled == 1\\n\\nShowMessage DLC04BWProtectronDisabledMessage\\n\\nEndif\\n\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the robot\\n\\n                  if ( Button == 1 )\\n                   set Fixed to 1\\n\t\t\tPlayer.removeitem Conductor 1\\n\t\t\tPlayer.removeitem TinCan01 3\\n\t\t\tPlayer.removeitem Turpentine 1\\n\t\t\tDLC04BWProtectronREF.Resurrect\\n               DLC04BWProtectronREF.Modav Health 550\\n\t\t\tShowMessage DLC04BWProtectronRepairedMessage\\n               RewardXP 20\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n\t\t\tendif\\n\\n\t\t\t\tif ( Button == 2 )\\n\t\t\tPlayer.additem SpareParts 1\\n\t\t\tPlayer.additem FissionBattery 2\t\t\\n\t\t\tPlayer.additem AmmoSmallEnergyCell 50\\n\t\t\tSet Disabled to 1\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n\\n\\n            \telseif ( Button == 0 )\\n\t          ;Do nothing \\n\\n\\n\tendif\\n\\nEnd\\n\\nBegin OnCombatEnd\\n\\nDLC04BWProtectronREF.ResetHealth\\n\\nEND",
+    "translation": "scn DLC04BWProtectronScript\\n\\nshort\tButton\\nshort\tFixed\\nshort  doOnce\\nshort  Disabled\\n\\nBegin OnActivate\\n\\nif doOnce == 0 && Disabled == 0\\n\\nShowMessage DLC04BWProtectronRepairMessage\\n\\nendif\\n\\nif Disabled == 1\\n\\nShowMessage DLC04BWProtectronDisabledMessage\\n\\nEndif\\n\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the robot\\n\\n                  if ( Button == 1 )\\n                   set Fixed to 1\\n\t\t\tPlayer.removeitem 00022102 1\\n\t\t\tPlayer.removeitem 00022104 3\\n\t\t\tPlayer.removeitem 00022105 1\\n\t\t\tDLC04BWProtectronREF.Resurrect\\n               DLC04BWProtectronREF.Modav Health 550\\n\t\t\tShowMessage DLC04BWProtectronRepairedMessage\\n               RewardXP 20\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n\t\t\tendif\\n\\n\t\t\t\tif ( Button == 2 )\\n\t\t\tPlayer.additem 00031944 1\\n\t\t\tPlayer.additem 00033BC6 2\t\t\\n\t\t\tPlayer.additem 00020772 50\\n\t\t\tSet Disabled to 1\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n\\n\\n            \telseif ( Button == 0 )\\n\t          ;Do nothing \\n\\n\\n\tendif\\n\\nEnd\\n\\nBegin OnCombatEnd\\n\\nDLC04BWProtectronREF.ResetHealth\\n\\nEND",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronScript2_11070FA2#SCPT:SCTX#6a365daf3299da15b1377da7f28b1f74",
+    "original": "scn DLC04BWProtectronScript2\\n\\nshort\tButton\\nshort\tFixed\\nshort  doOnce\\nshort  Disabled\\n\\nBegin OnActivate\\n\\nif doOnce == 0 && Disabled == 0\\n\\nShowMessage DLC04BWProtectronRepairMessage2\\n\\nendif\\n\\nif Disabled == 1\\n\\nShowMessage DLC04BWProtectronDisabledMessage\\n\\nEndif\\n\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the robot\\n\\n                  if ( Button == 1 )\\n                   set Fixed to 1\\n\t\t\tPlayer.removeitem Conductor 1\\n\t\t\tPlayer.removeitem SpareParts 2\\n\t\t\tPlayer.removeitem TinCan01 3\\n\t\t\tDLC04BWProtectronREF2.Resurrect\\n               DLC04BWProtectronREF2.Modav Health 550\\n\t\t\tShowMessage DLC04BWProtectronRepairedMessage\\n               RewardXP 20\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n   \t\t\tendif\\n\\n\t\t\t\tif ( Button == 2 )\\n\t\t\tPlayer.additem SpareParts 1\\n\t\t\tPlayer.additem FissionBattery 2\t\t\\n\t\t\tPlayer.additem AmmoSmallEnergyCell 50\\n\t\t\tSet Disabled to 1\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\\n\\n\t\t\telseif ( Button == 0 )\\n\t          ;Do nothing \\n\\n\t\t\t\\n\t\\n\t\t\tendif\\n\\nEnd\\n\\nBegin OnCombatEnd\\n\\nDLC04BWProtectronREF2.ResetHealth\\n\\nEND",
+    "translation": "scn DLC04BWProtectronScript2\\n\\nshort\tButton\\nshort\tFixed\\nshort  doOnce\\nshort  Disabled\\n\\nBegin OnActivate\\n\\nif doOnce == 0 && Disabled == 0\\n\\nShowMessage DLC04BWProtectronRepairMessage2\\n\\nendif\\n\\nif Disabled == 1\\n\\nShowMessage DLC04BWProtectronDisabledMessage\\n\\nEndif\\n\\nEND\\n\\nBEGIN GameMode\\n\\nMenuMode 1011\\n\\n\t\tset Button to GetButtonPressed\\n\\n\t\t; Player repairs the robot\\n\\n                  if ( Button == 1 )\\n                   set Fixed to 1\\n\t\t\tPlayer.removeitem 00022102 1\\n\t\t\tPlayer.removeitem 00031944 2\\n\t\t\tPlayer.removeitem 00022104 3\\n\t\t\tDLC04BWProtectronREF2.Resurrect\\n               DLC04BWProtectronREF2.Modav Health 550\\n\t\t\tShowMessage DLC04BWProtectronRepairedMessage\\n               RewardXP 20\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\t\\n   \t\t\tendif\\n\\n\t\t\t\tif ( Button == 2 )\\n\t\t\tPlayer.additem 00031944 1\\n\t\t\tPlayer.additem 00033BC6 2\t\t\\n\t\t\tPlayer.additem 00020772 50\\n\t\t\tSet Disabled to 1\\n\t\t\tset doOnce to 1\t\t;Trigger is only set off one time\\n\\n\t\t\telseif ( Button == 0 )\\n\t          ;Do nothing \\n\\n\t\t\t\\n\t\\n\t\t\tendif\\n\\nEnd\\n\\nBegin OnCombatEnd\\n\\nDLC04BWProtectronREF2.ResetHealth\\n\\nEND",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaScorpionPoison_11008436#SPEL:FULL#1db418ed1b4a7c8e1606b2525d481897",
+    "original": "Poison",
+    "translation": "中毒",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaScorpionPoison2_11008438#SPEL:FULL#1db418ed1b4a7c8e1606b2525d481897",
+    "original": "Poison",
+    "translation": "中毒",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlant01_0A004269#ACTI:FULL#1acca6201eb14da5b09fa44f8e9fc33f",
+    "original": "Wild Punga",
+    "translation": "野生膨葛",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlant01_0A004269#ACTI:XATO#8bb6af1db25640e4e7de7406b6b4d5a7",
+    "original": "Pick Wild Punga",
+    "translation": "采摘：膨葛果实",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlant02_0A00426A#ACTI:FULL#41e4928c47f9285918f29efb0a9a1085",
+    "original": "Punga Fruit Plant",
+    "translation": "野生膨葛",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlant02_0A00426A#ACTI:XATO#8bb6af1db25640e4e7de7406b6b4d5a7",
+    "original": "Pick Wild Punga",
+    "translation": "采摘：膨葛果实",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlantRefined01_0A00426D#ACTI:FULL#41e4928c47f9285918f29efb0a9a1085",
+    "original": "Punga Fruit Plant",
+    "translation": "膨葛果实",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlantRefined01_0A00426D#ACTI:XATO#35ad3d6cb9bd5d8b723acfbfd0811a46",
+    "original": "Pick Refined Punga",
+    "translation": "采摘：膨葛果实",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlantRefined02_0A00426E#ACTI:FULL#41e4928c47f9285918f29efb0a9a1085",
+    "original": "Punga Fruit Plant",
+    "translation": "膨葛果实",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPlantRefined02_0A00426E#ACTI:XATO#35ad3d6cb9bd5d8b723acfbfd0811a46",
+    "original": "Pick Refined Punga",
+    "translation": "采摘：膨葛果实",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PortaShelter01_0A00664D#ACTI:FULL#46dcec5f07c2402a386876f386992a79",
+    "original": "Pulowski Preservation Shelter",
+    "translation": "普洛夫斯基庇护所",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ElectricBox01_11006540#ACTI:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ElectricBox02_1100A4C8#ACTI:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ElectricBox03_1100A4D0#ACTI:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ElectricBoxExplode_1100A4EE#ACTI:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorTrigger_1100BA4D#ACTI:FULL#dd68c2c616f21fec36607f9e9d5a3dbe",
+    "original": "Generator Trigger",
+    "translation": "发电机触发器",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsElectricBox_1100BA52#ACTI:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ElectricalSwitch_1100BA54#ACTI:FULL#4cac943ea3a0d698b1465a6f368a72be",
+    "original": "Electrical Switch",
+    "translation": "电闸",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseBox_1100BA59#ACTI:FULL#5fbe7c9465e5ed28eca130121b22fd98",
+    "original": "Fuse Box",
+    "translation": "保险丝盒",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseBoxFixed_1100CEF2#ACTI:FULL#5fbe7c9465e5ed28eca130121b22fd98",
+    "original": "Fuse Box",
+    "translation": "保险丝盒",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GhoulElectricSpawnSwitch_1103FBDB#ACTI:FULL#4cac943ea3a0d698b1465a6f368a72be",
+    "original": "Electrical Switch",
+    "translation": "电闸",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GhoulElectricalSwitch_1103FBDE#ACTI:FULL#4cac943ea3a0d698b1465a6f368a72be",
+    "original": "Electrical Switch",
+    "translation": "电闸",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelElectricalSwitch_1105B439#ACTI:FULL#4cac943ea3a0d698b1465a6f368a72be",
+    "original": "Electrical Switch",
+    "translation": "电闸",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingNoiseSwitch_11081421#ACTI:FULL#422cca2ff8540b6379af263868b7a11e",
+    "original": "Switch",
+    "translation": "开关",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminal_11030E62#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminal_11030E62#TERM:DESC#5350d107a5800417adcfd10a2abc66a6",
+    "original": "Smuggler Headquarters, Point Lookout.\\n\\nWELCOME, Carlos.",
+    "translation": "走私者总部，望海崖。\\n\\n欢迎，卡洛斯。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminal_11030E62#TERM:ITXT#8fac03075e343bfd5f4489a445ed6565",
+    "original": "Camp Operations Reports",
+    "translation": "营地行动报告",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminal_11030E62#TERM:RNAM#c45a02a83bba009d4295290e30629a49",
+    "original": "Loading Sub-Menu...",
+    "translation": "加载子菜单...",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminal_11030E62#TERM:ITXT#fe610b0245dc2c06b7e78550644ca0d4",
+    "original": "Armory Menu",
+    "translation": "军械库菜单",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:DESC#5350d107a5800417adcfd10a2abc66a6",
+    "original": "Smuggler Headquarters, Point Lookout.\\n\\nWELCOME, Carlos.",
+    "translation": "走私者总部，望海崖。\\n\\n欢迎，卡洛斯。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:ITXT#6ec9860aa3d029a5c7017d60b7e19e48",
+    "original": "North Camp (Abandoned)",
+    "translation": "北营地(遗弃)",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:ITXT#e317156e77f6389aa63e1394b370bf44",
+    "original": "Beachview Camp (Abandoned)",
+    "translation": "海景营地(遗弃)",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:ITXT#af927d72289e45356cda35e124be3427",
+    "original": "Biker Camp",
+    "translation": "贝克营地",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:ITXT#600ea709fb9ee4fdc2fbc97606c3980f",
+    "original": "Covered Bridge",
+    "translation": "廊桥",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:ITXT#5a18226c4827255c8adaa4c734e2af3b",
+    "original": "Headquarters",
+    "translation": "总部",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub_110318A8#TERM:ITXT#05e8451f658c1e274098ca24391cb554",
+    "original": "Attack on Scavenger Camp",
+    "translation": "袭击拾荒者营地",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub2_110485C0#TERM:FULL#c5d838e81bf9f0ea54ef51f52f56ba2c",
+    "original": "Terminal",
+    "translation": "终端机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub2_110485C0#TERM:DESC#5350d107a5800417adcfd10a2abc66a6",
+    "original": "Smuggler Headquarters, Point Lookout.\\n\\nWELCOME, Carlos.",
+    "translation": "走私者总部，望海崖。\\n\\n欢迎，卡洛斯。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub2_110485C0#TERM:ITXT#e49eacf6f63b1b5dd86a06c22d35ac4f",
+    "original": "Armory Status",
+    "translation": "军械库状态",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub2_110485C0#TERM:RNAM#da25118ae25606d33cbc8b3ed2778d0d",
+    "original": "Low Supplies",
+    "translation": "物资不足",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub2_110485C0#TERM:ITXT#a3ef9c1b79c73514f0dc4a24170de51b",
+    "original": "Unlock Armory",
+    "translation": "解锁军械库",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackTerminalSub2_110485C0#TERM:RNAM#77fb90860695e6b31cd23ff845211ddb",
+    "original": "Armory Door Unlocked.",
+    "translation": "军械库门已解锁",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:FULL#abf517290fc3307ab710fe1a5f50307c",
+    "original": "Automated Maintenence",
+    "translation": "自动维护终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:DESC#609f1cfe521a69b95d78f505af5ef8aa",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nFor More Top Of The Line \\nRobCo Products See\\nYour Local Showroom.",
+    "translation": "罗科公司服务终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如需详细请见上方链接\\nRobCo公司产品查看\\n你的本地陈列室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:ITXT#d2277d7c180afa957e74cd52508c00a1",
+    "original": "Run Maintenance Routine",
+    "translation": "运行常规维护",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:RNAM#b8d63da6cfb1bcc18677ca75d650a552",
+    "original": "...Loading Sequence",
+    "translation": "加载序列……",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:RNAM#3216c745cc9abf001be4ef50d151668b",
+    "original": "<ERROR> POWER OFFLINE",
+    "translation": "<错误> 电源已断开",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:RNAM#54a0f0b1e92ff9aa5c585aa01861c809",
+    "original": "<ERROR> Maintenance In Progress",
+    "translation": "<错误> 正在进行维修",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:ITXT#2d50d8e5df66aed0444b4d3e37bcc12a",
+    "original": "Unlock All Bedroom Doors",
+    "translation": "解锁所有卧室门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelMainTerminal_1105A9DF#TERM:RNAM#244b6c3237c0140fbd5a9f48547ccdbc",
+    "original": "All Bedrooms Unlocked",
+    "translation": "所有卧室门已解锁",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:FULL#849b356b8a69682711db53a476b5b119",
+    "original": "Maintenance Terminal",
+    "translation": "维修终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:DESC#d621a872db91c323be1d2f2b15941cd3",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nHomestead Motel Maintenance Menu\\n\\nWELCOME USER.",
+    "translation": "罗伯科服务终端 \\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如家汽车旅馆维护菜单\\n\\n欢迎使用。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:ITXT#d2277d7c180afa957e74cd52508c00a1",
+    "original": "Run Maintenance Routine",
+    "translation": "运行常规维护",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:RNAM#b8d63da6cfb1bcc18677ca75d650a552",
+    "original": "...Loading Sequence",
+    "translation": "加载序列……",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:RNAM#3216c745cc9abf001be4ef50d151668b",
+    "original": "<ERROR> POWER OFFLINE",
+    "translation": "<错误> 电源已断开",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:RNAM#54a0f0b1e92ff9aa5c585aa01861c809",
+    "original": "<ERROR> Maintenance In Progress",
+    "translation": "<错误> 正在进行维修",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:ITXT#98268817d189897d6f7b3ec2b25237b4",
+    "original": "Know the Signs!",
+    "translation": "了解标志！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:RNAM#7d4196237271921cd861aadb4d616f2a",
+    "original": "Loading...",
+    "translation": "载入中……",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:ITXT#45a5d30b2671340162291e4e6e7f5716",
+    "original": "Protect Yourself!",
+    "translation": "保护自己！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:ITXT#e4ea96a3cd1cdc90b7b0805c436c798a",
+    "original": "Unlock Maintenance Room Door",
+    "translation": "解锁维修室门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:RNAM#098e0b77198a907ace6e5c49ad9e8b12",
+    "original": "Unlocking...",
+    "translation": "解锁",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:ITXT#a116cb2e90e2cedede730840983205b0",
+    "original": "Lock Maintenance Room Door",
+    "translation": "锁定维修室门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadMotelDoorTerminal_1105A9EF#TERM:RNAM#36e59774e99207cb5ce4392c983edf13",
+    "original": "Locking...",
+    "translation": "正在锁定中...",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkTerminal_1106BD4B#TERM:FULL#ba8ba6166de33bffb8eb611eb2447de8",
+    "original": "Boardwalk Maintenence",
+    "translation": "栈道维护",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkTerminal_1106BD4B#TERM:DESC#609f1cfe521a69b95d78f505af5ef8aa",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nFor More Top Of The Line \\nRobCo Products See\\nYour Local Showroom.",
+    "translation": "罗科公司服务终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如需详细请见上方链接\\nRobCo公司产品查看\\n你的本地陈列室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkTerminal_1106BD4B#TERM:ITXT#d54712d49f33cb89e75780a8ba80d635",
+    "original": "Run Boardwalk Maintenance Routine",
+    "translation": "执行栈道维护常规工作",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkTerminal_1106BD4B#TERM:RNAM#b8d63da6cfb1bcc18677ca75d650a552",
+    "original": "...Loading Sequence",
+    "translation": "加载序列……",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkTerminal_1106BD4B#TERM:ITXT#d2277d7c180afa957e74cd52508c00a1",
+    "original": "Run Maintenance Routine",
+    "translation": "运行常规维护",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkTerminal_1106BD4B#TERM:RNAM#54a0f0b1e92ff9aa5c585aa01861c809",
+    "original": "<ERROR> Maintenance In Progress",
+    "translation": "<错误> 正在进行维修",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal_1106BD53#TERM:FULL#47a39f06e3ca2b2954e758dd6403fb31",
+    "original": "BoardwalkTerminal",
+    "translation": "栈道终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal_1106BD53#TERM:DESC#7530d36ccfaf4c82dff4af4aedd30f70",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\nPoint Lookout Boardwalk Security\\n------------------------------------\\nFor More Top Of The Line \\nRobCo Products See\\nYour Local Showroom.",
+    "translation": "罗科公司服务终端\\nV 6.0.3.2.1.a\\n\\n望海崖栈道安保\\n------------------------------------\\n更多顶级罗科公司生产线\\n罗科公司产品请参观\\n您当地的展厅。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal_1106BD53#TERM:ITXT#d64fd3fcecee056f79faec4f0832d80b",
+    "original": "Run Coastal Boardwalk Patrol",
+    "translation": "运行海岸栈道巡逻程序",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal_1106BD53#TERM:RNAM#b8d63da6cfb1bcc18677ca75d650a552",
+    "original": "...Loading Sequence",
+    "translation": "加载序列……",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal_1106BD53#TERM:ITXT#d2277d7c180afa957e74cd52508c00a1",
+    "original": "Run Maintenance Routine",
+    "translation": "运行常规维护",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal_1106BD53#TERM:RNAM#54a0f0b1e92ff9aa5c585aa01861c809",
+    "original": "<ERROR> Maintenance In Progress",
+    "translation": "<错误> 正在进行维修",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal2_1106BD57#TERM:FULL#47a39f06e3ca2b2954e758dd6403fb31",
+    "original": "BoardwalkTerminal",
+    "translation": "栈道终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal2_1106BD57#TERM:DESC#7530d36ccfaf4c82dff4af4aedd30f70",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\nPoint Lookout Boardwalk Security\\n------------------------------------\\nFor More Top Of The Line \\nRobCo Products See\\nYour Local Showroom.",
+    "translation": "罗科公司服务终端\\nV 6.0.3.2.1.a\\n\\n望海崖栈道安保\\n------------------------------------\\n更多顶级罗科公司生产线\\n罗科公司产品请参观\\n您当地的展厅。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal2_1106BD57#TERM:ITXT#e6b73cf5b7b8ec9458ee4aaee1381c80",
+    "original": "Run Boardwalk Patrol",
+    "translation": "运行栈道巡逻程序",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal2_1106BD57#TERM:RNAM#2fde2226a56b1ddd26001c79f85dc5f4",
+    "original": "<ERROR> No data received",
+    "translation": "<错误> 未收到数据",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal3_1106BD58#TERM:FULL#47a39f06e3ca2b2954e758dd6403fb31",
+    "original": "BoardwalkTerminal",
+    "translation": "栈道终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal3_1106BD58#TERM:DESC#7530d36ccfaf4c82dff4af4aedd30f70",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\nPoint Lookout Boardwalk Security\\n------------------------------------\\nFor More Top Of The Line \\nRobCo Products See\\nYour Local Showroom.",
+    "translation": "罗科公司服务终端\\nV 6.0.3.2.1.a\\n\\n望海崖栈道安保\\n------------------------------------\\n更多顶级罗科公司生产线\\n罗科公司产品请参观\\n您当地的展厅。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal3_1106BD58#TERM:ITXT#d54712d49f33cb89e75780a8ba80d635",
+    "original": "Run Boardwalk Maintenance Routine",
+    "translation": "执行栈道维护常规工作",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal3_1106BD58#TERM:RNAM#b8d63da6cfb1bcc18677ca75d650a552",
+    "original": "...Loading Sequence",
+    "translation": "加载序列……",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal3_1106BD58#TERM:ITXT#d2277d7c180afa957e74cd52508c00a1",
+    "original": "Run Maintenance Routine",
+    "translation": "运行常规维护",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkTerminal3_1106BD58#TERM:RNAM#54a0f0b1e92ff9aa5c585aa01861c809",
+    "original": "<ERROR> Maintenance In Progress",
+    "translation": "<错误> 正在进行维修",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkMainTerminal_11070553#TERM:FULL#47a39f06e3ca2b2954e758dd6403fb31",
+    "original": "BoardwalkTerminal",
+    "translation": "栈道终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkMainTerminal_11070553#TERM:DESC#7530d36ccfaf4c82dff4af4aedd30f70",
+    "original": "RobCo Service Terminal\\nV 6.0.3.2.1.a\\n\\nPoint Lookout Boardwalk Security\\n------------------------------------\\nFor More Top Of The Line \\nRobCo Products See\\nYour Local Showroom.",
+    "translation": "罗科公司服务终端\\nV 6.0.3.2.1.a\\n\\n望海崖栈道安保\\n------------------------------------\\n更多顶级罗科公司生产线\\n罗科公司产品请参观\\n您当地的展厅。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkMainTerminal_11070553#TERM:ITXT#c2ff4b4bd81b8634d16eac50bc9655e8",
+    "original": "Unlock All RobCo Pods",
+    "translation": "解锁所有罗科公司舱室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkMainTerminal_11070553#TERM:RNAM#c3e2ee9553bf881727f7829a73ec62bb",
+    "original": "Doors Unlocking...",
+    "translation": "门解锁中...",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkMainTerminal_11070553#TERM:ITXT#d64fd3fcecee056f79faec4f0832d80b",
+    "original": "Run Coastal Boardwalk Patrol",
+    "translation": "运行海岸栈道巡逻程序",
+    "stage": 1
+  },
+  {
+    "key": "DLC04WallBoardWalkMainTerminal_11070553#TERM:RNAM#9c2edd60f79e357c0d7b78b183aa1d9f",
+    "original": "<ERROR> All Units Offline",
+    "translation": "<错误> 所有单元离线",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting_1107EB0C#TERM:FULL#849b356b8a69682711db53a476b5b119",
+    "original": "Maintenance Terminal",
+    "translation": "维修终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting_1107EB0C#TERM:DESC#a0981e1b1217f701332cd43bfa556826",
+    "original": "RobCo Electrical Systems Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nHomestead Motel Lighting Menu\\n\\nAUTHORIZED PERSONNEL ONLY",
+    "translation": "罗科公司电气系统终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如家汽车旅馆照明菜单\\n\\n仅供授权人员使用",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting_1107EB0C#TERM:ITXT#7edd9bd97799071f0c99c8a48c982a71",
+    "original": "Primary Lighting Settings",
+    "translation": "主要照明设置",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting_1107EB0C#TERM:RNAM#22dd3c290b3c5481857af4849e035e96",
+    "original": "This menu has been locked.",
+    "translation": "此菜单已锁定",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting_1107EB0C#TERM:ITXT#3db27b55dc7291860c5b9006b538d964",
+    "original": "Secondary Lighting Settings",
+    "translation": "次要照明设置",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting_1107EB0C#TERM:RNAM#45f989adaee50b5dbbb6f8a8463657a4",
+    "original": "Loading Menu...",
+    "translation": "加载菜单中...",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlTerminal_1107F551#TERM:FULL#849b356b8a69682711db53a476b5b119",
+    "original": "Maintenance Terminal",
+    "translation": "维修终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlTerminal_1107F551#TERM:DESC#8d211324bbda61eeae9cdaa3b340bc23",
+    "original": "RobCo Electrical Systems Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nHomestead Motel Secondary \\nSystems Menu\\n\\nAUTHORIZED PERSONNEL ONLY",
+    "translation": "罗科公司电气系统终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如家汽车旅馆安保\\n系统菜单\\n\\n仅供授权人员使用",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlTerminal_1107F551#TERM:ITXT#6a1a14005bcc5aec112a689e977934c3",
+    "original": "Motel Lighting Systems",
+    "translation": "旅馆照明系统",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlTerminal_1107F551#TERM:RNAM#21cfd87de24faedbc550e2d65afe2564",
+    "original": "Loading Data...",
+    "translation": "正在加载数据...",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlTerminal_1107F551#TERM:ITXT#a9445c749cb322da88301b99eb95ddcf",
+    "original": "Motel Access Systems",
+    "translation": "旅馆门禁系统",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalSecurity_1107F552#TERM:FULL#849b356b8a69682711db53a476b5b119",
+    "original": "Maintenance Terminal",
+    "translation": "维修终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalSecurity_1107F552#TERM:DESC#60af86b78f0240390384824f4263cae9",
+    "original": "RobCo Electrical Systems Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nHomestead Motel Security Systems Menu\\n\\nAUTHORIZED PERSONNEL ONLY",
+    "translation": "罗科公司电气系统终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如家汽车旅馆安保系统菜单\\n\\n仅供授权人员使用",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:FULL#849b356b8a69682711db53a476b5b119",
+    "original": "Maintenance Terminal",
+    "translation": "维修终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:DESC#d0c38f4675efb2719817a0f0f4dd7cbf",
+    "original": "RobCo Electrical Systems Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nHomestead Motel Access \\nSystems Menu\\n\\nAUTHORIZED PERSONNEL ONLY",
+    "translation": "罗科公司电气系统终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如家汽车旅馆门禁 \\n系统菜单\\n\\n仅供授权人员使用",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:ITXT#85624f6b834c95308f84990dd491be1e",
+    "original": "Unlock East Exit Door",
+    "translation": "解锁东门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:RNAM#098e0b77198a907ace6e5c49ad9e8b12",
+    "original": "Unlocking...",
+    "translation": "解锁",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:ITXT#d99e021efe3d758162ecec9d67b8dae5",
+    "original": "Lock East Exit Door",
+    "translation": "锁定东门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:RNAM#36e59774e99207cb5ce4392c983edf13",
+    "original": "Locking...",
+    "translation": "正在锁定中...",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:ITXT#477c81644635827f88460e6099913f3c",
+    "original": "Unlock All Motel Maintenance Rooms",
+    "translation": "解锁所有旅馆维修房",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:ITXT#0ba4689bf329b646d436741138979033",
+    "original": "Lock All Motel Maintenance Rooms",
+    "translation": "锁定所有旅馆维修房",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:ITXT#e9a7f774944c74bb35097574ef22df1f",
+    "original": "Unlock Systems Door",
+    "translation": "解锁系统门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalAccess_1107F553#TERM:ITXT#e708b144c989b55e1c47272cecab4677",
+    "original": "Lock Systems Door",
+    "translation": "锁定系统门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:FULL#849b356b8a69682711db53a476b5b119",
+    "original": "Maintenance Terminal",
+    "translation": "维修终端",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:DESC#1a103697f8fc5f6739890c8d02982553",
+    "original": "RobCo Electrical Systems Terminal\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\nHomestead Motel Secondary Lighting Menu\\n\\nAUTHORIZED PERSONNEL ONLY",
+    "translation": "罗科公司电气系统终端\\nV 6.0.3.2.1.a\\n\\n------------------------------------\\n如家汽车旅馆次级照明菜单\\n\\n仅供授权人员使用",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:ITXT#0329d1e67ece44f961ff081345acfedc",
+    "original": "Check System Status",
+    "translation": "检查系统状态",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:RNAM#9e17390d6724d26b9870203b132dbb2e",
+    "original": "<ERROR> No reading received",
+    "translation": "<错误> 未收到读数",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:RNAM#0ece11d09c54d857e05d21ddd188ea3f",
+    "original": "Online and functional.",
+    "translation": "已上线且功能正常。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:ITXT#ed2e7bad7cf3042f9fe65f5dc7f9d753",
+    "original": "Enable Secondary Lighting Systems",
+    "translation": "启用次级照明系统",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:RNAM#b0aaddf84745168631954943c2349abe",
+    "original": "Secondary Lighting Systems Now Online",
+    "translation": "次级照明系统现已上线",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:RNAM#4c0c95201673ecdceef77931f90bf4e3",
+    "original": "<FATAL ERROR> System Offline!",
+    "translation": "<致命错误> 系统已离线！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:ITXT#07c9b54cd93aecdc8bfdf8e62af18b4a",
+    "original": "Disable Secondary Lighting Systems",
+    "translation": "禁用次级照明系统",
+    "stage": 1
+  },
+  {
+    "key": "DLC04HomesteadUtlSubTerminalLighting2_1107F555#TERM:RNAM#641a9fa377b89d4ed0887cbca73c1a73",
+    "original": "<ERROR> Command Not Available",
+    "translation": "<错误> 命令不可用",
+    "stage": 1
+  },
+  {
+    "key": "LootFirstAidKitEmpty_11003B74#CONT:FULL#ec66f2209f481f4934bdef9d918ed782",
+    "original": "First Aid Box",
+    "translation": "急救箱",
+    "stage": 1
+  },
+  {
+    "key": "LootAmmoBoxEmptyPL_11003B75#CONT:FULL#d7e40073c79acae8864135504b8be8cd",
+    "original": "Ammunition Box",
+    "translation": "弹药箱",
+    "stage": 1
+  },
+  {
+    "key": "ToolboxContainerEmpty_1105A9E4#CONT:FULL#c22baf951692d7a8260137cf000e644f",
+    "original": "Toolbox",
+    "translation": "工具箱",
+    "stage": 1
+  },
+  {
+    "key": "DLC04lootUrbanGarbageCanEmpty_11073B16#CONT:FULL#f73fcbba743e4029e391543b5d41a5d1",
+    "original": "Garbage Can",
+    "translation": "垃圾桶",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GarbageCanUrban01Empty_11073B18#CONT:FULL#f73fcbba743e4029e391543b5d41a5d1",
+    "original": "Garbage Can",
+    "translation": "垃圾桶",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Cathgate_0A00AC48#DOOR:FULL#1ba83f427af11a09ff39005cbae9390f",
+    "original": "Cathedral Gate",
+    "translation": "大教堂大门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SewerLidExitWelded_11041179#DOOR:FULL#e969ce2cd7aa44cf149f2da754a6d0ec",
+    "original": "Manhole",
+    "translation": "维修井",
+    "stage": 1
+  },
+  {
+    "key": "DLC04OffDoorHotelBlankSmR01_110557F9#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04OffDoorHotelBlocked_11056CCE#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04EscapeHatch_11057FAB#DOOR:FULL#83a9043e1ce17fc5e066304a1d959691",
+    "original": "Drainage Grate",
+    "translation": "排水格栅",
+    "stage": 1
+  },
+  {
+    "key": "DLC04UtlDoor01_1105A9E1#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingUtlDoor_1105A9E8#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ACuppaJoeDoor_1106741A#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackDoorLocked_1106B222#DOOR:FULL#7d6f2d9d0fb6debe92206b2727d2a829",
+    "original": "Storm Door",
+    "translation": "防风门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWRobotsDoor_1107242A#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingUtlDoor2_1107EAE5#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoatTicket_0A00B5E8#MISC:FULL#a6f2ed9e7b4972c5e1ed05c7c2a51350",
+    "original": "Riverboat Ticket",
+    "translation": "渡轮票",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaScorpionPoisonGland_1100843D#MISC:FULL#e269b39b58535547e6f61b07fecd406f",
+    "original": "Punga Scorpion Poison Gland",
+    "translation": "膨葛蝎毒腺",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaScorpionPoisonGland2_1100843E#MISC:FULL#e269b39b58535547e6f61b07fecd406f",
+    "original": "Punga Scorpion Poison Gland",
+    "translation": "膨葛蝎毒腺",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Fuse_1100BA63#MISC:FULL#c900261b6dd1aa657c184bb9f9c21c99",
+    "original": "Fuse",
+    "translation": "保险丝",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FuseStatic_11046505#MISC:FULL#c900261b6dd1aa657c184bb9f9c21c99",
+    "original": "Fuse",
+    "translation": "保险丝",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Fuse2_1107EB00#MISC:FULL#c900261b6dd1aa657c184bb9f9c21c99",
+    "original": "Fuse",
+    "translation": "保险丝",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Fuse3_1107EB01#MISC:FULL#c900261b6dd1aa657c184bb9f9c21c99",
+    "original": "Fuse",
+    "translation": "保险丝",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF02ObadiahBlackhall_0A002F3E#NPC_:FULL#d0b4c7231ae68cd6fd5f2ee8f6b6b31f",
+    "original": "Obadiah Blackhall",
+    "translation": "奥巴迪亚·布莱克霍尔",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF03Marguerite_0A003F6E#NPC_:FULL#e56b96770fba8cc36b9b9abad2f92163",
+    "original": "Marguerite",
+    "translation": "玛格丽特",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditMelee1MD_0A00E41D#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditMelee1MC_0A00E41E#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditMelee1MB_0A00E41F#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditMelee1MA_0A00E420#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditMelee1FAFTEMPLATE_0A00E422#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditMelee1FB_0A00E435#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Panada_0A00EA7C#NPC_:FULL#69bcd113e0f77640c8d80caac97e284a",
+    "original": "Panada",
+    "translation": "熊猫小姐 帕娜达",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Haley_0A00EA7D#NPC_:FULL#ef9a5d2f39e9f8e6c70c2e76a9d294dd",
+    "original": "Haley",
+    "translation": "哈利",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditMeleeDead_0A0102C8#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalMansionDead_11003B78#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalMakeShiftCamp_1101B965#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyFBTunnel_1101B972#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyMCTunnel_11028DF7#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalMakeShiftCamp2_1102983F#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditCarlos_1103230B#NPC_:FULL#8aa233cc11440af876ae95395a45b12b",
+    "original": "Carlos",
+    "translation": "卡洛斯",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRobberCamp_110323CB#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRobberCamp2_110323CC#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRobberCamp3_110323CD#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRobberCampInterior_110342A6#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRobberCampPatrol_110342B7#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyMAAPatrolTunnel_11034D0C#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "MargaretLarson_1103C009#NPC_:FULL#cb18235e897984079122507872f7fd8a",
+    "original": "Margaret Larson",
+    "translation": "玛格丽特·拉森",
+    "stage": 1
+  },
+  {
+    "key": "OttisCreel_1103C022#NPC_:FULL#a0daf38e207986936d2005be847a7908",
+    "original": "Ottis Creel",
+    "translation": "奥蒂斯·克里尔",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CaravanGuard1_1103C03E#NPC_:FULL#e022fd920dc0cce2c3a83400b5d7271d",
+    "original": "Caravan Guard",
+    "translation": "商队护卫",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditDead2_1103D6C5#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Scavenger_1103DECD#NPC_:FULL#6b67756dadbfd15d71ac7ebbc5f20cc6",
+    "original": "Karl Smithy",
+    "translation": "卡尔·史密斯",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ScavengerDead_1103E259#NPC_:FULL#9612f0dc76fa0d029d80b54f3199c2f2",
+    "original": "Scavenger",
+    "translation": "拾荒人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DEADWastelander_1103E25E#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Twigbag_1103E268#NPC_:FULL#e0b9ffb1a32b1273f963e33702d3e545",
+    "original": "Twigbag",
+    "translation": "特威格拜革",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyCampHM_1103FAE7#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyCampAAM_1103FAE8#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyCampHF_1103FAE9#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalDEAD2_1103FBD0#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Yvette_1103FBEC#NPC_:FULL#12b7832e836387ef38a98d2290cad20c",
+    "original": "Yvette",
+    "translation": "伊韦特",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRangedDR_11043BA5#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditMeleeDR_11043BA6#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditSniperScavengerDR_11043BA8#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditRangedAmbushHQ_1104B94F#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelDeadBandit_1105BE8B#NPC_:FULL#df831c675d21f0b649d53dd878dce2d7",
+    "original": "Jackson Warrick",
+    "translation": "杰克逊·沃里克",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyMA2_11061201#NPC_:FULL#9994a2585f3b57c964d3ea7b589f1017",
+    "original": "Jason",
+    "translation": "杰森",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Scavenger2_11065509#NPC_:FULL#a74423ddc2f85b41ce01f190c133c9cf",
+    "original": "Clayton West",
+    "translation": "克莱顿·韦斯特",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Scavenger3_110692FB#NPC_:FULL#ed4512f36e0ebba0fe92c7c85cb46a2a",
+    "original": "Loretta Duke",
+    "translation": "洛雷塔·杜克",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditMGroceryStore_1106B27E#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LvlBanditRGroceryStore_1106B280#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BanditDead_1107ACC3#NPC_:FULL#1b90657eab6449ef475834a7167eb728",
+    "original": "Smuggler",
+    "translation": "私掠者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalDEAD_110951B7#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalFriendlyMBDEAD_11095BFA#NPC_:FULL#cd5dc75d7d783e17da953dbe85fdec77",
+    "original": "Tribal",
+    "translation": "部落土著",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DesmondDog01_0A006646#CREA:FULL#ad7a12de6edba738e68bc15db22e747e",
+    "original": "Freki",
+    "translation": "库力奇",
+    "stage": 1
+  },
+  {
+    "key": "DLC04StoreProtectron_0A00EA7E#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DogDiseased_1100650A#CREA:FULL#fa948b21f5597564a509df23ce335f95",
+    "original": "Diseased Dog",
+    "translation": "病狗",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DogDiseased2_1100650D#CREA:FULL#fa948b21f5597564a509df23ce335f95",
+    "original": "Diseased Dog",
+    "translation": "病狗",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglersDog_11006FAA#CREA:FULL#633fd7d7090ab8df826777f439e9725e",
+    "original": "Smuggler's Dog",
+    "translation": "走私者的狗",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmallPungaScorpion_11006FAD#CREA:FULL#dc49887d31c12df13c1528729f243920",
+    "original": "PungaScorpion",
+    "translation": "膨葛蝎",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LargePungaScorpion_11006FAE#CREA:FULL#fe16282db26fc45bc25440a393845771",
+    "original": "Giant PungaScorpion",
+    "translation": "巨型膨葛蝎",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmallPungaScorpionDEAD_1100AFD2#CREA:FULL#dc49887d31c12df13c1528729f243920",
+    "original": "PungaScorpion",
+    "translation": "膨葛蝎",
+    "stage": 1
+  },
+  {
+    "key": "DLC04crSwampFolk2RangedAmbush_1100E3BB#CREA:FULL#6f314d23e95d4d6ae0984a9891e45e1a",
+    "original": "Brawler",
+    "translation": "暴躁狂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04crSwampFolk1MeleeAmbush_1100E3BC#CREA:FULL#0c32f6b4f779ed038c995ba723d6335b",
+    "original": "Scrapper",
+    "translation": "嗜斗狂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04crSwampFolk2RangedAmbush2_1100E3C4#CREA:FULL#6f314d23e95d4d6ae0984a9891e45e1a",
+    "original": "Brawler",
+    "translation": "暴躁狂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04crSwampFolk3RangedAmbush_1100E3C7#CREA:FULL#1088bd6f4c255e95ab114ff9d3510b20",
+    "original": "Creeper",
+    "translation": "瘸行狂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SwamplurkDead_1101814D#CREA:FULL#bada70c1a579eeb06795c0f851d3e071",
+    "original": "Mirelurk",
+    "translation": "泥沼蟹",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DogDiseased3_110361AF#CREA:FULL#fa948b21f5597564a509df23ce335f95",
+    "original": "Diseased Dog",
+    "translation": "病狗",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DogDiseased4_110361B0#CREA:FULL#fa948b21f5597564a509df23ce335f95",
+    "original": "Diseased Dog",
+    "translation": "病狗",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ScavengersDog_1103DECF#CREA:FULL#4472049aae91bd07b0bf90cd4f240e8d",
+    "original": "Jesse",
+    "translation": "杰西",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ScavengersDog2_1103DED3#CREA:FULL#9eb6626f22fdd827e19ae98a8092da84",
+    "original": "Buster",
+    "translation": "巴斯特",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BrawlerDead_1103EED3#CREA:FULL#6f314d23e95d4d6ae0984a9891e45e1a",
+    "original": "Brawler",
+    "translation": "暴躁狂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelProtectron_11054ABA#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04DeadProtectron_1105A9C7#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LargePungaScorpionQueen_11062701#CREA:FULL#424978b931d61ee8d947acbb67cbe38c",
+    "original": "PungaScorpion Queen",
+    "translation": "膨葛蝎女王",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ScavengersDog3_11067414#CREA:FULL#c5a1142eaebef2e46f8ef408537cea37",
+    "original": "Willow",
+    "translation": "“杨柳”",
+    "stage": 1
+  },
+  {
+    "key": "DLC04YaoGuaiScavenger_110692F9#CREA:FULL#2deda57180e867998eebc19f4cc80d70",
+    "original": "Scavenger's Yao Guai",
+    "translation": "拾荒人的妖怪",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkProtectron_1106BD4A#CREA:FULL#ce59179eb17f179f0aeee44c6a668c06",
+    "original": "Boardwalk Protectron",
+    "translation": "栈道保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PodProtectron_1106C79D#CREA:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SentryBotBoardwalk_1106D1E1#CREA:FULL#cf49eb12bea20c7a1396779f23e76683",
+    "original": "Boardwalk Sentry Bot",
+    "translation": "栈道铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkProtectronDEAD_1106FB0C#CREA:FULL#ce59179eb17f179f0aeee44c6a668c06",
+    "original": "Boardwalk Protectron",
+    "translation": "栈道保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardWalkProtectron2_11070FA3#CREA:FULL#ce59179eb17f179f0aeee44c6a668c06",
+    "original": "Boardwalk Protectron",
+    "translation": "栈道保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04crSwampFolk3RangedDEAD_1107ACC0#CREA:FULL#1088bd6f4c255e95ab114ff9d3510b20",
+    "original": "Creeper",
+    "translation": "瘸行狂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmallPungaScorpionBabyDEAD_11082B6D#CREA:FULL#b62aa0721e6df656e10735e7fff3730e",
+    "original": "Baby PungaScorpion",
+    "translation": "膨葛蝎幼虫",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Room1EKEY_11008EF8#KEYM:FULL#e5db6b37258cb3cbd21800b25a087fea",
+    "original": "Homestead Room 1E Key",
+    "translation": "如家旅馆1E号房钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MaintenanceKey_1100A4EF#KEYM:FULL#50f26774762797dc0a1d2dd2fdc0fbfd",
+    "original": "Homestead Maintenance Key",
+    "translation": "如家旅馆维修房钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ArkDoveCaveKey_11039543#KEYM:FULL#d42587bda4ee2d3bbd8ae0628fb6d902",
+    "original": "The Ark & Dove Passage Key",
+    "translation": "方舟与白鸽通行钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TwigBagKey_1103E26A#KEYM:FULL#ed10cf32b5b2f0e996a26b471efb6bab",
+    "original": "Isla Negra Electrical Store Key",
+    "translation": "伊斯拉内格拉电器店钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerArmoryKey_1104850D#KEYM:FULL#2461e54d60783756c3615c63608340f0",
+    "original": "Armory Key",
+    "translation": "铆钉城武器库钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerBasementKey_1104AF8C#KEYM:FULL#dc55fd6beb65f36c48ea27754031a4fa",
+    "original": "Basement Key",
+    "translation": "地下室钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Room1NKEY_1105623D#KEYM:FULL#09116008db3a9610739af18baf6f5712",
+    "original": "Homestead Room 1N Key",
+    "translation": "如家旅馆1N号房钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerKey_1105BE86#KEYM:FULL#369a82bbf483ba2c675f994b6d56146b",
+    "original": "Jackson Warrick's Key",
+    "translation": "杰克逊·沃里克的钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LowerLevelKey_1106BCC5#KEYM:FULL#b2f40bba8a0290d8ac8cc46fa22bf4d3",
+    "original": "Homestead Lower Level Key",
+    "translation": "如家旅馆下层钥匙",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PungaPasta_11038AD5#ALCH:FULL#ccdbee3abbab8196625478acc6108884",
+    "original": "Punga Pasta",
+    "translation": "膨葛意面",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote01_110318A9#NOTE:TNAM#7ba6d234ec48b6e1d066b04db762161e",
+    "original": "Our north camp was abandoned a few days ago due to the numerous amounts of attacks from the ghouls in the old cemetery. There are still a lot of supplies left there which we didn’t have time to bring back. A patrol was sent up to retrieve the items left but before they could even reach the camp they came into contact with more ghouls forcing them to retreat. Another patrol will be send to try and retrieve the supplies in a few days.",
+    "translation": "我们北营地几天前因为旧墓地里众多尸鬼的攻击而被遗弃。\\n\\n那里还有很多我们没来得及带走的物资。我们派出一队巡逻兵去取回留下的物品，但在他们到达营地之前，又遇到了更多的尸鬼，迫使他们撤退。\\n\\n过几天我们会再派一队巡逻兵去试着取回那些物资。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote02_110318AA#NOTE:TNAM#2c7282d2272e319e5d49d3d054afb8b8",
+    "original": "The \"Biker Camp\" just north east of here was constructed a few weeks back, it’s been useful for keeping eyes on the road and controlling the amount of ghouls coming from the swamp. There’s also a roadblock located near the camp which has proven helpful when hostiles have previously come from the south.",
+    "translation": "这里的东北方向，几周前建造了“贝克营地”，它有助于监视路况，并控制从沼泽地带过来的尸鬼数量。\\n营地附近还设置了一个路障，当敌人从南方过来时，这个路障非常有用。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote03_110318AB#NOTE:TNAM#9e04409fd9991cd572230854b5846aad",
+    "original": "Recently we have decided to have some of our men set up a checkpoint on the bridge just south of here, it’s proving to be very useful so far. The men located at the bridge claim that they have prevented five ambushes so far and not one casualty. The camp is also situated near the hardware store so when supplies are low they can easily be replenished.",
+    "translation": "最近我们决定派一些人在桥南设立一个检查站，目前看来非常有用。\\n\\n驻守在桥上的人声称，到目前为止他们已经阻止了五次伏击，且没有任何伤亡。营地也位于五金店附近，因此当物资短缺时，他们可以轻松补充。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote04_110318AC#NOTE:TNAM#132ef3c98d0a0a6912e2d3f2bf187c19",
+    "original": "For now this camp will be serving as our headquarters. It’s surrounded by our other camps so it’s useful for keeping an eye on them. We have a checkpoint on the bridge which helps to remove any hostiles trying to get past, there are also few patrols up and down the road which help to prevent ambushes and attacks. So far we have had little resistance, however other camps seem to be the opposite and are frequently ambushed forcing us to abandon them. This has happened on about three occasions so far.",
+    "translation": "目前，这个营地将作为我们的总部。它被我们其他营地包围着，因此监视它们很有用。\\n\\n我们在桥上设有一个检查站，有助于消除任何试图通过的敌人，路上也有几支巡逻队，有助于防止伏击和袭击。\\n\\n到目前为止，我们遇到的阻力很小，但其他营地的情况则相反，他们经常被伏击，迫使我们放弃。这种情况已经发生了大约三次。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04KarlSmithyCompleteQuestNote_1103C008#NOTE:FULL#fe94f9947d2ceb3911d44bf12d2e0bf3",
+    "original": "Thank you.",
+    "translation": "谢谢你。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04KarlSmithyCompleteQuestNote_1103C008#NOTE:TNAM#8e023a824574c582679861e11f777bd5",
+    "original": "Thanks for the help you gave me fighting off those bastards, I couldn't have done it without you. Now that they’re gone I'll be able to spread the word about this place and perhaps have some of my allies join me here.\\n\\nIf your ever in need of some supplies then be sure to come and see me, I'll have access to a lot more supplies once I've cleaned this place up and started trading.\\n\\nI hope the 250 caps help, I'm sorry it’s not much but its all I have. \\n\\nThanks again,\\n\\nKarl.",
+    "translation": "谢谢你帮我打跑了那些混蛋，没有你我做不到。现在他们已经走了，我就可以四处宣传这个地方，或许可以让我一些盟友来这里。\\n\\n如果你以后需要什么补给品，一定要来找我，等我清理完这个地方并开始交易后，我会拥有更多的补给品。\\n\\n我希望这250枚瓶盖能帮到你，抱歉不多，但这已经是我所有的了。\\n\\n再次感谢，\\n\\n卡尔。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote06_11047991#NOTE:TNAM#1f93df61356e1ff7e6987d3fe99ab4f2",
+    "original": "Early yesterday one of the patrols came across a small camp on the south beach which seemed to be inhabited by at least one scavenger and some dogs. From the Intel received the camp could come in handy as it has two small shacks and is and is located close to the boardwalk. \\n\\nSupplies are very low, and because of this I have decided that the men move in quickly as we don't have the time to plan this operation. Unfortunately we don’t know for sure how many hostiles there are at the camp, I don’t have many men left so I can’t afford to lose any especially after our north camp was lost a while back. \\n\\nIt's possible that there could be multiple hostiles at the camp, because of this I have sent a few men from each of the nearby camps to ambush once they have established just how many hostiles there are.",
+    "translation": "昨天早上，一支巡逻队在南滩发现了一个小营地，那里似乎至少住着一个拾荒者和几只狗。从情报中得知，这个营地可能会很有用，因为它有两间小棚屋，而且靠近栈道。\\n\\n我们的物资十分紧缺，所以我决定让大家尽快行动，我们没有时间规划这次行动。\\n\\n不幸的是，我们不确定营地里有多少敌人，我手头的人手也不多了，尤其是之前我们北边的营地失守之后，我更不能损失任何人了。\\n\\n营地里可能有多个敌人，为此我已经从附近的营地派了几个人去埋伏，一旦他们确定敌人的数量，就会发起攻击。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote07_11047992#NOTE:TNAM#942a6f815aae4c09694f33ef055dde9f",
+    "original": "The beach view camp near Calvert Mansion has been abandoned for a few weeks now due to the methane gas puddle that’s developed there. It seems that recently a few of the swamp creatures have inhabited it and can sometimes be seen dancing around the fire. The camp has become a real pain since they inhabited it as the main route to the mansion runs straight pass it, this normally results in the men being attacked causing injury and a lot of ammo being wasted. Even when the swamp creatures have been killed others seem to appear a few days later. For now I’ve stopped all the patrols going that way because supplies are low and I can’t afford to lose any more men.",
+    "translation": "卡尔弗特公馆附近的沙滩营地因为那里出现的甲烷气体水坑，已经被遗弃了几个星期。\\n\\n最近，似乎有一些沼泽生物在那里定居，有时可以看到它们在火堆旁跳舞。自从它们定居以来，营地就成了真正的麻烦，因为通往庄园的主干道直接穿过那里，这通常会导致人们受到攻击，造成伤亡，并浪费大量弹药。\\n\\n即使沼泽生物被杀死，几天后似乎又会出现其他生物。现在我已经停止了所有巡逻队前往那里的行动，因为物资短缺，我不能再损失更多人手了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerShackNote08_110485C1#NOTE:TNAM#1850909c8e719dd4c3f61b347f81cf8b",
+    "original": "The amount of supplies in the armory has been decreasing for weeks now, nearly the entire medical and ammo supply has run out. Most of the weapons the patrols have been bringing in are either in bad condition or don’t work at all. \\n\\nSince the north camp was abandoned the patrols have found it difficult to try and retrieve the supplies because of the amount of ghouls that keep come from the cemetery. The only supplies we have coming in now are from the merchant across the river and one of the patrols every now and then. More men should be arriving in a few weeks with more supplies but if supplies here continue to decrease I’m not sure we’ll still be here by that time.",
+    "translation": "仓库的补给已经连续几周在减少了，几乎全部的药品和弹药都已经用完了。巡逻队带回来的大部分武器要么状况不佳，要么根本不能用。\\n\\n自从北营被遗弃后，巡逻队就很难取回补给，因为墓地里的怪物太多了。现在我们唯一的补给来源就是河对面的商人和偶尔巡逻队带回来的。\\n\\n几周后会有更多人和补给抵达，但如果这里的补给继续减少，我不敢保证到那时我们是否还在这儿。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLowerLevel_1100A410#CELL:FULL#3802c2c82f94d6de279a66598bc4d98a",
+    "original": "Homestead Motel Lower Level",
+    "translation": "如家汽车旅馆下层",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MedicalTent01_0A00AFDC#CELL:FULL#e8a62b3acdd8ae92cd287fcbe0d1b151",
+    "original": "Marcella's Tent",
+    "translation": "玛塞拉的帐篷",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Bank_0A00C828#CELL:FULL#c765267e12f5b7682bc6bfa93e73b1ae",
+    "original": "People's Bank of Point Lookout",
+    "translation": "望海崖人民银行",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackSmuggler_1102D974#CELL:FULL#96d89c062bcb54452fd47a94ab2c266b",
+    "original": "Smuggler's Shack",
+    "translation": "走私者的小屋",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CathedralDrainage_1103FB10#CELL:FULL#1f001273621c6fc79c8ada1c625c690c",
+    "original": "Drainage Chamber",
+    "translation": "排水系统室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerCampBunkHouse_11032316#CELL:FULL#6abe91b525e0b39498f1ac87ece5cb3a",
+    "original": "Bunkhouse",
+    "translation": "工棚",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackSmugglerBasement_110483DD#CELL:FULL#d8b312f88de063ec7d9470013825cb26",
+    "original": "Cellar",
+    "translation": "地窖",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShopACuppaJoe_11063197#CELL:FULL#74bd1365e94b130d1dc11c5f7fb3002d",
+    "original": "A Cuppa Joe's",
+    "translation": "一杯乔",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BoardwalkDrainage_1103D5D7#CELL:FULL#1f001273621c6fc79c8ada1c625c690c",
+    "original": "Drainage Chamber",
+    "translation": "排水系统室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ScavengerCampBunkHouse_1103D39D#CELL:FULL#6abe91b525e0b39498f1ac87ece5cb3a",
+    "original": "Bunkhouse",
+    "translation": "工棚",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CalvertCliffShack_110411F6#CELL:FULL#2a9f8f5088ee2c391ccb0013bb807d99",
+    "original": "Calvert Cliff Shack",
+    "translation": "卡尔弗特悬崖小屋",
+    "stage": 1
+  },
+  {
+    "key": "DLC04InaccesibleGrocer_1103E26C#CELL:FULL#fe16720cc7dfec0ac919cff4a6bdb1c0",
+    "original": "Isla Negra Electrical Store",
+    "translation": "伊斯拉内格拉电器店",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MansionCellarRuined_11001FF6#CELL:FULL#f50a4fa02dfd6f9d8827c3cf61626099",
+    "original": "Calvert Mansion Cellar",
+    "translation": "卡尔弗特公馆地窖",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BlackhallManor01_0A004E2D#CELL:FULL#ca9720ec4a1fd9ad41cd20e0299adc49",
+    "original": "Blackhall Manor",
+    "translation": "暗日庄园",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CampPipe01_0A00DF23#CELL:FULL#0fe34fbaf460a4b1850eb955d22894fb",
+    "original": "Septic Tunnel Access",
+    "translation": "排污管入口",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Shop_11022F77#CELL:FULL#1f8e616f7be2b412409cd2895b771925",
+    "original": "Grocer",
+    "translation": "杂货店",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelRoom1E_11008E8D#CELL:FULL#fdc9d25e0eec71abb56bcda988f90d6c",
+    "original": "Room 1E",
+    "translation": "房间 1E",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SmugglerDrainage_1103D670#CELL:FULL#1f001273621c6fc79c8ada1c625c690c",
+    "original": "Drainage Chamber",
+    "translation": "排水系统室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackPlayer_1102C3E8#CELL:FULL#87244748394ef09746a13f3f3bc638ae",
+    "original": "Beach Shack",
+    "translation": "海滩小屋",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackHardwareStore_0A00811E#CELL:FULL#e54e034d008fd48048c8d329d3cfd619",
+    "original": "Haley's Hardware",
+    "translation": "哈利的五金店",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackTrapperBasement_0A00B58A#CELL:FULL#d8b312f88de063ec7d9470013825cb26",
+    "original": "Cellar",
+    "translation": "地窖",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SeaCave_0A00928B#CELL:FULL#1bb86b71039bd48c98c0c91470a871f0",
+    "original": "Sea Cave",
+    "translation": "海滨岩洞",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Recruiter_0A00D971#CELL:FULL#744dcaaffdef079b50ef74e261df5bc9",
+    "original": "Recruitment Station",
+    "translation": "征兵站",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CalvertMine_1102B737#CELL:FULL#08a914617bf70e27eaf2b5246e6e3db6",
+    "original": "Calvert Mine",
+    "translation": "卡尔弗特矿",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Motel_0A00E795#CELL:FULL#4da5238cc5a7130b40d9bc81a6df79cf",
+    "original": "Homestead Motel",
+    "translation": "如家汽车旅馆",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CoastalGrotto01_0A00F28F#CELL:FULL#3c1cba7450ef11588046b6aa43d118ca",
+    "original": "Coastal Grotto",
+    "translation": "海岸石窟",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackPanada_11081E8A#CELL:FULL#d29a7f682d32767b40485a021f921ff2",
+    "original": "Panada's Shack",
+    "translation": "帕娜达的小屋",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Cathedral01_0A0040AC#CELL:FULL#b710b619fa90c82a2ef738c7f1236d64",
+    "original": "Ark & Dove Cathedral",
+    "translation": "方舟与和平鸽大教堂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ShackMoonshiner_0A008120#CELL:FULL#6d9571fb373378d9e8e8b8fa05806dd3",
+    "original": "Moonshiner Shack",
+    "translation": "私酒商小屋",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelRoom1G_0A00E796#CELL:FULL#0b2492f4a8505db511287b41d32ad943",
+    "original": "Room 1G",
+    "translation": "房间 1G",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MirelurkCave_11012BCB#CELL:FULL#3802ea000f55284cba8ed022f51c314c",
+    "original": "Mirelurk Cave",
+    "translation": "泥沼蟹洞穴",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelRoom1D_0A008121#CELL:FULL#49c2d3a58c747a4fda612bffb79bae03",
+    "original": "Room 1D",
+    "translation": "房间 1D",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BogEntrance_0A00E91D#CELL:FULL#8f725012569e035d525d6d9999607634",
+    "original": "Bog Entrance",
+    "translation": "沼泽入口",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelRoom1K_0A00E797#CELL:FULL#dd46d818d4abec2d8952a481b403901b",
+    "original": "Room 1K",
+    "translation": "房间 1K",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BrahminHeadDiner_1104B9D6#CELL:FULL#16da61eca037c4e1ac6897cefe24d806",
+    "original": "Brahmin Head Diner",
+    "translation": "双头牛头餐厅",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Mine02_0A008122#CELL:FULL#8881255ecd742dcb751d20129a282774",
+    "original": "Miner's Rest",
+    "translation": "矿工休息室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04VendorChestsCell_0A010EEE#CELL:FULL#1d55ab4b0f8ac55b098e6ee8d9b34101",
+    "original": "Buried Vendor Chests",
+    "translation": "被掩埋的货物箱",
+    "stage": 1
+  },
+  {
+    "key": "DLC04zzWarehouse_0A010AC0#CELL:FULL#b7a50dd63b3e7d0e5692f2e2bc19d830",
+    "original": "Warehouse",
+    "translation": "仓库",
+    "stage": 1
+  },
+  {
+    "key": "DLC04TribalEncampmentCave_1103FA0B#CELL:FULL#fa5460258f1bad8e5a88f3e0ab1bdab8",
+    "original": "Tribal Bunker",
+    "translation": "部落掩体",
+    "stage": 1
+  },
+  {
+    "key": "DLC04CampMorgue_0A00D6AF#CELL:FULL#97eafcef89b0b231f8b86f8cb70208db",
+    "original": "Morgue",
+    "translation": "太平间",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BlackhallManor02_0A00F8AB#CELL:FULL#55bea1a10edacf7b913eea87e676998b",
+    "original": "Basement",
+    "translation": "地下室",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ArkDovePassage_11018B95#CELL:FULL#c4d960f787686adf8d60e43943ab30dd",
+    "original": "Ark & Dove Passage",
+    "translation": "方舟与白鸽通道",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Mine03_0A008853#CELL:FULL#1df809f406bdacc8d319f8c7184c6890",
+    "original": "Blackdamp Shaft",
+    "translation": "窒息瓦斯巷道",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Grocer_110222DF#CELL:FULL#7d76322eea7ad201d6e2ef46dc24a247",
+    "original": "General Store",
+    "translation": "杂货店",
+    "stage": 1
+  },
+  {
+    "key": "DLC4Pointlookout_0A000802#WRLD:FULL#24f4c286987974b3d581fe76b059a2c7",
+    "original": "Point Lookout",
+    "translation": "望海崖",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1107B728#REFR:FULL#514728f9f6280033b82da43ced542efe",
+    "original": "Pa's Fishing Shack",
+    "translation": "爸爸的钓鱼小屋",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1104BAB6#REFR:FULL#16da61eca037c4e1ac6897cefe24d806",
+    "original": "Brahmin Head Diner",
+    "translation": "双头牛头餐厅",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_11041187#REFR:FULL#2a9f8f5088ee2c391ccb0013bb807d99",
+    "original": "Calvert Cliff Shack",
+    "translation": "卡尔弗特悬崖小屋",
+    "stage": 1
+  },
+  {
+    "key": "ScavengerMapMarkerREF_1103C93D#REFR:FULL#51ca97cd0486c8d2b4cd7d41d40825fd",
+    "original": "Scavenger Encampment",
+    "translation": "拾荒者营地",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1102C3E3#REFR:FULL#cd3aaa216bb401705704957502490224",
+    "original": "Cliffview Shack",
+    "translation": "悬崖景观小屋",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1102C38B#REFR:FULL#03205f7062841987a364e933b28112fd",
+    "original": "Smuggler Headquarters",
+    "translation": "走私者总部",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_11026E94#REFR:FULL#dc2d7c8beae23fc0d3a8aacd4e406bed",
+    "original": "Beachview Shops",
+    "translation": "海滨商店",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1101E2FF#REFR:FULL#1b0a0fe13c927b2edda9bccf5370d6df",
+    "original": "Abandoned Smuggler Camp",
+    "translation": "遗弃的走私者营地",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1101D8AC#REFR:FULL#af1a15557c58773bf9a2abb24ea09952",
+    "original": "Makeshift Tribal Camp",
+    "translation": "临时部落营地",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_1101B971#REFR:FULL#c4d960f787686adf8d60e43943ab30dd",
+    "original": "Ark & Dove Passage",
+    "translation": "方舟与白鸽通道",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_11012BC1#REFR:FULL#3802ea000f55284cba8ed022f51c314c",
+    "original": "Mirelurk Cave",
+    "translation": "泥沼蟹洞穴",
+    "stage": 1
+  },
+  {
+    "key": "DLC04VelmasMarkerREF_0A00DE1D#REFR:FULL#6ae2adce6fc64d5ada7dee60731643ce",
+    "original": "Beachview Campsite",
+    "translation": "海景营地",
+    "stage": 1
+  },
+  {
+    "key": "DLC4Bog_0A00A88C#WRLD:FULL#33f724d7061130181d7a4011c4e43a41",
+    "original": "Sacred Bog",
+    "translation": "神圣沼泽",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:FULL#786ed4125032db652c26d09191a8d40e",
+    "original": "The Velvet Curtain",
+    "translation": "丝绒暗幕",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#f47cf6d733d3e80f985ab33229ea48c5",
+    "original": "Recover the dead Chinese spy's mission debriefing from the locker in Point Lookout.",
+    "translation": "从望海崖的储物柜中找到已死中国特务的任务简报。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#c88edce2029d8c6e8962ec49871e8b47",
+    "original": "Use the password holotape to access safety deposit box 1207 at the Point Lookout Bank.",
+    "translation": "使用密码全息录像带打开望海崖银行的1207号保险箱。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#0de9b3c40a2631ade5833604031c17bc",
+    "original": "Search for clues about the fate of Agent Yang.",
+    "translation": "搜集关于特务杨婉任务的线索。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#b6a186d9afb45886c9bca1dcee3673de",
+    "original": "Investigate Agent Yang's fate at the Turtledove Detention Camp.",
+    "translation": "调查特务杨婉在斑鸠羁押营的最终下场。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#783222cf9d467d7c4bbe9dcf1663361b",
+    "original": "Activate the Chinese submarine self-destruct protocol.",
+    "translation": "启动中国潜艇的自毁程序。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#9cd02f99033f909719b5c9917be9e2ae",
+    "original": "Return to the Motel Safehouse Terminal for further instruction.",
+    "translation": "回到汽车旅馆安全屋的终端处以获取进一步指示。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#0205402feabb70f32da6826ecc51947c",
+    "original": "Use the Cryptochromatic Spectacles and Sequence Note to access the Spy Bunker.",
+    "translation": "使用加密光谱眼镜与记录的密码进入间谍地堡。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#921890164cadeabae4d0bda03a4436b6",
+    "original": "Escape the double-cross!",
+    "translation": "无间脱出！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#0a818108b5e7f07943a0b491d629eef7",
+    "original": "Investigate the spy at Motel Room 1G.",
+    "translation": "调查汽车旅馆1G号房间的特务。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#5ab76ea2bf24ef419edccfbcf2981ac4",
+    "original": "Recover the dead Chinese spy's locker key from motel room 1G.",
+    "translation": "找到已死中国特务在汽车旅馆1G号房间的储物柜钥匙。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#ce4da6504d489e75b8dcc586259e3c4c",
+    "original": "Listen to the Espionage Debriefing Holotape.",
+    "translation": "听取特务简报录音带。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#d06ad42ead80fbe79b4ab4573e671187",
+    "original": "Recover the Cryptochromatic Spectacles from the Toilet Tank in Motel room 1D.",
+    "translation": "从汽车旅馆1D号房间的厕所水箱中找到加密光谱眼镜。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#83ae8e2e09395ec27f611542dd0b4622",
+    "original": "Seek the Spy's extraction details and payment in the spy bunker.",
+    "translation": "在特务地堡内搜寻特务撤离细则和给她的奖赏。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#0819bfb4ec6312b5245d490265abda38",
+    "original": "Confirm Submarine Self-Destruct by activating the Failsafe Lever.",
+    "translation": "使用安全解除控制杆启动潜艇自毁程序。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FF05_0A00436E#QUST:NNAM#997be0936000865c9a62884e6f41091f",
+    "original": "Get clear of the Submarine before it self-destructs!",
+    "translation": "在潜艇自毁前离开。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:FULL#a459d1122ab59616f49063234911df64",
+    "original": "The Local Flavor",
+    "translation": "地方佳肴",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#dab4386a717ede3fbe09b7bb4f0584cc",
+    "original": "Player is told about Punga and Riverboat",
+    "translation": "玩家被告知膨葛和渡轮",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#6e566f46a35dd74f21ec665bffd42a6e",
+    "original": "Player has agreed to search for Nadine",
+    "translation": "玩家已同意寻找纳丁",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#dbc1e4d93d5f5c10f486283f847a7468",
+    "original": "Player talks with Tobar about going to Point Lookout",
+    "translation": "玩家与托巴尔谈论前往望海崖",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#e313b2b0c756da88a5b0a30aca70b9d6",
+    "original": "Player agrees to go to Point Lookout with Tobar",
+    "translation": "玩家同意与托巴尔一起前往望海崖",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#324e1c2aef1810cca88ff926d91cb9c0",
+    "original": "Player uses the bed in the boat - move boat to new world",
+    "translation": "玩家使用船上的床 - 将船移到新世界",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#5a8caef274a57a525f7b61cd50676155",
+    "original": "Tobar welcomes you to Point Lookout",
+    "translation": "托巴尔欢迎您来到望海崖",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#f5026ab9ae1daeacdef3e6d535aeb243",
+    "original": "Player arrives at the Mansion, gates close",
+    "translation": "玩家到达豪宅，大门关闭",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#04964a17bbc608ec135fbeecd034363c",
+    "original": "Player has come to the Mansion, and heard he has to go inside",
+    "translation": "玩家来到豪宅，听说要进去",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#646562597dd90f58ff0c3cbf43327980",
+    "original": "Begin Mansion Onslaught",
+    "translation": "开始豪宅猛攻",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#f421904b7e4a619d8c5b2431ff4a6593",
+    "original": "siege pt 1",
+    "translation": "围攻 pt 1",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#85e09c4b85bf63eb96689e1200074f82",
+    "original": "siege pt 2",
+    "translation": "围攻 pt 2",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#10b7924cf0518fd4345fe8aa445416ac",
+    "original": "siege pt 3",
+    "translation": "围攻 pt 3",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#4bf93ee6ca32ff1eeeed1b9bb0b9ff9a",
+    "original": "Post Onslaught, Desmond goes to talk to player",
+    "translation": "猛攻后，戴斯蒙德去和玩家交谈",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:CNAM#7c681732f733b9bc9f746e8daa9aaa1d",
+    "original": "(Quest Ends, start DLC04MQ02)",
+    "translation": "(任务结束，开始 DLC04MQ02)",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#c8d39ff4589b0e01eb05fc175ebd1f24",
+    "original": "Investigate the riverboat.",
+    "translation": "调查渡轮。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#734934310ac9de355ce00e126ba89174",
+    "original": "Secure passage to Point Lookout.",
+    "translation": "肃清通往望海崖的路线。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#b704554f6cc6b6514ab15a815b6c5388",
+    "original": "Rest during the trip to Point Lookout.",
+    "translation": "在前往望海崖的旅途中休息一下。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#3803dbd5907f2cc6c83014e5b4087b3f",
+    "original": "Investigate the mansion.",
+    "translation": "调查公馆。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#b853a2b7b7321ff052aea13bf27998dd",
+    "original": "Help the mansion's owner repel the invaders.",
+    "translation": "帮助公馆的主人击退入侵者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#740f54894fb752525e16c426be2e67a7",
+    "original": "Talk to the mansion's owner.",
+    "translation": "和公馆的主人谈谈。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#bc942ab95a7963a8333a7a3ff945ad37",
+    "original": "Leave the Duchess Gambit.",
+    "translation": "离开公爵夫人号。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#7a0101b11beb57fe3ab104ac307ce16d",
+    "original": "Block off the breach upstairs in the West wing.",
+    "translation": "封锁西侧楼上的突破口。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#de2148f2e6acfd4558e2731ab2779943",
+    "original": "Block off the breach in the East wing.",
+    "translation": "封锁东侧的突破口。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ01_0A005846#QUST:NNAM#de4041895ed2c2d55604f417a8c94f48",
+    "original": "Fend off the last of the invaders.",
+    "translation": "挡住最后一波入侵者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:FULL#626f576b0d69bfdb46ef59f89a097c30",
+    "original": "Walking With Spirits",
+    "translation": "与灵同行",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#954287ed4e7a3b7538310de81901b924",
+    "original": "Quest start",
+    "translation": "任务开始",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#36ea22bc5ca192b9b3844850b59c08d4",
+    "original": "Player agrees to the plan and receives info from Desmond",
+    "translation": "玩家同意计划并从德斯蒙德那里获取信息",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#f01c0daf4fe5fb2c2e0985f8c5232d8f",
+    "original": "Player reports to the Cathedral, is told about ritual",
+    "translation": "玩家向大教堂报告，被告知仪式",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#90eac166a584d84fe3a6bc6f89ff311d",
+    "original": "Player has acquired seeds from the Mother Pod",
+    "translation": "玩家从母舱中获取了种子",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#76a62b742d062cd73a76a16a1529f193",
+    "original": "Player passes out and wakes up outside the bog, post-hallucinations",
+    "translation": "玩家昏倒后在大厅外的沼泽中醒来，出现幻觉",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#78be81f08573f3f6b4323adaefbf57af",
+    "original": "Player returns to Cathedral, is welcomed as member",
+    "translation": "玩家返回大教堂，作为成员受到欢迎",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:CNAM#b0aa2e901948a33fcf8efba70a9fc59f",
+    "original": "quest completed, start MQ03",
+    "translation": "任务完成，开始MQ03",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:NNAM#3b9a95463a52998f024de2954c73cd94",
+    "original": "Investigate the Tribals at the Cathedral.",
+    "translation": "调查大教堂中的部落。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:NNAM#277b1277adb4930ad9aa9530ba40bf2c",
+    "original": "Collect seeds from the giant Punga plant.",
+    "translation": "从巨型膨葛果树上收集果实。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:NNAM#9ccbd71d0eed945a15f1ae7b4c121d84",
+    "original": "Return to the Cathedral.",
+    "translation": "回到大教堂。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ02_0A005847#QUST:NNAM#22699e6acf5afd33cadba9da15d70c09",
+    "original": "Talk with Desmond about his offer.",
+    "translation": "跟德斯蒙德谈谈他的提议。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:FULL#4f255d40552b9e5a4e5a1acc43afa26a",
+    "original": "Thought Control",
+    "translation": "心灵控制",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:NNAM#cc54a789359c6a5f55bc8f7c13d5a7ed",
+    "original": "Speak with Desmond.",
+    "translation": "跟德斯蒙德谈谈。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:NNAM#1f5edaceca7a28d8c41bc3e5c6e09909",
+    "original": "Install the Cogwave Jammer on the Ferris Wheel.",
+    "translation": "把脑波干扰器安装到摩天轮上。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:NNAM#ae9df8060de20e84f5296aba7b498433",
+    "original": "Return to the Mansion.",
+    "translation": "回到公馆。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:NNAM#1999e0c5dfe81a47e5df5eb2e44e2854",
+    "original": "Install the Cogwave Jammer on the Ferris Wheel OR use the Trash Compactor to destroy it.",
+    "translation": "把脑波干扰器安装到摩天轮上或者使用垃圾压缩机摧毁它。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:NNAM#73b94c66661243f72989275720929ef9",
+    "original": "Use the Trash Compactor to destroy the Cogwave Jammer.",
+    "translation": "使用垃圾压缩机摧毁脑波干扰器。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MQ04_0A005849#QUST:NNAM#25ceff715572f348e3eca9092b392f55",
+    "original": "Start the Ferris wheel.",
+    "translation": "启动摩天轮。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:FULL#5c06b43f5cf54dca7a91547b036acc41",
+    "original": "Powering The Boardwalk",
+    "translation": "激活栈道",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#65d6b8c6ffc31068dcc735ca21845476",
+    "original": "Player discovers the locked robot door and is sent to locate the generator",
+    "translation": "玩家发现一扇被锁住的机器人门，并被要求找到发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#e78a6fb5c887a0fca1263d0369243578",
+    "original": "Player discovered the generator. Needs to find the power source.",
+    "translation": "玩家找到了发电机。需要找到电源。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#c2eb29b32716799111c8132d61515a8e",
+    "original": "Player found the power source.",
+    "translation": "玩家找到了电源。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#42d133dbe1adba30d21d47cf058da043",
+    "original": "Player then checks the fuse box. Realizes it needs a new fuse. Goes and looks for one.",
+    "translation": "玩家检查保险丝盒。发现需要一个新的保险丝。去找一个。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#5e33d3db3d17811feaaa22afb2a1290e",
+    "original": "Player finds a new fuse.",
+    "translation": "玩家找到了新的保险丝。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#b4216dbb7237f6bb78787a242b6bc63d",
+    "original": "Player fits the fuse to the board. Needs to turn the Generator on.",
+    "translation": "玩家将保险丝安装到电路板上。需要打开发电机。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:CNAM#f42b2a71ac6e9e58027e864667f1d8cd",
+    "original": "Generator is turned on.",
+    "translation": "发电机已启动。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:NNAM#baa702cabea0f3d01ffbb9f15c147ebc",
+    "original": "Find and enable the generators power source.",
+    "translation": "找到并启用发电机的电源。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:NNAM#e794ef231d9b3abc4eca950785540916",
+    "original": "Locate the fuse box.",
+    "translation": "找到保险丝盒。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:NNAM#92f31b6d57eeeb8db06f5dc6a86815f8",
+    "original": "Find three suitable fuses.",
+    "translation": "找到三个合适的保险丝。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:NNAM#3ed00e710e25767a221a22a49d772489",
+    "original": "Turn the generator on.",
+    "translation": "打开发电机。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:NNAM#43ca29996879ddab81590411478f47bc",
+    "original": "Place the new fuses into the board.",
+    "translation": "将新保险丝放入电路板。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Lights_1100BA4C#QUST:NNAM#483f662b588cd9ea4b865d07cbb9b60d",
+    "original": "Locate the boardwalk systems power source",
+    "translation": "找到栈道系统的电源",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:FULL#1212e24ed90d2d41fa808ea148befa51",
+    "original": "The Scavenger of Point Lookout",
+    "translation": "望海崖的拾荒者",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:CNAM#63bff9e1199e526fc50287d49f963f45",
+    "original": "Player starts the quest by reading the terminal in the Smuggler shack and needs to travel to the Scavenger camp.",
+    "translation": "玩家通过阅读走私者小屋中的终端开始任务，并需要前往拾荒者营地。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:CNAM#3a6587f0af39b60c161d3973f8b19c97",
+    "original": "The Player is instructed to kill the Smugglers attacking from the West.",
+    "translation": "玩家被指示杀死从西方进攻的走私者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:CNAM#325cd08e93892644a63b4842304f3394",
+    "original": "The Player is instructed to kill the Smugglers attacking from the East.",
+    "translation": "玩家被指示杀死从东方进攻的走私者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:CNAM#f2d57163efdeca2294c2d8bb4fe61e31",
+    "original": "The Player is instructed to travel to the Disaster Relief Outpost and kill the remaining Smuggler's.",
+    "translation": "玩家被指示前往救灾前哨站并杀死剩余的走私者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:CNAM#3d8fe3310d7d28b98a1b124d26836ba4",
+    "original": "The Player has failed the quest, probably by killing Karl Smithy.",
+    "translation": "玩家未能完成任务，可能是因为杀死了卡尔·史密斯。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:CNAM#39b9845b31a7d8a148ce185214254229",
+    "original": "All Smugglers have been killed, the quest is completed.",
+    "translation": "所有走私者都被消灭了，任务完成。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:NNAM#b9554b637a8976630002dcce6ef9a071",
+    "original": "Travel to the Scavenger Camp.",
+    "translation": "前往拾荒者营地。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:NNAM#5361eeae5f5c9d4f8952173c4ebce772",
+    "original": "Fight off the Smugglers coming from Blackhall Manor.",
+    "translation": "击退来自布莱克霍尔庄园的走私者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:NNAM#c65c7478a2e8d8a1c17d1f4c7b2703d4",
+    "original": "Fight off the Smugglers coming from Beach.",
+    "translation": "击退来自海滩的走私者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:NNAM#7d7111cfdae9a932fa5091547d200a3b",
+    "original": "Follow Karl and take out the remaining Smugglers at the Disaster Relief Outpost.",
+    "translation": "跟随卡尔，在救灾前哨站消灭剩余的走私者。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04Smugglers_1103FDC5#QUST:NNAM#ce2cae5f267c00f36993241ca31fc1e4",
+    "original": "[Optional] Make sure Karl's dogs are kept alive.",
+    "translation": "[可选]确保卡尔的狗活着。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:FULL#f055bcc03976291f378cd924cde3d340",
+    "original": "Restoring The Power",
+    "translation": "恢复电力",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:CNAM#78591ae24e0a38bc1ba2cfb6e7772ae5",
+    "original": "Player discovered the Computer Terminal or attempted to open one of the motel doors starting this quest.",
+    "translation": "玩家发现了计算机终端或尝试打开汽车旅馆的门，开始这个任务",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:CNAM#c2eb29b32716799111c8132d61515a8e",
+    "original": "Player found the power source.",
+    "translation": "玩家找到了电源。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:CNAM#a60a70cb9728a7b0e4f9d7257b3463b3",
+    "original": "Player finds the necessary parts and repairs the generator.",
+    "translation": "玩家找到必要的零件并修理了发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:CNAM#306cb0abb15123149f11f1df099b7352",
+    "original": "Player needs to enable the power",
+    "translation": "玩家需要开启电源",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:CNAM#33977c2617185a7568528c25033f77d1",
+    "original": "Player enables the switch enabling the power, completing the quest",
+    "translation": "玩家启动开关以启动电源，完成任务",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:NNAM#be9bdef365053d3b84ef890c7bc5d983",
+    "original": "Locate the Motels secondary power source.",
+    "translation": "找到旅馆的备用电源",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:NNAM#9f786974c9318ffb1ea915767a699f04",
+    "original": "Repair the generator.",
+    "translation": "修理发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:NNAM#9297fb97bdef5358967a5aaf9c123626",
+    "original": "Turn on the secondary power source.",
+    "translation": "打开备用电源",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLighting_1105A9E7#QUST:NNAM#538472891fcac65bb50673e43c69b01a",
+    "original": "Locate the doors terminal and unlock the door.",
+    "translation": "找到门的终端并解锁门。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PLR_1105D379#QUST:FULL#03f98c48ed613c542e8aa41401146c21",
+    "original": "Point Lookout Reborn",
+    "translation": "望海崖重生",
+    "stage": 1
+  },
+  {
+    "key": "DLC04PLR_1105D379#QUST:CNAM#dab4386a717ede3fbe09b7bb4f0584cc",
+    "original": "Player is told about Punga and Riverboat",
+    "translation": "玩家被告知膨葛和渡轮",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LoadScreenEcology06_1100650B#LSCR:DESC#f4fd694a5b8960bf24b96eeaad66d05b",
+    "original": "Due to the highly irradiated waters throughout Point Lookout many dogs have become mutated and diseased. Despite this they still remain highly perceptive and aggressive.",
+    "translation": "由于望海崖一带水域遭受高度辐射污染，许多狗因此变异生病。尽管如此，它们依然保持着敏锐的感知力和强烈的攻击性。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LoadScreenEcology07_11008440#LSCR:DESC#f595f65cffd39698472d61bb8c69c66c",
+    "original": "Point Lookout is rumoured to be home to a unique creature called the Punga Scorpion, a unique variant of the Rad-Scorpion that shares similar characteristics to the Punga plant.",
+    "translation": "据传，望海崖上居住着一种名叫“膨葛蝎”的独特生物，这是辐射蝎的一个变种，其特征与膨葛植物颇为相似。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LoadScreenFactions04_110381C8#LSCR:DESC#1233469c72120d2bf886489f157f3f8a",
+    "original": "Since their discovery of Point Lookout, the number of Smugglers and their encampments has rapidly increased.",
+    "translation": "自从望海崖被发现以来，走私者及其营地的数量迅速增加。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LoadScreenHistory10_11041178#LSCR:DESC#114d17ffa927b90eca1cff212b5afe2d",
+    "original": "Point Lookout once had one of the vastest underground systems in the Maryland, most of which are now overgrown or flooded.",
+    "translation": "望海崖曾是马里兰州最庞大的地下系统之一，如今大部分都已杂草丛生或被水淹没。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage_11070F9C#MESG:DESC#c2f690535ed6095ce0183d10e26de12a",
+    "original": "This Protectron is in bad condition, but it's most important parts are intact. A decent mechanic should be able to fix it.\\n[1 Fission Battery, 1 Turpentine and 2 Tin Cans required]",
+    "translation": "这台保卫者机器人似乎状况不佳，许多部件都缺失了。但是它的关键部件完好无损。一名训练有素的机械师应该能够修好它。\\n[需要1个核裂变电池, 1个松节油和2个锡罐]",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage_11070F9C#MESG:FULL#ce59179eb17f179f0aeee44c6a668c06",
+    "original": "Boardwalk Protectron",
+    "translation": "栈道保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage_11070F9C#MESG:ITXT#a142211509db2683297bdccae34b0fa4",
+    "original": "Do nothing.",
+    "translation": "什么都不做。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage_11070F9C#MESG:ITXT#aebe6fcf043682d5a275ca2978afd5bb",
+    "original": "[Repair 35] Attempt to fix the robot.",
+    "translation": "[修理: 35]尝试修复机器人。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage_11070F9C#MESG:ITXT#73e3d101b474b151798b8ae39fa2ff89",
+    "original": "[Repair 20] Salvage the Protectron for spare parts.",
+    "translation": "[修理: 20]拆卸保卫者机器人以获取零件。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage2_11070F9E#MESG:DESC#cd242bc6e4200c3657e69675d93d27e8",
+    "original": "Externally this Protector looks fine, but it's internals reveal moderate damage. A skilled mechanic may be able to repair it however.\\n[2 Fission batteries, 1 Conductor and 3 Tin Cans required]",
+    "translation": "从外表看，这个保卫者机器人看起来还好，但内部已受到中等程度的损坏。不过，熟练的机械师或许能够修复它。 \\n[需要2个核裂变电池、1个导管和3个锡罐]",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage2_11070F9E#MESG:FULL#ce59179eb17f179f0aeee44c6a668c06",
+    "original": "Boardwalk Protectron",
+    "translation": "栈道保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage2_11070F9E#MESG:ITXT#a142211509db2683297bdccae34b0fa4",
+    "original": "Do nothing.",
+    "translation": "什么都不做。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage2_11070F9E#MESG:ITXT#ea20054cff12489b291c9d0761cb7003",
+    "original": "[Repair 50] Attempt to fix the robot.",
+    "translation": "[修理: 50]尝试修复机器人。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairMessage2_11070F9E#MESG:ITXT#73e3d101b474b151798b8ae39fa2ff89",
+    "original": "[Repair 20] Salvage the Protectron for spare parts.",
+    "translation": "[修理: 20]拆卸保卫者机器人以获取零件。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairedMessage_11070FA1#MESG:DESC#33b33ba8fad3137b7915227d3ba21dbd",
+    "original": "You have repaired the Protectron!",
+    "translation": "你已经修理了保卫者机器人!",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronRepairedMessage_11070FA1#MESG:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWRobotsDoorMsg_11072429#MESG:DESC#a661ad6d34d7ebd7a14029d4dc5bdfd7",
+    "original": "This door is locked tight, and the mechanism seems to be electronic. If it was supplied with power, you may be able to get it open.",
+    "translation": "这扇门锁得很紧，而且看起来是电子锁。如果给它供电，你可能会打开它。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWRobotsDoorMsg_11072429#MESG:FULL#1171d6380498909129cb6947ee414dfb",
+    "original": "Electronic Door",
+    "translation": "电子门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotDisabledMessage_110738E0#MESG:DESC#1c8888a52468452072204040027e757e",
+    "original": "The Sentry Bot has been permanently disabled.",
+    "translation": "铁卫兵已经永久瘫痪。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotDisabledMessage_110738E0#MESG:FULL#ee75bc0b18326607a75cde030f1698a1",
+    "original": "Sentry Bot",
+    "translation": "铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronDisabledMessage_110738E1#MESG:DESC#1d18a3eacbf8453c9a69b47592d1369f",
+    "original": "The Protectron has been permanently disabled.",
+    "translation": "保卫者机器人已经永久瘫痪。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWProtectronDisabledMessage_110738E1#MESG:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsSwitchNoPowerMsg_1107EB02#MESG:DESC#17d6de50b8bef7a61fad1ee960e21218",
+    "original": "The switch is unpowered.",
+    "translation": "开关没有通电。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsSwitchNoPowerMsg_1107EB02#MESG:FULL#08137470720e39d472de7e005d7b5a71",
+    "original": "Generator Switch",
+    "translation": "发电机开关",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ArkDoveAccessGranted_110869C5#MESG:DESC#b91b75f7c621d2f33b34ffde5fcc0001",
+    "original": "You have been granted access to the Ark & Dove Passage.",
+    "translation": "您已获得方舟与白鸽通道的准入权限。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04ArkDoveAccessGranted_110869C5#MESG:FULL#b710b619fa90c82a2ef738c7f1236d64",
+    "original": "Ark & Dove Cathedral",
+    "translation": "方舟与和平鸽大教堂",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsg_11006541#MESG:DESC#abc5ca672f2fba35b0e7cddfb3efd3e8",
+    "original": "This generator is responsible for supplying the boardwalk's lighting and security systems with power. Repairing the generator would enable the boardwalk's systems to work again.\\n\\nThis generator is responsible for supplying the boardwalk with power. Repairing it would allow the lighting and security systems to come back online.",
+    "translation": "这个发电机负责为栈道的照明和安全系统供电。修复这个发电机可以使栈道的系统重新工作。\\n\\n这个发电机负责为栈道供电。修复它可以使照明和安全系统重新上线。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsg_11006541#MESG:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsg_11006541#MESG:ITXT#e7768fcf3456e57caf0d0e3fe5e4c30b",
+    "original": "Do Nothing",
+    "translation": "什么都不做",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsg_11006541#MESG:ITXT#a9c79d3ec7ceb733500b81630f641b06",
+    "original": "Start the Generator",
+    "translation": "启动发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04FixedGeneratorMsg_11006F83#MESG:DESC#c8545a61e2fdeec64162fac6a68f2b4a",
+    "original": "You fixed the generator!",
+    "translation": "你修好了发电机！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelGeneratorMsg_1100A40F#MESG:DESC#b66eac87275781edbb8086a367c89018",
+    "original": "This generator supplies power to the exterior lighting systems of the motel, however many parts are missing. Someone skilled enough could attempt to fix it.\\n[Repair of 65, 3 Scrap Metal, 2 Fission Batteries, and 3 Tin Cans required]",
+    "translation": "这个发电机为汽车旅馆的外部照明系统供电，但许多部件丢失了。有足够技能的人可以尝试修复它。\\n[需要65修理、3块废金属、2块核裂变电池和3个锡罐]",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelGeneratorMsg_1100A40F#MESG:FULL#be38a63d39fa011ec1676fa5eae1fca1",
+    "original": "Homestead Motel Generator",
+    "translation": "如家汽车旅馆发动机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelGeneratorMsg_1100A40F#MESG:ITXT#a142211509db2683297bdccae34b0fa4",
+    "original": "Do nothing.",
+    "translation": "什么都不做。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelGeneratorMsg_1100A40F#MESG:ITXT#846cdacf653aa3f9c275b0f7908a7572",
+    "original": "[Repair 65] Attempt to fix the generator.",
+    "translation": "[修理65]尝试修复发电机。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsg3_1100A4E1#MESG:DESC#53cc84a05ac47e2c7e3b4b61767dd3aa",
+    "original": "This generator is currently powering the Homestead Motel's lighting.",
+    "translation": "发电机目前正为如家汽车旅馆的照明供电。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsg3_1100A4E1#MESG:ITXT#a11b421602b4be881849e9403065d58c",
+    "original": "Leave it alone.",
+    "translation": "别去碰它。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsGeneratorNoPowerMsg_1100BA50#MESG:DESC#8100ff0cef1c0d3a1cd25aab02a7967a",
+    "original": "This generator is fully functional, but lacks any energy.",
+    "translation": "这个发电机功能齐全，但缺乏能量。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsGeneratorNoPowerMsg_1100BA50#MESG:FULL#aaac4ab1f7dc9a2dd88579c0b1e2ca23",
+    "original": "Boardwalk Generator",
+    "translation": "栈道发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsGeneratorNoPowerMsg_1100BA50#MESG:ITXT#a11b421602b4be881849e9403065d58c",
+    "original": "Leave it alone.",
+    "translation": "别去碰它。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseBoxMSG_1100BA62#MESG:DESC#844d183c95842b2f6a6d156b6425ec67",
+    "original": "This fusebox seems to be missing a few critical fuses. If you had some to repair it with, you could attempt to insert them in.",
+    "translation": "这个保险丝盒似乎缺少了一些关键的保险丝。如果你有保险丝来修理它，你可以试着把它们插进去。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseBoxMSG_1100BA62#MESG:FULL#5fbe7c9465e5ed28eca130121b22fd98",
+    "original": "Fuse Box",
+    "translation": "保险丝盒",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseBoxMSG_1100BA62#MESG:ITXT#a142211509db2683297bdccae34b0fa4",
+    "original": "Do nothing.",
+    "translation": "什么都不做。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseBoxMSG_1100BA62#MESG:ITXT#9e3b897ea25edbdba89be167b873e875",
+    "original": "Place the fuses into the board",
+    "translation": "请将这些保险丝放入电路板",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFixedGeneratorMsg_1100CEE8#MESG:DESC#6bd953b630aaf85e10a2426b648923a7",
+    "original": "You have fixed the generator, enabling power to the boardwalk's lighting and security systems.",
+    "translation": "您已修复发电机，使栈道照明和安保系统恢复供电。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFixedGeneratorMsg_1100CEE8#MESG:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04OttisDeathMsg_1103CABD#MESG:DESC#524f0a107be0cdbc1c22baccd0dc0853",
+    "original": "Ottis Creel has died.",
+    "translation": "奥蒂斯·克里尔死了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04OttisDeathMsg_1103CABD#MESG:FULL#f1a13e8639664a2ed080139d169c1aa8",
+    "original": "Warning!",
+    "translation": "警告！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MargaretDeathMsg_1103CABE#MESG:DESC#f988a231b94cd89fe208363f5b3baf37",
+    "original": "Margaret Larson has died.",
+    "translation": "玛格丽特·拉森死了",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MargaretDeathMsg_1103CABE#MESG:FULL#f1a13e8639664a2ed080139d169c1aa8",
+    "original": "Warning!",
+    "translation": "警告！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04KarlDeathMsg_1104083A#MESG:DESC#15304b3995c350de1490f9b231a2a631",
+    "original": "Karl Smithy has died.",
+    "translation": "卡尔·史密斯死了",
+    "stage": 1
+  },
+  {
+    "key": "DLC04KarlDeathMsg_1104083A#MESG:FULL#f1a13e8639664a2ed080139d169c1aa8",
+    "original": "Warning!",
+    "translation": "警告！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04JesseDeathMsg_1104083C#MESG:DESC#1a492008a189aefc170320064cf5172c",
+    "original": "Jesse has died.",
+    "translation": "杰西死了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04JesseDeathMsg_1104083C#MESG:FULL#f1a13e8639664a2ed080139d169c1aa8",
+    "original": "Warning!",
+    "translation": "警告！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BusterDeathMsg_1104083D#MESG:DESC#6b545e7c55b8c0df467c37ff320b6358",
+    "original": "Buster has died.",
+    "translation": "巴斯特死了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BusterDeathMsg_1104083D#MESG:FULL#f1a13e8639664a2ed080139d169c1aa8",
+    "original": "Warning!",
+    "translation": "警告！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SewerLidWeldedShitMsg_1104117B#MESG:DESC#8d92f6c2df247b6ae147aa7fe67b93e1",
+    "original": "This sewer lid appears to be welded shut.",
+    "translation": "这个下水道井盖似乎是焊死的。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04SewerLidWeldedShitMsg_1104117B#MESG:FULL#e969ce2cd7aa44cf149f2da754a6d0ec",
+    "original": "Manhole",
+    "translation": "维修井",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseStaticMsg_11046507#MESG:DESC#005b33ccdacc6b35fd4999a9c1915084",
+    "original": "This fuse is currently being used to power the boardwalk lighting. Removing the fuse would cut the power.",
+    "translation": "这个保险丝目前正用于给栈道照明供电。移除保险丝会切断电源。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04LightsFuseStaticMsg_11046507#MESG:FULL#c900261b6dd1aa657c184bb9f9c21c99",
+    "original": "Fuse",
+    "translation": "保险丝",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelDoorLockedMsg_11056CCD#MESG:DESC#a661ad6d34d7ebd7a14029d4dc5bdfd7",
+    "original": "This door is locked tight, and the mechanism seems to be electronic. If it was supplied with power, you may be able to get it open.",
+    "translation": "这扇门锁得很紧，而且看起来是电子锁。如果给它供电，你可能会打开它。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelDoorLockedMsg_11056CCD#MESG:FULL#1d68073c53024bf650f92124cd3f18c1",
+    "original": "Motel Door",
+    "translation": "旅馆门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelDoorBlockedMsg_11056CCF#MESG:DESC#7a6b17eab1cfcefeb58057d0f785672b",
+    "original": "This door seems to be jammed from the other side.",
+    "translation": "这扇门似乎从另一侧卡住了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelDoorBlockedMsg_11056CCF#MESG:FULL#1d68073c53024bf650f92124cd3f18c1",
+    "original": "Motel Door",
+    "translation": "旅馆门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsgMotel_11059EBC#MESG:DESC#2795d4537189a55b8135a35188dc600e",
+    "original": "This generator is currently powering the exterior lighting of the Homestead Motel.",
+    "translation": "这个发电机目前正为如家汽车旅馆的外部照明供电。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsgMotel_11059EBC#MESG:FULL#43798e5e7cfbbc53b7221f297c1ea7d4",
+    "original": "Generator",
+    "translation": "发电机",
+    "stage": 1
+  },
+  {
+    "key": "DLC04GeneratorMsgMotel_11059EBC#MESG:ITXT#a11b421602b4be881849e9403065d58c",
+    "original": "Leave it alone.",
+    "translation": "别去碰它。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingDoorMsg_1105A9EA#MESG:DESC#c1e97fc71e22ded535e1bd94e598d6bf",
+    "original": "The door is powered but it seems to be activated elsewhere.",
+    "translation": "门是带电的，但似乎在其他地方被激活了。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingDoorMsg_1105A9EA#MESG:FULL#af09cb853b53e1341f9f8d27dc5d550d",
+    "original": "Utility Door",
+    "translation": "工作间门",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingSuccess_1105B43B#MESG:DESC#c7ebc00cd12ec37a40f3040115d8cb84",
+    "original": "The motels secondary lighting has been enabled. This includes the motels lower level lighting and the exterior lighting at night.",
+    "translation": "如家汽车旅馆的次要照明已启用，包括汽车旅馆低层照明和夜间外部照明",
+    "stage": 1
+  },
+  {
+    "key": "DLC04MotelLightingSuccess_1105B43B#MESG:FULL#b4fab5dccc3c22eb6d4b0159bb386f0d",
+    "original": "Homestead Motel Lighting",
+    "translation": "如家汽车旅馆照明",
+    "stage": 1
+  },
+  {
+    "key": "PointLookoutRebornMsg_1105D37B#MESG:DESC#4116f80acd7db7a66f3442ac48cf9468",
+    "original": "Point Lookout Reborn has been successfully installed and loaded to your game.",
+    "translation": "望海崖重生已成功安装并加载至你的游戏",
+    "stage": 1
+  },
+  {
+    "key": "PointLookoutRebornMsg_1105D37B#MESG:FULL#03f98c48ed613c542e8aa41401146c21",
+    "original": "Point Lookout Reborn",
+    "translation": "望海崖重生",
+    "stage": 1
+  },
+  {
+    "key": "PointLookoutRebornWarningMsg_1105D37C#MESG:DESC#dc4886a7288b3dff83680016f9935bdd",
+    "original": "Point Lookout Reborn has detected you have already made progress in Point Lookout\\n\\nIt is highly recommended that you do not use Point Lookout Reborn from this save. Start a new game or load a previous save before you made any progress in the Point Lookout DLC.\\n\\nThis step It is not essential and will not stop this mod from working. However it will likely cause some instability when playing in Point Lookout and cause a lot of the additional content not to work. If you decide not to follow this instruction then do not report any errors found as they will likely be a result of not following this instruction.",
+    "translation": "望海崖重生检测到你在望海崖已经有所进展\\n\\n强烈建议你不要从这个存档开始使用望海崖重生。在望海崖DLC 中取得任何进展之前，请开始一个新游戏或加载以前的存档。\\n\\n此步骤不是必需的，也不会阻止此模组正常工作。但是，在望海崖游玩时可能会导致一些不稳定，并使许多额外内容无法工作。如果你决定不遵循此说明，请不要报告发现的任何错误，因为它们很可能是没有遵循此说明的结果。",
+    "stage": 1
+  },
+  {
+    "key": "PointLookoutRebornWarningMsg_1105D37C#MESG:FULL#f1a13e8639664a2ed080139d169c1aa8",
+    "original": "Warning!",
+    "translation": "警告！",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairMessage_1106E674#MESG:DESC#4560ed9318390ca2eb7b604108bd37c4",
+    "original": "This Sentry Bot appears to be in bad condition, with many missing or damaged parts. A highly trained mechanic should be able to fix it.\\n[1 Conductor, 2 Scrap Metal, 2 Fission Batteries, and 1 Wonderglue required]",
+    "translation": "这台铁卫兵看起来状况很差，许多部件丢失且受损。训练有素的机械师应该能够修好它。\\n[需要1个导管、2个废金属、2个核裂变电池和1个万能胶]",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairMessage_1106E674#MESG:FULL#bfec9ddb8f2fe48c946a4fc0f9728725",
+    "original": "Boardwalk Sentrybot",
+    "translation": "栈道铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairMessage_1106E674#MESG:ITXT#a142211509db2683297bdccae34b0fa4",
+    "original": "Do nothing.",
+    "translation": "什么都不做。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairMessage_1106E674#MESG:ITXT#1ee71007e921d09c5f70a24ed0038c9b",
+    "original": "[Repair 75] Attempt to fix the robot.",
+    "translation": "[修理75]尝试修复机器人。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairMessage_1106E674#MESG:ITXT#71a91345ce2ea0fbbe2083f55b94f873",
+    "original": "[Repair 25] Salvage the robot for spare parts.",
+    "translation": "[修理25]把机器人拆成零件。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairedMessage_11070551#MESG:DESC#cc9532621d98078d08c047ec19412f10",
+    "original": "You have repaired the sentry bot!",
+    "translation": "你已经修理了铁卫兵!",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWSentryBotRepairedMessage_11070551#MESG:FULL#ee75bc0b18326607a75cde030f1698a1",
+    "original": "Sentry Bot",
+    "translation": "铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWRobotDead_11070F9A#MESG:DESC#947a08da1551e8f6df461b47e88fe749",
+    "original": "This Protectron appears to be beyond repair.",
+    "translation": "这个保卫者机器人似乎无法修复。",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWRobotDead_11070F9A#MESG:FULL#815a5a6e9c2a60976272b06b48042501",
+    "original": "Protectron",
+    "translation": "保卫者机器人",
+    "stage": 1
+  },
+  {
+    "key": "DLC04BWRobotDead_11070F9A#MESG:ITXT#13ea570599f70547da61d85b99492ca5",
+    "original": "Do nothing",
+    "translation": "什么都不做",
+    "stage": 1
+  }
+]
