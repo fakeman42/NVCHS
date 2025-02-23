@@ -174,7 +174,10 @@
 		
 		<!-- True Open World DC -->
 		<json path="Data/NVCHSDict/json/Mods/OpenWorldDC.json" priority="5" />
-		
+
+		<!-- The Freepost Mojave Express Expansion -->
+		<json path="Data/NVCHSDict/json/Mods/FreePostMojave.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/FreePostMojave_chs.txt" src="Data/NVCHSDict/Mods/FreePostMojave_en.txt" type="2" priority="5"/>
 		
 		<!-- Unfriendlier Persuasion -->
 		<json path="Data/NVCHSDict/json/Mods/UnfriendlierPersuasion.json" priority="5" />
