@@ -1,0 +1,131 @@
+MUX00000001	Oxygen
+MUX00000002	OX Toolkit
+MUX00000003	M.U.X. Series - Core
+MUX00000004	Item Explorer
+MUX00000005	Inactive: Missing Addon
+MUX00000006	Weapon Editor
+MUX00000007	Light Editor
+MUX00000008	Weather Editor
+MUX00000009	Active: Version [%]
+MUX00000010	Interior Editor
+MUX00000011	Shader Editor
+MUX00000012	Skill Tree
+MUX00000013	Toolkit Builder
+MUX00000014	Page
+MUX00000015	Vendor Marker
+MUX00000016	Door Marker
+MUX00000017	Focus Highlighter
+MUX00000018	Floating Prompt
+MUX00000019	Healthbar Distance
+MUX00000020	Distance Offset
+MUX00000021	Friendly NPC
+MUX00000022	Render Mode
+MUX00000023	RefWalk Interval
+MUX00000024	Callback
+MUX00000025	Door Distance
+MUX00000026	Quest Duration
+MUX00000027	Quest Reminder
+MUX00000028	Location Duration
+MUX00000029	Vendor Distance
+MUX00000030	
+MUX00000031	Make the Prompt hoovering about the Object. Please note that some Meshes lacking Dimension Data and it wont look alright.
+MUX00000032	Determine the Duration of the Location Display in Seconds.
+MUX00000033	Determine the Duration of the Quest Update Display in Seconds. (Not used by Classic Preset use Location Duration instead)
+MUX00000034	Determine the Interval Delay in Minutes.
+MUX00000035	Enables Fallout 4 Power Armor UI. Only works for Screen Format 16:9
+MUX00000036	Highlights NPCs providing services (e.g. trade, repairs, etc.). May sometimes incorrectly mark NPCs.
+MUX00000037	Toggles floating door icons for load zone/teleport doors.
+MUX00000038	RefWalk Interval define how often Quest Markers, Compass and any kind of Floating Markers gets updated. 1 Means it update every Frame while 30 means it will update every 30 Frames. Lowering this numbers decrease the pop-ins of cost of performance. While increasing improve performance of cost of pop-ins.
+MUX00000039	The major difference is that OnRender is faster but can introduce sometimes Console Errors which can be ignored. Callback is slower and introduce sort of laggy markers but has greatly less error prints.
+MUX00000040	Define the Floating Marker Distance. This Markers aint suited for distance beyond 2000.
+MUX00000041	Allow Floating Healthbar to Register Friendly NPCs.
+MUX00000042	Enable Immersive HUD Function
+MUX00000043	Disable/Enable iHUD trough Hotkey
+MUX00000044	Choose your Percentage Value until Health Display
+MUX00000045	Display Health Points always.
+MUX00000046	Display Health Points during Combat.
+MUX00000047	AP Change
+MUX00000048	AP Treshold
+MUX00000049	Display Health Points while Weapon is out.
+MUX00000050	Weapon Weapon Out
+MUX00000051	Display Health Points while attacking.
+MUX00000052	Display Health Points while droping under the Treshold.
+MUX00000053	Display Health Points whenever it change.
+MUX00000054	Choose your Percentage Value until Action Points Display
+MUX00000055	Display Action Points during Combat.
+MUX00000056	Display Action Points while Weapon is out.
+MUX00000057	Display Action Points while attacking.
+MUX00000058	HP Treshold
+MUX00000059	Display Action Points whenever it change.
+MUX00000060	Display Compass always.
+MUX00000061	Immersive HUD
+MUX00000062	Compass Attack
+MUX00000063	AP Always
+MUX00000064	Display Weapon always.
+MUX00000065	Enable Element.
+MUX00000066	Quickthrow Key
+MUX00000067	Auto Clicker
+MUX00000068	Grab Key
+MUX00000069	Rapid Fire
+MUX00000070	Sprint Key
+MUX00000071	D-Pad Replacer
+MUX00000072	Disables the LS button's default function for compatibility with Just Mods Assorted. It will still execute its default function while your character is seated. For this reason, I recommend setting LS as your default "Wait" button
+MUX00000073	Header
+MUX00000074	Replaces the RB button's default function with the B42 Quickthrow mechanic. Please set B42 Quickthrow's MCM Menu hotkey to "L".
+MUX00000075	Replaces the RS button's default function with the B42 Bash mechanic. Please set B42 Bash's MCM Menu hotkey to "K".
+MUX00000076	Hold Y to Grab. Tapping the button will execute its usual Function. Useful for freeing up a button entirely.
+MUX00000077	Self explanatory.
+MUX00000078	Holding Y will auto-collect items. Incompatible with the Grab Key option.
+MUX00000079	Replace the D-Pad with a more modern version. Including new feature like Real Time Modding, Toggle Night Vision, Toggle Scope and the ability of adding custom hotkeys. (See Mod description)
+MUX00000080	NPC Tagging Sound
+MUX00000081	Low Ammo Threshold
+MUX00000082	Kill Feed
+MUX00000083	NPC Tagging Distance
+MUX00000084	KF Sound Type
+MUX00000085	Scavenger Distance
+MUX00000086	Sneak Distance
+MUX00000087	Number Distance
+MUX00000088	Wallhack
+MUX00000089	NPC Tagging Method
+MUX00000090	3D Sneak
+MUX00000091	KF Y Position
+MUX00000092	Floating Combat Info
+MUX00000093	Reload Reminder
+MUX00000094	Floating Damage
+MUX00000095	Targeting
+MUX00000096	KF Justify
+MUX00000097	Reload Threshold
+MUX00000098	No Ammo Indicator
+MUX00000099	KF X Position
+MUX00000100	Toggles Floating Damage. Floating Damage will display damage dealt by the player before fading out of view.
+MUX00000101	Toggles Reload Reminder. Reload Reminder will display Low Ammo / No Ammo on screen as players dispense their ammunition.
+MUX00000102	Toggles Scavenger. Scavenger will display markers above high quality loot as the player approaches its location.
+MUX00000103	Toggles Targeting. Targeting is a feature used by the player to tag enemies when viewing them through a scope. Tagged enemies will remain highlighed untill killed, or the player moves a certain distance away.
+MUX00000104	Toggles 3D Sneak. 3D Sneak will display an icon above NPCs when they have detected the player.
+MUX00000105	Adds combat information texts to floating damage numbers (such as: crippled, headshot, kill, critical...).
+MUX00000106	Toggles no ammo indicator.
+MUX00000107	Sets ammo clip capacity percentage at which reload warning is displayed. Set to 0 to Disable.
+MUX00000108	Sets ammo capacity percentage in inventory at which low ammo warning is displayed. Set to 0 to Disable.
+MUX00000109	Sets maximum display distance for the Scavenger add-on. Higher numbers will have a noticeable impact on performance and increase the odds of markers appearing through walls.
+MUX00000110	Choose condition under which NPCs will be tagged.
+MUX00000111	Maximum range for NPC tagging.
+MUX00000112	Plays a sound when you tag an NPC. (Does not work for NPCs tagged by a player weapon hit.)
+MUX00000113	Applies a shader to tagged actors behind cover. (The shader might look a little rough, I'm not a professional at this.)
+MUX00000114	Define the Floating Marker Distance. This Markers aint suited for distance beyond 2000.
+MUX00000115	Toggle Kill Feed
+MUX00000116	Choose the sound that will play when the kill feed is shown.
+MUX00000117	By default, the FPS version of the kill feed is left aligned.
+MUX00000118	Define the X Position on the Screen for the Kill Feed
+MUX00000119	Make the Prompt hoovering about the Object. Please note that some Meshes lacking Dimension Data and it wont look alright.
+MUX00000120	Determine the Duration of the Location Display in Seconds.
+MUX00000121	Determine the Duration of the Quest Update Display in Seconds. (Not used by Classic Preset use Location Duration instead)
+MUX00000122	Display Quest Objective whenever you hoover over a Marker.
+MUX00000123	
+MUX00000124	Toggles floating door icons for load zone/teleport doors.
+MUX00000125	The major difference is that OnRender is faster but can introduce sometimes Console Errors which can be ignored. Callback is slower and introduce sort of laggy markers but has greatly less error prints.
+MUX00000126	Enable Immersive HUD Function
+MUX00000127	Disable/Enable iHUD trough Hotkey
+MUX00000128	Choose your Percentage Value until Health Display
+MUX00000129	
+MUX00000130	
+MUX00000131	
