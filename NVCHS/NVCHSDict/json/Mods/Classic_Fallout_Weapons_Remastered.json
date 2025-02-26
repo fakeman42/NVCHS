@@ -1,0 +1,1406 @@
+[
+  {
+    "key": "NullEDID_00000000#TES4:CNAM#5ab3a37d82160e0d170dcbddc617d5b8",
+    "original": "Webb Productions and Sweet6Shooter plus many others",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "ZUCABDesintegrationEffectSCR_0A0008C2#SCPT:SCTX#825ad134af3a797f62d069d7b14fa682",
+    "original": "ScriptName ZUCABDesintegrationEffectSCR\\n\\nFloat Timer\\nShort DoOnce\\nShort IsPile\\n\\nBegin ScriptEffectStart\\n\tif getisid nvcrmrhouse == 0\\n\tSetCriticalStage DisintegrateStart\\n\tPMS ZUCABLaserCritGlowFXShader\\n\tPMS ZUCABDesintegrationEffectShader01\\n\tSet Timer to 1.8\\n\tSet DoOnce to 0\\n\tendif\\nEnd\\n\\n\\nBegin ScriptEffectUpdate\\n\tIf DoOnce == 0\\n\t\tIf IsPile == 0\\n\t\t\tIf Timer <= 0.5\\n\t\t\t\tAttachAshPile\\n\t\t\t\tSet IsPile to 1\\n\t\t\tEndIf\\n\t\tEndIf\\n\t\tIf Timer <= 0 \\n\t\t\tSetCriticalStage DisintegrateEnd\\n\t\t\tSMS ZUCABLaserCritGlowFXShader\\n\t\t\tSMS ZUCABDesintegrationEffectShader01\\n\t\t\tSet DoOnce to 1\\n\t\tEndIf\\n\t\tSet Timer to (Timer - GetSecondsPassed)\\n\tEndIf\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SCPTCFWRStartup2_0A008ABC#SCPT:SCTX#e233ac6b5ef3b6a16acbfaf6ccc97269",
+    "original": "scn SCPTCFWRStartup2\\n\\nint fDebugPrints\\n\\nBegin GameMode\\n\\n\tif GetGameRestarted\\n\\n\t\tif GetINIFloat \"Version:fDebug\" \"CFWR Config.ini\" == 1\\n\t\t\tfDebugPrints = 1\\n\t\tendif\\n\t\tif fDebugPrints\\n\t\t\tprintc \"CFWR Startup Script 2 begun\"\\n\t\tendif\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:sDesertEagle\" \"CFWR Config.ini\" == 1\\n\t\t\t;Desert Eagle\\n\t\t\tLeveledListAddForm VendorWeaponModsGunsTier4 ModNVMDEagleComp 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponModsGunsTier4 ModNVMDEagleExt 1 1 1.0\\n\t\t\tLeveledListAddForm 188NCRArmsMerchantMods ModNVMDEagleComp 12 1 1.0\\n\t\t\tLeveledListAddForm 188NCRArmsMerchantMods ModNVMDEagleExt 12 1 1.0\\n\t\t\tLeveledListAddForm DamNCRTrooperWeapons WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm GunRunnerGunsAllTier4 CFWRWeapClassicMDEagle 1 1 0.99\\n\t\t\tLeveledListAddForm Fiend2WeaponGunNV WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm Fiend3WeaponGunNV WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4Guns WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4Guns25 WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4Guns50 WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4Guns75 WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2WastelanderVipersLeaderWeaponNV WithAmmoDesertEaglePistolLoot 15 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsTier4 WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2WastelanderVipersLeaderWeaponNV WithAmmoDesertEaglePistolLoot 15 1 1.0\\n\t\t\tLeveledListAddForm VFactionSquadLegionVeteranWeapons WithAmmoDesertEaglePistolLoot 12 1 1.0\\n\t\t\tLeveledListAddForm LootGunPistolsAll WithAmmoDesertEaglePistolLoot 16 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsCommon WithAmmoDesertEaglePistolLoot 16 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsRare WithAmmoDesertEaglePistolLoot 10 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC02VendorWeaponsModern WithAmmoDesertEaglePistolLoot 10 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02TierGunsRangerMed WithAmmoDesertEaglePistolLoot 10 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02TierGunsRangerMed50 WithAmmoDesertEaglePistolLoot 10 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02WeaponsWhiteLegLightBringerGuns WithAmmoDesertEaglePistolLoot 10 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02WeaponsWhiteLegStormDrummerGuns WithAmmoDesertEaglePistolLoot 10 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LobotomiteWeapon WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC04LegionaryGuns WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootNukeTier5GunsLIST WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04MarkedMenScoutTier4RangeWeapons WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04NukedNCRTier5PlusWeapons WithAmmoDesertEaglePistolLoot 1 1 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR Deagle integrated.\"\\n\t\t\tendif\\n\t\tendif\\n\\n\t\tListAddForm Everything CFWRWeapLaserPistol\\n\t\tListAddForm NVALLWeapons CFWRWeapLaserPistol\\n\t\tListAddForm WeaponListRangedAll CFWRWeapLaserPistol\\n\t\tListAddForm GunsList CFWRWeapLaserPistol\\n\t\tListAddForm EnergyWeapons CFWRWeapLaserPistol\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapLaserPistol\\n\t\tListAddForm NVHoldoutWeapons CFWRWeapLaserPistol\\n\t\tListAddForm TheProfessionalWeaponsList CFWRWeapLaserPistol\\n\t\tListAddForm LaserCommanderWeaponsList CFWRWeapLaserPistol\\n\t\tListAddForm RepairLaserPistol CFWRWeapLaserPistol\\n\t\tListAddForm NVDLC01ExplodesGasTrapsOnHit CFWRWeapLaserPistol\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapLaserPistol\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:sWattzLaserPistol\" \"CFWR Config.ini\" == 1\\n\t\t\t;Wattz 1.00 Laser Pistol\\n\t\t\tLeveledListAddForm BrotherhoodCrateRandomLoot CondWattzLaserPistolBoS 1 1 1.0\\n\t\t\tLeveledListAddForm BrotherhoodOfSteelWeaponEnergy WithAmmoWattzLaserPistolBoS 1 1 1.0\\n\t\t\tLeveledListAddForm EnclaveWeaponPistol WithAmmoWattzLaserPistolEnclave 1 1 1.0\\n\t\t\tLeveledListAddForm Fiend2WeaponGunNV WithAmmoWattzLaserPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm Fiend1WeaponGunNV WithAmmoWattzLaserPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm GunRunnerStoreEnergyTier1 CFWRWeapLaserPistol 1 1 0.99\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary WithAmmoWattzLaserPistolNPC 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary25 WithAmmoWattzLaserPistolNPC 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary50 WithAmmoWattzLaserPistolNPC 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary75 WithAmmoWattzLaserPistolNPC 1 1 1.0\\n\t\t\tLeveledListAddForm LootGunLasers WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm LootGunPistolsAll WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm LootGunPistolsAll75 WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm LootGunPistolsAll75NV WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm LootWeaponsEnergyTier1 WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm Raider1WeaponGunNV WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm VanGraffEnergyAllTier1 CondWattzLaserPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyCommon WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyCommon75 WithAmmoWattzLaserPistolLoot 5 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyTier1 CondWattzLaserPistolLoot 5 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC03CorpseWeaponsEnergyTier1 WithAmmoWattzLaserPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LobotomiteWeapon WithAmmoWattzLaserPistolLoot 1 1 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR Wattz Laser Pistol integrated.\"\\n\t\t\tendif\\n\t\tendif\\n\t\tListAddForm Everything CFWRWeapPlasmaPistol\\n\t\tListAddForm NVALLWeapons CFWRWeapPlasmaPistol\\n\t\tListAddForm WeaponListRangedAll CFWRWeapPlasmaPistol\\n\t\tListAddForm GunsList CFWRWeapPlasmaPistol\\n\t\tListAddForm EnergyWeapons CFWRWeapPlasmaPistol\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapPlasmaPistol\\n\t\tListAddForm NVImprovedHoldoutWeapons CFWRWeapPlasmaPistol\\n\t\tListAddForm TheProfessionalWeaponsList CFWRWeapPlasmaPistol\\n\t\tListAddForm PlasmaSpazWeaponList CFWRWeapPlasmaPistol\\n\t\tListAddForm RepairPlasmaPistol CFWRWeapPlasmaPistol\\n\t\tListAddForm NVDLC01ExplodesGasTrapsOnHit CFWRWeapPlasmaPistol\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapPlasmaPistol\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:sGlockPlasmaPistol\" \"CFWR Config.ini\" == 1\\n\t\t\t;Glock Plasma Pistol\\n\t\t\tLeveledListAddForm EnclaveWeaponPistol WithAmmoGlockPlasmaPistolEnclave 1 1 1.0\\n\t\t\tLeveledListAddForm Fiend2WeaponGunNV WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm Fiend3WeaponGunNV WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm GunRunnerStoreEnergyTier2 CFWRWeapPlasmaPistol 1 1 0.99\\n\t\t\tLeveledListAddForm LL2Tier3EnergyGuns WithAmmoGlockPlasmaPistolLoot 8 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary25 WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary50 WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsMercenary75 WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LootWeaponsEnergyTier1 WithAmmoGlockPlasmaPistolLoot 8 1 1.0\\n\t\t\tLeveledListAddForm VanGraffEnergyAllTier2 CondGlockPlasmaPistolNPC 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyNotForSale WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyTier2 CondGlockPlasmaPistolNPC 1 1 1.0\\n\t\t\tLeveledListAddForm LootGunPistolsAll WithAmmoGlockPlasmaPistolLoot 8 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyCommon WithAmmoGlockPlasmaPistolLoot 8 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsEnergyCommon75 WithAmmoGlockPlasmaPistolLoot 8 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC03CorpseWeaponsEnergyTier2 WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LobotomiteWeapon WithAmmoGlockPlasmaPistolLoot 1 1 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR Glock Plasma Pistol integrated.\"\\n\t\t\tendif\\n\t\tendif\\n\\n\t\t;Yk32 Pulse Pistol\\n\t\tListAddForm Everything CFWRYK32PulsePistol\\n\t\tListAddForm NVALLWeapons CFWRYK32PulsePistol\\n\t\tListAddForm WeaponListRangedAll CFWRYK32PulsePistol\\n\t\tListAddForm GunsList CFWRYK32PulsePistol\\n\t\tListAddForm TheProfessionalWeaponsList CFWRYK32PulsePistol\\n\t\tListAddForm LaserCommanderWeaponsList CFWRYK32PulsePistol\\n\t\tif GetINIFloat \"Wasteland Integrations:sYk32PulsePistol\" \"CFWR Config.ini\" == 1\\n\t\t\tif YK32PulsePistolREF.getdisabled == 1\\n\t\t\t\tYK32PulsePistolREF.enable\\n\t\t\t\tif fDebugPrints\\n\t\t\t\t\tprintc \"CFWR YK32 Pulse Pistol integrated.\"\\n\t\t\t\tendif\\n\t\t\tendif\\n\t\telseif GetINIFloat \"Wasteland Integrations:sYk32PulsePistol\" \"CFWR Config.ini\" == 0\\n\t\t\tif YK32PulsePistolREF.getdisabled == 0\\n\t\t\t\tYK32PulsePistolREF.disable\\n\t\t\tendif\\n\t\tendif\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:s2mmECAmmo\" \"CFWR Config.ini\" == 1\\n\\n\t\t\tLeveledListAddForm VendorAmmoEnergyTier4 VendorM72GaussRifleAmmo 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoEnergyTier4 VendorM72GaussRifleAmmo 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoEnergyTier5 VendorM72GaussRifleAmmo 1 2 1.0\\n\t\t\tLeveledListAddForm VendorAmmoEnergyTier5 VendorM72GaussRifleAmmo 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll75 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll75 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoGunsTier5 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LL2Tier4AmmoAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LL2Tier5AmmoAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04AmmoALL M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootAmmoMarkedMenBullets100 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoSpecial50 M72GaussRifleAmmoLoot 15 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoSpecialAll M72GaussRifleAmmoLoot 15 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVArmory M72GaussRifleAmmoLoot 20 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAllLow M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAllLow M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoPowerCells100 M72GaussRifleAmmoLoot 15 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoEnergyAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoEnergyAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoEnergyAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoEnergyAll75 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedEnergyAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedEnergyAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedEnergyAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedEnergyAll75 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoEnergyAll M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoEnergyAll25 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoEnergyAll50 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoEnergyAll75 M72GaussRifleAmmoLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoPowerCells10 M72GaussRifleAmmoLoot 15 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoPowerCells100 M72GaussRifleAmmoLoot 15 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootNukeAmmoEnergyLIST M72GaussRifleAmmoLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll25 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll50 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll75 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll25 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll50 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll75 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4DrainedCellAmmoMixedAll Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4DrainedCellAmmoMixedAll25 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4DrainedCellAmmoMixedAll50 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier4DrainedCellAmmoMixedAll75 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll25 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll50 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll75 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll25 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll50 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll75 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5DrainedCellAmmoMixedAll Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5DrainedCellAmmoMixedAll25 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5DrainedCellAmmoMixedAll50 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm LL2Tier5DrainedCellAmmoMixedAll75 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm NVDLC02Tier5DrainedCellAmmoMixedAll Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm NVDLC02Tier5DrainedCellAmmoMixedAll25 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm NVDLC02Tier5DrainedCellAmmoMixedAll50 Drained2mmEC75 1 11 1.0\\n\t\t\tLeveledListAddForm NVDLC02Tier5DrainedCellAmmoMixedAll75 Drained2mmEC75 1 11 1.0\\n\\n\t\t\tLeveledListAddForm VendorReloadingSuppliesTier4 Drained2mmEC75 1 8 1.0\\n\t\t\tLeveledListAddForm VendorReloadingSuppliesTier5 Drained2mmEC75 1 11 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR 2mm first round done.\"\\n\t\t\tendif\\n\t\telse\\n\t\t\tBaseRemoveItem VendorAmmo2mmEC 99 CFWRVendorChestAmmo2mmEC\\n\t\t\tBaseRemoveItem Drained2mmEC75 99 CFWRVendorChestAmmo2mmEC\\n\t\tendif\\n\t\tif GetINIFloat \"Wasteland Integrations:s47mmAmmo\" \"CFWR Config.ini\" == 1\\n\t\t\tLeveledListAddForm 188NCRArmsMerchantAmmo LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll25 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll50 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll75 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll25 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll50 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll75 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll25 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll50 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll75 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll25 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll50 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll75 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll25 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll50 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll75 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll25 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll50 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll75 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoBullets10 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoBullets100 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoBullets75 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVBullets10 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVBullets100 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVBullets75 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoBullets100 LootAmmo47mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoGunsTier4 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoGunsTier5 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootNukeAmmoGunsLIST LootAmmo47mm 20 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC03LL2Tier4AmmoAll25 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LL2Tier5AmmoAll25 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootAmmoMarkedMenBullets100 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04AmmoALL LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoSpecial50 LootAmmo47mm 15 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoSpecialAll LootAmmo47mm 15 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVArmory LootAmmo47mm 20 1 1.0\\n\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAll LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAll50 LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAllLow LootAmmo47mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAll LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAll50 LootAmmo47mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAllLow LootAmmo47mm 1 1 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR 47mm ammo first round done.\"\\n\t\t\tendif\\n\t\telse\\n\t\t\tBaseRemoveItem VendorAmmo47mm 99 CFWRVendorChestAmmo47Caseless\\n\t\t\tBaseRemoveItem VendorAmmo47mm 99 CFWRVendorChestAmmo47CaselessSpecial\\n\t\t\tBaseRemoveItem VendorAmmo47mmPhos 99 CFWRVendorChestAmmo47CaselessSpecial\\n\\n\t\tendif\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:s14mm\" \"CFWR Config.ini\" == 1\\n\t\t\tLeveledListAddForm 188NCRArmsMerchantAmmo LootAmmo14mmHalf 24 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll25 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll50 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoGunsAll75 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll25 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll50 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedAll75 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll25 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll50 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoMixedGunsAll75 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll25 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll50 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoGunsAll75 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll25 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll50 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedAll75 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll25 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll50 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoMixedGunsAll75 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoBullets10 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoBullets100 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoBullets75 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVBullets10 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVBullets100 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm LootAmmoNVBullets75 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoBullets100 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoGunsTier4 LootAmmo14mmHalf 20 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoGunsTier5 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootNukeAmmoGunsAPLIST LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootNukeAmmoGunsLIST LootAmmo14mm 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC03LL2Tier4AmmoAll25 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LL2Tier5AmmoAll25 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03LootWoodenCrateAmmo LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04LootAmmoMarkedMenBullets100 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04AmmoALL LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoSpecial50 LootAmmo47mmPhos 20 1 1.0\\n\t\t\tLeveledListAddForm VendorAmmoSpecialAll LootAmmo47mmPhos 20 1 1.0\\n\\n\t\t\tLeveledListAddForm LootAmmoNVArmory LootAmmo14mm 24 1 1.0\\n\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAll LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAll50 LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier4AmmoAllLow LootAmmo14mmHalf 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAll LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAll50 LootAmmo14mm 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier5AmmoAllLow LootAmmo14mm 1 1 1.0\\n\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll25 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll50 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoAll75 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll25 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll50 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier4CasingAmmoMixedAll75 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll25 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll50 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoAll75 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll25 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll50 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm LL2Tier5CasingAmmoMixedAll75 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm VendorReloadingSuppliesTier4 Case14mm75 1 9 1.0\\n\t\t\tLeveledListAddForm VendorReloadingSuppliesTier5 Case14mm75 1 15 1.0\\n\t\t\tLeveledListAddForm VendorCraftingSuppliesGuns Case14mm75 18 9 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR 14mm ammo first round done.\"\\n\t\t\tendif\\n\t\telse\\n\t\t\tBaseRemoveItem VendorAmmo14mm 99 CFWRVendorChestAmmo14mm\\n\t\t\tBaseRemoveItem Case14mm75 99 CFWRVendorChestAmmo14mm\\n\t\tendif\\n\\n\\n\t\tListAddForm Everything CFWRWeapPPK12GaussPistol\\n\t\tListAddForm NVALLWeapons CFWRWeapPPK12GaussPistol\\n\t\tListAddForm WeaponListRangedAll CFWRWeapPPK12GaussPistol\\n\t\tListAddForm GunsList CFWRWeapPPK12GaussPistol\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapPPK12GaussPistol\\n\t\tListAddForm TheProfessionalWeaponsList CFWRWeapPPK12GaussPistol\\n\t\tListAddForm BeamChallengeWeaponLIST CFWRWeapPPK12GaussPistol\\n\t\tListAddForm RepairGaussRifle CFWRWeapPPK12GaussPistol\\n\t\tListAddForm NVDLC01ExplodesGasTrapsOnHit CFWRWeapPPK12GaussPistol\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapPPK12GaussPistol\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:sPPK12GaussPistol\" \"CFWR Config.ini\" == 1\\n\t\t\t;PPK12 Gauss Pistol\\n\t\t\tLeveledListAddForm VendorWeaponModsEnergyTier5 ModCLPPK12GPCooler 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponModsEnergyTier5 ModCLPPK12GPSecAcc 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponModsEnergyTier5 ModCLPPK12GPScope 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponModsGunsExplosivesTier5 ModCLPPK12GPCooler 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponModsGunsExplosivesTier5 ModCLPPK12GPSecAcc 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponModsGunsExplosivesTier5 ModCLPPK12GPScope 1 1 1.0\\n\t\t\tLeveledListAddForm HVScribeWeapons WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsTier5 WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VanGraffEnergyAllTier5 WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC03CorpseWeaponsEnergyTier4 WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC03CorpseWeaponsEnergyTier5 WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC04LootNukeTier5EnergyWeaponsLIST WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04MarkedMenMarauderTier4Weapons WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04MarkedMenScoutTier5PlusRangeWeapons WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04MarkedMenScoutTier5RangeWeapons WithAmmoPPPK12GaussPistolLoot 1 1 1.0\\n\t\t\tif fDebugPrints\\n\t\t\t\tprintc \"CFWR PPK12 Gauss Pistol integrated.\"\\n\t\t\tendif\\n\t\tendif\\n\\n\t\t;Alien Blaster\\n\t\tListAddForm Everything CFWRWeapAlienBlaster\\n\t\tListAddForm NVALLWeapons CFWRWeapAlienBlaster\\n\t\tListAddForm WeaponListRangedAll CFWRWeapAlienBlaster\\n\t\tListAddForm GunsList CFWRWeapAlienBlaster\\n\t\tListAddForm TheProfessionalWeaponsList CFWRWeapAlienBlaster\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapAlienBlaster\\n\t\tListAddForm RepairAlienBlaster CFWRWeapAlienBlaster\\n\t\tListAddForm NVDLC01ExplodesGasTrapsOnHit CFWRWeapAlienBlaster\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapAlienBlaster\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:sAlienBlaster\" \"CFWR Config.ini\" == 1\\n\t\t\tif AlienBlasterREFFixed.getdisabled == 1\\n\t\t\t\tAlienBlasterREFFixed.enable\\n\t\t\t\tif fDebugPrints\\n\t\t\t\t\tprintc \"CFWR Alien Blaster integrated.\"\\n\t\t\t\tendif\\n\t\t\tendif\\n\t\telseif GetINIFloat \"Wasteland Integrations:sAlienBlaster\" \"CFWR Config.ini\" == 0\\n\t\t\tif AlienBlasterREFFixed.getdisabled == 0\\n\t\t\t\tAlienBlasterREFFixed.disable\\n\t\t\tendif\\n\t\tendif\\n\\n\\n\t\tListAddForm Everything CFWRWeapNVRangemaster\\n\t\tListAddForm GunsList CFWRWeapNVRangemaster\\n\t\tListAddForm WeaponRiflesLIST CFWRWeapNVRangemaster\\n\t\tListAddForm NVALLWeapons CFWRWeapNVRangemaster\\n\t\tListAddForm WeaponListRangedALL CFWRWeapNVRangemaster\\n\t\tListAddForm Everything ModNVRangemasterExtMag\\n\t\tListAddForm Everything ModNVRangemasterForgedReceiver\\n\t\tListAddForm Everything ModNVRangemasterScope\\n\t\tListAddForm ExplodesGasTrapsOnHit CFWRWeapNVRangemaster\\n\t\tListAddForm NVDLC01ExplodesGasTrapsOnHit CFWRWeapNVRangemaster\\n\\n\t\tif GetINIFloat \"Wasteland Integrations:sRangemasterHuntingRifle\" \"CFWR Config.ini\" == 1\\n\t\t\t;Rifles\\n\t\t\t;Colt Rangemaster Hunting Rifle\\n\t\t\tif GetINIFloat \"Base Game Mods:sRangemasterHuntingRifle\" \"CFWR Config.ini\" == 0\\n\t\t\t\tLeveledListAddForm VendorWeaponModsGunsTier3 ModNVRangemasterExtMag 1 1 1.0\\n\t\t\t\tLeveledListAddForm 188NCRArmsMerchantMods ModNVRangemasterExtMag 1 1 1.0\\n\t\t\t\tLeveledListAddForm VendorWeaponModsGunsTier3 ModNVRangemasterForgedReceiver 1 1 1.0\\n\t\t\t\tLeveledListAddForm 188NCRArmsMerchantMods ModNVRangemasterForgedReceiver 1 1 1.0\\n\t\t\t\tLeveledListAddForm VendorWeaponModsGunsTier3 ModNVRangemasterScope 1 1 1.0\\n\t\t\t\tLeveledListAddForm 188NCRArmsMerchantMods ModNVRangemasterScope 1 1 1.0\\n\t\t\tendif\\n\t\t\tLeveledListAddForm Fiend3WeaponGunNV WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm FiendWeaponRifle WithAmmoRangemasterHuntingRifleRaider 1 1 1.0\\n\t\t\tLeveledListAddForm GunRunnerGunsAllTier3 CFWRWeapNVRangemaster 1 1 0.99\\n\t\t\tLeveledListAddForm LL2Tier2GunsBothNCRTrooper WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsNCRTrooper WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsNCRTrooper10 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsNCRTrooper25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsNCRTrooper50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier2GunsNCRTrooper90 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3Guns WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3Guns25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3Guns50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3Guns75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsLegionPrime WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsLegionPrime25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsLegionPrime50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsLegionPrime75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsProspector WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsProspector25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsProspector50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsProspector75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsTown WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsTown25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsTown50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsTown75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland25 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2Tier3GunsWasteland75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm LL2WastelanderVipersLeaderWeaponNV WithAmmoRangemasterHuntingRifleLoot 6 1 1.0\\n\t\t\tLeveledListAddForm LootGunRiflesAll WithAmmoRangemasterHuntingRifleLoot 9 1 1.0\\n\t\t\tLeveledListAddForm LootGunRiflesAll WithAmmoRangemasterHuntingRifleLoot 9 1 1.0\\n\t\t\tLeveledListAddForm LootGunRiflesAll75 WithAmmoRangemasterHuntingRifleLoot 9 1 1.0\\n\t\t\tLeveledListAddForm LootGunRiflesAll75 WithAmmoRangemasterHuntingRifleLoot 9 1 1.0\\n\t\t\tLeveledListAddForm MS06SlaverWeapons WithAmmoRangemasterHuntingRifleNPC 1 1 1.0\\n\t\t\tLeveledListAddForm NCRTrooperGun2Weapon WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm Raider2WeaponGun WithAmmoRangemasterHuntingRifleRaider 1 1 1.0\\n\t\t\tLeveledListAddForm Raider3WeaponGunNV WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm SlaverWeaponGunRND WithAmmoRangemasterHuntingRifleRaider 1 1 1.0\\n\t\t\tLeveledListAddForm SlaverWeaponRifle WithAmmoRangemasterHuntingRifleRaider 1 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsCommon WithAmmoRangemasterHuntingRifleLoot 9 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsCommon75 WithAmmoRangemasterHuntingRifleLoot 9 1 1.0\\n\t\t\tLeveledListAddForm VendorWeaponsGunsTier3 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VFactionSquadLegionPraetorianWeapons WithAmmoRangemasterHuntingRifleNPC 8 1 1.0\\n\t\t\tLeveledListAddForm VFactionSquadNCRCivilianRangerWeapons WithAmmoRangemasterHuntingRifleNPC 10 1 1.0\\n\t\t\tLeveledListAddForm VFactionSquadNCRLeaderWeapons WithAmmoRangemasterHuntingRifleNPC 10 1 1.0\\n\t\t\tLeveledListAddForm VFactionSquadNCRVeteranTrooperWeapons WithAmmoRangemasterHuntingRifleNPC 1 1 1.0\\n\t\t\tLeveledListAddForm VFSFollowerGuardGunswAmmo WithAmmoRangemasterHuntingRifleNPC 1 1 1.0\\n\t\t\tLeveledListAddForm VFSTouristBodyguardWeapons WithAmmoRangemasterHuntingRifleNPC 1 1 1.0\\n\t\t\tLeveledListAddForm VHDLegionRangedWeapons75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm VHDLegionRangedWeapons75 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC02VendorWeaponsModern WithAmmoRangemasterHuntingRifleNPC 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02TierGunsRangerMed WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02TierGunsRangerMed50 WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02VendorWeaponsGunsCommonModified WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02WeaponsWhiteLegNVTier1Guns WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC02WeaponsWhiteLegStormDrummerGuns WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC03LobotomiteWeapon WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\\n\t\t\tLeveledListAddForm NVDLC04LegionaryGuns WithAmmoRangemasterHuntingRifleNPC 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04MarkedMenHunterTier4RangeWeapons WithAmmoRangemasterHuntingRifleLoot 1 1 1.0\\n\t\t\tLeveledListAddForm NVDLC04Ma",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SCPTCFWRStartupTTW1_0A009003#SCPT:SCTX#0f1cb8b896b263de3558be5be529c608",
+    "original": "scn SCPTCFWRStartupTTW1\\n\\nref rBrotherhood0WeaponGun \\nref rBrotherhood0WeaponPistol \\nref rBrotherhood1WeaponGun \\nref rBrotherhood1WeaponPistol \\nref rBrotherhood1WeaponSpecial \\nref rBrotherhood2WeaponGun \\nref rBrotherhood2WeaponPistol \\nref rBrotherhood2WeaponSpecial \\nref rBrotherhood3WeaponGun \\nref rBrotherhood3WeaponPistol \\nref rBrotherhood3WeaponSpecial \\nref rBrotherhood4WeaponGun \\nref rBrotherhood4WeaponPistol \\nref rBrotherhood4WeaponSpecial \\nref rBrotherhoodOfSteelWeaponEnergy \\nref rClutterHouseholdValueDC \\nref rClutterHouseholdValueSmallDC \\nref rClutterMilitaryValueDC \\nref rDLC01VendorChestFriday \\nref rDLC01VendorWeaponsBigGunsRare \\nref rDLC01VendorWeaponsHandRare \\nref rDLC01VendorWeaponsMeleeRare \\nref rDLC01VendorWeaponsSmallGunsRare \\nref rDLC03EnclaveWeaponBigGun \\nref rDLC04BanditWeapMelee1 \\nref rDLC04BanditWeapMelee2 \\nref rDLC04BanditWeapMelee3 \\nref rDLC04BanditWeapMelee4 \\nref rDLC04BanditWeapMelee5 \\nref rDLC04BanditWeapRanged1 \\nref rDLC04BanditWeapRanged2 \\nref rDLC04BanditWeapRanged3 \\nref rDLC04BanditWeapRanged4 \\nref rDLC04BanditWeapRanged5 \\nref rDLC04BurialMoundLootAdd75 \\nref rDLC04BurialMoundLootWeapon75 \\nref rDLC04LootAddMisc \\nref rDLC04LootAddMisc50 \\nref rDLC04LootAddMisc75 \\nref rDLC04LootAddWeapons \\nref rDLC04LvlTribalWeapMelee1 \\nref rDLC04LvlTribalWeapMelee2 \\nref rDLC04LvlTribalWeapMelee3 \\nref rDLC04LvlTribalWeapMelee4 \\nref rDLC04LvlTribalWeapMelee5 \\nref rDLC04LvlTribalWeapRanged1 \\nref rDLC04LvlTribalWeapRanged2 \\nref rDLC04LvlTribalWeapRanged3 \\nref rDLC04LvlTribalWeapRanged4 \\nref rDLC04LvlTribalWeapRanged5 \\nref rEnclave0WeaponGun \\nref rEnclave0WeaponPistol \\nref rEnclave0WeaponSpecial \\nref rEnclave1WeaponGun \\nref rEnclave1WeaponPistol \\nref rEnclave1WeaponSpecial \\nref rEnclave2WeaponGun \\nref rEnclave2WeaponPistol \\nref rEnclave2WeaponSpecial \\nref rEnclave3WeaponGun \\nref rEnclave3WeaponPistol \\nref rEnclave3WeaponSpecial \\nref rEnclave4WeaponGun \\nref rEnclave4WeaponPistol \\nref rEnclave4WeaponSpecial \\nref rEnclaveWeaponBigGun \\nref rLootGunPistolsAll75DC \\nref rLootGunPistolsAllDC \\nref rLootGunPistolsGunpowderDC \\nref rLootGunRiflesAll75DC \\nref rLootGunRiflesAllDC \\nref rLootGunRiflesGunpowderDC \\nref rNPCSettlerGunDC \\nref rOutcast0WeaponGun \\nref rOutcast0WeaponPistol \\nref rOutcast1WeaponGun \\nref rOutcast1WeaponPistol \\nref rOutcast1WeaponSpecial\\nref rOutcast2WeaponGun \\nref rOutcast2WeaponPistol \\nref rOutcast2WeaponSpecial \\nref rOutcast3WeaponGun \\nref rOutcast3WeaponPistol \\nref rOutcast3WeaponSpecial \\nref rOutcast4WeaponGun \\nref rOutcast4WeaponPistol \\nref rOutcast4WeaponSpecial \\nref rOutcastWeaponBigGun \\nref rOutcastWeaponEnergy \\nref rOutcastWeaponSmallGuns \\nref rRaider0WeaponGunDC \\nref rRaider0WeaponPistolDC \\nref rRaider0WeaponRifleDC \\nref rRaider0WeaponSpecialDC \\nref rRaider1WeaponGunBackup25DC \\nref rRaider1WeaponGunDC \\nref rRaider1WeaponPistolDC \\nref rRaider1WeaponRifleDC \\nref rRaider1WeaponSpecialDC \\nref rRaider2WeaponGunBackup25DC \\nref rRaider2WeaponGunDC \\nref rRaider2WeaponPistolDC \\nref rRaider2WeaponRifleDC \\nref rRaider2WeaponSpecialDC \\nref rRaider3WeaponGunBackup25DC \\nref rRaider3WeaponGunDC \\nref rRaider3WeaponPistolDC \\nref rRaider3WeaponRifleDC \\nref rRaider3WeaponSpecialDC \\nref rRaider4WeaponGunDC \\nref rRaider4WeaponPistolDC \\nref rRaider4WeaponRifleDC \\nref rRaider4WeaponSpecialDC \\nref rRaiderWeaponGunDC \\nref rRaiderWeaponMeleeDC \\nref rRaiderWeaponRifleDC \\nref rRaiderWeaponSpecialDC \\nref rTalon0WeaponGun \\nref rTalon0WeaponPistol \\nref rTalon0WeaponSniper \\nref rTalon1WeaponGun \\nref rTalon1WeaponPistol \\nref rTalon1WeaponSniper \\nref rTalon2WeaponGun \\nref rTalon2WeaponPistol \\nref rTalon2WeaponSniper \\nref rTalon3WeaponGun \\nref rTalon3WeaponPistol \\nref rTalon3WeaponSniper \\nref rTalon4WeaponGun \\nref rTalon4WeaponPistol \\nref rTalon4WeaponSniper \\nref rTalonWeaponGun \\nref rTalonWeaponGunBackup33 \\nref rTalonWeaponMissile \\nref rTalonWeaponSpecialBackup \\nref rVendorAmmoBullets100DC \\nref rVendorAmmoGeneric100DC \\nref rVendorAmmoGeneric75DC \\nref rVendorChestJunkStoreDC \\nref rVendorScavengerJunkListDC \\nref rVendorWeaponsBigGunsCommon \\nref rVendorWeaponsBigGunsCommon75 \\nref rVendorWeaponsBigGunsRare \\nref rVendorWeaponsHandRareDC \\nref rVendorWeaponsMeleeCommonDC \\nref rVendorWeaponsMeleeRareDC \\nref rVendorWeaponsSmallGunsCommon75DC \\nref rVendorWeaponsSmallGunsCommonDC \\nref rWastelanderWeaponDC \\nref rVendorWeaponModsBigGunsCommon \\nref rVendorWeaponModsBigGunsCommon75 \\nref rVendorWeaponModsBigGunsRare \\nref rVendorWeaponModsEnergyCommon \\nref rVendorWeaponModsEnergyCommon75 \\nref rVendorWeaponModsEnergyRare \\nref rVendorWeaponModsExplosivesCommon \\nref rVendorWeaponModsExplosivesCommon75 \\nref rVendorWeaponModsExplosivesRare \\nref rVendorWeaponModsExplosivesTier1 \\nref rVendorWeaponModsExplosivesTier2 \\nref rVendorWeaponModsExplosivesTier3 \\nref rVendorWeaponModsExplosivesTier4 \\nref rVendorWeaponModsExplosivesTier5 \\nref rVendorWeaponModsGunsCommon \\nref rVendorWeaponModsGunsCommon75 \\nref rVendorWeaponModsGunsRare \\nref rVendorWeaponModsHandCommon \\nref rVendorWeaponModsHandCommon75 \\nref rVendorWeaponModsHandRare \\nref rVendorWeaponModsMeleeCommon \\nref rVendorWeaponModsMeleeCommon75 \\nref rVendorWeaponModsMeleeRare \\nref rVendorWeaponModsMeleeTier1 \\nref rVendorWeaponModsMeleeTier2 \\nref rVendorWeaponModsMeleeTier3 \\nref rVendorWeaponModsMeleeTier4 \\nref rVendorWeaponModsMeleeTier5 \\n\\nBegin GameMode\\n\tif GetGameRestarted\\n\t\tif IsModLoaded \"TaleOfTwoWastelands.esm\" == 1\\n\\n\t\t\tTTWStartHourInstead = 1\\n\t\t\trBrotherhood0WeaponGun = EditorIDtoFormID \"Brotherhood0WeaponGun\"\\n\t\t\trBrotherhood0WeaponPistol = EditorIDtoFormID \"Brotherhood0WeaponPistol\"\\n\t\t\trBrotherhood1WeaponGun = EditorIDtoFormID \"Brotherhood1WeaponGun\"\\n\t\t\trBrotherhood1WeaponPistol = EditorIDtoFormID \"Brotherhood1WeaponPistol\"\\n\t\t\trBrotherhood1WeaponSpecial = EditorIDtoFormID \"Brotherhood1WeaponSpecial\"\\n\t\t\trBrotherhood2WeaponGun = EditorIDtoFormID \"Brotherhood2WeaponGun\"\\n\t\t\trBrotherhood2WeaponPistol = EditorIDtoFormID \"Brotherhood2WeaponPistol\"\\n\t\t\trBrotherhood2WeaponSpecial = EditorIDtoFormID \"Brotherhood2WeaponSpecial\"\\n\t\t\trBrotherhood3WeaponGun = EditorIDtoFormID \"Brotherhood3WeaponGun\"\\n\t\t\trBrotherhood3WeaponPistol = EditorIDtoFormID \"Brotherhood3WeaponPistol\"\\n\t\t\trBrotherhood3WeaponSpecial = EditorIDtoFormID \"Brotherhood3WeaponSpecial\"\\n\t\t\trBrotherhood4WeaponGun = EditorIDtoFormID \"Brotherhood4WeaponGun\"\\n\t\t\trBrotherhood4WeaponPistol = EditorIDtoFormID \"Brotherhood4WeaponPistol\"\\n\t\t\trBrotherhood4WeaponSpecial = EditorIDtoFormID \"Brotherhood4WeaponSpecial\"\\n\t\t\trBrotherhoodOfSteelWeaponEnergy = EditorIDtoFormID \"BrotherhoodOfSteelWeaponEnergy\"\\n\t\t\trClutterHouseholdValueDC = EditorIDtoFormID \"ClutterHouseholdValueDC\"\\n\t\t\trClutterHouseholdValueSmallDC = EditorIDtoFormID \"ClutterHouseholdValueSmallDC\"\\n\t\t\trClutterMilitaryValueDC = EditorIDtoFormID \"ClutterMilitaryValueDC\"\\n\t\t\trDLC01VendorChestFriday = EditorIDtoFormID \"DLC01VendorChestFriday\"\\n\t\t\trDLC01VendorWeaponsBigGunsRare = EditorIDtoFormID \"DLC01VendorWeaponsBigGunsRare\"\\n\t\t\trDLC01VendorWeaponsHandRare = EditorIDtoFormID \"DLC01VendorWeaponsHandRare\"\\n\t\t\trDLC01VendorWeaponsMeleeRare = EditorIDtoFormID \"DLC01VendorWeaponsMeleeRare\"\\n\t\t\trDLC01VendorWeaponsSmallGunsRare = EditorIDtoFormID \"DLC01VendorWeaponsSmallGunsRare\"\\n\t\t\trDLC03EnclaveWeaponBigGun = EditorIDtoFormID \"DLC03EnclaveWeaponBigGun\"\\n\t\t\trDLC04BanditWeapMelee1 = EditorIDtoFormID \"DLC04BanditWeapMelee1\"\\n\t\t\trDLC04BanditWeapMelee2 = EditorIDtoFormID \"DLC04BanditWeapMelee2\"\\n\t\t\trDLC04BanditWeapMelee3 = EditorIDtoFormID \"DLC04BanditWeapMelee3\"\\n\t\t\trDLC04BanditWeapMelee4 = EditorIDtoFormID \"DLC04BanditWeapMelee4\"\\n\t\t\trDLC04BanditWeapMelee5 = EditorIDtoFormID \"DLC04BanditWeapMelee5\"\\n\t\t\trDLC04BanditWeapRanged1 = EditorIDtoFormID \"DLC04BanditWeapRanged1\"\\n\t\t\trDLC04BanditWeapRanged2 = EditorIDtoFormID \"DLC04BanditWeapRanged2\"\\n\t\t\trDLC04BanditWeapRanged3 = EditorIDtoFormID \"DLC04BanditWeapRanged3\"\\n\t\t\trDLC04BanditWeapRanged4 = EditorIDtoFormID \"DLC04BanditWeapRanged4\"\\n\t\t\trDLC04BanditWeapRanged5 = EditorIDtoFormID \"DLC04BanditWeapRanged5\"\\n\t\t\trDLC04BurialMoundLootAdd75 = EditorIDtoFormID \"DLC04BurialMoundLootAdd75\"\\n\t\t\trDLC04BurialMoundLootWeapon75 = EditorIDtoFormID \"DLC04BurialMoundLootWeapon75\"\\n\t\t\trDLC04LootAddMisc = EditorIDtoFormID \"DLC04LootAddMisc\"\\n\t\t\trDLC04LootAddMisc50 = EditorIDtoFormID \"DLC04LootAddMisc50\"\\n\t\t\trDLC04LootAddMisc75 = EditorIDtoFormID \"DLC04LootAddMisc75\"\\n\t\t\trDLC04LootAddWeapons = EditorIDtoFormID \"DLC04LootAddWeapons\"\\n\t\t\trDLC04LvlTribalWeapMelee1 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee1\"\\n\t\t\trDLC04LvlTribalWeapMelee2 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee2\"\\n\t\t\trDLC04LvlTribalWeapMelee3 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee3\"\\n\t\t\trDLC04LvlTribalWeapMelee4 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee4\"\\n\t\t\trDLC04LvlTribalWeapMelee5 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee5\"\\n\t\t\trDLC04LvlTribalWeapRanged1 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged1\"\\n\t\t\trDLC04LvlTribalWeapRanged2 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged2\"\\n\t\t\trDLC04LvlTribalWeapRanged3 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged3\"\\n\t\t\trDLC04LvlTribalWeapRanged4 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged4\"\\n\t\t\trDLC04LvlTribalWeapRanged5 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged5\"\\n\t\t\trEnclave0WeaponGun = EditorIDtoFormID \"Enclave0WeaponGun\"\\n\t\t\trEnclave0WeaponPistol = EditorIDtoFormID \"Enclave0WeaponPistol\"\\n\t\t\trEnclave0WeaponSpecial = EditorIDtoFormID \"Enclave0WeaponSpecial\"\\n\t\t\trEnclave1WeaponGun = EditorIDtoFormID \"Enclave1WeaponGun\"\\n\t\t\trEnclave1WeaponPistol = EditorIDtoFormID \"Enclave1WeaponPistol\"\\n\t\t\trEnclave1WeaponSpecial = EditorIDtoFormID \"Enclave1WeaponSpecial\"\\n\t\t\trEnclave2WeaponGun = EditorIDtoFormID \"Enclave2WeaponGun\"\\n\t\t\trEnclave2WeaponPistol = EditorIDtoFormID \"Enclave2WeaponPistol\"\\n\t\t\trEnclave2WeaponSpecial = EditorIDtoFormID \"Enclave2WeaponSpecial\"\\n\t\t\trEnclave3WeaponGun = EditorIDtoFormID \"Enclave3WeaponGun\"\\n\t\t\trEnclave3WeaponPistol = EditorIDtoFormID \"Enclave3WeaponPistol\"\\n\t\t\trEnclave3WeaponSpecial = EditorIDtoFormID \"Enclave3WeaponSpecial\"\\n\t\t\trEnclave4WeaponGun = EditorIDtoFormID \"Enclave4WeaponGun\"\\n\t\t\trEnclave4WeaponPistol = EditorIDtoFormID \"Enclave4WeaponPistol\"\\n\t\t\trEnclave4WeaponSpecial = EditorIDtoFormID \"Enclave4WeaponSpecial\"\\n\t\t\trEnclaveWeaponBigGun = EditorIDtoFormID \"EnclaveWeaponBigGun\"\\n\t\t\trLootGunPistolsAll75DC = EditorIDtoFormID \"LootGunPistolsAll75DC\"\\n\t\t\trLootGunPistolsAllDC = EditorIDtoFormID \"LootGunPistolsAllDC\"\\n\t\t\trLootGunPistolsGunpowderDC = EditorIDtoFormID \"LootGunPistolsGunpowderDC\"\\n\t\t\trLootGunRiflesAll75DC = EditorIDtoFormID \"LootGunRiflesAll75DC\"\\n\t\t\trLootGunRiflesAllDC = EditorIDtoFormID \"LootGunRiflesAllDC\"\\n\t\t\trLootGunRiflesGunpowderDC = EditorIDtoFormID \"LootGunRiflesGunpowderDC\"\\n\t\t\trNPCSettlerGunDC = EditorIDtoFormID \"NPCSettlerGunDC\"\\n\t\t\trOutcast0WeaponGun = EditorIDtoFormID \"Outcast0WeaponGun\"\\n\t\t\trOutcast0WeaponPistol = EditorIDtoFormID \"Outcast0WeaponPistol\"\\n\t\t\trOutcast1WeaponGun = EditorIDtoFormID \"Outcast1WeaponGun\"\\n\t\t\trOutcast1WeaponPistol = EditorIDtoFormID \"Outcast1WeaponPistol\"\\n\t\t\trOutcast1WeaponSpecial = EditorIDtoFormID \"Outcast1WeaponSpecial\"\\n\t\t\trOutcast2WeaponGun = EditorIDtoFormID \"Outcast2WeaponGun\"\\n\t\t\trOutcast2WeaponPistol = EditorIDtoFormID \"Outcast2WeaponPistol\"\\n\t\t\trOutcast2WeaponSpecial = EditorIDtoFormID \"Outcast2WeaponSpecial\"\\n\t\t\trOutcast3WeaponGun = EditorIDtoFormID \"Outcast3WeaponGun\"\\n\t\t\trOutcast3WeaponPistol = EditorIDtoFormID \"Outcast3WeaponPistol\"\\n\t\t\trOutcast3WeaponSpecial = EditorIDtoFormID \"Outcast3WeaponSpecial\"\\n\t\t\trOutcast4WeaponGun = EditorIDtoFormID \"Outcast4WeaponGun\"\\n\t\t\trOutcast4WeaponPistol = EditorIDtoFormID \"Outcast4WeaponPistol\"\\n\t\t\trOutcast4WeaponSpecial = EditorIDtoFormID \"Outcast4WeaponSpecial\"\\n\t\t\trOutcastWeaponBigGun = EditorIDtoFormID \"OutcastWeaponBigGun\"\\n\t\t\trOutcastWeaponEnergy = EditorIDtoFormID \"OutcastWeaponEnergy\"\\n\t\t\trOutcastWeaponSmallGuns = EditorIDtoFormID \"OutcastWeaponSmallGuns\"\\n\t\t\trRaider0WeaponGunDC = EditorIDtoFormID \"Raider0WeaponGunDC\"\\n\t\t\trRaider0WeaponPistolDC = EditorIDtoFormID \"Raider0WeaponPistolDC\"\\n\t\t\trRaider0WeaponRifleDC = EditorIDtoFormID \"Raider0WeaponRifleDC\"\\n\t\t\trRaider0WeaponSpecialDC = EditorIDtoFormID \"Raider0WeaponSpecialDC\"\\n\t\t\trRaider1WeaponGunBackup25DC = EditorIDtoFormID \"Raider1WeaponGunBackup25DC\"\\n\t\t\trRaider1WeaponGunDC = EditorIDtoFormID \"Raider1WeaponGunDC\"\\n\t\t\trRaider1WeaponPistolDC = EditorIDtoFormID \"Raider1WeaponPistolDC\"\\n\t\t\trRaider1WeaponRifleDC = EditorIDtoFormID \"Raider1WeaponRifleDC\"\\n\t\t\trRaider1WeaponSpecialDC = EditorIDtoFormID \"Raider1WeaponSpecialDC\"\\n\t\t\trRaider2WeaponGunBackup25DC = EditorIDtoFormID \"Raider2WeaponGunBackup25DC\"\\n\t\t\trRaider2WeaponGunDC = EditorIDtoFormID \"Raider2WeaponGunDC\"\\n\t\t\trRaider2WeaponPistolDC = EditorIDtoFormID \"Raider2WeaponPistolDC\"\\n\t\t\trRaider2WeaponRifleDC = EditorIDtoFormID \"Raider2WeaponRifleDC\"\\n\t\t\trRaider2WeaponSpecialDC = EditorIDtoFormID \"Raider2WeaponSpecialDC\"\\n\t\t\trRaider3WeaponGunBackup25DC = EditorIDtoFormID \"Raider3WeaponGunBackup25DC\"\\n\t\t\trRaider3WeaponGunDC = EditorIDtoFormID \"Raider3WeaponGunDC\"\\n\t\t\trRaider3WeaponPistolDC = EditorIDtoFormID \"Raider3WeaponPistolDC\"\\n\t\t\trRaider3WeaponRifleDC = EditorIDtoFormID \"Raider3WeaponRifleDC\"\\n\t\t\trRaider3WeaponSpecialDC = EditorIDtoFormID \"Raider3WeaponSpecialDC\"\\n\t\t\trRaider4WeaponGunDC = EditorIDtoFormID \"Raider4WeaponGunDC\"\\n\t\t\trRaider4WeaponPistolDC = EditorIDtoFormID \"Raider4WeaponPistolDC\"\\n\t\t\trRaider4WeaponRifleDC = EditorIDtoFormID \"Raider4WeaponRifleDC\"\\n\t\t\trRaider4WeaponSpecialDC = EditorIDtoFormID \"Raider4WeaponSpecialDC\"\\n\t\t\trRaiderWeaponGunDC = EditorIDtoFormID \"RaiderWeaponGunDC\"\\n\t\t\trRaiderWeaponMeleeDC = EditorIDtoFormID \"RaiderWeaponMeleeDC\"\\n\t\t\trRaiderWeaponRifleDC = EditorIDtoFormID \"RaiderWeaponRifleDC\"\\n\t\t\trRaiderWeaponSpecialDC = EditorIDtoFormID \"RaiderWeaponSpecialDC\"\\n\t\t\trTalon0WeaponGun = EditorIDtoFormID \"Talon0WeaponGun\"\\n\t\t\trTalon0WeaponPistol = EditorIDtoFormID \"Talon0WeaponPistol\"\\n\t\t\trTalon0WeaponSniper = EditorIDtoFormID \"Talon0WeaponSniper\"\\n\t\t\trTalon1WeaponGun = EditorIDtoFormID \"Talon1WeaponGun\"\\n\t\t\trTalon1WeaponPistol = EditorIDtoFormID \"Talon1WeaponPistol\"\\n\t\t\trTalon1WeaponSniper = EditorIDtoFormID \"Talon1WeaponSniper\"\\n\t\t\trTalon2WeaponGun = EditorIDtoFormID \"Talon2WeaponGun\"\\n\t\t\trTalon2WeaponPistol = EditorIDtoFormID \"Talon2WeaponPistol\"\\n\t\t\trTalon2WeaponSniper = EditorIDtoFormID \"Talon2WeaponSniper\"\\n\t\t\trTalon3WeaponGun = EditorIDtoFormID \"Talon3WeaponGun\"\\n\t\t\trTalon3WeaponPistol = EditorIDtoFormID \"Talon3WeaponPistol\"\\n\t\t\trTalon3WeaponSniper = EditorIDtoFormID \"Talon3WeaponSniper\"\\n\t\t\trTalon4WeaponGun = EditorIDtoFormID \"Talon4WeaponGun\"\\n\t\t\trTalon4WeaponPistol = EditorIDtoFormID \"Talon4WeaponPistol\"\\n\t\t\trTalon4WeaponSniper = EditorIDtoFormID \"Talon4WeaponSniper\"\\n\t\t\trTalonWeaponGun = EditorIDtoFormID \"TalonWeaponGun\"\\n\t\t\trTalonWeaponGunBackup33 = EditorIDtoFormID \"TalonWeaponGunBackup33\"\\n\t\t\trTalonWeaponMissile = EditorIDtoFormID \"TalonWeaponMissile\"\\n\t\t\trTalonWeaponSpecialBackup = EditorIDtoFormID \"TalonWeaponSpecialBackup\"\\n\t\t\trVendorAmmoBullets100DC = EditorIDtoFormID \"VendorAmmoBullets100DC\"\\n\t\t\trVendorAmmoGeneric100DC = EditorIDtoFormID \"VendorAmmoGeneric100DC\"\\n\t\t\trVendorAmmoGeneric75DC = EditorIDtoFormID \"VendorAmmoGeneric75DC\"\\n\t\t\trVendorChestJunkStoreDC = EditorIDtoFormID \"VendorChestJunkStoreDC\"\\n\t\t\trVendorScavengerJunkListDC = EditorIDtoFormID \"VendorScavengerJunkListDC\"\\n\t\t\trVendorWeaponsBigGunsCommon = EditorIDtoFormID \"VendorWeaponsBigGunsCommon\"\\n\t\t\trVendorWeaponsBigGunsCommon75 = EditorIDtoFormID \"VendorWeaponsBigGunsCommon75\"\\n\t\t\trVendorWeaponsBigGunsRare = EditorIDtoFormID \"VendorWeaponsBigGunsRare\"\\n\t\t\trVendorWeaponsHandRareDC = EditorIDtoFormID \"VendorWeaponsHandRareDC\"\\n\t\t\trVendorWeaponsMeleeCommonDC = EditorIDtoFormID \"VendorWeaponsMeleeCommonDC\"\\n\t\t\trVendorWeaponsMeleeRareDC = EditorIDtoFormID \"VendorWeaponsMeleeRareDC\"\\n\t\t\trVendorWeaponsSmallGunsCommon75DC = EditorIDtoFormID \"VendorWeaponsSmallGunsCommon75DC\"\\n\t\t\trVendorWeaponsSmallGunsCommonDC = EditorIDtoFormID \"VendorWeaponsSmallGunsCommonDC\"\\n\t\t\trWastelanderWeaponDC = EditorIDtoFormID \"WastelanderWeaponDC\"\\n\t\t\trVendorWeaponModsBigGunsCommon = EditorIdToFormID \"VendorWeaponModsBigGunsCommon\"\\n\t\t\trVendorWeaponModsBigGunsCommon75 = EditorIdToFormID \"VendorWeaponModsBigGunsCommon75\"\\n\t\t\trVendorWeaponModsBigGunsRare = EditorIdToFormID \"VendorWeaponModsBigGunsRare\"\\n\t\t\trVendorWeaponModsEnergyCommon = EditorIdToFormID \"VendorWeaponModsEnergyCommon\"\\n\t\t\trVendorWeaponModsEnergyCommon75 = EditorIdToFormID \"VendorWeaponModsEnergyCommon75\"\\n\t\t\trVendorWeaponModsEnergyRare = EditorIdToFormID \"VendorWeaponModsEnergyRare\"\\n\t\t\trVendorWeaponModsExplosivesCommon = EditorIdToFormID \"VendorWeaponModsExplosivesCommon\"\\n\t\t\trVendorWeaponModsExplosivesCommon75 = EditorIdToFormID \"VendorWeaponModsExplosivesCommon75\"\\n\t\t\trVendorWeaponModsExplosivesRare = EditorIdToFormID \"VendorWeaponModsExplosivesRare\"\\n\t\t\trVendorWeaponModsExplosivesTier1 = EditorIdToFormID \"VendorWeaponModsExplosivesTier1\"\\n\t\t\trVendorWeaponModsExplosivesTier2 = EditorIdToFormID \"VendorWeaponModsExplosivesTier2\"\\n\t\t\trVendorWeaponModsExplosivesTier3 = EditorIdToFormID \"VendorWeaponModsExplosivesTier3\"\\n\t\t\trVendorWeaponModsExplosivesTier4 = EditorIdToFormID \"VendorWeaponModsExplosivesTier4\"\\n\t\t\trVendorWeaponModsExplosivesTier5 = EditorIdToFormID \"VendorWeaponModsExplosivesTier5\"\\n\t\t\trVendorWeaponModsGunsCommon = EditorIdToFormID \"VendorWeaponModsGunsCommon\"\\n\t\t\trVendorWeaponModsGunsCommon75 = EditorIdToFormID \"VendorWeaponModsGunsCommon75\"\\n\t\t\trVendorWeaponModsGunsRare = EditorIdToFormID \"VendorWeaponModsGunsRare\"\\n\t\t\trVendorWeaponModsHandCommon = EditorIdToFormID \"VendorWeaponModsHandCommon\"\\n\t\t\trVendorWeaponModsHandCommon75 = EditorIdToFormID \"VendorWeaponModsHandCommon75\"\\n\t\t\trVendorWeaponModsHandRare = EditorIdToFormID \"VendorWeaponModsHandRare\"\\n\t\t\trVendorWeaponModsMeleeCommon = EditorIdToFormID \"VendorWeaponModsMeleeCommon\"\\n\t\t\trVendorWeaponModsMeleeCommon75 = EditorIdToFormID \"VendorWeaponModsMeleeCommon75\"\\n\t\t\trVendorWeaponModsMeleeRare = EditorIdToFormID \"VendorWeaponModsMeleeRare\"\\n\t\t\trVendorWeaponModsMeleeTier1 = EditorIdToFormID \"VendorWeaponModsMeleeTier1\"\\n\t\t\trVendorWeaponModsMeleeTier2 = EditorIdToFormID \"VendorWeaponModsMeleeTier2\"\\n\t\t\trVendorWeaponModsMeleeTier3 = EditorIdToFormID \"VendorWeaponModsMeleeTier3\"\\n\t\t\trVendorWeaponModsMeleeTier4 = EditorIdToFormID \"VendorWeaponModsMeleeTier4\"\\n\t\t\trVendorWeaponModsMeleeTier5 = EditorIdToFormID \"VendorWeaponModsMeleeTier5\"\\n\\n\\n\t\t\t;Automatic Weapons\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sClassic10mmSMG\" \"CFWR Config.ini\" == 1\\n\t\t\t\tif GetINIFloat \"Base Game Mods:sClassic10mmSMG\" \"CFWR Config.ini\" == 0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon Classic10mmSMGComp 8 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon75 Classic10mmSMGComp 8 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsRare Classic10mmSMGComp 1 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon Classic10mmSMGDrum 8 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon75 Classic10mmSMGDrum 8 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsRare Classic10mmSMGDrum 1 1 1.0\\n\t\t\t\tendif\\n\t\t\t\t;Classic 10mm SMG\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoClassic10mmSMGLoot 8 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoClassic10mmSMGLoot 8 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoClassic10mmSMGLoot 8 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponSmallGuns WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalonWeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoClassic10mmSMGNPC 8 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoClassic10mmSMGNPC 8 1 1.0\\n\t\t\t\tLeveledListAddForm rWastelanderWeaponDC WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged2 WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged3 WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged4 WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged5 WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood0WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood1WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood1WeaponPistol WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave0WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave1WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave1WeaponPistol WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast0WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast1WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast1WeaponPistol WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponGunDC WithAmmoClassic10mmSMGRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon0WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponPistol WithAmmoClassic10mmSMGNPC 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sAk112\" \"CFWR Config.ini\" == 1\\n\t\t\t\tif GetINIFloat \"Base Game Mods:sAK112\" \"CFWR Config.ini\" == 0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsRare aaPSModAK112Drum 1 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon aaPSModAK112Drum 15 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon75 aaPSModAK112Silencer 15 1 1.0\\n\t\t\t\tendif\\n\t\t\t\t;AK-112 Assault Rifle\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoAK112Loot 16 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoAK112Loot 16 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoAK112Loot 16 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponSmallGuns WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoAK112Loot 16 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoAK112Loot 16 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged5 WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood0WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood1WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave0WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave1WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast0WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast1WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponGunDC WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponRifleDC WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoAK112Loot 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sTommyGun\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Tommy Gun\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoTommyGunLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoTommyGunLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoTommyGunLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaiderWeaponGunDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaiderWeaponRifleDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponGun WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalonWeaponGun WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoTommyGunLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoTommyGunLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged1 WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged2 WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged3 WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged4 WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponRifleDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponRifleDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponRifleDC WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponGun WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoTommyGunLoot 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\t;Energy Rifles\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sWattzLaserRifle\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Wattz Laser Rifle\\n\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoWattzLaserRifleLoot 8 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoWattzLaserRifleLoot 8 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponEnergy WithAmmoWattzLaserRifleBoS 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood0WeaponGun WithAmmoWattzLaserRifleBoS 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave0WeaponGun WithAmmoWattzLaserRifleBoS 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast0WeaponGun WithAmmoWattzLaserRifleBoS 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponGunDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponRifleDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponRifleDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponRifleDC WithAmmoWattzLaserRifleLoot 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sP92PlasmaCaster\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;P92 Plasma Rifle\\n\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoP92PlasmaRifleLoot 14 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoP92PlasmaRifleLoot 14 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponEnergy WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoP92PlasmaRifleNPC 14 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood1WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood2WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave1WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave2WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast1WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast2WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoP92PlasmaRifleNPC 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sM72GaussRifle\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;M72 Gauss Rifle\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoM72GaussRifleLoot 26 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoM72GaussRifleLoot 26 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponEnergy WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponGun WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponSpecial WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponSpecial WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponGun WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponSpecial WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponSpecial WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponGun WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponSpecial WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponSpecial WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponSniper WithAmmoM72GaussRifleLoot 1 1 1.0\\n\t\t\tendif\\n\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sRockwellMinigun\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Heavy Weapons\\n\t\t\t\t;Rockwell CZ53 Minigun\\n\t\t\t\tLeveledListAddForm rEnclaveWeaponBigGun WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponBigGun WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsCommon WithAmmoClassicMiniGunNPC 24 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsCommon75 WithAmmoClassicMiniGunNPC 24 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsRare WithAmmoClassicMiniGunNPC 20 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsBigGunsRare WithAmmoClassicMiniGunNPC 15 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC03EnclaveWeaponBigGun WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponGun WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponSpecial WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponSpecial WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponGun WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponSpecial WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponSpecial WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponGun WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponSpecial WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponSpecial WithAmmoClassicMiniGunNPC 1 1 1.0\\n\t\t\tendif\\n\\n\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sFlambe450\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Flambe 450\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsCommon WithAmmoFlambeLoot 25 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsCommon75 WithAmmoFlambeLoot 25 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsRare WithAmmoFlambeLoot 20 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsBigGunsRare WithAmmoFlambeLoot 17 1 1.0\\n\t\t\t\tLeveledListAddForm rTalonWeaponMissile WithAmmoFlambeRaider 1 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC03EnclaveWeaponBigGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponGun WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood2WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave2WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast2WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponSpecial WithAmmoFlambeNPC 1 1 1.0\\n\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sL30GatlingLaser\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Classic Gatling Laser\\n\t\t\t\tLeveledListAddForm rEnclaveWeaponBigGun WithAmmoL30GatlingLaserNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponBigGun WithAmmoL30GatlingLaserNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsCommon WithAmmoL30GatlingLaserNPC 26 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsCommon75 WithAmmoL30GatlingLaserNPC 26 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsBigGunsRare WithAmmoL30GatlingLaserNPC 22 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsBigGunsRare WithAmmoL30GatlingLaserNPC 22 1 1.0\\n\t\t\t\tLeveledListAd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SCPTCFWRStartupTTW2_0A009600#SCPT:SCTX#68213951cfd56efabc12fd3383e491f8",
+    "original": "scn SCPTCFWRStartupTTW2\\n\\nref rBrotherhood0WeaponGun \\nref rBrotherhood0WeaponPistol \\nref rBrotherhood1WeaponGun \\nref rBrotherhood1WeaponPistol \\nref rBrotherhood1WeaponSpecial \\nref rBrotherhood2WeaponGun \\nref rBrotherhood2WeaponPistol \\nref rBrotherhood2WeaponSpecial \\nref rBrotherhood3WeaponGun \\nref rBrotherhood3WeaponPistol \\nref rBrotherhood3WeaponSpecial \\nref rBrotherhood4WeaponGun \\nref rBrotherhood4WeaponPistol \\nref rBrotherhood4WeaponSpecial \\nref rBrotherhoodOfSteelWeaponEnergy \\nref rClutterHouseholdValueDC \\nref rClutterHouseholdValueSmallDC \\nref rClutterMilitaryValueDC \\nref rDLC01VendorChestFriday \\nref rDLC01VendorWeaponsBigGunsRare \\nref rDLC01VendorWeaponsHandRare \\nref rDLC01VendorWeaponsMeleeRare \\nref rDLC01VendorWeaponsSmallGunsRare \\nref rDLC03EnclaveWeaponBigGun \\nref rDLC04BanditWeapMelee1 \\nref rDLC04BanditWeapMelee2 \\nref rDLC04BanditWeapMelee3 \\nref rDLC04BanditWeapMelee4 \\nref rDLC04BanditWeapMelee5 \\nref rDLC04BanditWeapRanged1 \\nref rDLC04BanditWeapRanged2 \\nref rDLC04BanditWeapRanged3 \\nref rDLC04BanditWeapRanged4 \\nref rDLC04BanditWeapRanged5 \\nref rDLC04BurialMoundLootAdd75 \\nref rDLC04BurialMoundLootWeapon75 \\nref rDLC04LootAddMisc \\nref rDLC04LootAddMisc50 \\nref rDLC04LootAddMisc75 \\nref rDLC04LootAddWeapons \\nref rDLC04LvlTribalWeapMelee1 \\nref rDLC04LvlTribalWeapMelee2 \\nref rDLC04LvlTribalWeapMelee3 \\nref rDLC04LvlTribalWeapMelee4 \\nref rDLC04LvlTribalWeapMelee5 \\nref rDLC04LvlTribalWeapRanged1 \\nref rDLC04LvlTribalWeapRanged2 \\nref rDLC04LvlTribalWeapRanged3 \\nref rDLC04LvlTribalWeapRanged4 \\nref rDLC04LvlTribalWeapRanged5 \\nref rEnclave0WeaponGun \\nref rEnclave0WeaponPistol \\nref rEnclave0WeaponSpecial \\nref rEnclave1WeaponGun \\nref rEnclave1WeaponPistol \\nref rEnclave1WeaponSpecial \\nref rEnclave2WeaponGun \\nref rEnclave2WeaponPistol \\nref rEnclave2WeaponSpecial \\nref rEnclave3WeaponGun \\nref rEnclave3WeaponPistol \\nref rEnclave3WeaponSpecial \\nref rEnclave4WeaponGun \\nref rEnclave4WeaponPistol \\nref rEnclave4WeaponSpecial \\nref rEnclaveWeaponBigGun \\nref rLootGunPistolsAll75DC \\nref rLootGunPistolsAllDC \\nref rLootGunPistolsGunpowderDC \\nref rLootGunRiflesAll75DC \\nref rLootGunRiflesAllDC \\nref rLootGunRiflesGunpowderDC \\nref rNPCSettlerGunDC \\nref rOutcast0WeaponGun \\nref rOutcast0WeaponPistol \\nref rOutcast1WeaponGun \\nref rOutcast1WeaponPistol \\nref rOutcast1WeaponSpecial\\nref rOutcast2WeaponGun \\nref rOutcast2WeaponPistol \\nref rOutcast2WeaponSpecial \\nref rOutcast3WeaponGun \\nref rOutcast3WeaponPistol \\nref rOutcast3WeaponSpecial \\nref rOutcast4WeaponGun \\nref rOutcast4WeaponPistol \\nref rOutcast4WeaponSpecial \\nref rOutcastWeaponBigGun \\nref rOutcastWeaponEnergy \\nref rOutcastWeaponSmallGuns \\nref rRaider0WeaponGunDC \\nref rRaider0WeaponPistolDC \\nref rRaider0WeaponRifleDC \\nref rRaider0WeaponSpecialDC \\nref rRaider1WeaponGunBackup25DC \\nref rRaider1WeaponGunDC \\nref rRaider1WeaponPistolDC \\nref rRaider1WeaponRifleDC \\nref rRaider1WeaponSpecialDC \\nref rRaider2WeaponGunBackup25DC \\nref rRaider2WeaponGunDC \\nref rRaider2WeaponPistolDC \\nref rRaider2WeaponRifleDC \\nref rRaider2WeaponSpecialDC \\nref rRaider3WeaponGunBackup25DC \\nref rRaider3WeaponGunDC \\nref rRaider3WeaponPistolDC \\nref rRaider3WeaponRifleDC \\nref rRaider3WeaponSpecialDC \\nref rRaider4WeaponGunDC \\nref rRaider4WeaponPistolDC \\nref rRaider4WeaponRifleDC \\nref rRaider4WeaponSpecialDC \\nref rRaiderWeaponGunDC \\nref rRaiderWeaponMeleeDC \\nref rRaiderWeaponRifleDC \\nref rRaiderWeaponSpecialDC \\nref rTalon0WeaponGun \\nref rTalon0WeaponPistol \\nref rTalon0WeaponSniper \\nref rTalon1WeaponGun \\nref rTalon1WeaponPistol \\nref rTalon1WeaponSniper \\nref rTalon2WeaponGun \\nref rTalon2WeaponPistol \\nref rTalon2WeaponSniper \\nref rTalon3WeaponGun \\nref rTalon3WeaponPistol \\nref rTalon3WeaponSniper \\nref rTalon4WeaponGun \\nref rTalon4WeaponPistol \\nref rTalon4WeaponSniper \\nref rTalonWeaponGun \\nref rTalonWeaponGunBackup33 \\nref rTalonWeaponMissile \\nref rTalonWeaponSpecialBackup \\nref rVendorAmmoBullets100DC \\nref rVendorAmmoGeneric100DC \\nref rVendorAmmoGeneric75DC \\nref rVendorChestJunkStoreDC \\nref rVendorScavengerJunkListDC \\nref rVendorWeaponsBigGunsCommon \\nref rVendorWeaponsBigGunsCommon75 \\nref rVendorWeaponsBigGunsRare \\nref rVendorWeaponsHandRareDC \\nref rVendorWeaponsMeleeCommonDC \\nref rVendorWeaponsMeleeRareDC \\nref rVendorWeaponsSmallGunsCommon75DC \\nref rVendorWeaponsSmallGunsCommonDC \\nref rWastelanderWeaponDC \\nref rTTWAmmoListDart\\nref rDartGun\\nref rAmmoDart\\nref rAmmoDart75\\nref rVendorWeaponsBigGunsCommon \\nref rVendorWeaponsBigGunsCommon75 \\nref rVendorWeaponsBigGunsRare \\nref rVendorWeaponsHandRareDC \\nref rVendorWeaponsMeleeCommonDC \\nref rVendorWeaponsMeleeRareDC \\nref rVendorWeaponsSmallGunsCommon75DC \\nref rVendorWeaponsSmallGunsCommonDC \\nref rWastelanderWeaponDC \\nref rVendorWeaponModsBigGunsCommon \\nref rVendorWeaponModsBigGunsCommon75 \\nref rVendorWeaponModsBigGunsRare \\nref rVendorWeaponModsEnergyCommon \\nref rVendorWeaponModsEnergyCommon75 \\nref rVendorWeaponModsEnergyRare \\nref rVendorWeaponModsExplosivesCommon \\nref rVendorWeaponModsExplosivesCommon75 \\nref rVendorWeaponModsExplosivesRare \\nref rVendorWeaponModsExplosivesTier1 \\nref rVendorWeaponModsExplosivesTier2 \\nref rVendorWeaponModsExplosivesTier3 \\nref rVendorWeaponModsExplosivesTier4 \\nref rVendorWeaponModsExplosivesTier5 \\nref rVendorWeaponModsGunsCommon \\nref rVendorWeaponModsGunsCommon75 \\nref rVendorWeaponModsGunsRare \\nref rVendorWeaponModsHandCommon \\nref rVendorWeaponModsHandCommon75 \\nref rVendorWeaponModsHandRare \\nref rVendorWeaponModsMeleeCommon \\nref rVendorWeaponModsMeleeCommon75 \\nref rVendorWeaponModsMeleeRare \\nref rVendorWeaponModsMeleeTier1 \\nref rVendorWeaponModsMeleeTier2 \\nref rVendorWeaponModsMeleeTier3 \\nref rVendorWeaponModsMeleeTier4 \\nref rVendorWeaponModsMeleeTier5 \\n\\n\\nBegin GameMode\\n\tif GetGameRestarted\\n\t\tif IsModLoaded \"TaleOfTwoWastelands.esm\" == 1\\n\t\t\trTTWAmmoListDart = EditorIDtoFormID \"TTWAmmoListDart\"\\n\t\t\trDartGun = EditorIDtoFormID \"DartGun\"\\n\t\t\trBrotherhood0WeaponGun = EditorIDtoFormID \"Brotherhood0WeaponGun\"\\n\t\t\trBrotherhood0WeaponPistol = EditorIDtoFormID \"Brotherhood0WeaponPistol\"\\n\t\t\trBrotherhood1WeaponGun = EditorIDtoFormID \"Brotherhood1WeaponGun\"\\n\t\t\trBrotherhood1WeaponPistol = EditorIDtoFormID \"Brotherhood1WeaponPistol\"\\n\t\t\trBrotherhood1WeaponSpecial = EditorIDtoFormID \"Brotherhood1WeaponSpecial\"\\n\t\t\trBrotherhood2WeaponGun = EditorIDtoFormID \"Brotherhood2WeaponGun\"\\n\t\t\trBrotherhood2WeaponPistol = EditorIDtoFormID \"Brotherhood2WeaponPistol\"\\n\t\t\trBrotherhood2WeaponSpecial = EditorIDtoFormID \"Brotherhood2WeaponSpecial\"\\n\t\t\trBrotherhood3WeaponGun = EditorIDtoFormID \"Brotherhood3WeaponGun\"\\n\t\t\trBrotherhood3WeaponPistol = EditorIDtoFormID \"Brotherhood3WeaponPistol\"\\n\t\t\trBrotherhood3WeaponSpecial = EditorIDtoFormID \"Brotherhood3WeaponSpecial\"\\n\t\t\trBrotherhood4WeaponGun = EditorIDtoFormID \"Brotherhood4WeaponGun\"\\n\t\t\trBrotherhood4WeaponPistol = EditorIDtoFormID \"Brotherhood4WeaponPistol\"\\n\t\t\trBrotherhood4WeaponSpecial = EditorIDtoFormID \"Brotherhood4WeaponSpecial\"\\n\t\t\trBrotherhoodOfSteelWeaponEnergy = EditorIDtoFormID \"BrotherhoodOfSteelWeaponEnergy\"\\n\t\t\trClutterHouseholdValueDC = EditorIDtoFormID \"ClutterHouseholdValueDC\"\\n\t\t\trClutterHouseholdValueSmallDC = EditorIDtoFormID \"ClutterHouseholdValueSmallDC\"\\n\t\t\trClutterMilitaryValueDC = EditorIDtoFormID \"ClutterMilitaryValueDC\"\\n\t\t\trDLC01VendorChestFriday = EditorIDtoFormID \"DLC01VendorChestFriday\"\\n\t\t\trDLC01VendorWeaponsBigGunsRare = EditorIDtoFormID \"DLC01VendorWeaponsBigGunsRare\"\\n\t\t\trDLC01VendorWeaponsHandRare = EditorIDtoFormID \"DLC01VendorWeaponsHandRare\"\\n\t\t\trDLC01VendorWeaponsMeleeRare = EditorIDtoFormID \"DLC01VendorWeaponsMeleeRare\"\\n\t\t\trDLC01VendorWeaponsSmallGunsRare = EditorIDtoFormID \"DLC01VendorWeaponsSmallGunsRare\"\\n\t\t\trDLC03EnclaveWeaponBigGun = EditorIDtoFormID \"DLC03EnclaveWeaponBigGun\"\\n\t\t\trDLC04BanditWeapMelee1 = EditorIDtoFormID \"DLC04BanditWeapMelee1\"\\n\t\t\trDLC04BanditWeapMelee2 = EditorIDtoFormID \"DLC04BanditWeapMelee2\"\\n\t\t\trDLC04BanditWeapMelee3 = EditorIDtoFormID \"DLC04BanditWeapMelee3\"\\n\t\t\trDLC04BanditWeapMelee4 = EditorIDtoFormID \"DLC04BanditWeapMelee4\"\\n\t\t\trDLC04BanditWeapMelee5 = EditorIDtoFormID \"DLC04BanditWeapMelee5\"\\n\t\t\trDLC04BanditWeapRanged1 = EditorIDtoFormID \"DLC04BanditWeapRanged1\"\\n\t\t\trDLC04BanditWeapRanged2 = EditorIDtoFormID \"DLC04BanditWeapRanged2\"\\n\t\t\trDLC04BanditWeapRanged3 = EditorIDtoFormID \"DLC04BanditWeapRanged3\"\\n\t\t\trDLC04BanditWeapRanged4 = EditorIDtoFormID \"DLC04BanditWeapRanged4\"\\n\t\t\trDLC04BanditWeapRanged5 = EditorIDtoFormID \"DLC04BanditWeapRanged5\"\\n\t\t\trDLC04BurialMoundLootAdd75 = EditorIDtoFormID \"DLC04BurialMoundLootAdd75\"\\n\t\t\trDLC04BurialMoundLootWeapon75 = EditorIDtoFormID \"DLC04BurialMoundLootWeapon75\"\\n\t\t\trDLC04LootAddMisc = EditorIDtoFormID \"DLC04LootAddMisc\"\\n\t\t\trDLC04LootAddMisc50 = EditorIDtoFormID \"DLC04LootAddMisc50\"\\n\t\t\trDLC04LootAddMisc75 = EditorIDtoFormID \"DLC04LootAddMisc75\"\\n\t\t\trDLC04LootAddWeapons = EditorIDtoFormID \"DLC04LootAddWeapons\"\\n\t\t\trDLC04LvlTribalWeapMelee1 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee1\"\\n\t\t\trDLC04LvlTribalWeapMelee2 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee2\"\\n\t\t\trDLC04LvlTribalWeapMelee3 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee3\"\\n\t\t\trDLC04LvlTribalWeapMelee4 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee4\"\\n\t\t\trDLC04LvlTribalWeapMelee5 = EditorIDtoFormID \"DLC04LvlTribalWeapMelee5\"\\n\t\t\trDLC04LvlTribalWeapRanged1 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged1\"\\n\t\t\trDLC04LvlTribalWeapRanged2 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged2\"\\n\t\t\trDLC04LvlTribalWeapRanged3 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged3\"\\n\t\t\trDLC04LvlTribalWeapRanged4 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged4\"\\n\t\t\trDLC04LvlTribalWeapRanged5 = EditorIDtoFormID \"DLC04LvlTribalWeapRanged5\"\\n\t\t\trEnclave0WeaponGun = EditorIDtoFormID \"Enclave0WeaponGun\"\\n\t\t\trEnclave0WeaponPistol = EditorIDtoFormID \"Enclave0WeaponPistol\"\\n\t\t\trEnclave0WeaponSpecial = EditorIDtoFormID \"Enclave0WeaponSpecial\"\\n\t\t\trEnclave1WeaponGun = EditorIDtoFormID \"Enclave1WeaponGun\"\\n\t\t\trEnclave1WeaponPistol = EditorIDtoFormID \"Enclave1WeaponPistol\"\\n\t\t\trEnclave1WeaponSpecial = EditorIDtoFormID \"Enclave1WeaponSpecial\"\\n\t\t\trEnclave2WeaponGun = EditorIDtoFormID \"Enclave2WeaponGun\"\\n\t\t\trEnclave2WeaponPistol = EditorIDtoFormID \"Enclave2WeaponPistol\"\\n\t\t\trEnclave2WeaponSpecial = EditorIDtoFormID \"Enclave2WeaponSpecial\"\\n\t\t\trEnclave3WeaponGun = EditorIDtoFormID \"Enclave3WeaponGun\"\\n\t\t\trEnclave3WeaponPistol = EditorIDtoFormID \"Enclave3WeaponPistol\"\\n\t\t\trEnclave3WeaponSpecial = EditorIDtoFormID \"Enclave3WeaponSpecial\"\\n\t\t\trEnclave4WeaponGun = EditorIDtoFormID \"Enclave4WeaponGun\"\\n\t\t\trEnclave4WeaponPistol = EditorIDtoFormID \"Enclave4WeaponPistol\"\\n\t\t\trEnclave4WeaponSpecial = EditorIDtoFormID \"Enclave4WeaponSpecial\"\\n\t\t\trEnclaveWeaponBigGun = EditorIDtoFormID \"EnclaveWeaponBigGun\"\\n\t\t\trLootGunPistolsAll75DC = EditorIDtoFormID \"LootGunPistolsAll75DC\"\\n\t\t\trLootGunPistolsAllDC = EditorIDtoFormID \"LootGunPistolsAllDC\"\\n\t\t\trLootGunPistolsGunpowderDC = EditorIDtoFormID \"LootGunPistolsGunpowderDC\"\\n\t\t\trLootGunRiflesAll75DC = EditorIDtoFormID \"LootGunRiflesAll75DC\"\\n\t\t\trLootGunRiflesAllDC = EditorIDtoFormID \"LootGunRiflesAllDC\"\\n\t\t\trLootGunRiflesGunpowderDC = EditorIDtoFormID \"LootGunRiflesGunpowderDC\"\\n\t\t\trNPCSettlerGunDC = EditorIDtoFormID \"NPCSettlerGunDC\"\\n\t\t\trOutcast0WeaponGun = EditorIDtoFormID \"Outcast0WeaponGun\"\\n\t\t\trOutcast0WeaponPistol = EditorIDtoFormID \"Outcast0WeaponPistol\"\\n\t\t\trOutcast1WeaponGun = EditorIDtoFormID \"Outcast1WeaponGun\"\\n\t\t\trOutcast1WeaponPistol = EditorIDtoFormID \"Outcast1WeaponPistol\"\\n\t\t\trOutcast1WeaponSpecial = EditorIDtoFormID \"Outcast1WeaponSpecial\"\\n\t\t\trOutcast2WeaponGun = EditorIDtoFormID \"Outcast2WeaponGun\"\\n\t\t\trOutcast2WeaponPistol = EditorIDtoFormID \"Outcast2WeaponPistol\"\\n\t\t\trOutcast2WeaponSpecial = EditorIDtoFormID \"Outcast2WeaponSpecial\"\\n\t\t\trOutcast3WeaponGun = EditorIDtoFormID \"Outcast3WeaponGun\"\\n\t\t\trOutcast3WeaponPistol = EditorIDtoFormID \"Outcast3WeaponPistol\"\\n\t\t\trOutcast3WeaponSpecial = EditorIDtoFormID \"Outcast3WeaponSpecial\"\\n\t\t\trOutcast4WeaponGun = EditorIDtoFormID \"Outcast4WeaponGun\"\\n\t\t\trOutcast4WeaponPistol = EditorIDtoFormID \"Outcast4WeaponPistol\"\\n\t\t\trOutcast4WeaponSpecial = EditorIDtoFormID \"Outcast4WeaponSpecial\"\\n\t\t\trOutcastWeaponBigGun = EditorIDtoFormID \"OutcastWeaponBigGun\"\\n\t\t\trOutcastWeaponEnergy = EditorIDtoFormID \"OutcastWeaponEnergy\"\\n\t\t\trOutcastWeaponSmallGuns = EditorIDtoFormID \"OutcastWeaponSmallGuns\"\\n\t\t\trRaider0WeaponGunDC = EditorIDtoFormID \"Raider0WeaponGunDC\"\\n\t\t\trRaider0WeaponPistolDC = EditorIDtoFormID \"Raider0WeaponPistolDC\"\\n\t\t\trRaider0WeaponRifleDC = EditorIDtoFormID \"Raider0WeaponRifleDC\"\\n\t\t\trRaider0WeaponSpecialDC = EditorIDtoFormID \"Raider0WeaponSpecialDC\"\\n\t\t\trRaider1WeaponGunBackup25DC = EditorIDtoFormID \"Raider1WeaponGunBackup25DC\"\\n\t\t\trRaider1WeaponGunDC = EditorIDtoFormID \"Raider1WeaponGunDC\"\\n\t\t\trRaider1WeaponPistolDC = EditorIDtoFormID \"Raider1WeaponPistolDC\"\\n\t\t\trRaider1WeaponRifleDC = EditorIDtoFormID \"Raider1WeaponRifleDC\"\\n\t\t\trRaider1WeaponSpecialDC = EditorIDtoFormID \"Raider1WeaponSpecialDC\"\\n\t\t\trRaider2WeaponGunBackup25DC = EditorIDtoFormID \"Raider2WeaponGunBackup25DC\"\\n\t\t\trRaider2WeaponGunDC = EditorIDtoFormID \"Raider2WeaponGunDC\"\\n\t\t\trRaider2WeaponPistolDC = EditorIDtoFormID \"Raider2WeaponPistolDC\"\\n\t\t\trRaider2WeaponRifleDC = EditorIDtoFormID \"Raider2WeaponRifleDC\"\\n\t\t\trRaider2WeaponSpecialDC = EditorIDtoFormID \"Raider2WeaponSpecialDC\"\\n\t\t\trRaider3WeaponGunBackup25DC = EditorIDtoFormID \"Raider3WeaponGunBackup25DC\"\\n\t\t\trRaider3WeaponGunDC = EditorIDtoFormID \"Raider3WeaponGunDC\"\\n\t\t\trRaider3WeaponPistolDC = EditorIDtoFormID \"Raider3WeaponPistolDC\"\\n\t\t\trRaider3WeaponRifleDC = EditorIDtoFormID \"Raider3WeaponRifleDC\"\\n\t\t\trRaider3WeaponSpecialDC = EditorIDtoFormID \"Raider3WeaponSpecialDC\"\\n\t\t\trRaider4WeaponGunDC = EditorIDtoFormID \"Raider4WeaponGunDC\"\\n\t\t\trRaider4WeaponPistolDC = EditorIDtoFormID \"Raider4WeaponPistolDC\"\\n\t\t\trRaider4WeaponRifleDC = EditorIDtoFormID \"Raider4WeaponRifleDC\"\\n\t\t\trRaider4WeaponSpecialDC = EditorIDtoFormID \"Raider4WeaponSpecialDC\"\\n\t\t\trRaiderWeaponGunDC = EditorIDtoFormID \"RaiderWeaponGunDC\"\\n\t\t\trRaiderWeaponMeleeDC = EditorIDtoFormID \"RaiderWeaponMeleeDC\"\\n\t\t\trRaiderWeaponRifleDC = EditorIDtoFormID \"RaiderWeaponRifleDC\"\\n\t\t\trRaiderWeaponSpecialDC = EditorIDtoFormID \"RaiderWeaponSpecialDC\"\\n\t\t\trTalon0WeaponGun = EditorIDtoFormID \"Talon0WeaponGun\"\\n\t\t\trTalon0WeaponPistol = EditorIDtoFormID \"Talon0WeaponPistol\"\\n\t\t\trTalon0WeaponSniper = EditorIDtoFormID \"Talon0WeaponSniper\"\\n\t\t\trTalon1WeaponGun = EditorIDtoFormID \"Talon1WeaponGun\"\\n\t\t\trTalon1WeaponPistol = EditorIDtoFormID \"Talon1WeaponPistol\"\\n\t\t\trTalon1WeaponSniper = EditorIDtoFormID \"Talon1WeaponSniper\"\\n\t\t\trTalon2WeaponGun = EditorIDtoFormID \"Talon2WeaponGun\"\\n\t\t\trTalon2WeaponPistol = EditorIDtoFormID \"Talon2WeaponPistol\"\\n\t\t\trTalon2WeaponSniper = EditorIDtoFormID \"Talon2WeaponSniper\"\\n\t\t\trTalon3WeaponGun = EditorIDtoFormID \"Talon3WeaponGun\"\\n\t\t\trTalon3WeaponPistol = EditorIDtoFormID \"Talon3WeaponPistol\"\\n\t\t\trTalon3WeaponSniper = EditorIDtoFormID \"Talon3WeaponSniper\"\\n\t\t\trTalon4WeaponGun = EditorIDtoFormID \"Talon4WeaponGun\"\\n\t\t\trTalon4WeaponPistol = EditorIDtoFormID \"Talon4WeaponPistol\"\\n\t\t\trTalon4WeaponSniper = EditorIDtoFormID \"Talon4WeaponSniper\"\\n\t\t\trTalonWeaponGun = EditorIDtoFormID \"TalonWeaponGun\"\\n\t\t\trTalonWeaponGunBackup33 = EditorIDtoFormID \"TalonWeaponGunBackup33\"\\n\t\t\trTalonWeaponMissile = EditorIDtoFormID \"TalonWeaponMissile\"\\n\t\t\trTalonWeaponSpecialBackup = EditorIDtoFormID \"TalonWeaponSpecialBackup\"\\n\t\t\trVendorAmmoBullets100DC = EditorIDtoFormID \"VendorAmmoBullets100DC\"\\n\t\t\trVendorAmmoGeneric100DC = EditorIDtoFormID \"VendorAmmoGeneric100DC\"\\n\t\t\trVendorAmmoGeneric75DC = EditorIDtoFormID \"VendorAmmoGeneric75DC\"\\n\t\t\trVendorChestJunkStoreDC = EditorIDtoFormID \"VendorChestJunkStoreDC\"\\n\t\t\trVendorScavengerJunkListDC = EditorIDtoFormID \"VendorScavengerJunkListDC\"\\n\t\t\trVendorWeaponsBigGunsCommon = EditorIDtoFormID \"VendorWeaponsBigGunsCommon\"\\n\t\t\trVendorWeaponsBigGunsCommon75 = EditorIDtoFormID \"VendorWeaponsBigGunsCommon75\"\\n\t\t\trVendorWeaponsBigGunsRare = EditorIDtoFormID \"VendorWeaponsBigGunsRare\"\\n\t\t\trVendorWeaponsHandRareDC = EditorIDtoFormID \"VendorWeaponsHandRareDC\"\\n\t\t\trVendorWeaponsMeleeCommonDC = EditorIDtoFormID \"VendorWeaponsMeleeCommonDC\"\\n\t\t\trVendorWeaponsMeleeRareDC = EditorIDtoFormID \"VendorWeaponsMeleeRareDC\"\\n\t\t\trVendorWeaponsSmallGunsCommon75DC = EditorIDtoFormID \"VendorWeaponsSmallGunsCommon75DC\"\\n\t\t\trVendorWeaponsSmallGunsCommonDC = EditorIDtoFormID \"VendorWeaponsSmallGunsCommonDC\"\\n\t\t\trWastelanderWeaponDC = EditorIDtoFormID \"WastelanderWeaponDC\"\\n\t\t\trAmmoDart = EditorIDtoFormID \"AmmoDart\"\\n\t\t\trAmmoDart75 = EditorIDtoFormID \"AmmoDart75\"\\n\t\t\trVendorWeaponsBigGunsCommon = EditorIDtoFormID \"VendorWeaponsBigGunsCommon\"\\n\t\t\trVendorWeaponsBigGunsCommon75 = EditorIDtoFormID \"VendorWeaponsBigGunsCommon75\"\\n\t\t\trVendorWeaponsBigGunsRare = EditorIDtoFormID \"VendorWeaponsBigGunsRare\"\\n\t\t\trVendorWeaponsHandRareDC = EditorIDtoFormID \"VendorWeaponsHandRareDC\"\\n\t\t\trVendorWeaponsMeleeCommonDC = EditorIDtoFormID \"VendorWeaponsMeleeCommonDC\"\\n\t\t\trVendorWeaponsMeleeRareDC = EditorIDtoFormID \"VendorWeaponsMeleeRareDC\"\\n\t\t\trVendorWeaponsSmallGunsCommon75DC = EditorIDtoFormID \"VendorWeaponsSmallGunsCommon75DC\"\\n\t\t\trVendorWeaponsSmallGunsCommonDC = EditorIDtoFormID \"VendorWeaponsSmallGunsCommonDC\"\\n\t\t\trWastelanderWeaponDC = EditorIDtoFormID \"WastelanderWeaponDC\"\\n\t\t\trVendorWeaponModsBigGunsCommon = EditorIdToFormID \"VendorWeaponModsBigGunsCommon\"\\n\t\t\trVendorWeaponModsBigGunsCommon75 = EditorIdToFormID \"VendorWeaponModsBigGunsCommon75\"\\n\t\t\trVendorWeaponModsBigGunsRare = EditorIdToFormID \"VendorWeaponModsBigGunsRare\"\\n\t\t\trVendorWeaponModsEnergyCommon = EditorIdToFormID \"VendorWeaponModsEnergyCommon\"\\n\t\t\trVendorWeaponModsEnergyCommon75 = EditorIdToFormID \"VendorWeaponModsEnergyCommon75\"\\n\t\t\trVendorWeaponModsEnergyRare = EditorIdToFormID \"VendorWeaponModsEnergyRare\"\\n\t\t\trVendorWeaponModsExplosivesCommon = EditorIdToFormID \"VendorWeaponModsExplosivesCommon\"\\n\t\t\trVendorWeaponModsExplosivesCommon75 = EditorIdToFormID \"VendorWeaponModsExplosivesCommon75\"\\n\t\t\trVendorWeaponModsExplosivesRare = EditorIdToFormID \"VendorWeaponModsExplosivesRare\"\\n\t\t\trVendorWeaponModsExplosivesTier1 = EditorIdToFormID \"VendorWeaponModsExplosivesTier1\"\\n\t\t\trVendorWeaponModsExplosivesTier2 = EditorIdToFormID \"VendorWeaponModsExplosivesTier2\"\\n\t\t\trVendorWeaponModsExplosivesTier3 = EditorIdToFormID \"VendorWeaponModsExplosivesTier3\"\\n\t\t\trVendorWeaponModsExplosivesTier4 = EditorIdToFormID \"VendorWeaponModsExplosivesTier4\"\\n\t\t\trVendorWeaponModsExplosivesTier5 = EditorIdToFormID \"VendorWeaponModsExplosivesTier5\"\\n\t\t\trVendorWeaponModsGunsCommon = EditorIdToFormID \"VendorWeaponModsGunsCommon\"\\n\t\t\trVendorWeaponModsGunsCommon75 = EditorIdToFormID \"VendorWeaponModsGunsCommon75\"\\n\t\t\trVendorWeaponModsGunsRare = EditorIdToFormID \"VendorWeaponModsGunsRare\"\\n\t\t\trVendorWeaponModsHandCommon = EditorIdToFormID \"VendorWeaponModsHandCommon\"\\n\t\t\trVendorWeaponModsHandCommon75 = EditorIdToFormID \"VendorWeaponModsHandCommon75\"\\n\t\t\trVendorWeaponModsHandRare = EditorIdToFormID \"VendorWeaponModsHandRare\"\\n\t\t\trVendorWeaponModsMeleeCommon = EditorIdToFormID \"VendorWeaponModsMeleeCommon\"\\n\t\t\trVendorWeaponModsMeleeCommon75 = EditorIdToFormID \"VendorWeaponModsMeleeCommon75\"\\n\t\t\trVendorWeaponModsMeleeRare = EditorIdToFormID \"VendorWeaponModsMeleeRare\"\\n\t\t\trVendorWeaponModsMeleeTier1 = EditorIdToFormID \"VendorWeaponModsMeleeTier1\"\\n\t\t\trVendorWeaponModsMeleeTier2 = EditorIdToFormID \"VendorWeaponModsMeleeTier2\"\\n\t\t\trVendorWeaponModsMeleeTier3 = EditorIdToFormID \"VendorWeaponModsMeleeTier3\"\\n\t\t\trVendorWeaponModsMeleeTier4 = EditorIdToFormID \"VendorWeaponModsMeleeTier4\"\\n\t\t\trVendorWeaponModsMeleeTier5 = EditorIdToFormID \"VendorWeaponModsMeleeTier5\"\\n\t\t\tref rRepairChinesePistol = EditorIdToFormID \"RepairChinesePistol\"\\n\\n\t\t\tref rSupermutant3WeaponSpecialADC = EditorIdToFormID \"Supermutant3WeaponSpecialADC\"\\n\t\t\tref rSupermutant4WeaponSpecialADC = EditorIdToFormID \"Supermutant4WeaponSpecialADC\"\\n\\n\t\t\tref rDLC03SupermutantWeaponGun = EditorIdToFormID \"DLC03SupermutantWeaponGun\"\\n\t\t\tref rDLC03SupermutantWeaponLauncher = EditorIdToFormID \"DLC03SupermutantWeaponLauncher\"\\n\t\t\tref rDLC03SupermutantWeaponSpecial = EditorIdToFormID \"DLC03SupermutantWeaponSpecial\"\\n\\n\t\t\tSetRepairList rRepairChinesePistol CFWRWeapClassicMC96\\n\t\t\tListAddForm rRepairChinesePistol CFWRWeapClassicMC96\\n\\n\t\t\tSetWeaponAmmo rTTWAmmoListDart CFWRWeapClassicNeedlerDart\\n\t\t\tSetProjectile rDartGun CFWRWeapClassicNeedlerDart\\n\t\t\tLeveledListAddForm WithAmmoMagneticDartPistolLoot rAmmoDart 1 1 1.0\\n\t\t\tLeveledListAddForm WithAmmoMagneticDartPistolLoot rAmmoDart75 1 7 1.0\\n\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sFNFAL\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;FN FAL Rifle\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoFNFALRifleLoot 20 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoFNFALRifleLoot 20 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoFNFALRifleLoot 20 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponSmallGuns WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoFNFALRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoFNFALRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoFNFALRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoFNFALRifleLoot 20 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoFNFALRifleLoot 20 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged5 WithAmmoFNFALRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoFNFALRifleLoot 15 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood2WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave2WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast2WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponGunDC WithAmmoFNFALRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponRifleDC WithAmmoFNFALRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponSniper WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponSniper WithAmmoFNFALRifleNPC 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sClassicSniperRifle\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;DKS Sniper Rifle\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoClassicSniperRifleLoot 18 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoClassicSniperRifleLoot 18 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoClassicSniperRifleLoot 18 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponSmallGuns WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaiderWeaponSpecialDC WithAmmoClassicSniperRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoClassicSniperRifleNPC 15 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoClassicSniperRifleNPC 15 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged5 WithAmmoClassicSniperRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoClassicSniperRifleNPC 10 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood0WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood1WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave0WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave1WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast0WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast1WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponSpecialDC WithAmmoClassicSniperRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponSpecialDC WithAmmoClassicSniperRifleLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponSniper WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponSniper WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponSniper WithAmmoClassicSniperRifleNPC 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sClassicSawedOff\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\tLeveledListAddForm rLootGunPistolsAll75DC WithAmmoClassicShotgunSawedOffLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunPistolsAllDC WithAmmoClassicShotgunSawedOffLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunPistolsGunpowderDC WithAmmoClassicShotgunSawedOffLoot 6 1 1.0\\n\t\t\t\tLeveledListAddForm rNPCSettlerGunDC WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaiderWeaponGunDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponGun WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalonWeaponGun WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoClassicShotgunSawedOffNPC 6 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoClassicShotgunSawedOffNPC 6 1 1.0\\n\t\t\t\tLeveledListAddForm rWastelanderWeaponDC WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged3 WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged4 WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged5 WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponGunDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponGunDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider2WeaponPistolDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponPistolDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponPistolDC WithAmmoClassicShotgunSawedOffRaider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon0WeaponGun WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponGun WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon0WeaponPistol WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon1WeaponPistol WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon2WeaponPistol WithAmmoClassicShotgunSawedOffNPC 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sClassicCombatShotgun\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Classic Combat Shotgun\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoClassicCombatShotgunLoot 15 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoClassicCombatShotgunLoot 15 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoClassicCombatShotgunLoot 15 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponSmallGuns WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoClassicCombatShotgunLoot 15 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoClassicCombatShotgunLoot 15 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponGun WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponSpecial WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponSpecial WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponGun WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponSpecial WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponSpecial WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponGun WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponSpecial WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponSpecial WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponSpecialDC WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoClassicCombatShotgunLoot 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sJackhammer\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;Pancor Jackhammer\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoPancorJackhammerShotgunLoot 22 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoPancorJackhammerShotgunLoot 22 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoPancorJackhammerShotgunLoot 22 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcastWeaponSmallGuns WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoPancorJackhammerShotgunLoot 22 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoPancorJackhammerShotgunLoot 22 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoPancorJackhammerShotgunLoot 22 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponGun WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood3WeaponSpecial WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rBrotherhood4WeaponSpecial WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponGun WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave3WeaponSpecial WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rEnclave4WeaponSpecial WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponGun WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast3WeaponSpecial WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rOutcast4WeaponSpecial WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponSpecialDC WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoPancorJackhammerShotgunLoot 1 1 1.0\\n\t\t\tendif\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sP90\" \"CFWR Config.ini\" == 1\\n\\n\t\t\t\t;P90\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoClassicP90Loot 10 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoClassicP90Loot 10 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoClassicP90Loot 10 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rRaider3WeaponGunDC WithAmmoClassicP90Raider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponGunDC WithAmmoClassicP90Raider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider3WeaponRifleDC WithAmmoClassicP90Raider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rRaider4WeaponRifleDC WithAmmoClassicP90Raider 1 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rDLC04BanditWeapRanged5 WithAmmoClassicP90Raider 1 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rTalon2WeaponGun WithAmmoClassicP90Raider 1 1 1.0\\n\t\t\t\tLeveledListAddForm rTalon3WeaponGun WithAmmoClassicP90Raider 1 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommon75DC WithAmmoClassicP90Raider 10 1 1.0\\n\t\t\t\tLeveledListAddForm rVendorWeaponsSmallGunsCommonDC WithAmmoClassicP90Raider 10 1 1.0\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoClassicP90Raider 1 1 1.0\\n\t\t\tendif\\n\\n\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sXL70\" \"CFWR Config.ini\" == 1\\n\t\t\t\tif GetINIFloat \"Base Game Mods:sXL70\" \"CFWR Config.ini\" == 0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon ModXL70ExtendedMags 20 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon75 ModXL70ExtendedMags 20 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsRare ModXL70ExtendedMags 15 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon ModXL70AlloyBolt 20 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsCommon75 ModXL70AlloyBolt 20 1 1.0\\n\t\t\t\t\tLeveledListAddForm rVendorWeaponModsGunsRare ModXL70AlloyBolt 15 1 1.0\\n\t\t\t\tendif\\n\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAll75DC WithAmmoXL70Loot 25 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesAllDC WithAmmoXL70Loot 25 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunRiflesGunpowderDC WithAmmoXL70Loot 25 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rTalon4WeaponGun WithAmmoXL70Loot 1 1 1.0\\n\\n\t\t\t\tLeveledListAddForm rDLC01VendorWeaponsSmallGunsRare WithAmmoXL70Loot 22 1 1.0\\n\\n\t\t\tendif\\n\t\t\tif GetINIFloat \"Wasteland Integrations:sNeedlerPistol\" \"CFWR Config.ini\" == 1\\n\t\t\t\tLeveledListAddForm rLootGunPistolsAll75DC WithAmmoNeedlerPistolLoot 1 1 1.0\\n\t\t\t\tLeveledListAddForm rLootGunPi",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "Case14mmAddScript_0A00BC15#SCPT:SCTX#e4bc0996537aa3c6cc4f32a3173be4cb",
+    "original": "scn Case14mmAddScript\\n\\nBEGIN OnAdd Player\\n\tPlayer.AddItem Case14mm 25\\n\tRemoveMe\\nEND",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SCPTCFWRNameChanges_0A0142AD#SCPT:SCDA#631322e002215a9d9569a43b1cf93fc3",
+    "original": "Vertibird Minigun",
+    "translation": "飞鸟的转轮机枪",
+    "stage": 1
+  },
+  {
+    "key": "SCPTCFWRNameChanges_0A0142AD#SCPT:SCDA#0685b975f7ea6e09d3972ee3007a42f7",
+    "original": ".44 Pistol",
+    "translation": ".44手枪",
+    "stage": 1
+  },
+  {
+    "key": "SCPTCFWRNameChanges_0A0142AD#SCPT:SCDA#237c5382852df7b560d9668fdb3788c3",
+    "original": "5.56 Hunting Rifle",
+    "translation": "5. 56 猎枪",
+    "stage": 1
+  },
+  {
+    "key": "SSVFlamingEffectAshScript_0A020ED7#SCPT:SCTX#14d3b65f1c5ac3f1ada9ef0d5fc2702b",
+    "original": "scn SSVFlamingEffectAshScript\\nFloat Timer\\nShort DoOnce\\nfloat myAA\\nshort isRobot\\n\\nBegin ScriptEffectStart\\n\tif GetDead == 1\\n\t\tif GetIsCreatureType 6\\n\t\t\tset isRobot to 1\\n\t\t\tPMS LaserCritGlowFXShader\\n\t\t\tPlaceAtMe SSVFireBurstBig 1\\n\t\t\tPMS Flames01\\n\t\t\tset Timer to 1.8\\n\t\t\tset DoOnce to 0\\n\t\telse\\n\t\t\tset isRobot to 0\\n\t\t\tPMS LaserCritGlowFXShader\\n\t\t\tPMS effectLaserDisintegration\\n\t\t\tPlaceAtMe SSVFireBurstBig 1\\n\t\t\tSetCriticalStage DisintegrateStart\\n\t\t\tPMS Flames01\\n\t\t\tset Timer to 3.6\\n\t\t\tset DoOnce to 0\\n\t\tendif\\n\tendif\\n\tPMS Smoke01\\nEnd\\n\\nBegin ScriptEffectUpdate\\n\tif DoOnce == 0\\n\t\tSet Timer to (Timer - GetSecondsPassed)\\n\t\tif Timer < 0\\n\t\t\tif isRobot\\n\t\t\t\tset DoOnce to 3\\n\t\t\t\tset Timer to 2.0\\n\t\t\t\tSMS LaserCritGlowFXShader\\n\t\t\telse\\n\t\t\t\tset DoOnce to 1\\n\t\t\t\tset Timer to 2.0\\n\t\t\t\tSMS LaserCritGlowFXShader\\n\t\t\t\tSMS effectLaserDisintegration\\n\t\t\tendif\\n\t\tendif\\n\tendif\\n\tif DoOnce == 1\\n\t\tSet Timer to (Timer - GetSecondsPassed)\\n\t\tif Timer < 0\\n\t\t\tset DoOnce to 2\\n\t\t\tset Timer to 1.0\\n\t\t\tset myAA to 1\\n\t\t\tAttachAshPile\\n\t\t\tPlaceAtMe SSVFireBurst 1\\n\t\tendif\\n\tendif\\n\tif DoOnce == 2\\n\t\tSet Timer to (Timer - GetSecondsPassed)\\n\t\tset myAA to myAA - GetSecondsPassed\\n\t\tSAA myAA\\n\t\tif Timer < 0\\n\t\t\tset DoOnce to 5\\n\t\t\tSetCriticalStage DisintegrateEnd\\n\t\tendif\\n\tendif\\n; Robots\\n\tif DoOnce == 3\\n\t\tSet Timer to (Timer - GetSecondsPassed)\\n\t\tif Timer < 0\\n\t\t\tset DoOnce to 4\\n\t\t\tset Timer to 1.8\\n\t\t\tPlaceAtMe SSVRobotExplosion 1\\n\t\t\tPMS PulseDisableFXShader\\n\t\t\tPMS Smoke02Pulse\\n\t\tendif\\n\tendif\\n\tif DoOnce == 4\\n\t\tSet Timer to (Timer - GetSecondsPassed)\\n\t\tif Timer < 0\\n\t\t\tset DoOnce to 5\\n\t\t\tSMS PulseDisableFXShader\\n\t\tendif\\n\tendif\\nEnd\\n\\nBegin ScriptEffectFinish\\n\tSMS Smoke01\\n\tSMS Smoke02Pulse\\n\tSMS Flames01\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SolarScorcherScript_0A021ADB#SCPT:SCTX#fbe5f124cdfe3f50f2ed60357c5cbe96",
+    "original": "scn SolarScorcherScript\\n\\nint iChargeLevel\\nref rContainer\\n\\nfloat fTimer\\nfloat fChargePercent\\n\\nfloat fSunlightRechargeCellSeconds\\n\\nfloat fTimeOfDay\\nfloat fTimeVariableHolder\\n\\nBegin GameMode\\n\tif rContainer != GetContainer\\n\t\trContainer = GetContainer\\n\tendif\\n\t;the \"container\" may be an actual container, or an NPC holding the weapon.\\n\t;printvar rContainer\\n\\n\tif rContainer.getequipped CFWRSolarScorcher == 1\\n\t\tif rContainer.GetIsFormType NPC_\\n\t\t\tif rContainer.HasPerk PerkSolarScorcherDamageController == 0\\n\t\t\t\t;print \"adding damage control perk\"\\n\t\t\t\trContainer.addperk PerkSolarScorcherDamageController\\n\t\t\tendif\\n\t\tendif\\n\t\t;this perk controls the damage at all times and interiors, so we can cut all of the perk adding and removing at certain times stuff\\n\t\t;doing it this way, by getting the container, allows NPCs to use the weapon properly\\n\\n\t\tif TTWStartHourInstead == 1\\n\t\t;TTW starts on an earlier day than the command checks for days since, so we have to specify the start date for TTW instead\\n\t\t\tfTimeVariableHolder = GetGameDaysPassed 2277 8 18\\n\t\telse\\n\t\t\tfTimeVariableHolder = GetGameDaysPassed\\n\t\tendif\\n\t\t;printvar fTimeVariableHolder \\n\t\t;printvar fTimeOfDay \\n\\n\t\tif fTimeOfDay != fTimeVariableHolder\\n\t\t;if our stored time of day value doesn't equal the total days passed since the start date that we put in our variable holder above\\n\t\t\tif fTimeOfDay == 0\\n\t\t\t;if we're initializing fTimeOfDay for the first time, we do something different\\n\t\t\t\tfTimeOfDay = fTimeVariableHolder\\n\t\t\t\t;print \"initializing\"\\n\t\t\telse\\n\t\t\t\tif (fTimeVariableHolder - fTimeOfDay >= 0.0416)\\n\t\t\t\t;if the days passed in fTimeVariableHolder is greater than one hour, give em all their ammo\\n\t\t\t\t\tfTimeOfDay = fTimeVariableHolder \\n\t\t\t\t\trContainer.additem AmmoSunlight ((GetWeaponClipRounds CFWRSolarScorcher) - rContainer.GetCurrentAmmoRounds) 1\\n\t\t\t\t\t;print \"adding max ammo, an hour has passed\"\\n\t\t\t\tendif\\n\t\t\tendif\\n\t\tendif\\n\\n\\n\t\tif fSunlightRechargeCellSeconds != SunlightRechargeCellSeconds\\n\t\t\tfSunlightRechargeCellSeconds = SunlightRechargeCellSeconds\\n\t\t\t;printvar fSunlightRechargeCellSeconds \\n\t\tendif\\n\\n\t\tfTimer = fTimer + GetSecondsPassed\\n\t\t;every time the script updates, it'll take the current timer value and add the amount of seconds since the script last run to it. this will be approximately 60 times per second at 60 fps.\\n\t\t;printvar fTimer\\n\\n\t\tif fTimer >= 1\\n\t\t;print \"timer is equal or greater than 1\"\\n\t\t;wait for a full second to pass to do the ammo increase calc, rather than every frame\\n\t\t\tif rContainer.isininterior == 1 || (GetCurrentTime < 5 || GetCurrenttime > 20)\\n\t\t\t;if the actor is in an interior, or it's either past 20 hrs or before 5 hrs, do nothing\\n\t\t\t;print \"interior or night\"\\n\t\t\telseif GetCurrentTime >= 5 && GetCurrentTime < 9 \\n\t\t\t;if they're outside and it's later than 5 and earlier than 9\\n\t\t\t\t;print \"dawn\"\\n\t\t\t\tfChargePercent = fChargePercent + fTimer * 0.5 \\n\t\t\t\t;printvar fChargePercent\\n\t\t\t;iterate the charge percent by half if it's dawn and they're outside\\n\t\t\telse\\n\t\t\t;during ideal sunligh circumstances\\n\t\t\t\t;print \"day\"\\n\t\t\t\tfChargePercent = fChargePercent + fTimer *1\\n\t\t\t\t;printvar fChargePercent\\n\t\t\tendif\\n\t\t\tfTimer = 0\\n\t\t\t;printvar fTimer\\n\t\t\t;reset the timer so that we count up to 1 again\\n\t\tendif\\n\t\tif fChargePercent >= fSunlightRechargeCellSeconds \\n\t\t;if our ongoing charge has reached or surpassed the threshold for a recharge\\n\t\t\tif rContainer.GetCurrentAmmoRounds < GetWeaponClipRounds CFWRSolarScorcher\\n\t\t\t\tfChargePercent = 0\\n\t\t\t\t;zero out the charge value to start again\\n\t\t\t\trContainer.additem AmmoSunlight 1 1\\n\t\t\t\t;the second 1 is for the \"don't display ___ added message\" flag\\n\t\t\t\trContainer.SetCurrentAmmoRounds (rContainer.GetCurrentAmmoRounds + 1)\\n\t\t\t\t;increase the current clip round count, so that they don't need to reload\\n\t\t\t\t;messageex \"adding ammo\"\\n\t\t\t\t;print \"adding ammo\"\\n\t\t\tendif\\n\t\tendif\\n\\n\t\tiChargeLevel = rContainer.GetCurrentAmmoRounds\\n\t\t;printvar iChargelevel\\n\\n\t\tIf iChargeLevel == 0 \\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\00_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 1\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\01_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 2\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\02_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 3\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\03_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 4\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\04_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 5\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\05_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 6\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\06_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 7\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\07_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 8\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\08_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 9\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\09_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 10\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\10_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 11\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\11_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 12\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\12_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 13\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\13_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 14\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\14_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 15\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\15_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 16\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\16_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 17\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\17_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 18\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\18_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 19\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\19_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 20\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\20_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 21\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\21_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 22\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\22_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 23\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\23_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 24\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\24_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 25\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\25_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 26\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\26_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 27\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\27_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 28\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\28_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 29\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\29_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 30\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\30_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel ==31\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\31_g\"\\n\t\tEndIf\\n\\n\t\tIf iChargeLevel == 32\\n\t\t\tSwapTexture rContainer DigitalDisplay \"weapons\\solarscorcher\\digitaldisplay\\32_g\"\\n\t\tEndIf\\n\tendif\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "ClassicPowerFistLimbCrippleEffect_0A000804#SCPT:SCTX#5611e02b37f1c4765157d270849efb57",
+    "original": "scn ClassicPowerFistLimbCrippleEffect\\n\\n; Cripples an enemy's entire body when they are hit by the Devil's Grip special attack.\\n\\nref MyTarget\\n\\nBegin ScriptEffectStart\\n\\nSet MyTarget to Player.GetCombatTarget\\n\\nMyTarget.SetAV PerceptionCondition 0\\nMyTarget.SetAV EnduranceCondition 0\\nMyTarget.SetAV LeftAttackCondition 0\\nMyTarget.SetAV RightAttackCondition 0\\nMyTarget.SetAV LeftMobilityCondition 0\\nMyTarget.SetAV RightMobilityCondition 0\\n\\nEnd",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "aaaSawedOffScript_0A000834#SCPT:SCTX#31c5735ccaca697ecec61c8b121ed08a",
+    "original": "scn aaaSawedOffScript\\n\\nBEGIN ONEQUIP player\\nplayer.addperk aaaBloodyMess\\nEND\\n\\nBEGIN ONUNEQUIP player\\nplayer.removeperk aaaBloodyMess\\nEND",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SCPTOnHitWithRock_0A0226D6#SCPT:SCTX#1d7439c670c191980b9639c522d71354",
+    "original": "scn SCPTOnHitWithRock\\n\\nref rTarget\\nref rWeapon\\nref rAttacker\\n\\nbegin function {rTarget, rWeapon}\\n\tif rTarget.GetArmourPenetrated == 1\\n\t\tif rTarget.GetHitLocation == 1 || rTarget.GetHitLocation == 2 || rTarget.GetHitLocation == 13\\n\t\t\trAttacker = rTarget.GetHitAttacker\\n\t\t\tif IsFormValid rAttacker == 1\\n\t\t\t\trAttacker.PushActorAway rTarget 1\\n\t\t\tendif\\n\t\tendif\\n\tendif\\nend",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "SSVFlamingCritEffect_0A020ED5#SPEL:FULL#9a9fa3dd0618292c88f733e466fa9fcc",
+    "original": "Imolation",
+    "translation": "火刑",
+    "stage": 1
+  },
+  {
+    "key": "000TestArmor_0A000801#ARMO:FULL#ce7816800d087b5b61e21b74e389d681",
+    "original": "Test Armor",
+    "translation": "特斯拉装甲",
+    "stage": 1
+  },
+  {
+    "key": "LootSafeREPCONHQWithScorcher_0A0220D6#CONT:FULL#5fc11af8eeb63ae72c7cfa803ba363e4",
+    "original": "Safe",
+    "translation": "保险箱",
+    "stage": 1
+  },
+  {
+    "key": "Case14mm_0A009AEB#MISC:FULL#ead3e5920f8a4aff296e9853390fad4f",
+    "original": "Case, 14mm",
+    "translation": "弹药箱,14mm",
+    "stage": 1
+  },
+  {
+    "key": "BoxCase14mm_0A00AB86#MISC:FULL#58ccb38496a50bf90752bb5f92622953",
+    "original": "Case Box, 14mm",
+    "translation": "弹药盒,14mm",
+    "stage": 1
+  },
+  {
+    "key": "Drained2mmEC_0A00AB8A#MISC:FULL#effe38c95949fa413b5cdaeac14d5780",
+    "original": "Drained 2mm EC Round",
+    "translation": "耗尽能量的2mm电磁弹",
+    "stage": 1
+  },
+  {
+    "key": "ElvisPoster_0A004E2F#MISC:FULL#caeb8cb5a7139e4676585054c4545444",
+    "original": "The King Poster",
+    "translation": "猫王海报",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicPowerFist_0A000806#WEAP:FULL#091317aaf5d344f2991b51626d83b072",
+    "original": "BeatCo Big Frigger",
+    "translation": "比科特动力拳套",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicPowerFist_0A000806#WEAP:VANM#aae718d5f880f1dc7dbe680b5a4a8964",
+    "original": "Devil's Grip",
+    "translation": "魔鬼之握",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicSledgehammer_0A000807#WEAP:FULL#fcd7da5d7bda63fed05054d2114beb59",
+    "original": "Heavy Sledgehammer",
+    "translation": "重型大锤",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicSledgehammer_0A000807#WEAP:VANM#c43a674c6617b81d94b5b9ed490460d9",
+    "original": "Mauler",
+    "translation": "猛击",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicSuperSledge_0A000809#WEAP:FULL#226f716ad4cfd970aaf4431c1d1591c7",
+    "original": "Super Sledgehammer",
+    "translation": "超级大锤",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicSuperSledge_0A000809#WEAP:VANM#c43a674c6617b81d94b5b9ed490460d9",
+    "original": "Mauler",
+    "translation": "猛击",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassic6520Pistol_0A000817#WEAP:FULL#c9d0a40adbe74cec0d1d1ca6f7f76adc",
+    "original": "Colt 6520 Pistol",
+    "translation": "柯尔特6520手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicMC96_0A000821#WEAP:FULL#77366cc02dd6d95af24a47ca06677818",
+    "original": "Mauser M/96 9mm",
+    "translation": "毛瑟 M/96 9mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicSigSauerPistol_0A000824#WEAP:FULL#e01f7543e7f85192f199f4481018fc20",
+    "original": "14mm Pistol",
+    "translation": "14mm 手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicMDEagle_0A00082E#WEAP:FULL#28f44f97703b08a3a6875c561172344c",
+    "original": "Desert Eagle",
+    "translation": "沙漠之鹰",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassic10mmSMG_0A000833#WEAP:FULL#68ba61e452a70e4996ca63d7d0eca9d1",
+    "original": "H&K MP9 10mm SMG",
+    "translation": "H&K MP9 10mm冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapShotgunSawedOff_0A000836#WEAP:FULL#d726f4c17cc377d9a2da40ff8d448e7e",
+    "original": "Scatter Sawed-Off Shotgun",
+    "translation": "截短双管猎枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicCombatShotgun_0A000838#WEAP:FULL#ea02992ba6ea5759bd5244059bd89505",
+    "original": "Winchester City-Killer",
+    "translation": "温彻斯特城市杀手",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapPancorJH_0A000842#WEAP:FULL#5b6fa57515a229c37d47ce27da7e7b07",
+    "original": "Pancor Jackhammer",
+    "translation": "气锤霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapAK112_0A000848#WEAP:FULL#6df0b29977b6dfe21b41af1900a757bd",
+    "original": "AK-112 Assault Rifle",
+    "translation": "AK-112 突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapNVRangemaster_0A000858#WEAP:FULL#90e2cee22ab664e3f0588fd7509f2329",
+    "original": "Colt Rangemaster Hunting Rifle",
+    "translation": "柯尔特游牧人猎枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRFNFAL_0A000859#WEAP:FULL#37257c4835021c85e58e7eb829775896",
+    "original": "FN FAL",
+    "translation": "FN FAL",
+    "stage": 1
+  },
+  {
+    "key": "CFWRTommyGun_0A00085B#WEAP:FULL#a62dab6215abbbd78a652d5f18eba2cf",
+    "original": "Tommy Gun",
+    "translation": "汤米枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicSniperRifle_0A000862#WEAP:FULL#095a4677dfd2e277a2d3e0ce999f7266",
+    "original": "DKS-501 Sniper Rifle",
+    "translation": "DKS-501 狙击步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapLaserPistol_0A000864#WEAP:FULL#f0544f0f7cbf6f5852239d7c220d67ed",
+    "original": "Wattz 1000 Laser Pistol",
+    "translation": "瓦兹1000激光手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapLaserRifle_0A00086D#WEAP:FULL#9f8404257052b6bb90ff7fdcb50a34cd",
+    "original": "Wattz 2000 Laser Rifle",
+    "translation": "瓦兹2000激光步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapPlasmaPistol_0A000871#WEAP:FULL#7fb5f752ae473de489392a72be754f8e",
+    "original": "Glock 86 Plasma Pistol",
+    "translation": "格洛克86等离子手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapP94PlasmaCaster_0A000876#WEAP:FULL#c7cd8daa7460f8ff08568428ef0c9b0a",
+    "original": "P94 Plasma Caster",
+    "translation": "温彻斯特P94等离子投射器",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapGatlingLaser_0A00087C#WEAP:FULL#4f19b98bab4103d8c4dd957eb57a8e4b",
+    "original": "H&K L30 Gatling Laser",
+    "translation": "H&K L30 激光加特林",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapHecklerG11_0A00087E#WEAP:FULL#969af1608947634e03660da8d15170d6",
+    "original": "H&K G11",
+    "translation": "H&K G11",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapP92CasterRifle_0A000881#WEAP:FULL#0b7ff1c2b9451d0c319a81fb9f1bcc13",
+    "original": "P92 Caster Rifle",
+    "translation": "温彻斯特P92等离子步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRYK32PulsePistol_0A000887#WEAP:FULL#18b3e13eddf35e5e929934be0e70f04d",
+    "original": "YK-32 Pulse Pistol",
+    "translation": "YK-32震荡波手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRYK42BPulseRifle_0A00088D#WEAP:FULL#4a26f6402b83624f3b22643bf765cb98",
+    "original": "YK42B Pulse Rifle",
+    "translation": "YK42B震荡波步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRFlambe450_0A000891#WEAP:FULL#9f70a59621812a498185b4daa8c342b8",
+    "original": "Flambe 450",
+    "translation": "燃烧450火焰喷射器",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapMinigun_0A000896#WEAP:FULL#2e95ab3dca147af50bac613a6f523964",
+    "original": "Rockwell CZ53 Minigun",
+    "translation": "罗克韦尔 CZ53转轮机枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapNVMinigunVindicator_0A000898#WEAP:FULL#12c3f8ebd7d7ed2e872799bbe8fcb652",
+    "original": "Vindicator Minigun",
+    "translation": "维护者转轮机枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapPPK12GaussPistol_0A0008A7#WEAP:FULL#e3f0ad2a80a2500790e3a33ef78ad230",
+    "original": "PPK12 Gauss Pistol",
+    "translation": "瓦尔特PPK12高斯手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRFO2M72GaussRifle_0A0008B8#WEAP:FULL#c67cb8717038aeb708a46d4f6ff1e324",
+    "original": "M72 Gauss Rifle",
+    "translation": "毛瑟M72高斯步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapAlienBlaster_0A0008C7#WEAP:FULL#21504f5de57fafc2146875ab5efe3f2a",
+    "original": "Alien Blaster",
+    "translation": "异星激光枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapMCAWS_0A003CF8#WEAP:FULL#66cd6c48d0656bd5861a11ba9d7cf040",
+    "original": "H&K CAWS",
+    "translation": "H&K CAWS",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapShiv_0A005FEA#WEAP:FULL#8c3eb12aa5eaf8235325c8f6ea14b11a",
+    "original": "Shiv",
+    "translation": "锥子",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapShiv_0A005FEA#WEAP:VANM#75acad1ce25b5b1321620b0a7db662eb",
+    "original": "Rusty Shank",
+    "translation": "锈柄",
+    "stage": 1
+  },
+  {
+    "key": "CFWRPipeRifle_0A005FEC#WEAP:FULL#a18bcdd38a28ed68737f186f2818236e",
+    "original": "Pipe Rifle",
+    "translation": "铁管枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapWeatheredClassic6520Pistol_0A005FF1#WEAP:FULL#c069d77b443d08c028a05fa4b62b008b",
+    "original": "Vault Dwellers 6520 Pistol",
+    "translation": "Vault13柯尔特6520",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapNV127mmSubmachineGun47mm_0A006610#WEAP:FULL#f3bde2c512cd4c0fea405adb43905cf8",
+    "original": "Mojave Rattler",
+    "translation": "莫哈维响尾蛇",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicNeedlerBB_0A00661D#WEAP:FULL#6dcf7203f5827a12d32061e21bf0f4f8",
+    "original": "Magnetic BB Pistol",
+    "translation": "磁性BB手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapP90_0A007944#WEAP:FULL#faa0bf4c95f4bf6a775f3f3463d87d60",
+    "original": "P90",
+    "translation": "P90",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicNeedlerDart_0A009005#WEAP:FULL#c5f4b21fc1688736d79123346176e9c7",
+    "original": "Magnetic Dart Pistol",
+    "translation": "磁性飞镖手枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapXL70_0A0096B9#WEAP:FULL#abf9a431420c0545e0cfcbe051f44488",
+    "original": "XL70",
+    "translation": "XL70突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicNeedler_0A0096BA#WEAP:FULL#6be1ad58dc57fd1a68d047f4e587b42f",
+    "original": "Needler Pistol",
+    "translation": "钉枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicUniqueDEagle_0A00A761#WEAP:FULL#65f00f5ee71bd85034d2b0b21b23be30",
+    "original": "Eagle Of The West",
+    "translation": "西部之鹰",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapM60_0A012AAA#WEAP:FULL#2e0ab88df3bebeb647d6ff6936ba4b1a",
+    "original": "M60",
+    "translation": "m60",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicPowerFistUnique_0A012AC3#WEAP:FULL#57eea8163d8d78710c9f0f693f2b6e9a",
+    "original": "BeatCo Mega Power Fist",
+    "translation": "比科特超级动力拳套",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicPowerFistUnique_0A012AC3#WEAP:VANM#aae718d5f880f1dc7dbe680b5a4a8964",
+    "original": "Devil's Grip",
+    "translation": "魔鬼之握",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapPancorJHUnique_0A012AC5#WEAP:FULL#e5d655231240298a43fc24724964b055",
+    "original": "Bull of Steel",
+    "translation": "钢铁公牛",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicPoliceBaton_0A0173FA#WEAP:FULL#0f2c7c7c8b9b51bde29107bdc4fed385",
+    "original": "Riot Baton",
+    "translation": "防暴棒",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicPoliceBaton_0A0173FA#WEAP:VANM#d332a45807280c5c3de0bab25fd770c1",
+    "original": "Blunt Beatdown",
+    "translation": "杀威棒",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicCrowbar_0A0173FB#WEAP:FULL#4791d52da1c92b7d204210a843f2a52c",
+    "original": "Crowbar",
+    "translation": "撬棍",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicCrowbar_0A0173FB#WEAP:VANM#81c20b733875bf7a33f049c89e70821b",
+    "original": "Hazard Course",
+    "translation": "障碍训练",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicWrench_0A0173FC#WEAP:FULL#b770fc29ac359e3e5a2db6b3c475129b",
+    "original": "Wrench",
+    "translation": "扳手",
+    "stage": 1
+  },
+  {
+    "key": "CFWRClassicWrench_0A0173FC#WEAP:VANM#35bcc320888fd7887f0c0549a799fed2",
+    "original": "Lights Out",
+    "translation": "熄灯",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapClassicNeedler47mm_0A01F6D9#WEAP:FULL#6be1ad58dc57fd1a68d047f4e587b42f",
+    "original": "Needler Pistol",
+    "translation": "钉枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapRock_0A020ECA#WEAP:FULL#cbe6b220b43de6db010a2fc49482c6da",
+    "original": "Throwing Rock",
+    "translation": "石块",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapGoldNugget_0A020ECB#WEAP:FULL#1f768f134836a819100086581708b632",
+    "original": "Throwing Gold Nugget",
+    "translation": "金块",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapUraniumOre_0A020ECC#WEAP:FULL#16ebca325bca5005215d389ca685174d",
+    "original": "Throwing Uranium Ore",
+    "translation": "铀石块",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapMolotovCocktail_0A020ECE#WEAP:FULL#8e7573a0cc6e708478ef690d78c18da4",
+    "original": "Molotov Cocktail",
+    "translation": "莫洛托夫鸡尾酒",
+    "stage": 1
+  },
+  {
+    "key": "CFWRSolarScorcher_0A020ECF#WEAP:FULL#d64543bfd1e243aa5b36b265662f0351",
+    "original": "Solar Scorcher",
+    "translation": "太阳充能枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRTribalSpear_0A020EDC#WEAP:FULL#eb349664eb7a89cb028acb2b69ffeefe",
+    "original": "Tribal Spear",
+    "translation": "部族长矛",
+    "stage": 1
+  },
+  {
+    "key": "CFWRTribalSpear_0A020EDC#WEAP:VANM#f4266e081d83dc41074f1793b5119aa4",
+    "original": "Pilum",
+    "translation": "短矛",
+    "stage": 1
+  },
+  {
+    "key": "CFWRRedRBBGun_0A020EDE#WEAP:FULL#e1ca6eede2d236e686f4e04ecbdb0a97",
+    "original": "Red Ryder BB Gun",
+    "translation": "红瑞德 BB枪",
+    "stage": 1
+  },
+  {
+    "key": "CFWRWeapMissileLauncherRockwell_0A020EDF#WEAP:FULL#223d0ed882b08d6773eee6721b2d945c",
+    "original": "Rockwell BigBazooka",
+    "translation": "罗克韦尔巴祖卡II",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSunlight_0A0214E1#AMMO:FULL#359ecfa39b8f64bee63e7899796e837d",
+    "original": "Sunlight",
+    "translation": "阳光",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSunlight_0A0214E1#AMMO:ONAM#359ecfa39b8f64bee63e7899796e837d",
+    "original": "Sunlight",
+    "translation": "阳光",
+    "stage": 1
+  },
+  {
+    "key": "Ammo2mmECM72_0A0008A8#AMMO:FULL#eacc8ee0cb746426700dd46cf091342a",
+    "original": "2mm EC Round",
+    "translation": "2mm电磁弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo2mmECM72_0A0008A8#AMMO:ONAM#7af0a8a0d7de533e36650169609f56ac",
+    "original": "2mm EC",
+    "translation": "2mm EC",
+    "stage": 1
+  },
+  {
+    "key": "AmmoAlienPowerCellRed_0A0008BB#AMMO:FULL#cdb26bb00ffeb20bba65fafac772f6d8",
+    "original": "Red Alien Power Cell",
+    "translation": "红色外星电池",
+    "stage": 1
+  },
+  {
+    "key": "Ammo47CaselessPhos_0A0065FE#AMMO:FULL#acfaf68fea3d05d0b84cc7ee24614c0d",
+    "original": "4.7mm Caseless, Phosphorous",
+    "translation": "4.7mm无壳白磷燃烧弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo14mm_0A009AE7#AMMO:FULL#0155cd704e9605d233e2cb109af29ede",
+    "original": "14mm AP Round",
+    "translation": "14mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo47Caseless_0A009AED#AMMO:FULL#70f574d08e47dba3544f35f790ec89d0",
+    "original": "4.7mm Caseless",
+    "translation": "4.7mm无壳弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo47Caseless_0A009AED#AMMO:ONAM#6c047a3dacce50e445381fbfaf71f9ab",
+    "original": "4.7mm",
+    "translation": "4.7mm",
+    "stage": 1
+  },
+  {
+    "key": "Ammo14mmJSPHandLoad_0A00AB83#AMMO:FULL#2822e32c88945e07a9c299c03c7759ec",
+    "original": "14mm, JSP Round (Hand Load)",
+    "translation": "14mm,JSP(手装)",
+    "stage": 1
+  },
+  {
+    "key": "Ammo14mmJunk_0A00AB84#AMMO:FULL#393863ef1b481e9eb9525b1016b79452",
+    "original": "14mm Junk Round",
+    "translation": "14mm(废料弹)",
+    "stage": 1
+  },
+  {
+    "key": "CFWRDEADEnclaveSoldierPancor_0A013CB3#NPC_:FULL#b9f7e2808b6a676fd09e8a26d247a6dd",
+    "original": "Remnant Deserter",
+    "translation": "英克雷逃兵",
+    "stage": 1
+  },
+  {
+    "key": "CFWRDEADEnclaveSoldier_0A00680E#NPC_:FULL#614dcafa017660a3193c16d771131dd5",
+    "original": "Dead Remnant Trooper",
+    "translation": "死亡的雇佣兵",
+    "stage": 1
+  },
+  {
+    "key": "NVRockProjectile_0A020EC4#PROJ:FULL#22df92d3dbf8452bfb234fd4fd921dd1",
+    "original": "Rock Projectile",
+    "translation": "投石",
+    "stage": 1
+  },
+  {
+    "key": "CFWRGoldNuggetProjectile_0A020EC5#PROJ:FULL#6935b705114f4d3249dabca890ac9f81",
+    "original": "Gold Nugget Projectile",
+    "translation": "金矿投射物",
+    "stage": 1
+  },
+  {
+    "key": "CFWRUraniumOreProjectile_0A020EC6#PROJ:FULL#6fbf1050e33c1c2a13f46ed575377ab7",
+    "original": "Uranium Ore Projectile",
+    "translation": "铀矿投射物",
+    "stage": 1
+  },
+  {
+    "key": "MolotovCocktailProjectile_0A020ECD#PROJ:FULL#768c8c0a2fe5755533e0895e60934faf",
+    "original": "Lit Molotov Cocktail",
+    "translation": "点燃的莫洛托夫鸡尾酒",
+    "stage": 1
+  },
+  {
+    "key": "SSSolarBeamProjectile_0A020ED3#PROJ:FULL#f57ce780d62cd1d54057ed06aab9214f",
+    "original": "Solar Beam",
+    "translation": "太阳光束",
+    "stage": 1
+  },
+  {
+    "key": "BBProjectileFast_0A0214E0#PROJ:FULL#6613f6fd9939eaea72007357c1f010aa",
+    "original": "BB Pellet",
+    "translation": "BB弹弹道",
+    "stage": 1
+  },
+  {
+    "key": "CFWRMissileProjectile_0A022CCF#PROJ:FULL#dec08462ac176d5e25b4ad7f2ccce3aa",
+    "original": "Rockwell Missile",
+    "translation": "洛克威尔导弹",
+    "stage": 1
+  },
+  {
+    "key": "PulseYK32Projectile_0A000882#PROJ:FULL#bd53fb5df5fc558eb178305046142dad",
+    "original": "Pulse",
+    "translation": "手榴弹（脉冲）。",
+    "stage": 1
+  },
+  {
+    "key": "CLYK42bPulseRProjectile_0A000889#PROJ:FULL#667df9633759aa8f6114ee58cf2180e4",
+    "original": "Pulse Beam",
+    "translation": "脉冲光束",
+    "stage": 1
+  },
+  {
+    "key": "PPK12GaussProjectile_0A00089C#PROJ:FULL#2447b7c6fc7fbe5b8797301288edf7f1",
+    "original": "Gauss Projectile",
+    "translation": "磁线轨道穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "ZUCABAlienBlasterProjectile_0A0008C1#PROJ:FULL#4aa8d000f8e4957bee9d8ee18b414e45",
+    "original": "Alien Blast",
+    "translation": "外星枪振荡波",
+    "stage": 1
+  },
+  {
+    "key": "DartCFWR_0A009004#PROJ:FULL#62f8d28b3b950170962c5a6016206e19",
+    "original": "Dart",
+    "translation": "飞镖",
+    "stage": 1
+  },
+  {
+    "key": "FlameProjectileFast_0A01638A#PROJ:FULL#c278f08727db46451696750d03216519",
+    "original": "Flame",
+    "translation": "火焰",
+    "stage": 1
+  },
+  {
+    "key": "PerkSolarScorcherDamageController_0A0214E2#PERK:FULL#d64543bfd1e243aa5b36b265662f0351",
+    "original": "Solar Scorcher",
+    "translation": "太阳充能枪",
+    "stage": 1
+  },
+  {
+    "key": "PerkSolarScorcherDamageController_0A0214E2#PERK:DESC#183100248d6d371faf5f28518f46fc3d",
+    "original": "This perk controls the solar scorcher's damage during certain times of day and in interiors.",
+    "translation": "该Perk控制太阳充能枪在特定时段和室内的伤害",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMDEagleExt_0A000825#IMOD:FULL#bd6b4b3596ff1a5918dca166691d71f3",
+    "original": "Desert Eagle Extended Mag",
+    "translation": "沙漠之鹰扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMDEagleExt_0A000825#IMOD:DESC#e0f8fd72593b5188a289ce59166b69ea",
+    "original": "Increases magazine capacity.",
+    "translation": "增加弹夹容量。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMDEagleComp_0A000826#IMOD:FULL#b368b19b3853721b11451cf20306ce31",
+    "original": "Desert Eagle Compensator",
+    "translation": "沙漠之鹰补偿器",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMDEagleComp_0A000826#IMOD:DESC#fda2ebb3e8d72ebda354bfafefa82ccc",
+    "original": "Increases weapon damage.",
+    "translation": "增加武器伤害。",
+    "stage": 1
+  },
+  {
+    "key": "Classic10mmSMGDrum_0A000831#IMOD:FULL#5bbbe91c5c786da88f8d6601d7d7eaab",
+    "original": "H&K MP9 10mm SMG Drum Mag",
+    "translation": "H&K MP9 10mm 冲锋枪弹鼓",
+    "stage": 1
+  },
+  {
+    "key": "Classic10mmSMGDrum_0A000831#IMOD:DESC#794b1381d68fd1d636f901fe485c1649",
+    "original": "Increases ammunition capacity (+20).",
+    "translation": "增加弹夹容量 (+20)。",
+    "stage": 1
+  },
+  {
+    "key": "Classic10mmSMGComp_0A000832#IMOD:FULL#154e50a8fb4f4f10b61d1a5148ba4e38",
+    "original": "H&K MP9 10mm SMG Compensator",
+    "translation": "H&K MP9 10mm 冲锋枪补偿器",
+    "stage": 1
+  },
+  {
+    "key": "Classic10mmSMGComp_0A000832#IMOD:DESC#737f2d0702313bab1a6608a538c68c2f",
+    "original": "Decreases spread.",
+    "translation": "降低扩散。",
+    "stage": 1
+  },
+  {
+    "key": "aaPSModAK112Drum_0A000845#IMOD:FULL#0cb11be074b1a32f8ae18a36a78d0231",
+    "original": "AK-112 Drum Mag",
+    "translation": "AK-112 弹鼓",
+    "stage": 1
+  },
+  {
+    "key": "aaPSModAK112Drum_0A000845#IMOD:DESC#4e91e0241f10da3c19ff940d6d2022ff",
+    "original": "Increases ammunition capacity (+76).",
+    "translation": "增加弹夹容量 (+76)。",
+    "stage": 1
+  },
+  {
+    "key": "aaPSModAK112Silencer_0A000846#IMOD:FULL#10956f7c191362086074e3c4deaa6166",
+    "original": "AK-112 Halbek Compensator",
+    "translation": "AK-112补偿器",
+    "stage": 1
+  },
+  {
+    "key": "aaPSModAK112Silencer_0A000846#IMOD:DESC#737f2d0702313bab1a6608a538c68c2f",
+    "original": "Decreases spread.",
+    "translation": "降低扩散。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVRangemasterScope_0A00084A#IMOD:FULL#00293e150931ca771cfb0356f05589a1",
+    "original": "Rangemaster Scope",
+    "translation": "游牧人步枪瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ModNVRangemasterScope_0A00084A#IMOD:DESC#28bf0b4454470ac1696dabb7d2d3aa73",
+    "original": "Adds mid-range scope.",
+    "translation": "添加中距瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVRangemasterForgedReceiver_0A00084B#IMOD:FULL#9ae8887e755e418ae636b7fce62844f3",
+    "original": "Rangemaster Forged Receiver",
+    "translation": "游牧人步枪锻造机匣",
+    "stage": 1
+  },
+  {
+    "key": "ModNVRangemasterForgedReceiver_0A00084B#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "增强耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVRangemasterExtMag_0A00084C#IMOD:FULL#dd0834efed1871477d75eb6166f68a86",
+    "original": "Rangemaster Extended Mag",
+    "translation": "游牧人步枪扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "ModNVRangemasterExtMag_0A00084C#IMOD:DESC#8c5de65292933cbb2ac60c541c2129c6",
+    "original": "Increases ammunition capacity (+5).",
+    "translation": "增加弹夹容量 (+5)。",
+    "stage": 1
+  },
+  {
+    "key": "ModClassicSniperRifleSyntheticStock_0A00085C#IMOD:FULL#1f02bc8ddfd170b9bfd099aa531696ae",
+    "original": "DKS-501 Synthetic Stock",
+    "translation": "DKS-501合成枪托",
+    "stage": 1
+  },
+  {
+    "key": "ModClassicSniperRifleSyntheticStock_0A00085C#IMOD:DESC#934782b7174601cc0c2a805c9ceabc18",
+    "original": "Decreases weight (-5).",
+    "translation": "降低重量 (-5)。",
+    "stage": 1
+  },
+  {
+    "key": "ModCLPPK12GPCooler_0A000899#IMOD:FULL#a529af9764bab701aedf6d05e1c43870",
+    "original": "PPK12 Gauss Pistol Extra Cooling",
+    "translation": "PPK12 高斯手枪额外冷却系统",
+    "stage": 1
+  },
+  {
+    "key": "ModCLPPK12GPCooler_0A000899#IMOD:DESC#13b992d01b9b8d91fc154cb1cc134443",
+    "original": "Increases condition.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "ModCLPPK12GPScope_0A00089A#IMOD:FULL#a2f1d93949acafd7502910a3de642499",
+    "original": "PPK12 Gauss Pistol Scope",
+    "translation": "PPK12 高斯手枪瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ModCLPPK12GPScope_0A00089A#IMOD:DESC#57e8edeb5153d399133ce9ae6e110287",
+    "original": "Adds mid-range scope, with spotting laser.",
+    "translation": "添加中距瞄准镜和激光指示器。",
+    "stage": 1
+  },
+  {
+    "key": "ModCLPPK12GPSecAcc_0A00089B#IMOD:FULL#e8da9ec6067d2d5176e4d33ab2c8a4eb",
+    "original": "PPK12 Gauss Pistol Secondary Coil",
+    "translation": "PPK12 高斯手枪次级线圈",
+    "stage": 1
+  },
+  {
+    "key": "ModCLPPK12GPSecAcc_0A00089B#IMOD:DESC#20120aa544d725e357bcb0f56c5309b7",
+    "original": "Increase damage by 10.",
+    "translation": "增加武器伤害 (+10)。",
+    "stage": 1
+  },
+  {
+    "key": "ModM72Scope_0A0008AB#IMOD:FULL#8b9bd3b8c6c9556064a9f589b0d9e3f5",
+    "original": "M72 Gauss Rifle Scope",
+    "translation": "M72 高斯步枪瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "ModM72Scope_0A0008AB#IMOD:DESC#28bf0b4454470ac1696dabb7d2d3aa73",
+    "original": "Adds mid-range scope.",
+    "translation": "添加中距瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "ModM72Shield_0A0008AC#IMOD:FULL#302f39c1c402c1088043a1bdd7b9fd11",
+    "original": "M72 Gauss Rifle Shield",
+    "translation": "M72 高斯步枪防护罩",
+    "stage": 1
+  },
+  {
+    "key": "ModM72Shield_0A0008AC#IMOD:DESC#67d8fea2fe0dad5abd75c414ea8be026",
+    "original": "Shield increases durability.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "ModM72DrumMag_0A0008AD#IMOD:FULL#c90082fa18d06b1aeee9ccc9ed8ae0df",
+    "original": "M72 Gauss Rifle Drum Mag",
+    "translation": "M72 高斯步枪弹鼓",
+    "stage": 1
+  },
+  {
+    "key": "ModM72DrumMag_0A0008AD#IMOD:DESC#372ea1cc1b81c66f5fb141cc285c0f11",
+    "original": "Increases clip capacity by 10.",
+    "translation": "增加弹夹容量 (+10)。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMCAWSSB_0A003CF5#IMOD:FULL#cd11d444cb49883fba86206c814c4cca",
+    "original": "H&K CAWS Improved Parts",
+    "translation": "H&K CAWS 改进型部件",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMCAWSSB_0A003CF5#IMOD:DESC#fda2ebb3e8d72ebda354bfafefa82ccc",
+    "original": "Increases weapon damage.",
+    "translation": "增加武器伤害。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMCAWSLB_0A003CF6#IMOD:FULL#13f7af00189805a0ed77ded631a70caa",
+    "original": "H&K CAWS Long Barrel",
+    "translation": "H&K CAWS 加长枪管",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMCAWSLB_0A003CF6#IMOD:DESC#7de3cfcc9bfd070cdfc6d1d65f9cc8ad",
+    "original": "Decreases weapon spread.",
+    "translation": "降低扩散。",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMCAWSEXT_0A003CF7#IMOD:FULL#1cfe9b7c75e95aa0f9cb1fd3df2c6c37",
+    "original": "H&K CAWS Extended Mag",
+    "translation": "H&K CAWS 扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "ModNVMCAWSEXT_0A003CF7#IMOD:DESC#32ac9271726ba020edb9d28dab513477",
+    "original": "Extends magazine capacity.",
+    "translation": "增加弹夹容量。",
+    "stage": 1
+  },
+  {
+    "key": "ModXL70ExtendedMags_0A0096B0#IMOD:FULL#6cc08ec042e301f29ee4b011eac71096",
+    "original": "XL70 Extended Mag",
+    "translation": "XL70 扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "ModXL70ExtendedMags_0A0096B0#IMOD:DESC#2224cfcab3ecac71832eb9f1f0c142a5",
+    "original": "Increases ammunition capacity (+12).",
+    "translation": "增加弹夹容量 (+12)。",
+    "stage": 1
+  },
+  {
+    "key": "ModXL70ImprovedRifling_0A0096B1#IMOD:FULL#834a0f73f4317077c750d8e205abe036",
+    "original": "XL70 Improved Rifling",
+    "translation": "XL70 改良型膛线",
+    "stage": 1
+  },
+  {
+    "key": "ModXL70ImprovedRifling_0A0096B1#IMOD:DESC#fac7628e8b24172134664921cfe099d6",
+    "original": "Increases damage (+3).",
+    "translation": "增加武器伤害 (+3)。",
+    "stage": 1
+  },
+  {
+    "key": "ModXL70AlloyBolt_0A0096B2#IMOD:FULL#aca698c930bf87315da1313c593ceb6e",
+    "original": "XL70 Light Bolt",
+    "translation": "XL70 轻型枪栓",
+    "stage": 1
+  },
+  {
+    "key": "ModXL70AlloyBolt_0A0096B2#IMOD:DESC#d4e67f3d2caf07ddf56cde4e352ec6d5",
+    "original": "Increases rate of fire.",
+    "translation": "提高射速。",
+    "stage": 1
+  },
+  {
+    "key": "ModM60Bipod_0A012AAE#IMOD:FULL#34b53d845e5ced200b3f8a164d9805c1",
+    "original": "M60 Bipod",
+    "translation": "M60 两脚架",
+    "stage": 1
+  },
+  {
+    "key": "ModM60Bipod_0A012AAE#IMOD:DESC#737f2d0702313bab1a6608a538c68c2f",
+    "original": "Decreases spread.",
+    "translation": "降低扩散。",
+    "stage": 1
+  },
+  {
+    "key": "ModM60Internals_0A012AAF#IMOD:FULL#feae3dacede7518af976d1258272c9bc",
+    "original": "M60 Upgraded Internals",
+    "translation": "M60 升级版内部结构",
+    "stage": 1
+  },
+  {
+    "key": "ModM60Internals_0A012AAF#IMOD:DESC#8cee164768f61add84f80dc77b7d9728",
+    "original": "Increases max condition.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "M60AmmoBox_0A012AB0#IMOD:FULL#9bfeed29751e565e196666fe698d6fbd",
+    "original": "M60 Ammo Box",
+    "translation": "M60 弹药盒",
+    "stage": 1
+  },
+  {
+    "key": "M60AmmoBox_0A012AB0#IMOD:DESC#8dee7397832747d40ef647f44f42aceb",
+    "original": "Increases ammunition capacity.",
+    "translation": "增加弹夹容量。",
+    "stage": 1
+  },
+  {
+    "key": "ModP94ImprovedParts_0A019657#IMOD:FULL#fa1e425278e861d6b57c9d2b21f7699e",
+    "original": "P94 Plasma Caster Improved Parts",
+    "translation": "P94 等离子投射器改进部件",
+    "stage": 1
+  },
+  {
+    "key": "ModP94ImprovedParts_0A019657#IMOD:DESC#13b992d01b9b8d91fc154cb1cc134443",
+    "original": "Increases condition.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavyEnergyLaserSight_0A019658#IMOD:FULL#e9fd60dee050f2a6e74813b19cfd65ac",
+    "original": "Heavy Energy Laser Sight",
+    "translation": "重型武器激光指示器",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavyEnergyLaserSight_0A019658#IMOD:DESC#737f2d0702313bab1a6608a538c68c2f",
+    "original": "Decreases spread.",
+    "translation": "降低扩散。",
+    "stage": 1
+  },
+  {
+    "key": "ModClassicSniperRifleExtendedMag_0A019659#IMOD:FULL#c5f80264b4102aada03a52e7f4e17a1b",
+    "original": "DKS-501 Extended Mag",
+    "translation": "DKS-501 扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "ModClassicSniperRifleExtendedMag_0A019659#IMOD:DESC#db9cd9001cde8623713959e1de6a132f",
+    "original": "Increases clip capacity.",
+    "translation": "增加弹夹容量。",
+    "stage": 1
+  },
+  {
+    "key": "Classic10mmSMGLightBolt_0A01965A#IMOD:FULL#0de8fa1914d47d43e4d9f1b8f47d7fc7",
+    "original": "H&K MP9 10mm SMG Light Bolt",
+    "translation": "H&K MP9 10mm 冲锋枪轻型枪栓",
+    "stage": 1
+  },
+  {
+    "key": "Classic10mmSMGLightBolt_0A01965A#IMOD:DESC#d4e67f3d2caf07ddf56cde4e352ec6d5",
+    "original": "Increases rate of fire.",
+    "translation": "提高射速。",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavySledgehammerGrip_0A01965B#IMOD:FULL#47abe36223262b3f80c0a4e66e76f9a4",
+    "original": "Heavy Sledgehammer Silicone Grip",
+    "translation": "重型大锤硅胶握把",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavySledgehammerGrip_0A01965B#IMOD:DESC#1f14d4abd27afae9562cde6550940fac",
+    "original": "Increases attack speed.",
+    "translation": "提高攻速。",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavySledgehammerHaft_0A01965C#IMOD:FULL#3d709fa7c5af5aeee5323f6f9ad1bf1f",
+    "original": "Heavy Sledgehammer Hardwood Haft",
+    "translation": "重型大锤硬木锤柄",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavySledgehammerHaft_0A01965C#IMOD:DESC#40b0071d4ce3fdf09703f7b07067d048",
+    "original": "Increases durability.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavySledgehammerSpikes_0A01965D#IMOD:FULL#a3e1c3a8e4aaa278ad3a3770af046c52",
+    "original": "Heavy Sledgehammer Spiked Head",
+    "translation": "重型大锤尖刺头",
+    "stage": 1
+  },
+  {
+    "key": "ModHeavySledgehammerSpikes_0A01965D#IMOD:DESC#1e501be8f178c2a2de13e6ecde8d0200",
+    "original": "Increases damage.",
+    "translation": "增加武器伤害。",
+    "stage": 1
+  },
+  {
+    "key": "ModSuperSledgehammerGrip_0A01965E#IMOD:FULL#5b3ca66d960d500fc842aad83a64402a",
+    "original": "Super Sledgehammer Silicone Grip",
+    "translation": "超级大锤硅胶握把",
+    "stage": 1
+  },
+  {
+    "key": "ModSuperSledgehammerGrip_0A01965E#IMOD:DESC#1f14d4abd27afae9562cde6550940fac",
+    "original": "Increases attack speed.",
+    "translation": "提高攻速。",
+    "stage": 1
+  },
+  {
+    "key": "ModSuperSledgehammerKnife_0A01965F#IMOD:FULL#432f1d01a46ba27afcf7c3e7a1209f93",
+    "original": "Super Sledgehammer Knife Attachment",
+    "translation": "超级大锤刀附件",
+    "stage": 1
+  },
+  {
+    "key": "ModSuperSledgehammerKnife_0A01965F#IMOD:DESC#1e501be8f178c2a2de13e6ecde8d0200",
+    "original": "Increases damage.",
+    "translation": "增加武器伤害。",
+    "stage": 1
+  },
+  {
+    "key": "ModSuperSledgehammerCoolant_0A019660#IMOD:FULL#bbb236d49f64ab4a9f882d4b4f7615a5",
+    "original": "Super Sledgehammer Nanofluid Coolant",
+    "translation": "超级大锤纳米冷却",
+    "stage": 1
+  },
+  {
+    "key": "ModSuperSledgehammerCoolant_0A019660#IMOD:DESC#40b0071d4ce3fdf09703f7b07067d048",
+    "original": "Increases durability.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "ModWinchesterCityImprovedParts_0A019662#IMOD:FULL#deb408a69978386857578cf1baf027a7",
+    "original": "Winchester City-Killer Improved Parts",
+    "translation": "温彻斯特城市杀手改良零件",
+    "stage": 1
+  },
+  {
+    "key": "ModWinchesterCityImprovedParts_0A019662#IMOD:DESC#40b0071d4ce3fdf09703f7b07067d048",
+    "original": "Increases durability.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "ModScatterSawedOffShotgunMaple_0A019663#IMOD:FULL#9cba6af56b4e7d3a0f708074f2741925",
+    "original": "Scatter Sawed-Off Shotgun Maple Stock",
+    "translation": "截短双管猎枪枫木枪托",
+    "stage": 1
+  },
+  {
+    "key": "ModScatterSawedOffShotgunMaple_0A019663#IMOD:DESC#4a696fe86a41d58727cb52e11d7da9f1",
+    "original": "Decreases weight.",
+    "translation": "降低重量。",
+    "stage": 1
+  },
+  {
+    "key": "ModScatterSawedOffShotgunImprovedParts_0A019664#IMOD:FULL#36acc678cca943b5a97120e68b1bbf39",
+    "original": "Scatter Sawed-Off Shotgun Improved Parts",
+    "translation": "截短双管猎枪改良零件",
+    "stage": 1
+  },
+  {
+    "key": "ModScatterSawedOffShotgunImprovedParts_0A019664#IMOD:DESC#40b0071d4ce3fdf09703f7b07067d048",
+    "original": "Increases durability.",
+    "translation": "增强耐久。",
+    "stage": 1
+  },
+  {
+    "key": "Mod14mmPistolExtendedMag_0A019665#IMOD:FULL#33b914ace0cb6f6ed4e7cc0337f880fe",
+    "original": "14mm Pistol Extended Mag",
+    "translation": "14 毫米手枪扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "Mod14mmPistolExtendedMag_0A019665#IMOD:DESC#db9cd9001cde8623713959e1de6a132f",
+    "original": "Increases clip capacity.",
+    "translation": "增加弹夹容量。",
+    "stage": 1
+  },
+  {
+    "key": "ModClassicWinchesterCityDrum_0A019666#IMOD:FULL#2287ae0f7ba01c7f4c9d69b4f948e4c1",
+    "original": "Winchester City-Killer Drum Mag",
+    "translation": "温彻斯特城市杀手扩容弹夹",
+    "stage": 1
+  },
+  {
+    "key": "ModClassicWinchesterCityDrum_0A019666#IMOD:DESC#8dee7397832747d40ef647f44f42aceb",
+    "original": "Increases ammunition capacity.",
+    "translation": "增加弹夹容量。",
+    "stage": 1
+  },
+  {
+    "key": "ModMauserSub_0A01966A#IMOD:FULL#f6430d6554203ca6931e464b5b784980",
+    "original": "Mauser M/96 9mm Subnose Barrel",
+    "translation": "毛瑟 M/96 短枪管",
+    "stage": 1
+  },
+  {
+    "key": "ModMauserSub_0A01966A#IMOD:DESC#1e501be8f178c2a2de13e6ecde8d0200",
+    "original": "Increases damage.",
+    "translation": "增加武器伤害。",
+    "stage": 1
+  },
+  {
+    "key": "Modp90ReflexSight_0A020EBE#IMOD:FULL#6ca4fbb1b26adb43970eb38f4a235748",
+    "original": "P90 Reflex Sight",
+    "translation": "P90 反射瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "Modp90ReflexSight_0A020EBE#IMOD:DESC#abaa674dbc49f92e6eee4b35fe1d0bf8",
+    "original": "Improves aiming by decreasing spread",
+    "translation": "降低扩散。",
+    "stage": 1
+  },
+  {
+    "key": "RecipePipeRifle_0A006C27#RCPE:FULL#a18bcdd38a28ed68737f186f2818236e",
+    "original": "Pipe Rifle",
+    "translation": "铁管枪",
+    "stage": 1
+  },
+  {
+    "key": "Recipe14mm_0A00AB7E#RCPE:FULL#0155cd704e9605d233e2cb109af29ede",
+    "original": "14mm AP Round",
+    "translation": "14mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe14mmJSPHandLoad_0A00AB7F#RCPE:FULL#1375fb916edd27f2ea9ce08f0124e73c",
+    "original": "14mm, JSP (Hand Load)",
+    "translation": "14mm,JSP(手装)",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown14mm_0A00AB80#RCPE:FULL#4b76be0f5b4ea72c97d5f863e1fbdb52",
+    "original": "Breakdown 14mm AP",
+    "translation": "[分解] 14mm穿甲弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown14mmJSP_0A00AB81#RCPE:FULL#18d7f3f72f3bfd42d5c27d01e6723198",
+    "original": "Breakdown 14mm, JSP (Hand Load)",
+    "translation": "[分解] 14mmJSP(手装)",
+    "stage": 1
+  },
+  {
+    "key": "Recipe14mmJunkRounds_0A00AB85#RCPE:FULL#7e67fcb2e86636ae6b42dd79fd0cee0f",
+    "original": "14mm Round (Junk)",
+    "translation": "14mm(废料弹)",
+    "stage": 1
+  },
+  {
+    "key": "Recipe47mm_0A00AB87#RCPE:FULL#3935803e5267676e210aa89b3f48c040",
+    "original": "4.7mm Caseless Round",
+    "translation": "4.7mm无壳弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown47mm_0A00AB88#RCPE:FULL#9f0e58804f263078c1ae4a381d7df526",
+    "original": "[Breakdown] 4.7mm Caseless Round",
+    "translation": "[分解] 4.7mm无壳弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe2mmEC_0A00AB8B#RCPE:FULL#d192b30bd7ec687c37fb218c562c57bc",
+    "original": "Recycling, 2mm EC",
+    "translation": "回收,2mm电磁弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe2mmECVigilantRecycler_0A00AB8C#RCPE:FULL#0725682a6d9bbb4dd1a64d4ed38b01ba",
+    "original": "Efficient Recycling, 2mm EC",
+    "translation": "高效回收,2mm电磁弹",
+    "stage": 1
+  },
+  {
+    "key": "Recipe2mmECtoAPC_0A00AB8E#RCPE:FULL#cdb26bb00ffeb20bba65fafac772f6d8",
+    "original": "Red Alien Power Cell",
+    "translation": "红色外星电池",
+    "stage": 1
+  },
+  {
+    "key": "Recipe2mmECtoAPCRed_0A00AB8F#RCPE:FULL#b5a4473a2db8e021dff5c1a5cb2a3f38",
+    "original": "Alien Power Cell",
+    "translation": "外星能量电池",
+    "stage": 1
+  },
+  {
+    "key": "RecipeMolotovCocktailCFWR_0A0220D7#RCPE:FULL#8e7573a0cc6e708478ef690d78c18da4",
+    "original": "Molotov Cocktail",
+    "translation": "莫洛托夫鸡尾酒",
+    "stage": 1
+  },
+  {
+    "key": "RecipeMolotovCocktailCFWRVodka_0A0220D8#RCPE:FULL#8e7573a0cc6e708478ef690d78c18da4",
+    "original": "Molotov Cocktail",
+    "translation": "莫洛托夫鸡尾酒",
+    "stage": 1
+  },
+  {
+    "key": "Recipe47mmPhos_0A0065FF#RCPE:FULL#c2b80702b500de9caa00346dfa89df5d",
+    "original": "4.7mm Caseless Rounds, Phosphorous",
+    "translation": "4.7mm无壳白磷燃烧弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeBreakdown47mmPhos_0A006600#RCPE:FULL#9f0e58804f263078c1ae4a381d7df526",
+    "original": "[Breakdown] 4.7mm Caseless Round",
+    "translation": "[分解] 4.7mm无壳弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeShiv_0A006C26#RCPE:FULL#8c3eb12aa5eaf8235325c8f6ea14b11a",
+    "original": "Shiv",
+    "translation": "锥子",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectRedAPCDTBypass_0A00ABA3#AMEF:FULL#4de0dbe6723e8c0f208ff6c69fedfd33",
+    "original": "DT Bypass",
+    "translation": "DT穿透",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectREDAPCCondPenalty_0A00ABA4#AMEF:FULL#19b36d7c6c426fd6cec61f1cf141f480",
+    "original": "Condition Penalty",
+    "translation": "耐久惩罚",
+    "stage": 1
+  },
+  {
+    "key": "CFWR47mmDTPenetration_0A00AE9E#AMEF:FULL#ed1238956c5718560a0af51d2799143c",
+    "original": "Dam. Thresh. Reduction",
+    "translation": "伤害减免降低",
+    "stage": 1
+  },
+  {
+    "key": "CFWR47mmHPDamageBonus_0A00AE9F#AMEF:FULL#17724ce194d2cd5bd641a9f9287c1792",
+    "original": "Damage Bonus",
+    "translation": "伤害加成",
+    "stage": 1
+  },
+  {
+    "key": "CFWR47mmHPDTPenalty_0A00AEA0#AMEF:FULL#b39b4f92ee4b33943896e4d0e311da18",
+    "original": "Dam. Thresh. Increase",
+    "translation": "伤害减免增加",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffect2mmDTBypass_0A00AB8D#AMEF:FULL#4de0dbe6723e8c0f208ff6c69fedfd33",
+    "original": "DT Bypass",
+    "translation": "DT穿透",
+    "stage": 1
+  },
+  {
+    "key": "NovacGiftShop_000B1670#CELL:FULL#d154f9948f0aa758285b44ab81f03145",
+    "original": "Dino Bite Gift Shop",
+    "translation": "大嘴小恐龙礼品店",
+    "stage": 1
+  },
+  {
+    "key": "HooverDamIntPowerPlant01b_00175D68#CELL:FULL#2525d411d2b76b87b788c6171dce91d4",
+    "original": "Hoover Dam Offices",
+    "translation": "胡佛大坝办公区",
+    "stage": 1
+  },
+  {
+    "key": "RepconHQ03_000E5A88#CELL:FULL#dae5330eaf2f25932ce9e5d83db0bc2e",
+    "original": "REPCONN Office Top Floor",
+    "translation": "瑞普康办公室顶楼",
+    "stage": 1
+  },
+  {
+    "key": "SLDeadWindCavernINT_00164E29#CELL:FULL#b0f986b292fed7df57df978452eeb686",
+    "original": "Dead Wind Cavern",
+    "translation": "逆风洞穴",
+    "stage": 1
+  },
+  {
+    "key": "FreesideSilverRush_0010E029#CELL:FULL#9334cdd226c879f552cb3c8a3a9b0972",
+    "original": "Silver Rush",
+    "translation": "银色冲击",
+    "stage": 1
+  },
+  {
+    "key": "FreesideMickandRalphs_0010E02A#CELL:FULL#b44f42b470633fd9b2c60f24da437524",
+    "original": "Mick & Ralph's",
+    "translation": "米克和拉尔夫杂货店",
+    "stage": 1
+  },
+  {
+    "key": "NellisHangar2_00105238#CELL:FULL#7c80d8719d721f4324360141a0b2f989",
+    "original": "Mess Hall & Munitions Storage",
+    "translation": "食堂与军械库",
+    "stage": 1
+  },
+  {
+    "key": "HiddenValley01_000D7506#CELL:FULL#c83e86b8b56343cae5140e7a0d0289b6",
+    "original": "Hidden Valley Bunker L1",
+    "translation": "隐谷地堡一层",
+    "stage": 1
+  },
+  {
+    "key": "CampGuardianCaves_0013DD63#CELL:FULL#e2c4045a87b84fd4cc71eec53e566b94",
+    "original": "Camp Guardian Caves",
+    "translation": "守卫者营地山洞",
+    "stage": 1
+  },
+  {
+    "key": "SLRemnantsBunkerINT_001591D5#CELL:FULL#5a2d606fb3f35826213fbd34d9900032",
+    "original": "Remnants' Bunker",
+    "translation": "英克雷残部地堡",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NullEDID_0A006807#REFR:FULL#dd8fcd4cc7be9ddd39ae892eec1fb3aa",
+    "original": "Crashed Alien Ship",
+    "translation": "坠毁的外星飞船",
+    "stage": 1
+  }
+]
