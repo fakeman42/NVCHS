@@ -107,104 +107,105 @@ AID00147369	Energy Weapons
 AID00147370	The Energy Weapons skill determines your effectiveness with any weapon that uses Small Energy Cells, Micro Fusion Cells, EC Packs, or Flamer Fuel as ammunition.
 AID00147371	Ener. Weap.
 AID00147372	Big Guns - OBSOLETE
-AID00147373	Big Guns
-AID00147374	Barter
-AID00147375	The Barter skill affects the prices you get for buying and selling items. In general, the higher your Barter skill, the lower your prices on purchased items.
-AID00147376	Barter
-AID00147377	Luck
-AID00147378	Raising your Luck will raise all of your skills a little. Having a high Luck will also improve your critical chance with all weapons.
-AID00147379	LCK
-AID00147380	Agility
-AID00147381	Agility affects your Guns and Sneak skills, and the number of Action Points available for V.A.T.S.
-AID00147382	AGL
-AID00147383	Intelligence
-AID00147384	Intelligence affects the Science, Repair and Medicine skills. The higher your Intelligence, the more Skill Points you'll be able to distribute when you level up.
-AID00147385	INT
-AID00147386	Charisma
-AID00147387	Having a high Charisma will improve people's disposition toward you, and give bonuses to both the Barter and Speech skills.
-AID00147388	CHR
-AID00147389	Perception
-AID00147390	A high Perception grants a bonus to the Explosives, Lockpick and Energy Weapons skills, and determines when red compass markings appear (which indicate threats).
-AID00147391	PER
-AID00147392	Strength
-AID00147393	Strength is a measure of your raw physical power. It affects how much you can carry, the power of all melee attacks, and your effectiveness with many heavy weapons.
-AID00147394	STR
-AID00147395	Ignores DT/DR
-AID00147396	NPC Permanent Increased Health
-AID00147397	ARCHIMEDES II Damage
-AID00147398	ARCHIMEDES II DOT
-AID00147399	Reduce Strength
-AID00147400	Reduce Agility
-AID00147401	Reduce Intelligence
-AID00147402	Reduce Agility
-AID00147403	Reduce Charisma
-AID00147404	Reduce Endurance
-AID00147405	ARCHIMEDES II Strike
-AID00147406	Regeneration
-AID00147407	No Power Armor Training Required
-AID00147408	Inflicts Fatigue Damage (KO)
-AID00147409	Calm Heart
-AID00147410	Damage Unarmed
-AID00147411	Damage Melee Weapons
-AID00147412	Damage Energy Weapons
-AID00147413	Damage Explosives
-AID00147414	Damage Guns
-AID00147415	Damage Luck
-AID00147416	Damage Agility
-AID00147417	Damage Intelligence
-AID00147418	Damage Charisma
-AID00147419	Damage Endurance
-AID00147420	Damage Perception
-AID00147421	Damage Strength
-AID00147422	Zap Glove Effect
-AID00147423	Stonewall Message Effect
-AID00147424	DisplacerGloveEffect
-AID00147425	NCREmergencyRadioEffect
-AID00147426	Increased Damage Threshold
-AID00147427	Restore Sleep Deprivation
-AID00147428	Damage Sleep Deprivation
-AID00147429	Damage Starvation
-AID00147430	Restore Starvation
-AID00147431	Damage Dehydration
-AID00147432	Restore Dehydration
-AID00147433	Poison Removal
-AID00147434	Ammo .223 Add Effect
-AID00147435	EDE Broadcast Effect
-AID00147436	Ammo .38 Special Add Effect
-AID00147437	Spark Das Gauntlet
-AID00147438	Flash Das Gauntlet
-AID00147439	Apply Radscorpion Poison
-AID00147440	Ammo Electron Charge Pack Bulk Add Effect
-AID00147441	Ammo Microfusion Cell Bulk Add Effect
-AID00147442	Ammo Small Energy Cell Bulk Add Effect
-AID00147443	Ammo 5.56mm Surplus Add Effect
-AID00147444	GrenadeStunEffect
-AID00147445	Regeneration
-AID00147446	Evaluate Package Pulse
+AID00147373	The Big Guns skill determines your combat effectiveness with all oversized weapons such as the Fat Man, Missile Launcher, Flamer, Minigun, Gatling Laser, etc.
+AID00147374	Big Guns
+AID00147375	Barter
+AID00147376	The Barter skill affects the prices you get for buying and selling items. In general, the higher your Barter skill, the lower your prices on purchased items.
+AID00147377	Barter
+AID00147378	Luck
+AID00147379	Raising your Luck will raise all of your skills a little. Having a high Luck will also improve your critical chance with all weapons.
+AID00147380	LCK
+AID00147381	Agility
+AID00147382	Agility affects your Guns and Sneak skills, and the number of Action Points available for V.A.T.S.
+AID00147383	AGL
+AID00147384	Intelligence
+AID00147385	Intelligence affects the Science, Repair and Medicine skills. The higher your Intelligence, the more Skill Points you'll be able to distribute when you level up.
+AID00147386	INT
+AID00147387	Charisma
+AID00147388	Having a high Charisma will improve people's disposition toward you, and give bonuses to both the Barter and Speech skills.
+AID00147389	CHR
+AID00147390	Perception
+AID00147391	A high Perception grants a bonus to the Explosives, Lockpick and Energy Weapons skills, and determines when red compass markings appear (which indicate threats).
+AID00147392	PER
+AID00147393	Strength
+AID00147394	Strength is a measure of your raw physical power. It affects how much you can carry, the power of all melee attacks, and your effectiveness with many heavy weapons.
+AID00147395	STR
+AID00147396	Ignores DT/DR
+AID00147397	NPC Permanent Increased Health
+AID00147398	ARCHIMEDES II Damage
+AID00147399	ARCHIMEDES II DOT
+AID00147400	Reduce Strength
+AID00147401	Reduce Agility
+AID00147402	Reduce Intelligence
+AID00147403	Reduce Agility
+AID00147404	Reduce Charisma
+AID00147405	Reduce Endurance
+AID00147406	ARCHIMEDES II Strike
+AID00147407	Regeneration
+AID00147408	No Power Armor Training Required
+AID00147409	Inflicts Fatigue Damage (KO)
+AID00147410	Calm Heart
+AID00147411	Damage Unarmed
+AID00147412	Damage Melee Weapons
+AID00147413	Damage Energy Weapons
+AID00147414	Damage Explosives
+AID00147415	Damage Guns
+AID00147416	Damage Luck
+AID00147417	Damage Agility
+AID00147418	Damage Intelligence
+AID00147419	Damage Charisma
+AID00147420	Damage Endurance
+AID00147421	Damage Perception
+AID00147422	Damage Strength
+AID00147423	Zap Glove Effect
+AID00147424	Stonewall Message Effect
+AID00147425	DisplacerGloveEffect
+AID00147426	NCREmergencyRadioEffect
+AID00147427	Increased Damage Threshold
+AID00147428	Restore Sleep Deprivation
+AID00147429	Damage Sleep Deprivation
+AID00147430	Damage Starvation
+AID00147431	Restore Starvation
+AID00147432	Damage Dehydration
+AID00147433	Restore Dehydration
+AID00147434	Poison Removal
+AID00147435	Ammo .223 Add Effect
+AID00147436	EDE Broadcast Effect
+AID00147437	Ammo .38 Special Add Effect
+AID00147438	Spark Das Gauntlet
+AID00147439	Flash Das Gauntlet
+AID00147440	Apply Radscorpion Poison
+AID00147441	Ammo Electron Charge Pack Bulk Add Effect
+AID00147442	Ammo Microfusion Cell Bulk Add Effect
+AID00147443	Ammo Small Energy Cell Bulk Add Effect
+AID00147444	Ammo 5.56mm Surplus Add Effect
+AID00147445	GrenadeStunEffect
+AID00147446	Regeneration
 AID00147447	Evaluate Package Pulse
-AID00147448	Nightstalker Poison
-AID00147449	MissFortuneGunEffect
-AID00147450	LegateKnockdownEffect3
-AID00147451	LegateKnockdownEffect2
-AID00147452	LegateKnockdownEffect
-AID00147453	Terrifying Presence
-AID00147454	Faction Disguise Pulse Effect
-AID00147455	Sleepytime Dog Treat Knockout
-AID00147456	EFFECT: When eaten, temporarily knocks out animals.
-AID00147457	Repairs Current Weapon
-AID00147458	MeanSonofabitchKnockdownEffect
-AID00147459	Reduced Limb Damage
-AID00147460	BigHornerKnockdownEffect
-AID00147461	MissFortunePlasmaBlowsUpEffect
-AID00147462	MissFortuneParalysis
-AID00147463	MissFortunePowderBlowsUpEffect
-AID00147464	MissFortuneKnockdownEffect
-AID00147465	Reduced Explosives
-AID00147466	Regenerate AP
-AID00147467	Increased Survival
-AID00147468	EvaluateStuff
-AID00147469	Radiation Aura
-AID00147470	Radioactive Aura
+AID00147448	Evaluate Package Pulse
+AID00147449	Nightstalker Poison
+AID00147450	MissFortuneGunEffect
+AID00147451	LegateKnockdownEffect3
+AID00147452	LegateKnockdownEffect2
+AID00147453	LegateKnockdownEffect
+AID00147454	Terrifying Presence
+AID00147455	Faction Disguise Pulse Effect
+AID00147456	Sleepytime Dog Treat Knockout
+AID00147457	EFFECT: When eaten, temporarily knocks out animals.
+AID00147458	Repairs Current Weapon
+AID00147459	MeanSonofabitchKnockdownEffect
+AID00147460	Reduced Limb Damage
+AID00147461	BigHornerKnockdownEffect
+AID00147462	MissFortunePlasmaBlowsUpEffect
+AID00147463	MissFortuneParalysis
+AID00147464	MissFortunePowderBlowsUpEffect
+AID00147465	MissFortuneKnockdownEffect
+AID00147466	Reduced Explosives
+AID00147467	Regenerate AP
+AID00147468	Increased Survival
+AID00147469	EvaluateStuff
+AID00147470	Radiation Aura
+AID00147471	Radioactive Aura
 AID00147472	GlowingOneRadAura
 AID00147473	Cazador Poison
 AID00147474	Legion Explorer Aura Effect
