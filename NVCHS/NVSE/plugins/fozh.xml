@@ -345,7 +345,7 @@
 		<file target="Data/NVCHSDict/Mods/S6S_Perks_ch.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/STAR_TTW_2_ch.txt" src="Data/NVCHSDict/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
 		
-		
+		<json path="Data/NVCHSDict/json/Mods/MoreFreesidePassages.json" priority="5" />
 		
 	</replacetext>
 
