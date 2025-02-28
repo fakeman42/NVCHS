@@ -1,0 +1,2458 @@
+SI000001	DEFAULT
+SI000002	Reduced Sneak
+SI000003	Reduced Survival
+SI000004	Compact Frame Stealth
+SI000005	Meltdown
+SI000006	Reduced Damage Threshold
+SI000007	Reduced Speech
+SI000008	Reduced Barter
+SI000009	Reduced Science
+SI000010	You've gained the Educated perk!
+SI000011	"scn SCPTChallengeAddPerkEducated
+
+begin ScriptEffectStart
+
+if player.hasperk Educated == 0
+	player.addperk Educated 
+	MessageBoxEx ""You've gained the Educated perk!""
+endif
+
+end"
+SI000012	You've gained the Infiltrator perk!
+SI000013	"scn SCPTChallengeAddPerkInfiltrator
+
+begin ScriptEffectStart
+
+if player.hasperk Infiltrator == 0
+	player.addperk Infiltrator
+	MessageBoxEx ""You've gained the Infiltrator perk!""
+endif
+
+end"
+SI000014	You've gained the Paralyzing Palm perk!
+SI000015	"scn SCPTChallengeAddPerkParalyzingPalm
+
+begin ScriptEffectStart
+
+if player.hasperk ParalyzingPalm == 0
+	player.addperk ParalyzingPalm
+	MessageBoxEx ""You've gained the Paralyzing Palm perk!""
+endif
+if player.hasperk UnarmedChallengePerk == 0
+	Player.AddPerk UnarmedChallengePerk
+endif
+
+end"
+SI000016	You've gained the Explorer perk!
+SI000017	"scn SCPTChallengeAddPerkExplorer
+
+begin ScriptEffectStart
+
+if eval player.hasperk Explorer == 0 && GetINIFltOrCreateC ""Base Game Perk Redux Settings:bAutoExplorer"" ""Perk Redux Config.ini""
+	player.addperk Explorer
+	MessageBoxEx ""You've gained the Explorer perk!""
+endif
+
+end"
+SI000018	You are not looking at a valid target to drink blood from.
+SI000019	You've already drank blood from this body.
+SI000020	"scn	HematophageUDFS6S
+
+ref rTarget
+
+begin Function {}
+
+	rTarget = GetCrosshairRef
+	if isformvalid rTarget == 0
+		MessageEx ""You are not looking at a valid target to drink blood from.""
+		return
+	endif
+	if rTarget.getitemcount HematophageTokenS6S
+		MessageEx ""You've already drank blood from this body.""
+		return
+	endif
+	player.restoreav health (player.getav endurance + player.getav agility)
+	if player.ishardcore
+		player.restoreav dehydration (player.getav endurance + player.getav agility)
+		player.restoreav sleepdeprevation (player.getav endurance + player.getav agility)
+	endif
+	rTarget.additem HematophageTokenS6S 1
+	Player.DamageAv RadiationRads 18
+	RewardKarma -25
+	Imod BloodISFXd
+	playsound NPCHumanDrinkingSodaLoudS6S 1
+	rTarget.DonnerReedKuruParty 1
+end"
+SI000021	You must select a trait.
+SI000022	Extracurricular Knowledge x
+SI000023	$sNameStringEK
+SI000024	Extracurricular Knowledge
+SI000025	Extracurricular Knowledge x
+SI000026	$sNameStringEK
+SI000027	Extracurricular Knowledge
+SI000028	qualifying %z items?|Yes|Nos
+SI000029	$sNoteString
+SI000030	$sNoteString
+SI000031	$sNoteString
+SI000032	$sNoteString
+SI000033	Extracurricular Knowledge x
+SI000034	$sNameStringEK
+SI000035	Extracurricular Knowledge
+SI000036	$sNoteString
+SI000037	$sNoteString
+SI000038	$sNoteString
+SI000039	$sNoteString
+SI000040	"scn sssSCPTBaseGamePerksStartup
+
+int iActionStarRanks
+int iTargetIsNPC
+int iNPCIsFemale
+ref rCrosshairTarget
+
+int bTargetIsChild
+
+array_var aPlayerPerksOld
+array_var aPlayerPerksNew
+
+int iStockedPerk
+int iSitting
+
+int iHeartlessReduction
+
+int iTraitCheckUDFRunning
+int bNewBloodLoaded
+
+ref rPerkForm
+ref rPerkFormBase
+ref rPerkFormToCheck
+int bEKStage
+int iPerkCountOld
+int iPerkCountNew
+
+int iEducatedLevels
+
+string_var sNameStringEK
+string_var sNameStringPerkToCheck
+
+int bGoShowPerkItems
+
+ref rPerkListToShow
+
+string_var sNoteString
+string_var sNoteNameToAdd
+ref rRef
+
+int iFLSTPrint2StepCurrentPhase
+
+int bPromptUDF
+
+int bDoItAgain
+
+int bLoopStarted
+float fMenuGrabLock
+int bLockGrab
+
+int bHematophageVersion
+int bTomahawkHeaveHo
+string_var sMeltdownDescrip
+
+int bMilsurpBigGuns 
+int bMilsurpBigGunsConsumable 
+int bMilsurpBigGunsConfirmed
+
+int iSkilledPenalty
+int iTalentedCutoff
+
+int iCurrentLevel
+int iLevDif
+int iTick
+
+array_var aHomies
+
+int bWeaponHandlingDouble
+
+ref rRef
+array_var aEntry
+
+begin gamemode
+	if GetGameRestarted
+		if ismodloaded ""JustAssortedMods.esp"" == 1 || isModLoaded ""JustBulletTime.esp"" == 1
+			ref rJBTEffect = EditorIDToFormID ""JBTEffect""
+			if isformvalid rJBTEffect 
+				ListAddForm FLSTJBTEffect rJBTEffect 
+			endif
+		endif
+		if ismodloaded ""JBTImproved.esp"" == 1 && isModLoaded ""JustAssortedMods.esp"" == 1
+			bJBTImprovedLoaded = 1
+			;ref rFLSTJBTDamageModifierScripts = EditorIDToFormID ""FLSTJBTDamageModifierScripts""
+			;if isformvalid rFLSTJBTDamageModifierScripts 
+			;	ListAddForm rFLSTJBTDamageModifierScripts SCPTSweetPerkOverhaulJBTDamage 
+			;endif
+
+			ref rFLSTJBTAPModifierScripts = EditorIDToFormID ""FLSTJBTAPModifierScripts""
+			ref rJBTStandardMathWrathAPValues = EditorIDToFormID ""JBTStandardMathWrathAPValues""
+			if isformvalid rFLSTJBTAPModifierScripts
+				ListAddForm rFLSTJBTAPModifierScripts SCPTSweetPerkOverhaulMathWrathAPPerkValues
+				ListAddForm rFLSTJBTAPModifierScripts SCPTSweetPerkOverhaulActionStarAPValues
+				if isformvalid rJBTStandardMathWrathAPValues
+					ListRemoveForm rFLSTJBTAPModifierScripts rJBTStandardMathWrathAPValues
+				endif 
+			endif
+
+			ref rFLSTJBTVatsHelperModifierScripts = EditorIDToFormID ""FLSTJBTVatsHelperModifierScripts""
+			ref rJBTStandardVATSHelperPerkValues = EditorIDToFormID ""JBTStandardVATSHelperPerkValues""
+			if isformvalid rFLSTJBTVatsHelperModifierScripts
+				ListAddForm rFLSTJBTVatsHelperModifierScripts SCPTSweetPerkOverhaulVATSHelperValues
+				if isformvalid rJBTStandardVATSHelperPerkValues
+					ListRemoveForm rFLSTJBTVatsHelperModifierScripts rJBTStandardVATSHelperPerkValues
+				endif 
+			endif
+
+			;ref rFLSTJBTSpreadModifierScripts = EditorIDToFormID ""FLSTJBTSpreadModifierScripts""
+			;if isformvalid rFLSTJBTSpreadModifierScripts 
+			;	ListAddForm rFLSTJBTSpreadModifierScripts SCPTSweetPerkOverhaulJBTSpread 
+			;	ListAddForm rFLSTJBTSpreadModifierScripts SCPTSweetPerkOverhaulJBTRefTracker
+			;endif
+		endif 
+
+		if isModLoaded ""New Blood.esp"" == 1
+			bNewBloodLoaded = 1
+		else
+			bNewBloodLoaded = 0
+		endif
+		iSkilledPenalty = GetINIFltOrCreateC ""Base Game Perk Redux Settings:iTalentedSkillReductionPerLevel"" ""Perk Redux Config.ini""
+		iSkilledPenalty = clamp (iSkilledPenalty) 1 3
+		iSkilledPenalty = floor iSkilledPenalty
+		SetFormDescription NVDLC03TraitSkilled ""You're talented, but a slow learner. You gain +5 points to every skill, but your gained skill points are reduced by -%.0F."" iSkilledPenalty
+
+		iEducatedLevels = GetINIFltOrCreateC ""Base Game Perk Redux Settings:iEducatedLevelRate"" ""Perk Redux Config.ini""
+		iEducatedLevels = clamp (iEducatedLevels) 1 5
+		iEducatedLevels = floor iEducatedLevels 
+		if iEducatedLevels < 2
+			SetFormDescription Educated ""With the Educated trait, your book-smarts grant you a random free skill point every level, but your Survival skill is reduced by 30, since you're not street-smart."" iEducatedLevels 
+		else
+			SetFormDescription Educated ""With the Educated trait, your book-smarts grant you a random free skill point every %.0f levels, but your Survival skill is reduced by 30, since you're not street-smart."" iEducatedLevels 
+		endif
+
+		SetEventHandler ""OnCrosshairOn"" SCPTOnCrosshairOnBasePerks
+		SetEventHandler ""OnCrosshairOff"" SCPTOnCrosshairOffBasePerks
+		SetEventHandler ""OnHit"" SCPTOnHitTrackerBasePerks
+		SetEventHandler ""OnUnequip"" SCPTOnUnEquipBasePerks
+		SetEventHandler ""OnEquip"" SCPTOnUnEquipBasePerks
+		SetOnAddPerkEventHandler 1 SCPTBasePerksOnAddPerk 0 LifeGiver
+		SetOnAddPerkEventHandler 1 SCPTBasePerksOnAddPerk 0 CarefulHandling
+		SetOnAddPerkEventHandler 1 SCPTBasePerksOnAddPerk 0 GoodNatured
+
+		;SetOnUseAidItemEventHandler SCPTOnUseMagazineBasePerks 1 FLSTMagazines
+		;bMilsurpBigGunsConsumable = GetINIFltOrCreateC ""Consumable Settings:bMilsurpBigGuns"" ""Sweet Consumables Config.ini""
+		;bMilsurpBigGunsConsumable = clamp (bMilsurpBigGunsConsumable) 0 1
+		;bMilsurpBigGuns = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bMilsurpBigGuns"" ""Perk Redux Config.ini""
+		;bMilsurpBigGuns = clamp (bMilsurpBigGuns) 0 1
+
+		if eval FileExists ""NVSE\user_defined_functions\Weapon Jamming Tweaks.txt"" == 1
+			SetFormDescription CarefulHandling ""Your weapons deserve respect, and you know it. Your weapon AP cost, equip, reload, and attack speed are penalized by 5%%, but your spread and crit. chance are improved by 5%%, and your weapon condition decays 15%% slower, and your weapons are 20%% less likely to jam.""
+		endif
+
+		SetOnActorValueChangeEventHandler 1 SCPTOnAVChangeBasePerks 0
+	endif
+
+	if getgameloaded
+		if player.hasperk blackwidow
+			player.removeperk blackwidow
+			player.addperk blackwidow
+		endif
+		if player.hasperk cherchezlafemme
+			player.removeperk cherchezlafemme
+			player.addperk cherchezlafemme
+		endif
+		if player.hasperk ladykiller
+			player.removeperk ladykiller
+			player.addperk ladykiller
+		endif
+		if player.hasperk confirmedbachelor
+			player.removeperk confirmedbachelor
+			player.addperk confirmedbachelor
+		endif
+
+		if player.hasperk LifeGiver
+			aHomies = player.getteammates
+			if aHomies
+				foreach aEntry <- aHomies
+					let rRef := *aEntry
+					if rRef.isSpellTargetAlt AbilityLifeGiverCompanion == 0
+						rRef.addSpellNS AbilityLifeGiverCompanion 
+					endif
+				loop
+			endif
+		endif
+
+		;if bMilsurpBigGunsConsumable == 1 || bMilsurpBigGuns == 1
+		;	if bMilsurpBigGunsConfirmed != 1
+		;		bMilsurpBigGunsConfirmed = 1
+		;	endif
+		;else
+		;	if bMilsurpBigGunsConfirmed != 0
+		;		bMilsurpBigGunsConfirmed = 0
+		;	endif
+		;endif
+
+		if player.hasperk CarefulHandling
+			if player.auxvargetflt ""_ActorJamMult"" != 0.8
+				player.auxvarsetflt ""_ActorJamMult"" 0.8
+			endif
+		endif
+
+		bTomahawkHeaveHo = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bTomahawkHeaveHo"" ""Perk Redux Config.ini""
+		if bTomahawkHeaveHo  == 1
+			ListAddForm PerkSuperSlamThrownWeapons NVDLC02WeapTomahawk
+		endif
+		bOriginalMeltdown = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bMeltdownOriginalEffect"" ""Perk Redux Config.ini""
+		bOriginalMeltdown = clamp bOriginalMeltdown 0 1 
+		if bOriginalMeltdown == 1
+			sMeltdownDescrip = GetFormDescription Meltdown
+			SetFormDescription Meltdown $(sMeltdownDescrip + "" Your foes killed by your plasma weapons will also give off a corona of harmful energy."")
+		endif
+	endif
+
+	if iCurrentLevel != player.getlevel
+		iLevDif = player.getlevel - iCurrentLevel
+		iCurrentLevel += iLevDif
+		if player.hasperk Educated
+			iTick = 0
+			while iTick < iLevDif
+				call SCPTEducatedRandomPoint
+				iTick += 1
+			loop
+			iTick = 0
+		endif
+		iLevDif = 0
+	endif
+
+
+	if player.hasperk NVDLC03TraitSkilled == 0 && player.getlevel > 1 && (getperkflag NVDLC03TraitSkilled 1 == 1 || getperkflag NVDLC03TraitSkilled 2 == 0)
+		Setperkflag NVDLC03TraitSkilled 1 0
+		Setperkflag NVDLC03TraitSkilled 2 1
+	elseif player.hasperk NVDLC03TraitSkilled == 1 && (getperkflag NVDLC03TraitSkilled 1 == 0 || getperkflag NVDLC03TraitSkilled 2 == 1)
+		Setperkflag NVDLC03TraitSkilled 1 1
+		Setperkflag NVDLC03TraitSkilled 2 0
+	endif
+
+	if player.hasperk actionstar == 1 && QSTActionStar.iChoseTotal == 1 && player.isspelltargetalt ActionStarAPTotal == 0
+		player.addspellns ActionStarAPTotal
+	endif
+
+	if player.hasperk NVDLC03HeartlessPerk == 1
+		if iHeartlessReduction == 0
+			iHeartlessReduction = 1
+			player.modav health -50
+		endif
+	else
+		if iHeartlessReduction == 1
+			iHeartlessReduction = 0
+			player.modav health 50
+		endif
+	endif
+
+	if bEKStage == 2
+		aPlayerPerksNew = getplayerperks
+		iPerkCountNew = (ar_size aPlayerPerksNew)
+		if iPerkCountNew == iPerkCountOld
+			bEKStage = 0
+			MessageBoxEx ""You must select a trait.""
+		else
+			bEKStage = 0
+			iStockedPerk = iStockedPerk += 1
+			if iStockedPerk > 1
+				sNameStringEK = $(""Extracurricular Knowledge x"" + $iStockedPerk)
+				LNSetName $sNameStringEK HereandNowDummy
+			else
+				LNSetName ""Extracurricular Knowledge"" HereandNowDummy
+			endif
+			player.removeperk HereAndNow
+			if player.hasperk HereandNowDummy == 0
+				player.addperk HereandNowDummy
+			endif
+		endif
+	endif
+
+	if player.hasperk HereAndNow && bEKStage == 0
+		bEKStage = 1
+		aPlayerPerksOld = getplayerperks
+		iPerkCountOld = (ar_size aPlayerPerksOld)
+		print ""old perk count is "" + $iPerkCountOld
+		ShowTraitMenu
+	endif
+
+	if GLOCurrentSurvival != player.getav survival
+		GLOCurrentSurvival = player.getav survival
+	endif
+
+	if (GetPCMiscStat ""Quests Completed"" > GetChallengeProgress NVChallengeQuestin2) && (GetChallengeCompleted NVChallengeQuestin2 == 0)
+		incrementscriptedchallenge NVChallengeQuestin2
+	endif
+end
+
+begin menumode 1084
+	if bEKStage == 1
+		bEKStage = 2
+	endif
+end
+
+begin menumode 1003
+	if GetActiveMenuMode != 1001
+		if bLockGrab == 1
+			fMenuGrabLock += GetSecondsPassed
+			if fMenuGrabLock > 0.75
+				bLockGrab = 0
+			endif
+		endif
+
+		if GetSelectedItemRef != rPerkForm
+			rPerkForm = GetSelectedItemRef
+			rPerkFormToCheck = rPerkForm
+		endif
+		if IsReference rPerkForm
+			rPerkFormBase = (rPerkForm.GBO)
+			rPerkFormToCheck = rPerkFormBase
+			;print ""changed from ref to base form""
+		endif
+		if isFormValid rPerkFormToCheck == 1
+			if (isControlPressed 4 || isControlPressed 6 || IsControlPressed 27) && bPromptUDF == 0 && bLockGrab == 0 && bLoopStarted == 0 && bGoShowPerkItems == 0
+				bLockGrab = 1
+				if rPerkFormToCheck == HereAndNowDummy
+					showperkmenu
+					iStockedPerk = iStockedPerk -= 1
+					if iStockedPerk > 1
+						sNameStringEK = $(""Extracurricular Knowledge x"" + $iStockedPerk)
+						LNSetName $sNameStringEK HereandNowDummy
+					elseif iStockedPerk == 1
+						LNSetName ""Extracurricular Knowledge"" HereandNowDummy
+					else
+						player.removeperk HereAndNowDummy
+					endif
+					iStockedPerk = 0
+					printvar iStockedPerk
+				elseif rPerkFormToCheck == NVDLC02Grunt
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC02PerkGruntWeapons
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == Cowboy
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkCowboyWeapons
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == ConcentratedFire
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = WeaponMachinegunLIST
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == DemolitionExpert
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkDemolitionExpertWeapons
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == LaserCommander
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = LaserCommanderWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == PlasmaSpaz
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PlasmaSpazWeaponList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == NVDLC01AndStayBack
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == ShotgunSurgeon
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == TheProfessional
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = TheProfessionalWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == NVDLC01InShiningArmor
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC01ArmorVsBeamTorso
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == NVDLC02TribalWisdom
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkTribalArmor
+					bPromptUDF = 1
+				endif
+				if bPromptUDF == 1
+					bPromptUDF = 0
+					MessageBoxExAlt SCPTPromptForPerkListGeneric ""Check qualifying %z items?|Yes|No"" sNameStringPerkToCheck
+				endif
+			endif
+		endif
+	endif
+
+	if bGoShowPerkItems != 0 && bLoopStarted == 0 && rPerkListToShow != 0
+		bLoopStarted = 1
+		foreach rRef <- rPerkListToShow 
+			;print ""starting loop""
+			if Sv_Length sNoteString < 300
+				;1023+ character messages crash the game, so we give it a big buffer
+				;900 characters was too long for the screen, so I cut it a lot more
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				;take the note string as it is and add the name of the new item. we add the line break after each one, so that the first one doesn't start with a line break
+			else
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				MessageBoxEx $sNoteString
+				;show the message now, before it overflows. we do this in this else because routing to the messagebox command below will finish the loop, and the formlist might not have been iterated all the way through yet
+				sv_erase sNoteString
+				;clear the string, so that we start fresh on the next formlist entry
+			endif
+		loop
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox1""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		if rPerkFormToCheck == NVDLC01InShiningArmor && rPerkListToShow == NVDLC01ArmorVsBeamTorso
+			rPerkListToShow = NVDLC01ArmorVsBeamEyewear
+			bDoItAgain = 1
+		elseif rPerkFormToCheck == NVDLC02TribalWisdom && rPerkListToShow == PerkTribalArmor
+			rPerkListToShow = PerkTribalWeapons
+			bDoItAgain = 1
+		endif
+		if bDoItAgain == 1
+			bDoItAgain = 0
+			foreach rRef <- rPerkListToShow 
+				if Sv_Length sNoteString < 300
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				else
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+					MessageBoxEx $sNoteString
+					sv_erase sNoteString
+				endif
+			loop
+		endif
+		;print ""loop done""
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox1""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		rPerkListToShow = 0
+		bGoShowPerkItems = 0
+		bLoopStarted = 0
+	endif
+
+end
+
+begin menumode 1027
+	;print ""menumode "" + $(GetActiveMenuMode)
+	if GetActiveMenuMode != 1001
+		if bLockGrab == 1 && IsControlPressed 6 == 0 && isControlPressed 27 == 0
+			fMenuGrabLock += GetSecondsPassed
+			if fMenuGrabLock > 0.75
+				bLockGrab = 0
+			endif
+		endif
+
+		if rPerkForm != GetMenuTargetRef 1027
+			rPerkForm = GetMenuTargetRef 1027
+			rPerkFormToCheck = rPerkForm
+		endif
+		if isFormValid rPerkFormToCheck
+			if (isControlPressed 6 || IsControlPressed 27) && bPromptUDF == 0 && bLockGrab == 0 && bLoopStarted == 0 && bGoShowPerkItems == 0
+				bLockGrab = 1
+				;print ""grab locked""
+				if rPerkFormToCheck == HereAndNowDummy
+					showperkmenu
+					iStockedPerk = iStockedPerk -= 1
+					if iStockedPerk > 1
+						sNameStringEK = $(""Extracurricular Knowledge x"" + $iStockedPerk)
+						LNSetName $sNameStringEK HereandNowDummy
+					elseif iStockedPerk == 1
+						LNSetName ""Extracurricular Knowledge"" HereandNowDummy
+					else
+						player.removeperk HereAndNowDummy
+					endif
+					iStockedPerk = 0
+					;printvar iStockedPerk
+				elseif rPerkFormToCheck == NVDLC02Grunt
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC02PerkGruntWeapons
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == Cowboy
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkCowboyWeapons
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == ConcentratedFire
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = WeaponMachinegunLIST
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == DemolitionExpert
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkDemolitionExpertWeapons
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == LaserCommander
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = LaserCommanderWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == PlasmaSpaz
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PlasmaSpazWeaponList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == NVDLC01AndStayBack
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == ShotgunSurgeon
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == TheProfessional
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = TheProfessionalWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == NVDLC01InShiningArmor
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC01ArmorVsBeamTorso
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == NVDLC02TribalWisdom
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkTribalArmor
+					bGoShowPerkItems = 1
+				endif
+			;printvar rPerkListToShow 
+			;printvar bGoShowPerkItems 
+			endif
+		endif
+	endif
+
+	if bGoShowPerkItems != 0 && bLoopStarted == 0 && rPerkListToShow != 0
+		;print ""run 1""
+		foreach rRef <- rPerkListToShow 
+		bLoopStarted = 1
+			if Sv_Length sNoteString < 300
+				;1023+ character messages crash the game, so we give it a big buffer
+				;900 characters was too long for the screen, so I cut it a lot more
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				;take the note string as it is and add the name of the new item. we add the line break after each one, so that the first one doesn't start with a line break
+			else
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				MessageBoxEx $sNoteString
+				;show the message now, before it overflows. we do this in this else because routing to the messagebox command below will finish the loop, and the formlist might not have been iterated all the way through yet
+				sv_erase sNoteString
+				;clear the string, so that we start fresh on the next formlist entry
+			endif
+		loop
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox1""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		if rPerkFormToCheck == NVDLC01InShiningArmor && rPerkListToShow == NVDLC01ArmorVsBeamTorso
+			rPerkListToShow = NVDLC01ArmorVsBeamEyewear
+			bDoItAgain = 1
+		elseif rPerkFormToCheck == NVDLC02TribalWisdom && rPerkListToShow == PerkTribalArmor
+			rPerkListToShow = PerkTribalWeapons
+			bDoItAgain = 1
+		endif
+		if bDoItAgain == 1
+		;print ""do it again""
+			bDoItAgain = 0
+			foreach rRef <- rPerkListToShow 
+				if Sv_Length sNoteString < 300
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				else
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+					MessageBoxEx $sNoteString
+					sv_erase sNoteString
+				endif
+			loop
+		endif
+		;print ""loop done""
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox2""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		rPerkListToShow = 0
+		bGoShowPerkItems = 0
+		bLoopStarted = 0
+	endif
+end"
+SI000041	"scn SCPTActionStarQuest
+
+int iChoseTotal
+int iChoseRegen
+int iChoseWeapon
+
+int iB
+int iActive
+
+begin gamemode
+	if iActive == 0
+		ShowMessage MSGActionStarPrompt
+		iActive = 1
+		;printvar iActive
+	elseif iActive == 1
+		iB = GetButtonPressed
+		if iB == 0
+			iChoseTotal = 1
+			iActive = -1
+		elseif iB == 1
+			iChoseWeapon = 1
+			iActive = -1
+		elseif iB == 2
+			iChoseRegen = 1
+			iActive = -1
+		endif
+	elseif iActive == -1
+		;printvar iActive, iB
+		;printvar iChoseRegen, iChoseTotal, iChoseWeapon 
+		iActive = 0
+		iB = -1
+		stopquest QSTActionStar
+	endif
+end"
+SI000042	chosen an Action Star option that you've already selected. Please select a different one.|Increase AP total by 30|Reduce weapon AP cost by 20 %%|Increase AP regen by 20%%
+SI000043	chosen an Action Star option that you've already selected. Please select a different one.|Increase AP total by 30|Reduce weapon AP cost by 20 %%|Increase AP regen by 20%%
+SI000044	chosen an Action Star option that you've already selected. Please select a different one.|Increase AP total by 30|Reduce weapon AP cost by 20 %%|Increase AP regen by 20%%
+SI000045	"scn SCPTActionStarPrompt
+
+int iButton
+
+begin function {iButton}
+	if iButton == 0
+		if QSTActionStar.iChoseTotal == 0
+			QSTActionStar.iChoseTotal = 1
+			if player.isspelltargetalt ActionStarAPTotal == 0
+				player.addspellns ActionStarAPTotal
+			endif
+		else
+			MessageBoxExAlt SCPTActionStarPrompt ""You've chosen an Action Star option that you've already selected. Please select a different one.|Increase AP total by 30|Reduce weapon AP cost by 20 %%|Increase AP regen by 20%%""
+		endif
+	elseif iButton == 1
+		if QSTActionStar.iChoseWeapon == 0
+			QSTActionStar.iChoseWeapon = 1
+		else
+			MessageBoxExAlt SCPTActionStarPrompt ""You've chosen an Action Star option that you've already selected. Please select a different one.|Increase AP total by 30|Reduce weapon AP cost by 20 %%|Increase AP regen by 20%%""
+		endif
+	elseif iButton == 2
+		if QSTActionStar.iChoseRegen == 0
+			QSTActionStar.iChoseRegen = 1
+		else
+			MessageBoxExAlt SCPTActionStarPrompt ""You've chosen an Action Star option that you've already selected. Please select a different one.|Increase AP total by 30|Reduce weapon AP cost by 20 %%|Increase AP regen by 20%%""
+		endif
+	endif
+end"
+SI000046	You've gained the Avid Learner perk.
+SI000047	"scn SCPTChallengeGrantAvidLearner
+
+begin scripteffectstart
+	player.rewardxp 50
+	player.addperk nvdlc04lessonslearnedperk
+	MessageBoxEx ""You've gained the Avid Learner perk.""
+end"
+SI000048	You've gained the Unstoppable Force perk!
+SI000049	"scn SCPTChallengeGrantUnstoppableForce
+
+begin ScriptEffectStart
+	player.RewardXP 50
+	if player.hasperk UnstoppableForce == 0
+		player.addperk unstoppableforce
+		MessageBoxEx ""You've gained the Unstoppable Force perk!""
+	endif
+end"
+SI000050	"scn SCPTPromptSavedPerk
+
+int iButton
+
+begin function {iButton}
+	if iButton == 0
+		showperkmenu
+		sssQSTBaseGamePerksStartup.iStockedPerk = 0
+	elseif iButton == 1
+		return
+	endif
+end"
+SI000051	You must select a trait.
+SI000052	"scn SCPTCheckBackForNewTraitUDF
+
+array_var aPlayerPerksNew
+
+begin function {}
+	aPlayerPerksNew = getplayerperks
+	print ""new perk count is "" + $(ar_size aPlayerPerksNew)
+	print ""old perk count is "" + $(ar_size sssQSTBaseGamePerksStartup.aPlayerPerksOld)
+	if eval (ar_size sssQSTBaseGamePerksStartup.aPlayerPerksOld) == (ar_size aPlayerPerksNew)
+		MessageBoxEx ""You must select a trait.""
+	else
+		player.removeperk HereAndNow
+		sssQSTBaseGamePerksStartup.iStockedPerk = 1
+	endif
+	sssQSTBaseGamePerksStartup.iTraitCheckUDFRunning = 0
+end"
+SI000053	"scn SCPTOnHitTrackerBasePerks
+
+ref rAttacker
+ref rTarget
+float fSlugMult
+float fSlamWeapTypeBonus
+float fSlamPowerAttackBonus
+float fSlamWeaponWeight
+float fAttackerForce
+int iReqDifference
+ref rHitWeapon
+
+begin function {rTarget, rAttacker}
+	;printvar rAttacker
+	if isFormValid rAttacker == 0
+		return
+	endif
+	if isformvalid rTarget == 0
+		return	
+	endif
+	if rAttacker.hasperk AnimalFriend && rTarget.GetInFaction AnimalFriendFaction
+		rTarget.removefromfaction AnimalFriendFaction
+	endif
+	if rAttacker.GetPerkRank actionstar == 3
+		if rTarget.GetHitLocation == 1 || rTarget.GetHitLocation == 13
+			if GetVatsMode == 0 && rAttacker.IsSpellTargetList FLSTJBTEffect == 0
+				rAttacker.restoreav ActionPoints (player.getav luck)
+			endif
+		endif
+	endif
+	if isFormValid rTarget == 0
+		return
+	endif
+	if rAttacker.hasperk CenterOfMass == 1 && rTarget.GetHitLocation == 0
+		rTarget.damageav EnduranceCondition (rTarget.GetHitLimbDamage)
+		;print ""dealing "" + $(rTarget.GetHitLimbDamage) + "" bonus damage""
+	endif
+	if rAttacker.hasperk NVDLC01Hobbler == 1 && (rTarget.GetHitLocation == 10 || rTarget.GetHitLocation == 11 || rTarget.GetHitLocation == 12)
+		rTarget.damageav RightMobilityCondition (rTarget.GetHitLimbDamage)
+		;print ""dealing "" + $(rTarget.GetHitLimbDamage) + "" bonus damage""
+	endif
+	if rAttacker.hasperk NVDLC01Hobbler == 1 && (rTarget.GetHitLocation == 7 || rTarget.GetHitLocation == 8 || rTarget.GetHitLocation == 9)
+		rTarget.damageav LeftMobilityCondition (rTarget.GetHitLimbDamage)
+		;print ""dealing "" + $(rTarget.GetHitLimbDamage) + "" bonus damage""
+	endif
+	rHitWeapon = rTarget.GetHitWeapon
+	if isformvalid rHitWeapon == 0
+		return
+	endif
+	if rAttacker.HasPerk Meltdown && isRefInList PlasmaSpazWeaponList rHitWeapon != -1 && rTarget.GetEquipped NVDLC01ArmorVsBeamTorso == 1
+		if rTarget.GetHitExtendedFlag 1 == 1
+			rTarget.CIOS AEMeltdown
+		endif
+	endif
+	if sssQSTBaseGamePerksStartup.bNewBloodLoaded == 0
+		;print ""new blood not loaded""
+		if rAttacker.hasperk NVDLC01AndStayBack == 1 && isRefInList ShotgunSurgeonWeaponsList (rTarget.GetHitWeapon) != -1 && rTarget.GetisRagdolled == 0 && rTarget.hasperk Stonewall == 0 && rTarget.GetArmourPenetrated == 1 && (isRefInList FLSTGetUpIdles (rTarget.GetPlayedIdle) == -1)
+			;print ""hit qualifies""
+			;//new blood base shotgun knockdown will require the hit penetrates, and Stay Back will unlock it from requiring penetration
+			;ref rProj = (rTarget.GetHitProjectile).GBO
+			;printvar rProj
+			if isRefInList FLSTShotgunSlugsStayBack (rTarget.GetHitProjectile) != -1
+				;//this checks for the projectile to be in the list, not a base ammo form
+				fSlugMult = fStayBackSlugMult
+				;print ""slug""
+			else
+				fSlugmult = 1.0
+				;print ""not slug""
+			endif
+			int iRand = rand 1, 100
+			;printvar iRand
+			iRand = iRand - ((rTarget.GetAv Strength) * 2)
+			;printvar iRand
+			iRand *= fSlugMult
+			;printvar iRand
+			if rTarget.getequipped AllPowerArmor == 1
+				iRand /= 2
+				;printvar iRand
+			else
+				iRand = iRand - ((rTarget.GetAv Endurance) * ((rTarget.getarmorclass) + 1))
+				;printvar iRand
+				;//peaks as 10 * 4 for 40
+			endif
+			;//PA gets a much larger reduction via a raw mult, while other armor just reducts from rand val
+			if iRand > 65 ;iStayBackThreshold
+				;default is 20
+				rAttacker.pushactoraway rTarget (fStayBackForceBase * ((rTarget.GetHitHealthDamage) / 100))
+			endif
+		endif
+	endif
+	if sssQSTBaseGamePerksStartup.bNewBloodLoaded == 0
+		if rAttacker.hasperk SuperSlam == 1 && rTarget.GetisRagdolled == 0 && rTarget.GetArmourPenetrated == 1 && GetIsAutomatic (rTarget.GetHitWeapon) == 0 && rTarget.hasperk Stonewall == 0 && (isRefInList FLSTGetUpIdles (rTarget.GetPlayedIdle) == -1) && ((GetWeaponSkill (rTarget.GetHitWeapon) == 38) || (GetWeaponSkill (rTarget.GetHitWeapon) == 45)) 
+			;ref rIdle = rTarget.GetPlayedIdle
+			;printvar rIdle
+			;print $(isRefInList FLSTGetUpIdles (rTarget.GetPlayedIdle))
+			if rAttacker.IsAnimPlayingEx 3 23 == 1
+				fSlamPowerAttackBonus = 2.0
+			else
+				fSlamPowerAttackBonus = 1.0
+			endif
+			;printvar fSlamPowerAttackBonus 
+			fSlamWeaponWeight = GetWeight (rTarget.GetHitWeapon)
+			;printvar fSlamWeaponWeight 
+			iReqDifference = (rAttacker.GetAV Strength) - (GetReqStr (rTarget.GetHitWeapon))
+			;printvar iReqDifference 
+			fAttackerForce = ((fSlamWeaponWeight * (rAttacker.GetAV Strength)) * fSlamPowerAttackBonus)
+			;printvar fAttackerForce 
+			;((20 * (10)) * 3)
+			;((200 * 3)
+			;600 base force for max circumstance
+			;150 for 10 lb 5 STR
+			if iReqDifference < 0
+				fAttackerForce *= (1 + (iReqDifference / 10))
+			endif
+			;printvar fAttackerForce 
+			;20 lb 5 STR -3 iReqDifference
+			;((20 * (5)) * 3)
+			;(100 * 3)
+			;300
+			;300 x (1 + (-.3))
+			;300 x .7 = 210
+			fAttackerForce /= 6
+			;printvar fAttackerForce
+			;since 600 is the hypothetical maximum, this realigns the hypothetical max value to 100 
+			int iRand = rand 1, 50
+			iRand = iRand + (((rTarget.GetAv Strength) + (rTarget.GetAv Endurance)) * 2)
+			if rTarget.getequipped AllPowerArmor == 1
+				iRand *= 2
+			else
+				iRand = iRand + (((rTarget.GetAv Endurance) / 2) * ((rTarget.getarmorclass) + 1))
+				;//peaks as 10 * 4 for -40
+			endif
+			;//PA gets a much larger reduction via a raw mult, while other armor just reducts from rand val
+			;printvar iRand
+			if fAttackerForce > iRand
+				rAttacker.pushactoraway rTarget ((GetWeaponKillImpulse (rTarget.GetHitWeapon)) / 4)
+			endif
+		endif
+	endif
+end"
+SI000054	"scn SCPTPromptForPerkListGeneric
+
+int iButton
+
+begin function {iButton}
+	if iButton == 0
+		sssQSTBaseGamePerksStartup.bGoShowPerkItems = 1
+	elseif iButton == 1
+		sssQSTBaseGamePerksStartup.bGoShowPerkItems = 0
+	endif
+	if iButton > -1
+		sssQSTBaseGamePerksStartup.bPromptUDF = 0
+	endif
+end"
+SI000055	"scn SCPTMeltdownEffectScript
+
+ref rMetalArmor
+float fEffectSeconds
+int bSwitchedArmor
+ref rSelf
+ref rMetalArmor2
+float fArmorHealth
+float fHealthPercent
+
+begin scripteffectstart
+	rSelf = GetSelfAlt
+	rMetalArmor = GetEquippedItemRef 2
+	fArmorHealth = rMetalArmor.GetItemRefCurrentHealth 1
+	;printvar fArmorHealth
+	fHealthPercent = fArmorHealth - 0.15
+	if fHealthPercent <= 0
+		fHealthPercent = 0.01
+	endif
+	;print ""setting armor health to""
+	;printvar fHealthPercent
+	rMetalArmor.SetItemRefCurrentHealth fHealthPercent 1
+	fHealthPercent = rMetalArmor.GetItemRefCurrentHealth 1
+	;printvar fHealthPercent 
+	if isRefInList NVDLC01ArmorVsBeamTorso rMetalArmor != -1
+		;print ""starting effects""
+		pms PlasmaGooificationGlowFast
+		pms PlasmaGooificationSmall
+		pms Smoke02pulse
+		playidle MTHitTorsoC
+		;sms PlasmaGooificationGlowFast
+		;sms PlasmaGooificationSmall
+		playsound3d EMTMonorailFireB
+		playsound3d NPCBlowFlyFireLp
+		playsound3d NPCGeckoFireAttack
+		say hit
+	endif
+end
+
+begin scripteffectupdate
+	;print ""update""
+	;rMetalArmor = GetEquippedItemRef 2
+	;fArmorHealth = rMetalArmor.GetItemRefCurrentHealth 1
+	;printvar fArmorHealth 
+	fEffectSeconds += ScriptEffectElapsedSeconds
+	;printvar fEffectSeconds 
+	if fEffectSeconds > 0.5
+		if HasEffectShader PlasmaGooificationGlowFast
+			;print ""dispelling fast goo""
+			sms PlasmaGooificationGlowFast
+		endif
+	endif
+	if fEffectSeconds > 0.5
+		if HasEffectShader PlasmaGooificationSmall
+			;print ""dispelling plasma small""
+			sms PlasmaGooificationSmall
+		endif
+	endif
+end
+
+
+begin scripteffectfinish
+	stopsoundalt EMTMonorailFireB rSelf 
+	stopsoundalt NPCBlowFlyFireLp rSelf 
+	sms Smoke02pulse
+end"
+SI000056	"scn SCPTOnUnEquipBasePerks
+
+begin function {ref rActor, ref rItem}
+	;print ""onunequip""
+	if rActor.IsSpellTargetAlt AEMeltdown == 1 && (rActor.GetEqObj 2) == rItem
+		print ""clearing meltdown""
+		rActor.Dispel AEMeltdown
+		if HasEffectShader Flames01
+			;print ""dispelling fire""
+			sms Flames01
+		endif
+		if HasEffectShader PlasmaGooificationGlow
+			;print ""dispelling plasma""
+			sms PlasmaGooificationGlow
+		endif
+		if HasEffectShader Smoke02pulse
+			;print ""dispelling smoke""
+			sms Smoke02pulse
+		endif
+	endif
+end"
+SI000057	"scn SCPTOnCrosshairOnBasePerks
+
+begin function {ref rRef}
+	if isformvalid rRef == 0
+		return
+	endif
+	if rRef == 0
+		return
+	endif
+	if rRef.GetType != 42
+		return
+	endif
+	if GetIsReference rRef == 0
+		return
+	endif
+	ref rNPCBase = rRef.GBO
+	if isformvalid rNPCBase == 0
+		return
+	endif
+	if sssQSTBaseGamePerksStartup.iTargetIsNPC != 1
+		sssQSTBaseGamePerksStartup.iTargetIsNPC = 1
+	endif
+	if eval (rRef.GetIsSex Female || isrefinlist FLSTTransFem rNPCBase != -1) && isrefinlist FLSTTransMasc rNPCBase == -1
+		if sssQSTBaseGamePerksStartup.iNPCIsFemale != 1
+			sssQSTBaseGamePerksStartup.iNPCIsFemale = 1
+		endif
+	elseif eval (rRef.GetIsSex Female == 0 || isrefinlist FLSTTransMasc rNPCBase != -1) && isrefinlist FLSTTransFem rNPCBase == -1
+		if sssQSTBaseGamePerksStartup.iNPCIsFemale != 0
+			sssQSTBaseGamePerksStartup.iNPCIsFemale = 0
+		endif
+	endif
+	if rRef.IsChild 
+		if sssQSTBaseGamePerksStartup.bTargetIsChild != 1
+			sssQSTBaseGamePerksStartup.bTargetIsChild = 1
+		endif
+	endif
+end"
+SI000058	"scn SCPTOnCrosshairOffBasePerks
+
+begin function {ref rRef}
+	if isformvalid rRef
+		return
+	endif
+	if sssQSTBaseGamePerksStartup.iTargetIsNPC != 0
+		sssQSTBaseGamePerksStartup.iTargetIsNPC = 0
+	endif
+	if sssQSTBaseGamePerksStartup.iNPCIsFemale != 0
+		sssQSTBaseGamePerksStartup.iNPCIsFemale = 0
+	endif
+	if sssQSTBaseGamePerksStartup.bTargetIsChild != 0
+		sssQSTBaseGamePerksStartup.bTargetIsChild = 0
+	endif
+end"
+SI000059	"scn SCPTOnUseMagazineBasePerks
+
+begin function {ref rItem}
+	ref rActor = ThisAlt
+	if rActor != player
+		return
+	endif
+
+	if rItem == MagazineNVBarter
+
+	elseif rItem == MagazineNVCritical
+
+	elseif rItem == MagazineNVEnergyWeapons
+
+	elseif rItem == MagazineNVExplosives
+
+	elseif rItem == MagazineNVGuns
+
+	elseif rItem == MagazineNVLockpick
+
+	elseif rItem == MagazineNVMedicine
+
+	elseif rItem == MagazineNVMeleeWeapons
+
+	elseif rItem == MagazineNVRepair
+
+	elseif rItem == MagazineNVScience
+
+	elseif rItem == MagazineNVSneak
+
+	elseif rItem == MagazineNVSpeech
+
+	elseif rItem == MagazineNVSurvival
+
+	elseif rItem == MagazineNVUnarmed
+
+	endif
+end"
+SI000060	"scn NVDLC03TraitSkilledBESCRIPT
+
+; Raises the Player's skills (all) by 5 points.
+; ETB 3/3/11
+
+Short bDoOnce
+
+
+BEGIN ScriptEffectStart
+
+	If ( bDoOnce == 0 )
+		Set bDoOnce to 1;
+; ------------------------------------------	BARTER ----------------------------------------	\/
+		ModActorValue Barter 5;
+; ------------------------------------------	BIG GUNS ----------------------------------------	\/
+		ModActorValue BigGuns 5;
+; ------------------------------------------	ENERGY WEAPONS ---------------------	\/
+		ModActorValue EnergyWeapons 5;
+; ------------------------------------------	EXPLOSIVES --------------------------------	\/
+		ModActorValue Explosives 5;
+; ------------------------------------------	GUNS --------------------------------------------	\/
+		ModActorValue Guns 5;
+; ------------------------------------------	LOCKPICK -------------------------------------	\/
+		ModActorValue Lockpick 5;
+; ------------------------------------------	MEDICINE -------------------------------------	\/
+		ModActorValue Medicine 5;
+; ------------------------------------------	MELEE WEAPONS -----------------------	\/
+		ModActorValue MeleeWeapons 5;
+; ------------------------------------------	REPAIR -----------------------------------------	\/
+		ModActorValue Repair 5;
+; ------------------------------------------	SCIENCE ---------------------------------------	\/
+		ModActorValue Science 5;
+; ------------------------------------------	SNEAK ------------------------------------------	\/
+		ModActorValue Sneak 5;
+; ------------------------------------------	SPEECH ----------------------------------------	\/
+		ModActorValue Speech 5;
+; ------------------------------------------	SURVIVAL -------------------------------------	\/
+		ModActorValue Survival 5;
+; ------------------------------------------	UNARMED ------------------------------------	\/
+		ModActorValue Unarmed 5;
+	Endif
+
+END; scripteffectstart"
+SI000061	"ScriptName DLC03RadAbsorbScript
+
+Float MicroRegen
+
+Begin ScriptEffectUpdate
+	Set MicroRegen to ScriptEffectElapsedSeconds / 10
+	RestoreAv RadiationRads MicroRegen
+End"
+SI000062	"scn SCPTSweetPerkOverhaulJBTRefTracker
+
+ref rTargetWorldRef
+int iBodyPart
+ref rTargetBaseForm
+float fPassedFloat
+
+begin function {rTargetWorldRef, iBodyPart, fPassedFloat}
+	SetFunctionValue fPassedFloat
+
+	if isformvalid rTargetWorldRef == 0
+		return
+	endif
+	rTargetBaseForm = rTargetWorldRef.GBO
+	if isformvalid rTargetBaseForm == 0
+		return
+	endif
+
+end"
+SI000063	"scn SCPTSweetPerkOverhaulJBTSpread
+
+ref rTargetWorldRef
+int iBodyPart
+ref rTargetBaseForm
+float fSpread
+float fSpreadLocal
+
+begin function {rTargetWorldRef, iBodyPart, fSpread}
+	if isformvalid rTargetWorldRef == 0
+		return
+	endif
+	rTargetBaseForm = rTargetWorldRef.GBO
+	if isformvalid rTargetBaseForm == 0
+		return
+	endif
+
+	fSpreadLocal = fSpread
+
+	SetFunctionValue fSpreadLocal
+
+end"
+SI000064	"scn SCPTSweetPerkOverhaulJBTDamage
+
+ref rTargetWorldRef
+int iBodyPart
+ref rTargetBaseForm
+float fDamage
+float fDamageLocal
+
+begin function {rTargetWorldRef, iBodyPart, fDamage}
+	if isformvalid rTargetWorldRef == 0
+		return
+	endif
+	rTargetBaseForm = rTargetWorldRef.GBO
+	if isformvalid rTargetBaseForm == 0
+		return
+	endif
+
+	fDamageLocal = fDamage
+
+	SetFunctionValue fDamageLocal
+
+end"
+SI000065	"scn NVDLC03GenericPerkQuestSCRIPT
+
+; This script handles all scripted actions/variables needed for perks in NVDLC03.
+; ETB 12/22/10 
+
+; ETB 3/25/11 	- Added Implant Y-7/Implant Y-3/Heartless functionality.
+; TLS 04/12/2011 - Accounting for player's Rad Resist value in Y-3 Implant
+; TLS 04/22/2011 - Fixed Y-3 implant so it will work if you only have one drink in your inventory.
+; CES 05/31/11 - Reworked GRX implant to work better.
+
+; Perk ""Implant GRX"" Description: ""You gain a non-additive subdermal Turbo (chem) injector. Rank 2 increases the Turbo effect from 3 to 5 seconds and the uses per day from 5 to 10.""
+Short nImplantGRXRank									; This perk has multiple ranks - which are tracked by this variable and used in ""NVDLC03GenericPerkQUEST"" --> Quest Stages <result scripts>.
+Short nImplantGRXUses									; Tracks the number of uses for the GRX ""Turbo"" Implant.
+Short nEndOfDay											; Set to gamehour - when fEndofDay >= 23 it's time to reset the GRX Implant per day uses.
+Short nLastDay											; Saves the last day GRX was added
+Short nCurrentDay											; Saves current day.
+
+; Perk ""Implant Y-3""
+Short bSetRadsTotal 
+Short nRadsTotal
+Short nRadsCurrent
+Short nRadsToHeal
+; ----------------------------------------------------	
+Short bY3SetPlayerDrink3RadTotal 
+Short nY3PlayerDrink3RadTotal 
+Short nY3PlayerDrink3RadCurrent 
+; ----------------------------------------------------	
+Short bY3SetPlayerDrink6RadTotal 
+Short nY3PlayerDrink6RadTotal 
+Short nY3PlayerDrink6RadCurrent 
+; ----------------------------------------------------	
+Short bY3SetPlayerDrink10RadTotal 
+Short nY3PlayerDrink10RadTotal 
+Short nY3PlayerDrink10RadCurrent 
+; ----------------------------------------------------	
+Short bY3SetPlayerDrink16RadTotal 
+Short nY3PlayerDrink16RadTotal 
+Short nY3PlayerDrink16RadCurrent 
+
+; Perk ""Implant Y-7""
+Short bY7SetPlayerFoodTotal 
+Short nY7PlayerFoodTotal 
+Short nY7PlayerFoodCurrent 
+
+; Perk ""Heartless""/""Cardiac Arrest""
+Short bSetHealthTotal 
+Short nHealthTotal 
+Short nHealthCurrent
+; ----------------------------------------------------	
+Short bHeartlessSetPlayerChemsTotal 
+Short nHeartlessPlayerChemsTotal 
+Short nHeartlessPlayerChemsCurrent 
+; ----------------------------------------------------	
+Short bHeartlessSetPlayerStimsTotal 
+Short nHeartlessPlayerStimsTotal 
+Short nHeartlessPlayerStimsCurrent 
+
+; Challenges
+Short bKleinDestineCompleted							; Only fires once to complete the ""Klein Destine"" challenge.
+Short bMobiusStripCompleted							; Only fires once to complete the ""Mobius Strip"" challenge.
+
+
+BEGIN GameMode
+
+; -------------------------------------------------------------------	PERKS -------------------------------------------------------------------------------------	|
+
+; ---------------------------	Perk: Implant GRX -------------------	\/ 	; ETB 12/22/10 Resets the ""Uses"" counter for the GRX Implant.
+																	; [NOTE: Any changes here must be dupicated in the menumode block.]
+
+	If ( Player.HasPerk NVDLC03ImplantGRXPerk == 1 )
+		Set nCurrentDay to GameDaysPassed;
+		If ( nCurrentDay - nLastDay >= 1 )
+			If ( NVDLC03GenericPerkQUEST.nImplantGRXRank == 1 )
+				Player.RemoveItem NVDLC03ImplantGRX 5 1
+				Player.AddItem NVDLC03ImplantGRX 5
+				Set nLastDay to GameDaysPassed;
+			Elseif ( NVDLC03GenericPerkQUEST.nImplantGRXRank == 2 )
+				Player.RemoveItem NVDLC03ImplantGRX 10 1
+				Player.AddItem NVDLC03ImplantGRX 10
+				Set nLastDay to GameDaysPassed;
+			Endif
+		Endif
+	Endif
+
+; ---------------------------	Perk: Implant Y-3 ---------------------	\/ 	; ETB 3/25/11 Restores Radiation damage whenever irradated liquids are consumed.
+																	; [NOTE: Any changes here must be dupicated in the MenuMode block.]
+
+	If ( Player.HasPerk NVDLC03ImplantY3Perk == 1 )
+		If ( bSetRadsTotal == 0 )
+			Set bSetRadsTotal to 1;
+			Set nRadsTotal to ( Player.GetAV RadiationRads );
+		Endif
+; ------------	3 Rad Drinks ------------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks3RadLIST >= 0 );
+			If ( bY3SetPlayerDrink3RadTotal == 0 )
+				Set bY3SetPlayerDrink3RadTotal to 1;
+				Set nY3PlayerDrink3RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks3RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink3RadTotal == 1 )
+				Set nY3PlayerDrink3RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks3RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink3RadCurrent < nY3PlayerDrink3RadTotal )
+					Set bY3SetPlayerDrink3RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 3)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink3RadCurrent > nY3PlayerDrink3RadTotal )
+					Set bY3SetPlayerDrink3RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+; ------------	6 Rad Drinks ------------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks6RadLIST >= 0 );
+			If ( bY3SetPlayerDrink6RadTotal == 0 )
+				Set bY3SetPlayerDrink6RadTotal to 1;
+				Set nY3PlayerDrink6RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks6RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink6RadTotal == 1 )
+				Set nY3PlayerDrink6RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks6RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink6RadCurrent < nY3PlayerDrink6RadTotal )
+					Set bY3SetPlayerDrink6RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 6)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink6RadCurrent > nY3PlayerDrink6RadTotal )
+					Set bY3SetPlayerDrink6RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+; ------------	10 Rad Drinks ----------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks10RadLIST >= 0 );
+			If ( bY3SetPlayerDrink10RadTotal == 0 )
+				Set bY3SetPlayerDrink10RadTotal to 1;
+				Set nY3PlayerDrink10RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks10RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink10RadTotal == 1 )
+				Set nY3PlayerDrink10RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks10RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink10RadCurrent < nY3PlayerDrink10RadTotal )
+					Set bY3SetPlayerDrink10RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 10)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink10RadCurrent > nY3PlayerDrink10RadTotal )
+					Set bY3SetPlayerDrink10RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+; ------------	16 Rad Drinks ----------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks16RadLIST >= 0 );
+			If ( bY3SetPlayerDrink16RadTotal == 0 )
+				Set bY3SetPlayerDrink16RadTotal to 1;
+				Set nY3PlayerDrink16RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks16RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink16RadTotal == 1 )
+				Set nY3PlayerDrink16RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks16RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink16RadCurrent < nY3PlayerDrink16RadTotal )
+					Set bY3SetPlayerDrink16RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 16)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink16RadCurrent > nY3PlayerDrink16RadTotal )
+					Set bY3SetPlayerDrink16RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+
+	Endif
+; ---------------------------	Perk: Implant Y-7 ---------------------	\/ 	; ETB 3/25/11 Adds AP/Health when food is consumed.
+																	; [NOTE: Any changes here must be dupicated in the menumode block.]	
+																
+	If ( Player.HasPerk NVDLC03ImplantY7Perk == 1 )
+		If ( bY7SetPlayerFoodTotal == 0 )
+			Set bY7SetPlayerFoodTotal to 1;
+			Set nY7PlayerFoodTotal to ( Player.GetItemCount NVDLC03PerkRelatedAllFoodLIST );
+		Endif
+		If ( bY7SetPlayerFoodTotal == 1 )
+			Set nY7PlayerFoodCurrent to ( Player.GetItemCount NVDLC03PerkRelatedAllFoodLIST );
+			If ( nY7PlayerFoodCurrent < nY7PlayerFoodTotal )
+				Set bY7SetPlayerFoodTotal to 0;
+				If ( Player.HasMagicEffect RestoreHealth )
+					Player.RestoreActorValue ActionPoints 2;
+					Player.RestoreActorValue Health 5;
+				Endif
+			Elseif ( nY7PlayerFoodCurrent > nY7PlayerFoodTotal )	
+				Set bY7SetPlayerFoodTotal to 0;
+			Endif
+		Endif
+	Endif
+
+; ---------------------------	Perk: Brainless -----------------------	\/ 	; ETB 3/7/11Keeps Player's head from getting crippled.
+
+	If ( Player.HasPerk NVDLC03BrainlessPerk == 1 )
+		If ( Player.GetActorValue PerceptionCondition < 100 )
+			Player.RestoreActorValue PerceptionCondition 100;
+		Endif
+		If ( Player.GetActorValue BrainCondition < 100 )
+			Player.RestoreActorValue BrainCondition 100;
+		Endif
+	Endif
+
+; ---------------------------	Perk: Big-Brained -----------------------	\/ 	; TLS 04/27/2011Keeps Player's head from getting crippled.
+
+	;If ( Player.HasPerk NVDLC03BigBrainedPerk == 1 )
+	;	If ( Player.GetActorValue PerceptionCondition < 100 )
+	;		Player.RestoreActorValue PerceptionCondition 100;
+	;	Endif
+	;	If ( Player.GetActorValue BrainCondition < 100 )
+	;		Player.RestoreActorValue BrainCondition 100;
+	;	Endif
+	;Endif
+
+
+; -----------------	Perk: Heartless/ Cardiac Arrest	---------	\/ 	; ETB 3/25/11Adds health when chems/stimpaks are used.
+																	; [NOTE: Any changes here must be dupicated in the menumode block.]
+
+	If ( Player.HasPerk NVDLC03HeartlessPerk == 1 || Player.HasPerk NVDLC03CardiacArrestPerk == 1 )
+		If ( bSetHealthTotal == 0 )
+			Set bSetHealthTotal to 1;
+			Set nHealthTotal to ( Player.GetAV Health );
+		Endif
+; -----------------	Chems ------------	\/
+		If ( bHeartlessSetPlayerChemsTotal == 0 )
+			Set nHeartlessPlayerChemsTotal to ( Player.GetItemCount NVDLC03PerkRelatedAllChemsLIST );
+			Set bHeartlessSetPlayerChemsTotal to 1;
+		Endif
+		If ( bHeartlessSetPlayerChemsTotal == 1 )
+			Set nHeartlessPlayerChemsCurrent to ( Player.GetItemCount NVDLC03PerkRelatedAllChemsLIST );
+			Set nHealthCurrent to ( Player.GetAV Health );
+			If ( nHeartlessPlayerChemsCurrent < nHeartlessPlayerChemsTotal )
+				If ( nHealthCurrent > nHealthTotal )
+					If ( Player.HasPerk NVDLC03HeartlessPerk == 1 )
+						Player.RestoreActorValue Health 5		
+					Elseif ( Player.HasPerk NVDLC03CardiacArrestPerk == 1 )	
+						Player.RestoreActorValue Health 7
+					Endif
+				Endif
+				Set bHeartlessSetPlayerChemsTotal to 0;
+				Set bSetHealthTotal to 0;
+			Elseif ( nHeartlessPlayerChemsCurrent > nHeartlessPlayerChemsTotal )
+				Set bHeartlessSetPlayerChemsTotal to 0;
+				Set bSetHealthTotal to 0;
+			Endif
+		Endif
+; -----------------	Stims --------------	\/
+		If ( bHeartlessSetPlayerStimsTotal == 0 )
+			Set bHeartlessSetPlayerStimsTotal to 1;
+			Set nHeartlessPlayerStimsTotal to ( Player.GetItemCount NVDLC03PerkRelatedAllStimpaksLIST );
+		Endif
+		If ( bHeartlessSetPlayerStimsTotal == 1 )
+			Set nHeartlessPlayerStimsCurrent to ( Player.GetItemCount NVDLC03PerkRelatedAllStimpaksLIST );
+			Set nHealthCurrent to ( Player.GetAV Health );
+			If ( nHeartlessPlayerStimsCurrent < nHeartlessPlayerStimsTotal )
+				Set bHeartlessSetPlayerStimsTotal to 0;	
+				Set bSetHealthTotal to 0;
+				If ( nHealthCurrent > nHealthTotal )
+					If ( Player.HasPerk NVDLC03HeartlessPerk == 1 )
+						Player.RestoreActorValue Health 10		
+					Elseif ( Player.HasPerk NVDLC03CardiacArrestPerk == 1 )	
+						Player.RestoreActorValue Health 15
+					Endif		
+				Endif
+			Elseif ( nHeartlessPlayerStimsCurrent > nHeartlessPlayerStimsTotal )
+				Set bHeartlessSetPlayerStimsTotal to 0;	
+				Set bSetHealthTotal to 0;
+			Endif
+		Endif
+	Endif
+
+; ---------------------------	Perk: Spineless -----------------------	\/ 	; ETB 3/7/11Keeps Player's spine from getting crippled.
+
+	If ( Player.HasPerk NVDLC03SpinelessPerk )
+		If ( Player.GetActorValue EnduranceCondition < 100 )
+			Player.RestoreActorValue EnduranceCondition 100;
+		Endif
+	Endif
+
+; -------------------------------------------------------------------	CHALLENGES --------------------------------------------------------------------------	|
+
+; ---------------------------	Challenge: Klein Destine ----------------------------	\/
+
+	If ( bKleinDestineCompleted == 0 )
+		If ( Player.GetEquipped NVDLC03GlassesDrKlein == 1 && Player.GetEquipped NVDLC03scientistscrubgreen && Player.GetEquipped NVDLC03WeapGlovesDrKleinL )
+			IncrementScriptedChallenge NVDLC03ChallengeKleinDestine;
+			Set bKleinDestineCompleted to 1;
+		Endif
+	Endif
+
+; ---------------------------	Challenge: Mobius Strip -----------------------------	\/
+
+	If ( bMobiusStripCompleted == 0 )
+		If ( Player.GetEquipped NVDLC03GlassesDrMobius == 1 && Player.GetEquipped NVDLC03scientistscrubred && Player.GetEquipped NVDLC03WeapGlovesDrMobiusL)
+			IncrementScriptedChallenge NVDLC03ChallengeMobiusStrip;
+			Set bMobiusStripCompleted to 1;
+		Endif
+	Endif
+
+END; gamemode
+
+
+
+BEGIN MenuMode
+
+; -------------------------------------------------------------------	PERKS -------------------------------------------------------------------------------------	|
+
+; ---------------------------	Perk: Implant GRX -------------------	\/ 	; ETB 12/22/10 Resets the ""Uses"" counter for the GRX Implant.
+																	; [NOTE: Any changes here must be dupicated in the GameMode block.]
+
+	If ( Player.HasPerk NVDLC03ImplantGRXPerk == 1 )
+		Set nCurrentDay to GameDaysPassed;
+		If ( nCurrentDay - nLastDay >= 1 )
+			If ( NVDLC03GenericPerkQUEST.nImplantGRXRank == 1 )
+				Player.RemoveItem NVDLC03ImplantGRX 5 1
+				Player.AddItem NVDLC03ImplantGRX 5 1
+				Set nLastDay to GameDaysPassed;
+			Elseif ( NVDLC03GenericPerkQUEST.nImplantGRXRank == 2 )
+				Player.RemoveItem NVDLC03ImplantGRX 10 1
+				Player.AddItem NVDLC03ImplantGRX 10 1
+				Set nLastDay to GameDaysPassed;
+			Endif
+		Endif
+	Endif
+
+; ---------------------------	Perk: Implant Y-3 ---------------------	\/ 	; ETB 3/25/11 Restores Radiation damage whenever irradated liquids are consumed.
+																	; [NOTE: Any changes here must be dupicated in the menumode block.]
+
+	If ( Player.HasPerk NVDLC03ImplantY3Perk == 1 )
+		If ( bSetRadsTotal == 0 )
+			Set bSetRadsTotal to 1;
+			Set nRadsTotal to ( Player.GetAV RadiationRads );
+		Endif
+; ------------	3 Rad Drinks ------------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks3RadLIST >= 0 );
+			If ( bY3SetPlayerDrink3RadTotal == 0 )
+				Set bY3SetPlayerDrink3RadTotal to 1;
+				Set nY3PlayerDrink3RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks3RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink3RadTotal == 1 )
+				Set nY3PlayerDrink3RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks3RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink3RadCurrent < nY3PlayerDrink3RadTotal )
+					Set bY3SetPlayerDrink3RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 3)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink3RadCurrent > nY3PlayerDrink3RadTotal )
+					Set bY3SetPlayerDrink3RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+; ------------	6 Rad Drinks ------------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks6RadLIST >= 0 );
+			If ( bY3SetPlayerDrink6RadTotal == 0 )
+				Set bY3SetPlayerDrink6RadTotal to 1;
+				Set nY3PlayerDrink6RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks6RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink6RadTotal == 1 )
+				Set nY3PlayerDrink6RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks6RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink6RadCurrent < nY3PlayerDrink6RadTotal )
+					Set bY3SetPlayerDrink6RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 6)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink6RadCurrent > nY3PlayerDrink6RadTotal )
+					Set bY3SetPlayerDrink6RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+; ------------	10 Rad Drinks ----------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks10RadLIST >= 0 );
+			If ( bY3SetPlayerDrink10RadTotal == 0 )
+				Set bY3SetPlayerDrink10RadTotal to 1;
+				Set nY3PlayerDrink10RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks10RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink10RadTotal == 1 )
+				Set nY3PlayerDrink10RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks10RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink10RadCurrent < nY3PlayerDrink10RadTotal )
+					Set bY3SetPlayerDrink10RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 10)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink10RadCurrent > nY3PlayerDrink10RadTotal )
+					Set bY3SetPlayerDrink10RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+; ------------	16 Rad Drinks ----------	\/
+		If ( Player.GetItemCount NVDLC03PerkRelatedDrinks16RadLIST >= 0 );
+			If ( bY3SetPlayerDrink16RadTotal == 0 )
+				Set bY3SetPlayerDrink16RadTotal to 1;
+				Set nY3PlayerDrink16RadTotal to ( Player.GetItemCount NVDLC03PerkRelatedDrinks16RadLIST );
+			Endif
+			If ( bY3SetPlayerDrink16RadTotal == 1 )
+				Set nY3PlayerDrink16RadCurrent to ( Player.GetItemCount NVDLC03PerkRelatedDrinks16RadLIST );
+				Set nRadsCurrent to ( Player.GetAV RadiationRads );
+				If ( nY3PlayerDrink16RadCurrent < nY3PlayerDrink16RadTotal )
+					Set bY3SetPlayerDrink16RadTotal to 0;
+					Set bSetRadsTotal to 0;
+					If ( nRadsCurrent > nRadsTotal )
+						Set nRadsToHeal to ((1 - (Player.GetActorValue RadResist / 100)) * 16)
+						Player.RestoreActorValue RadiationRads nRadsToHeal;		
+						ShowMessage NVDLC03Y3ImplantPerkRadRemovedMSG;
+					Endif
+				Elseif ( nY3PlayerDrink16RadCurrent > nY3PlayerDrink16RadTotal )
+					Set bY3SetPlayerDrink16RadTotal to 0;
+					Set bSetRadsTotal to 0;
+				Endif
+			Endif
+		Endif
+
+	Endif
+; ---------------------------	Perk: Implant Y-7 ---------------------	\/ 	; ETB 3/25/11 Adds AP/Health when food is consumed.
+																	; [NOTE: Any changes here must be dupicated in the gamemode block.]
+
+	If ( Player.HasPerk NVDLC03ImplantY7Perk == 1 )
+		If ( bY7SetPlayerFoodTotal == 0 )
+			Set bY7SetPlayerFoodTotal to 1;
+			Set nY7PlayerFoodTotal to ( Player.GetItemCount NVDLC03PerkRelatedAllFoodLIST );
+		Endif
+		If ( bY7SetPlayerFoodTotal == 1 )
+			Set nY7PlayerFoodCurrent to ( Player.GetItemCount NVDLC03PerkRelatedAllFoodLIST );
+			If ( nY7PlayerFoodCurrent < nY7PlayerFoodTotal )
+				Set bY7SetPlayerFoodTotal to 0;
+				If ( Player.HasMagicEffect RestoreHealth )
+					Player.RestoreActorValue ActionPoints 2;
+					Player.RestoreActorValue Health 5;
+				Endif
+			Elseif ( nY7PlayerFoodCurrent > nY7PlayerFoodTotal )	
+				Set bY7SetPlayerFoodTotal to 0;
+			Endif
+		Endif
+	Endif
+
+; -----------------	Perk: Heartless/ Cardiac Arrest	---------	\/ 	; ETB 3/25/11Adds health when chems/stimpaks are used.
+																	; [NOTE: Any changes here must be dupicated in the gamemode block.]
+
+	If ( Player.HasPerk NVDLC03HeartlessPerk == 1 || Player.HasPerk NVDLC03CardiacArrestPerk == 1 )
+		If ( bSetHealthTotal == 0 )
+			Set bSetHealthTotal to 1;
+			Set nHealthTotal to ( Player.GetAV Health );
+		Endif
+; -----------------	Chems ------------	\/
+		If ( bHeartlessSetPlayerChemsTotal == 0 )
+			Set nHeartlessPlayerChemsTotal to ( Player.GetItemCount NVDLC03PerkRelatedAllChemsLIST );
+			Set bHeartlessSetPlayerChemsTotal to 1;
+		Endif
+		If ( bHeartlessSetPlayerChemsTotal == 1 )
+			Set nHeartlessPlayerChemsCurrent to ( Player.GetItemCount NVDLC03PerkRelatedAllChemsLIST );
+			Set nHealthCurrent to ( Player.GetAV Health );
+			If ( nHeartlessPlayerChemsCurrent < nHeartlessPlayerChemsTotal )
+				If ( nHealthCurrent > nHealthTotal )
+					If ( Player.HasPerk NVDLC03HeartlessPerk == 1 )
+						Player.RestoreActorValue Health 5		
+					Elseif ( Player.HasPerk NVDLC03CardiacArrestPerk == 1 )	
+						Player.RestoreActorValue Health 7
+					Endif
+				Endif
+				Set bHeartlessSetPlayerChemsTotal to 0;
+				Set bSetHealthTotal to 0;
+			Elseif ( nHeartlessPlayerChemsCurrent > nHeartlessPlayerChemsTotal )
+				Set bHeartlessSetPlayerChemsTotal to 0;
+				Set bSetHealthTotal to 0;
+			Endif
+		Endif
+; -----------------	Stims --------------	\/
+		If ( bHeartlessSetPlayerStimsTotal == 0 )
+			Set bHeartlessSetPlayerStimsTotal to 1;
+			Set nHeartlessPlayerStimsTotal to ( Player.GetItemCount NVDLC03PerkRelatedAllStimpaksLIST );
+		Endif
+		If ( bHeartlessSetPlayerStimsTotal == 1 )
+			Set nHeartlessPlayerStimsCurrent to ( Player.GetItemCount NVDLC03PerkRelatedAllStimpaksLIST );
+			Set nHealthCurrent to ( Player.GetAV Health );
+			If ( nHeartlessPlayerStimsCurrent < nHeartlessPlayerStimsTotal )
+				Set bHeartlessSetPlayerStimsTotal to 0;	
+				Set bSetHealthTotal to 0;
+				If ( nHealthCurrent > nHealthTotal )
+					If ( Player.HasPerk NVDLC03HeartlessPerk == 1 )
+						Player.RestoreActorValue Health 10		
+					Elseif ( Player.HasPerk NVDLC03CardiacArrestPerk == 1 )	
+						Player.RestoreActorValue Health 15
+					Endif		
+				Endif
+			Elseif ( nHeartlessPlayerStimsCurrent > nHeartlessPlayerStimsTotal )
+				Set bHeartlessSetPlayerStimsTotal to 0;	
+				Set bSetHealthTotal to 0;
+			Endif
+		Endif
+	Endif
+
+END; menumode"
+SI000066	"scn SCPTSweetPerkOverhaulVATSHelperValues
+
+float fChance
+
+begin function {fChance}
+	SetFunctionValue fChance
+	if player.hasperk VATSHelperChallengePerk == 0
+		return
+	endif
+	fChance *= (1.1 * player.getav luck)
+	SetFunctionValue fChance
+
+end"
+SI000067	"scn SCPTSweetPerkOverhaulMathWrathAPPerkValues
+
+ref rWeapon
+float fAP
+float fAPLocal
+float fReduction
+
+begin function {rWeapon, fAP}
+	SetFunctionValue fAP
+	if player.hasperk MathWrath == 0
+		return
+	endif
+	if player.getactorvalue science < 50
+		return
+	endif
+	fAPLocal = fAP
+	fReduction = (player.getav science - 40)
+	fReduction = (fReduction / 10)
+	fReduction = (floor fReduction)
+	fReduction *= 0.1
+	fReduction = 1 - fReduction
+	fAPLocal *= fReduction
+	SetFunctionValue fAPLocal
+end"
+SI000068	"scn SCPTEducatedRandomPoint
+
+array_var aSkills
+int iSize
+int iRand
+string_var sSkill
+
+begin function {}
+	let aSkills := ar_list ""Barter"", ""BigGuns"", ""EnergyWeapons"", ""Explosives"", ""Guns"", ""Lockpick"", ""Medicine"", ""MeleeWeapons"", ""Repair"", ""Science"", ""Sneak"", ""Speech"", ""Survival"", ""Unarmed""
+	let iSize := ar_size aSkills
+	iRand = rand 0 (iSize - 0.01)
+	let sSkill := aSkills[iRand]
+	player.modav ($(sSkill)) 1
+end"
+SI000069	"scn SCPTSweetPerkOverhaulActionStarAPValues
+
+ref rWeapon
+float fAP
+float fAPLocal
+float fReduction
+
+begin function {rWeapon, fAP}
+	SetFunctionValue fAP
+	if eval player.hasperk ActionStar == 0 || QSTActionStar.iChoseWeapon == 0
+		return
+	endif
+	fAPLocal = fAP
+	fAPLocal *= 0.8
+	SetFunctionValue fAPLocal
+end"
+SI000070	"scn SCPTBasePerksOnAddPerk
+
+array_var aHomies
+ref rRef
+array_var aEntry
+
+begin function {ref rPerk, int i1, int i2}
+	if rPerk == CarefulHandling
+		player.auxvarsetflt ""_ActorJamMult"" 0.8
+	endif
+	if rPerk == GoodNatured
+		if player.getav karma < 250
+			rewardkarma (250 - player.getav karma)
+		endif
+	endif
+	if rPerk != LifeGiver
+		return
+	endif
+	aHomies = player.getteammates
+	if aHomies
+		foreach aEntry <- aHomies
+			let rRef := *aEntry
+			if rRef.isSpellTargetAlt AbilityLifeGiverCompanion == 0
+				rRef.addSpellNS AbilityLifeGiverCompanion 
+			endif
+		loop
+	endif
+end"
+SI000071	"scn SCPTSweetPerkOverhaulJBTLimbTracker
+
+ref rTargetWorldRef
+int iBodyPart
+ref rTargetBaseForm
+float fDamage
+float fDamageLocal
+
+begin function {rTargetWorldRef, iBodyPart, fDamage}
+	if isformvalid rTargetWorldRef == 0
+		return
+	endif
+	rTargetBaseForm = rTargetWorldRef.GBO
+	if isformvalid rTargetBaseForm == 0
+		return
+	endif
+	
+	SetFunctionValue fDamageLocal
+	iBodyPartPerkRedux = iBodyPart
+end"
+SI000072	You've gained the Computer Whiz perk!
+SI000073	"scn SCPTChallengeAddPerkComputerWhiz
+
+begin ScriptEffectStart
+
+if player.hasperk ComputerWhiz == 0
+	player.addperk ComputerWhiz 
+	MessageBoxEx ""You've gained the Computer Whiz perk!""
+endif
+
+end"
+SI000074	"scn SCPTOnEquipBasePerks
+
+begin function {ref rActor, ref rItem}
+	;print ""onequip""
+	if isformvalid rItem == 0
+		return
+	endif
+	if eval GetType rItem == 40 && player.hasperk WeaponHandling
+		if eval player.getav (GetWeaponSkill rItem) >= ((GetReqSkill rItem) * 2) || player.getav (GetWeaponSkill rItem) >= 95
+			sssQSTBaseGamePerksStartup.bWeaponHandlingDouble = 1
+		else
+			sssQSTBaseGamePerksStartup.bWeaponHandlingDouble = 0
+		endif
+	endif
+end"
+SI000075	"scn SCPTOnAVChangeBasePerks
+
+begin function {int iAV, float fOld, float fNew}
+	ref rItem = player.geteqobj 5
+	if isformvalid rItem == 0
+		return
+	endif
+	if player.hasperk WeaponHandling
+		if eval player.getav (GetWeaponSkill rItem) >= ((GetReqSkill rItem) * 2) || player.getav (GetWeaponSkill rItem) >= 95
+			sssQSTBaseGamePerksStartup.bWeaponHandlingDouble = 1
+		else
+			sssQSTBaseGamePerksStartup.bWeaponHandlingDouble = 0
+		endif
+	endif
+
+end"
+SI000076	"scn FerociousLoyaltyScript
+
+array_var aEntry
+ref rRef
+int bInCombat
+int bActive
+
+Begin GameMode
+	if player.isincombat
+		if bInCombat == 0
+			bInCombat = 1
+		endif
+		if eval bActive == 0 && player.gethealthpercentage < 0.5
+			bActive = 1
+			foreach aEntry <- (player.getteammates)
+				let rRef := *aEntry
+				rRef.AddSpell FerociousLoyaltyEffect
+				ListAddForm FLSTFerociousCompanions rRef
+			loop
+		elseif eval bActive && player.gethealthpercentage > 0.49
+			bActive = 0
+			foreach aEntry <- (player.getteammates)
+				let rRef := *aEntry
+				rRef.RemoveSpell FerociousLoyaltyEffect
+				ListRemoveForm FLSTFerociousCompanions rRef
+			loop
+		endif
+	elseif eval player.isincombat == 0
+		if bInCombat
+			bInCombat = 0
+			foreach aEntry <- (player.getteammates)
+				let rRef := *aEntry
+				rRef.RemoveSpell FerociousLoyaltyEffect
+				ListRemoveForm FLSTFerociousCompanions rRef
+			loop
+		endif
+		if ListGetCount FLSTFerociousCompanions > 0
+			foreach aEntry <- (player.getteammates)
+				let rRef := *aEntry
+				rRef.RemoveSpell FerociousLoyaltyEffect
+				ListRemoveForm FLSTFerociousCompanions rRef
+			loop
+		endif
+	endif
+End"
+SI000077	Life Giver
+SI000078	Solar Powered
+SI000079	Iron Fist (1)
+SI000080	Crit. Rad Poison.
+SI000081	Minor Rad Poison.
+SI000082	Adv. Rad Poison.
+SI000083	Deadly Rad Poison.
+SI000084	Strong Back
+SI000085	Rad. Limb Healing
+SI000086	Night Person
+SI000087	Ant Strength
+SI000088	Ant Senses
+SI000089	Small Frame Agility Boost
+SI000090	Good Natured
+SI000091	Ferocious Loyalty
+SI000092	Poison Resistance
+SI000093	Spineless Strength
+SI000094	Early Bird Bonus
+SI000095	Reinforced Spine
+SI000096	Alertness
+SI000097	Walker Instinct
+SI000098	Thought You Died
+SI000099	Arcade Skill Bonus
+SI000100	Rip N' Tear
+SI000101	Light Touch
+SI000102	Educated
+SI000103	Black Widow
+SI000104	Cherchez La Femme
+SI000105	Confirmed Bachelor
+SI000106	Lady Killer
+SI000107	Action Star AP Boost
+SI000108	Non Ducor Duco
+SI000109	Mysterious Stranger
+SI000110	Child At Heart
+SI000111	Terrifying Presence
+SI000112	Irradiated Beauty
+SI000113	Burden To Bear
+SI000114	Ain't Like That Now
+SI000115	Brainless
+SI000116	Heartless
+SI000117	Big Brained
+SI000118	Cardiac Arrest
+SI000119	Iron Fist (1)
+SI000120	Meltdown
+SI000121	Life Giver
+SI000122	StartQuest QSTActionStar
+SI000123	StartQuest QSTActionStar
+SI000124	StartQuest QSTActionStar
+SI000125	Set cdrAnimalLoot to 5
+SI000126	Set cdrInsectLoot to 5
+SI000127	Set cdrMutantLoot to 5
+SI000128	Hematophage
+SI000129	You've gained a taste... for human blood! When you're in Sneak mode, you gain the option to drink blood from a corpse to regain Health and restore dehydration and sleep deprivation equal to the sum of your Endurance and Agility. But every time you drink blood, you will you lose a small amount of Karma and suffer radiation damage.
+SI000130	Drink Blood
+SI000131	Call HematophageUDFS6S
+SI000132	Child at Heart
+SI000133	The Child at Heart trait greatly improves your interactions with children, usually in the form of unique dialogue choices, at the cost of -5 Speech when not speaking with a child.
+SI000134	Rad Regeneration
+SI000135	After an experimental treatment, intense radiation keeps your body operating at peak performance regardless of crippling injuries... right up until death. When you suffer from Advanced Radiation Poisoning and being actively irradiated, crippled limbs automatically regenerate.
+SI000136	Dream Crusher
+SI000137	Something about your presence dampens others' desires to exceed. Your enemy's chance of getting critical hits on you is multiplied by .1 for each point your Charisma is below 10based on how low your Charisma is below 10.
+SI000138	Scrounger
+SI000139	With the Scrounger perk, you'll find considerably more ammunition in containers than you normally would.
+SI000140	Demolition Expert
+SI000141	With each rank of this perk, all of your Explosives weapons do an additional 10% damage and have 10% larger area of effect.
+SI000142	Extracurricular Knowledge
+SI000143	"Selecting Extracurricular Knowledge will allow you to save a perk point for later, but you will be forced to take a new trait. This can be done multiple times.
+Your perk point can be used by activating this perk in the Pip-Boy."
+SI000144	Mister Sandman
+SI000145	With the Mister Sandman perk, when you're in Sneak mode, you gain the option to silently kill any human or Ghoul while they're sleeping, and you gain bonus XP when doing so.
+SI000146	Murder
+SI000147	"SetUnconscious 1
+StartMisterSandman Player
+RewardXp 50
+ModPCMiscStat ""Sandman Kills"" 1"
+SI000148	Life Giver
+SI000149	With the Life Giver perk, you and your companions gain an additional 30 health.
+SI000150	Silent Running
+SI000151	With the Silent Running perk, running no longer factors into a successful sneak attempt. The second rank grants an additional +2% sneaking speed per each 10 points in Sneak.
+SI000152	Sniper
+SI000153	With the Sniper perk, your chance to hit an opponent's head in V.A.T.S. is increased by 25%, and your crit. chance is increased by 25% while using a scope and crouched.
+SI000154	Animal Friend
+SI000155	With the Animal Friend trait, animals come to your aid in combat, but never against another animal, and your weapon damage is reduced by 50% against animals, mutated animals, and mutated insects.
+SI000156	Light Step
+SI000157	With the Light Step perk, your chance to set off mines and floor-based traps while sneaking is reduced by 10% per point of Agility. This effect is multiplicative, with a minimum chance to set off traps of 35%.
+SI000158	Action Boy
+SI000159	With the Action Boy perk, you gain an additional 15 Action Points to use in V.A.T.S.
+SI000160	Better Criticals
+SI000161	With the Better Criticals perk, you gain a 3% critical damage bonus per point of Perception.
+SI000162	Mysterious Stranger
+SI000163	You've gained your own personal guardian angel... armed with a fully loaded .44 Magnum. For a cost of -1 Luck, the Mysterious Stranger will appear occasionally during V.A.T.S. to lend a hand, with deadly efficiency.
+SI000164	Robotics Expert
+SI000165	With the Robotics Expert perk, you do an additional 7% damage per 10 points in Science above 50 to robots. In addition, activating a hostile robot while undetected will allow you to put that robot into a permanent shutdown state.
+SI000166	Deactivate
+SI000167	"SetUnconscious 1
+player.rewardxp 10
+ModPCMiscStat ""Robots Disabled"" 1"
+SI000168	Computer Whiz
+SI000169	Fail a hack attempt and get locked out of a computer? Not if you're a Computer Whiz! With this perk, you can attempt to re-hack any computer you were previously locked out of.
+SI000170	Solar Powered
+SI000171	With the Solar Powered trait, you gain an additional point in Strength, Agility, and Endurance while in sunlight, but you suffer -1 to these stats while indoors or during the night.
+SI000172	Ninja
+SI000173	The Ninja perk grants you the power of the fabled shadow warriors. When attacking with either Melee or Unarmed, you gain a +15% critical chance on every strike. Sneak attack criticals do 25% more damage than normal.
+SI000174	Swift Learner
+SI000175	The Swift Learner perk grants an additional 2% gained XP per point in Intelligence.
+SI000176	Educated
+SI000177	With the Educated trait, your book-smarts grant you a random free skill point every , but your Survival skill is reduced by 30, since you're not street-smart.
+SI000178	Entomologist
+SI000179	With the Entomologist perk, you do an additional +50% damage every time you attack a mutated insect, like the Radroach, Giant Mantis, or Radscorpion, and you are able to find more of their parts in loot.
+SI000180	Strong Back
+SI000181	With the Strong Back perk, you can carry 4 more pounds of equipment for each point of both Strength and Endurance, up to a maximum of +80 lbs.
+SI000182	Toughness
+SI000183	With the Toughness perk, you gain +1 Damage Threshold per point in Endurance.
+SI000184	Comprehension
+SI000185	With the Comprehension perk, you gain double the bonus from reading magazines and one additional point from skill books.
+SI000186	Fortune Finder
+SI000187	With the Fortune Finder perk, you'll find considerably more bottle caps in containers than you normally would.
+SI000188	Explorer
+SI000189	When you have the Explorer perk, every location in the world is revealed on your map.
+SI000190	Nerd Rage!
+SI000191	You've been pushed around long enough! Whenever your health drops below 20%, enemy crit. chance is reduced by 10% for each point of Intelligence you have.
+SI000192	Lead Belly
+SI000193	With each rank of the Lead Belly perk, you take 25% less radiation when consuming irradiated food and drink.
+SI000194	Paralyzing Palm
+SI000195	With Paralyzing Palm, you will sometimes perform a special V.A.T.S. palm strike that paralyzes your opponent for 30 seconds. Note that in order to perform the Paralyzing Palm, you must be completely unarmed.
+SI000196	Concentrated Fire
+SI000197	With Concentrated Fire, your accuracy when targeting any body part in V.A.T.S. increases slightly with each subsequent attack on that body part, and your spread is decreased by 20% when using an automatic weapon.
+SI000198	Infiltrator
+SI000199	With Infiltrator, if a lock is broken, and can't normally be picked again, you can attempt to pick it again one more time. This includes locks previously broken by a "Force Lock" attempt.
+SI000200	Action Girl
+SI000201	With the Action Girl perk, you gain an additional 15 Action Points to use in V.A.T.S.
+SI000202	Black Widow
+SI000203	You gain +5 Speech and Barter and +1 Charisma when talking to men, but suffer -5 Speech and Barter when talking to women.
+SI000204	Lady Killer
+SI000205	You gain +5 Speech and Barter and +1 Charisma when talking to women, but suffer -5 Speech and Barter when talking to men.
+SI000206	Bloody Mess
+SI000207	"With the Bloody Mess trait, characters and creatures you kill will often explode into a red, gut-ridden, eyeball-strewn paste. Fun! Oh, and you gain +2% weapon damage per type of mutilated body part that you carry (Head, Arm, Leg, Organs, Torso).
+
+However, your chance to set off mines, and enemy crit chance have been increased by 8%."
+SI000208	Gunslinger
+SI000209	While using a one-handed weapon, your accuracy is increased by 15% per rank.
+SI000210	Cannibal
+SI000211	With the Cannibal trait, when you're in Sneak mode, you gain the option to eat a corpse to regain Health equal to your Survival skill when your Hunger meets or exceeds your Survival skill. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.
+SI000212	Devour
+SI000213	"StartCannibal Player
+Player.RestoreAv Health (player.getav survival)
+if Player.IsHardcore
+  Player.RestoreAv Hunger (player.getav survival)
+endif
+Player.DamageAv RadiationRads 25
+RewardKarma -100
+ModPCMiscStat ""Corpses Eaten"" 1
+
+If Player.HasPerk MeatOfChampionsPerk
+  Player.CastImmediateOnSelf MeatOfChampionsEffect
+endif"
+SI000214	Devour
+SI000215	"StartCannibal Player
+Player.RestoreAv Health (player.getav survival)
+if Player.IsHardcore
+  Player.RestoreAv Hunger (player.getav survival)
+endif
+Player.DamageAv RadiationRads 25
+RewardKarma -100
+ModPCMiscStat ""Corpses Eaten"" 1
+
+If Player.HasPerk MeatOfChampionsPerk
+  Player.CastImmediateOnSelf MeatOfChampionsEffect
+endif"
+SI000216	Night Person
+SI000217	When the sun is down, you gain +1 to Intelligence and Perception, but you suffer an equal reduction to those stats during the day.
+SI000218	Fast Metabolism
+SI000219	With the Fast Metabolism perk, you gain a 20% Health bonus when using Stimpaks.
+SI000220	Finesse
+SI000221	With the Finesse perk, you have a higher chance to score a critical hit on an opponent in combat, equivalent to 5 extra points of Luck.
+SI000222	Steel Skeleton
+SI000223	With the Steel Skeleton trait, your limbs only receive 75% of the damage they normally would, but your carry weight is reduced by 20%.
+SI000224	Chem Resistant
+SI000225	With the Chem Resistant trait, your addiction chance is reduced by 25%, but so is your chem duration.
+SI000226	Commando
+SI000227	While using a rifle (or similar two-handed weapon), your accuracy is increased by 15% with each rank of the Commando perk.
+SI000228	Grim Reaper's Sprint
+SI000229	If you kill a target in V.A.T.S., 20 Action Points are restored upon exiting V.A.T.S. The second rank increases the amount to 60.
+SI000230	Ant Might
+SI000231	Your body has been genetically enhanced with the strength and flame resistance of the Grayditch Fire Ants! Your Strength has increased by 1 while sneaking, and you gain 3% resistance to fire per point in Endurance.
+SI000232	Ant Sight
+SI000233	Your body has been genetically enhanced with the perception and flame resistance of the Grayditch Fire Ants! Your Perception has increased by 1 while sneaking, and you are gain 3% resistance to fire for each point in Endurance.
+SI000234	Nerves of Steel
+SI000235	With the Nerves of Steel perk, you regenerate Action Points 20% faster per rank.
+SI000236	Rad Absorption
+SI000237	With the Rad Absorption perk, your radiation level dissipates by 1 point every 10 seconds.
+SI000238	Terrifying Presence
+SI000239	In some conversations, you gain the ability to initiate combat while terrifying your opponents, sending them fleeing away for safety and enemy crit. chance is also reduced by 5% for each point that your Charisma is below 5, but you suffer -1 Charisma and -5 Speech.
+SI000240	Retention
+SI000241	With the Retention perk, the bonuses granted by skill magazines last three times as long.
+SI000242	Math Wrath
+SI000243	You are able to optimize your Pip-Boy's V.A.T.S. logic, reducing all AP costs by 5% per each 10 points in Science above 40.
+SI000244	Four Eyes
+SI000245	While wearing any type of glasses, you gain +1 PER. Without glasses, you suffer -1 PER.
+SI000246	Heavy Handed
+SI000247	Your melee and unarmed attacks do 20% more damage, but you attack 35% slower with them.
+SI000248	Small Frame
+SI000249	Due to your small size, you have +15 Sneak and enemy crit. chance is reduced by 15%, but you also suffer -1 Endurance and Strength.
+SI000250	Fast Shot
+SI000251	While using Guns, Energy Weapons, or Big Guns, you fire 20% more quickly, but your spread is increased by 20%.
+SI000252	Trigger Discipline
+SI000253	While using Guns, Energy Weapons, or Big Guns, you fire 20% more slowly, but your spread is reduced by 20%.
+SI000254	Ghastly Scavenger
+SI000255	With Ghastly Scavenger, when you're in Sneak mode, you gain the option to eat a Super Mutant or Feral Ghoul corpse to regain Health equal to your Survival skill. If this act is witnessed, it is considered a crime against nature.
+SI000256	Devour
+SI000257	"StartCannibal Player
+Player.RestoreAv Health 50
+if Player.IsHardcore
+  Player.RestoreAv Hunger ((player.getav survival) * 2)
+endif
+Player.DamageAv RadiationRads 50
+;RewardKarma -100
+ModPCMiscStat ""Corpses Eaten"" 1"
+SI000258	Devour
+SI000259	"StartCannibal Player
+Player.RestoreAv Health 50
+if Player.IsHardcore
+  Player.RestoreAv Hunger ((player.getav survival) * 2)
+endif
+Player.DamageAv RadiationRads 50
+;RewardKarma -100
+ModPCMiscStat ""Corpses Eaten"" 1"
+SI000260	Kamikaze
+SI000261	You gain +25% run speed while in combat and below 50% health, but you also have -5 DT while those conditions are met.
+SI000262	Hunter
+SI000263	In combat, you do +50% critical damage against animals and mutated animals, and +50% damage against them while using Guns and sneaking. You're also able to collect their meat more often.
+SI000264	Purifier
+SI000265	As a purifier of the wasteland, you do +50% damage with Melee and Unarmed weapons against Centaurs, Nightstalkers, Spore Plants, Spore Carriers, Deathclaws, Super Mutants, and Feral Ghouls.
+SI000266	Cherchez La Femme
+SI000267	You gain +5 Speech and Barter and +1 Charisma when talking to women, but suffer -5 Speech and Barter when talking to men.
+SI000268	Confirmed Bachelor
+SI000269	You gain +5 Speech and Barter and +1 Charisma when talking to men, but suffer -5 Speech and Barter and when talking to women.
+SI000270	Rapid Reload
+SI000271	Rapid Reload makes all of your weapon reloads 15% faster.
+SI000272	Quick Draw
+SI000273	Quick Draw makes all of your weapon equipping and holstering 10% faster per each 10 points in the appropriate weapon skill above 30.
+SI000274	Miss Fortune
+SI000275	Just when your enemies think they have the upper hand, Miss Fortune appears to turn their world upside down. Appearing only in V.A.T.S., she has the ability to grant defeat in the face of victory - at the cost of 15% crit chance.
+SI000276	Good Natured
+SI000277	You're Good Natured at heart, more prone to solving problems with your mind than violence. Your karma is immediately increased to Good if it is below that threshold, and you gain +1 to Charisma and +5 to Barter and Speech, but have -5 to Energy Weapons, Explosives, Guns, Melee Weapons, and Unarmed.
+SI000278	Built to Destroy
+SI000279	The Flamer that burns twice as bright burns half as long. Your throwing velocity, crit. chance, and attack speed are improved by 10%, but your spread is increased by 10%, and your weapon condition decays 20% faster.
+SI000280	Cowboy
+SI000281	When using any cowboy weapon, your attack speed, accuracy and damage are increased by 15%.
+SI000282	Marathon Runner
+SI000283	Your run speed is increased by 20% while wearing nothing, 15% while wearing light armor, 10% while wearing medium armor, and 5% while wearing heavy armor.
+SI000284	Weapon Handling
+SI000285	You've become more accustomed to handling heavy weaponry. The Weapon Handling perk reduces weapon Strength requirements by 1, or by 2 instead if your weapon skill is at least twice your weapon's requirement or greater than 95.
+SI000286	Long Haul
+SI000287	You have learned how to pack mountains of gear for the Long Haul. Being over-encumbered no longer prevents you from using Fast Travel.
+SI000288	Living Anatomy
+SI000289	Living Anatomy allows you to see the Health and Damage Threshold of any target. It also gives you a +5% bonus to damage against Humans and non-feral Ghouls, and allows you to collect resources from abominations.
+SI000290	Meltdown
+SI000291	Meltdown grants you +25% crit. damage with plasma weapons, and critical hits on targets wearing metallic armor will heavily damage their armor and reduce their resistances.
+SI000292	Pack Rat
+SI000293	You have learned the value of careful packing. Items with a weight of 2 or less weigh half as much for you.
+SI000294	Heave, Ho!
+SI000295	Quite an arm you've got there. All of your thrown weapons gain 25% velocity and damage while holding the aim key.
+SI000296	Run 'n Gun
+SI000297	The Run 'n Gun perk reduces spread penalties while moving by 50%.
+SI000298	Super Slam
+SI000299	All Melee Weapons and Unarmed attacks have a chance to knock your target down when they penetrate the target's DT. This chance increases based on weapon weight and power attacking, and is proportionally reduced when a weapon's strength requirement is not met.
+SI000300	Piercing Strike
+SI000301	Piercing Strike makes all of your Unarmed and Melee Weapons (including thrown) negate 2 points of Damage Threshold on the target per point in Strength.
+SI000302	Better Healing
+SI000303	While Arcade is a companion, the amount of health you recover from items is increased by 20%.
+SI000304	Spotter
+SI000305	While Boone is a companion, hostile targets are highlighted while you are aiming.
+SI000306	Regular Maintenance
+SI000307	While Raul is a companion, the condition of weapons and armor decays more 12.5% slower.
+SI000308	Search and Mark
+SI000309	While Rex is a companion, chems and unequipped firearms and ammunition within a short distance are highlighted while you aim.
+SI000310	Full Maintenance
+SI000311	While Raul is a companion, the condition of weapons and armor decays 25% slower.
+SI000312	Tough Guy
+SI000313	Repeatedly breaking your bones has led them to becoming tougher.
+SI000314	Bug Stomper
+SI000315	Pulling the legs off of ants suits you well. You've gained a damage bonus against insects.
+SI000316	Day Tripper
+SI000317	You've done enough chems to know how to hang on to the effects just a while longer. Each point in Endurance grants you +3% chem duration.
+SI000318	Abominable
+SI000319	You've gained a damage bonus against abominations.
+SI000320	Machine Head
+SI000321	You've gained a damage bonus against robots.
+SI000322	Set Lasers to Kill
+SI000323	You're extra lethal with laser weapons! Minor bonus to critically hit with all laser weapons.
+SI000324	Hack N' Slash
+SI000325	You hack just a little faster.
+SI000326	Beautiful Beatdown
+SI000327	Your Unarmed weapon AP Cost is reduced by 20%.
+SI000328	Animal Control
+SI000329	You've gained a damage bonus against animals.
+SI000330	Dine and Dash
+SI000331	With the Dine and Dash perk, when you're in Sneak mode, you gain the option to take corpse parts for eating at a later time.
+SI000332	Dine and Dash
+SI000333	"StartCannibal Player
+Player.RestoreAv Health (player.getav survival)
+if Player.IsHardcore
+  Player.RestoreAv Hunger (player.getav survival)
+endif
+Player.DamageAv RadiationRads 25
+Player.AddItem NVCannibalFood 1
+RewardKarma -100
+ModPCMiscStat ""Corpses Eaten"" 1
+
+If Player.HasPerk MeatOfChampionsPerk
+  Player.CastImmediateOnSelf MeatOfChampionsEffect
+endif"
+SI000334	Mutant Massacrer
+SI000335	You've gained a damage bonus against Super Mutants.
+SI000336	Friendly Help
+SI000337	Your V.A.T.S. protectors will help you more often as your Luck increases.
+SI000338	Loose Cannon
+SI000339	From Frag Grenades to Throwing Spears, you can throw weapons 30% faster at the cost of 25% less velocity.
+SI000340	Friend of the Night
+SI000341	You are a true friend of the night. Your eyes adapt quickly to low-light conditions indoors and when darkness falls across the wasteland.
+SI000342	Automatic Artistry
+SI000343	Automatic Artistry reduces your spread with automatic weapons by 15% and increases your crit. chance with them by 10%.
+SI000344	Center of Mass
+SI000345	You don't fool around with fancy trick shots. Straight to the midsection and down they go. In VATS, you do an additional 15% damage with attacks targeting the torso, and torso limb damage that you deal will be doubled.
+SI000346	Hit the Deck
+SI000347	Your familiarity with Explosives allows you to avoid a portion of their damage. Your Damage Threshold is increased by 15 against all Explosives.
+SI000348	Slayer
+SI000349	The slayer walks the earth! Each rank of the Slayer perk increases the speed of all your Melee Weapons and Unarmed attacks by 20%.
+SI000350	Unstoppable Force
+SI000351	Your martial might is truly legendary. You do 4x damage through enemy blocks with all Melee Weapons and Unarmed attacks while moving forward.
+SI000352	Stonewall
+SI000353	You gain +1 Damage Threshold against all Melee Weapons and Unarmed attacks per point in Endurance, and immunity to knockdowns.
+SI000354	Rad Child
+SI000355	You truly are a rad child. As you go through the increasingly devastating stages of radiation sickness, you will regenerate more and more health while actively being irradiated by higher intensities of radiation.
+SI000356	Laser Commander
+SI000357	From the humble Laser Pistol to the mighty Gatling Laser, you do +15% damage and have +10% chance to critically hit with any laser weapon.
+SI000358	Shotgun Surgeon
+SI000359	Your precision with a scattergun is something to behold. When using shotguns, each rank of Shotgun Surgeon grants you 6 points of Damage Threshold penetration and -8% spread.
+SI000360	Jury Rigging
+SI000361	You possess the amazing ability to repair any item using a roughly similar item. Fix a Trail Carbine with a Hunting Rifle, a Plasma Defender with a Laser Pistol, or even Power Armor with Metal Armor. How does it work? Nobody knows... except you.
+SI000362	Vigilant Recycler
+SI000363	Waste not, want not. When you use Energy Weapons, you are more likely to recover drained ammunition. You also have more efficient recycling recipes available at the Workbench.
+SI000364	Hand Loader
+SI000365	You know your way around a reloading bench and don't let good brass and hulls go to waste. When you use Guns, you are 50% more likely to recover cases and hulls. You also have access to advanced ammo types at the Reloading Bench. The second rank increases your chance to recover hulls by another 2x.
+SI000366	Nuka Chemist
+SI000367	You have unraveled some of the greatest mysteries of Pre-War masters: formulas for developing special Nuka-Colas! This perk unlocks special Nuka-Cola recipes at the Workbench.
+SI000368	The Professional
+SI000369	Up close and personal, that's how you like it. Your Sneak Attack Criticals with pistols, revolvers, and submachine guns, whether Guns or Energy Weapons, all inflict an additional 20% damage.
+SI000370	Plasma Spaz
+SI000371	You're just so excited about plasma that you can't (magnetically) contain yourself! Your attack speed and AP cost with plasma weapons are improved by 20%.
+SI000372	Splash Damage
+SI000373	When you're deep in enemy territory, you just start chucking grenades and hope for the best. All Explosives have a 25% larger area of effect.
+SI000374	Camel of the Wastes
+SI000375	You're a true water connoisseur. You gain increased benefits when drinking water.
+SI000376	Light Touch
+SI000377	Heavy armor just isn't your thing, so you've learned to customize light armor for maximum benefit. While wearing light armor or clothing, you gain +3 DT and DR, and your enemies suffer a -25% Critical Hit Chance.
+SI000378	In Shining Armor
+SI000379	Beams reflect off the mirror-like finish of your gleaming armor! You gain an additional +5 Damage Threshold against energy weapons while wearing any metal armor, and +2 while wearing reflective eyewear.
+SI000380	And Stay Back
+SI000381	You've discovered a Shotgun technique that has a chance to knock an enemy back on any hits that penetrate the target's DT. Slugs have a much greater chance to cause knockdown.
+SI000382	Old World Gourmet
+SI000383	Thanks to wasteland living, you've learned the secrets of the pre-war scroungers! You've gained +25% Addiction Resistance, and a healing bonus from junk foods and pre-war liquor.
+SI000384	Heavyweight
+SI000385	Have you been working out? Weapons heavier than 10 lbs. now weigh half as much for you. (Modified weapons that drop below 10 lbs. will not gain this benefit.)
+SI000386	Hobbler
+SI000387	With the Hobbler perk, your attacks to legs deal double limb damage, your run speed is increased by 10% with each crippled leg, and you gain +5 DT penetration and 25% better chance to hit an opponent's legs in V.A.T.S.
+SI000388	Home on the Range
+SI000389	Whenever you interact with a campfire, you have the option of sleeping, with all the benefits that sleep brings.
+SI000390	Eye For An Eye
+SI000391	While your head is crippled, you gain an additional 25% crit damage and crit chance.
+SI000392	Grunt
+SI000393	Just good, honest infantry work! When using U.S. army weapons, your Explosives, Unarmed, and Melee Weapons gain +15% damage, your Unarmed and Melee Weapons gain +25% equip speed, your automatic weapon spread is reduced by 20%, your semi-automatic spread is reduced by 10%, you gain +15% reload speed, and strength requirements are reduced by 1.
+SI000394	Tribal Ways
+SI000395	Your limbs take 50% less damage from Animals, Mutated Animals, and Mutated Insects, and you gain +20% damage and attack speed with tribal weapons, as well as +8 DT, +25% DR, and +10% run speed while wearing a tribal outfit.
+SI000396	Sneering Imperialist
+SI000397	You don't take kindly to raiders, junkies, or tribals trying to "settle" or "stay alive" in civilized lands. Against dirty raider, slaver and junkie types, as well as tribals, you do +15% damage and have a bonus to hit in V.A.T.S. (Requires Evil Karma).
+SI000398	Implant M-5
+SI000399	You can be made... better... faster... stronger... Actually, just faster. The M-5 implant increases your crouched movement speed by 10% for greater efficiency as a test subject.
+SI000400	Implant Y-3
+SI000401	"Implant Y-3 places an internal filtration system in the digestive tract that strips any liquid consumed of all* radioactive particles.
+*Within standard tolerance levels"
+SI000402	Implant C-13
+SI000403	Implant C-13 is a defense turret subroutine that has been modified for implantation into humans. It enhances accuracy and damage dealt against targets in the air by 10%.
+SI000404	DNAgent
+SI000405	Studying schematics on the abominations created at the Big MT has granted you a damage bonus (+10%) against Abominations.
+SI000406	Mile in Their Shoes
+SI000407	You have come to understand Nightstalkers. Consuming Nightstalker Squeezin's will now grant +1 Agiity, +25 Poison Resistance, +5 Sneak in addition to the normal benefits.
+SI000408	Implant Y-7
+SI000409	Implant Y-7 is an enzyme booster that increases the Health (HP) gained from foods and recovers additional Action Points (AP) per food item consumed.
+SI000410	Spineless
+SI000411	Your spine has been replaced with advanced technologies: Your torso can no longer be crippled, and your carry weight has increased by 25%, but your attack speed with Unarmed, and Melee Weapons has been reduced by 25%, and your equip speed has been reduced by 25%.
+SI000412	Brainless
+SI000413	Your brain has been replaced with advanced technologies: Your head can no longer be crippled, and your addiction chance is removed, but your radiation intake while drinking is doubled, and you have -1 Perception.
+SI000414	Heartless
+SI000415	Your heart has been replaced with advanced technologies: You cannot be poisoned, and your AP regen speed has increased by 25%, but your recovered health is reduced by 25%, your max health has been reduced by 50, and your radiation resistance has been reduced by 25%.
+SI000416	Them's Good Eatin'
+SI000417	You've gained a chance to find a Thin Red Paste or Blood Sausage when looting any animal.
+SI000418	Early Bird
+SI000419	You gain +1 to each of your S.P.E.C.I.A.L. attributes from 5 a.m. to 12 p.m., but suffer -1 from 6 p.m. to 5 a.m. when you're not at your best.
+SI000420	Hot Blooded
+SI000421	When your health drops below 50%, your attack speed is increased by 25%, but your weapon condition damage is doubled.
+SI000422	Hoarder
+SI000423	You gain +20% carry weight, but suffer -1 to all SPECIAL stats when carrying less than 160 lbs.
+SI000424	Talented
+SI000425	You're talented, but a slow learner. You gain +5 points to every skill, but you suffer -1 gained skill points per level.
+SI000426	Claustrophobia
+SI000427	You have a fear of enclosed spaces. You gain +1 to S.P.E.C.I.A.L. attributes when outside, but suffer -1 when indoors.
+SI000428	Heart-full
+SI000429	Your body once again pumps with blood and passion. Your poison resistance has increased by 50%.
+SI000430	Big Brained
+SI000431	Your brain is back in your body, but some of the advanced technologies remain: Your head can be crippled again, but you are still 35% more resistant to addiction, and you gain +1 Intelligence and +10% XP.
+SI000432	Cardiac Arrest
+SI000433	Your heart is back in your body, but some advanced technologies remain: You still suffer -15 radiation resistance, but your health and AP have increased by 25, and your damage resistance has increased by 5%.
+SI000434	Reinforced Spine
+SI000435	Your spine is back in your body, but some advanced technologies remain: Your torso can be crippled again, but you've gained +1 Endurance and +2 DT.
+SI000436	Long, Lonesome Road
+SI000437	You left ED-E behind in Ulysses' Temple - not that you needed the help anyways. As long as you have no companions, your attacks inflict +10% damage and you have +10% accuracy in VATS.
+SI000438	Marked
+SI000439	You've faced violence at the hands of the Marked Men... now it's payback time. (+10% Damage Threshold and +10% Damage against the Marked Men)
+SI000440	Certified Tech
+SI000441	Your knowledge of robotic components allows you to break them more easily and salvage their mechanical corpses. You have a +25% chance to score critical hits against robots, and you'll also find more useful components on robots you destroy.
+SI000442	Broad Daylight
+SI000443	You're so sneaky that you can sneak even with your Pip-Boy light on! Any time the Pip-Boy light is on, you gain a sneak bonus to offset the light's sneak penalty.
+SI000444	Ain't Like That Now
+SI000445	Maybe you were bad once, but you ain't like that now. Your Karma has been reset, you regenerate AP 20% faster, and your attack speed is increased by 20%. You are also 25% less susceptible to critical hits from Evil or Very Evil characters. (Requires Bad Karma.)
+SI000446	Thought You Died
+SI000447	Your storied past has fallen from memory 'cause everyone thought you died. Your Karma is reset, you inflict +15% damage against Evil or Very Evil characters, as well as being 25% less susceptible to their critical hits, and you gain +50 Health. (Requires Good Karma.)
+SI000448	Just Lucky I'm Alive
+SI000449	You've had lots of close calls. Whenever you finish a fight with less than 25% Health, your Luck increases by +4 for 3 minutes. You're also -25% as likely to be critically hit, and your own critical hits inflict +25% damage. (Requires Neutral Karma.)
+SI000450	Burden to Bear
+SI000451	With the Burden To Bear perk, you can carry 4 more pounds of equipment for each point of both Strength and Endurance, on top of your Strong Back carry weight bonus.
+SI000452	Roughin' It
+SI000453	You're more at home under the open stars than under a roof. Any time you sleep outside, you gain the benefits of being Well Rested, even if you don't own the bed.
+SI000454	Alertness
+SI000455	You've learned to keep your senses alert to any danger. When crouched and not moving you gain a +2 to your Perception attribute to help you find enemies before they find you.
+SI000456	Voracious Reader
+SI000457	You don't just read books, you tear into them. Damaged books you pick up become blank magazines, which you can use to copy your existing skill magazines at a workbench (or convert blank magazines back to books).
+SI000458	Walker Instinct
+SI000459	Your senses have become so keen that you can feel the slightest vibration in the ground. You gain +1 Perception and Agility attributes while outside and crouched.
+SI000460	Irradiated Beauty
+SI000461	When doused in radiation, your natural aura is enhanced. You gain +1 Charisma at 250/450/650 rads.
+SI000462	Avid Learner
+SI000463	The wasteland will teach you some hard lessons, but you've got enough gray matter to retain it all.  You gain +1% to earned experience per level gained. (For example, +25% experience at level 25.)
+SI000464	Tunnel Runner
+SI000465	It's invaluable to keep your head down. Your movement speed is increased by 25% while sneaking in light armor with your weapon holstered.
+SI000466	Sic Semper Tyrannis
+SI000467	You've set the tyrannical Legion ablaze with that most unholy of powers, nuclear fusion. While facing members of the Legion, you penetrate 8 DT, and deal 15% more damage with melee and flame-based weapons while your karma is Evil or Very Evil.
+SI000468	Igne Natura Renovatur Integra
+SI000469	200 years after the Great War, two lone nuclear missiles were launched. Not aimed at another country, but at their own land, targeting the last vestiges of civilization, a wicked punishment for their audacity to grow and thrive in this desolate wasteland. You deal +20% damage and +10% critical damage when attacking any members of the NCR or Legion while your karma is Bad or Very Bad.
+SI000470	Oderint Dum Metuant
+SI000471	You've set the toothless NCR ablaze with that most unholy of powers, nuclear fusion. While facing members of the NCR, you penetrate 8 DT, and deal 15% more damage with guns and flame-based weapons while your karma is Bad or Very Bad.
+SI000472	Non Ducor, Duco
+SI000473	Though neither the NCR or the Legion is a perfect solution for the Mojave, neither is worth damaging at the cost of repeating humanity's greatest sin. You've gain +1 Intelligence, Charisma, and Luck while your karma is Good or Very Good.
+SI000474	Enhanced Sensors
+SI000475	While ED-E is a companion, you can detect enemies at an increased range. Additionally, enemies will appear on your compass and can be targeted in V.A.T.S. even when cloaked.
+SI000476	Careful Handling
+SI000477	Your weapons deserve respect, and you know it. Your weapon AP cost, equip, reload, and attack speed are penalized by 5%, but your spread and crit. chance are improved by 5%, and your weapon condition decays 15% slower.
+SI000478	Rip N' Tear
+SI000479	Until it is done. Violence is the only way. You've gained +2 Strength and +5 Unarmed, but -2 to Charisma and -5 to Speech, Barter, Science, and Sneak.
+SI000480	Action Star
+SI000481	The life of an action star is an exciting one! As your career develops, you'll be able to choose to improve your total AP, your AP regeneration rate, or your weapon AP cost. If you take all three ranks, your AP is restored by an amount equal to your luck on each headshot outside of V.A.T.S. as well!
+SI000482	Extracurricular Knowledge
+SI000483	"Selecting Extracurricular Knowledge will allow you to save a perk point for later, but you will be forced to take a new trait. This can be done multiple times.
+Your perk point can be used by activating this perk in the Pip-Boy."
+SI000484	Moira's experiment had an unexpected side-effect. Now, when you suffer from Advanced Radiation Poisoning, crippled limbs automatically regenerate while you are actively being irradiated.
+SI000485	Rad Regeneration Perk Added
+SI000486	Your body has been genetically enhanced with the strength and flame resistance of the Grayditch Fire Ants! Your Strength has increased by 1 while sneaking, and you gain 3%% resistance to fire per point in Endurance.
+SI000487	Ant Might Perk Added
+SI000488	Your body has been genetically enhanced with the perception and flame resistance of the Grayditch Fire Ants! Your Perception has increased by 1 while sneaking, and you are gain 3%% resistance to fire for each point in Endurance.
+SI000489	Ant Sight Perk Added
+SI000490	You have lost Arcade's Intellectual Assessment perk.
+SI000491	Your brain has been replaced with advanced technologies: Your head can no longer be crippled, and your addiction chance is removed, but your max health is reduced by 30, and you have -1 Perception.
+SI000492	Brainless
+SI000493	Your spine has been replaced with advanced technologies: Your torso can no longer be crippled, and your carry weight has increased by 25%%, but your max health is reduced by 30.
+SI000494	Spineless
+SI000495	Your heart has been replaced with advanced technologies: You cannot be poisoned, and your AP regen speed has increased by 25%%, but your recovered health is reduced by 25%%, your max health has been reduced by 30, and your radiation resistance has been reduced by 25%%.
+SI000496	Heartless
+SI000497	Your brain is back in your body, but some of the advanced technologies remain: Your head can be crippled again, but you are still 35%% more resistant to addiction, and you've gained +1 Intelligence and +10%% xp.
+SI000498	Big Brained
+SI000499	Your heart is back in your body, but some advanced technologies remain: You still suffer -10 radiation resistance, but your health and AP have increased by 25, and your damage resistance has increased by 5%%.
+SI000500	Cardiac Arrest
+SI000501	Your spine is back in your body, but some advance technologies remain: Your torso can be crippled again, but you've gained +1 Endurance.
+SI000502	Reinforced Spine
+SI000503	Action Star
+SI000504	Increase AP total by 30
+SI000505	Reduce weapon AP cost by 20%
+SI000506	Increase AP regen by 20%
+SI000507	Master of the Wastes
+SI000508	Discover more Locations.
+SI000509	Avid Learner
+SI000510	Complete Quests.
+SI000511	Were You Using That?
+SI000512	Disable enemy limbs with two-handed Melee Weapons.
+SI000513	Knockout Punch
+SI000514	Inflict damage with Unarmed weapons.
+SI000515	H4x Supr3m3
+SI000516	Hack more computer terminals.
+SI000517	Alternative Entry
+SI000518	Pick locks.
