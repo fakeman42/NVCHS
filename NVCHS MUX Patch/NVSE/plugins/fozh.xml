@@ -129,7 +129,8 @@
 		<file target="Data/NVCHSDict/Mods/MAPMO_ch.txt" src="Data/NVCHSDict/Mods/MAPMO_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/BetterCaravan_chs.txt" src="Data/NVCHSDict/Mods/BetterCaravan_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/ySI_Categories_chs.txt" src="Data/NVCHSDict/Mods/ySI_Categories_en.txt" type="2" priority="5"/>
-		<file target="Data/NVCHSDict/Mods/MUX_ch.txt" src="Data/NVCHSDict/Mods/MUX_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/MUX_chs.txt" src="Data/NVCHSDict/Mods/MUX_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/KeybindQuickDisplay_chs.txt" src="Data/NVCHSDict/Mods/KeybindQuickDisplay_en.txt" type="2" priority="5"/>
 		
 		<!-- Someguy -->
 		<xml path="Data/NVCHSDict/Mods/Someguy/NewVegasBounties.xml"/>
@@ -337,9 +338,15 @@
 		<file target="Data/NVCHSDict/Mods/ESP-ESM_Explorer_ch.txt" src="Data/NVCHSDict/Mods/ESP-ESM_Explorer_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/P6UltimateHome_ch.txt" src="Data/NVCHSDict/Mods/P6UltimateHome_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/Pip-BoyCasino_ch.txt" src="Data/NVCHSDict/Mods/Pip-BoyCasino_en.txt" type="2" priority="5"/>
+		
 		<file target="Data/NVCHSDict/Mods/S6S_Perks_ch.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/S6S_perk_TTW_chs.txt" src="Data/NVCHSDict/Mods/S6S_perk_TTW_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/S6S_perk_re_chs.txt" src="Data/NVCHSDict/Mods/S6S_perk_re_en.txt" type="2" priority="5"/>
+
+		
 		<file target="Data/NVCHSDict/Mods/STAR_TTW_2_ch.txt" src="Data/NVCHSDict/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
 		<xml path="Data/NVCHSDict/Mods/WWM.xml" priority="5" />
+		
 
 		<json path="Data/NVCHSDict/json/Mods/MoreFreesidePassages.json" priority="5" />
 
