@@ -638,7 +638,7 @@
 		<regex from="^(.+):\s(.+)\s(.+)$" to="$1: $2 $3"/>
 
 		<!-- Claim the Mojave -->
-		<regex from="[^\r\n]+?( is now under the control of )([^\r\n]+?)$" to="$1在$2的控制下"/>
+		<regex from="[^\r\n]+?( is now under the control of )([^\r\n]+?)$" to="$1已由$2控制"/>
 		<regex from="[^\r\n]+?( is returning to )([^\r\n]+?)$" to="$1正在返回$2"/>
 		<regex from="[^\r\n]+?( has returned to )([^\r\n]+?)$" to="$1已返回$2"/>
 		
