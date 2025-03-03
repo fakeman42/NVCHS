@@ -27,7 +27,6 @@ MUX00000026	Quest Duration
 MUX00000027	Quest Reminder
 MUX00000028	Location Duration
 MUX00000029	Vendor Distance
-MUX00000030	
 MUX00000031	Make the Prompt hoovering about the Object. Please note that some Meshes lacking Dimension Data and it wont look alright.
 MUX00000032	Determine the Duration of the Location Display in Seconds.
 MUX00000033	Determine the Duration of the Quest Update Display in Seconds. (Not used by Classic Preset use Location Duration instead)
@@ -37,7 +36,6 @@ MUX00000036	Highlights NPCs providing services (e.g. trade, repairs, etc.). May 
 MUX00000037	Toggles floating door icons for load zone/teleport doors.
 MUX00000038	RefWalk Interval define how often Quest Markers, Compass and any kind of Floating Markers gets updated. 1 Means it update every Frame while 30 means it will update every 30 Frames. Lowering this numbers decrease the pop-ins of cost of performance. While increasing improve performance of cost of pop-ins.
 MUX00000039	The major difference is that OnRender is faster but can introduce sometimes Console Errors which can be ignored. Callback is slower and introduce sort of laggy markers but has greatly less error prints.
-MUX00000040	Define the Floating Marker Distance. This Markers aint suited for distance beyond 2000.
 MUX00000041	Allow Floating Healthbar to Register Friendly NPCs.
 MUX00000042	Enable Immersive HUD Function
 MUX00000043	Disable/Enable iHUD trough Hotkey
@@ -116,16 +114,4 @@ MUX00000115	Toggle Kill Feed
 MUX00000116	Choose the sound that will play when the kill feed is shown.
 MUX00000117	By default, the FPS version of the kill feed is left aligned.
 MUX00000118	Define the X Position on the Screen for the Kill Feed
-MUX00000119	Make the Prompt hoovering about the Object. Please note that some Meshes lacking Dimension Data and it wont look alright.
-MUX00000120	Determine the Duration of the Location Display in Seconds.
-MUX00000121	Determine the Duration of the Quest Update Display in Seconds. (Not used by Classic Preset use Location Duration instead)
 MUX00000122	Display Quest Objective whenever you hoover over a Marker.
-MUX00000123	
-MUX00000124	Toggles floating door icons for load zone/teleport doors.
-MUX00000125	The major difference is that OnRender is faster but can introduce sometimes Console Errors which can be ignored. Callback is slower and introduce sort of laggy markers but has greatly less error prints.
-MUX00000126	Enable Immersive HUD Function
-MUX00000127	Disable/Enable iHUD trough Hotkey
-MUX00000128	Choose your Percentage Value until Health Display
-MUX00000129	
-MUX00000130	
-MUX00000131	
