@@ -13,7 +13,7 @@
 		<!-- 修复用词典 -->
 		<file target="Data/NVCHSDict/Fixes/Duplicate_chs.txt" src="Data/NVCHSDict/Fixes/Duplicate_en.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/Fixes/overwrite_ja.txt" src="Data/NVCHSDict/Fixes/overwrite_en.txt" type="2" priority="1"/>
-		<file target="Data/NVCHSDict/Fixes/fnv_eff_chs.txt" src="Data/NVCHSDict/Fixes/fnv_eff_en.txt" type="2" priority="1"/>
+		<!-- <file target="Data/NVCHSDict/Fixes/fnv_eff_chs.txt" src="Data/NVCHSDict/Fixes/fnv_eff_en.txt" type="2" priority="1"/> -->
 		<file target="Data/NVCHSDict/Fixes/FIX_CN.txt" src="Data/NVCHSDict/Fixes/FIX_EN.txt" type="2" priority="1"/>
 		<file target="Data/NVCHSDict/Fixes/gamesetting_chs.txt" src="Data/NVCHSDict/Fixes/gamesetting_en.txt" type="2" priority="-1"/>
 		<file target="Data/NVCHSDict/Fixes/regular_en.txt" src="Data/NVCHSDict/Fixes/regular_ch.txt" type="2" priority="-2"/>
