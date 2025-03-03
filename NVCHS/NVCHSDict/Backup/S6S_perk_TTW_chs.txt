@@ -1,0 +1,1131 @@
+SI000001	
+SI000002	减少潜行
+SI000003	减少生存
+SI000004	紧凑型框架隐身
+SI000005	融毁
+SI000006	减少伤害阈值
+SI000007	减少口才
+SI000008	减少交易
+SI000009	减少科学
+SI000010	你获得了高材生perk！
+SI000011	
+SI000012	你获得了无孔不入perk!
+SI000013	
+SI000014	你获得了迷魂掌perk！
+SI000015	
+SI000016	你获得了探险家perk！
+SI000017	
+SI000018	你已经从这具尸体上喝过血了。
+SI000019	
+SI000020	"scn	HematophageUDFS6S
+
+ref rTarget
+
+begin Function {}
+
+	rTarget = GetCrosshairRef
+	if rTarget.getitemcount HematophageTokenS6S == 0
+		if player.getav Endurance < 3
+			Player.RestoreAv Health 15
+			if Player.IsHardcore
+				Player.RestoreAv Dehydration 65
+			endif
+		elseif player.getav Endurance < 6
+			Player.RestoreAv Health 25
+			if Player.IsHardcore
+				Player.RestoreAv Dehydration 85
+			endif
+		elseif player.getav Endurance < 9
+			Player.RestoreAv Health 35
+			if Player.IsHardcore
+				Player.RestoreAv Dehydration 105
+			endif
+		elseif player.getav Endurance > 8
+			Player.RestoreAv Health 45
+			if Player.IsHardcore
+				Player.RestoreAv Dehydration 125
+			endif
+		endif
+		rTarget.additem HematophageTokenS6S 1
+
+		Player.DamageAv RadiationRads 18
+		RewardKarma -50
+
+		Imod BloodISFXd
+
+		playsound NPCHumanDrinkingSodaLoudS6S 1
+
+		rTarget.DonnerReedKuruParty 1
+	else
+		MessageBoxEx ""You've already drank blood from this body.""
+	endif
+end"
+SI000021	你必须选择一项特质。
+SI000022	课外知识  x
+SI000023	
+SI000024	课外知识
+SI000025	课外知识  x
+SI000026	
+SI000027	课外知识
+SI000028	合格的 %z 物品?|是|否s
+SI000029	
+SI000030	
+SI000031	
+SI000032	
+SI000033	课外知识  x
+SI000034	
+SI000035	课外知识
+SI000036	
+SI000037	
+SI000038	
+SI000039	
+SI000040	"scn sssSCPTBaseGamePerksStartup
+
+int iActionStarRanks
+int iTargetIsNPC
+int iNPCIsFemale
+ref rCrosshairTarget
+
+int bTargetIsChild
+
+array_var aPlayerPerksOld
+array_var aPlayerPerksNew
+
+int iStockedPerk
+int iSitting
+
+int iHeartlessReduction
+
+int iTraitCheckUDFRunning
+int bNewBloodLoaded
+
+ref rPerkForm
+ref rPerkFormBase
+ref rPerkFormToCheck
+int bEKStage
+int iPerkCountOld
+int iPerkCountNew
+
+int iEducatedLevels
+
+string_var sNameStringEK
+string_var sNameStringPerkToCheck
+
+int bGoShowPerkItems
+
+ref rPerkListToShow
+
+string_var sNoteString
+string_var sNoteNameToAdd
+ref rRef
+
+int iFLSTPrint2StepCurrentPhase
+
+int bPromptUDF
+
+int bDoItAgain
+
+int bLoopStarted
+float fMenuGrabLock
+int bLockGrab
+
+int bHematophageVersion
+int bTomahawkHeaveHo
+string_var sMeltdownDescrip
+
+int bMilsurpBigGuns 
+int bMilsurpBigGunsConsumable 
+int bMilsurpBigGunsConfirmed
+
+int iSkilledPenalty
+int iTalentedCutoff
+
+int iCurrentLevel
+int iLevDif
+int iTick
+
+array_var aHomies
+
+ref rRef
+array_var aEntry
+
+begin gamemode
+	if GetGameRestarted
+		if ismodloaded ""JustAssortedMods.esp"" == 1 || isModLoaded ""JustBulletTime.esp"" == 1
+			ref rJBTEffect = EditorIDToFormID ""JBTEffect""
+			if isformvalid rJBTEffect 
+				ListAddForm FLSTJBTEffect rJBTEffect 
+			endif
+		endif
+		if ismodloaded ""JBTImproved.esp"" == 1 && isModLoaded ""JustAssortedMods.esp"" == 1
+			bJBTImprovedLoaded = 1
+			;ref rFLSTJBTDamageModifierScripts = EditorIDToFormID ""FLSTJBTDamageModifierScripts""
+			;if isformvalid rFLSTJBTDamageModifierScripts 
+			;	ListAddForm rFLSTJBTDamageModifierScripts SCPTSweetPerkOverhaulJBTDamage 
+			;endif
+
+			ref rFLSTJBTAPModifierScripts = EditorIDToFormID ""FLSTJBTAPModifierScripts""
+			ref rJBTStandardMathWrathAPValues = EditorIDToFormID ""JBTStandardMathWrathAPValues""
+			if isformvalid rFLSTJBTAPModifierScripts
+				ListAddForm rFLSTJBTAPModifierScripts SCPTSweetPerkOverhaulMathWrathAPPerkValues
+				ListAddForm rFLSTJBTAPModifierScripts SCPTSweetPerkOverhaulActionStarAPValues
+				if isformvalid rJBTStandardMathWrathAPValues
+					ListRemoveForm rFLSTJBTAPModifierScripts rJBTStandardMathWrathAPValues
+				endif 
+			endif
+
+			ref rFLSTJBTVatsHelperModifierScripts = EditorIDToFormID ""FLSTJBTVatsHelperModifierScripts""
+			ref rJBTStandardVATSHelperPerkValues = EditorIDToFormID ""JBTStandardVATSHelperPerkValues""
+			if isformvalid rFLSTJBTVatsHelperModifierScripts
+				ListAddForm rFLSTJBTVatsHelperModifierScripts SCPTSweetPerkOverhaulVATSHelperValues
+				if isformvalid rJBTStandardVATSHelperPerkValues
+					ListRemoveForm rFLSTJBTVatsHelperModifierScripts rJBTStandardVATSHelperPerkValues
+				endif 
+			endif
+
+			;ref rFLSTJBTSpreadModifierScripts = EditorIDToFormID ""FLSTJBTSpreadModifierScripts""
+			;if isformvalid rFLSTJBTSpreadModifierScripts 
+			;	ListAddForm rFLSTJBTSpreadModifierScripts SCPTSweetPerkOverhaulJBTSpread 
+			;	ListAddForm rFLSTJBTSpreadModifierScripts SCPTSweetPerkOverhaulJBTRefTracker
+			;endif
+		endif 
+
+		if isModLoaded ""New Blood.esp"" == 1
+			bNewBloodLoaded = 1
+		else
+			bNewBloodLoaded = 0
+		endif
+		iSkilledPenalty = GetINIFltOrCreateC ""Base Game Perk Redux Settings:iTalentedSkillReductionPerLevel"" ""Perk Redux Config.ini""
+		iSkilledPenalty = clamp (iSkilledPenalty) 1 3
+		iSkilledPenalty = floor iSkilledPenalty
+		SetFormDescription NVDLC03TraitSkilled ""You're talented, but a slow learner. You gain +5 points to every skill, but your gained skill points are reduced by -%.0F."" iSkilledPenalty
+
+		iEducatedLevels = GetINIFltOrCreateC ""Base Game Perk Redux Settings:iEducatedLevelRate"" ""Perk Redux Config.ini""
+		iEducatedLevels = clamp (iEducatedLevels) 1 5
+		iEducatedLevels = floor iEducatedLevels 
+		if iEducatedLevels < 2
+			SetFormDescription Educated ""With the Educated trait, your book-smarts grant you a random free skill point every level, but your Survival skill is reduced by 30, since you're not street-smart."" iEducatedLevels 
+		else
+			SetFormDescription Educated ""With the Educated trait, your book-smarts grant you a random free skill point every %.0f levels, but your Survival skill is reduced by 30, since you're not street-smart."" iEducatedLevels 
+		endif
+
+		SetEventHandler ""OnCrosshairOn"" SCPTOnCrosshairOnBasePerks
+		SetEventHandler ""OnCrosshairOff"" SCPTOnCrosshairOffBasePerks
+		SetEventHandler ""OnHit"" SCPTOnHitTrackerBasePerks
+		SetEventHandler ""OnUnequip"" SCPTOnUnEquipBasePerks
+		SetEventHandler ""OnEquip"" SCPTOnUnEquipBasePerks
+		SetOnAddPerkEventHandler 1 SCPTBasePerksOnAddPerk 0 LifeGiver
+
+		;SetOnUseAidItemEventHandler SCPTOnUseMagazineBasePerks 1 FLSTMagazines
+		;bMilsurpBigGunsConsumable = GetINIFltOrCreateC ""Consumable Settings:bMilsurpBigGuns"" ""Sweet Consumables Config.ini""
+		;bMilsurpBigGunsConsumable = clamp (bMilsurpBigGunsConsumable) 0 1
+		;bMilsurpBigGuns = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bMilsurpBigGuns"" ""Perk Redux Config.ini""
+		;bMilsurpBigGuns = clamp (bMilsurpBigGuns) 0 1
+
+	endif
+
+	if getgameloaded
+		if player.hasperk blackwidow
+			player.removeperk blackwidow
+			player.addperk blackwidow
+		endif
+		if player.hasperk cherchezlafemme
+			player.removeperk cherchezlafemme
+			player.addperk cherchezlafemme
+		endif
+		if player.hasperk ladykiller
+			player.removeperk ladykiller
+			player.addperk ladykiller
+		endif
+		if player.hasperk confirmedbachelor
+			player.removeperk confirmedbachelor
+			player.addperk confirmedbachelor
+		endif
+
+		if player.hasperk LifeGiver
+			aHomies = player.getteammates
+			if aHomies
+				foreach aEntry <- aHomies
+					let rRef := *aEntry
+					if rRef.isSpellTargetAlt AbilityLifeGiverCompanion == 0
+						rRef.addSpellNS AbilityLifeGiverCompanion 
+					endif
+				loop
+			endif
+		endif
+
+		;if bMilsurpBigGunsConsumable == 1 || bMilsurpBigGuns == 1
+		;	if bMilsurpBigGunsConfirmed != 1
+		;		bMilsurpBigGunsConfirmed = 1
+		;	endif
+		;else
+		;	if bMilsurpBigGunsConfirmed != 0
+		;		bMilsurpBigGunsConfirmed = 0
+		;	endif
+		;endif
+
+		bHematophageVersion = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bHematophageVersion"" ""Perk Redux Config.ini""
+		if bHematophageVersion == 1
+		;resets the perk from NV default, visible, at LVL 10, to hidden at LVL 1 for TTW users.
+			SetPerkFlag MS09Hematophage 2 1
+			SetPerkLevel MS09Hematophage 1
+		else
+		;makes Hematophage a trait, doesn't change anything else, unbalanced
+			SetPerkFlag MS09Hematophage 0 1
+			SetPerkLevel MS09Hematophage 1
+		endif
+		bTomahawkHeaveHo = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bTomahawkHeaveHo"" ""Perk Redux Config.ini""
+		if bTomahawkHeaveHo  == 1
+			ListAddForm PerkSuperSlamThrownWeapons NVDLC02WeapTomahawk
+		endif
+		bOriginalMeltdown = GetINIFltOrCreateC ""Base Game Perk Redux Settings:bMeltdownOriginalEffect"" ""Perk Redux Config.ini""
+		bOriginalMeltdown = clamp bOriginalMeltdown 0 1 
+		if bOriginalMeltdown == 1
+			sMeltdownDescrip = GetFormDescription Meltdown
+			SetFormDescription Meltdown $(sMeltdownDescrip + "" Your foes killed by your plasma weapons will also give off a corona of harmful energy."")
+		endif
+	endif
+
+	if iCurrentLevel != player.getlevel
+		iLevDif = player.getlevel - iCurrentLevel
+		iCurrentLevel += iLevDif
+		if player.hasperk Educated
+			iTick = 0
+			while iTick < iLevDif
+				call SCPTEducatedRandomPoint
+				iTick += 1
+			loop
+			iTick = 0
+		endif
+		iLevDif = 0
+	endif
+
+
+	if player.hasperk NVDLC03TraitSkilled == 0 && player.getlevel > 1 && (getperkflag NVDLC03TraitSkilled 1 == 1 || getperkflag NVDLC03TraitSkilled 2 == 0)
+		Setperkflag NVDLC03TraitSkilled 1 0
+		Setperkflag NVDLC03TraitSkilled 2 1
+	elseif player.hasperk NVDLC03TraitSkilled == 1 && (getperkflag NVDLC03TraitSkilled 1 == 0 || getperkflag NVDLC03TraitSkilled 2 == 1)
+		Setperkflag NVDLC03TraitSkilled 1 1
+		Setperkflag NVDLC03TraitSkilled 2 0
+	endif
+
+	if player.hasperk actionstar == 1 && QSTActionStar.iChoseTotal == 1 && player.isspelltargetalt ActionStarAPTotal == 0
+		player.addspellns ActionStarAPTotal
+	endif
+
+	if player.hasperk NVDLC03HeartlessPerk == 1
+		if iHeartlessReduction == 0
+			iHeartlessReduction = 1
+			player.modav health -50
+		endif
+	else
+		if iHeartlessReduction == 1
+			iHeartlessReduction = 0
+			player.modav health 50
+		endif
+	endif
+
+	if bEKStage == 2
+		aPlayerPerksNew = getplayerperks
+		iPerkCountNew = (ar_size aPlayerPerksNew)
+		if iPerkCountNew == iPerkCountOld
+			bEKStage = 0
+			MessageBoxEx ""You must select a trait.""
+		else
+			bEKStage = 0
+			iStockedPerk = iStockedPerk += 1
+			if iStockedPerk > 1
+				sNameStringEK = $(""Extracurricular Knowledge x"" + $iStockedPerk)
+				LNSetName $sNameStringEK HereandNowDummy
+			else
+				LNSetName ""Extracurricular Knowledge"" HereandNowDummy
+			endif
+			player.removeperk HereAndNow
+			if player.hasperk HereandNowDummy == 0
+				player.addperk HereandNowDummy
+			endif
+		endif
+	endif
+
+	if player.hasperk HereAndNow && bEKStage == 0
+		bEKStage = 1
+		aPlayerPerksOld = getplayerperks
+		iPerkCountOld = (ar_size aPlayerPerksOld)
+		print ""old perk count is "" + $iPerkCountOld
+		ShowTraitMenu
+	endif
+
+	if GLOCurrentSurvival != player.getav survival
+		GLOCurrentSurvival = player.getav survival
+	endif
+
+	if (GetPCMiscStat ""Quests Completed"" > GetChallengeProgress NVChallengeQuestin2) && (GetChallengeCompleted NVChallengeQuestin2 == 0)
+		incrementscriptedchallenge NVChallengeQuestin2
+	endif
+end
+
+begin menumode 1084
+	if bEKStage == 1
+		bEKStage = 2
+	endif
+end
+
+begin menumode 1003
+	if GetActiveMenuMode != 1001
+		if bLockGrab == 1
+			fMenuGrabLock += GetSecondsPassed
+			if fMenuGrabLock > 0.75
+				bLockGrab = 0
+			endif
+		endif
+
+		if GetSelectedItemRef != rPerkForm
+			rPerkForm = GetSelectedItemRef
+			rPerkFormToCheck = rPerkForm
+		endif
+		if IsReference rPerkForm
+			rPerkFormBase = (rPerkForm.GBO)
+			rPerkFormToCheck = rPerkFormBase
+			;print ""changed from ref to base form""
+		endif
+		if isFormValid rPerkFormToCheck == 1
+			if (isControlPressed 4 || isControlPressed 6 || IsControlPressed 27) && bPromptUDF == 0 && bLockGrab == 0 && bLoopStarted == 0 && bGoShowPerkItems == 0
+				bLockGrab = 1
+				if rPerkFormToCheck == HereAndNowDummy
+					showperkmenu
+					iStockedPerk = iStockedPerk -= 1
+					if iStockedPerk > 1
+						sNameStringEK = $(""Extracurricular Knowledge x"" + $iStockedPerk)
+						LNSetName $sNameStringEK HereandNowDummy
+					elseif iStockedPerk == 1
+						LNSetName ""Extracurricular Knowledge"" HereandNowDummy
+					else
+						player.removeperk HereAndNowDummy
+					endif
+					iStockedPerk = 0
+					printvar iStockedPerk
+				elseif rPerkFormToCheck == NVDLC02Grunt
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC02PerkGruntWeapons
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == Cowboy
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkCowboyWeapons
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == ConcentratedFire
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = WeaponMachinegunLIST
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == DemolitionExpert
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkDemolitionExpertWeapons
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == LaserCommander
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = LaserCommanderWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == PlasmaSpaz
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PlasmaSpazWeaponList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == NVDLC01AndStayBack
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == ShotgunSurgeon
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == TheProfessional
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = TheProfessionalWeaponsList
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == NVDLC01InShiningArmor
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC01ArmorVsBeamTorso
+					bPromptUDF = 1
+				elseif rPerkFormToCheck == NVDLC02TribalWisdom
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkTribalArmor
+					bPromptUDF = 1
+				endif
+				if bPromptUDF == 1
+					bPromptUDF = 0
+					MessageBoxExAlt SCPTPromptForPerkListGeneric ""Check qualifying %z items?|Yes|No"" sNameStringPerkToCheck
+				endif
+			endif
+		endif
+	endif
+
+	if bGoShowPerkItems != 0 && bLoopStarted == 0 && rPerkListToShow != 0
+		bLoopStarted = 1
+		foreach rRef <- rPerkListToShow 
+			;print ""starting loop""
+			if Sv_Length sNoteString < 300
+				;1023+ character messages crash the game, so we give it a big buffer
+				;900 characters was too long for the screen, so I cut it a lot more
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				;take the note string as it is and add the name of the new item. we add the line break after each one, so that the first one doesn't start with a line break
+			else
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				MessageBoxEx $sNoteString
+				;show the message now, before it overflows. we do this in this else because routing to the messagebox command below will finish the loop, and the formlist might not have been iterated all the way through yet
+				sv_erase sNoteString
+				;clear the string, so that we start fresh on the next formlist entry
+			endif
+		loop
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox1""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		if rPerkFormToCheck == NVDLC01InShiningArmor && rPerkListToShow == NVDLC01ArmorVsBeamTorso
+			rPerkListToShow = NVDLC01ArmorVsBeamEyewear
+			bDoItAgain = 1
+		elseif rPerkFormToCheck == NVDLC02TribalWisdom && rPerkListToShow == PerkTribalArmor
+			rPerkListToShow = PerkTribalWeapons
+			bDoItAgain = 1
+		endif
+		if bDoItAgain == 1
+			bDoItAgain = 0
+			foreach rRef <- rPerkListToShow 
+				if Sv_Length sNoteString < 300
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				else
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+					MessageBoxEx $sNoteString
+					sv_erase sNoteString
+				endif
+			loop
+		endif
+		;print ""loop done""
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox1""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		rPerkListToShow = 0
+		bGoShowPerkItems = 0
+		bLoopStarted = 0
+	endif
+
+end
+
+begin menumode 1027
+	;print ""menumode "" + $(GetActiveMenuMode)
+	if GetActiveMenuMode != 1001
+		if bLockGrab == 1 && IsControlPressed 6 == 0 && isControlPressed 27 == 0
+			fMenuGrabLock += GetSecondsPassed
+			if fMenuGrabLock > 0.75
+				bLockGrab = 0
+			endif
+		endif
+
+		if rPerkForm != GetMenuTargetRef 1027
+			rPerkForm = GetMenuTargetRef 1027
+			rPerkFormToCheck = rPerkForm
+		endif
+		if isFormValid rPerkFormToCheck
+			if (isControlPressed 6 || IsControlPressed 27) && bPromptUDF == 0 && bLockGrab == 0 && bLoopStarted == 0 && bGoShowPerkItems == 0
+				bLockGrab = 1
+				;print ""grab locked""
+				if rPerkFormToCheck == HereAndNowDummy
+					showperkmenu
+					iStockedPerk = iStockedPerk -= 1
+					if iStockedPerk > 1
+						sNameStringEK = $(""Extracurricular Knowledge x"" + $iStockedPerk)
+						LNSetName $sNameStringEK HereandNowDummy
+					elseif iStockedPerk == 1
+						LNSetName ""Extracurricular Knowledge"" HereandNowDummy
+					else
+						player.removeperk HereAndNowDummy
+					endif
+					iStockedPerk = 0
+					;printvar iStockedPerk
+				elseif rPerkFormToCheck == NVDLC02Grunt
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC02PerkGruntWeapons
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == Cowboy
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkCowboyWeapons
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == ConcentratedFire
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = WeaponMachinegunLIST
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == DemolitionExpert
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkDemolitionExpertWeapons
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == LaserCommander
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = LaserCommanderWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == PlasmaSpaz
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PlasmaSpazWeaponList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == NVDLC01AndStayBack
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == ShotgunSurgeon
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = ShotgunSurgeonWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == TheProfessional
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = TheProfessionalWeaponsList
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == NVDLC01InShiningArmor
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = NVDLC01ArmorVsBeamTorso
+					bGoShowPerkItems = 1
+				elseif rPerkFormToCheck == NVDLC02TribalWisdom
+					sNameStringPerkToCheck = LNGetName rPerkFormToCheck
+					rPerkListToShow = PerkTribalArmor
+					bGoShowPerkItems = 1
+				endif
+			;printvar rPerkListToShow 
+			;printvar bGoShowPerkItems 
+			endif
+		endif
+	endif
+
+	if bGoShowPerkItems != 0 && bLoopStarted == 0 && rPerkListToShow != 0
+		;print ""run 1""
+		foreach rRef <- rPerkListToShow 
+		bLoopStarted = 1
+			if Sv_Length sNoteString < 300
+				;1023+ character messages crash the game, so we give it a big buffer
+				;900 characters was too long for the screen, so I cut it a lot more
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				;take the note string as it is and add the name of the new item. we add the line break after each one, so that the first one doesn't start with a line break
+			else
+				sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				MessageBoxEx $sNoteString
+				;show the message now, before it overflows. we do this in this else because routing to the messagebox command below will finish the loop, and the formlist might not have been iterated all the way through yet
+				sv_erase sNoteString
+				;clear the string, so that we start fresh on the next formlist entry
+			endif
+		loop
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox1""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		if rPerkFormToCheck == NVDLC01InShiningArmor && rPerkListToShow == NVDLC01ArmorVsBeamTorso
+			rPerkListToShow = NVDLC01ArmorVsBeamEyewear
+			bDoItAgain = 1
+		elseif rPerkFormToCheck == NVDLC02TribalWisdom && rPerkListToShow == PerkTribalArmor
+			rPerkListToShow = PerkTribalWeapons
+			bDoItAgain = 1
+		endif
+		if bDoItAgain == 1
+		;print ""do it again""
+			bDoItAgain = 0
+			foreach rRef <- rPerkListToShow 
+				if Sv_Length sNoteString < 300
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+				else
+					sNoteString = sNoteString + $(GetName rRef) + ""%r""
+					MessageBoxEx $sNoteString
+					sv_erase sNoteString
+				endif
+			loop
+		endif
+		;print ""loop done""
+		if Sv_Length sNoteString > 0
+			;print ""backup msgbox2""
+			MessageBoxEx $sNoteString
+			sv_erase sNoteString
+		endif
+		rPerkListToShow = 0
+		bGoShowPerkItems = 0
+		bLoopStarted = 0
+	endif
+end"
+SI000041	
+SI000042	选定了一项已有的动作明星选项。请选择不同选项。|AP总量增加30|武器AP消耗减少20%%|AP恢复增加20%%
+SI000043	选定了一项已有的动作明星选项。请选择不同选项。|AP总量增加30|武器AP消耗减少20%%|AP恢复增加20%%
+SI000044	选定了一项已有的动作明星选项。请选择不同选项。|AP总量增加30|武器AP消耗减少20%%|AP恢复增加20%%
+SI000045	
+SI000046	你获得了热切的学习者perk
+SI000047	
+SI000048	你获得了势不可挡perk！
+SI000049	
+SI000050	
+SI000051	你必须选择一项特质。
+SI000052	
+SI000053	
+SI000054	
+SI000055	
+SI000056	
+SI000057	
+SI000058	
+SI000059	
+SI000060	
+SI000061	
+SI000062	
+SI000063	
+SI000064	
+SI000065	
+SI000066	
+SI000067	
+SI000068	
+SI000069	
+SI000070	
+SI000071	
+SI000072	你获得了电脑怪杰perk！
+SI000073	
+SI000074	
+SI000075	
+SI000076	
+SI000077	赐命者
+SI000078	光合作用
+SI000079	铁拳
+SI000080	严重辐射中毒。
+SI000081	轻度辐射中毒。
+SI000082	中度辐射中毒。
+SI000083	致死辐射中毒
+SI000084	善背
+SI000085	放射性肢体治疗
+SI000086	黑夜之友
+SI000087	蚂蚁力量
+SI000088	蚂蚁感应
+SI000089	小巧玲珑敏捷提升
+SI000090	烂好人
+SI000091	忠心耿耿
+SI000092	毒素抗性
+SI000093	无脊椎的力量
+SI000094	早起的鸟儿奖励
+SI000095	增强脊柱
+SI000096	警觉状态
+SI000097	旅者本能
+SI000098	以为你死了
+SI000099	阿凯德技能奖励
+SI000100	开膛破肚
+SI000101	轻巧灵活
+SI000102	高材生
+SI000103	黑寡妇
+SI000104	寻找红祸
+SI000105	确认单身汉
+SI000106	女士杀手
+SI000107	动作明星AP增加
+SI000108	分水岭幸存者
+SI000109	神秘陌生人
+SI000110	童心未泯
+SI000111	凶神恶煞
+SI000112	辐照靓人
+SI000113	大力
+SI000114	洗心革面
+SI000115	无大脑
+SI000116	无心脏
+SI000117	大脑“容”
+SI000118	心跳骤停
+SI000119	铁拳 (1)
+SI000120	融毁
+SI000121	赐命者
+SI000122	
+SI000123	
+SI000124	
+SI000125	
+SI000126	
+SI000127	
+SI000128	吸血鬼
+SI000129	你染上了...对人血的嗜好！当你处于潜行状态时，你可以选择吸尸体的血来恢复生命值，还能缓解脱水和睡眠不足的状况，恢复程度等同于你的耐力和敏捷属性值之和。但每次喝血，你都会损失少量的道德值，并受到辐射伤害。
+SI000130	吸血
+SI000131	
+SI000132	童心未泯
+SI000133	童心未泯这个额外能力很好的填补了你和小孩间的代沟, 平时和小孩对话时会有特别选项。但不与孩子对话的情况下，会有-5口才的代价。
+SI000134	放射性再生
+SI000135	在接受了一次实验性治疗后，强烈的辐射能让你的身体即便遭受严重创伤也能维持在最佳机能状态...直到死亡降临为止。当你患上中度度辐射中毒且正受到持续辐射时，残废的肢体将会自动再生。
+SI000136	碎梦人
+SI000137	你的出现让其他人的欲求彻底破灭了。你的魅力每比10低一点，敌人对你造成暴击的几率就会乘以0.1。
+SI000138	翻箱倒柜
+SI000139	你身上充满了翻箱倒柜的动力，你可以在容器中找到更多的弹药。
+SI000140	爆破专家
+SI000141	每提升一级，你的所有爆炸武器都会造成10%的额外伤害，并扩大10%的效果范围。
+SI000142	醍醐灌顶
+SI000143	"课外知识将允许您保留一个Perk点数，但您将被迫接受一个新的特质。这可以多次选择。
+您可以在哔哔小子中激活此Perk来使用Perk点数。"
+SI000144	睡魔先生
+SI000145	睡魔先生perk可以使你在潜行模式下，不发出声音地杀死任何一名处于睡梦当中的人类或尸鬼。同时，这也可以让你得到额外的经验值。
+SI000146	杀人犯
+SI000147	
+SI000148	赐命者
+SI000149	有了赐命者perk，您和您的同伴将获得额外的30点生命值。
+SI000150	衔枚疾走
+SI000151	有了衔枚疾走这项perk，步行速度将不会影响你在潜行状态下的潜行效果。第2级每有10点潜行技能额外增加+2%的潜行速度。
+SI000152	狙击手
+SI000153	有了狙击手perk，你在V.A.T.S.中击中对手头部的几率增加25%，在使用瞄准镜和蹲下时，你的致命一击率增加25%。
+SI000154	动物朋友
+SI000155	有了动物朋友特性，动物会在战斗中帮助你，但永远不会对抗其他动物，你的武器对动物、变异动物和变异昆虫的伤害会降低50%。
+SI000156	身轻如羽
+SI000157	有了身轻如羽perk，你每有一点敏捷潜行时引爆地雷和地面陷阱的机会就会减少10%。这种效应是倍增的，触发陷阱的最小机会为35%。
+SI000158	活力小子
+SI000159	有了活力小子perk，你在V.A.T.S.模式下额外获得了15点行动点数。
+SI000160	会心一击
+SI000161	有了会心一击perk, 你每有一点感知就获得3％的致命一击伤害。
+SI000162	神秘陌生人
+SI000163	你得到了属于自己的守护天使....他的身上带着一把装满了弹药的.44马格南左轮手枪。以-1运气为代价，这位神秘陌生人将在V.A.T.S.期间偶尔出现，以致命的效率伸出援手。
+SI000164	机器人专家
+SI000165	有了机器人专家perk，你的科学每比50点高10点就能对机器人造成7%额外伤害。此外，在未被发现的情况下激活敌对机器人将使其进入永久关闭状态。
+SI000166	无效化
+SI000167	
+SI000168	电脑怪杰
+SI000169	黑电脑又没成功？电脑被锁死了？如果你是一名电脑怪杰，那这一切都将成为过眼烟云！有了这个perk, 你可以尝试重新破解之前被锁定的任何计算机。
+SI000170	光合作用
+SI000171	有了光合作用特性，你在阳光下会额外获得1点力量、敏捷和耐力，但在室内或夜间，你的这些属性会减少1点。
+SI000172	忍者
+SI000173	忍者perk赋予你影子战士的力量。使用近战或徒手攻击时，每次攻击都会获得+15%的暴击率。潜行攻击暴击造成的伤害比平常多25%。
+SI000174	聪慧过人
+SI000175	聪慧过人perk每有1点智力，就会额外获得2%的经验值。
+SI000176	高材生
+SI000177	有了受过教育的特质，你每升1级就会从书本智慧中获得1个随机的免费技能点，但你的生存技能会降低30，因为你没有街头智慧。
+SI000178	昆虫学家
+SI000179	有了昆虫学家perk，每次对变种昆虫，如蟑螂、巨型螳螂或蝎子的攻击，都会造成+50%的伤害，你可以在战利品中找到它们的更多部件。
+SI000180	善背
+SI000181	拥有善背perk，你每有1点力量或耐力就能多背4磅的物品，最多+80磅。
+SI000182	强健体魄
+SI000183	有了强健体魄perk，你每有1点耐力就获得+1伤害减免。
+SI000184	心领神会
+SI000185	有了心领神会perk, 你可以从阅读杂志中获得双倍的奖励，从技能书中获得额外1点技能。
+SI000186	幸运寻宝
+SI000187	有了幸运寻宝perk, 你会在容器中发现比平时更多的瓶盖。
+SI000188	探险家
+SI000189	当你选择了探险家perk，世界上每个地点就都会在你的地图标注出来，赶紧出发去探险吧！
+SI000190	书呆子之怒！
+SI000191	你忍够眼前的一切了! 当你的生命值降至20%以下时，敌人危险了。你拥有的每点智力都会使他们的暴击几率降低10%。
+SI000192	铅化肚皮
+SI000193	铅化肚皮每有1级，你在食用辐照食品和饮料时所受的辐射就会减少25%。
+SI000194	迷魂掌
+SI000195	迷魂掌可以使你在V.A.T.S.模式下有几率发出特殊的一掌，让对手麻痹30秒。注意，你必须处于空手，才能使出迷魂掌。
+SI000196	精确追击
+SI000197	拥有精确追击perk，当你在V.A.T.S模式下连续瞄准同一部位时，对该部位的命中率将会上升，并且使用自动武器时的散布会减少20%。
+SI000198	无孔不入
+SI000199	有了无孔不入，如果锁坏了，通常无法再次开锁，您可以尝试再次开锁。这包括之前被“强行开锁”尝试破坏的锁。
+SI000200	活力小妞
+SI000201	有了活力小妞这perk，你在V.A.T.S.模式下获得了额外的15点行动点数。
+SI000202	黑寡妇
+SI000203	与男性交谈时，你会获得+5口才和交易，以及+1魅力，但与女性交谈时，会承受-5口才和交易。
+SI000204	女士杀手
+SI000205	与女性交谈时，你会获得+5口才和交易，以及+1魅力，但与男性交谈时，会承受-5口才和交易。
+SI000206	瘟神
+SI000207	"有了瘟神的特性，你杀死的角色和生物往往会爆炸成红色、内脏发达、眼球四溅的糊状物。好玩！哦，你每携带1种残缺身体部位（头部、手臂、腿部、器官、躯干）都会获得+2%的武器伤害。
+
+但是，你引爆地雷的机会和敌人的暴击几率也增加了8%。"
+SI000208	单枪客
+SI000209	每1级让你使用单手武器时的精度提高15%。
+SI000210	食人族
+SI000211	具有食人族特性，当你处于潜行模式时，且饥饿值达到或超过你的生存技能，你可以选择吃一具尸体来恢复与生存技能相等的生命值。但每次你进食，都会失去道德值，如果这种行为被目睹，会被认为是亵渎自然的犯罪。
+SI000212	狼吞虎咽
+SI000213	
+SI000214	狼吞虎咽
+SI000215	
+SI000216	赶夜人
+SI000217	日落后，你的智力和感知会增加1点，但白天你的这些数据也会相应减少。
+SI000218	急速代谢
+SI000219	有了急速代谢perk，你在用治疗针的时可以多恢复20%生命。
+SI000220	战术大师
+SI000221	战术大师可以让你在战斗中更有机会打出暴击，相当于增加了5点额外的幸运属性。
+SI000222	钢筋铁骨
+SI000223	有了钢筋铁骨的特性，你的肢体只会受到平常伤害的75%，但你能携带的重量会减少20%。
+SI000224	药物抵制
+SI000225	有了药物抵制特征，你的成瘾机率减少25%，但你的化学药品持续时间也会等量减少。
+SI000226	突击队员
+SI000227	在使用步枪（或类似的双手武器）时，你的精度会随着突击队员perk的每一级而提高15%。
+SI000228	死神奔袭
+SI000229	如果你在V.A.T.S.战斗模式中杀死了目标，在离开V.A.T.S.战斗模式时你就能恢复20点行动点数。第2级会将数值提升到60.
+SI000230	蚂蚁之力
+SI000231	灰渠火蚂蚁的力量与抗火基因强化了你的身体！ 潜行时你的力量提高1点，并且每有1点耐力就获得3%的火焰抗性。
+SI000232	蚂蚁视界
+SI000233	灰渠火蚂蚁的感知力与抗火基因强化了你的身体！潜行时你的感知提高1点，并且每有1点耐力就获得3%的火焰抗性。
+SI000234	铁胆龙威
+SI000235	铁胆龙威perk每提升一级，你的行动点数恢复速度都会加快20%。
+SI000236	辐射转化
+SI000237	有了辐射转化perk，你的辐射水平每10秒就会消散1点。
+SI000238	凶神恶煞
+SI000239	在一些谈话中，你会获得一个恐吓对手的选项，这会吓得他们掉头就跑。你的魅力每比5低1点，收到暴击的几率也会降低5%，但你会受到-1魅力和-5口才的影响。
+SI000240	过目不忘
+SI000241	有了过目不忘这项特技，阅读技能杂志的效果持续时间将会延长3倍。
+SI000242	数字暴走
+SI000243	你能够优化哔哔小子的V.A.T.S.逻辑，科学技能每比40高10点，AP的消耗就降低5%。
+SI000244	四眼儿
+SI000245	当你佩戴任何类型的眼镜时，你的感知属性值增加 1 点。而不戴眼镜时，你的感知属性值会降低 1 点。
+SI000246	重拳出击
+SI000247	你的近战和徒手攻击造成20%的额外伤害，但它们攻击速度减慢35%。
+SI000248	小巧玲珑
+SI000249	由于你的体型较小，你拥有+15潜行，且敌人暴击几率降低15%，但你也会遭受-1的耐力和力量惩罚。
+SI000250	快枪手
+SI000251	当你使用枪械和能量武器时，你的射击速度提高20%，但是精度降低20%。
+SI000252	训练有素
+SI000253	当你使用枪械和能量武器时，你的射击速度降低20%，但是精度提高20%。
+SI000254	食腐恐魔
+SI000255	有了食腐恐魔，当你处于潜行模式时，且饥饿值达到或超过你的生存技能，你可以选择吃超级变种人或尸鬼的尸体来恢复与生存技能相等的生命值。如果这种行为被目睹，会被认为是亵渎自然的犯罪。
+SI000256	狼吞虎咽
+SI000257	
+SI000258	狼吞虎咽
+SI000259	
+SI000260	神风特工队
+SI000261	在战斗中，当生命值低于50%你会获得+25%的奔跑速度，但满足条件时你也会-5 DT。
+SI000262	猎人
+SI000263	在战斗中，你对动物和变种动物造成+50%的暴击伤害，在使用枪械和潜行时对它们造成+50%伤害。你也能够收集它们的肉。
+SI000264	净化者
+SI000265	作为一名废土净化者，你可以使用近战和空手武器对多脚兽、夜行者、孢子植物、孢子携带者、死亡爪、超级变种人和狂尸鬼造成+50%的伤害。
+SI000266	寻找红祸
+SI000267	与女性交谈时，你会获得+5口才和交易，以及+1魅力，但与男性交谈时，会承受-5口才和交易。
+SI000268	确认单身汉
+SI000269	与男性交谈时，你会获得+5口才和交易，以及+1魅力，但与女性交谈时，会承受-5口才和交易。
+SI000270	快速装填
+SI000271	快速装填让你的所有武器装填速度提高15%。
+SI000272	快速拔枪
+SI000273	对应武器技能每比30高10点，快速拔枪会使武器拔出和收回的速度提高10%。
+SI000274	不幸神女
+SI000275	正当敌人觉得局势对他们有利时，不幸神女的出现把他们打了个底朝天。她只会出现在V.A.T.S模式下，能在胜利面前给予失败-以15%的暴击率为代价。
+SI000276	烂好人
+SI000277	你生来一副好心肠，更倾向于用头脑解决问题，而不是暴力。你获得+1魅力，但能量武器、爆破、枪械、近战和徒手武器技能-5。
+SI000278	为毁灭而生
+SI000279	火焰越是耀眼，燃烧越是短暂。你的武器AP消耗、投掷速度、暴击率、装备、装填和攻击速度提高了5%，但你的散布增加了10%，武器耐久衰减速度加快了20%。
+SI000280	牛仔帅客
+SI000281	使用任何牛仔武器时，你的攻击速度、精度和伤害都会增加15%。
+SI000282	马拉松选手
+SI000283	当什么都不穿的时候，你的跑步速度会提高20%，穿轻甲的时候会提高15%，穿中甲的时候提高10%，穿重甲的时候增加5%。
+SI000284	武器掌控
+SI000285	你已经越来越习惯掌握沉重的武器了。当你达到所装备武器技能的66和99时，武器掌控perk都能将武器的力量要求降低1。
+SI000286	长途跋涉
+SI000287	你已经学会如何在长途跋涉中背起小山一般高的装备，超重什么的已经不能阻止你进行快速旅行啦。
+SI000288	活体解剖学
+SI000289	这个特长能让你随时随地看穿敌人的生命值与伤害减免数值，同时，在对付人类和非狂暴尸鬼时还能提供5%的伤害加成，并允许你从可憎变种中收集资源。
+SI000290	融毁
+SI000291	融毁让你用等离子武器造成+25%的暴击伤害，对穿金属护甲目标的暴击会严重损坏他们的护甲并降低他们的抗性。
+SI000292	老鼠搬家
+SI000293	你认识到了仔细打包的重要性。现在现在重量小于2的物品重量再减半。
+SI000294	揉，吼！
+SI000295	你的手臂可真粗壮啊。你投掷的所有武器获得25%的速度。
+SI000296	边跑边射
+SI000297	边跑边射perk减少50%你移动时的散布惩罚。
+SI000298	超级大满贯
+SI000299	所有近战和徒手攻击都有机会在穿透目标的DT时将其击倒。这种机会会根据武器的重量和攻击力而增加，当武器的强度要求未得到满足时，这种机会会按比例减少。
+SI000300	穿透打击
+SI000301	穿透打击使你每有一点力量，所有空手和近战武器（包括投掷武器）就会忽略目标2点伤害阈值。
+SI000302	智力评估
+SI000303	当阿凯德是一名同伴, 你获得+7科学和+1智力。
+SI000304	观测员
+SI000305	当布恩是一名同伴, 所有敌对目标都会在瞄准时被高亮显示。
+SI000306	定期维护
+SI000307	当劳尔是一名同伴，武器和护甲的耐久损耗速度减慢12.5%。
+SI000308	搜索并标记
+SI000309	当雷克斯是一名同伴, 短距离内的化学药品和未装备的枪械弹药都会再瞄准时高亮显示。
+SI000310	全面维护
+SI000311	当劳尔是一名同伴，武器和护甲的耐久损耗速度减慢25%。
+SI000312	硬汉
+SI000313	一次次伤筋动骨的经历让你变得更强悍了。
+SI000314	虫子践踏者
+SI000315	你最喜欢把蚂蚁的腿一根根拔掉了，获得对各种昆虫的伤害奖励。
+SI000316	一日游者
+SI000317	你无数次的使用各种药品的经验使它们起效时间更长了。每点耐力给予3%的化学药品持续时间。
+SI000318	憎恶变种
+SI000319	对可憎变种的伤害奖励并不令人憎恶。
+SI000320	机器头
+SI000321	你乐于钻研机器的奥秘，这让你你获得了对机器人的伤害奖励。
+SI000322	将激光设置为有趣
+SI000323	你使用激光武器激发敌人的暴毙！使用激光武器暴击时获得轻微奖励。
+SI000324	砍杀游戏
+SI000325	你的挥砍速度快了一点。
+SI000326	漂亮一击
+SI000327	你的徒手武器AP消耗减少了20%。
+SI000328	动物管控
+SI000329	你在管控死动物上颇有建树，并且获得了对活动物的伤害奖励。
+SI000330	打包带走
+SI000331	有了打包带走perk，你在潜行模式下可以选择将尸体带走以供以后再食用。
+SI000332	打包带走
+SI000333	
+SI000334	变种人屠杀者
+SI000335	你在屠杀变种人时颇有感悟，并获得了对他们的伤害奖励。
+SI000336	友军协助
+SI000337	你那V.A.T.S.模式下才会出现的特殊朋友已经习惯了帮你解围，以后他们会出现得更为频繁，就像你的运气变好了一样。
+SI000338	失控投手
+SI000339	从破片手雷到飞矛，你投掷武器的速度加快 30%，但射程降低25%。
+SI000340	黑夜之友
+SI000341	你才是黑夜真正的伙伴。当进入室内或是夜幕降临废土时，你的双眼将更快的适应低光环境。
+SI000342	杀戮祈祷
+SI000343	自动化艺术减少15%的自动武器扩散，并增加其10%的暴击率。
+SI000344	正中靶心
+SI000345	你不会被那些花式枪法所糊弄。枪枪命中，干掉敌人才是你想要的。在VATS中，你获得额外15%对躯干的伤害，对躯干的致残效果也翻倍。
+SI000346	卧倒隐蔽
+SI000347	你对爆炸物的得心应手让你能有效避开它们的一部分杀伤。面对爆炸物时你的伤害阈值提高15点。
+SI000348	屠戮者
+SI000349	传奇猎人再现世间！每一级屠戮者Perk将所有徒手和近战武器的攻击速度提高20%。
+SI000350	势不可挡
+SI000351	你的纯粹武力真乃传奇。你在向前移动过程中用近战武器击破敌人格挡造成造成的伤害x4.
+SI000352	壮若石墙
+SI000353	当面对敌人的徒手和近战攻击时，你的伤害阈值增加1点，且战不会再被击倒 。
+SI000354	辐射小子
+SI000355	你真的是个 “抗辐小能手”。当你有辐射中毒时，在受到辐射持续照射的过程中，你会不断的恢复生命值。
+SI000356	激光指挥官
+SI000357	从朴素的激光手枪到强力的激光加特林，你使用任何激光武器获得+15%伤害和+10%暴击率。
+SI000358	霰弹式医生
+SI000359	你使用霰弹枪时的严谨值得称道。使用霰弹枪时，每级霰弹式医生令你忽略6点伤害阈值并获得-8%散布。
+SI000360	搭配混修
+SI000361	太牛逼了！你居然学会了用差不多的玩意来修理手中的物品。比如用狩猎步枪来修理狩猎卡宾枪，用激光手枪来修理等离子防御者、甚至能用金属盔甲修理动力装甲。这都是怎么运转的？除了你...不会有人明白。
+SI000362	警惕的回收者
+SI000363	勤俭节约，吃穿不缺。你使用能量武器时更可能回收耗尽弹药。你也能更有效率地在工作台回收能量弹药。
+SI000364	装填巧手
+SI000365	你对装填台的那些事了然于心，而且从不会浪费一颗弹壳。当你使用枪械时，更有可能找回弹壳。你还可以在装填台上制作先进类别的弹药。第二级将使你找回弹壳的机会再增加2倍。
+SI000366	核子药剂师
+SI000367	你解开了战前文明最伟大的一个秘密：特别版核子可乐的配方！此perk可在工作台上解锁特别版核子可乐配方。
+SI000368	职业杀手
+SI000369	悄悄逼近敌人然后亲手解决他，这才是你的风格。无论是枪械还是能量武器，只要你使用的是手枪、左轮、冲锋枪，潜行暴击都将对敌人造成20%额外伤害。
+SI000370	等离子怪客
+SI000371	你对等离子是如此的痴迷(像磁铁相吸)不能自控，等离子武器时的攻击速度提升了20%AP消耗降低了20%。
+SI000372	溅射伤害
+SI000373	当你深入敌后时，会希望每一颗手雷都能物尽其用。所有爆炸物的爆炸范围都扩大了25%。
+SI000374	废土骆驼
+SI000375	你是一位真正的水鉴赏家。你从喝水中获得更多的好处。
+SI000376	轻巧灵活
+SI000377	身着重甲不是你的风格，所以你懂得如何让轻甲发挥出它最大的功效。穿轻甲时，你获得+3DT及DR，并且你的敌人承受-25%暴击率。
+SI000378	盔甲闪亮
+SI000379	光束打在你闪亮的盔甲就跟射在镜子上一样被反射啦！现在你身着任何金属盔甲面对能量武器的攻击时伤害阈值增加5点，佩戴反光的眼镜时再加2点。
+SI000380	乖乖退后
+SI000381	你在使用霰弹枪的时候发现了一个穿透DT时击倒敌人的新窍门。独头弹有更高机会击倒敌人。
+SI000382	旧世美食
+SI000383	堕落的生活方式让你了解到酒廊蜥蜴的秘诀！你获得+25%的成瘾抗性，并能从垃圾食品和战前酒水中获得更多治疗奖励。
+SI000384	重量级
+SI000385	你一直在锻炼体魄吗？超过10磅的武器对你来说重量减半。(低于10磅的改装武器将无法获得该增益。)
+SI000386	瘸子制造者
+SI000387	有了瘸子制造者perk，你对腿部的攻击造成双倍部位伤害，每有一条腿残疾你的跑步速度都会提高10%，你在V.A.T.s中击中对手腿的几率会提高25且获得+5 DT穿透。
+SI000388	露营生活
+SI000389	当使用营火时，你可以选择睡觉，并获得所有睡觉带来的好处。
+SI000390	以眼还眼
+SI000391	头部残废时，你额外获得25%暴击伤害和暴击率。
+SI000392	美国大兵
+SI000393	良好，热诚的步兵职责！使用美军武器时，你的爆破、徒手、近战武器获得+15%伤害，你的徒手和近战武器获得+25装备速度，你的自动武器散布减少20%，你的半自动武器散布减少10%，你获得+15%装填速度，且力量需求减少1。
+SI000394	部落之道
+SI000395	你的身体部位受到动物、变种动物和变种昆虫的伤害减少75%，并且你使用部落武器时获得+20%伤害和攻击速度，穿着部落服装时获得+8 DT，+25% DR，以及+10%奔跑速度。
+SI000396	轻蔑的帝国主义者
+SI000397	你对那些想要“定居”或“活在”文明之地的掠夺者、瘾君子和土人可不怎么友好。对肮脏的掠夺者、奴隶贩子和瘾君子，以及土人，你造成+15%伤害并拥有V.A.T.S.下的命中奖励。
+SI000398	植入体M-5
+SI000399	你会...更高...更快....更强....事实上，也只是快一点啦。M-5植入体可将您的潜行移动速度提高10%，以增强实验对象的效率。
+SI000400	植入体Y-3
+SI000401	"植入体Y-3在消化道中置入一个内部过滤系统，可从消耗的任何液体中分离所有*放射性粒子。
+*在标准公差范围内"
+SI000402	植入体C-13
+SI000403	植入体C-13是一项防御炮塔子程序，已被修改用于植入人体。它增强了10%对空中目标的精度和伤害。
+SI000404	基Agen特工
+SI000405	研究大山脉创造的憎恶变种原理，你获得了对憎恶变种的伤害奖励 (+10%) 。
+SI000406	设身处地
+SI000407	你已对夜枭十分了解。除了通常增益外，食用夜枭榨取物还将获得+1敏捷、+25毒素抗性、+5潜行。
+SI000408	植入体Y-7
+SI000409	植入体Y-7是一个酶加速器，增加从食物中获得的生命值 （HP），并使消耗的每份食物恢复额外的行动点数 （AP）。
+SI000410	无脊椎
+SI000411	你的脊椎已被先进技术所替换：你的躯干再也不会残废，并且你能携带的重量增加25%，但你的徒手以及近战武器攻击速度减少了25%，并且你的装备速度减少了25%。
+SI000412	无大脑
+SI000413	你的大脑已被先进技术所替换：你的头部再也不会残疾，并且你的上瘾几率移除，但你饮水时摄入的辐射量翻倍，并且你获得-1感知。
+SI000414	无心脏
+SI000415	你的心脏已被先进技术所替换：你不会中毒，并且你的AP恢复速度提升25%，但你的生命恢复速度降低25%，你的最大生命值减少50，并且你的辐射抗性降低25%。
+SI000416	特色佳肴
+SI000417	当你搜刮动物时有机会发现红色糊状物或血肠。
+SI000418	早起的鸟儿
+SI000419	早啊，早起者！早上5点到中午12期间你的每一项S.P.E.C.I.A.L.属性+1，但下午6点到早上5点期间你不在最佳状态，所有属性要承受-1惩罚。
+SI000420	血气方刚
+SI000421	当你的生命值下降到50%，你的攻击速度提升25%，但你的武器耐久损耗翻倍。
+SI000422	囤积者
+SI000423	你获得+20%可承载的重量，但携带重量少于160磅时要承受所有SPECIAL-1的状态。
+SI000424	天赋异禀
+SI000425	你天赋异禀，但学新东西很慢。你的每项技能+5，但升级获得的技能减少1点。
+SI000426	幽闭恐惧症
+SI000427	你对封闭空间有一种恐惧（可能是因为里面的变种生物）。在室外时你的S.P.E.C.I.A.L.属性+1，但在室内却会承受属性-1的惩罚。
+SI000428	有“心”人
+SI000429	你的身体再一次被热血和激情所填满。你的毒素抗性提高了50%.
+SI000430	大脑“容”
+SI000431	你的大脑重新归位，但一些先进技术也残留下来：你的头又能被打残了，但你仍有35%的上瘾抗性，以及+1智力和+10% XP。
+SI000432	心跳骤停
+SI000433	你的心脏重新归位，但一些先进技术也残留下来：你仍承受-15辐射抗性，但你的生命值和AP提升了25点，且你的伤害抗性提高了5%。
+SI000434	强化脊椎
+SI000435	你的脊椎重新归位，但一些先进技术也残留下来：你的躯干又能够残废了，但你获得+1 耐力和+2 DT。
+SI000436	孤独常路
+SI000437	你将ED-E留在了尤利西斯的圣殿。-你并不需要什么援助。只要你无同伴，你的攻击造成的伤害+10%并且提高VATS模式下+10%的精度。
+SI000438	烙印“过”
+SI000439	你已经受够了烙印者的折磨...现在，是血债血偿的时候了。(+10%对烙印者的伤害和伤害阈值)
+SI000440	认证技工
+SI000441	你对机器人结构的了解让你能更轻易地拆解和回收它们的机械身体。你获得+25%对机器人的暴击率，并能从被你摧毁的机器人上找到更多的有用部件。
+SI000442	光天化日
+SI000443	就算哔哔小子开着灯你也能正常潜行了!如果哔哔小子开着灯,你将获得一个潜行奖励以抵消灯光造成的潜行惩罚。
+SI000444	洗心革面
+SI000445	或许你曾经是个坏人,但已经洗心革面了。你的道德值已重置，你的AP恢复速度加快20%，并且你的攻击速度提高了20%。邪恶或非常邪恶的角色对你暴击的影响也降低了25%。（需要邪恶道德。）
+SI000446	你是传奇
+SI000447	你的英雄事迹已经随风而逝，因为人们都以为你已经死了。你的道德值已重置，你对邪恶或非常邪恶的角色造成+15%伤害，被他们暴击的影响也减少了25%，并且你获得50生命值。（需要良好道德。）
+SI000448	侥幸生还
+SI000449	你已经从要命的呼叫中多次脱险。无论你何时以少于25%生命值结束战斗，你的幸运都会在3分钟内获得+4。你被暴击的概率也会降低-25%，并且你自己的暴击提高+25%伤害。（需要中等道德。）
+SI000450	大力
+SI000451	负重最高者才是废土的胜者!(...至少能提高一点生存率。) 你每有1点力量和耐力就能多背4磅的装备。（与善背的负重奖励叠加）
+SI000452	席天暮地
+SI000453	开阔的星空比遮风挡雨的屋檐更让你自在。无论何时在户外过夜，你都将获得休息良好的奖励，床什么的已经不是必须品了。
+SI000454	警觉状态
+SI000455	你已经学会了对一切危险保持警觉。当你蹲下且不移动的时候感知+2,以便你在敌人发现你之前发现他们。
+SI000456	喜读诗书
+SI000457	你读的不只是书，你读的是寂寞。你拾取的损坏书籍将转化为空白杂志，你能在工作台将其抄写为你现有的杂志（或将空白杂志重新转化为书籍）。
+SI000458	行者本能
+SI000459	你的感知已经敏锐到能感觉到地面最轻微的震动。当你在户外蹲下时感知与敏捷+1。
+SI000460	辐照靓人
+SI000461	当暴露在辐射中时，你的天然气质会增强。处于250/450/650的辐射等级时你都将获得+1魅力。
+SI000462	热切的学习者
+SI000463	废土无数次给予你惨痛打击，但你已领悟了当中教训。你每升1级就获得+1%的经验。（例如，25级时获得+25%的经验。）
+SI000464	隧道疾行
+SI000465	狭隘的分水岭已经教会你俯身行动。身着轻甲潜行且收起武器时你的移动速度将提高25%。
+SI000466	东方天罚
+SI000467	核聚变，你利用这种最为不洁的力量将残暴的军团烘烤。当对付军团人员时，你无视8DT，并且当你的道德为邪恶和非常邪恶时用近战和火焰武器造成的伤害提高15%。永远反对暴君！
+SI000468	死人的负担
+SI000469	挑起死人的负担，去提醒活人他们失去了什么...只要你的道德是邪恶或非常邪恶，你对任何NCR或军团人员都造成+20%伤害和+10%暴击伤害，由于你的...破坏欲。
+SI000470	一身尽惧，憎恶何益
+SI000471	核聚变，你利用这种最为不洁的力量将无牙断爪的NCR巨熊烘烤。当对付NCR人员时，你无视8DT，并且当你的道德为邪恶和非常邪恶时用枪械和火焰武器造成的伤害提高15%。再没有NCR对东方的扩张战役了。
+SI000472	分水岭幸存者
+SI000473	尽管分水岭摧毁了数座城市，将尸体剥皮抽筋并且威胁说要摧毁世界，但你幸存下来-并且阻止了它。当你的道德处于善良或非常善良时+1智力，魅力和幸运。
+SI000474	传感增强
+SI000475	当ED-E在队伍内,玩家能在更远的距离内探测到敌人。同时,即使隐匿的敌人也将显示在玩家的罗盘中并且能被V.A.T.S.锁定。
+SI000476	严格操作
+SI000477	应该敬重手中的武器，你知晓这一点。你的武器AP消耗，投掷速度，装备，装填，和攻击速度减少5%，但你的散布和暴击率改善5%，且你的武器耐久损耗减慢5%。
+SI000478	开膛破肚
+SI000479	直到完成。暴力是唯一的选择。你获得+2力量和+5徒手，但也会-2魅力和-5口才、交易、科学和潜行。
+SI000480	动作明星
+SI000481	动作明星的生活太刺激了！随着职业生涯的发展，你可以选择提高你的总AP、AP恢复速度或武器AP消耗。如果你拥有了全部三级，在V.A.T.S.外爆头时你的AP也会恢复与运气运气相同的数值！
+SI000482	课外知识
+SI000483	"选择课外知识将允许你为以后保留一个perk点数，但你将被迫接受一个新的特质。这可以多次进行。
+你可以在哔哔小子中激活此perk来使用你的perk点数。"
+SI000484	莫伊拉的实验产生了一个意想不到的副作用。现在，当你患上中等辐射中毒时，在你继续受到辐射照射时，残废的肢体能自动再生。
+SI000485	获得“辐射再生”Perk
+SI000486	灰渠火蚂蚁的力量与抗火基因强化了你的身体！ 潜行时你的力量提高1点，并且每有1点耐力就获得3%的火焰抗性。
+SI000487	获得“蚂蚁之力”Perk
+SI000488	灰渠火蚂蚁的感知力与抗火基因强化了你的身体！潜行时你的感知提高1点，并且每有1点耐力就获得3%的火焰抗性。
+SI000489	获得“蚂蚁视界”Perk
+SI000490	你失去了阿凯德的“智力评估”Perk。
+SI000491	你的大脑已被先进技术所替换：你的头部再也不会残疾，并且你的上瘾几率移除，但你饮水时摄入的辐射量翻倍，并且你获得-1感知。
+SI000492	无大脑
+SI000493	你的脊椎已被先进技术所替换：你的躯干再也不会残废，并且你能携带的重量增加25%，但你的徒手以及近战武器攻击速度减少了25%，并且你的装备速度减少了25%。
+SI000494	无脊椎
+SI000495	你的心脏已被先进技术所替换：你不会中毒，并且你的AP恢复速度提升25%，但你的生命恢复速度降低25%，你的最大生命值减少50，并且你的辐射抗性降低25%。
+SI000496	无心脏
+SI000497	你的大脑重新归位，但一些先进技术也残留下来：你的头又能被打残了，但你仍有35%的上瘾抗性，以及+1智力和+10% XP。
+SI000498	大脑“容”
+SI000499	你的心脏重新归位，但一些先进技术也残留下来：你仍承受-15辐射抗性，但你的生命值和AP提升了25点，且你的伤害抗性提高了5%。
+SI000500	心跳骤停
+SI000501	你的脊椎重新归位，但一些先进技术也残留下来：你的躯干又能够残废了，但你获得+1 耐力和+2 DT。
+SI000502	强化脊椎
+SI000503	动作明星
+SI000504	AP总量增加30
+SI000505	减少20%武器AP消耗
+SI000506	AP恢复增加20%
+SI000507	废土之主
+SI000508	探索更多地点
+SI000509	热切的学习者
+SI000510	完成任务
+SI000511	你用过那个吗?
+SI000512	用双手近战武器将敌人打残废
+SI000513	摧毁一些不漂亮的东西
+SI000514	用徒手武器造成伤害。
+SI000515	
+SI000516	黑掉更多的计算机终端
+SI000517	开锁专业户
+SI000518	撬开锁
