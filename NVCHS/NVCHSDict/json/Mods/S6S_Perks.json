@@ -614,7 +614,7 @@
   {
     "key": "sssPerkSweet6Shooter_11000802#PERK:DESC#9a7fd652ad329dab6ba47f88e1269b44",
     "original": "The glint of your gun and the shine of your grin are nearly equal. You've gained access to powerful \"Blood\" revolver ammo recipes, along with 15% faster reload speed, 10% faster attack speed, +30% crit. chance and -60% weapon condition damage with revolvers while your Karma is Good or Very Good (Requires Good Karma).",
-    "translation": "你的枪闪闪发光,你的笑容灿烂无比。\\n你已解锁强大的“鲜血”左轮手枪弹药配方,\\n同时,当你的道德值为“好”或 “非常好”时,你的左轮手枪装弹速度增加15%,攻击速度增加10%,\\n暴击率增加30%,武器耐久磨损降低60%。",
+    "translation": "你的枪闪闪发光,你的笑容灿烂无比。你已解锁强大的“鲜血”左轮手枪弹药配方,同时,当你的业力值为“好”或 “非常好”时,你的左轮手枪装弹速度增加15%,攻击速度增加10%,暴击率增加30%,武器耐久磨损降低60%。",
     "stage": 1
   },
   {
@@ -926,7 +926,7 @@
   {
     "key": "sssPerkSuckerPunch_11002921#PERK:DESC#c8acf15a22439af0453e51a37565d69c",
     "original": "Get 'em while they're not looking! You gain +15 unarmed damage if your target is not in combat, or you are out of their line of sight. This bonus increases by +10 if your karma is Evil or Very Evil.",
-    "translation": "趁他们不注意时干掉他们!\\n如果你的目标不在战斗中,或者你没有被他们察觉,你将增加15点徒手伤害。\\n如果你的道德值为邪恶或非常邪恶,就再增加10点徒手伤害。",
+    "translation": "趁他们不注意时干掉他们!如果你的目标不在战斗中,或者你没有被他们察觉,你将增加15点徒手伤害。如果你的业力值为邪恶或非常邪恶,就再增加10点徒手伤害。",
     "stage": 1
   },
   {
@@ -986,7 +986,7 @@
   {
     "key": "sssPerkIndirectBartering_1100292B#PERK:DESC#c3a9e3f2e936def2182c53a2e1adc6ad",
     "original": "You're not actually threatening any violence, but anybody with a pair of eyes can tell that you could if you chose to. You gain +1 to Barter and Speech for each point of STR while your Karma is Evil or Very Evil.",
-    "translation": "你并没有威胁要使用暴力,\\n但任何人都可以看得出,只要你愿意,你会不择手段。\\n当你的道德值为邪恶或非常邪恶时,每一点力量都会使你的砍价和口才增加1点。",
+    "translation": "你并没有威胁要使用暴力,但任何人都可以看得出,只要你愿意,你会不择手段。当你的业力值为邪恶或非常邪恶时,每一点力量都会使你的砍价和口才增加1点。",
     "stage": 1
   },
   {
@@ -998,7 +998,7 @@
   {
     "key": "sssPerkOvertCoercion_1100292D#PERK:DESC#543b381e5cb2b36fd365ba575e02f13e",
     "original": "Implication and insinuation has given way to explicit threats. Each point of STR above 5 grants -5% to purchase prices while your Karma is Evil or Very Evil, up to a maximum of -25% (Requires Evil Karma).",
-    "translation": "暗示和影射已经让位于明确的威胁。\\n当你的道德值为邪恶或非常邪恶,\\n力量高于5点时每提高1点都会减少5%的商品价格,最高可减少25%。",
+    "translation": "暗示和影射已经让位于明确的威胁。当你的业力值为邪恶或非常邪恶且力量高于5点时，每提高1点力量都会减少5%的商品价格,最高可减少25%。",
     "stage": 1
   },
   {
@@ -1106,7 +1106,7 @@
   {
     "key": "sssPerkIdealogue_110039AD#PERK:DESC#3e32dac884c24e6410f94a8c0c91b97b",
     "original": "It's not about the methods, it's about the ideals. Your addiction chance is doubled, and you always lose health equal to any karma loss, but you gain 4% more experience, +1 skill point from skill books and per level, 6% lower buying prices, and +1 Luck while your Karma is Good or Very Good. However, while your Karma is Evil or Very Evil, you suffer a harsher penalty to the same factors.",
-    "translation": "这不是方法的问题,而是理想的问题。\\n你的成瘾几率会翻倍，并且每次道德值下降时，你都会损失等量的生命值。\\n但在你的道德值良好或非常好时，会获得4%的额外经验值，\\n从技能书以及每升一级时获得+1技能点，购买价格降低6%，获得+1幸运值。\\n然而，当你的道德值为邪恶或非常邪恶时，\\n你会受到相同因素更严厉的惩罚。",
+    "translation": "这不是方法的问题,而是理想的问题。你的成瘾几率会翻倍，并且每次业力值下降时，你都会损失等量的生命值。但在你的业力值良好或非常好时，会获得4%的额外经验值，从技能书以及每升一级时获得+1技能点，购买价格降低6%，获得+1幸运值。然而，当你的业力值为邪恶或非常邪恶时，你会受到相同因素更严厉的惩罚。",
     "stage": 1
   },
   {
@@ -1262,7 +1262,7 @@
   {
     "key": "sssPerkNotoriousEVIL_11005A9E#PERK:DESC#3bb910b25820419513eb45791fec2e9e",
     "original": "While you are Evil or Very Evil, Miss Fortune and the Mysterious Stranger will appear to help you twice as often (Requires Evil Karma).",
-    "translation": "当你的道德值处于邪恶或非常邪恶时,幸运小姐和神秘陌生人出现的概率提高两倍。",
+    "translation": "当你的业力值处于邪恶或非常邪恶时,幸运小姐和神秘陌生人出现的概率提高两倍。",
     "stage": 1
   },
   {
@@ -1514,7 +1514,7 @@
   {
     "key": "sssPerkCollectiveConsciousness_110140C0#PERK:DESC#9cd8c8e439128e365602f79583417ec9",
     "original": "You're a master of manipulation. As you gain positive reputation with each faction, your Speech increases by +2 for each faction that likes you, and your barter purchase prices are also reduced by 2% each if your karma is Evil or Very Evil.",
-    "translation": "你是一位操纵大师,\\n当你在每个派系中获得正面声誉时,每有一个喜欢你的派系,你的口才都会增加2点,\\n如果你的道德值是邪恶或非常邪恶,你的购买价格也会减少2%。",
+    "translation": "你是一位操纵大师,当你在每个派系中获得正面声誉时,每有一个喜欢你的派系,你的口才都会增加2点,如果你的业力值是邪恶或非常邪恶,你的购买价格也会减少2%。",
     "stage": 1
   },
   {
@@ -1694,7 +1694,7 @@
   {
     "key": "sssPerkDevilsAdvocate_1101B3FC#PERK:DESC#6bc999aadc90657f33a35c432dc19041",
     "original": "You're most convincing when you lie; people immediately mistrust you when you're being truthful. You've gained +25 Speech, but only while your karma is Very Evil. (Requires Evil Karma.)",
-    "translation": "当你撒谎时，你的说服力最强\\n而当你坦诚相待，人们反而会立刻对你产生怀疑。\\n道德值得保持在非常邪恶增加25点口才。\\n（需要邪恶道德）",
+    "translation": "当你撒谎时，你的说服力最强而当你坦诚相待，人们反而会立刻对你产生怀疑。业力值保持在非常邪恶时增加25点口才。（需要邪恶业力）",
     "stage": 1
   },
   {
@@ -2108,7 +2108,7 @@
   {
     "key": "sssPerkTwisted_110213B3#PERK:DESC#4dc477f9616e68c63dbd4e1dbd41f524",
     "original": "You're sick and twisted, seeing suffering delights you. Your addiction duration is doubled, and while Evil or Very Evil, you gain +5/10% XP and AP regeneration, +6/15% positive chem duration, +5/10% healing, and +1 Luck, though you suffer an extra harsh penalty to those stats while Good or Very Good.",
-    "translation": "你扭曲而邪恶,快乐于看到他人的痛苦。\\n你的成瘾持续时间加倍,\\n当道德值处于邪恶或非常邪恶状态时,\\n你获得5/10%的经验和AP恢复速度,6/15%的药物持续时间,5/10%的治疗效果和增加1点幸运,\\n但是道德值处于善良或非常善良时,你会遭受额外严厉的惩罚。",
+    "translation": "你扭曲而邪恶,快乐于看到他人的痛苦。你的成瘾持续时间加倍,当业力值处于邪恶或非常邪恶状态时,你获得5/10%的经验和AP恢复速度,6/15%的药物持续时间,5/10%的治疗效果和增加1点幸运,但是业力值处于善良或非常善良时,你会遭受额外严厉的惩罚。",
     "stage": 1
   },
   {

@@ -1,0 +1,3596 @@
+[
+  {
+    "key": "WastelandAdventurer_0001873D#CLAS:FULL#6f1022418f119cd6c8d419e21bec5afc",
+    "original": "Wasteland Adventurer",
+    "translation": "废土冒险者",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerWastelandTechSalvager_0B0055BC#CLAS:FULL#1f78926a3edf04d33d0129fafb30ca84",
+    "original": "Wasteland Tech Salvager",
+    "translation": "废土科技拾荒者",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DummyRushingWater_0400D984#MGEF:FULL#c905f858517a44334d33aa0a1a6103f0",
+    "original": "+20% Attack Speed",
+    "translation": "+20%攻击速度",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerReduceSkillSneak_0B00C769#MGEF:FULL#2fbf7c37e56e5ce8bae4feba10018d92",
+    "original": "Reduced Sneak",
+    "translation": "潜行降低",
+    "stage": 1
+  },
+  {
+    "key": "EnchMetalArmor_0003D32E#ENCH:FULL#b2c69738bb70f35e8e008cdea530aa0e",
+    "original": "Metal Armor",
+    "translation": "金属护甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchPowerArmor_0003D330#ENCH:FULL#62db03a84dccbc5eb9909166b62bca87",
+    "original": "Power Armor",
+    "translation": "动力装甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchTeslaArmor_0003D332#ENCH:FULL#d8d79e3344831581703b71aaaf8ae720",
+    "original": "Tesla Armor",
+    "translation": "特斯拉装甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchEnclaveArmor_0004443C#ENCH:FULL#ea9441e28ad01255eac7f4b7f3b95309",
+    "original": "Enclave Armor",
+    "translation": "英克雷护甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchT51bArmor_00061544#ENCH:FULL#812e54aab4be8bd7ea017eae6e1a87a8",
+    "original": "T-51b Armor",
+    "translation": "T-51b动力装甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchReconArmor_00072E32#ENCH:FULL#123095a12c361892804f3c01eb643b49",
+    "original": "Recon Armor",
+    "translation": "侦察护甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchSilencedMetalArmor_000C7C4C#ENCH:FULL#b2c69738bb70f35e8e008cdea530aa0e",
+    "original": "Metal Armor",
+    "translation": "金属护甲",
+    "stage": 1
+  },
+  {
+    "key": "EnchWanderersArmor_000C7C55#ENCH:FULL#e0d0186cdeebda04075412f24d0f2c8e",
+    "original": "Wand. Leather Arm.",
+    "translation": "游荡者皮甲手臂",
+    "stage": 1
+  },
+  {
+    "key": "DummyNVSalvagedPowerArmorOE_0016951E#ENCH:FULL#14a4c1421050c8f956a09d03d7e1dc5d",
+    "original": "Salvaged Power Armor",
+    "translation": "回收动力装甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02EnchArmorMetalGecko_02011101#ENCH:FULL#59f4fb0d7b912c2c88038531c6314463",
+    "original": "Gecko Armor",
+    "translation": "蜥蜴护甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03EnchCOSReconArmor_03012EB9#ENCH:FULL#e36484def0eec1f782580be9b086a0a7",
+    "original": "COS Recon Armor",
+    "translation": "钢铁之环侦察护甲",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04ArmorPowerNCRScorchedOE_0400D357#ENCH:FULL#62f73d7cec0d56a2053cb42f53f17841",
+    "original": "Sierra Power Armor",
+    "translation": "山脉动力装甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerFireBombEffect_0B001FE9#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "JsawyerEnchClothingVaultSuitArmored21_0B0049B8#ENCH:FULL#0ff2c2080e85b14231e704bd7581b2d2",
+    "original": "Arm. Vault 21 Suit",
+    "translation": "21号避难所装甲连身衣",
+    "stage": 1
+  },
+  {
+    "key": "JsawyerEnchClothingPreOrdTribalArmor_0B004FB1#ENCH:FULL#ea56079fa413b073068444fa28178b43",
+    "original": "Tribal Armor",
+    "translation": "部落护甲",
+    "stage": 1
+  },
+  {
+    "key": "JsawyerEnchClothingPreOrdLeatherArmor_0B004FB2#ENCH:FULL#c6e0fb7a67c0ba8ee799e4866eac5cda",
+    "original": "Lwt. Leather Armor",
+    "translation": "轻型皮甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingMercAdventurer_0B00AF5D#ENCH:FULL#062521497ddeb41a39a19c7335fa3def",
+    "original": "Merc Adv. Outfit",
+    "translation": "佣兵探险套装",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingMercCharmer_0B00AF5E#ENCH:FULL#5e46bb059a1ab2f4ce5b238cad9846df",
+    "original": "Merc Chrm. Outfit",
+    "translation": "佣兵魅力套装",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingMercCruiser_0B00AF60#ENCH:FULL#095db1369b35ddfefe2961c138ad32db",
+    "original": "Merc Cru. Outfit",
+    "translation": "佣兵巡弋套装",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingMercGrunt_0B00AF62#ENCH:FULL#cd6373bd2062026a12fe3e385adfc0d7",
+    "original": "Merc Grunt Outfit",
+    "translation": "佣兵步战套服",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingMercTroublemaker_0B00AF64#ENCH:FULL#e05ee32cdeec04f0bb279cf7c81f851c",
+    "original": "Merc Trbl. Outfit",
+    "translation": "佣兵袭扰套装",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingMercVeteran_0B00AF66#ENCH:FULL#06608e49019ec04104393e6c2a2889c9",
+    "original": "Merc Vet. Outfit",
+    "translation": "佣兵资深套装",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderSadist_0B00AF68#ENCH:FULL#5c41b2126a9e2711179cd9eca98b9e52",
+    "original": "Raider Sadist Armor",
+    "translation": "掠夺者虐待狂护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderBlastmaster_0B00AF6A#ENCH:FULL#8674d49b31fdfb7c9887858ae3c3ad98",
+    "original": "Raider Blast. Armor",
+    "translation": "掠夺者爆破大师护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderBadlands_0B00AF6C#ENCH:FULL#ed4528ee5504df145e71c4c2e3e5e77f",
+    "original": "Raider Bad. Armor",
+    "translation": "掠夺者荒原护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderPainspike_0B00AF6E#ENCH:FULL#9ba18dc4835e2d4164ef4a6d37629fab",
+    "original": "Raider Pain. Armor",
+    "translation": "掠夺者尖刺护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderSharpDressed_0B00AF70#ENCH:FULL#6b53def87df215563076e7ec5e340ebd",
+    "original": "Sharp-Dressed Armor",
+    "translation": "帅气护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHandMeDown_0B00AF72#ENCH:FULL#3e3e62bd3b171d6959d9dcd250cba1d0",
+    "original": "Hand-Me-Down Armor",
+    "translation": "二手护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHighwayScar_0B00AF74#ENCH:FULL#c2f65e2bb5094ad47a338cbc300e447c",
+    "original": "Highway Scar Armor",
+    "translation": "高速公路裂纹护甲",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetPsychoTic_0B00AF76#ENCH:FULL#33669bb2c1eb0b37bf3813412a9c6d67",
+    "original": "Psycho-Tic Helmet",
+    "translation": "癫狂头盔",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetArclight_0B00AF78#ENCH:FULL#1b6f6344d36c3afee09b1217389d46ae",
+    "original": "Arclight Helmet",
+    "translation": "焊工头盔",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetBlastMaster_0B00AF7A#ENCH:FULL#aa15f7b8e51d1e70b45c899e7b5b71ca",
+    "original": "Blastmaster Helmet",
+    "translation": "爆破大师头盔",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetWastehound_0B00AF7C#ENCH:FULL#80cc27de2ede634be491c9344a7b0115",
+    "original": "Wastehound Helmet",
+    "translation": "废土猎狗头盔",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetBogeymansHood_0B00AF7E#ENCH:FULL#74e2871ca1e7b60f8dc3dd65953beb38",
+    "original": "Boogeyman's Hood",
+    "translation": "恶鬼兜帽",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetDevilsPigtails_0B00AF80#ENCH:FULL#10d1533ecd3aab8c2ca877eec813be99",
+    "original": "The Devil's Pigtails",
+    "translation": "魔鬼的辫子",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchClothingRaiderHelmetPyroHelmet_0B00AF82#ENCH:FULL#db14dc26c627e66a4d9e1e5a2b65532c",
+    "original": "Pyro Helmet",
+    "translation": "纵火狂头盔",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerEnchChineseStealthArmor_0B00C16C#ENCH:FULL#f189ec813b83bff018028b6abab2081e",
+    "original": "Chinese Stealth Armor",
+    "translation": "中式隐身装甲",
+    "stage": 1
+  },
+  {
+    "key": "PerkCompanionSuite_0015C570#SPEL:FULL#5a4a59088e2e715791759b75483bca9f",
+    "original": "Companion Suite",
+    "translation": "同伴套件",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TraitHoarderAE_0301276C#SPEL:FULL#e5872d05c08e3c393cf84d7a75e86f44",
+    "original": "Hoarder Penalty",
+    "translation": "囤积者的惩罚",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TraitHoarderAE2_0A006469#SPEL:FULL#9448d0265e5f4a2f832c5db987878ea1",
+    "original": "Hoarder",
+    "translation": "囤积者",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerArmorUniqueMetalReinforced_0B00C76A#ARMO:FULL#3f819035815a4824b0da5d114f5f7021",
+    "original": "Commando Armor",
+    "translation": "突击手护甲",
+    "stage": 1
+  },
+  {
+    "key": "LootDrugKit_0003782B#CONT:FULL#ec66f2209f481f4934bdef9d918ed782",
+    "original": "First Aid Box",
+    "translation": "急救箱",
+    "stage": 1
+  },
+  {
+    "key": "LootDrugKitLock_00094AE2#CONT:FULL#ec66f2209f481f4934bdef9d918ed782",
+    "original": "First Aid Box",
+    "translation": "急救箱",
+    "stage": 1
+  },
+  {
+    "key": "VLootAidMedSuppliesGen01_00167983#CONT:FULL#4f8a25aeaed250e234c7e94e38f9eeac",
+    "original": "Medical Supplies",
+    "translation": "医疗补给",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01HoloVendorContainer_010127B0#CONT:FULL#93433a30385a25ca59031a8294c851f6",
+    "original": "Hologram Vendor Container",
+    "translation": "全息影像摊贩货箱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03FootlockerMilitaryLOW_03009FF6#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
+    "original": "Footlocker",
+    "translation": "置物箱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03DuffleBagHIGH_0301533B#CONT:FULL#dee608dcef27fe01857d417bc8769934",
+    "original": "Duffle Bag",
+    "translation": "行李袋",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03X13ToolboxChems_0301533C#CONT:FULL#c22baf951692d7a8260137cf000e644f",
+    "original": "Toolbox",
+    "translation": "工具箱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04LootFirstAidKit_0400A211#CONT:FULL#ec66f2209f481f4934bdef9d918ed782",
+    "original": "First Aid Box",
+    "translation": "急救箱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04LootFirstAidKitLock_0400D101#CONT:FULL#ec66f2209f481f4934bdef9d918ed782",
+    "original": "First Aid Box",
+    "translation": "急救箱",
+    "stage": 1
+  },
+  {
+    "key": "TinCan01_00022104#MISC:FULL#f99890c84c09c541115f0f3fcec7838b",
+    "original": "Tin Can",
+    "translation": "锡罐",
+    "stage": 1
+  },
+  {
+    "key": "PrewarMoney_00034067#MISC:FULL#7e3bfef9d103d2c185fefe1ad6b9bce1",
+    "original": "Pre-War Money",
+    "translation": "战前货币",
+    "stage": 1
+  },
+  {
+    "key": "TinCan02_0005B6CA#MISC:FULL#096c1dca2deee83483f1f2c3a8c5db5b",
+    "original": "Bent Tin Can",
+    "translation": "变形的锡罐",
+    "stage": 1
+  },
+  {
+    "key": "PreordVaultCanteen_001735D2#MISC:FULL#6fbf16dbdfb4de8770943cad80aa19a1",
+    "original": "Vault 13 Canteen",
+    "translation": "13号避难所水壶",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01GoldBar_01013F71#MISC:FULL#cb0ff75eb6e2a6c81e59dbfa5d2cbd48",
+    "original": "Gold Bar",
+    "translation": "金条",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04RoughinItBedrollNoPhysics_0400D4E1#MISC:FULL#73d1c6d0fc2a26f5025e7fce03abd876",
+    "original": "Roughin' It! Bedroll Kit",
+    "translation": "苦行！铺盖卷套装",
+    "stage": 1
+  },
+  {
+    "key": "LoneStarMCMItem_0B02CAAF#MISC:FULL#43f05459bff10a929eb7cc3e69fb2448",
+    "original": "Lone Star",
+    "translation": "孤星",
+    "stage": 1
+  },
+  {
+    "key": "WeapBaseballBat_0000421C#WEAP:FULL#5175fcaef91bfa2be740ea1630f8de38",
+    "original": "Baseball Bat",
+    "translation": "棒球棍",
+    "stage": 1
+  },
+  {
+    "key": "WeapBaseballBat_0000421C#WEAP:VANM#89ef15a175b8c27767a03681bbfe7cb5",
+    "original": "Grand Slam",
+    "translation": "大满贯",
+    "stage": 1
+  },
+  {
+    "key": "WeapFatman_0000432C#WEAP:FULL#14e4f5bb050ebd16f79cde180f157689",
+    "original": "Fat Man",
+    "translation": "胖子发射器",
+    "stage": 1
+  },
+  {
+    "key": "WeapLaserPistol_00004335#WEAP:FULL#cbcf79af0544199f1e41390b37b7a612",
+    "original": "Laser Pistol",
+    "translation": "激光手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapLaserRifle_00004336#WEAP:FULL#53b8f739fb28760ccce3eeb0b341dd18",
+    "original": "Laser Rifle",
+    "translation": "激光步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapPlasmaPistol_00004343#WEAP:FULL#5b2b7d47349f96cd535818ba0b1a8f28",
+    "original": "Plasma Pistol",
+    "translation": "等离子手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapPowerFist_00004347#WEAP:FULL#a34025e1ba922593671d31d46667daf0",
+    "original": "Power Fist",
+    "translation": "动力拳套",
+    "stage": 1
+  },
+  {
+    "key": "WeapRipper_00004349#WEAP:FULL#113a12b0fb555d7857b76407cf8594ce",
+    "original": "Ripper",
+    "translation": "开膛手",
+    "stage": 1
+  },
+  {
+    "key": "WeapRipper_00004349#WEAP:VANM#f96e0e44e81dd2b2b62034e20ca508ea",
+    "original": "Long Cut",
+    "translation": "长切",
+    "stage": 1
+  },
+  {
+    "key": "Weap10mmPistol_0000434F#WEAP:FULL#24fca1e9d1aa26ec71ee85e058d19091",
+    "original": "10mm Pistol",
+    "translation": "10mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVHuntingRevolver_0008F214#WEAP:FULL#287374dc93f46bbd9a17cf624f5f01fd",
+    "original": "Hunting Revolver",
+    "translation": "狩猎左轮",
+    "stage": 1
+  },
+  {
+    "key": "WeapNV357Revolver_0008F216#WEAP:FULL#86fe24a535d45f46e656f6bb548157a6",
+    "original": ".357 Magnum Revolver",
+    "translation": ".357马格南左轮手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVSilenced22SMG_0008F218#WEAP:FULL#c218b654898c6d67bf10ef8e3814d71e",
+    "original": "Silenced .22 SMG",
+    "translation": ".22消音冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVAntiMaterielRifle_0008F21C#WEAP:FULL#aebd40f8aad75b864e403849b81b1b8e",
+    "original": "Anti-Materiel Rifle",
+    "translation": "反器材步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVAssaultCarbine_0008F21E#WEAP:FULL#4c30c42789b7eea0531ac4610be71ecb",
+    "original": "Assault Carbine",
+    "translation": "突击卡宾枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVPlasmaCaster_000906CF#WEAP:FULL#f97811225aa5c89c1a63cf402d6cdfac",
+    "original": "Plasma Caster",
+    "translation": "等离子投射器",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVRechargerPistol_0009071F#WEAP:FULL#5abc36208cf82318e3f026ec1d43393b",
+    "original": "Recharger Pistol",
+    "translation": "充能手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVPlasmaDefender_00090727#WEAP:FULL#abf03dc6850bd83753ad57cfaf16931e",
+    "original": "Plasma Defender",
+    "translation": "等离子护卫者",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVLaserRCW_0009073B#WEAP:FULL#07d56a0a0d573164dda42234565bd3d3",
+    "original": "Laser RCW",
+    "translation": "激光汤姆森",
+    "stage": 1
+  },
+  {
+    "key": "WeapTeslaCannon_000E2BEC#WEAP:FULL#e0f8ae316dfe24ae458c3df323d35866",
+    "original": "Tesla Cannon",
+    "translation": "特斯拉加农炮",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVTriBeamLaserRifle_000E2BF4#WEAP:FULL#8feeb4bc393adc5709cb2ad80e9ad2ad",
+    "original": "Tri-beam Laser Rifle",
+    "translation": "三束激光步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNV357RevolverUnique_000E2C86#WEAP:FULL#5ab71d1329368c34f84399584e7128ab",
+    "original": "Lucky",
+    "translation": "幸运",
+    "stage": 1
+  },
+  {
+    "key": "WeapNV9mmPistol_000E3778#WEAP:FULL#0d06540aa628a47b0381e12de9da44ae",
+    "original": "9mm Pistol",
+    "translation": "9mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVSilenced22Pistol_000E377A#WEAP:FULL#690031fdd3c8e3d6cffe7b668edab01f",
+    "original": "Silenced .22 Pistol",
+    "translation": ".22消音手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNV9mmPistolUnique_000E7655#WEAP:FULL#27f665dd48d09ddb45ec15fa14005f70",
+    "original": "Maria",
+    "translation": "玛利亚",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVRechargerRifle_00121154#WEAP:FULL#a02336f3d700b39c5860a311232dc3a2",
+    "original": "Recharger Rifle",
+    "translation": "充能步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVMultiPlasRifle_00121168#WEAP:FULL#5de8dc09cfae874641e10b342bc2b8b4",
+    "original": "Multiplas Rifle",
+    "translation": "多束等离子步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNV127mmSubmachineGun_001429D1#WEAP:FULL#76319d6dd6d6e928423e99cc9cf70c7a",
+    "original": "12.7mm Submachine Gun",
+    "translation": "12.7mm冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapLaserRifleUnique_001479B3#WEAP:FULL#add3d963b07521f4d446f126d3f1ce9a",
+    "original": "AER14 Prototype",
+    "translation": "AER14原型激光步枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVTeslaCannonUnique_0015A47F#WEAP:FULL#d22701d70b4b721f8a6575a0b3091223",
+    "original": "Tesla-Beaton Prototype",
+    "translation": "特斯拉-比顿原型机",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVChainsaw_0015FE44#WEAP:FULL#683b359662a8a736aba24ea82fbd9649",
+    "original": "Chainsaw",
+    "translation": "链锯",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVChainsaw_0015FE44#WEAP:VANM#6dabb715abfee977bf02e391b9616eb0",
+    "original": "Scrap Heap",
+    "translation": "废料堆",
+    "stage": 1
+  },
+  {
+    "key": "WeapPreord10mmPistol_001735D4#WEAP:FULL#b59b185bfa1fefae9b06cf2c449917b3",
+    "original": "Weathered 10mm Pistol",
+    "translation": "斑驳的10mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapPreordCaravanShotgun_001735E3#WEAP:FULL#76dead8bffe606579a5ef55160133745",
+    "original": "Sturdy Caravan Shotgun",
+    "translation": "加固的商队霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "WeapPreordGrenadeRifle_001735E4#WEAP:FULL#3858aea7c91e3b2d2e151fcc0c44300c",
+    "original": "Mercenary's Grenade Rifle",
+    "translation": "雇佣兵的榴弹发射器",
+    "stage": 1
+  },
+  {
+    "key": "WeapPreordMachete_001735E5#WEAP:FULL#22193504880f88ffa095b5e3457aaf1c",
+    "original": "Broad Machete",
+    "translation": "宽刃大砍刀",
+    "stage": 1
+  },
+  {
+    "key": "WeapPreordMachete_001735E5#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "WeapNVCaravanShotgunCass_00176E55#WEAP:FULL#a354cd819b5fbc3868ef40be1683c94e",
+    "original": "Cass's Caravan Shotgun",
+    "translation": "卡丝的商队霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01WeapAutomaticRifle_0100A7A9#WEAP:FULL#c89be036705432e7b310db11f5825dc6",
+    "original": "Automatic Rifle",
+    "translation": "自动步枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03WeapLaer_0300B9CF#WEAP:FULL#e9826ddb406cadeae5ab233ddc111b92",
+    "original": "LAER",
+    "translation": "激光引导电能步枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03WeapCyberdogGun_0300E39E#WEAP:FULL#29abc355098039eaceb7668b87bc2c76",
+    "original": "K9000 Cyberdog Gun",
+    "translation": "K9000赛博犬机枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03WeapTeslaCannonUniqueElijah_0301199E#WEAP:FULL#40bee2761846ffad709c855ea4afb3d3",
+    "original": "Elijah's Jury-Rigged Tesla Cannon",
+    "translation": "以利亚临时装配的特斯拉加农炮",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03WeapLaerUniqueElijah_03015DD3#WEAP:FULL#ddf8f7cd7d656d9fab7824273a51610d",
+    "original": "Elijah's Advanced LAER",
+    "translation": "以利亚的高级激光引导电能步枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVRechargerPistolUnique_05000802#WEAP:FULL#66a888a3083bf75f45255526c288b19f",
+    "original": "MF Hyperbreeder Alpha",
+    "translation": "核电超增殖反应堆阿尔法型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGatlingLaserUnique_05000803#WEAP:FULL#0772751c26720d8f6305a8b90c4ada15",
+    "original": "Sprtel-Wood 9700",
+    "translation": "斯普特欧-伍德9700",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapFatmanUnique_05000804#WEAP:FULL#7cd41315a0ef4810bbc5c40327ab7aa7",
+    "original": "Esther",
+    "translation": "以斯帖",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNV127mmPistolUnique_05000805#WEAP:FULL#8a883c0975c855b620c13ac371b4c487",
+    "original": "Li'l Devil",
+    "translation": "小恶魔",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVLightMachineGunUnique_05000806#WEAP:FULL#d56fb37d6ac5814c816967248e4ce2a0",
+    "original": "Bozar",
+    "translation": "包子",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVRebarClubUnique_05000807#WEAP:FULL#c308b73d70187cd0ff235ad3f91c8b1c",
+    "original": "Nuka-Breaker",
+    "translation": "核子破坏者",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVRebarClubUnique_05000807#WEAP:VANM#b71ec81d7780dd6c79aac8db6cd035fe",
+    "original": "Nuka-Break",
+    "translation": "核子破坏",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVMantisGauntletUnique_05000808#WEAP:FULL#258d1014d7f1da14197096599b1448c5",
+    "original": "Embrace of the Mantis King!",
+    "translation": "螳螂王之拥 !",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVBallisticFistUnique_05000809#WEAP:FULL#9416a8fbcc378415e2175c5a85740246",
+    "original": "Two-Step Goodbye",
+    "translation": "两步杀",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVPlasmaCasterUnique_0500080A#WEAP:FULL#57b129d9cbd8492ed9928ff0814d339d",
+    "original": "The Smitty Special",
+    "translation": "史密提特供",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapFlamerUnique_0500080B#WEAP:FULL#03beafb2e7b9b3c69f63491cd001b451",
+    "original": "Cleansing Flame",
+    "translation": "净化烈焰",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapHuntingRifleUnique_0500080C#WEAP:FULL#0c1bdb264a3a7ba5db066ed1778d6085",
+    "original": "Paciencia",
+    "translation": "耐心",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Weap10mmSubmachineGunUnique_0500080D#WEAP:FULL#96fec1ccd0cfce1136ecc3ff5cd09f4e",
+    "original": "Sleepytyme",
+    "translation": "安睡时间",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVBrushGunUnique_0500080E#WEAP:FULL#75f2fb82d66125b756e987494fdd78a3",
+    "original": "Medicine Stick",
+    "translation": "医疗棒",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapShishkebabUnique_0500080F#WEAP:FULL#968b73bf3613360af492fe9d8ef15d6b",
+    "original": "Gehenna",
+    "translation": "焦热炼狱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapShishkebabUnique_0500080F#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapPowerFistUnique_05000810#WEAP:FULL#c8e7e9fb9a45e8bf40353be8a34edc01",
+    "original": "Greased Lightning",
+    "translation": "电光雷拳",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVTimeBombCustom_05000811#WEAP:FULL#2cb947fbce69bf6c722852795f869cae",
+    "original": "Time Bomb, High Yield",
+    "translation": "定时炸弹, 高当量",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVBattleRifleCustom_05000812#WEAP:FULL#fc388820aadee7287636d21ed5157fb8",
+    "original": "Battle Rifle",
+    "translation": "战斗步枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNV556mmPistolCustom_05000813#WEAP:FULL#a42d932a5095f31bf03669a399e8dc7e",
+    "original": "5.56mm Pistol",
+    "translation": "5. 56mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGrenadeTin_05000814#WEAP:FULL#3b82d961b92d8753b93a38683eae3f47",
+    "original": "Tin Grenade",
+    "translation": "罐头手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapMineFat_05000815#WEAP:FULL#31d27fe87f5cea57832424d9954a77a4",
+    "original": "Fat Mine",
+    "translation": "核子地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapKatanaCustom_05000817#WEAP:FULL#0ae98f1b4ba2291772e9475b8f52371c",
+    "original": "Katana",
+    "translation": "武士刀",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapKatanaCustom_05000817#WEAP:VANM#9d77382cadb05b22a788ee6456221fb3",
+    "original": "Unlabored Flawlessness",
+    "translation": "天衣无缝",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGrenadeNuka_05000818#WEAP:FULL#7c0e0b96e9009bf7122ea39e1c9831d9",
+    "original": "Nuka-Grenade",
+    "translation": "核子手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Weap25mmGrenadeAPWCustom_0500081B#WEAP:FULL#d352bb133115e4cfcc95d5f87568d02c",
+    "original": "25mm Grenade APW",
+    "translation": "25mm单兵榴弹发射器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapBaseballBatCustom_0500084C#WEAP:FULL#5175fcaef91bfa2be740ea1630f8de38",
+    "original": "Baseball Bat",
+    "translation": "棒球棍",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapBaseballBatCustom_0500084C#WEAP:VANM#89ef15a175b8c27767a03681bbfe7cb5",
+    "original": "Grand Slam",
+    "translation": "大满贯",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapLaserPistolCustom_0500084D#WEAP:FULL#cbcf79af0544199f1e41390b37b7a612",
+    "original": "Laser Pistol",
+    "translation": "激光手枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNV127mmSubmachineGunCustom_0500084E#WEAP:FULL#76319d6dd6d6e928423e99cc9cf70c7a",
+    "original": "12.7mm Submachine Gun",
+    "translation": "12.7mm冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVAntiMaterielRifleCustom_0500084F#WEAP:FULL#aebd40f8aad75b864e403849b81b1b8e",
+    "original": "Anti-Materiel Rifle",
+    "translation": "反器材步枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVAssaultCarbineCustom_05000850#WEAP:FULL#4c30c42789b7eea0531ac4610be71ecb",
+    "original": "Assault Carbine",
+    "translation": "突击卡宾枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVChainsawCustom_05000851#WEAP:FULL#683b359662a8a736aba24ea82fbd9649",
+    "original": "Chainsaw",
+    "translation": "链锯",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVChainsawCustom_05000851#WEAP:VANM#6dabb715abfee977bf02e391b9616eb0",
+    "original": "Scrap Heap",
+    "translation": "废料堆",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVHuntingRevolverCustom_05000852#WEAP:FULL#287374dc93f46bbd9a17cf624f5f01fd",
+    "original": "Hunting Revolver",
+    "translation": "狩猎左轮",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVPlasmaDefenderCustom_05000853#WEAP:FULL#abf03dc6850bd83753ad57cfaf16931e",
+    "original": "Plasma Defender",
+    "translation": "等离子护卫者",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapNVTriBeamLaserRifleCustom_05000854#WEAP:FULL#8feeb4bc393adc5709cb2ad80e9ad2ad",
+    "original": "Tri-beam Laser Rifle",
+    "translation": "三束激光步枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapPlasmaPistolCustom_05000855#WEAP:FULL#5b2b7d47349f96cd535818ba0b1a8f28",
+    "original": "Plasma Pistol",
+    "translation": "等离子手枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapPowerFistCustom_05000856#WEAP:FULL#a34025e1ba922593671d31d46667daf0",
+    "original": "Power Fist",
+    "translation": "动力拳套",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapRipperCustom_05000857#WEAP:FULL#113a12b0fb555d7857b76407cf8594ce",
+    "original": "Ripper",
+    "translation": "开膛手",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapRipperCustom_05000857#WEAP:VANM#f96e0e44e81dd2b2b62034e20ca508ea",
+    "original": "Long Cut",
+    "translation": "长切",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapGrenadeMFC_050008C8#WEAP:FULL#56535507aa5642dbfd9ca4107cefe0a1",
+    "original": "MFC Grenade",
+    "translation": "微型核聚变手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapMineMFCCluster_050008C9#WEAP:FULL#53a4d04ff45647426676c2d645c4f2ec",
+    "original": "MFC Cluster",
+    "translation": "微型核聚变集束地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05WeapFatmanCustom_05000AC3#WEAP:FULL#14e4f5bb050ebd16f79cde180f157689",
+    "original": "Fat Man",
+    "translation": "胖子发射器",
+    "stage": 1
+  },
+  {
+    "key": "WeapPreord10mmPistolFixed_0A001375#WEAP:FULL#b59b185bfa1fefae9b06cf2c449917b3",
+    "original": "Weathered 10mm Pistol",
+    "translation": "斑驳的10mm手枪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadeTimed_05000869#AMMO:FULL#efdcf13ae28102b8998b3fb0cfb58296",
+    "original": "25mm Grenade, Timed",
+    "translation": "25mm, 延时榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadeTimed_05000869#AMMO:ONAM#2dd00bd00614c613834e75a91b9b553d",
+    "original": "25mmG, Tim.",
+    "translation": "25mm延时榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePulse_0500086A#AMMO:FULL#b782a0c8a0209c216c53f0ae7e31b380",
+    "original": "25mm Grenade, Pulse",
+    "translation": "25mm, 脉冲榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePulse_0500086A#AMMO:ONAM#b8918fa20825070971a20e2713bbf9d0",
+    "original": "25mmG, Pul.",
+    "translation": "25mm脉冲榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePlasma_0500086B#AMMO:FULL#5334f4b81bfa3b9d2963e6a22f138bab",
+    "original": "25mm Grenade, Plasma",
+    "translation": "25mm, 等离子榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo25mmGrenadePlasma_0500086B#AMMO:ONAM#3832d2d12ed118b8379df58a8c120372",
+    "original": "25mmG, Pla.",
+    "translation": "25mm等离子榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePulse_0500086D#AMMO:FULL#c1fbe1d0aa9b30a6f8db9e96bd40e7ba",
+    "original": "40mm Grenade, Pulse",
+    "translation": "40mm, 脉冲榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePulse_0500086D#AMMO:ONAM#b24f8f45dffa2b1e92813409d5c221e4",
+    "original": "40mmG, Pul.",
+    "translation": "40mm, 脉冲榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePlasma_0500086E#AMMO:FULL#9532ccf61968cd1c9aed885c52342a84",
+    "original": "40mm Grenade, Plasma",
+    "translation": "40mm, 等离子榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo40mmGrenadePlasma_0500086E#AMMO:ONAM#ee4840247c6b4d569513d4372e2d418a",
+    "original": "40mmG, Pla.",
+    "translation": "40mm, 等离子榴弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo556mmMatchHandLoad_0500086F#AMMO:FULL#fec72bfa477df879db58c5c6d76d01c9",
+    "original": "5.56mm, Match (Hand Load)",
+    "translation": "5. 56mm, 竞赛弹 (手装)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo556mmMatchHandLoad_0500086F#AMMO:ONAM#2163f5e38fff160941257277ad7a5324",
+    "original": "5.56mm M",
+    "translation": "5.56mm竞赛",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo9mmJHPHandLoad_05000870#AMMO:FULL#b1963230a0c4355d1ebefb24e3730482",
+    "original": "9mm, JHP (Hand Load)",
+    "translation": "9mm, 被甲空尖弹 (手装)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo9mmJHPHandLoad_05000870#AMMO:ONAM#59185310d6b44f7f40db57065fc92f30",
+    "original": "9mm JHP",
+    "translation": "9mm被甲空尖",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo5mmJSPHandLoad_05000871#AMMO:FULL#ec71daf345f37ceb54c0420129af530d",
+    "original": "5mm, JSP (Hand Load)",
+    "translation": "5mm, 被甲软尖弹  (手装)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo5mmJSPHandLoad_05000871#AMMO:ONAM#1ca9f3708d084a95955bb2e88eafc3f4",
+    "original": "5mm JSP",
+    "translation": "5mm被甲软尖",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoSmallEnergyCellOptimized_05000872#AMMO:FULL#551e8cc6cf8a92c076f582f0d2e9e9e2",
+    "original": "Energy Cell, Optimized (Vigilant Recycler)",
+    "translation": "能量电池, 优化型 (谨慎回收)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoSmallEnergyCellOptimized_05000872#AMMO:ONAM#79c711b0d77e7e0efc18ab1afba20367",
+    "original": "E Cell, Opt.",
+    "translation": "能量电池, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMicroFusionCellOptimized_05000873#AMMO:FULL#c60ac111df8aa8fa0465938b8e249aaf",
+    "original": "Microfusion Cell, Optimized (Vigilant Recycler)",
+    "translation": "微型核聚变电池, 优化型 (谨慎回收)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMicroFusionCellOptimized_05000873#AMMO:ONAM#9d2565169e43d0a813862bfc8543a309",
+    "original": "MF Cell, Opt.",
+    "translation": "微型核聚变电池, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoElectronChargePackOptimized_05000874#AMMO:FULL#a021844a12acd325b01e72a291af8013",
+    "original": "Electron Charge Pack, Optimized (Vigilant Recycler)",
+    "translation": "荷电充能包, 优化型 (谨慎回收)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoElectronChargePackOptimized_05000874#AMMO:ONAM#c328bab7f413c92f23c129d4d30f59ac",
+    "original": "EC Pack, Opt.",
+    "translation": "荷电充能包, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFlamerFuelOptimized_05000875#AMMO:FULL#6a68c1e7ae4aba0956143ba0001a819a",
+    "original": "Flamer Fuel, Optimized (Vigilant Recycler)",
+    "translation": "火焰喷射器燃料, 优化型 (谨慎回收)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFlamerFuelOptimized_05000875#AMMO:ONAM#2e704b0f967904eb591014b92c8aaa21",
+    "original": "Fuel, Opt.",
+    "translation": "燃料, 优化",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTinyTots_05000A09#AMMO:FULL#947b05b4e64412171b803e79b09c462a",
+    "original": "Mini Nuke, Tiny Tots",
+    "translation": "迷你核弹, 小小孩",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTinyTots_05000A09#AMMO:ONAM#d1b17aa7ea452cbd79b6a9b7906999ae",
+    "original": "Mini Nuke, TT",
+    "translation": "迷你核弹, 小小孩",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo127mmJHPHandLoad_05000A2B#AMMO:FULL#4c994c8b0f75b065811b6169fc7716c6",
+    "original": "12.7mm, JHP (Hand Load)",
+    "translation": "12.7mm, 被甲空尖弹 (手装)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo127mmJHPHandLoad_05000A2B#AMMO:ONAM#2fa168bcc5d3f86b0ed66bfb0cf72802",
+    "original": "12.7mm JHP",
+    "translation": "12.7mm被甲空尖",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerAmmo45AutoJunkRounds_0B0019EA#AMMO:FULL#07f93aa91b18d92e10ffa0489fd930d3",
+    "original": ".45 Auto Round, Junk",
+    "translation": ".45 Auto, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerAmmo45AutoJunkRounds_0B0019EA#AMMO:ONAM#6031c104aa08ef2ca53fcaeae02eb485",
+    "original": ".45 Auto JNK",
+    "translation": ".45Auto废料",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCell_00004485#AMMO:FULL#8ca4e492d9a9f8bb6c5a13d52dc1479c",
+    "original": "Microfusion Cell",
+    "translation": "微型核聚变电池",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCell_00004485#AMMO:ONAM#ea40d39e459f9feb371734b85d54088b",
+    "original": "MF Cell",
+    "translation": "微型核聚变电池",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCell_00020772#AMMO:FULL#c615cb03e86a6ec1a8f314d635b43ea4",
+    "original": "Energy Cell",
+    "translation": "能量电池",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCell_00020772#AMMO:ONAM#47fac8b9271f6633b69cda57a9fda44a",
+    "original": "E Cell",
+    "translation": "能量电池",
+    "stage": 1
+  },
+  {
+    "key": "AmmoFlamerFuel_00029371#AMMO:FULL#46b040ac97928a8888a029e404edc4b9",
+    "original": "Flamer Fuel",
+    "translation": "火焰喷射器燃料",
+    "stage": 1
+  },
+  {
+    "key": "AmmoFlamerFuel_00029371#AMMO:ONAM#86230e0a3efa7d16dedc2132eae6b5e8",
+    "original": "Fuel",
+    "translation": "燃料",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePack_0006B53E#AMMO:FULL#d112bc8168d95e780095e18ce3636297",
+    "original": "Electron Charge Pack",
+    "translation": "荷电充能包",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePack_0006B53E#AMMO:ONAM#486fc5c08fcfbf7db0de5b9f2d44f700",
+    "original": "EC Pack",
+    "translation": "荷电充能包",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCellOverCharge_001582DF#AMMO:FULL#05ef0847658dce6efe7d497d4636708f",
+    "original": "Energy Cell, Over Charge",
+    "translation": "能量电池, 过充型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCellOverCharge_001582DF#AMMO:ONAM#8457203f761c5aec9ce2ccfcb2d385f8",
+    "original": "E Cell OC",
+    "translation": "能量电池 过充",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCellMaxCharge_001582E0#AMMO:FULL#f591d24776ab3030506ae7474836a3cb",
+    "original": "Energy Cell, Max Charge",
+    "translation": "能量电池, 满充型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCellMaxCharge_001582E0#AMMO:ONAM#66b03beb1834ee7670f738cca497f058",
+    "original": "E Cell MC",
+    "translation": "能量电池 满充",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCellOverCharge_0015830B#AMMO:FULL#5be4ae9550a58c9f9b7282839928c730",
+    "original": "Microfusion Cell, Over Charge",
+    "translation": "微型核聚变电池, 过充型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCellOverCharge_0015830B#AMMO:ONAM#d6c7d2339c92e9021a7ebfd8e6c74544",
+    "original": "MF Cell OC",
+    "translation": "微型核聚变电池 过充",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCellMaxCharge_0015830C#AMMO:FULL#aac930d035e3c5c8dbdaffe91abf81be",
+    "original": "Microfusion Cell, Max Charge",
+    "translation": "微型核聚变电池, 满充型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCellMaxCharge_0015830C#AMMO:ONAM#b3da85cb65196d95058044a0628a7b8c",
+    "original": "MF Cell MC",
+    "translation": "微型核聚变电池 满充",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePackOverCharge_0015830D#AMMO:FULL#be6664f7e54d40115fad623de344ec2f",
+    "original": "Electron Charge Pack, Over Charge",
+    "translation": "荷电充能包, 过充型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePackOverCharge_0015830D#AMMO:ONAM#d0306a6cbb9ffe8594af1cdaf3bffe00",
+    "original": "EC Pack OC",
+    "translation": "荷电充能包 过充",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePackMaxCharge_0015830E#AMMO:FULL#722f0961028fe278fcb00e87d326c3d8",
+    "original": "Electron Charge Pack, Max Charge",
+    "translation": "荷电充能包, 满充型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePackMaxCharge_0015830E#AMMO:ONAM#a1bed29c908ae1fc802c24e4a3454b47",
+    "original": "EC Pack MC",
+    "translation": "荷电充能包 满充",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePackBulk_00158311#AMMO:FULL#ae08a2ba9e02276a2e6b340427402b29",
+    "original": "Electron Charge Pack, Bulk",
+    "translation": "荷电充能包, 批发型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoElectronChargePackBulk_00158311#AMMO:ONAM#8459c86d9410c755ffff9719568fbf73",
+    "original": "EC Pack B",
+    "translation": "荷电充能包 批发",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCellBulk_00158312#AMMO:FULL#bb5b9d54846fe4f1b025eb7c71cebc4c",
+    "original": "Microfusion Cell, Bulk",
+    "translation": "微型核聚变电池, 批发型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoMicroFusionCellBulk_00158312#AMMO:ONAM#e25dc3d2d311e590792533e6f149ed21",
+    "original": "MF Cell B",
+    "translation": "微型核聚变电池 批发",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCellBulk_00158313#AMMO:FULL#1b13d5cac63047c975991620c07d63e3",
+    "original": "Energy Cell, Bulk",
+    "translation": "能量电池, 批发型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoSmallEnergyCellBulk_00158313#AMMO:ONAM#743de48a9434a0ef9aed62b525d0f3c1",
+    "original": "E Cell B",
+    "translation": "能量电池 批发",
+    "stage": 1
+  },
+  {
+    "key": "AmmoFlamerFuelHomemade_00166F62#AMMO:FULL#b0666535a036db23982f8ba4188ed217",
+    "original": "Flamer Fuel, Homemade",
+    "translation": "火焰喷射器燃料, 自制型",
+    "stage": 1
+  },
+  {
+    "key": "AmmoFlamerFuelHomemade_00166F62#AMMO:ONAM#9f5d4feb10f62d907301120501fc51eb",
+    "original": "Fuel, HM",
+    "translation": "燃料, 自制",
+    "stage": 1
+  },
+  {
+    "key": "Ammo10mmJunkRounds_0100FB6C#AMMO:FULL#e04bde8c34a98d0634c66b08cb42739e",
+    "original": "10mm Round, Junk",
+    "translation": "10mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo10mmJunkRounds_0100FB6C#AMMO:ONAM#77418d932eeb2d998e25faf8bee5d343",
+    "original": "10mm JNK",
+    "translation": "10mm废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo127mmJunkRounds_0100FB6D#AMMO:FULL#9e1183666b01bcfd3f61b590330d1383",
+    "original": "12.7mm Round, Junk",
+    "translation": "12. 7mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo127mmJunkRounds_0100FB6D#AMMO:ONAM#3fbd57c5eba36fd183af71ef27d58ca7",
+    "original": "12.7mm JNK",
+    "translation": "12.7mm废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo12GaJunkRounds_0100FB6E#AMMO:FULL#f81920307c522cd977d4511857229284",
+    "original": "12 Gauge Round, Junk",
+    "translation": "12铅径, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo12GaJunkRounds_0100FB6E#AMMO:ONAM#12eab058db67afe1d0994cdbb9ee5460",
+    "original": "12ga JNK",
+    "translation": "12铅径废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo20GaJunkRounds_0100FB6F#AMMO:FULL#a2e3e2869ec79971f82ee4f02fc3fc59",
+    "original": "20 Gauge Round, Junk",
+    "translation": "20铅径, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo20GaJunkRounds_0100FB6F#AMMO:ONAM#e928fde196c9a54a6727cb61e5552165",
+    "original": "20ga JNK",
+    "translation": "20铅径废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo22LRJunkRounds_0100FB71#AMMO:FULL#060f8b3b643a89a068f2a84ee86eafa1",
+    "original": ".22LR Round, Junk",
+    "translation": ".22LR, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo22LRJunkRounds_0100FB71#AMMO:ONAM#3e774c0a4630c90903d6a83bcc179bee",
+    "original": "22LR JNK",
+    "translation": ".22LR废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo308JunkRounds_0100FB72#AMMO:FULL#9414c909a90872f17211a61c6d5a67af",
+    "original": ".308 Round, Junk",
+    "translation": ".308, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo308JunkRounds_0100FB72#AMMO:ONAM#33aafa79e5aff6bdd9521e214ad2f3b5",
+    "original": ".308 JNK",
+    "translation": ".308废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo357MagnumJunkRounds_0100FB73#AMMO:FULL#f72435166a1c6abdffdda57344d2506c",
+    "original": ".357 Magnum Round, Junk",
+    "translation": ".357马格南, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo357MagnumJunkRounds_0100FB73#AMMO:ONAM#4a9234b0121dc0a5fd4202015d616fa1",
+    "original": ".357 Mag. JNK",
+    "translation": ".357马格南废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo44magnumJunkRounds_0100FB74#AMMO:FULL#a7bc62bc6f8d614da1622cc7936833ff",
+    "original": ".44 Magnum Round, Junk",
+    "translation": ".44马格南, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo44magnumJunkRounds_0100FB74#AMMO:ONAM#9535013e5e8dce7f81f217fce29d1642",
+    "original": ".44 Mag. JNK",
+    "translation": ".44马格南废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo4570JunkRounds_0100FB75#AMMO:FULL#61c59d69267ea92640457e42e5b80bed",
+    "original": ".45-70 Gov't Round, Junk",
+    "translation": ".45-70政府, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo4570JunkRounds_0100FB75#AMMO:ONAM#142b87775fb5261e970412f1cfb0ace6",
+    "original": ".45-70G JNK",
+    "translation": ".45-70政府废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo50MGJunkRounds_0100FB76#AMMO:FULL#aaf24df077b04f786ce2096c87b56aad",
+    "original": ".50 MG Round, Junk",
+    "translation": ".50MG, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo50MGJunkRounds_0100FB76#AMMO:ONAM#d7830095f1613c3084a197dc3fcb30d2",
+    "original": ".50MG JNK",
+    "translation": ".50MG废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo556mmJunkRounds_0100FB77#AMMO:FULL#d26f3f71ea65022e94f2810799b67894",
+    "original": "5.56mm Round, Junk",
+    "translation": "5.56mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo556mmJunkRounds_0100FB77#AMMO:ONAM#9a64efc29e5ec7c8b90d3d6739a97a8f",
+    "original": "5.56mm JNK",
+    "translation": "5.56mm废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo5mmJunkRounds_0100FB78#AMMO:FULL#e1751f7161b966a5ec3ab8e30d72ac0d",
+    "original": "5mm Round, Junk",
+    "translation": "5mm子弹, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo5mmJunkRounds_0100FB78#AMMO:ONAM#a9e558a9e3dbc3dee7fd221a6f166d6c",
+    "original": "5mm JNK",
+    "translation": "5mm废料",
+    "stage": 1
+  },
+  {
+    "key": "Ammo9mmJunkRounds_0100FB79#AMMO:FULL#0a33d5da44a79df696a0106601140223",
+    "original": "9mm Round, Junk",
+    "translation": "9mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "Ammo9mmJunkRounds_0100FB79#AMMO:ONAM#60d5c23a0f239b8d4bbb927f9e88691e",
+    "original": "9mm JNK",
+    "translation": "9mm废料",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo50MGExplosive_0500085B#AMMO:FULL#9222d2085eb068ae71e30762f26821e0",
+    "original": ".50 MG, Explosive",
+    "translation": ". 50机枪爆破弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo50MGExplosive_0500085B#AMMO:ONAM#bcf1baa5b970570db381e7fcb9eaf2de",
+    "original": ".50MG E",
+    "translation": ".50MG高爆",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20GaPulseSlug_0500085C#AMMO:FULL#3bed5033e48d1d3a408ae9780f3b64eb",
+    "original": "20 Gauge, Pulse Slug",
+    "translation": "20铅径, 脉冲独头弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20GaPulseSlug_0500085C#AMMO:ONAM#a6cfe200c82a9269072582c2e8f37ea7",
+    "original": "20ga PS",
+    "translation": "20铅径脉冲独头",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaPulseSlug_0500085D#AMMO:FULL#f1599fb4ef96638e3ba94c97bac18f9f",
+    "original": "12 Gauge, Pulse Slug",
+    "translation": "12铅径, 脉冲独头弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaPulseSlug_0500085D#AMMO:ONAM#4e1a8eb60768f95694178493cc84628e",
+    "original": "12ga PS",
+    "translation": "12铅径脉冲独头",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaFlechette_0500085E#AMMO:FULL#65bf66e926c02cb09252b8b52189244f",
+    "original": "12 Gauge, Flechette",
+    "translation": "12铅径, 箭形弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaFlechette_0500085E#AMMO:ONAM#8814c3cac6bc64f78e989e221fc006bb",
+    "original": "12ga F",
+    "translation": "12铅径箭形",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaDragonsBreath_0500085F#AMMO:FULL#05d313d6e60a6981de6ed6a6410e417b",
+    "original": "12 Gauge, Dragon's Breath",
+    "translation": "12铅径, 龙息弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12GaDragonsBreath_0500085F#AMMO:ONAM#9799ebfb81accca3e8d9b803aa07838a",
+    "original": "12ga DB",
+    "translation": "12铅径龙息",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30Buck_05000860#AMMO:FULL#a82b789eb4bb224ee803926240c9beea",
+    "original": "20 Gauge, 3/0 Buck",
+    "translation": "20铅径, 3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30Buck_05000860#AMMO:ONAM#6f33f44c7ef00fa287467ef5523a3a0b",
+    "original": "20ga 3/0B",
+    "translation": "20铅径3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40Buck_05000861#AMMO:FULL#61aac0a0cdb01a0d958d4c07db94d779",
+    "original": "12 Gauge, 4/0 Buck",
+    "translation": "12铅径, 4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40Buck_05000861#AMMO:ONAM#285750edd341090fa41eb95ffcff187a",
+    "original": "12ga 4/0B",
+    "translation": "12铅径4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40BuckMagnum_05000862#AMMO:FULL#30773e81d254f1627491d991de299135",
+    "original": "12 Gauge, 4/0 Buck Mag. (Hand Load)",
+    "translation": "12铅径, 马格南4号鹿弹 (手装)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo12Ga40BuckMagnum_05000862#AMMO:ONAM#88849f14e5e69f6ae9f9727b7c89527b",
+    "original": "12ga 4/0BM",
+    "translation": "12铅径马格南4号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30BuckMagnum_05000863#AMMO:FULL#340cbac4b5e125e30e439eae2df9cda1",
+    "original": "20 Gauge, 3/0 Buck Mag. (Hand Load)",
+    "translation": "20铅径, 马格南3号鹿弹 (手装)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Ammo20Ga30BuckMagnum_05000863#AMMO:ONAM#c43b127be1d3a97b926c2b78e1918aca",
+    "original": "20ga 3/0BM",
+    "translation": "20铅径马格南3号鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMissileHive_05000865#AMMO:FULL#a97d084ea929c4744632ba8fe843aa47",
+    "original": "Missile, Hive",
+    "translation": "导弹, 蜂巢型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoMissileHive_05000865#AMMO:ONAM#a97d084ea929c4744632ba8fe843aa47",
+    "original": "Missile, Hive",
+    "translation": "导弹, 蜂巢型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansLowYield_05000866#AMMO:FULL#f1036fd48b35ce7e59c891b3e10ed139",
+    "original": "Mini Nuke, Low Yield",
+    "translation": "迷你核弹, 小当量",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansLowYield_05000866#AMMO:ONAM#1ce33b9d99b0bbf548a36da272426ae6",
+    "original": "Mini Nuke, LY",
+    "translation": "迷你核弹, 小当量",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTimed_05000867#AMMO:FULL#2e0ecc502701a93369d5a80090f06028",
+    "original": "Mini Nuke, Timed",
+    "translation": "迷你核弹, 延时型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansTimed_05000867#AMMO:ONAM#b0a430d9e582930a322164a13acfbc27",
+    "original": "Mini Nuke, Tim.",
+    "translation": "迷你核弹, 延时",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansBigKid_05000868#AMMO:FULL#58ac93bbffce5d7b7c62f5d46bfc2358",
+    "original": "Mini Nuke, Big Kid",
+    "translation": "迷你核弹, 大男孩",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05AmmoFatMansBigKid_05000868#AMMO:ONAM#5c335954748133e3cd8e9457c5cc7483",
+    "original": "Mini Nuke, BK",
+    "translation": "迷你核弹, 大男孩",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerMeleeAAMTEMPLATE_0008D371#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "NCRCFPowderGangerGunAAMTEMPLATE_0008F115#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "NCRCFPowderGangerMeleeAAMTEMPLATE_00090B87#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGanger3GunAAMTEMPLATE_00101C8B#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerRanchAAMTEMPLATE_00101CA7#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "ChavezPowderGangerGunAAM_00107738#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "PowderGangerVault19AAM_001411B8#NPC_:FULL#7246c2b5ace10aac1e73517854bb29ff",
+    "original": "Escaped Convict",
+    "translation": "逃犯",
+    "stage": 1
+  },
+  {
+    "key": "VESGSGeckoman_00157C8D#NPC_:FULL#3f666a7146cec68c0c8e90ca8116cc71",
+    "original": "Barton Thorn",
+    "translation": "巴顿·索伦",
+    "stage": 1
+  },
+  {
+    "key": "GoodspringsPowderGangerAAMTemplate_0015F310#NPC_:FULL#26ed22212fbb913a412b6a6489a59394",
+    "original": "Powder Ganger",
+    "translation": "炸药帮",
+    "stage": 1
+  },
+  {
+    "key": "VEFR02LegionThugLeaderCM_0016340D#NPC_:FULL#ce6e40e7171258cb88b4c997d6720ae6",
+    "original": "Legionary Assassin",
+    "translation": "军团刺客",
+    "stage": 1
+  },
+  {
+    "key": "VEFR02LegionThug03HM_00163410#NPC_:FULL#ce6e40e7171258cb88b4c997d6720ae6",
+    "original": "Legionary Assassin",
+    "translation": "军团刺客",
+    "stage": 1
+  },
+  {
+    "key": "VEFR02LegionThug04AAM_00163411#NPC_:FULL#ce6e40e7171258cb88b4c997d6720ae6",
+    "original": "Legionary Assassin",
+    "translation": "军团刺客",
+    "stage": 1
+  },
+  {
+    "key": "NVProspectorMaleADEADJohnny_00171B38#NPC_:FULL#d2cbaaef0bbe84faa7f452d7eaac436f",
+    "original": "Johnny",
+    "translation": "乔尼",
+    "stage": 1
+  },
+  {
+    "key": "NVProspectorMaleADEADJohnnyStandIn_00171B3D#NPC_:FULL#4ebf34b0c67c6a11160ffc62c7902d85",
+    "original": "Prospector",
+    "translation": "淘金客",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerREPCONGhoul1_0B0055BD#NPC_:FULL#ad58a7613a889bc0594d5624b9cd2eab",
+    "original": "Deranged Bright Follower",
+    "translation": "疯狂的光明追随者",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerREPCONGhoul2F_0B0055BE#NPC_:FULL#ad58a7613a889bc0594d5624b9cd2eab",
+    "original": "Deranged Bright Follower",
+    "translation": "疯狂的光明追随者",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerREPCONGhoul3F_0B0055BF#NPC_:FULL#ad58a7613a889bc0594d5624b9cd2eab",
+    "original": "Deranged Bright Follower",
+    "translation": "疯狂的光明追随者",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerREPCONGhoul4m_0B0055C0#NPC_:FULL#ad58a7613a889bc0594d5624b9cd2eab",
+    "original": "Deranged Bright Follower",
+    "translation": "疯狂的光明追随者",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerREPCONGhoul5m_0B0055C1#NPC_:FULL#ad58a7613a889bc0594d5624b9cd2eab",
+    "original": "Deranged Bright Follower",
+    "translation": "疯狂的光明追随者",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedScotch_00143FEF#ALCH:FULL#e449b7e9bba8d07b3c7a59ff1d778789",
+    "original": "Irradiated Scotch",
+    "translation": "受辐射的苏格兰威士忌",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedWaterUnpurified_00143FF1#ALCH:FULL#51b52530993a6fa8bd2018bc72c7c0a4",
+    "original": "Irradiated Water",
+    "translation": "受辐射的水",
+    "stage": 1
+  },
+  {
+    "key": "GiantRatMeat_00151F7D#ALCH:FULL#6e7c3710b86fa5ce34eb1d689accf033",
+    "original": "Giant Rat Meat",
+    "translation": "巨鼠肉",
+    "stage": 1
+  },
+  {
+    "key": "CoyoteMeat_00157FFB#ALCH:FULL#279abf00eb95948d6e84af7abe42ee6c",
+    "original": "Coyote Meat",
+    "translation": "郊狼肉",
+    "stage": 1
+  },
+  {
+    "key": "FireAntMeat_0015D9B2#ALCH:FULL#0fe83cb6ffeb7a10faff9b1012f2ec27",
+    "original": "Fire Ant Meat",
+    "translation": "火蚁肉",
+    "stage": 1
+  },
+  {
+    "key": "BrahminMeat_001613BF#ALCH:FULL#bf779b71157b9c0cdea2399815c652b7",
+    "original": "Brahmin Meat",
+    "translation": "双头牛肉",
+    "stage": 1
+  },
+  {
+    "key": "CoyoteSteak_001613C1#ALCH:FULL#faa22dfd1afa584328f4e929ed8fa33f",
+    "original": "Coyote Steak",
+    "translation": "郊狼肉排",
+    "stage": 1
+  },
+  {
+    "key": "DogSteak_001613C2#ALCH:FULL#da6da9549301265d40459c63c1487af6",
+    "original": "Dog Steak",
+    "translation": "狗肉排",
+    "stage": 1
+  },
+  {
+    "key": "ScotchGood_001673D6#ALCH:FULL#2dc397d39835da402492ed377047635a",
+    "original": "Jake Juice",
+    "translation": "绝妙好饮",
+    "stage": 1
+  },
+  {
+    "key": "BigHornerMeat_0016D5BA#ALCH:FULL#de591a42b3e793c47b8a7d05d6b95a7b",
+    "original": "Bighorner Meat",
+    "translation": "大角羊肉",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01SierraMadreMartini_01010395#ALCH:FULL#fc2cb86c27aebd67dc79d4a7306d3976",
+    "original": "Sierra Madre Martini",
+    "translation": "马德雷山脉马提尼",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02WastelandTequila_02011111#ALCH:FULL#109a7db00d9562eea07371aef03decf6",
+    "original": "Wasteland Tequila",
+    "translation": "废土龙舌兰",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02BlackCoffee_02011112#ALCH:FULL#c6ce5e32294d9219e79f81889a90c45a",
+    "original": "Black Coffee",
+    "translation": "黑咖啡",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02WastelandTequilaLarge_020112F9#ALCH:FULL#3b5b544656f247834d965f105374862a",
+    "original": "Large Wasteland Tequila",
+    "translation": "大瓶废土龙舌兰",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ThinRedPaste_030098C4#ALCH:FULL#508f0fb747ac64aaa072180342d4e5f4",
+    "original": "Thin Red Paste",
+    "translation": "稀血酱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03BloodSausage_030098C5#ALCH:FULL#5664be5b4726fb62945d9f3917256387",
+    "original": "Blood Sausage",
+    "translation": "血肠",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03BlackBloodSausage_030133B3#ALCH:FULL#9a503ffec2f5f45ffe48b14f152c72b1",
+    "original": "Black Blood Sausage",
+    "translation": "黑血肠",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ThickRedPaste_030133B6#ALCH:FULL#0febd541a51532c5feb384076868f383",
+    "original": "Thick Red Paste",
+    "translation": "稠血酱",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03BattleBrew_0301495E#ALCH:FULL#650af2333a0a48aa8b93f890587e41ea",
+    "original": "Battle Brew",
+    "translation": "战啤",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04AutoInjectStimpak_0400917C#ALCH:FULL#2932bb09e1f0a07eeac23c44d79232de",
+    "original": "Auto-Inject Stimpak",
+    "translation": "自动注射治疗针",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04AutoInjectSuperStimpak_0400917D#ALCH:FULL#3961acf4af1b2a7cdaf313cbd3353d7e",
+    "original": "Auto-Inject Super Stimpak",
+    "translation": "自动注射超级治疗针",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04RoughinItBedrollKit_0400CD51#ALCH:FULL#73d1c6d0fc2a26f5025e7fce03abd876",
+    "original": "Roughin' It! Bedroll Kit",
+    "translation": "苦行！铺盖卷套装",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerStimpakExpired_0B004FB4#ALCH:FULL#03eaaf4f57d9b2183554518a0bb7209b",
+    "original": "Stimpak, Expired",
+    "translation": "治疗针, 过期",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerStimpakHomemade_0B004FB6#ALCH:FULL#7665d3fe3f73014562744377be4749f8",
+    "original": "Stimpak, Homemade",
+    "translation": "治疗针, 自制",
+    "stage": 1
+  },
+  {
+    "key": "RadAway_00015167#ALCH:FULL#fc9af25cc4b15e10101f426acd31b048",
+    "original": "RadAway",
+    "translation": "辐特宁",
+    "stage": 1
+  },
+  {
+    "key": "Stimpak_00015169#ALCH:FULL#9d14e4d279c29e85211da6bf5ad8d282",
+    "original": "Stimpak",
+    "translation": "治疗针",
+    "stage": 1
+  },
+  {
+    "key": "Beer_00015197#ALCH:FULL#55ca090871c754fb43f000bd92847a3a",
+    "original": "Beer",
+    "translation": "啤酒",
+    "stage": 1
+  },
+  {
+    "key": "NukaCola_0001519E#ALCH:FULL#10fd850f63bf5159a4d91f5814c59813",
+    "original": "Nuka-Cola",
+    "translation": "核子可乐",
+    "stage": 1
+  },
+  {
+    "key": "Scotch_000151A1#ALCH:FULL#0ec2beede6bbe4d0c814e2a82ad0572b",
+    "original": "Scotch",
+    "translation": "苏格兰威士忌",
+    "stage": 1
+  },
+  {
+    "key": "WaterPurified_000151A3#ALCH:FULL#f67aace12a0a0f2ac79849d54c48e7d6",
+    "original": "Purified Water",
+    "translation": "纯净水",
+    "stage": 1
+  },
+  {
+    "key": "WaterUnpurified_000151A4#ALCH:FULL#6503fbb688edcc6f4bc87bce10deea95",
+    "original": "Dirty Water",
+    "translation": "污水",
+    "stage": 1
+  },
+  {
+    "key": "MS05NukaColaQtm_000284F9#ALCH:FULL#f84f18758b46a5deb28efcaed3470fde",
+    "original": "Nuka-Cola Quantum",
+    "translation": "核子可乐量子版",
+    "stage": 1
+  },
+  {
+    "key": "StrangeMeat_0002E376#ALCH:FULL#4b1e18d5a697077d6133861a5122c2e3",
+    "original": "Strange Meat",
+    "translation": "奇怪的肉",
+    "stage": 1
+  },
+  {
+    "key": "Vodka_00032C74#ALCH:FULL#99172b589e8c930419d8c81690f9bcdd",
+    "original": "Vodka",
+    "translation": "伏特加",
+    "stage": 1
+  },
+  {
+    "key": "Whiskey_00032C75#ALCH:FULL#b322138ac864e65dec1e1b060d2f8fea",
+    "original": "Whiskey",
+    "translation": "威士忌",
+    "stage": 1
+  },
+  {
+    "key": "Wine_0003404A#ALCH:FULL#87f243b5b58a1a38a21ae93b8044eaea",
+    "original": "Wine",
+    "translation": "葡萄酒",
+    "stage": 1
+  },
+  {
+    "key": "YaoGuaiMeat_0003404B#ALCH:FULL#ec02efe3f6380f6e179aff5a48b3aa43",
+    "original": "Yao Guai Meat",
+    "translation": "妖怪肉",
+    "stage": 1
+  },
+  {
+    "key": "MoleRatMeat_0003404C#ALCH:FULL#ba18ac2791b5d940d44d950501a1519e",
+    "original": "Mole Rat Meat",
+    "translation": "鼹鼠肉",
+    "stage": 1
+  },
+  {
+    "key": "DogMeat_00034050#ALCH:FULL#7a0ac1a003246fc55d1c3a7c543f0d91",
+    "original": "Dog Meat",
+    "translation": "狗肉",
+    "stage": 1
+  },
+  {
+    "key": "AntMeat_0003C345#ALCH:FULL#790948245291ffa0b0bed7ac12cd7aa6",
+    "original": "Ant Meat",
+    "translation": "蚂蚁肉",
+    "stage": 1
+  },
+  {
+    "key": "MS05IceNukaCola_00040DCB#ALCH:FULL#c1836bd6d4fee88efb5f36958507d4f8",
+    "original": "Ice Cold Nuka-Cola",
+    "translation": "冰镇核子可乐",
+    "stage": 1
+  },
+  {
+    "key": "BloatflyMeat_0007C10D#ALCH:FULL#21f610639921fa3d6809acf4dbb449f5",
+    "original": "Bloatfly Meat",
+    "translation": "辐射蝇肉",
+    "stage": 1
+  },
+  {
+    "key": "Bubblegum_0008C560#ALCH:FULL#bc12da7625b827f35ee1cab0bb93d2ba",
+    "original": "Bubblegum",
+    "translation": "泡泡糖",
+    "stage": 1
+  },
+  {
+    "key": "RadioactiveGumDrops_0008C564#ALCH:FULL#ab710821b215378b3d4247cf13b02475",
+    "original": "Gum Drops",
+    "translation": "核子口香糖",
+    "stage": 1
+  },
+  {
+    "key": "RadroachMeat_0009C957#ALCH:FULL#601e845e699470397963f9881ab8515b",
+    "original": "Radroach Meat",
+    "translation": "辐射蟑螂肉",
+    "stage": 1
+  },
+  {
+    "key": "MoleRatWonderMeat_000ABD17#ALCH:FULL#ecb83d3b2e7383f851b55c89ef42a0e7",
+    "original": "Mole Rat Wonder Meat",
+    "translation": "怪味鼹鼠肉",
+    "stage": 1
+  },
+  {
+    "key": "NVDoctorBag_000CB05C#ALCH:FULL#96a8b6cbf9034346d6eee36caa2cefaf",
+    "original": "Doctor's Bag",
+    "translation": "医疗包",
+    "stage": 1
+  },
+  {
+    "key": "NVSuperStimpak_000CCEF2#ALCH:FULL#ccc5c746281617826fa4f27479175ad3",
+    "original": "Super Stimpak",
+    "translation": "超级治疗针",
+    "stage": 1
+  },
+  {
+    "key": "NVGeckoSteak_000E2F65#ALCH:FULL#5b62c0615cde6c7105eb8968bf04dccc",
+    "original": "Gecko Steak",
+    "translation": "蜥蜴肉排",
+    "stage": 1
+  },
+  {
+    "key": "NVAtomicCocktail_000E2F6A#ALCH:FULL#72844d83d589b44770a28a7b26c125c6",
+    "original": "Atomic Cocktail",
+    "translation": "原子鸡尾酒",
+    "stage": 1
+  },
+  {
+    "key": "NVNukaColaVictory_000E2F6C#ALCH:FULL#7a760384c4908eba9f80503020303b3e",
+    "original": "Nuka-Cola Victory",
+    "translation": "核子可乐胜利版",
+    "stage": 1
+  },
+  {
+    "key": "NVNukaColaQuartz_000E2F6D#ALCH:FULL#c14f9c2c6b7958ed0c42e0a4ed0d4e16",
+    "original": "Nuka-Cola Quartz",
+    "translation": "核子可乐石英版",
+    "stage": 1
+  },
+  {
+    "key": "SSBottleFull_00103B1E#ALCH:FULL#d1cd816af63f56e5b67335e50ccac737",
+    "original": "Sunset Sarsaparilla",
+    "translation": "夕阳沙士",
+    "stage": 1
+  },
+  {
+    "key": "Absinthe_00115EB1#ALCH:FULL#4abe90ab13d40c4bf5208a678fc16357",
+    "original": "Absinthe",
+    "translation": "苦艾酒",
+    "stage": 1
+  },
+  {
+    "key": "RumNukaCola_0011702C#ALCH:FULL#b811e8208854b69e1f66d41f4644105f",
+    "original": "Rum & Nuka",
+    "translation": "核子古巴",
+    "stage": 1
+  },
+  {
+    "key": "NVGeckoMeat_0011B9AE#ALCH:FULL#0a31e5b69584f69a9d1b69dc0e4ef382",
+    "original": "Gecko Meat",
+    "translation": "蜥蜴肉",
+    "stage": 1
+  },
+  {
+    "key": "WhiskeyDixon_00122B4A#ALCH:FULL#eb9290a135b8cad7ca4a504194984343",
+    "original": "Dixon's Whiskey",
+    "translation": "迪克森的威士忌",
+    "stage": 1
+  },
+  {
+    "key": "RatMeat_0012939E#ALCH:FULL#0047f60cabe5b4e02fd51185b1323ad7",
+    "original": "Rat Meat",
+    "translation": "老鼠肉",
+    "stage": 1
+  },
+  {
+    "key": "NVCCBunkerRadroachMeat_0013215B#ALCH:FULL#8c247cd68a1cea380c49fc018abc4d84",
+    "original": "Irradiated Radroach Meat",
+    "translation": "受辐射的辐射蟑螂肉",
+    "stage": 1
+  },
+  {
+    "key": "LakelurkMeat_00136E13#ALCH:FULL#c8a021b7678d309053913f5851c213a5",
+    "original": "Lakelurk Meat",
+    "translation": "湖沼蟹肉",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedBeer_00143FDE#ALCH:FULL#af711f078639eefd9422dce593471ef3",
+    "original": "Irradiated Beer",
+    "translation": "受辐射的啤酒",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedNVGeckoMeat_00143FE0#ALCH:FULL#a7fbb79e273ede4bf9d0a4562ccf0dd9",
+    "original": "Irr. Gecko Meat",
+    "translation": "受辐射的蜥蜴肉",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedWhiskey_00143FE1#ALCH:FULL#93d416895745b4cca4913c5eef263b76",
+    "original": "Irradiated Whiskey",
+    "translation": "受辐射的威士忌",
+    "stage": 1
+  },
+  {
+    "key": "IrradiatedSSBottleFull_00143FEB#ALCH:FULL#89a03dd3ba4a7f2f579a961119b31055",
+    "original": "Irr. Sunset Sars.",
+    "translation": "受辐射的夕阳沙士",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerNVDLC01VendingMicrofusionCell_0B00858F#NOTE:FULL#8d35b6375ac2240eeb72d130e4c4fde8",
+    "original": "Vending Machine Code - \"Microfusion Cells\"",
+    "translation": "贩卖机编码 - \"微型核聚变电池\"",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerNVDLC01VendingMicrofusionCell_0B00858F#NOTE:TNAM#a643c8e41ac5f256ab3ac917593aa533",
+    "original": "This is a restricted dispenser code for use in the Vending Machines.",
+    "translation": "这是一串限量配货代码，可在自动售货机上使用。",
+    "stage": 1
+  },
+  {
+    "key": "PlasmaProjectile_00035EDA#PROJ:FULL#355c4a53c3bbb07e423c2fafbadd5974",
+    "original": "Plasma beam",
+    "translation": "等离子束",
+    "stage": 1
+  },
+  {
+    "key": "PlasmaCasterProjectile_000906D3#PROJ:FULL#e23ce5c5fd73b783e0ec859155a6f65b",
+    "original": "Plasma Cannon",
+    "translation": "等离子加农炮",
+    "stage": 1
+  },
+  {
+    "key": "PlasmaProjectile02_000A73D6#PROJ:FULL#355c4a53c3bbb07e423c2fafbadd5974",
+    "original": "Plasma beam",
+    "translation": "等离子束",
+    "stage": 1
+  },
+  {
+    "key": "PlasmaProjectileQ35_000E83BE#PROJ:FULL#93001e58691d2466b9ba1a3dc2d22ada",
+    "original": "Plasma beam Q35",
+    "translation": "等离子束Q35",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02FirebombProjectile_0200DD73#PROJ:FULL#f89f33bc55c24347a7a8802aae3d51ff",
+    "original": "Lit Firebomb",
+    "translation": "点燃的火焰炸弹",
+    "stage": 1
+  },
+  {
+    "key": "PreordVault13CanteenQuest_00174095#QUST:FULL#647f3371a9211cf0457b1dcb58b5e0c1",
+    "original": "PreordVault13CanteenQuest",
+    "translation": "预购13号避难所水壶任务",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantGRXPerk_03009D48#PERK:FULL#cd886fc2cd68697e9413d1e7656b1f1d",
+    "original": "Implant GRX",
+    "translation": "植入体GRX",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ImplantGRXPerk_03009D48#PERK:DESC#cc0706f03ed4c10e1a3788ec801f51a4",
+    "original": "You gain a non-addictive subdermal Turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 2 to 3. [Activated in the Pip-Boy inventory.]",
+    "translation": "你获得了一个不会上瘾的增压剂（药物）注射器。这个特长能升2级，第2级能把效果从2秒提高为3秒，把每天的使用次数从2次提升到3次 [已在哔哔小子物品栏启用]",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TraitHoarder_0301276D#PERK:FULL#9448d0265e5f4a2f832c5db987878ea1",
+    "original": "Hoarder",
+    "translation": "囤积者",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TraitHoarder_0301276D#PERK:DESC#9ebce2b0b2d5e3e3f7c68905cb07ebf4",
+    "original": "You gain +15 lbs. to your carrying capacity, but suffer a -1 to all attributes any time the weight you're carrying drops below 75 lbs.",
+    "translation": "你能多负载+15磅的东西！但当你背着的东西少于75磅时，你的所有属性-1。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TraitLogansLoophole_0301276E#PERK:FULL#20526715b6b1d0b045514506740e84cc",
+    "original": "Logan's Loophole",
+    "translation": "永葆青春",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TraitLogansLoophole_0301276E#PERK:DESC#78a47b617bb3e07c6e196b6d3f0b7d8f",
+    "original": "No one's going to put you out to pasture 'cause you're going to stay young (and level 21) forever! You'll never again become addicted to chems, and they'll last twice as long... but after 21 you can kiss experience, perks, and skill points goodbye!",
+    "translation": "多亏了执法者5号罗根的疏忽，再也没有人让你去退休了，因为你青春永驻（永远保持在21级）！你再也不会因嗑药而上瘾，而且药物持续时间是以前的两倍！但是，你不得不向21级以后的经验、特长、技能点说再见了！（致敬电影Logan‘s Run，逃离地下天堂）",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04CertifiedTechPerk_0400A6DE#PERK:FULL#826ed2d5f58f1f2be2a2cb37cbf583d5",
+    "original": "Certified Tech",
+    "translation": "持证技师",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04CertifiedTechPerk_0400A6DE#PERK:DESC#481f836eb0d3cf8266528abc5d29d204",
+    "original": "Your knowledge of robotic components allows you to break them more easily and salvage their mechanical corpses. You have a +25% chance to score critical hits against robots, and you'll also find more useful components on robots you destroy.",
+    "translation": "你积累了大量关于机器人结构的知识，现在你能更轻易破坏它们并重新回收它们身上的机械零件。你增加了25%对机器人的暴击率，并且在已摧毁的机器人身上将获得更多有用的组件。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04BroadDaylightPerk_0400A6DF#PERK:FULL#5ab9e0358f68c1fd7e631d6ca96230e7",
+    "original": "Broad Daylight",
+    "translation": "光天化日",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04BroadDaylightPerk_0400A6DF#PERK:DESC#8049bf808ddc32c05c2373262b62f475",
+    "original": "You're so sneaky that you can sneak even with your Pip-Boy light on! Any time the Pip-Boy light is on, you gain a sneak bonus to offset the light's sneak penalty.",
+    "translation": "你真狡猾，现在就算你的哔哔小子开着灯你也能正常潜行了！如果哔哔小子的灯亮着，你将获得一个潜行奖励以抵消灯光造成的潜行惩罚。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04AintLikeThatNowPerk_0400A749#PERK:FULL#3d7f33e6e4223329a22272afb20680f5",
+    "original": "Ain't Like That Now",
+    "translation": "洗心革面",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04AintLikeThatNowPerk_0400A749#PERK:DESC#a4e8726d028a02148ba018dd9680f277",
+    "original": "Maybe you were bad once, but you ain't like that now. Your Karma has been reset to 0, you regenerate AP 25% faster, and your attack speed is increased by 20%. You are also immune to critical hits. (Requires Bad Karma.)",
+    "translation": "或许你曾经是个坏人，但已经洗心革面了。你的业力已经被重置为0，你的AP再生速度提高25%，并且你的攻击速度提高了20%，同时你将免疫暴击。(需要邪恶的业力)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04ThoughtYouForDeadPerk_0400C24E#PERK:FULL#aa14ac29305bcf71e79522706fd56264",
+    "original": "Thought You Died",
+    "translation": "你是传说",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04ThoughtYouForDeadPerk_0400C24E#PERK:DESC#12f2599d053da28e6562f56c809b0be1",
+    "original": "Your storied past has fallen from memory 'cause everyone thought you died. Your Karma is reset, you inflict +10% damage, and for every 100 points of Karma, you gain 10 Health. You are also immune to critical hits. (Requires Good Karma.)",
+    "translation": "你的传奇故事已经随风而逝，因为人们都以为你已经死了。你的业力将重置，你造成的伤害+10%，并且每100点业力将转换成10点生命值，同时你将免疫暴击。(需要善良的业力)",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04JustLuckyImAlivePerk_0400C24F#PERK:FULL#be5382d0664a8898714a5f06eff064d1",
+    "original": "Just Lucky I'm Alive",
+    "translation": "侥幸生还",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04JustLuckyImAlivePerk_0400C24F#PERK:DESC#f76753582f8073845387d81e096020de",
+    "original": "You've had lots of close calls. Whenever you finish a fight with less than 25% Health, your Luck increases by +4 for 3 minutes. You are also immune to critical hits, and your own critical hits inflict +50% damage. (Requires Neutral Karma.)",
+    "translation": "你有许多死里逃生的经历，如果你在生命值低于25%的情况下结束战斗，在接下来的3分钟内你的幸运值+4。同时你将免疫暴击，并且你自己的暴击伤害+50%。(需要中立的业力)",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerNeverAxedForThisPerk_0B010328#PERK:FULL#d06a4241a554e8e7bf8097cc9810a36b",
+    "original": "Never Axed For This",
+    "translation": "多此一斧",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerNeverAxedForThisPerk_0B010328#PERK:DESC#a3355dacfc3886769c5277f7a62b546e",
+    "original": "Minor bonus to critically hit with Hatchets, Throwing Hatchets, Tomahawks, Proton Axes, Proton Throwing Axes, Protonic Inversal Axes, and Protonic Inversal Throwing Axes.",
+    "translation": "使用斧头、投掷斧、战斧、质子斧、质子飞斧、反质子斧和反质子飞斧时获得少量暴击加成。",
+    "stage": 1
+  },
+  {
+    "key": "DemolitionExpert_00031DAB#PERK:FULL#e1bd11b99ba097c9e17124adb8e9c803",
+    "original": "Demolition Expert",
+    "translation": "爆破专家",
+    "stage": 1
+  },
+  {
+    "key": "DemolitionExpert_00031DAB#PERK:DESC#20785de4654ea0d749ff03d06c5bb26c",
+    "original": "With each rank of this perk, all of your Explosives weapons do an additional 10% damage and have 10% larger area of effect.",
+    "translation": "这个特长每升一级, 所有爆破类武器都能提升20%的伤害，同时提高10%的爆炸范围。",
+    "stage": 1
+  },
+  {
+    "key": "Ninja_00031DCC#PERK:FULL#9e08446a21982619b0dde39917d35b09",
+    "original": "Ninja",
+    "translation": "忍者",
+    "stage": 1
+  },
+  {
+    "key": "Ninja_00031DCC#PERK:DESC#1676cfeac96a1da77018e7da73951b9e",
+    "original": "The Ninja perk grants you the power of the fabled shadow warriors. When attacking with either Melee or Unarmed, you gain a +15% critical chance on every strike. Sneak attack criticals do 25% more damage than normal.",
+    "translation": "“忍者”这个特长将赋予你传说中暗影武士的力量。施展徒手或近战攻击时，你的暴击率提高15%。潜行状态下打出的暴击伤害提高25%。",
+    "stage": 1
+  },
+  {
+    "key": "StrongBack_00031DDE#PERK:FULL#72645b02cd8664be03d63ce5f9954bf6",
+    "original": "Strong Back",
+    "translation": "善背",
+    "stage": 1
+  },
+  {
+    "key": "StrongBack_00031DDE#PERK:DESC#b8184943040a69a1936aa0b1e161a70b",
+    "original": "With the Strong Back perk, you can carry 25 more pounds of equipment.",
+    "translation": "拥有善背这一额外技能，你就可以多背25磅的物品。",
+    "stage": 1
+  },
+  {
+    "key": "LeadBelly_00044CA9#PERK:FULL#4b083131777fb02802686934664a3658",
+    "original": "Lead Belly",
+    "translation": "铅肚皮",
+    "stage": 1
+  },
+  {
+    "key": "LeadBelly_00044CA9#PERK:DESC#cb36d1d33078d8121b3775b743095afc",
+    "original": "With the Lead Belly perk, you take 50% less radiation when consuming irradiated food and drink. You are also able to eat raw animal meat without suffering STR loss.",
+    "translation": "拥有“铅肚皮”这个特长，在饮用放射性的水源时, 你受到的辐射量会减少50％。同时，你吃生肉不再降低力量。",
+    "stage": 1
+  },
+  {
+    "key": "LadyKiller_00094EB9#PERK:FULL#f9100c592fe067febd4f1c9878330e44",
+    "original": "Lady Killer",
+    "translation": "红颜杀手",
+    "stage": 1
+  },
+  {
+    "key": "LadyKiller_00094EB9#PERK:DESC#697333c87799be56f54ded3630d4f95b",
+    "original": "In combat, you do +15% damage against female opponents. Outside of combat, you'll sometimes have access to unique dialogue options when dealing with the opposite sex.",
+    "translation": "战斗中, 你对所有女性目标的伤害+15％。平日里，和某些异性对话时会出现特殊选项。",
+    "stage": 1
+  },
+  {
+    "key": "CherchezLaFemme_001361B3#PERK:FULL#348028390b89aa8564cd36b26a75886e",
+    "original": "Cherchez La Femme",
+    "translation": "总找女人",
+    "stage": 1
+  },
+  {
+    "key": "CherchezLaFemme_001361B3#PERK:DESC#d407f791f46c4b2c8241319e017a5d02",
+    "original": "In combat, you do +15% damage against female opponents. Outside of combat, you'll sometimes have access to unique dialogue options when dealing with the same sex.",
+    "translation": "在战斗中，你对女性敌人的伤害+15%。平日里，你在与某些同性对象谈话时可以开启特殊选项。",
+    "stage": 1
+  },
+  {
+    "key": "Cowboy_00138562#PERK:FULL#0d0d1a105e1ec07c6611ab170b29b4df",
+    "original": "Cowboy",
+    "translation": "牛仔",
+    "stage": 1
+  },
+  {
+    "key": "Cowboy_00138562#PERK:DESC#a78f61e5120bdd24f2e09a766fe43235",
+    "original": "You do 20% more damage when using any revolver, lever-action firearm, dynamite, knife, or hatchet.",
+    "translation": "当你使用左轮手枪、杠杆式火器、炸药、刀或斧头时，你造成的伤害提高20%。",
+    "stage": 1
+  },
+  {
+    "key": "Meltdown_0014609A#PERK:FULL#b7b7ad00026b795064c554b5bf22c966",
+    "original": "Meltdown",
+    "translation": "熔毁",
+    "stage": 1
+  },
+  {
+    "key": "Meltdown_0014609A#PERK:DESC#9756d793c74bc0c66dae64e84d355625",
+    "original": "Meltdown causes foes killed by your plasma weapons to give off a corona of harmful energy. Note: this can cause a chain reaction.",
+    "translation": "“熔毁”特长会使被你用能量武器杀死的敌人身上爆发出有害的能量波。注意，这可能引发连锁反应。",
+    "stage": 1
+  },
+  {
+    "key": "SuperSlam_0014609E#PERK:FULL#5f4768dc5621bdbd6d5a7b74fac95658",
+    "original": "Super Slam",
+    "translation": "超级大满贯",
+    "stage": 1
+  },
+  {
+    "key": "SuperSlam_0014609E#PERK:DESC#a5adc31f8c049eafdfa68b299c4f8264",
+    "original": "All Melee Weapons (except thrown) and Unarmed attacks have a chance of knocking your target down.",
+    "translation": "所有的近战武器（除了投掷武器）和徒手攻击都有机会将目标打晕。",
+    "stage": 1
+  },
+  {
+    "key": "PiercingStrike_0014609F#PERK:FULL#db772db528f67fe18a241cb6e84133ea",
+    "original": "Piercing Strike",
+    "translation": "穿刺打击",
+    "stage": 1
+  },
+  {
+    "key": "PiercingStrike_0014609F#PERK:DESC#8e29690c2de7b80b0a47b789c33feeeb",
+    "original": "Piercing Strike makes all of your Unarmed and Melee Weapons (including thrown) negate 15 points of Damage Threshold on the target.",
+    "translation": "“穿刺打击”会让你的徒手和近战攻击（包括投掷武器）抵消掉目标的15点伤害减免。",
+    "stage": 1
+  },
+  {
+    "key": "CompanionSuite_0015C571#PERK:FULL#5a4a59088e2e715791759b75483bca9f",
+    "original": "Companion Suite",
+    "translation": "同伴套件",
+    "stage": 1
+  },
+  {
+    "key": "CompanionSuite_0015C571#PERK:DESC#31103a14fa4ec6a0697f96cd0c519b74",
+    "original": "COMPANIONS ONLY\\n* Mult Weap DAM 0.25\\n* Mult Target DT 0.25 (broken, requires engine-level fix)\\n* Decrease Carry Weight 75\\n* Increase DR 33%",
+    "translation": "仅用于同伴\\n* 武器伤害乘数 0.25\\n* 目标伤害减免乘数 0.25 (已损坏, 需要引擎层面的修复)\\n* 降低负重 75\\n* 提高伤害抗性 33%",
+    "stage": 1
+  },
+  {
+    "key": "Slayer_00165446#PERK:FULL#18fd4bcd34c37268af9b58eb34b773f6",
+    "original": "Slayer",
+    "translation": "屠夫",
+    "stage": 1
+  },
+  {
+    "key": "Slayer_00165446#PERK:DESC#8652d933e2f946efaf7514241838f0e7",
+    "original": "The slayer walks the earth! The speed of all Melee Weapons and Unarmed attacks is increased by 30%.",
+    "translation": "你是世上一流的屠夫！所有近战武器和徒手攻击的速度上升30%。",
+    "stage": 1
+  },
+  {
+    "key": "UnstoppableForce_00165447#PERK:FULL#4271acd30b48fc8c6da7e936b03db814",
+    "original": "Unstoppable Force",
+    "translation": "无坚不摧",
+    "stage": 1
+  },
+  {
+    "key": "UnstoppableForce_00165447#PERK:DESC#1c67bfefebb63e71c49e8ca9da37c57a",
+    "original": "Your martial might is truly legendary. You do a large amount of additional damage through enemy blocks with all Melee Weapons and Unarmed attacks.",
+    "translation": "你的勇武万夫莫敌。在施展近战与徒手攻击时，你对正在格挡的敌人造成的伤害将大幅增加。",
+    "stage": 1
+  },
+  {
+    "key": "Stonewall_00165449#PERK:FULL#b5f07febee8f178ea70338183e982dfb",
+    "original": "Stonewall",
+    "translation": "坚如磐石",
+    "stage": 1
+  },
+  {
+    "key": "Stonewall_00165449#PERK:DESC#764139d08bc6016e291781f088b7d199",
+    "original": "You gain +10 Damage Threshold against all Melee Weapons and Unarmed attacks and cannot be knocked down in combat.",
+    "translation": "你对所有近战和徒手攻击的伤害减免+10点，并且无法在战斗中被击倒。",
+    "stage": 1
+  },
+  {
+    "key": "PlasmaSpaz_00165AEF#PERK:FULL#19b61ccd495539c88d7d9ae69c8d32e1",
+    "original": "Plasma Spaz",
+    "translation": "等离子怪客",
+    "stage": 1
+  },
+  {
+    "key": "PlasmaSpaz_00165AEF#PERK:DESC#bf697cc79ace64de878a4d5018713545",
+    "original": "You're just so excited about plasma that you can't (magnetically) contain yourself! The AP costs for all plasma weapons (including Plasma Grenades) are reduced by 20%. You also attack 20% faster with the same weapons.",
+    "translation": "你醉心于等离子的魅力，仿佛它的磁力吸引着你，让你无法自拔！所有的等离子武器（包括等离子手雷）的行动点消耗下降20%。同时，你使用这些武器的攻击速度加快20%。",
+    "stage": 1
+  },
+  {
+    "key": "SplashDamage_00165AF0#PERK:FULL#cbcd5799c7b05a45b5ba642769785b6e",
+    "original": "Splash Damage",
+    "translation": "溅射伤害",
+    "stage": 1
+  },
+  {
+    "key": "SplashDamage_00165AF0#PERK:DESC#34dc524dcd4f57ec675065b462a0e520",
+    "original": "When you're deep in enemy territory, you just start chucking grenades and hope for the best. All Explosives have a 25% larger area of effect.",
+    "translation": "你一深入敌阵，就开始四处丢雷，希望能炸出一道亮丽的风景线。所有爆破武器的杀伤范围提高25%。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01ElijahLastWords_0100D4A8#PERK:FULL#a4bc7e77232917bf30690ce3d083e31d",
+    "original": "Elijah's Last Words",
+    "translation": "以利亚的遗言",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01ElijahRamblings_0100D4A9#PERK:FULL#20b7f239ea851c1576df42297032d4fe",
+    "original": "Elijah's Ramblings",
+    "translation": "以利亚的妄言",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01ElijahRamblings_0100D4A9#PERK:DESC#e665e03a05895dcec55e77f2672f2daa",
+    "original": "Elijah obviously intended this to go to Veronica, but you earned it, right?\\n\\nYou've learned Elijah's secret technique and your Melee Weapon Critical Hits now do 25% more damage.",
+    "translation": "以利亚明显想把这招传授给维罗妮卡，但这是你应得的，对吧？\\n\\n你学会了以利亚的近战秘笈，你的近战武器暴击将额外造成25%的伤害。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02Grunt_0200F677#PERK:FULL#3b4d992d0cdaa39fb24f4ebcc51a886a",
+    "original": "Grunt",
+    "translation": "大兵",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02Grunt_0200F677#PERK:DESC#3162886616dda70653e68fab9bae87d6",
+    "original": "Just good, honest infantry work! You do 20% more damage with 9mm and .45 Auto Pistols and SMGs, Service Rifles, Assault Carbines, Battle Rifles, Light Machine Guns, Frag Grenades, Grenade Rifles and Launchers, and Combat Knives.",
+    "translation": "你的步兵经历让你受益匪浅！在使用9mm手枪和冲锋枪、.45自动手枪和冲锋枪、军用步枪、突击卡宾枪、神射卡宾枪、战斗步枪、轻机枪、破片手雷、榴弹枪、榴弹发射器以及战斗匕首时，你造成的伤害增加25%。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ThemsGoodEatingPerk_030098C9#PERK:FULL#c5a8e506bc06dace03e65b488dfe2a71",
+    "original": "Them's Good Eatin'",
+    "translation": "血肠狂人",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ThemsGoodEatingPerk_030098C9#PERK:DESC#1302e2acbef568e7d75280f31198b84c",
+    "original": "Any living creature you kill has a 15% chance to have the potent healing items Thin Red Paste or Blood Sausage when looted.",
+    "translation": "你见人吃人，见鬼吃鬼！你杀死任何生物时，有15%几率会掉落治疗品稀血酱或血肠。",
+    "stage": 1
+  },
+  {
+    "key": "HelpHealingLimbsXBox_00072359#MESG:DESC#31e5bda55b68ec155b7461e9429ff697",
+    "original": "<div>\\nIn order to heal a crippled limb, you have three choices: sleep in a bed, find a doctor, or use a Stimpak to heal yourself. In Hardcore Mode, you may only heal crippled limbs by using Doctor's Bags or by visiting a doctor for medical care.\\n<p>\\nStimpaks can be used for general healing (which will also slightly heal crippling damage), or they can be applied directly to a limb to heal crippling damage.\\n<p>\\nTo heal a crippled limb directly using a Stimpak, navigate to the Stats screen in your Pip-Boy, then press &sXBXBtn; to switch to Limb mode. Now you can use &sXBLStick; to select a limb, and &sXBABtn; to use a Stimpak on the selected limb.\\n<p>\\nThere are several different kinds of Stimpaks in the wasteland, and the count shown in the Stats screen represents the total of all the variants you are currently carrying. When you use a Stimpak in this screen, your weakest variant will be consumed first.\\n<p>\\nIn Hardcore Mode, you may only heal crippled limbs by using Doctor's Bags or by visiting a doctor for medical care.",
+    "translation": "为了治疗残废的肢体，你有三种选择：在床上睡觉，找个医生，或使用治疗针来自己医治。\\n\\n治疗针能被用来进行通常的治疗（那也会稍微地治疗到残废造成的伤害），或者它们也能被直接应用在躯体部位上来治疗残废伤害。\\n\\n想直接用治疗针治疗残废的肢体，在你的哔哔小子中切换到状态窗口，然后点击&sXBXBtn; 来切换到肢体模式。现在你能用&sXBLThumb; 来选择一个部位，再按&sXBABtn; 在选中部位使用一根治疗针。\\n\\n废土上有几种不同的治疗针，状态窗口中显示的数量代表你当前携带的所有治疗针变体的总和。在此窗口中使用治疗针时，最弱的变体将首先被消耗。\\n\\n在硬核模式中，你只能通过使用医疗包或看医生来治疗残废的肢体。",
+    "stage": 1
+  },
+  {
+    "key": "HelpHealingLimbsXBox_00072359#MESG:FULL#c471bbea81d2686852f6ceaa31f83a8a",
+    "original": "Healing Limbs",
+    "translation": "治疗四肢",
+    "stage": 1
+  },
+  {
+    "key": "HelpRadiation_0007235B#MESG:DESC#a00df5dfa841c7a653ee1a1ff1d5a38e",
+    "original": "You can be exposed to radiation either directly from the environment, or by ingesting irradiated food or water. A small amount of radiation will not hurt you, but as your accumulated exposure goes up, you will begin to suffer ill effects, including death, eventually.\\n\\nRadiation Poisoning Effects:\\n\\n* 400 rads: -1 EN\\n* 550 rads: -2 EN, -1 AG\\n* 700 rads: -3 EN, -2 AG, -1 ST\\n* 850 rads: -3 EN, -2 AG, -2 ST\\n* 1000 rads: Death!\\n\\nRadiation Poisoning does not wear off, but can be healed by a doctor, or by taking RadAway. You can also protect yourself ahead of time by taking Rad-X, which increases your Radiation Resistance.\\n\\nYour accumulated radiation exposure is displayed in your Pip-Boy, in the Status section of the Stats tab.",
+    "translation": "你会因为接触被污染的环境，或摄入放射性的食物或水而受到辐射。小剂量的辐射不会伤害你，但是当你累计的辐射超过一定限度，你就会患上辐射病，重者可能导致死亡。\\n\\n辐射病效果：\\n\\n* 400 辐射: -1 耐力\\n* 550 辐射: -2 耐力, -1 敏捷\\n* 700 辐射: -3 耐力, -2 敏捷, -1 力量\\n* 850 辐射: -3 耐力, -2 敏捷, -2 力量\\n* 1000 辐射: 挂了！\\n\\n辐射病不会自动痊愈，但能被医生治好，服用辐特宁也可以消除病症。你也可以通过服用放射线-X来预防辐射，那会增强你的辐射抵抗力。\\n\\n你受到的累计辐射量会在哔哔小子上显示出来，就在状态选项卡的辐射分项上。",
+    "stage": 1
+  },
+  {
+    "key": "HelpRadiation_0007235B#MESG:FULL#86b7ce767662c469ab26d5b04544d829",
+    "original": "Radiation",
+    "translation": "辐射",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01MessagePerkElijahLastWords_0100D4AA#MESG:DESC#62b55cac05da278342086728cbf7e759",
+    "original": "Veronica has received the Elijah's Last Words perk.\\n\\nShe has learned a secret Melee Weapon and Unarmed technique that increases her damage by 25%% and gives her a 25%% chance to knock down enemies.",
+    "translation": "维罗妮卡获得了特长“以利亚的遗言”。\\n\\n她学会了一种近战武器攻击秘技，使得攻击伤害提升25%，并且有25%的概率可以将敌人击倒。",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerChallengeMessageAxed_0B012723#MESG:DESC#52c5c54812a81c61c973b9ea292527ac",
+    "original": "You have gained the I Never Axed for This perk (Rank %.0f)",
+    "translation": "你获得了“多此一斧”的特长 (等级 %.0f)",
+    "stage": 1
+  },
+  {
+    "key": "HelpApparel_0000018B#MESG:DESC#68d591a12dd5ad75c1510082767072a0",
+    "original": "Apparel can consist of many different types of gear ranging from clothing and armor to sunglasses and hats.\\n\\n* DR and DT: Apparel grants DR and DT to protect from damage. The totals displayed at the top of your Pip-Boy are a combination of all your equipped armor, in addition to any bonuses from perks or chems. DR represents the percentage reduction of all incoming damage, and is applied first. Your DT value is then directly subtracted from the remaining damage, although even the thickest armor will still let a small amount of damage through.\\n\\n* CND: Apparel's Condition (CND) affects how much protection it provides. Apparel above 50% CND provides maximum protection and only needs to be maintained.\\n\\n* Light/Medium/Heavy: Medium and Heavy apparel will slow characters down when equipped.\\n\\n* Repair: This option opens the Repair submenu, which allows apparel to be repaired by salvaging parts from similar items.",
+    "translation": "服装由各种不同的部分组成，从衣物和装甲，到墨镜和帽子。\\n\\n伤害减免（DT）和伤害抗性（DR）：服装可提供伤害抗性和伤害减免，保护您免受伤害。哔哔小子顶部所显示的总值是所身着的全部服装及特长或药物所带来的加成的总和。伤害抗性代表对所有伤害的百分比减免，在计算伤害时首先应用，然后伤害会直接扣去伤害减免值。即使是最密实的装甲，也会有少量伤害穿透过去。\\n\\n耐久（CND）：服装的耐久度会影响其所能提供的保护。耐久在50%以上的服装能够提供最大限度的保护，并且只需要少量的保养即可。\\n\\n* 轻甲/中甲/重甲：中甲和重甲装备后会降低角色的移动速度。\\n\\n* 修理：这一选项会打开修理子菜单，可以用类似物品上的部件来修补当前所选择的服装。",
+    "stage": 1
+  },
+  {
+    "key": "HelpApparel_0000018B#MESG:FULL#8415fd156036ebcd5afd05560c8c810e",
+    "original": "Apparel",
+    "translation": "服装",
+    "stage": 1
+  },
+  {
+    "key": "HelpHardcoreNeeds_00000190#MESG:DESC#9088d9e1fab27725b2efce396c8c08e1",
+    "original": "Welcome to Hardcore Mode! There are three basic needs that Hardcore Mode requires you to monitor: dehydration (H2O), starvation (FOD), and sleep deprivation (SLP). Each of these needs must be monitored and kept in check or you will suffer penalties and, in extreme cases, death.\\n\\nYour needs are continually ticking away and can be monitored on the Status screen of your Pip-Boy. When you start to suffer ill-effects from neglected needs, your HUD will display the corresponding code for that need. Be aware that waiting, sleeping, and Fast Travel will also affect your needs. If performing any of these activities would result in death, you will be prevented from doing so.\\n\\n* Dehydration (H20) - Dehydration increases at a faster pace than starvation or sleep deprivation. It can be relieved by drinking water or eating certain types of food.\\n\\n* Starvation (FOD) - The onset of starvation is slower than dehydration, but quicker than sleep deprivation. It can be relieved by eating food.\\n\\n* Sleep Deprivation (SLP) - Sleep deprivation is the most low-maintenance of the basic needs. Though a few chems and drinks can help offset sleep deprivation, nothing beats sleep itself.",
+    "translation": "欢迎来到硬核模式！硬核模式中你必须时刻注意三种需求：口渴（H2O），饥饿（FOD）和困倦（SLP）。你必须时刻注意满足这三种需求，否则你的身体状态就会受到影响，在极端情况下甚至可能导致死亡。\\n\\n你的需求会随着时间持续上升，可以从哔哔小子的状态栏上看到。当你忽视了需求而受到负面状态的影响时，你的右下角界面会提醒你满足对应的需求。需要注意的是，等待、睡眠和快速旅行也会影响你的需求。如果这些行动会导致人物死亡，你将会被禁止此类行动。\\n\\n* 口渴（H2O）- 口渴度的上升速度比饥饿和困倦快。可以通过喝水或食用特定的食物来降低。\\n\\n* 饥饿（FOD）- 饥饿的速度要比口渴慢，但比困倦快。可以通过摄入食物来缓解。\\n\\n* 困倦（SLP）- 困倦是基本需求中最难以维持的。虽然药物和饮料可以帮助抵御倦意，但没有什么比好好睡上一觉更能解决问题。",
+    "stage": 1
+  },
+  {
+    "key": "HelpHardcoreNeeds_00000190#MESG:FULL#8401d77944ac578c96ffd23e7c92948f",
+    "original": "Hardcore Needs",
+    "translation": "硬核需求",
+    "stage": 1
+  },
+  {
+    "key": "PowerArmorTrainingPerkMsg_00070A14#MESG:DESC#000237e2a9988dc9423bec8b55597e2e",
+    "original": "You have received the specialized training needed to more effectively use Power Armor. Power armor now weights less when worn.",
+    "translation": "你已经接受了更有效地使用动力装甲所需的专门训练。现在动力装甲在穿着时重量减轻。",
+    "stage": 1
+  },
+  {
+    "key": "PowerArmorTrainingPerkMsg_00070A14#MESG:FULL#12f61682c35d31b0a367815f870f351d",
+    "original": "Perk Added",
+    "translation": "特长已添加",
+    "stage": 1
+  },
+  {
+    "key": "HelpHealingLimbs_00072358#MESG:DESC#4fe5c9072c3cd6175333b88cdcd65eed",
+    "original": "<div>\\nIn order to heal a crippled limb, you have three choices: sleep in a bed, find a doctor, or use a Stimpak to heal yourself. In Hardcore Mode, you may only heal crippled limbs by using Doctor's Bags or by visiting a doctor for medical care.\\n<p>\\nStimpaks can be used for general healing (which will also slightly heal crippling damage), or they can be applied directly to a limb to heal crippling damage.\\n<p>\\nTo heal a crippled limb directly using a Stimpak, navigate to the Stats screen in your Pip-Boy, then left-click on a limb to use a Stimpak on that limb.\\n<p>\\nThere are several different kinds of Stimpaks in the wasteland, and the count shown in the Stats screen represents the total of all the variants you are currently carrying. When you use a Stimpak in this screen, your weakest variant will be consumed first.",
+    "translation": "为了治疗残废的肢体，你有三种选择：在床上睡觉，找个医生，或使用治疗针来自救。\\n\\n治疗针不仅能用来进行通常的医疗（也会稍微地治疗残废），也可以直接用在肢体部位上来治疗残废。\\n\\n想直接用治疗针治疗残废的肢体，先在你的哔哔小子中切换到状态窗口，然后左键点击某个身体部位，就能在那个部位上使用治疗针。\\n\\n废土上有几种不同的治疗针，状态窗口中显示的数量代表你当前携带的所有治疗针变体的总和。在此窗口中使用治疗针时，最弱的变体将首先被消耗。",
+    "stage": 1
+  },
+  {
+    "key": "HelpHealingLimbs_00072358#MESG:FULL#c471bbea81d2686852f6ceaa31f83a8a",
+    "original": "Healing Limbs",
+    "translation": "治疗四肢",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWLongBarrel_05000826#IMOD:FULL#8a2037b15557df25cce183f792499dc5",
+    "original": "25mm G. APW Long Barrel",
+    "translation": "25mm榴弹发射器长枪管",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWLongBarrel_05000826#IMOD:DESC#1bdaaf26f4a6a6a34ae309b7266deae6",
+    "original": "Increases projectile velocity (+100%).",
+    "translation": "提升抛射物初速 (+100%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWUpgradedInternals_05000827#IMOD:FULL#a0b9ca13cdeccd6f1e84b5dd254d4626",
+    "original": "25mm G. APW Upgraded Int.",
+    "translation": "25mm榴弹发射器改进型机匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWUpgradedInternals_05000827#IMOD:DESC#50442f8164f0de23cfee64fb08af5c89",
+    "original": "Increases rate of fire (+25%).",
+    "translation": "提升武器射速 (+25%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCarbonFiberParts_05000828#IMOD:FULL#9f3a96f7f8966048fe2b1d0ce761ec57",
+    "original": "Anti-Mat. Rifle CF Parts",
+    "translation": "反器材步枪碳纤维枪身",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCarbonFiberParts_05000828#IMOD:DESC#ef1a386525079868fece57b1464b5a5e",
+    "original": "Decreases weight (-7).",
+    "translation": "减少重量 (-7)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCustomBolt_05000829#IMOD:FULL#77dae586db267570f3ad828ee19342e0",
+    "original": "Anti-Mat. Rifle Custom Bolt",
+    "translation": "反器材步枪改进型枪栓",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleCustomBolt_05000829#IMOD:DESC#429c60e670ade4975d03e1a7e4dac7ee",
+    "original": "Increases rate of fire (+20%).",
+    "translation": "提升武器射速 (+20%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleSuppressor_0500082A#IMOD:FULL#bbe27905e880f019ded5cf3a78917142",
+    "original": "Anti-Mat. Rifle Suppressor",
+    "translation": "反器材步枪抑制器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAntiMaterielRifleSuppressor_0500082A#IMOD:DESC#76f0faca3ebf0d43a6813755dac4f6c1",
+    "original": "Decreases gunshot noise.",
+    "translation": "降低枪声。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineExtendedMags_0500082B#IMOD:FULL#157a56a883605c9be2036ba702654d1d",
+    "original": "Assault Carb. Ext. Mags",
+    "translation": "突击卡宾枪扩容弹匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineExtendedMags_0500082B#IMOD:DESC#ae981512455d16944ae14293ec72d310",
+    "original": "Increases ammunition capacity (+6).",
+    "translation": "提升弹容量 (+6)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineForgedReceiver_0500082C#IMOD:FULL#0ef9118caabfa2eec0645959cf9828e3",
+    "original": "Assault Carb. Forged Receiver",
+    "translation": "突击卡宾枪强化型机匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineForgedReceiver_0500082C#IMOD:DESC#1d941d8d68c2ac42325df1c7e9fcca9f",
+    "original": "Increases condition (+33%).",
+    "translation": "提升耐久 (+33%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineLightBolt_0500082D#IMOD:FULL#6031b816dcae1df7cd087fdb3766f4b5",
+    "original": "Assault Carb. Light Bolt",
+    "translation": "突击卡宾枪轻型枪栓",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVAssaultCarbineLightBolt_0500082D#IMOD:DESC#429c60e670ade4975d03e1a7e4dac7ee",
+    "original": "Increases rate of fire (+20%).",
+    "translation": "提升武器射速 (+20%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatCorkCore_0500082E#IMOD:FULL#1c6d14563358ccececd6b99af1e4d764",
+    "original": "Baseball Bat Cork Core",
+    "translation": "棒球棍软木棒芯",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatCorkCore_0500082E#IMOD:DESC#ffd7492bfdc5be865d588d5ce717435a",
+    "original": "Increases attack speed (+20%).",
+    "translation": "提升攻击速度 (+20%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatMapleBody_0500082F#IMOD:FULL#ac4accdc70c4ea7c27bba18c53050351",
+    "original": "Baseball Bat Maple Body",
+    "translation": "棒球棍枫木棒身",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatMapleBody_0500082F#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatNails_05000830#IMOD:FULL#918c9dd762c2e412647b1ea22ee95089",
+    "original": "Baseball Bat Nails",
+    "translation": "棒球棍加装铁钉",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVBaseballBatNails_05000830#IMOD:DESC#00e8af3d35cd96b40060fbb47847440f",
+    "original": "Increases damage (+6).",
+    "translation": "提升伤害 (+6)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawAlloyFrame_05000831#IMOD:FULL#e813e2c2fde0df95215dcd7f3f1c1d96",
+    "original": "Chainsaw Alloy Frame",
+    "translation": "链锯合金框架",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawAlloyFrame_05000831#IMOD:DESC#bdf8320f19ea15af7fa68de63d43f4dd",
+    "original": "Decreases weight (-8).",
+    "translation": "减少重量 (-8)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawCarbideTeeth_05000832#IMOD:FULL#9e4e69bcec90353e758de924eb036b35",
+    "original": "Chainsaw Carbide Teeth",
+    "translation": "链锯碳钢锯齿",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawCarbideTeeth_05000832#IMOD:DESC#0bffe9bbcbd562cef183c31ac8280a4b",
+    "original": "Increases damage (+15).",
+    "translation": "提升伤害 (+15)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawHeavyDutyChain_05000833#IMOD:FULL#5cae553195e945dc05454eae0e239948",
+    "original": "Chainsaw HD Chain",
+    "translation": "链锯强化锯链",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVChainsawHeavyDutyChain_05000833#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverMatchBarrel_05000834#IMOD:FULL#8e4a7dec11624c549cbd7a80543c7c69",
+    "original": "Hunting Rev. Match Barrel",
+    "translation": "狩猎左轮竞赛型枪管",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverMatchBarrel_05000834#IMOD:DESC#8abbf68f8d375d9ea598babbbe5df1e7",
+    "original": "Decreases spread (-43%).",
+    "translation": "减少散布 (-43%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverSixShotCylinder_05000836#IMOD:FULL#bf7f815ef1f59bf67272e5bdfaa48a39",
+    "original": "Hunting Rev. 6-Shot Cylinder",
+    "translation": "狩猎左轮6发弹巢",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVHuntingRevolverSixShotCylinder_05000836#IMOD:DESC#1e8be247864551fc455bda31976b3282",
+    "original": "Increases ammunition capacity (+1).",
+    "translation": "提升弹容量 (+1)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaAuthenticBlade_05000837#IMOD:FULL#da04f2ef58e417f2153053539b1d8842",
+    "original": "Katana Authentic Blade",
+    "translation": "武士刀原品刀刃",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaAuthenticBlade_05000837#IMOD:DESC#6c7b45cd040d42b1b76c8e6c22217c88",
+    "original": "Increases damage (+5).",
+    "translation": "提升伤害 (+5)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaBalancedGrip_05000838#IMOD:FULL#33aeb9304ae51ab2e3a31fb12648c82f",
+    "original": "Katana Balanced Grip",
+    "translation": "武士刀平衡刀把",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaBalancedGrip_05000838#IMOD:DESC#ffd7492bfdc5be865d588d5ce717435a",
+    "original": "Increases attack speed (+20%).",
+    "translation": "提升攻击速度 (+20%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaProtectiveSheath_05000839#IMOD:FULL#d876cbd6ddb4fa21df8bd3445122305a",
+    "original": "Katana Protective Sheath",
+    "translation": "武士刀防护刀鞘",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVKatanaProtectiveSheath_05000839#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolCombatSights_0500083A#IMOD:FULL#26699dd84852b87f1522f92868271e78",
+    "original": "Laser Pistol Combat Sights",
+    "translation": "激光手枪战斗瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolCombatSights_0500083A#IMOD:DESC#e0503679748b8cec2eea591f4c6dc138",
+    "original": "Adds short-range iron sights.",
+    "translation": "添加短距离机械瞄具。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolFocusOptics_0500083B#IMOD:FULL#6f7fe9a7f5c52e7ca6cb9ae1193dc621",
+    "original": "Laser Pistol Focus Optics",
+    "translation": "激光手枪光学聚焦器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolFocusOptics_0500083B#IMOD:DESC#fac7628e8b24172134664921cfe099d6",
+    "original": "Increases damage (+3).",
+    "translation": "提升伤害 (+3)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolRecycler_0500083C#IMOD:FULL#91b34d45bc1abfe6a5774e1e0ef07934",
+    "original": "Laser Pistol Recycler",
+    "translation": "激光手枪电池回收器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVLaserPistolRecycler_0500083C#IMOD:DESC#320aa22bef8731968d4f87f78a0e408d",
+    "original": "Replenishes ammunition (1/4 shots).",
+    "translation": "补充弹药 (1发/4次射击)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderHighCapTerminal_0500083D#IMOD:FULL#28f00082951026054ae948f82af36646",
+    "original": "Plasma Def. Hi-Cap Terminal",
+    "translation": "等离子护卫者大容量端子",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderHighCapTerminal_0500083D#IMOD:DESC#ad49f1dec19c60f40c81e89d3500d113",
+    "original": "Increases ammunition capacity (+32).",
+    "translation": "提升弹容量 (+32)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderScope_0500083E#IMOD:FULL#346495fc8903847bbd84ede009d7e1cf",
+    "original": "Plasma Def. Scope",
+    "translation": "等离子护卫者瞄准镜",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderScope_0500083E#IMOD:DESC#0564729d6bab7218182b4aa7a7e05157",
+    "original": "Adds short-range scope.",
+    "translation": "添加短程瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderSheathStabilizer_0500083F#IMOD:FULL#911468eafc008cae726165b4267a0bc1",
+    "original": "Plasma Def. Sheath Stabilizer",
+    "translation": "等离子护卫者改进稳定器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaDefenderSheathStabilizer_0500083F#IMOD:DESC#3b4ecffa182f10748a72d90f9a459620",
+    "original": "Decreases spread (-67%).",
+    "translation": "减少散布 (-67%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolHighEnergyIonizer_05000840#IMOD:FULL#b1529fb3d89a2f222f7ee3c534fe077d",
+    "original": "Plas. Pistol Hi-Energy Ionizer",
+    "translation": "等离子手枪高能电离器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolHighEnergyIonizer_05000840#IMOD:DESC#18c4438eb9beadddb33ad7fcabebb4f9",
+    "original": "Increases damage (+7).",
+    "translation": "提升伤害 (+7)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolMagneticAccelerator_05000841#IMOD:FULL#336ce8e5898b8f131ebde3c82dd47f90",
+    "original": "Plas. Pistol Mag. Accelerator",
+    "translation": "等离子手枪粒子加速器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolMagneticAccelerator_05000841#IMOD:DESC#1bdaaf26f4a6a6a34ae309b7266deae6",
+    "original": "Increases projectile velocity (+100%).",
+    "translation": "提升抛射物初速 (+100%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolRecycler_05000842#IMOD:FULL#bcbaee8aa0e2b1bf67ec43ff5121fe2e",
+    "original": "Plas. Pistol Recycler",
+    "translation": "等离子手枪电池回收器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPlasmaPistolRecycler_05000842#IMOD:DESC#320aa22bef8731968d4f87f78a0e408d",
+    "original": "Replenishes ammunition (1/4 shots).",
+    "translation": "补充弹药 (1发/4次射击)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistChromedTubes_05000843#IMOD:FULL#ca2edb1ac44ec77212eb63d6d40d17cd",
+    "original": "Power Fist Chromed Tubes",
+    "translation": "动力拳套镀铬管路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistChromedTubes_05000843#IMOD:DESC#7667a7a9eea9d47ac610d858729683fe",
+    "original": "Increases condition (+100%).",
+    "translation": "提升耐久 (+100%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistHighCapValves_05000844#IMOD:FULL#ad09095ae21aa043d91e4efb9f05917b",
+    "original": "Power Fist Hi-Cap Valves",
+    "translation": "动力拳套大容量阀门",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistHighCapValves_05000844#IMOD:DESC#40c366a942a7abb41209573aab112954",
+    "original": "Increases damage (+8).",
+    "translation": "提升伤害 (+8)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistPortedChambers_05000845#IMOD:FULL#eb2a9cd9044fb8a5e5af17435447a613",
+    "original": "Power Fist Ported Chambers",
+    "translation": "动力拳套护手装置",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVPowerFistPortedChambers_05000845#IMOD:DESC#ffd7492bfdc5be865d588d5ce717435a",
+    "original": "Increases attack speed (+20%).",
+    "translation": "提升攻击速度 (+20%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperCarbideTeeth_05000846#IMOD:FULL#d2cec0aad042bb19fee8be9ca3692448",
+    "original": "Ripper Carbide Teeth",
+    "translation": "开膛手碳钢锯齿",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperCarbideTeeth_05000846#IMOD:DESC#e7390e8ba9f03a890222e83f008fb3ff",
+    "original": "Increases damage (+10).",
+    "translation": "提升伤害 (+10)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperHeavyDutyChain_05000847#IMOD:FULL#7445bfbefc3ce6ae179dc322cf353f3f",
+    "original": "Ripper HD Chain",
+    "translation": "开膛手强化锯链",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVRipperHeavyDutyChain_05000847#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleFocusOptics_05000849#IMOD:FULL#9cde4deda8d05f77e77f9106a13a3e45",
+    "original": "Tri-beam LR Focus Optics",
+    "translation": "三束激光步枪光学聚焦器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleFocusOptics_05000849#IMOD:DESC#c875655dcc9ba74ea569626ed80b7f1f",
+    "original": "Increases damage (+9).",
+    "translation": "提升伤害 (+9)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHDCapacitors_0500084A#IMOD:FULL#475bd8d3ba72b9a97b0b6687bc826edc",
+    "original": "Tri-beam LR HD Caps",
+    "translation": "三束激光步枪强化电容",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHDCapacitors_0500084A#IMOD:DESC#11c537132d1d1e890c82a79537d1ebc5",
+    "original": "Increases condition (+200%).",
+    "translation": "提升耐久 (+200%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHighCapTerminal_0500084B#IMOD:FULL#cfc7174f122ed926a968f2927db6e7af",
+    "original": "Tri-beam LR Hi-Cap Terminal",
+    "translation": "三束激光步枪大容量端子",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNVTriBeamLaserRifleHighCapTerminal_0500084B#IMOD:DESC#bbe93aa928563a4154fea957124391ab",
+    "original": "Increases ammunition capacity (+24).",
+    "translation": "提升弹容量 (+24)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGLaserSight_05000822#IMOD:FULL#61ff0b26ee6670815d7bc9602c5da9ed",
+    "original": "12.7mm SMG Laser Sight",
+    "translation": "12.7mm冲锋枪激光指示器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGLaserSight_05000822#IMOD:DESC#7e6f14579fa7a63824b95ef8fc393d6b",
+    "original": "Decreases spread (-20%).",
+    "translation": "减少散布 (-20%)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGStackedMagazine_05000823#IMOD:FULL#7cc53a617124cedbd75c410cce011ff8",
+    "original": "12.7mm SMG Stacked Magazine",
+    "translation": "12.7mm冲锋枪大型弹匣",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGStackedMagazine_05000823#IMOD:DESC#ae981512455d16944ae14293ec72d310",
+    "original": "Increases ammunition capacity (+6).",
+    "translation": "提升弹容量 (+6)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGSuppressor_05000824#IMOD:FULL#2123418371ec6fa6dedc37498ef518cc",
+    "original": "12.7mm SMG Silencer",
+    "translation": "12.7mm冲锋枪抑制器",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV127mmSMGSuppressor_05000824#IMOD:DESC#76f0faca3ebf0d43a6813755dac4f6c1",
+    "original": "Decreases gunshot noise.",
+    "translation": "降低枪声。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWExpandedDrum_05000825#IMOD:FULL#005f8ea392f97c364e49d9ca45b2115e",
+    "original": "25mm G. APW Exp. Drum",
+    "translation": "25mm榴弹发射器扩容弹鼓",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ModNV25mmGrenadeAPWExpandedDrum_05000825#IMOD:DESC#9faafa371e69ae750a8d2d2a032d6199",
+    "original": "Increases ammunition capacity (+2).",
+    "translation": "提升弹容量 (+2)。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipePowderChargeEfficient_05000934#RCPE:FULL#e600ffd1556771bd0fbfcedcae545e7f",
+    "original": "Powder Charge, Efficient",
+    "translation": "土制炸弹, 高效型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeBottlecapMineEfficient_05000935#RCPE:FULL#0d2cca091f44a6f8441fc06ed968e52b",
+    "original": "Bottlecap Mine, Efficient",
+    "translation": "瓶盖地雷, 高效型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeTinGrenade_05000936#RCPE:FULL#3b82d961b92d8753b93a38683eae3f47",
+    "original": "Tin Grenade",
+    "translation": "罐头手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe20Ga30BuckMagnum_05000939#RCPE:FULL#fea8e9a574163e7b60a8c0835eb4065e",
+    "original": "20 Ga., 3/0 Buck Mag. Hand Load",
+    "translation": "20铅径马格南3号手装鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe12Ga40BuckMagnum_0500093A#RCPE:FULL#79b35d7d12e9031824e81ac9867d162f",
+    "original": "12 Ga., 4/0 Buck Mag. Hand Load",
+    "translation": "12铅径马格南4号手装鹿弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe127mmHandLoad_05000A2C#RCPE:FULL#a45381012e82774cd653a9b78d1d8781",
+    "original": "12.7mm, JHP Hand Load",
+    "translation": "12.7mm被甲空尖弹",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerRecipe45AutoJunkRounds_0B0019EB#RCPE:FULL#07f93aa91b18d92e10ffa0489fd930d3",
+    "original": ".45 Auto Round, Junk",
+    "translation": ".45 Auto, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerRecipe127mmJunkRounds_0B0019EC#RCPE:FULL#9e1183666b01bcfd3f61b590330d1383",
+    "original": "12.7mm Round, Junk",
+    "translation": "12.7mm子弹, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerRecipe22LRJunkRounds_0B001FE8#RCPE:FULL#060f8b3b643a89a068f2a84ee86eafa1",
+    "original": ".22LR Round, Junk",
+    "translation": ".22LR弹, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerRecipeFirebomb_0B001FEC#RCPE:FULL#fbb7bd2093f1d18336ca9cd5ba8770f2",
+    "original": "Fire Bomb",
+    "translation": "火焰炸弹",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerRecipeNVDLC01VendingMicroFusionCells_0B00858E#RCPE:FULL#8ca4e492d9a9f8bb6c5a13d52dc1479c",
+    "original": "Microfusion Cell",
+    "translation": "微型核聚变电池",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerRecipeTinCan_0B012103#RCPE:FULL#130b39d082f6b70c9e5ccebfc063d7ed",
+    "original": "Bent Tin Can = Tin Can!",
+    "translation": "扁锡罐=锡罐！",
+    "stage": 1
+  },
+  {
+    "key": "RecipeStimpak_00165AEA#RCPE:FULL#7665d3fe3f73014562744377be4749f8",
+    "original": "Stimpak, Homemade",
+    "translation": "治疗针, 自制",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0110mmJunkRounds_0100FB7A#RCPE:FULL#e04bde8c34a98d0634c66b08cb42739e",
+    "original": "10mm Round, Junk",
+    "translation": "10mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0112GaJunkRounds_0100FB7B#RCPE:FULL#1365ad6c9ac35c205d2f4fd7401ee3a9",
+    "original": "12 Ga. Buckshot, Junk",
+    "translation": "12铅径霰弹, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0120GaJunkRounds_0100FB7C#RCPE:FULL#4b2ae25efbceca2db4fcf818f0e0b87a",
+    "original": "20 Ga. Buckshot, Junk",
+    "translation": "20铅径霰弹, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01308JunkRounds_0100FB7D#RCPE:FULL#9414c909a90872f17211a61c6d5a67af",
+    "original": ".308 Round, Junk",
+    "translation": ".308, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01357MagnumJunkRounds_0100FB7E#RCPE:FULL#f72435166a1c6abdffdda57344d2506c",
+    "original": ".357 Magnum Round, Junk",
+    "translation": ".357马格南, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0144MagnumJunkRounds_0100FB7F#RCPE:FULL#a7bc62bc6f8d614da1622cc7936833ff",
+    "original": ".44 Magnum Round, Junk",
+    "translation": ".44马格南, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC014570GovtJunkRounds_0100FB80#RCPE:FULL#61c59d69267ea92640457e42e5b80bed",
+    "original": ".45-70 Gov't Round, Junk",
+    "translation": ".45-70政府, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC0150MGJunkRounds_0100FB81#RCPE:FULL#aaf24df077b04f786ce2096c87b56aad",
+    "original": ".50 MG Round, Junk",
+    "translation": ".50MG, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC01556mmJunkRounds_0100FB82#RCPE:FULL#d26f3f71ea65022e94f2810799b67894",
+    "original": "5.56mm Round, Junk",
+    "translation": "5.56mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC015mmJunkRounds_0100FB83#RCPE:FULL#e1751f7161b966a5ec3ab8e30d72ac0d",
+    "original": "5mm Round, Junk",
+    "translation": "5mm子弹, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "RecipeNVDLC019mmJunkRounds_0100FB84#RCPE:FULL#0a33d5da44a79df696a0106601140223",
+    "original": "9mm Round, Junk",
+    "translation": "9mm, 废料弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeElectronChargePackOptimized_05000926#RCPE:FULL#3f7aa1f2f124a91db13e2f74122fd88d",
+    "original": "Electron Charge Pack, Optimized",
+    "translation": "荷电充能包, 优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeMicroFusionCellOptimized_05000927#RCPE:FULL#e57503c6f2ed5a91cb4147f95f60eb7e",
+    "original": "Microfusion Cell, Optimized",
+    "translation": "微型核聚变电池, 优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeSmallEnergyCellOptimized_05000928#RCPE:FULL#c0a9d7349ffcf10ea641740b10c12617",
+    "original": "Energy Cell, Optimized",
+    "translation": "能量电池, 优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeFlamerFuelOptimized_05000929#RCPE:FULL#aa38655817cbfa2997408ee91966aa59",
+    "original": "Flamer Fuel, Optimized",
+    "translation": "火焰喷射器燃料, 优化型",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe556mmHandLoad_0500092A#RCPE:FULL#01d4a4e83c323235bd1549139dc51da6",
+    "original": "5.56mm, Match Hand Load",
+    "translation": "5.56mm, 竞赛手装弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe9mmHandLoad_0500092B#RCPE:FULL#c3c6929478f5910ee44b18d0b389ea6c",
+    "original": "9mm, JHP Hand Load",
+    "translation": "9mm, 被甲空尖手装弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05Recipe5mmHandLoad_0500092C#RCPE:FULL#6e8539560bed5a6cd87d5fdc254e6e61",
+    "original": "5mm, JSP Hand Load",
+    "translation": "5mm, 被甲软尖手装弹",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeFatMine_0500092F#RCPE:FULL#31d27fe87f5cea57832424d9954a77a4",
+    "original": "Fat Mine",
+    "translation": "核子地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeMFCGrenade_05000930#RCPE:FULL#56535507aa5642dbfd9ca4107cefe0a1",
+    "original": "MFC Grenade",
+    "translation": "微型核聚变手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeMFCCluster_05000931#RCPE:FULL#53a4d04ff45647426676c2d645c4f2ec",
+    "original": "MFC Cluster",
+    "translation": "微型核聚变集束地雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeNukaGrenade_05000932#RCPE:FULL#7c0e0b96e9009bf7122ea39e1c9831d9",
+    "original": "Nuka-Grenade",
+    "translation": "核子手雷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05RecipeTimeBombHighYield_05000933#RCPE:FULL#2cb947fbce69bf6c722852795f869cae",
+    "original": "Time Bomb, High Yield",
+    "translation": "定时炸弹, 高当量",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeVault13sRevenge_05000A65#CHAL:FULL#59c8cfc8c864ef8636daa882e3ca3899",
+    "original": "Vault 13's Revenge",
+    "translation": "13号避难所的复仇",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeVault13sRevenge_05000A65#CHAL:DESC#2b61ae8cb30777af7f354fb45ec9495f",
+    "original": "Kill Super Mutants with 5.56mm Pistols, Plasma Defenders, Plasma Grenades, Power Fists, Rippers, or the Bozar.",
+    "translation": "用等离子手雷，动力拳套，开膛手，等离子护卫者，无名枪，包子或5.56mm手枪杀死超级变种人。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeBenefitOrAHazard_05000A67#CHAL:FULL#3f3168fcf0c1617b59db76dc2f595691",
+    "original": "Benefit Or a Hazard",
+    "translation": "益处或危害",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeBenefitOrAHazard_05000A67#CHAL:DESC#b299de8b62296f8c145011bc6a401ca4",
+    "original": "Kill Robots with 5.56mm Pistols.",
+    "translation": "用5.56mm手枪杀死机器人。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeSicSemperTyrannis_05000A68#CHAL:FULL#742869a59959bda1da547aba57b861fb",
+    "original": "Sic Semper Tyrannis",
+    "translation": "暴君总有如此下场",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeSicSemperTyrannis_05000A68#CHAL:DESC#5ec69bc46af2fece8b36c261446ace8f",
+    "original": "Kill President Kimball with any One-Handed Pistol.",
+    "translation": "用任何单手手枪杀死金博尔总统。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeEvenAGodKingCanBleed_05000A6A#CHAL:FULL#e52ca3cd688c2a00a966c0396c1edfd5",
+    "original": "Even a God-King Can Bleed",
+    "translation": "即使是神王亦会流血",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeEvenAGodKingCanBleed_05000A6A#CHAL:DESC#3f23eb4d7ba4b03e9d510785b9ea58bd",
+    "original": "Cripple Caesar's head with Throwing Spears.",
+    "translation": "用投矛打残凯撒的头。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDyinAintMuchOfALiving_05000A6C#CHAL:FULL#dccf7dec61cc39d49482f246cb05a8e8",
+    "original": "Dyin' Ain't Much of a Living",
+    "translation": "死掉算不得什么活路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDyinAintMuchOfALiving_05000A6C#CHAL:DESC#8ebc51f8bd84cdfa36b9d8bf31117713",
+    "original": "Kill members of NCR or Legion hit squads with weapons affected by the Cowboy perk.",
+    "translation": "使用受牛仔特长影响的武器杀死NCR游骑兵和军团刺客。",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerChallengeINeverAxedForThis_0B010329#CHAL:FULL#53d124feb272d621ab43cb5eaf897910",
+    "original": "I Never Axed For This",
+    "translation": "多此一斧",
+    "stage": 1
+  },
+  {
+    "key": "JSawyerChallengeINeverAxedForThis_0B010329#CHAL:DESC#871deec295cff7f2a79c3cdc2e3a9d5d",
+    "original": "Cause damage with Hatchets, Throwing Hatchets, Tomahawks, Proton Axes, Proton Throwing Axes, Protonic Inversal Axes, and Protonic Inversal Throwing Axes.",
+    "translation": "使用斧头、投掷斧、战斧、质子斧、质子飞斧、反质子斧和反质子飞斧造成伤害。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeMasterOfTheArsenal_05000948#CHAL:FULL#fd7d442577dbc4a0aab932c33f2ba738",
+    "original": "Master of the Arsenal",
+    "translation": "武器库大师",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeMasterOfTheArsenal_05000948#CHAL:DESC#db874ac27897a0f83f40a1061cd6b14f",
+    "original": "Do damage with Gun Runners' Arsenal (GRA) Weapons.",
+    "translation": "使用GRA的武器对敌人造成伤害。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNyahSee_05000A49#CHAL:FULL#f9abbc9882d09499d61afb5daa99cafe",
+    "original": "Nyah! See?",
+    "translation": "哎 ! 你看 ?",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNyahSee_05000A49#CHAL:DESC#4e2b5acee2b029b5bd90fcf3fde9048a",
+    "original": "Kill Chairmen, White Gloves, or Omertas with any submachine gun, light machine gun, or minigun.",
+    "translation": "用任何冲锋枪、轻机枪或转轮机枪杀死会长帮、黑手党或白手套成员。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeHistoricalPropriety_05000A4A#CHAL:FULL#cfe967bcf23dfb438072ae4010a822ff",
+    "original": "Historical Propriety",
+    "translation": "历史正确性",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeHistoricalPropriety_05000A4A#CHAL:DESC#f71e74f2508c3777236e8fb7af2f3a74",
+    "original": "Kill Caesar with a Knife or Combat Knife.",
+    "translation": "用小刀或战斗匕首杀死凯撒。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDeathclawProHunter_05000A4B#CHAL:FULL#e1721e3a710ce0e29004a4a253923049",
+    "original": "Deathclaw Pro Hunter",
+    "translation": "专业死亡爪猎人",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeDeathclawProHunter_05000A4B#CHAL:DESC#f9d89189741d96d2ca94ad340938750a",
+    "original": "Kill adult Deathclaws with .22 Pistols, Switchblades, Boxing Tape, Recharger Rifles, or Dynamite.",
+    "translation": "用.22手枪，弹簧刀，拳击布带，充能步枪，或炸药杀死成年死亡爪。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTalkAboutOwned_05000A4C#CHAL:FULL#a9154de97b72c2c9c8e761c9ef501949",
+    "original": "Talk About Owned",
+    "translation": "谈到支配",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTalkAboutOwned_05000A4C#CHAL:DESC#0db95a5b5c6a027c60341936cb7da93b",
+    "original": "Kill Benny with his own gun, Maria.",
+    "translation": "用班尼的“玛利亚”杀死班尼。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeWhiteLineNightmare_05000A4D#CHAL:FULL#515798afd4cb66f4461840c683e3a083",
+    "original": "White Line Nightmare",
+    "translation": "公路梦魇",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeWhiteLineNightmare_05000A4D#CHAL:DESC#40a2c1f6ade97dcde963f243be01f40e",
+    "original": "Kill Fiends, Vipers, or Jackals with Tire Irons, Baseball Bats, Lead Pipes, Machetes, .44 Magnum Revolvers, or Sawed-Off Shotguns.",
+    "translation": "用卸胎棒、棒球棍、铅管、砍刀、.44马格南左轮枪或截短霰弹枪杀死恶魔帮，毒蛇帮或豺狼帮的匪徒。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeOverkill_05000A4E#CHAL:FULL#73b1c1c6ddb369e604cf30377a37f41e",
+    "original": "Overkill",
+    "translation": "过度杀戮",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeOverkill_05000A4E#CHAL:DESC#1f20de5741b09182b06f4168d7d598d5",
+    "original": "Kill Animals with any Fat Man or Fat Mines.",
+    "translation": "用核弹或核子地雷杀死动物。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeYouDontBelong_05000A50#CHAL:FULL#79843e4858bf1306d59324768f9be183",
+    "original": "You Don't Belong In This World!",
+    "translation": "你不属于这个世界！",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeYouDontBelong_05000A50#CHAL:DESC#fe16c9b117d898a96ab95755b6c60703",
+    "original": "Kill Abominations with Katanas, Dynamite, Machetes, Throwing Spears, Throwing Knives, and Throwing Hatchets.",
+    "translation": "用武士刀、炸药、大刀、投矛、飞刀或投斧杀死变种野怪。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNeNeNeNe_05000A51#CHAL:FULL#ed98e8bb5e8b10c474103f23b27ca70e",
+    "original": "Ne Ne Ne Ne...",
+    "translation": "呐呐呐呐...",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeNeNeNeNe_05000A51#CHAL:DESC#4ca9ca922a11b3cabb8b10ffd9dfb17d",
+    "original": "Cripple Right Arms with Shotguns.",
+    "translation": "右臂残废后使用霰弹枪。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCuriosAndRelics_05000A53#CHAL:FULL#f873295d5178bdea2a4520f5a1a638c5",
+    "original": "Curios and Relics",
+    "translation": "古董与文物",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCuriosAndRelics_05000A53#CHAL:DESC#d8e25d9088e0552039f7abfdb78b56e9",
+    "original": "Cause damage with unique Mojave Wasteland weapons.",
+    "translation": "用莫哈维废土的独特武器造成伤害。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeAgainstAllTyrants_05000A54#CHAL:FULL#7b997a9d3232ed5b8c3bb206cc49e11d",
+    "original": "Against All Tyrants",
+    "translation": "对抗一切暴君",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeAgainstAllTyrants_05000A54#CHAL:DESC#1d93dba64d37d25256e85c33b657fcf3",
+    "original": "Kill any named Legion members with Hunting Revolvers, Ranger Sequoias, Brush Guns, Service Rifles, Hunting Rifles, or Cowboy Repeaters.",
+    "translation": "用狩猎左轮枪、游骑兵的红杉木、灌木丛枪、军用步枪、猎枪或牛仔连发枪杀死任何有名字的军团成员。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeArmedForBear_05000A58#CHAL:FULL#aa812035af800e17bbc51f1183397ffb",
+    "original": "Armed For Bear",
+    "translation": "武装猎熊",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeArmedForBear_05000A58#CHAL:DESC#befa82b0d2485c830027bd6714615c2a",
+    "original": "Kill any named NCR Ranger or commissioned officer (Lieutenant, Captain, Major, Colonel, General) with Machetes, Rippers, Chainsaws, Throwing Spears, or Ballistic Fists.",
+    "translation": "用砍刀、开膛手、链锯、投矛或铳枪拳套杀死任何有名字的NCR游骑兵或现役军官（中尉，上尉，少校，上校，将军）。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeASlaveObeys_05000A5A#CHAL:FULL#79e4593a071bd29bc350ec3c20eeec54",
+    "original": "A Slave Obeys",
+    "translation": "奴隶只能服从",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeASlaveObeys_05000A5A#CHAL:DESC#3beea0efca67f5128ab849005cedd4a9",
+    "original": "Kill Mr. House with a 9 Iron or Nephi's Golf Driver.",
+    "translation": "用九号铁杆或尼法的高尔夫球杆杀死豪斯先生。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTheSameCouldBeSaid_05000A5D#CHAL:FULL#cf9ee214a8414069921e1cb848c433d4",
+    "original": "The Same Could Be Said of All Religious Weapons",
+    "translation": "对所有宗教武器都能这么说",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeTheSameCouldBeSaid_05000A5D#CHAL:DESC#1a6189a367b9062386b616fc5e65ce3b",
+    "original": "Kill Feral Ghouls with Maria, Gehenna, A Light Shining in Darkness, and Holy Frag Grenades.",
+    "translation": "用玛利亚，焦热炼狱，耀夜之光，神圣破片手雷杀死狂尸鬼。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCrackerjackTiming_05000A60#CHAL:FULL#3d89bc9588f3e36268a41983dd132d5b",
+    "original": "Crackerjack Timing",
+    "translation": "绝佳时机",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeCrackerjackTiming_05000A60#CHAL:DESC#3fc7874863e070ecd5073afb62350387",
+    "original": "Kill Mojave Wasteland Cazadores with Tin Grenades, Long Fuse Dynamite, and Time Bombs.",
+    "translation": "用锡罐手雷、定时炸弹或长引线黄色炸药杀死莫哈维废土的猎蜂。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeManMachineInterface_05000A63#CHAL:FULL#d1720b27edf0927b0b4229f76d46d894",
+    "original": "Man-Machine Interface",
+    "translation": "人机接口",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC05ChallengeManMachineInterface_05000A63#CHAL:DESC#e7448c0867d99f75461e64ee26f6c5cc",
+    "original": "Kill Mojave Wasteland Mr. Gutsys and Sentry Bots with Brass Knuckles, Spiked Knuckles, Tire Irons, and Lead Pipes.",
+    "translation": "用铜指虎，刺指虎，卸胎棒或铅管杀死莫哈韦废土的勇敢先生和铁卫兵。",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectJunkRoundsConditionPenalty_0100FB6B#AMEF:FULL#5adfae36212f83641d45828abf4826ff",
+    "original": "Junk Rounds COND Penalty",
+    "translation": "废料弹耐久惩罚",
+    "stage": 1
+  },
+  {
+    "key": "AmmoEffectJunkRoundsDamageReduction_0100FB70#AMEF:FULL#8cefc24daa8ab96f620b6ac6119ab73e",
+    "original": "Damage Reduction",
+    "translation": "伤害降低",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckLittleBuster_00176988#CDCK:FULL#964d8c03cb8f0bc5438fb24468a8fd44",
+    "original": "Little Buster's Caravan Deck",
+    "translation": "小巴斯特的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckDaleBarton_00163487#CDCK:FULL#be847cf3b08e12bef9007221ba2e2091",
+    "original": "Dale Barton's Caravan  Deck",
+    "translation": "戴尔·巴顿的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "CaravanDeckLacey_0016ACE9#CDCK:FULL#ed8c2b1f57bc62a0fab9ee302025abca",
+    "original": "Lacey's Caravan Deck",
+    "translation": "莱西的商队牌牌组",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01Gala02_0100CF6C#CELL:FULL#8b70f04b2b08e1094ef462e997f9e1f5",
+    "original": "Puesta del Sol Switching Station",
+    "translation": "日落镇开闭所",
+    "stage": 1
+  },
+  {
+    "key": "NovacGiftShop_000B1670#CELL:FULL#d154f9948f0aa758285b44ab81f03145",
+    "original": "Dino Bite Gift Shop",
+    "translation": "大嘴小恐龙礼品店",
+    "stage": 1
+  },
+  {
+    "key": "FreesideMickandRalphs_0010E02A#CELL:FULL#b44f42b470633fd9b2c60f24da437524",
+    "original": "Mick & Ralph's",
+    "translation": "米克和拉尔夫杂货店",
+    "stage": 1
+  },
+  {
+    "key": "2EOVault21GiftShop_00116592#CELL:FULL#62e21bf5de2800f9c33dd7c14fa91293",
+    "original": "Vault 21 Gift Shop",
+    "translation": "21号避难所礼品店",
+    "stage": 1
+  },
+  {
+    "key": "NellisHangar2_00105238#CELL:FULL#7c80d8719d721f4324360141a0b2f989",
+    "original": "Mess Hall & Munitions Storage",
+    "translation": "食堂与军械库",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01PoliceStation_01003080#CELL:FULL#52cbe425a1e9958e7bcce37ec05946b7",
+    "original": "Villa Police Station",
+    "translation": "别墅区警察局",
+    "stage": 1
+  },
+  {
+    "key": "SLLuckyJimMineHouseINT_00154BD4#CELL:FULL#4b27d68765876b9bc938eee700e41f9d",
+    "original": "Lucky Jim Mine House",
+    "translation": "幸运吉姆采矿小屋",
+    "stage": 1
+  },
+  {
+    "key": "SLHellsMotel_0015F048#CELL:FULL#022d79d6a5ada0ac91345fc7075f9624",
+    "original": "Hell's Motel",
+    "translation": "赫尔的汽车旅馆",
+    "stage": 1
+  },
+  {
+    "key": "SLAbandonedShack01INT_00153928#CELL:FULL#a0cb9cbb280f548310cf1c2a734bbb29",
+    "original": "Bradley's Shack",
+    "translation": "布拉德利的小屋",
+    "stage": 1
+  },
+  {
+    "key": "2EOVault21_0010FDEB#CELL:FULL#1088b9068e31d0df4d2683b51cd41836",
+    "original": "Vault 21",
+    "translation": "21号避难所",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "TheStripWorldNew_0013B308#WRLD:FULL#c243a7753521da7719cd77b75a3d6ee6",
+    "original": "The Strip",
+    "translation": "长街",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02ZionCanyon_0200683B#WRLD:FULL#e46d47a3ee79bad6241f94c7eb349c73",
+    "original": "Zion Canyon",
+    "translation": "锡安峡谷",
+    "stage": 1
+  }
+]
