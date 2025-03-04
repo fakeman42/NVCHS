@@ -270,6 +270,7 @@
 		<file target="Data/NVCHSDict/Mods/willow_chs.txt" src="Data/NVCHSDict/Mods/willow_en.txt" type="2" priority="5"/>
 		<xml path="Data/NVCHSDict/Mods/Sun.xml"/>
 		<xml path="Data/NVCHSDict/Mods/HitDrugsTTW.xml"/>
+		<xml path="Data/NVCHSDict/Mods/HitDrugs - WanaAddictions.xml"/>
 		<xml path="Data/NVCHSDict/Mods/More Perks.xml"/>
 		<file target="Data/NVCHSDict/Mods/theinheritage_chs.txt" src="Data/NVCHSDict/Mods/theinheritage_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/quicktrain_ch.txt" src="Data/NVCHSDict/Mods/quicktrain_en.txt" type="2" priority="5"/>
@@ -307,6 +308,7 @@
 		<json path="Data/NVCHSDict/json/Mods/ImmersiveRecoil.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Item_Assistant.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Lone Star.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/LoneStar_chs.txt" src="Data/NVCHSDict/Mods/LoneStar_en.txt" type="2" priority="0"/>
 		<json path="Data/NVCHSDict/json/Mods/ManifestDestiny.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/MeleeCleave.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/MetroCars.json" priority="5" />
@@ -346,7 +348,7 @@
 		<file target="Data/NVCHSDict/Mods/P6UltimateHome_ch.txt" src="Data/NVCHSDict/Mods/P6UltimateHome_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/Pip-BoyCasino_ch.txt" src="Data/NVCHSDict/Mods/Pip-BoyCasino_en.txt" type="2" priority="5"/>
 		
-		<file target="Data/NVCHSDict/Mods/S6S_Perks_chs.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/S6S_Perks_chs.txt" src="Data/NVCHSDict/Mods/S6S_Perks_en.txt" type="2" priority="0"/>
 		<file target="Data/NVCHSDict/Mods/S6S_perk_re_chs.txt" src="Data/NVCHSDict/Mods/S6S_perk_re_en.txt" type="2" priority="5"/>
 		
 		<file target="Data/NVCHSDict/Mods/STAR_TTW_2_ch.txt" src="Data/NVCHSDict/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>

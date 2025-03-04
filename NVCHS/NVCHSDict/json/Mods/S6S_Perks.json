@@ -302,7 +302,7 @@
   {
     "key": "AbilityAnodizedArmor_1101B3ED#SPEL:FULL#f43f125202127249906368444e6af52a",
     "original": "Anodized Armor",
-    "translation": "阳极氧化盔甲",
+    "translation": "阳极氧化护甲",
     "stage": 1
   },
   {
@@ -608,7 +608,7 @@
   {
     "key": "sssPerkSweet6Shooter_11000802#PERK:FULL#5eb1d58f468c2d18b0a9d8887fdff12f",
     "original": "Sweet Six Shooter",
-    "translation": "甜蜜六射手",
+    "translation": "甜蜜六发枪",
     "stage": 1
   },
   {
@@ -1262,7 +1262,7 @@
   {
     "key": "sssPerkNotoriousEVIL_11005A9E#PERK:DESC#3bb910b25820419513eb45791fec2e9e",
     "original": "While you are Evil or Very Evil, Miss Fortune and the Mysterious Stranger will appear to help you twice as often (Requires Evil Karma).",
-    "translation": "当你的业力值处于邪恶或非常邪恶时,幸运小姐和神秘陌生人出现的概率提高两倍。",
+    "translation": "当你的业力值处于邪恶或非常邪恶时,幸运小姐和神秘客出现的概率提高两倍。",
     "stage": 1
   },
   {
@@ -2084,7 +2084,7 @@
   {
     "key": "sssPerkShunnedByFactions_1101F5F3#PERK:FULL#cff19b28c8d731ce24a55f25b8a3ade1",
     "original": "Shunned by Legion+NCR+Strip",
-    "translation": "在NCR、军团和长街的好感属于“被躲避”",
+    "translation": "在NCR、军团和长街的声望是“避之不及”",
     "stage": 1
   },
   {
@@ -2132,7 +2132,7 @@
   {
     "key": "sssPerkFatalCounter_11022424#PERK:DESC#0a11b314d148d757af99cab5e50c9147",
     "original": "You're excellent at capitalizing on your enemy's vulnerabilities. When using unarmed or melee, you deal double damage and have doubled critical chance when attacking an enemy that has been staggered by a block.",
-    "translation": "你善于利用敌人的弱点。\\n当使用徒手或近战攻击时,如果敌人陷入了格挡后的硬直状态,\\n你将造成双倍伤害,并且提高双倍暴击率。",
+    "translation": "你善于利用敌人的弱点。当使用徒手或近战攻击时,如果敌人陷入了格挡后的硬直状态,你将造成双倍伤害,并且提高双倍暴击率。",
     "stage": 1
   },
   {
@@ -2205,6 +2205,18 @@
     "key": "ChallengeBlockHits_11015144#CHAL:DESC#0b937128a54e099c66738d0d7eae4fff",
     "original": "Block enemy attacks.",
     "translation": "格挡敌人攻击",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCoiledSnake_1100399E#PERK:DESC#1dc8dd97641cf6e44afbe69f52c9e8b4",
+    "original": "You're extra dangerous when cornered or unseen. You gain +15% throwing velocity and attack speed with thrown melee weapons while crouched, as well as +25% movement speed and +15% attack speed while prone.",
+    "translation": "当你被逼入绝境或处于隐蔽状态时，你会变得格外危险。蹲下时，投掷近战武器 +15% 投射力度和攻击速度，趴下时 +25% 移动速度、+15% 攻击速度。",
+    "stage": 1
+  },
+  {
+    "key": "sssPerkCoiledSnake_1100399E#PERK:DESC#1dc8dd97641cf6e44afbe69f52c9e8c5",
+    "original": "You take your time to ensure that your bullets will land right between your target's eyes. You gain +25% chance to hit your target's head in V.A.T.S., at cost of 50% increased AP cost. The second rank increases your reload speed while prone by 25%, and your crit. damage while attacking your target's head in V.A.T.S. by 15%.",
+    "translation": "你会花点时间确保你的子弹正中目标双眼之间。在 V.A.T.S.状态下，你击中目标头部的几率增加 25%，但行动点消耗增加 50%。该特长第二级将使趴下时的装弹速度提高 25%，在 V.A.T.S. 状态下攻击目标头部时的暴击伤害提高 15%。",
     "stage": 1
   }
 ]
