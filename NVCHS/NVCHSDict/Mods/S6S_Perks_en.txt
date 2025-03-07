@@ -20,3 +20,17 @@ S6S00000019	Level [%], STR [%], CHR < [%], Indirect Bartering
 S6S00000020	Level [%], PER [%], Guns [%] OR Ener. Weap. [%] OR Big Guns [%]
 S6S00000021	Level [%], PER [%], STR [%], Unarmed [%] OR Melee Weap. [%]
 S6S00000022	Level [%], INT [%], Science [%], Ener. Weap. [%]
+S6S00000023	END [%]
+S6S00000024	AGL [%]
+S6S00000025	NOT Twisted
+S6S00000026	LCK [%]
+S6S00000027	CHR < [%], AGL [%]
+S6S00000028	NOT Ideologue
+S6S00000029	INT < [%], AGL [%]
+S6S00000030	PER [%]
+S6S00000031	CHR < [%]
+S6S00000032	END [%], AGL < [%]
+S6S00000033	PER [%], INT [%]
+S6S00000034	CHR [%]
+S6S00000035	INT [%]
+S6S00000036	CHR [%], INT [%], LCK [%]
