@@ -641,6 +641,9 @@
 		<regex from="^(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)$" to="$1 $2&#xA;$3 $4&#xA;$5 $6&#xA;$7 $8&#xA;$9 $10&#xA;$11 $12&#xA;$13 $14"/>
 		<regex from="^(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)\s+(Added:|Complete:)\s+((?:[\s\S](?!Added:|Complete:))+)$" to="$1 $2&#xA;$3 $4&#xA;$5 $6&#xA;$7 $8&#xA;$9 $10&#xA;$11 $12&#xA;$13 $14&#xA;$15 $16"/>
 
+		<!-- 阵营声望 -->
+		<regex from="^([\w\s]+)\s+Fame:\s+(\d+)%\s+-\s+Infamy:\s+(\d+)%$" to="$1&#xA;声望: $2% - 恶名: $3%"/>
+
 		<!-- SD_transpoter菜单 -->
 		<regex from="^(.+):\s(\d+)\sCaps$" to="$1：$2 瓶盖"/>
 
