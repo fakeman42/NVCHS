@@ -651,6 +651,9 @@
 		<regex from="([^\r\n]+?)\s+is\s+now\s+under\s+the\s+control\s+of\s+([^\r\n]+?)$" to="$1已由$2控制"/>
 		<regex from="([^\r\n]+?)\s+is\s+returning\s+to\s+([^\r\n]+?)$" to="$1正在返回$2"/>
 		<regex from="([^\r\n]+?)\s+has\s+returned\s+to\s+([^\r\n]+?)$" to="$1已返回$2"/>
+		<!-- Karma对话 -->
+		<regex from="^[[]Karma\s[-]\d+[\]](.+)$" to="$1"/>
+		
 		
 	</captureGroup>
 
