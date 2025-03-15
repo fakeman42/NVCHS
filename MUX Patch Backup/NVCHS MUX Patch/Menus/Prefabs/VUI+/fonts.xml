@@ -1,0 +1,64 @@
+<!-- Font configuration for the Default Font Tweaks option
+Provides metric and menu-specific font data for Vanilla UI Plus; created with the "Font Metrics container_menu" testbed mod (moddb.com/mods/vanilla-ui-plus/addons/font-metrics)
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED SEPTEMBER 2022
+
+Sorted from smaller to bigger
+#2 - Condensed font, standard menu & list font, designed to occupy as little space as possible and still be perfectly readable
+#3 - Looks small, and in VUI+ it actually is
+#7 - Outlined font, use for subtitles and the HUD
+#1 - Default font, used in tutorials mostly; the engine switches to this font when no <font> tags are being used in text
+#5 - Terminal font, don't use for anything else
+#6 - Larger font, use for headings
+#4 - Pip-Boy Heading font, used for the top-left headings on Pip-Boy menus only
+#8 - Huge font, use for uppercase titles only -->
+
+<!-- Vertical alignment of a font's midline -->
+<_VUI+FontY_1> 8 </_VUI+FontY_1>
+<_VUI+FontY_2> 11 </_VUI+FontY_2>
+<_VUI+FontY_3> 7.6 </_VUI+FontY_3>
+<_VUI+FontY_4> 15 </_VUI+FontY_4>
+<_VUI+FontY_5> 6 </_VUI+FontY_5>
+<_VUI+FontY_6> 8 </_VUI+FontY_6>
+<_VUI+FontY_7> 8.3 </_VUI+FontY_7>
+<_VUI+FontY_8> 20.5 </_VUI+FontY_8>
+
+<!-- Vertical spacing, depending on the font's descenders -->
+<_VUI+FontV_1> 12 </_VUI+FontV_1>
+<_VUI+FontV_2> 14 </_VUI+FontV_2>
+<_VUI+FontV_3> 10 </_VUI+FontV_3>
+<_VUI+FontV_4> 15 </_VUI+FontV_4>
+<_VUI+FontV_5> 13 </_VUI+FontV_5>
+<_VUI+FontV_6> 13 </_VUI+FontV_6>
+<_VUI+FontV_7> 9 </_VUI+FontV_7>
+<_VUI+FontV_8> 6 </_VUI+FontV_8>
+
+<!-- Aligns a string to the horizontal center of its box -->
+<_VUI+FontX_1> -1.5 </_VUI+FontX_1>
+<_VUI+FontX_2> 0 </_VUI+FontX_2>
+<_VUI+FontX_3> -0.5 </_VUI+FontX_3>
+<_VUI+FontX_4> 3.5 </_VUI+FontX_4>
+<_VUI+FontX_5> 0 </_VUI+FontX_5>
+<_VUI+FontX_6> -2 </_VUI+FontX_6>
+<_VUI+FontX_7> -5 </_VUI+FontX_7>
+<_VUI+FontX_8> -7 </_VUI+FontX_8>
+
+<!-- Font Outline weight -->
+<_VUI+FontGlow_1> 0.2 </_VUI+FontGlow_1>
+<_VUI+FontGlow_2> 0 </_VUI+FontGlow_2>
+<_VUI+FontGlow_3> 0.5 </_VUI+FontGlow_3>
+<_VUI+FontGlow_4> 0 </_VUI+FontGlow_4>
+<_VUI+FontGlow_5> 0 </_VUI+FontGlow_5>
+<_VUI+FontGlow_6> 0.2 </_VUI+FontGlow_6>
+<_VUI+FontGlow_7> 1.8 </_VUI+FontGlow_7>
+<_VUI+FontGlow_8> 1.1 </_VUI+FontGlow_8>
+
+<!-- Menu-specific fonts -->
+<_VUI+DialogFont> 3 </_VUI+DialogFont>
+<_VUI+SubtitleFont> 3 </_VUI+SubtitleFont>
+<_VUI+ListFont> 3 </_VUI+ListFont>
+<_VUI+HeadFont> 3 </_VUI+HeadFont>
+<_VUI+TextFont> 3 </_VUI+TextFont>
+<_VUI+SmallFont> 3 </_VUI+SmallFont>
+<_VUI+HUDFont> 3 </_VUI+HUDFont>
+<_VUI+HUDMainFont> 6 </_VUI+HUDMainFont>
+<_VUI+MessageFont> 1 </_VUI+MessageFont> <!-- alternative fonts require Stewie's Tweaks to work without wrapping issues on the Message menu -->

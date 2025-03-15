@@ -1,0 +1,300 @@
+<!-- Pip-Boy Mod menu (NV)
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2020 BY AXONIS FOR VANILLA UI PLUS
+* Reorganized the entire code to fix several alignment issues, to match the appearance of all 3 Pip-Boy menus and to use relative positioning; original block structure is retained
+* Expanded the width and reduced the vertical padding of list item to fit more of them and make use of available free space wherever it could be found
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Added highlighting to list contents (text, images etc) and targetable images
+* Streamlined the positioning of buttons for consistency across menus; this also allows for greater width expansion since the buttons no longer protrude outside the rectangle
+* Added options to control the size of the Pip-Boy menus and expanded them on default
+* Doubled the mod icon size; the mod menu is the player's only practical opportunity to actually look at those icons
+* Stripped both the menu and the internal code from any redundant repair menu leftovers
+* Changed clicking sound to the repair sound when installing (or removing with Stewie's Tweaks) a mod
+* Muted clicking sound when clicking on a mod that cannot be removed
+* Streamlined the positioning of buttons for consistency across menus; this also allows for greater width expansion since the buttons no longer protrude outside the rectangle
+* Renamed Cancel to Done because it doesn't cancel performed mods
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="ItemModMenu">
+	<class> &ItemModMenu; </class>
+	<id> &pipboymenu; </id>
+	<systemcolor> &pipboy; </systemcolor>
+	<_VUI+PipX> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipX" /> </_VUI+PipX>
+	<_VUI+PipY> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipY" /> </_VUI+PipY>
+	<_VUI+PipWidth> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipWidth" /> </_VUI+PipWidth>
+	<_VUI+PipHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipHeight" /> </_VUI+PipHeight>
+	<font> 2 </font>
+	<include src="VUI+\Keybinds\PipBoyMod.xml" />
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<!-- NOT USED IN PIPBOY MENUS -->
+	</rect>
+
+	<rect name="GLOW_BRANCH">
+		<id> &glow_branch; </id>
+
+		<!-- ===== BACKGROUND TEXTURE ===== -->
+		<image name="WMM_Background">
+			<filename> Interface\Shared\Background\pipboy.dds </filename>
+			<width> <copy src="globals" trait="_pipboy_width"/> </width>
+			<height> <copy src="globals" trait="_pipboy_height"/> </height>
+			<zoom> &scale; </zoom>
+			<depth> 1 </depth>
+			<brightness> 90 </brightness>
+		</image>
+
+		<!-- ===== MAIN POSITIONING RECT ===== -->
+		<rect name="IMM_MainRect">
+			<x> <copy src="io" trait="_VUI+PipX" /> </x>
+			<y> <copy src="io" trait="_VUI+PipY" /> </y>
+			<width> <copy src="io" trait="_VUI+PipWidth" /> </width>
+			<height> <copy src="io" trait="_VUI+PipHeight" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<!-- ===== HEADLINE RECT ===== -->
+			<rect name="IMM_HeadlineRect">
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> 60 </height>
+
+				<!-- Upper-left corner -->
+				<image name="IMM_Headline_v1">
+					<include src="vertical_fade_line.xml"/>
+				</image>
+				<image name="IMM_Headline_h1">
+					<include src="line.xml"/>
+					<_length> 50 </_length>
+				</image>
+
+				<!-- Menu title -->
+				<text name="IMM_Headline_Title">
+					<x>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+						<add src="sibling" trait="x" />
+						<add src="sibling" trait="width" />
+						<add> 20 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<sub src="me" trait="height" />
+						<div> 2 </div>
+						<add>
+							<copy src="me" trait="font" />
+							<copy src="globals" trait="_VUI+FontY_"/>
+						</add>
+					</y>
+					<font> 3 </font>
+					<string> &-sInventoryItems; </string>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<rect name="IMM_Headline_v2">
+					<include src="card_info.xml"/> <!--VUI+ use the standard template to perfectly match the line width of the other Pip-Boy menus -->
+					<x> <copy src="sibling" trait="x" /> <add src="sibling" trait="width" /> <add> 20 </add> </x>
+					<width>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="x"/>
+						<max> 0 </max>
+					</width>
+					<_VUI+RightVertExtra>
+						<copy src="sibling(IMM_Headline_v1)" trait="height" />
+						<sub src="me" trait="height" />
+					</_VUI+RightVertExtra>
+				</rect>
+
+				<!--VUI+ weapon name as a title, not a text_box -->
+				<text name="IMM_ItemName">
+					<id> 0 </id>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="width" />
+						<div> 2 </div>
+					</x>
+					<y>
+						<copy src="parent" trait="height" />
+						<add> 20 </add>
+					</y>
+					<font> 3 </font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+			</rect>
+
+			<hotrect name="IMM_ItemModList">
+				<include src="list_box.xml"/>
+				<id> 1 </id>
+				<x> -15 </x>
+				<y> 200 </y> <!--VUI+ align to the middle of the Pip-Boy -->
+				<width> <copy src="parent" trait="width" /> <mul> 0.5 </mul> </width>
+				<height> 276 </height> <!--VUI+ only in case of 3 grossly large names -->
+				<rect name="IMM_LeftBracket"> <id> 2 </id> </rect> <!--VUI+ delete leftover garbage from the repair menu -->
+			</hotrect>
+
+			<!-- ===== ITEM ICON ===== -->
+			<image name="IMM_ItemIcon">
+				<locus>1</locus>
+				<id> 3 </id>
+				<x> <copy src="sibling(IMM_ItemModList)" trait="width" /> </x>
+				<y> 80 </y>
+				<width> 400 </width> <!--VUI+ enlarge the icons, it's their only chance to be seen by the player! -->
+				<height> 400 </height>
+				<zoom> &scale; </zoom>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="IMM_ModDesc">
+				<id>13</id>
+				<x> <copy src="sibling(IMM_ItemIcon)" trait="x" /> <add> 200 </add> </x> <!--VUI+ move the description under the icon -->
+				<y>
+					<copy src="sibling(IMM_ItemIcon)" trait="y" />
+					<add src="sibling(IMM_ItemIcon)" trait="height" />
+					<sub> 50 </sub>
+				</y>
+				<height>100</height>
+				<justify> &center; </justify>
+				<font>3 </font>
+				<alpha> <mul> 1.2 </mul> </alpha> <!--VUI+ emphasize the description -->
+				<include src="VUI+\orphancontrol.xml" />
+				<_VUI+MaxWrapwidth>400</_VUI+MaxWrapwidth>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<!-- ===== ITEM INFO DISPLAYS ===== -->
+			<rect name="IMM_CompareRect">
+				<visible> 0 </visible> <!--VUI+ more leftovers from the repair menu -->
+				<rect name="IMM_ItemHealth"><id> 4 </id></rect>
+				<rect name="IMM_ItemStat"><id> 5 </id></rect>
+				<text name="IMM_HealthImprovementText"><id> 6 </id></text>
+				<text name="IMM_StatImprovementText"><id> 7 </id></text>
+				<text name="IMM_ChooseItemText"><id> 8 </id></text>
+				<rect name="IMM_ModItemHealth"><id> 9 </id></rect>
+				<rect name="IM_ModItemStat"><id> 10 </id></rect>
+			</rect>
+
+			<!-- ===== BUTTON POSITIONING RECT ===== -->
+			<rect name="IMM_ButtonRect">
+				<x> <copy src="parent" trait="width"/> <sub src="globals" trait="_VUI+InsideButton" /> </x>
+				<y> <copy src="sibling(IMM_HeadlineRect)" trait="height"/> </y>
+				<height> 120 </height>
+				<locus> 1 </locus>
+
+				<hotrect name="IMM_ItemModButton"> <!--VUI+ xbox Mod button -->
+					<id> 11 </id>
+					<include src="text_box.xml"/>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<font>3</font>
+					<_line_alpha> 255 </_line_alpha>
+					<_xbox_button> &xbuttona; </_xbox_button>
+					<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+					<justify> &right; </justify>
+					<string> &-sInventoryMod; </string>
+				</hotrect>
+
+				<hotrect name="IMM_CancelButton"> <!--VUI+ Done button -->
+					<id> 12 </id>
+					<include src="text_box.xml"/>
+					<_y>
+						<copy src="sibling(IMM_ItemModButton)" trait="_y"/>
+						<add>
+							<copy src="me" trait="height"/>
+							<onlyif src="sibling(IMM_ItemModButton)" trait="visible"/>
+						</add>
+					</_y>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<font>3</font>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<_xbox_button> &xbuttonb; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_IMM_CancelButton" /> </_PCButtonText>
+					<string> &-sDone; </string>
+				</hotrect>
+			</rect>
+
+			<rect name="IMM_BottomBracket">
+				<include src="bottom_bracket.xml"/>
+				<width> <copy src="parent" trait="width" /> </width>
+				<height> 50 </height> <!--VUI+ as it is on the Items menu -->
+				<y> <copy src="parent" trait="height"/> <add src="me" trait="height" /> </y>
+				<depth> 2 </depth>
+			</rect>
+
+		</rect>
+	</rect>
+
+	<!--======================== LIST BOX TEMPLATE =========================-->
+	<template name="IMM_ItemModListTemplate">
+		<hotrect name="IMM_ItemModListTemplateRect">
+			<include src="list_box_template.xml"/>
+			<mouseoversound> &nosound; </mouseoversound>
+			<_Moddable>
+				<!--VUI+ check if we can mod the weapon, also compatible with Stewie's Tweaks -->
+				<copy src="child(ListItemText)" trait="alpha" />
+				<gt> 150 </gt>
+			</_Moddable>
+			<_Soundname_0>UIMenuTab</_Soundname_0> <!--VUI+ no sound for already installed mods -->
+			<_Soundname_1>UIRepairWeapon</_Soundname_1> <!--VUI+ use repair sfx when installing the mod -->
+			<clicksound>
+				<copy src="me" trait="_Moddable" />
+				<copy src="me" trait="_Soundname_"/>
+			</clicksound>
+			<width> <copy src="parent" trait="width"/> </width>
+			<_VerticalSpacing> 3 </_VerticalSpacing> <!--VUI+ reduce padding of list items -->
+
+			<text name="ListItemText">
+				<font>3</font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<wrapwidth>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x" />
+					<sub> 47 </sub>
+				</wrapwidth>
+				<x> 40 </x> <!--VUI+ related to _item_offset in list_box.xml edits -->
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="IMM_Template_ItemMarker">
+				<filename> Interface\Shared\Marker\square_filled.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<width> 24 </width>
+				<height> 24 </height>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<x> 12 </x>
+				<y>
+					<copy src="sibling(ListItemText)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="parent" trait="_VerticalSpacing" />
+					<sub>
+						<copy src="me" trait="height" />
+						<mul> 0.59 </mul>
+					</sub>
+					<div> 2 </div>
+				</y>
+				<visible> 0 </visible>
+				<alpha> <copy src="sibling(ListItemText)" trait="alpha"/> </alpha>
+				<target> 0 </target>
+			</image>
+		</hotrect>
+	</template>
+</menu>

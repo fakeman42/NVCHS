@@ -1,0 +1,67 @@
+
+    <image name="Box">
+		<include src="MUXC\Box.xml"/>
+		<_Width>32</_Width>
+		<_Height>32</_Height>
+		<_Line>2</_Line>
+		<_Alpha>255</_Alpha>
+    </image>
+	
+	<image name="Box_Bracket">
+		<locus>1</locus>
+		<x>37</x>
+		<y>20</y>
+		<include src="MUX\Templates\Box.xml"/>
+		<_Width>220</_Width>
+		<_Height>10</_Height>
+		<_Line>2</_Line>
+		<_Alpha>255</_Alpha>
+	</image>
+	
+	<image name="Meter">
+		<locus>1</locus>
+		<x>39</x>
+		<y>22</y>
+		<Width>
+			<copy src="parent()" trait="_Health"/>
+			<mul>216</mul>
+		</Width>
+		<depth>2</depth>
+		<Height>6</Height>
+		<filename>MUX\Shared\Meters\Meter.dds</filename>
+		<zoom>-1</zoom>
+		<systemcolor>
+			<copy>1</copy>
+			<add>
+				<copy>1</copy>
+				<onlyif>
+					<copy src="parent()" trait="_Health"/>
+					<lte>0.40</lte>
+				</onlyif>
+			</add>
+		</systemcolor>
+	</image>
+	
+	<image name="Icon">
+		<x>2</x>
+		<y>2</y>
+		<filename><copy src="parent()" trait="_Icon"/></filename>
+		<width>28</width> 
+		<height>28</height>
+		<depth>3</depth>
+		<systemcolor>1</systemcolor>
+		<zoom>-1</zoom>
+	</image>
+	
+    <text name="Name">
+		<x>37</x>
+		<y>4</y>
+        <depth>1</depth>
+        <justify>&Left;</justify>
+        <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+		<string><copy src="parent()" trait="_Name"/></string>
+		<zoom>70</zoom>
+		<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+		<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+	</text>
+	<include src="VUI+\outline.xml"/>

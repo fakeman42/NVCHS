@@ -1,0 +1,171 @@
+<!-- Card Info prefab
+Two text fields with an optional border on the upper right; used in item_stats and Pip-Boy headers
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
+* Expanded the wrapwidth of the value string, and auto-hidden the label when necessary to avoid overlapping
+* Aligned the strings to the center of the card, unless it's too high in which case it's considered a heading (eg. at the top of the Pip-Boy sections)
+* Corrected positioning of very long value strings and set the spacing between value & strings to be relative to the total width of the card
+* Added an option to control the visibility of the label based on the width of the value string
+* Set strings to inherit font from parent to allow any font to be used; default font is set to the menu font or font #2 if no menu font is set
+* Aligned strings using custom VUI+ font metrics settings
+* Factored font height into the default card height
+* Added options to vary the total width of the card on a specified range
+* Added options to control label borders, blinking and the alignment of the label
+* Added an option to prevent wrapping by using text scaling (requires UIO >= 2.30)
+-->
+<_Title></_Title> <!--VUI+ label -->
+<_Value></_Value>
+<_VUI+LabelRight> 0 </_VUI+LabelRight>
+<_VUI+NoLabel> 0 </_VUI+NoLabel> <!--VUI+ 0 = always show label, 1 = allow value string to expand on the label space and autohide the label if it does, 2 = always hide the label -->
+<_VUI+NoBorder> 0 </_VUI+NoBorder> <!--VUI+ 0 = vanilla, 1 = hide border -->
+<_VUI+NoBlink> 0 </_VUI+NoBlink> <!--VUI+ 0 = vanilla, 1 = suppress blinking -->
+<_VUI+RightVertExtra> 0 </_VUI+RightVertExtra> <!--VUI+ extra height for the vertical line -->
+<_VUI+MinWidth> 100 </_VUI+MinWidth> <!--VUI+ set a range between min and max width to apply a variable width; this is overriden by specifying a standard <width> -->
+<_VUI+MaxWidth> 100 </_VUI+MaxWidth>
+<_VUI+NoWrap> 0 </_VUI+NoWrap> <!--VUI+ 1 = use textscale.xml instead of wrapping (eg. weapon mods and effects) -->
+<_Mod>0</_Mod>
+<alpha> 255 </alpha>
+<brightness> 255 </brightness>
+<width>
+	<copy src="me" trait="font" />
+	<copy src="globals" trait="_VUI+FontW_" />
+	<mul>1.4</mul> <!--VUI+ an approximate width of three characters -->
+	<add src="child(CI_TitleText)" trait="width" />
+	<add src="child(CI_ValueText)" trait="_width" /> <!--VUI+ plus the width of the two unwrapped strings -->
+	<max src="me" trait="_VUI+MinWidth" />
+	<min src="me" trait="_VUI+MaxWidth" />
+</width>
+<height>
+	<copy src="me" trait="font" />
+	<copy src="globals" trait="_VUI+FontH_" />
+	<add> 18 </add>
+</height>
+<_line_alpha> 255 </_line_alpha>
+<locus> 1 </locus>
+<font>
+	<copy> 2 </copy>
+	<onlyifnot src="io" trait="font" />
+	<add src="io" trait="font" />
+</font>
+
+<image name="CI_TopLine">
+	<include src="line.xml"/>
+	<_length> <copy src="parent" trait="width"/> </_length>
+	<alpha> <copy src="parent" trait="_line_alpha"/> </alpha>
+	<visible> <not src="parent" trait="_VUI+NoBorder"/> </visible>
+</image>
+
+<image name="CI_RightVert">
+	<include src="vertical_fade_line.xml"/>
+	<x> <copy src="parent" trait="width"/> <sub src="me" trait="width"/> </x>
+	<height>
+		<copy src="parent" trait="height" />
+		<add src="parent" trait="_VUI+RightVertExtra" />
+		<sub>10</sub>
+	</height>
+	<alpha> <copy src="parent" trait="_line_alpha"/> </alpha>
+	<visible> <copy src="sibling" trait="visible"/> </visible>
+</image>
+
+<text name="CI_TitleText">
+	<x>
+		<copy src="sibling(CI_ValueText)" trait="x" />
+		<sub src="me" trait="width" />
+		<sub> 15 </sub>
+		<onlyif src="parent" trait="_VUI+LabelRight" />
+		<add>
+			<copy src="me" trait="font" />
+			<copy src="globals" trait="_VUI+FontX_" />
+		</add>
+		<add> 5 </add>
+	</x>
+	<y> <!--VUI+ improved vertical alignment -->
+		<copy src="parent" trait="height" />
+		<sub src="me" trait="height" />
+		<div> 2 </div>
+		<add>
+			<copy src="me" trait="font" />
+			<copy src="globals" trait="_VUI+FontY_"/>
+		</add>
+		<min> 20 </min>
+		<sub>5</sub>
+		<sub>
+			<copy>16</copy>
+			<onlyif>
+				<copy src="parent" trait="_Mod" />
+				<eq>1</eq>
+			</onlyif>
+		</sub>
+		<sub>
+			<copy>32</copy>
+			<onlyif>
+				<copy src="parent" trait="_Mod" />
+				<eq>2</eq>
+			</onlyif>
+		</sub>
+	</y>
+	<font> <copy src="parent" trait="font" /> </font>
+	<string> <copy src="parent" trait="_Title"/> </string>
+	<alpha>
+		<copy src="parent" trait="alpha"/>
+		<max> <copy> 255 </copy> <onlyif src="parent" trait="_VUI+NoBlink" /> </max> <!--VUI+ effectively suppress blinking -->
+	</alpha>
+	<brightness> <copy src="parent" trait="brightness" /> </brightness>
+	<visible>
+		 <!--VUI+ hide label if the value string would overlap on it and it's set to auto-hide -->
+		<copy src="parent" trait="width"/>
+		<sub src="sibling(CI_ValueText)" trait="width" />
+		<sub> 19 </sub>
+		<gt> <copy src="me" trait="width" /> </gt>
+		<and> <copy src="parent" trait="_VUI+NoLabel" /> <eq> 1 </eq> </and>
+		<or> <not src="parent" trait="_VUI+NoLabel" /> </or> <!--VUI+ never hide a forced label -->
+	</visible>
+	<zoom>85</zoom>
+	<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+	<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+</text>
+<include src="VUI+\outline.xml"/>
+
+<text name="CI_ValueText">
+	<include src="VUI+\textscale.xml" />
+	<_TextScale> <copy src="parent" trait="_VUI+NoWrap" /> </_TextScale>
+	<!-- Set the text within the two borders; done this way
+	because we want to keep the text left-justified -->
+	<x>
+		<copy src="me" trait="font" />
+		<copy src="globals" trait="_VUI+FontX_" />
+		<add src="me" trait="user2"/>
+		<sub src="me" trait="width"/>
+	</x>
+	<y> <copy src="sibling(CI_TitleText)" trait="y" /> </y> <!--VUI+ same alignment with title text -->
+	<font> <copy src="parent" trait="font" /> </font>
+	<string> <copy src="parent" trait="_Value"/> </string>
+	<wrapwidth>
+		<copy src="me" trait="user2"/>
+		<sub src="me" trait="user1"/>
+		<max> 50 </max>
+	</wrapwidth>
+	<!-- The leftmost border of the value text -->
+	<user1>
+		<copy> 5 </copy>
+		<add>
+			<copy src="parent" trait="width" />
+			<div> 30 </div> <!--VUI+ when the label is to be displayed, the spacing should be defined by the total width of the card -->
+			<add src="sibling" trait="width"/>
+			<onlyifnot src="parent" trait="_VUI+NoLabel" />
+		</add>
+	</user1>
+	<!-- The rightmost border of the value text -->
+	<user2> <copy src="parent" trait="width"/> <sub> 10 </sub> </user2>
+	<alpha> <copy src="sibling(CI_TitleText)" trait="alpha"/> </alpha>
+	<brightness> <copy src="sibling(CI_TitleText)" trait="brightness" /> </brightness>
+	<_width> <copy src="child(ValueWidth)" trait="width" /> </_width> <!--VUI+ unwrapped width used to calculate min/max card width, based on a hidden clone of the text -->
+	<zoom>85</zoom>
+	<text name="ValueWidth">
+		<string> <copy src="parent" trait="string" /> </string>
+		<font> <copy src="parent" trait="font" /> </font>
+		<visible> 0 </visible>
+	</text>
+	<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+	<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+</text>
+<include src="VUI+\outline.xml"/>

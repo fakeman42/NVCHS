@@ -1,0 +1,417 @@
+<!-- 
+// FILE			Templates.xml
+// VERSION		???
+// AUTHOR:		Anro
+// INFO			Tiles which gets injected trough Scripts
+-->
+
+<template name="Scav">
+	<image name="Scav">
+		<_X>0</_X>
+		<_Y>0</_Y>
+		<x>
+			<copy src="me()" trait="_X"/>
+			<mul src="screen()" trait="Width"/>
+			<add>
+				<copy src="me()" trait="width"/>
+				<div>-2</div>
+			</add>
+		</x>
+		<y>
+			<copy src="me()" trait="_Y"/>
+			<mul src="screen()" trait="Height"/>
+			<add>
+				<copy src="me()" trait="height"/>
+				<div>-1</div>
+			</add>
+		</y>
+		<filename>VUIE\Shared\Circle_Blurred.dds</filename>
+		<width>16</width>
+		<height>16</height>
+		<zoom>-1</zoom>
+	</image>
+</template>
+
+<template name="C3D_Tile">
+	<rect name="C3D_Tile">
+		<locus>1</locus>
+		<x>
+			<copy src="me()" trait="_x"/>
+			<mul src="screen()" trait="Width"/>
+		</x>
+		<y>
+			<copy src="me()" trait="_y"/>
+			<mul src="screen()" trait="Height"/>
+		</y>
+		<_x></_x>
+		<_y></_y>
+		<_Type></_Type>
+		<_Color></_Color>
+		<_Text></_Text>
+		<image name="Icon">
+			<_Icon_0>Addition\Icons\20.dds</_Icon_0>
+			<_Icon_1>Addition\Icons\1.dds</_Icon_1>
+			<_Icon_2>Addition\Icons\2.dds</_Icon_2>
+			<_Icon_3>Addition\Icons\3.dds</_Icon_3>
+			<_Icon_4>Addition\Icons\4.dds</_Icon_4>
+			<_Icon_5>Addition\Icons\5.dds</_Icon_5>
+			<_Icon_6>Addition\Icons\6.dds</_Icon_6>
+			<_Icon_7>Addition\Icons\7.dds</_Icon_7>
+			<_Icon_8>Addition\Icons\8.dds</_Icon_8>
+			<_Icon_9>Addition\Icons\9.dds</_Icon_9>
+			<_Icon_10>Addition\Icons\10.dds</_Icon_10>
+			<_Icon_11>Addition\Icons\11.dds</_Icon_11>
+			<_Icon_12>Addition\Icons\12.dds</_Icon_12>
+			<_Icon_13>Addition\Icons\13.dds</_Icon_13>
+			<_Icon_14>Addition\Icons\14.dds</_Icon_14>
+			<_Icon_15>Addition\Icons\15.dds</_Icon_15>
+			<_Icon_16>Addition\Icons\16.dds</_Icon_16>
+			<_Icon_17>Addition\Icons\17.dds</_Icon_17>
+			<_Icon_18>Addition\Icons\21.dds</_Icon_18>
+			<_Icon_19>Addition\Icons\20.dds</_Icon_19>
+			<filename>
+				<copy src="parent()" trait="_Type"/>
+				<copy src="me()" trait="_Icon_"/>
+			</filename>
+			<x>		
+				<copy src="me()" trait="width"/>
+				<div> -2 </div>
+			</x>
+			<y>
+				<copy src="me()" trait="height"/>
+				<div> -1 </div>
+			</y>
+			<width>24</width>
+			<depth>1</depth>
+			<height><copy src="me()" trait="width"/></height>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Color"/>
+			</systemcolor>
+			<zoom>-1</zoom>
+		</image>
+		<text name="Text">
+			<visible>
+				<copy>1</copy>
+				<onlyif>
+					<copy src="parent()" trait="Y"/>
+					<lte>
+						<copy src="io()" trait="_C3D+Height"/>
+						<add>40</add>
+					</lte>
+				</onlyif>
+				<and>
+					<copy src="parent()" trait="Y"/>
+					<gte>
+						<copy src="io()" trait="_C3D+Height"/>
+						<sub>40</sub>
+					</gte>
+				</and>
+				<and>
+					<copy src="parent()" trait="x"/>
+					<lte>
+						<copy src="io()" trait="_C3D+Width"/>
+						<add>40</add>
+					</lte>
+				</and>
+				<and>
+					<copy src="parent()" trait="x"/>
+					<gte>
+						<copy src="io()" trait="_C3D+Width"/>
+						<sub>40</sub>
+					</gte>
+				</and>
+				<and src="io()" trait="_C3D+Text"/>
+			</visible>
+			<y>
+				<copy>20</copy>
+				<add>
+					<copy src="me()" trait="height"/>
+					<div> -1 </div>
+				</add>
+			</y>
+			<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+			<justify>&Center;</justify>
+			<string><copy src="parent()" trait="_Text"/></string>
+			<systemcolor><copy src="sibling()" trait="systemcolor"/></systemcolor>
+			<zoom>60</zoom>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+    </rect>
+</template>
+
+<template name="FD_Damage">
+	<rect name="Damage_Data">
+		<_X></_X>
+		<_Y></_Y>
+		<_Value></_Value>
+		<_Crit></_Crit>
+		<_Alpha></_Alpha>
+		<visible>0</visible>
+		<locus>1</locus>
+		<x>
+			<copy src="me()" trait="_X"/>
+			<mul src="screen()" trait="Width"/>
+		</x>
+		<y>
+			<copy src="me()" trait="_Y"/>
+			<mul src="screen()" trait="Height"/>
+		</y>
+		<text name="FH_Value">
+			<justify>&Center;</justify>
+			<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Crit"/>
+			</systemcolor>
+			<y>
+				<copy src="me()" trait="height"/>
+				<div> -1 </div>
+			</y>
+			<string><copy src="parent()" trait="_Value"/></string>
+			<alpha><copy src="parent()" trait="_Alpha"/></alpha>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+    </rect>
+</template>
+
+
+<template name="MUX_Actor">
+	<rect name="MUX_Actor">
+		<_Visible>0</_Visible>
+		<_LOS>0</_LOS>
+		<_X>0</_X>
+		<_Y>0</_Y>
+		<_Hostile>0</_Hostile>
+		<_Actor>0</_Actor>
+		<_Value>0</_Value>
+		<_Bar>0</_Bar>
+		<_Scope>0</_Scope>
+		<_Vendor>0</_Vendor>
+		<_Sneak>0</_Sneak>
+		<_Type></_Type>
+		<visible>
+			<copy>-1</copy>
+			<add src="me()" trait="_Visible"/>
+			<add src="me()" trait="_LOS"/>
+			<max>0</max>
+		</visible>
+		<locus>1</locus>
+		<x>
+			<copy src="me()" trait="_X"/>
+			<mul src="screen()" trait="Width"/>
+			<add>
+				<copy>140</copy>
+				<div>-2</div>
+			</add>
+		</x>
+		<y>
+			<copy src="me()" trait="_Y"/>
+			<mul src="screen()" trait="Height"/>
+			<add>
+				<copy>40</copy>
+				<div>-1</div>
+			</add>
+		</y>
+		<text name="Name">
+			<visible><copy src="parent()" trait="_Bar"/></visible>
+			<x>70</x>
+			<y></y>
+			<depth>2</depth>
+			<justify>&Center;</justify>
+			<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+			<zoom>60</zoom>
+			<string><copy src="parent()" trait="_Actor"/></string>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Hostile"/>
+			</systemcolor>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+		<image name="Meter">
+			<visible><copy src="parent()" trait="_Bar"/></visible>
+			<_filename_0>Addition\Meter_Alt.dds</_filename_0>
+			<_filename_1>Addition\Meter.dds</_filename_1>
+			<_filename_2>Addition\Meter.dds</_filename_2>
+			<filename>
+				<copy src="io()" trait="_FH+Skin"/>
+				<copy src="me()" trait="_filename_"/>
+			</filename>
+			<x>20</x>
+			<y>12</y>
+			<width>
+				<copy src="parent()" trait="_Value"/>
+				<mul>100</mul>
+				<max>0</max>
+				<min>100</min>
+			</width>
+			<height>6</height>
+			<depth>1</depth>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Hostile"/>
+			</systemcolor>
+		</image>
+		<image name="Bar">
+			<visible><copy src="parent()" trait="_Bar"/></visible>
+			<_filename_0>Addition\FH_Vanilla.dds</_filename_0>
+			<_filename_1>Addition\FH_Modern.dds</_filename_1>
+			<_filename_2>Addition\FH_Revelation.dds</_filename_2>
+			<filename>
+				<copy src="io()" trait="_FH+Skin"/>
+				<copy src="me()" trait="_filename_"/>
+			</filename>
+			<y>10</y>
+			<width>140</width>
+			<height>12</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>
+				<copy>0</copy>
+				<add>
+					<copy>1</copy>
+					<add src="parent()" trait="_Hostile"/>
+					<onlyif>
+						<copy src="io()" trait="_FH+Skin"/>
+						<eq>0</eq>
+					</onlyif>
+				</add>
+			</systemcolor>
+			<red>
+				<copy>255</copy>
+				<sub>
+					<copy>232</copy>
+					<onlyif>
+						<copy src="io()" trait="_FH+Skin"/>
+						<eq>1</eq>
+					</onlyif>
+				</sub>
+			</red>
+			<green>
+				<copy>255</copy>
+				<sub>
+					<copy>227</copy>
+					<onlyif>
+						<copy src="io()" trait="_FH+Skin"/>
+						<eq>1</eq>
+					</onlyif>
+				</sub>
+			</green>
+			<blue>
+				<copy>255</copy>
+				<sub>
+					<copy>226</copy>
+					<onlyif>
+						<copy src="io()" trait="_FH+Skin"/>
+						<eq>1</eq>
+					</onlyif>
+				</sub>
+			</blue>
+		</image>
+		<image name="FH_Glass">
+			<visible>
+				<copy src="io()" trait="_FH+Skin"/>
+				<eq>2</eq>
+			</visible>
+			<filename>Addition\Revelation\Tube.dds</filename>
+			<x>20</x>
+			<y>10</y>
+			<width>100</width>
+			<height>6</height>
+			<depth>2</depth>
+			<systemcolor>0</systemcolor>
+			<red>255</red>
+			<green>255</green>
+			<blue>255</blue>
+		</image>
+		<image name="Icon_1">
+			<visible><copy src="parent()" trait="_Scope"/></visible>
+			<x>
+				<copy>61</copy>
+				<sub>
+					<copy>9</copy>
+					<onlyif src="parent()" trait="_Vendor"/>
+				</sub>
+				<sub>
+					<copy>9</copy>
+					<onlyif src="parent()" trait="_Sneak"/>
+				</sub>
+			</x>
+			<y>22</y>
+			<_Texture_0>Addition\Icons\human.dds</_Texture_0>
+			<_Texture_1>Addition\Icons\animal.dds</_Texture_1>
+			<_Texture_2>Addition\Icons\animalmutant.dds</_Texture_2>
+			<_Texture_3>Addition\Icons\insect.dds</_Texture_3>
+			<_Texture_4>Addition\Icons\abomination.dds</_Texture_4>
+			<_Texture_5>Addition\Icons\supermutant.dds</_Texture_5>
+			<_Texture_6>Addition\Icons\ghoul.dds</_Texture_6>
+			<_Texture_7>Addition\Icons\robot.dds</_Texture_7>
+			<filename>
+				<copy src="me()" trait="_Type"/>
+				<copy src="me()" trait="_Texture_"/>
+			</filename>
+			<width>18</width>
+			<height>18</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Hostile"/>
+			</systemcolor>
+		</image>
+		<image name="Icon_2">
+			<visible><copy src="parent()" trait="_Vendor"/></visible>
+			<x>
+				<copy>61</copy>
+				<add>
+					<copy>9</copy>
+					<onlyif src="parent()" trait="_Scope"/>
+				</add>
+				<sub>
+					<copy>9</copy>
+					<onlyif src="parent()" trait="_Sneak"/>
+				</sub>
+			</x>
+			<y>22</y>
+			<filename>Addition\Icons\21.dds</filename>
+			<width>18</width>
+			<height>18</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Hostile"/>
+			</systemcolor>
+		</image>
+		<image name="Icon_3">
+			<visible><copy src="parent()" trait="_Sneak"/></visible>
+			<x>
+				<copy>61</copy>
+				<add>
+					<copy>9</copy>
+					<onlyif src="parent()" trait="_Scope"/>
+				</add>
+				<add>
+					<copy>9</copy>
+					<onlyif src="parent()" trait="_Vendor"/>
+				</add>
+			</x>
+			<y>22</y>
+			<filename>Addition\Icons\Spotter.dds</filename>
+			<width>18</width>
+			<height>18</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>
+				<copy>1</copy>
+				<add src="parent()" trait="_Hostile"/>
+			</systemcolor>
+		</image>
+	</rect>
+</template>

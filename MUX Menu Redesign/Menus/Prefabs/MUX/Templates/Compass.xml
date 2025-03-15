@@ -1,0 +1,119 @@
+
+
+	<image name="Back">
+		<visible>
+			<copy src="parent()" trait="_Type"/>
+			<gte>2</gte>
+		</visible>
+		<x><copy src="sibling(Direction)" trait="x"/><sub>2</sub></x>
+		<y>27</y>
+		<filename>VUIE\Shared\Gradients\Fader.dds</filename>
+		<width>4</width>
+		<height>8</height>
+		<depth>0</depth>
+		<zoom>-1</zoom>
+		<systemcolor>0</systemcolor>
+		<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+		<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+		<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+		<clips>1</clips>
+		<alpha>
+			<copy src="io()" trait="_iHUD+Compass"/>
+			<min src="globals" trait="_VUIE+Alpha100" />
+		</alpha>
+	</image>
+	
+	<image name="Back_2">
+		<visible>
+			<copy src="parent()" trait="_Type"/>
+			<gte>1</gte>
+		</visible>
+		<x>
+			<copy src="sibling(Direction)" trait="x"/>
+			<sub>1</sub>
+			<sub>
+				<copy>1</copy>
+				<onlyif>
+					<copy src="parent()" trait="_Type"/>
+					<eq>1</eq>
+				</onlyif>
+			</sub>
+		</x>
+		<y>27</y>
+		<filename>VUIE\Shared\Gradients\Fader.dds</filename>
+		<systemcolor>
+			<copy>0</copy>
+			<add>
+				<copy src="grandparent()" trait="_Color"/>
+				<onlyif>
+					<copy src="parent()" trait="_Type"/>
+					<eq>3</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>1</copy>
+				<onlyif>
+					<copy src="parent()" trait="_Type"/>
+					<neq>3</neq>
+				</onlyif>
+			</add>
+		</systemcolor>
+		<width>
+			<copy>2</copy>
+			<add>
+				<copy>2</copy>
+				<onlyif>
+					<copy src="parent()" trait="_Type"/>
+					<eq>1</eq>
+				</onlyif>
+			</add>
+		</width>
+		<height>8</height>
+		<depth>1</depth>
+		<clips>1</clips>
+		<zoom>-1</zoom>
+		<alpha>
+			<copy>0</copy>
+			<add>
+				<copy src="io()" trait="_iHUD+Compass"/>
+				<min>255</min>
+				<onlyif>
+					<copy src="parent()" trait="_Type"/>
+					<neq>3</neq>
+				</onlyif>
+			</add>
+			<add>
+				<copy src="grandparent()" trait="_Alpha"/>
+				<onlyif>
+					<copy src="parent()" trait="_Type"/>
+					<eq>3</eq>
+				</onlyif>
+			</add>
+		</alpha>
+	</image>
+
+
+	<text name="Direction">
+		<x>
+			<copy src="grandparent()" trait="width"/>
+			<sub>
+				<copy>
+					<copy src="io()" trait="_Script+Angle"/>
+					<sub src="parent()" trait="_GTE"/>
+				</copy>
+				<div>90</div>
+				<mul src="grandparent()" trait="width"/>
+			</sub>
+		</x>
+		<y>40</y>
+		<depth>1</depth>
+		<justify>&Center;</justify>
+		<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+		<string><copy src="parent()" trait="_Text"/></string>
+		<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+		<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		<zoom>70</zoom>
+		<clips>1</clips>
+		<alpha><copy src="io()" trait="_iHUD+Compass"/></alpha>
+	</text>
+	<include src="VUI+\outline.xml"/>

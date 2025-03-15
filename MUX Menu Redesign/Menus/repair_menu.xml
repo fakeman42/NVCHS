@@ -1,0 +1,551 @@
+<!-- Pip-Boy Repair menu
+COPYRIGHT BY ZENIMAX; MODIFIED JUNE 2022 BY AXONIS FOR VANILLA UI PLUS
+* Reorganized the entire code to fix several alignment issues, to match the appearance of all 3 Pip-Boy menus and to use relative positioning; original block structure is retained
+* Expanded the width and reduced the vertical padding of list item to fit more of them and make use of available free space wherever it could be found
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Added highlighting to list contents (text, images etc) and targetable images
+* Streamlined the positioning of buttons for consistency across menus; this also allows for greater width expansion since the buttons no longer protrude outside the rectangle
+* Added options to control the size of the Pip-Boy menus and expanded them on default
+* Emphasized the item to be repaired
+* Fixed health bar for items with health > 100%
+* Resized the condition bar based on font height and aligned it using font metrics
+* Set non-perfect item condition to 96% of the available CND bar width for fixed items
+* Renamed Cancel to Done because whatever repairs have taken place are not cancelled
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="RepairMenu">
+	<class> &RepairMenu; </class>
+	<id> &pipboymenu; </id>
+	<systemcolor> &pipboy; </systemcolor>
+	<_VUI+PipX> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipX" /> </_VUI+PipX>
+	<_VUI+PipY> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipY" /> </_VUI+PipY>
+	<_VUI+PipWidth> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipWidth" /> </_VUI+PipWidth>
+	<_VUI+PipHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+PipHeight" /> </_VUI+PipHeight>
+	<font> 2 </font>
+	<include src="VUI+\Keybinds\PipBoyRepair.xml" />
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<!-- NOT USED IN PIPBOY MENUS -->
+	</rect>
+
+	<rect name="GLOW_BRANCH">
+		<id> &glow_branch; </id>
+
+		<!-- ===== BACKGROUND TEXTURE ===== -->
+		<image name="RM_Background">
+			<filename> Interface\Shared\Background\pipboy.dds </filename>
+			<width> <copy src="globals" trait="_pipboy_width"/> </width>
+			<height> <copy src="globals" trait="_pipboy_height"/> </height>
+			<zoom> &scale; </zoom>
+			<depth> 1 </depth>
+			<brightness> 90 </brightness>
+		</image>
+
+		<!-- ===== MAIN POSITIONING RECT ===== -->
+		<rect name="RM_MainRect">
+			<x> <copy src="io" trait="_VUI+PipX" /> </x>
+			<y> <copy src="io" trait="_VUI+PipY" /> </y>
+			<width> <copy src="io" trait="_VUI+PipWidth" /> </width>
+			<height> <copy src="io" trait="_VUI+PipHeight" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<!-- ===== HEADLINE RECT ===== -->
+			<rect name="RM_HeadlineRect">
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> 60 </height>
+
+				<!-- Upper-left corner -->
+				<image name="RM_Headline_v1">
+					<include src="vertical_fade_line.xml"/>
+				</image>
+				<image name="RM_Headline_h1">
+					<include src="line.xml"/>
+					<_length> 50 </_length>
+				</image>
+
+				<!-- Menu title -->
+				<text name="RM_Headline_Title">
+					<x>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+						<add src="sibling" trait="x" />
+						<add src="sibling" trait="width" />
+						<add> 20 </add>
+					</x>
+					<y>
+						<copy src="sibling" trait="height" />
+						<sub src="me" trait="height" />
+						<div> 2 </div>
+						<add>
+							<copy src="me" trait="font" />
+							<copy src="globals" trait="_VUI+FontY_"/>
+						</add>
+					</y>
+					<font> 3 </font>
+					<string> &-sInventoryItems; </string>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+				<image name="RM_Headline_h2">
+					<include src="line.xml"/>
+					<x> <copy src="sibling(RM_Headline_Title)" trait="x" /> <add src="sibling(RM_Headline_Title)" trait="width" /> <add> 20 </add> </x>
+					<_length>
+						<copy src="sibling(RM_Headline_PlayerSkillInfo)" trait="x"/>
+						<sub src="me" trait="x"/>
+						<max> 0 </max>
+					</_length>
+				</image>
+
+				<!-- Player skill info display -->
+				<rect name="RM_Headline_PlayerSkillInfo">
+					<include src="card_info.xml"/>
+					<id> 0 </id>
+					<x> <copy src="parent" trait="width"/> <sub src="me" trait="width"/> </x>
+					<width> 220 </width>
+					<_Title> &-sRepairSkill; </_Title>
+					<_VUI+RightVertExtra>
+						<copy src="sibling(RM_Headline_v1)" trait="height" />
+						<sub src="me" trait="height" />
+					</_VUI+RightVertExtra>
+				</rect>
+			</rect>
+
+			<hotrect name="RM_RepairList">
+				<include src="list_box.xml"/>
+				<id> 1 </id>
+				<x> -15 </x>
+				<!--VUI+ the vertical position and height of the list is calculated based on the available space -->
+				<_VUI+Top> <copy src="sibling(RM_HeadlineRect)" trait="height"/> </_VUI+Top>
+				<_VUI+Bottom> <copy src="parent" trait="height" /> </_VUI+Bottom>
+				<y>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add src="me" trait="_VUI+Top" />
+				</y>
+				<width> <copy src="parent" trait="width" /> <mul> 0.56 </mul> </width> <!--VUI+ increased thanks to various width space savings -->
+				<height>
+					<copy src="me" trait="_VUI+Bottom" />
+					<sub src="me" trait="_VUI+Top" />
+					<add> 6 </add> <!--VUI+ to perfectly fit the last item -->
+				</height>
+				<!--VUI+ the scrollbar will resize to just touch the vertical edges (and not overlap on them) -->
+				<_VUI+ScrollbarOffsetY>
+					<copy src="me" trait="_VUI+Top" />
+					<sub src="me" trait="y" />
+				</_VUI+ScrollbarOffsetY>
+				<_VUI+ScrollbarOffsetHeight>
+					<copy src="me" trait="_VUI+ScrollbarOffsetY" />
+					<mul> -2 </mul>
+				</_VUI+ScrollbarOffsetHeight>
+				<_VerticalSpacing>10 </_VerticalSpacing>
+			
+				<!-- BRACKETS: Used to border the selected repair item -->
+				<rect name="RM_LeftBracket">
+					<include src="bracket_vert.xml"/>
+					<id> 2 </id>
+					<x> <copy src="sibling(lb_highlight_box)" trait="x" /> </x> <!--VUI+ left align with the highlight box -->
+					<width> 30 </width>
+					<_OpenToLeft> 0 </_OpenToLeft>
+				</rect>
+				
+				<rect name="RM_RightBracket">
+					<include src="bracket_vert.xml"/>
+					<x>
+						<copy src="parent" trait="width" />
+						<sub src="child(MainLine)" trait="width" /> <!--VUI+ right align with the highlight box, vertical line on the inside -->
+					</x>
+					<y> <copy src="sibling(RM_LeftBracket)" trait="y"/> </y>
+					<height> <copy src="sibling(RM_LeftBracket)" trait="height"/> </height>
+					<width> 30 </width>
+				</rect>
+			</hotrect>
+
+			<!-- ===== ITEM ICON ===== -->
+			<image name="RM_ItemIcon">
+				<locus>1</locus>
+				<id> 3 </id>
+				<x>
+					<copy src="sibling(RM_CompareRect)" trait="x" />
+					<add>
+						<copy src="sibling(RM_CompareRect)" trait="width"/>
+						<sub src="me" trait="width"/>
+						<div> 2 </div>
+					</add>
+					<add> 10 </add> <!--VUI+ centering tweak -->
+				</x>
+				<y> 35 </y> <!--VUI+ rebar clubs etc -->
+				<width> 380 </width>
+				<height> 380 </height>
+				<zoom> &scale; </zoom>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<!-- ===== ITEM INFO DISPLAYS ===== -->
+			<rect name="RM_CompareRect">
+				<x>
+					<copy src="sibling(RM_RepairList)" trait="x"/>
+					<add src="sibling(RM_RepairList)" trait="width"/>
+					<add> 5 </add> <!--VUI+ some space between the list and the info -->
+				</x>
+				<y> 400 </y>
+				<width>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+					<sub> 10 </sub> <!--VUI+ align with the bottom right vertical line -->
+				</width>
+				<height> 180 </height>
+				<locus> 1 </locus>
+
+				<rect name="RM_BrokenItemHealth">
+					<id> 4 </id>
+					<include src="card_info.xml"/>
+					<width> <copy src="parent" trait="width"/> <div> 2 </div> </width>
+					<height> 60 </height>
+					<_Title> &-sInventoryCondition; </_Title>
+					<visible> 0 </visible>
+					<font>3</font>
+
+					<rect name="RM_BrokenItemHealthMeter">
+						<include src="meter.xml"/>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+							<sub> 15 </sub>
+						</x>
+						<y>
+							<copy src="sibling" trait="height" />
+							<sub src="me" trait="height" />
+							<div> 2 </div>
+							<add src="sibling" trait="y" />
+							<sub>
+								<copy src="sibling" trait="font" />
+								<copy src="globals" trait="_VUI+FontY_" />
+							</sub>
+							<add>1</add>
+						</y>
+						<width> 60 </width>
+						<height>
+							<copy src="sibling" trait="height" />
+							<mul> 0.3 </mul>
+							<add> 10 </add>
+						</height>
+						<_SolidMeter> 1 </_SolidMeter>
+						<_ShowBackground> 1 </_ShowBackground>
+						<_Value> <copy src="parent" trait="user0"/> </_Value>
+					</rect>
+				</rect>
+
+				<rect name="RM_BrokenItemStat">
+					<id> 5 </id>
+					<include src="card_info.xml"/>
+					<x> <copy src="sibling(RM_BrokenItemHealth)" trait="width"/> <add> 10 </add> </x>
+					<width> <copy src="parent" trait="width"/> <div> 2 </div> </width>
+					<height> 60 </height>
+					<visible> <copy src="sibling(RM_BrokenItemHealth)" trait="visible"/> </visible>
+					<font>3</font>
+				</rect>
+
+				<image name="RM_ArrowIcon">
+					<locus>1</locus>
+					<filename> Interface\Shared\Arrow\repair_arrow_down.dds </filename>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="width"/>
+						<div> 2 </div>
+					</x>
+					<y>
+						<copy src="parent" trait="height"/>
+						<sub src="me" trait="height"/>
+						<div> 2 </div>
+						<sub> 5 </sub>
+					</y>
+					<height> 80 </height>
+					<width> 80 </width>
+					<zoom> &scale; </zoom>
+					<visible> <copy src="sibling(RM_FixedItemHealth)" trait="visible" /> </visible>
+					<include src="VUI+\Image_outline.xml"/>
+				</image>
+
+				<text name="RM_HealthImprovementText">
+					<id> 6 </id>
+					<font> 3 </font>
+					<justify> &center; </justify>
+					<x>
+						<copy src="parent" trait="width"/>
+						<div> 4 </div>
+						<sub> 10 </sub> <!--VUI+ tweak centering to the left due to the narrower width -->
+					</x>
+					<y> <copy src="sibling(RM_ArrowIcon)" trait="y"/> <add> 30 </add> </y>
+					<visible> <copy src="sibling(RM_FixedItemHealth)" trait="visible"/> </visible>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<text name="RM_StatImprovementText">
+					<id> 7 </id>
+					<font> 3</font>
+					<justify> &center; </justify>
+
+					<x>
+						<copy src="parent" trait="width"/>
+						<mul> 3 </mul>
+						<div> 4 </div>
+						<add> 10 </add> <!--VUI+ tweak centering to the right due to the narrower width -->
+					</x>
+					<y> <copy src="sibling(RM_HealthImprovementText)" trait="y"/></y>
+					<visible> <copy src="sibling(RM_FixedItemHealth)" trait="visible"/> </visible>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<text name="RM_ChooseItemText">
+					<id> 8 </id>
+					<font> 3 </font>
+					<x>
+						<copy src="parent" trait="width"/>
+						<div> 2 </div>
+					</x>
+					<y>
+						<copy src="sibling(RM_FixedItemHealth)" trait="y"/>
+						<add> 15 </add>
+					</y>
+					<wrapwidth> 400 </wrapwidth>
+					<justify> &center; </justify>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</text>
+				<include src="VUI+\outline.xml"/>
+
+				<rect name="RM_FixedItemHealth">
+					<id> 9 </id>
+					<include src="card_info.xml"/>
+					<y> <copy src="parent" trait="height"/> <sub src="me" trait="height"/> </y>
+					<width> <copy src="parent" trait="width"/> <div> 2 </div> </width>
+					<height> 60 </height>
+					<visible> 0 </visible>
+					<_Title> &-sInventoryCondition; </_Title>
+					<font>3</font>
+
+					<rect name="RM_FixedItemHealthMeter">
+						<include src="meter.xml"/>
+						<x>
+							<copy src="parent" trait="width"/>
+							<sub src="me" trait="width"/>
+							<sub> 15 </sub>
+						</x>
+						<y>
+							<copy src="sibling" trait="height" />
+							<sub src="me" trait="height" />
+							<div> 2 </div>
+							<add src="sibling" trait="y" />
+							<sub>
+								<copy src="sibling" trait="font" />
+								<copy src="globals" trait="_VUI+FontY_" />
+							</sub>
+							<add>1</add>
+						</y>
+						<width> 60 </width>
+						<height>
+							<copy src="sibling" trait="height" />
+							<mul> 0.3 </mul>
+							<add> 10 </add>
+						</height>
+						<_SolidMeter> 1 </_SolidMeter>
+						<_ShowBackground> 1 </_ShowBackground>
+						<_Value>
+							<copy src="parent" trait="user0"/>
+							<!--VUI+ see item_stats_display -->
+							<min>
+								<copy> -0.04 </copy>
+								<onlyif>
+									<copy src="parent" trait="user0" />
+									<lt> 1 </lt>
+								</onlyif>
+								<add> 1 </add>
+							</min>
+						</_Value>
+					</rect>
+				</rect>
+
+				<rect name="RM_FixedItemStat">
+					<id> 10 </id>
+					<include src="card_info.xml"/>
+					<x> <copy src="sibling(RM_FixedItemHealth)" trait="width"/> <add> 10 </add> </x>
+					<y> <copy src="sibling(RM_FixedItemHealth)" trait="y"/> </y>
+					<width> <copy src="parent" trait="width"/> <div> 2 </div> </width>
+					<height> 60 </height>
+					<visible> <copy src="sibling(RM_FixedItemHealth)" trait="visible"/> </visible>
+					<font>3</font>
+				</rect>
+			</rect>
+
+			<!-- ===== BUTTON POSITIONING RECT ===== -->
+			<rect name="RM_ButtonRect">
+				<x> <copy src="parent" trait="width"/> <sub src="globals" trait="_VUI+InsideButton" /> </x>
+				<y> <copy src="sibling(RM_HeadlineRect)" trait="height"/> </y>
+				<height> 120 </height>
+				<locus> 1 </locus>
+
+				<!-- Only visible on XBox -->
+
+				<!-- Repair button: Repairs the broken item with the selected spare part -->
+				<hotrect name="RM_RepairButton">
+					<id> 11 </id>
+					<include src="text_box.xml"/>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<justify> &right; </justify>
+					<string> &-sRepairItem; </string>
+					<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+					<_line_alpha> 255 </_line_alpha>		<!-- Set in code -->
+					<_xbox_button> &xbuttona; </_xbox_button>
+				</hotrect>
+
+				<!--VUI+ Done button: Closes the menu, retaining the performed repairs -->
+				<hotrect name="RM_CancelButton">
+					<id> 12 </id>
+					<include src="text_box.xml"/>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					<_y>
+						<copy src="sibling(RM_RepairButton)" trait="_y"/>
+						<add>
+							<copy src="me" trait="height"/>
+							<onlyif src="sibling(RM_RepairButton)" trait="visible"/>
+						</add>
+					</_y>
+					<_horbuf> 20 </_horbuf>
+					<_verbuf> 15 </_verbuf>
+					<justify> &right; </justify>
+					<string> &-sDone; </string>
+					<_xbox_button> &xbuttonb; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_RM_CancelButton" /> </_PCButtonText>
+				</hotrect>
+			</rect>
+
+			<rect name="RM_BottomBracket">
+				<include src="bottom_bracket.xml"/>
+				<width> <copy src="parent" trait="width" /> </width>
+				<height> 50 </height> <!--VUI+ as it is on the Items menu -->
+				<y> <copy src="parent" trait="height"/> <add src="me" trait="height" /> </y>
+				<depth> 2 </depth>
+			</rect>
+		</rect>
+	</rect>
+
+	<!--======================== LIST BOX TEMPLATE =========================-->
+	<template name="RM_RepairListTemplate">
+		<hotrect name="RM_RepairListTemplateRect">
+			<include src="list_box_template.xml"/>
+			<_Value></_Value> <!-- The item's health -->
+			<_IsRepairItem> 0 </_IsRepairItem> <!-- True if this item has been selected to be repaired -->
+			<user0> 0 </user0> <!-- The repaired health of the item; set in code -->
+			<user1> 0 </user1> <!-- The min skill needed to repair with this item; set in code -->
+			<mouseoversound> &nosound; </mouseoversound>
+			<clicksound> &nosound; </clicksound>
+			<_VerticalSpacing> <copy src="parent" trait="_VerticalSpacing" /> </_VerticalSpacing>
+			<width> <copy src="parent" trait="width" /> </width> <!--VUI+ why use a constant ? -->
+
+			<text name="ListItemText">
+				<font> 3 </font>
+				<string> <copy src="parent" trait="string" /> </string>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif>
+						<copy src="parent" trait="_VUI+Highlighted" />
+						<or src="parent" trait="_IsRepairItem" /> <!--VUI+ always highlight the item to be repaired -->
+					</onlyif>
+					<add> 255 </add>
+				</brightness>
+				<alpha>
+					<copy> 200 </copy>
+					<onlyif src="parent" trait="_IsRepairItem" />
+					<add> 255 </add>
+				</alpha>
+				<wrapwidth>
+					<copy src="sibling(RM_Template_MeterBackground)" trait="x" />
+					<sub> 59 </sub> <!--VUI+ distance between text and the item health bar -->
+				</wrapwidth>
+				<x> 43 </x> <!--VUI+ related to _item_offset in list_box.xml edits -->
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<!-- Item condition meter -->
+			<!-- OPTIMIZATION: Avoid meter.xml as it's slow to use and this list can get large -->
+			<image name="RM_Template_MeterBackground">
+				<filename> solid.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> <copy src="parent" trait="width" /> <sub> 110 </sub> </x> <!--VUI+ relative; width of the health bar is 100 -->
+				<y> <copy src="parent" trait="height" /> <sub src="me" trait="height" /> <div> 2 </div> </y> <!--VUI+ align to the middle -->
+				<width> 60 </width>
+				<height> 16 </height>
+				<alpha> 100 </alpha>
+				<brightness> <copy src="sibling(ListItemText)" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<clips> 1 </clips>
+				<depth> 1 </depth>
+			</image>
+
+			<image name="RM_Template_Meter"> <!--VUI+ copies width from the original (now hidden) element with a corrected max value -->
+				<filename> solid.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> <copy src="sibling" trait="x" /> </x>
+				<y> <copy src="sibling" trait="y" /> </y>
+				<width>
+					<copy src="sibling(RM_Template_Meter_Hidden)" trait="width" />
+					<min src="sibling" trait="width" />
+				</width>
+				<height> 16 </height>
+				<brightness> <copy src="sibling" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<clips> 1 </clips>
+				<depth> 2 </depth>
+			</image>
+
+			<image name="RM_Template_Meter_Hidden">
+				<id> 15 </id>
+				<visible> 0 </visible>
+			</image>
+
+			<!-- Small square that becomes filled if item is equipped -->
+			<image name="RM_Template_ItemMarker">
+				<filename> Interface\Shared\Marker\square_filled.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<width> 24 </width>
+				<height> 24 </height>
+				<x> 15 </x>
+				<y>
+					<copy src="sibling(ListItemText)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="parent" trait="_VerticalSpacing" />
+					<sub>
+						<copy src="me" trait="height" />
+						<mul> 0.59 </mul>
+					</sub>
+					<div> 2 </div>
+				</y>
+				<brightness> <copy src="sibling(RM_Template_Meter)" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<visible> 0 </visible>
+			</image>
+		</hotrect>
+	</template>
+</menu>

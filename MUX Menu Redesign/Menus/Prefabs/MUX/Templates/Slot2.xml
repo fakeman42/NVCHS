@@ -1,0 +1,98 @@
+
+    <image name="Box">
+		<filename>MUX\Revelation\Icon.dds</filename>
+		<width>32</width>
+		<height>32</height>
+		<depth>0</depth>
+		<zoom>-1</zoom>
+		<systemcolor>0</systemcolor>
+		<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+		<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+		<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+    </image>
+    <image name="Gauge">
+		<filename>MUX\Revelation\Gauge.dds</filename>
+		<width>32</width>
+		<height>32</height>
+		<depth>2</depth>
+		<zoom>-1</zoom>
+		<systemcolor>0</systemcolor>
+		<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+		<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+		<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+    </image>
+	
+	<image name="Box_Bracket">
+		<x>37</x>
+		<y>20</y>
+		<filename>MUX\Revelation\Meter.dds</filename>
+		<width>220</width>
+		<height>10</height>
+		<depth>0</depth>
+		<zoom>-1</zoom>
+		<systemcolor>0</systemcolor>
+		<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+		<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+		<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+	</image>
+
+	<image name="Tube">
+		<x>37</x>
+		<y>20</y>
+		<filename>MUX\Revelation\Tube.dds</filename>
+		<width>220</width>
+		<height>10</height>
+		<depth>2</depth>
+		<systemcolor>0</systemcolor>
+		<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+		<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+		<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+	</image>
+	
+	<image name="Meter">
+		<locus>1</locus>
+		<x>39</x>
+		<y>22</y>
+		<Width>
+			<copy src="parent()" trait="_Health"/>
+			<mul>216</mul>
+		</Width>
+		<depth>1</depth>
+		<Height>6</Height>
+		<filename>MUX\Shared\Meters\Meter.dds</filename>
+		<zoom>-1</zoom>
+		<systemcolor>
+			<copy>1</copy>
+			<add>
+				<copy>1</copy>
+				<onlyif>
+					<copy src="parent()" trait="_Health"/>
+					<lte>0.40</lte>
+				</onlyif>
+			</add>
+		</systemcolor>
+	</image>
+	
+	<image name="Icon">
+		<x>4</x>
+		<y>4</y>
+		<filename><copy src="parent()" trait="_Icon"/></filename>
+		<width>24</width> 
+		<height>24</height>
+		<depth>3</depth>
+		<systemcolor>1</systemcolor>
+		<zoom>-1</zoom>
+	</image>
+	
+    <text name="Name">
+		<x>37</x>
+		<y>4</y>
+        <depth>1</depth>
+        <justify>&Left;</justify>
+        <font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+		<string><copy src="parent()" trait="_Name"/></string>
+		<zoom>70</zoom>
+		<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+		<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+	</text>
+	<include src="VUI+\outline.xml"/>

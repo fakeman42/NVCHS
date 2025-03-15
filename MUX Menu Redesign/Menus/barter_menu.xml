@@ -1,0 +1,818 @@
+<!-- Barter menu
+COPYRIGHT BY ZENIMAX; MODIFIED OCTOBER 2022 BY AXONIS FOR VANILLA UI PLUS
+* Expanded the list panes; this is customizable at settings.xml
+* Tightened item stats but enlarged the item icon
+* Improved the centering of the caps flow value
+* Aligned list items using VUI+ font metrics to support custom fonts
+* Remapped keys in separate Keybind prefabs
+-->
+<menu name="BarterMenu">
+	<class> &BarterMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<_VUI+ContainerHeight> <copy src="sibling(HUDMainMenu)" trait="_VUI+ContainerHeight" /> </_VUI+ContainerHeight>
+	<_VUI+noMODSlabel> <copy src="sibling(HUDMainMenu)" trait="_VUI+noMODSlabel" /> </_VUI+noMODSlabel>
+	<_VUI+SpaceBetween> 100 </_VUI+SpaceBetween>
+	<font> <copy src="globals" trait="_VUI+ListFont" /> </font>
+	<_IsContainerListSelected> -1 </_IsContainerListSelected> <!-- True when container list is selected; required for the Barter menu -->
+	<_ArrowDirection></_ArrowDirection> <!-- Determines which direction the caps flow arrow faces; set in code-->
+	<xbuttonx> <ref src="BM_ButtonX" trait="clicked"/> </xbuttonx>
+	<xbuttonb> <ref src="BM_ButtonB" trait="clicked"/> </xbuttonb>
+	<include src="VUI+\Keybinds\Barter.xml" />
+	
+	<!--VUI+ calculate the width of the price column based on the set font -->
+	<text name="PriceWidth">
+		<string> X33333 </string>
+		<font> <copy src="io" trait="font" /> </font>
+		<visible> 0 </visible>
+	</text>
+	<_PriceWidth> <copy src="child(PriceWidth)" trait="width" /> </_PriceWidth>
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<rect name="BM_MainRect">
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2.3 </div>
+			</y>
+			<width>
+				<copy src="sibling(BM_ItemsRect)" trait="width" />
+				<add src="sibling(BM_ContainerRect)" trait="width" />
+				<add src="io" trait="_VUI+SpaceBetween" />
+			</width>
+			<height>
+				<copy src="sibling(BM_ItemsRect)" trait="height" />
+				<add src="sibling(BM_ItemIcon)" trait="height" />
+				<sub> 30 </sub> <!--VUI+ icon crop -->
+				<sub>
+					<copy> 25 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</height>
+		</rect>
+
+		<image name="BM_Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(BM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(BM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(BM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(BM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> 5 </_VUI+MenuHeader>
+		</image>
+
+		<hotrect name="BM_Items_FocusRect"> <!--VUI+ these are necessary for the Barter menu and need to cover each pane -->
+			<id> 0 </id>
+			<x> <copy src="sibling(BM_ItemsRect)" trait="x"/> </x>
+			<y> <copy src="sibling(BM_ItemsRect)" trait="y"/> </y>
+			<width> <copy src="sibling(BM_ItemsRect)" trait="width"/> </width>
+			<height> <copy src="sibling(BM_ItemsRect)" trait="height"/> </height>
+			<target> <copy src="io" trait="_IsContainerListSelected"/> </target>
+			<depth> 5 </depth>
+			<alpha> 0 </alpha>
+		</hotrect>
+
+		<hotrect name="BM_Container_FocusRect">
+			<id> 1 </id>
+			<x> <copy src="sibling(BM_ContainerRect)" trait="x"/> </x>
+			<y> <copy src="sibling(BM_ContainerRect)" trait="y"/> </y>
+			<width> <copy src="sibling(BM_ContainerRect)" trait="width"/> </width>
+			<height> <copy src="sibling(BM_ContainerRect)" trait="height"/> </height>
+			<target> <not src="io" trait="_IsContainerListSelected"/> </target>
+			<depth> 5 </depth>
+			<alpha> 0 </alpha>
+		</hotrect>
+
+		<rect name="BM_ItemsRect">
+			<x> <copy src="sibling(BM_MainRect)" trait="x"/> </x>
+			<y> <copy src="sibling(BM_MainRect)" trait="y"/> </y>
+			<width> 537 </width>
+			<height> <copy src="child(BM_Items_footer_h1)" trait="y" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<image name="BM_Items_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="sibling(BM_Items_CapsLabel)" trait="y" /> <add src="sibling(BM_Items_CapsLabel)" trait="height" /> </height>
+			</image>
+
+			<image name="BM_Items_headline_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+			</image>
+
+			<image name="BM_Items_LeftFilterArrow">
+				<locus>1</locus>
+				<id> 2 </id>
+				<filename> Interface\Main\main_arrow_left.dds </filename>
+				<x> 33 </x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="BM_ItemsTitle">
+				<id> 3 </id>
+				<x>
+					<copy src="sibling" trait="width" />
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x" />
+					<add> 2 </add>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</add>
+				</x>
+				<y>
+					<copy src="sibling(BM_Items_headline_h1)" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<string> &-sInventoryItems; </string>
+				<font> <copy src="globals" trait="_VUI+HeadFont" /> </font>
+				<target> 1 </target>
+				<wheelable> 1 </wheelable>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="BM_Items_RightFilterArrow">
+				<locus>1</locus>
+				<id> 4 </id>
+				<filename> Interface\Main\main_arrow_right.dds </filename>
+				<x>
+					<copy src="sibling" trait="x" />
+					<add src="sibling" trait="width" />
+					<add> 7 </add>
+					<sub>
+						<copy src="sibling" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</sub>
+				</x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="BM_Items_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling" trait="width"/>
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x"/>
+					<add> 3 </add>
+				</x>
+			</image>
+
+			<text name="BM_Items_CapsLabel">
+				<id> 5 </id>
+				<x>
+					<copy src="sibling(BM_Items_InventoryList)" trait="x"/>
+					<add src="sibling(BM_Items_InventoryList)" trait="width"/>
+					<sub src="globals" trait="_VUI+Padding" />
+				</x>
+				<y>
+					<copy src="sibling(BM_ItemsTitle)" trait="height" />
+					<mul> 0.85 </mul>
+					<add src="sibling(BM_ItemsTitle)" trait="y" />
+				</y>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<alpha> 230 </alpha>
+				<justify> &right; </justify>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="BM_Items_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="parent" trait="width"/> </x>
+				<height> <copy src="sibling(BM_Items_headline_v1)" trait="height" /> </height>
+			</image>
+
+			<hotrect name="BM_Items_InventoryList">
+				<include src="list_box.xml"/>
+				<id> 6 </id>
+				<_enabled> <not src="io" trait="_IsContainerListSelected"/> </_enabled>
+				<x> -15 </x> <!--VUI+ aligns the top of the scrollbar arrow with the enclosing bracket (this has to be done by calculation at some point) -->
+				<y> <copy src="sibling(BM_Items_headline_v1)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<_VerticalSpacing>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontV_" />
+					<sub>1</sub>
+				</_VerticalSpacing>
+				<_MinListHeight>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="me" trait="_VerticalSpacing" />
+				</_MinListHeight>
+				<height>
+					<copy src="io" trait="_VUI+ContainerHeight" />
+					<div src="me" trait="_MinListHeight" />
+					<floor> 1 </floor> <!--VUI+ round to perfectly fit single-line items -->
+					<mul src="me" trait="_MinListHeight" />
+					<add>30</add>
+				</height>
+			</hotrect>
+
+			<image name="BM_Items_footer_v1">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<height> 30 </height>
+				<y> <copy src="sibling(BM_Items_InventoryList)" trait="y" /> <add src="sibling(BM_Items_InventoryList)" trait="height" /> </y>
+			</image>
+
+			<image name="BM_Items_footer_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+				<y> <copy src="sibling(BM_Items_footer_v1)" trait="y"/> <add src="sibling(BM_Items_footer_v1)" trait="height"/> </y>
+			</image>
+
+			<image name="BM_Items_TitleButton"> <!-- left xbox button -->
+				<locus>1</locus>
+				<_filename_1> general_button_lt.dds </_filename_1>
+				<_filename_2> general_button_lb.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="user0"/>
+					<add> 1 </add>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> 15 </x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div >
+					<add src="sibling(BM_Items_footer_h2)" trait="y" />
+				</y>
+				<width> 85 </width>
+				<height> 85 </height>
+				<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="BM_Items_footer_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(BM_Items_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy> 70 </copy>
+					<onlyif src="globals" trait="_Has360Controller"/>
+					<add> 25 </add>
+				</x>
+				<y> <copy src="sibling(BM_Items_footer_h1)" trait="y"/> </y>
+			</image>
+
+			<image name="BM_Items_footer_v2">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> </x>
+				<y> <copy src="sibling(BM_Items_footer_v1)" trait="y"/> </y>
+				<height> <copy src="sibling(BM_Items_footer_v1)" trait="height"/> </height>
+			</image>
+		</rect>
+
+		<rect name="BM_ContainerRect">
+			<x>
+				<copy src="sibling(BM_ItemsRect)" trait="x"/>
+				<add src="sibling(BM_ItemsRect)" trait="width"/>
+				<add src="io" trait="_VUI+SpaceBetween" />
+			</x>
+			<y> <copy src="sibling(BM_ItemsRect)" trait="y"/> </y>
+			<width> <copy src="sibling(BM_ItemsRect)" trait="width"/> </width>
+			<height> <copy src="child(BM_Container_footer_h1)" trait="y" /> </height>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+
+			<image name="BM_Container_headline_v1">
+				<include src="vertical_fade_line.xml"/>
+				<height> <copy src="BM_Items_headline_v1" trait="height" /> </height>
+			</image>
+
+			<image name="BM_Container_headline_h1">
+				<include src="line.xml"/>
+				<_length> 25 </_length>
+			</image>
+
+			<image name="BM_Container_LeftFilterArrow">
+				<locus>1</locus>
+				<id> 7 </id>
+				<filename> Interface\Main\main_arrow_left.dds </filename>
+				<x> 33 </x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="BM_ContainerTitle">
+				<id> 8 </id>
+				<x>
+					<copy src="sibling" trait="width" />
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x" />
+					<add> 2 </add>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontX_"/>
+					</add>
+				</x>
+				<y>
+					<copy src="sibling(BM_Container_headline_h1)" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+					<add>
+						<copy src="me" trait="font" />
+						<copy src="globals" trait="_VUI+FontY_"/>
+					</add>
+				</y>
+				<font> <copy src="BM_ItemsTitle" trait="font" /> </font>
+				<target> 1 </target>
+				<wheelable> 1 </wheelable>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="BM_Container_RightFilterArrow">
+				<locus>1</locus>
+				<id> 9 </id>
+				<filename> Interface\Main\main_arrow_right.dds </filename>
+				<x>
+					<copy> 60 </copy>
+					<add src="sibling(BM_ContainerTitle)" trait="width"/>
+				</x>
+				<y> -10 </y>
+				<width> 17.5 </width>
+				<height> 35 </height>
+				<zoom> &scale; </zoom>
+				<target> 1 </target>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif src="me" trait="mouseover"/>
+					<add> 240 </add>
+				</brightness>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="BM_Container_headline_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling" trait="width"/>
+					<onlyif src="sibling" trait="visible" />
+					<add src="sibling" trait="x"/>
+					<add> 3 </add>
+				</x>
+			</image>
+
+			<text name="BM_Container_CapsLabel">
+				<id> 10 </id>
+				<x> <copy src="BM_Items_CapsLabel" trait="x" /> </x>
+				<y> <copy src="BM_Items_CapsLabel" trait="y" /> </y>
+				<font> <copy src="BM_Items_CapsLabel" trait="font" /> </font>
+				<alpha> <copy src="BM_Items_CapsLabel" trait="alpha" /> </alpha>
+				<justify> <copy src="BM_Items_CapsLabel" trait="justify" /> </justify>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="BM_Container_headline_v2">
+				<include src="vertical_fade_line.xml"/>
+				<x> <copy src="parent" trait="width"/> </x>
+				<height> <copy src="sibling(BM_Container_headline_v1)" trait="height" /> </height>
+			</image>
+
+			<hotrect name="BM_Container_InventoryList">
+				<include src="list_box.xml"/>
+				<id> 11 </id>
+				<_enabled> <copy src="io" trait="_IsContainerListSelected"/> </_enabled>
+				<x> -15 </x>
+				<y> <copy src="sibling(BM_Container_headline_v1)" trait="height" /> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> <copy src="BM_Items_InventoryList" trait="height"/> </height>
+				<_VerticalSpacing> <copy src="BM_Items_InventoryList" trait="_VerticalSpacing"/> </_VerticalSpacing>
+			</hotrect>
+
+			<image name="BM_Container_footer_v1">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<y>
+					<copy src="sibling(BM_Container_InventoryList)" trait="y" />
+					<add src="sibling(BM_Container_InventoryList)" trait="height" />
+				</y>
+				<height > 30 </height>
+			</image>
+
+			<image name="BM_Container_footer_h1"> <!-- right xbox button -->
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(BM_Container_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+					<sub>
+						<copy> 95 </copy>
+						<onlyif src="globals" trait="_Has360Controller"/>
+					</sub>
+				</_length>
+				<y>
+					<copy src="sibling(BM_Container_footer_v1)" trait="y"/>
+					<add src="sibling(BM_Container_footer_v1)" trait="height"/>
+				</y>
+			</image>
+
+			<image name="BM_Container_TitleButton">
+				<locus>1</locus>
+				<_filename_1> general_button_rt.dds </_filename_1>
+				<_filename_2> general_button_rb.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="user0"/>
+					<add> 1 </add>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x>
+					<copy src="sibling(BM_Container_footer_h1)" trait="x" />
+					<add src="sibling(BM_Container_footer_h1)" trait="width" />
+					<sub> 5 </sub>
+				</x>
+				<y>
+					<copy src="me" trait="height" />
+					<div> -2 </div >
+					<add src="sibling(BM_Container_footer_h2)" trait="y" />
+				</y>
+				<width> 85 </width>
+				<height> 85 </height>
+				<visible> <copy src="globals" trait="_Has360Controller"/> </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="BM_Container_footer_h2">
+				<include src="line.xml"/>
+				<_length>
+					<copy src="parent" trait="width"/>
+					<add src="sibling(BM_Container_footer_v2)" trait="width"/>
+					<sub src="me" trait="x"/>
+				</_length>
+				<x>
+					<copy src="sibling(BM_Container_footer_h1)" trait="x" />
+					<add src="sibling(BM_Container_footer_h1)" trait="width" />
+					<add>
+						<copy> 70 </copy>
+						<onlyif src="globals" trait="_Has360Controller"/>
+					</add>
+				</x>
+				<y> <copy src="sibling(BM_Container_footer_h1)" trait="y"/> </y>
+			</image>
+
+			<image name="BM_Container_footer_v2">
+				<include src="vertical_fade_line.xml"/>
+				<_bottom_to_top> 1 </_bottom_to_top>
+				<x> <copy src="parent" trait="width"/> </x>
+				<y> <copy src="sibling(BM_Container_footer_v1)" trait="y"/> </y>
+				<height> <copy src="sibling(BM_Container_footer_v1)" trait="height"/> </height>
+			</image>
+		</rect>
+
+		<rect name="BM_CapsFlow">
+			<id> 12 </id>
+			<_Value></_Value> <!-- caps -->
+			<x>
+				<copy src="sibling(BM_ItemsRect)" trait="x"/>
+				<add> <copy src="sibling(BM_ItemsRect)" trait="width"/> </add>
+				<add> 5 </add>
+				<sub>
+					<copy> 5 </copy>
+					<onlyif><copy src="io" trait="_ArrowDirection"/><eq>1</eq></onlyif>
+				</sub>
+			</x>
+			<y>
+				<copy src="sibling(BM_ItemsRect)" trait="y" />
+				<add>
+					<copy src="sibling(BM_ItemsRect)" trait="height" />
+					<sub> <copy src="child(BM_CapsFlowIcon)" trait="height" /> <div> 1.89 </div> </sub> <!--VUI+ 1.89 is the correction factor for the real arrow on the dds file -->
+					<div> 2 </div>
+					<add> 10 </add>
+				</add>
+			</y>
+			<depth> 2 </depth>
+			<locus> 1 </locus>
+			<visible> 0 </visible>
+
+			<image name="BM_CapsFlowIcon">
+				<locus>1</locus>
+				<_filename_1> Interface\Barter\barter_arrow_buy.dds </_filename_1>
+				<_filename_2> Interface\Barter\barter_arrow_sell.dds </_filename_2>
+				<filename>
+					<copy src="io" trait="_ArrowDirection"/>
+					<copy src="me" trait="_filename_"/>
+				</filename>
+				<x>
+					<copy> 10 </copy>
+					<sub>
+						<copy> 25 </copy>
+						<onlyif><copy src="io" trait="_ArrowDirection"/><eq>2</eq></onlyif>
+					</sub>
+				</x>
+				<height> 360 </height>
+				<width> 120 </width>
+				<zoom> &scale; </zoom>
+				<alpha> <copy src="parent" trait="alpha"/> </alpha>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<!-- The caps amount text -->
+			<text name="BM_TransactionAmount">
+				<!--VUI+ Cleaner positioning wizardry that keeps text really centered and allows to use the large font for the transaction amount without overlapping for large values -->
+				<x>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontX_" />
+					<add> 37 </add>
+					<add>
+						<copy> 5 </copy>
+						<onlyif> <copy src="io" trait="_ArrowDirection"/> <eq> 2 </eq> </onlyif>
+					</add>
+					<sub>
+						<copy src="me" trait="width"/>
+						<onlyif><copy src="io" trait="_ArrowDirection"/> <eq> 1 </eq> </onlyif>
+						<max>
+							<copy src="sibling(BM_CapsLabel)" trait="width"/>
+							<add> 15 </add>
+						</max>
+						<div> 2 </div>
+					</sub>
+					<add>
+						<copy src="me" trait="width"/>
+						<onlyif> <copy src="io" trait="_ArrowDirection"/> <eq> 2 </eq> </onlyif>
+						<max>
+							<copy src="sibling(BM_CapsLabel)" trait="width"/>
+							<add> 10 </add>
+						</max>
+						<div> 2 </div>
+					</add>
+				</x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_" />
+					<add> 59 </add>
+				</y>
+				<justify> &center; </justify>
+				<font> <copy src="globals" trait="_VUI+HeadFont" /> </font>
+				<string> <copy src="parent" trait="_Value"/> </string>
+				<alpha> <copy src="parent" trait="alpha"/> </alpha>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="BM_CapsLabel">
+				<x> <copy src="sibling(BM_TransactionAmount)" trait="x"/> </x> <!--VUI+ tweaked due to caps font change -->
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_" />
+					<add> 94 </add>
+				</y>
+				<string> &-sInventoryCaps; </string>
+				<justify> &center; </justify>
+				<font> <copy src="globals" trait="_VUI+TextFont" /> </font>
+				<visible> 1 </visible>
+				<alpha> <copy src="parent" trait="alpha"/> </alpha>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+		</rect>
+
+		<rect name="BM_ButtonRect">
+			<x>
+				<copy src="sibling(BM_BottomBracket)" trait="x"/>
+				<add src="sibling(BM_BottomBracket)" trait="width"/>
+				<sub src="globals" trait="_VUI+InsideButton" />
+			</x>
+			<y> <copy src="sibling(BM_BottomBracket)" trait="y"/> <sub src="sibling(BM_BottomBracket)" trait="height" /> </y>
+			<locus> 1 </locus>
+			<depth> 6 </depth>
+
+			<hotrect name="BM_ButtonX">
+				<id> 13 </id>
+				<include src="text_box.xml"/>
+				<font><copy src="globals" trait="_VUI+ListFont" /></font>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				<_y> <copy src="sibling(BM_ButtonB)" trait="_y" /> <sub src="me" trait="height" /> </_y>
+				<_xbox_button> &xbuttonx; </_xbox_button>
+				<_PCButtonText> <copy src="io" trait="_BM_ButtonX" /> </_PCButtonText>
+				<_verbuf> 15 </_verbuf>
+				<justify> &right; </justify>
+				<string> &-sAccept; </string>
+				<target> 0 </target>
+			</hotrect>
+
+			<hotrect name="BM_ButtonB">
+				<id>
+					<copy> 5 </copy>
+					<onlyif src="globals" trait="_VUI+Vegas" />
+					<add> 14 </add>
+				</id>
+				<include src="text_box.xml"/>
+				<font><copy src="globals" trait="_VUI+ListFont" /></font>
+				<_y> <copy> 0 </copy> <sub src="me" trait="height" /> </_y>
+				<_xbox_button> &xbuttonb; </_xbox_button>
+				<_PCButtonText> <copy src="io" trait="_BM_ButtonB" /> </_PCButtonText>
+				<_verbuf> 15 </_verbuf>
+				<justify> &right; </justify>
+				<string> &-sExit; </string>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</hotrect>
+		</rect>
+
+		<image name="BM_ItemIcon">
+			<id>
+				<copy> 5 </copy>
+				<onlyif src="globals" trait="_VUI+Vegas" />
+				<add> 15 </add>
+			</id>
+			<x>
+				<copy src="sibling(BM_ItemsRect)" trait="x"/>
+				<add> 67 </add>
+			</x>
+			<y>
+				<copy src="sibling(BM_ItemsRect)" trait="y" />
+				<add src="sibling(BM_ItemsRect)" trait="height" />
+				<sub>12</sub>
+				<sub>
+					<copy> 25 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</y>
+			<width> 240 </width>
+			<height> 240 </height>
+			<depth> 2 </depth>
+			<zoom> &scale; </zoom>
+			<visible> 0 </visible>
+		</image>
+
+		<rect name="BM_ItemData">
+			<include src="item_stats_display.xml"/>
+			<id>
+				<copy> 5 </copy>
+				<onlyif src="globals" trait="_VUI+Vegas" />
+				<add> 16 </add>
+			</id>
+			<x> <copy src="sibling(BM_ItemIcon)" trait="x"/> <add src="sibling(BM_ItemIcon)" trait="width"/> </x>
+			<y>
+				<copy src="sibling(BM_ItemsRect)" trait="y" />
+				<add src="sibling(BM_ItemsRect)" trait="height" />
+				<add> 48 </add>
+				<sub>
+					<copy> 15 </copy>
+					<onlyifnot src="globals" trait="_VUI+Vegas" />
+				</sub>
+			</y>
+		</rect>
+
+		<rect name="BM_BottomBracket">
+			<include src="bottom_bracket.xml"/>
+			<x> <copy src="sibling(BM_MainRect)" trait="x"/> </x>
+			<y>
+				<copy src="sibling(BM_MainRect)" trait="y" />
+				<add src="sibling(BM_MainRect)" trait="height" />
+			</y>
+			<width> <copy src="sibling(BM_MainRect)" trait="width"/> </width>
+			<height> 40 </height>
+			<depth> 2 </depth>
+		</rect>
+	</rect>
+
+	<template name="BM_list_template">
+		<hotrect name="BM_list_template_container">
+			<include src="list_box_template.xml"/>
+			<id>
+				<copy> 5 </copy>
+				<onlyif src="globals" trait="_VUI+Vegas" />
+				<add> 18 </add>
+			</id>
+			<_Value></_Value> <!-- The value of the item in caps -->
+			<_NumBartered></_NumBartered> <!-- # items in this stack that are up for barter -->
+			<_IsEquipped> 0 </_IsEquipped> <!-- True if this item is equipped -->
+			<_IsBarterSelected> 0 </_IsBarterSelected> <!-- True if this item has been selected for transaction -->
+
+			<text name="ListItemText">
+				<x>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontX_"/>
+					<add src="sibling(BM_list_template_ItemMarker)" trait="_SquarePadding" />
+				</x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<wrapwidth>
+					<copy src="parent" trait="width"/>
+					<sub src="sibling(BM_list_template_ItemMarker)" trait="_SquarePadding" />
+					<sub src="io" trait="_PriceWidth" />
+				</wrapwidth>
+				<font> <copy src="grandparent" trait="font" /> </font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<brightness>
+					<copy src="parent" trait="brightness" />
+					<!--VUI+ slight tone difference between the name and the price of the item -->
+					<mul> 0.85 </mul>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="BM_list_template_ItemValue">
+				<x>
+					<copy src="parent" trait="width" />
+					<sub src="globals" trait="_VUI+Padding" />
+				</x>
+				<y> <copy src="sibling(ListItemText)" trait="y" /> </y>
+				<font> <copy src="sibling(ListItemText)" trait="font" /> </font>
+				<justify> &right; </justify>
+				<string> <copy src="parent" trait="_Value"/> </string>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<rect name="BM_list_template_ItemMarker">
+				<include src="VUI+\square.xml" />
+				<_hollow> <copy src="parent" trait="_IsBarterSelected" /> </_hollow>
+				<visible>
+					<copy src="parent" trait="_IsEquipped"/>
+					<or src="parent" trait="_IsBarterSelected"/>
+				</visible>
+				<brightness>
+					<copy src="parent" trait="brightness" />
+					<mul> 0.85 </mul>
+				</brightness>
+			</rect>
+		</hotrect>
+	</template>
+</menu>

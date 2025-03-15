@@ -1,0 +1,402 @@
+ <rect name="MUX_Companion">
+    <visible>
+		<copy src="HitPoints" trait="visible"/> 
+	</visible>
+	<locus>1</locus>
+	<x><copy src="io()" trait="_Editor+CompanionX"/></x>
+	<Y><copy src="io()" trait="_Editor+CompanionY"/></Y>
+	<rect name="Companion_1">
+		<locus>1</locus>
+		<x>
+			<copy>-330</copy>
+			<add src="io()" trait="_MUXC+Label_1"/>
+		</x>
+		<y>731</y>
+		<_Icon><copy src="io()" trait="_MUXC+CompanionTexture1"/></_Icon>
+		<_Health><copy src="io()" trait="_MUXC+Health1"/></_Health>
+		<_Name><copy src="io()" trait="_MUXC+Name1"/></_Name>
+		<image name="Meter">
+			<locus>1</locus>
+			<x>39</x>
+			<y>22</y>
+			<Width>
+				<copy src="parent()" trait="_Health"/>
+				<mul>216</mul>
+			</Width>
+			<depth>1</depth>
+			<Height>6</Height>
+			<_Meter_0>MUX\Shared\Meters\Meter_Alt.dds</_Meter_0>
+			<_Meter_1>MUX\Shared\Meters\Meter.dds</_Meter_1>
+			<_Meter_2>MUX\Shared\Meters\Meter.dds</_Meter_2>
+			<filename>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<copy src="me()" trait="_Meter_"/>
+			</filename>
+			<zoom>-1</zoom>
+			<systemcolor>
+				<copy>1</copy>
+				<add>
+					<copy>1</copy>
+					<onlyif>
+						<copy src="parent()" trait="_Health"/>
+						<lte>0.40</lte>
+					</onlyif>
+				</add>
+			</systemcolor>
+		</image>
+		<image name="Box">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>1</eq>
+			</visible>
+			<include src="MUX\Templates\Box.xml"/>
+			<_Width>32</_Width>
+			<_Height>32</_Height>
+			<_Line>2</_Line>
+			<_Alpha>255</_Alpha>
+		</image>
+		
+		<image name="Box_Bracket">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>1</eq>
+			</visible>
+			<locus>1</locus>
+			<x>37</x>
+			<y>20</y>
+			<include src="MUX\Templates\Box.xml"/>
+			<_Width>220</_Width>
+			<_Height>10</_Height>
+			<_Line>2</_Line>
+			<_Alpha>255</_Alpha>
+		</image>
+		<image name="Vanilla">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>0</eq>
+			</visible>
+			<x>-4</x>
+			<y>22</y>
+			<filename>VUIE\Brackets\Bracket.dds</filename>
+			<width>440</width>
+			<height>10</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+		</image>
+		<image name="Box">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>-3</x>
+			<y>-3</y>
+			<filename>MUX\Revelation\Brackets\Icon.dds</filename>
+			<width>36</width>
+			<height>36</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Box_Bracket">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>37</x>
+			<y>20</y>
+			<filename>MUX\Revelation\Brackets\Meter.dds</filename>
+			<width>220</width>
+			<height>10</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Tube">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>37</x>
+			<y>20</y>
+			<filename>MUX\Revelation\Glass\Tube.dds</filename>
+			<width>220</width>
+			<height>10</height>
+			<depth>2</depth>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Gauge">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>-3</x>
+			<y>-3</y>
+			<filename>MUX\Revelation\Glass\Gauge.dds</filename>
+			<width>36</width>
+			<height>36</height>
+			<depth>2</depth>
+			<zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Icon">
+			<locus>1</locus>
+			<x>2</x>
+			<y>2</y>
+			<filename><copy src="parent()" trait="_Icon"/></filename>
+			<width>28</width> 
+			<height>28</height>
+			<depth>1</depth>
+			<systemcolor>1</systemcolor>
+			<zoom>-1</zoom>
+			<include src="VUI+\Image_Outline.xml"/>
+		</image>
+		<text name="Name">
+			<x>37</x>
+			<y>4</y>
+			<depth>1</depth>
+			<justify>&Left;</justify>
+			<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+			<string><copy src="parent()" trait="_Name"/></string>
+			<zoom>80</zoom>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+	</rect>
+	<rect name="Companion_2">
+		<locus>1</locus>
+		<x>
+			<copy>-330</copy>
+			<add src="io()" trait="_MUXC+Label_2"/>
+		</x>
+		<y>768</y>
+		<_Icon><copy src="io()" trait="_MUXC+CompanionTexture2"/></_Icon>
+		<_Health><copy src="io()" trait="_MUXC+Health2"/></_Health>
+		<_Name><copy src="io()" trait="_MUXC+Name2"/></_Name>
+		<image name="Meter">
+			<locus>1</locus>
+			<x>39</x>
+			<y>22</y>
+			<Width>
+				<copy src="parent()" trait="_Health"/>
+				<mul>216</mul>
+			</Width>
+			<depth>1</depth>
+			<Height>6</Height>
+			<_Meter_0>MUX\Shared\Meters\Meter_Alt.dds</_Meter_0>
+			<_Meter_1>MUX\Shared\Meters\Meter.dds</_Meter_1>
+			<_Meter_2>MUX\Shared\Meters\Meter.dds</_Meter_2>
+			<filename>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<copy src="me()" trait="_Meter_"/>
+			</filename>
+			<zoom>-1</zoom>
+			<systemcolor>
+				<copy>1</copy>
+				<add>
+					<copy>1</copy>
+					<onlyif>
+						<copy src="parent()" trait="_Health"/>
+						<lte>0.40</lte>
+					</onlyif>
+				</add>
+			</systemcolor>
+		</image>
+		<image name="Box">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>1</eq>
+			</visible>
+			<include src="MUX\Templates\Box.xml"/>
+			<_Width>32</_Width>
+			<_Height>32</_Height>
+			<_Line>2</_Line>
+			<_Alpha>255</_Alpha>
+		</image>
+		
+		<image name="Box_Bracket">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>1</eq>
+			</visible>
+			<locus>1</locus>
+			<x>37</x>
+			<y>20</y>
+			<include src="MUX\Templates\Box.xml"/>
+			<_Width>220</_Width>
+			<_Height>10</_Height>
+			<_Line>2</_Line>
+			<_Alpha>255</_Alpha>
+		</image>
+		<image name="Vanilla">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>0</eq>
+			</visible>
+			<x>-4</x>
+			<y>22</y>
+			<filename>VUIE\Brackets\Bracket.dds</filename>
+			<width>440</width>
+			<height>10</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+		</image>
+		<image name="Box">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>-3</x>
+			<y>-3</y>
+			<filename>MUX\Revelation\Brackets\Icon.dds</filename>
+			<width>36</width>
+			<height>36</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Box_Bracket">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>37</x>
+			<y>20</y>
+			<filename>MUX\Revelation\Brackets\Meter.dds</filename>
+			<width>220</width>
+			<height>10</height>
+			<depth>0</depth>
+			<zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Tube">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>37</x>
+			<y>20</y>
+			<filename>MUX\Revelation\Glass\Tube.dds</filename>
+			<width>220</width>
+			<height>10</height>
+			<depth>2</depth>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Gauge">
+			<visible>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>2</eq>
+			</visible>
+			<x>-3</x>
+			<y>-3</y>
+			<filename>MUX\Revelation\Glass\Gauge.dds</filename>
+			<width>36</width>
+			<height>36</height>
+			<depth>2</depth>
+			<zoom>-1</zoom>
+			<systemcolor>0</systemcolor>
+			<red><copy src="globals" trait="_VUIE+WhiteRed" /></red>
+			<green><copy src="globals" trait="_VUIE+WhiteGreen" /></green>
+			<blue><copy src="globals" trait="_VUIE+WhiteBlue" /></blue>
+		</image>
+		<image name="Icon">
+			<locus>1</locus>
+			<x>2</x>
+			<y>2</y>
+			<filename><copy src="parent()" trait="_Icon"/></filename>
+			<width>28</width> 
+			<height>28</height>
+			<depth>1</depth>
+			<systemcolor>1</systemcolor>
+			<zoom>-1</zoom>
+			<include src="VUI+\Image_Outline.xml"/>
+		</image>
+		<text name="Name">
+			<x>37</x>
+			<y>4</y>
+			<depth>1</depth>
+			<justify>&Left;</justify>
+			<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+			<string><copy src="parent()" trait="_Name"/></string>
+			<zoom>80</zoom>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+	</rect>
+	<text name="Companion_Label">
+		<x>
+			<copy src="sibling(Companion_Background)" trait="x"/>
+			<add>5</add>
+		</x>
+		<y>
+			<copy>677</copy>
+			<add>
+				<copy>37</copy>
+				<onlyif>
+					<copy src="sibling(Companion_2)" trait="x"/>
+					<eq>-330</eq>
+				</onlyif>
+			</add>
+		</y>
+		<depth>1</depth>
+		<systemcolor>
+			<copy>1</copy>
+			<onlyif>
+				<copy src="io()" trait="_MUXC+CS"/>
+				<eq>0</eq>
+			</onlyif>
+		</systemcolor>
+		<justify>&Left;</justify>
+		<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+		<string>Companion</string>
+		<zoom>75</zoom>
+		<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+		<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+	</text>
+	<include src="VUI+\outline.xml"/>
+	<image name="Companion_Background">
+		<visible>
+			<copy src="io()" trait="_MUXC+CS"/>
+			<neq>0</neq>
+		</visible>
+		<x>
+			<copy>-330</copy>
+			<add src="io()" trait="_MUXC+X"/>
+		</x>
+		<y>
+			<copy src="sibling(Companion_Label)" trait="y"/>
+			<sub>5</sub>
+		</y>
+		<filename>VUIE\Shared\Gradients\Fade_Right.dds</filename>
+		<width>300</width>
+		<height>18</height>
+		<depth>0</depth>
+		<systemcolor>0</systemcolor>
+		<zoom>-1</zoom>
+		<red><copy src="globals" trait="_VUIE+DarkRed" /></red>
+		<green><copy src="globals" trait="_VUIE+DarkGreen" /></green>
+		<blue><copy src="globals" trait="_VUIE+DarkBlue" /></blue>
+	</image>
+</rect>

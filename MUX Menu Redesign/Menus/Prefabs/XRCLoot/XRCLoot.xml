@@ -1,0 +1,587 @@
+<rect name="XRCL">
+
+	<locus>1</locus>
+
+	<visible>
+		<copy>1</copy>
+		<onlyif>
+			<copy src="QuestReminder" trait="visible"/>
+			<or src="Subtitles" trait="visible"/>
+			<or src="Explosive_positioning_rect" trait="visible"/>
+			<or src="Region_Location" trait="visible"/>
+		</onlyif>
+	</visible>
+
+
+	<_ID>0</_ID>
+	<_yn>0</_yn>
+	<_yt>0</_yt>
+	<_yo>0</_yo>
+
+
+	<x> 560 </x>
+
+	<_spac> 10 </_spac>
+	<_defH> 36 </_defH>
+	<_zoom> 0.7 </_zoom>
+	<_ico> 1 </_ico>
+	<_icoSize> 36</_icoSize>
+	<_icoOffsY> 6 </_icoOffsY>
+	<_xOffset> 85 </_xOffset>
+	<_yOffset> 220 </_yOffset>
+
+	<_icoS> <copy src="me()" trait="_icoSize"/><mul src="me()" trait="_zoom"/> </_icoS>
+	<_icoOY> <copy src="me()" trait="_icoOffsY"/> <mul src="me()" trait="_zoom"/> </_icoOY>
+	<x> <copy src="screen()" trait="width"/> <sub src="me()" trait="_xOffset"/> </x>
+	<_yOff> <copy src="screen()" trait="height"/> <sub src="me()" trait="_yOffset"/> </_yOff>
+
+	<_o><copy src="me()" trait="_spac"/> <mul src="me()" trait="_zoom"/></_o>
+	<_me>
+		<copy src="me()" trait="_defH"/>
+		<mul src="me()" trait="_zoom"/>
+		<add src="me()" trait="_o"/>
+	</_me>
+
+	<_ww><copy>786</copy><mul src="me()" trait="_zoom"/></_ww>
+
+
+	<_t>
+		<copy src="me()" trait="_yt"/>
+		<sub src="me()" trait="_yo"/>
+		<div>
+			<copy src="me()" trait="_yn"/>
+			<sub src="me()" trait="_yo"/>
+		</div>
+	</_t>
+
+
+
+	<_applied>
+		<copy>1</copy>
+		<sub>
+			<copy>1</copy>
+			<sub src="me()" trait="_t"/>
+			<mul>
+				<copy>1</copy>
+				<sub src="me()" trait="_t"/>
+			</mul>
+			<mul>
+				<copy>1</copy>
+				<sub src="me()" trait="_t"/>
+			</mul>
+		</sub>
+	</_applied>
+
+
+	<_yp>
+		<copy src="me()" trait="_yn"/>
+		<sub src="me()" trait="_yo"/>
+		<mul src="me()" trait="_applied"/>
+		<add src="me()" trait="_yo"/>
+	</_yp>
+
+
+	<y>
+		<copy src="me()" trait="_yp"/>
+		<add src="me()" trait="_yOff"/>
+	</y>
+
+
+</rect>
+
+<template name="XRCLtlt">
+
+	<rect name="ReclRect">
+		<locus>1</locus>
+		<_lc>0</_lc>
+
+		<_c>0</_c>
+
+
+
+		<red>
+			<copy>0</copy>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>2</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>3</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>4</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>5</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>6</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>7</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>177</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>8</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>9</eq>
+				</onlyif>
+			</add>
+		</red>
+
+
+		<green>
+			<copy>0</copy>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>2</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>106</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>3</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>216</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>4</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>5</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>148</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>6</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>230</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>7</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>8</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>9</eq>
+				</onlyif>
+			</add>
+		</green>
+
+
+		<blue>
+			<copy>0</copy>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>2</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>3</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>4</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>33</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>5</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>6</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>230</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>7</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>255</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>8</eq>
+				</onlyif>
+			</add>
+			<add>
+				<copy>0</copy>
+				<onlyif>
+					<copy src="me()" trait="_c"/>
+					<eq>9</eq>
+				</onlyif>
+			</add>
+		</blue>
+
+
+
+
+		<_push>0</_push>
+		<_smooth>
+			<copy src="me()" trait="_push"/>
+			<mul src="me()" trait="_push"/>
+			<mul src="me()" trait="_push"/>
+		</_smooth>
+
+
+		<_me>
+			<copy src="child(txt)" trait="height"/>
+			<add src="parent()" trait="_o"/>
+		</_me>
+
+		<_dY>
+			<copy src="parent()" trait="_yp"/>
+			<sub src="me()" trait="_lc"/>
+			<max>0</max>
+		</_dY>
+
+		<_t>
+			<copy src="me()" trait="_dY"/>
+			<div src="me()" trait="_me"/>
+		</_t>
+
+		<x>
+			<copy>50</copy>
+			<mul src="me()" trait="_t"/>
+		</x>
+
+		<y>
+			<copy>0</copy>
+			<sub src="me()" trait="_dY"/>
+			<sub src="me()" trait="_lc"/>
+			<sub>
+				<copy src="me()" trait="_me"/>
+				<mul src="me()" trait="_smooth"/>
+			</sub>
+		</y>
+
+
+		<text name="txt">
+			<locus>1</locus>
+			<visible>1</visible>
+			<depth> 2 </depth>
+			<string> <copy src="parent()" trait="_s"/> </string>
+			<justify>&right;</justify>
+			<font> 3 </font>
+			<wrapwidth><copy src="grandparent()" trait="_ww"/></wrapwidth>
+			<zoom> 80</zoom>
+			<systemcolor>
+				<copy>0</copy>
+				<add>
+					<copy>1</copy>
+					<onlyif>
+						<copy src="parent()" trait="_c"/>
+						<eq>0</eq>
+					</onlyif>
+				</add>
+				<add>
+					<copy>2</copy>
+					<onlyif>
+						<copy src="parent()" trait="_c"/>
+						<eq>1</eq>
+					</onlyif>
+				</add>
+			</systemcolor>
+
+			<red><copy src="parent()" trait="red"/></red>
+			<green><copy src="parent()" trait="green"/></green>
+			<blue><copy src="parent()" trait="blue"/></blue>
+
+			<alpha>
+				<copy>255</copy>
+				<sub>
+					<copy>255</copy>
+					<mul src="parent()" trait="_smooth"/>
+				</sub>
+				<sub>
+					<copy>255</copy>
+					<mul src="parent()" trait="_t"/>
+					<max>0</max>
+				</sub>
+			</alpha>
+			<brightness>
+				<copy>255</copy>
+				<add>
+					<copy>55</copy>
+					<onlyif>
+						<copy src="parent()" trait="_t"/>
+						<lt>-0.1</lt>
+					</onlyif>
+				</add>
+			</brightness>
+			<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+	
+        <image name="Fader">
+            <x>
+				<copy>-5</copy>
+				<sub src="me()" trait="width"/>
+			</x>
+            <y>
+				<copy src="sibling(txt)" trait="height"/>
+				<sub>5</sub>
+			</y>
+            <filename>VUIE\Shared\Gradients\Fade_Right.dds</filename>
+            <width>
+                <copy src="sibling(txt)" trait="width"/>
+                <div>4</div>
+            </width>
+			<systemcolor><copy src="sibling(txt)" trait="systemcolor"/> </systemcolor>
+			<red><copy src="parent()" trait="red"/></red>
+			<green><copy src="parent()" trait="green"/></green>
+			<blue><copy src="parent()" trait="blue"/></blue>
+            <height>2</height>
+            <depth>2</depth>
+            <zoom>-1</zoom>
+			<brightness> <copy src="sibling(txt)" trait="brightness"/>  </brightness>
+            <alpha> <copy src="sibling(txt)" trait="alpha"/></alpha>
+        </image>
+        <image name="Fader_2">
+            <x>
+				<copy>-10</copy>
+				<sub src="sibling(Fader)" trait="width"/>
+				<sub src="me()" trait="width"/>
+			</x>
+            <y><copy src="sibling(Fader)" trait="y"/></y>
+            <filename>VUIE\Shared\Gradients\Fade_left.dds</filename>
+            <width>
+                <copy src="sibling(txt)" trait="width"/>
+                <sub src="sibling(Fader)" trait="width"/>
+                <sub>15</sub>
+            </width>
+			<systemcolor><copy src="sibling(txt)" trait="systemcolor"/> </systemcolor>
+			<red><copy src="parent()" trait="red"/></red>
+			<green><copy src="parent()" trait="green"/></green>
+			<blue><copy src="parent()" trait="blue"/></blue>
+            <height>2</height>
+            <depth>2</depth>
+            <zoom>-1</zoom>
+			<brightness> <copy src="sibling(txt)" trait="brightness"/>  </brightness>
+            <alpha> <copy src="sibling(txt)" trait="alpha"/></alpha>
+        </image>
+
+		<_i>0</_i>
+
+		<_ib_0> Interface\RecLoot\misc.dds </_ib_0>	<!-- undefined -->
+		<_ib_1> Interface\RecLoot\quest.dds </_ib_1>	<!-- quest -->
+		<_ib_2> Interface\RecLoot\caps.dds </_ib_2>	<!-- caps -->
+		<_ib_3> Interface\RecLoot\2ha.dds </_ib_3>	<!-- weapons -->
+		<_ib_4> Interface\RecLoot\armor.dds </_ib_4>	<!-- armors -->
+		<_ib_5> Interface\RecLoot\stimp.dds </_ib_5>	<!-- aid -->
+		<_ib_6> Interface\RecLoot\ammo.dds </_ib_6>	<!-- ammo -->
+		<_ib_7> Interface\RecLoot\misc.dds </_ib_7>	<!-- misc -->
+
+		<_ib_25> Interface\RecLoot\book.dds </_ib_25>
+		<_ib_31> Interface\RecLoot\misc.dds </_ib_31>
+		<_ib_41> Interface\RecLoot\ammo.dds </_ib_41>
+		<_ib_46> Interface\RecLoot\key.dds </_ib_46>
+		<_ib_49> Interface\RecLoot\note.dds </_ib_49>
+		<_ib_103> Interface\RecLoot\sniper.dds </_ib_103>
+		<_ib_108> Interface\RecLoot\coin.dds </_ib_108>
+		<_ib_115> Interface\RecLoot\card.dds </_ib_115>
+		<_ib_116> Interface\RecLoot\currency.dds </_ib_116>
+
+
+
+		<_ib_240> Interface\RecLoot\cloth.dds </_ib_240>
+		<_ib_241> Interface\RecLoot\PA.dds </_ib_241>
+		<_ib_242> Interface\RecLoot\armor.dds </_ib_242>
+		<_ib_243> Interface\RecLoot\gloves.dds </_ib_243>
+		<_ib_244> Interface\RecLoot\backpack.dds </_ib_244>
+		<_ib_245> Interface\RecLoot\glasses.dds </_ib_245>
+		<_ib_246> Interface\RecLoot\mask_1.dds </_ib_246>
+		<_ib_247> Interface\RecLoot\jevelry.dds </_ib_247>
+		<_ib_248> Interface\RecLoot\misc.dds </_ib_248> <!-- PIPBOY -->
+		<_ib_249> Interface\RecLoot\jevelry.dds </_ib_249>
+		<_ib_2400> Interface\RecLoot\hat.dds </_ib_2400>
+		<_ib_2401> Interface\RecLoot\PAhelmet.dds </_ib_2401>
+		<_ib_2402> Interface\RecLoot\helmet.dds </_ib_2402>
+		<_ib_2403> Interface\RecLoot\mask_1.dds </_ib_2403>
+		<_ib_2404> Interface\RecLoot\gasmask.dds </_ib_2404>
+
+
+		<_ib_4000> Interface\RecLoot\h2h.dds </_ib_4000> 
+		<_ib_4001> Interface\RecLoot\1hm.dds </_ib_4001> 
+		<_ib_4002> Interface\RecLoot\2hm.dds </_ib_4002> 
+		<_ib_4003> Interface\RecLoot\1hp.dds </_ib_4003> 
+		<_ib_4004> Interface\RecLoot\1hp.dds </_ib_4004> 
+		<_ib_4005> Interface\RecLoot\2hr.dds </_ib_4005> 
+		<_ib_4006> Interface\RecLoot\2ha.dds </_ib_4006> 
+		<_ib_4007> Interface\RecLoot\2hr.dds </_ib_4007> 
+		<_ib_4008> Interface\RecLoot\2hh.dds </_ib_4008> 
+		<_ib_4009> Interface\RecLoot\2hl.dds </_ib_4009> 
+		<_ib_4010> Interface\RecLoot\1gt.dds </_ib_4010> 
+		<_ib_4012> Interface\RecLoot\mine.dds </_ib_4012> 
+		<_ib_4013> Interface\RecLoot\spear.dds </_ib_4013> <!-- random throwing -->
+		<_ib_4014> Interface\RecLoot\spear.dds </_ib_4014> 
+		<_ib_4015> Interface\RecLoot\knifet.dds </_ib_4015> 
+		<_ib_4016> Interface\RecLoot\bow.dds </_ib_4016> 
+
+
+		<_ib_4700> Interface\RecLoot\Chewy.dds </_ib_4700> 
+		<_ib_4701> Interface\RecLoot\Crunchy.dds </_ib_4701> 
+		<_ib_4702> Interface\RecLoot\Cola.dds </_ib_4702> 
+		<_ib_4703> Interface\RecLoot\Soda.dds </_ib_4703> 
+		<_ib_4704> Interface\RecLoot\mentat.dds </_ib_4704> 
+		<_ib_4705> Interface\RecLoot\stimp.dds </_ib_4705> 
+		<_ib_4706> Interface\RecLoot\morph.dds </_ib_4706> 
+		<_ib_4707> Interface\RecLoot\psycho.dds </_ib_4707> 
+		<_ib_4708> Interface\RecLoot\Jet.dds </_ib_4708> 
+		<_ib_4709> Interface\RecLoot\comic.dds </_ib_4709> 
+		<_ib_4710> Interface\RecLoot\poison.dds </_ib_4710> 
+
+
+
+
+		<image name="ico">
+			<locus>1</locus>
+			<filename> 
+				<copy src="parent()" trait="_i"/>
+				<copy src="parent()" trait="_ib_"/>
+			</filename>
+			<depth> 0 </depth>
+			<visible> <copy>1</copy> <onlyif src="grandparent()" trait="_ico"/> </visible>
+			<width>24</width>
+			<height> <copy src="me()" trait="width"/> </height>
+			<zoom> &scale; </zoom>
+			<x> <copy> 7 </copy><mul src="grandparent()" trait="_zoom"/> </x>
+			<y>
+				<copy src="sibling(txt)" trait="y"/>
+				<add>
+					<copy src="sibling(txt)" trait="height"/>
+					<sub src="me()" trait="height"/>
+					<div>2</div>
+				</add>
+				<sub src="grandparent()" trait="_icoOY"/>
+			</y>
+			<alpha> <copy src="sibling(txt)" trait="alpha"/>  </alpha>
+			<brightness> <copy src="sibling(txt)" trait="brightness"/>  </brightness>
+
+
+
+			<systemcolor>
+				<copy>0</copy>
+				<add>
+					<copy src="sibling(txt)" trait="systemcolor"/>
+					<onlyif>
+						<copy src="parent()" trait="_i"/>
+						<neq> 2 </neq>
+					</onlyif>
+				</add>
+			</systemcolor>
+
+			<red>
+				<copy>255</copy>
+				<add>
+					<copy src="sibling(txt)" trait="red"/>
+					<sub>255</sub>
+					<onlyif>
+						<copy src="parent()" trait="_i"/>
+						<neq> 2 </neq>
+					</onlyif>
+				</add>
+			</red>
+
+			<green>	
+				<copy>255</copy>
+				<add>
+					<copy src="sibling(txt)" trait="green"/>
+					<sub>255</sub>
+					<onlyif>
+						<copy src="parent()" trait="_i"/>
+						<neq> 2 </neq>
+					</onlyif>
+				</add>
+			</green>
+
+			<blue>
+				<copy>255</copy>
+				<add>
+					<copy src="sibling(txt)" trait="blue"/>
+					<sub>255</sub>
+					<onlyif>
+						<copy src="parent()" trait="_i"/>
+						<neq> 2 </neq>
+					</onlyif>
+				</add>
+			</blue>
+			<include src="VUI+\Image_Outline.xml"/>
+		</image>
+
+
+
+	</rect>
+
+</template>
+
+

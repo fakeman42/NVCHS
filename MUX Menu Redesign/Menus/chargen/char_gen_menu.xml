@@ -1,0 +1,605 @@
+<!-- SPECIAL attribute & Tag menu
+This is used at chargen and also through the Intense Training & Tag! perks
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2020 BY AXONIS FOR VANILLA UI PLUS
+* Based on levelup_menu.xml
+* Fixed displayed skill value if Tag is chosen for skills > 85
+* (New Vegas) Added icon badges for combat skills as they appear at the levelup menu
+-->
+<menu name="CharGenMenu">
+	<class> &CharGenMenu; </class>
+	<stackingtype> &no_click_past; </stackingtype>
+	<systemcolor> &hudmain; </systemcolor>
+	<menufade> 0.2 </menufade> <!--VUI+ safe speed -->
+	<_CurrPoints></_CurrPoints> <!-- # points that have been assigned for this page -->
+	<_MaxPoints></_MaxPoints> <!-- Max # points that may be assigned for this page -->
+	<_OnlyAdd>0</_OnlyAdd> <!-- If true, don't allow player to decrease attributes past base value -->
+	<xbuttony> <ref src="CGM_ResetButton" trait="clicked"/> </xbuttony>
+	<include src="VUI+\Keybinds\SPECIAL.xml" />
+	<_VUI+bEnableBigGunsSkill> <copy src="sibling(HUDMainMenu)" trait="_VUI+bEnableBigGunsSkill" /> </_VUI+bEnableBigGunsSkill>
+
+	<rect name="NOGLOW_BRANCH">
+		<id> &noglow_branch; </id>
+		<systemcolor> <copy src="io" trait="systemcolor" /> </systemcolor>
+
+		<image name="CGM_Background">
+			<include src="VUI+\background.xml"/>
+			<_VUI+MenuX> <copy src="sibling(CGM_MainRect)" trait="x" /> </_VUI+MenuX>
+			<_VUI+MenuY> <copy src="sibling(CGM_MainRect)" trait="y" /> </_VUI+MenuY>
+			<_VUI+MenuWidth> <copy src="sibling(CGM_MainRect)" trait="width" /> </_VUI+MenuWidth>
+			<_VUI+MenuHeight> <copy src="sibling(CGM_MainRect)" trait="height" /> </_VUI+MenuHeight>
+			<_VUI+MenuHeader> 5 </_VUI+MenuHeader>
+		</image>
+
+		<rect name="CGM_MainRect">
+			<x>
+				<copy src="screen" trait="width"/>
+				<sub src="me" trait="width"/>
+				<div> 2 </div>
+			</x>
+			<y>
+				<copy src="screen" trait="height"/>
+				<sub src="me" trait="height"/>
+				<div> 2 </div>
+			</y>
+			<width> 1024 </width>
+			<height> 800 </height>
+			<locus> 1 </locus>
+			<depth> 2 </depth>
+
+			<rect name="CGM_HeadlineRect">
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> <copy src="child(CGM_Headline_v1)" trait="height" /> </height>
+				<locus> 1 </locus>
+
+				<image name="CGM_Headline_h1">
+					<include src="line.xml"/>
+					<_length> 50 </_length>
+				</image>
+
+				<image name="CGM_Headline_v1">
+					<include src="vertical_fade_line.xml"/>
+				</image>
+
+				<rect name="CGM_Headline_Title">
+					<id> 0 </id>
+					<x>
+						<copy src="sibling(CGM_Headline_h1)" trait="_length"/>
+						<add> 20 </add>
+					</x>
+					<y> -10 </y>
+					<font> 6 </font>
+					<width><copy src="child()" trait="width"/></width>
+					<text name="Clone">
+						<x><copy src="parent()" trait="x"/></x>
+						<justify><copy src="parent()" trait="justify"/></justify>
+						<depth>1</depth>
+						<y>-5</y>
+						<font>3</font>
+						<string><copy src="parent()" trait="string"/></string>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</rect>
+
+				<image name="CGM_Headline_h2">
+					<include src="line.xml"/>
+					<_length>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="x"/>
+					</_length>
+					<x>
+						<copy src="sibling(CGM_Headline_Title)" trait="x"/>
+						<add src="sibling(CGM_Headline_Title)" trait="width"/>
+						<add> 20 </add>
+					</x>
+				</image>
+
+				<image name="CGM_Headline_v2">
+					<include src="vertical_fade_line.xml"/>
+					<_x>
+						<copy src="sibling(CGM_Headline_h2)" trait="x"/>
+						<add src="sibling(CGM_Headline_h2)" trait="width"/>
+						<sub src="me" trait="width"/>
+					</_x>
+				</image>
+			</rect>
+
+			<hotrect name="CGM_ItemList">
+				<include src="list_box.xml"/>
+				<id> 1 </id>
+				<x> -15 </x>
+				<width> 470 </width>
+				<height> 676 </height>
+			</hotrect>
+
+			<image name="CGM_SelectionIcon">
+				<locus>1</locus>
+				<id> 2 </id>
+				<x> 530 </x>
+				<y> 0 </y>
+				<width> 400 </width>
+				<height> 400 </height>
+				<zoom> &scale; </zoom>
+				<visible> 0 </visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<text name="VUI+SkillIdentifier"> <!--VUI+ the width of this string provides a numeric identifier that can be used to define the filename for the stat badge -->
+				<string> <copy src="sibling(CGM_SelectionIcon)" trait="filename" /> </string>
+				<visible> 0 </visible>
+				<font> 8 </font> <!--VUI+ to be more compatible with alternative fonts -->
+				<text name="s1"> <string> Interface\Icons\Stats\Skills_Big_Guns.dds </string> <font> 8 </font> </text> <!--VUI+ can be enabled by the JIP-LN Plugin -->
+				<text name="s2"> <string> Interface\Icons\Stats\Skills_Energy_Weapons.dds </string> <font> 8 </font> </text>
+				<text name="s3"> <string> Interface\Icons\Stats\Skills_Explosives.dds </string> <font> 8 </font> </text>
+				<text name="s4"> <string> Interface\Icons\Stats\Skills_Small_Guns.dds </string> <font> 8 </font> </text>
+				<text name="s5"> <string> Interface\Icons\Stats\Skills_Melee_Weapons.dds </string> <font> 8 </font> </text>
+				<text name="s6"> <string> Interface\Icons\Stats\Skills_Unarmed.dds </string> <font> 8 </font> </text>
+				<_VUI+skill>
+					<copy> 0 </copy>
+					<add>
+						<copy> 1 </copy>
+						<onlyif> <copy src="me" trait="width" /> <eq src="child(s1)" trait="width" /> </onlyif>
+					</add>
+					<add>
+						<copy> 2 </copy>
+						<onlyif> <copy src="me" trait="width" /> <eq src="child(s2)" trait="width" /> </onlyif>
+					</add>
+					<add>
+						<copy> 3 </copy>
+						<onlyif> <copy src="me" trait="width" /> <eq src="child(s3)" trait="width" /> </onlyif>
+					</add>
+					<add>
+						<copy> 4 </copy>
+						<onlyif> <copy src="me" trait="width" /> <eq src="child(s4)" trait="width" /> </onlyif>
+					</add>
+					<add>
+						<copy> 5 </copy>
+						<onlyif> <copy src="me" trait="width" /> <eq src="child(s5)" trait="width" /> </onlyif>
+					</add>
+					<add>
+						<copy> 6 </copy>
+						<onlyif> <copy src="me" trait="width" /> <eq src="child(s6)" trait="width" /> </onlyif>
+					</add>
+				</_VUI+skill>
+			</text>
+
+			<image name="stats_icon_badge"> <!--VUI+ NV icon badge for skill requirements -->
+				<_filename_1> Interface\Icons\TypeIcons\weap_skill_icon_big_guns.dds </_filename_1>
+				<_filename_2> Interface\Icons\TypeIcons\weap_skill_icon_energy.dds </_filename_2>
+				<_filename_3> Interface\Icons\TypeIcons\weap_skill_icon_explosives.dds </_filename_3>
+				<_filename_4> Interface\Icons\TypeIcons\weap_skill_icon_sm_arms.dds </_filename_4>
+				<_filename_5> Interface\Icons\TypeIcons\weap_skill_icon_melee.dds </_filename_5>
+				<_filename_6> Interface\Icons\TypeIcons\weap_skill_icon_unarmed.dds </_filename_6>
+				<filename>
+					<copy src="sibling(VUI+SkillIdentifier)" trait="_VUI+skill" />
+					<copy src="me" trait="_filename_" />
+				</filename>
+				<visible>
+					<copy src="globals" trait="_VUI+Vegas" />
+					<and src="sibling(CGM_SelectionIcon)" trait="visible" />
+					<and>
+						<copy src="sibling(VUI+SkillIdentifier)" trait="_VUI+skill" /> <gt> 0 </gt>
+					</and>
+				</visible>
+				<zoom> &scale; </zoom>
+				<x> <copy src="sibling(CGM_SelectionInfoRect)" trait="x" /> </x>
+				<y> <copy src="sibling(CGM_SelectionInfoRect)" trait="y" /> <sub src="me" trait="height" /> <sub> 14 </sub> </y>
+				<width> 80 </width>
+				<height> 80 </height>
+			</image>
+
+			<rect name="CGM_SelectionInfoRect">
+				<x>
+					<copy src="sibling(CGM_ItemList)" trait="x"/>
+					<add src="sibling(CGM_ItemList)" trait="width"/>
+					<add> 10 </add>
+				</x>
+				<y> 385 </y>
+				<width>
+					<copy src="parent" trait="width"/>
+					<sub src="me" trait="x"/>
+				</width>
+				<height> 300 </height>
+				<locus> 1 </locus>
+				
+				<image name="CGM_DividerA">
+					<include src="line.xml"/>
+					<_length> <copy src="parent" trait="width"/> </_length>
+				</image>
+
+				<image name="CGM_DividerA_v1">
+					<include src="vertical_fade_line.xml"/>
+					<x>
+						<copy src="parent" trait="width"/>
+						<sub src="me" trait="width"/>
+					</x>
+				</image>
+
+				<image name="CGM_DividerB">
+					<include src="line.xml"/>
+					<_length> 
+						<copy src="parent" trait="width"/> 
+						<sub>110</sub>
+					</_length>
+					<x>
+						<copy>0</copy>
+						<sub src="parent" trait="x"/>
+					</x>
+					<y>
+						<copy> 360</copy>
+						<sub src="me" trait="height"/>
+					</y>
+				</image>
+
+				<image name="LUM_DividerB_v1">
+					<include src="vertical_fade_line.xml"/>
+					<_length>30</_length>
+					<x>-17</x>
+					<y> <copy src="sibling(CGM_DividerB)" trait="y"/> </y>
+				</image>
+
+				<hotrect name="TM_DescriptionBox">
+					<y>
+						<copy src="sibling(LUM_DividerA)" trait="y" />
+						<add> 10 </add>
+					</y>
+					<width>
+						<copy src="parent" trait="width"/>
+						<sub> 17.5 </sub>
+					</width>
+					<height>
+						<copy src="sibling(CGM_DividerB)" trait="y" />
+						<sub src="me" trait="y" />
+						<sub> 10 </sub>
+					</height>
+					<locus> 1 </locus>
+					<wheelable> 1 </wheelable>
+					<clipwindow> <not src="globals" trait="_Has360Controller"/> </clipwindow>
+
+					<hotrect name="TM_DescriptionScrollbar">
+						<include src="scrollbar_vert.xml"/>
+						<_x> <copy src="parent" trait="width"/> </_x>
+						<y> 70 </y>
+						<_height>
+							<copy src="parent" trait="height"/>
+							<sub> 60 </sub>
+						</_height>
+						<_wheelmoved> <copy src="parent" trait="wheelmoved"/> </_wheelmoved>
+						<_scrolldelta> 36 </_scrolldelta>
+						<_number_of_items>
+							<copy src="sibling(CGM_SelectionText)" trait="height"/>
+							<div src="me" trait="_scrolldelta" />
+						</_number_of_items>
+						<_number_of_visible_items>
+							<copy src="parent" trait="height"/>
+							<div src="me" trait="_scrolldelta" />
+						</_number_of_visible_items>
+						<_VUI+SmoothScrolling> 1 </_VUI+SmoothScrolling>
+					</hotrect>
+
+					<text name="CGM_SelectionText">
+						<id> 3 </id>
+						<y>
+							<copy src="sibling(TM_DescriptionScrollbar)" trait="_current_value"/>
+							<mul src="sibling(TM_DescriptionScrollbar)" trait="_scrolldelta" />
+							<mul> -1 </mul>
+							<add> 5 </add>
+						</y>
+						<wrapwidth>
+							<copy src="parent" trait="width"/>
+							<sub> 10 </sub>
+						</wrapwidth>
+						<font> 3 </font>
+						<zoom>90</zoom>
+						<clips> 1 </clips>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</hotrect>
+
+				<rect name="CGM_PointCounter">
+					<id> 4 </id>
+					<x>
+						<copy src="parent" trait="width" />
+						<div> 2 </div>
+					</x>
+					<justify> &center; </justify>
+					<y>
+						<copy src="sibling(CGM_DividerB)" trait="y"/>
+						<add> 30 </add>
+					</y>
+					<font> 3 </font>
+					<text name="Clone">
+						<id> 4 </id>
+						<justify>&center; </justify>
+						<x>
+							<copy src="CGM_ItemList" trait="x"/>
+							<add src="CGM_ItemList" trait="width"/>
+							<div>2</div>
+							<sub src="grandparent" trait="x" />
+						</x>
+						<y>
+							<copy src="CGM_BottomBracket" trait="y" />
+							<sub src="grandparent" trait="y" />
+							<sub src="me" trait="height" />
+						</y>
+						<depth>1</depth>
+						<font>3</font>
+						<string><copy src="parent()" trait="string"/></string>
+						<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+						<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+					</text>
+					<include src="VUI+\outline.xml"/>
+				</rect>
+			</rect>
+
+			<rect name="CGM_ButtonRect">
+				<x>
+					<copy src="parent" trait="width"/>
+					<sub src="globals" trait="_VUI+InsideButton" />
+				</x>
+				<y> <copy src="sibling(CGM_HeadlineRect)" trait="height" /> </y>
+				<locus> 1 </locus>
+
+				<hotrect name="CGM_ResetButton">
+					<include src="text_box.xml"/>
+					<id> 5 </id>
+					<justify> &right; </justify>
+					<_xbox_button> &xbuttony; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_CGM_ResetButton" /> </_PCButtonText>
+					<string> &-sReset; </string>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</hotrect>
+
+				<hotrect name="CGM_DoneButton">
+					<include src="text_box.xml"/>
+					<id> 6 </id>
+					<_y>
+						<copy src="sibling" trait="_y"/>
+						<add src="sibling" trait="height"/>
+					</_y>
+					<justify> &right; </justify>
+					<target>
+						<copy src="io" trait="_CurrPoints"/>
+						<eq src="io" trait="_MaxPoints"/>
+					</target>
+					<_xbox_button> &xbuttonx; </_xbox_button>
+					<_PCButtonText> <copy src="io" trait="_CGM_DoneButton" /> </_PCButtonText>
+					<string> &-sDone; </string>
+					<clicksound> UIMenuOK </clicksound>
+					<font>3</font>
+					<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+					<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+				</hotrect>
+			</rect>
+
+			<rect name="CGM_BottomBracket">
+				<include src="bottom_bracket.xml"/>
+				<y> <copy src="parent" trait="height"/> </y>
+				<width> <copy src="parent" trait="width"/> </width>
+				<height> 60 </height>
+			</rect>
+		</rect>
+	</rect>
+
+	<rect name="GLOW_BRANCH">
+		<id> &glow_branch; </id>
+	</rect>
+
+	<template name="CGM_AttributeTemplate">
+		<hotrect name="CGM_Attribute">
+			<include src="list_box_template.xml"/>
+			<_MinValue> 1 </_MinValue> <!-- The min value for a stat -->
+			<_MaxValue> 10 </_MaxValue> <!-- The max value for a stat -->
+			<_BaseValue></_BaseValue> <!-- The base value of this stat -->
+			<_ExtraValue></_ExtraValue> <!-- Any value added by perks, chems, or other modifiers -->
+			<_AddedValue></_AddedValue> <!-- Any stat points added by this menu-->
+			<_ValueString></_ValueString> <!-- The string to display for the value -->
+			<clicksound> &nosound; </clicksound>
+			<mouseoversound> &nosound; </mouseoversound>
+			<repeathorizontal> 1 </repeathorizontal>
+			<_VerticalSpacing>5</_VerticalSpacing>
+
+			<text name="ListItemText"> <!-- SPECIAL attribute name -->
+				<x> 15 </x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<font> 3 </font>
+				<string> <copy src="parent" trait="string"/> </string>
+				<brightness> <!--VUI+ target highlighting -->
+					<copy src="globals" trait="_VUI+Highlighting" />
+					<onlyif>
+						<copy src="sibling(CGM_Template_LeftArrow)" trait="mouseover" /> <!--VUI+ quantity items are only active when pointing at the arrows -->
+						<or src="sibling(CGM_Template_RightArrow)" trait="mouseover" />
+						<or src="globals" trait="_Has360Controller"/>
+						<and src="parent" trait="_VUI+Highlighted" />
+					</onlyif>
+					<add> 255 </add>
+				</brightness>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="CGM_Template_ItemValue"> <!-- attribute value -->
+				<x> 325 </x>
+				<y> <copy src="sibling(ListItemText)" trait="y" /> </y>
+				<font> 3 </font>
+				<justify> &center; </justify>
+				<brightness> <copy src="sibling(ListItemText)" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<!--VUI+ compatibitility with unlocked levelup mods -->
+				<string>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+				</string>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<image name="CGM_Template_LeftArrow"> <!-- left arrow, decrements value -->
+				<locus>1</locus>
+				<id> 10 </id>
+				<_Filename_1> Interface\Shared\Arrow\adjust_decrease.dds </_Filename_1>
+				<_Filename_2> Interface\Shared\Arrow\adjust_decrease_over.dds</_Filename_2>
+				<filename>
+					<copy src="me" trait="mouseover"/>
+					<add> 1 </add>
+					<copy src="me" trait="_Filename_"/>
+				</filename>
+				<x> 235 </x>
+				<y>
+					<copy src="parent" trait="height" />
+					<sub src="me" trait="height" />
+					<div> 2 </div>
+				</y>
+				<width> 64 </width>
+				<height> 64 </height>
+				<zoom> &scale; </zoom>
+				<depth> 2 </depth>
+				<target> 1 </target>
+				<clicksound>UIMenuPrevNext</clicksound>
+				<!-- Only visible if total value is > min value and added value is 0 ( can't decrease stats to less than starting value ) -->
+				<visible>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+					<gt src="parent" trait="_MinValue"/>
+					<and>
+						<copy src="parent" trait="_AddedValue"/>
+						<gt> 0 </gt>
+						<or> <not src="io" trait="_OnlyAdd"/> </or>
+					</and>
+				</visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+
+			<image name="CGM_Template_RightArrow"> <!-- right arrow, increments value -->
+				<locus>1</locus>
+				<id> 11 </id>
+				<_Filename_1> Interface\Shared\Arrow\adjust_increase.dds </_Filename_1>
+				<_Filename_2> Interface\Shared\Arrow\adjust_increase_over.dds</_Filename_2>
+				<filename>
+					<copy src="me" trait="mouseover"/>
+					<add> 1 </add>
+					<copy src="me" trait="_Filename_"/>
+				</filename>
+				<x> 350 </x>
+				<y> <copy src="sibling" trait="y" /> </y>
+				<width> 64 </width>
+				<height> 64 </height>
+				<zoom> &scale; </zoom>
+				<depth> 2 </depth>
+				<target> 1 </target>
+				<clicksound>UIMenuPrevNext</clicksound>
+				<!-- Only visible if total value < max value and if we haven't already used up our stat points -->
+				<visible>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+					<lt src="parent" trait="_MaxValue"/>
+					<and>
+						<copy src="io" trait="_CurrPoints"/>
+						<lt src="io" trait="_MaxPoints"/>
+					</and>
+				</visible>
+				<include src="VUI+\Image_outline.xml"/>
+			</image>
+		</hotrect>
+	</template>
+
+	<template name="CGM_SelectItemTemplate">
+		<hotrect name="CGM_SelectItem">
+			<include src="list_box_template.xml"/>
+			<_MinValue> 0 </_MinValue>
+			<_MaxValue> 100 </_MaxValue> <!-- The max value for a stat -->
+			<_BaseValue></_BaseValue> <!-- The base value of this stat -->
+			<_ExtraValue></_ExtraValue> <!-- Any value added by perks, chems, or other modifiers -->
+			<_AddedValue></_AddedValue> <!-- Any stat points added by this menu-->
+			<_ValueString></_ValueString> <!-- The string to display for the value -->
+			<_selected> 0 </_selected>
+			<clicksound> &nosound; </clicksound>
+			<mouseoversound> &nosound; </mouseoversound>
+			<_VerticalSpacing>
+				<!--VUI+ calculate padding to fit all skills on a single page, taking into account the font height and the presence of Big Guns in NV -->
+				<copy src="parent" trait="height" />
+				<div>
+					<copy> 13 </copy>
+					<add src="io" trait="_VUI+bEnableBigGunsSkill" />
+				</div>
+				<sub>
+					<copy src="child(ListItemText)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+				</sub>
+				<!--VUI+ some limits for extremities -->
+				<min> 25 </min>
+				<max> 5 </max>
+				<sub>5</sub>
+			</_VerticalSpacing>
+
+			<text name="ListItemText"> <!-- tagged skill name -->
+				<x> 42 </x>
+				<y>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_"/>
+					<add>
+						<copy src="parent" trait="_VerticalSpacing" />
+						<div> 2 </div>
+					</add>
+				</y>
+				<font> 3 </font>
+				<wrapwidth> 390 </wrapwidth>
+				<string> <copy src="parent" trait="string"/> </string>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+
+			<text name="CGM_Template_ItemValue(ListItemText)"> <!-- tagged skill value -->
+				<x> 355 </x> <!--VUI+ align, same with skills -->
+				<y> <copy src="sibling" trait="y" /> </y>
+				<font> 3 </font>
+				<justify> &center; </justify>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<!--VUI+ compatibitility with unlocked levelup mods -->
+				<string>
+					<copy src="parent" trait="_BaseValue"/>
+					<add src="parent" trait="_AddedValue"/>
+				</string>
+				<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+				<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+			</text>
+			<include src="VUI+\outline.xml"/>
+			
+			<image name="CGM_Template_ItemMarker">
+				<filename> Interface\Shared\Marker\square_filled.dds </filename>
+				<texatlas> Interface\InterfaceShared.tai </texatlas>
+				<x> 13 </x>
+				<y>
+					<copy src="sibling(CGM_Template_ItemValue)" trait="font" />
+					<copy src="globals" trait="_VUI+FontH_" />
+					<add src="parent" trait="_VerticalSpacing" />
+					<sub>
+						<copy src="me" trait="height" />
+						<mul> 0.59 </mul>
+					</sub>
+					<div> 2 </div>
+					<add>16</add>
+				</y>
+				<width> 24 </width>
+				<height> 24 </height>
+				<brightness> <copy src="parent" trait="brightness" /> </brightness> <!--VUI+ target highlighting -->
+				<visible> <copy src="parent" trait="_selected"/> </visible>
+			</image>
+		</hotrect>
+	</template>
+</menu>

@@ -1,0 +1,405 @@
+<!-- Item stats prefab (NV)
+Displays a set of item cards, used in most menus that display items
+COPYRIGHT BY ZENIMAX; MODIFIED SEPTEMBER 2022 BY AXONIS FOR VANILLA UI PLUS
+* Set VAL label to be autohidden
+* Set cards to inherit font property; default font is set to the menu font or font #2 if no menu font is set
+* Resized the condition bar based on font height and aligned it using font metrics
+* Ensure a visible line at the condition bar for non-perfect items
+* Separated DR/DT & DAM/DTS and removed their blinking effects
+* Auto hide the DAM label when necessary to fit wide DAM strings
+* Removed the repeating border lines and prefixes from the 2nd and 3rd weapon mod
+* Reduced line height between weapon mods
+* Fixed the Strength stat from displaying when it shouldn't
+* Fixed the notches of the condition bar at the Recipe menu
+* Optionally hide the MODS label for item sorter mod users
+* Added a Weapon Skill Badge at the Strength stat, controlled by the VUI+Plugin
+* Added an optional Value/Weight card, controlled by the VUI+Plugin
+* Optionally resize the total width of the CND bar based on the item's durability, as provided by the plugin
+* Set DAM, Ammo and Mod strings to use text scaling instead of wrapping
+-->
+<width> 530 </width>
+<height> 120 </height>
+<depth> 2 </depth>
+<locus> 1 </locus>
+<!-- 1/3 total width: standard width of one display tile -->
+<user0> <copy src="me" trait="width"/> <div> 3 </div> </user0>
+<!-- 1/3 total height: standard height of one display tile -->
+<user1> <copy src="me" trait="height"/> <div> 3 </div> </user1>
+<font>
+	<copy> 2 </copy>
+	<onlyifnot src="io" trait="font" />
+	<add src="io" trait="font" />
+</font>
+
+<!-- ===== SELECTED ITEM INFO BRACKETS =====-->
+<!-- Damage Resistance (DR) -->
+<rect name="DamageResistInfo">
+	<id> 17 </id>
+	<include src="card_info.xml"/>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<!--VUI+ separate DT from DR, keeping DT in its original location -->
+	<x> <copy src="sibling(DamageThresholdInfo)" trait="x"/> </x>
+	<y>
+		<copy src="sibling(DamageThresholdInfo)" trait="y"/>
+		<sub src="sibling(DamageThresholdInfo)" trait="height"/>
+		<onlyif src="sibling(DamageThresholdInfo)" trait="visible" /> <!--VUI+ show DT only if there's no DR; the reverse is not needed as it's already supported in vanilla -->
+	</y>
+	<_Title> &-sInventoryDamageResistance; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<_VUI+NoBlink> 1 </_VUI+NoBlink>
+</rect>
+
+<!-- Damage Per Second (DPS) -->
+<rect name="DPSInfo">
+	<include src="card_info.xml"/>
+	<id> 15 </id>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<!--VUI+ separate DAM from DPS, keeping DAM in its original location -->
+	<x> <copy src="sibling(DAMInfo)" trait="x"/> </x>
+	<y>
+		<copy src="sibling(DAMInfo)" trait="y"/>
+		<sub src="sibling(DAMInfo)" trait="height"/>
+	</y>
+	<_Title> &-sInventoryDamagePerSecond; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<_VUI+NoBlink> 1 </_VUI+NoBlink>
+</rect>
+
+<!-- Item Weight (WG) -->
+<rect name="WeightInfo">
+	<include src="card_info.xml"/>
+	<x> <copy src="parent" trait="user0"/> <add> 10 </add> </x>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sInventoryWeightUpper; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+</rect>
+
+<!-- Item Value (VAL)-->
+<rect name="ValueInfo">
+	<include src="card_info.xml"/>
+	<x>
+		<copy src="parent" trait="user0"/>
+		<add> 10 </add>
+		<mul> 2 </mul>
+	</x>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sInventoryValue; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<_VUI+NoLabel> 1 </_VUI+NoLabel>
+</rect>
+
+<!-- Item Condition (CND)-->
+<rect name="ConditionInfo">
+	<include src="card_info.xml"/>
+	<y> <copy src="parent" trait="user1"/> </y>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sInventoryCondition; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<user5> 0.8 </user5> <!--VUI+ fixes 0 condition display for armor recipes; weapons can only be fixed by scripting -->
+	<user6> <not src="sibling(DamageResistInfo)" trait="visible" /> </user6> <!--VUI+ position of the condition notches; 0=armor, 1=weapon -->
+	<_VUI+CNDmax> 800 </_VUI+CNDmax> <!--VUI+ provided by the plugin -->
+	
+	<!-- Condition value is shown as a bar -->
+	<rect name="ConditionMeter">
+		<include src="meter.xml"/>
+		<visible> <copy src="parent" trait="visible"/> </visible>
+		<_SolidMeter> 1 </_SolidMeter>
+		<_ShowBackground> 1 </_ShowBackground>
+		<_Value>
+			<copy src="parent" trait="user5"/>
+			<!--VUI+ user5 (condition factor) is 1 for perfect items -->
+			<min>
+				<copy> 1 </copy>
+				<sub>
+					<!--VUI+ guarantee at least 1.5% or two pixels (whichever is wider) of incomplete bar for non-perfect items -->
+					<copy src="screen" trait="resolutionconverter"/>
+					<max>
+						<copy src="me" trait="width" />
+						<mul> 0.015 </mul>
+					</max>
+					<div src="me" trait="width" />
+					<mul> 2 </mul>
+					<onlyif>
+						<copy src="parent" trait="user5" />
+						<lt> 1 </lt>
+					</onlyif>
+				</sub>
+			</min>
+		</_Value>
+		<height>
+			<copy src="sibling" trait="height" />
+			<mul> 0.3 </mul>
+			<add> 10 </add>
+		</height>
+		<width>
+			<!--VUI+ resizes the max width of the CND bar based on this curve: y = (FullWidth - 50) * CNDmax / (CNDmax + 170) + 40 -->
+			<copy src="me" trait="x" />
+			<sub src="sibling(CI_TitleText)" trait="width" />
+			<sub src="sibling(CI_TitleText)" trait="x" />
+			<sub> 50 </sub>
+			<mul>
+				<copy src="parent" trait="_VUI+CNDmax" />
+				<div>
+					<copy src="parent" trait="_VUI+CNDmax" />
+					<add> 170 </add>
+				</div>
+				<max>
+					<copy> 1 </copy>
+					<onlyifnot src="globals" trait="_VUI+DynamicCND" />
+				</max>
+			</mul>
+			<add> 30 </add>
+			<add>
+				<copy> 10 </copy>
+				<onlyif src="globals" trait="_VUI+DynamicCND" />
+			</add>
+		</width>
+		<justify> &right; </justify>
+		<x>
+			<copy src="parent" trait="width" />
+			<sub> 10 </sub>
+		</x>
+		<y>
+			<copy src="sibling" trait="height" />
+			<sub src="me" trait="height" />
+			<div> 2 </div>
+			<add src="sibling" trait="y" />
+			<sub>
+				<copy src="sibling" trait="font" />
+				<copy src="globals" trait="_VUI+FontY_" />
+			</sub>
+		</y>
+	</rect>
+
+	<image name="CNDArrows">
+		<id></id>
+		<depth>10</depth>
+		<locus>1</locus>
+		<filename>interface\shared\arrow\repair_meter_pips.dds</filename>
+		<width>18</width> <!--VUI+ slightly expand the condition notches -->
+		<height> <copy src="sibling(ConditionMeter)" trait="height" /> </height> <!--VUI+ fix the notch height on the recipe menu -->
+		<alpha>255</alpha>
+		<x>
+			<copy src="sibling(ConditionMeter)" trait="x"/>
+			<sub>
+				<copy src="sibling(ConditionMeter)" trait="width"/>
+				<div>2</div>
+			</sub>
+			<add>
+				<copy src="sibling(ConditionMeter)" trait="width"/>
+				<div>4</div>
+				<onlyif src="parent" trait="user6"/>
+			</add>
+			<sub> <!--VUI+ precisely align the notch, based on its metrics -->
+				<copy src="me" trait="width" />
+				<mul> 0.23 </mul>
+			</sub>
+		</x>
+		<y> <copy src="sibling(ConditionMeter)" trait="y"/> </y> <!--VUI+ fix the notch position on the recipe menu -->
+		<zoom>&scale;</zoom>
+	</image>
+</rect>
+
+<!-- Item's Ammo type -->
+<rect name="AmmoInfo">
+	<include src="card_info.xml"/>
+	<x> <copy src="parent" trait="user0"/> <add> 10 </add> </x>
+	<y> <copy src="parent" trait="user1"/> </y>
+	<width>
+		<copy src="parent" trait="user0"/>
+		<mul> 2 </mul>
+		<add> 10 </add>
+	</width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<_VUI+NoWrap> 1 </_VUI+NoWrap>
+</rect>
+
+<!-- Effects list info -->
+<rect name="EffectsInfo">
+	<include src="card_info.xml"/>
+	<y> <copy src="parent" trait="user1"/> </y>
+	<width>
+		<copy src="parent" trait="user0"/>
+		<mul> 3 </mul>
+		<add> 20 </add>
+	</width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sInventoryEffects; </_Title>
+	<visible> 0 </visible>
+	<font> 6 </font>
+</rect>
+
+<!-- Mod list info -->
+<rect name="ModInfoOne">
+	<include src="card_info.xml"/>
+	<y> 
+		<copy src="parent" trait="user1"/> 
+		<sub>5</sub>
+	</y>
+	<width> <copy src="parent" trait="user0"/> <mul> 3 </mul> <add> 20 </add> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sModffects; </_Title>
+	<visible> 0 </visible>
+	<font> <copy src="parent" trait="font" /> </font>
+	<_VUI+NoLabel> <copy src="io" trait="_VUI+noMODSlabel" /> <add> 1 </add> </_VUI+NoLabel> <!--VUI+ Universal Item Sorter doesn't need a MODS label since it prefixes mods already -->
+	<_VUI+NoWrap> 1 </_VUI+NoWrap>
+</rect>
+
+<!-- Mod list info -->
+<rect name="ModInfoTwo">
+	<include src="card_info.xml"/>
+	<y> 
+		<copy src="parent" trait="user1"/> 
+		<sub>5</sub>
+	</y>
+	<width> <copy src="parent" trait="user0"/> <mul> 3 </mul> <add> 20 </add> </width>
+	<height>
+		<copy src="parent" trait="user1"/>
+		<sub> <copy> 8 </copy> <onlyif src="sibling(ModInfoOne)" trait="visible" /> </sub> <!--VUI+ reduce line spacing between weapon mods -->
+	</height>
+	<_Title> &-sModffects; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<!--VUI+ removes the MOD prefix and borders for any mod under the first one -->
+	<_VUI+NoLabel> <copy src="io" trait="_VUI+noMODSlabel" /> <or src="me" trait="_VUI+NoBorder" /> <add> 1 </add> </_VUI+NoLabel>
+	<_VUI+NoBorder> <copy src="sibling(ModInfoOne)" trait="visible" /> </_VUI+NoBorder>
+	<_VUI+NoWrap> 1 </_VUI+NoWrap>
+	<_Mod>
+		<copy>1</copy>
+		<onlyif src="sibling(ModInfoOne)" trait="visible" /> 
+	</_Mod>
+</rect>
+
+<!-- Mod list info -->
+<rect name="ModInfoThree">
+	<include src="card_info.xml"/>
+	<y> 
+		<copy src="parent" trait="user1"/> 
+		<sub>5</sub>
+	</y>
+	<width> <copy src="parent" trait="user0"/> <mul> 3 </mul> <add> 20 </add> </width>
+	<height>
+		<copy src="parent" trait="user1"/>
+		<sub> <copy> 8 </copy> <onlyif src="sibling(ModInfoOne)" trait="visible" /> </sub> <!--VUI+ reduce line spacing between weapon mods -->
+		<sub> <copy> 8 </copy> <onlyif src="sibling(ModInfoTwo)" trait="visible" /> </sub>
+	</height>
+	<_Title> &-sModffects; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<!--VUI+ removes the MOD prefix and borders for any mod under the first one -->
+	<_VUI+NoLabel> <copy src="io" trait="_VUI+noMODSlabel" /> <or src="me" trait="_VUI+NoBorder" /> <add> 1 </add> </_VUI+NoLabel>
+	<_VUI+NoBorder> <copy src="sibling(ModInfoOne)" trait="visible" /> <or src="sibling(ModInfoTwo)" trait="visible" /> </_VUI+NoBorder>
+	<_VUI+NoWrap> 1 </_VUI+NoWrap>
+	<_Mod>
+		<copy>2</copy>
+		<onlyif src="sibling(ModInfoTwo)" trait="visible" /> 
+		<or src="sibling(ModInfoOne)" trait="visible" /> 
+	</_Mod>
+</rect>
+
+<!-- strength requirement (STR)-->
+<rect name="StrengthReqInfo">
+	<include src="card_info.xml"/> <!--VUI+ this allows the Strength card to blink if lower than required -->
+	<id>16</id>
+	<x> <copy src="sibling(ValueInfo)" trait="x"/> </x>
+	<y>
+		<copy src="sibling(ValueInfo)" trait="y"/>
+		<sub src="sibling(ValueInfo)" trait="height"/>
+	</y>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title>&-sInventoryStrReq;</_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible> <!--VUI+ fix visibility in empty stats -->
+	<_VUI+LabelRight> <copy src="child(VUI+WeaponSkillBadge)" trait="visible" /> </_VUI+LabelRight>
+
+	<image name="VUI+WeaponSkillBadge"> <!--VUI+ NV icon badge for skill requirements -->
+		<filename> </filename>
+		<zoom> &scale; </zoom>
+		<x> 5 </x>
+		<y> -4 </y>
+		<width> <copy src="parent" trait="height" /> <sub>8</sub></width>
+		<height> <copy src="parent" trait="height" />  <sub>8</sub> </height>
+		<visible> 0 </visible>
+		<depth> 2 </depth>
+		<locus> 1 </locus>
+		<text name="Requirement">
+			<string> </string>
+			<x> <copy src="parent" trait="width" /> </x>
+			<y>
+				<copy src="parent" trait="height" />
+				<mul> 1.23 </mul> <!-- image correction factor -->
+				<sub src="me" trait="height" />
+				<div> 2 </div>
+				<add>
+					<copy src="me" trait="font" />
+					<copy src="globals" trait="_VUI+FontY_" />
+				</add>
+			</y>
+			<zoom>100</zoom>
+			<font> <copy src="grandparent" trait="font" /> </font>
+			<brightness> <copy src="parent" trait="brightness" /> </brightness>
+			<_VUI+OutlineIntensity>3 </_VUI+OutlineIntensity>
+			<_VUI+ShadowOffset>1</_VUI+ShadowOffset>
+		</text>
+		<include src="VUI+\outline.xml"/>
+
+	</image>
+</rect>
+
+<!-- Damage (DAM) -->
+<rect name="DAMInfo">
+	<id> 14 </id>
+	<include src="card_info.xml"/>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sInventoryDamage; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<_VUI+NoBlink> 1 </_VUI+NoBlink>
+	<_VUI+NoLabel> 1 </_VUI+NoLabel>
+	<_VUI+NoWrap> 1 </_VUI+NoWrap>
+</rect>
+
+<!-- Damage Threshold (DT) -->
+<rect name="DamageThresholdInfo">
+	<id> 18 </id>
+	<include src="card_info.xml"/>
+	<width> <copy src="parent" trait="user0"/> </width>
+	<height> <copy src="parent" trait="user1"/> </height>
+	<_Title> &-sInventoryDamageThreshold; </_Title>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+	<_VUI+NoBlink> 1 </_VUI+NoBlink>
+</rect>
+
+<!--VUI+ Value/Weight ratio -->
+<rect name="VUI+VWratio">
+	<include src="card_info.xml"/>
+	<_Title> <copy src="globals" trait="_VUI+VW" /> </_Title>
+	<x> <copy src="sibling(WeightInfo)" trait="x"/> </x>
+	<y> <copy src="sibling(StrengthReqInfo)" trait="y" /> </y>
+	<width> <copy src="sibling(WeightInfo)" trait="width"/> </width>
+	<height> <copy src="sibling(WeightInfo)" trait="height"/> </height>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible>
+		<copy src="sibling(ValueInfo)" trait="visible"/>
+		<and>
+			<copy src="child(CI_ValueText)" trait="width" />
+			<gt> 15 </gt>
+		</and>
+		<and src="globals" trait="_VUI+VWratio" />
+	</visible>
+</rect>

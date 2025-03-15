@@ -1,0 +1,54 @@
+
+	
+	<image name="Icon_1">
+		<visible>
+			<copy src="parent()" trait="_Option"/>
+			<gte>1</gte>
+		</visible>
+		<y>3</y>
+		<filename>VUIE\Shared\Select.dds</filename>
+		<width>14</width>
+		<height>14</height>
+        <depth>2</depth>
+		<zoom>-1</zoom>
+		<alpha><copy src="io()" trait="_CTI+Alpha"/></alpha>
+    </image>
+	<image name="Icon_2">
+		<visible>
+			<copy src="parent()" trait="_Option"/>
+			<gte>2</gte>
+		</visible>
+		<x>14</x>
+		<y>3</y>
+		<filename>Addition\Icons\Cond.dds</filename>
+		<width>14</width>
+		<height>14</height>
+        <depth>2</depth>
+		<zoom>-1</zoom>
+		<alpha><copy src="io()" trait="_CTI+Alpha"/></alpha>
+    </image>
+	
+	<text name="Item_1">
+		<clips>1</clips>
+		<x>
+			<copy src="parent()" trait="_X"/>
+			<add>
+				<copy>5</copy>
+				<add>
+					<copy>14</copy>
+					<mul src="parent()" trait="_Option"/>
+				</add>
+				<onlyif src="parent()" trait="_Option"/>
+			</add>
+		</x>
+		<y>5</y>
+		<depth>3</depth>
+		<justify>&Left;</justify>
+		<font><copy src="globals" trait="_VUI+HUDMainFont" /></font>
+		<string><copy src="parent()" trait="_Text"/></string>
+		<zoom>70</zoom>
+		<alpha><copy src="io()" trait="_CTI+Alpha"/></alpha>
+		<_VUI+OutlineIntensity><copy src="globals" trait="_VUIE+FontOutline" /></_VUI+OutlineIntensity>
+		<_VUI+ShadowOffset><copy src="globals" trait="_VUIE+FontShadow" /></_VUI+ShadowOffset>
+	</text>
+	<include src="VUI+\outline.xml"/>
