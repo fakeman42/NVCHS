@@ -644,6 +644,9 @@
 		<!-- 阵营声望 -->
 		<regex from="^([\w\s]+)\s+Fame:\s+(\d+)%\s+-\s+Infamy:\s+(\d+)%$" to="$1&#xA;声望: $2% - 恶名: $3%"/>
 
+		<!-- Karma对话 -->
+		<regex from="^\[Karma\s(-?)(\d+)\]\s*([\s\S]+)$" to="[业力 $1$2] $3"/>
+
 		<!-- SD_transpoter菜单 -->
 		<regex from="^(.+):\s(\d+)\sCaps$" to="$1：$2 瓶盖"/>
 
@@ -651,9 +654,6 @@
 		<regex from="([^\r\n]+?)\s+is\s+now\s+under\s+the\s+control\s+of\s+([^\r\n]+?)$" to="$1已由$2控制"/>
 		<regex from="([^\r\n]+?)\s+is\s+returning\s+to\s+([^\r\n]+?)$" to="$1正在返回$2"/>
 		<regex from="([^\r\n]+?)\s+has\s+returned\s+to\s+([^\r\n]+?)$" to="$1已返回$2"/>
-		<!-- Karma对话 -->
-		<regex from="^[[]Karma\s[-]\d+[\]](.+)$" to="$1"/>
-		
 		
 	</captureGroup>
 
