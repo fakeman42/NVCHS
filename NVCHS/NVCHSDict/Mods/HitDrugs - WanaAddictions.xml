@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentElement>
   <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>0300167F</ID>
+    <EDID>SmoochMagicEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mellowness, Ecstasy</ORIGINAL>
+    <TRADUIT>甜美，欣喜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
     <GRUP>SPEL</GRUP>
     <ID>03001394</ID>
     <EDID>WithdrawalCalmex</EDID>
@@ -16,11 +30,25 @@
   </ESP>
   <ESP>
     <GRUP>SPEL</GRUP>
+    <ID>0300167C</ID>
+    <EDID>WithdrawalAfterBurner</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>After Burner Withdrawal</ORIGINAL>
+    <TRADUIT>加力健戒断反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
     <ID>03001963</ID>
     <EDID>ShadowWalkerActorEffect</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Shadow-Walker Withdrawal</ORIGINAL>
-    <TRADUIT>暗影行者戒断反应</TRADUIT>
+    <ORIGINAL>Shadow Blend</ORIGINAL>
+    <TRADUIT>融入阴影</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -35,6 +63,20 @@
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Painkiller Withdrawal</ORIGINAL>
     <TRADUIT>止痛药戒断反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>04001039</ID>
+    <EDID>WithdrawalShadowWalker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shadow-Walker Withdrawal</ORIGINAL>
+    <TRADUIT>暗影行者戒断反应</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
