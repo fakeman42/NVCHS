@@ -271,6 +271,7 @@
 		<xml path="Data/NVCHSDict/Mods/Sun.xml"/>
 		<xml path="Data/NVCHSDict/Mods/HitDrugsTTW.xml"/>
 		<xml path="Data/NVCHSDict/Mods/HitDrugs - WanaAddictions.xml"/>
+		<file target="Data/NVCHSDict/Mods/HitDrugsWanaAddictions_chs.txt" src="Data/NVCHSDict/Mods/HitDrugsWanaAddictions_en.txt" type="2" priority="5"/>
 		<xml path="Data/NVCHSDict/Mods/More Perks.xml"/>
 		<file target="Data/NVCHSDict/Mods/theinheritage_chs.txt" src="Data/NVCHSDict/Mods/theinheritage_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/quicktrain_ch.txt" src="Data/NVCHSDict/Mods/quicktrain_en.txt" type="2" priority="5"/>
