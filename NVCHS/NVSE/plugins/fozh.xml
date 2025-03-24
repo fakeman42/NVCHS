@@ -163,6 +163,7 @@
 		<json path="Data/NVCHSDict/json/Mods/ClaimtheMojave.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/ClaimtheCapital.json" priority="5" />
 		<file target="Data/NVCHSDict/Mods/ClaimtheMojave_chs.txt" src="Data/NVCHSDict/Mods/ClaimtheMojave_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/ClaimtheCapital_chs.txt" src="Data/NVCHSDict/Mods/ClaimtheCapital_en.txt" type="2" priority="5"/>
 		
 		<json path="Data/NVCHSDict/json/Mods/Mojave_NPCs.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/D.C_NPCs.json" priority="5" />
