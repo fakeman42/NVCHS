@@ -237,6 +237,9 @@
 		<file target="Data/NVCHSDict/Mods/StandaloneCars_chs.txt" src="Data/NVCHSDict/Mods/StandaloneCars_en.txt" type="2" priority="5"/>
 		
 		<!-- mods -->
+		<xml path="Data/NVCHSDict/Mods/TLD_Travelers.xml"/>
+		<json path="Data/NVCHSDict/json/Mods/TLD_Travelers.json" priority="5" />
+		
 		<xml path="Data/NVCHSDict/Mods/JustAssortedMods.xml"/>
 		<file target="Data/NVCHSDict/Mods/JAM_ch.txt" src="Data/NVCHSDict/Mods/JAM_en.txt" type="2" priority="5"/>
 
@@ -246,7 +249,7 @@
 		<xml path="Data/NVCHSDict/Mods/3DNPCFNVBundle.xml"/>
 		
 		<xml path="Data/NVCHSDict/Mods/A Trail of Crumbs.xml"/>
-		<xml path="Data/NVCHSDict/Mods/TLD_Travelers.xml"/>
+		
 		<xml path="Data/NVCHSDict/Mods/TheDeterrent.xml"/>
 		<xml path="Data/NVCHSDict/Mods/sawyerbatty.xml"/>
 		<xml path="Data/NVCHSDict/Mods/Misc Gameplay Merge.xml"/>
