@@ -18,9 +18,9 @@ CCC00000017	Heal [%] (No Target) ([%] Skill)
 CCC00000018	Heal [%] ([%] Skill)
 CCC00000019	Repair [%] ([%] Skill)
 CCC00000020	Lockpick/Hack/Disarm
-CCC00000021	Lockpick [%] ([%] Skill)
-CCC00000022	Hack [%] ([%] Skill)
-CCC00000023	Disarm [%] ([%] Skill)
+CCC00000021	Lockpick [%] ([%] Skill) Success Chance: [%]
+CCC00000022	Hack [%] ([%] Skill) Success Chance: [%]
+CCC00000023	Disarm [%] ([%] Skill) Success Chance: [%]
 CCC00000024	Disarm [%]
 CCC00000025	Loot/Pickpocket
 CCC00000026	Loot [%]
@@ -58,14 +58,14 @@ CCC00000057	Optional
 CCC00000058	Scroll Up/Left
 CCC00000059	Scroll Down/Right
 CCC00000060	Use Xbox Controller
-CCC00000061	'Wheel'
+CCC00000061	Wheel'
 CCC00000062	Companion/Command Selection
-CCC00000063	'Mouse2'
+CCC00000063	Mouse2'
 CCC00000064	Companions/Commands Bar Switch
 CCC00000065	Command Interface Hotkey
 CCC00000066	Toggled When Pressed
-CCC00000067	'WheelUp'
-CCC00000068	'WheelDown'
+CCC00000067	WheelUp'
+CCC00000068	WheelDown'
 CCC00000069	Screen Layout:
 CCC00000070	Scale:
 CCC00000071	Visible Avatars:
@@ -88,3 +88,39 @@ CCC00000087	Shortcut Hotkeys (Optional)
 CCC00000088	JIP CC&C
 CCC00000089	Commands Bar Properties:
 CCC00000090	Companions Bar Properties:
+CCC00000091	All Companions: [%]
+CCC00000092	Move To & Guard
+CCC00000093	Keep Distance
+CCC00000094	Stay Close
+CCC00000095	Wait Here
+CCC00000096	Follow Me
+CCC00000097	Use Melee Weapon
+CCC00000098	Use Ranged Weapon
+CCC00000099	Be Aggressive
+CCC00000100	Be Passive
+CCC00000101	[%] is in another cell and cannot be given commands.
+CCC00000102	[%] is too far and cannot be given commands.
+CCC00000103	[%] is unconscious and cannot be given commands.
+CCC00000104	[%] is too far to share items with.
+CCC00000105	[%] cannot be healed.
+CCC00000106	[%] is too far and cannot heal itself.
+CCC00000107	Neither you nor [%] is too far and does not carry the necessary aid item(s).
+CCC00000108	[%] used a [%].
+CCC00000109	Cannot start conversation during combat.
+CCC00000110	Cannot heal/repair hostile targets.
+CCC00000111	This terminal cannot be hacked.
+CCC00000112	This lock cannot be picked.
+CCC00000113	[%] does not carry any Bobby Pins.
+CCC00000114	[%] has gone to [%] home marker, [%].
+CCC00000115	This action can only be performed by humanoids.
+CCC00000116	Steal [%] ([%] Skill)
+CCC00000117	Miserable
+CCC00000118	Very Poor
+CCC00000119	Poor
+CCC00000120	Moderate
+CCC00000121	Good
+CCC00000122	Very Good
+CCC00000123	Excellent
+CCC00000124	Zero
+CCC00000125	Dismiss Companion
+CCC00000126	Remove from Companions Bar
