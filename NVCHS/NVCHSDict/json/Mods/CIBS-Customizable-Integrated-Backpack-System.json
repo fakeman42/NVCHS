@@ -1,0 +1,634 @@
+[
+ {
+  "id": 630057687,
+  "key": "1EHostetlerHome_000FE889#CELL:FULL#7c52368b03d5a641b06113e4e7f1a9f2",
+  "original": "Hostetler Home",
+  "translation": "霍斯泰特勒的家",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057654,
+  "key": "4BRRCArmory_0013F07E#CELL:FULL#fc567e227d253d370353cd98f96cbe75",
+  "original": "Great Khan Armory",
+  "translation": "大汗帮军火库",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057686,
+  "key": "BisonSteve01_000D6FAF#CELL:FULL#8b31045472351588d65a3be1d07b3bc4",
+  "original": "The Bison Steve Hotel",
+  "translation": "野牛史蒂夫旅馆",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057649,
+  "key": "CIBSBagDuffleBLACK_0300C847#ARMO:FULL#20f0b4967d816705ce475177ddc6da76",
+  "original": "Duffle Bag Black",
+  "translation": "行李袋, 黑",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057651,
+  "key": "CIBSBagDuffleLEGION_0300E826#ARMO:FULL#90bb18c71d77e84e289a94dcb85debcc",
+  "original": "Legion Sarcina",
+  "translation": "军团旅行包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057650,
+  "key": "CIBSBagDuffleRED_0300E824#ARMO:FULL#4304076b595f63697df30704a4781ccc",
+  "original": "Duffle Bag Red",
+  "translation": "行李袋, 棕",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057648,
+  "key": "CIBSBagDuffle_0300C449#ARMO:FULL#8a1c111516cab7cc2711109f743244e4",
+  "original": "Duffle Bag Green",
+  "translation": "行李袋, 绿",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057690,
+  "key": "CIBSBrokenMSG_03000C08#MESG:DESC#275d066bbb77eb67d52fdc2a441635ad",
+  "original": "has broken!",
+  "translation": "坏掉了!",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057691,
+  "key": "CIBSBrokenMSG_03000C08#MESG:FULL#275d066bbb77eb67d52fdc2a441635ad",
+  "original": "has broken!",
+  "translation": "坏掉了 !",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057622,
+  "key": "CIBSCaravanBackpackBLACK_03000808#ARMO:FULL#0635069d862e10be80f1d4a8b1ee6fa2",
+  "original": "Caravan Backpack Black",
+  "translation": "商队背包, 黑",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057624,
+  "key": "CIBSCaravanBackpackBLUE_0300080A#ARMO:FULL#47cd29cf808e2d2568a926831daf867a",
+  "original": "Caravan Backpack Blue",
+  "translation": "商队背包, 蓝",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057625,
+  "key": "CIBSCaravanBackpackDESERT_0300080B#ARMO:FULL#ca1529e1341c5872c76d179a082296d2",
+  "original": "Caravan Backpack Yellow",
+  "translation": "商队背包, 黄",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057623,
+  "key": "CIBSCaravanBackpackRED_03000809#ARMO:FULL#99df8d18969faa9fbba7906b4acc23b7",
+  "original": "Caravan Backpack Red",
+  "translation": "商队背包, 红",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057626,
+  "key": "CIBSCaravanBackpack_0300080C#ARMO:FULL#32bbb27487277dcdf2015b637df92596",
+  "original": "Caravan Backpack Green",
+  "translation": "商队背包, 绿",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057621,
+  "key": "CIBSEnchBagDuffleLEGION_03010426#ENCH:FULL#dee608dcef27fe01857d417bc8769934",
+  "original": "Duffle Bag",
+  "translation": "行李袋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057619,
+  "key": "CIBSEnchBagDuffle_0300C44A#ENCH:FULL#dee608dcef27fe01857d417bc8769934",
+  "original": "Duffle Bag",
+  "translation": "行李袋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057615,
+  "key": "CIBSEnchCaravanBackpack_0300182A#ENCH:FULL#62f3bfb0fcbe091668bf6f9a55d8ff5c",
+  "original": "Caravan Backpack",
+  "translation": "商队背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057616,
+  "key": "CIBSEnchEmpty_03006CEC#ENCH:FULL#b8ec2719f3210e2f98cb946464a551b8",
+  "original": "Backpack",
+  "translation": "背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057617,
+  "key": "CIBSEnchFieldBackpackBROTHERHOOD_0300B464#ENCH:FULL#81f6b2a8c66d9af04792d9435f93aa3a",
+  "original": "Brotherhood Backpack",
+  "translation": "兄弟会背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057618,
+  "key": "CIBSEnchFieldBackpackENCLAVE_0300B466#ENCH:FULL#0e1f5c7d4bf7aa511adce5217e4fea3c",
+  "original": "Enclave Backpack",
+  "translation": "英克雷背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057620,
+  "key": "CIBSEnchFieldBackpackNCR_0300C44C#ENCH:FULL#5690b7eca654cd44997908e92e8c3230",
+  "original": "Field Backpack",
+  "translation": "野战背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057614,
+  "key": "CIBSEnchFieldBackpack_03001829#ENCH:FULL#5690b7eca654cd44997908e92e8c3230",
+  "original": "Field Backpack",
+  "translation": "野战背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057628,
+  "key": "CIBSFieldBackpackBLACK_0300180F#ARMO:FULL#e069c4e2d8a93aff97524db124c0c3f0",
+  "original": "Field Backpack Black",
+  "translation": "野战背包, 黑",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057629,
+  "key": "CIBSFieldBackpackBLUE_03001810#ARMO:FULL#87fbe4438e906f70c7eda0000ed29d33",
+  "original": "Field Backpack Blue",
+  "translation": "野战背包, 蓝",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057640,
+  "key": "CIBSFieldBackpackBROTHERHOOD_0300181B#ARMO:FULL#86356db77e5aae4b3a69851848c3b756",
+  "original": "Brotherhood Rucksack",
+  "translation": "兄弟会行李包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057627,
+  "key": "CIBSFieldBackpackBROWN_0300180E#ARMO:FULL#4fea432a84e72cb9f8e80df3c0f30afd",
+  "original": "Field Backpack Brown",
+  "translation": "野战背包, 棕",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057632,
+  "key": "CIBSFieldBackpackCAMO_03001813#ARMO:FULL#1116d1e80533242ca210c2e7edd70cba",
+  "original": "Field Backpack Camo",
+  "translation": "野战背包, 迷彩",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057647,
+  "key": "CIBSFieldBackpackENCLAVE_03001822#ARMO:FULL#0e1f5c7d4bf7aa511adce5217e4fea3c",
+  "original": "Enclave Backpack",
+  "translation": "英克雷背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057641,
+  "key": "CIBSFieldBackpackFOLLOWERS_0300181C#ARMO:FULL#4005ad68a777a76f2cf022ea58a5ebf8",
+  "original": "Followers Backpack",
+  "translation": "野战背包, 追随者",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057635,
+  "key": "CIBSFieldBackpackGREEN_03001816#ARMO:FULL#5f1bcd0a9f51177d152cca63cd429b2b",
+  "original": "Field Backpack Green",
+  "translation": "野战背包, 绿",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057630,
+  "key": "CIBSFieldBackpackGREY_03001811#ARMO:FULL#2df56f343e026a5879e28aadbdd7962c",
+  "original": "Field Backpack Grey",
+  "translation": "野战背包, 灰",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057639,
+  "key": "CIBSFieldBackpackLEGION_0300181A#ARMO:FULL#527f19b16086c43518003cd513e49fc7",
+  "original": "Legion Backpack",
+  "translation": "军团背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057638,
+  "key": "CIBSFieldBackpackMOJAVE_03001819#ARMO:FULL#14abcbf59dd50f9ab8b0dfb4bcb412c5",
+  "original": "Mojave Express Backpack",
+  "translation": "莫哈维快递背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057637,
+  "key": "CIBSFieldBackpackNCR_03001818#ARMO:FULL#e39d19d0e05b14bceb4699a89b6ee184",
+  "original": "Trooper Rucksack",
+  "translation": "士兵旅行包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057645,
+  "key": "CIBSFieldBackpackNUKACOLA_03001820#ARMO:FULL#b6721ed0809ed4ff2b40974716337e11",
+  "original": "Nuka-Cola Backpack",
+  "translation": "核子可乐背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057631,
+  "key": "CIBSFieldBackpackPINK_03001812#ARMO:FULL#9f6ee95ef621c010784e3e824064f34b",
+  "original": "Field Backpack Pink",
+  "translation": "野战背包, 粉",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057634,
+  "key": "CIBSFieldBackpackPURPLE_03001815#ARMO:FULL#f49097451f6ddbc27d3addcc3b217e42",
+  "original": "Field Backpack Purple",
+  "translation": "野战背包, 紫",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057636,
+  "key": "CIBSFieldBackpackRED_03001817#ARMO:FULL#1a1ef3ddd2cab58560e4c5371661224f",
+  "original": "Field Backpack Red",
+  "translation": "野战背包, 红",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057643,
+  "key": "CIBSFieldBackpackROBCO_0300181E#ARMO:FULL#cd728ce1dc3bb26521c5da697680aea4",
+  "original": "RobCo Backpack",
+  "translation": "罗伯科背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057646,
+  "key": "CIBSFieldBackpackSUNSET_03001821#ARMO:FULL#1fea43905f655c2d2f85b81df930e7f4",
+  "original": "Sunset Sarsparilla Backpack",
+  "translation": "夕阳沙士背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057644,
+  "key": "CIBSFieldBackpackVAULT_0300181F#ARMO:FULL#558dea2e0213ce7a87658f6ab2db6770",
+  "original": "VaultTec Backpack",
+  "translation": "避难所科技背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057642,
+  "key": "CIBSFieldBackpackWESTTEK_0300181D#ARMO:FULL#9bd9bdaffb197c40bdb2183f87a8e392",
+  "original": "WestTek Backpack",
+  "translation": "西部科技背包",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057633,
+  "key": "CIBSFieldBackpackYELLOW_03001814#ARMO:FULL#8de5043d643d21add7ab6ceaa821f1f6",
+  "original": "Field Backpack Yellow",
+  "translation": "野战背包, 黄",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057613,
+  "key": "CIBSReduceSkillSneak_03000802#MGEF:FULL#2fbf7c37e56e5ce8bae4feba10018d92",
+  "original": "Reduced Sneak",
+  "translation": "减少潜行",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057652,
+  "key": "CampForlornHope02_00121484#CELL:FULL#dda419901fcc8c981c0ca3f4e3e1d1af",
+  "original": "Camp Forlorn Hope Barracks",
+  "translation": "飘零希望营地兵营",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057680,
+  "key": "CampForlornHope05_00121481#CELL:FULL#517b208057a247154587d8ea0bf8bede",
+  "original": "Camp Forlorn Hope Storage Shed",
+  "translation": "飘零希望营地军资棚",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057679,
+  "key": "CampSearchlightChurchNCR_0013F41D#CELL:FULL#f9b0999b5ff449dc7fe31fcfb9c77965",
+  "original": "Searchlight NCR Storage",
+  "translation": "探照灯营地NCR仓库",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057675,
+  "key": "CampSearchlightChurch_0013F41B#CELL:FULL#a4c16b489fcb87ddec90bcd2bfc3da6c",
+  "original": "Searchlight Church Basement",
+  "translation": "探照灯营地教堂地下室",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057658,
+  "key": "CampSearchlightSchool_0013F420#CELL:FULL#826eac2c47f6dd24ce3d40aeb7f93d69",
+  "original": "Searchlight Elementary School",
+  "translation": "探照灯营地小学",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057684,
+  "key": "CottonwoodCoveHQ_00130B8B#CELL:FULL#f8ec94877eb9b71ce23728903fa025e2",
+  "original": "Cottonwood Cove HQ",
+  "translation": "棉白杨湾指挥中心",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057661,
+  "key": "CottonwoodCoveShack_00130B8D#CELL:FULL#824bed43ae1606406989e35278e374bc",
+  "original": "Cottonwood Cove Shack",
+  "translation": "棉白杨湾棚屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057664,
+  "key": "CottonwoodCoveStorage_00133E38#CELL:FULL#461cb1c6d027907a1476c12aa6434ae4",
+  "original": "Cottonwood Cove Storage",
+  "translation": "棉白杨湾库房",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057672,
+  "key": "CrimsonCaravanBarracks02_000F3BDC#CELL:FULL#793083e9a3212f27bbab5e9f4e09a108",
+  "original": "Caravaneer Barracks",
+  "translation": "商队成员营房",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057682,
+  "key": "FollowersOutpostInterior_0015A822#CELL:FULL#34e43eba353a94fa6f18bd47a3ba20f6",
+  "original": "Followers Outpost",
+  "translation": "天启追随者哨站",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057674,
+  "key": "GSAbandonedShack_00125B32#CELL:FULL#042422d0922c9e7fe6c95bf5fa8af4db",
+  "original": "Abandoned Shack",
+  "translation": "废弃的棚屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057660,
+  "key": "GSSchoolHouse_00108F39#CELL:FULL#113bd894bf99956feeacaaa90f5af4a9",
+  "original": "Goodsprings Schoolhouse",
+  "translation": "清泉镇校舍",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057677,
+  "key": "NVDLC02ZionStation_01009426#CELL:FULL#6ec47adf034f89144b8dca4df747c98b",
+  "original": "Ranger Station",
+  "translation": "护林员站",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057667,
+  "key": "NellisSchool_001055C5#CELL:FULL#f75b3c54a68423bb1cfe9ab24daad598",
+  "original": "Nellis Schoolhouse",
+  "translation": "内利斯校舍",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057670,
+  "key": "NiptonHouse1_001385CA#CELL:FULL#d97cf726d4e013a0e909b5c50a3a1ab3",
+  "original": "Nipton House",
+  "translation": "尼普顿住房",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057659,
+  "key": "NiptonHouse4_001385C7#CELL:FULL#d97cf726d4e013a0e909b5c50a3a1ab3",
+  "original": "Nipton House",
+  "translation": "尼普顿住房",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057657,
+  "key": "NorthVegasHouseTools_000EDDC8#CELL:FULL#3a2c434a267e894321f0f4f6a7d34562",
+  "original": "H&H Tools Factory",
+  "translation": "H&H五金工具厂",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057655,
+  "key": "OrionMorenoHouse_000FB680#CELL:FULL#3f56edb10c098fbbf6d9bb0fbe5b7e2b",
+  "original": "Orion Moreno's House",
+  "translation": "厄里翁·莫雷诺的房屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057683,
+  "key": "PrimmGenericHouse01_0009A285#CELL:FULL#6cdf636808a99c5ef83f5b777882a16d",
+  "original": "Primm House",
+  "translation": "普瑞姆房屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057681,
+  "key": "PrimmTents_001567FE#CELL:FULL#29686210bcc7e17b5648dbffd8163f3b",
+  "original": "NCR Tent",
+  "translation": "NCR帐篷",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057665,
+  "key": "QJBarracks_000E5CCE#CELL:FULL#18afeb138b6b7b14f7c2e10a49b04fdc",
+  "original": "Worker Barracks",
+  "translation": "工人营房",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057676,
+  "key": "RepconHQ02_000E5A8D#CELL:FULL#5452a76bd3fab4bb82696bb054f7f178",
+  "original": "REPCONN Office 2nd Floor",
+  "translation": "瑞普康办公室二楼",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057656,
+  "key": "RepconHQ03_000E5A88#CELL:FULL#dae5330eaf2f25932ce9e5d83db0bc2e",
+  "original": "REPCONN Office Top Floor",
+  "translation": "瑞普康办公室顶楼",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057671,
+  "key": "SLBeerBootleggerINT_001544BE#CELL:FULL#2d1169f1bfb87f28bf4c7d9c4e6b1600",
+  "original": "Brewer's Beer Bootlegging",
+  "translation": "布鲁尔的啤酒私酿坊",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057685,
+  "key": "SLJeanSkyDivingINT_00148A5B#CELL:FULL#c3e8a6a0d7893023feefb36f40f6cf4d",
+  "original": "Jean Sky Diving",
+  "translation": "吉恩跳伞俱乐部",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057663,
+  "key": "SSHQ01_000FF7D1#CELL:FULL#abdaee1b39563c8628aa1f07c84ed4b3",
+  "original": "Factory Floor",
+  "translation": "车间",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057668,
+  "key": "SafehouseBoSINT_001583C9#CELL:FULL#f5b9805bb43f7c4a338b277838067c12",
+  "original": "Brotherhood of Steel Safehouse",
+  "translation": "钢铁兄弟会安全屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057669,
+  "key": "SafehouseFollowersINT_0015844C#CELL:FULL#07f7877ae27b836b1a3e59ba76b9fd91",
+  "original": "Followers Safehouse",
+  "translation": "天启追随者安全屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057678,
+  "key": "SafehouseLegionINT_001592EA#CELL:FULL#dac062a141c36770d80c2bd2541ef227",
+  "original": "Caesar's Legion Safehouse",
+  "translation": "凯撒军团安全屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057662,
+  "key": "SafehouseNCRINT_001592E5#CELL:FULL#3f097b9a3b244bbc5d8437ace311530c",
+  "original": "NCR Ranger Safehouse",
+  "translation": "NCR游骑兵安全屋",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057666,
+  "key": "Vault11b_000E63E0#CELL:FULL#0139fc7be52a6faf0da3f82e5d7a5dca",
+  "original": "Vault 11 Living Quarters",
+  "translation": "11号避难所居住区",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057653,
+  "key": "Vault11c_000E6A6E#CELL:FULL#3d1c9d422c980aa754700fb92cac1cba",
+  "original": "Vault 11 Lower Level",
+  "translation": "11号避难所下层",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057673,
+  "key": "Vault22d_000E60C2#CELL:FULL#d846266a3d6ae67f546b16d836ce593a",
+  "original": "Vault 22 - Common Areas",
+  "translation": "22号避难所 - 公共区",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057688,
+  "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+  "original": "Mojave Wasteland",
+  "translation": "莫哈维废土",
+  "stage": 1,
+  "context": null
+ },
+ {
+  "id": 630057689,
+  "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+  "original": "Mojave Wasteland",
+  "translation": "莫哈维废土",
+  "stage": 1,
+  "context": null
+ }
+]
