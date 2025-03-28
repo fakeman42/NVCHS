@@ -1,1 +1,168 @@
-STO00000001	To open sorter menu, point at a container and press the VATS key.
+STO00000001	Your package has arrived:  [%]
+STO00000002	[%] is no longer a custom destination for [%].
+STO00000003	The cell has been renamed to [%].
+STO00000004	Your package has been sent to [%].
+STO00000005	Master container not found.
+STO00000006	Sorting container is not assigned.
+STO00000007	Your inventory has been processed.
+STO00000008	To open sorter menu, point at a container and press the VATS key.
+STO00000009	Enter a new name:
+STO00000010	Configuration
+STO00000011	Review unburdening
+STO00000012	Categories to remove...
+STO00000013	Always keep...
+STO00000014	Quotas to keep...
+STO00000015	Always remove...
+STO00000016	Rename master...
+STO00000017	Rename cell...
+STO00000018	Reset...
+STO00000019	Send items...
+STO00000020	<- Back
+STO00000021	Cell-specific Removal Settings
+STO00000022	Select which items you would like to remove automatically (only for this cell).
+STO00000023	Use global settings
+STO00000024	Weapons
+STO00000025	Apparel
+STO00000026	Ammo
+STO00000027	Books
+STO00000028	Magazines
+STO00000029	Misc items
+STO00000030	Chems
+STO00000031	Meds
+STO00000032	Food and drinks
+STO00000033	Alcohol
+STO00000034	Weapon mods
+STO00000035	Money
+STO00000036	Poisons
+STO00000037	All items have been re-sorted.
+STO00000038	Selected destinations have been cleared.
+STO00000039	Auto-sorting was deactivated, all items from the cell have been collected to this container.
+STO00000040	All sent items have been returned.
+STO00000041	Reset
+STO00000042	Re-sort all items
+STO00000043	Clear all destinations
+STO00000044	Clear category destinations
+STO00000045	Clear item-specific destinations
+STO00000046	Deactivate auto-sorting in this cell
+STO00000047	Cancel all pending deliveries
+STO00000048	This container is not empty
+STO00000049	What do you want to do with items inside?
+STO00000050	Move to master and re-sort
+STO00000051	Keep them here
+STO00000052	Select categories to move here by default.
+STO00000053	Weapons and ammo...
+STO00000054	Apparel...
+STO00000055	Food and aid...
+STO00000056	Miscellaneous...
+STO00000057	Items Always Moved Here
+STO00000058	Click on an item to reset its default destination and re-sort it.
+STO00000059	Select categories of items, placed into this container by default.
+STO00000060	Ignored Container
+STO00000061	Items won't be moved to or from here automatically.
+STO00000062	Unignore and re-sort
+STO00000063	Only unignore
+STO00000064	Close
+STO00000065	Retrieved ammo for all carried weapons.
+STO00000066	Shared Storage
+STO00000067	Stash Organizer
+STO00000068	What would you like to do?
+STO00000069	Open sorter
+STO00000070	Unburden me
+STO00000071	Replenish ammo
+STO00000072	Retrieve items...
+STO00000073	Configure...
+STO00000074	Workbench
+STO00000075	Campfire
+STO00000076	Reloading bench
+STO00000077	Retrieve Items
+STO00000078	Select which items you would like to retrieve.
+STO00000079	Weapons...
+STO00000080	Ammo...
+STO00000081	Apparel...
+STO00000082	Aid...
+STO00000083	Misc...
+STO00000084	Crafting supplies...
+STO00000085	Repair current...
+STO00000086	Everything
+STO00000087	All Aid
+STO00000088	Food
+STO00000089	Water
+STO00000090	Aid
+STO00000091	Select type of aid to retrieve.
+STO00000092	No equipped weapon!
+STO00000093	Your currently equipped weapon does not use ammo.
+STO00000094	Select type of ammo to retrieve.
+STO00000095	All ammo
+STO00000096	Pistol powder rounds
+STO00000097	Rifle powder rounds
+STO00000098	Shotgun shells
+STO00000099	Energy cells
+STO00000100	Explosive ammo and fuel
+STO00000101	Ammo for equipped weapon
+STO00000102	Ammo for carried weapons
+STO00000103	Select type of apparel to retrieve.
+STO00000104	All apparel
+STO00000105	Faction armor
+STO00000106	Power armor
+STO00000107	Heavy armor
+STO00000108	Medium armor
+STO00000109	Light armor
+STO00000110	Clothing
+STO00000111	Headgear
+STO00000112	Crafting Supplies
+STO00000113	Select crafting supplies category.
+STO00000114	Sierra Madre vending machine
+STO00000115	Select what to retrieve.
+STO00000116	All misc items
+STO00000117	Skill books
+STO00000118	Junk && miscellanea
+STO00000119	Repair
+STO00000120	No equipped items.
+STO00000121	Repair Supplies
+STO00000122	Repair current...
+STO00000123	Armor
+STO00000124	Retrieve Weapons
+STO00000125	All weapons
+STO00000126	Weapons by type...
+STO00000127	Weapons by skill...
+STO00000128	Weapons by perk...
+STO00000129	Modded weapons
+STO00000130	Perk list does not match weapon list.
+STO00000131	Weapons by Perk
+STO00000132	Weapons by Skill
+STO00000133	Unarmed
+STO00000134	Melee weapons
+STO00000135	Energy weapons
+STO00000136	Explosives
+STO00000137	Guns
+STO00000138	Small guns
+STO00000139	Big guns
+STO00000140	Weapons by Type
+STO00000141	Pistols
+STO00000142	Rifles
+STO00000143	Shotguns
+STO00000144	Automatic guns
+STO00000145	Thrown explosives
+STO00000146	Thrown melee weapons
+STO00000147	Mines
+STO00000148	You need at least [%] caps to pay for a delivery.
+STO00000149	Mojave Express
+STO00000150	Send items to your other stashes for a [%] caps fee.
+STO00000151	Open
+STO00000152	Assign categories...
+STO00000153	Items always moved here ([%])...
+STO00000154	Rename...
+STO00000155	Ignore...
+STO00000156	Make master
+STO00000157	You need [%] caps to pay for the delivery.
+STO00000158	New Delivery
+STO00000159	Send this package to [%] for [%] caps?
+STO00000160	[%] is now a default destination for [%].
+STO00000161	Armor can't be added to this list.
+STO00000162	Non-consumable weapons can't be added to this list.
+STO00000163	This is an activator, it can't be used as storage.
+STO00000164	This container is locked.
+STO00000165	This container is respawning and can't be used as storage.
+STO00000166	You do not own this container, it can't be used as storage.
+STO00000167	New Master Container
+STO00000168	Mark as a master storage for this cell?
