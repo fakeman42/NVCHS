@@ -369,6 +369,7 @@
 		
 		<json path="Data/NVCHSDict/json/Mods/MoreFreesidePassages.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Harder_New_Vegas_Strip_Access.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/Harder_New_Vegas_Strip_Access_chs.txt" src="Data/NVCHSDict/Mods/Harder_New_Vegas_Strip_Access_en.txt" type="2" priority="5"/>
 
 		<json path="Data/NVCHSDict/json/Mods/WWM.json" priority="5" />
 	</replacetext>
