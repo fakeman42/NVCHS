@@ -387,48 +387,48 @@
 		<!-- fontcolor：字型顏色 -->
 		<!-- outlinecolor：邊框顏色 -->
 
-		<font id="default" fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="1" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="default" fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="1" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 1号字体 哔哔小子玩家姓名 笔记 挑战等 行高31 -->
-		<font id="glow_monofonto_large.fnt" fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="1" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="glow_monofonto_large.fnt" fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="1" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 2号字体 哔哔小子UI 行高31 -->
-		<font id="Monofonto_Large.fnt" fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" fontcolor="f0f0f0" outlinecolor="282828" intervaltextchars="-2" intervaltextlines="1" />
+		<font id="Monofonto_Large.fnt" fontname="Microsoft YaHei" size="30" width="0" weight="500" fontcolor="f0f0f0" outlinecolor="282828" intervaltextchars="-2" intervaltextlines="1" />
 			
 			<!-- 3号字体 同伴轮 VUI+使用 行高26 -->
-		<font id="glow_monofonto_medium.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="400" intervaltextchars="-2" intervaltextlines="-4" fontcolor="f0f0f0" outlinecolor="505050"/>
+		<font id="glow_monofonto_medium.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="400" intervaltextchars="-2" intervaltextlines="-4" fontcolor="f0f0f0" outlinecolor="505050"/>
 		
 			<!-- 4号字体 哔哔小子屏幕标题 修理菜单 行高36 -->
-		<font id="monofonto_verylarge02_dialogs2.fnt" fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Medium.ttf" size="36" width="0" weight="700" intervaltextchars="-2"  intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="monofonto_verylarge02_dialogs2.fnt" fontname="Microsoft YaHei" size="36" width="0" weight="700" intervaltextchars="-2"  intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 5号字体 终端 辐射提示 行高25 -->
 		<!-- <font id="fixedsys_comp_uniform_width.fnt"                fontpath="Data/NVCHSFont/OPPOSans-Regular.ttf" size="25" width="0" weight="700" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/> -->
 		
 			<!-- 6号字体 加载界面提示 对话选项 行高34 -->
-		<font id="glow_monofonto_vl_dialogs.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="32" width="0" weight="500" intervaltextchars="-1" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="505050"/>
+		<font id="glow_monofonto_vl_dialogs.fnt"      fontname="Microsoft YaHei" size="32" width="0" weight="500" intervaltextchars="-1" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="505050"/>
 			
 			<!-- 7号字体 主菜单选项 行高36 -->
-		<font id="baked-in_monofonto_large.fnt"           fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Medium.ttf" size="34" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="baked-in_monofonto_large.fnt"           fontname="Microsoft YaHei" size="34" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 8号字体 发现新地点 添加新任务 行高52 -->
-		<font id="glow_futura_caps_large.fnt"          fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Black.ttf" size="52" width="0" weight="700" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="glow_futura_caps_large.fnt"          fontname="Microsoft YaHei" size="52" width="0" weight="700" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 9号字体 未使用 -->
-		<!-- <font id="nvfont_test.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="25" width="0" weight="500" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/> -->
+		<!-- <font id="nvfont_test.fnt"      fontname="Microsoft YaHei" size="25" width="0" weight="500" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/> -->
 		
 			<!-- Stewie Tweaks使用 -->
-		<font id="Monofonto_STn.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="400" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="505050"/>
+		<font id="Monofonto_STn.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="400" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="505050"/>
 		
-		<font id="Baked-in_Monofonto_Large_Notosans.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
-		<font id="DarN_GB_Weilaiyinghei.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
-		<font id="fixedsys_kar.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
-		<font id="GB_FixedsysOrigion_Hei18_low.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
-		<font id="GB_Glow_Monofonto_Medium_Common.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
-		<font id="Glow_Monofonto_Medium_Common_NotoSans.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
-		<font id="karl_gb.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="Baked-in_Monofonto_Large_Notosans.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="DarN_GB_Weilaiyinghei.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="fixedsys_kar.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="GB_FixedsysOrigion_Hei18_low.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="GB_Glow_Monofonto_Medium_Common.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="Glow_Monofonto_Medium_Common_NotoSans.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="karl_gb.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/>
 		
 			<!-- 未知 -->
-		<!-- <font id="glow_futura_caps_large_NotoSans.fnt"      fontpath="Data/NVCHSFont/HarmonyOS_Sans_SC_Regular.ttf" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/> -->
+		<!-- <font id="glow_futura_caps_large_NotoSans.fnt"      fontname="Microsoft YaHei" size="30" width="0" weight="500" intervaltextchars="-2" intervaltextlines="2" fontcolor="f0f0f0" outlinecolor="282828"/> -->
 
 	</fonts>
 
