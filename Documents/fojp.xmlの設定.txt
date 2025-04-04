@@ -1,0 +1,419 @@
+fojp.xmlの設定
+━━━━━━━
+全ての設定は<fojp>～</fojp>の間に記述する必要があります。
+無効な設定は無視されるので適当な設定を書いても問題はありません。
+ただしXML構文が異常な場合は起動時にエラーが表示されます。
+設定を読み込んだ結果はfojp.logに記載されるので、設定が反映されているか確認したい場合はログファイルを読んでください。
+
+
+
+●辞書登録
+<replacetext>～</replacetext>の間に以下の形式で記述する事で、指定した辞書が読み込まれます。
+
+<辞書形式 jp="日本語辞書のパス" en="英語辞書のパス" type="サブ形式" priority="優先度"/>
+
+・設定について
+-type属性とpriority属性は省略可能で、その場合はデフォルト値が使われます。
+-配布されている辞書であれば辞書の説明書に設定が書かれているはずなので、それをそのままfojp.xmlにコピペしてください。
+
+・各属性の意味
+辞書形式: "file"にすると通常の辞書かID辞書、"directory"でディレクトリ型辞書として読み込みます。"xml"で翻訳ソフトのXMLデータベースを読み込みます。
+jp/en: 辞書ファイル・フォルダのパスを記入します。絶対パス・相対パスに対応。慣例としてFo3はFOJPフォルダ、NVはNVJPフォルダがよく使われています。
+type: 1で通常の辞書、2でID付き辞書として読み込みます。ディレクトリ型とXML辞書の場合は記入の必要なし。デフォルト値は1。
+priority: 同一文の辞書データの優先順位を表します。数値が小さい方が優先されます。デフォルト値は10で、-2147483648から2147483647の範囲で指定可能。
+
+・priorityについて
+priorityは理由がなければデフォルト値を推奨します。
+デフォルト優先度の辞書を上書きする目的であればデフォルト値以下(0-9)にしてください。
+逆に他の辞書と被ったら競合敗者にしたい辞書(原文と翻訳文が一致しないトリッキーな辞書とか)はデフォルト値以上にしてください。
+
+・サンプル設定
+-通常辞書
+	<file jp="FOJP/japanese.txt" en="FOJP/english.txt"/>
+-ID辞書
+	<file jp="NVJP/japanese.txt" en="NVJP/english.txt" type="2"/>
+-ディレクトリ辞書
+	<directory jp="NVJP/japanese" en="NVJP/english"/>
+-XML辞書
+	<xml path="NVJP/dictionary.xml"/>
+-ID辞書 優先度付き
+	<file jp="NVJP/japanese.txt" en="NVJP/english.txt" type="2" priority="10"/>
+
+
+
+●フォント設定
+<fonts>～</fonts>の間に以下の形式で登録する事で翻訳文の書体を設定します。
+
+<font id="default" fontname="メイリオ" size="24" width="0" weight="700" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
+
+・設定について
+-全ての属性は省略可能です。省略された設定はデフォルト値になります。
+
+・各属性の説明
+id: fntファイル名を指定します。指定したfntファイルを使用するテキストに対してこの設定が適用されます。デフォルト値は"default__"
+fontname: 使用するフォントを指定します。空欄にすると自動で選ばれます。デフォルト値は空欄。
+size: 文字の高さを指定します。0にすると自動で選ばれます。デフォルト値は16。
+width: (FOJPCF v1.1以降)文字の平均横幅を指定します。0にすると自動で選ばれます。デフォルト値は0。
+weight: 文字の線の太さを0から900の範囲かつ100単位で指定します。反映されるかどうかはフォントによるらしいです。デフォルト値は700。
+intervaltextchars: 文字の左右の余白を増減し、文字の間隔を調整します。デフォルト値は0。
+intervaltextlines: 文字の上下の余白を増減し、行間隔を調整します。デフォルト値は0。
+fontcolor: 文字の色を16進数のRGBで指定します。デフォルト値はf0f0f0。
+outlinecolor: 縁取り線の色を16進数のRGBで指定します。デフォルト値は282828。
+
+・設定について
+-最初に登録された設定は、個別の設定が存在しないfntファイル用のデフォルト設定にもなります。
+-古い設定ファイルにはoutlinesizeという設定が用意されていましたが、これの機能は実装されていません。(能力不足で実装も難しいです)
+
+・各fntファイルについて
+それぞれのfntファイルが使われる場面です。
+フォント名で分類してますが実際にはメニューファイルとFallout.iniの[Fonts]設定で分類されます。
+設定を調整する際はsizeとintervaltextlinesの合計を下記のサイズに合わせると行高が原文と揃います(揃えないといけないわけではありません。特にDarNified UIはかなり小さいから無視していいかも)。
+ただし常に一定というわけではなく、場面によって変化することもあるみたいです(例: monofonto_large.fntはlStewieAl's Tweaksの設定画面だと行高30になる)。
+-バニラ
+glow_monofonto_large.fnt          : 行高30。Pip-Boyのメモ・チャレンジのテキスト、ヘルプのテキスト、待機画面等で使用される。
+monofonto_large.fnt               : 行高34。Pip-BoyのSPECIALやPerk画面のテキスト、アイテム名・効果名・クエスト小目標・ラジオ名、ポップアップメッセージと選択肢等で使用される。細字が特徴。
+glow_monofonto_medium.fnt         : 行高31。コンパニオンホイールで使用される。日本語化メニュー導入後はターミナルとキャラクリエイト画面でも。
+monofonto_verylarge02_dialogs2.fnt: 行高35。アイテム修理画面の数値で使用される。
+glow_futura_caps_large.fnt        : 無視対象。ターミナル、キャラクリエイト画面等で使用される。ただし日本語化メニュー導入後はハッキング画面を除いてglow_monofonto_medium.fntに置き換わる。
+glow_monofonto_vl_dialogs.fnt     : 行高37。ローディング画面のメッセージ、ポップアップのタイトル、NPCとの会話等で使用される。
+baked-in_monofonto_large.fnt      : 行高37。タイトルメニューの各項目、NPC名、アクションプロンプト、画面左上の通知メッセージ、画面に浮かび上がるクエスト小目標等で使用される。
+fixedsys_comp_uniform_width.fnt   : 無視対象。ロケーション発見時やクエスト開始時・完了時に浮かび上がる地名とクエスト名、XP獲得時や放射能に晒された時の数値等で使用される。
+nvfont_test.fnt                   : 使用されていない？
+-DarNified UI TTW
+DarN_FranKleinBold_14.fnt  : 行高24。Pip-BoyのSPECIALやPerk画面のテキスト、メモ・チャレンジのテキスト、アイテム名・アイテム効果、ポップアップメッセージ
+DarN_FranKleinBold_16.fnt  : 行高26。Pip-Boyのクエスト名・クエスト小目標、アイテム修理画面のアイテム名
+DarN_Sui_Generis_Otl_10.fnt: 行高13。ステータス名、アクションプロンプト、画面左上の通知メッセージ、ステータスHUD
+DarN_Sui_Generis_Otl_13.fnt: 行高22。セーブ・ロード画面、ローディング画面のメッセージ、ポップアップメッセージの選択肢、アクションを行う対象の名前、NPCとの会話、Pip-Boyのメニュー名、画面に浮かび上がるクエスト小目標
+DarN_Libel_Suit_Otl_24.fnt : 行高34。タイトルメニュー、会話画面でのNPC名、細かい部分いろいろ。縁がくっきりしてる。
+-Vanilla UI Plus
+基本的にバニラと同じですが、各fntが使用される場面が少し変化します。
+例えばNPCとの会話はbaked-in_monofonto_large.fntになります。
+
+
+
+●描画テキストのフィルター設定
+<drawtextfilters>～</drawtextfilters>の間に以下の形式で登録する事で、指定された文字列を指定した文字列で書き換えます。
+
+<replace source="書き換え対象の文字列" destination="書き換える文字列"/>
+
+・設定について
+-AllTextReplaceの設定が1の場合、翻訳できなかった文字列も置き換えられます。
+-全てのテキストを逐一精査するので、あまり登録数が多いと重くなるかも。
+
+・サンプル設定
+	<replace source="大丈夫だ、問題無い" destination="一番良いのを頼む"/>
+
+
+
+●パッド設定
+<xinput>～</xinput>の間に以下の形式で登録する事で、指定したXboxコントローラーのボタンを押すとキーボードを入力したことになります。
+
+<bindkey button="XBOXのキーコード" key="キーボードのキーコード"/>
+
+・設定について
+-数値は16新数で入力してください。キーコードはこのテキストの下段に書いてあります。
+-XBOXのキーは数値を足すことで同時入力判定になります。
+-この機能はMODのキー割り当てでしか動作しません。Xboxコントローラーとキーボードを同時に使いたいのであればlStewieAl's Tweaksを使ってください。
+
+・サンプル設定
+-Aボタン(1000)を右Ctrl(9D)に割り当て
+	<bindkey button="1000" key="9D"/>
+-十字キー左上(4+1)を左Shift(2A)に割り当て
+	<bindkey button="5" key="2A"/>
+-A(1000)+LB(100)をテンキー0(52)に割り当て
+	<bindkey button="1100" key="52"/>
+
+
+
+●その他の設定
+<fojp>～</fojp>の間で、かつ他の設定の範囲内でなければ何処に書いても大丈夫です。
+
+・キー割り当て設定
+キーコードはこのテキストの下段を参照。16進数で入力します。0にすると無効。
+
+<config id="ConsoleKey" value="3E"/>
+コンソールを表示するキー。初期設定はF4キー。
+
+<config id="EnableTranslationKey" value="57"/>
+翻訳機能のON/OFFを切り替えるキー。初期設定はF11キー。
+あくまでも表示する文字列をオリジナルの物に戻すだけなので、内部では翻訳処理を続行します。
+
+<config id="TranslationLoggingKey" value="58"/>
+画面に表示されているテキストをfojp.logへ出力する。初期設定はF12キー。
+これで出力された英文はFOJP辞書にそのまま使用できます。
+
+<config id="FPSManagementKey" value="0"/>
+FPS管理機能のON/OFFを切り替えるキー。初期設定は無効。
+
+<config id="ReloadingFontKey" value="0"/>
+(FOJPCF v1.4以降)
+fojp.xmlのフォント設定を再読み込みするキー。初期設定は無効。
+新しい設定は内部でテキストが新たに作成されてから適用されるので、場合によってはいつまでも反映されない事もあります。
+例としてPip-boyのステータス類のフォントは再読み込みしたところでゲームを再起動するまで変更が反映されません。
+
+
+・FPS管理機能設定
+<config id="FPSManagement" value="0"/>
+FPSに上限を設けるかどうか。1で有効、0で無効。
+FOSRから引用した機能らしいです。
+
+<config id="FPSMaximum" value="60"/>
+FPS上限を数値で指定する。
+実は下限設定も用意されてるけど機能してないっぽい？
+
+
+・翻訳設定
+<config id="AllTextReplace" value="1"/>
+翻訳できなかったテキストもFOJPで描写する。1で有効、0で無効。
+
+<config id="LineAdjuster" value="2"/>
+翻訳文全体の縦位置を調整する。正の値で下がり、負の値で上がる。
+バニラのフォントを使用する時は0に、DarNified UIを使用する時は2にするといい感じになります。(FOJPCF v1.4.0以降の場合)
+どちらも使う場合は1か2がいいかも。
+
+<config id="CharacterSet" value="128"/>
+(FOJPCF v1.1以降)
+翻訳で使用する言語を指定する。数値は以下から。
+https://docs.microsoft.com/en-us/previous-versions/windows/desktop/bb322881(v=vs.85)
+
+<config id="CorrectDictionaryText" value="1"/>
+(FOJPCF v1.3以降)
+読み込んだ辞書に何らかの不備があれば内部で補正する。1で有効、0で無効。
+
+<config id="FixXboxIconIssue" value="0"/> 
+(FOJPCF v1.3以降)
+Xboxコントローラーのアイコンが含まれるテキストを翻訳できるようにする。1で有効、0で無効。
+有効にするとクラッシュする可能性があるので注意。
+また翻訳に成功してもうまく描写できないことが多いです。使用の際はリスクを承知の上でお願いします。
+
+<config id="AlwaysLoggingText" value="0"/>
+(FOJPCF v1.1以降)
+翻訳エンジンへ渡されたテキストを常にfojp.logへ出力する。1で有効、0で無効。
+出力したテキストはFOJP内部の形式なので、コピペすればそのまま英語辞書に使えます。
+正規表現の影響を受けるテキストであれば、整形された状態のテキストも同時に出力します。
+
+
+・d3d9.dllモード設定
+<config id="ProxyLibraryPath" value=""/>
+(FOJPCF v1.1以降)
+指定したDLLを読み込む。valueにはファイルパスを指定。
+FOSE/NVSEモードでは機能しません。d3d9.dllモードでENBやReShadeなどを使う際に必要となります。
+ENBのProxyLibraryと同様の機能。
+
+<config id="LoadDLLAsD3D9" value="1"/>
+(FOJPCF v1.2以降)
+ProxyLibraryで指定したDLLへグラフィック処理を委譲するかどうか選択する。1で有効、0で無効。
+0の場合、ProxyLibraryで指定したDLLには読み込む以上の事をしません。ReShadeのようにd3d9.dllのインターフェイスを持たず、読み込まれた時点で処理を開始するDLLで必要になります。グラフィック機能の有無は問いません。
+ENBのInitProxyFunctionsと同様の機能。
+
+
+・その他の設定
+<config id="ForceDirect3D9" value="0"/>
+Direct3D9Exを使わないようにする。1で有効、0で無効。
+効果はわかりません。NVTFなしでDirect3D9Exが使われる場面に遭遇したことがないのでバニラでは意味がないかも。
+
+<config id="ApplyMemoryPatch" value="1"/>
+(FOJPCF v1.1以降)
+VRAMのテクスチャがメインメモリへコピーされるのを防ぎ、メモリ消費を抑制する。1で有効、0で無効。
+New Vegas Reloadedから引用した機能です。ENBoostと同様にMODを導入した環境でのCTDを軽減します。
+New Vegas Reloaded・Out Of Memory Fix・lStewieAl's Tweaks(FO3)には同様の機能がありますが、仕組みは同じなので重複しても問題ありません。NVTF・ENBoostも重複して大丈夫だと思います。
+ちなみにテクスチャがメインメモリへコピーされるのには一応理由がありますが、Fallout 3/NVでは役に立ってないっぽいので気にしなくても大丈夫かと。
+
+この機能が対応する対応するFalloutのバージョンは以下の通り。対応しない場合は何もしません。4GBパッチの有無は問いません。
+-Fallout3.exe バージョン1.7.0.3
+-Fallout3.exe バージョン1.7.0.4
+-FalloutNV.exe バージョン1.4.0.525
+
+
+
+●プリキャッシュ
+<config id="TexturePrecache">
+(FOJPCF v1.2以降)
+ここに書かれた文字のテクスチャをゲーム起動時に作成します。
+ここに書かれていない文字のテクスチャは必要になり次第作成されます。
+言語セットを変える際は書き換えておくと描写がスムーズになります。
+
+
+
+●解析対象外フォント
+<analyze>～</analyze>の間にfntファイル名を登録する事で、指定したfntを使用するテキストは翻訳処理が一切行われなくなります。
+FOJPが正しく処理できないテキストを回避するために使用します。
+デフォルト設定ではハッキング画面と、ロケーション発見時等に画面に浮かび上がるテキストで使われるfntが指定されています。
+
+
+
+●正規表現によるテキスト整形
+ゲーム内テキストを翻訳処理にかける前に、記載された正規表現設定に従って整形します。
+キャプチャで指定した範囲が除去・分離されます。
+スピーチチャレンジやアイテムの個数など、ゲームシステムによって加えられるテキストを翻訳処理から分離するための設定です。
+全てのテキストに影響するので、個別に辞書データを作るのでは対応できない場合にのみ編集してください。
+
+TrimPrefixRegularExpressions: テキスト先頭の該当箇所を削除する。
+TrimSuffixRegularExpressions: テキスト末尾の該当箇所を削除する。
+BypassPrefixRegularExpressions: テキスト先頭の該当箇所をいったん分離し、翻訳後に結合する。
+BypassSuffixRegularExpressions: テキスト末尾の該当箇所をいったん分離し、翻訳後に結合する。
+
+
+
+●Xboxコントローラーのキーコード表
+DPAD_UP         1    // 十字キー上
+DPAD_DOWN       2    // 十字キー下
+DPAD_LEFT       4    // 十字キー左
+DPAD_RIGHT      8    // 十字キー右
+START           10   // スタートボタン
+BACK            20   // バックボタン
+LEFT_THUMB      40   // 左スティック押し込み
+RIGHT_THUMB     80   // 右スティック押し込み
+LEFT_SHOULDER   100  // LB
+RIGHT_SHOULDER  200  // RB
+A               1000
+B               2000
+X               4000
+Y               8000
+
+
+●キーボードのキーコード表
+ESCAPE          01 // Esc
+1               02
+2               03
+3               04
+4               05
+5               06
+6               07
+7               08
+8               09
+9               0A
+0               0B
+MINUS           0C // -
+EQUALS          0D // =
+BACK            0E // BackSpace
+TAB             0F
+Q               10
+W               11
+E               12
+R               13
+T               14
+Y               15
+U               16
+I               17
+O               18
+P               19
+LBRACKET        1A // [
+RBRACKET        1B // ]
+RETURN          1C // Enter
+LCONTROL        1D // 左Ctrl
+A               1E
+S               1F
+D               20
+F               21
+G               22
+H               23
+J               24
+K               25
+L               26
+SEMICOLON       27 // ;
+APOSTROPHE      28
+GRAVE           29
+LSHIFT          2A // 左Shift
+BACKSLASH       2B // \
+Z               2C
+X               2D
+C               2E
+V               2F
+B               30
+N               31
+M               32
+COMMA           33 // ,
+PERIOD          34 // .
+SLASH           35 // /
+RSHIFT          36 // 右Shift
+MULTIPLY        37 // テンキーの*
+LMENU           38 // 左Alt
+SPACE           39 // スペースバー
+CAPITAL         3A // CapsLock
+F1              3B
+F2              3C
+F3              3D
+F4              3E
+F5              3F
+F6              40
+F7              41
+F8              42
+F9              43
+F10             44
+NUMLOCK         45 // NumLock
+SCROLL          46 // ScrollLock
+NUMPAD7         47 // テンキーの7
+NUMPAD8         48 // テンキーの8
+NUMPAD9         49 // テンキーの9
+SUBTRACT        4A // テンキーの-
+NUMPAD4         4B // テンキーの4
+NUMPAD5         4C // テンキーの5
+NUMPAD6         4D // テンキーの6
+ADD             4E // テンキーの+
+NUMPAD1         4F // テンキーの1
+NUMPAD2         50 // テンキーの2
+NUMPAD3         51 // テンキーの2
+NUMPAD0         52 // テンキーの0
+DECIMAL         53 // テンキーの.
+OEM_102         56
+F11             57
+F12             58
+F13             64
+F14             65
+F15             66
+KANA            70 // カナ
+ABNT_C1         73
+CONVERT         79 // 変換
+NOCONVERT       7B // 無変換
+YEN             7D
+ABNT_C2         7E
+NUMPADEQUALS    8D
+PREVTRACK       90
+AT              91
+COLON           92 // :
+UNDERLINE       93
+KANJI           94
+STOP            95
+AX              96
+UNLABELED       97
+NEXTTRACK       99
+NUMPADENTER     9C // テンキーのEnter
+RCONTROL        9D // 右Ctrl
+MUTE            A0
+CALCULATOR      A1
+PLAYPAUSE       A2
+MEDIASTOP       A4
+VOLUMEDOWN      AE
+VOLUMEUP        B0
+WEBHOME         B2
+NUMPADCOMMA     B3
+DIVIDE          B5 // テンキーの/
+SYSRQ           B7
+RMENU           B8 // 右Alt
+PAUSE           C5
+HOME            C7
+UP              C8 // 矢印キー
+PRIOR           C9 // Page Up
+LEFT            CB // 矢印キー
+RIGHT           CD // 矢印キー
+END             CF
+DOWN            D0 // 矢印キー
+NEXT            D1 // Page Down
+INSERT          D2
+DELETE          D3
+LWIN            DB
+RWIN            DC
+APPS            DD
+POWER           DE
+SLEEP           DF
+WAKE            E3
+WEBSEARCH       E5
+WEBFAVORITES    E6
+WEBREFRESH      E7
+WEBSTOP         E8
+WEBFORWARD      E9
+WEBBACK         EA
+MYCOMPUTER      EB
+MAIL            EC
+MEDIASELECT     ED

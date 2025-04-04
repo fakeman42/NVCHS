@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FOJPCF version 1.4.0 -->
+<fojp>
+	<replacetext>
+		<!-- 使用するFOJP辞書をここに登録する -->
+		<!-- flie/directory/xml: 辞書の種類。fileはテキストファイル型辞書、directoryはディレクトリ型辞書、xmlは翻訳ソフトのデータベース -->
+		<!-- jp: 翻訳辞書の場所 / en: 原文辞書の場所 / path: xmlの場所 -->
+		<!-- type: 1で通常のFOJP辞書、 2でID付きFOJP辞書。省略すると1になる。辞書の種類にdirectoryかxmlを指定した場合は必要なし -->
+		<!-- priority: 辞書の優先度。数値が低いほど優先度が高い。省略すると10になる -->
+
+	</replacetext>
+
+	<fonts>
+		<!-- フォント設定 -->
+		<!-- id: 設定を適用するfntファイルの名前 -->
+		<!-- fontname: フォント名 -->
+		<!-- size: 文字の縦幅  -->
+		<!-- width: 文字の平均横幅 -->
+		<!-- weight: 線の太さ -->
+		<!-- intervaltextchars: 文字の間隔 -->
+		<!-- intervaltextlines: 行の間隔 -->
+		<!-- fontcolor: 文字の色 -->
+		<!-- outlinecolor: 縁の色 -->
+
+		<comment> 最初に登録した設定はデフォルト設定として使われます </comment>
+		<font id="default" fontname="メイリオ" size="24" width="0" weight="700" intervaltextchars="-2" intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
+
+		<comment> idにfntファイル名を指定するとフォントごとに設定を変更できます </comment>
+		<comment> バニラ用設定 </comment>
+		<font id="glow_monofonto_large.fnt"           fontname="ＭＳ ゴシック" size="26" width="0" weight="700" intervaltextchars="-2" intervaltextlines="4" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="monofonto_large.fnt"                fontname="ＭＳ ゴシック" size="25" width="0" weight="500" intervaltextchars="-2" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="glow_monofonto_medium.fnt"          fontname="ＭＳ ゴシック" size="22" width="0" weight="700" intervaltextchars="-3" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="monofonto_verylarge02_dialogs2.fnt" fontname="ＭＳ ゴシック" size="35" width="0" weight="700" intervaltextchars="0"  intervaltextlines="0" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="glow_monofonto_vl_dialogs.fnt"      fontname="ＭＳ ゴシック" size="28" width="0" weight="700" intervaltextchars="-1" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="505050"/>
+		<font id="baked-in_monofonto_large.fnt"       fontname="ＭＳ ゴシック" size="28" width="0" weight="700" intervaltextchars="-3" intervaltextlines="9" fontcolor="f0f0f0" outlinecolor="282828"/>
+
+		<comment> DarNified UI TTW用設定 </comment>
+		<font id="DarN_FranKleinBold_14.fnt"   fontname="メイリオ" size="26" width="0" weight="600" intervaltextchars="-1" intervaltextlines="-2" fontcolor="ffffff" outlinecolor="505050"/>
+		<font id="DarN_FranKleinBold_16.fnt"   fontname="メイリオ" size="27" width="0" weight="600" intervaltextchars="0"  intervaltextlines="-1" fontcolor="f0f0f0" outlinecolor="505050"/>
+		<font id="DarN_Sui_Generis_Otl_10.fnt" fontname="メイリオ" size="21" width="0" weight="700" intervaltextchars="-1" intervaltextlines="-8" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="DarN_Sui_Generis_Otl_13.fnt" fontname="メイリオ" size="27" width="0" weight="700" intervaltextchars="-1" intervaltextlines="-5" fontcolor="f0f0f0" outlinecolor="282828"/>
+		<font id="DarN_Libel_Suit_Otl_24.fnt"  fontname="メイリオ" size="34" width="0" weight="700" intervaltextchars="-1" intervaltextlines="0"  fontcolor="f0f0f0" outlinecolor="000000"/>
+	</fonts>
+
+	<drawtextfilters>
+		<!-- 描画テキストのフィルター -->
+		<!-- sourceに登録した文字列がゲーム中で表示されると、destinationに登録した文字列で書き換える -->
+		<!-- AllTextReplaceの設定が1の場合、翻訳できなかった文字列にも適用されます -->
+		<!-- 設定サンプル <replace source="大丈夫だ、問題無い" destination="一番良いのを頼む"/> -->
+
+		<replace source=" - Level "         destination=" - レベル "/>
+		<replace source="DAM + "            destination="威力 + "/>
+		<replace source="DAM - "            destination="威力 - "/>
+		<replace source="DAM x "            destination="威力 x "/>
+		<replace source="Target DT + "      destination="対象のDT + "/>
+		<replace source="Target DT - "      destination="対象のDT - "/>
+		<replace source="Target DT x "      destination="対象のDT x "/>
+		<replace source="Target DR + "      destination="対象のDR + "/>
+		<replace source="Target DR - "      destination="対象のDR - "/>
+		<replace source="Target DR x "      destination="対象のDR x "/>
+		<replace source="Target Fatigue + " destination="対象の疲労 + "/>
+		<replace source="Target Fatigue - " destination="対象の疲労 - "/>
+		<replace source="Target Fatigue x " destination="対象の疲労 x "/>
+		<replace source="Gun Spread + "     destination="銃の拡散率 + "/>
+		<replace source="Gun Spread - "     destination="銃の拡散率 - "/>
+		<replace source="Gun Spread x "     destination="銃の拡散率 x "/>
+		<replace source="Gun CND + "        destination="銃の劣化率 + "/>
+		<replace source="Gun CND - "        destination="銃の劣化率 - "/>
+		<replace source="Gun CND x "        destination="銃の劣化率 x "/>
+	</drawtextfilters>
+
+	<xinput>
+		<!-- XBoxコントローラー キー設定 -->
+		<!-- パッドのボタンをMODのキー設定で割り当てられるようにする。スティック・トリガー非対応 -->
+		<!-- button : 割り当てたいパッドのボタン(複数同時指定可) / key : 割り当てたいキー -->
+		<!-- 設定サンプル <bindkey button="1000" key="9D"/> Aボタン(1000)を右Ctrl(9D)に割り当て -->
+
+	</xinput>
+
+	<!-- キー設定 -->
+	<config id="ConsoleKey" value="3E"/>            <!-- コンソールを表示するキー 初期設定はF4 -->
+	<config id="EnableTranslationKey" value="57"/>  <!-- 翻訳のON/OFFを切り替えるキー 初期設定はF11 -->
+	<config id="TranslationLoggingKey" value="58"/> <!-- 画面に表示されているテキストをログへ出力する 初期設定はF12 -->
+	<config id="FPSManagementKey" value="0"/>       <!-- FPS管理機能のON/OFFを切り替えるキー 初期設定は無効 -->
+	<config id="ReloadingFontKey" value="0"/>       <!-- フォント設定を再読み込みするキー 初期設定は無効 -->
+
+	<!-- 翻訳設定 -->
+	<config id="AllTextReplace" value="1"/>	       <!-- 1: 全てのテキストをFOJPが描画する / 0: 翻訳に成功したテキストのみFOJPで描画する -->
+	<config id="LineAdjuster" value="2"/>          <!-- テキストの縦位置を調整する。正の値で下、負の値で上 -->
+	<config id="CharacterSet" value="128"/>        <!-- 使用する言語セット。128 for Japanese, 129 for Korean -->
+	<config id="CorrectDictionaryText" value="1"/> <!-- 1: 辞書になんらかの問題があれば内部で補正する / 0: 何もしない -->
+	<config id="FixXboxIconIssue" value="0"/>      <!-- 1: Xboxコントローラーのアイコンがテキストに含まれると翻訳できなくなる問題を修正する。クラッシュする可能性あり。対応する辞書が必要 / 0: 何もしない -->
+	<config id="AlwaysLoggingText" value="0"/>     <!-- 1: 翻訳エンジンに渡されたテキストを全てfojp.logへ出力する。少し重い / 0:何もしない -->
+
+	<!-- FPS管理機能 -->
+	<config id="FPSManagement" value="0"/> <!-- 1: FPS制限を有効にする / 0: 無効にする -->
+	<config id="FPSMaximum" value="60"/>   <!-- FPS上限 -->
+
+	<!-- d3d9.dllモード設定 -->
+	<config id="ProxyLibraryPath" value=""/> <!-- FOJPに読み込ませるDLLの名前を指定する。d3d9.dllモードでのみ有効 ENBのProxyLibraryと同様の機能 -->
+	<config id="LoadDLLAsD3D9" value="1"/>   <!-- 1: ProxyLibraryで指定したDLLへグラフィック処理を委譲する / 0: DLLを読み込む以上のことはしない ENBのInitProxyFunctionsと同様の機能 -->
+
+	<!-- その他の設定 -->
+	<config id="ForceDirect3D9" value="0"/>   <!-- 1: FalloutNewVegasでのガクガク現象を回避 / 0: 何もしない ※NewVegas用の設定※ -->
+	<config id="ApplyMemoryPatch" value="1"/> <!-- 1: テクスチャがVRAMからメインメモリへミラーリングされるのを防ぎ、メモリの消費を抑制する / 0: 何もしない -->
+
+	<!-- あらかじめテクスチャを作成しておく文字 -->
+	<config id="TexturePrecache">
+		<![CDATA[あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉヵゃゅょっアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォヵャュョッ０１２３４５６７８９＋－＊／、。，．！”＃＄％＆’（）～ー＝＾￥｜＿？＠｀・･…「」ﾞﾟ　 `1234567890 -=\\!@#$%^&*()_+|qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM[];',./{}:\"<>?]]>
+	</config>
+
+<!-- これより下段の設定は翻訳に大きな影響を与えるので注意してください -->
+
+	<analyze>
+		<!-- 翻訳対象外フォント -->
+		<ignore file="glow_futura_caps_large.fnt"/>
+		<ignore file="fixedsys_comp_uniform_width.fnt"/>
+	</analyze>
+
+	<!-- 正規表現による文字列の整形 -->
+	<config id="TrimPrefixRegularExpressions">
+		<![CDATA[^(<GID[0-9]+> *|<FOJP [^>\t]+> *| +)]]>
+	</config>
+	<config id="TrimSuffixRegularExpressions">
+		<![CDATA[( +)$]]>
+	</config>
+	<config id="BypassPrefixRegularExpressions">
+		<![CDATA[^(> |\[[^\]]+\] *|Req: .*Ranks: [0-9]+)]]>
+	</config>
+	<config id="BypassSuffixRegularExpressions">
+		<![CDATA[(( \((, |AF|EC|LS|SC|SI)+\))?\+?( \([0-9/]+\))?)$]]>
+	</config>
+</fojp>
