@@ -1,2834 +1,2126 @@
 [
- {
-  "id": 629452396,
-  "key": "1ENeonSignFactory_000FCCA2#CELL:FULL#cfa1006ff968951357ba7ae3ecc85a4d",
-  "original": "Zapp's Neon Signs",
-  "translation": "扎普的霓虹灯厂",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452377,
-  "key": "1ESteelMill_000FF6B1#CELL:FULL#ce1b0fa8a8fb76d20c78be12ec7cb328",
-  "original": "New Vegas Steel",
-  "translation": "新维加斯钢厂",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452380,
-  "key": "2CCampGolfResort_0010067A#CELL:FULL#c72e48dc50ccc86ad6e1966094d0f29d",
-  "original": "House Resort",
-  "translation": "豪斯度假庄园",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452357,
-  "key": "2ETopsPresidentialSuite_0010E19B#CELL:FULL#8715aa53b90d940b9c7d2383d74f6882",
-  "original": "The Tops Presidential Suite",
-  "translation": "九重天总统套房",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452401,
-  "key": "3CBoatRentals_00134580#CELL:FULL#08c3769e7281b739b52fe46e0792fa8e",
-  "original": "Captain Dean Boat Rentals",
-  "translation": "迪安船长的小艇租借室",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452350,
-  "key": "4BRRCArmory_0013F07E#CELL:FULL#fc567e227d253d370353cd98f96cbe75",
-  "original": "Great Khan Armory",
-  "translation": "大汗帮军火库",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452132,
-  "key": "AMmcgQuickdrawSpell_0605D775#SPEL:FULL#56cfa25fc696779446a3cbfa72002861",
-  "original": "Swap",
-  "translation": "切换",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452443,
-  "key": "AMmcgQuickdraw_0605D772#PERK:DESC#352e6f3d5e8145041437d94505890acc",
-  "original": "Swap to underbarrel launcher fast",
-  "translation": "快速切换到下悬式附挂套件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452442,
-  "key": "AMmcgQuickdraw_0605D772#PERK:FULL#d3193c2ec93167ca9ac9343de3508956",
-  "original": "Underbarrel Swap Another Milenia",
-  "translation": "切换Another Milenia下悬式附挂套件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452313,
-  "key": "AMsigM4A1KittyEquipped_0607808F#WEAP:FULL#49d955562ccd180eb634f7544d79c347",
-  "original": "Hello Kitty",
-  "translation": "凯蒂猫",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452314,
-  "key": "AMsigM4A1KittyLauncher_06078090#WEAP:FULL#af89d00c85f0d09c6b5c9d73a5ac1b4b",
-  "original": "Hello Kitty(Launcher)",
-  "translation": "凯蒂猫(发射器)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452312,
-  "key": "AMsigM4A1Kitty_0607808E#WEAP:FULL#49d955562ccd180eb634f7544d79c347",
-  "original": "Hello Kitty",
-  "translation": "凯蒂猫",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452269,
-  "key": "AMsigM4A1M203Equipped_0605D778#WEAP:FULL#99984be7de6d63d9fff113b8b81b7a21",
-  "original": "NoobTube",
-  "translation": "菜鸡管",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452267,
-  "key": "AMsigM4A1M203Launcher_0605D76D#WEAP:FULL#4e72cd67843fb7b1608675fa3c0ef5f2",
-  "original": "Noobtube(Launcher)",
-  "translation": "菜鸡管(发射器)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452268,
-  "key": "AMsigM4A1M203_0605D776#WEAP:FULL#333fcb45f6198864fcf5ccd5dabeb821",
-  "original": "Noobtube",
-  "translation": "菜鸡管",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452270,
-  "key": "AMsigTheCommandoEquipped_0605D77A#WEAP:FULL#d09439edf8a57e6d3e6798cc47adda1c",
-  "original": "The Commando",
-  "translation": "敢死队",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452272,
-  "key": "AMsigTheCommandoLauncher_0605D77C#WEAP:FULL#a81be2f8b88841e3303fced19f63b967",
-  "original": "The Commando(Launcher)",
-  "translation": "敢死队(发射器)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452271,
-  "key": "AMsigTheCommando_0605D77B#WEAP:FULL#d09439edf8a57e6d3e6798cc47adda1c",
-  "original": "The Commando",
-  "translation": "敢死队",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452338,
-  "key": "ArcAmmoRPG7Shovel_06074ABC#AMMO:FULL#8bb15d97b8acf78bb19ed2d17d7eb6f2",
-  "original": "Shovel Round",
-  "translation": "铲弹",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452339,
-  "key": "ArcAmmoRPG7Shovel_06074ABC#AMMO:ONAM#7e7f78a9aa639cc67869e7dec2365f29",
-  "original": "Shovel",
-  "translation": "铲子",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452345,
-  "key": "ArcRPG7Projectile_06074ABA#PROJ:FULL#fd9554dbafd81e95dab77fa4f061fdd9",
-  "original": "Rocket",
-  "translation": "动力火箭",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452466,
-  "key": "ArcRecipeShovelAmmoKnifeSpear_06074AC5#RCPE:FULL#5bd97889ed67b18b45c36a12e10c7722",
-  "original": "Knife Spear to Shovel Ammo",
-  "translation": "餐刀长矛到铲弹",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452463,
-  "key": "ArcRecipeShovelAmmoThrowingKnifeSpear_06074AC6#RCPE:FULL#18a446d274fda979dd7fd9ea30393029",
-  "original": "Throwing Knife Spear to Shovel Ammo",
-  "translation": "投掷刀矛到铲弹",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452464,
-  "key": "ArcRecipeShovelAmmoThrowingSpear_06074ACD#RCPE:FULL#9cc3432073fb30f107f072f2e38bc400",
-  "original": "Throwing Spear to Shovel Ammo",
-  "translation": "投矛到铲弹",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452465,
-  "key": "ArcRecipeShovelAmmo_06074ABF#RCPE:FULL#bbe60e2f360c682fa5e5f0a28d0f21a5",
-  "original": "Shovel to Shovel Ammo",
-  "translation": "铲子到铲弹",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452341,
-  "key": "ArcVRRCGreatKhanAAF_0606FC87#NPC_:FULL#d4c9c1318f664eff3da441c72cdbed90",
-  "original": "Jives",
-  "translation": "左文慈",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452342,
-  "key": "ArcVViperGangLeaderMale_0606FC89#NPC_:FULL#ee213889552cfdc8cbc85976b19dfe67",
-  "original": "Slither",
-  "translation": "斯莱特",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452372,
-  "key": "BCKhanHideout_001716CA#CELL:FULL#15271e857ad2895c088ab84791755f18",
-  "original": "Great Khan Hideout",
-  "translation": "大汗帮藏身处",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452407,
-  "key": "CampForlornHope05_00121481#CELL:FULL#517b208057a247154587d8ea0bf8bede",
-  "original": "Camp Forlorn Hope Storage Shed",
-  "translation": "飘零希望营地军资棚",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452421,
-  "key": "CampGuardianCaves_0013DD63#CELL:FULL#e2c4045a87b84fd4cc71eec53e566b94",
-  "original": "Camp Guardian Caves",
-  "translation": "守卫者营地山洞",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452361,
-  "key": "CampMCTermInt02_000F4025#CELL:FULL#7238691dd9643099049e188b23aaf9ac",
-  "original": "Camp McCarran Terminal Building",
-  "translation": "麦卡伦营地候机楼",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452390,
-  "key": "CampMCTermInt04_000F47B3#CELL:FULL#85d22757a7fa0914e20e0ac133bffbe8",
-  "original": "Camp McCarran Supply Shack",
-  "translation": "麦卡伦营地物资棚",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452417,
-  "key": "CampSearchlightHiddenCave_00146607#CELL:FULL#613f57230ee701149dc34a8dc5dd9941",
-  "original": "Hidden Supply Cave",
-  "translation": "隐蔽补给洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452383,
-  "key": "CampSearchlightPoliceStation_0013F41A#CELL:FULL#1d979adb4756629e897da123b27399f3",
-  "original": "Searchlight Police Station",
-  "translation": "探照灯营地警察局",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452356,
-  "key": "CannibalJohnsonCave_0010108B#CELL:FULL#c21baa9791e26025d11b8564460c25e9",
-  "original": "Cannibal Johnson's Cave",
-  "translation": "食人者约翰逊的洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452366,
-  "key": "CottonwoodCoveStorage_00133E38#CELL:FULL#461cb1c6d027907a1476c12aa6434ae4",
-  "original": "Cottonwood Cove Storage",
-  "translation": "棉白杨湾库房",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452370,
-  "key": "FreesideMickandRalphs_0010E02A#CELL:FULL#b44f42b470633fd9b2c60f24da437524",
-  "original": "Mick & Ralph's",
-  "translation": "米克和拉尔夫杂货店",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452362,
-  "key": "FreesideSilverRush_0010E029#CELL:FULL#9334cdd226c879f552cb3c8a3a9b0972",
-  "original": "Silver Rush",
-  "translation": "银色冲击",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452359,
-  "key": "GSDocMitchellHouse_00103DF9#CELL:FULL#7c4aeaa9b0a86a5fff4317369e22503a",
-  "original": "Doc Mitchell's House",
-  "translation": "米切尔医生的宅邸",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452375,
-  "key": "Gomorrah01_0010CC8F#CELL:FULL#93d637b613d378aad6ce4b69eeb890ee",
-  "original": "Gomorrah Main Level",
-  "translation": "蛾摩拉主层",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452393,
-  "key": "GunRunnerHQInterior_000ECDE8#CELL:FULL#5b9f77400c709f6274a4b654b6b7b1d3",
-  "original": "Gun Runner Headquarters",
-  "translation": "军火贩子总部",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452404,
-  "key": "GypsumAbandonedBuilding_0012B7FB#CELL:FULL#3c6f2f770b508252e0383afb33948426",
-  "original": "Gypsum Quarry Office",
-  "translation": "石膏采掘场办公室",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452384,
-  "key": "HiddenValley02_000D7505#CELL:FULL#f939b90ee80cd5231fb940b49b9cbe12",
-  "original": "Hidden Valley Bunker L2",
-  "translation": "隐谷地堡二层",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452367,
-  "key": "HiddenValleyBunker4_000E508A#CELL:FULL#7ad20178ae9698236dd5ffb5dd1ecef4",
-  "original": "Hidden Valley Bunker",
-  "translation": "隐谷地堡",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452348,
-  "key": "HooverDamIntPowerPlant01b_00175D68#CELL:FULL#2525d411d2b76b87b788c6171dce91d4",
-  "original": "Hoover Dam Offices",
-  "translation": "胡佛大坝办公区",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452403,
-  "key": "IsaacHouseInterior_000F461A#CELL:FULL#bf5ba2505a7d5aea0f723ff909e705d9",
-  "original": "Isaac's House",
-  "translation": "艾萨克的房子",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452385,
-  "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
-  "original": "Jacobstown Lodge",
-  "translation": "雅各布斯镇旅社",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452376,
-  "key": "JacobstownNightstalkerCave_0013D7E5#CELL:FULL#6466dc65d5f3d3342a58f83e08fcd825",
-  "original": "Charleston Cave",
-  "translation": "查尔斯顿山洞",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452373,
-  "key": "LakeMeadCaveINT_0010C482#CELL:FULL#421c68264e6f346a607e6b681a169117",
-  "original": "Lake Mead Cave",
-  "translation": "米德湖山洞",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452406,
-  "key": "Lucky38ControlRoom_0010F23B#CELL:FULL#446c41d54530822bcd991cfbae845e45",
-  "original": "Lucky 38 Control Room",
-  "translation": "幸运38控制室",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452127,
-  "key": "MP7LaunhcerBaseEffect_060714F4#MGEF:FULL#0e22005973d59e56beb0a0100e28764d",
-  "original": "Underbarrel 25mm Grenade Launcher (Default Button is B)",
-  "translation": "25毫米枪管下榴弹发射器(默认按键为B)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452133,
-  "key": "MasamuneACTI_0606379B#ACTI:FULL#4e26b84498278baf12c39c68e4132933",
-  "original": "Masamune",
-  "translation": "正宗",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452381,
-  "key": "MonteCarloSuitesInterior_000F33A8#CELL:FULL#33f97606b35a5bb7eef187719e873eb6",
-  "original": "Monte Carlo Suites",
-  "translation": "蒙地卡罗套房",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452402,
-  "key": "NCRPrisonBlockA_0008D0FA#CELL:FULL#259bf8a83595080456b2161f2b748604",
-  "original": "Cell Block A",
-  "translation": "监狱A栋",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452364,
-  "key": "NCRPrisonBlockB_0008D48E#CELL:FULL#136e84224125cbcea223c795084306b2",
-  "original": "Cell Block B",
-  "translation": "监狱B栋",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452395,
-  "key": "NVDLC01PoliceStation_01003080#CELL:FULL#52cbe425a1e9958e7bcce37ec05946b7",
-  "original": "Villa Police Station",
-  "translation": "别墅区警察局",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452427,
-  "key": "NVDLC01WestTownN_01001315#WRLD:FULL#ca731d0bc1f2029879c54ab4fbd6fefc",
-  "original": "Puesta del Sol North",
-  "translation": "日落镇北侧",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452391,
-  "key": "NVDLC02NarrowsWhiteLegs_02008A43#CELL:FULL#e3082bdb6e7d07579d1af473af541ba7",
-  "original": "Glass Chime Cave",
-  "translation": "玻璃风铃洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452398,
-  "key": "NVDLC02ZionStation_02009426#CELL:FULL#6ec47adf034f89144b8dca4df747c98b",
-  "original": "Ranger Station",
-  "translation": "护林员站",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452358,
-  "key": "NVDLC03ForbiddenZone_0300402F#CELL:FULL#9a22efb5b7552e4964306b7220ea55ce",
-  "original": "The Forbidden Zone Dome",
-  "translation": "禁区穹顶",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452420,
-  "key": "NVDLC03SLBloatFlyCave_0301507B#CELL:FULL#347e00b4f63254f5d88ad40a8d012cea",
-  "original": "Mysterious Cave",
-  "translation": "神秘洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452392,
-  "key": "NVDLC03SLCazadorINT_030086CA#CELL:FULL#52ac75d60de14b44f7a97a33a9fa0b08",
-  "original": "Z-14 Pepsinae DNA Splicing Lab",
-  "translation": "Z-14蛛蜂DNA剪接实验室",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452388,
-  "key": "NVDLC03SLX12INT_0300CC33#CELL:FULL#cbc23ef824cd8c0be7ea084d650d9cbe",
-  "original": "X-12",
-  "translation": "X-12研究中心",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452386,
-  "key": "NVDLC04DivideSLWaterPlant_04007B93#CELL:FULL#8aa05fd2eb1020aa8e454101f0572475",
-  "original": "Wastewater Treatment Plant",
-  "translation": "污水处理厂",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452429,
-  "key": "NVDLC04DivideWorld_04002C7E#WRLD:FULL#7c0b82ae2e700dc91b38f72ced952999",
-  "original": "The Divide",
-  "translation": "大裂谷",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452431,
-  "key": "NVDLC04NukeSilo2_0400AA02#WRLD:FULL#83371c4712456c20aabe9a25856cbf09",
-  "original": "Courier's Mile",
-  "translation": "邮差之路",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452428,
-  "key": "NVDLC04Road01World_04002866#WRLD:FULL#3804bb196864e0001d10f24e4064f4a3",
-  "original": "The Lonesome Road",
-  "translation": "孤独之路",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452430,
-  "key": "NVDLC04Road02World_04002F73#WRLD:FULL#aa8020c31a75c9f910e03de71ce3a031",
-  "original": "The High Road",
-  "translation": "正路",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452405,
-  "key": "NVDLC04RoadHQ_04003E4B#CELL:FULL#e2e4d21063d07c7739ded2f736e1c9b8",
-  "original": "Hopeville Missile Base HQ",
-  "translation": "黎明镇导弹基地总部",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452415,
-  "key": "NVDLC04SLArmory01_04009CAD#CELL:FULL#f34c969a3e594c14e3fc992a224609f7",
-  "original": "Hopeville Armory",
-  "translation": "黎明镇军械库",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452379,
-  "key": "NVDLC04Silo02_040028AE#CELL:FULL#4dc2e6297d285ccd49d9e7ff037ac0e8",
-  "original": "Ashton Missile Silo",
-  "translation": "阿什顿导弹发射井",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452365,
-  "key": "NellisGenerator_00101A46#CELL:FULL#90c6d6be471421b713fe33458d10214e",
-  "original": "Nellis Array Generators",
-  "translation": "内利斯发电机阵列",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452416,
-  "key": "NellisMuseum_00106499#CELL:FULL#71b71c2fbdebccee331391c9016d293f",
-  "original": "Nellis Boomer Museum",
-  "translation": "内利斯大炮族博物馆",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452414,
-  "key": "NellisTunnel_001024D9#CELL:FULL#70134c8e75e3c79a78105ad57600a5f9",
-  "original": "Train Tunnel",
-  "translation": "火车隧道",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452369,
-  "key": "NellisWorkshop_00105894#CELL:FULL#d46204e913b9db87c42fe322ef900f98",
-  "original": "Nellis Workshop",
-  "translation": "内利斯工房",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452412,
-  "key": "NelsonHouse03_001244CA#CELL:FULL#3f0028bdef727dc7a36d857882688ccd",
-  "original": "Nelson House",
-  "translation": "纳尔逊屋舍",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452353,
-  "key": "NiptonTownHallInterior_00130C7C#CELL:FULL#2a897e024a9898e38811e8b6ec2c0aa4",
-  "original": "Town Hall First Floor",
-  "translation": "城镇会堂一楼",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452352,
-  "key": "NorthVegasHouseTools_000EDDC8#CELL:FULL#3a2c434a267e894321f0f4f6a7d34562",
-  "original": "H&H Tools Factory",
-  "translation": "H&H五金工具厂",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452347,
-  "key": "NovacGiftShop_000B1670#CELL:FULL#d154f9948f0aa758285b44ab81f03145",
-  "original": "Dino Bite Gift Shop",
-  "translation": "大嘴小恐龙礼品店",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452408,
-  "key": "NovacVargasRoom_000CAE84#CELL:FULL#dc5cfea4ed0851ddd04fd58d06ffb3f7",
-  "original": "Manny Vargas' Room",
-  "translation": "曼尼·瓦尔加斯的房间",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452394,
-  "key": "OVCentralSewers02_00169E4C#CELL:FULL#22ff06b6a8c47a4893cbbf7d0308d20b",
-  "original": "East Central Sewers",
-  "translation": "东部下水道中枢",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452409,
-  "key": "OVWestSewers03d_0015ECEC#CELL:FULL#741da5e446d166e043064238e260f540",
-  "original": "Red Lucy's Chamber",
-  "translation": "血手露西的房间",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452399,
-  "key": "PrimmNashResidence_000D70E2#CELL:FULL#81359b75c86000458492adb8844f3e33",
-  "original": "Nash Residence",
-  "translation": "纳什的住所",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452368,
-  "key": "RSDeltaInterior_00112472#CELL:FULL#b90de807edc15aef101578089d94be96",
-  "original": "Ranger Station Delta",
-  "translation": "游骑兵德尔塔驻站",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452400,
-  "key": "RepconHQ01_000E5A84#CELL:FULL#257caf183c6503fc238ba35965d23e32",
-  "original": "REPCONN Office Main Floor",
-  "translation": "瑞普康办公室主楼",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452397,
-  "key": "SLAbandonedShack02INT_00154826#CELL:FULL#03c64b878199ca9ea2d7158ec684e600",
-  "original": "Harper's Shack",
-  "translation": "哈珀的小屋",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452422,
-  "key": "SLBoSBunkerINT_001555FD#CELL:FULL#679f22aeaad56fc5aaaf375227900405",
-  "original": "Brotherhood of Steel Bunker",
-  "translation": "钢铁兄弟会地堡",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452374,
-  "key": "SLCavern01INT_001532F7#CELL:FULL#57c862f95e1b96eec747fdf76c529810",
-  "original": "Morning Star Cavern",
-  "translation": "晨星洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452355,
-  "key": "SLDeadWindCavernINT_00164E29#CELL:FULL#b0f986b292fed7df57df978452eeb686",
-  "original": "Dead Wind Cavern",
-  "translation": "逆风洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452413,
-  "key": "SLGoldMine02INT_001555FC#CELL:FULL#fdb449ffd74f727f8200c4737adff414",
-  "original": "Searchlight North Gold Mine",
-  "translation": "探照灯营地北部金矿",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452418,
-  "key": "SLNuclearTestShackINT_001544AF#CELL:FULL#be13a5bf019e0f4f791549fd2c3032ac",
-  "original": "Nuclear Test Shack",
-  "translation": "核试验小屋",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452354,
-  "key": "SLRaulsHomeINT_00155A05#CELL:FULL#dd768a9d912e5d3e589a84460125accf",
-  "original": "Raul's Home",
-  "translation": "劳尔的家",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452423,
-  "key": "SLRemnantsBunkerINT_001591D5#CELL:FULL#5a2d606fb3f35826213fbd34d9900032",
-  "original": "Remnants' Bunker",
-  "translation": "英克雷残部地堡",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452411,
-  "key": "SLSulfurCave01INT_00158194#CELL:FULL#e5959bf52f735df443f7e91ebf8b1989",
-  "original": "Bloodborne Cave",
-  "translation": "血源洞穴",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452410,
-  "key": "SLSunkenBeachHouse01INT_00154828#CELL:FULL#92bf508a83f892d384c03b94e9dc3d22",
-  "original": "Sunken Beach House",
-  "translation": "沉没的沙滩房屋",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452371,
-  "key": "SLWindfarmShackINT_00155916#CELL:FULL#40f6333629195e695d5a79b811fae1fd",
-  "original": "Wind Farm Maintenance Shack",
-  "translation": "风力电站维修棚",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452419,
-  "key": "SLprospectorsDenINT02_00171CF3#CELL:FULL#544c17d755efbab6403823b9082b1392",
-  "original": "The Prospector's Den",
-  "translation": "淘金客老窝",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452378,
-  "key": "SLscorpionBurrowINT_001532F8#CELL:FULL#23ebf459177187b492537b7bf3572bf6",
-  "original": "Scorpion Burrow",
-  "translation": "蝎子洞",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452363,
-  "key": "SafehouseNCRINT_001592E5#CELL:FULL#3f097b9a3b244bbc5d8437ace311530c",
-  "original": "NCR Ranger Safehouse",
-  "translation": "NCR游骑兵安全屋",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452425,
-  "key": "TheFortWorld_0013C0B6#WRLD:FULL#bec09e1fba22dda8bf079daec18d2353",
-  "original": "Caesar's Tent",
-  "translation": "凯撒的帐篷",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452387,
-  "key": "ULGourmand_001188ED#CELL:FULL#131153e755f71a9e27eb1863893b1d27",
-  "original": "The Gourmand at the Ultra-Luxe",
-  "translation": "奢华殿堂的美食家餐厅",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452349,
-  "key": "Vault11c_000E6A6E#CELL:FULL#3d1c9d422c980aa754700fb92cac1cba",
-  "original": "Vault 11 Lower Level",
-  "translation": "11号避难所下层",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452360,
-  "key": "Vault19b_0013BC27#CELL:FULL#5125306a27206866a5cc09fc1d78df00",
-  "original": "Vault 19 - Living Quarters",
-  "translation": "19号避难所 - 居住区",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452382,
-  "key": "Vault22d_000E60C2#CELL:FULL#d846266a3d6ae67f546b16d836ce593a",
-  "original": "Vault 22 - Common Areas",
-  "translation": "22号避难所 - 公共区",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452389,
-  "key": "Vault22e_000E60CD#CELL:FULL#35bdd9b29d4d302137efc6153f1007b1",
-  "original": "Vault 22 - Pest Control",
-  "translation": "22号避难所 - 虫害防治区",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452351,
-  "key": "Vault34c_00138A9E#CELL:FULL#9c82e73fde1c82a60b39b45583cb65ca",
-  "original": "Vault 34 - Armory",
-  "translation": "34号避难所 - 军火库",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452424,
-  "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
-  "original": "Mojave Wasteland",
-  "translation": "莫哈维废土",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452426,
-  "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
-  "original": "Mojave Wasteland",
-  "translation": "莫哈维废土",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452346,
-  "key": "WestsidePawnShopInterior_000F0820#CELL:FULL#4ab31e4e34c6d56dde73898a668712bd",
-  "original": "Miguel's Pawn Shop",
-  "translation": "米格尔的典当行",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452448,
-  "key": "arcBullpupChalMSG_06080956#MESG:DESC#5888fc44feb14d95aba6b80e69923912",
-  "original": "You have gained the Reverse Engineered perk.",
-  "translation": "你得到了Perk”逆向工程“。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452449,
-  "key": "arcBullpupChalMSG_06080956#MESG:FULL#24d29b29dc510b007cad165d39871d22",
-  "original": "Reverse Engineered",
-  "translation": "逆向工程",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452437,
-  "key": "arcBullpupWEAPPerk_06080951#PERK:DESC#49d1562b4386a5e9590e303561cb3a41",
-  "original": "You've got a strong preference for where you like your weapon magazines. You've now got 5% faster reload speed with Another Millenia Bullpup weaponry.",
-  "translation": "你对武器弹匣的位置有强烈的偏好。使用Another Millenia中的无托结构武器时，你的装填速度提高5%。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452436,
-  "key": "arcBullpupWEAPPerk_06080951#PERK:FULL#24d29b29dc510b007cad165d39871d22",
-  "original": "Reverse Engineered",
-  "translation": "逆向工程",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452478,
-  "key": "arcBullpupWeapCHAL_0608094C#CHAL:DESC#bc6db3d282c8244560782de28462d25e",
-  "original": "Deal 10,000 damage with Another Millenia Bullpup weaponry.",
-  "translation": "使用Another Millenia中的无托结构武器造成10,000点伤害。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452477,
-  "key": "arcBullpupWeapCHAL_0608094C#CHAL:FULL#6f6d419c97cdab97cc55897d2b646f5c",
-  "original": "Reverse Engineered Violence",
-  "translation": "逆向工程暴虐",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452144,
-  "key": "arcCheatChest_06071A6C#CONT:FULL#da43259a647d02c9b8672c6a10e9cbad",
-  "original": "Cheat chest",
-  "translation": "作弊箱子",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452131,
-  "key": "arcEnchHitHeat_0600CDE4#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
-  "original": "Burning",
-  "translation": "燃烧",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452343,
-  "key": "arcFiend3GunCMNV_06063796#NPC_:FULL#4cee6aa8d68e22e30a9663f1c4593d52",
-  "original": "Rotten",
-  "translation": "罗腾",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452135,
-  "key": "arcFootlocker01_0605B980#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
-  "original": "Footlocker",
-  "translation": "脚柜",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452146,
-  "key": "arcFootlocker02_06081B4A#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
-  "original": "Footlocker",
-  "translation": "脚柜",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452452,
-  "key": "arcGoldChalMSG_0608034C#MESG:DESC#98830bb63fddbe8fcb312d9bf0b214f0",
-  "original": "You have gained the High Roller perk.",
-  "translation": "你得到了Perk\"挥金如土\"。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452453,
-  "key": "arcGoldChalMSG_0608034C#MESG:FULL#ae5ff7c63b642c2b9859c3d63723f180",
-  "original": "High Roller",
-  "translation": "豪赌",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452445,
-  "key": "arcGoldWEAPPerk_0607FD52#PERK:DESC#73549636639e89fb7685adf9e41e29b8",
-  "original": "You like to serve up death with a bit of style! Enjoy 5% extra crit chance and 5% reduced weapon degradation when using Another Millenia golden weaponry.",
-  "translation": "你喜欢有格调地招待死亡！当使用Another Millenia中的黄金武器时，享受5%额外的暴击几率并降低5%的武器耐久消耗。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452444,
-  "key": "arcGoldWEAPPerk_0607FD52#PERK:FULL#ae5ff7c63b642c2b9859c3d63723f180",
-  "original": "High Roller",
-  "translation": "豪赌",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452470,
-  "key": "arcGoldWeapCHAL_0607FD51#CHAL:DESC#1a1dd056c03aae2d840992074eae0dec",
-  "original": "Deal 10,000 damage with Another Millenia Golden uniques.",
-  "translation": "收集Another Millenia中的所有黄金独特武器。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452469,
-  "key": "arcGoldWeapCHAL_0607FD51#CHAL:FULL#ae5ff7c63b642c2b9859c3d63723f180",
-  "original": "High Roller",
-  "translation": "豪赌",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452454,
-  "key": "arcHybridChalMSG_06080953#MESG:DESC#087001233b6d12131fa6b86b0bb4fba2",
-  "original": "You have gained the Eco Friendly perk.",
-  "translation": "你得到了Perk”生态友好“。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452455,
-  "key": "arcHybridChalMSG_06080953#MESG:FULL#192cdf3e7b0c225588103d7b6d46f31c",
-  "original": "Eco Friendly",
-  "translation": "生态友好",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452447,
-  "key": "arcHybridWEAPPerk_0608094E#PERK:DESC#fa138a1f8c1ee313828c281aa72b9a51",
-  "original": "You're a fan of refined weaponry for a more civilized age. You've now got 5% extra attack speed with all Millenia energy weapon uniques.",
-  "translation": "你是文明时代精良武器的拥趸。 现在你使用所有Another Millenia中的独特能量武器时获得5%的额外射击速度。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452446,
-  "key": "arcHybridWEAPPerk_0608094E#PERK:FULL#192cdf3e7b0c225588103d7b6d46f31c",
-  "original": "Eco Friendly",
-  "translation": "生态友好",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452472,
-  "key": "arcHybridWeapCHAL_06080949#CHAL:DESC#493e7220346c024869c055b6139fb4cc",
-  "original": "Deal 10,000 damage with Another Millenia energy weapon uniques.",
-  "translation": "收集Another Millenia中的所有能量武器。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452471,
-  "key": "arcHybridWeapCHAL_06080949#CHAL:FULL#192cdf3e7b0c225588103d7b6d46f31c",
-  "original": "Eco Friendly",
-  "translation": "生态友好",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452456,
-  "key": "arcMachineChalMSG_0605CB9B#MESG:DESC#acbb28378162ae336fd0d150c4a0dd6a",
-  "original": "You have gained the Lucky Spray perk.",
-  "translation": "你得到了Perk”幸运喷雾“。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452457,
-  "key": "arcMachineChalMSG_0605CB9B#MESG:FULL#38ea4b3a0776cbe8a32712274c621a2d",
-  "original": "Lucky Spray",
-  "translation": "幸运喷雾",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452468,
-  "key": "arcMachinePistolCHAL_0605C59E#CHAL:DESC#277d334993f58b3027aafcd9d5f7b991",
-  "original": "Deal 10,000 damage with Another Millenia machine pistols.",
-  "translation": "使用Another Millenia中的自动手枪造成10,000点伤害。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452467,
-  "key": "arcMachinePistolCHAL_0605C59E#CHAL:FULL#38ea4b3a0776cbe8a32712274c621a2d",
-  "original": "Lucky Spray",
-  "translation": "幸运喷雾",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452441,
-  "key": "arcMachinePistolPERK_0605CB9C#PERK:DESC#1668f4816a0e118bc0b7c4066fc54ef5",
-  "original": "Aiming is for the weak! You've gained 5% extra crit chance and 5% reduced spread with Machine pistols.",
-  "translation": "瞄准是为弱者准备的！使用自动手枪时，你的暴击几率增加5%，子弹散布降低5%。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452440,
-  "key": "arcMachinePistolPERK_0605CB9C#PERK:FULL#38ea4b3a0776cbe8a32712274c621a2d",
-  "original": "Lucky Spray",
-  "translation": "幸运喷雾",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452450,
-  "key": "arcMarineChalMSG_06080957#MESG:DESC#59e925cd94cae6017e3bfc842eb4af9f",
-  "original": "You have gained the Tour of Duty perk.",
-  "translation": "你得到了Perk”服役期“。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452451,
-  "key": "arcMarineChalMSG_06080957#MESG:FULL#7e569aecf7083a84662bba46e282363f",
-  "original": "Tour of Duty",
-  "translation": "服役期",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452439,
-  "key": "arcMarineWEAPPerk_06080952#PERK:DESC#bae4d37e3f33abe9d7f9f2459d7378eb",
-  "original": "They worked for militaries of the past, so they'll work for you! You've not got 5% more durability for any Another Millenia Marine weaponry.",
-  "translation": "它们对过去的军队有用，所以对你也有用！Another Millenia中的海军陆战队武器的耐久性提高 5%。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452438,
-  "key": "arcMarineWEAPPerk_06080952#PERK:FULL#7e569aecf7083a84662bba46e282363f",
-  "original": "Tour of Duty",
-  "translation": "服役期",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452480,
-  "key": "arcMarineWeapCHAL_0608094D#CHAL:DESC#3dfd4c17952fd0d70fdd4461faa93854",
-  "original": "Deal 10,000 damage with Another Millenia Service/Marine weaponry.",
-  "translation": "使用Another Millenia中的服务/海军武器造成10,000点伤害。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452479,
-  "key": "arcMarineWeapCHAL_0608094D#CHAL:FULL#1fa3b507519980d0f08e3ac29cbb335a",
-  "original": "Wasteland Tour of Duty",
-  "translation": "废土任期",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452462,
-  "key": "arcMasamuneMESG_0606676F#MESG:DESC#a14e70f2eb4f8636b2403c94687ccfc9",
-  "original": "You're too weak to pull out this ridiculously long sword! (STR 8 Required)",
-  "translation": "你太弱了，拔不出这把可笑的长刀！ (需要力量8）",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452458,
-  "key": "arcMercChalMSG_06080954#MESG:DESC#5374ca439fee0bfd6b5ac9754ccd6191",
-  "original": "You have gained the Commie Aficionado perk.",
-  "translation": "你得到了Perk”共产主义狂热“。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452459,
-  "key": "arcMercChalMSG_06080954#MESG:FULL#0f92475d2bf6481b576c39a2805f51c3",
-  "original": "Commie Aficionado",
-  "translation": "共产主义狂热",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452433,
-  "key": "arcMercWEAPPerk_0608094F#PERK:DESC#b2a3652a7982e94a0775f673d233db1d",
-  "original": "You're a true comrade! You've now got 5% reduced spread and 5% increase damage with Mercenary weaponry.",
-  "translation": "你是真正的同志！雇佣兵武器现在减少5%的子弹散布，增加5%的伤害。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452432,
-  "key": "arcMercWEAPPerk_0608094F#PERK:FULL#0f92475d2bf6481b576c39a2805f51c3",
-  "original": "Commie Aficionado",
-  "translation": "共产主义狂热",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452474,
-  "key": "arcMercWeapCHAL_0608094A#CHAL:DESC#aec1997281bc576a08f03fcf8a7d25c8",
-  "original": "Deal 10,000 damage with Another Millenia Mercenary weapons.",
-  "translation": "使用Another Millenia中的雇佣兵武器造成10,000点伤害。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452473,
-  "key": "arcMercWeapCHAL_0608094A#CHAL:FULL#0f92475d2bf6481b576c39a2805f51c3",
-  "original": "Commie Aficionado",
-  "translation": "共产主义狂热",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452152,
-  "key": "arcModCustomH_06000ADD#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
-  "original": "Increases condition (+50%).",
-  "translation": "提升耐久 (+50%)。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452151,
-  "key": "arcModCustomH_06000ADD#IMOD:FULL#87d8a7eb9476eb28c14d53dd67be6de4",
-  "original": "Custom Handgun Parts",
-  "translation": "定制手枪部件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452160,
-  "key": "arcModCustomM_06016E2D#IMOD:DESC#0aeea32dd8285b4afca339836673ff81",
-  "original": "A magic box that changes your machinegun!",
-  "translation": "一个装满机枪零件的魔法盒子！",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452159,
-  "key": "arcModCustomM_06016E2D#IMOD:FULL#a6c8ff2fe6f3a4b752bea0b22657a348",
-  "original": "Custom Machinegun Parts",
-  "translation": "定制机枪部件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452148,
-  "key": "arcModCustomR_06025D74#IMOD:DESC#d34655c4e1dc7d0cb226c91c12f91f5b",
-  "original": "A magic box full of rifle parts!",
-  "translation": "一个装满步枪零件的魔法盒子！",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452147,
-  "key": "arcModCustomR_06025D74#IMOD:FULL#a255b8c233882c18cb0c1f6dc4c87711",
-  "original": "Custom Rifle Parts",
-  "translation": "定制步枪部件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452150,
-  "key": "arcModCustomS_060066AC#IMOD:DESC#7f59654be06e39615b716b5de4dcdbd6",
-  "original": "A magical box that changes your shotgun!",
-  "translation": "一个装满霰弹枪零件的魔法盒子！",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452149,
-  "key": "arcModCustomS_060066AC#IMOD:FULL#75a1aed998fa93fca41a318531e4f598",
-  "original": "Custom Shotgun Parts",
-  "translation": "定制霰弹枪部件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452156,
-  "key": "arcModRedDot_060010A7#IMOD:DESC#0564729d6bab7218182b4aa7a7e05157",
-  "original": "Adds short-range scope.",
-  "translation": "添加短程瞄准镜。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452155,
-  "key": "arcModRedDot_060010A7#IMOD:FULL#8665b3502178f5a1a97940d354b1455a",
-  "original": "Red Dot",
-  "translation": "红点",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452162,
-  "key": "arcModShotgunS_06016E2E#IMOD:DESC#2fb5a23538293d6b87675ef5460c5ea8",
-  "original": "Reduces weapon noise.",
-  "translation": "减少开枪时发出的声音。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452161,
-  "key": "arcModShotgunS_06016E2E#IMOD:FULL#7214329d45cda04209e1d20554c2029f",
-  "original": "Shotgun Suppresor",
-  "translation": "狙击步枪消音器",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452154,
-  "key": "arcModSideSaddle_06000ADF#IMOD:DESC#d4e67f3d2caf07ddf56cde4e352ec6d5",
-  "original": "Increases rate of fire.",
-  "translation": "提升射速。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452153,
-  "key": "arcModSideSaddle_06000ADF#IMOD:FULL#762464f8aa81b042a40071fb29ab3475",
-  "original": "Side Saddle",
-  "translation": "侧鞍",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452158,
-  "key": "arcModSyntheticS_06012BFD#IMOD:DESC#b00676cbee13cbcc5c34927c9940930d",
-  "original": "Synthetic parts for shotguns.",
-  "translation": "霰弹枪的合成部件。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452157,
-  "key": "arcModSyntheticS_06012BFD#IMOD:FULL#003565f6465315f3fc6e21b056a290c5",
-  "original": "Synthetic Shotgun Parts",
-  "translation": "合成霰弹枪部件",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452460,
-  "key": "arcPoliceChalMSG_06080955#MESG:DESC#f87f31ad17b3026699cd533d1f0963ca",
-  "original": "You have gained the Standard Issue perk.",
-  "translation": "你得到了Perk”标准配置“。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452461,
-  "key": "arcPoliceChalMSG_06080955#MESG:FULL#8993c15eb89fac107bbaf02fad784b7e",
-  "original": "Standard Issue",
-  "translation": "标准配置",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452435,
-  "key": "arcPoliceWEAPPerk_06080950#PERK:DESC#c5431045a412516645343312a5c639ad",
-  "original": "They're nothing fancy, but they do the job. You've now got 5% increased crit chance with Another Millenia Police weaponry.",
-  "translation": "它们没什么特别的，但很管用。使用Another Millenia中的警用武器时，你的暴击几率增加5%。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452434,
-  "key": "arcPoliceWEAPPerk_06080950#PERK:FULL#8993c15eb89fac107bbaf02fad784b7e",
-  "original": "Standard Issue",
-  "translation": "标准配置",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452476,
-  "key": "arcPoliceWeapCHAL_0608094B#CHAL:DESC#42317de483dd180a497b922bb030cbcf",
-  "original": "Deal 10,000 damage with Another Millenia Police weaponry.",
-  "translation": "使用Another Millenia中的警用武器造成10,000点伤害。",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452475,
-  "key": "arcPoliceWeapCHAL_0608094B#CHAL:FULL#8993c15eb89fac107bbaf02fad784b7e",
-  "original": "Standard Issue",
-  "translation": "标准配置",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452344,
-  "key": "arcPresidentShinra_06064393#NPC_:FULL#fda4e83abbb980a9017b2ea21f62f67f",
-  "original": "President Shinra",
-  "translation": "辛总统",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452145,
-  "key": "arcRPGGrave_060756C0#CONT:FULL#2a3703da3cc6618565d4fcc18a2b8f52",
-  "original": "Grave",
-  "translation": "坟墓",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452340,
-  "key": "arcRangerLSW_0606DEEB#NPC_:FULL#0862d4738d6597ea97594f9055a978a8",
-  "original": "NCR Veteran Ranger",
-  "translation": "NCR资深游骑兵",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452134,
-  "key": "arcShinraSuit_06064394#ARMO:FULL#8934a424037eb5f2007fcbdc62194b2f",
-  "original": "President Shinra's Suit",
-  "translation": "辛总统的套装",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452143,
-  "key": "arcStantonsRageCONT_0606318F#CONT:FULL#5b9e963190bccfbf71c7bf80bda38d92",
-  "original": "Military Shipping Crate",
-  "translation": "军用板条装运箱",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452136,
-  "key": "arcTestAmmo_0605E3C7#CONT:FULL#501f1a4a511fdbbe5e2e7d6bb906fce3",
-  "original": "Ammo",
-  "translation": "弹药",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452141,
-  "key": "arcTestChestU_0605E3CC#CONT:FULL#640438a0654ce1e1cea942d2f882ba02",
-  "original": "Unique Weapons",
-  "translation": "独特武器",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452139,
-  "key": "arcTestChest_0605E3CA#CONT:FULL#32500b66f522382a6278fd47d8abcf33",
-  "original": "Weapons",
-  "translation": "武器",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452137,
-  "key": "arcTestEnergy_0605E3C8#CONT:FULL#83acab72e45bcb85f26a6d49b83d9725",
-  "original": "Energy Ammo",
-  "translation": "能量弹药",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452138,
-  "key": "arcTestExplosives_0605E3C9#CONT:FULL#be1697510d6e93a582a7a8fd369fe90f",
-  "original": "Explosives Ammo",
-  "translation": "爆破弹药",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452142,
-  "key": "arcTestMods_0605E3CD#CONT:FULL#15bb5295de6d1cf73c1ed2523f528012",
-  "original": "Mods",
-  "translation": "模组",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452140,
-  "key": "arcTestVanillaMods_0605E3CB#CONT:FULL#aaaed6055506b26dfa64ba5382090741",
-  "original": "Vanilla Mods",
-  "translation": "原版模组",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452284,
-  "key": "arcWeap1911U1_06062540#WEAP:FULL#debcab63a6ee53022bfb81473c3ac333",
-  "original": "The Duke",
-  "translation": "[公爵]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452286,
-  "key": "arcWeap1911U2_06063729#WEAP:FULL#3678935604a2a37ead89df1b81100290",
-  "original": "Dual American Ambition",
-  "translation": "[双重美式野心]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452290,
-  "key": "arcWeap1911U3_0606BAC9#WEAP:FULL#bc319d6e78220bb5cb3e2840be01c230",
-  "original": "American Ambition",
-  "translation": "[美式野心]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452296,
-  "key": "arcWeap1911U4_0606D8ED#WEAP:FULL#1f092becd2c0fbafdb9edc1de7e12d5b",
-  "original": "9 Breaker",
-  "translation": "[9号破坏者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452273,
-  "key": "arcWeap1911_0605E38E#WEAP:FULL#3aa548311822997e2d0ef6245c44075d",
-  "original": "Sporting Pistol",
-  "translation": "运动手枪(1911)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452287,
-  "key": "arcWeap74uU1_0606791F#WEAP:FULL#12424339bf55c78fb9ab9d19c5f6a61f",
-  "original": "Bulldog",
-  "translation": "[斗牛犬]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452291,
-  "key": "arcWeap74uU2_0606BACA#WEAP:FULL#0b69278c2f4faa94a35ddf6d9e6cf1cc",
-  "original": "Centennial",
-  "translation": "[百年纪念]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452302,
-  "key": "arcWeap74uU3_0606F08E#WEAP:FULL#989afd887d99c6ecf43ca48ddc9f65fc",
-  "original": "Stalker's Field Rifle",
-  "translation": "[潜行者的野战步枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452283,
-  "key": "arcWeap74u_0606253F#WEAP:FULL#535458849bfe3b220435433e27401044",
-  "original": "Mercenary Carbine",
-  "translation": "佣兵卡宾枪(AK-74U)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452174,
-  "key": "arcWeap92FSUnique1_06008BFB#WEAP:FULL#9f3e1348f117799a20af0ed3edf6512f",
-  "original": "Cutlass Customs",
-  "translation": "[短剑风俗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452183,
-  "key": "arcWeap92FSUnique2_0600DC3B#WEAP:FULL#66df5a12c4fa4f9003c7242d8510f058",
-  "original": "Elite Service Pistol",
-  "translation": "[精英制式手枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452330,
-  "key": "arcWeap92FS_06000ADE#WEAP:FULL#50f193b73691c4f5ff05252d7a48deec",
-  "original": "Service Pistol",
-  "translation": "制式手枪(92FS)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452215,
-  "key": "arcWeap93RU1_06039FF3#WEAP:FULL#66a0f2f5faabe4a3cf5a6922a76d6b62",
-  "original": "Impaciente",
-  "translation": "[心浮气躁]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452211,
-  "key": "arcWeap93R_06033472#WEAP:FULL#56ac24a9a536c60248663e6bf792a47f",
-  "original": "Burst Pistol",
-  "translation": "爆发手枪(93R)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452301,
-  "key": "arcWeapAUGU1_0606EA93#WEAP:FULL#637333b7f599e2424aab6a8d781a6693",
-  "original": "Mystifier",
-  "translation": "[蒙蔽者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452318,
-  "key": "arcWeapAUGU2_0607B64F#WEAP:FULL#eb065f7a5a97071a7bb716ae40d8c245",
-  "original": "LAUG",
-  "translation": "[LAUG]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452294,
-  "key": "arcWeapAUG_0606D8A4#WEAP:FULL#aa72d86b16bb1efbab9590295fbe8f50",
-  "original": "Bullpup Assault Carbine",
-  "translation": "无托突击卡宾枪(AUG)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452281,
-  "key": "arcWeapBACU1_060607B9#WEAP:FULL#04a1fdecf8fb7fdf2f1abe0f7a5b87ff",
-  "original": "Better British",
-  "translation": "[更重要的英国人]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452282,
-  "key": "arcWeapBACU2_060607BA#WEAP:FULL#3555b5b224d626ae5de43f7b6cfa8601",
-  "original": "Anarchy",
-  "translation": "[无政府主义]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452322,
-  "key": "arcWeapBAC_0607DF6D#WEAP:FULL#dd3cd27a0099975c966fbada0b2f5ad5",
-  "original": "Bullpup Marine Rifle",
-  "translation": "无托海军陆战队步枪(L85)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452178,
-  "key": "arcWeapBBRUnique1_0600C26B#WEAP:FULL#42a1e5ead044ef6782eb08ca2fe9d32e",
-  "original": "Prototype Enclave Battle Rifle",
-  "translation": "[英克雷原型战斗步枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452257,
-  "key": "arcWeapBBRUnique2_0605D766#WEAP:FULL#3b3fc5d509aa3c3a3117af6a5ddbf9ef",
-  "original": "Duel",
-  "translation": "[决斗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452165,
-  "key": "arcWeapBBR_0600416D#WEAP:FULL#f9e860e1a868a993a2bf274bf0d104b7",
-  "original": "Bullpup Assault Rifle",
-  "translation": "无托突击步枪(Famas)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452179,
-  "key": "arcWeapBSRUnique2_0600D0C3#WEAP:FULL#95603b9464eb7b28272ef6a6aeb59a02",
-  "original": "Why2000",
-  "translation": "[Why2000]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452170,
-  "key": "arcWeapBSRUnique_06006F4D#WEAP:FULL#29ea254db381c894eba14b07f94d207c",
-  "original": "Hitman's Heatmaker",
-  "translation": "[全面狙杀令]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452335,
-  "key": "arcWeapBSR_06000DC2#WEAP:FULL#2690fce98586704440f8a779ca9ff706",
-  "original": "Bullpup Sniper Rifle",
-  "translation": "无托狙击步枪(Wa2000)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452202,
-  "key": "arcWeapBrenU1_06028742#WEAP:FULL#25c9142016ae9301c2beb389cac550a2",
-  "original": "Chop Shop",
-  "translation": "[地下拆车厂]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452265,
-  "key": "arcWeapBrenU2_0605D76B#WEAP:FULL#9c534d61631aa8a09ac47d4ba81f8787",
-  "original": "Leadstorm",
-  "translation": "[铅弹风暴]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452193,
-  "key": "arcWeapBren_060164B9#WEAP:FULL#0a32da22763c6f150c2c1e275e036f60",
-  "original": "Paratrooper Machinegun",
-  "translation": "伞兵机枪(Kalashnibren)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452231,
-  "key": "arcWeapCAWSU1_06045F16#WEAP:FULL#c42bd28a02b9318d2ffc455c23581b66",
-  "original": "Desert Storm",
-  "translation": "[沙漠风暴]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452221,
-  "key": "arcWeapCAWS_06044722#WEAP:FULL#d385c44829dc6ac4c9935d33e9e7180d",
-  "original": "Bullpup Assault Shotgun",
-  "translation": "无托突击霰弹枪(CAWS)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452181,
-  "key": "arcWeapCShotgunUnique2_0600D3A2#WEAP:FULL#8e24bae51f945c883c283b5df97908e7",
-  "original": "Power Washed",
-  "translation": "[高压清洗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452190,
-  "key": "arcWeapCShotgunUnique3_060143A0#WEAP:FULL#1d375d1ff52f91a5e2424e49efcac85f",
-  "original": "Cold Heart",
-  "translation": "[冷酷的心]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452208,
-  "key": "arcWeapCShotgunUnique4_0602FEB7#WEAP:FULL#90f8825adcc4b8877c6e658b28df54fb",
-  "original": "Jackpot!",
-  "translation": "中头奖了！",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452169,
-  "key": "arcWeapCShotgunUnique_06006C6F#WEAP:FULL#87994fa6eefa0d2927e65364dc993112",
-  "original": "Mean Green Machine",
-  "translation": "[金钱机器]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452167,
-  "key": "arcWeapCShotgun_060060F2#WEAP:FULL#ae903dec5f2b75945e425f2de8800a71",
-  "original": "Combat Shotgun",
-  "translation": "战斗霰弹枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452207,
-  "key": "arcWeapCowboyCarbineU1_0602C302#WEAP:FULL#2fbc506b2101514f94e4ceafba73401d",
-  "original": "Deathclaw Hunter",
-  "translation": "[死亡爪猎人]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452223,
-  "key": "arcWeapCowboyCarbineU2_06044D26#WEAP:FULL#753ce25a3df8f9e708910e65d845f00b",
-  "original": "Mare's Leg",
-  "translation": "[马腿]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452201,
-  "key": "arcWeapCowboyCarbine_06025D75#WEAP:FULL#c2010b35bfbbe1227b9b64522442b3cf",
-  "original": "Cowboy Carbine",
-  "translation": "牛仔卡宾枪(Mares leg)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452180,
-  "key": "arcWeapDEUnique2_0600D3A1#WEAP:FULL#fd4b6e52e7a354c1c632cae776dc702e",
-  "original": "The Enforcer",
-  "translation": "[执法者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452227,
-  "key": "arcWeapDEUnique3_0604591A#WEAP:FULL#9a8f28e1550e4e87995845712d3109b9",
-  "original": "Cirno's Peace",
-  "translation": "[琪露诺的和平]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452168,
-  "key": "arcWeapDEUnique_0600698D#WEAP:FULL#06b66c9f9a34637c6b70d9440bd0121e",
-  "original": "Twin Fang",
-  "translation": "[双生毒牙]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452337,
-  "key": "arcWeapDE_06000DC5#WEAP:FULL#0685b975f7ea6e09d3972ee3007a42f7",
-  "original": ".44 Pistol",
-  "translation": ".44手枪(Desert Eagle)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452242,
-  "key": "arcWeapDupletU1_06048EE6#WEAP:FULL#5238f28ccb49ee15708f54a2c29f9e62",
-  "original": "Force O' Nature",
-  "translation": "[自然之力]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452266,
-  "key": "arcWeapDupletU2_0605D76C#WEAP:FULL#9c4298fae1edbc06652fa3471b5879a3",
-  "original": "Science Project",
-  "translation": "[科学计划]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452210,
-  "key": "arcWeapDuplet_06032289#WEAP:FULL#842e8511632dc389793eb157638695fa",
-  "original": "Pipe Shotgun",
-  "translation": "双管霰弹枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452249,
-  "key": "arcWeapElectroSledge_060559F4#WEAP:FULL#3ff842d266a7070f81ae0d55d036e1db",
-  "original": "Electro Sledge",
-  "translation": "电动大锤",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452250,
-  "key": "arcWeapElectroSledge_060559F4#WEAP:VANM#c43a674c6617b81d94b5b9ed490460d9",
-  "original": "Mauler",
-  "translation": "猛击",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452300,
-  "key": "arcWeapFranken50U1_0606E49A#WEAP:FULL#7e4b0d6b600617b90df47afed6abd3c0",
-  "original": "Stanton's Rage",
-  "translation": "[斯坦顿的怒火]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452295,
-  "key": "arcWeapFranken50_0606D8A5#WEAP:FULL#5f3926fa63e4408a88ae0b10f50e0c08",
-  "original": "Anti-Armor Rifle",
-  "translation": "反装甲步枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452264,
-  "key": "arcWeapFrankenSten_0605D76A#WEAP:FULL#a7647859a3bad07cd06242347e359e8f",
-  "original": "Antique Submachine Gun",
-  "translation": "古董冲锋枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452184,
-  "key": "arcWeapFrankenUnique1_0600DC3C#WEAP:FULL#ddc5bb11fb0bb40f196fbfec523f2f63",
-  "original": "Rye's Caravaneer",
-  "translation": "[黑麦商队]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452325,
-  "key": "arcWeapFrankenUnique2_0607E56A#WEAP:FULL#c38461254dbc64efa7687842ef18042e",
-  "original": "Liquidator",
-  "translation": "[清算人]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452166,
-  "key": "arcWeapFranken_0600444D#WEAP:FULL#335f15ac691a1ccbf6aafd4149c6fbd0",
-  "original": "Defense Submachine Gun",
-  "translation": "防卫冲锋枪(Sten)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452228,
-  "key": "arcWeapG3U1_06045F13#WEAP:FULL#4324756b8cdb5d125213abd11a42e3b0",
-  "original": "Precision Sniper Rifle",
-  "translation": "[精确狙击步枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452229,
-  "key": "arcWeapG3U2_06045F14#WEAP:FULL#975afe93ead0ded299173bcee2c4f371",
-  "original": "Der Bullenwelpe",
-  "translation": "[牛头梗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452219,
-  "key": "arcWeapG3_06042945#WEAP:FULL#2a315a9cc2b5f3872b0d582cb59ed051",
-  "original": "Marine Assault Rifle",
-  "translation": "海军陆战队突击步枪(G3)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452293,
-  "key": "arcWeapGlockU1_0606D2AB#WEAP:FULL#0fbc1b054a7f924e9d2b775f6fb0d716",
-  "original": "Bochii The Glock",
-  "translation": "[孤独格洛克]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452298,
-  "key": "arcWeapGlockU2_0606DEA0#WEAP:FULL#4c1d42ba8083302e797fa3e3af11aa03",
-  "original": "Big Chungus",
-  "translation": "[大番薯]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452324,
-  "key": "arcWeapGlockU3_0607E569#WEAP:FULL#94eb5b82b9ce6e87737f987ac86d7221",
-  "original": "Glockinator",
-  "translation": "[格洛克制造者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452303,
-  "key": "arcWeapGlockU4_0606FCD4#WEAP:FULL#385306e97598c15ddc5c7c3638f26771",
-  "original": "Rapid Response",
-  "translation": "[快速响应]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452247,
-  "key": "arcWeapGlock_0605480A#WEAP:FULL#72b55797d680a22c3bc1ce206aad3bdb",
-  "original": "9mm Police Pistol",
-  "translation": "9mm警用手枪(Glock)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452199,
-  "key": "arcWeapHybrid_0602517F#WEAP:FULL#51f43bd7ec285c25353fa9d979d9f985",
-  "original": "Valkyrie",
-  "translation": "女武神",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452262,
-  "key": "arcWeapKABARSwordUnique_0605D769#WEAP:FULL#4e26b84498278baf12c39c68e4132933",
-  "original": "Masamune",
-  "translation": "[正宗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452263,
-  "key": "arcWeapKABARSwordUnique_0605D769#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
-  "original": "Back Slash",
-  "translation": "反劈",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452260,
-  "key": "arcWeapKABARSword_0605D768#WEAP:FULL#d8d045c4c30739b8d2ccf7b0020b4aca",
-  "original": "Marine Combat Sword",
-  "translation": "海军陆战队战斗剑",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452261,
-  "key": "arcWeapKABARSword_0605D768#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
-  "original": "Back Slash",
-  "translation": "反劈",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452206,
-  "key": "arcWeapKS23SU1_0602C301#WEAP:FULL#9aa6c6ab3377ed2131aa40ed623605a7",
-  "original": "Kasey",
-  "translation": "[凯西]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452176,
-  "key": "arcWeapKS23S_0600A00A#WEAP:FULL#5a2608700e6b73f9d80874c868d2cc28",
-  "original": "Mercenary Shotgun",
-  "translation": "佣兵霰弹枪(KS-23)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452175,
-  "key": "arcWeapKS23_06009770#WEAP:FULL#c78d9eb9d3ca0d47583d0993832d22c0",
-  "original": "25mm Grenade Launcher",
-  "translation": "25mm榴弹发射器(KS-23)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452258,
-  "key": "arcWeapKnife1Unique_0605D767#WEAP:FULL#bcb879c9585ec374f1cf965195345865",
-  "original": "Enclave Plasma Cutter",
-  "translation": "[英克雷等离子切割器]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452259,
-  "key": "arcWeapKnife1Unique_0605D767#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
-  "original": "Back Slash",
-  "translation": "反劈",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452232,
-  "key": "arcWeapKnife1_060470FF#WEAP:FULL#a9e5882330a6272ae0ab0b2ccc913b1f",
-  "original": "Marine Combat Knife",
-  "translation": "海军陆战队作战刀(Ka-bar)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452233,
-  "key": "arcWeapKnife1_060470FF#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
-  "original": "Back Slash",
-  "translation": "反劈",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452234,
-  "key": "arcWeapKnife2_06047100#WEAP:FULL#23bb5ba44760805d4ddfe79b445d98ac",
-  "original": "Mercenary Combat Knife",
-  "translation": "佣兵作战刀",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452235,
-  "key": "arcWeapKnife2_06047100#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
-  "original": "Back Slash",
-  "translation": "反劈",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452297,
-  "key": "arcWeapL85LSWU1_0606D8EE#WEAP:FULL#451d7fdc8917e83227fc56de6c8f9841",
-  "original": "California Star",
-  "translation": "[加州之星]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452275,
-  "key": "arcWeapL85LSW_0605E39A#WEAP:FULL#6f510307ab4b4cbbf523c7a392b9c227",
-  "original": "Bullpup Light Machinegun",
-  "translation": "无托轻机枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452230,
-  "key": "arcWeapM14U1_06045F15#WEAP:FULL#917cf9b24439fbed9855bbf408e8931a",
-  "original": "Atticus",
-  "translation": "阿提卡斯",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452218,
-  "key": "arcWeapM14_06042944#WEAP:FULL#fd6660f935f25fc9bd9df721c1c3ee28",
-  "original": "Enhanced Battle Rifle",
-  "translation": "增强型战斗步枪(M14)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452280,
-  "key": "arcWeapMMRU1_0605E989#WEAP:FULL#1e2d0903bf8d8d1833fbab2c1df5a0f4",
-  "original": "Vintorez",
-  "translation": "[文托列兹]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452182,
-  "key": "arcWeapMMR_0600D95D#WEAP:FULL#f7b92a90d18ab216d522b378c15d6665",
-  "original": "Mercenary Marksman's Rifle",
-  "translation": "佣兵神射手步枪(As-Val)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452251,
-  "key": "arcWeapMP153U1_060577CE#WEAP:FULL#a1a0ee944bbe9ec11050d60af755f308",
-  "original": "Thunderclap",
-  "translation": "[霹雳]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452252,
-  "key": "arcWeapMP153U2_060577CF#WEAP:FULL#5489a3424513e0051798c9b9abf41b72",
-  "original": "Old Country Cleaner",
-  "translation": "[故国清洁工]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452253,
-  "key": "arcWeapMP153U3_060577D0#WEAP:FULL#e422735dc5833cccb6e5e8512863435b",
-  "original": "Pull!",
-  "translation": "[扣动！]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452315,
-  "key": "arcWeapMP153U4_06078091#WEAP:FULL#b82904f75a6cdd4b6720bd1b97d0bd44",
-  "original": "Bursting In Air",
-  "translation": "[空中爆裂]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452248,
-  "key": "arcWeapMP153_0605480B#WEAP:FULL#883ec229f711ba621b31dde662b30ae9",
-  "original": "Field Shotgun",
-  "translation": "野战霰弹枪(Mp-153)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452240,
-  "key": "arcWeapMP5U1_06047CFC#WEAP:FULL#b5a3d37e65ee104cd9e633bfd4e218b6",
-  "original": "Cleaner's Submachinegun",
-  "translation": "[清洁工的微型冲锋枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452288,
-  "key": "arcWeapMP5U2_06069100#WEAP:FULL#85150fcd9feb725d21546cc487821dba",
-  "original": "Kitten",
-  "translation": "[小猫]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452220,
-  "key": "arcWeapMP5_06042946#WEAP:FULL#62a3fba532c733c5df2314470539a6b8",
-  "original": "Police Submachine Gun",
-  "translation": "警用冲锋枪(MP5)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452320,
-  "key": "arcWeapMP7U1_0607C78B#WEAP:FULL#d7aacc321903a7a7c305a977b83e6902",
-  "original": "Civil Protector",
-  "translation": "[公民保护者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452319,
-  "key": "arcWeapMP7_0607C789#WEAP:FULL#87fa42ee1f86184ecc1a27450748b4b9",
-  "original": "5mm Submachine Gun",
-  "translation": "5mm冲锋枪(MP7)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452172,
-  "key": "arcWeapMRUnique1_0600807F#WEAP:FULL#a6e7dd7c419ae6277715813fa65187a2",
-  "original": "Zastava",
-  "translation": "[红旗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452186,
-  "key": "arcWeapMRUnique2_06011917#WEAP:FULL#4e5da376b5f929aedf07a054735a79df",
-  "original": "Warlord",
-  "translation": "[战争领主]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452326,
-  "key": "arcWeapMRUnique3_0607E56B#WEAP:FULL#cf3d47971c1c70de0bed294f1d6d8c9f",
-  "original": "Charcoalov",
-  "translation": "[恰尔科洛夫]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452164,
-  "key": "arcWeapMR_06001386#WEAP:FULL#c0f0ab1be3847515a7315a595005b353",
-  "original": "Mercenary Rifle",
-  "translation": "佣兵步枪(AK47)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452329,
-  "key": "arcWeapMSRU1_06081B4B#WEAP:FULL#cada3adcf53bd02e5b8f0301836cbe80",
-  "original": "Bitter Memory",
-  "translation": "[苦涩回忆]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452306,
-  "key": "arcWeapMSRU2_0606FCD8#WEAP:FULL#59152f49abdda5308338e6abe4a4e3d8",
-  "original": "Heilong",
-  "translation": "[黑龙]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452327,
-  "key": "arcWeapMSR_0607E56C#WEAP:FULL#b945c665201677999c15488db5b80fb4",
-  "original": "Mercenary Sniper Rifle",
-  "translation": "雇佣兵狙击步枪(SVD)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452276,
-  "key": "arcWeapMac10U1_0605E39B#WEAP:FULL#0afc7befaad7a699265d0c448f399c6d",
-  "original": "Plissken's Escape",
-  "translation": "[普林斯肯大逃亡]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452321,
-  "key": "arcWeapMac10_0607DF6C#WEAP:FULL#2bbeaa17390bc745ff9ff98751dedfad",
-  "original": "Compact .45 Submachine Gun",
-  "translation": "紧凑型.45冲锋枪(Mac-10)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452198,
-  "key": "arcWeapMakarovU2_060233C7#WEAP:FULL#8576ccff730f15b795c96c6eb63c185b",
-  "original": "Amestrian Sidearm",
-  "translation": "[亚美斯多利斯手枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452246,
-  "key": "arcWeapMakarovU3_06053C19#WEAP:FULL#e14a92c49fce4ef95108aa0b8b01db45",
-  "original": "Sneaki Breeki",
-  "translation": "[奥利给]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452189,
-  "key": "arcWeapMakarovUnique1_06013574#WEAP:FULL#03839d4121a2a0aaaacc269c69216fa6",
-  "original": "Comrades In Arms",
-  "translation": "[同袍]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452188,
-  "key": "arcWeapMakarov_060130B8#WEAP:FULL#96e659100825d64e654cb3c885ce2984",
-  "original": "Smuggler's Pistol",
-  "translation": "走私者手枪(Makarov)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452308,
-  "key": "arcWeapMakeshiftAMR_06073EC6#WEAP:FULL#4478237bbb970c1c463a1123152fd260",
-  "original": "Makeshift Anti-Materiel Rifle",
-  "translation": "简易反器材步枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452177,
-  "key": "arcWeapMarineUnique1_0600A2E8#WEAP:FULL#e840726a06e9b6122e8561ea6f8fd481",
-  "original": "Baja Campaign Rifle",
-  "translation": "[巴哈战役步枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452185,
-  "key": "arcWeapMarineUniqueDM_06010178#WEAP:FULL#ff7e927187fa7e74f07134cdeb112851",
-  "original": "Police Carbine",
-  "translation": "[警用卡宾枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452187,
-  "key": "arcWeapMarineUniqueDMb_0601228A#WEAP:FULL#374ebb73e162508d3aa5ab5c643e1211",
-  "original": "Mojave Campaign Rifle",
-  "translation": "[莫哈维战役步枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452163,
-  "key": "arcWeapMarine_06000DC6#WEAP:FULL#875d5301e26d9172782aba68945644a9",
-  "original": "Marine Carbine",
-  "translation": "海军卡宾枪(Colt M4A1)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452239,
-  "key": "arcWeapMauserAutoU1_06047CFB#WEAP:FULL#a386abd1bd5c7c9d04e3a8210d31c926",
-  "original": "Captain Lewis' Survival Rifle",
-  "translation": "[刘易斯上尉的生存步枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452216,
-  "key": "arcWeapMauserAuto_0603BDCC#WEAP:FULL#4192b60c1064e3eebd24c884f81e37ad",
-  "original": "Chinese Machine Pistol",
-  "translation": "中式自动手枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452241,
-  "key": "arcWeapMauserU1_060488ED#WEAP:FULL#248492ad1884ce1068401a939e6a20b7",
-  "original": "Jinzi",
-  "translation": "[金子]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452254,
-  "key": "arcWeapMauserU2_0605CB74#WEAP:FULL#86ebbb39480f82d06f428b52f5870428",
-  "original": "Freedom's Wing",
-  "translation": "[自由之翼]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452255,
-  "key": "arcWeapMauserU3_0605CB75#WEAP:FULL#2d2bcab3a6b53a049d269533ebf798d8",
-  "original": "Keyring Pistol",
-  "translation": "[手枪钥匙扣]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452256,
-  "key": "arcWeapMauserU4_0605CB76#WEAP:FULL#6d219beedb9f14e75953bb38a43e9cdd",
-  "original": "Millenium Smuggler",
-  "translation": "[千年走私者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452209,
-  "key": "arcWeapMauser_06031698#WEAP:FULL#fff53689c57e07ac19df5899c99f07b4",
-  "original": "Chinese Pistol",
-  "translation": "中式手枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452244,
-  "key": "arcWeapOTSU1_0604D69D#WEAP:FULL#8f627f5b72f54eb86ead1576f1e48d67",
-  "original": "Tempest",
-  "translation": "[暴风雨]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452238,
-  "key": "arcWeapOTS_06047701#WEAP:FULL#bdcacd531ec48a791a2bb70e00f10837",
-  "original": ".45 Machine Pistol",
-  "translation": ".45自动手枪(Ots 33)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452279,
-  "key": "arcWeapP220U1_0605E988#WEAP:FULL#2ba5506fb56448ed29db1e05a9174a6b",
-  "original": "Last Stand",
-  "translation": "[最后的抵抗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452278,
-  "key": "arcWeapP220U2_0605E39D#WEAP:FULL#8ca93c52ffc0d6720b59f2ae7c77582c",
-  "original": "Dagger Custom",
-  "translation": "[短剑习俗]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452277,
-  "key": "arcWeapP220U3_0605E39C#WEAP:FULL#c68701add397937cfac49fc76615af01",
-  "original": "P220 Unique Copper",
-  "translation": "[P220独特铜]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452274,
-  "key": "arcWeapP220_0605E38F#WEAP:FULL#253262ad6c6bb85f216ff0173d3f8e48",
-  "original": "Paratrooper Pistol",
-  "translation": "伞兵手枪(P220)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452197,
-  "key": "arcWeapPJU1_06021C76#WEAP:FULL#f15c9539e2ec90cfbab345290ad7a703",
-  "original": "Redline",
-  "translation": "[红线]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452332,
-  "key": "arcWeapPJ_06000AE2#WEAP:FULL#839ff3abe6e70aa091ac33295d2cc7fc",
-  "original": "Bullpup Combat Shotgun",
-  "translation": "无托战斗霰弹枪(MK3-A2)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452214,
-  "key": "arcWeapPKMU1_060399FA#WEAP:FULL#97bc1089d4bad43ad1dfeaa9e7e5a71b",
-  "original": "PkWMG",
-  "translation": "[Pk通用机枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452217,
-  "key": "arcWeapPKMU2_0603D5B0#WEAP:FULL#5db60a9d3c075dbf397ed9e505f2ae68",
-  "original": "PKnyan",
-  "translation": "[PK喵]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452289,
-  "key": "arcWeapPKMU3_0606A324#WEAP:FULL#0420e23234013a8cdb1b745b782cfb8e",
-  "original": "Heat of Reaction",
-  "translation": "[反应热]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452212,
-  "key": "arcWeapPKM_06037C1D#WEAP:FULL#e8d1cab4e75d92da384e7e6061e2284d",
-  "original": "Mercenary's Machinegun",
-  "translation": "佣兵机枪(PKM)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452285,
-  "key": "arcWeapPPKU1_0606319B#WEAP:FULL#ae931c262241ed963792843d6bdf2628",
-  "original": "The Delivered",
-  "translation": "[履行诺言]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452292,
-  "key": "arcWeapPPKU2_0606C102#WEAP:FULL#1a6eea330c0339b8bea23afc458eb330",
-  "original": "Megatron",
-  "translation": "[威震天]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452328,
-  "key": "arcWeapPPK_06081553#WEAP:FULL#8048c9bb26e6948189f270959c70cb23",
-  "original": ".22 Pistol",
-  "translation": ".22手枪(PPK)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452171,
-  "key": "arcWeapPSRU1_0600722B#WEAP:FULL#47b4ad79a7444d32994297c05d05583d",
-  "original": "Lobrez",
-  "translation": "[制式修剪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452194,
-  "key": "arcWeapPSRU2_060185CD#WEAP:FULL#93dbc6d5445ebc68ff454ac79edb99cb",
-  "original": "Death's Whisper",
-  "translation": "[死神的轻语]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452336,
-  "key": "arcWeapPSR_06000DC3#WEAP:FULL#52f1b1ae651e5189a44edae14e3f479d",
-  "original": "Police Sniper Rifle",
-  "translation": "警用狙击步枪(L96A1)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452196,
-  "key": "arcWeapPoliceShotgunU1_0601F3A7#WEAP:FULL#ad1d6d320b5d9041e8042ef807000049",
-  "original": "Searchlight Breacher",
-  "translation": "[探照灯破坏者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452203,
-  "key": "arcWeapPoliceShotgunU2_06029334#WEAP:FULL#d7b2cfa819d8ceaa9fa49ea42d56d843",
-  "original": "Lawn Defender 5000",
-  "translation": "[草坪卫士5000]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452323,
-  "key": "arcWeapPoliceShotgunU3_0607E568#WEAP:FULL#fb34000d9109903285363f9593117ec1",
-  "original": "Kiss Of Death",
-  "translation": "死亡之吻",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452311,
-  "key": "arcWeapPoliceShotgunU4_060768AC#WEAP:FULL#209ec99a6ae469309203fb23a9312524",
-  "original": "Stakeout",
-  "translation": "[监视]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452331,
-  "key": "arcWeapPoliceShotgun_06000AE0#WEAP:FULL#79fb706b5bb1b7b76acd2f33338fb58a",
-  "original": "Police Shotgun",
-  "translation": "警用霰弹枪(M37)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452309,
-  "key": "arcWeapRPGU1_06074ABD#WEAP:FULL#fe2a34b635d0fe96c7af5243fcc8f0e6",
-  "original": "Market Gardener",
-  "translation": "[市场园丁]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452307,
-  "key": "arcWeapRPG_06070285#WEAP:FULL#abed096344895b02cce174a9d2703c3e",
-  "original": "Mercenary Rocket Launcher",
-  "translation": "雇佣兵火箭筒",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452317,
-  "key": "arcWeapSR25U1_0607B64D#WEAP:FULL#c27717235ec29f9a8f5fc049b957770f",
-  "original": "Red Eye",
-  "translation": "红眼",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452316,
-  "key": "arcWeapSR25_0607B64C#WEAP:FULL#cce2bb4cd47c92df3d584273400dc34b",
-  "original": "Marine Marksman Rifle",
-  "translation": "海军陆战队射手步枪(SR-25)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452204,
-  "key": "arcWeapSRU1_0602992D#WEAP:FULL#b097e742d08138b5f4e4d0c2cfcef940",
-  "original": "Colt Anaconda",
-  "translation": "[柯尔特巨蟒左轮]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452205,
-  "key": "arcWeapSRU2_0602992E#WEAP:FULL#7e914f2de0b2477ad81e6471d47ccdee",
-  "original": "Molerat Runner",
-  "translation": "[狂奔鼹鼠]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452200,
-  "key": "arcWeapSR_06025D72#WEAP:FULL#f7b7b6d5ded180335b3f6a5350072ed4",
-  "original": "Service Revolver",
-  "translation": "制式左轮(Model 10)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452245,
-  "key": "arcWeapSaigaU1_0604D6A0#WEAP:FULL#2031eb9591f176745835281b2b2c2404",
-  "original": "RockSalt",
-  "translation": "洛克索特",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452305,
-  "key": "arcWeapSaigaU2_0606FCD7#WEAP:FULL#333d0e0e6d30b9f13e8319cbfbae3c23",
-  "original": "Survivalist's Shotgun",
-  "translation": "[生存主义者的霰弹枪]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452222,
-  "key": "arcWeapSaiga_06044D25#WEAP:FULL#f6d99d248ef22196bfe342bc858f161c",
-  "original": "Mercenary Assault Shotgun",
-  "translation": "佣兵突击霰弹枪(Saiga)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452243,
-  "key": "arcWeapScoutU1_0604D09D#WEAP:FULL#7336b3cb122b32ad1126b0e289d88478",
-  "original": "Woodland Hunter Express",
-  "translation": "[林地猎人快递]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452226,
-  "key": "arcWeapScout_06044D29#WEAP:FULL#28131dc5d677aef53a531136dac6baa1",
-  "original": "Scout Rifle",
-  "translation": "侦察步枪(Steyr Scout)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452224,
-  "key": "arcWeapTRU1_06044D27#WEAP:FULL#a861e25cc418280c100891b15ed08799",
-  "original": "Million Knives' Hand",
-  "translation": "[百万利刃之手]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452225,
-  "key": "arcWeapTRU2_06044D28#WEAP:FULL#60aef5ddd36964fbd4dcb89eee5f40af",
-  "original": "Rex",
-  "translation": "雷克斯",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452213,
-  "key": "arcWeapTR_06038216#WEAP:FULL#559fb97031be46f87f2e579fb81161f5",
-  "original": "Auto Revolver",
-  "translation": "自动左轮手枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452236,
-  "key": "arcWeapThrow1_06047103#WEAP:FULL#ef4b46bfade1cbc19109d2ffb78439eb",
-  "original": "Throwing Combat Knife",
-  "translation": "投掷战斗刀",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452237,
-  "key": "arcWeapThrow2_06047104#WEAP:FULL#9bf751352472b805294f429ef3dc349f",
-  "original": "Throwing Stiletto Knife",
-  "translation": "投掷锥刺匕首",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452173,
-  "key": "arcWeapTokarevUnique1_06008BFA#WEAP:FULL#4d803ffc9b03fa4d6689c693e976dc51",
-  "original": "Zipper",
-  "translation": "[拉链]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452310,
-  "key": "arcWeapTokarevUnique2_060762B2#WEAP:FULL#b4f8b8b78c03e3d71f8c8b800201f583",
-  "original": "Tooookarev",
-  "translation": "[托哦哦哦卡列夫]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452333,
-  "key": "arcWeapTokarev_06000AE3#WEAP:FULL#1f9a09d96995b25f5720703e45ddecc0",
-  "original": "Mercenary Pistol",
-  "translation": "佣兵手枪(Tokarev)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452192,
-  "key": "arcWeapUspU1_06014D16#WEAP:FULL#328e359ec0a4214ff15451b2e86700ed",
-  "original": "Laszlo",
-  "translation": "[拉兹洛]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452304,
-  "key": "arcWeapUspU2_0606FCD5#WEAP:FULL#8ef77e9db21ca10a80b2317912eb4850",
-  "original": "Snakelore",
-  "translation": "[巨蛇传说]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452191,
-  "key": "arcWeapUsp_06014D15#WEAP:FULL#0f06a559fe266a3746bab9e3380a81ce",
-  "original": ".45 Tactical Pistol",
-  "translation": ".45战术手枪(Usp)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452195,
-  "key": "arcWeapUziU1_0601E7FB#WEAP:FULL#d68c2f14c584c1e7998cc752c7579c82",
-  "original": "Drug Runner",
-  "translation": "[运毒者]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452299,
-  "key": "arcWeapUziU2_0606E499#WEAP:FULL#e11180e3742cc30425cd7e73f7a03c35",
-  "original": "Cyber Dream",
-  "translation": "[赛博梦境]",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452334,
-  "key": "arcWeapUzi_06000AE4#WEAP:FULL#15b9038c675c9715fb7f2e66b65bca38",
-  "original": "Mercenary Submachine Gun",
-  "translation": "佣兵机枪(Uzi)",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452129,
-  "key": "arcrenamingScript_06037623#SCPT:SCDA#237c5382852df7b560d9668fdb3788c3",
-  "original": "5.56 Hunting Rifle",
-  "translation": "5. 56 猎枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452128,
-  "key": "arcrenamingScript_06037623#SCPT:SCDA#8fd6867f3aea8d6ae7ea1ba2cdcdc3db",
-  "original": ".308 Assault Rifle",
-  "translation": ". 308 突击步枪",
-  "stage": 1,
-  "context": null
- },
- {
-  "id": 629452130,
-  "key": "arcrenamingScript_06037623#SCPT:SCDA#a35049bea167f590dab5fc49c4a34d2d",
-  "original": "M-10",
-  "translation": "M-10研究中心",
-  "stage": 1,
-  "context": null
- }
+  {
+    "key": "MP7LaunhcerBaseEffect_060714F4#MGEF:FULL#0e22005973d59e56beb0a0100e28764d",
+    "original": "Underbarrel 25mm Grenade Launcher (Default Button is B)",
+    "translation": "25毫米枪管下榴弹发射器(默认按键为B)",
+    "stage": 1
+  },
+  {
+    "key": "arcrenamingScript_06037623#SCPT:SCDA#8fd6867f3aea8d6ae7ea1ba2cdcdc3db",
+    "original": ".308 Assault Rifle",
+    "translation": ". 308 突击步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcrenamingScript_06037623#SCPT:SCDA#237c5382852df7b560d9668fdb3788c3",
+    "original": "5.56 Hunting Rifle",
+    "translation": "5. 56 猎枪",
+    "stage": 1
+  },
+  {
+    "key": "arcrenamingScript_06037623#SCPT:SCDA#a35049bea167f590dab5fc49c4a34d2d",
+    "original": "M-10",
+    "translation": "M-10研究中心",
+    "stage": 1
+  },
+  {
+    "key": "arcEnchHitHeat_0600CDE4#ENCH:FULL#f7d86b964e789d254fd6e2c84ee855e5",
+    "original": "Burning",
+    "translation": "燃烧",
+    "stage": 1
+  },
+  {
+    "key": "AMmcgQuickdrawSpell_0605D775#SPEL:FULL#56cfa25fc696779446a3cbfa72002861",
+    "original": "Swap",
+    "translation": "切换",
+    "stage": 1
+  },
+  {
+    "key": "MasamuneACTI_0606379B#ACTI:FULL#4e26b84498278baf12c39c68e4132933",
+    "original": "Masamune",
+    "translation": "正宗",
+    "stage": 1
+  },
+  {
+    "key": "arcShinraSuit_06064394#ARMO:FULL#8934a424037eb5f2007fcbdc62194b2f",
+    "original": "President Shinra's Suit",
+    "translation": "辛总统的套装",
+    "stage": 1
+  },
+  {
+    "key": "arcFootlocker01_0605B980#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
+    "original": "Footlocker",
+    "translation": "脚柜",
+    "stage": 1
+  },
+  {
+    "key": "arcTestAmmo_0605E3C7#CONT:FULL#501f1a4a511fdbbe5e2e7d6bb906fce3",
+    "original": "Ammo",
+    "translation": "弹药",
+    "stage": 1
+  },
+  {
+    "key": "arcTestEnergy_0605E3C8#CONT:FULL#83acab72e45bcb85f26a6d49b83d9725",
+    "original": "Energy Ammo",
+    "translation": "能量弹药",
+    "stage": 1
+  },
+  {
+    "key": "arcTestExplosives_0605E3C9#CONT:FULL#be1697510d6e93a582a7a8fd369fe90f",
+    "original": "Explosives Ammo",
+    "translation": "爆破弹药",
+    "stage": 1
+  },
+  {
+    "key": "arcTestChest_0605E3CA#CONT:FULL#32500b66f522382a6278fd47d8abcf33",
+    "original": "Weapons",
+    "translation": "武器",
+    "stage": 1
+  },
+  {
+    "key": "arcTestVanillaMods_0605E3CB#CONT:FULL#aaaed6055506b26dfa64ba5382090741",
+    "original": "Vanilla Mods",
+    "translation": "原版模组",
+    "stage": 1
+  },
+  {
+    "key": "arcTestChestU_0605E3CC#CONT:FULL#640438a0654ce1e1cea942d2f882ba02",
+    "original": "Unique Weapons",
+    "translation": "独特武器",
+    "stage": 1
+  },
+  {
+    "key": "arcTestMods_0605E3CD#CONT:FULL#15bb5295de6d1cf73c1ed2523f528012",
+    "original": "Mods",
+    "translation": "模组",
+    "stage": 1
+  },
+  {
+    "key": "arcStantonsRageCONT_0606318F#CONT:FULL#5b9e963190bccfbf71c7bf80bda38d92",
+    "original": "Military Shipping Crate",
+    "translation": "军用板条装运箱",
+    "stage": 1
+  },
+  {
+    "key": "arcCheatChest_06071A6C#CONT:FULL#da43259a647d02c9b8672c6a10e9cbad",
+    "original": "Cheat chest",
+    "translation": "作弊箱子",
+    "stage": 1
+  },
+  {
+    "key": "arcRPGGrave_060756C0#CONT:FULL#2a3703da3cc6618565d4fcc18a2b8f52",
+    "original": "Grave",
+    "translation": "坟墓",
+    "stage": 1
+  },
+  {
+    "key": "arcFootlocker02_06081B4A#CONT:FULL#829353606cfafdc574bf8718e8277f0a",
+    "original": "Footlocker",
+    "translation": "脚柜",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomR_06025D74#IMOD:FULL#a255b8c233882c18cb0c1f6dc4c87711",
+    "original": "Custom Rifle Parts",
+    "translation": "定制步枪部件",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomR_06025D74#IMOD:DESC#d34655c4e1dc7d0cb226c91c12f91f5b",
+    "original": "A magic box full of rifle parts!",
+    "translation": "一个装满步枪零件的魔法盒子！",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomS_060066AC#IMOD:FULL#75a1aed998fa93fca41a318531e4f598",
+    "original": "Custom Shotgun Parts",
+    "translation": "定制霰弹枪部件",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomS_060066AC#IMOD:DESC#7f59654be06e39615b716b5de4dcdbd6",
+    "original": "A magical box that changes your shotgun!",
+    "translation": "一个装满霰弹枪零件的魔法盒子！",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomH_06000ADD#IMOD:FULL#87d8a7eb9476eb28c14d53dd67be6de4",
+    "original": "Custom Handgun Parts",
+    "translation": "定制手枪部件",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomH_06000ADD#IMOD:DESC#77c67c3b8cc2ecb6baba397128461bdc",
+    "original": "Increases condition (+50%).",
+    "translation": "提升耐久 (+50%)。",
+    "stage": 1
+  },
+  {
+    "key": "arcModSideSaddle_06000ADF#IMOD:FULL#762464f8aa81b042a40071fb29ab3475",
+    "original": "Side Saddle",
+    "translation": "侧鞍",
+    "stage": 1
+  },
+  {
+    "key": "arcModSideSaddle_06000ADF#IMOD:DESC#d4e67f3d2caf07ddf56cde4e352ec6d5",
+    "original": "Increases rate of fire.",
+    "translation": "提升射速。",
+    "stage": 1
+  },
+  {
+    "key": "arcModRedDot_060010A7#IMOD:FULL#8665b3502178f5a1a97940d354b1455a",
+    "original": "Red Dot",
+    "translation": "红点",
+    "stage": 1
+  },
+  {
+    "key": "arcModRedDot_060010A7#IMOD:DESC#0564729d6bab7218182b4aa7a7e05157",
+    "original": "Adds short-range scope.",
+    "translation": "添加短程瞄准镜。",
+    "stage": 1
+  },
+  {
+    "key": "arcModSyntheticS_06012BFD#IMOD:FULL#003565f6465315f3fc6e21b056a290c5",
+    "original": "Synthetic Shotgun Parts",
+    "translation": "合成霰弹枪部件",
+    "stage": 1
+  },
+  {
+    "key": "arcModSyntheticS_06012BFD#IMOD:DESC#b00676cbee13cbcc5c34927c9940930d",
+    "original": "Synthetic parts for shotguns.",
+    "translation": "霰弹枪的合成部件。",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomM_06016E2D#IMOD:FULL#a6c8ff2fe6f3a4b752bea0b22657a348",
+    "original": "Custom Machinegun Parts",
+    "translation": "定制机枪部件",
+    "stage": 1
+  },
+  {
+    "key": "arcModCustomM_06016E2D#IMOD:DESC#0aeea32dd8285b4afca339836673ff81",
+    "original": "A magic box that changes your machinegun!",
+    "translation": "一个装满机枪零件的魔法盒子！",
+    "stage": 1
+  },
+  {
+    "key": "arcModShotgunS_06016E2E#IMOD:FULL#7214329d45cda04209e1d20554c2029f",
+    "original": "Shotgun Suppresor",
+    "translation": "狙击步枪消音器",
+    "stage": 1
+  },
+  {
+    "key": "arcModShotgunS_06016E2E#IMOD:DESC#2fb5a23538293d6b87675ef5460c5ea8",
+    "original": "Reduces weapon noise.",
+    "translation": "减少开枪时发出的声音。",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMarine_06000DC6#WEAP:FULL#875d5301e26d9172782aba68945644a9",
+    "original": "Marine Carbine",
+    "translation": "海军卡宾枪(Colt M4A1)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMR_06001386#WEAP:FULL#c0f0ab1be3847515a7315a595005b353",
+    "original": "Mercenary Rifle",
+    "translation": "佣兵步枪(AK47)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBBR_0600416D#WEAP:FULL#f9e860e1a868a993a2bf274bf0d104b7",
+    "original": "Bullpup Assault Rifle",
+    "translation": "无托突击步枪(Famas)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapFranken_0600444D#WEAP:FULL#335f15ac691a1ccbf6aafd4149c6fbd0",
+    "original": "Defense Submachine Gun",
+    "translation": "防卫冲锋枪(Sten)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCShotgun_060060F2#WEAP:FULL#ae903dec5f2b75945e425f2de8800a71",
+    "original": "Combat Shotgun",
+    "translation": "战斗霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDEUnique_0600698D#WEAP:FULL#06b66c9f9a34637c6b70d9440bd0121e",
+    "original": "Twin Fang",
+    "translation": "[双生毒牙]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCShotgunUnique_06006C6F#WEAP:FULL#87994fa6eefa0d2927e65364dc993112",
+    "original": "Mean Green Machine",
+    "translation": "[金钱机器]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBSRUnique_06006F4D#WEAP:FULL#29ea254db381c894eba14b07f94d207c",
+    "original": "Hitman's Heatmaker",
+    "translation": "[全面狙杀令]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPSRU1_0600722B#WEAP:FULL#47b4ad79a7444d32994297c05d05583d",
+    "original": "Lobrez",
+    "translation": "[制式修剪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMRUnique1_0600807F#WEAP:FULL#a6e7dd7c419ae6277715813fa65187a2",
+    "original": "Zastava",
+    "translation": "[红旗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTokarevUnique1_06008BFA#WEAP:FULL#4d803ffc9b03fa4d6689c693e976dc51",
+    "original": "Zipper",
+    "translation": "[拉链]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap92FSUnique1_06008BFB#WEAP:FULL#9f3e1348f117799a20af0ed3edf6512f",
+    "original": "Cutlass Customs",
+    "translation": "[短剑风俗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKS23_06009770#WEAP:FULL#c78d9eb9d3ca0d47583d0993832d22c0",
+    "original": "25mm Grenade Launcher",
+    "translation": "25mm榴弹发射器(KS-23)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKS23S_0600A00A#WEAP:FULL#5a2608700e6b73f9d80874c868d2cc28",
+    "original": "Mercenary Shotgun",
+    "translation": "佣兵霰弹枪(KS-23)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMarineUnique1_0600A2E8#WEAP:FULL#e840726a06e9b6122e8561ea6f8fd481",
+    "original": "Baja Campaign Rifle",
+    "translation": "[巴哈战役步枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBBRUnique1_0600C26B#WEAP:FULL#42a1e5ead044ef6782eb08ca2fe9d32e",
+    "original": "Prototype Enclave Battle Rifle",
+    "translation": "[英克雷原型战斗步枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBSRUnique2_0600D0C3#WEAP:FULL#95603b9464eb7b28272ef6a6aeb59a02",
+    "original": "Why2000",
+    "translation": "[Why2000]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDEUnique2_0600D3A1#WEAP:FULL#fd4b6e52e7a354c1c632cae776dc702e",
+    "original": "The Enforcer",
+    "translation": "[执法者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCShotgunUnique2_0600D3A2#WEAP:FULL#8e24bae51f945c883c283b5df97908e7",
+    "original": "Power Washed",
+    "translation": "[高压清洗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMMR_0600D95D#WEAP:FULL#f7b92a90d18ab216d522b378c15d6665",
+    "original": "Mercenary Marksman's Rifle",
+    "translation": "佣兵神射手步枪(As-Val)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap92FSUnique2_0600DC3B#WEAP:FULL#66df5a12c4fa4f9003c7242d8510f058",
+    "original": "Elite Service Pistol",
+    "translation": "[精英制式手枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapFrankenUnique1_0600DC3C#WEAP:FULL#ddc5bb11fb0bb40f196fbfec523f2f63",
+    "original": "Rye's Caravaneer",
+    "translation": "[黑麦商队]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMarineUniqueDM_06010178#WEAP:FULL#ff7e927187fa7e74f07134cdeb112851",
+    "original": "Police Carbine",
+    "translation": "[警用卡宾枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMRUnique2_06011917#WEAP:FULL#4e5da376b5f929aedf07a054735a79df",
+    "original": "Warlord",
+    "translation": "[战争领主]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMarineUniqueDMb_0601228A#WEAP:FULL#374ebb73e162508d3aa5ab5c643e1211",
+    "original": "Mojave Campaign Rifle",
+    "translation": "[莫哈维战役步枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMakarov_060130B8#WEAP:FULL#96e659100825d64e654cb3c885ce2984",
+    "original": "Smuggler's Pistol",
+    "translation": "走私者手枪(Makarov)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMakarovUnique1_06013574#WEAP:FULL#03839d4121a2a0aaaacc269c69216fa6",
+    "original": "Comrades In Arms",
+    "translation": "[同袍]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCShotgunUnique3_060143A0#WEAP:FULL#1d375d1ff52f91a5e2424e49efcac85f",
+    "original": "Cold Heart",
+    "translation": "[冷酷的心]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUsp_06014D15#WEAP:FULL#0f06a559fe266a3746bab9e3380a81ce",
+    "original": ".45 Tactical Pistol",
+    "translation": ".45战术手枪(Usp)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUspU1_06014D16#WEAP:FULL#328e359ec0a4214ff15451b2e86700ed",
+    "original": "Laszlo",
+    "translation": "[拉兹洛]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBren_060164B9#WEAP:FULL#0a32da22763c6f150c2c1e275e036f60",
+    "original": "Paratrooper Machinegun",
+    "translation": "伞兵机枪(Kalashnibren)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPSRU2_060185CD#WEAP:FULL#93dbc6d5445ebc68ff454ac79edb99cb",
+    "original": "Death's Whisper",
+    "translation": "[死神的轻语]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUziU1_0601E7FB#WEAP:FULL#d68c2f14c584c1e7998cc752c7579c82",
+    "original": "Drug Runner",
+    "translation": "[运毒者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPoliceShotgunU1_0601F3A7#WEAP:FULL#ad1d6d320b5d9041e8042ef807000049",
+    "original": "Searchlight Breacher",
+    "translation": "[探照灯破坏者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPJU1_06021C76#WEAP:FULL#f15c9539e2ec90cfbab345290ad7a703",
+    "original": "Redline",
+    "translation": "[红线]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMakarovU2_060233C7#WEAP:FULL#8576ccff730f15b795c96c6eb63c185b",
+    "original": "Amestrian Sidearm",
+    "translation": "[亚美斯多利斯手枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapHybrid_0602517F#WEAP:FULL#51f43bd7ec285c25353fa9d979d9f985",
+    "original": "Valkyrie",
+    "translation": "女武神",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSR_06025D72#WEAP:FULL#f7b7b6d5ded180335b3f6a5350072ed4",
+    "original": "Service Revolver",
+    "translation": "制式左轮(Model 10)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCowboyCarbine_06025D75#WEAP:FULL#c2010b35bfbbe1227b9b64522442b3cf",
+    "original": "Cowboy Carbine",
+    "translation": "牛仔卡宾枪(Mares leg)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBrenU1_06028742#WEAP:FULL#25c9142016ae9301c2beb389cac550a2",
+    "original": "Chop Shop",
+    "translation": "[地下拆车厂]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPoliceShotgunU2_06029334#WEAP:FULL#d7b2cfa819d8ceaa9fa49ea42d56d843",
+    "original": "Lawn Defender 5000",
+    "translation": "[草坪卫士5000]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSRU1_0602992D#WEAP:FULL#b097e742d08138b5f4e4d0c2cfcef940",
+    "original": "Colt Anaconda",
+    "translation": "[柯尔特巨蟒左轮]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSRU2_0602992E#WEAP:FULL#7e914f2de0b2477ad81e6471d47ccdee",
+    "original": "Molerat Runner",
+    "translation": "[狂奔鼹鼠]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKS23SU1_0602C301#WEAP:FULL#9aa6c6ab3377ed2131aa40ed623605a7",
+    "original": "Kasey",
+    "translation": "[凯西]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCowboyCarbineU1_0602C302#WEAP:FULL#2fbc506b2101514f94e4ceafba73401d",
+    "original": "Deathclaw Hunter",
+    "translation": "[死亡爪猎人]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCShotgunUnique4_0602FEB7#WEAP:FULL#90f8825adcc4b8877c6e658b28df54fb",
+    "original": "Jackpot!",
+    "translation": "中头奖了！",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauser_06031698#WEAP:FULL#fff53689c57e07ac19df5899c99f07b4",
+    "original": "Chinese Pistol",
+    "translation": "中式手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDuplet_06032289#WEAP:FULL#842e8511632dc389793eb157638695fa",
+    "original": "Pipe Shotgun",
+    "translation": "双管霰弹枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap93R_06033472#WEAP:FULL#56ac24a9a536c60248663e6bf792a47f",
+    "original": "Burst Pistol",
+    "translation": "爆发手枪(93R)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPKM_06037C1D#WEAP:FULL#e8d1cab4e75d92da384e7e6061e2284d",
+    "original": "Mercenary's Machinegun",
+    "translation": "佣兵机枪(PKM)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTR_06038216#WEAP:FULL#559fb97031be46f87f2e579fb81161f5",
+    "original": "Auto Revolver",
+    "translation": "自动左轮手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPKMU1_060399FA#WEAP:FULL#97bc1089d4bad43ad1dfeaa9e7e5a71b",
+    "original": "PkWMG",
+    "translation": "[Pk通用机枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap93RU1_06039FF3#WEAP:FULL#66a0f2f5faabe4a3cf5a6922a76d6b62",
+    "original": "Impaciente",
+    "translation": "[心浮气躁]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauserAuto_0603BDCC#WEAP:FULL#4192b60c1064e3eebd24c884f81e37ad",
+    "original": "Chinese Machine Pistol",
+    "translation": "中式自动手枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPKMU2_0603D5B0#WEAP:FULL#5db60a9d3c075dbf397ed9e505f2ae68",
+    "original": "PKnyan",
+    "translation": "[PK喵]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapM14_06042944#WEAP:FULL#fd6660f935f25fc9bd9df721c1c3ee28",
+    "original": "Enhanced Battle Rifle",
+    "translation": "增强型战斗步枪(M14)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapG3_06042945#WEAP:FULL#2a315a9cc2b5f3872b0d582cb59ed051",
+    "original": "Marine Assault Rifle",
+    "translation": "海军陆战队突击步枪(G3)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP5_06042946#WEAP:FULL#62a3fba532c733c5df2314470539a6b8",
+    "original": "Police Submachine Gun",
+    "translation": "警用冲锋枪(MP5)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCAWS_06044722#WEAP:FULL#d385c44829dc6ac4c9935d33e9e7180d",
+    "original": "Bullpup Assault Shotgun",
+    "translation": "无托突击霰弹枪(CAWS)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSaiga_06044D25#WEAP:FULL#f6d99d248ef22196bfe342bc858f161c",
+    "original": "Mercenary Assault Shotgun",
+    "translation": "佣兵突击霰弹枪(Saiga)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCowboyCarbineU2_06044D26#WEAP:FULL#753ce25a3df8f9e708910e65d845f00b",
+    "original": "Mare's Leg",
+    "translation": "[马腿]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTRU1_06044D27#WEAP:FULL#a861e25cc418280c100891b15ed08799",
+    "original": "Million Knives' Hand",
+    "translation": "[百万利刃之手]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTRU2_06044D28#WEAP:FULL#60aef5ddd36964fbd4dcb89eee5f40af",
+    "original": "Rex",
+    "translation": "雷克斯",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapScout_06044D29#WEAP:FULL#28131dc5d677aef53a531136dac6baa1",
+    "original": "Scout Rifle",
+    "translation": "侦察步枪(Steyr Scout)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDEUnique3_0604591A#WEAP:FULL#9a8f28e1550e4e87995845712d3109b9",
+    "original": "Cirno's Peace",
+    "translation": "[琪露诺的和平]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapG3U1_06045F13#WEAP:FULL#4324756b8cdb5d125213abd11a42e3b0",
+    "original": "Precision Sniper Rifle",
+    "translation": "[精确狙击步枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapG3U2_06045F14#WEAP:FULL#975afe93ead0ded299173bcee2c4f371",
+    "original": "Der Bullenwelpe",
+    "translation": "[牛头梗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapM14U1_06045F15#WEAP:FULL#917cf9b24439fbed9855bbf408e8931a",
+    "original": "Atticus",
+    "translation": "阿提卡斯",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapCAWSU1_06045F16#WEAP:FULL#c42bd28a02b9318d2ffc455c23581b66",
+    "original": "Desert Storm",
+    "translation": "[沙漠风暴]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKnife1_060470FF#WEAP:FULL#a9e5882330a6272ae0ab0b2ccc913b1f",
+    "original": "Marine Combat Knife",
+    "translation": "海军陆战队作战刀(Ka-bar)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKnife1_060470FF#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKnife2_06047100#WEAP:FULL#23bb5ba44760805d4ddfe79b445d98ac",
+    "original": "Mercenary Combat Knife",
+    "translation": "佣兵作战刀",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKnife2_06047100#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapThrow1_06047103#WEAP:FULL#ef4b46bfade1cbc19109d2ffb78439eb",
+    "original": "Throwing Combat Knife",
+    "translation": "投掷战斗刀",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapThrow2_06047104#WEAP:FULL#9bf751352472b805294f429ef3dc349f",
+    "original": "Throwing Stiletto Knife",
+    "translation": "投掷锥刺匕首",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapOTS_06047701#WEAP:FULL#bdcacd531ec48a791a2bb70e00f10837",
+    "original": ".45 Machine Pistol",
+    "translation": ".45自动手枪(Ots 33)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauserAutoU1_06047CFB#WEAP:FULL#a386abd1bd5c7c9d04e3a8210d31c926",
+    "original": "Captain Lewis' Survival Rifle",
+    "translation": "[刘易斯上尉的生存步枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP5U1_06047CFC#WEAP:FULL#b5a3d37e65ee104cd9e633bfd4e218b6",
+    "original": "Cleaner's Submachinegun",
+    "translation": "[清洁工的微型冲锋枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauserU1_060488ED#WEAP:FULL#248492ad1884ce1068401a939e6a20b7",
+    "original": "Jinzi",
+    "translation": "[金子]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDupletU1_06048EE6#WEAP:FULL#5238f28ccb49ee15708f54a2c29f9e62",
+    "original": "Force O' Nature",
+    "translation": "[自然之力]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapScoutU1_0604D09D#WEAP:FULL#7336b3cb122b32ad1126b0e289d88478",
+    "original": "Woodland Hunter Express",
+    "translation": "[林地猎人快递]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapOTSU1_0604D69D#WEAP:FULL#8f627f5b72f54eb86ead1576f1e48d67",
+    "original": "Tempest",
+    "translation": "[暴风雨]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSaigaU1_0604D6A0#WEAP:FULL#2031eb9591f176745835281b2b2c2404",
+    "original": "RockSalt",
+    "translation": "洛克索特",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMakarovU3_06053C19#WEAP:FULL#e14a92c49fce4ef95108aa0b8b01db45",
+    "original": "Sneaki Breeki",
+    "translation": "[奥利给]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapGlock_0605480A#WEAP:FULL#72b55797d680a22c3bc1ce206aad3bdb",
+    "original": "9mm Police Pistol",
+    "translation": "9mm警用手枪(Glock)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP153_0605480B#WEAP:FULL#883ec229f711ba621b31dde662b30ae9",
+    "original": "Field Shotgun",
+    "translation": "野战霰弹枪(Mp-153)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapElectroSledge_060559F4#WEAP:FULL#3ff842d266a7070f81ae0d55d036e1db",
+    "original": "Electro Sledge",
+    "translation": "电动大锤",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapElectroSledge_060559F4#WEAP:VANM#c43a674c6617b81d94b5b9ed490460d9",
+    "original": "Mauler",
+    "translation": "猛击",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP153U1_060577CE#WEAP:FULL#a1a0ee944bbe9ec11050d60af755f308",
+    "original": "Thunderclap",
+    "translation": "[霹雳]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP153U2_060577CF#WEAP:FULL#5489a3424513e0051798c9b9abf41b72",
+    "original": "Old Country Cleaner",
+    "translation": "[故国清洁工]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP153U3_060577D0#WEAP:FULL#e422735dc5833cccb6e5e8512863435b",
+    "original": "Pull!",
+    "translation": "[扣动！]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauserU2_0605CB74#WEAP:FULL#86ebbb39480f82d06f428b52f5870428",
+    "original": "Freedom's Wing",
+    "translation": "[自由之翼]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauserU3_0605CB75#WEAP:FULL#2d2bcab3a6b53a049d269533ebf798d8",
+    "original": "Keyring Pistol",
+    "translation": "[手枪钥匙扣]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMauserU4_0605CB76#WEAP:FULL#6d219beedb9f14e75953bb38a43e9cdd",
+    "original": "Millenium Smuggler",
+    "translation": "[千年走私者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBBRUnique2_0605D766#WEAP:FULL#3b3fc5d509aa3c3a3117af6a5ddbf9ef",
+    "original": "Duel",
+    "translation": "[决斗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKnife1Unique_0605D767#WEAP:FULL#bcb879c9585ec374f1cf965195345865",
+    "original": "Enclave Plasma Cutter",
+    "translation": "[英克雷等离子切割器]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKnife1Unique_0605D767#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKABARSword_0605D768#WEAP:FULL#d8d045c4c30739b8d2ccf7b0020b4aca",
+    "original": "Marine Combat Sword",
+    "translation": "海军陆战队战斗剑",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKABARSword_0605D768#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKABARSwordUnique_0605D769#WEAP:FULL#4e26b84498278baf12c39c68e4132933",
+    "original": "Masamune",
+    "translation": "[正宗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapKABARSwordUnique_0605D769#WEAP:VANM#6b807a17959076f3407c86834dbe7eea",
+    "original": "Back Slash",
+    "translation": "反劈",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapFrankenSten_0605D76A#WEAP:FULL#a7647859a3bad07cd06242347e359e8f",
+    "original": "Antique Submachine Gun",
+    "translation": "古董冲锋枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBrenU2_0605D76B#WEAP:FULL#9c534d61631aa8a09ac47d4ba81f8787",
+    "original": "Leadstorm",
+    "translation": "[铅弹风暴]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDupletU2_0605D76C#WEAP:FULL#9c4298fae1edbc06652fa3471b5879a3",
+    "original": "Science Project",
+    "translation": "[科学计划]",
+    "stage": 1
+  },
+  {
+    "key": "AMsigM4A1M203Launcher_0605D76D#WEAP:FULL#4e72cd67843fb7b1608675fa3c0ef5f2",
+    "original": "Noobtube(Launcher)",
+    "translation": "菜鸡管(发射器)",
+    "stage": 1
+  },
+  {
+    "key": "AMsigM4A1M203_0605D776#WEAP:FULL#333fcb45f6198864fcf5ccd5dabeb821",
+    "original": "Noobtube",
+    "translation": "菜鸡管",
+    "stage": 1
+  },
+  {
+    "key": "AMsigM4A1M203Equipped_0605D778#WEAP:FULL#99984be7de6d63d9fff113b8b81b7a21",
+    "original": "NoobTube",
+    "translation": "菜鸡管",
+    "stage": 1
+  },
+  {
+    "key": "AMsigTheCommandoEquipped_0605D77A#WEAP:FULL#d09439edf8a57e6d3e6798cc47adda1c",
+    "original": "The Commando",
+    "translation": "敢死队",
+    "stage": 1
+  },
+  {
+    "key": "AMsigTheCommando_0605D77B#WEAP:FULL#d09439edf8a57e6d3e6798cc47adda1c",
+    "original": "The Commando",
+    "translation": "敢死队",
+    "stage": 1
+  },
+  {
+    "key": "AMsigTheCommandoLauncher_0605D77C#WEAP:FULL#a81be2f8b88841e3303fced19f63b967",
+    "original": "The Commando(Launcher)",
+    "translation": "敢死队(发射器)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap1911_0605E38E#WEAP:FULL#3aa548311822997e2d0ef6245c44075d",
+    "original": "Sporting Pistol",
+    "translation": "运动手枪(1911)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapP220_0605E38F#WEAP:FULL#253262ad6c6bb85f216ff0173d3f8e48",
+    "original": "Paratrooper Pistol",
+    "translation": "伞兵手枪(P220)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapL85LSW_0605E39A#WEAP:FULL#6f510307ab4b4cbbf523c7a392b9c227",
+    "original": "Bullpup Light Machinegun",
+    "translation": "无托轻机枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMac10U1_0605E39B#WEAP:FULL#0afc7befaad7a699265d0c448f399c6d",
+    "original": "Plissken's Escape",
+    "translation": "[普林斯肯大逃亡]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapP220U3_0605E39C#WEAP:FULL#c68701add397937cfac49fc76615af01",
+    "original": "P220 Unique Copper",
+    "translation": "[P220独特铜]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapP220U2_0605E39D#WEAP:FULL#8ca93c52ffc0d6720b59f2ae7c77582c",
+    "original": "Dagger Custom",
+    "translation": "[短剑习俗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapP220U1_0605E988#WEAP:FULL#2ba5506fb56448ed29db1e05a9174a6b",
+    "original": "Last Stand",
+    "translation": "[最后的抵抗]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMMRU1_0605E989#WEAP:FULL#1e2d0903bf8d8d1833fbab2c1df5a0f4",
+    "original": "Vintorez",
+    "translation": "[文托列兹]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBACU1_060607B9#WEAP:FULL#04a1fdecf8fb7fdf2f1abe0f7a5b87ff",
+    "original": "Better British",
+    "translation": "[更重要的英国人]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBACU2_060607BA#WEAP:FULL#3555b5b224d626ae5de43f7b6cfa8601",
+    "original": "Anarchy",
+    "translation": "[无政府主义]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap74u_0606253F#WEAP:FULL#535458849bfe3b220435433e27401044",
+    "original": "Mercenary Carbine",
+    "translation": "佣兵卡宾枪(AK-74U)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap1911U1_06062540#WEAP:FULL#debcab63a6ee53022bfb81473c3ac333",
+    "original": "The Duke",
+    "translation": "[公爵]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPPKU1_0606319B#WEAP:FULL#ae931c262241ed963792843d6bdf2628",
+    "original": "The Delivered",
+    "translation": "[履行诺言]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap1911U2_06063729#WEAP:FULL#3678935604a2a37ead89df1b81100290",
+    "original": "Dual American Ambition",
+    "translation": "[双重美式野心]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap74uU1_0606791F#WEAP:FULL#12424339bf55c78fb9ab9d19c5f6a61f",
+    "original": "Bulldog",
+    "translation": "[斗牛犬]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP5U2_06069100#WEAP:FULL#85150fcd9feb725d21546cc487821dba",
+    "original": "Kitten",
+    "translation": "[小猫]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPKMU3_0606A324#WEAP:FULL#0420e23234013a8cdb1b745b782cfb8e",
+    "original": "Heat of Reaction",
+    "translation": "[反应热]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap1911U3_0606BAC9#WEAP:FULL#bc319d6e78220bb5cb3e2840be01c230",
+    "original": "American Ambition",
+    "translation": "[美式野心]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap74uU2_0606BACA#WEAP:FULL#0b69278c2f4faa94a35ddf6d9e6cf1cc",
+    "original": "Centennial",
+    "translation": "[百年纪念]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPPKU2_0606C102#WEAP:FULL#1a6eea330c0339b8bea23afc458eb330",
+    "original": "Megatron",
+    "translation": "[威震天]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapGlockU1_0606D2AB#WEAP:FULL#0fbc1b054a7f924e9d2b775f6fb0d716",
+    "original": "Bochii The Glock",
+    "translation": "[孤独格洛克]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapAUG_0606D8A4#WEAP:FULL#aa72d86b16bb1efbab9590295fbe8f50",
+    "original": "Bullpup Assault Carbine",
+    "translation": "无托突击卡宾枪(AUG)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapFranken50_0606D8A5#WEAP:FULL#5f3926fa63e4408a88ae0b10f50e0c08",
+    "original": "Anti-Armor Rifle",
+    "translation": "反装甲步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap1911U4_0606D8ED#WEAP:FULL#1f092becd2c0fbafdb9edc1de7e12d5b",
+    "original": "9 Breaker",
+    "translation": "[9号破坏者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapL85LSWU1_0606D8EE#WEAP:FULL#451d7fdc8917e83227fc56de6c8f9841",
+    "original": "California Star",
+    "translation": "[加州之星]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapGlockU2_0606DEA0#WEAP:FULL#4c1d42ba8083302e797fa3e3af11aa03",
+    "original": "Big Chungus",
+    "translation": "[大番薯]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUziU2_0606E499#WEAP:FULL#e11180e3742cc30425cd7e73f7a03c35",
+    "original": "Cyber Dream",
+    "translation": "[赛博梦境]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapFranken50U1_0606E49A#WEAP:FULL#7e4b0d6b600617b90df47afed6abd3c0",
+    "original": "Stanton's Rage",
+    "translation": "[斯坦顿的怒火]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapAUGU1_0606EA93#WEAP:FULL#637333b7f599e2424aab6a8d781a6693",
+    "original": "Mystifier",
+    "translation": "[蒙蔽者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap74uU3_0606F08E#WEAP:FULL#989afd887d99c6ecf43ca48ddc9f65fc",
+    "original": "Stalker's Field Rifle",
+    "translation": "[潜行者的野战步枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapGlockU4_0606FCD4#WEAP:FULL#385306e97598c15ddc5c7c3638f26771",
+    "original": "Rapid Response",
+    "translation": "[快速响应]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUspU2_0606FCD5#WEAP:FULL#8ef77e9db21ca10a80b2317912eb4850",
+    "original": "Snakelore",
+    "translation": "[巨蛇传说]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSaigaU2_0606FCD7#WEAP:FULL#333d0e0e6d30b9f13e8319cbfbae3c23",
+    "original": "Survivalist's Shotgun",
+    "translation": "[生存主义者的霰弹枪]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMSRU2_0606FCD8#WEAP:FULL#59152f49abdda5308338e6abe4a4e3d8",
+    "original": "Heilong",
+    "translation": "[黑龙]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapRPG_06070285#WEAP:FULL#abed096344895b02cce174a9d2703c3e",
+    "original": "Mercenary Rocket Launcher",
+    "translation": "雇佣兵火箭筒",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMakeshiftAMR_06073EC6#WEAP:FULL#4478237bbb970c1c463a1123152fd260",
+    "original": "Makeshift Anti-Materiel Rifle",
+    "translation": "简易反器材步枪",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapRPGU1_06074ABD#WEAP:FULL#fe2a34b635d0fe96c7af5243fcc8f0e6",
+    "original": "Market Gardener",
+    "translation": "[市场园丁]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTokarevUnique2_060762B2#WEAP:FULL#b4f8b8b78c03e3d71f8c8b800201f583",
+    "original": "Tooookarev",
+    "translation": "[托哦哦哦卡列夫]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPoliceShotgunU4_060768AC#WEAP:FULL#209ec99a6ae469309203fb23a9312524",
+    "original": "Stakeout",
+    "translation": "[监视]",
+    "stage": 1
+  },
+  {
+    "key": "AMsigM4A1Kitty_0607808E#WEAP:FULL#49d955562ccd180eb634f7544d79c347",
+    "original": "Hello Kitty",
+    "translation": "凯蒂猫",
+    "stage": 1
+  },
+  {
+    "key": "AMsigM4A1KittyEquipped_0607808F#WEAP:FULL#49d955562ccd180eb634f7544d79c347",
+    "original": "Hello Kitty",
+    "translation": "凯蒂猫",
+    "stage": 1
+  },
+  {
+    "key": "AMsigM4A1KittyLauncher_06078090#WEAP:FULL#af89d00c85f0d09c6b5c9d73a5ac1b4b",
+    "original": "Hello Kitty(Launcher)",
+    "translation": "凯蒂猫(发射器)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP153U4_06078091#WEAP:FULL#b82904f75a6cdd4b6720bd1b97d0bd44",
+    "original": "Bursting In Air",
+    "translation": "[空中爆裂]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSR25_0607B64C#WEAP:FULL#cce2bb4cd47c92df3d584273400dc34b",
+    "original": "Marine Marksman Rifle",
+    "translation": "海军陆战队射手步枪(SR-25)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapSR25U1_0607B64D#WEAP:FULL#c27717235ec29f9a8f5fc049b957770f",
+    "original": "Red Eye",
+    "translation": "红眼",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapAUGU2_0607B64F#WEAP:FULL#eb065f7a5a97071a7bb716ae40d8c245",
+    "original": "LAUG",
+    "translation": "[LAUG]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP7_0607C789#WEAP:FULL#87fa42ee1f86184ecc1a27450748b4b9",
+    "original": "5mm Submachine Gun",
+    "translation": "5mm冲锋枪(MP7)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMP7U1_0607C78B#WEAP:FULL#d7aacc321903a7a7c305a977b83e6902",
+    "original": "Civil Protector",
+    "translation": "[公民保护者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMac10_0607DF6C#WEAP:FULL#2bbeaa17390bc745ff9ff98751dedfad",
+    "original": "Compact .45 Submachine Gun",
+    "translation": "紧凑型.45冲锋枪(Mac-10)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBAC_0607DF6D#WEAP:FULL#dd3cd27a0099975c966fbada0b2f5ad5",
+    "original": "Bullpup Marine Rifle",
+    "translation": "无托海军陆战队步枪(L85)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPoliceShotgunU3_0607E568#WEAP:FULL#fb34000d9109903285363f9593117ec1",
+    "original": "Kiss Of Death",
+    "translation": "死亡之吻",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapGlockU3_0607E569#WEAP:FULL#94eb5b82b9ce6e87737f987ac86d7221",
+    "original": "Glockinator",
+    "translation": "[格洛克制造者]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapFrankenUnique2_0607E56A#WEAP:FULL#c38461254dbc64efa7687842ef18042e",
+    "original": "Liquidator",
+    "translation": "[清算人]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMRUnique3_0607E56B#WEAP:FULL#cf3d47971c1c70de0bed294f1d6d8c9f",
+    "original": "Charcoalov",
+    "translation": "[恰尔科洛夫]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMSR_0607E56C#WEAP:FULL#b945c665201677999c15488db5b80fb4",
+    "original": "Mercenary Sniper Rifle",
+    "translation": "雇佣兵狙击步枪(SVD)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPPK_06081553#WEAP:FULL#8048c9bb26e6948189f270959c70cb23",
+    "original": ".22 Pistol",
+    "translation": ".22手枪(PPK)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapMSRU1_06081B4B#WEAP:FULL#cada3adcf53bd02e5b8f0301836cbe80",
+    "original": "Bitter Memory",
+    "translation": "[苦涩回忆]",
+    "stage": 1
+  },
+  {
+    "key": "arcWeap92FS_06000ADE#WEAP:FULL#50f193b73691c4f5ff05252d7a48deec",
+    "original": "Service Pistol",
+    "translation": "制式手枪(92FS)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPoliceShotgun_06000AE0#WEAP:FULL#79fb706b5bb1b7b76acd2f33338fb58a",
+    "original": "Police Shotgun",
+    "translation": "警用霰弹枪(M37)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPJ_06000AE2#WEAP:FULL#839ff3abe6e70aa091ac33295d2cc7fc",
+    "original": "Bullpup Combat Shotgun",
+    "translation": "无托战斗霰弹枪(MK3-A2)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapTokarev_06000AE3#WEAP:FULL#1f9a09d96995b25f5720703e45ddecc0",
+    "original": "Mercenary Pistol",
+    "translation": "佣兵手枪(Tokarev)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapUzi_06000AE4#WEAP:FULL#15b9038c675c9715fb7f2e66b65bca38",
+    "original": "Mercenary Submachine Gun",
+    "translation": "佣兵机枪(Uzi)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapBSR_06000DC2#WEAP:FULL#2690fce98586704440f8a779ca9ff706",
+    "original": "Bullpup Sniper Rifle",
+    "translation": "无托狙击步枪(Wa2000)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPSR_06000DC3#WEAP:FULL#52f1b1ae651e5189a44edae14e3f479d",
+    "original": "Police Sniper Rifle",
+    "translation": "警用狙击步枪(L96A1)",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapDE_06000DC5#WEAP:FULL#0685b975f7ea6e09d3972ee3007a42f7",
+    "original": ".44 Pistol",
+    "translation": ".44手枪(Desert Eagle)",
+    "stage": 1
+  },
+  {
+    "key": "ArcAmmoRPG7Shovel_06074ABC#AMMO:FULL#8bb15d97b8acf78bb19ed2d17d7eb6f2",
+    "original": "Shovel Round",
+    "translation": "铲弹",
+    "stage": 1
+  },
+  {
+    "key": "ArcAmmoRPG7Shovel_06074ABC#AMMO:ONAM#7e7f78a9aa639cc67869e7dec2365f29",
+    "original": "Shovel",
+    "translation": "铲子",
+    "stage": 1
+  },
+  {
+    "key": "arcRangerLSW_0606DEEB#NPC_:FULL#0862d4738d6597ea97594f9055a978a8",
+    "original": "NCR Veteran Ranger",
+    "translation": "NCR资深游骑兵",
+    "stage": 1
+  },
+  {
+    "key": "ArcVRRCGreatKhanAAF_0606FC87#NPC_:FULL#d4c9c1318f664eff3da441c72cdbed90",
+    "original": "Jives",
+    "translation": "左文慈",
+    "stage": 1
+  },
+  {
+    "key": "ArcVViperGangLeaderMale_0606FC89#NPC_:FULL#ee213889552cfdc8cbc85976b19dfe67",
+    "original": "Slither",
+    "translation": "斯莱特",
+    "stage": 1
+  },
+  {
+    "key": "arcFiend3GunCMNV_06063796#NPC_:FULL#4cee6aa8d68e22e30a9663f1c4593d52",
+    "original": "Rotten",
+    "translation": "罗腾",
+    "stage": 1
+  },
+  {
+    "key": "arcPresidentShinra_06064393#NPC_:FULL#fda4e83abbb980a9017b2ea21f62f67f",
+    "original": "President Shinra",
+    "translation": "辛总统",
+    "stage": 1
+  },
+  {
+    "key": "ArcRPG7Projectile_06074ABA#PROJ:FULL#fd9554dbafd81e95dab77fa4f061fdd9",
+    "original": "Rocket",
+    "translation": "动力火箭",
+    "stage": 1
+  },
+  {
+    "key": "WestsidePawnShopInterior_000F0820#CELL:FULL#4ab31e4e34c6d56dde73898a668712bd",
+    "original": "Miguel's Pawn Shop",
+    "translation": "米格尔的典当行",
+    "stage": 1
+  },
+  {
+    "key": "NovacGiftShop_000B1670#CELL:FULL#d154f9948f0aa758285b44ab81f03145",
+    "original": "Dino Bite Gift Shop",
+    "translation": "大嘴小恐龙礼品店",
+    "stage": 1
+  },
+  {
+    "key": "HooverDamIntPowerPlant01b_00175D68#CELL:FULL#2525d411d2b76b87b788c6171dce91d4",
+    "original": "Hoover Dam Offices",
+    "translation": "胡佛大坝办公区",
+    "stage": 1
+  },
+  {
+    "key": "Vault11c_000E6A6E#CELL:FULL#3d1c9d422c980aa754700fb92cac1cba",
+    "original": "Vault 11 Lower Level",
+    "translation": "11号避难所下层",
+    "stage": 1
+  },
+  {
+    "key": "4BRRCArmory_0013F07E#CELL:FULL#fc567e227d253d370353cd98f96cbe75",
+    "original": "Great Khan Armory",
+    "translation": "大汗帮军火库",
+    "stage": 1
+  },
+  {
+    "key": "Vault34c_00138A9E#CELL:FULL#9c82e73fde1c82a60b39b45583cb65ca",
+    "original": "Vault 34 - Armory",
+    "translation": "34号避难所 - 军火库",
+    "stage": 1
+  },
+  {
+    "key": "NorthVegasHouseTools_000EDDC8#CELL:FULL#3a2c434a267e894321f0f4f6a7d34562",
+    "original": "H&H Tools Factory",
+    "translation": "H&H五金工具厂",
+    "stage": 1
+  },
+  {
+    "key": "NiptonTownHallInterior_00130C7C#CELL:FULL#2a897e024a9898e38811e8b6ec2c0aa4",
+    "original": "Town Hall First Floor",
+    "translation": "城镇会堂一楼",
+    "stage": 1
+  },
+  {
+    "key": "SLRaulsHomeINT_00155A05#CELL:FULL#dd768a9d912e5d3e589a84460125accf",
+    "original": "Raul's Home",
+    "translation": "劳尔的家",
+    "stage": 1
+  },
+  {
+    "key": "SLDeadWindCavernINT_00164E29#CELL:FULL#b0f986b292fed7df57df978452eeb686",
+    "original": "Dead Wind Cavern",
+    "translation": "逆风洞穴",
+    "stage": 1
+  },
+  {
+    "key": "CannibalJohnsonCave_0010108B#CELL:FULL#c21baa9791e26025d11b8564460c25e9",
+    "original": "Cannibal Johnson's Cave",
+    "translation": "食人者约翰逊的洞穴",
+    "stage": 1
+  },
+  {
+    "key": "2ETopsPresidentialSuite_0010E19B#CELL:FULL#8715aa53b90d940b9c7d2383d74f6882",
+    "original": "The Tops Presidential Suite",
+    "translation": "九重天总统套房",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03ForbiddenZone_0300402F#CELL:FULL#9a22efb5b7552e4964306b7220ea55ce",
+    "original": "The Forbidden Zone Dome",
+    "translation": "禁区穹顶",
+    "stage": 1
+  },
+  {
+    "key": "GSDocMitchellHouse_00103DF9#CELL:FULL#7c4aeaa9b0a86a5fff4317369e22503a",
+    "original": "Doc Mitchell's House",
+    "translation": "米切尔医生的宅邸",
+    "stage": 1
+  },
+  {
+    "key": "Vault19b_0013BC27#CELL:FULL#5125306a27206866a5cc09fc1d78df00",
+    "original": "Vault 19 - Living Quarters",
+    "translation": "19号避难所 - 居住区",
+    "stage": 1
+  },
+  {
+    "key": "CampMCTermInt02_000F4025#CELL:FULL#7238691dd9643099049e188b23aaf9ac",
+    "original": "Camp McCarran Terminal Building",
+    "translation": "麦卡伦营地候机楼",
+    "stage": 1
+  },
+  {
+    "key": "FreesideSilverRush_0010E029#CELL:FULL#9334cdd226c879f552cb3c8a3a9b0972",
+    "original": "Silver Rush",
+    "translation": "银色冲击",
+    "stage": 1
+  },
+  {
+    "key": "SafehouseNCRINT_001592E5#CELL:FULL#3f097b9a3b244bbc5d8437ace311530c",
+    "original": "NCR Ranger Safehouse",
+    "translation": "NCR游骑兵安全屋",
+    "stage": 1
+  },
+  {
+    "key": "NCRPrisonBlockB_0008D48E#CELL:FULL#136e84224125cbcea223c795084306b2",
+    "original": "Cell Block B",
+    "translation": "监狱B栋",
+    "stage": 1
+  },
+  {
+    "key": "NellisGenerator_00101A46#CELL:FULL#90c6d6be471421b713fe33458d10214e",
+    "original": "Nellis Array Generators",
+    "translation": "内利斯发电机阵列",
+    "stage": 1
+  },
+  {
+    "key": "CottonwoodCoveStorage_00133E38#CELL:FULL#461cb1c6d027907a1476c12aa6434ae4",
+    "original": "Cottonwood Cove Storage",
+    "translation": "棉白杨湾库房",
+    "stage": 1
+  },
+  {
+    "key": "HiddenValleyBunker4_000E508A#CELL:FULL#7ad20178ae9698236dd5ffb5dd1ecef4",
+    "original": "Hidden Valley Bunker",
+    "translation": "隐谷地堡",
+    "stage": 1
+  },
+  {
+    "key": "RSDeltaInterior_00112472#CELL:FULL#b90de807edc15aef101578089d94be96",
+    "original": "Ranger Station Delta",
+    "translation": "游骑兵德尔塔驻站",
+    "stage": 1
+  },
+  {
+    "key": "NellisWorkshop_00105894#CELL:FULL#d46204e913b9db87c42fe322ef900f98",
+    "original": "Nellis Workshop",
+    "translation": "内利斯工房",
+    "stage": 1
+  },
+  {
+    "key": "FreesideMickandRalphs_0010E02A#CELL:FULL#b44f42b470633fd9b2c60f24da437524",
+    "original": "Mick & Ralph's",
+    "translation": "米克和拉尔夫杂货店",
+    "stage": 1
+  },
+  {
+    "key": "SLWindfarmShackINT_00155916#CELL:FULL#40f6333629195e695d5a79b811fae1fd",
+    "original": "Wind Farm Maintenance Shack",
+    "translation": "风力电站维修棚",
+    "stage": 1
+  },
+  {
+    "key": "BCKhanHideout_001716CA#CELL:FULL#15271e857ad2895c088ab84791755f18",
+    "original": "Great Khan Hideout",
+    "translation": "大汗帮藏身处",
+    "stage": 1
+  },
+  {
+    "key": "LakeMeadCaveINT_0010C482#CELL:FULL#421c68264e6f346a607e6b681a169117",
+    "original": "Lake Mead Cave",
+    "translation": "米德湖山洞",
+    "stage": 1
+  },
+  {
+    "key": "SLCavern01INT_001532F7#CELL:FULL#57c862f95e1b96eec747fdf76c529810",
+    "original": "Morning Star Cavern",
+    "translation": "晨星洞穴",
+    "stage": 1
+  },
+  {
+    "key": "Gomorrah01_0010CC8F#CELL:FULL#93d637b613d378aad6ce4b69eeb890ee",
+    "original": "Gomorrah Main Level",
+    "translation": "蛾摩拉主层",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownNightstalkerCave_0013D7E5#CELL:FULL#6466dc65d5f3d3342a58f83e08fcd825",
+    "original": "Charleston Cave",
+    "translation": "查尔斯顿山洞",
+    "stage": 1
+  },
+  {
+    "key": "1ESteelMill_000FF6B1#CELL:FULL#ce1b0fa8a8fb76d20c78be12ec7cb328",
+    "original": "New Vegas Steel",
+    "translation": "新维加斯钢厂",
+    "stage": 1
+  },
+  {
+    "key": "SLscorpionBurrowINT_001532F8#CELL:FULL#23ebf459177187b492537b7bf3572bf6",
+    "original": "Scorpion Burrow",
+    "translation": "蝎子洞",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04Silo02_040028AE#CELL:FULL#4dc2e6297d285ccd49d9e7ff037ac0e8",
+    "original": "Ashton Missile Silo",
+    "translation": "阿什顿导弹发射井",
+    "stage": 1
+  },
+  {
+    "key": "2CCampGolfResort_0010067A#CELL:FULL#c72e48dc50ccc86ad6e1966094d0f29d",
+    "original": "House Resort",
+    "translation": "豪斯度假庄园",
+    "stage": 1
+  },
+  {
+    "key": "MonteCarloSuitesInterior_000F33A8#CELL:FULL#33f97606b35a5bb7eef187719e873eb6",
+    "original": "Monte Carlo Suites",
+    "translation": "蒙地卡罗套房",
+    "stage": 1
+  },
+  {
+    "key": "Vault22d_000E60C2#CELL:FULL#d846266a3d6ae67f546b16d836ce593a",
+    "original": "Vault 22 - Common Areas",
+    "translation": "22号避难所 - 公共区",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightPoliceStation_0013F41A#CELL:FULL#1d979adb4756629e897da123b27399f3",
+    "original": "Searchlight Police Station",
+    "translation": "探照灯营地警察局",
+    "stage": 1
+  },
+  {
+    "key": "HiddenValley02_000D7505#CELL:FULL#f939b90ee80cd5231fb940b49b9cbe12",
+    "original": "Hidden Valley Bunker L2",
+    "translation": "隐谷地堡二层",
+    "stage": 1
+  },
+  {
+    "key": "JacobstownLodge_0013CA81#CELL:FULL#3bbfc1f7d17334e6b47f070cbead794e",
+    "original": "Jacobstown Lodge",
+    "translation": "雅各布斯镇旅社",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DivideSLWaterPlant_04007B93#CELL:FULL#8aa05fd2eb1020aa8e454101f0572475",
+    "original": "Wastewater Treatment Plant",
+    "translation": "污水处理厂",
+    "stage": 1
+  },
+  {
+    "key": "ULGourmand_001188ED#CELL:FULL#131153e755f71a9e27eb1863893b1d27",
+    "original": "The Gourmand at the Ultra-Luxe",
+    "translation": "奢华殿堂的美食家餐厅",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLX12INT_0300CC33#CELL:FULL#cbc23ef824cd8c0be7ea084d650d9cbe",
+    "original": "X-12",
+    "translation": "X-12研究中心",
+    "stage": 1
+  },
+  {
+    "key": "Vault22e_000E60CD#CELL:FULL#35bdd9b29d4d302137efc6153f1007b1",
+    "original": "Vault 22 - Pest Control",
+    "translation": "22号避难所 - 虫害防治区",
+    "stage": 1
+  },
+  {
+    "key": "CampMCTermInt04_000F47B3#CELL:FULL#85d22757a7fa0914e20e0ac133bffbe8",
+    "original": "Camp McCarran Supply Shack",
+    "translation": "麦卡伦营地物资棚",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02NarrowsWhiteLegs_02008A43#CELL:FULL#e3082bdb6e7d07579d1af473af541ba7",
+    "original": "Glass Chime Cave",
+    "translation": "玻璃风铃洞穴",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLCazadorINT_030086CA#CELL:FULL#52ac75d60de14b44f7a97a33a9fa0b08",
+    "original": "Z-14 Pepsinae DNA Splicing Lab",
+    "translation": "Z-14蛛蜂DNA剪接实验室",
+    "stage": 1
+  },
+  {
+    "key": "GunRunnerHQInterior_000ECDE8#CELL:FULL#5b9f77400c709f6274a4b654b6b7b1d3",
+    "original": "Gun Runner Headquarters",
+    "translation": "军火贩子总部",
+    "stage": 1
+  },
+  {
+    "key": "OVCentralSewers02_00169E4C#CELL:FULL#22ff06b6a8c47a4893cbbf7d0308d20b",
+    "original": "East Central Sewers",
+    "translation": "东部下水道中枢",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01PoliceStation_01003080#CELL:FULL#52cbe425a1e9958e7bcce37ec05946b7",
+    "original": "Villa Police Station",
+    "translation": "别墅区警察局",
+    "stage": 1
+  },
+  {
+    "key": "1ENeonSignFactory_000FCCA2#CELL:FULL#cfa1006ff968951357ba7ae3ecc85a4d",
+    "original": "Zapp's Neon Signs",
+    "translation": "扎普的霓虹灯厂",
+    "stage": 1
+  },
+  {
+    "key": "SLAbandonedShack02INT_00154826#CELL:FULL#03c64b878199ca9ea2d7158ec684e600",
+    "original": "Harper's Shack",
+    "translation": "哈珀的小屋",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02ZionStation_02009426#CELL:FULL#6ec47adf034f89144b8dca4df747c98b",
+    "original": "Ranger Station",
+    "translation": "护林员站",
+    "stage": 1
+  },
+  {
+    "key": "PrimmNashResidence_000D70E2#CELL:FULL#81359b75c86000458492adb8844f3e33",
+    "original": "Nash Residence",
+    "translation": "纳什的住所",
+    "stage": 1
+  },
+  {
+    "key": "RepconHQ01_000E5A84#CELL:FULL#257caf183c6503fc238ba35965d23e32",
+    "original": "REPCONN Office Main Floor",
+    "translation": "瑞普康办公室主楼",
+    "stage": 1
+  },
+  {
+    "key": "3CBoatRentals_00134580#CELL:FULL#08c3769e7281b739b52fe46e0792fa8e",
+    "original": "Captain Dean Boat Rentals",
+    "translation": "迪安船长的小艇租借室",
+    "stage": 1
+  },
+  {
+    "key": "NCRPrisonBlockA_0008D0FA#CELL:FULL#259bf8a83595080456b2161f2b748604",
+    "original": "Cell Block A",
+    "translation": "监狱A栋",
+    "stage": 1
+  },
+  {
+    "key": "IsaacHouseInterior_000F461A#CELL:FULL#bf5ba2505a7d5aea0f723ff909e705d9",
+    "original": "Isaac's House",
+    "translation": "艾萨克的房子",
+    "stage": 1
+  },
+  {
+    "key": "GypsumAbandonedBuilding_0012B7FB#CELL:FULL#3c6f2f770b508252e0383afb33948426",
+    "original": "Gypsum Quarry Office",
+    "translation": "石膏采掘场办公室",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04RoadHQ_04003E4B#CELL:FULL#e2e4d21063d07c7739ded2f736e1c9b8",
+    "original": "Hopeville Missile Base HQ",
+    "translation": "黎明镇导弹基地总部",
+    "stage": 1
+  },
+  {
+    "key": "Lucky38ControlRoom_0010F23B#CELL:FULL#446c41d54530822bcd991cfbae845e45",
+    "original": "Lucky 38 Control Room",
+    "translation": "幸运38控制室",
+    "stage": 1
+  },
+  {
+    "key": "CampForlornHope05_00121481#CELL:FULL#517b208057a247154587d8ea0bf8bede",
+    "original": "Camp Forlorn Hope Storage Shed",
+    "translation": "飘零希望营地军资棚",
+    "stage": 1
+  },
+  {
+    "key": "NovacVargasRoom_000CAE84#CELL:FULL#dc5cfea4ed0851ddd04fd58d06ffb3f7",
+    "original": "Manny Vargas' Room",
+    "translation": "曼尼·瓦尔加斯的房间",
+    "stage": 1
+  },
+  {
+    "key": "OVWestSewers03d_0015ECEC#CELL:FULL#741da5e446d166e043064238e260f540",
+    "original": "Red Lucy's Chamber",
+    "translation": "血手露西的房间",
+    "stage": 1
+  },
+  {
+    "key": "SLSunkenBeachHouse01INT_00154828#CELL:FULL#92bf508a83f892d384c03b94e9dc3d22",
+    "original": "Sunken Beach House",
+    "translation": "沉没的沙滩房屋",
+    "stage": 1
+  },
+  {
+    "key": "SLSulfurCave01INT_00158194#CELL:FULL#e5959bf52f735df443f7e91ebf8b1989",
+    "original": "Bloodborne Cave",
+    "translation": "血源洞穴",
+    "stage": 1
+  },
+  {
+    "key": "NelsonHouse03_001244CA#CELL:FULL#3f0028bdef727dc7a36d857882688ccd",
+    "original": "Nelson House",
+    "translation": "纳尔逊屋舍",
+    "stage": 1
+  },
+  {
+    "key": "SLGoldMine02INT_001555FC#CELL:FULL#fdb449ffd74f727f8200c4737adff414",
+    "original": "Searchlight North Gold Mine",
+    "translation": "探照灯营地北部金矿",
+    "stage": 1
+  },
+  {
+    "key": "NellisTunnel_001024D9#CELL:FULL#70134c8e75e3c79a78105ad57600a5f9",
+    "original": "Train Tunnel",
+    "translation": "火车隧道",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04SLArmory01_04009CAD#CELL:FULL#f34c969a3e594c14e3fc992a224609f7",
+    "original": "Hopeville Armory",
+    "translation": "黎明镇军械库",
+    "stage": 1
+  },
+  {
+    "key": "NellisMuseum_00106499#CELL:FULL#71b71c2fbdebccee331391c9016d293f",
+    "original": "Nellis Boomer Museum",
+    "translation": "内利斯大炮族博物馆",
+    "stage": 1
+  },
+  {
+    "key": "CampSearchlightHiddenCave_00146607#CELL:FULL#613f57230ee701149dc34a8dc5dd9941",
+    "original": "Hidden Supply Cave",
+    "translation": "隐蔽补给洞穴",
+    "stage": 1
+  },
+  {
+    "key": "SLNuclearTestShackINT_001544AF#CELL:FULL#be13a5bf019e0f4f791549fd2c3032ac",
+    "original": "Nuclear Test Shack",
+    "translation": "核试验小屋",
+    "stage": 1
+  },
+  {
+    "key": "SLprospectorsDenINT02_00171CF3#CELL:FULL#544c17d755efbab6403823b9082b1392",
+    "original": "The Prospector's Den",
+    "translation": "淘金客老窝",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03SLBloatFlyCave_0301507B#CELL:FULL#347e00b4f63254f5d88ad40a8d012cea",
+    "original": "Mysterious Cave",
+    "translation": "神秘洞穴",
+    "stage": 1
+  },
+  {
+    "key": "CampGuardianCaves_0013DD63#CELL:FULL#e2c4045a87b84fd4cc71eec53e566b94",
+    "original": "Camp Guardian Caves",
+    "translation": "守卫者营地山洞",
+    "stage": 1
+  },
+  {
+    "key": "SLBoSBunkerINT_001555FD#CELL:FULL#679f22aeaad56fc5aaaf375227900405",
+    "original": "Brotherhood of Steel Bunker",
+    "translation": "钢铁兄弟会地堡",
+    "stage": 1
+  },
+  {
+    "key": "SLRemnantsBunkerINT_001591D5#CELL:FULL#5a2d606fb3f35826213fbd34d9900032",
+    "original": "Remnants' Bunker",
+    "translation": "英克雷残部地堡",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "TheFortWorld_0013C0B6#WRLD:FULL#bec09e1fba22dda8bf079daec18d2353",
+    "original": "Caesar's Tent",
+    "translation": "凯撒的帐篷",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01WestTownN_01001315#WRLD:FULL#ca731d0bc1f2029879c54ab4fbd6fefc",
+    "original": "Puesta del Sol North",
+    "translation": "日落镇北侧",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04Road01World_04002866#WRLD:FULL#3804bb196864e0001d10f24e4064f4a3",
+    "original": "The Lonesome Road",
+    "translation": "孤独之路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04DivideWorld_04002C7E#WRLD:FULL#7c0b82ae2e700dc91b38f72ced952999",
+    "original": "The Divide",
+    "translation": "大裂谷",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04Road02World_04002F73#WRLD:FULL#aa8020c31a75c9f910e03de71ce3a031",
+    "original": "The High Road",
+    "translation": "正路",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC04NukeSilo2_0400AA02#WRLD:FULL#83371c4712456c20aabe9a25856cbf09",
+    "original": "Courier's Mile",
+    "translation": "邮差之路",
+    "stage": 1
+  },
+  {
+    "key": "arcMercWEAPPerk_0608094F#PERK:FULL#0f92475d2bf6481b576c39a2805f51c3",
+    "original": "Commie Aficionado",
+    "translation": "共产主义狂热",
+    "stage": 1
+  },
+  {
+    "key": "arcMercWEAPPerk_0608094F#PERK:DESC#b2a3652a7982e94a0775f673d233db1d",
+    "original": "You're a true comrade! You've now got 5% reduced spread and 5% increase damage with Mercenary weaponry.",
+    "translation": "你是真正的同志！雇佣兵武器现在减少5%的子弹散布，增加5%的伤害。",
+    "stage": 1
+  },
+  {
+    "key": "arcPoliceWEAPPerk_06080950#PERK:FULL#8993c15eb89fac107bbaf02fad784b7e",
+    "original": "Standard Issue",
+    "translation": "标准配置",
+    "stage": 1
+  },
+  {
+    "key": "arcPoliceWEAPPerk_06080950#PERK:DESC#c5431045a412516645343312a5c639ad",
+    "original": "They're nothing fancy, but they do the job. You've now got 5% increased crit chance with Another Millenia Police weaponry.",
+    "translation": "它们没什么特别的，但很管用。使用Another Millenia中的警用武器时，你的暴击几率增加5%。",
+    "stage": 1
+  },
+  {
+    "key": "arcBullpupWEAPPerk_06080951#PERK:FULL#24d29b29dc510b007cad165d39871d22",
+    "original": "Reverse Engineered",
+    "translation": "逆向工程",
+    "stage": 1
+  },
+  {
+    "key": "arcBullpupWEAPPerk_06080951#PERK:DESC#49d1562b4386a5e9590e303561cb3a41",
+    "original": "You've got a strong preference for where you like your weapon magazines. You've now got 5% faster reload speed with Another Millenia Bullpup weaponry.",
+    "translation": "你对武器弹匣的位置有强烈的偏好。使用Another Millenia中的无托结构武器时，你的装填速度提高5%。",
+    "stage": 1
+  },
+  {
+    "key": "arcMarineWEAPPerk_06080952#PERK:FULL#7e569aecf7083a84662bba46e282363f",
+    "original": "Tour of Duty",
+    "translation": "服役期",
+    "stage": 1
+  },
+  {
+    "key": "arcMarineWEAPPerk_06080952#PERK:DESC#bae4d37e3f33abe9d7f9f2459d7378eb",
+    "original": "They worked for militaries of the past, so they'll work for you! You've not got 5% more durability for any Another Millenia Marine weaponry.",
+    "translation": "它们对过去的军队有用，所以对你也有用！Another Millenia中的海军陆战队武器的耐久性提高 5%。",
+    "stage": 1
+  },
+  {
+    "key": "arcMachinePistolPERK_0605CB9C#PERK:FULL#38ea4b3a0776cbe8a32712274c621a2d",
+    "original": "Lucky Spray",
+    "translation": "幸运喷雾",
+    "stage": 1
+  },
+  {
+    "key": "arcMachinePistolPERK_0605CB9C#PERK:DESC#1668f4816a0e118bc0b7c4066fc54ef5",
+    "original": "Aiming is for the weak! You've gained 5% extra crit chance and 5% reduced spread with Machine pistols.",
+    "translation": "瞄准是为弱者准备的！使用自动手枪时，你的暴击几率增加5%，子弹散布降低5%。",
+    "stage": 1
+  },
+  {
+    "key": "AMmcgQuickdraw_0605D772#PERK:FULL#d3193c2ec93167ca9ac9343de3508956",
+    "original": "Underbarrel Swap Another Milenia",
+    "translation": "切换Another Milenia下悬式附挂套件",
+    "stage": 1
+  },
+  {
+    "key": "AMmcgQuickdraw_0605D772#PERK:DESC#352e6f3d5e8145041437d94505890acc",
+    "original": "Swap to underbarrel launcher fast",
+    "translation": "快速切换到下悬式附挂套件",
+    "stage": 1
+  },
+  {
+    "key": "arcGoldWEAPPerk_0607FD52#PERK:FULL#ae5ff7c63b642c2b9859c3d63723f180",
+    "original": "High Roller",
+    "translation": "豪赌",
+    "stage": 1
+  },
+  {
+    "key": "arcGoldWEAPPerk_0607FD52#PERK:DESC#73549636639e89fb7685adf9e41e29b8",
+    "original": "You like to serve up death with a bit of style! Enjoy 5% extra crit chance and 5% reduced weapon degradation when using Another Millenia golden weaponry.",
+    "translation": "你喜欢有格调地招待死亡！当使用Another Millenia中的黄金武器时，享受5%额外的暴击几率并降低5%的武器耐久消耗。",
+    "stage": 1
+  },
+  {
+    "key": "arcHybridWEAPPerk_0608094E#PERK:FULL#192cdf3e7b0c225588103d7b6d46f31c",
+    "original": "Eco Friendly",
+    "translation": "生态友好",
+    "stage": 1
+  },
+  {
+    "key": "arcHybridWEAPPerk_0608094E#PERK:DESC#fa138a1f8c1ee313828c281aa72b9a51",
+    "original": "You're a fan of refined weaponry for a more civilized age. You've now got 5% extra attack speed with all Millenia energy weapon uniques.",
+    "translation": "你是文明时代精良武器的拥趸。 现在你使用所有Another Millenia中的独特能量武器时获得5%的额外射击速度。",
+    "stage": 1
+  },
+  {
+    "key": "arcBullpupChalMSG_06080956#MESG:DESC#5888fc44feb14d95aba6b80e69923912",
+    "original": "You have gained the Reverse Engineered perk.",
+    "translation": "你得到了Perk”逆向工程“。",
+    "stage": 1
+  },
+  {
+    "key": "arcBullpupChalMSG_06080956#MESG:FULL#24d29b29dc510b007cad165d39871d22",
+    "original": "Reverse Engineered",
+    "translation": "逆向工程",
+    "stage": 1
+  },
+  {
+    "key": "arcMarineChalMSG_06080957#MESG:DESC#59e925cd94cae6017e3bfc842eb4af9f",
+    "original": "You have gained the Tour of Duty perk.",
+    "translation": "你得到了Perk”服役期“。",
+    "stage": 1
+  },
+  {
+    "key": "arcMarineChalMSG_06080957#MESG:FULL#7e569aecf7083a84662bba46e282363f",
+    "original": "Tour of Duty",
+    "translation": "服役期",
+    "stage": 1
+  },
+  {
+    "key": "arcGoldChalMSG_0608034C#MESG:DESC#98830bb63fddbe8fcb312d9bf0b214f0",
+    "original": "You have gained the High Roller perk.",
+    "translation": "你得到了Perk\"挥金如土\"。",
+    "stage": 1
+  },
+  {
+    "key": "arcGoldChalMSG_0608034C#MESG:FULL#ae5ff7c63b642c2b9859c3d63723f180",
+    "original": "High Roller",
+    "translation": "豪赌",
+    "stage": 1
+  },
+  {
+    "key": "arcHybridChalMSG_06080953#MESG:DESC#087001233b6d12131fa6b86b0bb4fba2",
+    "original": "You have gained the Eco Friendly perk.",
+    "translation": "你得到了Perk”生态友好“。",
+    "stage": 1
+  },
+  {
+    "key": "arcHybridChalMSG_06080953#MESG:FULL#192cdf3e7b0c225588103d7b6d46f31c",
+    "original": "Eco Friendly",
+    "translation": "生态友好",
+    "stage": 1
+  },
+  {
+    "key": "arcMachineChalMSG_0605CB9B#MESG:DESC#acbb28378162ae336fd0d150c4a0dd6a",
+    "original": "You have gained the Lucky Spray perk.",
+    "translation": "你得到了Perk”幸运喷雾“。",
+    "stage": 1
+  },
+  {
+    "key": "arcMachineChalMSG_0605CB9B#MESG:FULL#38ea4b3a0776cbe8a32712274c621a2d",
+    "original": "Lucky Spray",
+    "translation": "幸运喷雾",
+    "stage": 1
+  },
+  {
+    "key": "arcMercChalMSG_06080954#MESG:DESC#5374ca439fee0bfd6b5ac9754ccd6191",
+    "original": "You have gained the Commie Aficionado perk.",
+    "translation": "你得到了Perk”共产主义狂热“。",
+    "stage": 1
+  },
+  {
+    "key": "arcMercChalMSG_06080954#MESG:FULL#0f92475d2bf6481b576c39a2805f51c3",
+    "original": "Commie Aficionado",
+    "translation": "共产主义狂热",
+    "stage": 1
+  },
+  {
+    "key": "arcPoliceChalMSG_06080955#MESG:DESC#f87f31ad17b3026699cd533d1f0963ca",
+    "original": "You have gained the Standard Issue perk.",
+    "translation": "你得到了Perk”标准配置“。",
+    "stage": 1
+  },
+  {
+    "key": "arcPoliceChalMSG_06080955#MESG:FULL#8993c15eb89fac107bbaf02fad784b7e",
+    "original": "Standard Issue",
+    "translation": "标准配置",
+    "stage": 1
+  },
+  {
+    "key": "arcMasamuneMESG_0606676F#MESG:DESC#a14e70f2eb4f8636b2403c94687ccfc9",
+    "original": "You're too weak to pull out this ridiculously long sword! (STR 8 Required)",
+    "translation": "你太弱了，拔不出这把可笑的长刀！ (需要力量8）",
+    "stage": 1
+  },
+  {
+    "key": "ArcRecipeShovelAmmoThrowingKnifeSpear_06074AC6#RCPE:FULL#18a446d274fda979dd7fd9ea30393029",
+    "original": "Throwing Knife Spear to Shovel Ammo",
+    "translation": "投掷刀矛到铲弹",
+    "stage": 1
+  },
+  {
+    "key": "ArcRecipeShovelAmmoThrowingSpear_06074ACD#RCPE:FULL#9cc3432073fb30f107f072f2e38bc400",
+    "original": "Throwing Spear to Shovel Ammo",
+    "translation": "投矛到铲弹",
+    "stage": 1
+  },
+  {
+    "key": "ArcRecipeShovelAmmo_06074ABF#RCPE:FULL#bbe60e2f360c682fa5e5f0a28d0f21a5",
+    "original": "Shovel to Shovel Ammo",
+    "translation": "铲子到铲弹",
+    "stage": 1
+  },
+  {
+    "key": "ArcRecipeShovelAmmoKnifeSpear_06074AC5#RCPE:FULL#5bd97889ed67b18b45c36a12e10c7722",
+    "original": "Knife Spear to Shovel Ammo",
+    "translation": "餐刀长矛到铲弹",
+    "stage": 1
+  },
+  {
+    "key": "arcMachinePistolCHAL_0605C59E#CHAL:FULL#38ea4b3a0776cbe8a32712274c621a2d",
+    "original": "Lucky Spray",
+    "translation": "幸运喷雾",
+    "stage": 1
+  },
+  {
+    "key": "arcMachinePistolCHAL_0605C59E#CHAL:DESC#277d334993f58b3027aafcd9d5f7b991",
+    "original": "Deal 10,000 damage with Another Millenia machine pistols.",
+    "translation": "使用Another Millenia中的自动手枪造成10,000点伤害。",
+    "stage": 1
+  },
+  {
+    "key": "arcGoldWeapCHAL_0607FD51#CHAL:FULL#ae5ff7c63b642c2b9859c3d63723f180",
+    "original": "High Roller",
+    "translation": "豪赌",
+    "stage": 1
+  },
+  {
+    "key": "arcGoldWeapCHAL_0607FD51#CHAL:DESC#1a1dd056c03aae2d840992074eae0dec",
+    "original": "Deal 10,000 damage with Another Millenia Golden uniques.",
+    "translation": "收集Another Millenia中的所有黄金独特武器。",
+    "stage": 1
+  },
+  {
+    "key": "arcHybridWeapCHAL_06080949#CHAL:FULL#192cdf3e7b0c225588103d7b6d46f31c",
+    "original": "Eco Friendly",
+    "translation": "生态友好",
+    "stage": 1
+  },
+  {
+    "key": "arcHybridWeapCHAL_06080949#CHAL:DESC#493e7220346c024869c055b6139fb4cc",
+    "original": "Deal 10,000 damage with Another Millenia energy weapon uniques.",
+    "translation": "收集Another Millenia中的所有能量武器。",
+    "stage": 1
+  },
+  {
+    "key": "arcMercWeapCHAL_0608094A#CHAL:FULL#0f92475d2bf6481b576c39a2805f51c3",
+    "original": "Commie Aficionado",
+    "translation": "共产主义狂热",
+    "stage": 1
+  },
+  {
+    "key": "arcMercWeapCHAL_0608094A#CHAL:DESC#aec1997281bc576a08f03fcf8a7d25c8",
+    "original": "Deal 10,000 damage with Another Millenia Mercenary weapons.",
+    "translation": "使用Another Millenia中的雇佣兵武器造成10,000点伤害。",
+    "stage": 1
+  },
+  {
+    "key": "arcPoliceWeapCHAL_0608094B#CHAL:FULL#8993c15eb89fac107bbaf02fad784b7e",
+    "original": "Standard Issue",
+    "translation": "标准配置",
+    "stage": 1
+  },
+  {
+    "key": "arcPoliceWeapCHAL_0608094B#CHAL:DESC#42317de483dd180a497b922bb030cbcf",
+    "original": "Deal 10,000 damage with Another Millenia Police weaponry.",
+    "translation": "使用Another Millenia中的警用武器造成10,000点伤害。",
+    "stage": 1
+  },
+  {
+    "key": "arcBullpupWeapCHAL_0608094C#CHAL:FULL#6f6d419c97cdab97cc55897d2b646f5c",
+    "original": "Reverse Engineered Violence",
+    "translation": "逆向工程暴虐",
+    "stage": 1
+  },
+  {
+    "key": "arcBullpupWeapCHAL_0608094C#CHAL:DESC#bc6db3d282c8244560782de28462d25e",
+    "original": "Deal 10,000 damage with Another Millenia Bullpup weaponry.",
+    "translation": "使用Another Millenia中的无托结构武器造成10,000点伤害。",
+    "stage": 1
+  },
+  {
+    "key": "arcMarineWeapCHAL_0608094D#CHAL:FULL#1fa3b507519980d0f08e3ac29cbb335a",
+    "original": "Wasteland Tour of Duty",
+    "translation": "废土任期",
+    "stage": 1
+  },
+  {
+    "key": "arcMarineWeapCHAL_0608094D#CHAL:DESC#3dfd4c17952fd0d70fdd4461faa93854",
+    "original": "Deal 10,000 damage with Another Millenia Service/Marine weaponry.",
+    "translation": "使用Another Millenia中的服务/海军武器造成10,000点伤害。",
+    "stage": 1
+  }
 ]
