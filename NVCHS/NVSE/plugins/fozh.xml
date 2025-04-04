@@ -673,6 +673,9 @@
 		<regex from="([^\r\n]+?)\s+is\s+returning\s+to\s+([^\r\n]+?)$" to="$1正在返回$2"/>
 		<regex from="([^\r\n]+?)\s+has\s+returned\s+to\s+([^\r\n]+?)$" to="$1已返回$2"/>
 		
+		<!-- JIP CCC -->
+		<regex from="^([\s\S]+) is at ([\s\S]+)$" to="$1位于$2"/>
+		
 	</captureGroup>
 
 	<!-- 使用正規表示式分割／排除子字串 -->
