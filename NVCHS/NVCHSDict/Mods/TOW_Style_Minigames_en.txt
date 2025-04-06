@@ -1,0 +1,50 @@
+TOW00000001	Outer Worlds Minigames
+TOW00000002	Bypass Shunt
+TOW00000003	Shunts
+TOW00000004	You do not meet the requirements to try and open this!
+TOW00000005	TOW Style Minigames
+TOW00000006	Save to INI
+TOW00000007	Click to Save
+TOW00000008	Saves the current configuration to the mod's INI file. You can find it under `Config\TOW Style Minigames.ini`.
+TOW00000009	Use INI File
+TOW00000010	Uses the included INI file for all configuration of The Outer Worlds Style Minigames. Disable to instead use the MCM for all configuration.
+TOW00000011	Require Manually Saving to INI
+TOW00000012	Enabling this setting will require manually saving the current configuration to the mod's INI file. Disable to let the mod automatically save the current configuration to the INI when the MCM closes.
+TOW00000013	Inputs
+TOW00000014	Set the Controller Button for Minigames
+TOW00000015	X Button (16384)
+TOW00000016	A Button (4096)
+TOW00000017	Minigame Button
+TOW00000018	Y Button
+TOW00000019	X Button
+TOW00000020	A Button
+TOW00000021	The controller button assigned to do the Lockpick/Hacking minigames.
+TOW00000022	Minigame Key
+TOW00000023	The designated key press to do Lockpicking/Hacking minigames.
+TOW00000024	Resource Costs
+TOW00000025	Set the Resource Cost Maximum
+TOW00000026	Resource Cost Maximum
+TOW00000027	Sets the maximum Resource cost to unlock a Terminal/Container/Door.
+TOW00000028	Set the Resource Cost Slope
+TOW00000029	Resource Cost Slope
+TOW00000030	Sets the slope of the cost curve for calculating Resource Cost. NOTE: This should _ALWAYS_ be a negative decimal value!
+TOW00000031	Set the Resource Cost Minimum
+TOW00000032	Resource Cost Minimum
+TOW00000033	Sets the minimum Resource cost to unlock a Terminal/Container/Door.
+TOW00000034	Time Costs
+TOW00000035	Set the Time Cost Maximum
+TOW00000036	Time Cost Maximum
+TOW00000037	Sets the maximum time cost (in seconds) to unlock a Terminal/Container/Door.
+TOW00000038	Set the Time Cost Slope
+TOW00000039	Time Cost Slope
+TOW00000040	Sets the slope of the cost curve for calculating Time Cost. NOTE: This should _ALWAYS_ be a negative decimal value!
+TOW00000041	Set the Time Cost Minimum
+TOW00000042	Time Cost Minimum
+TOW00000043	Sets the minimum Time cost (in seconds) to unlock a Terminal/Container/Door.
+TOW00000044	Gameplay
+TOW00000045	Respect Ignoring Container Tweak
+TOW00000046	If you have the `bDontShowContainerAfterLockpick` tweak enabled in Stewie Tweaks, enabling this will respect that setting. Disable to open any container immediately after a successful Lockpick regardless.
+TOW00000047	Terminals Consume Bypass Shunts
+TOW00000048	Makes unlocking Terminals use Bypass Shunts instead of Lockpicks. NOTE: This does _not_ populate the Leveled Lists in the game with Bypass Shunts, that requires enabling the `Populate Shunts` setting.
+TOW00000049	Populate Shunts
+TOW00000050	PLEASE READ: Enabling this setting is IRREVERSIBLE! Populates the same Leveled Items that contain Bobby Pins with Bypass Shunts.
