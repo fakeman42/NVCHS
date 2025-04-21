@@ -17313,8 +17313,8 @@ Audio : \Sound\Voice\Russell.esp\aaRussellVoiceType\aaRussellQ_aaRussellMissio_0
     <ID>04005C2C</ID>
     <EDID>aaRussellLegionRenounce</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Very well. I, &amp;PCName;, publically renounce Caesar, Lanius, and the Legion.</ORIGINAL>
-    <TRADUIT>很好。我，&amp;PCName;，公开宣布放弃凯撒，拉尼尔斯和军团。</TRADUIT>
+    <ORIGINAL>Very well. I, [%], publically renounce Caesar, Lanius, and the Legion.</ORIGINAL>
+    <TRADUIT>很好。我，[%]，公开宣布放弃凯撒，拉尼尔斯和军团。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -39114,8 +39114,8 @@ Audio : \Sound\Voice\Russell.esp\aaRussellVoiceType\aaRussellM_aaRussellHandle_0
     <ID>0402A97A</ID>
     <EDID>aaMission01SheriffWhoYou</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>I'm &amp;PCName;, and I'm new in town.</ORIGINAL>
-    <TRADUIT>我是 &amp;PCName;, 新来的。</TRADUIT>
+    <ORIGINAL>I'm [%], and I'm new in town.</ORIGINAL>
+    <TRADUIT>我是 [%], 新来的。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
