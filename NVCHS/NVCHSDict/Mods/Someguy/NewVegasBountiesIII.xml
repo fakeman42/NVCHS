@@ -11041,8 +11041,8 @@ Hat
     <ID>0403CD25</ID>
     <EDID>aaNVB3PlayerChest</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&amp;PCName;'s Storage Chest</ORIGINAL>
-    <TRADUIT>&amp;PCName;的储物箱</TRADUIT>
+    <ORIGINAL>[%]'s Storage Chest</ORIGINAL>
+    <TRADUIT>[%]的储物箱</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -11111,8 +11111,8 @@ Hat
     <ID>0403CD87</ID>
     <EDID>aaHotelPlayerFootlocker</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>&amp;PCName;'s Footlocker</ORIGINAL>
-    <TRADUIT>&amp;PCName;的脚柜</TRADUIT>
+    <ORIGINAL>[%]'s Footlocker</ORIGINAL>
+    <TRADUIT>[%]的脚柜</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -14549,9 +14549,9 @@ I want you to gather up the crew and meet me near the canyon entrance. We're goi
 
 First, congratulations on your promotion. I told you that good things would come if you merely placed your trust in the organization. You've done a great service for us and our client, Python Mining, so consider the pay raise a first step in a long and lucrative partnership.
 
-I do have one quibble, however. There are conflicting reports surrounding &amp;PCName;'s demise. I want proof of death, not mere assurances. That one has slipped from death's grasp too many times to be underestimated, even by Marko.
+I do have one quibble, however. There are conflicting reports surrounding [%]'s demise. I want proof of death, not mere assurances. That one has slipped from death's grasp too many times to be underestimated, even by Marko.
 
-Once &amp;PCName;'s death is verified, you can expect payment commensurate with your efforts. The Syndicate will be in your debt.
+Once [%]'s death is verified, you can expect payment commensurate with your efforts. The Syndicate will be in your debt.
 
 Sincerely,
 K.</ORIGINAL>
@@ -14559,9 +14559,9 @@ K.</ORIGINAL>
 
 首先，祝贺你升职。我告诉过你，只要你信任这个组织，好事就会接踵而至。你为我们和我们的客户蟒蛇矿业提供了很好的服务，所以请把加薪看作是长期和双赢合作关系的第一步。
 
-不过，我确实有一个问题。关于&amp;PCName;的死亡，有相互矛盾的消息。我要的是准确的死亡证明，而不仅仅是“保证“。那家伙逃脱死神的魔爪太多次了，甚至连马尔科都不会低估他。
+不过，我确实有一个问题。关于[%]的死亡，有相互矛盾的消息。我要的是准确的死亡证明，而不仅仅是“保证“。那家伙逃脱死神的魔爪太多次了，甚至连马尔科都不会低估他。
 
-一旦&amp;PCName;的死亡被证实了，你就能获得符合你期待的血汗付出的回报。这是财团欠你的。
+一旦[%]的死亡被证实了，你就能获得符合你期待的血汗付出的回报。这是财团欠你的。
 
 真诚的，
 K.</TRADUIT>
@@ -14591,10 +14591,10 @@ K.</TRADUIT>
     <ID>0407F46A</ID>
     <EDID>aaBabyKillerNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>We got word of a baby killing savage, some big shot by the name of &amp;PCName;, killed a pregnant lady up in Utah. Boss wants this one done with extreme prejudice.
+    <ORIGINAL>We got word of a baby killing savage, some big shot by the name of [%], killed a pregnant lady up in Utah. Boss wants this one done with extreme prejudice.
 
 - Andy</ORIGINAL>
-    <TRADUIT>我们得知了关于一个屠杀了婴儿的野蛮人，一个叫做&amp;PCName;的大麻烦；这家伙在犹他州杀了一个怀孕的妇女。头儿希望这件事能以极端的方式还有偏见收场。
+    <TRADUIT>我们得知了关于一个屠杀了婴儿的野蛮人，一个叫做[%]的大麻烦；这家伙在犹他州杀了一个怀孕的妇女。头儿希望这件事能以极端的方式还有偏见收场。
 
 - 安迪</TRADUIT>
     <PERSO />
@@ -14625,7 +14625,7 @@ K.</TRADUIT>
     <CHAMP>TNAM</CHAMP>
     <ORIGINAL>Damn this cold. Damn these people. Damn this place.
 
-One last job, that's what I told myself. It's the voice, that devil inside me that whispers, "You have to be the best." Knowing that Marko is out here, thinking that someone else might get him before me, it's like a knife in between the ribs, scraping the bone and shredding my guts. Randall will get here soon, and &amp;PCName; will certainly follow.
+One last job, that's what I told myself. It's the voice, that devil inside me that whispers, "You have to be the best." Knowing that Marko is out here, thinking that someone else might get him before me, it's like a knife in between the ribs, scraping the bone and shredding my guts. Randall will get here soon, and [%] will certainly follow.
 
 People say that you shouldn't be in this business for glory, but that's bullshit. It's all glory, every second of it. When I take a target down, it's a bullet in the brain of a critic or one of those fucks who pushed me around as a kid. I'd like to catch up with a few of them now. 
 
@@ -14646,7 +14646,7 @@ Is this what normal people write in their journals? Fucking feet are numb in thi
 "Glory, stupid." Yeah, I suppose so. That's reason enough for me.</ORIGINAL>
     <TRADUIT>诅咒这该死的寒冷，诅咒这些该死的人，诅咒这该死的地方。
 
-这将会是最后的一次脏活,我总是这么告诉我自己的。 而这是我内心中，那魔鬼的声音低语道的, "你必须是最好的。" 在我得知马尔科在这里之后，我总以为有人会比我先抓住他，就好像一把利刃插在肋骨之间，刮坏我的骨头，撕碎我的内脏。兰道尔很快就会到的,还有&amp;PCName;也一定如影随形。
+这将会是最后的一次脏活,我总是这么告诉我自己的。 而这是我内心中，那魔鬼的声音低语道的, "你必须是最好的。" 在我得知马尔科在这里之后，我总以为有人会比我先抓住他，就好像一把利刃插在肋骨之间，刮坏我的骨头，撕碎我的内脏。兰道尔很快就会到的,还有[%]也一定如影随形。
 
 那些人说我不应该为了荣誉而做这行，但那是纯粹的胡说八道。这都是荣耀，不论每分每秒。当我把一个目标打倒的时候，这消息会是那些批评家或把我当小孩推来推去乱搞的混蛋们脑子里一颗子弹。 而我现在就想追上他们中的一些。
 
@@ -14722,26 +14722,26 @@ Is this what normal people write in their journals? Fucking feet are numb in thi
     <CHAMP>TNAM</CHAMP>
     <ORIGINAL>Residents of the Wasteland!
 
-Let it be known that a private bounty is now available to any person capable of killing &amp;PCName;, also known as "Courier Six", who is charged with countless, injurious offenses to multiple parties. The details on the target are as follows:
+Let it be known that a private bounty is now available to any person capable of killing [%], also known as "Courier Six", who is charged with countless, injurious offenses to multiple parties. The details on the target are as follows:
 
-Name: &amp;PCName;
+Name: [%]
 Sex: &amp;PCSex;
 Race: &amp;PCRace;
 
-&amp;PCName; should be considered armed and extremely dangerous.
+[%] should be considered armed and extremely dangerous.
 
-Submit proof of &amp;PCName;'s death (a severed head or finger) to Walter M黮ler and earn a reward of 25,000 caps, or an equivalent sum in the currency of your choice. </ORIGINAL>
+Submit proof of [%]'s death (a severed head or finger) to Walter M黮ler and earn a reward of 25,000 caps, or an equivalent sum in the currency of your choice. </ORIGINAL>
     <TRADUIT>至废土居民们！
 
-众所周知，现在，任何能够杀死&amp;PCName;的人（也称为"第六号邮差"）都可以获得私人赏金，他被指控对多个组织进行无数次伤害性犯罪。 目标的详细信息如下：
+众所周知，现在，任何能够杀死[%]的人（也称为"第六号邮差"）都可以获得私人赏金，他被指控对多个组织进行无数次伤害性犯罪。 目标的详细信息如下：
 
-姓名: &amp;PCName;
+姓名: [%]
 性别: &amp;PCSex;
 种族: &amp;PCRace;
 
-&amp;PCName;应当被认为是持械并极度危险的
+[%]应当被认为是持械并极度危险的
 
-将能够证明&amp;PCName;死亡的证据(断头或者手指)提交给沃尔特 米勒上校的人将会获得25，000瓶盖的奖励，或您选择的货币的等值金额。</TRADUIT>
+将能够证明[%]死亡的证据(断头或者手指)提交给沃尔特 米勒上校的人将会获得25，000瓶盖的奖励，或您选择的货币的等值金额。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -14857,10 +14857,10 @@ P.S. 如果有什么紧急情况，派一个跑得快的人赶去旧墓地。</T
     <ID>0409286F</ID>
     <EDID>aaKetchumDeadNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>Half the men walked out last night, the other half are just waiting for an opportunity to split. All those years working for Marko amounted to nothing, I guess. Bastard has left us to the mercy of &amp;PCName; and Randall. After they find me, I figure the boys will take it as a cue to get out while they can. There's nothing left for us here.
+    <ORIGINAL>Half the men walked out last night, the other half are just waiting for an opportunity to split. All those years working for Marko amounted to nothing, I guess. Bastard has left us to the mercy of [%] and Randall. After they find me, I figure the boys will take it as a cue to get out while they can. There's nothing left for us here.
 
 Dad always said I'd end up a loser if I left home. Maybe I should have stayed on the farm after all. </ORIGINAL>
-    <TRADUIT>昨晚有一半的人走了出去，而另一半则在等待机会分散开来。我想，为马尔科工作的那些年都没有什么意义。那个混蛋把我们交给了&amp;PCName;和兰道尔，任其摆布。在他们找到我后，我想那些小子们会把它当作一个线索，趁他们能出去的时候出去。我们这里已经什么都不会剩下了。
+    <TRADUIT>昨晚有一半的人走了出去，而另一半则在等待机会分散开来。我想，为马尔科工作的那些年都没有什么意义。那个混蛋把我们交给了[%]和兰道尔，任其摆布。在他们找到我后，我想那些小子们会把它当作一个线索，趁他们能出去的时候出去。我们这里已经什么都不会剩下了。
 
 爸爸总是说如果我离开家，我会成为一个失败者。也许我真应该待在农场里。  </TRADUIT>
     <PERSO />
@@ -17780,7 +17780,7 @@ Audio : \Sound\Voice\NewVegasBountiesIII.esp\aaRandallVoiceType\aaRandallQuest_G
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>Well, hell fire! If it isn't my old protege, come up all the way from the Mojave Wasteland. You are a sight for sore eyes, old friend!</ORIGINAL>
-    <TRADUIT>天哪，地狱之火啊！这不是我的老朋友&amp;PCName;么，从莫哈维废土一路走来。老朋友，你真是个令人眼痛的人！ </TRADUIT>
+    <TRADUIT>天哪，地狱之火啊！这不是我的老朋友么，从莫哈维废土一路走来。老朋友，你真是个令人眼痛的人！ </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -31245,7 +31245,7 @@ Audio : \Sound\Voice\NewVegasBountiesIII.esp\aaMarkoVoiceType\aaVirgilQu_aaVirgi
     <EDID>aaRandallPostAmbush01Greeting</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>Well, hell fire! If it isn't my old protege, come up all the way from the Mojave Wasteland. You are a sight for sore eyes, old friend!</ORIGINAL>
-    <TRADUIT>天哪，地狱之火啊！这不是我的老朋友&amp;PCName;么，从莫哈维废土一路走来。老朋友，你真是个令人眼痛的人！ </TRADUIT>
+    <TRADUIT>天哪，地狱之火啊！这不是我的老朋友[%]么，从莫哈维废土一路走来。老朋友，你真是个令人眼痛的人！ </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -58072,7 +58072,7 @@ Quest : ([040153E1]aaFrosthillDialogue) Dialogue for Frosthill NPC's
     <ID>0406F57C</ID>
     <EDID>aaFrosthillGenericNews</EDID>
     <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>Have you heard of El Quemador, "The Burner"? They say he has a great army in the old deserts of Mexico, and he roasts captives alive. B醨baro!</ORIGINAL>
+    <ORIGINAL>Have you heard of El Quemador, "The Burner"? They say he has a great army in the old deserts of Mexico, and he roasts captives alive. Babaro!</ORIGINAL>
     <TRADUIT>你听说过"燃烧者"艾尔 奎马多吗？他们说他在墨西哥的老沙漠有一支庞大的军队，他会活生生地烤俘虏。真是个野蛮人！</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
@@ -63872,8 +63872,8 @@ Audio : \Sound\Voice\NewVegasBountiesIII.esp\aaThorneVoiceType\aaNVB3Main_aaNVB3
     <ID>04059363</ID>
     <EDID>aaFordIntroMyName</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>I'm &amp;PCName;.</ORIGINAL>
-    <TRADUIT>我是&amp;PCName;。</TRADUIT>
+    <ORIGINAL>I'm [%].</ORIGINAL>
+    <TRADUIT>我是[%]。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -63920,8 +63920,8 @@ Audio : \Sound\Voice\NewVegasBountiesIII.esp\aaFordVoiceType\aaHunterDi_aaFordIn
     <ID>04059364</ID>
     <EDID>aaFordIntroMyNameBadass</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>My friends call me &amp;PCName;. You can call me sir.</ORIGINAL>
-    <TRADUIT>我的朋友们都叫我&amp;PCName;。你可以叫我先生。</TRADUIT>
+    <ORIGINAL>My friends call me [%]. You can call me sir.</ORIGINAL>
+    <TRADUIT>我的朋友们都叫我 [%]。你可以叫我先生。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -64002,8 +64002,8 @@ Audio : \Sound\Voice\NewVegasBountiesIII.esp\aaFordVoiceType\aaHunterDi_aaFordIn
     <ID>0405936A</ID>
     <EDID>aaFordIntroMyNameBadass</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>My friends call me &amp;PCName;. You can call me ma'am.</ORIGINAL>
-    <TRADUIT>我的朋友们都叫我&amp;PCName;。你可以叫我夫人。</TRADUIT>
+    <ORIGINAL>My friends call me [%]. You can call me ma'am.</ORIGINAL>
+    <TRADUIT>我的朋友们都叫我[%]。你可以叫我夫人。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -88566,10 +88566,10 @@ Consult your physician before engaging in intercourse immediately after viewing 
     <ID>04000DC6</ID>
     <EDID>aaNVB3IntroMessage</EDID>
     <CHAMP>DESC</CHAMP>
-    <ORIGINAL>With the Mojave Wasteland now purged of its most dangerous elements, rumors abound of a mysterious newcomer seeking out the now-famous Courier. While many of the accounts vary, they all share a common message delivered by the traveler: "Tell &amp;PCNAME; to go where it all began."
+    <ORIGINAL>With the Mojave Wasteland now purged of its most dangerous elements, rumors abound of a mysterious newcomer seeking out the now-famous Courier. While many of the accounts vary, they all share a common message delivered by the traveler: "Tell [%] to go where it all began."
 
 Recalling your past deeds as a bounty hunter, you soon realize it can only mean one place: Randall &amp; Associates. Perhaps you should seek out this stranger and ascertain his motives. New Vegas Bounties III is recommended for veteran Couriers (Levels 35+). </ORIGINAL>
-    <TRADUIT>随着莫哈维废土上最危险的元素被一个个的清除，一个神秘的新来者正在寻找现在最著名的邮差的传闻比比皆是。尽管许多细节的部分各不相同，但它们都共享一条由旅行者传递的共同信息："告诉&amp;PCNAME;去一切开始的地方。"
+    <TRADUIT>随着莫哈维废土上最危险的元素被一个个的清除，一个神秘的新来者正在寻找现在最著名的邮差的传闻比比皆是。尽管许多细节的部分各不相同，但它们都共享一条由旅行者传递的共同信息："告诉[%]去一切开始的地方。"
 
 回想你过去作为赏金猎人的种种行动，你很快就意识到这只意味着一个地方：兰道尔的同盟会。也许你应该找出这个陌生人并弄清他的动机。
 新维加斯赏金猎人III    推荐资深邮差（35级以上）进行参与。  
