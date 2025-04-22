@@ -686,6 +686,9 @@
 		
 		<!-- JIP CCC -->
 		<regex from="^([\s\S]+) is at ([\s\S]+)$" to="$1位于$2"/>
+		<!-- Ammo Box -->
+		<regex from="^([\S\s]+)\sBox\s\n?(\[\d+\])$" to="$1弹药盒 $2"/>
+		<regex from="^([\S\s]+)\sBox\s\n?(\[\d+\]\s\n?\(\d+\))$" to="$1弹药盒 $2"/>
 		
 	</captureGroup>
 
