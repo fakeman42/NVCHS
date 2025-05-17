@@ -1,5 +1,5 @@
 新维加斯外挂汉化
-# 已翻译mod以及Nexus连接\
+已翻译mod以及Nexus连接
 # A
 # B
 Better Caravan ： https://www.nexusmods.com/newvegas/mods/81002<br>
