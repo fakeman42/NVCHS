@@ -7435,8 +7435,8 @@ Specialist April Morgan
     <ID>0706F58D</ID>
     <EDID>aaaMorganZZZRecording</EDID>
     <CHAMP>FULL</CHAMP>
-    <ORIGINAL>For &amp;PCName;</ORIGINAL>
-    <TRADUIT>给 &amp;PCName;</TRADUIT>
+    <ORIGINAL>For [%]</ORIGINAL>
+    <TRADUIT>给 [%]</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7463,7 +7463,7 @@ Specialist April Morgan
     <ID>0705D94F</ID>
     <EDID>aaaCartersChurchOrders</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>Carter: I will be in the church's escape tunnel with the main contingent of my men. Some of the staff may have fled down that way, and I won't be leaving witnesses. If you find any survivors that somehow dodged our initial purge, wipe them out. Your primary focus is &amp;PCName;, who I am sure will be arriving soon. My superiors have offered me a substantial reward for the Courier's head, and while I would prefer to take my time breaking them, business is business. If you can deal with this issue, I will cut off a large share of the reward for you. Don't fail me, and if you do, don't bother surviving.
+    <ORIGINAL>Carter: I will be in the church's escape tunnel with the main contingent of my men. Some of the staff may have fled down that way, and I won't be leaving witnesses. If you find any survivors that somehow dodged our initial purge, wipe them out. Your primary focus is [%], who I am sure will be arriving soon. My superiors have offered me a substantial reward for the Courier's head, and while I would prefer to take my time breaking them, business is business. If you can deal with this issue, I will cut off a large share of the reward for you. Don't fail me, and if you do, don't bother surviving.
 
 Brecker
 
@@ -7472,7 +7472,7 @@ Brecker
 
 
 </ORIGINAL>
-    <TRADUIT>卡特：我会和我的主要部队一起在教堂的逃生隧道里。 一些工作人员可能已经这样逃走了，我不会留下证人。 如果你发现任何幸存者以某种方式躲过了我们最初的清洗，消灭他们。 你的主要关注点是 &amp;PCName;，我相信他很快就会到达。 我的上司为邮差的头提供了丰厚的赏金，虽然我更愿意花时间破坏它，但生意就是生意。 如果你能解决这个问题，我会为你提供一大笔奖金。 不要辜负我，如果你失败了，也不要费心活着了。
+    <TRADUIT>卡特：我会和我的主要部队一起在教堂的逃生隧道里。 一些工作人员可能已经这样逃走了，我不会留下证人。 如果你发现任何幸存者以某种方式躲过了我们最初的清洗，消灭他们。 你的主要关注点是 [%]，我相信他很快就会到达。 我的上司为邮差的头提供了丰厚的赏金，虽然我更愿意花时间破坏它，但生意就是生意。 如果你能解决这个问题，我会为你提供一大笔奖金。 不要辜负我，如果你失败了，也不要费心活着了。
 
 - 布雷克 </TRADUIT>
     <PERSO />
@@ -7573,7 +7573,7 @@ Brecker
     <CHAMP>TNAM</CHAMP>
     <ORIGINAL>This contract is available to all interested parties.
 
-Name: &amp;PCName; 
+Name: [%] 
 Race: &amp;PCRace;
 Sex: &amp;PCSex;
 
@@ -7586,7 +7586,7 @@ You should know who your contact is. Happy hunting, gentlemen.
 </ORIGINAL>
     <TRADUIT>本合同适用于所有有利害关系的各方。
 
-名称:&amp;PCName;
+名称:[%]
 
 种族:&amp;PCRace;
 
@@ -7621,7 +7621,7 @@ You should know who your contact is. Happy hunting, gentlemen.
     <ID>0701BAD1</ID>
     <EDID>aaaMorganDeliveryTape</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>Hello, &amp;PCName;. My name is Specialist April Morgan with the NCR. I'm working on a classified assignment, and I know that you would be immensely helpful to my efforts. While I can't go into details in this message, I can promise you a hefty cash incentive to aiding me, in addition to the good it would do for the region if I am successful in this. Included in this message are the coordinates to the area I'm operating. Please, meet with me at your earliest possible convenience.
+    <ORIGINAL>Hello, [%]. My name is Specialist April Morgan with the NCR. I'm working on a classified assignment, and I know that you would be immensely helpful to my efforts. While I can't go into details in this message, I can promise you a hefty cash incentive to aiding me, in addition to the good it would do for the region if I am successful in this. Included in this message are the coordinates to the area I'm operating. Please, meet with me at your earliest possible convenience.
 
 Specialist April Morgan
 NCR Military
@@ -7629,7 +7629,7 @@ NCR Military
 
 
 </ORIGINAL>
-    <TRADUIT>你好，&amp;PCName;。我是NCR的专家阿普丽尔·摩根。我在执行一项机密任务，我知道你能帮我大忙。虽然我不能在这封邮件中透露细节，但我可以向你保证，如果我在这方面取得成功，除了对该地区的好处外，你还会得到一笔丰厚的现金奖励。这条信息中包含了我行动区域的坐标。请在你方便的时候尽早与我见面。
+    <TRADUIT>你好，[%]。我是NCR的专家阿普丽尔·摩根。我在执行一项机密任务，我知道你能帮我大忙。虽然我不能在这封邮件中透露细节，但我可以向你保证，如果我在这方面取得成功，除了对该地区的好处外，你还会得到一笔丰厚的现金奖励。这条信息中包含了我行动区域的坐标。请在你方便的时候尽早与我见面。
 
 
 - 专家阿普丽尔·摩根
@@ -7790,7 +7790,7 @@ Ryan O'Neill
     <ID>07059EE6</ID>
     <EDID>aaaCharlieHelpNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>&amp;PCName;, I've gone to the liberty of hiring an assassin to watch your back. Who could possibly be more qualified to foil attempts on your life, than someone who does that sort of thing for a living, right?
+    <ORIGINAL>[%], I've gone to the liberty of hiring an assassin to watch your back. Who could possibly be more qualified to foil attempts on your life, than someone who does that sort of thing for a living, right?
 
 Don't worry about the cost. It's being generously covered by our dear friends back in the NCR: the taxpayers. The contract is good until the resolution of the battle at Hoover Dam, at which point you're going to be footing the bill yourself, assuming you want to extend the contract.
 
@@ -7806,7 +7806,7 @@ Office of Mojave Affairs
 
 
 </ORIGINAL>
-    <TRADUIT>&amp;PCName;，我已经获得了雇佣刺客保护你的权限。有谁能比以这种工作为生的人，更有资格阻止别人对你生命的企图呢？
+    <TRADUIT>[%]，我已经获得了雇佣刺客保护你的权限。有谁能比以这种工作为生的人，更有资格阻止别人对你生命的企图呢？
 
 不要担心费用，这笔费用将由我们在NCR的亲爱的朋友们：纳税人慷慨承担。这份合同在胡佛大坝之战结束前都是有效的，到那时，如果你想延长合同，你就得自己买单了。
 
@@ -8004,7 +8004,7 @@ Mr. Sheridan (Thanks for the title, I've never been called "mister" before. I'll
     <CHAMP>TNAM</CHAMP>
     <ORIGINAL>Your target is this idiot:
 
-Name: &amp;PCName; 
+Name: [%] 
 Race: &amp;PCRace;
 Sex: &amp;PCSex;
 
@@ -8020,7 +8020,7 @@ Stan Gold Productions
 </ORIGINAL>
     <TRADUIT>你的目标是这个白痴
 
-名称:&amp;PCName;
+名称:[%]
 
 种族:&amp;PCRace;
 

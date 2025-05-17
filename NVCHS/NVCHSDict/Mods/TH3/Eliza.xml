@@ -8775,14 +8775,14 @@ Hal
     <ID>080424F9</ID>
     <EDID>aaaWeirdNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>Dear &amp;PCName;,
+    <ORIGINAL>Dear [%],
 
 I'm sorry I took so long to write this letter. I was afraid of the feelings that I had, but no longer. Though our meeting was brief, as I stared into your eyes, I knew there was something between us. Surely, you felt it as well. A love this powerful could not be restricted to only one person!
 
 I'm sure I've been on your mind, just as you've been on mine. Come to me, my love. I'll be where I was when first we met, waiting for you to return to me.
 
 -Your Soulmate</ORIGINAL>
-    <TRADUIT>亲爱的&amp;PCName;,
+    <TRADUIT>亲爱的[%],
 
 很抱歉我花了这么长时间写这封信。我曾经害怕那种感觉，但现在我不怕了。虽然我们的会面很短暂，但当我凝视着你的眼睛时，我知道我们之间有某种东西。当然，你也感觉到了。如此强大的爱不可能只来自一方！
 
@@ -9581,18 +9581,18 @@ fergus says it's ok to do this and he does it himself james you fucking coward j
     <ID>08086CFD</ID>
     <EDID>aaaLouieAmbushNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>We do solemnly swear, on pain of torture and death, that we shall avenge the wanton murder of our brother, Louis Kowalski, at the hands of &amp;PCName;.
+    <ORIGINAL>We do solemnly swear, on pain of torture and death, that we shall avenge the wanton murder of our brother, Louis Kowalski, at the hands of [%].
 
-We are bound to this oath through blood, never to be released from our duty until &amp;PCName; lies dead at our feet, or we ourselves are slain.
+We are bound to this oath through blood, never to be released from our duty until [%] lies dead at our feet, or we ourselves are slain.
 
 T.G.
 
 J.S.
 
 R.B.</ORIGINAL>
-    <TRADUIT>我们以酷刑和死亡的痛苦郑重宣誓，我们将为我们的兄弟路易斯·科瓦尔斯基在&amp;PCName;手中遭受的肆意谋杀复仇。
+    <TRADUIT>我们以酷刑和死亡的痛苦郑重宣誓，我们将为我们的兄弟路易斯·科瓦尔斯基在[%]手中遭受的肆意谋杀复仇。
 
-我们必须用鲜血来履行这个誓言，永不解脱直到&amp;PCName;死在我们脚下，或者我们自己被杀。
+我们必须用鲜血来履行这个誓言，永不解脱直到[%]死在我们脚下，或者我们自己被杀。
 
 
 T.G.
@@ -9779,7 +9779,7 @@ The only detail worth noting is a crude circle around the vague area of the Ivan
     <ID>08090F22</ID>
     <EDID>aaaSawyersLetter</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>&amp;PCName;, I would like to meet with you, face-to-face, at your earliest possible convenience.
+    <ORIGINAL>[%], I would like to meet with you, face-to-face, at your earliest possible convenience.
 
 I have a proposition for you, one that could potentially be extremely profitable and of great benefit to the Republic. If that isn't enough incentive, I can offer you amnesty for any outstanding warrants the NCR may hold against you.
 
@@ -9790,7 +9790,7 @@ Please report to the Office of Mojave Affairs building, outside the McCarran wal
 I look forward to meeting you.
 
 Sawyer</ORIGINAL>
-    <TRADUIT>&amp;PCName;, 我想在您方便的时候，与您面谈。
+    <TRADUIT>[%], 我想在您方便的时候，与您面谈。
 
 我有一个提议，一个可能非常有利可图，并且对共和国非常有益的提议。如果这还不足以引起您的兴趣，我可以就NCR针对您发布的任何尚待执行的裁决给予特赦。
 
@@ -9828,14 +9828,14 @@ Sawyer</ORIGINAL>
     <ID>0809B6EF</ID>
     <EDID>aaaPlayerBountyNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>A bounty of 5000 caps is on offer to anyone who successfully terminates &amp;PCName; and provides proof of death. 
+    <ORIGINAL>A bounty of 5000 caps is on offer to anyone who successfully terminates [%] and provides proof of death. 
 
 Target is considered armed and extremely dangerous, and should be executed on sight.
 
 This contract is open to the public, and can be turned in with any Lawrence &amp; Pyke associate.
 
 Happy hunting! </ORIGINAL>
-    <TRADUIT>任何杀死 &amp;PCName; 并提供有效证据者，将获得赏金5000瓶盖。 
+    <TRADUIT>任何杀死 [%] 并提供有效证据者，将获得赏金5000瓶盖。 
 
 目标携带武器并且极度危险，一经发现，应当立即击毙。
 
@@ -10451,7 +10451,7 @@ Gus</ORIGINAL>
     <ID>080E3E7F</ID>
     <EDID>aaaNewCourierNote</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>Hello, &amp;PCName;.
+    <ORIGINAL>Hello, [%].
 
 I have a small favor to ask of you. I understand you're a newcomer to the charming little township of New Rockwell, and may not be familiar with things yet.
 
@@ -10465,7 +10465,7 @@ S
 
 
 </ORIGINAL>
-    <TRADUIT>你好, &amp;PCName;.
+    <TRADUIT>你好, [%].
 
 我想请你帮个小忙。我知道你刚刚来到迷人的新洛克威尔小镇，并且可能对这里还不太熟悉。
 
@@ -39246,8 +39246,8 @@ Audio (bsa): sound\voice\eliza.esp\femaleadult01default\aaaharvest_aaamariaintro
     <ID>08085B01</ID>
     <EDID>aaaMariaIntroduce</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>It's alright. My name is &amp;PCName;, and I just need to ask you about what you saw.</ORIGINAL>
-    <TRADUIT>没关系。我叫&amp;PCName;, 我只是想要问问你看见了什么。</TRADUIT>
+    <ORIGINAL>It's alright. My name is [%], and I just need to ask you about what you saw.</ORIGINAL>
+    <TRADUIT>没关系。我叫[%], 我只是想要问问你看见了什么。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
