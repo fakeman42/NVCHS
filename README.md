@@ -1,6 +1,7 @@
 新维加斯外挂汉化
 已翻译mod以及Nexus连接
 # A
+A Familiar Friend - Pip-Boy 2500 - Handheld Pipboy ： https://www.nexusmods.com/newvegas/mods/38844  
 Alternate Start with Delayed Main Quest : https://www.nexusmods.com/newvegas/mods/82319  
 Another Millenia : https://www.nexusmods.com/newvegas/mods/76133  
 Another Millenia Gun Add-on : https://www.nexusmods.com/newvegas/mods/77358  
@@ -44,6 +45,7 @@ Keybind Quick Display : https://www.nexusmods.com/newvegas/mods/85702<br>
 lStewieAl's Tweaks and Engine Fixes ： https://www.nexusmods.com/newvegas/mods/66347<br>
 # M
 MAPMO - Main and Pause Menus Overhaul ： https://www.nexusmods.com/newvegas/mods/74365<br>
+Mental Stability System - New Vegas (In)sanity Mod ： https://www.nexusmods.com/newvegas/mods/87258<br>
 Misc Gameplay Merge : https://www.nexusmods.com/newvegas/mods/73921*  
 Misc Stat Collection : https://www.nexusmods.com/newvegas/mods/87516  
 Mojave NPCs ： https://www.nexusmods.com/newvegas/mods/72615<br>
@@ -51,6 +53,7 @@ MoreMojave ： https://www.nexusmods.com/newvegas/mods/69809<br>
 M.U.X. Series - Interface Overhaul: https://www.nexusmods.com/newvegas/mods/80642<br>
 # N
 New Vegas Bounties I : https://www.nexusmods.com/newvegas/mods/37310<br>
+New Vegas Bounties I LE ： https://www.nexusmods.com/newvegas/mods/77108  
 New Vegas Bounties II ： https://www.nexusmods.com/newvegas/mods/41184<br>
 New Vegas Bounties III ： https://www.nexusmods.com/newvegas/mods/55744<br>
 Nova Arizona - A Legion Lands Expansion ： https://www.nexusmods.com/newvegas/mods/85915<br>
