@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>EdisLEado</ORIGINAL>
+    <TRADUIT>艾迪斯 雷奥</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Master Files :
+00 - FalloutNV.esm
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>SNAM</CHAMP>
+    <ORIGINAL>Want to add a bit more of that classic Fallout flavour into New Vegas? Replace your Pip-Boy 3000 and slap the slick Pip-Boy 2500 into your hand! Requires NVSE!</ORIGINAL>
+    <TRADUIT>想在辐射新维加斯中加入更多旧时代辐射风味吗？替换你的哔哔小子3000，把更光滑的哔哔小子2500戴在手上（需要NVSE作为该MOD的前置！）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Master Files :
+00 - FalloutNV.esm
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>0100137E</ID>
+    <EDID>BIDEpipboy2500OptionsEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Configure Pip-Boy 2500</ORIGINAL>
+    <TRADUIT>设置哔哔小子2500</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>01000ADE</ID>
+    <EDID>BIDEpipReadius</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pip-Boy 2500</ORIGINAL>
+    <TRADUIT>哔哔小子2500</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+PipBoy
+
+Meshes : Pipboy2500\pipboyarm.nif</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>010010A0</ID>
+    <EDID>BIDEpipReadiusOptions</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>[RobCo Pip-Boy Widget]</ORIGINAL>
+    <TRADUIT>[罗科工业哔哔小子插件]</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Meshes : clutter\Handradio\Handradio.NIF</COMMENTAIRE>
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EA8</ID>
+    <EDID>BIDEpipOptions</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pip-Boy 2500 Configuration</ORIGINAL>
+    <TRADUIT>哔哔小子2500设置</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EA8</ID>
+    <EDID>BIDEpipOptions</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Modify Field of View (FOV)</ORIGINAL>
+    <TRADUIT>修改FOV</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EA8</ID>
+    <EDID>BIDEpipOptions</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Access Fix Options</ORIGINAL>
+    <TRADUIT>访问修复选项</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EA8</ID>
+    <EDID>BIDEpipOptions</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>[Uninstall Pip-Boy 2500]</ORIGINAL>
+    <TRADUIT>[卸载哔哔小子2500]</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EA8</ID>
+    <EDID>BIDEpipOptions</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Cancel</ORIGINAL>
+    <TRADUIT>取消</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EAC</ID>
+    <EDID>BIDEpipUninstall</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The Pip-Boy 2500 has been prepped for uninstallation. PLEASE READ THIS ENTIRE MESSAGE BEFORE CLOSING IT. Close this message and put down your Pip-Boy, save, and quit. Disable the mod and make sure to delete all Pip-Boy 2500 associated files. Launch the game again, load your latest savegame, confirm that your Pip-Boy 3000 has returned, save, and restart the game to finish the uninstallation process.</ORIGINAL>
+    <TRADUIT>哔哔小子2500已准备好卸载。请在关闭提示之前阅读完整内容。关闭提示后并放下哔哔小子2500，保存并退出。禁用mod并确保删除所有与哔哔小子2500相关的文件。再次启动游戏，加载最新的存档，确认哔哔小子3000已重新出现，再次保存并重新启动游戏以完成卸载。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01000EAC</ID>
+    <EDID>BIDEpipUninstall</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pip-Boy 2500 - Uninstallation</ORIGINAL>
+    <TRADUIT>哔哔小子2500 - 卸载</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01001BF9</ID>
+    <EDID>BIDEpipNoFOSE</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The Pip-Boy 2500 requires NVSE (New Vegas Script Extender) to function. DO NOT SAVE YOUR GAME! Exit and install the latest version of NVSE.</ORIGINAL>
+    <TRADUIT>哔哔小子2500需要NVSE（新维加斯脚本拓展器）才能生效。请勿保存游戏！退出并安装最新版本的NVSE。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01001BF9</ID>
+    <EDID>BIDEpipNoFOSE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pip-Boy 2500 - NVSE Missing</ORIGINAL>
+    <TRADUIT>哔哔小子2500 - NVSE丢失</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>This setting alters your Pip-Boy field of view value, which determines how large the Pip-Boy 2500 appears on the screen.</ORIGINAL>
+    <TRADUIT>此设置会更改您的哔哔小子FOV值，该值决定了哔哔小子2500在屏幕上的显示大小。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pip-Boy 2500 - FOV</ORIGINAL>
+    <TRADUIT>哔哔小子2500 - FOV</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Tiny</ORIGINAL>
+    <TRADUIT>极小</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Small (Default)</ORIGINAL>
+    <TRADUIT>小（默认）</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Large</ORIGINAL>
+    <TRADUIT>大</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Ginormous</ORIGINAL>
+    <TRADUIT>巨大</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6A</ID>
+    <EDID>BIDEpipOptionsFOV</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Cancel</ORIGINAL>
+    <TRADUIT>取消</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6B</ID>
+    <EDID>BIDEpipFOSEUpdate</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are using an outdated version of NVSE (New Vegas Script Extender). DO NOT SAVE YOUR GAME! Exit your game and update to the latest version of NVSE.</ORIGINAL>
+    <TRADUIT>你正在使用旧版本的NVSE（新维加斯脚本拓展器）。请勿保存游戏！退出并安装最新版本的NVSE。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01002A6B</ID>
+    <EDID>BIDEpipFOSEUpdate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pip-Boy 2500 - NVSE Outdated</ORIGINAL>
+    <TRADUIT>哔哔小子2500 - NVSE需要更新</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005561</ID>
+    <EDID>BIDEpipOptionsFixOnOff</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fix Options</ORIGINAL>
+    <TRADUIT>修复选项</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005561</ID>
+    <EDID>BIDEpipOptionsFixOnOff</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Alternative Light Fix is ON</ORIGINAL>
+    <TRADUIT>备选灯光修复已开启</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005561</ID>
+    <EDID>BIDEpipOptionsFixOnOff</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Modded Weapon Re-equipping is OFF</ORIGINAL>
+    <TRADUIT>改装武器重新装备已关闭</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005561</ID>
+    <EDID>BIDEpipOptionsFixOnOff</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Close</ORIGINAL>
+    <TRADUIT>关闭</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100583F</ID>
+    <EDID>BIDEpipOptionsFixOnOn</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fix Options</ORIGINAL>
+    <TRADUIT>修复选项</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100583F</ID>
+    <EDID>BIDEpipOptionsFixOnOn</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Alternative Light Fix is ON</ORIGINAL>
+    <TRADUIT>备选灯光修复已开启</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100583F</ID>
+    <EDID>BIDEpipOptionsFixOnOn</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Modded Weapon Re-equipping is ON</ORIGINAL>
+    <TRADUIT>改装武器重新装备已开启</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100583F</ID>
+    <EDID>BIDEpipOptionsFixOnOn</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Close</ORIGINAL>
+    <TRADUIT>关闭</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005840</ID>
+    <EDID>BIDEpipOptionsFixOffOn</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fix Options</ORIGINAL>
+    <TRADUIT>修复选项</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005840</ID>
+    <EDID>BIDEpipOptionsFixOffOn</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Alternative Light Fix is OFF</ORIGINAL>
+    <TRADUIT>备选灯光修复已关闭</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005840</ID>
+    <EDID>BIDEpipOptionsFixOffOn</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Modded Weapon Re-equipping is ON</ORIGINAL>
+    <TRADUIT>改装武器重新装备已开启</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005840</ID>
+    <EDID>BIDEpipOptionsFixOffOn</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Close</ORIGINAL>
+    <TRADUIT>关闭</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005841</ID>
+    <EDID>BIDEpipOptionsFixOffOff</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fix Options</ORIGINAL>
+    <TRADUIT>修复选项</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005841</ID>
+    <EDID>BIDEpipOptionsFixOffOff</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Alternative Light Fix is OFF</ORIGINAL>
+    <TRADUIT>备选灯光修复已关闭</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005841</ID>
+    <EDID>BIDEpipOptionsFixOffOff</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Modded Weapon Re-equipping is OFF</ORIGINAL>
+    <TRADUIT>改装武器重新装备已关闭</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01005841</ID>
+    <EDID>BIDEpipOptionsFixOffOff</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Close</ORIGINAL>
+    <TRADUIT>关闭</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>01006693</ID>
+    <EDID>BIDEpipReadiusActivated</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your RobCo Pip-Boy 2500 has been prepped and activated!</ORIGINAL>
+    <TRADUIT>你的罗科工业哔哔小子2500已激活！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
