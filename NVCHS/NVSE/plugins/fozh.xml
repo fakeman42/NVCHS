@@ -167,6 +167,9 @@
 		
 		<!-- MoreMojave -->
 		<json path="Data/NVCHSDict/json/Mods/MoreMojave.json" priority="5" />
+
+		<!-- FPGE -->
+		<json path="Data/NVCHSDict/json/Mods/Functional_Post_Game_Ending.json" priority="5" />
 		
 		<!-- Claim Series -->
 		<json path="Data/NVCHSDict/json/Mods/ClaimtheMojave.json" priority="5" />
@@ -711,4 +714,5 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
