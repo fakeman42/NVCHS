@@ -5,6 +5,7 @@ A Familiar Friend - Pip-Boy 2500 - Handheld Pipboy ： https://www.nexusmods.com
 Alternate Start with Delayed Main Quest : https://www.nexusmods.com/newvegas/mods/82319  
 Another Millenia : https://www.nexusmods.com/newvegas/mods/76133  
 Another Millenia Gun Add-on : https://www.nexusmods.com/newvegas/mods/77358  
+Armed to the Teeth - Redux : https://www.nexusmods.com/newvegas/mods/74936  
 AWO Marksman Carbine Replacer : https://www.nexusmods.com/newvegas/mods/73813  
 # B
 Baka Skill Book Scanner : https://www.nexusmods.com/newvegas/mods/75828  
@@ -20,7 +21,9 @@ Cottonwood Cove Slave Market : https://www.nexusmods.com/newvegas/mods/74495
 # D
 DC NPCs TTW ： https://www.nexusmods.com/newvegas/mods/83419  
 DefinitelyNotSade's Legion Quest Compilation : https://www.nexusmods.com/newvegas/mods/84818  
+Detour: https://www.nexusmods.com/newvegas/mods/92035  
 Dry Wells - Legion Expansion ： https://www.nexusmods.com/newvegas/mods/88180<br>
+
 # E
 Eliza : https://www.nexusmods.com/newvegas/mods/64352<br>
 Essential Capital Enhancements Merged - ECEM (TTW) ： https://www.nexusmods.com/newvegas/mods/89636<br>
@@ -34,6 +37,7 @@ Forgotten Millenia Animated ：https://www.nexusmods.com/newvegas/mods/79911
 Goodies : https://www.nexusmods.com/newvegas/mods/91028<br>
 # H
 Headhunting : https://www.nexusmods.com/newvegas/mods/65790<br>
+Hidden Valley Overhauled : https://www.nexusmods.com/newvegas/mods/70859  
 Hit - Explosives : https://www.nexusmods.com/newvegas/mods/89503  
 # I
 Imperium Radio - Legion Radio Station ： https://www.nexusmods.com/newvegas/mods/85830<br>
