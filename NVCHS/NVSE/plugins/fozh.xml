@@ -311,6 +311,8 @@
 		<xml path="Data/NVCHSDict/Mods/WWM.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/pipboy2500.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/MentalStabilitySystem.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/HiddenValleyOverhauled.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/Duncan's Uncut Collection - AIO Part 1.xml" priority="5" />
 		
 		<json path="Data/NVCHSDict/json/Mods/AmaccurzerO's_Animated_Wastelands.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/AndJusticeForAll.json" priority="5" />
@@ -391,6 +393,7 @@
 		<file target="Data/NVCHSDict/Mods/Harder_New_Vegas_Strip_Access_chs.txt" src="Data/NVCHSDict/Mods/Harder_New_Vegas_Strip_Access_en.txt" type="2" priority="5"/>
 
 		<json path="Data/NVCHSDict/json/Mods/WWM.json" priority="5" />
+		<file target="Data/NVCHSDict/Mods/Armed to the Teeth - Redux_CN" src="Data/NVCHSDict/Mods/Armed to the Teeth - Redux_EN" type="2" priority="5"/>
 	</replacetext>
 
 	<fonts>
@@ -714,5 +717,6 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
 
