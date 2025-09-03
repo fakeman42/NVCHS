@@ -251,6 +251,7 @@
 		<file target="Data/NVCHSDict/Mods/StandaloneCars_chs.txt" src="Data/NVCHSDict/Mods/StandaloneCars_en.txt" type="2" priority="5"/>
 		
 		<!-- mods -->
+		<json path="Data/NVCHSDict/json/Mods/Banter.json" priority="5" />
 		<file target="Data/NVCHSDict/Mods/ammoBox_chs.txt" src="Data/NVCHSDict/Mods/ammoBox_en.txt" type="2" priority="5"/>
 		<json path="Data/NVCHSDict/json/Mods/ChainGang.json" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/TLD_Travelers.xml"/>
@@ -717,6 +718,7 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
 
 
