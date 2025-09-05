@@ -35,12 +35,14 @@ FNV 3DNPC Bundle Updated : https://www.nexusmods.com/newvegas/mods/84274
 Forgotten Millenia Animated ：https://www.nexusmods.com/newvegas/mods/79911  
 # G
 Goodies : https://www.nexusmods.com/newvegas/mods/91028<br>
+Gun and Friends : https://www.nexusmods.com/newvegas/mods/93026  
 # H
 Headhunting : https://www.nexusmods.com/newvegas/mods/65790<br>
 Hidden Valley Overhauled : https://www.nexusmods.com/newvegas/mods/70859  
 Hit - Explosives : https://www.nexusmods.com/newvegas/mods/89503  
 # I
 Imperium Radio - Legion Radio Station ： https://www.nexusmods.com/newvegas/mods/85830<br>
+Into The Deep : https://www.nexusmods.com/newvegas/mods/81385  
 # J
 JAM - Just Assorted Mods : https://www.nexusmods.com/newvegas/mods/66666  
 # K
