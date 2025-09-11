@@ -137,6 +137,7 @@
 		<file target="Data/NVCHSDict/Mods/ySI_Categories_chs.txt" src="Data/NVCHSDict/Mods/ySI_Categories_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/MUX_chs.txt" src="Data/NVCHSDict/Mods/MUX_en.txt" type="2" priority="5"/>
 		<file target="Data/NVCHSDict/Mods/KeybindQuickDisplay_chs.txt" src="Data/NVCHSDict/Mods/KeybindQuickDisplay_en.txt" type="2" priority="5"/>
+		<file target="Data/NVCHSDict/Mods/Dialogue_History_chs.txt" src="Data/NVCHSDict/Mods/Dialogue_History_en.txt" type="2" priority="5"/>
 		
 		<!-- Someguy -->
 		<xml path="Data/NVCHSDict/Mods/Someguy/NewVegasBounties.xml"/>
@@ -703,6 +704,9 @@
 		<!-- Ammo Box -->
 		<regex from="^([\S\s]+)\sBox\s\n?(\[\d+\])$" to="$1弹药盒 $2"/>
 		<regex from="^([\S\s]+)\sBox\s\n?(\[\d+\]\s\n?\(\d+\))$" to="$1弹药盒 $2"/>
+
+		<!-- Dialogue History - ESPless -->
+		<regex from="^(.+?)\s-\s([A-Za-z]+),\s([0-9]{1,2}):([0-9]{2})\s(AM|PM),\s([0-9]{1,2})(st|nd|rd|th)\sof\s([A-Za-z]+),\s([0-9]{4})$" to="$1 - $9年$8$6日，$3:$4 $5（$2）"/>
 		
 	</captureGroup>
 
@@ -720,6 +724,7 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
 
 
