@@ -8,3 +8,22 @@ DIA00000007	Invalid JSON data detected![CRLF][CRLF]By continuing to play you run
 DIA00000008	[%]:
 DIA00000009	Welcome to the Dialogue History menu.[CRLF][CRLF]Navigation: Mouse[CRLF]Toggle Menu: H[CRLF][CRLF]View: Select a date/location in the left window to expand its conversations list.[CRLF]Open: Select a conversation from the list to view it on the right.[CRLF]Replay: Select an NPC dialogue line to play its audio.[CRLF]Find: Use the search bar to filter by NPC name.[CRLF]Sort: Use the button next to the search bar to switch sorting mode.
 DIA00000010	Welcome to the Dialogue History menu.[CRLF][CRLF]Navigation: D-Pad[CRLF]Sort Menu: [%][CRLF]Toggle Menu: [%][CRLF][CRLF]View: Select a date/location in the left window to expand its conversations list.[CRLF]Open: Select a conversation from the list to view it on the right.[CRLF]Replay: Select an NPC dialogue line to play its audio.[CRLF]Find: Use the search bar to filter by NPC name.[CRLF]Sort: Use [%] to switch sorting mode.
+DIA00000011	Dialog History[%]
+DIA00000012	Hide[%]
+DIA00000013	View, search, and listen to your previous conversations via a new interface accessible through the Pause Menu.
+DIA00000014	General
+DIA00000015	Toggle recording conversations to the the Dialogue History log.
+DIA00000016	Entry Limit
+DIA00000017	Maximum number of dialogue entries saved. Oldest entries are permanently removed automatically on save when the limit is reached. 0 = Unlimited entries
+DIA00000018	Ignore Non-Persistent NPCs
+DIA00000019	Dialogue history wont be saved for non persistent NPCs.
+DIA00000020	Ignore Duplicate Lines
+DIA00000021	Attempts to ignore consecutive duplicate dialogue lines being saved to the history. Eg. The player selects the same dialogue choice twice in a row.
+DIA00000022	Interface	
+DIA00000023	Show Menu Button
+DIA00000024	Toggle the "Dialogue History" button visibility in the Dialogue/Pause menus.
+DIA00000025	Name Color (Player)
+DIA00000026	Select player name text color.
+DIA00000027	Name Color (NPC)
+DIA00000028	Select NPC name text color.
+
