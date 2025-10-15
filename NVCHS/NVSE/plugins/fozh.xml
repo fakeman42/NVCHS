@@ -103,7 +103,10 @@
 		<xml path="Data/NVCHSDict/Radio/LegionRadio.xml"/>
 		
 		<!-- lstewie -->
-		<file target="Data/NVCHSDict/Stewie/STEWIE_CN.txt" src="Data/NVCHSDict/Stewie/STEWIE_E.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/Stewie/STEWIE_CN.txt" src="Data/NVCHSDict/Stewie/STEWIE_E.txt" type="2" priority="1"/>
+		<!-- Stewie Tweaks本体+组件 新汉化 -->
+		<file target="Data/NVCHSDict/Stewie/Stewie_chs.txt" src="Data/NVCHSDict/Stewie/Stewie_en.txt" type="2" priority="0"/>
+		<file target="Data/NVCHSDict/Stewie/Stewie_special_chs.txt" src="Data/NVCHSDict/Stewie/Stewie_special_en.txt" type="2" priority="0"/>
 		
 		<!-- YUP -->
 		<xml path="Data/NVCHSDict/Mods/YUP.xml"/>

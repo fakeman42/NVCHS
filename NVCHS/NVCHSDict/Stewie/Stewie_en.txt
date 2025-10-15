@@ -1,0 +1,2523 @@
+STE00000001	No Screenshot Taken Popup
+STE00000002	Stops the 'Screenshot: File ... created' pop-up appearing at the top right corner of the screen.
+STE00000003	Print To Console
+STE00000004	Print the screenshot created message to console.
+STE00000005	Sound ID
+STE00000006	Editor ID of the sound to play.
+STE00000007	Sound Volume
+STE00000008	Volume of the played sound.
+STE00000009	No Karma Messages
+STE00000010	Stops the sounds and messages for good and bad karma.
+STE00000011	Remove Evil Messages
+STE00000012	Remove Evil Sounds
+STE00000013	Remove Good Messages
+STE00000014	Remove Good Sounds
+STE00000015	Repeated Sound Ignore Interval
+STE00000016	Stops the bad karma sound repeating within the provided time (in milliseconds).
+STE00000017	Minimum Increase For Messages/Sounds
+STE00000018	Ignore karma messages and sounds if the increase in karma is below this value.
+STE00000019	Minimum Decrease For Messages/Sounds
+STE00000020	Ignore karma messages and sounds if the decrease in karma is below this value.
+STE00000021	No Cripple/Critical Messages
+STE00000022	Prevents the target crippled/critical hit popups.
+STE00000023	Remove Critical
+STE00000024	Remove critical hit messages.
+STE00000025	Remove Crippled
+STE00000026	Remove crippled target limb messages.
+STE00000027	Run While Aiming
+STE00000028	Remove the movement penalty associated with aiming.
+STE00000029	While Melee Blocking
+STE00000030	Remove the penalty for melee blocking.
+STE00000031	While Iron-Sighting
+STE00000032	Remove the penalty for iron sighting.
+STE00000033	No Audio Distortion
+STE00000034	Remove the audio distortion effect applied to actors wearing masks and intercoms.
+STE00000035	Deep Fried
+STE00000036	Apply the distortion to all sounds, not just NPCs wearing masks.
+STE00000037	Scroll-wheeling Doesn't Change POV
+STE00000038	Stops the point of view changing when zooming in/out (scrolling).
+STE00000039	First-Third Person
+STE00000040	Prevent scrolling changing view from first to third person.
+STE00000041	Third-First Person
+STE00000042	Prevent scrolling changing view from third to first person.
+STE00000043	No Pip-Boy In Combat
+STE00000044	Disallows use of the Pip-Boy during combat.
+STE00000045	Show Corner Message
+STE00000046	Enable corner messages 'No Pip-Boy in combat' or 'Not enough AP to use Pip-Boy in combat'.
+STE00000047	Allow Pip-Boy Using Action Points
+STE00000048	Allow the use of Pip-Boy for 'AP Cost' action points.
+STE00000049	AP Cost
+STE00000050	Number of action points used.
+STE00000051	Not Enough AP Message
+STE00000052	Not Allowed Message
+STE00000053	Jumping Costs AP
+STE00000054	Makes jumping cost Action Points.
+STE00000055	AP cost
+STE00000056	Jump without enough AP
+STE00000057	If disabled, you will only be able to jump if you have enough AP.
+STE00000058	During Combat Only
+STE00000059	Only require action points during combat.
+STE00000060	Combined Post-Combat XP Bar
+STE00000061	Delay XP pop-ups till the end of combat.
+STE00000062	Post-Combat Delay Time
+STE00000063	The amount of time after combat till the XP message will be shown.
+STE00000064	No Skill Tags
+STE00000065	Hides the [Perk], [Speech], [Barter], etc. tags from dialogue options.
+STE00000066	Remove Red Highlight
+STE00000067	Removes the red outline on dialogue options where the skill check would fail.
+STE00000068	Add Percent Symbol
+STE00000069	Show the % symbol on TTW percentage based speech checks (e.g. [Speech 20%] -> [Speech%]).
+STE00000070	Remove [Success] And [FAILED]
+STE00000071	Removes the [SUCCESS] and [FAILED] from responses.
+STE00000072	Hide XP Popups In Dialogue
+STE00000073	Hides XP pop-ups if earned during dialogue.
+STE00000074	Hide Misc Stats and Challenge Popups
+STE00000075	Hides the 'Speech Successes' and 'Speech Failures' in the stats menu and challenge update corner messages.
+STE00000076	Tag Removal Mode
+STE00000077	Don't Remove Skill Tags
+STE00000078	Keep skill tags, e.g. '[Speech 24/50] Whatever.'
+STE00000079	Remove Entire Skill Tag
+STE00000080	Remove entire tag, e.g. 'Whatever.'
+STE00000081	Keep Skill But Remove Number
+STE00000082	Remove the number but keep the skill visible, e.g. '[Speech] Whatever.'
+STE00000083	Movement Penalties
+STE00000084	Adds a configurable movement penalty for when the player is moving backwards or aiming.
+STE00000085	Left
+STE00000086	Right
+STE00000087	Back
+STE00000088	Back Left
+STE00000089	Back Right
+STE00000090	Front Left
+STE00000091	Front Right
+STE00000092	Melee Blocking
+STE00000093	Weapon Aiming
+STE00000094	Reload or Jams
+STE00000095	Modifier while reload and weapon jam animations are playing.
+STE00000096	Firing Automatic Weapons
+STE00000097	Modifier while firing an automatic weapon.
+STE00000098	Individual Hardcore Features
+STE00000099	Enable toggling of individual hardcore features, separately from the game's hardcore setting.
+STE00000100	Ammo Weight
+STE00000101	Essential Companions
+STE00000102	Makes companions unconscious instead of dying when losing all their health.
+STE00000103	Sleep Healing
+STE00000104	Toggle sleeping healing the player - NOTE: does not affect sleeping in player-owned beds as this is a scripted effect.
+STE00000105	Fallout 76 Encumbrance
+STE00000106	Enables running and jumping for Action Points while over-encumbered.
+STE00000107	AP drain cost
+STE00000108	Amount of AP drained every interval.
+STE00000109	AP drain interval
+STE00000110	Rate at which AP is drained (in ms).
+STE00000111	Jump AP cost
+STE00000112	Action points used to jump.
+STE00000113	Allows jumping while over-encumbered with 0 AP.
+STE00000114	Remove encumbrance message
+STE00000115	Removes the "You are over-encumbered and cannot run!" message.
+STE00000116	Allow running without enough AP
+STE00000117	Allows running while over-encumbered with 0 AP.
+STE00000118	Weight based AP drain
+STE00000119	Scale the AP drain by how overencumbered you are, i.e. iAPDrainCost * CurrentWeight/MaxWeight, so carrying 2x your max weight would double the AP drain.
+STE00000120	Overencumbered run speed multiplier
+STE00000121	Speed multiplier applied while running overencumbered.
+STE00000122	Entering VATS Costs AP
+STE00000123	Adds an AP penalty for entering VATS.
+STE00000124	Enter VATS AP cost
+STE00000125	Amount of action points used to enter VATS.
+STE00000126	No VATS without enough AP
+STE00000127	Stops VATS from entering if there is not enough AP to fire the current weapon.
+STE00000128	Fail only
+STE00000129	Only charge AP if there were no targets found.
+STE00000130	No targets only
+STE00000131	Instead of charging AP when entering VATS, charge it if you exit VATS without selecting a target.
+STE00000132	No Alt-TAB Pause
+STE00000133	Stops the game showing the pause menu on alt-tab, recommend pairing with OneTweak's 'Active in Background' option to keep the game running when alt-tabbed.
+STE00000134	Mute sounds
+STE00000135	Mute sounds (excluding music) on alt-tab.
+STE00000136	Midair Fast-Travel
+STE00000137	Allows fast-travel in midair.
+STE00000138	No XP Popups
+STE00000139	Stops the XP pop-up and associated sound.
+STE00000140	Kills
+STE00000141	Disable XP pop-ups for kills.
+STE00000142	Discovering locations
+STE00000143	Disable XP pop-ups for discovering locations.
+STE00000144	RewardXP command
+STE00000145	Disable XP pop-ups from use of the RewardXP command.
+STE00000146	Speech challenges
+STE00000147	Disable XP pop-ups for successful speech checks.
+STE00000148	Hacking
+STE00000149	Disable XP pop-ups for hacking a terminal.
+STE00000150	Lockpick
+STE00000151	Disable XP pop-ups for successfully picking a lock.
+STE00000152	Disarming mines
+STE00000153	Disable XP pop-ups for disarming mines.
+STE00000154	Better Auto-walk
+STE00000155	Moving left or right does not cancel auto-walk (Q key).
+STE00000156	Allow backwards auto-walk
+STE00000157	Allows backwards autowalking by starting the autowalk while moving backwards.
+STE00000158	Cheat Lockpick Menu
+STE00000159	Shows the debug lock-pick menu on all lock-pick menus (cheat).
+STE00000160	No Pip-Boy on Alt-TAB
+STE00000161	Stops the Pip-Boy showing if tab is pressed while alt is held.
+STE00000162	No Unconscious Message
+STE00000163	Stops the 'Actor is now unconscious' message.
+STE00000164	NPCs Pause Between Dialogue Lines
+STE00000165	Require clicking to change to the next line in dialogue, giving time to read what was said.
+STE00000166	Prevent Manually Skipping Dialogue Lines
+STE00000167	Prevent clicking to change to the next line in dialogue.
+STE00000168	Hide Enemies On Compass
+STE00000169	Hides the enemy markers from the compass.
+STE00000170	Show firing enemies
+STE00000171	Show enemies who are currently firing their weapon on compass (enemies performing an attack animation).
+STE00000172	Equip Broken Items
+STE00000173	Allows equipping of broken items (to allow repair with weapon repair kits or skill bonus from apparel).
+STE00000174	VATS Ignores Companions
+STE00000175	Stops VATS targeting companions.
+STE00000176	Combat only
+STE00000177	Allow targeting companions in VATS if outside combat.
+STE00000178	Don't Show Container After Lockpick
+STE00000179	Stops the container menu showing automatically when opening with lock-pick or a key.
+STE00000180	Don't Open Doors After Lockpick
+STE00000181	Stop doors being activated automatically when opening with lock-pick or a key.
+STE00000182	Keep Pip-Boy Light On When Changing Cells
+STE00000183	Stops the Pip-Boy light turning off when entering an exterior cell.
+STE00000184	Turn light off if it's daytime
+STE00000185	Only turn the Pip-Boy light off when entering an exterior between sunrise and sunset.
+STE00000186	Use Mouse In Lockpick
+STE00000187	Allows the use of left clicking to rotate during lock-pick (in addition to the default WASD).
+STE00000188	No Hacking Retry Delay
+STE00000189	Removes the delay between hacking attempts (same as changing the game-setting iHackingRetryMilliseconds to 0).
+STE00000190	Jump While Overencumbered
+STE00000191	Allow jumping while over-encumbered.
+STE00000192	No Casino Max Bet
+STE00000193	Removes the max bet in casinos and makes increments above 1500 increase by 500 (from 100 default).
+STE00000194	Faster Save Menu Close
+STE00000195	Removes a hard-coded 3 second delay before menu closing when saving using the pause menu.
+STE00000196	No Quest Failed Popup
+STE00000197	Stops the QUEST FAILED showing upon failing a quest.
+STE00000198	Show only if started
+STE00000199	Show the QUEST FAILED but only if the quest was started.
+STE00000200	No Location Discovered Popup
+STE00000201	Stops the Location Discovered showing.
+STE00000202	No Ammo Casings
+STE00000203	Stops shooting earning the player ammo casings.
+STE00000204	Faster Hacking Transition
+STE00000205	Decreases the delay after a successful hack by 2.5 seconds.
+STE00000206	Keep Roulette Bet Amount
+STE00000207	Don't reset the bet amount to 1 after playing roulette.
+STE00000208	Console Numpad Support
+STE00000209	Adds support for the numpad buttons /*-+., enter and 0-9 to be used in console.
+STE00000210	Allow Activate While Anims Play
+STE00000211	Allows activating while firing, reloading, jumping, landing etc. - This means you can start reloading, open a door and finish reloading on the other side.
+STE00000212	Unvisited Interior Indicator
+STE00000213	Appends a * to the activation prompt of doors leading to interior cells that have not been visited e.g. 'Door to Saloon * '.
+STE00000214	Unname unvisited cells
+STE00000215	Obscure the cell name to unvisited cells, e.g. Door to...
+STE00000216	Indicate respawned cells
+STE00000217	Append a + to the activation prompt of doors leading to cells that have respawned.
+STE00000218	Show visited cells instead
+STE00000219	Show a * on Visited cells instead of unvisited.
+STE00000220	Skip Player Deathcam Hotkey
+STE00000221	Adds a hot-key 'Left-Alt' or Back on controller to instantly end the player death-cam.
+STE00000222	Descriptive Marker Added Message
+STE00000223	Adds the marker location name to the 'Marker added.' pop-up.
+STE00000224	VATS Ignores Invisible Targets
+STE00000225	Disallow targeting invisible enemies in VATS.
+STE00000226	Remove Downloads Button
+STE00000227	Removes the useless downloads button from the main menu.
+STE00000228	Hide Unmarked Map Locations
+STE00000229	Only show unvisited locations on the compass if they are marked on the map.
+STE00000230	Compass Quest Height Indicator
+STE00000231	Use custom icons to show whether a quest marker is above or below the player.
+STE00000232	Compass NPC Distance Based Alpha
+STE00000233	Fade the compass NPC pips based on distance to the player, uses game-settings fSneakMaxDistance and fSneakExteriorDistanceMult.
+STE00000234	Compass Location Distance Based Alpha
+STE00000235	Fade the compass location markers based on distance to the player.
+STE00000236	Compass Disable Edge Fade
+STE00000237	Disable the alpha effect given to icons on the right edge of compass.
+STE00000238	No Skill Books If Skill Maxed
+STE00000239	Prevents consumption of books if skill level is already at 100.
+STE00000240	No Min Companion Map Distance
+STE00000241	Removes minimum distance companions are shown on the world map.
+STE00000242	Map Show Unconscious Companions
+STE00000243	Show unconscious companions on the map, in red.
+STE00000244	Compass Custom Companion Color
+STE00000245	Customize the color of companions on the compass.
+STE00000246	RGB color
+STE00000247	The red/green/blue value of the color in hexadecimal.
+STE00000248	Disable Show Quest Location
+STE00000249	Disables the functionality of the 'Show Location' button on the quest menu.
+STE00000250	Prevent Fast Travel
+STE00000251	Disables fast travel.
+STE00000252	Remember Bobby Pin Health
+STE00000253	Remembers the bobby pin health between locks (works through saves).
+STE00000254	No Equipped Weapon Movement Penalty
+STE00000255	Removes the movement penalty when holding a weapon.
+STE00000256	Remove Weapon Damage Buffer
+STE00000257	Removes the damage buffer provided for weapons above 75% condition.
+STE00000258	Keep Crosshair When Aiming
+STE00000259	Keep the cross-hair on the screen when aiming with non-scoped weapons.
+STE00000260	Repeat Jumping
+STE00000261	Holding the jump button repeatedly jumps.
+STE00000262	Remove Sneak Label
+STE00000263	Removes the [HIDDEN] etc. label from the HUD.
+STE00000264	Tab Closes Terminals
+STE00000265	Adds a hotkey Tab to close terminals.
+STE00000266	Tab Back In Start Menu
+STE00000267	Adds a hotkey Tab to go back in the start/pause menu.
+STE00000268	Continue Game Hotkey
+STE00000269	Adds a debug hotkey to continue the game from the loading/start menu for mod development ONLY (since if you press the hotkey too early, mods that utilize JIP's MenuMode 4 will not get a chance to run).
+STE00000270	Level Up Scroll Wheel Support
+STE00000271	Adds scroll-wheel support for the -+ skills in the level up menu.
+STE00000272	No LTRT On Pip-Boy
+STE00000273	Use the Pip-Boy texture without LT and RT painted on when a controller is connected.
+STE00000274	No Red Crosshair On Enemies
+STE00000275	Stops the cross-hair turning red on enemies.
+STE00000276	Allow Open Pip-Boy During Camera Shake
+STE00000277	Allows opening of the Pip-Boy when the screen is shaking (will reset the screen shake).
+STE00000278	Left/Right Movement Cancel Out
+STE00000279	Makes holding left and right movement keys not move the player (vanilla would move the player left).
+STE00000280	Fix Enhanced Camera Ground Sink Bug
+STE00000281	Provides a workaround for a bug in the Enhanced Camera mod where the player would sink into the ground when changing from first to third person.
+STE00000282	Talk While Sneaking If Shift Is Held
+STE00000283	While sneaking, holding shift will talk to an NPC instead of pickpocketing them.
+STE00000284	Power Attacks Cost AP
+STE00000285	Adds an Action Points penalty for performing charged unarmed attacks.
+STE00000286	Base AP cost
+STE00000287	Base number of action points used.
+STE00000288	Weapon weight AP mult
+STE00000289	Extra action points per point of weight for the current weapon.
+STE00000290	Max AP cost
+STE00000291	Max AP cost for a charged attack.
+STE00000292	Prevent power attacks without enough AP
+STE00000293	Perform normal attacks when holding attack without enough AP.
+STE00000294	Inventory Drop Item Hotkey
+STE00000295	Adds a hot-key 'Q' to drop the currently selected item from the Pip-Boy menu.
+STE00000296	Instant Continue Button
+STE00000297	Skip the 'Continue from your last saved game?' prompt when clicking continue game in the main menu.
+STE00000298	Custom Sniper Zoom Rate
+STE00000299	Set how quickly scoped weapons zoom.
+STE00000300	FOV change rate
+STE00000301	Rate at which scoped weapons will zoom in, vanilla is 0.25, setting to 0 zooms instantly.
+STE00000302	Same rate to zoom out
+STE00000303	Make the setting also affect zooming out.
+STE00000304	Distance Based Quest Marker Visibilty
+STE00000305	Hide quest markers beyond a set distance.
+STE00000306	Maximum exterior distance
+STE00000307	Maximum exterior distance from which to show quest markers.
+STE00000308	Maximum interior distance
+STE00000309	Maximum interior distance from which to show quest markers.
+STE00000310	Quick Use
+STE00000311	Holding shift will equip/use the cross-hair item. Right clicking on a non-armor item will equip it. Useful for eating/drinking/consuming items without opening the Pip-Boy.
+STE00000312	Realtime quick use
+STE00000313	Holding shift will equip/use the cross-hair item during gameplay.
+STE00000314	Right click to equip in containers
+STE00000315	Right clicking an inventory item while in a container will equip the item (excludes armor).
+STE00000316	F to use in containers
+STE00000317	Adds a hotkey 'F' to use the selected item in a container (excludes armor).
+STE00000318	Work on books
+STE00000319	Allows quick use on books.
+STE00000320	Work on notes
+STE00000321	Show the Book Menu when quick-using notes (requires textures and XML from Book Menu Restored).
+STE00000322	Show item stats
+STE00000323	Show item stats e.g. DPS, DAM, DT and DR while shift is held.
+STE00000324	Show "Re-read" for read notes
+STE00000325	Show 'Re-read' on the prompt for notes that have already been read.
+STE00000326	While aiming on controller
+STE00000327	Quick use when activating while aiming when using a controller.
+STE00000328	Decreased Dialogue/Start Click Delay
+STE00000329	Halves the delay before you can click on a dialogue option when having a conversation (500ms->250ms).
+STE00000330	Hide Unknown NPC Names
+STE00000331	Hide NPC names on the prompt if they haven't spoken to the player.
+STE00000332	Show names on dead NPCs
+STE00000333	Show the name if the NPC is dead.
+STE00000334	Scale All XP
+STE00000335	Scale all earned XP.
+STE00000336	XP multiplier
+STE00000337	Multiplier applied to earned XP, the result is rounded up.
+STE00000338	Prevent Rounding
+STE00000339	Don't ceil earned XP, store the fractional component in the cosave and add it whenever XP is earned.
+STE00000340	Vats Exit Key
+STE00000341	Adds hotkeys Tab and Right Click to end the VATS killcam.
+STE00000342	Instant end
+STE00000343	Instantly end VATS playback rather than waiting for the current action to end.
+STE00000344	Don't Set Quest When Completing Objectives
+STE00000345	Don't set the current quest when completing objectives without having a quest active.
+STE00000346	No Exit Hacking
+STE00000347	Don't allow exiting the hacking menu if an attempt has been made.
+STE00000348	Fail on early exit
+STE00000349	Lock out of the terminal if exiting after making an attempt.
+STE00000350	Slots Auto Spin Hotkey
+STE00000351	Holding W will continually spin the slot machine.
+STE00000352	UK Keyboard Layout
+STE00000353	Use the UK Keyboard layout for console and other menus.
+STE00000354	Remove Quest Objective Added Text
+STE00000355	Hides the text for added objectives from the main HUD.
+STE00000356	Hide completed objectives
+STE00000357	Hides the quest completed objective text.
+STE00000358	Pick Locks Even With Key
+STE00000359	Holding shift allows picking a lock/terminal even if you have the key/password.
+STE00000360	Hold shift to use key
+STE00000361	Make holding shift allow using the key to the lock/terminal.
+STE00000362	Remember Console History
+STE00000363	Stores/restores console history from ConsoleHistory.txt.
+STE00000364	Maximum size
+STE00000365	Max number of commands to store (default is 200).
+STE00000366	Console History Ignores Duplicates
+STE00000367	Prevents consecutive duplicate commands being added to the console's input history list.
+STE00000368	No Quest Sound In Killcams
+STE00000369	Stops the 'Quest Added' sound playing whenever a cinematic killcam is shown.
+STE00000370	No Grab Owned Items
+STE00000371	Disallows grabbing (Z key) of owned items.
+STE00000372	Auto-Skip Main Menu Intro Slides
+STE00000373	Automatically skips the main menu video once loading is finished.
+STE00000374	First Person VATS
+STE00000375	Forces VATS firing camera to play in first person.
+STE00000376	Allow Unsafe Fast Travel
+STE00000377	Allows fast-traveling from indoors (you must be careful not to travel out of scripted areas).
+STE00000378	Show restricted area warning
+STE00000379	Show a warning when travelling from restricted areas.
+STE00000380	Remove Landing Anim
+STE00000381	Stops the landing animation playing.
+STE00000382	Hold Crouch To Sneak
+STE00000383	Makes sneaking holdable rather than toggle-able.
+STE00000384	Fast Travel Costs Special Nuka Bottles
+STE00000385	Makes fast travel cost 1 Nuka-Cola Quantum, Quartz or Victory.
+STE00000386	Item Required Message
+STE00000387	Message shown when trying to fast travel without the required items.
+STE00000388	Item Removed Message
+STE00000389	Message shown when an item is removed upon fast travel.
+STE00000390	Item Editor ID
+STE00000391	Editor ID of the item or formlist (requires JohnnyGuitar NVSE) to remove an item from instead of nuka cola.
+STE00000392	Disable Selling Items
+STE00000393	Removes the ability to sell items in the barter menu.
+STE00000394	Use Custom Barter Price Multipliers
+STE00000395	Set custom buy/sell multipliers for each item type (applied before perk modifiers).
+STE00000396	Constant purified water price
+STE00000397	Do not scale price of purified water.
+STE00000398	Armor sell mult
+STE00000399	Weapon sell mult
+STE00000400	Aid sell mult
+STE00000401	Ammo sell mult
+STE00000402	Misc sell mult
+STE00000403	Weapon Mod sell mult
+STE00000404	Armor buy mult
+STE00000405	Weapon buy mult
+STE00000406	Aid buy mult
+STE00000407	Ammo buy mult
+STE00000408	Misc buy mult
+STE00000409	Weapon Mod buy mult
+STE00000410	Dialogue Number Hotkeys
+STE00000411	Adds hot-keys 0-9 to select dialogue options (recommended use with VUI+).
+STE00000412	Display in dialogue topic
+STE00000413	Display list numbers for topics in dialogue.
+STE00000414	Tab chooses last option
+STE00000415	Add hotkey 'Tab' to choose the last option.
+STE00000416	Disable Hit Shader
+STE00000417	Disables the radial blur when damaged (optionally only when in god-mode).
+STE00000418	Only disable in godmode
+STE00000419	Terminal Instant Display Hotkey
+STE00000420	Adds hot-keys shift and right mouse button to instantly display the current terminal text, and left mouse to speed up display of submenus.
+STE00000421	Keyboard Swap Y/Z Keys
+STE00000422	Swap the Y and Z keys.
+STE00000423	Reloading With Full Clip Switches Ammo Type
+STE00000424	Reloading with a full clip switches ammo type.
+STE00000425	Better Flycam
+STE00000426	Adds AutoMove, flying up and down using Jump and Crouch, rotating pressing Z and C, and scrolling changes flight speed.
+STE00000427	Aim speed multiplier
+STE00000428	Speed multiplier while Aim is pressed.
+STE00000429	Run speed multiplier
+STE00000430	Speed multiplier while run is pressed.
+STE00000431	Scroll speed multiplier
+STE00000432	Multiplier for how much the mouse scroll-wheel influences fly speed.
+STE00000433	Rotation speed multiplier
+STE00000434	Multiplier for rotation speed.
+STE00000435	Smooth camera hotkey
+STE00000436	Adds a hotkey 'Reload' to enable a smooth/cinematic camera.
+STE00000437	NPCs Drop Holstered Weapons
+STE00000438	Allow enemies to drop weapons on death even if they are not out.
+STE00000439	Prevent Reloading With Non-Empty Clip
+STE00000440	Prevents reloading if the weapon's clip is not empty.
+STE00000441	Energy Weapons Only
+STE00000442	Only prevent reloading for energy weapons.
+STE00000443	Exclude Looping Reload Weapons
+STE00000444	Allow reloading weapons if they use a looping (bullet at a time) reload.
+STE00000445	Hide Grenade Indicator
+STE00000446	Removes the grenade indicator from the HUD.
+STE00000447	Weightless Worn Power Armor
+STE00000448	Scale the weight of equipped power armor.
+STE00000449	Require torso armor for weightless helmet
+STE00000450	Make power armor helmets only weightless if torso power armor is also equipped.
+STE00000451	Require Power Armor Training
+STE00000452	Only make power armor weightless for the player/teammates if they have the Power Armor Training perk.
+STE00000453	Weight Mult
+STE00000454	Multiplier applied to worn armor weight.
+STE00000455	Shift Screenshot Hides Menus
+STE00000456	Holding shift when taking a screen-shot hides the menus.
+STE00000457	Fast Travel With Enemies Nearby
+STE00000458	Allows fast travel while enemies are nearby.
+STE00000459	Fast Travel While Overencumbered
+STE00000460	Allow fast travel when over-encumbered, as the Long Haul perk does.
+STE00000461	No Knockdown In Godmode
+STE00000462	Disables the player being knocked down when in god-mode, may break scripted sequences.
+STE00000463	Double Tap Reload To Change Ammo Type
+STE00000464	Double tapping the reload key will change ammo types.
+STE00000465	Allow multiple quick changes
+STE00000466	Pressing Reload additional times will keep swapping the ammo type.
+STE00000467	Ammo swap time
+STE00000468	Time in milliseconds that the Reload key must be pressed within to swap ammo types.
+STE00000469	Force Lockpick No Break Lock
+STE00000470	Failing a lock-pick force attempt breaks a bobby pin instead of the lock.
+STE00000471	Force fail resets pin health
+STE00000472	Reset the current bobby pin health when failing to force a lock.
+STE00000473	No lockpicking without bobby pins
+STE00000474	Prevents the LockPick Menu opening when the player has no bobby pins.
+STE00000475	Bobby Pin Break Message
+STE00000476	Corner message shown when the bobby pin breaks.
+STE00000477	Custom Controller Deadzones
+STE00000478	Set a custom dead-zones for controller thumb-sticks, allowing finer movement and aiming. Default value 0 removes the deadzone entirely.[CRLF]Recommend pairing with bMoreResponsiveControllerAiming.
+STE00000479	Deadzone
+STE00000480	Deadzone value (between 0 and 32767).
+STE00000481	Faster Controller POV Rotate
+STE00000482	Increases the controller rotation speed for the vanity camera (when Change View is held) to half of sensitivity.
+STE00000483	Hide Cursor In Dialogue
+STE00000484	Hide cursor while in Dialogue menus.
+STE00000485	Only when NPC speaks
+STE00000486	Only hide the cursor while the NPC is talking.
+STE00000487	VATS Shift Ignores Friendly Targets
+STE00000488	Holding shift ignores friendly NPCs when entering VATS.
+STE00000489	Ignore enemies instead
+STE00000490	Inverts mod behavior so holding shift SHOWS friendly NPCs.
+STE00000491	Disable Explosion In Face IMOD
+STE00000492	Disables the radial blur when an explosion occurs nearby.
+STE00000493	Modify Skill Points Earned
+STE00000494	Modifies skill points earned on level-up. The formula is : iSkillPointBase + ceil(Intelligence * fPointsPerInt).
+STE00000495	Skill Point Base
+STE00000496	Base skill points before Intelligence bonus is added.
+STE00000497	Points Per Intelligence
+STE00000498	Skill points earned per point of intelligence.
+STE00000499	Luck Doesn't Affect Gambling
+STE00000500	Removes the luck skill's effect on gambling by initializing the Gambling Menus with a luck of 5.
+STE00000501	Luck Skill
+STE00000502	Value to use for luck:[CRLF]- above 5 gives an advantage[CRLF]- below 5 gives a disadvantage[CRLF]- 5 removes luck's effect on gambling
+STE00000503	Remove Chem Worn Off IMOD
+STE00000504	Removes the chem worn off screen effect.
+STE00000505	Adjustable Scope Zoom
+STE00000506	Allows scroll-wheel to zoom while using a scope.
+STE00000507	Zoom Rate
+STE00000508	Rate at which weapons are zoomed.
+STE00000509	Shift Zoom Scale
+STE00000510	Multiplier applied to zoom rate while shift is held.
+STE00000511	Reset Zoom On Weapon Change
+STE00000512	Resets the current zoom when changing weapons.
+STE00000513	Allow Zooming Non-Scoped Weapons
+STE00000514	Smooth Scroll Zoom
+STE00000515	Apply smoothing to the change in zoom.
+STE00000516	Controller Support
+STE00000517	Prevent DPAD hotkeys while aiming and use DPAD Up/Down for zooming.
+STE00000518	Binoculars Only
+STE00000519	Only allow zooming on weapons with no projectile (e.g. binoculars).
+STE00000520	Scope Reset Time MS
+STE00000521	Resets the current zoom if unscoped for this long, set to 0 to disable.
+STE00000522	Min FOV
+STE00000523	Minimum scope FOV (max zoom).
+STE00000524	Max FOV
+STE00000525	Maximum scope FOV (minimum zoom).
+STE00000526	Min FOV Multiplier
+STE00000527	Minimum multiplier applied to weapon FOV (max-zoom).
+STE00000528	Max FOV Multiplier
+STE00000529	Maximum multiplier applied to weapon FOV (min-zoom).
+STE00000530	Zoom In Key
+STE00000531	Key to zoom in (can also use scrollwheel).
+STE00000532	Zoom Out Key
+STE00000533	Key to zoom out (can also use scrollwheel).
+STE00000534	Popup Menus Don't Move Cursor
+STE00000535	Prevents pop-up menus from moving the mouse to the center of the screen.
+STE00000536	Toggle Scope Night Vision
+STE00000537	Pressing the iTogglePipboyLight key while aiming with a night vision weapon toggles off the night vision effect.
+STE00000538	Disable By Default
+STE00000539	Disables night vision for weapons until the toggle key has been pressed.
+STE00000540	Allow During Daytime
+STE00000541	Allow night vision during daytime.
+STE00000542	Toggle On Sound
+STE00000543	Sound to play when enabling night vision.
+STE00000544	Toggle Off Sound
+STE00000545	Sound to play when disabling night vision.
+STE00000546	Scope Hold Breath
+STE00000547	Holding shift decreases scope wobble at the cost of Action Points.
+STE00000548	AP Drain
+STE00000549	AP cost per interval.
+STE00000550	AP Drain Interval
+STE00000551	Interval length in milliseconds (lose AP every X milliseconds).
+STE00000552	Wobble Multiplier
+STE00000553	Wobble multiplier while breath is held.
+STE00000554	Require Weapon Strength
+STE00000555	Only allow holding breath if you have the required weapon strength.
+STE00000556	Require Weapon Skill
+STE00000557	Only allow holding breath if you have the required weapon skill.
+STE00000558	Hold Breath Key
+STE00000559	Scancode of keyboard key to hold breath.
+STE00000560	Activate Holds Breath
+STE00000561	Hold breath while the Activate bind is held.
+STE00000562	Power Armor Scales Fall Damage
+STE00000563	Wearing power armor scales fall damage.
+STE00000564	Fall Damage Multiplier
+STE00000565	Fall damage multiplier.
+STE00000566	Player Only
+STE00000567	Agility Scales Movement Speed
+STE00000568	Agility is scaled by fAgilityMovementSpeedMult for every point above or below 5, the latter slowing down the player. The formula is: speedMult = normalSpeedMult * (1 + (agility - 5) * fAgilityMovementSpeedMult).
+STE00000569	Agility Movement Speed Multiplier
+STE00000570	Additional movement multiplier per agility point above 5. Agility below 5 is scaled down.
+STE00000571	Affect NPCs
+STE00000572	Scale NPC movement speeds.
+STE00000573	Affect Player
+STE00000574	Scale player movement speeds.
+STE00000575	Disable Weapon Zoom
+STE00000576	Disables zooming when aiming with non-scoped weapons.
+STE00000577	Exclude Non-Sighted Weapons
+STE00000578	Only disable the zoom for weapons that have ironsights.
+STE00000579	Disable Holstered Weapon FOV Zoom
+STE00000580	Disables zooming when aiming with a weapon holstered.
+STE00000581	No Capitalise Container Categories
+STE00000582	Stops the container category titles being capitalized (you will need to change the AMMO title game-setting since it's capitalized in the actual setting, unlike Aid, Weapons and Armor).
+STE00000583	Automatically Unequip Broken Armor
+STE00000584	Automatically unequip armor when it breaks.
+STE00000585	Armor Break Message
+STE00000586	UI corner message shown when armor breaks.
+STE00000587	Weapon Requirements Matter
+STE00000588	Don't allow equipping of weapons without the required strength and skill.
+STE00000589	Ignore Strength Requirement
+STE00000590	Ignore strength requirement for all weapons.
+STE00000591	Ignore Non-Heavy Strength Requirement
+STE00000592	Ignore strength requirement for weapons that aren't of type 'Two Hand Launcher' or Two Hand Handle'.
+STE00000593	Ignore Skill Requirement
+STE00000594	Ignore skill requirement for all weapons.
+STE00000595	Ignore Throwables
+STE00000596	Ignore requirements for grenades, mines and throwable weapons.
+STE00000597	Strength and Skill Required Message
+STE00000598	Strength Required Message
+STE00000599	Skill Required Message
+STE00000600	Sneak Attack Without Crouching
+STE00000601	Allow sneak attacks while standing.
+STE00000602	Hide Loading Screen Tips
+STE00000603	Removes the tips from loading screens.
+STE00000604	Disable Companion Killcam
+STE00000605	Prevents the killcam being activated by companion kills.
+STE00000606	Pause Game After Loading A Save
+STE00000607	Automatically pause the game when loading a save.
+STE00000608	Remove Interior Fog
+STE00000609	Removes non-static fog from interiors. Recommend using with Simple Interior Lighting Overhaul.
+STE00000610	Min Distance
+STE00000611	Distance over which far fog is removed - setting too low will cause visual bugs in some caves.
+STE00000612	Improved Hacking
+STE00000613	Improves various aspects of the hacking mini-game.
+STE00000614	Prevent Single Character Guesses
+STE00000615	Prevents single character attempts while hacking, i.e. clicking on '/' will do nothing rather than waste an attempt and clutter the guesses output.
+STE00000616	Remove Dud If Allowance Full
+STE00000617	Remove a dud instead of replenishing allowance if allowance is already full.
+STE00000618	Prevent Duplicate Guesses
+STE00000619	Prevent attempts at guessing the same word.
+STE00000620	No Special Input Prints
+STE00000621	Don't print the clicked on string with the 'Dud Removed' and 'Allowance replenished.' messages, to ensure less screen space is used.
+STE00000622	Remove Dud Ignores Guessed Words
+STE00000623	Make 'Dud removed.' ignore guessed words (unless they're the only words left).
+STE00000624	Print Guesses On A Single Line
+STE00000625	Prints guesses as a single line without the 'Entry denied', e.g. HORIZON (1/7).
+STE00000626	Overscroll Support
+STE00000627	Make scrolling to the edge of the screen wrap around to the other side (controller or WASD).
+STE00000628	Mark Guesses as Duds
+STE00000629	Turn incorrect guesses into .....
+STE00000630	Mark Guesses as Duds - Keep Matching Characters
+STE00000631	Keep matching characters when marking guesses as duds, e.g. A.S..ING
+STE00000632	Allowance Replenished Bonus
+STE00000633	Give a bonus number of attempts when finding a 'Replenish Allowanced' instead of setting attempts to the max (e.g. 4 in vanilla).
+STE00000634	Lock Needs Key Show Name
+STE00000635	Adds the name of the required key to the end of the sImpossibleLock message. Note: some keys are just named 'Key' in the base game - see https://fallout.wiki/wiki/Fallout:_New_Vegas_keys
+STE00000636	HUD Visible While Scoped
+STE00000637	Adjust visibility of HUD elements while scoped, e.g. show HP/AP.
+STE00000638	Visibility Flags
+STE00000639	Hexadecimal value containing all the sum of all the desired flags. e.g. 0x00000001 would just be ActionPoints visible; 0x00000003 is HitPoints and ActionPoints; 0x000011A0 would be XpMeter, Messages, SneakMeter and RegionLocation visible. See the readme for available flags.
+STE00000640	Delay Post Combat Level Up
+STE00000641	Adds a 3s delay after combat before the LevelUp menu will show.
+STE00000642	Jumping Doesn't Drop Grabbed Item
+STE00000643	Stops the grabbed item being dropped when jumping.
+STE00000644	No Map Marker Added Popup
+STE00000645	Disables the Map Marker Added popup.
+STE00000646	Godmode Prevents Leg Cripple Sound
+STE00000647	Prevents the leg crippled sound in godmode.
+STE00000648	Non Selectable Player In Console
+STE00000649	Prevents the player being selected when clicking in console.
+STE00000650	Extra Console Details (enabled by default)
+STE00000651	Adds extra information when a ref is selected in the console.
+STE00000652	Show Full Help
+STE00000653	Show the extra details from the ToggleFullHelp command (attached scripts etc.).
+STE00000654	Show Cell Name
+STE00000655	Show the current player cell name at the top left of the console.
+STE00000656	Show Cell EditorID
+STE00000657	Show the editor ID of the current player cell at the top left of the console.
+STE00000658	Show Selected Mesh Path
+STE00000659	Show the mesh path of the selected ref (paths for missing meshes are always shown).
+STE00000660	Print Errors To Console
+STE00000661	Print vanilla debug errors to console.
+STE00000662	Print General Errors
+STE00000663	Print general errors.
+STE00000664	Print Havok Errors
+STE00000665	Print errors from the game's physics/mesh system.
+STE00000666	Print Havok Old hkpBody Errors
+STE00000667	Print useless 'old hlkpRigidBody' warnings from the game's physics/mesh system.
+STE00000668	Print Save/Load Errors
+STE00000669	Print errors related to saving/loading.
+STE00000670	Print General Messages
+STE00000671	Print various general debug information messages.
+STE00000672	Hide Misc Quest Items
+STE00000673	Hide quest items in the misc Pip-Boy page.
+STE00000674	Show Sunset Sarsaparilla Star Caps
+STE00000675	Don't Hide Sunset Sarsaparilla Star Caps.
+STE00000676	Pickpocket Overhaul
+STE00000677	Alters the pickpocket formula to take into account item weight, target's perception and detection values. Note: the game-settings fPickpocketMaxChance and fPickPocketMinChance are still applied.
+STE00000678	Reward XP
+STE00000679	Gain XP from successful pickpocketing.[CRLF]XPReward = itemWeight * fItemWeightMult + (itemValue * fItemValueMult) + targetPerception
+STE00000680	Show success chance
+STE00000681	Add the pickpocket success chance to the bottom of the container menu.
+STE00000682	Success Percentage Message
+STE00000683	Message shown at the bottom of the container menu containing success percentage.
+STE00000684	Reverse pickpocket karma penalty live grenades only
+STE00000685	Only lose karma when reverse pickpocketing if it's a live explosive.
+STE00000686	No karma loss when stealing from hostile NPCs
+STE00000687	Only lose karma when pickpocketing from non-hostile NPCs.
+STE00000688	Free items always succeed
+STE00000689	Allow taking free items (e.g. keys) without getting caught as in vanilla.
+STE00000690	Base Chance
+STE00000691	PickPocketChance = fBaseChance + (playerAgility * fPlayerAgilityMult) + (playerLuck * fPlayerLuckMult) + (playerSneak * fPlayerSneakMult) - (targetPerception * fTargetPerceptionMult) - (detectionValue * fDetectionValueMult) - (itemValue * fItemValueMult) - (itemWeight * fItemWeightMult))
+STE00000692	Sneak Mult
+STE00000693	Luck Mult
+STE00000694	Agility Mult
+STE00000695	Item Value Mult
+STE00000696	Item Weight Mult
+STE00000697	Worn Item Mult
+STE00000698	If the item is worn by the NPC, the total chance is multiplied by fWornItemChanceMult.
+STE00000699	Target Perception Mult
+STE00000700	Detection Value Mult
+STE00000701	Repairs Reward XP
+STE00000702	Earn XP when repairing items.
+STE00000703	XP rewarded
+STE00000704	XP rewarded per item.
+STE00000705	Kills Reward AP
+STE00000706	Earn Action Points when killing outside of VATS.
+STE00000707	AP rewarded
+STE00000708	AP rewarded per kill.
+STE00000709	No HUD Hotkey Popup
+STE00000710	Prevent the hotkey wheel showing when holding a hotkey.
+STE00000711	Clip Size Matters
+STE00000712	Prevent firing if you don't have enough ammo for one burst.
+STE00000713	HUD Shows Location Names
+STE00000714	Show interior cell names in the HUD region text where the 'Mojave Wasteland' text is.
+STE00000715	Show nearby map markers
+STE00000716	Show the name of map markers when approaching them.
+STE00000717	No Companion Kill XP
+STE00000718	Don't reward XP for companion kills - stops companion's attack damage increasing the 'player dealt damage' used when comparing for iXPDeathRewardHealthThreshold.
+STE00000719	Companion hits count after player damage
+STE00000720	Companion hits count towards the iXPDeathRewardHealthThreshold after the player has hit the NPC.
+STE00000721	Hide Ammo Label
+STE00000722	Hide the clip/remaining label from the main HUD.
+STE00000723	Show total remaining
+STE00000724	Show the total ammo count instead of clip/remaining.
+STE00000725	Scale AP Regen While Overencumbered
+STE00000726	Scales AP regeneration rate while over-encumbered.
+STE00000727	AP regen scale
+STE00000728	Scale applied to the Action Points regen rate while over-encumbered.
+STE00000729	Apply only while moving
+STE00000730	Only apply the scale while the player is moving.
+STE00000731	Disable Character Respec
+STE00000732	Disable the character recreation script that runs when leaving the spawn area.
+STE00000733	No Reputation Messages
+STE00000734	Disables the reputation pop-ups and associated messages.
+STE00000735	Hide pop-ups
+STE00000736	Prevent the pop-up menus that require being click out of (e.g. Vilified).
+STE00000737	Hide corner gain messages
+STE00000738	Prevent the top left corner messages when gaining reputation.
+STE00000739	Hide corner loss messages
+STE00000740	Prevent the top left corner messages when losing reputation.
+STE00000741	Only hide non-scripted losses if at minimum reputation
+STE00000742	Prevent loss pop-up and message only if already at the min reputation and if the change was not from a script command.
+STE00000743	Only hide non-scripted gains if at maximum reputation
+STE00000744	Prevent gain pop-up and message only if already at the max reputation and if the change was not from a script command.
+STE00000745	Inventory Sort Button
+STE00000746	Add a button to sort/filter the inventory, specified by menus/prefabs/lStewieAl/SortInventoryButton.xml. Use Shift/Control click to cycle through filtering modes.
+STE00000747	Add to barter
+STE00000748	Add the button to the Barter menu.
+STE00000749	Add to containers
+STE00000750	Add the button to the Container menu.
+STE00000751	Add to Pip-Boy
+STE00000752	Add the button to the Inventory menu.
+STE00000753	Default sorting mode
+STE00000754	Default sorting/filtering mode for the button.
+STE00000755	Hide by Weight
+STE00000756	Hide items weighing less than a threshold weight.
+STE00000757	Sort by Weight
+STE00000758	Sort items by their weight (ignoring stack size).
+STE00000759	Hide Quest Items
+STE00000760	Hide by Weight and Quest Items
+STE00000761	Hide by Weight and Quest Items and Sort By Weight
+STE00000762	Sort by Value Per Weight
+STE00000763	Show Healing Items
+STE00000764	Show Food Items
+STE00000765	Show Water Items
+STE00000766	Show Radiation Decreasing Items
+STE00000767	Weight threshold for hiding
+STE00000768	Threshold weight for hiding items in Hide By Weight modes.
+STE00000769	Hide mode flags
+STE00000770	Hexadecimal value containing the sum of all the desired flags (see readme). e.g. 0x282 would prevent Show Radiation Decreasing Items, Show Food Items and Sort By Weight.
+STE00000771	Brighten active button
+STE00000772	Brighten the sort button while sorting/filtering is active instead of using a separate icon for inactive sorting.
+STE00000773	Controller toggle button
+STE00000774	Controller button to toggle sorting.
+STE00000775	Start
+STE00000776	A
+STE00000777	B
+STE00000778	X
+STE00000779	Y
+STE00000780	LB
+STE00000781	RB
+STE00000782	LS
+STE00000783	RS
+STE00000784	Controller cycle button
+STE00000785	Button to cycle through sorting modes.
+STE00000786	Clicking Active Tab Toggles Sorting
+STE00000787	Clicking the current Pip-Boy inventory tab toggles sorting/filtering.
+STE00000788	Allow Rebind Numkeys
+STE00000789	Show the number hotkeys in the Controls menu and allow binding controls to the DPAD (note: it will conflict with any bound weapon hotkeys). Note: Darnified UI does not support additional items in this menu due to a bug.
+STE00000790	Disable Weapon Hotkeys
+STE00000791	Ignore the DPAD and 1-9 weapon keys outside the Pip-Boy.
+STE00000792	Disable HUD Crippled Limb Indicator
+STE00000793	Prevents the vaultboy showing on the HUD when a limb is crippled (not the 'LMB' text).
+STE00000794	Console Background
+STE00000795	Adds a background to the console, specified by menus/prefabs/lStewieAl/ConsoleBackground.xml.
+STE00000796	Individual Item Stats
+STE00000797	Shows weight and value for a single item when viewing stacks of items instead of the entire stack's weight/value.
+STE00000798	Only Allow Waiting While Sitting
+STE00000799	Only allow waiting while the player is sat down or in godmode.
+STE00000800	Show prevention message
+STE00000801	Show a message when waiting is prevented.
+STE00000802	Prevention message
+STE00000803	Show a message with the current time when waiting is prevented, ignored when using the 'Show prevention message' option.
+STE00000804	HUD RGB Sliders
+STE00000805	Adds RGB sliders for the main HUD color to the settings menu. Note Darnified UI does not support additional items in this menu due to a bug. Optionally, make terminals use HUD color.
+STE00000806	Terminals use HUD color
+STE00000807	Make terminals copy the HUD color.
+STE00000808	Show Currencies In Containers
+STE00000809	Show faction currencies in the misc page for containers, and show Caps in the Pip-Boy misc tab.
+STE00000810	Hide Grenade Indicator For No Damage Explosions
+STE00000811	Hides the grenade indicator for projectiles whose explosions do no damage.
+STE00000812	Unspoken NPC Indicator
+STE00000813	Adds a * to the prompt for NPCs who haven't been spoken to.
+STE00000814	No Scale NPC Damage Threshold By Condition
+STE00000815	Don't scale NPC's armor damage threshold based on its condition.
+STE00000816	No Scale NPC Damage Resistance By Condition
+STE00000817	Don't scale NPC's armor damage resistance based on its condition.
+STE00000818	No Scale NPC Damage By Condition
+STE00000819	Don't scale damage dealt by NPCs based on their weapon's condition.
+STE00000820	Sort Unavailable Radios To Bottom
+STE00000821	Fix a vanilla bug where unavailable radios aren't sorted to the bottom of the list.
+STE00000822	Prevent Generic Follower Topics
+STE00000823	Prevents companions from speaking when they are injured, needing ammo, weapons, etc.
+STE00000824	Disable Tutorial Messages
+STE00000825	Disables hard-coded one-time tutorial menu messages, e.g. hacking, lockpick, Pip-Boy. Does not disable non-hardcoded messages such as 'Press V to use VATS' etc.
+STE00000826	Barter Check Actor Buy Sell Flags
+STE00000827	Make vendors obey their Buy/Sell flags, hiding items the vendor doesn't accept.
+STE00000828	Ammo Requires Weapons
+STE00000829	Only buy/sell ammo if vendor buys/sells weapons.
+STE00000830	Perk Editor ID
+STE00000831	Editor ID of a perk for ignoring the buy/sell flags.
+STE00000832	Keep Selected Console Ref
+STE00000833	Remembers the selected ref when closing the console (provided it is still loaded).
+STE00000834	No Fast Travel Time Change
+STE00000835	Don't progress time or hardcore needs when fast traveling.
+STE00000836	Sleep In Owned Beds
+STE00000837	Allow sleeping in owned beds.
+STE00000838	Detected By Whom
+STE00000839	Show the names of actors detecting you while sneaking, e.g. Replaces [DETECTED] with [Detected by: Easy Pete, Sunny Smiles, and 2 others].
+STE00000840	Maximum name count
+STE00000841	Names to display before showing "and N others".
+STE00000842	Detected String
+STE00000843	Starting string for list ([Detected by: )
+STE00000844	Actors String
+STE00000845	String shown when the max name count is 0.
+STE00000846	Others String
+STE00000847	String shown when more than iMaxNameCount actors are detecting the player.
+STE00000848	Plural String
+STE00000849	Appended to 'and %d other(s)'.
+STE00000850	Running Costs AP
+STE00000851	Adds an Action Points cost for running.[CRLF]The formula is: apCost = fAPDrainCostBase + ((5 - Endurance) * fRunAPEnduranceMult).[CRLF]apCost action points are removed every iAPDrainIntervalMS milliseconds.
+STE00000852	Base action points cost.
+STE00000853	AP cost endurance mult
+STE00000854	Endurance multiplier for AP cost.
+STE00000855	Sneak Base AP cost
+STE00000856	Base action points cost while sneaking.
+STE00000857	Sneak AP cost endurance mult
+STE00000858	Endurance multiplier for AP cost while sneaking.
+STE00000859	Time between AP reductions (in milliseconds).
+STE00000860	Always allows running, preventing AP gain when at 0.
+STE00000861	In combat only
+STE00000862	Only decrease action points when running while in combat.
+STE00000863	AP regeneration mult
+STE00000864	Action point regen multiplier while moving.
+STE00000865	Hide Completed Quests
+STE00000866	Don't display completed quests in the Pip-Boy Quests tab.
+STE00000867	Hold Wait Key To Show Menu
+STE00000868	Makes the sleep/wait button require to be held instead of instantly showing when pressed.
+STE00000869	Key hold time
+STE00000870	Time the wait key must be held before the wait menu is shown (in milliseconds).
+STE00000871	Use Fallout 3 Audio Distortion
+STE00000872	Use a distortion algorithm similar to the one in Fallout 3 for NPCs wearing masks (sounds more metallic and less muffled).
+STE00000873	Keep XP Bar When Closing Menus
+STE00000874	Stops the XP bar from being hidden when closing a menu (e.g. Hacking, Dialogue or Lockpicking).
+STE00000875	Pick Locks Without Skill
+STE00000876	Allow picking locks of any level.
+STE00000877	Scale difficulty
+STE00000878	Scale the difficulty of locks based on your skill deficit.[CRLF]Formula: sweetSpot = vanillaSweetSpot * (skillLevel / skillReq)
+STE00000879	Hack Terminals Without Skill
+STE00000880	Allow hacking terminals of any level.
+STE00000881	Turn Further While Seated
+STE00000882	Increase the maximum rotation while seated to -115 <-> 115 degrees (from vanilla -90 <-> 90) in first person, and a full 360 degrees in third person.
+STE00000883	Loot Unconscious Victims
+STE00000884	Allows unconscious actors to be looted.
+STE00000885	Color Recently Added Map Markers
+STE00000886	Show map markers added this session in red. Map markers given to you are displayed in red until the save is reloaded.
+STE00000887	Custom Default Pip-Boy Tab
+STE00000888	Makes the Pip-Boy always open to the same tab when the MenuMode key is pressed (F1/F2/F3 still navigate to their respective categories).
+STE00000889	Default Tab
+STE00000890	DATA - Last-Selected
+STE00000891	DATA - Radio
+STE00000892	DATA - Misc
+STE00000893	DATA - Quests
+STE00000894	DATA - World-Map
+STE00000895	DATA - Local-Map
+STE00000896	ITEMS - Last-Selected
+STE00000897	ITEMS - Ammo
+STE00000898	ITEMS - Misc
+STE00000899	ITEMS - Aid
+STE00000900	ITEMS - Apparel
+STE00000901	ITEMS - Weapons
+STE00000902	STATS - Last-Selected
+STE00000903	STATS - General
+STE00000904	STATS - Perks
+STE00000905	STATS - Skills
+STE00000906	STATS - SPECIAL
+STE00000907	STATS - Status
+STE00000908	Show Weapon Ammo Use In Menus
+STE00000909	Show the ammo used per shot when viewing a weapon in the inventory. For example: when viewing a Tri-Beam Laser Rifle, the ammo display will be 'MF Cell x 3'.
+STE00000910	No Place Marker Popup
+STE00000911	Hides the Place/Remove marker when placing markers on the map.
+STE00000912	Shift+click to remove
+STE00000913	Makes right clicking always place the map marker (instead of toggling it being placed/removed). If shift is held while clicking, the marker will be removed.
+STE00000914	Remove Only If Hovered
+STE00000915	Makes right clicking place the map marker, removing only if hovering over an existing marker.
+STE00000916	24-Hour Sleep Wait Clock
+STE00000917	Changes the sleep/wait clock to be in 24 hour format.
+STE00000918	12-Hour Pip-Boy Clock
+STE00000919	Changes the Pip-Boy clock to be in 12 hour format.
+STE00000920	Respawning Container Indicator
+STE00000921	Adds a warning in the subtitles bar if the opened container is set to respawn.
+STE00000922	Warning message
+STE00000923	Warning message shown on containers that respawn.
+STE00000924	Hide on NPCs
+STE00000925	Hide the warning on NPCs.
+STE00000926	Local Map Respawned Cell Indicator
+STE00000927	Show respawned cells as red and unvisited cells as white on the local map.
+STE00000928	Show respawned cells
+STE00000929	Color respawned cells in red.
+STE00000930	Show unvisited cells
+STE00000931	Color unvisited cells in white.
+STE00000932	Better Pickup Prompt
+STE00000933	Show the value and weight for a whole stack of items while looting and indicate the weight in red if it would overencumber you.
+STE00000934	Hide Equipped Items In Barter
+STE00000935	Hides equipped items in the barter menu.
+STE00000936	Hide Equipped Items In Containers
+STE00000937	Hides equipped items in the containers.
+STE00000938	No Food Worn Off Message
+STE00000939	Prevents the 'worn off' messages for chems.
+STE00000940	Food only
+STE00000941	Only hide food worn off messages.
+STE00000942	Keep Quest Text Visible While Aiming
+STE00000943	Stops the quest/location texts from being hidden when aiming.
+STE00000944	Allow Teammates Use Meltdown
+STE00000945	Allow teammates to use the meltdown effect if the player has the Meltdown perk.
+STE00000946	No Self Explosion Damage
+STE00000947	Prevents damage from your own explosions (NPCs can still harm themselves).
+STE00000948	No Self Meltdown Explosion Damage
+STE00000949	Prevents damage from your own explosions from the meltdown perk.
+STE00000950	Prevent Damage By Companions
+STE00000951	Prevent teammate triggered meltdown damaging the player.
+STE00000952	Prevent Damage To Companions
+STE00000953	Prevent teammates being damaged by player meltdown explosions.
+STE00000954	Prevent Damage To Non-Hostiles
+STE00000955	Prevent damage to non-hostile NPCs from meltdown explosions.
+STE00000956	Hold To Activate
+STE00000957	Hold the activate key instead of pressing it to activate various objects.
+STE00000958	Work on containers and NPCs
+STE00000959	Hold activate to loot containers or search NPCs.
+STE00000960	Work on furniture
+STE00000961	Hold activate to interact with furniture (including beds).
+STE00000962	Work on water
+STE00000963	Hold activate to drink from a tap or puddle.
+STE00000964	Work on crafting tables
+STE00000965	Hold activate to interact with campfire, crafting and reloading benches.
+STE00000966	Take items while held
+STE00000967	Takes items while the activate key is held (doesn't activate containers, NPCs etc.).
+STE00000968	Item pick up delay
+STE00000969	Delay before items will be taken with "Take items while held" active.
+STE00000970	Don't over-encumber
+STE00000971	Prevent auto-pickup of items that would encumber the player, unless the player is already encumbered.
+STE00000972	Delay stealing
+STE00000973	Delay stealing the first item by 'Steal Delay Timer'.
+STE00000974	Steal Delay Timer
+STE00000975	Delay (in milliseconds) before stealing where no delay is required to steal again.
+STE00000976	Remember Pip-Boy Scroll Positions
+STE00000977	Store Pip-Boy scroll positions between sessions (per save).
+STE00000978	No Weapon Condition Damage Penalty
+STE00000979	Weapons always deal their max damage regardless of condition.
+STE00000980	Player Melee Damage Ignores Scale
+STE00000981	Makes the player's melee damage independent of their height/scale.
+STE00000982	Hide Map Marker Faction Reputation
+STE00000983	Hide the faction reputation from map markers on the world map.
+STE00000984	Compare Weapon Stats
+STE00000985	Show - and + on weapon DPS/DAM relative to the equipped weapon.
+STE00000986	Sleep Wait Anywhere
+STE00000987	Allow sleeping/waiting anywhere.
+STE00000988	Sleep in combat
+STE00000989	Allow sleeping during combat.
+STE00000990	Sleep in radiation
+STE00000991	Allow sleeping while being irradiated.
+STE00000992	Sleep mid-air
+STE00000993	Allow sleeping mid-air.
+STE00000994	Sleep while taking damage
+STE00000995	Allow sleeping while taking damage.
+STE00000996	Sleep underwater
+STE00000997	Sleep with the fishes.
+STE00000998	Sleep while trespassing
+STE00000999	Allow sleeping while trespassing.
+STE00001000	No Interior Black Loading Screen
+STE00001001	Remove the black loading screen when loading an interior cell, and prevent actors being faded in.
+STE00001002	Fade in
+STE00001003	Fade the edges of the screen based on the fFadeToBlackFadeSeconds game-setting.
+STE00001004	Character Melee Damage Ignores Scale
+STE00001005	Stops NPC and player scale affecting their melee damage.
+STE00001006	Skip Skill Menu If No Points To Assign
+STE00001007	Skip the assign skill points screen if you have no points to assign but have perks to assign.
+STE00001008	Custom Armor Condition Penalty
+STE00001009	Allow a custom scale applied to armor DR/DT based on their condition.
+STE00001010	DR/DT Scale
+STE00001011	Scale applied to DR/DT when below the condition threshold.
+STE00001012	Hitting Weapons Doesn't Damage Them
+STE00001013	Prevents player and enemy weapons being damaged when shot at.
+STE00001014	No Exterior Load Screens
+STE00001015	Removes load screen backgrounds when exiting interiors (intentionally excludes when loading a save).
+STE00001016	Ultrawide Support
+STE00001017	For ultrawide (21:9) fixes the bugs: - The size of the 'Fade-to-black' transition now takes up the entire screen instead of a small rectangle (as seen when loading a save or transitioning between areas). -Adjusts the FOV for various rendered menus such as the Vigor Tester, Terminal, and LockPick menus, and the HUDMainMenu for scope zoom. This fixes the menus being too zoomed in.
+STE00001018	Menu FOV scale
+STE00001019	Scale applied to menus/scope. Vanilla uses 0.75.
+STE00001020	Weightless Worn Armor
+STE00001021	Scale the weight of equipped armor.
+STE00001022	Character Non Melee Damage Ignores Scale
+STE00001023	Stops NPC and player scale affecting their non-melee damage.
+STE00001024	Player Non-Melee Damage Ignores Scale
+STE00001025	Stops player scale affecting non-melee damage.
+STE00001026	Weightless Aid Items In Non-Hardcore
+STE00001027	Makes aid items weightless in non-hardcore.
+STE00001028	Weightless Items
+STE00001029	Makes items weightless (by category).
+STE00001030	Weightless armor
+STE00001031	Weightless aid items
+STE00001032	Weightless ammo
+STE00001033	Weightless weapons
+STE00001034	Weightless misc items
+STE00001035	Hide Crosshair In First Person
+STE00001036	Hides the crosshair in first person (keeping it in third person).
+STE00001037	Hide Crosshair In Third Person
+STE00001038	Hides the crosshair in third person (keeping it in first person).
+STE00001039	No Casino Bans
+STE00001040	Prevents bans from casinos.
+STE00001041	No Sneak Attack Criticals
+STE00001042	Disables sneak attack criticals by the player.
+STE00001043	NPCs Can Sneak Crit Player
+STE00001044	Allows NPCs to land sneak attack criticals on the player and on each other. - can be used alongside bNoSneakAttacksCriticals (making it 'No Player Sneak Attack Criticals').
+STE00001045	NPCs Can Disarm Player
+STE00001046	Allows NPCs to disarm the player.
+STE00001047	Sneak Criticals Only Melee Weapons
+STE00001048	Only allow sneak attack criticals with melee weapons.
+STE00001049	Show Quest And No DRDT Items In Repair Menu
+STE00001050	Unhide quest items and armors with no DR or DT from the repair services menu.
+STE00001051	Disable Godmode On Load
+STE00001052	Disables godmode when loading/reloading a save.
+STE00001053	Invert Container Title Scrollwheel Direction
+STE00001054	Inverts the direction of category change when using scroll-wheel on a container's title.
+STE00001055	HUD Fatigue Indicator
+STE00001056	Adds a fatigue indicator similar to the FOD and H2O labels in hardcore.
+STE00001057	Allow Weapon Hotkeys And Pip-Boy While Reloading
+STE00001058	Allows switching weapons using weapon hot-keys, and opening the Pip-Boy while reloading.
+STE00001059	No Disarm Companions
+STE00001060	Prevents companions from being disarmed in combat.
+STE00001061	Allow Firing While Landing
+STE00001062	Allows firing weapons while lower body animations are playing.
+STE00001063	Fire While Aiming
+STE00001064	Allows firing weapons while aiming in and out.
+STE00001065	Dont Allow Console Till Loading Is Done
+STE00001066	In vanilla it's possible to load a save using the console before settings (e.g. disable controller) have been loaded, this prevents opening the console till this loading has finished.
+STE00001067	Power Attack While Overencumbered
+STE00001068	Allow melee power attacks while overencumbered.
+STE00001069	Slow Breath Regen
+STE00001070	Slowly regenerate the H2O meter when not underwater instead of instantly refilling it when resurfacing.
+STE00001071	Breath regen rate
+STE00001072	Rate at which breath is restored to max - setting to 1.0 restores the entire bar in 1 second, 0.5 in 2 seconds etc.
+STE00001073	Show breath regen while not underwater
+STE00001074	Show the breath meter when not underwater if it's not 100%.
+STE00001075	Note Menu Show Separate Menu
+STE00001076	Show the scroll menu when clicking on a note in the Pip-Boy (requires textures and XML from Book Menu Restored).
+STE00001077	Require holding Shift
+STE00001078	Require the shift key to be held to show the note menu.
+STE00001079	Don't Set Quest When Objectives Added
+STE00001080	Don't set the current quest when gaining a new objective when you have no quest active.
+STE00001081	Spin Weapons Sound Fix
+STE00001082	Fixes a bug where looping attack weapons would not play their attack sound when briefly stopped. For example in the base game, tapping and then holding the fire button with the Flamer or Mini-gun held would result in no fire sound playing.
+STE00001083	Turn Slower While Aiming
+STE00001084	Scale look rotation speed while aiming.
+STE00001085	X scale
+STE00001086	Scale applied to X axis rotation while aiming.
+STE00001087	Y scale
+STE00001088	Scale applied to Y axis rotation while aiming.
+STE00001089	Show Sneak Label While Standing
+STE00001090	Show the [Sneak] indicator while standing.
+STE00001091	VATS Auto Target Head
+STE00001092	Automatically target the head when entering VATS.
+STE00001093	Only Change Camera Height If POV Key Held
+STE00001094	Scrolling only changes camera height if the 'Change View' key is held.
+STE00001095	Compare Armor Stats
+STE00001096	Show - and + on armor DT and DR relative to the equipped armors.
+STE00001097	Allow VATS While Anims Play
+STE00001098	Allow entering VATS while animations play (e.g. while jumping).
+STE00001099	Robot Companions Heal With Scrap Metal
+STE00001100	Heal robotic companions with scrap metal instead of stimpaks.
+STE00001101	Base health restored
+STE00001102	Base health restored per scrap metal.
+STE00001103	Repair skill bonus
+STE00001104	Bonus health restored per player repair skill.
+STE00001105	Robotics Expert bonus
+STE00001106	Bonus health restored if the player has the robotics expert perk.
+STE00001107	Healing Item EditorID
+STE00001108	Editor ID of the healing item for robots.[CRLF]If a formlist is provided the first available will be used.
+STE00001109	Custom Screenshot Format
+STE00001110	Automatically convert taken screenshots into various formats. Currently supported formats are: jpg, tiff and bmp.
+STE00001111	Format (JPG, PNG or BMP)
+STE00001112	File format (jpg, tiff, png or bmp).
+STE00001113	Mod Console Prints Include Name
+STE00001114	When a mod prints to the console, prepend the [Modname] to the text. Optionally print the formid of the script that printed it.
+STE00001115	Include script ID
+STE00001116	Prepend the script ID instead of the mod name.
+STE00001117	Scale Radio Song Volume During Dialogue
+STE00001118	Scale the volume of radio songs while in conversation with an NPC.
+STE00001119	Volume multiplier
+STE00001120	Multiplier applied to music volume during dialogue.
+STE00001121	Scale Music Volume During Dialogue
+STE00001122	Scale the volume of ambient music while in conversation with an NPC.
+STE00001123	Use First Person Empty Clip Sound
+STE00001124	Use the first person empty clip sound in third person (it's louder).
+STE00001125	Allow Keyboard And Mouse With Controller Connected
+STE00001126	Allow use of keyboard and mouse to move around (excludes menus) while a controller is connected.
+STE00001127	Scale Critical Damage
+STE00001128	Multiply critical damage for all weapons.
+STE00001129	Damage multiplier
+STE00001130	Multiplier applied to weapon damage for critical hits.
+STE00001131	Use Console Output File
+STE00001132	Automatically set the console output file.
+STE00001133	File name
+STE00001134	The name of the output file e.g. ConsoleOut.txt.
+STE00001135	Cache Quest And Note Menu
+STE00001136	Speed up the quest and note menus by only recreating them if your quest/notes state has changed, and not creating the challenges list if you're viewing the notes tab.
+STE00001137	Keep Holotape Playing When Selecting Other Notes
+STE00001138	Don't stop the current holotape's audio when clicking on other (non-audio) notes.
+STE00001139	Disable Needs Messages
+STE00001140	Prevents the messages when hardcore needs and radiation levels increase/decrease.
+STE00001141	Disable radiation messages
+STE00001142	Disable hunger messages
+STE00001143	Disable dehydration messages
+STE00001144	Disable sleep deprivation messages
+STE00001145	Crouch While Equipping Weapons
+STE00001146	Allows crouching while (un)equipping weapons, the crouch animation is queued after the equip.
+STE00001147	Recently Dead NPC Indicator
+STE00001148	Shows recently killed NPCs on the compass until they have been moused over.
+STE00001149	Indicator time out
+STE00001150	Maximum time an NPC tick will be shown for after their death (in milliseconds, 0 is unlimited).
+STE00001151	Player and teammate kills only
+STE00001152	Only show NPCs killed by the player or companions.
+STE00001153	Player damaged only
+STE00001154	Only show NPCs damaged by the player.
+STE00001155	Color
+STE00001156	RGB color of indicators in hexadecimal.
+STE00001157	Controller Back Button Doesn't Close Pip-Boy
+STE00001158	Prevents the Back button closing the Pip-Boy.
+STE00001159	Auto Weapon No Firing Delay
+STE00001160	Allows firing automatic weapons even if they are animating already (e.g. miniguns spinning up).
+STE00001161	Include heavy weapons
+STE00001162	Ignore the need for heavy weapons (animation type >= 8) to spin up before firing.
+STE00001163	Min Blood Splatter Health Damage
+STE00001164	Only show blood splatters if their damage is above a minimum health damage threshold.
+STE00001165	Minimum health damage
+STE00001166	Minimum health damage of an attack for blood splatters to show.
+STE00001167	VATS Stop Firing If Target Dead
+STE00001168	Stop firing the current burst in VATS if the target is already dead, e.g. the 10mm SMG which fires 3 rounds in a burst in VATS.
+STE00001169	Hold And Release Throwables
+STE00001170	Allows hold/releasing for throwables similar to grenades.
+STE00001171	Support mines
+STE00001172	Allow holding mines before throwing them.
+STE00001173	Allow Sleep Wait With Reduced Max Health
+STE00001174	Allows sleep/waiting while max health is reduced by effects - making it possible to sleep with a temporary effect like -50hp, while still preventing sleeping while taking damage.
+STE00001175	Level Difference Affects Combat XP
+STE00001176	Makes kill XP depend on the level difference between the player and killed actor.
+STE00001177	Base XP reward
+STE00001178	Base XP rewarded for all kills.
+STE00001179	Level difference bonus
+STE00001180	Additional XP rewarded per point of level difference between player and killed actor.
+STE00001181	Swap Ammo With Weapon Holstered
+STE00001182	Allow swapping ammo types while weapon is holstered.
+STE00001183	Power Armor Needs No Training
+STE00001184	Allows wearing power armor without the Power Armor Training perk.
+STE00001185	Colored HUD Bars
+STE00001186	Colors the HP and AP bars red when they are low. Note that temporary effects that raise max HP will show the bar in red at a higher percentage, this is intended to indicate that your health will be low when the buff wears off.
+STE00001187	Red HP threshold
+STE00001188	Threshold ratio of current/max Health for coloring HP bar red.
+STE00001189	Red AP threshold
+STE00001190	Threshold ratio of current/max Action Points for coloring AP bar red.
+STE00001191	Speed Mult Scales Jump Height
+STE00001192	Scale NPC and player jump height based on their speedmult actor value.
+STE00001193	Stealing Sends No Alarm
+STE00001194	Don't alert actors when stealing their items (excludes pickpocketing).
+STE00001195	Sneak Criticals Headshots Only
+STE00001196	Only allow sneak attack criticals to the head.
+STE00001197	Sort Pip-Boy Notes
+STE00001198	Sort the Pip-Boy Notes tab alphabetically, and/or by whether they're read.
+STE00001199	Note sorting mode
+STE00001200	Alphabetical
+STE00001201	Unread notes first
+STE00001202	Unread first, alphabetically
+STE00001203	Sort Pip-Boy Quests
+STE00001204	Sort the Pip-Boy Quests tab.
+STE00001205	Quest sorting mode
+STE00001206	Incomplete quests first
+STE00001207	Incomplete quests first, alphabetically
+STE00001208	Active Quest First
+STE00001209	Show active quest at the top of the list.
+STE00001210	Disable Achievements
+STE00001211	Disables steam/gog achievements.
+STE00001212	Show Weapon Poison Effects
+STE00001213	Include weapon poison effects when viewing weapons in the Pip-Boy.
+STE00001214	Hide Unavailable Radios
+STE00001215	Hides unavailable radios in the Pip-Boy.
+STE00001216	Stats Menu Percentage XP
+STE00001217	Shows XP in the Stats Menu as a percentage.
+STE00001218	Unequip Weapon Mods
+STE00001219	Allow unequipping weapon mods from the Item/Weapon Mod Menu, additionally hiding duplicate mods and sorting them alphabetically.
+STE00001220	Hide button for non-modifiable weapons
+STE00001221	Hide the Mod button if a weapon cannot have weapon mods.
+STE00001222	Show unowned mods
+STE00001223	Show unowned weapon mods in the menu.
+STE00001224	Unequip mod sound ID
+STE00001225	Editor ID of the sound to play when removing weapon mods (note: VUI+ has its own sounds that it plays when you click on weapon mods).
+STE00001226	Require workbench
+STE00001227	Only allow weapon modding at a workbench.
+STE00001228	Debug mode
+STE00001229	Allow applying weapon mods even if you don't have them.
+STE00001230	Allow applying weapon mods even if you don't have them if godmode is enabled.
+STE00001231	View Mods Label
+STE00001232	Button label shown if you don't have mods.
+STE00001233	Difficulty Doesn't Affect NPC-NPC Damage
+STE00001234	Stops NPC-NPC damage using the fDiffMultHPByPC gamesetting, with multipliers for NPC/teammate damages. Companion<->companion damage uses fDamageToTeammateMult.
+STE00001235	NPC-NPC damage multiplier
+STE00001236	Multiplier applied to damage from one NPC to another.
+STE00001237	Teammate-NPC damage multiplier
+STE00001238	Multiplier for damage dealt by companions to NPCs.
+STE00001239	NPC-Teammate damage multiplier
+STE00001240	Multiplier for damage dealt to companions by NPCs.
+STE00001241	Disable Combat Music
+STE00001242	Prevents combat music playing.
+STE00001243	Keep Broken Items Equipped
+STE00001244	Prevent the message when a weapon breaks and keep it equipped.
+STE00001245	Pickpocket Worn Items
+STE00001246	Allow pickpocketing items NPCs have equipped.
+STE00001247	Holstered Weapons Only
+STE00001248	Only allow taking holstered weapons.
+STE00001249	Move During VATS Playback
+STE00001250	Allow movement during VATS killcams.
+STE00001251	Clicking Shows Terminal Text
+STE00001252	Make clicking while a note is being displayed on a computer first show the rest of the page, or skip to the next page if the current page is fully displayed.
+STE00001253	Invert Pip-Boy Repair Menu Sorting
+STE00001254	Place high condition items at the bottom of the repair list.
+STE00001255	Disable Region Borders Keep Message
+STE00001256	Allow movement outside world borders, showing the 'Leaving Region' warning repeatedly. Functionally equivalent to adding bBorderRegionsEnabled = 0 under [General] in FalloutCustom.ini, but retains the ui warning.
+STE00001257	Recurring Challenge Indicator
+STE00001258	Adds an indicator that a challenge is recurring when viewed in the Pip-Boy. '(Recurring)' appears beside the progress e.g. 4/10 (Recurring).
+STE00001259	Recurring text
+STE00001260	Display on recurring challenges.
+STE00001261	Custom Subtitle Distance
+STE00001262	Modify how far away general subtitles are shown. For long distances you may need to increase the iSpeakSoundLipDistance gamesetting from its default of 750.
+STE00001263	Subtitle distance
+STE00001264	Distance to show subtitles from - vanilla is 500 units.
+STE00001265	Scope Visibility Delay
+STE00001266	Delay the display of scopes when aiming in, and optionally prevent scoped aiming while reloading.
+STE00001267	Scope visibility delay
+STE00001268	Required aiming time before the scope overlay is applied.
+STE00001269	Aim out while reloading
+STE00001270	Aim out while reloading or weapon is jamming.
+STE00001271	Always show weapon animation
+STE00001272	Forces the "uses 1st person iron sights anims" flag on all weapons.
+STE00001273	Delay in 3rd person
+STE00001274	Delay scopes in 3rd person.
+STE00001275	No Healing In Combat
+STE00001276	Prevent use of aid items that heal HP or limbs while in [Danger].
+STE00001277	Message
+STE00001278	Message shown when attempting to heal in combat.
+STE00001279	Hide Ranks In Trait Menu
+STE00001280	Hide 'Ranks' in the description for traits in the Trait menu, since it's a holdover from the LevelUp menu perk selection screen.
+STE00001281	Sort Perk Menu
+STE00001282	Sort the LevelUp Perk Menu.
+STE00001283	Perk sorting mode
+STE00001284	Reverse level sorting
+STE00001285	Available first, alphabetically
+STE00001286	Less Restrictive VATS Menu
+STE00001287	Allow dequeuing actions and exiting vats while zooming in/out.
+STE00001288	No Turning Anim
+STE00001289	Suppress player turning animations to prevent the glide when stopping while turning.
+STE00001290	Custom Add To Inventory Message Timer
+STE00001291	Customize the length of time the 'Added to inventory' message is shown.
+STE00001292	"Item added" time
+STE00001293	Time the 'added to inventory' message is shown (in seconds).
+STE00001294	Hide Red Crosshair On Distant Invisible Targets
+STE00001295	Prevent the red crosshair when mousing over invisible enemies in the distance.
+STE00001296	Fatal Non Sneak Crits Always Gib
+STE00001297	Make fatal non-sneak critical hits always explode or dismember limbs.
+STE00001298	Only criticals explode/dismember limbs
+STE00001299	Prevent non-critical hits exploding or dismembering limbs.
+STE00001300	No Free Barter Items
+STE00001301	Set a price for 'free' items (e.g. ammo casings), calculated after barter buy/sell multipliers.
+STE00001302	Free item cost
+STE00001303	Cost for buying items with no value.
+STE00001304	Locational Melee Damage
+STE00001305	Make melee and unarmed damage use limb damage multipliers.
+STE00001306	Apply to player-NPC attacks
+STE00001307	Use hit multiplier for attacks by the player.
+STE00001308	Apply to NPC-player attacks
+STE00001309	Use hit multiplier for attacks by NPCs on the player.
+STE00001310	Apply to NPC-NPC attacks
+STE00001311	Use hit multiplier for attacks on NPCs by NPCs.
+STE00001312	Queue Weapon Holstering While Anims Play
+STE00001313	Pressing 'Holster Weapon' while animations play will holster when the animations finish instead of doing nothing, as in vanilla.
+STE00001314	No Lock Failed Terminals
+STE00001315	Don't lock terminals when they are failed.
+STE00001316	Delay Post Combat Reputation Popup
+STE00001317	Delay the reputation change popup dialog till 3 seconds after combat.
+STE00001318	No Player Name Length Limit
+STE00001319	Remove the limit on the number of characters in the player's name.
+STE00001320	Skip Vigor Tester Special Pages
+STE00001321	Skip to the vigor tester review page.
+STE00001322	Grabbing Items Is Crime
+STE00001323	Make grabbing owned items carry the same faction penalty as stealing.
+STE00001324	Min Value For Stealing
+STE00001325	Minimum item stack value to be considered stealing.
+STE00001326	Custom Special Points
+STE00001327	Set a custom number of SPECIAL points to allocate, minimum is 7 (one in each skill).
+STE00001328	Number of points to allocate
+STE00001329	Total SPECIAL points after distributing points from the Vigor Tester or Special Book (TTW).
+STE00001330	Allow Weapon Hotkeys While Firing
+STE00001331	Allow using weapon hotkeys while firing.
+STE00001332	Move During Open Pip-Boy Anim
+STE00001333	Allow movement during the open Pip-Boy animation.
+STE00001334	Hip Fire Anims While Scoped
+STE00001335	Use non-ironsight animations and recoil patterns for scoped weapons to prevent weapons lingering in your face when un-scoping after firing. Note that this requires alternate animations as the hip fire recoil patterns for some weapons (e.g., the Scoped Varmint Rifle) look awful while scoped.
+STE00001336	Restore '2' Hotkey
+STE00001337	Restores the '2' weapon hotkey. Requires 'Data/menus/prefabs/lStewieAl/2Hotkey.xml'. Controller users will need to bind ammo swap some other way (e.g. using bDoubleTapReloadToChangeAmmoType).
+STE00001338	Second slot key
+STE00001339	Scancode of the keyboard hotkey.
+STE00001340	Show keybinds on labels
+STE00001341	Use the name of the bound hotkey on the wheel instead of 1/2/3...
+STE00001342	Encumbrance Includes Grabbed Items
+STE00001343	Include the weight of the grabbed ('Z' key) item stack weight when determining if player is overencumbered.
+STE00001344	Use Anim Variants
+STE00001345	Allow use of anim variants, similar to firing animation variants - requires both 1st and 3rd person animation files.
+STE00001346	Reload variants
+STE00001347	Allow reload variations.
+STE00001348	Equip/unequip variants
+STE00001349	Allow equip/unequip variations.
+STE00001350	Aim/ADS variants
+STE00001351	Allow aim/aimIS variations.
+STE00001352	Custom Hacking Answer Length
+STE00001353	Use a custom formula for hacking answer length.
+STE00001354	Base word length
+STE00001355	Base word length.
+STE00001356	Difficulty multiplier
+STE00001357	Multiplier applied on difficulty before adding to word length.
+STE00001358	Computer Whiz length bonus
+STE00001359	Characters removed from answer if you have the computer whiz perk.
+STE00001360	Odd ID bonus
+STE00001361	Characters added to answer if terminal ref ID is odd.
+STE00001362	Maximum word length
+STE00001363	Maximum answer length.
+STE00001364	Minimum word length
+STE00001365	Minimum answer length (minimum 2, note: there aren't many words in the hacking dictionary.txt file that are two characters long).
+STE00001366	Minimum guesses
+STE00001367	Minimum guesses.
+STE00001368	Maximum guesses
+STE00001369	Maximum guesses.
+STE00001370	No Compass Pips If Not In Danger
+STE00001371	Hide all NPCs on the compass if you aren't in [Danger].
+STE00001372	Force Hi-Res Weapon Models
+STE00001373	Use 1st person (high-res) models for NPCs' weapons.
+STE00001374	Show Doors On Compass
+STE00001375	Show nearby doors on the compass.
+STE00001376	Maximum distance to show doors in exteriors.
+STE00001377	Maximum distance to show doors in interiors.
+STE00001378	Show visited cells
+STE00001379	Color the doors of visited cells (excludes doors leading to worldspaces).
+STE00001380	Fade icon with distance
+STE00001381	Scale the door icon's alpha based on distance to the player.
+STE00001382	Visited cell color
+STE00001383	Visited cell red/green/blue color in hexadecimal, e.g. 0xFF0088.
+STE00001384	Critical-Hit Messages Include Limb Name
+STE00001385	Include the limb name in critical hit messages. e.g. 'Critical strike on Easy Pete's Torso'.
+STE00001386	Menu Fades Ignore Timescale
+STE00001387	Make menu fading in/out ignore timemult.
+STE00001388	Activating Doesn't Stand Up
+STE00001389	Make activating while using furniture not stand up, instead use movement to stand while seated.
+STE00001390	No Skill Message If Increase Is Zero
+STE00001391	Prevent the 'skill increased by 0' if reading a book with no bonus. Additionally display fractional skill book increases to two decimal places.
+STE00001392	Compass Fade Left Side
+STE00001393	Fade icons for NPCs, doors etc. on the left side of the compass. Useful if using a centered compass.
+STE00001394	Console Text Shadow
+STE00001395	Darkens the console output text and adds a faint shadow for readability.
+STE00001396	Minigames Play XP Sound At Max Level
+STE00001397	Play the XP gained sound when hacking or lockpicking at max player level.
+STE00001398	VATS Hip Fire
+STE00001399	Entering VATS while not aiming will shoot from the hip for all shots fired (does not affect accuracy).
+STE00001400	Alternate Levelup Sounds
+STE00001401	Play an alternate level-up sound every A or B levels. If A is a multiple of B, the larger number wins ties.
+STE00001402	Sound A
+STE00001403	Editor ID of sound to play every 'Interval A' levels.
+STE00001404	Interval A
+STE00001405	Play 'Sound A' every N levels.
+STE00001406	Sound B
+STE00001407	Editor ID of sound to play every 'Interval B' levels.
+STE00001408	Interval B
+STE00001409	Play 'Sound B' every N levels.
+STE00001410	Agility Affects Reload Jam Speed
+STE00001411	Make reload jams affected by reload speed multipliers.
+STE00001412	Run Slower In Water
+STE00001413	Scale movement speed when walking/running through water depending on much you are immersed.
+STE00001414	Wading Movement Multiplier
+STE00001415	Max movement speed penalty when wading through water.
+STE00001416	Pip-Boy Light And Holstering Ignore Timescale
+STE00001417	Make using Pip-Boy light or holster hotkeys not take longer when time is slowed down.
+STE00001418	Hostiles Use Neutral Color On Compass
+STE00001419	Make hostiles on the compass use the HUDMain color instead of HUDAlt (red).
+STE00001420	Agility Scales Jump Height
+STE00001421	Scale jump height based on agility. Formula: jumpHeight = 1 + (fAgilityMult * (agility - 1))
+STE00001422	Agility Multiplier
+STE00001423	Multiplier added per agility point above 1.
+STE00001424	Using Keys Rewards XP
+STE00001425	Gain XP when using keys on locks. Formula: RewardXP = (Base XP) + (Vanilla Lock XP) * (Vanilla Reward Scale).
+STE00001426	Base XP
+STE00001427	XP rewarded for using a key on a container/door.
+STE00001428	Vanilla Reward Scale
+STE00001429	Scale applied to the vanilla XP gained based on the lock level. Impossible locks do not grant XP.
+STE00001430	Require skill
+STE00001431	Only reward XP if you meet the lock skill requirement.
+STE00001432	Terminal Password Note Rewards XP
+STE00001433	Gain XP when using notes to unlock terminals. Formula: RewardXP = (Base XP) + (Vanilla Hack XP) * (Vanilla Reward Scale).
+STE00001434	XP rewarded for using a password note to unlock a terminal.
+STE00001435	Anim Debugging
+STE00001436	Prints which anims are currently active into the top left of the console {you can type ToggleDebugText (TDT) to see console output with the console closed}.
+STE00001437	Partial Reload Anim Support
+STE00001438	Add support for 'partial' reload anims when reloading with a non-empty clip. Makes the game select animations ending in '_partial' for the player if their clip is empty.
+STE00001439	NPCs Earn Ammo Casings
+STE00001440	Make NPCs earn ammo casings when firing their weapons.
+STE00001441	Drowning Drains AP
+STE00001442	Drain action points before taking damage when drowning.
+STE00001443	Faster Enter Lockpick Menu
+STE00001444	Speed up the animation for entering the lockpick menu.
+STE00001445	Prevent Inactive Window Scrolling
+STE00001446	Prevent scroll-wheel affecting windows outside NV.
+STE00001447	AddItem Uses Item Icon
+STE00001448	Use the item icon (if it exists) in 'added to inventory' messages (you will need an icon replacer or they will be off-centered), instead of always using the gift icon.
+STE00001449	Allow Weapon Hotkeys While Equipping
+STE00001450	Allow use of weapon hotkeys while switching weapons.
+STE00001451	Show Nearest Undiscovered Location
+STE00001452	Always show the nearest undiscovered location on the compass or map.
+STE00001453	Show On Map
+STE00001454	Show the closest undiscovered location on the map.
+STE00001455	Show On Compass
+STE00001456	Show the closest undiscovered location on the compass.
+STE00001457	Weapon Cycle Up Down Hotkeys
+STE00001458	Use left/right controller d-pad to cycle through hotkeyed weapons.
+STE00001459	Repair Requires Weapon Skill
+STE00001460	Disallow repairing if repair skill is less than the weapon's skill requirement. i.e. you need 75 repair skill to fix a weapon that requires 75 energy weapons skill.
+STE00001461	Max VATS Distance Uses Weapon Range
+STE00001462	Use the player's weapon max range to determine the max VATS targeting distance - e.g. you can target enemies further with a sniper rifle than a 9mm pistol.
+STE00001463	Minimum range to check for targets.
+STE00001464	Max Distance
+STE00001465	Maximum range to check for targets.
+STE00001466	Weapon Range Multiplier
+STE00001467	Multiplier applied to the weapon's max range.
+STE00001468	Less Frequent Player Pain Sounds
+STE00001469	Add a minimum interval between player pain sounds.
+STE00001470	Interval (MS)
+STE00001471	Minimum time between player pain sounds in milliseconds.
+STE00001472	More Frequent NPC Light Updates
+STE00001473	Calculate actor light levels (used for sneaking) more frequently - may incur a minor performance penalty if the interval is too low.
+STE00001474	Detection Timer Interval
+STE00001475	Time between updates (in seconds), vanilla is 3 seconds.
+STE00001476	Map Zooms On Cursor
+STE00001477	Makes zooming in the local and world map center on where the cursor is instead of the middle of the screen.
+STE00001478	Lock Pick Menu Keyboard Movement
+STE00001479	Use left/right movement to control the bobby pin, and jump and forward/back to spin the screwdriver.
+STE00001480	Base Speed
+STE00001481	Base speed for left/right bobby pin movement.
+STE00001482	Shift Speed Multiplier
+STE00001483	Scale applied to movement speed while shift is held.
+STE00001484	CTRL Speed Multiplier
+STE00001485	Scale applied while ctrl is held.
+STE00001486	Saving Doesn't Close Pause Menu
+STE00001487	Keep the pause menu open after saving the game.
+STE00001488	Container Menu Store All Hotkey
+STE00001489	Hold shift to store all visible (i.e. not filtered out via category/menu search etc.) items from the left hand side into the current container.
+STE00001490	Store All Label
+STE00001491	Replacement label for 'Take All' when shift is held.
+STE00001492	Container Take All Doesn't Close Menu
+STE00001493	Prevent the 'take all' button closing the container.
+STE00001494	Take All Confirmation
+STE00001495	Show a confirmation message when taking all items from a container.
+STE00001496	Min Items For Message
+STE00001497	Minimum number of items for the message to appear.
+STE00001498	Confirmation Prompt Text
+STE00001499	Confirmation message for taking all items.
+STE00001500	Bloody Mess Gibs Targeted Limb Only
+STE00001501	Prevents bloody mess dismembering/exploding limbs that weren't hit. In vanilla there's a random chance an npc's limb is removed when shooting their torso.
+STE00001502	Deselect Hotkeys
+STE00001503	Makes it possible to remove a hotkey for an item by attempting to assign it the slot it has already.
+STE00001504	Sort Recipe Menu
+STE00001505	Sort the crafting menu.
+STE00001506	Sorting Mode
+STE00001507	Craftable first
+STE00001508	Craftable first, alphabetically
+STE00001509	Skill Requirements Met
+STE00001510	Timescale Affects Reload Sounds
+STE00001511	Scale reload sound pitch and length based on the game time multiplier (e.g. while using turbo).
+STE00001512	No Poison Confirm
+STE00001513	Remove the confirmation prompt when poisoning a weapon, and replace the warning popups with a corner message instead.
+STE00001514	Taking NPC Weapons Gives No Ammo
+STE00001515	Don't earn extra ammo when taking an NPCs weapon. In the base game, you can earn a random amount of ammo (based on clip size) when taking the equipped weapon of an NPC who died (before reloading the game). e.g. taking a .357 revolver will give anywhere between 0-6 ammo.
+STE00001516	No Exit Game Confirmation
+STE00001517	Skip the exit confirmation when clicking Quit Game in the main menu.
+STE00001518	Living Anatomy Shows DR
+STE00001519	Show damage resistance when using the living anatomy perk, and remove decimal places. Additionally hides the DR/DT if they are zero.
+STE00001520	Show Even At Max Health
+STE00001521	Show the targeted NPC's health-bar even if they have max health.
+STE00001522	Preview Perks On Level-Up
+STE00001523	Always show the perk screen when leveling up even if you have no points to assign.
+STE00001524	Place Markers At Locations
+STE00001525	Makes right clicking in the map menu to place a marker place it directly on the hovered location.
+STE00001526	Affect Local Map
+STE00001527	Center markers on doors in the local map.
+STE00001528	Allow Pickpocket If Already Caught
+STE00001529	Allow pickpocketing even if the NPC has caught you previously.
+STE00001530	Hide Crosshair While Reloading
+STE00001531	Hide the crosshair while reloading.
+STE00001532	Hide Crosshair In Killcams
+STE00001533	Hide the crosshair during killcams.
+STE00001534	Hide Healthbar In Killcams
+STE00001535	Hide the health-bar during killcams.
+STE00001536	HUD Rotates With Vanity Cam
+STE00001537	Move the compass when rotating while holding the POV button for the vanity camera.
+STE00001538	HUD Weapon Name Label
+STE00001539	Show the current weapon name above AP when it's equipped. Customizable by editing 'menus/prefabs/lStewieAl/WeaponNameLabel.xml'.
+STE00001540	Show On Ready Weapon
+STE00001541	Show the weapon name when it is unholstered.
+STE00001542	Instant Change When Changing Weapons
+STE00001543	Instantly change the displayed label text if visible when changing weapons.
+STE00001544	Fade In Duration
+STE00001545	Time to fade in the label (in milliseconds).
+STE00001546	Display Duration
+STE00001547	Time to display the fully shown label (in milliseconds).
+STE00001548	Fade Out Duration
+STE00001549	Time to fade out the label (in milliseconds).
+STE00001550	Compress Duplicate Console Messages
+STE00001551	Append -#count to consecutive duplicate single line console messages.
+STE00001552	No Pip-Boy Idle Anims
+STE00001553	Prevent the Pip-Boy idle anims (used for swaying left/right in vanilla) from playing. In vanilla these are: Characters/male/IdleAnims/1stPPip-BoyWaver.kf etc.
+STE00001554	Save Character Selector
+STE00001555	Add a character selector for filtering the save/load menu, to make it easy to find saves from different created with different character names. Uses: menus/prefabs/lStewieAl/SaveCharacterSelector.xml.
+STE00001556	No Filter Active Text
+STE00001557	Text to display in the Save/Load menu while character filter isn't applied.
+STE00001558	No Fast Travel If Legs Crippled
+STE00001559	Prevent fast travel if a leg is crippled.
+STE00001560	Message shown when attempting to fast travel with broken legs.
+STE00001561	Weapon Hotkeys Holster Weapon If Equipped
+STE00001562	Pressing the hotkey for the current equipped weapon will holster or draw instead of unequipping.
+STE00001563	Don't Holster Weapon
+STE00001564	Pressing the weapon key for an already equipped weapon will do nothing (instead of unequipping).
+STE00001565	Prevent Repair If Not At Workbench
+STE00001566	Prevent repairing items if you aren't looking at a workbench.
+STE00001567	Improved Race Menu
+STE00001568	Allow panning the camera with right click or Y on controller, and increase min zoom.
+STE00001569	Prevent Player Movement
+STE00001570	Prevent anims (swaying etc.) playing in the menu.
+STE00001571	Pan X Movement Speed
+STE00001572	Scale the right click pan X direction movement speed.
+STE00001573	Pan Y Movement Speed
+STE00001574	Scale the right click pan Y direction movement speed.
+STE00001575	Map Markers Show Faction Name
+STE00001576	Show the faction name underneath the map marker name, e.g. (Goodsprings - Neutral).
+STE00001577	Hide If No Reputation
+STE00001578	Only show location reputations if you have reputation with that faction.
+STE00001579	Container Right Click Changes To Previous Category
+STE00001580	Make right clicking the category cycle to the previous category in container/barter/recipe menus.
+STE00001581	Invalid BSFadeNode Prints
+STE00001582	Disables the '[Tweaks] Invalid BSFadeNode Detected - Linked Obj ID: %08X' warning. If you're an author I recommend you leave it on so you know which of your meshes are broken. Setting is hidden (add bInvalidBSFadeNodePrints=0 under [Tweaks] to disable).
+STE00001583	Hide Reputation Tab If Empty
+STE00001584	Hides the Stats menu reputation tab and button if you don't have any faction reputations (mainly for use with TTW).
+STE00001585	Show Active Quest Notes Shows All Started Quests
+STE00001586	Make the 'Show Active Quest Notes' button show notes for all started, non-completed quests.
+STE00001587	Hide Hotkeyed Items In Barter
+STE00001588	Hides hotkeyed items in the barter menu.
+STE00001589	Hide Hotkeyed Items In Containers
+STE00001590	Hides hotkeyed items in the container menu.
+STE00001591	Numbered Computer Hotkeys
+STE00001592	Adds hotkeys 0-9 to select options in the computers menu.
+STE00001593	Show List Number
+STE00001594	Prepend the list number to each menu option.
+STE00001595	Show Book Effects
+STE00001596	Show book effects when viewing them in the Pip-Boy. e.g. 'Permanent Speech +1'.
+STE00001597	Effect Prefix
+STE00001598	Prefix shown before the {SKILL} + 1.
+STE00001599	Auto Continue Game
+STE00001600	Automatically continue game at the start menu.
+STE00001601	Sort Misc Stats
+STE00001602	Sort the misc stats page of the Stats menu.
+STE00001603	Alphabetical Vanilla + Unsorted Modded
+STE00001604	By Value
+STE00001605	Alphabetical/Zeros Last
+STE00001606	Show Take All In Companion Containers
+STE00001607	Show the 'Take All' button when viewing companion inventories.
+STE00001608	Prevent Bush Passthrough Sounds
+STE00001609	Prevent sounds playing when walking through bushes.
+STE00001610	Synchronize Container Categories
+STE00001611	Synchronize the left/right item categories like in Fallout 4.
+STE00001612	Prevent Auto-Switching When Taking Last Item
+STE00001613	Prevent the category automatically changing when transferring the last item in a category.
+STE00001614	Randomize Killcam Mode
+STE00001615	Randomly alternate between cinematic/player view kill-cams.
+STE00001616	No Damage Melee Weapon If Target Dead
+STE00001617	Don't decrease the health of a melee weapon when hitting dead NPCs.
+STE00001618	Lockpick Hacking Message Shows Current Skill
+STE00001619	Show the current lockpick/hacking skill levels in the 'You need X skill to hack this terminal' messages.
+STE00001620	Lockpick Message
+STE00001621	Hacking Message
+STE00001622	No Drop Weapon Sound On Player Death
+STE00001623	Prevent the unequip sound when the player dies.
+STE00001624	Toggle Controller If Attack Pressed
+STE00001625	Swap to controller when A is pressed, or keyboard/mouse when left clicking.
+STE00001626	Prevent Controller Connected Popup
+STE00001627	Prevent the 'Turn off 360 Controller in the Controls...' popup.
+STE00001628	Climb Steeper Slopes
+STE00001629	Allow adjusting the max walking/jumping/autowalk angles. Vanilla is 47 degrees.
+STE00001630	Max Walk Angle
+STE00001631	Max angle while walking (in degrees).
+STE00001632	Max Jump Angle
+STE00001633	Max angle while jump is held (in degrees).
+STE00001634	Max AutoWalk Angle
+STE00001635	Max angle while autowalk is active (in degrees).
+STE00001636	Screenshot Key
+STE00001637	Allows changing the default screenshot hotkey (from Print Scrn)
+STE00001638	Key
+STE00001639	Pip-Boy Stats Key
+STE00001640	Allows changing the default Pip-Boy Stats hotkey (from F1)
+STE00001641	Pip-Boy Items Key
+STE00001642	Allows changing the default Pip-Boy Items hotkey (from F2)
+STE00001643	Pip-Boy Data Key
+STE00001644	Allows changing the default Pip-Boy Data hotkey (from F3)
+STE00001645	VATS Accept Key
+STE00001646	Allows changing the default VATS Accept key (from E)
+STE00001647	Console Key
+STE00001648	Allows changing the default console hotkey (from ~)
+STE00001649	Exit To Main Menu Key
+STE00001650	Add a key to exit to the main menu.
+STE00001651	Exit Game Key
+STE00001652	Adds a key to exit the game.
+STE00001653	Disable Collision Key
+STE00001654	Disables player collision while held.
+STE00001655	Toggle Pip-Boy Light Key
+STE00001656	Toggles the Pip-Boy light, and the night vision scope effect if bAddNightVisionToggle is enabled.
+STE00001657	Holster Weapon Key
+STE00001658	Holster the current weapon, disables holding reload to holster weapon.
+STE00001659	Open Quests Key
+STE00001660	GameMode key to open the Pip-Boy quests tab, J key switches to the tab while in the Pip-Boy Menu.
+STE00001661	Open Radios Key
+STE00001662	GameMode key to open the Pip-Boy radios tab, P key switches to the tab while in the Pip-Boy menu.
+STE00001663	Radio Volume Down Key
+STE00001664	GameMode key to decrease the radio volume.
+STE00001665	Radio Volume Up Key
+STE00001666	GameMode key to increase the radio volume.
+STE00001667	Toggle Menus Key
+STE00001668	Toggles the visibility of all menus (as the ToggleMenus command).
+STE00001669	Toggle True Ironsights Key
+STE00001670	Toggles true ironsights mode.
+STE00001671	Toggle Crosshair Key
+STE00001672	Toggles visibility of the crosshair.
+STE00001673	Open Local Map Key
+STE00001674	GameMode key to open the Pip-Boy local map, N key switches to the map while in the Pip-Boy Menu.
+STE00001675	Toggle Sighting Node Key
+STE00001676	Switch ironsights node to using '##SightingNode2' if the weapon has one. Resets when changing weapons.
+STE00001677	While Aiming Only
+STE00001678	Ignore the swap hotkey unless aiming
+STE00001679	Toggle Sneak Indicator Key
+STE00001680	Toggles whether the sneak indicator is hidden.
+STE00001681	Drop Equipped Weapon Key
+STE00001682	Drops the equipped weapon.
+STE00001683	Toggle Smooth Camera Key
+STE00001684	Toggles a cinematic camera, smoothing mouse/controller movements.
+STE00001685	Disable While Aiming
+STE00001686	Radio Station Next Key
+STE00001687	Select the next radio station.
+STE00001688	Radio Station Previous Key
+STE00001689	Select the previous radio station.
+STE00001690	Radio Skip Song Key
+STE00001691	Skip the current radio song or topic.
+STE00001692	Open Map Key
+STE00001693	GameMode key to open the Pip-Boy world map, M key switches to the map while in the Pip-Boy Menu.
+STE00001694	Show Local Map In Interiors
+STE00001695	Open the local map instead of the world map when in interiors.
+STE00001696	Repeated Activate Key
+STE00001697	Continually presses the use key while held
+STE00001698	Only Take Items
+STE00001699	Only take items while the key is held (i.e. don't open doors, speak to NPCs etc.).
+STE00001700	Hide HUD Key
+STE00001701	Hides various elements on the main HUD.
+STE00001702	Hide Compass/HP
+STE00001703	Hide Ammo/AP
+STE00001704	Hide Hardcore Needs
+STE00001705	Hide Sneak Indicator
+STE00001706	Hide By Default
+STE00001707	Hide the HUD when loading a save.
+STE00001708	Equip Last Weapon Key
+STE00001709	Equips the last equipped weapon.
+STE00001710	Don't set the last equipped weapon to be a thrown weapon.
+STE00001711	Mousewheel Support
+STE00001712	Make scrolling up/down change weapons.
+STE00001713	Ignore non-damage weapons
+STE00001714	Ignore non-melee weapons with no projectiles.
+STE00001715	Max Character Level
+STE00001716	Sets the max player level and disables the hard-coded +5 per DLC.
+STE00001717	Level
+STE00001718	Max player level (1-65535).
+STE00001719	Perk Point Modifier
+STE00001720	Earn more perks at the perk allocation screen (not to be confused with the iLevelsPerPerk gamesetting, which affects the level gap between level-ups that let you choose a Perk.)
+STE00001721	Perks Per Level
+STE00001722	Perk-points at the perk allocation screen.
+STE00001723	Item Repair List Preview
+STE00001724	Show which items can be used to repair the current weapon/armor when holding ALT and opening the repair menu.
+STE00001725	Button Label
+STE00001726	Button label shown while key is held.
+STE00001727	Strength-based Explosion Knockdown Chance
+STE00001728	Make explosion knockdown avoidance chance use strength instead of agility (affects NPCs and the player).
+STE00001729	Mousewheel Scrolls Weapon Hotkeys
+STE00001730	Add mousewheel to scroll through hotkeyed weapons.
+STE00001731	Invert Scroll
+STE00001732	Invert the weapon swap direction.
+STE00001733	Cap Skills By SPECIAL
+STE00001734	Cap the levelup menu max skill values based on SPECIAL skills.[CRLF]skillCap = min(iSkillCap, fSkillBase + (specialVal * fSPECIALMult) + luckVal * fLuckMult)[CRLF]Strength - Melee Weapons[CRLF]Perception - Energy Weapons, Explosives, Lockpick[CRLF]Endurance - Big Guns, Survival, Unarmed[CRLF]Charisma - Barter, Speech[CRLF]Intelligence - Medicine, Repair, Science[CRLF]Agility - Guns, Sneak
+STE00001735	Skill Cap
+STE00001736	Max points in any skill.
+STE00001737	Skill Base
+STE00001738	Base value before SPECIALs are added.
+STE00001739	Points per SPECIAL
+STE00001740	Points added per SPECIAL skill.
+STE00001741	Points added per Luck
+STE00001742	Points added per Luck.
+STE00001743	Run & Gun AP In Combat Only
+STE00001744	Use the fActionPointsRunAndGunMult in combat only.
+STE00001745	Disarming Mines Picks Them Up
+STE00001746	Automatically pick up explosives after disarming them.
+STE00001747	Crit Chance Ignores Fire Rate
+STE00001748	Don't divide crit chance by fire rate for automatic weapons.
+STE00001749	Hide Hotkeyed Items In Repair Lists
+STE00001750	Hides hotkeyed items in the Pip-Boy repair menu.
+STE00001751	Stats Menu Shows Effect Time Remaining
+STE00001752	Show the time remaining for effects in the Stats menu (excludes named effects like 'Psycho' or 'Well Rested').
+STE00001753	Display In Seconds
+STE00001754	Display the time remaining in seconds.
+STE00001755	Use Long Ammo Name On HUD
+STE00001756	Show the full or Pip-Boy/shorthand name for ammo on the HUD instead of the abbreviation. Requires a UI mod since it clips with the CND bar.
+STE00001757	Use Pip-Boy Name
+STE00001758	Use the shorthand name for ammo (e.g. 20ga S) instead of the full name of the ammo (e.g. 20 Gauge, Slug).
+STE00001759	Per Bullet Looping Reload
+STE00001760	Require pressing reload N times to load N rounds for looping reload weapons. e.g. pressing reload twice will load two bullets into a reload loop weapon.
+STE00001761	Max Reload Queue Length
+STE00001762	Max number of bullets to queue by pressing reload multiple times, set to 0 for no limit.
+STE00001763	Number of bullets to queue per reload press.
+STE00001764	No Player Stagger Anims
+STE00001765	Disable player stagger animations when limbs are crippled.
+STE00001766	Console Prints Include Timestamp
+STE00001767	Include a timestamp in console messages.
+STE00001768	Timestamp Format
+STE00001769	Hour Minute Second Millisecond
+STE00001770	Scale Player Melee Reach
+STE00001771	Scale the distance the player hit with melee weapons.
+STE00001772	Reach Multiplier
+STE00001773	Multiplier applied to melee weapon range.
+STE00001774	Minimum Reach
+STE00001775	Minimum reach, set to 0 to have no minimum.
+STE00001776	Maximum Reach
+STE00001777	Maximum reach, set to 0 to have no maximum.
+STE00001778	Player Marker Height Indicator
+STE00001779	Add an indicator whether the player placed marker is above or below if the marker is in another cell.
+STE00001780	Use Door Icon
+STE00001781	Use glow_hud_compass_pc_marker_door.dds for doors.
+STE00001782	No Lock Encounter Zone Levels
+STE00001783	Don't freeze the level of encounter zones. In the base game visiting a dungeon will permanently cap the level of enemies and loot there to your level. This tweak changes it so that there is no difference in level between entering a new dungeon and a previously visited one.
+STE00001784	Changing Container Category Scrolls To Top
+STE00001785	Scroll to the top when changing container/barter categories.
+STE00001786	More Precise Radiation Meter
+STE00001787	Display radiation level to more decimal places.
+STE00001788	Format
+STE00001789	Format for radiation meter text, supports 0-9 decimal places with %.1f, %.2f etc.
+STE00001790	Aiming Unholsters Weapons
+STE00001791	Unholster weapons when aiming.
+STE00001792	Inventory Alternate Ammo Indicator
+STE00001793	Show a + beside ammo count in inventory menus if you have any alternate ammos.
+STE00001794	Reload While Firing
+STE00001795	Allow reloading while firing anims play.
+STE00001796	Repair Scales Crafting Condition
+STE00001797	Scale initial health of crafted items based on repair skill.
+STE00001798	Scale Explosion Shake
+STE00001799	Scale the camera/HUD shake caused by explosions.
+STE00001800	Camera Shake Mult
+STE00001801	Multiplier applied to camera shake.
+STE00001802	HUD Shake Mult
+STE00001803	Multiplier applied to HUD shake.
+STE00001804	Mark Nearby Locations On Map
+STE00001805	Permanently reveal nearby locations markers on the Pip-Boy map (as if an NPC had given you the marker).
+STE00001806	Radius
+STE00001807	Radius of circle around player to add markers. If you want them to be added when they appear on the compass, set this to the value of the iMapMarkerVisibleDistance gamesetting (default is 20000)
+STE00001808	Prevent Stealing Caps After Repair
+STE00001809	Place caps in merchant containers instead of their inventory when using repair services.
+STE00001810	Destroy caps if vendor has no container
+STE00001811	Destroy the caps if the merchant has no vendor container, otherwise they are given to the actor
+STE00001812	Prevent NPC Comments
+STE00001813	Prevent NPCs commenting when you knock over objects, look at locked containers etc.
+STE00001814	Prevented Topic Flags
+STE00001815	Hexadecimal value containing the sum of all the desired flags. e.g. 0x880 would prevent KnockOverObject and LockedTerminalOrContainerInCrosshair. See the readme for available flags.
+STE00001816	Companions Use Location Font On Map
+STE00001817	Use the same font as locations for companions on the map. Vanilla is hardcoded to use font 2.
+STE00001818	Remove Queued Cripple/Critical Messages For Dead NPCs
+STE00001819	Remove queued cripple/critical messages for dead NPCs. This prevents the spam of 'Limb crippled...' after a target dies from explosions for example.
+STE00001820	Show 'Use Password' On Terminals With Password Note
+STE00001821	Show '[Locked - Use Password]' on terminals if you have the password note. Additionally marks terminals as unlocked once you've opened them with the note.
+STE00001822	Prompt string
+STE00001823	Prompt when you already have the terminal's password note, [Locked - sUsePassword].
+STE00001824	Hide Read Notes
+STE00001825	Hide notes that have been read already in the notes menu.
+STE00001826	Explosion Knockback Direction Fix
+STE00001827	Push targets away from explosions instead of the actor who created them. This also allows you to move yourself with your own explosions.
+STE00001828	Show Barter Total When Over Sell Limit
+STE00001829	Show the total barter amount when the total is more than the merchant's caps.
+STE00001830	Allow Aid At Max Health
+STE00001831	Allow using stimpaks, super stimpaks and doctors bags when at max health/limb condition.
+STE00001832	Stimpaks
+STE00001833	Super Stimpaks
+STE00001834	Doctors Bags
+STE00001835	Quantity Menu Shows Barter Price
+STE00001836	Show the total price of the selected quantity menu items when bartering.
+STE00001837	Quantity Menu Shows Item Weight
+STE00001838	Show the total weight of the selected quantity menu items in containers.
+STE00001839	Kill Challenge Source Weapon Fix
+STE00001840	Use the last weapon that damaged an NPC instead of the currently equipped weapon for kill challenges. This means that using grenades will correctly increase their kill challenges. Note: weapons that are scripted to directly use the Kill command will not increase the challenges.
+STE00001841	Hide No Fast Travel Message
+STE00001842	Prevent the sNoFastTravelUndiscovered message when clicking on an undiscovered map marker.
+STE00001843	Play Cancel Sound
+STE00001844	Play the UIMenuCancel sound when trying to click on an undiscovered marker.
+STE00001845	Separate Horizontal Sensitivity
+STE00001846	Use a separate slider for horizontal/vertical sensitivity in the vanilla controls menu.
+STE00001847	Explosions Don't Push Collectible Items
+STE00001848	Prevent explosions moving items if they can be taken.
+STE00001849	Prevent Visible Stuck Projectile Despawning
+STE00001850	Prevent stuck projectiles despawning if you're facing them.
+STE00001851	Keep Weapon Visible During Dialogue
+STE00001852	Keeps player weapon visible while in dialogue.
+STE00001853	NPCs Drop Live Grenades
+STE00001854	Crippling/killing an enemy mid-throw causes them to drop the live grenade.
+STE00001855	Allow Non-Power Attacks While Sneaking
+STE00001856	Allow melee/unarmed non-power attacks while sneaking - requires separate anims.
+STE00001857	Silent Sneak Power Attacks
+STE00001858	Prevent player grunting while using a melee/unarmed power attack if sneaking.
+STE00001859	Disarm Requires Skill
+STE00001860	Add random chance mines will not disarm or explode instantly based on the weapon's skill requirements. If a disarm fails, there's a chance the mine will instantly explode.[CRLF]Formula:   disarmChance = fDisarmMult * (playerSkill + perception - 5) * 100.0F / requiredSkill[CRLF]explodeChance = fExplodeMult * (requiredSkill - playerSkill + (5 - luck)) * 2
+STE00001861	Explode Mult
+STE00001862	Multiplier applied to instant explosion chance.
+STE00001863	Disarm Mult
+STE00001864	Multiplier applied to disarm chance.
+STE00001865	Toggle POV When Holstering Weapon
+STE00001866	Toggle 1st person when readying a weapon, and 3rd when holstering.
+STE00001867	Power Attack If Blocking
+STE00001868	Remove the melee power attack delay while blocking.
+STE00001869	Only If Blocking
+STE00001870	Only allow power attacks when blocking.
+STE00001871	Select Unavailable Radios
+STE00001872	Allow selecting unavailable radios to use when back in range.
+STE00001873	Radio Static Decreases Song Volume
+STE00001874	Make songs quieter when static is playing near the edge of a radio's range.
+STE00001875	Radio Keep Song Position Between Saves
+STE00001876	If a song is playing on the radio, don't rewind it when loading a save that has the same song playing.
+STE00001877	Weapon Impact Effects
+STE00001878	Spawn sparks and play impact sounds when equipped/holstered weapons are hit.
+STE00001879	Explosion Radius Buff
+STE00001880	Make inner 30% of explosion radius deal full damage and minimum damage at radius be 20%.
+STE00001881	Inner Radius
+STE00001882	Radius that deals 100% damage.
+STE00001883	Outer Radius Damage
+STE00001884	Damage dealt at the outer radius.
+STE00001885	Damage dealt affects the player.
+STE00001886	Detached Beams
+STE00001887	Prevent beam projectiles sticking to the weapon barrel when turning.
+STE00001888	Smoother Controller Aiming
+STE00001889	Significantly smoothens the right thumbstick deadzone curve for looking around.[CRLF]Recommend pairing with bDisableControllerDeadzones.
+STE00001890	Allow Binding Duplicate Controls
+STE00001891	Allow binding multiple controls to the same button in the vanilla settings menu. The base game swaps the controls around when you try this.
+STE00001892	Crippled Legs Scale Jump Height
+STE00001893	Scale jump height if legs are crippled.
+STE00001894	One Leg Mult
+STE00001895	Jump height scale with one crippled leg.
+STE00001896	Two Legs Mult
+STE00001897	Pip-Boy Tab Hotkeys Don't Close Menu
+STE00001898	Prevent the Pip-Boy tab hotkeys (F1/F2/F3 by default) closing the Pip-Boy.
+STE00001899	Stats Menu Show Skill/SPECIAL Modifiers
+STE00001900	Show the value modifier amount in the (+) and (-) for skills, and show skills/specials above 10/100. VUI+ strongly recommended.
+STE00001901	Show values above their limits
+STE00001902	Show SPECIALs above 10 and skills above 100.
+STE00001903	Lethal Hits Increase Limb Challenges
+STE00001904	Increase limb cripple/knockback challenges even if the attack killed the target.
+STE00001905	Reloading With No Ammo Swaps Ammo Types
+STE00001906	Change ammo types when reloading with no ammo, and when loading a save with no ammo.
+STE00001907	Custom Terminal Fade Time
+STE00001908	Adjust the time the terminal menu fades out when closed with keyboard/controller.
+STE00001909	Fade Length
+STE00001910	Length of time the terminal menu fades for when closed with keyboard/controller.
+STE00001911	Main Menu Continue Save Icon
+STE00001912	Show the image of the save to load when 'Continue' is hovered at the main menu.
+STE00001913	Entering VATS Doesn't Unholster Weapon
+STE00001914	Don't unholster weapon when using VATS without selecting a target.
+STE00001915	Power Armor Prevents Screen Blood
+STE00001916	Prevent screen blood effect if your hit body part is wearing power armor.
+STE00001917	Power Armor Scales Limb Damage
+STE00001918	Scale limb damage for hits on power armor for the player and NPCs.
+STE00001919	Head Scale
+STE00001920	Scale applied to head damage while wearing a power armor helmet.
+STE00001921	Limb Scale
+STE00001922	Scale applied to limb damage while wearing a power armor helmet.
+STE00001923	Mode
+STE00001924	NPC
+STE00001925	Player
+STE00001926	All
+STE00001927	Prevent Hitting Holstered Weapons
+STE00001928	Make projectiles pass through NPC holstered weapons.
+STE00001929	Prevent hitting unholstered weapons
+STE00001930	Ignore hitting unholstered weapons (prevents disarming).
+STE00001931	Allow Hits In VATS
+STE00001932	Allow hitting weapons in VATS.
+STE00001933	Hide Quest Item Weight And Value
+STE00001934	Hide the weight and value of quest items and keys in the Pip-Boy.
+STE00001935	NPCs Hear Mines Explode
+STE00001936	Alert nearby NPCs when mines explode.
+STE00001937	Crippled Limb Pain Sound When Falling
+STE00001938	Play pain sounds when falling with crippled legs.
+STE00001939	Height Threshold
+STE00001940	Distance fallen to play pain sound/imod if either leg is crippled.
+STE00001941	Terminal Grey Read Notes
+STE00001942	Grays notes after reading them in the terminal (not retroactive).
+STE00001943	Sort Equipable Ammo To Top Of Inventory
+STE00001944	Sorts usable ammo to the top of the Pip-Boy inventory. Not compatible with yUI/ySI.
+STE00001945	Hide Caps Added Messages
+STE00001946	Hide item added messages for caps.
+STE00001947	Splash Damage Affects Bloody Mess Gibbing
+STE00001948	Gives projectile splash damage a chance to trigger bloody mess torso explosions.
+STE00001949	Free Wild Wasteland
+STE00001950	Allow selecting wild wasteland without using a trait point.
+STE00001951	Invert Camera X
+STE00001952	Invert the camera X movement.
+STE00001953	Clear Nearby Player Marker
+STE00001954	Remove player placed marker when nearby.
+STE00001955	Distance
+STE00001956	Distance to remove the marker.
+STE00001957	Light Step Affects Companions
+STE00001958	Give companions light step if player has the perk.
+STE00001959	VATS AP Display Includes Reload Cost
+STE00001960	Include the cost of a reload (fActionPointsReload gamesetting) when queuing a VATS attack that will cause a reload.
+STE00001961	Skip Locks At High Skill
+STE00001962	Automatically unlock locks when lockpick skill is high enough.
+STE00001963	Reward Scale
+STE00001964	Scale applied to the vanilla XP gained based on the lock level.
+STE00001965	Delta
+STE00001966	Required additional skill above the lock level to automatically unlock it.
+STE00001967	Multithreaded Hacking Menu
+STE00001968	Multithreads the setup of the hacking words list to reduce lag when hacking a terminal.
+STE00001969	Mark Notes As Unread
+STE00001970	Adds right click to mark a note as unread.
+STE00001971	Custom Popup Icons
+STE00001972	Adds configurable icons to popup messages.
+STE00001973	Radiation Increase
+STE00001974	Radiation Decrease
+STE00001975	Radiation Sick
+STE00001976	Radiation Not Sick
+STE00001977	Dehydration Increase
+STE00001978	Dehydration Decrease
+STE00001979	Dehydration Sick
+STE00001980	Dehydration Not Sick
+STE00001981	Hunger Increase
+STE00001982	Hunger Decrease
+STE00001983	Hunger Sick
+STE00001984	Hunger Not Sick
+STE00001985	Sleep Deprivation Increase
+STE00001986	Sleep Deprivation Decrease
+STE00001987	Sleep Deprivation Sick
+STE00001988	Sleep Deprivation Not Sick
+STE00001989	Chems Addicted
+STE00001990	Prevent Gib Sound When Entering Cells
+STE00001991	Prevent body part explosion sounds when entering cells.
+STE00001992	Local Map Separate Interior/Exterior Door Icon
+STE00001993	Use a separate icon for local map doors which lead to an exterior.
+STE00001994	Challenge Menu Icons
+STE00001995	Use challenge icons in the Pip-Boy challenges menu (requires a mod that adds icons to the Challenge forms).
+STE00001996	Pause Holotapes
+STE00001997	Make clicking on the current holotape pause it, double tapping pause resets the holotape.
+STE00001998	Pause In Dialog Menu
+STE00001999	Pause holotapes while the Dialog menu is open.
+STE00002000	Improved Weather
+STE00002001	Prevent weather changes when fast traveling short distances.
+STE00002002	Fast Travel Weather Change Distance Threshold
+STE00002003	Minimum fast travel distance for a weather change.
+STE00002004	Compass Shows Location Name
+STE00002005	Show the name of the nearest location marker you're looking towards.
+STE00002006	Hide Undiscovered Names
+STE00002007	Whether names of undiscovered locations should be hidden.
+STE00002008	Show Distance
+STE00002009	Show the distance to the marker.
+STE00002010	Off
+STE00002011	Meters
+STE00002012	Feet
+STE00002013	Max Angle
+STE00002014	Maximum Angle to show the location name.
+STE00002015	Angle Offset
+STE00002016	Offset of angle (to adjust for the location icon being off-centered).
+STE00002017	Delay
+STE00002018	Delay (in seconds) before the location name is shown.
+STE00002019	Show Player Markers
+STE00002020	Show distance to the player placed marker.
+STE00002021	Name when viewing player placed marker.
+STE00002022	Scale Ashpile Size
+STE00002023	Scale the size of ashpiles depending on actor size - note some creatures such as Bloatflies have large bounds which affects their ashpile size.
+STE00002024	Min Scale
+STE00002025	Minimum scale applied to ashpiles.
+STE00002026	Max Scale
+STE00002027	Maximum scale applied to ashpiles.
+STE00002028	Target Projectiles in VATS
+STE00002029	Allow targeting projectiles in VATS. The percentage hit chance doesn't take the visibility of the projectile into account, only the distance + player skill.
+STE00002030	Allow targeting mines
+STE00002031	Quickload from Main/Start Menu
+STE00002032	Add support for the QuickLoad key in the Main/Pause menus.
+STE00002033	Show Quest Objectives On Cell Change
+STE00002034	Show quest objectives when changing cells.
+STE00002035	Min Interval
+STE00002036	Prevent showing objectives again within this time (in seconds).
+STE00002037	Contact Mines
+STE00002038	Instantly detonate mines when they are stood on.
+STE00002039	Allow Jams While Firing Automatic Weapons
+STE00002040	Allow firing anim jams to play while firing an automatic weapon. In vanilla only the first shot can jam. Note that you need to edit the fWeaponConditionJam1/fWeaponConditionJam2... gamesettings to add a chance for any jams while firing.
+STE00002041	Click To Exit Load Screens
+STE00002042	Require clicking to exit load screens.
+STE00002043	Hide Loading Wheel When Finished
+STE00002044	Hide the loading wheel when loading is finished.
+STE00002045	Load Game Only
+STE00002046	Don't require clicking through fast travel/exterior load screens.
+STE00002047	Hide Cursor In Message Menu
+STE00002048	Hide the cursor in the message popup windows.
+STE00002049	Chance Based Killcams
+STE00002050	Give a chance the cinematic/player view killcam will play when killing the last of a combat group.
+STE00002051	Chance
+STE00002052	Percentage chance the cinematic/player view killcam will play when killing the last of a combat group.
+STE00002053	Keep Quest Update Text Visible In Menus
+STE00002054	Keep the quest/location added text visible in the Pip-Boy and Hacking menus, and while sitting down.
+STE00002055	Skip Load Save Confirmation Prompt
+STE00002056	Skip the confirmation prompt when loading a save.
+STE00002057	Main Menu Only
+STE00002058	Only skip the confirmation at the main menu.
+STE00002059	Color Weapon Condition Label
+STE00002060	Allow coloring the weapon low condition label.
+STE00002061	Blink Threshold
+STE00002062	Threshold health percent for label to blink.
+STE00002063	Color Threshold
+STE00002064	Threshold health percent for label to turn red.
+STE00002065	Armor Condition Label
+STE00002066	Add an armor condition label to the HUD.
+STE00002067	Armor Label
+STE00002068	Label shown beside the armor meter.
+STE00002069	Weapon Label
+STE00002070	Replacement label beside the weapon meter (leave blank to use vanilla string).
+STE00002071	Visibility Threshold
+STE00002072	Threshold health percent for label to turn visible (set to 0 to disable).
+STE00002073	Label X Offset
+STE00002074	Offset applied to the X position of the armor condition label.
+STE00002075	Label Y Offset
+STE00002076	Offset applied to the Y position of the armor condition label.
+STE00002077	Use Weapon Pos
+STE00002078	Use weapon label position if no weapon is equipped.
+STE00002079	Align With Weapon Condition
+STE00002080	Use weapon label x position if an alternate ammo type is equipped.
+STE00002081	Move Ammo Type Label
+STE00002082	Moves the ammo type label to under the ammo count.
+STE00002083	Armor DT Prevents Blood Decals
+STE00002084	Prevent blood decals for attacks that don't penetrate target DT.
+STE00002085	Enemy Healthbar Shows Buffed HP
+STE00002086	Include health modifiers in enemy healthbars (e.g. buffout).
+STE00002087	Place Marker At Current Position Hotkey
+STE00002088	Places the map marker at your current position.
+STE00002089	Message to show when placing a marker, leave blank for none.
+STE00002090	Sound
+STE00002091	EditorID of sound to play when placing a marker, leave blank for none.
+STE00002092	Sleep On Chairs
+STE00002093	Sleep when waiting on chairs.
+STE00002094	Sleep Wait Slider Show Wake Time
+STE00002095	Show the wake time on the sleep/wait slider instead of hours.
+STE00002096	Crippling Doesn't Disarm NPCs
+STE00002097	Prevent NPCs dropping their weapons when arms are crippled.
+STE00002098	Keep Fall Height When Loading Saves
+STE00002099	Prevent fall height being reset when loading a save.
+STE00002100	Revive Unconscious Companions
+STE00002101	Use stimpaks to revive unconscious companions.
+STE00002102	Prompt
+STE00002103	Prompt shown when mousing over an unconscious companion.
+STE00002104	Unconscious Time
+STE00002105	Duration companions stay knocked out. Set to 0 to use the vanilla fEssentialDeathTime gamesetting.
+STE00002106	Revive When Changing Cells
+STE00002107	Automatically revive companions when changing cells.
+STE00002108	Heartbeat Sounds Fade
+STE00002109	Fade the volume of heartbeat sounds, reset the volume when taking damage.
+STE00002110	Duration
+STE00002111	Duration for the sound fading in seconds.
+STE00002112	Easing function
+STE00002113	Which easing function will be applied to the volume (see easings.net).
+STE00002114	None
+STE00002115	OutSine
+STE00002116	OutCirc
+STE00002117	InOutSine
+STE00002118	InOutCirc
+STE00002119	OutQuart
+STE00002120	InOutQuart
+STE00002121	OutCubic
+STE00002122	Play Armor Sounds In 3D
+STE00002123	Play armor foley sounds in 3D when in 3rd person.
+STE00002124	Sort Pip-Boy Repair Menu
+STE00002125	Sort the Pip-Boy repair menu alphabetically, placing items equal to the repair item first.
+STE00002126	Sort Mode
+STE00002127	Value/Weight
+STE00002128	Equal To Repair Target First
+STE00002129	Whether items matching the repair target should be shown first.
+STE00002130	Disable Invisibility In Pip-Boy
+STE00002131	Disable the invisibility effect from stealth boys etc. while the Pip-Boy is open.
+STE00002132	Barter Show Caps Change
+STE00002133	Show the final caps after a transaction beside player/merchant caps.
+STE00002134	Text
+STE00002135	Show { current -> final } for the caps display.
+STE00002136	Brightness
+STE00002137	Show the final caps display and adjust the text brightness.
+STE00002138	Companions Don't Consume Ammo
+STE00002139	Don't remove ammo from companions when they fire weapons.
+STE00002140	Ammo Burst Case Count Fix
+STE00002141	Give a chance to earn multiple ammo casings from weapons that use more than 1 ammo per shot (e.g. the Tri-Beam laser rifle).
+STE00002142	Reallocate Skill Points On LevelUp
+STE00002143	Allow reassigning all skill points when leveling up.
+STE00002144	Use Weapon Repair Kits In Repair Menu
+STE00002145	Show repair kits in the weapon repair menu.
+STE00002146	Repair Text
+STE00002147	Text to display instead of 'Repair' if you only have repair kits.
+STE00002148	Strength Affects All Throwable Distances
+STE00002149	Make the fThrowingStrengthPenalty gamesetting also affect grenades and mines.
+STE00002150	Map Remembers Position
+STE00002151	Remember the last viewed position in the Map Menu.
+STE00002152	Save Persistent
+STE00002153	Remember the map position for each save.
+STE00002154	Map Recenter Hotkey
+STE00002155	Add a hotkey to recenter the map menu.
+STE00002156	Easing Time
+STE00002157	Duration of the recenter movement (in milliseconds).
+STE00002158	Which easing function will be applied to the movement (see easings.net).
+STE00002159	Map Locations Show Distance
+STE00002160	Show the distance to the hovered location marker in the Map Menu.
+STE00002161	Display Mode
+STE00002162	Display mode.
+STE00002163	Real Time
+STE00002164	Game Time
+STE00002165	Time Mult
+STE00002166	Multiplier applied to the displayed times. You can modify this if you feel the times are inaccurate (e.g. if you use sprint mods and spend most time sprinting)
+STE00002167	Distance Mult
+STE00002168	Multiplier applied to the displayed distances. You can modify this if you feel the distances are unrealistic.
+STE00002169	Barter Affects Repair Costs
+STE00002170	Scale NPC repair prices based on your barter skill and perk modifiers.
+STE00002171	Base Cost
+STE00002172	Base cost.
+STE00002173	Cost Multiplier
+STE00002174	Price decrease per barter point.
+STE00002175	Minimum Cost Multiplier
+STE00002176	Minimum multiplier.
+STE00002177	Containers Show Equipped Ammo
+STE00002178	Show the 'equipped' square beside equipped ammos in containers.
+STE00002179	Quantity Menu Respects Companion Carry Limit
+STE00002180	Limit the quantity menu max count when transferring items that would overburden a companion.
+STE00002181	Show Voice Acting Notes in Dialogue
+STE00002182	Display the voice acting notes e.g. {afterthought} in dialogue.
+STE00002183	Melee Impact Effects Follow Target
+STE00002184	Make melee blood decals follow the target instead of floating in midair.
+STE00002185	Location Discovered Corner Message
+STE00002186	Display the location discovered text as a corner message as in Fallout 3.
+STE00002187	Race Menu Allow Female Facial Hair
+STE00002188	Allow selecting facial hair on female characters in the Race menu.
+STE00002189	Console Print New Mods On Load
+STE00002190	Print which mods are new when loading a save created without them.
+STE00002191	Custom Location Discovered Sound
+STE00002192	Customize the sound played when discovering a location.
+STE00002193	Sound Editor ID
+STE00002194	Editor ID of the sound to play when discovering a location.
+STE00002195	VATS Allow Targeting Player Projectiles
+STE00002196	Allow targeting projectiles created by the player in VATS.
+STE00002197	Blackjack Total Display
+STE00002198	Show a display of your hand values in BlackJack.
+STE00002199	Capitalize Recipe Menu Categories
+STE00002200	Show recipe menu categories in full caps.
+STE00002201	Perks Affect Fist Weapon Speed
+STE00002202	Allow weapon attack speed perks to affect the unarmed fists weapon.
+STE00002203	Key Repeat Acceleration
+STE00002204	Scroll faster after holding the key for some time.
+STE00002205	Delay before multiplier is applied.
+STE00002206	Rate Multiplier
+STE00002207	Multiplier applied to scrolling speed.
+STE00002208	Alternate Delay
+STE00002209	Delay before the second multiplier is applied.
+STE00002210	Alternate Rate Multiplier
+STE00002211	VATS Dequeue Weapon Shots On Disarm
+STE00002212	Remove queued VATS attacks on NPC weapons if they get disarmed.
+STE00002213	Queue Semi-Automatic Shots
+STE00002214	Queue the next shot for semi-automatic weapons if the trigger is pulled within a specified time frame before the current shot is completed.
+STE00002215	Queue Period Before Anim End
+STE00002216	Time window (in seconds) before a weapon's firing animation ends during which the next shot can be pre-queued. Vanilla is 0.5 seconds.
+STE00002217	Queue Period Before Anim 'Attack' key
+STE00002218	Time window (in seconds) before the weapon's firing animation 'a: key' where the next shot can be pre-queued. Vanilla is 0 seconds (not a feature).
+STE00002219	Show Caravan Cards In Misc Tabs
+STE00002220	Show caravan cards in the misc tab for containers and barter.
+STE00002221	Subtitles Show Speaker's Name
+STE00002222	Show the speaker's name in subtitles.
+STE00002223	Perks Show Source Mod
+STE00002224	Show the source mod of perks in the perk menu.
+STE00002225	Prefix
+STE00002226	Prefix shown before the mod name.
+STE00002227	Lockpick Remembers Bobby Pin Angle
+STE00002228	Don't reset the bobby pin angle when it breaks.
+STE00002229	NPCs Take Limb Fall Damage
+STE00002230	Make NPCs take limb damage when falling.
+STE00002231	Fall Deaths Cause Dismemberment
+STE00002232	Dismember/explode actor's legs if they die from a short/long fall.
+STE00002233	Controller Trigger Deadzone
+STE00002234	Adds a configurable deadzone for LT/RT if used for the attack control.
+STE00002235	Left Trigger Deadzone
+STE00002236	Deadzone for the left trigger (0-255)
+STE00002237	Right Trigger Deadzone
+STE00002238	Deadzone for the right trigger (0-255)
+STE00002239	Extended Lockpick Sweet Spot Range
+STE00002240	Expands the lockpick sweetspot range to the edges of the screen.
+STE00002241	Container Encumbrance Indicator
+STE00002242	Show container weight in red if taking an item will overencumber you.
+STE00002243	Prevent Companion Footstep Sounds
+STE00002244	Prevent companion footstep sounds playing.
+STE00002245	Weapon Modding Skill Requirement
+STE00002246	Prevent modding weapons if you don't meet the weapon's skill requirements.
+STE00002247	Power Armor Prevents Environment Radiation
+STE00002248	Prevent environmental radiation when wearing full power armor.
+STE00002249	Changing Pip-Boy Tabs Vibrates Controllers
+STE00002250	Vibrate controllers when changing Pip-Boy tabs.
+STE00002251	Target Held Explosives
+STE00002252	Allow fragging unplayable explosives NPCs have equipped, e.g. Ghost People's Gas Tanks.
+STE00002253	Planting Live Grenades Requires Weapon Skill
+STE00002254	Prevent reverse pickpocketing live grenades if you don't meet the weapon skill requirements.
+STE00002255	Display Item Effect Totals
+STE00002256	Show item effect totals in the Pip-Boy e.g. HP +26(3s) -> HP +78 (26x3s).
+STE00002257	Disable Inventory Right Click Drop
+STE00002258	Prevent right clicking dropping items in the Pip-Boy.
+STE00002259	No Hotkey Equip Sounds
+STE00002260	Prevent equip/unequip sounds when using weapon hotkeys.
+STE00002261	No Companion Item Damage
+STE00002262	Prevent companion items taking damage.
+STE00002263	Auto Unlock Terminals
+STE00002264	Automatically skip the hacking minigame if your science skill is over the terminal's science requirement.
+STE00002265	Reloading Prevents Weapon Hotkeys
+STE00002266	Prevent using weapon hotkeys while reloading.
+STE00002267	Timescale Affects Minigames
+STE00002268	Scale minigame speed by the global time multiplier.
+STE00002269	Water Sources Show H2O
+STE00002270	Show the H2O restored instead of HP when viewing water sources.
+STE00002271	Require the shift key to be held to view the H2O restored.
+STE00002272	Tab Closes Pipboy From Key And Limb Menus
+STE00002273	Make tab close the pipboy from within the Inventory keys and Stats limb selection submenus.
+STE00002274	Summon Companions In Map Menu
+STE00002275	Allow clicking on hired companions in the map to summon them.
+STE00002276	Summon All Text
+STE00002277	Text shown on the summon all button when you have multiple companions.
+STE00002278	Allow summoning unconsious
+STE00002279	Allow summoning unconsious companions.
+STE00002280	Endurance Scales Min Fall Height
+STE00002281	Scale player minimum fall damage height by endurance. Formula: fJumpFallHeightMin * (1 + (fBaseBonus + (endurance - 5) * fEnduranceMult))
+STE00002282	Base Bonus
+STE00002283	Base height multiplier bonus.
+STE00002284	Endurance multiplier
+STE00002285	Fall height multiplier per endurance point over 5.
+STE00002286	Jump Swims Upwards
+STE00002287	Make jumping swim upwards while underwater.
+STE00002288	Speed Scale
+STE00002289	Speed of up/downwards movement.
+STE00002290	Float During Autowalk
+STE00002291	Automatically swim upwards if automove is enabled.
+STE00002292	Armor Causes Sinking
+STE00002293	Make player sink if armor is heavy.
+STE00002294	Heavy Rate
+STE00002295	Medium Rate
+STE00002296	Light Rate
+STE00002297	No Armor Rate
+STE00002298	Stats Menu Shows Reputation Fame/Infamy
+STE00002299	Show fame and infamy values in the stats menu.
+STE00002300	Show Percentage
+STE00002301	Show fame/infamy as a percentage of the max reputation.
+STE00002302	Fame
+STE00002303	Name for Fame stat.
+STE00002304	Infamy
+STE00002305	Name for Infamy stat.
+STE00002306	Repair All Confirmation
+STE00002307	Add a confirmation when selecting 'Repair All' in the repair services menu.
+STE00002308	Price Threshold
+STE00002309	Repairs costing less than this amount won't ask for confirmation.
+STE00002310	Confirmation Message
+STE00002311	Prevent NPC Addiction
+STE00002312	Prevent NPCs gaining addiction status effects.
+STE00002313	No Dialogue Zoom
+STE00002314	Prevent the camera zooming in when entering dialogue.
+STE00002315	Separate Alcohol Effects
+STE00002316	Allow using different alcohols to stack their effects.
+STE00002317	God Mode Prevents Jam Anims
+STE00002318	Prevent player weapon jam anims in godmode.
+STE00002319	Scale Weapon Volume
+STE00002320	Allow scaling player/npc weapon fire sound volume.
+STE00002321	Player Volume
+STE00002322	Scale applied to player weapon fire sounds.
+STE00002323	Non-Player Volume
+STE00002324	Scale applied to NPC weapon fire sounds.
+STE00002325	Exploding Destructible Indicator
+STE00002326	Show explosive destructibles on the grenade indicator.
+STE00002327	VATS Ignore Non-explosive Projectiles
+STE00002328	Prevent targeting non-explosive projectiles in VATS.
+STE00002329	Sleep Healing Min Duration
+STE00002330	Require sleeping for some time before health is restored on unowned beds.
+STE00002331	Min Duration
+STE00002332	Minimum sleep hours before player is healed.
+STE00002333	Misc Stat Requires Sleep Duration
+STE00002334	Only increase the 'times slept' misc stat if you sleep for the min duration.
+STE00002335	Use Hit Location In Cinematic Killcams
+STE00002336	Make the (non-VATS) cinematic killcam focus on the hit body part.
+STE00002337	Scale Radio Volume
+STE00002338	Scale the volume of radio music and conversations independently.
+STE00002339	Music Scale
+STE00002340	Scale applied to radio music volume.
+STE00002341	Dialogue Scale
+STE00002342	Scale applied to radio dialogue volume.
+STE00002343	VATS Throwables Use Target Visibility
+STE00002344	Scale thrown (non-grenade) hit percentages based on body part visibility.
+STE00002345	VATS Stop Following Dead Targets
+STE00002346	Stop rotating to follow targets once they are dead.
+STE00002347	Replace Pause Menu Help With Console
+STE00002348	Replace the 'Help' pause menu button with a button for opening the console.
+STE00002349	Auto-Read Notes
+STE00002350	Automatically open the note menu when notes are added to the player in dialog, containers or barter. Requires Book Menu Restored.
+STE00002351	Holotape Support
+STE00002352	Automatically play holotapes (after dialog ends).
+STE00002353	Title shown in the holotape confirmation messagebox.
+STE00002354	Text shown in the holotape confirmation messagebox (leave blank to skip messagebox).
+STE00002355	Hostiles Prioritize Player
+STE00002356	Force attackers to prioritize player over companions.
+STE00002357	Start-Combat Swap to Player Chance
+STE00002358	Chance to override a companion with player on combat start.
+STE00002359	Mid-Combat Swap to Player Chance
+STE00002360	Chance to override a companion with player during combat.
+STE00002361	Required Player Detection Level
+STE00002362	Detection level required to switch to targeting the player.
+STE00002363	Show Tagged Skills in Bold
+STE00002364	Show tag skills in bold in the Stats menu.
+STE00002365	HUD Max Compass Ticks
+STE00002366	Set the maximum NPCs to show on compass, overriding the vanilla gamesetting and allowing more than the vanilla maximum of 10.
+STE00002367	Max NPCs on Compass
+STE00002368	Custom Date Format
+STE00002369	Use a custom date format for the Pip-Boy and Sleep/Wait menus.
+STE00002370	Date Format
+STE00002371	MM.DD.YY
+STE00002372	DD.MM.YY
+STE00002373	YY.MM.DD
+STE00002374	Restore Locked Door Sound
+STE00002375	Play the unused DRSLocked sound when activating a lock you can't open.
+STE00002376	By source mod first, alphabetically
+STE00002377	Show in PipBoy
+STE00002378	Show mod name in the PipBoy.
+STE00002379	Dialog Menu Show Topic IDs
+STE00002380	Show the topic editor id beside topics in the Dialog Menu.
+STE00002381	Allow Character Radiation
+STE00002382	Allow radiation to apply to Characters instead of only Creatures and the player.
+STE00002383	Apply Radiation Stages
+STE00002384	Allow radiation stages to apply to everyone, not just the player.
+STE00002385	Radiation Causes Radio Static
+STE00002386	Add static to the pipboy radio when in an irradiated area.[CRLF]Signal Strength is between 0 and 100.[CRLF]Formula: Signal Strength -= fStaticMult * RadiationLevel
+STE00002387	Radiation Multiplier
+STE00002388	Multiplier applied to radiation.
+STE00002389	None
+STE00002390	Cookable Grenades
+STE00002391	Holding grenades decreases their detonation timer.
+STE00002392	No grenade distance increase
+STE00002393	Always throw grenades the same distance regardless of time held.
+STE00002394	Overcooked grenades explode
+STE00002395	Overcooked grenades will explode in your hand.
+STE00002396	Minimum detonation time
+STE00002397	Minimum detonation time for thrown grenades.
+STE00002398	Play cooking sound
+STE00002399	Play a sound every second a grenade is held.
+STE00002400	Countdown timer
+STE00002401	Play the sound for the last 3 seconds of the timer.
+STE00002402	Final second sound ID
+STE00002403	Editor ID of the sound to play for the final second when using countdown.
+STE00002404	Double Jump
+STE00002405	Allow jumping in mid-air.
+STE00002406	Max Mid-air Jumps
+STE00002407	Max additional jumps.
+STE00002408	Mid-air Jump Height Scale
+STE00002409	Scale applied to mid-air jumps.
+STE00002410	Action Point cost to jump in mid-air.
+STE00002411	Jump Sound
+STE00002412	Sound played when jumping in mid-air.
+STE00002413	Jump Volume
+STE00002414	Time (in seconds) after falling where initial jumps don't increase the jump counter.
+STE00002415	Mid-air Timer
+STE00002416	Keep Fall Height
+STE00002417	Don't reset the fall damage height when jumping in mid-air.
+STE00002418	Require Power Armor
+STE00002419	Require a power armor torso to double jump.
+STE00002420	Required Perk
+STE00002421	Editor ID of the perk required to allow double jumping.
+STE00002422	Menu Search
+STE00002423	Add Control F to search various menus.
+STE00002424	Add to Map Menu
+STE00002425	Add to Map Menu (Local Map, World Map, Quests, Notes, Challenges and Radio).
+STE00002426	Add to Inventory Menu
+STE00002427	Add to Inventory Menu (Pip-Boy).
+STE00002428	Add to Stats Menu
+STE00002429	Add to Stats Menu (Effects, Skills, Perks, Reputations, Misc Stats).
+STE00002430	Add to Barter Menu
+STE00002431	Add to Barter Menu.
+STE00002432	Add to Container Menu
+STE00002433	Add to Container Menu.
+STE00002434	Add to Level Up Menu
+STE00002435	Add to Level Up Menu (perks).
+STE00002436	Add to Recipe Menu
+STE00002437	Add to Recipe Menu.
+STE00002438	Add to Save/Load Menu
+STE00002439	Add to Save/Load Menu.
+STE00002440	Remove filter when closing search
+STE00002441	Refresh the menu when closing the search (disable if you want to use keyboard hotkeys to navigate filtered menus).
+STE00002442	Clear input when reopening search
+STE00002443	Clear the input string when focusing the search-bar, forced to 1 if bRemoveFilterWhenClosingSearch is also 1.
+STE00002444	Quest search includes objectives
+STE00002445	Also search objective text when searching for quests.
+STE00002446	Quest search includes completed objectives
+STE00002447	Include completed objectives if "Quest search includes objectives" is enabled.
+STE00002448	Save Manager
+STE00002449	Use incremental save slots for autosave, optionally fullsaving every rotation.
+STE00002450	Reload Current Save key
+STE00002451	Hotkey to reload the current loaded save (as if the player died).
+STE00002452	Create Save key
+STE00002453	Hotkey to create a named save.
+STE00002454	Incremental Save key
+STE00002455	Hotkey to create a slot save. e.g. Courier - Save 1, Courier - Save 2...
+STE00002456	Maximum incremental saves
+STE00002457	Number of incremental save slots, when the max slot is reached it will begin overwriting from slot 0.
+STE00002458	Autosave timer
+STE00002459	Delay between timed autosaves in seconds.
+STE00002460	Maximum autosaves
+STE00002461	Number of autosave slots, when the max slot is reached it will begin overwriting from slot 0.
+STE00002462	Periodic fullsave
+STE00002463	Create a named save every time the max slot is reached.
+STE00002464	No autosave message
+STE00002465	Hide the mod and vanilla autosave messages.
+STE00002466	Save on "Location discovered"
+STE00002467	Autosave when a location is discovered.
+STE00002468	Save on "Quest completed"
+STE00002469	Autosave when a quest is completed.
+STE00002470	Save on game exit
+STE00002471	Autosave when exiting the game.
+STE00002472	Save on successful pickpocket exit
+STE00002473	Autosave when closing the container menu after pickpocketing without getting caught.
+STE00002474	Save on craft item
+STE00002475	Autosave when closing the recipe menu after crafting an item.
+STE00002476	Save before level up
+STE00002477	Autosave before the Level Up Menu is shown.
+STE00002478	Minimum autosave interval
+STE00002479	Prevent autosaves within this time of each other (in seconds) - affects both vanilla and timed autosaves.
+STE00002480	Incremental Save slot change interval
+STE00002481	Only increase the incremental save slot if it's been this long since last slot change (in seconds); e.g. when set to 60 seconds, any saves made within 0-60s of the first save in a slot will all overwrite each other - after that a new slot is used.
+STE00002482	No autosaves in combat
+STE00002483	Prevent timed autosaves in combat ([Danger]), saves occur between 0-8 seconds after combat ends.
+STE00002484	No autosaves in godmode
+STE00002485	Prevent timed autosaves if godmode is enabled.
+STE00002486	No scripted saves
+STE00002487	Prevent scripts saving the game (via SaveGame, ForceSave, AutoSave and SystemSave commands) - does not prevent vanilla autosaves e.g. saving on cell enter, use the settings menu for those.
+STE00002488	Add pause menu Quicksave button
+STE00002489	Replace the pause menu's 'Continue' button with a button to create an incremental save.
+STE00002490	Smooth True Ironsights Camera
+STE00002491	Smooth the ironsights animation by interpolating between the non-aiming and aiming camera positions.
+STE00002492	Aim transition time
+STE00002493	Time taken to transition between the camera positions (in milliseconds).
+STE00002494	WASD Menu Controls
+STE00002495	Allows use of WASD keys in menus, and space to accept - will not function if the keys conflict with menu key-binds. Recommend pairing with VUI+ and the 'WASD Compatible' option.
+STE00002496	Always allow WASD
+STE00002497	Always allow WASD movement keys by ignoring WASD+E XML menu hotkeys.
+STE00002498	Repeat WASD keys
+STE00002499	Holding a WASD key repeats the action, as with arrow keys.
+STE00002500	Space does not close containers
+STE00002501	Stops the space key closing containers.
+STE00002502	Inventory selection always visible
+STE00002503	Stops the inventory selection disappearing when activating an item with keyboard input.
+STE00002504	Containers default to right side
+STE00002505	Makes the selection default to the right hand side when opening a container menu.
+STE00002506	Shift scales map zoom speed
+STE00002507	Holding shift scales the zoom speed.
+STE00002508	Shift scales container arrow keys
+STE00002509	Holding shift scales the arrow key scroll speed in containers.
+STE00002510	Shift scales mousewheel
+STE00002511	Holding shift scales the mouse-wheel scroll by 4 for all menus.
+STE00002512	Map menu WASD
+STE00002513	Holding alt allows WASD to move the map menu, up/down zooms.
+STE00002514	Map menu WASD centers reticle
+STE00002515	Using map menu WASD resets the selection reticle to the center of the screen.
+STE00002516	Select with "E" key
+STE00002517	Make the 'E' key behave like spacebar in menus.
+STE00002518	Tab returns to inventory
+STE00002519	Make Tab return to the Inventory rather than closing the PipBoy for the Weapon Mod and Repair menus.
+STE00002520	List scroll wraparound
+STE00002521	Make pressing up/down while at the top/bottom of a container jump to the bottom/top.
+STE00002522	Auto highlight main menu continue button
+STE00002523	Automatically highlight the 'Continue' option at the main menu.
