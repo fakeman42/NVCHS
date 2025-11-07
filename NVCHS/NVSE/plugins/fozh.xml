@@ -119,6 +119,12 @@
 		<xml path="Data/NVCHSDict/Mods/Unofficial_Patch_NVSE_Plus.xml"/>
 		
 		<json path="Data/NVCHSDict/json/Mods/Unofficial_Patch_NVSE_Plus.json" priority="5" />
+
+		<!-- D -->
+		<json path="Data/NVCHSDict/json/Mods/DadLives.json" priority="5" />
+
+		<!-- V -->
+		<json path="Data/NVCHSDict/json/Mods/Vikki and Vance Improvements.json" priority="5" />
 		
 		<!-- Essential Merge -->
 		<xml path="Data/NVCHSDict/Mods/Vanilla_Enhancements.xml"/>
