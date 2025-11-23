@@ -1164,6 +1164,20 @@
   </ESP>
   <ESP>
     <GRUP>ACTI</GRUP>
+    <ID>0202D985</ID>
+    <EDID>aaDetLeMayQuestCleanupTrigger</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleanup?</ORIGINAL>
+    <TRADUIT>清理干净 ?</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
     <ID>0202E286</ID>
     <EDID>aaDetHeadInBoxActivator</EDID>
     <CHAMP>FULL</CHAMP>
@@ -1183,6 +1197,20 @@
     <CHAMP>XATO</CHAMP>
     <ORIGINAL>Inspect</ORIGINAL>
     <TRADUIT>查看</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>02011166</ID>
+    <EDID>aaDet01HankStupidTrigger</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>TALK!</ORIGINAL>
+    <TRADUIT>说吧！</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -5572,7 +5600,7 @@ After we finish resting, we'll poke around and see about setting up shop. Might 
     <EDID>aaDetDodenNote</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Cleanup</ORIGINAL>
-    <TRADUIT>清理</TRADUIT>
+    <TRADUIT>清扫工作</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -6279,7 +6307,7 @@ P.S. If you're short again I'll kill your entire family in front of you.</ORIGIN
     <CHAMP>TNAM</CHAMP>
     <ORIGINAL>Sharp,
 
-Change of plans. Our source says that NCR is not accompanying [%];. Ranger Hart is out of the picture, so the gloves are off. Eliminate Charles Augen and secure all pertinent documents. Location [%]; and eliminate all followers. Eliminate the witness.
+Change of plans. Our source says that NCR is not accompanying [%]. Ranger Hart is out of the picture, so the gloves are off. Eliminate Charles Augen and secure all pertinent documents. Location [%] and eliminate all followers. Eliminate the witness.
 
 Gather proof and deliver it to Bellek. He's at a room in the Ultra-Luxe. Keep it professional, even if his bodyguard provokes you. This contract is too big to let egos get in the way. It's dirty work, but it will put us in prime position to finally overtake the competing firms.
 
@@ -6289,7 +6317,7 @@ Best,
 King</ORIGINAL>
     <TRADUIT>夏普，
 
-计划有变。我们的消息来源说，NCR没有陪同[%];，游骑兵哈特已经不在了，所以我们要出手了。除掉查理斯·奥根，确保所有相关文件安全。[%]; 位置并消灭所有追随者，消灭目击证人。
+计划有变。我们的消息来源说，NCR没有陪同[%]，游骑兵哈特已经不在了，所以我们要出手了。除掉查理斯·奥根，确保所有相关文件安全。[%] 位置并消灭所有追随者，消灭目击证人。
 
 收集证据，交给贝莱克，他在超美多酒店的房间里。即使他的保镖激怒了你，也要保持专业的态度。这份合同太大了，不能被自负妨碍，这是一项肮脏的工作，但它将使我们处于有利地位，最终超越竞争对手。
 
@@ -6412,7 +6440,7 @@ PIROUETTE builds on the DERVISH design with improved density, duration and area 
     <EDID>aaDetDravecNote</EDID>
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Cleanup</ORIGINAL>
-    <TRADUIT>清理</TRADUIT>
+    <TRADUIT>清扫工作</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -7056,7 +7084,7 @@ Here goes nothing!</ORIGINAL>
     <ID>0202BCD6</ID>
     <EDID>aaDetAceLeaveNoteActual</EDID>
     <CHAMP>TNAM</CHAMP>
-    <ORIGINAL>[%];,
+    <ORIGINAL>[%],
 
 I don't think Robert House himself could fix this piece of shit. There's also the issue of fuel. Ethanol? Are you serious?
 
@@ -7067,7 +7095,7 @@ My advice? Leave the slaves and go home. If you're foolish enough to attempt a r
 Arizona is my home. Go back to yours and let me live in peace. You may not see it, but the Legion will improve life for a lot of people, and I'm going to help them do it.
 
 - Ace</ORIGINAL>
-    <TRADUIT>[%];，
+    <TRADUIT>[%]，
 
 我觉得罗伯特·豪斯自己修不了这破东西。还有燃料的问题。乙醇？你说真的吗？
 
@@ -9217,7 +9245,7 @@ EmotionType : Puzzled</COMMENTAIRE>
     <ID>02008C96</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>[She atttempts to form words but only emits a rasping cough.]</ORIGINAL>
+    <ORIGINAL>[She attempts to form words but only emits a rasping cough.]</ORIGINAL>
     <TRADUIT>[她试图说话，但只发出刺耳的咳嗽声。]</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
@@ -10189,6 +10217,23 @@ Audio : \Sound\Voice\Detour.esm\aaMichaelAugenVoiceType\aaDetour01_GREETING_0000
   </ESP>
   <ESP>
     <GRUP>INFO</GRUP>
+    <ID>02038DC1</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thank you.</ORIGINAL>
+    <TRADUIT>谢谢你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Michael Augen [02000DD1] (mod)
+Quest : ([02000ADD]aaDetour01) Detour
+EmotionType : Surprise
+Audio : \Sound\Voice\Detour.esm\aaMichaelAugenVoiceType\aaDetour01_GREETING_00038DC1_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
     <ID>02011E6D</ID>
     <EDID>GREETING</EDID>
     <CHAMP>NAM1</CHAMP>
@@ -10202,6 +10247,23 @@ Audio : \Sound\Voice\Detour.esm\aaMichaelAugenVoiceType\aaDetour01_GREETING_0000
 Quest : ([02000ADD]aaDetour01) Detour
 EmotionType : Surprise
 Audio : \Sound\Voice\Detour.esm\aaMichaelAugenVoiceType\aaDetour01_GREETING_00011E6D_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02038DC2</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thank you.</ORIGINAL>
+    <TRADUIT>谢谢你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Michael Augen [02000DD1] (mod)
+Quest : ([02000ADD]aaDetour01) Detour
+EmotionType : Surprise
+Audio : \Sound\Voice\Detour.esm\aaMichaelAugenVoiceType\aaDetour01_GREETING_00038DC2_1.ogg</COMMENTAIRE>
     <ICON>10</ICON>
   </ESP>
   <ESP>
@@ -11532,6 +11594,20 @@ Audio : \Sound\Voice\Detour.esm\aaDetWolfVoiceType\aaDetWolfStuff_Hit_000368F6_1
   </ESP>
   <ESP>
     <GRUP>DIAL</GRUP>
+    <ID>000000E2</ID>
+    <EDID>AcceptYield</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AcceptYield</ORIGINAL>
+    <TRADUIT>接受折中</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
     <ID>000000E3</ID>
     <EDID>Pickpocket</EDID>
     <CHAMP>FULL</CHAMP>
@@ -11574,6 +11650,118 @@ Audio : \Sound\Voice\Detour.esm\aaDetWolfVoiceType\aaDetWolfStuff_Hit_000368F6_1
   </ESP>
   <ESP>
     <GRUP>DIAL</GRUP>
+    <ID>000000E6</ID>
+    <EDID>PowerAttack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>PowerAttack</ORIGINAL>
+    <TRADUIT>力量攻击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000E7</ID>
+    <EDID>AssaultNoCrime</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AssaultNoCrime</ORIGINAL>
+    <TRADUIT>违法犯难</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000E8</ID>
+    <EDID>MurderNoCrime</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MurderNoCrime</ORIGINAL>
+    <TRADUIT>杀人不犯法</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000E9</ID>
+    <EDID>PickpocketNoCrime</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>PickpocketNoCrime</ORIGINAL>
+    <TRADUIT>扒窃不违法</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000EA</ID>
+    <EDID>StealNoCrime</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>StealNoCrime</ORIGINAL>
+    <TRADUIT>不违法的窃取</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000EB</ID>
+    <EDID>TrespassNoCrime</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>TrespassNoCrime</ORIGINAL>
+    <TRADUIT>越界不犯法</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000EC</ID>
+    <EDID>FireExplosive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>FireExplosive</ORIGINAL>
+    <TRADUIT>燃烧性爆炸</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000ED</ID>
+    <EDID>AvoidThreat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AvoidThreat</ORIGINAL>
+    <TRADUIT>避免威胁</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
     <ID>000000EE</ID>
     <EDID>NormalToCombat</EDID>
     <CHAMP>FULL</CHAMP>
@@ -11593,6 +11781,244 @@ Audio : \Sound\Voice\Detour.esm\aaDetWolfVoiceType\aaDetWolfStuff_Hit_000368F6_1
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Death</ORIGINAL>
     <TRADUIT>死亡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F0</ID>
+    <EDID>CombatIdleChatter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>CombatIdleChatter</ORIGINAL>
+    <TRADUIT>战斗空闲对话</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F1</ID>
+    <EDID>GroupStrategy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GroupStrategy</ORIGINAL>
+    <TRADUIT>团体策略</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F2</ID>
+    <EDID>GuardTrespass</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GuardTrespass</ORIGINAL>
+    <TRADUIT>哨兵-闯入</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F3</ID>
+    <EDID>AlertToCombat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AlertToCombat</ORIGINAL>
+    <TRADUIT>警备战斗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F4</ID>
+    <EDID>NormalToAlert</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NormalToAlert</ORIGINAL>
+    <TRADUIT>常驻变警戒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F5</ID>
+    <EDID>AlertToNormal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AlertToNormal</ORIGINAL>
+    <TRADUIT>警戒转正常</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F6</ID>
+    <EDID>CombatToNormal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>CombatToNormal</ORIGINAL>
+    <TRADUIT>战斗行为恢复正常</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F7</ID>
+    <EDID>CombatToLost</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>CombatToLost</ORIGINAL>
+    <TRADUIT>战斗目标失落中</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F8</ID>
+    <EDID>LostToNormal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>LostToNormal</ORIGINAL>
+    <TRADUIT>失去常态</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000F9</ID>
+    <EDID>LostToCombat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>LostToCombat</ORIGINAL>
+    <TRADUIT>战斗失落</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00000104</ID>
+    <EDID>AlertIdle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AlertIdle</ORIGINAL>
+    <TRADUIT>警戒空闲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00000107</ID>
+    <EDID>LostIdle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>LostIdle</ORIGINAL>
+    <TRADUIT>迷失-空闲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0001FB51</ID>
+    <EDID>DeathResponse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>DeathResponse</ORIGINAL>
+    <TRADUIT>死亡反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0001FB52</ID>
+    <EDID>AvoidThreatResponse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>AvoidThreatResponse</ORIGINAL>
+    <TRADUIT>回避威胁反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00028D33</ID>
+    <EDID>FleeResponse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>FleeResponse</ORIGINAL>
+    <TRADUIT>逃跑反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00028D34</ID>
+    <EDID>FireExplosiveResponse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>FireExplosiveResponse</ORIGINAL>
+    <TRADUIT>火焰爆炸反应</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003326E</ID>
+    <EDID>DeathResponseUnderworld</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>DeathResponseUnderworld</ORIGINAL>
+    <TRADUIT>死亡回应地下区域</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -12402,6 +12828,8 @@ Audio : \Sound\Voice\Detour.esm\aaDetLeMayVoiceType\aaDetLeMay_FollowersFiredY_0
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>Another wasted opportunity.</ORIGINAL>
     <TRADUIT>又浪费了一次机会。
+
+以上翻译结果来自有道神经网络翻译（YNMT）· 通用场景
 </TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
@@ -12547,62 +12975,6 @@ Audio : \Sound\Voice\Detour.esm\aaDetLeMayVoiceType\aaDetLeMay_FollowersFiredY_0
     <CHAMP>FULL</CHAMP>
     <ORIGINAL>Wake</ORIGINAL>
     <TRADUIT>醒来</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0015BCB6</ID>
-    <EDID>Crippled</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Crippled</ORIGINAL>
-    <TRADUIT>残废</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0015BCB9</ID>
-    <EDID>Regenerating</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Regenerating</ORIGINAL>
-    <TRADUIT>治愈中</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0015BCBB</ID>
-    <EDID>Frenzy</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Frenzy</ORIGINAL>
-    <TRADUIT>狂暴</TRADUIT>
-    <PERSO />
-    <INDEX>1</INDEX>
-    <STATUS>99</STATUS>
-    <IDSTEXTE>-1</IDSTEXTE>
-    <COMMENTAIRE />
-    <ICON>10</ICON>
-  </ESP>
-  <ESP>
-    <GRUP>DIAL</GRUP>
-    <ID>0015BCBC</ID>
-    <EDID>Poisoned</EDID>
-    <CHAMP>FULL</CHAMP>
-    <ORIGINAL>Poison</ORIGINAL>
-    <TRADUIT>中毒</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -13653,7 +14025,7 @@ Audio : \Sound\Voice\Detour.esm\aaDetGenericMaleVoiceType\aaDetourSi_aaDetGeneri
     <EDID>aaDetGenericNevermind</EDID>
     <CHAMP>NAM1</CHAMP>
     <ORIGINAL>Talk.</ORIGINAL>
-    <TRADUIT>说吧。</TRADUIT>
+    <TRADUIT>说吧！.</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -21651,8 +22023,8 @@ Audio : \Sound\Voice\Detour.esm\aaMichaelAugenVoiceType\aaDetour01_aaDetMichaelS
     <ID>02002366</ID>
     <EDID>aaDetMichaelSaloonAskCool</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>Nice to meet you, Michael. I'm [%];. Can you tell me what happened?</ORIGINAL>
-    <TRADUIT>很高兴认识你，迈克尔，我是[%];。你能告诉我发生了什么吗？</TRADUIT>
+    <ORIGINAL>Nice to meet you, Michael. I'm [%]. Can you tell me what happened?</ORIGINAL>
+    <TRADUIT>很高兴认识你，迈克尔，我是[%]。你能告诉我发生了什么吗？</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -24690,8 +25062,8 @@ Audio : \Sound\Voice\Detour.esm\aaDetGenericMaleVoiceType\aaDetourMi_aaDetKurtMe
     <ID>02002D9A</ID>
     <EDID>aaDetKurtMeetNameReal</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>[%];.</ORIGINAL>
-    <TRADUIT>[%];。</TRADUIT>
+    <ORIGINAL>[%].</ORIGINAL>
+    <TRADUIT>[%]。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -28762,8 +29134,8 @@ EmotionType : Happy</COMMENTAIRE>
     <ID>02003623</ID>
     <EDID>aaDetHartPreOp01Introductions</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>Before we get started we should make introductions. I'm [%];.</ORIGINAL>
-    <TRADUIT>在我们开始之前，我们应该互相介绍一下。我是[%];。</TRADUIT>
+    <ORIGINAL>Before we get started we should make introductions. I'm [%].</ORIGINAL>
+    <TRADUIT>在我们开始之前，我们应该互相介绍一下。我是[%]。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -29286,8 +29658,8 @@ EmotionType : Happy</COMMENTAIRE>
     <ID>02003A87</ID>
     <EDID>aaDetSharpIntroCool</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>I'm [%];.</ORIGINAL>
-    <TRADUIT>我是[%];。</TRADUIT>
+    <ORIGINAL>I'm [%].</ORIGINAL>
+    <TRADUIT>我是[%]。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -38131,8 +38503,8 @@ EmotionType : Puzzled</COMMENTAIRE>
     <ID>02008CD5</ID>
     <EDID>aaDetMollyIntroWho</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>Let's try that again. I'm [%];. What's your name?</ORIGINAL>
-    <TRADUIT>我们再试一次。我是[%];，你叫什么名字？</TRADUIT>
+    <ORIGINAL>Let's try that again. I'm [%]. What's your name?</ORIGINAL>
+    <TRADUIT>我们再试一次。我是[%]，你叫什么名字？</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -42219,7 +42591,7 @@ Audio : \Sound\Voice\Detour.esm\aaDetCharlesAugenVoiceType\aaDetCharl_aaDetCharl
     <ID>0200B075</ID>
     <EDID>aaDetCharlesStage102WhatNeed</EDID>
     <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>Yes, is that so hard to believe? Supermutants settled a few years back... in the canyon south of here, raise Bighorners and other livestock.</ORIGINAL>
+    <ORIGINAL>Yes, is that so hard to believe? Super mutants settled a few years back... in the canyon south of here, raise Bighorners and other livestock.</ORIGINAL>
     <TRADUIT>是啊，有那么难相信吗？超级变种人几年前定居下来...在这里南边的峡谷里，养大角羊和其他牲畜。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
@@ -55747,8 +56119,8 @@ Audio : \Sound\Voice\Detour.esm\aaDetGenericMaleVoiceType\aaDetour03_aaDetWheele
     <ID>02011E2F</ID>
     <EDID>aaDetWheelerNameRealName</EDID>
     <CHAMP>RNAM</CHAMP>
-    <ORIGINAL>I'm [%];.</ORIGINAL>
-    <TRADUIT>我是[%];。</TRADUIT>
+    <ORIGINAL>I'm [%].</ORIGINAL>
+    <TRADUIT>我是[%]。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
     <STATUS>99</STATUS>
@@ -70864,7 +71236,7 @@ Audio : \Sound\Voice\Detour.esm\aaDetGenericMaleVoiceType\aaDetConst_aaDetConsta
     <ID>0201D853</ID>
     <EDID>aaDetConstantineOutcomeBellek</EDID>
     <CHAMP>NAM1</CHAMP>
-    <ORIGINAL>Too much evidence, not to mention going after NCR officials. Conspiracy, murder, fraud, everything under sun.</ORIGINAL>
+    <ORIGINAL>Too much evidence, not to mention going after NCR officials. Conspiracy, murder, fraud, everything under the sun.</ORIGINAL>
     <TRADUIT>证据太多了，更别提要对付NCR的官员了。阴谋，谋杀，欺诈，一切皆有。</TRADUIT>
     <PERSO />
     <INDEX>2</INDEX>
@@ -84698,7 +85070,7 @@ You lock eyes with Michael just as Dravec carries him out the door; his gaze is 
     <ID>020055E5</ID>
     <EDID>aaDetSugarTitsMarkerMSG</EDID>
     <CHAMP>DESC</CHAMP>
-    <ORIGINAL>Sugar Tits. Served with me 10 years. Fought In 21 engagements with the Vipers and the Jackals. Cheerful in all weathers. Never shirked a task. Splendid behavior.</ORIGINAL>
+    <ORIGINAL>Sugar Tits. Served with me 10 years. Fought in 21 engagements with the Vipers and the Jackals. Cheerful in all weathers. Never shirked a task. Splendid behavior.</ORIGINAL>
     <TRADUIT>奶嘴。跟随我10年，与毒蛇帮和豺狼帮交战21次，风雨无阻，从不逃避任务。出色的表现。</TRADUIT>
     <PERSO />
     <INDEX>1</INDEX>
