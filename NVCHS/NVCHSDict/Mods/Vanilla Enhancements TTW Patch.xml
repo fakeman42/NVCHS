@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>05000893</ID>
+    <EDID>NVDLC05EnchCleansingFlameEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleansing Flame</ORIGINAL>
+    <TRADUIT>净化火焰</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>001168A4</ID>
+    <EDID>VMS18WhiteGloveMask</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>White Glove Society Mask</ORIGINAL>
+    <TRADUIT>白手套帮会面具</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+HeadBand
+EyeGlasses
+NoseRing
+Mask
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0015C881</ID>
+    <EDID>WeapThermicLance</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Thermic Lance</ORIGINAL>
+    <TRADUIT>热力长矛</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0010C769</ID>
+    <EDID>NVCompanionEdE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ED-E</ORIGINAL>
+    <TRADUIT>ED-E</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0013E514</ID>
+    <EDID>FortLupaGladiator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lupa</ORIGINAL>
+    <TRADUIT>鲁帕</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0013E5B9</ID>
+    <EDID>FiendDogVioletta</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Violetta</ORIGINAL>
+    <TRADUIT>维奥列塔</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>001694E0</ID>
+    <EDID>NVCompanionEdEUpgradeArmor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ED-E</ORIGINAL>
+    <TRADUIT>ED-E</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>001694E2</ID>
+    <EDID>NVCompanionEdEUpgradeWeapons</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ED-E</ORIGINAL>
+    <TRADUIT>ED-E</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>00038E0C</ID>
+    <EDID>CaveFungus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave Fungus</ORIGINAL>
+    <TRADUIT>[食]洞穴菇</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>0301213E</ID>
+    <EDID>NVDLC03CaveFungusINGESTIBLE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mutant Cave Fungus</ORIGINAL>
+    <TRADUIT>[食]突变洞穴菇</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0003707B</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Switch to a melee weapon.</ORIGINAL>
+    <TRADUIT>改用近身武器。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BD</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{beep Laugh}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{beep Laugh}&lt;发出哔哔声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579BD</ID>
+    <EDID>FollowersTacticsCombatMelee</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Weapon Type::Melee&gt;</ORIGINAL>
+    <TRADUIT>&lt;武器类型::近战&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00037084</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I think we should travel together.</ORIGINAL>
+    <TRADUIT>我们应该一起旅行。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C3</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Happy Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Happy Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C3</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Begin&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定::开始&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C2</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Sad Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Sad Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C2</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol-&gt;Conflict::Rex&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协定-&gt;冲突::雷克斯&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A006BEA</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Sad Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Sad Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A006BEA</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol-&gt;Conflict::Dogmeat&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议 - &gt;冲突:: 狗肉&gt; </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A006BEB</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Sad Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Sad Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A006BEB</ID>
+    <EDID>FollowersHired</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol-&gt;Conflict::Sergeant RL-3&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议 - &gt;冲突:: Sergeant RL-3&gt; </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000BD03F</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yes, I'm sure.</ORIGINAL>
+    <TRADUIT>是的，我很肯定。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C5</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579C5</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::End Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::结束同伴协定&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A007EED</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A007EED</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::End Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::结束同伴协议&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A007EE7</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0A007EE7</ID>
+    <EDID>FollowersFiredYes</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::End Companion Protocol&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::结束同伴协议&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000E32E5</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I convinced Pauline that you shouldn't go through with this.</ORIGINAL>
+    <TRADUIT>我已经说服了宝琳，她也觉得应该收手。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Really? Oh, thank god! I love that woman, but I swear this time she was gonna get us killed!</ORIGINAL>
+    <TRADUIT>真的？哦，感谢上帝！我爱那女人，但她这一次真的差点害死我们！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sammy Wins [000E2DCF] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The gun's in the safe. The combination's 05-23-34. Take it far away from here, before she changes her mind.</ORIGINAL>
+    <TRADUIT>枪在保险箱里。密码是05-23-34。在她改变主意之前，带着枪赶紧走吧。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sammy Wins [000E2DCF] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SammySafeREF.setownership
+SammySafeREF.unlock
+;set nVPrimmVanceGun.VanceGunCase to 3
+set nVPrimmVanceGun.SammyPauline to 2</ORIGINAL>
+    <TRADUIT>SammySafeREF. setownership
+SammySafeREF. unlock
+set nVPrimmVanceGun. VanceGunCase to 3
+set nVPrimmVanceGun. SammyPauline to 2</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000E32EB</ID>
+    <EDID>SammyPaulineConvinced</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Pauline says you should give me the gun.</ORIGINAL>
+    <TRADUIT>宝琳说你应该把枪给我。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00156BFC</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like you to go back to the Lucky 38 for now.</ORIGINAL>
+    <TRADUIT>我希望你现在回幸运38赌场去。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579DA</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Confirmation Beep}&lt;Makes beeping sounds&gt;</ORIGINAL>
+    <TRADUIT>{Confirmation Beep}&lt;发出哔哔响声&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Comment (NAM2) : Do not record.
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001579DA</ID>
+    <EDID>FollowersFiredYesSuite</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Companion Protocol::Return Base&gt;</ORIGINAL>
+    <TRADUIT>&lt;同伴协议::回到基地&gt;</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010108B</ID>
+    <EDID>CannibalJohnsonCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cannibal Johnson's Cave</ORIGINAL>
+    <TRADUIT>食人者约翰逊的洞穴</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F0849</ID>
+    <EDID>1EWestPumpStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>West Pump Station</ORIGINAL>
+    <TRADUIT>西部水泵站</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00133EC4</ID>
+    <EDID>3CBSRecreationOffice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bitter Springs Recreation Office</ORIGINAL>
+    <TRADUIT>苦泉休闲区办公室</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010EDCD</ID>
+    <EDID>2EOMichaelAngelo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Michael Angelo's Workshop</ORIGINAL>
+    <TRADUIT>米开·朗琪罗的车间</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013CA81</ID>
+    <EDID>JacobstownLodge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jacobstown Lodge</ORIGINAL>
+    <TRADUIT>杰克博镇旅社</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000E70AA</ID>
+    <EDID>TechatticupMineInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Techatticup Mine</ORIGINAL>
+    <TRADUIT>德卡提卡布金矿</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00134580</ID>
+    <EDID>3CBoatRentals</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Captain Dean Boat Rentals</ORIGINAL>
+    <TRADUIT>迪安船长的小艇租借室</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02008EA5</ID>
+    <EDID>NVDLC02EasternVirginSurvivalistCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fallen Rock Cave</ORIGINAL>
+    <TRADUIT>落石洞穴</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00146607</ID>
+    <EDID>CampSearchlightHiddenCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Supply Cave</ORIGINAL>
+    <TRADUIT>隐蔽补给洞穴</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0301507B</ID>
+    <EDID>NVDLC03SLBloatFlyCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mysterious Cave</ORIGINAL>
+    <TRADUIT>神秘洞穴</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ED511</ID>
+    <EDID>Vault3b</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 3 - Living Quarters</ORIGINAL>
+    <TRADUIT>3号避难所 - 居住区</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00153159</ID>
+    <EDID>SLGoodspringsCaveINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings Cave</ORIGINAL>
+    <TRADUIT>清泉镇山洞</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>
