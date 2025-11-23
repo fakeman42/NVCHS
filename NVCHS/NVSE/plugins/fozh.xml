@@ -175,6 +175,8 @@
 		<!-- Nova Arizona -->
 		<json path="Data/NVCHSDict/json/Mods/NovaArizona.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/Mods_Dial/NovaArizona_Dial.json" priority="4" />
+		<xml path="Data/NVCHSDict/Mods/NovaArizona.xml"/>
+		<xml path="Data/NVCHSDict/Mods/NovaArizona_Dial.xml"/>
 		
 		<!-- Dry Wells Reloaded -->
 		<json path="Data/NVCHSDict/json/Mods/DryWellsReloaded.json" priority="5" />
@@ -742,6 +744,7 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
 
 
