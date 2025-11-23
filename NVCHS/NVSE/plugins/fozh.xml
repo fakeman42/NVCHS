@@ -161,6 +161,7 @@
 		<xml path="Data/NVCHSDict/Mods/Someguy/SomeguySeries Revamped.xml"/>
 		<xml path="Data/NVCHSDict/Mods/Someguy/NewVegasBounties_LE.xml"/>
 		<xml path="Data/NVCHSDict/Mods/Someguy/Detour.xml"/>
+		<xml path="Data/NVCHSDict/Mods/Someguy/KingOfTheRing.xml"/>
 		
 		<!-- TH3 -->
 		<xml path="Data/NVCHSDict/Mods/TH3/TheHighDesert.xml"/>
@@ -329,6 +330,8 @@
 		<xml path="Data/NVCHSDict/Mods/Duncan's Uncut Collection - AIO Part 1.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/IntoTheDeep.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/Gun and Friends.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/zl_caliber.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/Vanilla Enhancements TTW Patch.xml" priority="5" />
 		
 		<json path="Data/NVCHSDict/json/Mods/AmaccurzerO's_Animated_Wastelands.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/AndJusticeForAll.json" priority="5" />
@@ -739,6 +742,7 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
 
 
