@@ -334,6 +334,7 @@
 		<xml path="Data/NVCHSDict/Mods/Gun and Friends.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/zl_caliber.xml" priority="5" />
 		<xml path="Data/NVCHSDict/Mods/Vanilla Enhancements TTW Patch.xml" priority="5" />
+		<xml path="Data/NVCHSDict/Mods/goodies.xml" priority="5" />
 		
 		<json path="Data/NVCHSDict/json/Mods/AmaccurzerO's_Animated_Wastelands.json" priority="5" />
 		<json path="Data/NVCHSDict/json/Mods/AndJusticeForAll.json" priority="5" />
@@ -744,6 +745,7 @@
 		<![CDATA[(\+| >| \(\d+\))$]]>
 	</config>
 </fozh>
+
 
 
 
