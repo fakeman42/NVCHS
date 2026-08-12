@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>ProfMajkowski</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>SNAM</CHAMP>
+    <ORIGINAL>Spiritual succesor to Deranged Courier</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05022DA8</ID>
+    <EDID>SanityUnstableEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mentally Unstable</ORIGINAL>
+    <TRADUIT>精神不稳定</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05022DA9</ID>
+    <EDID>SanityDerangedEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deranged</ORIGINAL>
+    <TRADUIT>精神错乱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05033A4D</ID>
+    <EDID>SanityStableEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mentally Stable</ORIGINAL>
+    <TRADUIT>精神稳定</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05022DAB</ID>
+    <EDID>SanityInsaneEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Insane</ORIGINAL>
+    <TRADUIT>彻底疯狂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05060CDE</ID>
+    <EDID>SanityCyberpsychosis</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cyberpsychosis</ORIGINAL>
+    <TRADUIT>赛博精神病</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>05058F6B</ID>
+    <EDID>WeapSanityRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anti-Materiel Rifle</ORIGINAL>
+    <TRADUIT>反器材步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0505C531</ID>
+    <EDID>SanityBennyCopy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Benny</ORIGINAL>
+    <TRADUIT>本尼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0400A679</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F6C</ID>
+    <EDID>SanityMoleRat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mole Rat</ORIGINAL>
+    <TRADUIT>鼹鼠</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F6D</ID>
+    <EDID>SanityRadscorpion</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radscorpion</ORIGINAL>
+    <TRADUIT>辐射蝎</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F6E</ID>
+    <EDID>SanityAntSoldier</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Giant Soldier Ant</ORIGINAL>
+    <TRADUIT>巨型兵蚁</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F6F</ID>
+    <EDID>SanityCazador</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cazador</ORIGINAL>
+    <TRADUIT>猎蜂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F70</ID>
+    <EDID>SanityDeathclaw</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw</ORIGINAL>
+    <TRADUIT>死亡爪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F71</ID>
+    <EDID>SanityFeralGhoul</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Feral Ghoul</ORIGINAL>
+    <TRADUIT>狂尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>05058F6A</ID>
+    <EDID>SanityGhoulGlowingOne</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Glowing One</ORIGINAL>
+    <TRADUIT>发光的狂尸鬼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>0501E600</ID>
+    <EDID>SanityDrug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Antipsychotics</ORIGINAL>
+    <TRADUIT>抗精神病药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>04003CAA</ID>
+    <EDID>NVDLC04DivideUlyssesTemple</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ulysses' Temple</ORIGINAL>
+    <TRADUIT>尤利西斯的神殿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0100277F</ID>
+    <EDID>NVDLC01Lobby</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sierra Madre Lobby</ORIGINAL>
+    <TRADUIT>马德雷赌场大厅</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010D512</ID>
+    <EDID>Lucky38CasinoFloor01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lucky 38 Casino</ORIGINAL>
+    <TRADUIT>幸运38赌场</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D8052</ID>
+    <EDID>HELIOSOneDeck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>HELIOS One Observation Level</ORIGINAL>
+    <TRADUIT>太阳神一号观察层</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0013B308</ID>
+    <EDID>TheStripWorldNew</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Strip</ORIGINAL>
+    <TRADUIT>长街</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0014C723</ID>
+    <EDID>BoulderCityWorld</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boulder City Ruins</ORIGINAL>
+    <TRADUIT>巨石城废墟</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0200683B</ID>
+    <EDID>NVDLC02ZionCanyon</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zion Canyon</ORIGINAL>
+    <TRADUIT>锡安峡谷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>04002F73</ID>
+    <EDID>NVDLC04Road02World</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The High Road</ORIGINAL>
+    <TRADUIT>高路</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00136224</ID>
+    <EDID>vDialogueGomorrahDazzleTopic014</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fifty caps it is. Let's party.</ORIGINAL>
+    <TRADUIT>这是五十瓶盖。咱们闹腾起来吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0013623A</ID>
+    <EDID>vDialogueGomorrahDazzleTopic014</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We can go right over here, baby.</ORIGINAL>
+    <TRADUIT>咱能直接在这做，宝贝。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dazzle [000F43D5] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00136226</ID>
+    <EDID>vDialogueGomorrahDazzleTopic012</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>&lt; Speech 35 &gt;</ORIGINAL>
+    <TRADUIT>&lt;口才35&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00136240</ID>
+    <EDID>vDialogueGomorrahDazzleTopic012</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] Well... no I guess not. Okay - you show me a good time, and I'll return the favor.</ORIGINAL>
+    <TRADUIT>[成功] 嗯...我想不是。好吧 - 你陪我玩一玩，我就会报答你的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dazzle [000F43D5] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00136240</ID>
+    <EDID>vDialogueGomorrahDazzleTopic012</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I wouldn't offer if it wasn't safe. Do I look like someone who would hurt you?</ORIGINAL>
+    <TRADUIT>不安全的话我是不会给这提议的。我像是会伤害你的样子吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00136227</ID>
+    <EDID>vDialogueGomorrahDazzleTopic011</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>&lt; Medicine 35 &gt;</ORIGINAL>
+    <TRADUIT>&lt;医疗35&gt;</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0013624D</ID>
+    <EDID>vDialogueGomorrahDazzleTopic011</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] Well, if you know what you're doing... okay. You show me a good time, and I'll return the favor.</ORIGINAL>
+    <TRADUIT>[成功] 嗯，你自己拿得准的话... 好吧。你陪我玩一玩，我就会报答你的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dazzle [000F43D5] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0013624D</ID>
+    <EDID>vDialogueGomorrahDazzleTopic011</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I know the right dose for a little thing like you. Medical training, you know.</ORIGINAL>
+    <TRADUIT>你需要多少剂量我是清楚的。医疗训练，知道吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00136229</ID>
+    <EDID>vDialogueGomorrahDazzleTopic009</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Uhh... twenty, twenty five... yeah, I have enough. Here you go.</ORIGINAL>
+    <TRADUIT>额...二十，二十五...嗯，我钱够了。给你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00136236</ID>
+    <EDID>vDialogueGomorrahDazzleTopic009</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We can go right over here, baby.</ORIGINAL>
+    <TRADUIT>咱能直接在这做，宝贝。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dazzle [000F43D5] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0013622C</ID>
+    <EDID>vDialogueGomorrahDazzleTopic006</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Let's party. Here's the hundred caps.</ORIGINAL>
+    <TRADUIT>咱们闹腾起来吧。给你一百瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00136242</ID>
+    <EDID>vDialogueGomorrahDazzleTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We can go right over here, baby.</ORIGINAL>
+    <TRADUIT>咱能直接在这做，宝贝。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dazzle [000F43D5] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00156975</ID>
+    <EDID>VFreeformCasaMadrid1EJimmyTopic006</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>&lt;200 caps&gt; Let's do it.</ORIGINAL>
+    <TRADUIT>&lt;200瓶盖&gt; 开始吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001569FB</ID>
+    <EDID>VFreeformCasaMadrid1EJimmyTopic006</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Oh, we will, sugar. We will.</ORIGINAL>
+    <TRADUIT>噢，我们会的，甜心。我们会的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Jimmy [000F624F] (file)
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0015698A</ID>
+    <EDID>VFreeformCasaMadridWestsideSweetieTopic004</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>&lt;300 caps&gt; Here's your money.</ORIGINAL>
+    <TRADUIT>&lt;300瓶盖&gt; 给你钱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001569BA</ID>
+    <EDID>VFreeformCasaMadridWestsideSweetieTopic004</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Get ready, honey. I'm going to make it good for you.</ORIGINAL>
+    <TRADUIT>准备好，亲爱的。我会让你很舒服的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Sweetie [000F6251] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0015699E</ID>
+    <EDID>VFreeformCasaMadridWestsideMaudeTopic005</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>&lt;75 caps&gt; What the hell. Let's do it.</ORIGINAL>
+    <TRADUIT>&lt;75瓶盖&gt; 去他妈的。咱们搞起来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001569CB</ID>
+    <EDID>VFreeformCasaMadridWestsideMaudeTopic005</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You won't notice anything once the lights are out, hon. The places that count are still firm enough...</ORIGINAL>
+    <TRADUIT>黑了之后你什么也不会注意到的，亲。重要的地方还是很坚实的...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Maude [000F6250] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004FDA</ID>
+    <EDID>SanityDeranged</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deranged</ORIGINAL>
+    <TRADUIT>精神错乱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004FDA</ID>
+    <EDID>SanityDeranged</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>“I became insane, with long intervals of horrible sanity.” - Edgar Allan Poe
+
+The voices are getting louder and more intense. Maybe it's time to start listening to them? </ORIGINAL>
+    <TRADUIT>“我陷入疯狂，期间伴随着漫长而可怕的理智。” - 埃德加·爱伦·坡
+
+声音越来越响，越来越强烈。也许是时候开始倾听它们了吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004FDB</ID>
+    <EDID>SanityInsane</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Insane</ORIGINAL>
+    <TRADUIT>彻底疯狂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004FDB</ID>
+    <EDID>SanityInsane</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The voices are good for you. Listen to the voices. They care about you. You need them. Keep them. It's only you and them that matters in this world. Everyone else can burn. So burn them. Kill them all. KILL THEM ALL. </ORIGINAL>
+    <TRADUIT>声音对你有好处。倾听声音。他们关心您。你需要它们。留着它们。在这个世界上，只有你和他们才是重要的。其他人都死一边去吧。所以烧死它们。把他们全杀光。一个不剩。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501867B</ID>
+    <EDID>SanityStable</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mentally Stable</ORIGINAL>
+    <TRADUIT>精神稳定</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0501867B</ID>
+    <EDID>SanityStable</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're fine. Everything's just fine. </ORIGINAL>
+    <TRADUIT>你没事。根本没出什么事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004FD9</ID>
+    <EDID>SanityUnstable</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mentally Unstable</ORIGINAL>
+    <TRADUIT>精神不稳定</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>05004FD9</ID>
+    <EDID>SanityUnstable</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>“If you think anyone is sane you just don't know enough about them.” - Christopher Moore
+
+The Mojave has left its mark on your sanity (and so did Benny). You are hearing strange voices that seem to be either talking directly to you or to each other. That can't be good. </ORIGINAL>
+    <TRADUIT>“如果你认为有人是理智的，那你仅仅是不够了解他们。” - 克里斯托弗·摩尔
+
+莫哈维废土在你的理智上烙下了痕迹（本尼也如此）。你听到了奇怪的声音，它们似乎在直接与你交谈，或彼此交谈。这可不妙。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0501867A</ID>
+    <EDID>SanityStableMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You're Mentally Stable. For now. </ORIGINAL>
+    <TRADUIT>目前而言，你精神稳定了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05033454</ID>
+    <EDID>SanityConfigMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>CONFIG FILE IS MISSING!</ORIGINAL>
+    <TRADUIT>配置文件丢失！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05033454</ID>
+    <EDID>SanityConfigMsg</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mental Stability System</ORIGINAL>
+    <TRADUIT>精神稳定性系统</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05018677</ID>
+    <EDID>SanityUnstableMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now Mentally Unstable. </ORIGINAL>
+    <TRADUIT>你现在精神不稳定。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05018678</ID>
+    <EDID>SanityDerangedMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You are now Deranged. </ORIGINAL>
+    <TRADUIT>你现在精神错乱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>05018679</ID>
+    <EDID>SanityInsaneMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've become Insane. </ORIGINAL>
+    <TRADUIT>你彻底疯了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>05055F9A</ID>
+    <EDID>SanityRecipeDrug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Antipsychotics</ORIGINAL>
+    <TRADUIT>抗精神病药</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

@@ -1,0 +1,890 @@
+[
+  {
+    "key": "NullEDID_00000000#TES4:CNAM#0feb774313708509cd8cdea62dba1902",
+    "original": "DEFAULT",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MetroAmbush_0D006247#SCPT:SCTX#5d1d6f1c7b34b72081c304d9db0dbc98",
+    "original": "scn MetroAmbush\\n\\nBegin ontriggerenter player\\n\\nGhoulHunter.enable\\n\\nend",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "MetroAttack_0D006246#ACTI:FULL#7de96bee32d213979f357b5f82f309da",
+    "original": "Gas Valve",
+    "translation": "气阀",
+    "stage": 1
+  },
+  {
+    "key": "MonoBox_0D011C0E#CONT:FULL#086397cc4c52fe3b7b7ae595cb3473f0",
+    "original": "Overhead Locker",
+    "translation": "头顶储物柜",
+    "stage": 1
+  },
+  {
+    "key": "AATrainDoor_0D00158C#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "MonoSideDoor_0D012B6C#DOOR:FULL#ad5ea941fe215b8f13d7e9761e6c3fb5",
+    "original": "Door",
+    "translation": "门",
+    "stage": 1
+  },
+  {
+    "key": "AALadder_0D028958#DOOR:FULL#74cf4020aad3f863bcd240c176f94084",
+    "original": "Rope Ladder",
+    "translation": "绳梯",
+    "stage": 1
+  },
+  {
+    "key": "DEADWastelander2_0D002347#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "DEADMerc_0D004511#NPC_:FULL#4cc32bf2913d063b3a5200c6c7d68ac5",
+    "original": "Dave",
+    "translation": "戴夫",
+    "stage": 1
+  },
+  {
+    "key": "DEADGuy_0D0053BA#NPC_:FULL#383eac6b2405182285e0b7f4fcc2930c",
+    "original": "Corpse",
+    "translation": "尸体",
+    "stage": 1
+  },
+  {
+    "key": "LvlGhoulHunter_0D006248#NPC_:FULL#48058057b14cd414d1cbfe0072a6d1b8",
+    "original": "Hunter",
+    "translation": "猎人",
+    "stage": 1
+  },
+  {
+    "key": "DEADWastelander_0D008A0B#NPC_:FULL#991d50dd4c86b01b4687a8d021a77d35",
+    "original": "Wastelander",
+    "translation": "废土游民",
+    "stage": 1
+  },
+  {
+    "key": "DEADFemale_0D0109BB#NPC_:FULL#ffe7d66e649e11dc31a4219363423cd3",
+    "original": "Captive",
+    "translation": "俘虏",
+    "stage": 1
+  },
+  {
+    "key": "DEADFemale2_0D0109C0#NPC_:FULL#ffe7d66e649e11dc31a4219363423cd3",
+    "original": "Captive",
+    "translation": "俘虏",
+    "stage": 1
+  },
+  {
+    "key": "MetroKey_0D011119#KEYM:FULL#aa9eb374ff69ffced840b62a30361374",
+    "original": "Love Carriage Key",
+    "translation": "爱情车厢钥匙",
+    "stage": 1
+  },
+  {
+    "key": "MetroNoteTenpen_0D004514#NOTE:FULL#2c3b2ffc1cc2bf7c2bf465ac247fde1b",
+    "original": "Note",
+    "translation": "笔记",
+    "stage": 1
+  },
+  {
+    "key": "MetroNoteTenpen_0D004514#NOTE:TNAM#f0810c3f7d57a11e3ace6cd5002aecf3",
+    "original": "Dave, I think I got an idea. I heard Tenpenny's been having problems with some ghouls trying to get in. Well, imagine if we show up to tell him we've taken care of it. That's bound to get us in, maybe even a place on his security team, and then we're set for the rest of our lives! Meet me at the entrance to warrington tunnels, and don't take too long.",
+    "translation": "戴夫，我有主意了。我听说特佩尼遇到了麻烦，一些尸鬼想闯进去。想象一下如果我们去告诉他我们已经处理好了。他肯定能让我们进去，也许还能在他的安保团队中占有一席之地，然后我们就能安然度过余生了!在沃灵顿隧道入口等我，别耽搁太久。",
+    "stage": 1
+  },
+  {
+    "key": "TalonMetroNote_0D005CAE#NOTE:FULL#b81a771fb9cca65728a81791fa57890b",
+    "original": "Orders",
+    "translation": "命令",
+    "stage": 1
+  },
+  {
+    "key": "TalonMetroNote_0D005CAE#NOTE:TNAM#964aff3ce85df1becf0de46e1464303c",
+    "original": "Location: Metro Central\\nSquad: Echo\\n\\nMission: Establish a position in metro central and prevent the super mutants from using the tunnels to reinforce their positions around D.C.\\nMultiple operations will be taking place against super mutant occupied areas, and they must be isolated before they can be exterminated.\\n\\nScouts report other hostiles inhabiting the metro system, however we expect no organized resistance. Consider anything else encountered to be secondary targets.",
+    "translation": "地点：地铁中心\\n小队：回声\\n任务：在地铁中心建立据点，防止超级变种人利用隧道在华盛顿附近加强他们的据点。\\n我们将对超级变种人占领的地区展开多项行动，在消灭他们之前必须将他们隔离。\\n侦察兵报告地铁系统内有其他敌人，但我们预计不会有有组织的抵抗。将遇到的其他任何东西视为次要目标。",
+    "stage": 1
+  },
+  {
+    "key": "MetroNote1_0D0064E8#NOTE:FULL#2c3b2ffc1cc2bf7c2bf465ac247fde1b",
+    "original": "Note",
+    "translation": "笔记",
+    "stage": 1
+  },
+  {
+    "key": "MetroNote1_0D0064E8#NOTE:TNAM#6952934e150b26863dc8ac5a9f0cf795",
+    "original": "Joe, if you came looking for me, hopefully you found this. Depending how long its been, I might not have made it. \\nHad a good day in Georgetown, found lots of good stuff to trade but was spotted by super mutants. Managed to get away but took a hit to the arm. Heading for underworld but ran into a pack of feral's. Hid in here and was able to jam the doors.\\nEven now I can here them growling and scratching, trying to get in...trying to get me.\\nMy arms bleeding bad , I can't just wait, gonna ditch my stuff and make a run for it...\\nIf you're reading this, grab my rifle from the overhead shelf and head for underworld.\\nHopefully we'll meet again...",
+    "translation": "乔，如果你是来找我的，希望你已经找到了这个。不知道过了多久，我可能已经撑不过来了。\\n今天在乔治敦过得不错，找到了很多可以用来交易的好东西，但被超级变种人发现了。我好不容易才逃了出来，但手臂挨了一下。我本来打算去地下城，却遇到了一群尸鬼。我躲进了这里，并堵住了门。\\n现在我还能听到它们在外面咆哮、抓挠，想进来……想抓住我。\\n我的手臂血流不止，我不能就这么等着，得丢掉东西赶紧跑……\\n如果你在读这个，请从头顶的架子上拿下我的步枪，去地下城吧。\\n希望我们还能再见……",
+    "stage": 1
+  },
+  {
+    "key": "DiaryStart_0D0079CA#NOTE:FULL#eb872d04f3304658a26eca888ff0ae6c",
+    "original": "Diary Page 1",
+    "translation": "日记第1页",
+    "stage": 1
+  },
+  {
+    "key": "DiaryStart_0D0079CA#NOTE:TNAM#df554ff0152d077cb977c89f796b0129",
+    "original": "Day 2 down here. The other passengers left, tried to stop them, kept telling them about the radiation but they wouldn't listen, at least being down here should offer some protection. \\nCan't blame them really, they got...had families out there, so did I. Guess some people can't accept the truth. Its over...They're all dead.",
+    "translation": "第2天。其他乘客离开了，我试着阻止他们，一直告诉他们这里有辐射，但他们就是不听。至少在这里应该能提供一些保护。\\n说真的，也不能怪他们，他们……他们外面还有家人，我也是。我想有些人就是无法接受真相。一切都结束了……他们都死了。",
+    "stage": 1
+  },
+  {
+    "key": "DiaryMid1_0D0079CC#NOTE:FULL#373b99fe326d422b468060bc6d2d06da",
+    "original": "Diary Page 2",
+    "translation": "日记第2页",
+    "stage": 1
+  },
+  {
+    "key": "DiaryMid1_0D0079CC#NOTE:TNAM#66ad7605fca171b41e4fdad6b1e54722",
+    "original": "Woke up to the sound of crying, looked outside and saw 2 young girls. Been walking through the tunnels looking for a way out.\\nThey were with their parents on another train when it happened, seems every one else on board died when it derailed.\\nI guess its up to me to take care of them...reason to live maybe?",
+    "translation": "被哭声吵醒，向外看去，发现有两个小女孩。她们一直在隧道里徘徊，寻找出路。\\n事发时，她们和父母在另一列火车上，火车脱轨后，车上的人似乎都死了。\\n看来，照顾她们的责任就落在我身上了……也许，这就是我继续活下去的理由吧？",
+    "stage": 1
+  },
+  {
+    "key": "DiaryMid2_0D0079CD#NOTE:FULL#7f00e43b74814d5741cda8006bd464a3",
+    "original": "Diary Page 3",
+    "translation": "日记第3页",
+    "stage": 1
+  },
+  {
+    "key": "DiaryMid2_0D0079CD#NOTE:TNAM#9996900256b9e48534599706333bb088",
+    "original": "More survivors from the tunnels, three guys this time.\\nSoon started to have a bad feeling about them, the way they kept looking at the girls...\\nWhen they started getting aggressive decided to show them the gun, did the trick.\\nThey left, probably for the best.",
+    "translation": "从隧道里又出来了几个幸存者，这次是三个男人。\\n很快我开始对他们有了不好的预感，他们一直盯着女孩们看……\\n当他们开始变得咄咄逼人时，我决定拿出枪来吓唬他们，这招果然奏效了。\\n他们离开了，这样可能是最好的结果。",
+    "stage": 1
+  },
+  {
+    "key": "DiaryEnd_0D007A78#NOTE:FULL#d69ab9ce98ad7f59c35165b7706e3506",
+    "original": "Diary Page 4",
+    "translation": "日记第4页",
+    "stage": 1
+  },
+  {
+    "key": "DiaryEnd_0D007A78#NOTE:TNAM#d77b8db7a4abdaa682d159357595c047",
+    "original": "So its come to this.\\nThose fuckers came back, even gave me a chance to leave...just me.\\nNot a chance, good riddance.\\nTook a bullet to the gut, not a doctor but I think its over for me, but the girls...\\nThey're asleep as I write this, without anyone to look after them...don't want to think about it.\\nIts done, God forgive me. \\nGod...why? Is this punishment? Were our sins so unforgivable?",
+    "translation": "事情竟然发展到了这一步。\\n那些混蛋回来了，甚至给了我一个离开的机会……只有我自己。\\n没门儿，他们最好滚远点。\\n腹部中了一枪，我不是医生，但我觉得我已经不行了，但那些女孩们……\\n我写这些的时候她们还在睡觉，没人照顾她们……我不想去想这些。\\n一切都结束了，上帝宽恕我吧。\\n上帝……为什么？这是惩罚吗？我们的罪过如此不可饶恕吗？",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter07_06023226#CELL:FULL#85a5ae7f4f3b74832a23aec5a74398da",
+    "original": "Museum Station",
+    "translation": "博物馆站",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoOasis_0D01CD68#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "单轨车厢",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter04_0601A284#CELL:FULL#7ed82e6f2f2190d62299d94af2be9faf",
+    "original": "Foggy Bottom Station",
+    "translation": "雾谷站",
+    "stage": 1
+  },
+  {
+    "key": "AAMetroHome_0D000EA6#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AADCTACar3_0D003F16#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCars_0D006A18#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar1Rad_0D009006#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAWarrington1Cars_0D0053F2#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar10111213_0D009B0A#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "WarringtonStation02_06016DA1#CELL:FULL#c1b9d975762cd846c7ee492054fbe22e",
+    "original": "Warrington Station",
+    "translation": "沃灵顿站",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCar7891011_0D005209#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCarRaider13_0D006983#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFriend2Car910_0D007F63#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "HazmatDisposal01_0601A271#CELL:FULL#8a422775346839764f1fbf422de98f7e",
+    "original": "Hazmat Disposal Site L5",
+    "translation": "危险物品存放点 L5",
+    "stage": 1
+  },
+  {
+    "key": "AAFriend2Car678_0D006BE5#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AATepidCar1_0D0022E3#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar14151617_0D0047AF#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "zcGeorgetownToMall_060035D5#CELL:FULL#00bf070f1763ce37863f5b69f775a852",
+    "original": "Georgetown/The Mall Metro",
+    "translation": "乔治敦/商业区地铁",
+    "stage": 1
+  },
+  {
+    "key": "zBethSewer_060235F1#CELL:FULL#879dd795a39b11aab78472bd3c04de36",
+    "original": "Bethesda Underworks",
+    "translation": "贝塞斯达地下设施",
+    "stage": 1
+  },
+  {
+    "key": "AAJuryCar6_0D00E471#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMerestiSurfaceCars2_0D00B46F#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "WarringtonStation01_06016DA2#CELL:FULL#5ef03ebe2b6249337764fca715a0ccc6",
+    "original": "Warrington Tunnels",
+    "translation": "沃灵顿隧道",
+    "stage": 1
+  },
+  {
+    "key": "AADCTACar12_0D003EE6#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCar3456_0D0051A6#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFrank2Car12131415_0D00401C#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar18_0D0050F2#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCarRaider14_0D00728A#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAChevvernCar1_0D008996#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMerestiCars_0D008FD6#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAPenMallCar12_0D009116#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AARockCreekCars_0D00C2B2#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFoggyCar12_0D003DEC#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "RockCreekCaverns_060AFE4E#CELL:FULL#8fb15aae78b0a9581c292beddf166725",
+    "original": "Rock Creek Caverns",
+    "translation": "岩溪山洞",
+    "stage": 1
+  },
+  {
+    "key": "AADupontCar1_0D003D92#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMerestiSurfaceCars_0D00A8A4#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "zcPennAveToGeorgetown_060035D6#CELL:FULL#3b087eec2551d76a7921edadd27256de",
+    "original": "Penn. Ave/Georgetown Metro",
+    "translation": "宾州大道/乔治敦地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAFrank2GhoulCar16_0D004198#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAWarrington2Car4_0D0044B8#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAArlingCar3_0D004904#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "MerestiMetro02_060043A1#CELL:FULL#da85022be52fadafb45a02c8d6254d6a",
+    "original": "Meresti Metro Station",
+    "translation": "米尔斯蒂地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoCarFort_0D01851D#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "历史博物馆办公室",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoCorner_0D01C5F5#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "单轨车厢",
+    "stage": 1
+  },
+  {
+    "key": "FranklinMetro02_0601A273#CELL:FULL#0e8e913febfa733a65c947266bcb1aed",
+    "original": "Falls Church/Mason Dst Metro",
+    "translation": "瀑布教堂/梅森区地铁站",
+    "stage": 1
+  },
+  {
+    "key": "zDCint12b_060459CD#CELL:FULL#9afac57f42f465bc95fe1bc94e5abeac",
+    "original": "Sewer",
+    "translation": "下水道",
+    "stage": 1
+  },
+  {
+    "key": "AAGeorMallCar4_0D004E41#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAArlingFallsCar2_0D00893D#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter02_0601A287#CELL:FULL#cd7f7899c6d6943f6f78c57727d25c9f",
+    "original": "Dupont Circle Station",
+    "translation": "杜邦环岛站",
+    "stage": 1
+  },
+  {
+    "key": "AAFrank1Car1_0D00593B#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AABethesdaCars_0D024953#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFoggyCar3_0D003D93#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCarRaider12_0D006183#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar2345_0D009063#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACemeteryCar_0D015417#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAWarrington2Car123_0D003839#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAArlingCar4_0D0050EA#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar678_0D00999C#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFrank2Car12345_0D006292#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "FriendshipMetro02_0601A288#CELL:FULL#05514ea6cc1810a5c0233a36e6e6f711",
+    "original": "Tenleytown/Friendship Station",
+    "translation": "藤蕾镇/友谊街车站",
+    "stage": 1
+  },
+  {
+    "key": "AASewerCar12345_0D0022FA#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFoggyCar678_0D003EB6#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAJuryCar914_0D0100DA#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFriend2Car11_0D008786#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMarigoldCar1_0D00992F#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "MerestiMetro01_06018461#CELL:FULL#ed9bfed2108252cdb1c7e50dc60cfc33",
+    "original": "Meresti Service Tunnel",
+    "translation": "米尔斯第通勤隧道",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoArefu_0D026BBF#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "单轨车厢",
+    "stage": 1
+  },
+  {
+    "key": "AADCTACar5_0D004691#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFriend2Car5_0D0069CD#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoWreck_0D01CAED#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "单轨车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFoggyCar5_0D003E86#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMetroHome2_0D003148#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAAnacostCar1234_0D00798C#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AADCTACar67_0D004F66#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFairfaxCar12_0D0060FA#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "FranklinMetro01_0601A280#CELL:FULL#e7e5b8501f66077755754aec48aae18a",
+    "original": "Franklin Metro Utility",
+    "translation": "富兰克林地铁多用隧道",
+    "stage": 1
+  },
+  {
+    "key": "zcPennAveToMall_0601B478#CELL:FULL#b0b749ba1d7c49244d5f376e8e3d0d4b",
+    "original": "Penn. Ave/The Mall Metro",
+    "translation": "宾州大道/商业区地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAChevvernCar6_0D008A08#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "zcArlingtonToFalls_060BC4C2#CELL:FULL#1a39eabe13bf60bd65bf9b94af2cc991",
+    "original": "Arlington/Falls Church Metro",
+    "translation": "阿灵顿/瀑布教堂地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAJuryCar7_0D00EBCE#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAWarringtonSurfaceCar_0D005830#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "JuryStStation02_06016DA7#CELL:FULL#506a5834dd938a1b4aa0db2f09d7a4d5",
+    "original": "Jury St. Tunnels",
+    "translation": "陪审团大街隧道",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter05_0601BC8F#CELL:FULL#578be3b8e10d0087eae1b2c18ce54b47",
+    "original": "DCTA Tunnel 014-B Potomac",
+    "translation": "DCTA隧道014-B波托马克",
+    "stage": 1
+  },
+  {
+    "key": "AACentralCar9_0D009AB7#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAGeorgeCar12_0D006547#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFallsCars_0D0084EB#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAChevvernCar2345_0D009747#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter06_0601A281#CELL:FULL#29a6c4fa2f64b1b282c947bf34831c88",
+    "original": "Arlington Utility",
+    "translation": "阿灵顿多用隧道",
+    "stage": 1
+  },
+  {
+    "key": "AAGeorMallCar123_0D005421#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "zFairfaxMetro_0603D443#CELL:FULL#4b190efec39d24694c576f56a953b26e",
+    "original": "Fairfax Metro Station",
+    "translation": "费尔福克斯地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAArlingCar12_0D0047AB#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFrank2Car678910_0D007573#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAArlingFallsCar1_0D008897#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFrank2RaiderCar11_0D007EDD#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMarigoldCars_0D008D65#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "JuryStStation01_06016DA8#CELL:FULL#ce8ac58687f684397210bddaf9c19cc9",
+    "original": "Jury St. Station",
+    "translation": "陪审团大街地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AASewerCar6_0D003848#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "TepidSewer01_0601BC9A#CELL:FULL#cf6ccabaf833db421a64d736726ffb1a",
+    "original": "Tepid Sewer",
+    "translation": "湿热下水道",
+    "stage": 1
+  },
+  {
+    "key": "AAJuryCar12345_0D00D4F6#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAJury2Cars_0D011E70#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoAcademy_0D00DA1E#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "单轨车厢",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter01_0601A28C#CELL:FULL#b155bee21cd4c74a50a43f5bb7813625",
+    "original": "Metro Central",
+    "translation": "地铁中心",
+    "stage": 1
+  },
+  {
+    "key": "AAFairfaxCar3_0D006EBC#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAFoggyCar4_0D003E56#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAWarringtonSurfaceCars_0D005378#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMeresti2Cars_0D00A710#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AASewerCar7891011_0D0043EC#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AADCTACar4_0D003F46#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAMuseumCar12_0D005153#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "MetroCenter08_0601A283#CELL:FULL#b03b7f3e1b0ed4561d838f576f540117",
+    "original": "Anacostia Crossing Station",
+    "translation": "阿娜考斯提亚路口地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAAMonoScrapyard_0D01C871#CELL:FULL#a32f7522eb129dc7a8a978f89b1cf802",
+    "original": "Monorail Carriage",
+    "translation": "单轨车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAAnacostCar5_0D008191#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "AAJuryCar8_0D00EBD1#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "zcChevyToVernon_060035D3#CELL:FULL#1ebb99c5154c2886ba0c86ceb61f90f3",
+    "original": "Metro Junction",
+    "translation": "地铁道岔",
+    "stage": 1
+  },
+  {
+    "key": "AAPenGeorCar123_0D004965#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "MarigoldStation01_06016D9F#CELL:FULL#c55a1b417131a43f7fde3e857bd88eac",
+    "original": "Marigold Station",
+    "translation": "金盏花地铁站",
+    "stage": 1
+  },
+  {
+    "key": "AAFriend2Car1234_0D004C2B#CELL:FULL#0bb726e6188119b6eaf1a0fe94701dae",
+    "original": "Metro Carriage",
+    "translation": "地铁车厢",
+    "stage": 1
+  },
+  {
+    "key": "DCworld18_0601A25D#WRLD:FULL#5817a1c3d8f90d53caec807d0d8741f5",
+    "original": "Arlington National Cemetery",
+    "translation": "阿灵顿国家公墓",
+    "stage": 1
+  },
+  {
+    "key": "DCworld17_0601A25E#WRLD:FULL#eee42edb521b9337dda2d03effbe0214",
+    "original": "Falls Church",
+    "translation": "瀑布教堂",
+    "stage": 1
+  },
+  {
+    "key": "DCworld11_0601A263#WRLD:FULL#4baa7aea60cde6bca2b7d7d657e0fa1f",
+    "original": "Georgetown",
+    "translation": "乔治敦",
+    "stage": 1
+  },
+  {
+    "key": "Wasteland_0607EA1F#WRLD:FULL#510e566fadcbe2d2a758bbdd542b829c",
+    "original": "Capital Wasteland",
+    "translation": "首都废土",
+    "stage": 1
+  }
+]

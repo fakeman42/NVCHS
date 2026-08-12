@@ -1,0 +1,554 @@
+[
+  {
+    "key": "NullEDID_00000000#TES4:CNAM#0feb774313708509cd8cdea62dba1902",
+    "original": "DEFAULT",
+    "translation": "预设",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorNVENCH_0F00901A#ENCH:FULL#7ca0513e7e2c7f060a4c11711b3660f0",
+    "original": "Desert Combat Armor",
+    "translation": "沙漠战斗护甲",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorDCENCH_0F03890C#ENCH:FULL#335e8a92a4bfc6cd753c5e1fe6afe03b",
+    "original": "Navy Combat Armor",
+    "translation": "海军战斗护甲",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal2_0F013764#TERM:FULL#bf9f5d12ecd27c9585a9d80c5e354451",
+    "original": "Wutty's Notes",
+    "translation": "武蒂的笔记",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal2_0F013764#TERM:DESC#bf9f5d12ecd27c9585a9d80c5e354451",
+    "original": "Wutty's Notes",
+    "translation": "武蒂的笔记",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal2_0F013764#TERM:ITXT#279159356c16a221702ee53f62370697",
+    "original": "Gunsmith",
+    "translation": "枪械师",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal2_0F013764#TERM:ITXT#72fbb050e284292d4083d11edfb9f23f",
+    "original": "Gun Runners",
+    "translation": "军火贩子",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal2_0F013764#TERM:ITXT#6caad54716003476833f411e54d85049",
+    "original": "Isaac",
+    "translation": "艾萨克",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal2_0F013764#TERM:ITXT#6b53248b17b37d5bfd234ec70f92eb6c",
+    "original": "Nahzeam (?)",
+    "translation": "纳泽姆（？）",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVTerminal_0F01315D#TERM:FULL#f7d45b1954a3d4bcdfb1f0f0d672dd74",
+    "original": "Millenia Arms Terminal",
+    "translation": "千年武器店终端",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVTerminal_0F01315D#TERM:DESC#cf40bae0ff51a1be5da94a75bce3f7ce",
+    "original": "Welcome, USER: Wutty",
+    "translation": "欢迎，用户：武蒂",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVTerminal_0F01315D#TERM:ITXT#0beea9e264019deb6db88b6850068a4e",
+    "original": "[Orders]",
+    "translation": "[命令]",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVTerminal_0F01315D#TERM:ITXT#63fde6a8c73fd12491a3be25f054d679",
+    "original": "[Notes]",
+    "translation": "[笔记]",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:FULL#4b6216277e8eb6cfda7a850cf0100018",
+    "original": "Millenia Arms Order Manifest",
+    "translation": "千年武器店订单清单",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:DESC#4b6216277e8eb6cfda7a850cf0100018",
+    "original": "Millenia Arms Order Manifest",
+    "translation": "千年军火订单清单",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#5b0dd06501dfcf44817e367d66ed1af0",
+    "original": "Lewis",
+    "translation": "刘易斯",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#944a2f2f4398c8f047cac6f29b025459",
+    "original": "Griffin",
+    "translation": "格里芬",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#b1820d1b94618ce10bffb09066426052",
+    "original": "Omertas",
+    "translation": "黑手党",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#ab54e43eb752ee163e97a781722d0c2d",
+    "original": "Westside Militia",
+    "translation": "西区民兵",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#f4538edd09c946d9a1dc7a1b681e22eb",
+    "original": "Spelunker",
+    "translation": "地洞探险者",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#9612f0dc76fa0d029d80b54f3199c2f2",
+    "original": "Scavenger",
+    "translation": "拾荒人",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#9852e13923ec07074d29dd29387b6eae",
+    "original": "Chairmen",
+    "translation": "会长帮",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#5edb43e0203fd58209e720532d0de049",
+    "original": "Freaky Mask People",
+    "translation": "戴怪面具的人",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#1c4c3c8241d2aca0379be6bb71ec00d9",
+    "original": "Contractor",
+    "translation": "承包商",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVSubTerminal1_0F01316B#TERM:ITXT#49cdf18a5a3653716f1e0463cf3cb590",
+    "original": "Old Vaquero",
+    "translation": "老牧马人",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTerminal_0F0357B5#TERM:FULL#513d783a939e6336b88865d870a881cb",
+    "original": "Capital Armaments Terminal",
+    "translation": "首都军备终端",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTerminal_0F0357B5#TERM:ITXT#9183775b8b17db2b782d119630891501",
+    "original": "Regulators Order",
+    "translation": "赏金猎人命令",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTerminal_0F0357B5#TERM:ITXT#24173bdd9b11f76769add70b83214a80",
+    "original": "Notice to Guards",
+    "translation": "给守卫的通知",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTerminal_0F0357B5#TERM:ITXT#84192d0fc8f2175f633d78fcf5bd4368",
+    "original": "Talon Company",
+    "translation": "鹰爪公司",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTerminal_0F0357B5#TERM:ITXT#d40054b7401b57f4a14c0360f8ca8d68",
+    "original": "\"The Family\"",
+    "translation": "“家族”",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTerminal_0F0357B5#TERM:ITXT#dce252c846cb49cef79027131bf5dbe5",
+    "original": "Arefu guy",
+    "translation": "断桥镇的家伙",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopNVWuttyBandana_0F00EFA7#ARMO:FULL#fe925da51f5db2808df1c776c1a16a41",
+    "original": "Wutty's Bandana",
+    "translation": "武蒂的头巾",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorDC_0F021F09#ARMO:FULL#335e8a92a4bfc6cd753c5e1fe6afe03b",
+    "original": "Navy Combat Armor",
+    "translation": "海军战斗装甲",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorWutty_0F03CAC6#ARMO:FULL#e387f922763267b916f8cc7db12a7905",
+    "original": "Florida Man Armor",
+    "translation": "佛州人护甲",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorArc_0F03DB3D#ARMO:FULL#1653e13539a9bb6f23759e3f36e968b6",
+    "original": "Wasteland Ranger Armor",
+    "translation": "废土游骑兵护甲",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorArcHelmet_0F03DB3E#ARMO:FULL#53490d88a355e02f2479265cbb0bcb09",
+    "original": "Wasteland Ranger Helmet",
+    "translation": "废土游骑兵头盔",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaShopArmorNV_0F009018#ARMO:FULL#7ca0513e7e2c7f060a4c11711b3660f0",
+    "original": "Desert Combat Armor",
+    "translation": "沙漠战斗装甲",
+    "stage": 1
+  },
+  {
+    "key": "MilleniaStoreNVContainer_0F010197#CONT:FULL#5fc11af8eeb63ae72c7cfa803ba363e4",
+    "original": "Safe",
+    "translation": "保险柜",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCInventory_0F01FE27#CONT:FULL#5fc11af8eeb63ae72c7cfa803ba363e4",
+    "original": "Safe",
+    "translation": "保险柜",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilShopDCTrunk_0F0336D5#CONT:FULL#6da548a770c089d520a25088abc2acd8",
+    "original": "Trunk",
+    "translation": "行李箱",
+    "stage": 1
+  },
+  {
+    "key": "arcNVDLC04LootTruckCrate01_0F0071BC#CONT:FULL#5b9e963190bccfbf71c7bf80bda38d92",
+    "original": "Military Shipping Crate",
+    "translation": "军用板条装运箱",
+    "stage": 1
+  },
+  {
+    "key": "arcMossberg500_0F03A9E7#WEAP:FULL#fcf138057928a90d469c9d2674a8f9c2",
+    "original": "The Reject",
+    "translation": "遗弃者",
+    "stage": 1
+  },
+  {
+    "key": "arcWeapPPKShop_0F02C37C#WEAP:FULL#c3497b878e1e415aa1edcf4a7856f9e0",
+    "original": "0023's Handgun",
+    "translation": "0023的手枪",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardNVTemplate_0F00900F#NPC_:FULL#0c56fa10b0c8a348c8b915f79594f00e",
+    "original": "Millenia Arms Guard",
+    "translation": "千年武器店守卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardNVInt1_0F009010#NPC_:FULL#0c56fa10b0c8a348c8b915f79594f00e",
+    "original": "Millenia Arms Guard",
+    "translation": "千年军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardNVInt2_0F009011#NPC_:FULL#0c56fa10b0c8a348c8b915f79594f00e",
+    "original": "Millenia Arms Guard",
+    "translation": "千年军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardNVInt3_0F009012#NPC_:FULL#0c56fa10b0c8a348c8b915f79594f00e",
+    "original": "Millenia Arms Guard",
+    "translation": "千年军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardNVInt4_0F00A207#NPC_:FULL#0c56fa10b0c8a348c8b915f79594f00e",
+    "original": "Millenia Arms Guard",
+    "translation": "千年军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVVendor_0F00BFE2#NPC_:FULL#eb28fb86636fe1c48e57c9162d0879d3",
+    "original": "Wutty",
+    "translation": "武蒂",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardNVExt_0F012B63#NPC_:FULL#0c56fa10b0c8a348c8b915f79594f00e",
+    "original": "Millenia Arms Guard",
+    "translation": "千年军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardDCTemplate_0F022F7A#NPC_:FULL#3826ceb59f31d012a20a20e36d7ba019",
+    "original": "Capital Armaments Guard",
+    "translation": "首都军备守卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardDC1_0F02B31E#NPC_:FULL#3826ceb59f31d012a20a20e36d7ba019",
+    "original": "Capital Armaments Guard",
+    "translation": "首都军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardDC2_0F02B320#NPC_:FULL#3826ceb59f31d012a20a20e36d7ba019",
+    "original": "Capital Armaments Guard",
+    "translation": "首都军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardDC3_0F02C390#NPC_:FULL#3826ceb59f31d012a20a20e36d7ba019",
+    "original": "Capital Armaments Guard",
+    "translation": "首都军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardDC4_0F02C393#NPC_:FULL#3826ceb59f31d012a20a20e36d7ba019",
+    "original": "Capital Armaments Guard",
+    "translation": "首都军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopGuardDC5_0F02E490#NPC_:FULL#3826ceb59f31d012a20a20e36d7ba019",
+    "original": "Capital Armaments Guard",
+    "translation": "首都军火警卫",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCArc_0F03DB34#NPC_:FULL#696b7ab50a3d52c5e4620bb3c5ee8568",
+    "original": "Arc",
+    "translation": "弧光",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopDCTurret_0F01EDB7#CREA:FULL#e1118fe5bfc6b5823dda330a45c4c2a0",
+    "original": "Mark III Turret",
+    "translation": "III型炮塔",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote5_0F013163#NOTE:TNAM#bdc6c914c4677eec61a7eb8c86d59950",
+    "original": "-9 Desert Eagles*\\n-5 Uzis\\n-10 1911s\\n*Custom order for one of them, 12.7 Conversion kit with Laser Sight. We've been provided with dubiously acquired Legion Aureus to melt for this.",
+    "translation": "-9 把沙漠之鹰*\\n-5 乌兹冲锋枪\\n-10 1911手枪\\n*其中一把是定制款，配有12.7毫米改装套件和激光瞄准器。我们用一些来路不明的军团金币来熔铸它。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote6_0F013164#NOTE:TNAM#923fc9734ae0f317e7f15d8d228139af",
+    "original": "-1 .38 Special Revolver w/Mounted Supressor and laser sight\\nNote: Girl who came in, Jane, wanted a revolver to help her friends spelunk in the sewers for some hidden treasure, Something about not alerting the molerats down there. Recommend a 92FS but she insisted on a custom revolver.",
+    "translation": "-1 .38特制左轮手枪，配有消音器和激光瞄准器\\n备注：一个名叫简的女孩来的，她想要一把左轮手枪，\\n帮助她的朋友们在下水道里探寻隐藏的宝藏，\\n据说是不想惊动那里的鼹鼠。\\n我推荐92FS，但她坚持要定制左轮手枪。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote7_0F013165#NOTE:TNAM#a07c68ddff3af3632fcd6acfdcc5783d",
+    "original": "-1 Ak-74U Tune Up \\n-Mounted Acog Scope W/Sniper style stock and laser on the end\\nNote: Some dude with a weird thick accent came in and paid in advance for this thing, Something about trying to find a Wish Maker up in Zion",
+    "translation": "-1 AK-74U改装版\\n-配有ACOG瞄准镜、狙击手风格的枪托和尾部激光\\n备注：一个说话口音奇怪的家伙提前付了钱，\\n好像是要在锡安寻找什么许愿者",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote8_0F013166#NOTE:TNAM#3515d87519df35417e42f8b52ce67f24",
+    "original": "-1 Custom 1911 \\n-Gold Plated with pearl grips, radiation logos inlaid and enhanced combat sights w/laser sight\\nNote: That Checker suited bitch came in again today for another fucking gilded gun, something about \"Making the Presidential Suite Fit for a King\". Payment still Pending.",
+    "translation": "-1 定制1911手枪\\n-镀金，配有珍珠握把，镶嵌辐射标志，\\n增强型战斗瞄准器带激光\\n备注：那个穿着格子西装的贱女人今天又来了，\\n要再买一把镀金枪，好像是要“让总统套房配得上国王”。\\n钱还没付。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote9_0F013167#NOTE:TNAM#0d2afc6ce9ef1b30b05263cb45925882",
+    "original": "-1 Gold Plated Mauser\\nNote: What the fuck is with these damn casinos and gold? And a fucking Mauser? This is something you see a Villian in a Spy Holotape hold while twirling his stupid fucking mustache",
+    "translation": "-1 镀金毛瑟枪\\n备注：这些该死的赌场和金色武器到底是怎么回事？\\n还有毛瑟枪？\\n这就像是间谍影像带里反派摇着愚蠢的小胡子，手里拿着的武器",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote10_0F013168#NOTE:TNAM#403a1e4475a3a1e354300e374d4ebc23",
+    "original": "-1 Custom Mp-153 Job\\n-Sawn off barrel with Silver Ghost supressor, Polymer Parts kit, with improved internals\\nNote: Order taken via Courier, Screams one of those \"Syndicate\" type orders. Get one of the boys to the drop off point in Monte Carlo Suites",
+    "translation": "-1 定制MP-153霰弹枪\\n-锯短枪管，配有银影消音器，聚合物零件套件，改进内部结构\\n备注：通过信使接单，完全是那种“辛迪加”类型的订单。让一个伙计送到蒙特卡洛套房的交货点",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote11_0F01316A#NOTE:TNAM#7adc97e371910c69774a452297e99e96",
+    "original": "-1 93R Custom Job\\n-Mexico Themed grips(Thanks Zapp)\\nNote: Not so much a order as much as a free gun to that old ghoul out by nellis, Fixed our terminal up and our lights for basically nothing. Had the look of a Gun Fighter in his eyes though so he may appreciate this.",
+    "translation": "-1 93R定制版\\n-配有墨西哥风格的握把（谢谢扎普）\\n备注：与其说是订单，\\n不如说是送给奈利斯附近那个老尸鬼的免费手枪，\\n他基本上没要什么东西就修好了我们的终端和灯。\\n虽然他看起来像个神枪手，但可能会喜欢这把枪。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaWNote1_0F013765#NOTE:TNAM#13054835d72dbf88970b7b35393bfa9d",
+    "original": "Can't forget, got a meeting with the gunsmith soon. Busy lady that one, got to make the time count. Need to see if I can get her to stop giving away all those blueprints and schematics. I get the idea, free for everyone, but damn if it ain't annoying to see those Gun Runner pricks selling her shit as if it's their own. Probably won't listen though, and not like I have any right to ask her that in the first place. I hear her guns have gotten all the way across the country at this point, they've been copied so much. Crazy stuff.",
+    "translation": "别忘了，我很快要和枪械师见面了。她可真是个大忙人，\\n得好好利用时间。\\n得看看能不能让她别再免费送那些蓝图和设计图了。\\n我明白，免费给所有人，\\n但看到那些枪手混蛋把她的东西当自己的卖，真是烦人。\\n她可能不会听，而且我好像也没资格这么要求她。\\n听说她的枪现在已经传遍全国了，被复制了很多次。真是疯狂。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaWNote2_0F013766#NOTE:TNAM#8e6980a02c3f7796f136b53b6c01da5a",
+    "original": "God I hate those assholes so much. Acting like they make their own shit when it's all either pilfered from pre-war documents or the gunsmith's freebies. Nobody fuckin listens tho, they eat that bullshit right up, especially the dumbass NCR who think they're getting \"state of the art hardware\". Yeah, state of the art 200 years ago maybe. Idiots.",
+    "translation": "天呐，我真他妈恨死那些混蛋了。\\n明明都是偷的战前文件或枪械师送的东西，\\n却装得像是自己造的。\\n没人听，他们就吃那一套，\\n尤其是那些白痴NCR的人，还以为自己得到了“最先进的硬件”。\\n是啊，也许是200年前的最先进吧。笨蛋。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaWNote3_0F013767#NOTE:TNAM#042043ddb77788980d5524ff0cea5942",
+    "original": "Do not sell him shit, dont trust a guy who preaches guns wearing while wearing a microwave piece.",
+    "translation": "别卖给他任何东西，别信那个一边宣扬枪支一边戴着微波炉护具的家伙。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaWNote4_0F013768#NOTE:TNAM#0aeb9386e8bcb3aae858e8e72546b99c",
+    "original": "This weird fucker keeps stopping by just to brag about his penthouse in the Strip, some \"cloud district\"? Never heard of it, pretty sure he's full of shit. Never buys anything either, next time I see him I'm tellin that window shopper to fuck off or else he's getting a 12 gauge to the gut.",
+    "translation": "这个奇怪的家伙老是来炫耀他在长街的豪华公寓，什么“云端区”？\\n从没听说过，他肯定在吹牛。\\n他也从不买任何东西，\\n下次看到他，我要告诉那个只看不买的家伙滚远点\\n否则就用12铅径的枪打穿他的肚子。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaDCNote1_0F0357B8#NOTE:TNAM#a1efb3db1a681842e6f4a236b38197b9",
+    "original": "-Cruz has sent us a formal request to fulfill:\\n -20 Lever-Action guns of any make/model\\n -10 Hunting Rifles(Preferably .308, will accept .32 for less)\\n -10 Revolvers(Any caliber besides .32)\\n -5 Assault Rifles\\n -20 Leather Dusters\\nNote: Bleeding hearts are a pain to deal with but at least they pay is decent. Why cowboy guns though? It isn't like this is the Wild West",
+    "translation": "-克鲁兹发来了一份正式订单：\\n-20 把杠杆式步枪，不限型号\\n-10 把狩猎步枪（最好.308口径，.32口径也可以接受）\\n-10 把左轮手枪（除.32口径外任意口径）\\n-5 把突击步枪\\n-20 件皮夹克\\n备注：这些圣母心的人真难打交道，\\n但至少他们给的钱还算不错。为什么是牛仔枪？\\n这里可不是狂野西部",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaDCNote2_0F0357B9#NOTE:TNAM#2751efedee39fc839837134c5f0ed9a1",
+    "original": "If one of you is caught taking Jet while guarding the entrance again I swear I'll have you cleaning out the toilets for a month. I don't care how good this \"Ultra Jet\" is supposed to be, you're useless on duty if you're high outta your mind.",
+    "translation": "要是再有人守门的时候嗑杰特，\\n我发誓会让你扫一个月的厕所。\\n我不管这“超级杰特”有多好，你嗑大了就没法当值。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaDCNote3_0F0357BA#NOTE:TNAM#5f96e861d021b0f0e17bd69c57416c0b",
+    "original": "Talon Company continues to be our best source of business. Just had another one of Jabsco's men come by and order a ridiculous amount of high tier rifles and ammo. I don't know where these psychos get all their caps, but it's a good deal for us.",
+    "translation": "鹰爪公司依然是我们最大的生意来源。\\n刚才又有雅布斯科的手下来订了一大批高级步枪和弹药。\\n我不知道这些疯子从哪里弄来这么多瓶盖，\\n但这对我们来说可是笔大买卖。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaDCNote4_0F0357BB#NOTE:TNAM#c9bc93d7c7b4471ae018bac6a28c91e8",
+    "original": "This group of the creepiest fucks youve ever seen apparently lives in a metro tunnel close to here. Say they've already got a supplier, but come for extra ammo sometimes. Something about them just rubs me completely the wrong way, but caps are caps.",
+    "translation": "我见过的最诡异的一群人显然就住在附近的一条地铁隧道里。\\n据说他们已经有了供应商，但有时还会来买些额外的弹药。\\n他们总让我觉得浑身不自在，但瓶盖就是瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaDCNote5_0F0357BC#NOTE:TNAM#562a771c1cc9defe2cbdd2aae9bb2c36",
+    "original": "The old man from Arefu came by again to try and barter for some guns. Sent him off for the last time, he comes by without cold hard caps again, he's getting fresh ammo wrapped and delivered to his skull. Some little shithole town falling to raiders isn't our problem.",
+    "translation": "断桥镇的那个老头又来了，想拿些枪来换货。\\n我最后一次打发了他，如果他下次再来还没带着硬通货，\\n我就直接拿新鲜弹药往他脑袋上招呼。\\n那些被掠夺者攻陷的小镇跟我们可没关系。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote1_0F01315F#NOTE:TNAM#1e7306c207fc57334fcfd16e227c444a",
+    "original": "-1 Custom Mauser Job\\n-Customer requested a Carbine Conversion on a C99, Rifle length barrel with a stock\\n-1 Box of 10mm\\n-3 extra magazines\\nNote: Customer was one of those \"British\" Vault dwellers from out east, Wanted a rifle style Mauser for some hunting expedition",
+    "translation": "-1 定制毛瑟枪\\n-客户要求将C99改装成卡宾枪，配有步枪长度枪管和枪托\\n-1 盒10毫米子弹\\n-3 个额外弹匣\\n备注：客户是来自东边的“英国”避难所居民，想要一把用于狩猎探险的步枪式毛瑟枪",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote2_0F013160#NOTE:TNAM#12c7169e7e8dda86c2d2848aa61ad0c2",
+    "original": "-30 fuck off single shotguns\\n-50x shells\\n-Leather Armor",
+    "translation": "-30 把单发霰弹枪\\n-50 发霰弹\\n-皮甲",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote3_0F013161#NOTE:TNAM#561e0b0ab5f66e9b544ef182bf6a0d17",
+    "original": "-20 M4A1's w/Eotechs\\n-5 L96A1's \\n-3 Anti Armor Rifles\\n-12 Beretta 92fs Pistols\\nNote: Sneak Specialist Hazard an m203 on his next requisition run, owe him for helping us with our part organization",
+    "translation": "-20 把配有Eotech瞄准镜的M4A1步枪\\n-5 把L96A1狙击步枪\\n-3 把反装甲步枪\\n-12 把贝雷塔92fs手枪\\n备注：狙击专家哈扎德下次补给时会带来M203，\\n他之前帮我们整理了零件，欠他一个人情。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaNote4_0F013162#NOTE:TNAM#c23b8fd095fc7a25f2d34bc56a57ca50",
+    "original": "-1 Tune up for a Sten\\n-Yellow Stained Wood/Mounted Red dot sight with .45 Conversion\\n-4 Boxes of .45Auto\\nNote: Customer wants something able to rip through leather armor, something about leather armored bandits attacking a carvan south of here",
+    "translation": "-1 把司登冲锋枪调试一下\\n-黄色染木/装配红点瞄准镜和.45口径转换套件\\n-4 盒.45自动手枪子弹\\n备注：顾客想要能击穿皮甲的武器，\\n据说有皮甲强盗袭击了南边的一个商队。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0F01435B#INFO:NAM1#e9bcc80e19c40458c72b9787e585f722",
+    "original": "Can I help you?",
+    "translation": "需要帮忙吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0F020E98#INFO:NAM1#ca9eea7471ca6d37f98d4504ae0e2198",
+    "original": "Step forward and identify yourself.",
+    "translation": "向前一步并表明身份",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_000000D4#DIAL:FULL#11cefa43ece6e79d0bcaaa53e0101de2",
+    "original": "I have to go now.",
+    "translation": "我现在要走了。",
+    "stage": 1
+  },
+  {
+    "key": "GOODBYE_0F021F08#INFO:NAM1#92143a9f0ada978b107e7d850bdc6646",
+    "original": "Closing dialogue system.",
+    "translation": "关闭对话系统。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVBuy_0F01435C#INFO:NAM1#023b287b9f0ef99b0c849465d83fae0c",
+    "original": "Sure, take a look.",
+    "translation": "当然，看看。",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNVBuy_0F01435C#INFO:RNAM#80ec81bfeb27f5fad9e51d072f2c9338",
+    "original": "Can I see your inventory?",
+    "translation": "我能看看你的库存吗？",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilShopDCBuy_0F020E9A#INFO:NAM1#9aabee1a3119513affe4d4fabe00d025",
+    "original": "Made in the U.S.A.!",
+    "translation": "美国万岁！",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilShopDCBuy_0F020E9A#INFO:RNAM#0b2f6691ee29265b166fa02212fcc12c",
+    "original": "Let's see what you have.",
+    "translation": "让我们看看你都有什么。",
+    "stage": 1
+  },
+  {
+    "key": "arcArmorCombatGloveR_0F03BA57#ARMA:FULL#f867851ba6878480c0f84079dca2d7ef",
+    "original": "Navy Combat Armor Right Glove",
+    "translation": "海军战斗装甲右手套",
+    "stage": 1
+  },
+  {
+    "key": "arcArmorCombatGloveL_0F03BA56#ARMA:FULL#d537f7ec72e391e4f93349c4a93c9bda",
+    "original": "Navy Combat Armor Left Glove",
+    "translation": "海军战斗护甲左手套",
+    "stage": 1
+  },
+  {
+    "key": "NorthwestSenecaMetro01_060173EC#CELL:FULL#1779de2c802278460ac4c76fbdda6277",
+    "original": "Northwest Seneca Station",
+    "translation": "塞内卡西北站",
+    "stage": 1
+  },
+  {
+    "key": "aaaMilleniaShopNV_0F00186D#CELL:FULL#28a1aea1634c20c8e97c08f50a2b9ac9",
+    "original": "Millenia Arms",
+    "translation": "千年武器店",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  }
+]

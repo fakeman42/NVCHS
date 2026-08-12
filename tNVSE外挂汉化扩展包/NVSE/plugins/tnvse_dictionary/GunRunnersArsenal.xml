@@ -1,0 +1,4736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000AB7</ID>
+    <EDID>NVDLC05DummyNVSilent</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Silent</ORIGINAL>
+    <TRADUIT>寂静</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000AB2</ID>
+    <EDID>NVDLC05FlamerShaderEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flamer Fire Damage</ORIGINAL>
+    <TRADUIT>喷射器火焰伤害</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000A82</ID>
+    <EDID>NVDLC05DummyNVFasterAttack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Faster Attack</ORIGINAL>
+    <TRADUIT>更快的攻击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000A81</ID>
+    <EDID>NVDLC05DummyNVIgnoresDRDT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ignores DR/DT</ORIGINAL>
+    <TRADUIT>无视抗伤/免伤</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000A3C</ID>
+    <EDID>NVDLC05DummyNVTwoStepExplosion</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crit Kill = Boom!</ORIGINAL>
+    <TRADUIT>暴击击杀 = 爆炸！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000A3B</ID>
+    <EDID>NVDLC05DummyNVRedCriticalDamage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Reduced Critical Damage</ORIGINAL>
+    <TRADUIT>暴击伤害降低</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000A38</ID>
+    <EDID>NVDLC05TwoStepGoodbyeEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two-Step Goodbye</ORIGINAL>
+    <TRADUIT>两步杀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>01000A33</ID>
+    <EDID>NVDLC05EstherBaseEffectName</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>+10 DT, +25 Rad. Resist</ORIGINAL>
+    <TRADUIT>+10DT，+25辐射抗性</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000AB8</ID>
+    <EDID>NVDLC05DummySleepytyme</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sleepytyme Dummy Effect</ORIGINAL>
+    <TRADUIT>睡眠时间模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000A8E</ID>
+    <EDID>NVDLC05EnchGehennaEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000A8D</ID>
+    <EDID>NVDLC05DummyNukaBreaker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuka-Breaker Dummy Effect</ORIGINAL>
+    <TRADUIT>核子可乐破坏者模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000A84</ID>
+    <EDID>NVDLC05DummyPowerFistUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Greased Lightning Dummy Effect</ORIGINAL>
+    <TRADUIT>风驰电掣的模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000A83</ID>
+    <EDID>NVDLC05DummyChainsaw</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chainsaw Dummy Effect</ORIGINAL>
+    <TRADUIT>链锯模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000A3D</ID>
+    <EDID>NVDLC05DummyTwoStepGoodbye</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two-Step Goodbye Dummy Effect</ORIGINAL>
+    <TRADUIT>两步杀模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000A36</ID>
+    <EDID>NVDLC05DummyEsther</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Esther Dummy Effect</ORIGINAL>
+    <TRADUIT>希望之星模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000911</ID>
+    <EDID>NVDLC05EMP25mm</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm Electromagnetic Pulse</ORIGINAL>
+    <TRADUIT>25mm电磁脉冲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000910</ID>
+    <EDID>NVDLC05EMP40mm</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>40mm Electromagnetic Pulse</ORIGINAL>
+    <TRADUIT>40mm电磁脉冲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000893</ID>
+    <EDID>NVDLC05EnchCleansingFlameEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleansing Flame</ORIGINAL>
+    <TRADUIT>净化火焰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>01000888</ID>
+    <EDID>NVDLC05DummyKatana</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Katana Dummy Effect</ORIGINAL>
+    <TRADUIT>武士刀模型效果</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>01000ABE</ID>
+    <EDID>NVDLC05DragonsBreathActorEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>BurningNormal</ORIGINAL>
+    <TRADUIT>一般燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>01000A39</ID>
+    <EDID>NVDLC05TwoStepGoodbyeFXSpell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Explosion Death</ORIGINAL>
+    <TRADUIT>爆炸死亡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>01000A34</ID>
+    <EDID>NVDLC05EstherBonusActorEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Esther Bonuses</ORIGINAL>
+    <TRADUIT>希望之星加成</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>00167ACD</ID>
+    <EDID>VLootSackVendorWastelandT2RS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sack</ORIGINAL>
+    <TRADUIT>麻布袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>00167ACC</ID>
+    <EDID>VLootSackVendorWastelandT3RS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sack</ORIGINAL>
+    <TRADUIT>麻布袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>00167ACB</ID>
+    <EDID>VLootSackVendorWastelandT2RSPros</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sack</ORIGINAL>
+    <TRADUIT>麻布袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>00167ACA</ID>
+    <EDID>VLootSackVendorWatelandT3RSAid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sack</ORIGINAL>
+    <TRADUIT>麻布袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>00167AC9</ID>
+    <EDID>VLootSackVendorWastelandT2Mojave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sack</ORIGINAL>
+    <TRADUIT>麻布袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000A17</ID>
+    <EDID>ModTestSuppress</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mod Test Supress</ORIGINAL>
+    <TRADUIT>阻止Mod测试</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100084B</ID>
+    <EDID>NVDLC05ModNVTriBeamLaserRifleHighCapTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tri-beam LR Hi-Cap Terminal</ORIGINAL>
+    <TRADUIT>三连装激光步枪大容量端子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100084B</ID>
+    <EDID>NVDLC05ModNVTriBeamLaserRifleHighCapTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases ammunition capacity (+24).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升弹容量 (+24)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100084A</ID>
+    <EDID>NVDLC05ModNVTriBeamLaserRifleHDCapacitors</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tri-beam LR HD Caps</ORIGINAL>
+    <TRADUIT>三连装激光步枪强化电容</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100084A</ID>
+    <EDID>NVDLC05ModNVTriBeamLaserRifleHDCapacitors</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+200%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+200%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000849</ID>
+    <EDID>NVDLC05ModNVTriBeamLaserRifleFocusOptics</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tri-beam LR Focus Optics</ORIGINAL>
+    <TRADUIT>三连装激光步枪光学聚焦器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000849</ID>
+    <EDID>NVDLC05ModNVTriBeamLaserRifleFocusOptics</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+9).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+9)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000847</ID>
+    <EDID>NVDLC05ModNVRipperHeavyDutyChain</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ripper HD Chain</ORIGINAL>
+    <TRADUIT>开膛手强化锯链</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000847</ID>
+    <EDID>NVDLC05ModNVRipperHeavyDutyChain</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+50%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+50%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000846</ID>
+    <EDID>NVDLC05ModNVRipperCarbideTeeth</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ripper Carbide Teeth</ORIGINAL>
+    <TRADUIT>开膛手碳钢锯齿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000846</ID>
+    <EDID>NVDLC05ModNVRipperCarbideTeeth</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+10).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+10)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000845</ID>
+    <EDID>NVDLC05ModNVPowerFistPortedChambers</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Fist Ported Chambers</ORIGINAL>
+    <TRADUIT>动力拳套护手装置</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000845</ID>
+    <EDID>NVDLC05ModNVPowerFistPortedChambers</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases attack speed.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升攻击速度。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000844</ID>
+    <EDID>NVDLC05ModNVPowerFistHighCapValves</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Fist Hi-Cap Valves</ORIGINAL>
+    <TRADUIT>动力拳套大容量阀门</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000844</ID>
+    <EDID>NVDLC05ModNVPowerFistHighCapValves</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+8).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+8)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000843</ID>
+    <EDID>NVDLC05ModNVPowerFistChromedTubes</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Fist Chromed Tubes</ORIGINAL>
+    <TRADUIT>动力拳套镀铬管路</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000843</ID>
+    <EDID>NVDLC05ModNVPowerFistChromedTubes</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+100%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+100%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000842</ID>
+    <EDID>NVDLC05ModNVPlasmaPistolRecycler</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plas. Pistol Recycler</ORIGINAL>
+    <TRADUIT>等离子手枪电池回收器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000842</ID>
+    <EDID>NVDLC05ModNVPlasmaPistolRecycler</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Replenishes ammunition (1/4 shots).</ORIGINAL>
+    <TRADUIT>(GRA)
+补充弹药 (1发/4次射击)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000841</ID>
+    <EDID>NVDLC05ModNVPlasmaPistolMagneticAccelerator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plas. Pistol Mag. Accelerator</ORIGINAL>
+    <TRADUIT>等离子手枪粒子加速器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000841</ID>
+    <EDID>NVDLC05ModNVPlasmaPistolMagneticAccelerator</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases speed of plasma projectile.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升等离子抛射物初速。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000840</ID>
+    <EDID>NVDLC05ModNVPlasmaPistolHighEnergyIonizer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plas. Pistol Hi-Energy Ionizer</ORIGINAL>
+    <TRADUIT>等离子防御者高能电离器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000840</ID>
+    <EDID>NVDLC05ModNVPlasmaPistolHighEnergyIonizer</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+7).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+7)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083F</ID>
+    <EDID>NVDLC05ModNVPlasmaDefenderSheathStabilizer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plasma Def. Sheath Stabilizer</ORIGINAL>
+    <TRADUIT>等离子防御者改进稳定器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083F</ID>
+    <EDID>NVDLC05ModNVPlasmaDefenderSheathStabilizer</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Decreases spread.</ORIGINAL>
+    <TRADUIT>(GRA)
+减少散布。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083E</ID>
+    <EDID>NVDLC05ModNVPlasmaDefenderScope</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plasma Def. Scope</ORIGINAL>
+    <TRADUIT>等离子防御者瞄准镜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083E</ID>
+    <EDID>NVDLC05ModNVPlasmaDefenderScope</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Adds short-range scope.</ORIGINAL>
+    <TRADUIT>(GRA)
+添加短距瞄准镜。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083D</ID>
+    <EDID>NVDLC05ModNVPlasmaDefenderHighCapTerminal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plasma Def. Hi-Cap Terminal</ORIGINAL>
+    <TRADUIT>等离子防御者大容量端子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083D</ID>
+    <EDID>NVDLC05ModNVPlasmaDefenderHighCapTerminal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases ammunition capacity (+32).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升弹容量 (+32)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083C</ID>
+    <EDID>NVDLC05ModNVLaserPistolRecycler</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Laser Pistol Recycler</ORIGINAL>
+    <TRADUIT>激光手枪电池回收器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083C</ID>
+    <EDID>NVDLC05ModNVLaserPistolRecycler</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Replenishes ammunition (1/4 shots).</ORIGINAL>
+    <TRADUIT>(GRA)
+补充弹药 (1发/4次射击)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083B</ID>
+    <EDID>NVDLC05ModNVLaserPistolFocusOptics</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Laser Pistol Focus Optics</ORIGINAL>
+    <TRADUIT>激光手枪光学聚焦器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083B</ID>
+    <EDID>NVDLC05ModNVLaserPistolFocusOptics</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+3).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+3)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083A</ID>
+    <EDID>NVDLC05ModNVLaserPistolCombatSights</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Laser Pistol Combat Sights</ORIGINAL>
+    <TRADUIT>激光手枪战斗瞄准镜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100083A</ID>
+    <EDID>NVDLC05ModNVLaserPistolCombatSights</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Adds usable iron sights.</ORIGINAL>
+    <TRADUIT>(GRA)
+添加机械瞄具。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000839</ID>
+    <EDID>NVDLC05ModNVKatanaProtectiveSheath</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Katana Protective Sheath</ORIGINAL>
+    <TRADUIT>武士刀防护刀鞘</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000839</ID>
+    <EDID>NVDLC05ModNVKatanaProtectiveSheath</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+50%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+50%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000838</ID>
+    <EDID>NVDLC05ModNVKatanaBalancedGrip</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Katana Balanced Grip</ORIGINAL>
+    <TRADUIT>武士刀平衡刀把</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000838</ID>
+    <EDID>NVDLC05ModNVKatanaBalancedGrip</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases attack speed.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升攻击速度。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000837</ID>
+    <EDID>NVDLC05ModNVKatanaAuthenticBlade</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Katana Authentic Blade</ORIGINAL>
+    <TRADUIT>武士刀原品刀刃</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000837</ID>
+    <EDID>NVDLC05ModNVKatanaAuthenticBlade</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+5).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+5)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000836</ID>
+    <EDID>NVDLC05ModNVHuntingRevolverSixShotCylinder</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hunting Rev. 6-Shot Cylinder</ORIGINAL>
+    <TRADUIT>狩猎左轮6发弹巢</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000836</ID>
+    <EDID>NVDLC05ModNVHuntingRevolverSixShotCylinder</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases ammunition capacity (+1).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升弹容量 (+1)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000834</ID>
+    <EDID>NVDLC05ModNVHuntingRevolverMatchBarrel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hunting Rev. Match Barrel</ORIGINAL>
+    <TRADUIT>狩猎左轮竞赛型枪管</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000834</ID>
+    <EDID>NVDLC05ModNVHuntingRevolverMatchBarrel</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Decreases spread.</ORIGINAL>
+    <TRADUIT>(GRA)
+减少散布。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000833</ID>
+    <EDID>NVDLC05ModNVChainsawHeavyDutyChain</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chainsaw HD Chain</ORIGINAL>
+    <TRADUIT>链锯强化锯链</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000833</ID>
+    <EDID>NVDLC05ModNVChainsawHeavyDutyChain</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+50%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+50%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000832</ID>
+    <EDID>NVDLC05ModNVChainsawCarbideTeeth</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chainsaw Carbide Teeth</ORIGINAL>
+    <TRADUIT>链锯碳钢锯齿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000832</ID>
+    <EDID>NVDLC05ModNVChainsawCarbideTeeth</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+15).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+15)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000831</ID>
+    <EDID>NVDLC05ModNVChainsawAlloyFrame</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chainsaw Alloy Frame</ORIGINAL>
+    <TRADUIT>链锯合金框架</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000831</ID>
+    <EDID>NVDLC05ModNVChainsawAlloyFrame</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Decreases weight (-8).</ORIGINAL>
+    <TRADUIT>(GRA)
+减少重量 (-8)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000830</ID>
+    <EDID>NVDLC05ModNVBaseballBatNails</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Baseball Bat Nails</ORIGINAL>
+    <TRADUIT>棒球棍加装铁钉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000830</ID>
+    <EDID>NVDLC05ModNVBaseballBatNails</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases damage (+6).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升伤害 (+6)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082F</ID>
+    <EDID>NVDLC05ModNVBaseballBatMapleBody</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Baseball Bat Maple Body</ORIGINAL>
+    <TRADUIT>棒球棍枫木棒身</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082F</ID>
+    <EDID>NVDLC05ModNVBaseballBatMapleBody</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+50%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+50%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082E</ID>
+    <EDID>NVDLC05ModNVBaseballBatCorkCore</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Baseball Bat Cork Core</ORIGINAL>
+    <TRADUIT>棒球棍软木棒芯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082E</ID>
+    <EDID>NVDLC05ModNVBaseballBatCorkCore</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases attack speed.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升攻击速度。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082D</ID>
+    <EDID>NVDLC05ModNVAssaultCarbineLightBolt</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Carb. Light Bolt</ORIGINAL>
+    <TRADUIT>突击卡宾枪轻型枪栓</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082D</ID>
+    <EDID>NVDLC05ModNVAssaultCarbineLightBolt</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases rate of fire.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升射速。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082C</ID>
+    <EDID>NVDLC05ModNVAssaultCarbineForgedReceiver</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Carb. Forged Receiver</ORIGINAL>
+    <TRADUIT>突击卡宾枪强化型机匣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082C</ID>
+    <EDID>NVDLC05ModNVAssaultCarbineForgedReceiver</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases condition (+33%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升耐久 (+33%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082B</ID>
+    <EDID>NVDLC05ModNVAssaultCarbineExtendedMags</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Carb. Ext. Mags</ORIGINAL>
+    <TRADUIT>突击卡宾枪扩容弹匣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082B</ID>
+    <EDID>NVDLC05ModNVAssaultCarbineExtendedMags</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases ammunition capacity (+6).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升弹容量 (+6)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082A</ID>
+    <EDID>NVDLC05ModNVAntiMaterielRifleSuppressor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anti-Mat. Rifle Suppressor</ORIGINAL>
+    <TRADUIT>反器材步枪抑制器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0100082A</ID>
+    <EDID>NVDLC05ModNVAntiMaterielRifleSuppressor</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Reduces weapon noise.</ORIGINAL>
+    <TRADUIT>(GRA)
+减少开枪时发出的声音。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000829</ID>
+    <EDID>NVDLC05ModNVAntiMaterielRifleCustomBolt</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anti-Mat. Rifle Custom Bolt</ORIGINAL>
+    <TRADUIT>反器材步枪改进型枪栓</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000829</ID>
+    <EDID>NVDLC05ModNVAntiMaterielRifleCustomBolt</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases rate of fire.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升射速。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000828</ID>
+    <EDID>NVDLC05ModNVAntiMaterielRifleCarbonFiberParts</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anti-Mat. Rifle CF Parts</ORIGINAL>
+    <TRADUIT>反器材步枪碳纤维枪身</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000828</ID>
+    <EDID>NVDLC05ModNVAntiMaterielRifleCarbonFiberParts</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Decreases weight (-7).</ORIGINAL>
+    <TRADUIT>(GRA)
+减少重量 (-7)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000827</ID>
+    <EDID>NVDLC05ModNV25mmGrenadeAPWUpgradedInternals</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm G. APW Upgraded Int.</ORIGINAL>
+    <TRADUIT>25mm榴弹发射器改进型机匣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000827</ID>
+    <EDID>NVDLC05ModNV25mmGrenadeAPWUpgradedInternals</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases rate of fire.</ORIGINAL>
+    <TRADUIT>(GRA)
+提升射速。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000826</ID>
+    <EDID>NVDLC05ModNV25mmGrenadeAPWLongBarrel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm G. APW Long Barrel</ORIGINAL>
+    <TRADUIT>25mm榴弹发射器长枪管</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000826</ID>
+    <EDID>NVDLC05ModNV25mmGrenadeAPWLongBarrel</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases projectile velocity (+100%).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升抛射物初速 (+100%)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000825</ID>
+    <EDID>NVDLC05ModNV25mmGrenadeAPWExpandedDrum</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm G. APW Exp. Drum</ORIGINAL>
+    <TRADUIT>25mm榴弹发射器扩容弹鼓</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000825</ID>
+    <EDID>NVDLC05ModNV25mmGrenadeAPWExpandedDrum</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases ammunition capacity (+2).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升弹容量 (+2)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000824</ID>
+    <EDID>NVDLC05ModNV127mmSMGSuppressor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12.7mm SMG Suppressor</ORIGINAL>
+    <TRADUIT>12.7mm冲锋枪抑制器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000824</ID>
+    <EDID>NVDLC05ModNV127mmSMGSuppressor</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Silences the weapon.</ORIGINAL>
+    <TRADUIT>(GRA)
+将武器消音。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000823</ID>
+    <EDID>NVDLC05ModNV127mmSMGStackedMagazine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12.7mm SMG Stacked Magazine</ORIGINAL>
+    <TRADUIT>12.7mm冲锋枪大型弹匣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000823</ID>
+    <EDID>NVDLC05ModNV127mmSMGStackedMagazine</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Increases ammunition capacity (+6).</ORIGINAL>
+    <TRADUIT>(GRA)
+提升弹容量 (+6)。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000822</ID>
+    <EDID>NVDLC05ModNV127mmSMGLaserSight</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12.7mm SMG Laser Sight</ORIGINAL>
+    <TRADUIT>12.7mm冲锋枪激光指示器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>01000822</ID>
+    <EDID>NVDLC05ModNV127mmSMGLaserSight</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>(Gun Runners' Arsenal)
+Decreases spread.
+</ORIGINAL>
+    <TRADUIT>(GRA)
+减少散布。
+</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000AC3</ID>
+    <EDID>NVDLC05WeapFatmanCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fat Man (GRA)</ORIGINAL>
+    <TRADUIT>胖子发射器 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000A18</ID>
+    <EDID>ModTest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ModTest</ORIGINAL>
+    <TRADUIT>Mod测试</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0000434F</ID>
+    <EDID>Weap10mmPistol</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Pistol</ORIGINAL>
+    <TRADUIT>10mm手枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>00121154</ID>
+    <EDID>WeapNVRechargerRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Recharger Rifle</ORIGINAL>
+    <TRADUIT>充能步枪</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>00004330</ID>
+    <EDID>WeapGrenadeFrag</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Frag Grenade</ORIGINAL>
+    <TRADUIT>破片手雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Thrown
+</COMMENTAIRE>
+    <ICON>2005</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>010008C9</ID>
+    <EDID>NVDLC05WeapMineMFCCluster</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MFC Cluster (Mad Bomber) (GRA)</ORIGINAL>
+    <TRADUIT>微型核聚变集束地雷 (疯狂炸弹人) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Mine
+</COMMENTAIRE>
+    <ICON>2003</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>010008C8</ID>
+    <EDID>NVDLC05WeapGrenadeMFC</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MFC Grenade (Mad Bomber) (GRA)</ORIGINAL>
+    <TRADUIT>微型核聚变手雷 (疯狂炸弹人) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Thrown
+</COMMENTAIRE>
+    <ICON>2005</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000857</ID>
+    <EDID>NVDLC05WeapRipperCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ripper (GRA)</ORIGINAL>
+    <TRADUIT>开膛手 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000857</ID>
+    <EDID>NVDLC05WeapRipperCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Long Cut</ORIGINAL>
+    <TRADUIT>长切</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000856</ID>
+    <EDID>NVDLC05WeapPowerFistCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Power Fist (GRA)</ORIGINAL>
+    <TRADUIT>动力拳套 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Unarmed
+</COMMENTAIRE>
+    <ICON>2006</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000855</ID>
+    <EDID>NVDLC05WeapPlasmaPistolCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plasma Pistol (GRA)</ORIGINAL>
+    <TRADUIT>等离子手枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000854</ID>
+    <EDID>NVDLC05WeapNVTriBeamLaserRifleCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tri-beam Laser Rifle (GRA)</ORIGINAL>
+    <TRADUIT>三连装激光步枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000853</ID>
+    <EDID>NVDLC05WeapNVPlasmaDefenderCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Plasma Defender (GRA)</ORIGINAL>
+    <TRADUIT>等离子护卫者 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000852</ID>
+    <EDID>NVDLC05WeapNVHuntingRevolverCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hunting Revolver (GRA)</ORIGINAL>
+    <TRADUIT>狩猎左轮 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000851</ID>
+    <EDID>NVDLC05WeapNVChainsawCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chainsaw (GRA)</ORIGINAL>
+    <TRADUIT>链锯 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000851</ID>
+    <EDID>NVDLC05WeapNVChainsawCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Scrap Heap</ORIGINAL>
+    <TRADUIT>废料堆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000850</ID>
+    <EDID>NVDLC05WeapNVAssaultCarbineCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Carbine (GRA)</ORIGINAL>
+    <TRADUIT>突击卡宾枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100084F</ID>
+    <EDID>NVDLC05WeapNVAntiMaterielRifleCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anti-Materiel Rifle (GRA)</ORIGINAL>
+    <TRADUIT>反器材步枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100084E</ID>
+    <EDID>NVDLC05WeapNV127mmSubmachineGunCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12.7mm Submachine Gun (GRA)</ORIGINAL>
+    <TRADUIT>12.7mm冲锋枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100084D</ID>
+    <EDID>NVDLC05WeapLaserPistolCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Laser Pistol (GRA)</ORIGINAL>
+    <TRADUIT>激光手枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100084C</ID>
+    <EDID>NVDLC05WeapBaseballBatCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Baseball Bat (GRA)</ORIGINAL>
+    <TRADUIT>棒球棍 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100084C</ID>
+    <EDID>NVDLC05WeapBaseballBatCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Grand Slam</ORIGINAL>
+    <TRADUIT>大满贯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100081B</ID>
+    <EDID>NVDLC05Weap25mmGrenadeAPWCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm Grenade APW (GRA)</ORIGINAL>
+    <TRADUIT>25mm单兵榴弹发射器 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000818</ID>
+    <EDID>NVDLC05WeapGrenadeNuka</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuka-Grenade (Mad Bomber) (GRA)</ORIGINAL>
+    <TRADUIT>核子手雷 (疯狂炸弹人) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Thrown
+</COMMENTAIRE>
+    <ICON>2005</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000817</ID>
+    <EDID>NVDLC05WeapKatanaCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Katana (GRA)</ORIGINAL>
+    <TRADUIT>武士刀 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000817</ID>
+    <EDID>NVDLC05WeapKatanaCustom</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Unlabored Flawlessness</ORIGINAL>
+    <TRADUIT>天衣无缝</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000815</ID>
+    <EDID>NVDLC05WeapMineFat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fat Mine (Mad Bomber) (GRA)</ORIGINAL>
+    <TRADUIT>胖子地雷 (疯狂炸弹人) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Mine
+</COMMENTAIRE>
+    <ICON>2003</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000814</ID>
+    <EDID>NVDLC05WeapGrenadeTin</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tin Grenade (Mad Bomber) (GRA)</ORIGINAL>
+    <TRADUIT>罐头手雷 (疯狂炸弹人) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Mine
+</COMMENTAIRE>
+    <ICON>2003</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000813</ID>
+    <EDID>NVDLC05WeapNV556mmPistolCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>5.56mm Pistol (GRA)</ORIGINAL>
+    <TRADUIT>5.56mm手枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000812</ID>
+    <EDID>NVDLC05WeapNVBattleRifleCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Battle Rifle (GRA)</ORIGINAL>
+    <TRADUIT>战斗步枪 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000811</ID>
+    <EDID>NVDLC05WeapNVTimeBombCustom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Time Bomb, High Yield (Mad Bomber) (GRA)</ORIGINAL>
+    <TRADUIT>定时炸弹, 高当量 (疯狂炸弹人) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Mine
+</COMMENTAIRE>
+    <ICON>2003</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000810</ID>
+    <EDID>NVDLC05WeapPowerFistUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Greased Lightning (GRA)</ORIGINAL>
+    <TRADUIT>电光雷拳 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Unarmed
+</COMMENTAIRE>
+    <ICON>2006</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080F</ID>
+    <EDID>NVDLC05WeapShishkebabUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gehenna (GRA)</ORIGINAL>
+    <TRADUIT>焦热炼狱 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080F</ID>
+    <EDID>NVDLC05WeapShishkebabUnique</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Back Slash</ORIGINAL>
+    <TRADUIT>反劈</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080E</ID>
+    <EDID>NVDLC05WeapNVBrushGunUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Medicine Stick (GRA)</ORIGINAL>
+    <TRADUIT>医疗棒 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080D</ID>
+    <EDID>NVDLC05Weap10mmSubmachineGunUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sleepytyme (GRA)</ORIGINAL>
+    <TRADUIT>安睡时间 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080C</ID>
+    <EDID>NVDLC05WeapHuntingRifleUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Paciencia (GRA)</ORIGINAL>
+    <TRADUIT>耐心 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080B</ID>
+    <EDID>NVDLC05WeapFlamerUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleansing Flame (GRA)</ORIGINAL>
+    <TRADUIT>净化烈焰 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0100080A</ID>
+    <EDID>NVDLC05WeapNVPlasmaCasterUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Smitty Special (GRA)</ORIGINAL>
+    <TRADUIT>史密提特供 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000809</ID>
+    <EDID>NVDLC05WeapNVBallisticFistUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two-Step Goodbye (GRA)</ORIGINAL>
+    <TRADUIT>两步杀 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Unarmed
+</COMMENTAIRE>
+    <ICON>2006</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000808</ID>
+    <EDID>NVDLC05WeapNVMantisGauntletUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Embrace of the Mantis King! (GRA)</ORIGINAL>
+    <TRADUIT>螳螂王之拥! (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000807</ID>
+    <EDID>NVDLC05WeapNVRebarClubUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuka-Breaker (GRA)</ORIGINAL>
+    <TRADUIT>核子破坏者 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000807</ID>
+    <EDID>NVDLC05WeapNVRebarClubUnique</EDID>
+    <CHAMP>VANM</CHAMP>
+    <ORIGINAL>Nuka-Break</ORIGINAL>
+    <TRADUIT>核子破坏</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000806</ID>
+    <EDID>NVDLC05WeapNVLightMachineGunUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bozar (GRA)</ORIGINAL>
+    <TRADUIT>包子 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000805</ID>
+    <EDID>NVDLC05WeapNV127mmPistolUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Li'l Devil (GRA)</ORIGINAL>
+    <TRADUIT>小恶魔 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000804</ID>
+    <EDID>NVDLC05WeapFatmanUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Esther (GRA)</ORIGINAL>
+    <TRADUIT>以斯帖 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Big Gun
+</COMMENTAIRE>
+    <ICON>2000</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000803</ID>
+    <EDID>NVDLC05WeapGatlingLaserUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sprtel-Wood 9700 (GRA)</ORIGINAL>
+    <TRADUIT>斯普特欧-伍德9700 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000802</ID>
+    <EDID>NVDLC05WeapNVRechargerPistolUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MF Hyperbreeder Alpha (GRA)</ORIGINAL>
+    <TRADUIT>核电超增殖反应堆阿尔法型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>01000800</ID>
+    <EDID>WeapNVDLC00Faderator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Faderator</ORIGINAL>
+    <TRADUIT>范德瑞特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Energy Gun
+</COMMENTAIRE>
+    <ICON>2001</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000A2B</ID>
+    <EDID>NVDLC05Ammo127mmJHPHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12.7mm Round (Hand Load) (GRA)</ORIGINAL>
+    <TRADUIT>12.7mm, 被甲空尖弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000A2B</ID>
+    <EDID>NVDLC05Ammo127mmJHPHandLoad</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12.7mm JHP</ORIGINAL>
+    <TRADUIT>12.7mm被甲空尖</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000A09</ID>
+    <EDID>NVDLC05AmmoFatMansTinyTots</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mini Nuke, Tiny Tots (GRA)</ORIGINAL>
+    <TRADUIT>迷你核弹, 小小孩 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000A09</ID>
+    <EDID>NVDLC05AmmoFatMansTinyTots</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Mini Nuke, TT</ORIGINAL>
+    <TRADUIT>迷你核弹, 小小孩</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000875</ID>
+    <EDID>NVDLC05AmmoFlamerFuelOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flamer Fuel, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
+    <TRADUIT>火焰喷射器燃料, 优化型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000875</ID>
+    <EDID>NVDLC05AmmoFlamerFuelOptimized</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Fuel, Opt.</ORIGINAL>
+    <TRADUIT>燃料, 优化</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000874</ID>
+    <EDID>NVDLC05AmmoElectronChargePackOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Electron Charge Pack, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
+    <TRADUIT>荷电充能包, 优化型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000874</ID>
+    <EDID>NVDLC05AmmoElectronChargePackOptimized</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>EC Pack, Opt.</ORIGINAL>
+    <TRADUIT>荷电充能包, 优化</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000873</ID>
+    <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Microfusion Cell, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
+    <TRADUIT>微型核聚变电池, 优化型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000873</ID>
+    <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>MF Cell, Opt.</ORIGINAL>
+    <TRADUIT>微型核聚变电池, 优化</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000872</ID>
+    <EDID>NVDLC05AmmoSmallEnergyCellOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Energy Cell, Optimized (Vigilant Recycler) (GRA)</ORIGINAL>
+    <TRADUIT>能量电池, 优化型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000872</ID>
+    <EDID>NVDLC05AmmoSmallEnergyCellOptimized</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>E Cell, Opt.</ORIGINAL>
+    <TRADUIT>能量电池, 优化</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000871</ID>
+    <EDID>NVDLC05Ammo5mmJSPHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>5mm, JSP (Hand Load) (GRA)</ORIGINAL>
+    <TRADUIT>5mm, 被甲软尖弹 (手装) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000871</ID>
+    <EDID>NVDLC05Ammo5mmJSPHandLoad</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>5mm JSP</ORIGINAL>
+    <TRADUIT>5mm被甲软尖</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000870</ID>
+    <EDID>NVDLC05Ammo9mmJHPHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>9mm, JHP (Hand Load) (GRA)</ORIGINAL>
+    <TRADUIT>9mm, 被甲空尖弹 (手装) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000870</ID>
+    <EDID>NVDLC05Ammo9mmJHPHandLoad</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>9mm JHP</ORIGINAL>
+    <TRADUIT>9mm被甲空尖</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086F</ID>
+    <EDID>NVDLC05Ammo556mmMatchHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>5.56mm, Match (Hand Load) (GRA)</ORIGINAL>
+    <TRADUIT>5.56mm, 竞赛弹 (手装) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086F</ID>
+    <EDID>NVDLC05Ammo556mmMatchHandLoad</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>5.56mm M</ORIGINAL>
+    <TRADUIT>5.56mm竞赛</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086E</ID>
+    <EDID>NVDLC05Ammo40mmGrenadePlasma</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>40mm Grenade, Plasma (GRA)</ORIGINAL>
+    <TRADUIT>40mm, 等离子榴弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086E</ID>
+    <EDID>NVDLC05Ammo40mmGrenadePlasma</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>40mm Grenade, Pla.</ORIGINAL>
+    <TRADUIT>40mm等离子榴弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086D</ID>
+    <EDID>NVDLC05Ammo40mmGrenadePulse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>40mm Grenade, Pulse (GRA)</ORIGINAL>
+    <TRADUIT>40mm, 脉冲榴弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086D</ID>
+    <EDID>NVDLC05Ammo40mmGrenadePulse</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>40mm Grenade, Pul.</ORIGINAL>
+    <TRADUIT>40mm脉冲榴弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086B</ID>
+    <EDID>NVDLC05Ammo25mmGrenadePlasma</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm Grenade, Plasma (GRA)</ORIGINAL>
+    <TRADUIT>25mm, 等离子榴弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086B</ID>
+    <EDID>NVDLC05Ammo25mmGrenadePlasma</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>25mmG, Pla.</ORIGINAL>
+    <TRADUIT>25mm等离子榴弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086A</ID>
+    <EDID>NVDLC05Ammo25mmGrenadePulse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm Grenade, Pulse (GRA)</ORIGINAL>
+    <TRADUIT>25mm, 脉冲榴弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100086A</ID>
+    <EDID>NVDLC05Ammo25mmGrenadePulse</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>25mmG, Pul.</ORIGINAL>
+    <TRADUIT>25mm脉冲榴弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000869</ID>
+    <EDID>NVDLC05Ammo25mmGrenadeTimed</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>25mm Grenade, Timed (GRA)</ORIGINAL>
+    <TRADUIT>25mm, 延时榴弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000869</ID>
+    <EDID>NVDLC05Ammo25mmGrenadeTimed</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>25mmG, Tim.</ORIGINAL>
+    <TRADUIT>25mm延时榴弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000868</ID>
+    <EDID>NVDLC05AmmoFatMansBigKid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mini Nuke, Big Kid (GRA)</ORIGINAL>
+    <TRADUIT>迷你核弹, 大男孩 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000868</ID>
+    <EDID>NVDLC05AmmoFatMansBigKid</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Mini Nuke, BK</ORIGINAL>
+    <TRADUIT>迷你核弹, 大男孩</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000867</ID>
+    <EDID>NVDLC05AmmoFatMansTimed</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mini Nuke, Timed (GRA)</ORIGINAL>
+    <TRADUIT>迷你核弹, 延时型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000867</ID>
+    <EDID>NVDLC05AmmoFatMansTimed</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Mini Nuke, Tim.</ORIGINAL>
+    <TRADUIT>迷你核弹, 延时</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000866</ID>
+    <EDID>NVDLC05AmmoFatMansLowYield</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mini Nuke, Low Yield (GRA)</ORIGINAL>
+    <TRADUIT>迷你核弹, 小当量 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000866</ID>
+    <EDID>NVDLC05AmmoFatMansLowYield</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Mini Nuke, LY</ORIGINAL>
+    <TRADUIT>迷你核弹, 小当量</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000865</ID>
+    <EDID>NVDLC05AmmoMissileHive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Missile, Hive (GRA)</ORIGINAL>
+    <TRADUIT>导弹, 蜂巢型 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000865</ID>
+    <EDID>NVDLC05AmmoMissileHive</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>Missile, Hive</ORIGINAL>
+    <TRADUIT>导弹, 蜂巢型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000863</ID>
+    <EDID>NVDLC05Ammo20Ga30BuckMagnum</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>20 Gauge, 3/0 Buck Mag. (Hand Loader) (GRA)</ORIGINAL>
+    <TRADUIT>20铅径, 马格南3号鹿弹 (手装) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000863</ID>
+    <EDID>NVDLC05Ammo20Ga30BuckMagnum</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>20ga 3/0BM</ORIGINAL>
+    <TRADUIT>20铅径马格南3号鹿弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000862</ID>
+    <EDID>NVDLC05Ammo12Ga40BuckMagnum</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Gauge, 4/0 Buck Mag. (Hand Loader) (GRA)</ORIGINAL>
+    <TRADUIT>12铅径, 马格南4号鹿弹 (手装) (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000862</ID>
+    <EDID>NVDLC05Ammo12Ga40BuckMagnum</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12ga 4/0BM</ORIGINAL>
+    <TRADUIT>12铅径马格南4号鹿弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000861</ID>
+    <EDID>NVDLC05Ammo12Ga40Buck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Gauge, 4/0 Buck (GRA)</ORIGINAL>
+    <TRADUIT>12铅径, 4号鹿弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000861</ID>
+    <EDID>NVDLC05Ammo12Ga40Buck</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12ga 4/0B</ORIGINAL>
+    <TRADUIT>12铅径4号鹿弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000860</ID>
+    <EDID>NVDLC05Ammo20Ga30Buck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>20 Gauge, 3/0 Buck (GRA)</ORIGINAL>
+    <TRADUIT>20铅径, 3号鹿弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>01000860</ID>
+    <EDID>NVDLC05Ammo20Ga30Buck</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>20ga 3/0B</ORIGINAL>
+    <TRADUIT>20铅径3号鹿弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085F</ID>
+    <EDID>NVDLC05Ammo12GaDragonsBreath</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Gauge, Dragon's Breath (GRA)</ORIGINAL>
+    <TRADUIT>12铅径, 龙息弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085F</ID>
+    <EDID>NVDLC05Ammo12GaDragonsBreath</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12ga DB</ORIGINAL>
+    <TRADUIT>12铅径龙息</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085E</ID>
+    <EDID>NVDLC05Ammo12GaFlechette</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Gauge, Flechette (GRA)</ORIGINAL>
+    <TRADUIT>12铅径, 箭形弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085E</ID>
+    <EDID>NVDLC05Ammo12GaFlechette</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12ga F</ORIGINAL>
+    <TRADUIT>12铅径箭形</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085D</ID>
+    <EDID>NVDLC05Ammo12GaPulseSlug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Gauge, Pulse Slug (GRA)</ORIGINAL>
+    <TRADUIT>12铅径, 脉冲独头弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085D</ID>
+    <EDID>NVDLC05Ammo12GaPulseSlug</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12ga PS</ORIGINAL>
+    <TRADUIT>12铅径脉冲独头</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085C</ID>
+    <EDID>NVDLC05Ammo20GaPulseSlug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>20 Gauge, Pulse Slug (GRA)</ORIGINAL>
+    <TRADUIT>20铅径, 脉冲独头弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085C</ID>
+    <EDID>NVDLC05Ammo20GaPulseSlug</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>20ga PS</ORIGINAL>
+    <TRADUIT>20铅径脉冲独头</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085B</ID>
+    <EDID>NVDLC05Ammo50MGExplosive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>.50 MG, Explosive (GRA)</ORIGINAL>
+    <TRADUIT>.50MG, 高爆弹 (GRA)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0100085B</ID>
+    <EDID>NVDLC05Ammo50MGExplosive</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>.50MG E</ORIGINAL>
+    <TRADUIT>.50MG高爆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>01000A91</ID>
+    <EDID>NVDLC05MFCMineClusterProjectile2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MFC Cluster Mine</ORIGINAL>
+    <TRADUIT>核子集束地雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>0100094B</ID>
+    <EDID>NVDLC0512GaFlechetteProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Ga. Flechette</ORIGINAL>
+    <TRADUIT>12号镖弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>01000922</ID>
+    <EDID>NVDLC05MissileProjectileHive</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Missile, Hive</ORIGINAL>
+    <TRADUIT>导弹, 蜂巢型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>010008EF</ID>
+    <EDID>NVDLC05FatMineProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fat Mine</ORIGINAL>
+    <TRADUIT>核子地雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>01000892</ID>
+    <EDID>NVDLC05CleansingFlameProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cleansing Flame</ORIGINAL>
+    <TRADUIT>净化火焰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>0100081A</ID>
+    <EDID>NVDLC05GrenadeNukaProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuka Grenade</ORIGINAL>
+    <TRADUIT>核子手雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0008EAE7</ID>
+    <EDID>NVVendorChestsCell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Buried Vendor Chests</ORIGINAL>
+    <TRADUIT>供货商被掩埋的箱子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00108BED</ID>
+    <EDID>TestMentats</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mentats Test Level</ORIGINAL>
+    <TRADUIT>曼他特测试区</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0008D07E</ID>
+    <EDID>CliffBriscoeOpenStore</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to see what you've got for sale.</ORIGINAL>
+    <TRADUIT>我想看看你这儿都卖什么。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0008D08B</ID>
+    <EDID>CliffBriscoeOpenStore</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure thing. Have a look.</ORIGINAL>
+    <TRADUIT>当然，请随意。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cliff Briscoe [0008CD27] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0014F170</ID>
+    <EDID>188AlexanderSeeInventory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Take a look.</ORIGINAL>
+    <TRADUIT>看看吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Alexander [000E604F] (file)
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0014F170</ID>
+    <EDID>188AlexanderSeeInventory</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Let me see what you have for sale.</ORIGINAL>
+    <TRADUIT>我看看你都有些啥好货色。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000EE4EA</ID>
+    <EDID>VDialogueEastVegas1EGunRunnerProtectronTopic001</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Show me what you have for sale.</ORIGINAL>
+    <TRADUIT>让我看看你卖些什么。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>000EE4FB</ID>
+    <EDID>VDialogueEastVegas1EGunRunnerProtectronTopic001</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I am ready to process our transaction.</ORIGINAL>
+    <TRADUIT>我已经准备好交易了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [000EDC34] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011277C</ID>
+    <EDID>VFreeformFreesideVFSMickTopic000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>What guns do you have for sale?</ORIGINAL>
+    <TRADUIT>你都卖什么枪？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00113205</ID>
+    <EDID>VFreeformFreesideVFSMickTopic000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Have a look.</ORIGINAL>
+    <TRADUIT>瞧一瞧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Mick [0010C761] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>001131EC</ID>
+    <EDID>VFreeformFreesideVFSRalphTopic000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>What do you have in stock?</ORIGINAL>
+    <TRADUIT>你有什么现货？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001131FC</ID>
+    <EDID>VFreeformFreesideVFSRalphTopic000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Take a gander.</ORIGINAL>
+    <TRADUIT>看一看吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Ralph [0010C760] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011A27D</ID>
+    <EDID>VFreeformFreesideVFSGloriaVanGraffTopic000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to see what you have for sale.</ORIGINAL>
+    <TRADUIT>我想看看你卖些什么。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011A28B</ID>
+    <EDID>VFreeformFreesideVFSGloriaVanGraffTopic000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Of course.</ORIGINAL>
+    <TRADUIT>当然。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Gloria Van Graff [0010C67D] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0011BCA3</ID>
+    <EDID>VFreeformFreesideVFSMickTopic008</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Could you repair some things for me?</ORIGINAL>
+    <TRADUIT>你能帮我修复一些物品吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0011BCA6</ID>
+    <EDID>VFreeformFreesideVFSMickTopic008</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure, let's see what you've got.</ORIGINAL>
+    <TRADUIT>当然，来看看你有什么。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Mick [0010C761] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0012790C</ID>
+    <EDID>VFreeformFreesideVFSMickTopic020</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to browse your special inventory.</ORIGINAL>
+    <TRADUIT>我想看看你的特别目录。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0012790F</ID>
+    <EDID>VFreeformFreesideVFSMickTopic020</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Like I always say, a polite society is an armed society.</ORIGINAL>
+    <TRADUIT>就像我说过的，文明社会就是武装社会。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Mick [0010C761] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0015FCA1</ID>
+    <EDID>VDialogueHiddenValleyHVTorresTopic000</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Show me what you have for sale.</ORIGINAL>
+    <TRADUIT>让我看看你卖些什么。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0015FD06</ID>
+    <EDID>VDialogueHiddenValleyHVTorresTopic000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Our patrols are always bringing more stuff in. Take a look.</ORIGINAL>
+    <TRADUIT>我们的巡逻队总是能带进新物资。来看看吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Knight Torres [000E27E5] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>001602AE</ID>
+    <EDID>VFreeformNellisTopic003</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Could I buy some spare munitions?</ORIGINAL>
+    <TRADUIT>我可以买一些军用部件吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>001602B2</ID>
+    <EDID>VFreeformNellisTopic003</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sure. Pearl gave the green light. Take a look at the manifest.</ORIGINAL>
+    <TRADUIT>当然。珀尔开了绿灯。看看这货单。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Boomer Munitions Manager [0015D78F] (file)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0100093C</ID>
+    <EDID>NVDLC05MQ00</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quest to Set-Up Gun Runner's Arsenal</ORIGINAL>
+    <TRADUIT>建立起军火贩子的军火库的任务</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0100092E</ID>
+    <EDID>NVDLC05MadBomber</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mad Bomber</ORIGINAL>
+    <TRADUIT>疯狂炸弹人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0100092E</ID>
+    <EDID>NVDLC05MadBomber</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your intimate knowledge of gadgets and explosives have combined to make you... the Mad Bomber! At Workbenches, you have special Explosives recipes unlocked for use.</ORIGINAL>
+    <TRADUIT>对小工具的熟悉和爆破技能结合起来，使你成为…疯狂炸弹人！在工作台上，你可以使用解锁的特别爆炸物配方。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMA</GRUP>
+    <ID>01000A87</ID>
+    <EDID>ARMANVDLC05GreasePowerfist</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ARMAGreaseLightining</ORIGINAL>
+    <TRADUIT>ARMA油脂闪电</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMA</GRUP>
+    <ID>010008FD</ID>
+    <EDID>ARMABallisticFistUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>ARMABallisticFistUnique</ORIGINAL>
+    <TRADUIT>独特的暴怒钢拳</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMA</GRUP>
+    <ID>01000876</ID>
+    <EDID>NVDLC05ARMAMantisKing</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>NVDLC05ARMAMantisKing</ORIGINAL>
+    <TRADUIT>螳螂王</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100093E</ID>
+    <EDID>NVDLC05LoadMessage01</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The ongoing conflict in the Mojave Wasteland has kicked weapon manufacturers into high gear! All major and minor weapon dealers in the region are rolling in new weapons, ammunition types, and modifications. Head to your nearest participating vendor to peruse the merchandise!</ORIGINAL>
+    <TRADUIT>莫哈维持续不断的武装冲突迫使武器制造商们要来点更猛的! 所有大小武器经销商们都在不断推出新的武器, 弹药, 以及武器改造. 立刻前往距离您最近的武器供应商，检查这批新货吧!</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100093E</ID>
+    <EDID>NVDLC05LoadMessage01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Runners' Arsenal</ORIGINAL>
+    <TRADUIT>军火贩子的军火库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100093D</ID>
+    <EDID>NVDLC05LoadMessage02</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Gun Runners' Arsenal has been loaded.</ORIGINAL>
+    <TRADUIT>军火贩子的军火库已经安装.</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0100093D</ID>
+    <EDID>NVDLC05LoadMessage02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Runners' Arsenal</ORIGINAL>
+    <TRADUIT>军火贩子的军火库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000A2C</ID>
+    <EDID>NVDLC05Recipe127mmHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12.7mm, JHP Hand Load (GRA)</ORIGINAL>
+    <TRADUIT>12.7mm被甲空尖弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0100093A</ID>
+    <EDID>NVDLC05Recipe12Ga40BuckMagnum</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Ga., 4/0 Buck Mag. Hand Load (GRA)</ORIGINAL>
+    <TRADUIT>12铅径马格南4号鹿弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000939</ID>
+    <EDID>NVDLC05Recipe20Ga30BuckMagnum</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>20 Ga., 3/0 Buck Mag. Hand Load (GRA)</ORIGINAL>
+    <TRADUIT>20铅径马格南3号鹿弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000936</ID>
+    <EDID>NVDLC05RecipeTinGrenade</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tin Grenade (GRA)</ORIGINAL>
+    <TRADUIT>罐头手雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000935</ID>
+    <EDID>NVDLC05RecipeBottlecapMineEfficient</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bottlecap Mine, Efficient (GRA)</ORIGINAL>
+    <TRADUIT>瓶盖地雷高效型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000934</ID>
+    <EDID>NVDLC05RecipePowderChargeEfficient</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Powder Charge, Efficient (GRA)</ORIGINAL>
+    <TRADUIT>土制炸弹高效型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000933</ID>
+    <EDID>NVDLC05RecipeTimeBombHighYield</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Time Bomb, High Yield (GRA)</ORIGINAL>
+    <TRADUIT>定时炸弹-高当量</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000932</ID>
+    <EDID>NVDLC05RecipeNukaGrenade</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuka-Grenade (GRA)</ORIGINAL>
+    <TRADUIT>核子手雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000931</ID>
+    <EDID>NVDLC05RecipeMFCCluster</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MFC Cluster (GRA)</ORIGINAL>
+    <TRADUIT>微型核聚变集束地雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000930</ID>
+    <EDID>NVDLC05RecipeMFCGrenade</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>MFC Grenade (GRA)</ORIGINAL>
+    <TRADUIT>微型核聚变手雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0100092F</ID>
+    <EDID>NVDLC05RecipeFatMine</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fat Mine (GRA)</ORIGINAL>
+    <TRADUIT>胖子地雷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0100092C</ID>
+    <EDID>NVDLC05Recipe5mmHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>5mm, JSP Hand Load (GRA)</ORIGINAL>
+    <TRADUIT>5mm被甲软尖弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0100092B</ID>
+    <EDID>NVDLC05Recipe9mmHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>9mm, JHP Hand Load (GRA)</ORIGINAL>
+    <TRADUIT>9mm被甲空尖弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>0100092A</ID>
+    <EDID>NVDLC05Recipe556mmHandLoad</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>5.56mm, Match Hand Load (GRA)</ORIGINAL>
+    <TRADUIT>5.56mm竞赛弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000929</ID>
+    <EDID>NVDLC05RecipeFlamerFuelOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flamer Fuel, Optimized (GRA)</ORIGINAL>
+    <TRADUIT>火焰喷射器燃料优化型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000928</ID>
+    <EDID>NVDLC05RecipeSmallEnergyCellOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Energy Cell, Optimized (GRA)</ORIGINAL>
+    <TRADUIT>能量电池优化型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000927</ID>
+    <EDID>NVDLC05RecipeMicroFusionCellOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Microfusion Cell, Optimized (GRA)</ORIGINAL>
+    <TRADUIT>微型核聚变电池优化型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>RCPE</GRUP>
+    <ID>01000926</ID>
+    <EDID>NVDLC05RecipeElectronChargePackOptimized</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Electron Charge Pack, Optimized (GRA)</ORIGINAL>
+    <TRADUIT>荷电充能包优化型</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A6C</ID>
+    <EDID>NVDLC05ChallengeDyinAintMuchOfALiving</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Dyin' Ain't Much of a Living **</ORIGINAL>
+    <TRADUIT>(GRA) 死掉算不得什么活路 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A6C</ID>
+    <EDID>NVDLC05ChallengeDyinAintMuchOfALiving</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill members of NCR or Legion hit squads with weapons affected by the Cowboy perk.</ORIGINAL>
+    <TRADUIT>使用受牛仔特长影响的武器杀死NCR游骑兵和军团刺客。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A6A</ID>
+    <EDID>NVDLC05ChallengeEvenAGodKingCanBleed</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Even a God-King Can Bleed **</ORIGINAL>
+    <TRADUIT>(GRA) 即使是神王亦会流血 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A6A</ID>
+    <EDID>NVDLC05ChallengeEvenAGodKingCanBleed</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Cripple Caesar's head with Throwing Spears.</ORIGINAL>
+    <TRADUIT>用投矛打残凯撒的头。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A68</ID>
+    <EDID>NVDLC05ChallengeSicSemperTyrannis</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Sic Semper Tyrannis **</ORIGINAL>
+    <TRADUIT>(GRA) 暴君总有如此下场 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A68</ID>
+    <EDID>NVDLC05ChallengeSicSemperTyrannis</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill President Kimball with any One-Handed Pistol.</ORIGINAL>
+    <TRADUIT>用任何单手手枪杀死金博尔总统。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A67</ID>
+    <EDID>NVDLC05ChallengeBenefitOrAHazard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Benefit Or a Hazard *</ORIGINAL>
+    <TRADUIT>(GRA) 益处或危害 *</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A67</ID>
+    <EDID>NVDLC05ChallengeBenefitOrAHazard</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Robots with 5.56mm Pistols.</ORIGINAL>
+    <TRADUIT>用5.56mm手枪杀死机器人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A65</ID>
+    <EDID>NVDLC05ChallengeVault13sRevenge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Vault 13's Revenge **</ORIGINAL>
+    <TRADUIT>(GRA) 13号避难所的复仇 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A65</ID>
+    <EDID>NVDLC05ChallengeVault13sRevenge</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Super Mutants with 5.56mm Pistols, Plasma Defenders, Plasma Grenades, Power Fists, Rippers, or the Bozar.</ORIGINAL>
+    <TRADUIT>用等离子手雷，动力拳套，开膛手，等离子护卫者，无名枪，包子或5.56mm手枪杀死超级变种人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A63</ID>
+    <EDID>NVDLC05ChallengeManMachineInterface</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Man-Machine Interface ***</ORIGINAL>
+    <TRADUIT>(GRA) 人机接口 ***</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A63</ID>
+    <EDID>NVDLC05ChallengeManMachineInterface</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Mojave Wasteland Mr. Gutsys and Sentry Bots with Brass Knuckles, Spiked Knuckles, Tire Irons, and Lead Pipes.</ORIGINAL>
+    <TRADUIT>用铜指虎，刺指虎,卸胎棒或铅管杀死莫哈韦废土的勇敢先生和铁卫兵。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A60</ID>
+    <EDID>NVDLC05ChallengeCrackerjackTiming</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Crackerjack Timing ***</ORIGINAL>
+    <TRADUIT>(GRA) 绝佳时机 ***</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A60</ID>
+    <EDID>NVDLC05ChallengeCrackerjackTiming</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Mojave Wasteland Cazadores with Tin Grenades, Long Fuse Dynamite, and Time Bombs.</ORIGINAL>
+    <TRADUIT>用锡罐手雷、定时炸弹或长引线黄色炸药杀死莫哈维废土的猎蜂。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A5D</ID>
+    <EDID>NVDLC05ChallengeTheSameCouldBeSaid</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) The Same Could Be Said of All Religious Weapons *</ORIGINAL>
+    <TRADUIT>(GRA) 对所有宗教武器都能这么说 *</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A5D</ID>
+    <EDID>NVDLC05ChallengeTheSameCouldBeSaid</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Feral Ghouls with Maria, Gehenna, and Holy Frag Grenades.</ORIGINAL>
+    <TRADUIT>用玛利亚，神圣手雷，焦热炼狱杀死狂尸鬼。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A5A</ID>
+    <EDID>NVDLC05ChallengeASlaveObeys</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) A Slave Obeys *</ORIGINAL>
+    <TRADUIT>(GRA) 奴隶只能服从 *</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A5A</ID>
+    <EDID>NVDLC05ChallengeASlaveObeys</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Mr. House with a 9 Iron or Nephi's Golf Driver.</ORIGINAL>
+    <TRADUIT>用九号杆或尼法的高尔夫球杆杀死豪斯先生。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A58</ID>
+    <EDID>NVDLC05ChallengeArmedForBear</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Armed For Bear ***</ORIGINAL>
+    <TRADUIT>(GRA) 武装猎熊 ***</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A58</ID>
+    <EDID>NVDLC05ChallengeArmedForBear</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill any named NCR Ranger or commissioned officer (Lieutenant, Captain, Major, Colonel, General) with Machetes, Rippers, Chainsaws, Throwing Spears, or Ballistic Fists.</ORIGINAL>
+    <TRADUIT>用砍刀、开膛手、链锯、投矛或铳枪拳套杀死任何有名字的NCR游骑兵或现役军官（中尉，上尉，少校，上校，将军）。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A54</ID>
+    <EDID>NVDLC05ChallengeAgainstAllTyrants</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Against All Tyrants ***</ORIGINAL>
+    <TRADUIT>(GRA) 对抗一切暴君 ***</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A54</ID>
+    <EDID>NVDLC05ChallengeAgainstAllTyrants</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill any named Legion members with Hunting Revolvers, Ranger Sequoias, Brush Guns, Service Rifles, Hunting Rifles, or Cowboy Repeaters.</ORIGINAL>
+    <TRADUIT>用狩猎左轮枪、游骑兵的红杉木、灌木丛枪、军用步枪、猎枪或牛仔连发枪杀死任何有名字的军团成员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A53</ID>
+    <EDID>NVDLC05ChallengeCuriosAndRelics</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Curios and Relics</ORIGINAL>
+    <TRADUIT>(GRA) 古董与文物</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A53</ID>
+    <EDID>NVDLC05ChallengeCuriosAndRelics</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Cause damage with unique Mojave Wasteland weapons.</ORIGINAL>
+    <TRADUIT>用莫哈维废土的独特武器造成伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A51</ID>
+    <EDID>NVDLC05ChallengeNeNeNeNe</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Ne Ne Ne Ne... *</ORIGINAL>
+    <TRADUIT>(GRA) 呐呐呐呐... *</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A51</ID>
+    <EDID>NVDLC05ChallengeNeNeNeNe</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Cripple Right Arms with Shotguns.</ORIGINAL>
+    <TRADUIT>右臂残废后使用霰弹枪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A50</ID>
+    <EDID>NVDLC05ChallengeYouDontBelong</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) You Don't Belong In This World! *</ORIGINAL>
+    <TRADUIT>(GRA) 你不属于这个世界！ *</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A50</ID>
+    <EDID>NVDLC05ChallengeYouDontBelong</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Abominations with Katanas, Dynamite, Machetes, Throwing Spears, Throwing Knives, and Throwing Hatchets.</ORIGINAL>
+    <TRADUIT>用武士刀、炸药、大刀、投矛、飞刀或投斧杀死变种野怪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4E</ID>
+    <EDID>NVDLC05ChallengeOverkill</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Overkill *</ORIGINAL>
+    <TRADUIT>(GRA) 过度杀戮 *</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4E</ID>
+    <EDID>NVDLC05ChallengeOverkill</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Animals with any Fat Man or Fat Mines.</ORIGINAL>
+    <TRADUIT>用核弹或核子地雷杀死动物。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4D</ID>
+    <EDID>NVDLC05ChallengeWhiteLineNightmare</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) White Line Nightmare **</ORIGINAL>
+    <TRADUIT>(GRA) 公路梦魇 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4D</ID>
+    <EDID>NVDLC05ChallengeWhiteLineNightmare</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Fiends, Vipers, or Jackals with Tire Irons, Baseball Bats, Lead Pipes, Machetes, .44 Magnum Revolvers, or Sawed-Off Shotguns.</ORIGINAL>
+    <TRADUIT>用卸胎棒、棒球棍、铅管、砍刀、.44马格南左轮枪或截短霰弹枪杀死恶魔帮，毒蛇帮或豺狼帮的匪徒。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4C</ID>
+    <EDID>NVDLC05ChallengeTalkAboutOwned</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Talk About Owned **</ORIGINAL>
+    <TRADUIT>(GRA) 谈到支配 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4C</ID>
+    <EDID>NVDLC05ChallengeTalkAboutOwned</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Benny with his own gun, Maria.</ORIGINAL>
+    <TRADUIT>用班尼的“玛利亚”杀死班尼。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4B</ID>
+    <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Deathclaw Pro Hunter ***</ORIGINAL>
+    <TRADUIT>(GRA) 专业死亡爪猎人 ***</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4B</ID>
+    <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill adult Mojave Wasteland Deathclaws with .22 Pistols, Switchblades, Boxing Tape, Recharger Rifles, or Dynamite.</ORIGINAL>
+    <TRADUIT>用.22手枪，弹簧刀，拳击布带，充能步枪，或炸药杀死莫哈韦废土中的成年死亡爪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4A</ID>
+    <EDID>NVDLC05ChallengeHistoricalPropriety</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Historical Propriety **</ORIGINAL>
+    <TRADUIT>(GRA) 历史正确性 **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A4A</ID>
+    <EDID>NVDLC05ChallengeHistoricalPropriety</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Caesar with a Knife or Combat Knife.</ORIGINAL>
+    <TRADUIT>用小刀或战斗匕首杀死凯撒。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A49</ID>
+    <EDID>NVDLC05ChallengeNyahSee</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Nyah! See? **</ORIGINAL>
+    <TRADUIT>(GRA) 哎! 你看? **</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000A49</ID>
+    <EDID>NVDLC05ChallengeNyahSee</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill Chairmen, White Gloves, or Omertas with any submachine gun, light machine gun, or minigun.</ORIGINAL>
+    <TRADUIT>用任何冲锋枪、轻机枪或转轮机枪杀死会长帮、黑手党或白手套成员。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000948</ID>
+    <EDID>NVDLC05ChallengeMasterOfTheArsenal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Master of the Arsenal</ORIGINAL>
+    <TRADUIT>(GRA) 武器库大师</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>01000948</ID>
+    <EDID>NVDLC05ChallengeMasterOfTheArsenal</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Do damage with Gun Runners' Arsenal (GRA) Weapons.</ORIGINAL>
+    <TRADUIT>使用GRA的武器对敌人造成伤害。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000AC5</ID>
+    <EDID>NVDLC05AmmoEffectPulseSlugDAMReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pulse Slug DAM Reduction</ORIGINAL>
+    <TRADUIT>脉冲独头弹伤害减少</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000ABF</ID>
+    <EDID>NVDLC05AmmoEffectDragonsBreathDAMReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dragons Breath DAM Reduction</ORIGINAL>
+    <TRADUIT>龙息伤害减少</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000ABB</ID>
+    <EDID>NVDLC05AmmoEffectFlechetteDAMReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flechette DAM Reduction</ORIGINAL>
+    <TRADUIT>箭形弹伤害减少</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000A20</ID>
+    <EDID>NVDLC05AmmoEffectMissileHiveSpreadIncrease</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hive Missile Spread Increase</ORIGINAL>
+    <TRADUIT>蜂巢导弹散布增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000A0E</ID>
+    <EDID>NVDLC05AmmoEffectFatMansTinyTotsSpreadIncrease</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tiny Tots Spread Increase</ORIGINAL>
+    <TRADUIT>小男孩核弹散布增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100092D</ID>
+    <EDID>NVDLC05AmmoEffectJSPDTReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dam. Thresh. Reduction</ORIGINAL>
+    <TRADUIT>DT下降</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000925</ID>
+    <EDID>NVDLC05AmmoEffectOptimizedDTBypass</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>DT Bypass</ORIGINAL>
+    <TRADUIT>无视DT</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000924</ID>
+    <EDID>NVDLC05AmmoEffectOptimizedDamageBonus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Damage Bonus</ORIGINAL>
+    <TRADUIT>伤害增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000923</ID>
+    <EDID>NVDLC05AmmoEffectOptimizedConditionPenalty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>COND Decay Increase</ORIGINAL>
+    <TRADUIT>耐久损伤增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100091F</ID>
+    <EDID>NVDLC05AmmoEffectJHPDTPenalty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dam. Thresh. Increase</ORIGINAL>
+    <TRADUIT>DT上升</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100091E</ID>
+    <EDID>NVDLC05AmmoEffectJHPDamageBonus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Damage Bonus</ORIGINAL>
+    <TRADUIT>伤害增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100091D</ID>
+    <EDID>NVDLC05AmmoEffectJSPDamageBonus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Damage Bonus</ORIGINAL>
+    <TRADUIT>伤害增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100091C</ID>
+    <EDID>NVDLC05AmmoEffectJSPConditionPenalty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>COND Decay Increase</ORIGINAL>
+    <TRADUIT>耐久损伤增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100091B</ID>
+    <EDID>NVDLC05AmmoEffectMatchSpreadReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spread Reduction</ORIGINAL>
+    <TRADUIT>散布减少</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>0100091A</ID>
+    <EDID>NVDLC05AmmoEffectMatchDamageBonus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Damage Bonus</ORIGINAL>
+    <TRADUIT>伤害增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000904</ID>
+    <EDID>NVDLC05AmmoEffectMagnumConditionPenalty</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Magnum COND Penalty</ORIGINAL>
+    <TRADUIT>马格南耐久减少</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000903</ID>
+    <EDID>NVDLC05AmmoEffectMagnumDamageBonus</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Magnum Damage Bonus</ORIGINAL>
+    <TRADUIT>马格南伤害增加</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000902</ID>
+    <EDID>NVDLC05AmmoEffectMagnumDTReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dam. Thresh. Reduction</ORIGINAL>
+    <TRADUIT>DT下降</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMEF</GRUP>
+    <ID>01000901</ID>
+    <EDID>NVDLC05AmmoEffectFlechetteDTReduction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flechette DT Reduction</ORIGINAL>
+    <TRADUIT>箭形弹DT减少</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

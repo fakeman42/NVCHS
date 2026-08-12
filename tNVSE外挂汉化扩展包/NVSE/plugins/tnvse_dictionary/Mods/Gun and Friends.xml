@@ -1,0 +1,1793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>DEFAULT</ORIGINAL>
+    <TRADUIT />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06000E0D</ID>
+    <EDID>DummyNV10mmSMGUltraText</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Questionably "Ultra"</ORIGINAL>
+    <TRADUIT>可疑的“极限”</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06000E0E</ID>
+    <EDID>DummyNV10mmSMGCUniText</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>FOR THE EMPEROR!</ORIGINAL>
+    <TRADUIT>为了皇帝！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06000E41</ID>
+    <EDID>DummyNVTunnelSnake</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bonus Tunnel Snakes Rule</ORIGINAL>
+    <TRADUIT>穴蛇帮规则奖金</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06000E42</ID>
+    <EDID>DummyNVEnclaveWeap</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bonus Patriotism</ORIGINAL>
+    <TRADUIT>爱国精神奖金</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06008617</ID>
+    <EDID>DummyNVGorillaWarfareText</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>OH, BANANA!</ORIGINAL>
+    <TRADUIT>哦，香蕉！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>06000E0F</ID>
+    <EDID>DummyNV10mmSMGUltra</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dummy SMG Ultra Effect</ORIGINAL>
+    <TRADUIT>模拟冲锋枪超级效果</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>06000E10</ID>
+    <EDID>DummyNV10mmSMGCUni</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dummy 10mm SMG Uni Effect</ORIGINAL>
+    <TRADUIT>模拟10mm冲锋枪统一效果</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>06008618</ID>
+    <EDID>DummyNVGorillaWarfare</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>OH, BANANA!</ORIGINAL>
+    <TRADUIT>哦，香蕉！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>03012F0D</ID>
+    <EDID>NVDLC03FakeChristineRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Christine's COS Silencer Rifle</ORIGINAL>
+    <TRADUIT>克里斯汀的“钢铁之环”消音步枪
+</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>03012F0D</ID>
+    <EDID>NVDLC03FakeChristineRifle</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Take Christine's COS Silencer Rifle</ORIGINAL>
+    <TRADUIT>拿取克里斯汀的“钢铁之环”消音步枪
+</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06000E88</ID>
+    <EDID>VLootGunsFootlocker01AnchorageShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Evidence Locker</ORIGINAL>
+    <TRADUIT>证据柜</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06000E1C</ID>
+    <EDID>VLootGunsFootlocker01AlloySMG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Weapons Cache</ORIGINAL>
+    <TRADUIT>隐藏武器补给箱</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>06000E55</ID>
+    <EDID>VLootGunsFootLocker01AlloyedPistol</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Case</ORIGINAL>
+    <TRADUIT>枪匣</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E18</ID>
+    <EDID>ModNV10mmSMGHRubber</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Handmade Rubber Pads</ORIGINAL>
+    <TRADUIT>手工橡胶垫</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E18</ID>
+    <EDID>ModNV10mmSMGHRubber</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Adds new internal rubber pads, increases durability.</ORIGINAL>
+    <TRADUIT>添加新的内部橡胶垫，提高耐久度。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E25</ID>
+    <EDID>ModNVDoubleBarrelShotgunMapleStock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Maple Stock</ORIGINAL>
+    <TRADUIT>枫木枪托</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E25</ID>
+    <EDID>ModNVDoubleBarrelShotgunMapleStock</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases condition (+50%).</ORIGINAL>
+    <TRADUIT>改善耐久（+50%）。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E26</ID>
+    <EDID>ModNVDoubleBarrelShotgunChoke</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Double Barrel Choke</ORIGINAL>
+    <TRADUIT>双管猎枪喉缩</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E26</ID>
+    <EDID>ModNVDoubleBarrelShotgunChoke</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Decreases spread.</ORIGINAL>
+    <TRADUIT>降低子弹散射。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E3B</ID>
+    <EDID>ModNVN80HeavyFrame</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Combat Pistol Heavy Frame</ORIGINAL>
+    <TRADUIT>10mm战斗手枪重型框架</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E3B</ID>
+    <EDID>ModNVN80HeavyFrame</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases weapon durability</ORIGINAL>
+    <TRADUIT>提高武器耐久度</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E45</ID>
+    <EDID>ModNV10mm6520Stub</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Autoloading Stub Barrel</ORIGINAL>
+    <TRADUIT>10mm自动枪管</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E45</ID>
+    <EDID>ModNV10mm6520Stub</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Reduces draw time</ORIGINAL>
+    <TRADUIT>减少装填时间</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E46</ID>
+    <EDID>ModNV10mm6520Scope</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Autoloading Scope</ORIGINAL>
+    <TRADUIT>10mm自动瞄准镜</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E46</ID>
+    <EDID>ModNV10mm6520Scope</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Adds short-range scope.</ORIGINAL>
+    <TRADUIT>提供短距瞄准。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E71</ID>
+    <EDID>MODAssaultRifleExtendedMag</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Rifle Extended Mag</ORIGINAL>
+    <TRADUIT>突击步枪扩容弹匣</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E71</ID>
+    <EDID>MODAssaultRifleExtendedMag</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increase Magazine Capacity</ORIGINAL>
+    <TRADUIT>提升弹药容量</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E72</ID>
+    <EDID>MODAssaultRifleHeavyBarrel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Rifle Heavy Barrel</ORIGINAL>
+    <TRADUIT>突击步枪重型枪管</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E72</ID>
+    <EDID>MODAssaultRifleHeavyBarrel</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases Item Condition</ORIGINAL>
+    <TRADUIT>提升耐久度</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E73</ID>
+    <EDID>MODInfiltratorLaserSight</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infiltrator Laser Sight</ORIGINAL>
+    <TRADUIT>渗透者激光瞄准器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E73</ID>
+    <EDID>MODInfiltratorLaserSight</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases Accuracy</ORIGINAL>
+    <TRADUIT>提升精准度</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E74</ID>
+    <EDID>MODInfiltratorStock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infiltrator Stock</ORIGINAL>
+    <TRADUIT>渗透者枪托</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E74</ID>
+    <EDID>MODInfiltratorStock</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases Item Condition</ORIGINAL>
+    <TRADUIT>提升耐久度</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E7F</ID>
+    <EDID>ModNVCSStock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Combat Shotgun Metal Stock</ORIGINAL>
+    <TRADUIT>战斗霰弹枪金属枪托</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E7F</ID>
+    <EDID>ModNVCSStock</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases condition (+20%)</ORIGINAL>
+    <TRADUIT>提升耐久度（+20%）</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E80</ID>
+    <EDID>ModNVCSSilencer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Combat Shotgun Silencer</ORIGINAL>
+    <TRADUIT>战斗霰弹枪消音器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E80</ID>
+    <EDID>ModNVCSSilencer</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Silecnces weapon.</ORIGINAL>
+    <TRADUIT>武器消音。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E8B</ID>
+    <EDID>ModNVHoloSightGreen</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Holo Green Sight</ORIGINAL>
+    <TRADUIT>全息绿光瞄具</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E8B</ID>
+    <EDID>ModNVHoloSightGreen</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Adds a green ring sight.</ORIGINAL>
+    <TRADUIT>添加绿光环状瞄具。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E91</ID>
+    <EDID>ModNVDKSExtMags</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>DKS Extended Mag</ORIGINAL>
+    <TRADUIT>DKS扩容弹匣</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E91</ID>
+    <EDID>ModNVDKSExtMags</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases ammunition capacity (+3).</ORIGINAL>
+    <TRADUIT>提高弹药容量 （+3）。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E92</ID>
+    <EDID>ModNVDKSBashKit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>DKS Bash Kit</ORIGINAL>
+    <TRADUIT>DKS重型套件</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E92</ID>
+    <EDID>ModNVDKSBashKit</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases damage (+10).</ORIGINAL>
+    <TRADUIT>提高伤害（+10）。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000DFE</ID>
+    <EDID>ModNVLARBronzeBody</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lever Action Bronze Body</ORIGINAL>
+    <TRADUIT>杠杆式铜质枪身</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000DFE</ID>
+    <EDID>ModNVLARBronzeBody</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases weapon durability.</ORIGINAL>
+    <TRADUIT>提高武器耐久度.</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000DFF</ID>
+    <EDID>ModNVLARNewStock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lever Action Refurbed Stock</ORIGINAL>
+    <TRADUIT>杠杆式翻新枪托</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000DFF</ID>
+    <EDID>ModNVLARNewStock</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases weapon durability.</ORIGINAL>
+    <TRADUIT>提高武器耐久度.</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E00</ID>
+    <EDID>ModNVLARModernSights</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lever Action Modern Sights</ORIGINAL>
+    <TRADUIT>杠杆式现代瞄具</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E00</ID>
+    <EDID>ModNVLARModernSights</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Adds new iron sights.</ORIGINAL>
+    <TRADUIT>添加新型瞄具</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E16</ID>
+    <EDID>ModNV10mmSMGCAimingM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Advanced Aiming Module</ORIGINAL>
+    <TRADUIT>高级瞄准模块</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E16</ID>
+    <EDID>ModNV10mmSMGCAimingM</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Decreases spread.</ORIGINAL>
+    <TRADUIT>降低子弹散射。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E17</ID>
+    <EDID>ModNV10mmSMGCSight</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Advanced Mount and Sight</ORIGINAL>
+    <TRADUIT>先进的托架和瞄具</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>06000E17</ID>
+    <EDID>ModNV10mmSMGCSight</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Adds a basic holo sight</ORIGINAL>
+    <TRADUIT>添加基本全息瞄具</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0600A3F1</ID>
+    <EDID>MODNVCARFullStock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chinese Full Stock</ORIGINAL>
+    <TRADUIT>中式高级枪托</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0600A3F1</ID>
+    <EDID>MODNVCARFullStock</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Decreases Spread</ORIGINAL>
+    <TRADUIT>降低子弹散射。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0600A3F2</ID>
+    <EDID>MODNVCARBody</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chinese Forged Reciver &amp; Dust Cover</ORIGINAL>
+    <TRADUIT>中国锻造接收器和防尘罩</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0600A3F2</ID>
+    <EDID>MODNVCARBody</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Increases Max Condition</ORIGINAL>
+    <TRADUIT>提升最大耐久度</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0600A3F3</ID>
+    <EDID>MODNVCARSB</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chinese Short Barrel</ORIGINAL>
+    <TRADUIT>中式短枪管</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>IMOD</GRUP>
+    <ID>0600A3F3</ID>
+    <EDID>MODNVCARSB</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Decreases Weight</ORIGINAL>
+    <TRADUIT>减轻重量。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E61</ID>
+    <EDID>DLC01WeapInfiltratorUniqueNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Perforator</ORIGINAL>
+    <TRADUIT>穿孔器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E62</ID>
+    <EDID>DLC01WeapInfiltratorUniqueLaserNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fookin Lazer Soights</ORIGINAL>
+    <TRADUIT>他妈的激光瞄准器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E77</ID>
+    <EDID>WeapNVCombatShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Combat Shotgun</ORIGINAL>
+    <TRADUIT>战斗霰弹枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E78</ID>
+    <EDID>WeapNVTerribleCombatShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Terrible Shotgun</ORIGINAL>
+    <TRADUIT>可怕的霰弹枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E79</ID>
+    <EDID>WeapNVAnchCombatShotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Winterized Combat Shotgun</ORIGINAL>
+    <TRADUIT>防寒战斗霰弹枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E8E</ID>
+    <EDID>WeapCompactSniperRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Test Rifle</ORIGINAL>
+    <TRADUIT>训练步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E8F</ID>
+    <EDID>WeapClassicSniperRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Civilian Sniper Rifle</ORIGINAL>
+    <TRADUIT>民用狙击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E90</ID>
+    <EDID>WeapRangerSniperRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ranger Sniper Rifle</ORIGINAL>
+    <TRADUIT>游骑兵狙击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E93</ID>
+    <EDID>WeapReservistSniperRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Reservist Sniper Rifle</ORIGINAL>
+    <TRADUIT>预备役狙击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E94</ID>
+    <EDID>WeapVictorySniperRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Victory Sniper Rifle</ORIGINAL>
+    <TRADUIT>胜利狙击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E95</ID>
+    <EDID>WeapAnchorageSniperRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Winterized Sniper Rifle</ORIGINAL>
+    <TRADUIT>防寒狙击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>0500080C</ID>
+    <EDID>NVDLC05WeapHuntingRifleUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Paciencia (GRA)</ORIGINAL>
+    <TRADUIT>耐心（GRA）</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DF8</ID>
+    <EDID>WeapNVLeverActionRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lever Action Rifle</ORIGINAL>
+    <TRADUIT>杠杆式步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DF9</ID>
+    <EDID>WeapNVLeverActionRifleLincolnsRepeater</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lincoln's Repeater</ORIGINAL>
+    <TRADUIT>林肯连发枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000DFA</ID>
+    <EDID>WeapNVLeverActionRifleBackWater</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Backwater Rifle</ORIGINAL>
+    <TRADUIT>死水步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E09</ID>
+    <EDID>Weap10mmSubmachineGunHandmade</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Handmade SMG</ORIGINAL>
+    <TRADUIT>10mm手工制冲锋枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E0A</ID>
+    <EDID>Weap10mmSubmachineGunClassic</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Advanced SMG</ORIGINAL>
+    <TRADUIT>10mm高级冲锋枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E0B</ID>
+    <EDID>Weap10mmSubmachineGunClassicUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Anointed SMG</ORIGINAL>
+    <TRADUIT>受污染的冲锋枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E0C</ID>
+    <EDID>Weap10mmSubmachineGunUltra</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm "Ultra" Submachine Gun</ORIGINAL>
+    <TRADUIT>10mm“极限”冲锋枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E11</ID>
+    <EDID>Weap10mmSubmachineGunAlloyed</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Alloyed Steel Submachine Gun</ORIGINAL>
+    <TRADUIT>10mm合金钢冲锋枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E1F</ID>
+    <EDID>WeapNVDoubleBarrelshotgun</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Double Barrel Shotgun</ORIGINAL>
+    <TRADUIT>双管猎枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E20</ID>
+    <EDID>WeapNVDoubleBarrelshotgunPaFish</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pa's Fishing Aid</ORIGINAL>
+    <TRADUIT>老爸的钓鱼助手</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E21</ID>
+    <EDID>WeapNVDoubleBarrelshotgunKneecapper</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Kneecapper</ORIGINAL>
+    <TRADUIT>护膝器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E22</ID>
+    <EDID>WeapShotgunSawedOffMouser</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mouser</ORIGINAL>
+    <TRADUIT>捕鼠器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E30</ID>
+    <EDID>WeapXHuntingRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>9mm Hunting Rifle</ORIGINAL>
+    <TRADUIT>9mm猎枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E31</ID>
+    <EDID>WeapXHuntingRifleUnique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ol' Painless</ORIGINAL>
+    <TRADUIT>无痛</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E32</ID>
+    <EDID>WeapHuntingRifleRecon</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>First Recon's Rifle</ORIGINAL>
+    <TRADUIT>第一侦察营步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E39</ID>
+    <EDID>WeapNVC6520</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Autoloading Pistol</ORIGINAL>
+    <TRADUIT>10mm自动手枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E3A</ID>
+    <EDID>WeapNVN80</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Combat Pistol</ORIGINAL>
+    <TRADUIT>10mm战斗手枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E3C</ID>
+    <EDID>WeapNV10mmPistolS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Silenced Pistol</ORIGINAL>
+    <TRADUIT>10mm消音手枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E3D</ID>
+    <EDID>WeapNVEnclavePInf</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Enclave Prototype</ORIGINAL>
+    <TRADUIT>10mm英克雷原型</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E3E</ID>
+    <EDID>WeapNVAlloyedSteel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Alloyed Steel Pistol</ORIGINAL>
+    <TRADUIT>10mm合金钢手枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E3F</ID>
+    <EDID>WeapNV10mmTS</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm Chrome Pistol</ORIGINAL>
+    <TRADUIT>10mm铬合金手枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06002090</ID>
+    <EDID>WeapNVChineseRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chinese Assualt Rifle</ORIGINAL>
+    <TRADUIT>中式突击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06002689</ID>
+    <EDID>WeapNVChineseRifleXuanlong</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Xuanlong Assualt Rifle</ORIGINAL>
+    <TRADUIT>炫龙突击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06002C83</ID>
+    <EDID>WeapNVChineseRifleCommunist</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Commy Rifle</ORIGINAL>
+    <TRADUIT>康米步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06002C84</ID>
+    <EDID>WeapNVChineseRifleGorilla</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gorilla Warfare</ORIGINAL>
+    <TRADUIT>大猩猩战争</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06002C85</ID>
+    <EDID>WeapNVChineseRifleAlloyedSteel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dragoon Chinese Rifle</ORIGINAL>
+    <TRADUIT>龙骑兵中式步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06002C86</ID>
+    <EDID>WeapNVChineseRifleJunker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Raider's Junker</ORIGINAL>
+    <TRADUIT>掠夺者的容克</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E43</ID>
+    <EDID>WeapNVC6520Unique</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>10mm "Gauss" Pistol</ORIGINAL>
+    <TRADUIT>10mm“高斯”手枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E59</ID>
+    <EDID>WeapNVC6520Custom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wait it loads from a mag?</ORIGINAL>
+    <TRADUIT>等等，它从弹匣里供弹？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E5D</ID>
+    <EDID>WeapAssaultRifleNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Assault Rifle</ORIGINAL>
+    <TRADUIT>突击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E5E</ID>
+    <EDID>WeapAssaultRifleUniqueNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wanda</ORIGINAL>
+    <TRADUIT>旺达</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E5F</ID>
+    <EDID>DLC01WeapInfiltratorNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Infiltrator</ORIGINAL>
+    <TRADUIT>渗透者</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>06000E60</ID>
+    <EDID>WeapAssaultRifleAnchNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Winterized Assault Rifle</ORIGINAL>
+    <TRADUIT>防寒突击步枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06000E57</ID>
+    <EDID>TSgunKNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Chrome Gun</ORIGINAL>
+    <TRADUIT>铬合金枪</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06000E57</ID>
+    <EDID>TSgunKNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>We stopped some vault nobody that came strolling into town because of his jacket. We figured he was like with the great Khans or something but turns out no and as he put it "Was apart of the greatest gang that ever was, the Tunnel Snakes"...
+
+Anyway he had this on him and we figured you'd get a kick out.</ORIGINAL>
+    <TRADUIT>我们因为他的外套而拦住了一些人来镇上闲逛。我们以为他和大汗帮或其他什么人一样，但事实并非如此，正如他所说，他是有史以来最伟大的帮派——穴蛇帮的一员”……
+
+不管怎样，他身上有这个，我们想你会玩得很开心的。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06000E87</ID>
+    <EDID>AnchorageShotgunNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Confiscated Weapon</ORIGINAL>
+    <TRADUIT>没收武器</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06000E87</ID>
+    <EDID>AnchorageShotgunNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>----Evidence Report----
+Weapon locker containing what appears to be military surplus weapons in the possession of a civilian. Said civilian stated that they were en route to vault 34, but when questioned on why they needed military assets in a vault they refused to elaborate stating "that as an employee of Vault-Tec, they signed an NDA".
+
+Vault-Tec has been contacted on the incident, and given a reasonable explanation evidence will be released back to affected parties.
+
+Officer H.M, October 23, 2077</ORIGINAL>
+    <TRADUIT>----证据报告----
+武器柜里似乎有一名平民拥有的军事剩余武器。这位平民表示，他们正在前往34号避难所的途中，但当被问及为什么他们需要保险库中的军事资产时，他们拒绝详细说明，并表示“作为避难所科技的员工，他们签署了保密协议”。
+
+已就事件联系避难所科技，并给予合理解释，证据将退还给受影响的各方。
+
+H.M.警官，2077年10月23日</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000F0820</ID>
+    <EDID>WestsidePawnShopInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Miguel's Pawn Shop</ORIGINAL>
+    <TRADUIT>米格尔的典当行</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00175D68</ID>
+    <EDID>HooverDamIntPowerPlant01b</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hoover Dam Offices</ORIGINAL>
+    <TRADUIT>胡佛大坝办公区</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013F07E</ID>
+    <EDID>4BRRCArmory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Armory</ORIGINAL>
+    <TRADUIT>大汗帮军火库</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00103F9C</ID>
+    <EDID>SouthVegasAntMound</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>South Vegas Ant Mound</ORIGINAL>
+    <TRADUIT>南维加斯蚁丘</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00138A9E</ID>
+    <EDID>Vault34c</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 34 - Armory</ORIGINAL>
+    <TRADUIT>34号避难所 - 军火库</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010E029</ID>
+    <EDID>FreesideSilverRush</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Silver Rush</ORIGINAL>
+    <TRADUIT>银色冲击</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013D7E5</ID>
+    <EDID>JacobstownNightstalkerCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Charleston Cave</ORIGINAL>
+    <TRADUIT>查尔斯顿山洞</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00102195</ID>
+    <EDID>NellisBarracks01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pearl's Barracks</ORIGINAL>
+    <TRADUIT>珀尔妈妈的营房</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FF6B1</ID>
+    <EDID>1ESteelMill</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>New Vegas Steel</ORIGINAL>
+    <TRADUIT>新维加斯钢厂</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001532F8</ID>
+    <EDID>SLscorpionBurrowINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Scorpion Burrow</ORIGINAL>
+    <TRADUIT>蝎子洞</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00156AA2</ID>
+    <EDID>SLFishermansShackINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fisherman's Pride Shack</ORIGINAL>
+    <TRADUIT>渔家傲小屋</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0013F41A</ID>
+    <EDID>CampSearchlightPoliceStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Searchlight Police Station</ORIGINAL>
+    <TRADUIT>探照灯营地警察局</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7505</ID>
+    <EDID>HiddenValley02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Valley Bunker L2</ORIGINAL>
+    <TRADUIT>隐谷地堡二层</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0011ED01</ID>
+    <EDID>FreesideFortInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Old Mormon Fort</ORIGINAL>
+    <TRADUIT>旧摩门要塞</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ECDE8</ID>
+    <EDID>GunRunnerHQInterior</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Runner Headquarters</ORIGINAL>
+    <TRADUIT>枪支走私者总部</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000FCCA2</ID>
+    <EDID>1ENeonSignFactory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zapp's Neon Signs</ORIGINAL>
+    <TRADUIT>扎普的霓虹灯厂</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000CAE83</ID>
+    <EDID>NovacBoonesRoom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boone's Room</ORIGINAL>
+    <TRADUIT>布恩的房间</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00154827</ID>
+    <EDID>SLSunkenBeachHouse02INT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sunken Beach House</ORIGINAL>
+    <TRADUIT>沉没的沙滩房屋</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00130B8B</ID>
+    <EDID>CottonwoodCoveHQ</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cottonwood Cove HQ</ORIGINAL>
+    <TRADUIT>棉白杨湾指挥中心</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001544AF</ID>
+    <EDID>SLNuclearTestShackINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nuclear Test Shack</ORIGINAL>
+    <TRADUIT>核试验小屋</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000ED511</ID>
+    <EDID>Vault3b</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Vault 3 - Living Quarters</ORIGINAL>
+    <TRADUIT>3号避难所 - 居住区</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0010E03B</ID>
+    <EDID>FreesideKingsHouse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>King's School of Impersonation</ORIGINAL>
+    <TRADUIT>猫王模仿学校</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001057F1</ID>
+    <EDID>GSGeneralStore</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodsprings General Store</ORIGINAL>
+    <TRADUIT>清泉镇杂货店</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

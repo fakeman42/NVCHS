@@ -1,0 +1,4145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>DEFAULT</ORIGINAL>
+    <TRADUIT>默认 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>020018D0</ID>
+    <EDID>00BoxerENCH</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxing Attire</ORIGINAL>
+    <TRADUIT>拳击服装 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>020015C0</ID>
+    <EDID>aaBoxerOutfit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer Outfit</ORIGINAL>
+    <TRADUIT>平角裤套装 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>02002181</ID>
+    <EDID>aaBoxerShirtOutfit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer Outfit</ORIGINAL>
+    <TRADUIT>平角裤套装 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0200107D</ID>
+    <EDID>aaPorcelainJohnny</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Porcelain Johnny</ORIGINAL>
+    <TRADUIT>瓷器约翰尼 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020015C4</ID>
+    <EDID>aaLvlSpectatorSit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spectator</ORIGINAL>
+    <TRADUIT>观众 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020015D6</ID>
+    <EDID>aaLvlSpectatorCheer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spectator</ORIGINAL>
+    <TRADUIT>观众 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020015DD</ID>
+    <EDID>aaReferee</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Referee</ORIGINAL>
+    <TRADUIT>裁判 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian Old - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02001E92</ID>
+    <EDID>aaOldRoyPalmer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Old Roy Palmer</ORIGINAL>
+    <TRADUIT>老罗伊·帕尔默 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Asian Old - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002466</ID>
+    <EDID>aaDirtyDonJuan</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dirty Don Juan</ORIGINAL>
+    <TRADUIT>肮脏的唐璜 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002473</ID>
+    <EDID>aaFiftyBallsBrennan</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fifty Balls Brennan</ORIGINAL>
+    <TRADUIT>五十球布伦南 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0200247D</ID>
+    <EDID>aaTommyMullet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tommy Mullet</ORIGINAL>
+    <TRADUIT>汤米·鲻鱼 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002486</ID>
+    <EDID>aaFlutterTang</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Flutter Tang </ORIGINAL>
+    <TRADUIT>唐扑 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002490</ID>
+    <EDID>aaElGuapo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>El Guapo</ORIGINAL>
+    <TRADUIT>埃尔瓜波 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Ghoul - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020024AB</ID>
+    <EDID>aaDrederickDementia</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drederick Dementia</ORIGINAL>
+    <TRADUIT>德雷德里克痴呆症 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020024B3</ID>
+    <EDID>aaDiabetesLeonard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Diabetes Leonard</ORIGINAL>
+    <TRADUIT>糖尿病伦纳德 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020024BE</ID>
+    <EDID>aaBullRocco</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bull Rocco</ORIGINAL>
+    <TRADUIT>布尔罗科 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>020024C6</ID>
+    <EDID>aaBruceAli</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bruce Ali</ORIGINAL>
+    <TRADUIT>布鲁斯·阿里 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Asian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002A9D</ID>
+    <EDID>aaLvlChallenger</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002A9E</ID>
+    <EDID>aaChallenger01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002A9F</ID>
+    <EDID>aaChallenger02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Hispanic - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AAC</ID>
+    <EDID>aaChallenger03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Hispanic - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AAD</ID>
+    <EDID>aaChallenger04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AAE</ID>
+    <EDID>aaChallenger05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Hispanic - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AAF</ID>
+    <EDID>aaChallenger06</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AB0</ID>
+    <EDID>aaChallenger07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Asian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AB1</ID>
+    <EDID>aaChallenger08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AB2</ID>
+    <EDID>aaChallenger09</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02002AB3</ID>
+    <EDID>aaChallenger10</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Challenger</ORIGINAL>
+    <TRADUIT>挑战者 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Hispanic - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02000F2E</ID>
+    <EDID>aaDempsey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dempsey</ORIGINAL>
+    <TRADUIT>登普西 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Ghoul - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0200101D</ID>
+    <EDID>aaLvlTrainingBoxerHitBag01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer</ORIGINAL>
+    <TRADUIT>拳击手 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02001020</ID>
+    <EDID>aaLvlTrainingBoxerHitBag02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer</ORIGINAL>
+    <TRADUIT>拳击手 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02001023</ID>
+    <EDID>aaLvlTrainingBoxerHitBag03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer</ORIGINAL>
+    <TRADUIT>拳击手 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>02001026</ID>
+    <EDID>aaLvlTrainingBoxerHitTire01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer</ORIGINAL>
+    <TRADUIT>拳击手 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0200102B</ID>
+    <EDID>aaLvlTrainingBoxerSB</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Boxer</ORIGINAL>
+    <TRADUIT>拳击手 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Caucasian - 男性</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>020027AC</ID>
+    <EDID>aaAdamantiumMike</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Adamantium Mike</ORIGINAL>
+    <TRADUIT>金刚烷麦克 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>02003678</ID>
+    <EDID>aaTunney</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tunney</ORIGINAL>
+    <TRADUIT>通尼 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02001062</ID>
+    <EDID>aaBoxerCell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Holding Cell for Boxers</ORIGINAL>
+    <TRADUIT>拳击手拘留室 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>02000AE3</ID>
+    <EDID>aaDempseyGym</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dempsey's Gym</ORIGINAL>
+    <TRADUIT>登普西的健身房 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>02000AE1</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dempsey's Gym</ORIGINAL>
+    <TRADUIT>登普西的健身房 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GREETING</ORIGINAL>
+    <TRADUIT>问好</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200102E</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What the fuck do you want?</ORIGINAL>
+    <TRADUIT>你到底想要什么？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMaster_GREETING_0000102E_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001039</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What is it?</ORIGINAL>
+    <TRADUIT>什么事？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMaster_GREETING_00001039_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020018C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>...</ORIGINAL>
+    <TRADUIT>...</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003679</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>...</ORIGINAL>
+    <TRADUIT>...</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Tunney [02003678] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D2</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello</ORIGINAL>
+    <TRADUIT>你好。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001038</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hey.</ORIGINAL>
+    <TRADUIT>嘿。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMaster_HELLO_00001038_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D4</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodbye.</ORIGINAL>
+    <TRADUIT>再见。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001036</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Later.</ORIGINAL>
+    <TRADUIT>再见。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMaster_GOODBYE_00001036_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0200103A</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to sign up for a fight.</ORIGINAL>
+    <TRADUIT>我想报名参加战斗。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200103B</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You want to fight in my ring? One look, I could tell you weren't a fighter. You know what you are? You're a tomato.</ORIGINAL>
+    <TRADUIT>你想在我的擂台上战斗吗？一看就知道你不是一个战士。你知道你是什么吗？你是一个西红柿。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000103B_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200103B</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What makes you think you're good enough to step on my canvas and trade shots with a professional?</ORIGINAL>
+    <TRADUIT>是什么让你认为你足够优秀，可以踏上我的画布并与专业人士交换镜头？ </TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000103B_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001050</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, it's going to be tomato versus tomato in this "bout". It's more like a fucking handicap convention with this matchup.</ORIGINAL>
+    <TRADUIT>好吧，这场“较量”将是番茄与番茄之间的较量。这场比赛更像是一场他妈的让分大会。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001050_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001050</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You're fighting Porcelain Johnny, whose name is not ironic. He's a fucking weakling. If you can't beat him, you're lower than a tomato.</ORIGINAL>
+    <TRADUIT>你正在与瓷器约翰尼战斗，他的名字并不讽刺。他就是个该死的弱者。如果你打不过他，那你连西红柿都比不上。 </TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001050_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001050</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Since this is your first fight, I need to explain some things. Whatever you might have heard or read about boxing, I have my own rules here.</ORIGINAL>
+    <TRADUIT>由于这是你们的第一次战斗，我需要解释一些事情。无论您听说过或读到过有关拳击的内容，我在这里都有我自己的规则。 </TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001050_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001050</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You enter the ring, and you start fighting. Your opponent gets knocked out, you win. If you start getting your ass beat, I'll throw in the towel.</ORIGINAL>
+    <TRADUIT>你进入擂台，然后开始战斗。你的对手被淘汰，你就赢了。如果你开始挨打，我就认输。 </TRADUIT>
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001050_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001050</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It's unusual, but fatalities can happen. You must protect yourself at all times. Let me repeat that: protect yourself at all times. Good to go?</ORIGINAL>
+    <TRADUIT>这很不寻常，但死亡的情况可能会发生。你必须时刻保护自己。让我重复一遍：时刻保护自己。好走了吗？ </TRADUIT>
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001050_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E90</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You're moving up from losers to has-beens now. Your opponent is Old Roy Palmer, who was a decent fighter back in his prime.</ORIGINAL>
+    <TRADUIT>你现在正在从失败者变成过气人。你的对手是老罗伊·帕尔默，他在巅峰时期是一位不错的拳击手。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001E90_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E90</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Old bastard couldn't keep his wick dry, so now he's paying child support for a dozen different kids. Retirement is out of the question for him.</ORIGINAL>
+    <TRADUIT>老混蛋无法保持他的灯芯干燥，所以现在他正在为十几个不同的孩子支付子女抚养费。退休对于他来说是不可能的。 </TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001E90_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E90</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He knows a few tricks, but nothing that should slow you down. Ready?</ORIGINAL>
+    <TRADUIT>他知道一些技巧，但不会让你慢下来。准备好？</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001E90_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002469</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You've graduated from geriatrics to dregs and burnouts now. You'll be fighting Dirty Don Juan, a part-time raider and full-time chem addict.</ORIGINAL>
+    <TRADUIT>你现在已经从老年病学走向了渣滓和倦怠。你将与​​肮脏的唐璜战斗，他是一名兼职袭击者和全职化学瘾君子。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002469_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002469</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>One match he was so high that he shit himself in the ring, smeared it all over his opponent in the clinch, ended up winning, the nasty fuck.</ORIGINAL>
+    <TRADUIT>有一场比赛，他太兴奋了，以至于他把自己拉到了擂台上，在扭打中把它弄脏了对手，最后赢了，该死的。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002469_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002469</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He's not particularly skilled, but he is fast and crazy, and sometimes that's enough. You ready?</ORIGINAL>
+    <TRADUIT>他的技术不是特别好，但他又快又疯狂，有时这就足够了。你准备好了吗？</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002469_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002476</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope you've invested in protection, because this cocksucker you're fighting is infamous for low blows.</ORIGINAL>
+    <TRADUIT>我希望你已经投入了保护措施，因为你正在对抗的这个混蛋因低打击而臭名昭著。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002476_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002476</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In fact, he's called Fifty Balls because... it's the first thing he hits. Besides the crotch shots, he can fight a little. You ready?</ORIGINAL>
+    <TRADUIT>事实上，他被称为“五十个球”，因为……这是他击中的第一个东西。除了胯下射击之外，他还能打一点。你准备好了吗？ </TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002476_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002480</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This next one might be the first real fighter that you've faced. Name is Tommy Mullet, a big, shitkicking country boy with a mean right hand.</ORIGINAL>
+    <TRADUIT>下一个可能是您遇到的第一个真正的战士。他的名字叫汤米·马莱特，是一个身材魁梧、脾气暴躁的乡下男孩，右手很凶。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002480_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002480</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It will be a bigger crowd for this match, so expect a bump in the purse. You ready?</ORIGINAL>
+    <TRADUIT>这场比赛将会有更多的观众，所以预计钱包会有所增加。你准备好了吗？</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002480_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200248A</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You'll be fighting Flutter Tang, who ain't exactly the biggest, but he's fast and he has a wicked hook. Best to keep your distance. You ready?</ORIGINAL>
+    <TRADUIT>你将与 Flutter Tang 战斗，Flutter Tang 并不是最大的，但他速度很快，而且有一个邪恶的钩子。最好保持距离。你准备好了吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000248A_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002492</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Welcome to the big leagues, scrapper. When I say big, I mean seven feet of crazed, Mexican ghoul big. You have the privilege of facing El Guapo.</ORIGINAL>
+    <TRADUIT>欢迎来到大联盟，斗士。当我说大时，我指的是七英尺长的疯狂墨西哥食尸鬼。你有幸面对埃尔瓜波。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002492_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002492</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He's the biggest goddamn zombie I've ever seen, and he's moves surprisingly well for his size. He can throw a punch, and he can take a punch.</ORIGINAL>
+    <TRADUIT>他是我见过的最大的该死的僵尸，而且就他的体型而言，他的动作出奇的好。他可以出拳，也可以承受拳头。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002492_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002492</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In other words, you've got your work cut out for you tonight. You ready?</ORIGINAL>
+    <TRADUIT>换句话说，今晚你的工作已经完成。你准备好了吗？</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002492_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024AD</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Drederick Dementia is your next opponent. He has one of the toughest chins in boxing history. He's also got the intellectual faculties of a squirrel.</ORIGINAL>
+    <TRADUIT>Drederick Dementia 是你的下一个对手。他拥有拳击史上最坚韧的下巴之一。他还拥有松鼠的智力。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024AD_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024AD</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You might be thinking, "Squirrels, that's not too bad." Wrong. Squirrels can scurry up your pants and gnaw your dick off with their incisors.</ORIGINAL>
+    <TRADUIT>你可能会想，“松鼠，这还不错。”错误的。松鼠会爬上你的裤子，用门牙咬掉你的鸡鸡。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024AD_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024AD</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That's what Drederick is, a nasty little squirrel that won't go away. You might have to kill the sonofabitch to win this thing. Ready?</ORIGINAL>
+    <TRADUIT>这就是德雷德里克，一只讨厌的小松鼠，不会消失。你可能必须杀死那个王八蛋才能赢得这件事。准备好？</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024AD_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B6</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This is going to be your first real matchup. You're facing Diabetes Leonard, a fast, polished fighter with good all-around ability.</ORIGINAL>
+    <TRADUIT>这将是你们第一次真正的对决。你面对的是糖尿病伦纳德，他是一位速度快、技术精湛、全能能力强的战士。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024B6_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B6</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Watch for him to slip around and hit you outside your field of vision. He'll try to use his speed, so you might try tying him up in a corner. Ready?</ORIGINAL>
+    <TRADUIT>小心他溜走并在你的视野之外击中你。他会尝试利用他的速度，所以你可以尝试把他绑在角落里。准备好？</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024B6_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C1</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope your cardio is squared away, because this next fucker will push you to the limit. You're fighting Bull Rocco, a sawed-off demon.</ORIGINAL>
+    <TRADUIT>我希望你的有氧运动能够顺利进行，因为下一个混蛋会把你推向极限。你正在与布尔·罗科（Bull Rocco）战斗，他是一个被锯掉的恶魔。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024C1_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C1</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He's got limited reach, bad footwork, and uneven power, but fucking hell does he have a chin, with stamina to boot. You ready?</ORIGINAL>
+    <TRADUIT>他的触及范围有限，步法不佳，力量参差不齐，但他妈的他有下巴，还有耐力。你准备好了吗？ </TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024C1_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C9</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This is it, the final obstacle before the title shot. This ain't no speed bump, though. Bruce Ali is the quickest bastard to ever step in the ring.</ORIGINAL>
+    <TRADUIT>这就是冠军争夺前的最后障碍。不过，这并不是什么减速带。布鲁斯·阿里是有史以来踏入擂台最快的混蛋。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024C9_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C9</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In addition to the blinding speed, he has deceptive power and a decent chin. If you want a shot, you'll have to find a way to win. You ready?</ORIGINAL>
+    <TRADUIT>除了令人眼花缭乱的速度之外，他还拥有欺骗性的力量和得体的下巴。如果你想获得机会，就必须找到获胜的方法。你准备好了吗？</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000024C9_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B3</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Title Shot - First time}Whatever you may have heard about the defending champ, he is much, much worse in actuality. For starters, he's a fucking supermutant.</ORIGINAL>
+    <TRADUIT>{标题镜头 - 第一次}无论你对卫冕冠军有什么了解，他实际上要糟糕得多。首先，他是个该死的超级变种人。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000027B3_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B3</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>While he may be a touch short by mutant standards, he's still fucking enormous by ours. He's far from slow, and he hits like a fucking howitzer.</ORIGINAL>
+    <TRADUIT>虽然按照变种人的标准来看他可能有点矮，但按照我们的标准来看他仍然是巨大的。他的速度一点也不慢，而且他的攻击力就像一门该死的榴弹炮。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000027B3_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B3</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>To top it all off, he doesn't wear gloves. Last time a referee tried to make him lace up? Mike ate his face, then warned he would, "Eat his babies."</ORIGINAL>
+    <TRADUIT>最重要的是，他没有戴手套。上次裁判试图让他系鞋带是什么时候？迈克吃了他的脸，然后警告他要“吃掉他的孩子。”</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000027B3_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B3</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He's ferocious, insane, and the only thing left between you and the title. I know you can do this, even if you are a tomato. How about it?</ORIGINAL>
+    <TRADUIT>他凶猛、疯狂，是你和头衔之间唯一的障碍。我知道你可以做到这一点，即使你是一个西红柿。这个怎么样？</TRADUIT>
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_000027B3_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A9C</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Title Shot - Repeat}Not long after you lost the title, old Adamantium Mike stepped up to reclaim it. You're gonna have to go through him to get the belt... again.</ORIGINAL>
+    <TRADUIT>{标题镜头 - 重复}在你失去标题后不久，老亚当曼迈克就站出来夺回了它。你必须再次穿过他才能拿到腰带。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002A9C_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA4</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Title Defense}Not a problem. I've already got some kid lined up for you. Are you ready?</ORIGINAL>
+    <TRADUIT>{标题防御}没问题。我已经派了一个孩子来等你。你准备好了吗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002AA4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA4</ID>
+    <EDID>aaKOTRWantToFight</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I want to fight in a title defense.</ORIGINAL>
+    <TRADUIT>我想参加卫冕战。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200104A</ID>
+    <EDID>aaKOTRWantToFightUnarmed</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, ok. You've got a little ability, that's good. It will take more than that to make it in this business, you understand?</ORIGINAL>
+    <TRADUIT>好的好的。你有一点能力，那很好。要在这个行业取得成功，需要的不仅仅是这些，你明白吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000104A_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200104A</ID>
+    <EDID>aaKOTRWantToFightUnarmed</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Before I put you in the ring, we need to work on your image... you need a name, something that makes you stand out.</ORIGINAL>
+    <TRADUIT>在我把你放进戒指之前，我们需要处理你的形象……你需要一个名字，一个能让你脱颖而出的名字。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000104A_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200104A</ID>
+    <EDID>aaKOTRWantToFightUnarmed</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, I got it. From here on out, you're "The Kid." It's youthful, makes you seem like a perpetual underdog, people always like that bullshit.</ORIGINAL>
+    <TRADUIT>好，我知道了。从现在开始，你就是“小子”了。它很年轻，让你看起来永远是个失败者，人们总是喜欢这种废话。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000104A_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200104A</ID>
+    <EDID>aaKOTRWantToFightUnarmed</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I may not have any titles, but you better believe I can scrap.</ORIGINAL>
+    <TRADUIT>我可能没有任何头衔，但你最好相信我可以报废。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0200103E</ID>
+    <EDID>aaKOTRWantToFightSlayer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I am the slayer.</ORIGINAL>
+    <TRADUIT>我是杀手。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105A</ID>
+    <EDID>aaKOTRWantToFightSlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, ok. You've got a little ability, that's good. It will take more than that to make it in this business, you understand?</ORIGINAL>
+    <TRADUIT>好的好的。你有一点能力，那很好。要在这个行业取得成功，需要的不仅仅是这些，你明白吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000105A_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105A</ID>
+    <EDID>aaKOTRWantToFightSlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Before I put you in the ring, we need to work on your image... you need a name, something that makes you stand out.</ORIGINAL>
+    <TRADUIT>在我把你放进戒指之前，我们需要处理你的形象……你需要一个名字，一个能让你脱颖而出的名字。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000105A_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105A</ID>
+    <EDID>aaKOTRWantToFightSlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, I got it. From here on out, you're "The Kid." It's youthful, makes you seem like a perpetual underdog, people always like that bullshit.</ORIGINAL>
+    <TRADUIT>好，我知道了。从现在开始，你就是“小子”了。它很年轻，让你看起来永远是个失败者，人们总是喜欢这种废话。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_0000105A_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001058</ID>
+    <EDID>aaKOTRWantToFightStonewall</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, ok. You've got a little ability, that's good. It will take more than that to make it in this business, you understand?</ORIGINAL>
+    <TRADUIT>好的好的。你有一点能力，那很好。要在这个行业取得成功，需要的不仅仅是这些，你明白吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001058_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001058</ID>
+    <EDID>aaKOTRWantToFightStonewall</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Before I put you in the ring, we need to work on your image... you need a name, something that makes you stand out.</ORIGINAL>
+    <TRADUIT>在我把你放进戒指之前，我们需要处理你的形象……你需要一个名字，一个能让你脱颖而出的名字。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001058_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001058</ID>
+    <EDID>aaKOTRWantToFightStonewall</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, I got it. From here on out, you're "The Kid." It's youthful, makes you seem like a perpetual underdog, people always like that bullshit.</ORIGINAL>
+    <TRADUIT>好，我知道了。从现在开始，你就是“小子”了。它很年轻，让你看起来永远是个失败者，人们总是喜欢这种废话。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001058_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001058</ID>
+    <EDID>aaKOTRWantToFightStonewall</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I haven't met anyone who can knock me down.</ORIGINAL>
+    <TRADUIT>我还没有遇到可以击倒我的人。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>02001041</ID>
+    <EDID>aaKOTRWantToFightHeavyHanded</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I can throw a good punch.</ORIGINAL>
+    <TRADUIT>我可以打出一记好拳。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002179</ID>
+    <EDID>aaKOTRWantToFightHeavyHanded</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, ok. You've got a little ability, that's good. It will take more than that to make it in this business, you understand?</ORIGINAL>
+    <TRADUIT>好的好的。你有一点能力，那很好。要在这个行业取得成功，需要的不仅仅是这些，你明白吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002179_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002179</ID>
+    <EDID>aaKOTRWantToFightHeavyHanded</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Before I put you in the ring, we need to work on your image... you need a name, something that makes you stand out.</ORIGINAL>
+    <TRADUIT>在我把你放进戒指之前，我们需要处理你的形象……你需要一个名字，一个能让你脱颖而出的名字。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002179_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002179</ID>
+    <EDID>aaKOTRWantToFightHeavyHanded</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, I got it. From here on out, you're "The Kid." It's youthful, makes you seem like a perpetual underdog, people always like that bullshit.</ORIGINAL>
+    <TRADUIT>好，我知道了。从现在开始，你就是“小子”了。它很年轻，让你看起来永远是个失败者，人们总是喜欢这种废话。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00002179_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>02001042</ID>
+    <EDID>aaKOTRWantToFightHungryCaps</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I need caps. You put me in the ring and I'll do whatever it takes to win.</ORIGINAL>
+    <TRADUIT>我需要瓶盖。你让我上擂台，我会不惜一切代价赢得胜利。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001055</ID>
+    <EDID>aaKOTRWantToFightHungryCaps</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You're hungry, I like that. We could use more of that attitude around here, even if it is from a tomato.</ORIGINAL>
+    <TRADUIT>你饿了，我喜欢这样。我们可以在这里更多地使用这种态度，即使它来自西红柿。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001055_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001055</ID>
+    <EDID>aaKOTRWantToFightHungryCaps</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Before I put you in the ring, we need to work on your image... you need a name, something that makes you stand out.</ORIGINAL>
+    <TRADUIT>在我把你放进戒指之前，我们需要处理你的形象……你需要一个名字，一个能让你脱颖而出的名字。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001055_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001055</ID>
+    <EDID>aaKOTRWantToFightHungryCaps</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ok, I got it. From here on out, you're "The Kid." It's youthful, makes you seem like a perpetual underdog, people always like that bullshit.</ORIGINAL>
+    <TRADUIT>好，我知道了。从现在开始，你就是“小子”了。它很年轻，让你看起来永远是个失败者，人们总是喜欢这种废话。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRWantToFig_00001055_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>02001043</ID>
+    <EDID>aaKOTRWantToFightNevermind</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Nevermind.</ORIGINAL>
+    <TRADUIT>那算了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001049</ID>
+    <EDID>aaKOTRWantToFightNevermind</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>...</ORIGINAL>
+    <TRADUIT>...</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003674</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What the fuck do you think? Caps, dummy. Everything is about caps. Reno is bloated with fighters, trainers, and managers, but it's wide open here.</ORIGINAL>
+    <TRADUIT>你他妈的觉得怎么样？帽子，假人。一切都与帽子有关。里诺到处都是拳手、训练员和管理者，但这里却很开放。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003674_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003674</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I asked a promoter, "What's the fight game like in Vegas?" He says, "Fight game? What fucking fight game?"</ORIGINAL>
+    <TRADUIT>我问一位发起人，“维加斯的格斗游戏是什么样的？”他说：“格斗游戏？什么他妈的格斗游戏？”</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Surprise
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003674_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003674</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I smelled an opportunity, so here I am. Frankly, I'm a little sad that this shithole is all the boxing in town, but it's better than nothing.</ORIGINAL>
+    <TRADUIT>我嗅到了机会，所以我来了。坦白说，我有点难过这个混蛋全是镇上的拳击，但总比什么都没有好。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003674_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003674</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I mean for shit's sake, it's Vegas! They should have a ring in every casino! All I see is mimes and oversexed wiseguys - it's a disgrace!</ORIGINAL>
+    <TRADUIT>我的意思是天哪，这是维加斯！每个赌场都应该有一枚戒指！我所看到的只是哑剧和性欲过剩的智者——这是一种耻辱！ </TRADUIT>
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003674_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003674</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What brought you to New Vegas?</ORIGINAL>
+    <TRADUIT>你为什么要来新维加斯？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003675</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Not really. First thing I did when I got in town was go to the Thorn, heard they had some sort of cage matches, thought they could host prize fights.</ORIGINAL>
+    <TRADUIT>并不真地。当我到达城里时，我做的第一件事就是去荆棘球场，听说他们有某种笼式比赛，认为他们可以举办拳击比赛。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003675_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003675</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That was a fucking mistake. That little ginger slut running the place tells me they pit critters against each other, sometimes people.</ORIGINAL>
+    <TRADUIT>那是一个他妈的错误。经营这个地方的那个小姜荡妇告诉我，他们让动物互相对抗，有时甚至是人。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003675_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003675</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It was only then that I realized just how bad things were here. You could fight bugs, but not a single venue for the sweet science. Shameful!</ORIGINAL>
+    <TRADUIT>直到那时我才意识到这里的情况有多糟糕。你可以对抗虫子，但没有一个地方可以进行甜蜜的科学。可耻！</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003675_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003675</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Consider this place an initial step in righting things around here. Vegas won't play second fiddle to Reno, not if I can help it.</ORIGINAL>
+    <TRADUIT>认为这个地方是纠正这里问题的第一步。如果我能帮助的话，维加斯不会屈居里诺之后。 </TRADUIT>
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003675</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Did you plan on opening a new gym when you came here?</ORIGINAL>
+    <TRADUIT>你来这里的时候有打算开一家新健身房吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003676</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Because property rights are fuckall around here, that's why. Say I pay off the Kings, open up some place in Freeside. Everything starts out great.</ORIGINAL>
+    <TRADUIT>因为这里的产权根本就是他妈的，这就是原因。假设我还清了国王队的钱，在 Freeside 开设了一些地方。一切都开始得很好。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003676_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003676</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>One week later, somebody's crawling up my ass, whining that this spot is reserved for Dana's House of Dildos, or whatever bullshit thing.</ORIGINAL>
+    <TRADUIT>一周后，有人爬上我的屁股，抱怨这个位置是为达纳假阳具之家保留的，或者其他什么废话。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003676_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003676</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Trust me, I know how these things work. It's better to pick an "odd" place that you know is yours. Tunney keeps the Fiends out, so it works.</ORIGINAL>
+    <TRADUIT>相信我，我知道这些东西是如何运作的。最好选择一个你知道属于你的“奇怪”的地方。汤尼将恶魔拒之门外，所以这很有效。 </TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyAboutY_00003676_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02003676</ID>
+    <EDID>aaDempseyAboutYou</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>This seems like an odd place to open a gym. Why didn't you open it in Freeside or Westside?</ORIGINAL>
+    <TRADUIT>这似乎是一个开健身房的奇怪地方。你为什么不在 Freeside 或 Westside 打开它？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>02001046</ID>
+    <EDID>aaDempseyGoodbye</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I need to get going.</ORIGINAL>
+    <TRADUIT>我该走了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001048</ID>
+    <EDID>aaDempseyGoodbye</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yes, you do.</ORIGINAL>
+    <TRADUIT>不，你知道。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaDempseyGoodby_00001048_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>02001047</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to collect my winnings.</ORIGINAL>
+    <TRADUIT>我想领取我的奖金。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E8F</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You got it, champ. Come back tomorrow and I'll set you up with another match.</ORIGINAL>
+    <TRADUIT>你明白了，冠军。明天回来，我会给你安排另一场比赛。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaRefereeVoiceType\aaKOTRMast_aaKOTRCollectPr_00001E8F_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E8F</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I defended the title, and I'd like to collect my winnings.</ORIGINAL>
+    <TRADUIT>我卫冕了，我想领取我的奖金。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AAA</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Fuck me sideways with a bag of dicks... we have a new champion! Congratulations, you've come a long way from tomato.</ORIGINAL>
+    <TRADUIT>用一袋鸡巴从侧面操我......我们有一个新冠军！恭喜你，你已经远离番茄了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaRefereeVoiceType\aaKOTRMast_aaKOTRCollectPr_00002AAA_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AAA</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This don't mean you can sit on your ass or forget about fighting. On the contrary, there's a stable of challengers waiting for you.</ORIGINAL>
+    <TRADUIT>这并不意味着你可以袖手旁观或忘记战斗。相反，有一大批挑战者在等着你。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Neutral
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002AAA_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AAA</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Now, you can only defend the title once per day, but the purse is very sweet. Just don't lose. Anyway, I'm proud of you.</ORIGINAL>
+    <TRADUIT>现在，你每天只能卫冕一次，但钱包很丰厚。只是不要输。无论如何，我为你感到骄傲。 </TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002AAA_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A99</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I never thought I'd see the day when you'd be the number one challenger, but it's here. If you think this purse is nice, you ain't seen nothing.</ORIGINAL>
+    <TRADUIT>我从未想过有一天你会成为第一挑战者，但它就在这里。如果您认为这个钱包不错，那么您什么也没看到。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002A99_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B1</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Damn, now that was a match. It's no mean feat to knock Rocco off his block, let me tell you. You're almost in line to be the next challenger.</ORIGINAL>
+    <TRADUIT>该死，现在这是一场比赛。让我告诉你，将罗科从他的街区中击倒绝非易事。您几乎将成为下一个挑战者。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000027B1_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C4</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Not bad, not bad at all. That was a damn good boxer you took down out there. Some people are even saying your name along with title shot. Not me.</ORIGINAL>
+    <TRADUIT>不错，真不错。那是你在场上击败的一位出色的拳击手。有些人甚至会在标题镜头的同时说出你的名字。不是我。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000024C4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024BA</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope you enjoyed that match, because it's uphill from here. I can't believe I'm saying this... but you're a contender now. God help us.</ORIGINAL>
+    <TRADUIT>我希望你喜欢那场比赛，因为从这里开始是上坡路。我不敢相信我会这么说……但你现在是一个竞争者了。上帝帮助我们。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000024BA_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B1</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That was one tall fucking tree to chop down, but you did it. You've come a long way, but don't get lackadaisical on me. I fucking love that word.</ORIGINAL>
+    <TRADUIT>那是一棵他妈的高大的树需要砍倒，但你做到了。你已经走了很长的路，但不要对我无精打采。我他妈喜欢这个词。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000024B1_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002496</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Flutter Tang isn't exactly a contender, but he isn't a pushover either. Stay hungry, and you might turn into something special. Or not.</ORIGINAL>
+    <TRADUIT>Flutter Tang 并不是一个真正的竞争者，但他也不是一个容易被打败的人。保持饥饿，你可能会变得很特别。或不。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002496_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200248D</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Tommy deserved a beating for that shitty haircut alone. You got yourself a decent purse, and a little bump in the rankings. Not bad for a bum.</ORIGINAL>
+    <TRADUIT>汤米光是因为那个糟糕的发型就该挨一顿打。你为自己赢得了不错的钱包，并且排名也有了一些提升。对于一个流浪汉来说还不错。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_0000248D_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002484</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I hope your jewels are still intact after that bout. Goddamn Brennan was a cunt to fight that way. Keep this up, and you might become legitimate.</ORIGINAL>
+    <TRADUIT>我希望那场比赛之后你的珠宝仍然完好无损。该死的布伦南就是一个用这种方式战斗的混蛋。坚持下去，你可能会变得合法。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002484_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200247B</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So you whipped the junkie, aren't you special. Next time I'll have to round up some hobos for you. Keep climbing, bigger and better things await.</ORIGINAL>
+    <TRADUIT>所以你鞭打了瘾君子，你不是很特别吗？下次我得为你召集一些流浪汉。继续攀登，更大更好的事情在等待着。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_0000247B_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200247B</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Oh, and here's a little extra. Seems these hicks enjoy watching you bleed on my canvas, so we have a new sponsor: Crimson Caravan.</ORIGINAL>
+    <TRADUIT>哦，还有一点额外的。看来这些乡巴佬很喜欢看你在我的画布上流血，所以我们有了一个新的赞助商：Crimson Caravan。 </TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_0000247B_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002470</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In more civilized places, I imagine it would be against the law to let someone kick the shit out of an old man. Good thing we ain't civilized.</ORIGINAL>
+    <TRADUIT>在更文明的地方，我想如果有人把老人踢屎的话，那是违法的。还好我们不文明。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002470_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002464</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So you beat Johnny. Congratu-fucking-lations, you've graduated from tomato... to bum. Come see me when you want to fight again, bum.</ORIGINAL>
+    <TRADUIT>所以你打败了约翰尼。恭喜——他妈的——你已经从番茄毕业了……变成了流浪汉。当你想再次战斗时就来找我吧，混蛋。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002464_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E91</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Sweet Christ, that old fucker was practically carried into the ring, and you couldn't summon the gumption to knock him over? Fucking tomato.</ORIGINAL>
+    <TRADUIT>天哪，那个老混蛋几乎被带进了擂台，你就没有勇气把他打倒吗？该死的番茄。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Anger
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00001E91_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E91</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Old Roy Palmer. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被老罗伊·帕尔默打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002465</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Were you drunk when you stumbled into the ring? You're a goddamn disease, that's what you are. Get out before you infect my gym, loser.</ORIGINAL>
+    <TRADUIT>当你跌跌撞撞进入擂台时你喝醉了吗？你就是一种该死的疾病，这就是你。在你感染我的健身房之前滚出去，失败者。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Anger
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002465_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002465</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Porcelain Johnny. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被瓷器约翰尼打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002471</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You know, I was almost ready to mistake you for a potential sparring partner... not a real fighter, but not a tomato. I was wrong.</ORIGINAL>
+    <TRADUIT>你知道，我几乎准备把你误认为是潜在的陪练伙伴……不是真正的战士，但不是西红柿。我错了。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002471_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002471</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Dirty Don Juan. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被肮脏的唐璜打败了。我还有机会再战吗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200247C</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>To be fair, you ain't the first to get the wind and a lot more knocked out of them by Brennan. You better shape up, though.</ORIGINAL>
+    <TRADUIT>公平地说，你并不是第一个得到风声的人，布伦南击倒了更多的人。不过你最好把身材调整好。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_0000247C_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200247C</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Fifty Balls Brennan. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被五十球布伦南击败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002485</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You let that goddamn hillbilly run right over you. You remember what I told you? Protect yourself at all times. In one ear and out the other.</ORIGINAL>
+    <TRADUIT>你让那个该死的乡巴佬从你身上碾过。你还记得我告诉你的话吗？时刻保护自己。一只耳朵进，另一只耳朵出。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002485_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002485</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Tommy Mullet. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被汤米·鲻鱼打败了。我还有机会再战吗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200248E</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Get out, loser. Come back when you find your heart.</ORIGINAL>
+    <TRADUIT>滚出去吧，失败者。当你找到你的心时就回来吧。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_0000248E_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200248E</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Flutter Tang. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被唐飘飘打败了。我还有机会再战吗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002497</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>There's a word in Spanish for fighters like you... cobarde.</ORIGINAL>
+    <TRADUIT>西班牙语中有一个词形容像你这样的战士……cobarde。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002497_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002497</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by El Guapo. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被埃尔瓜波打败了。我还有机会再战吗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B2</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You fought a man with the IQ of a bumbling rodent, and you somehow managed to lose. Amazing. Down the ranks you go.</ORIGINAL>
+    <TRADUIT>你与一个智商只有笨手笨脚的啮齿类动物的人战斗，但不知何故你输了。惊人的。你的排名会下降。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000024B2_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B2</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Drederick Dementia. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被德雷德里克·痴呆打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024BB</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You've got to stop making excuses and starting showing results if you want to move up in the ranks. Fucking pathetic.</ORIGINAL>
+    <TRADUIT>如果你想晋升，就必须停止找借口并开始展示成果。真他妈可悲。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000024BB_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024BB</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Diabetes Leonard. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被糖尿病伦纳德打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C5</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Goddamit, you were getting close. Just one match away, probably. Oh fucking well.</ORIGINAL>
+    <TRADUIT>该死的，你已经很接近了。可能只剩下一场比赛了。哦他妈的好吧。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000024C5_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C5</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Bull Rocco. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被布尔罗科打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B2</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>That hurts, getting so fucking close to the belt. Something tells me you'll get another run at it before too long, so buck up.</ORIGINAL>
+    <TRADUIT>太他妈靠近腰带了，太疼了。我感觉不久之后你就会再次尝试，所以振作起来。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Sad
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_000027B2_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B2</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Bruce Ali. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被布鲁斯·阿里打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A9B</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You had your shot and you took it. Nobody can take that away from you, not ever. Maybe next time.</ORIGINAL>
+    <TRADUIT>你有你的机会并且你接受了。没有人能把它从你身边夺走，永远不会。下一次吧。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Sad
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002A9B_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A9B</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I was defeated by Adamantium Mike. Any chance I can fight again?</ORIGINAL>
+    <TRADUIT>我被艾德曼金属迈克打败了。我还有机会再战吗？</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AAB</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I guess you're back to being a tomato again. Somebody should write a book about you.</ORIGINAL>
+    <TRADUIT>我猜你又变回西红柿了。有人应该写一本关于你的书。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Disgust
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRCollectPr_00002AAB_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AAB</ID>
+    <EDID>aaKOTRCollectPrize</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I lost the title.</ORIGINAL>
+    <TRADUIT>我失去了头衔。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0200104C</ID>
+    <EDID>aaKOTRNameCool</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sounds good. When can I fight?</ORIGINAL>
+    <TRADUIT>听起来不错。我什么时候可以战斗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200104F</ID>
+    <EDID>aaKOTRNameCool</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Whenever you want. Just get your mind right and come see me when you're ready.</ORIGINAL>
+    <TRADUIT>无论你什么时候想要。只要调整好心态，准备好后就来见我。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRNameCool_0000104F_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0200104D</ID>
+    <EDID>aaKOTRNameIndifferent</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Whatever. When can I fight?</ORIGINAL>
+    <TRADUIT>任何时间。我什么时候可以战斗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105C</ID>
+    <EDID>aaKOTRNameIndifferent</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Whenever you want. Just get your mind right and come see me when you're ready.</ORIGINAL>
+    <TRADUIT>无论你什么时候想要。只要调整好心态，准备好后就来见我。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRNameIndif_0000105C_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0200104E</ID>
+    <EDID>aaKOTRNameHateIt</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>That name sucks. You got anything better?</ORIGINAL>
+    <TRADUIT>这名字真烂你还有更好的吗？ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105D</ID>
+    <EDID>aaKOTRNameHateIt</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I see. Apparently my taste in names has fallen off. I got just the thing for you.</ORIGINAL>
+    <TRADUIT>我懂了。显然我对名字的品味已经下降了。我正好给你准备了这个东西。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRNameHateI_0000105D_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105D</ID>
+    <EDID>aaKOTRNameHateIt</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>From here on out, you'll be known as "Rimjob" in the ring, cause sticking your tongue in someone's ass is all you're good for.</ORIGINAL>
+    <TRADUIT>从现在开始，你将在擂台上被称为“Rimjob”，因为把你的舌头伸进别人的屁股里就是你的拿手好戏。</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRNameHateI_0000105D_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105D</ID>
+    <EDID>aaKOTRNameHateIt</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So, if you want a match, come talk to me, and we'll set you up... Rimjob.</ORIGINAL>
+    <TRADUIT>所以，如果你想要一场比赛，请来找我，我们会为你安排... Rimjob。</TRADUIT>
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRNameHateI_0000105D_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105F</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_0000105F_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105F</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E94</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00001E94_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02001E94</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002468</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002468_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002468</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002477</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002477_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002477</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002481</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002481_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002481</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002489</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002489_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002489</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002493</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002493_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002493</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024AE</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_000024AE_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024AE</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B7</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_000024B7_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B7</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C0</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_000024C0_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C0</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024CA</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_000024CA_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024CA</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B4</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Keep your chin down and your guard up. Good luck.</ORIGINAL>
+    <TRADUIT>保持下巴低下，保持警惕。祝你好运。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_000027B4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B4</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA5</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AA5_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA5</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC0</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC0_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC0</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC1</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC1_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC1</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC2</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC2_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC2</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC3</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC3_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC3</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC4</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC4</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC5</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC5_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC5</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC6</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC6_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC6</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC7</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC7_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC7</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC8</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}Good luck, champ.</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}祝你好运，冠军。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Happy
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightR_00002AC8_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AC8</ID>
+    <EDID>aaKOTRPreFightReady</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm ready.</ORIGINAL>
+    <TRADUIT>我准备好了。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>02001054</ID>
+    <EDID>aaKOTRPreFightWait</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I need more time to prepare.</ORIGINAL>
+    <TRADUIT>我需要更多的时间来准备。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200105E</ID>
+    <EDID>aaKOTRPreFightWait</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>By all means, just keep everyone waiting. Take your sweet fucking time.</ORIGINAL>
+    <TRADUIT>无论如何，让大家久等吧。慢慢来吧。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Dempsey [02000F2E] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+EmotionType : Anger
+Audio : \Sound\Voice\KingOfTheRing.esp\aaDempseyVoiceType\aaKOTRMast_aaKOTRPreFightW_0000105E_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020015E2</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Championship bout}Ladies and gentlemen, I'd like to welcome you to tonight's championship bout, which is sponsored by the Crimson Caravan.</ORIGINAL>
+    <TRADUIT>{冠军赛}女士们先生们，我欢迎你们参加今晚的冠军赛，这场比赛是由深红商队赞助的。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B5</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 3 and over}Ladies and gentlemen, I'd like to welcome you to tonight's event, which is sponsored by the Crimson Caravan. This will be a fight to the finish.</ORIGINAL>
+    <TRADUIT>{等级 3 及以上}女士们先生们，我欢迎你们参加今晚由深红大篷车赞助的活动。这将是一场战斗到底。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002478</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 2}Ladies and gentlemen, I'd like to welcome you to tonight's event, which is sponsored by Billy Bob's Moon Pies. This will be a fight to the finish.</ORIGINAL>
+    <TRADUIT>{Rank 2}女士们先生们，欢迎你们参加今晚的活动，该活动由 Billy Bob's Moon Pies 赞助。这将是一场战斗到底。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200246C</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 1, Kid}Ladies and gentlemen, I'd like to welcome you to tonight's event, which is sponsored by Radon Crown Cola. This will be a fight to the finish.</ORIGINAL>
+    <TRADUIT>{Rank 1, Kid}女士们先生们，我欢迎你们参加今晚由氡皇冠可乐赞助的活动。这将是一场战斗到底。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002182</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Kid}In the northwest corner, we have a rising star in the New Vegas boxing scene... The Kid!</ORIGINAL>
+    <TRADUIT>{Kid}在西北角，我们有新维加斯拳击界的一颗冉冉升起的新星......Kid！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A93</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{TITLE DEFENSE}In the northwest corner, we have the reigning champion!</ORIGINAL>
+    <TRADUIT>{TITLE DEFENSE}在西北角，我们有卫冕冠军！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA6</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Kid - challenger}In the northwest corner, we have tonight's challenger for the title... The Kid!</ORIGINAL>
+    <TRADUIT>{Kid - 挑战者}在西北角，我们有今晚的冠军挑战者......Kid！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002184</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rimjob}In the northwest corner, we have a rising star in the New Vegas boxing scene... Rimjob!</ORIGINAL>
+    <TRADUIT>{Rimjob}在西北角，我们有新维加斯拳击界的一颗冉冉升起的新星...... Rimjob！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A94</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rimjob - Challenger}In the northwest corner, we have tonight's challenger for the title... Rimjob!</ORIGINAL>
+    <TRADUIT>{Rimjob - 挑战者}在西北角，我们有今晚的冠军挑战者...Rimjob！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002183</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, TITLE DEFENSE}And in the southeast corner, the challenger!</ORIGINAL>
+    <TRADUIT>{对手，TITLE DEFENSE}在东南角，挑战者！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA7</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 11, Title attempt}And in the southeast corner, the mutant with the iron fists, and defending champion... Adamantium Mike!</ORIGINAL>
+    <TRADUIT>{对手，排名11，夺冠尝试}而在东南角，铁拳变种人，卫冕冠军……艾德曼麦克！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A95</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 10}And in the southeast corner, the Redding Ravager, Bruce Ali!</ORIGINAL>
+    <TRADUIT>{对手，排名10}还有东南角的雷丁掠夺者，布鲁斯·阿里！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027A8</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 9}And in the southeast corner, the Freeside Freight Train, "Bull" Rocco!</ORIGINAL>
+    <TRADUIT>{对手，排名9}还有东南角，自由货运列车，“公牛”罗科！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C2</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 8}And in the southeast corner, "Terminal" Diabetes Leonard! </ORIGINAL>
+    <TRADUIT>{对手，排名8}还有东南角“糖尿病终点站”伦纳德！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B8</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 7}And in the southeast corner, the {Asks aloud}big fist, ... Drederick Dementia!</ORIGINAL>
+    <TRADUIT>{对手，排名7}而在东南角，{大声问道}大拳头，……德雷德里克痴呆！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024AF</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 6}And in the southeast corner, El Chingon del Desierto, ... El Guapo! May the best fighter win!</ORIGINAL>
+    <TRADUIT>{对手，排名 6}在东南角，El Chingon del Desierto，...El Guapo！愿最优秀的战士获胜！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002494</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 5}And in the southeast corner, the Westside Wildman, the New Vegas Eviscerator... Flutter Tang!</ORIGINAL>
+    <TRADUIT>{对手，排名5}而东南角，西域野人，新维加斯剔骨者……扑腾！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200248B</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 4}And in the southeast corner, the hillbilly hellraiser, the {Questions reading this}hick with the dick... Tommy Mullet!</ORIGINAL>
+    <TRADUIT>{对手，排名 4}而在东南角，乡下人地狱狂，{阅读本文的问题}乡巴佬……汤米·穆莱特！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002482</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 3}And in the southeast corner, the terror of testicles, the smasher of scrotums, Fifty Balls Brennan!</ORIGINAL>
+    <TRADUIT>{对手，排名3}而在东南角，睾丸的恐怖，阴囊的粉碎者，五十球布伦南！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002479</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 2}And in the southeast corner, the fetid firecracker, the putrid pirate, Dirty Don Juan!</ORIGINAL>
+    <TRADUIT>{对手，等级2}而在东南角，恶臭的鞭炮，腐烂的海盗，肮脏的唐璜！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200246E</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Opponent, rank 1}And in the southeast corner, the graying grizzly, the senile serpent, Old Roy Palmer!</ORIGINAL>
+    <TRADUIT>{对手，等级1}在东南角，灰白的灰熊，衰老的蛇，老罗伊·帕尔默！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002180</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 0, Kid}Ladies and gentlemen, I'd like to welcome you to tonight's event, which is sponsored by Breach Brand Muffins. This will be a fight to the finish.</ORIGINAL>
+    <TRADUIT>{排名 0，孩子}女士们先生们，我欢迎你们参加今晚的活动，该活动由 Breach Brand Muffins 赞助。这将是一场战斗到底。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200217A</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In the northwest corner, we have a new face to Dempsey's, a young up and comer, hungry with ambition, eager for success... The Kid!</ORIGINAL>
+    <TRADUIT>在西北角，我们看到了登普西的新面孔，一个年轻的后起之秀，雄心勃勃，渴望成功......孩子！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020018CD</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And in the southeast corner, fresh from his stint in physical therapy, Porcelain Johnny!</ORIGINAL>
+    <TRADUIT>在东南角，刚结束物理治疗的瓷器约翰尼！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020015E3</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 0, Rimjob}Ladies and gentlemen, I'd like to welcome you to tonight's event, which is sponsored by Breach Brand Muffins. This will be a fight to the finish.</ORIGINAL>
+    <TRADUIT>{排名 0，Rimjob}女士们先生们，我欢迎你们参加今晚由 Breach Brand Muffins 赞助的活动。这将是一场战斗到底。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200217B</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In the northwest corner, we have a new face to Dempsey's, a young up and comer, hungry with ambition, eager for success... Rimjob!</ORIGINAL>
+    <TRADUIT>在西北角，我们看到了 Dempsey's 的新面孔，一个年轻的后起之秀，雄心勃勃，渴望成功...... Rimjob！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020018CE</ID>
+    <EDID>aaKOTRAnnouncePlayer</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And in the southeast corner, fresh from his stint in physical therapy, Porcelain Johnny!</ORIGINAL>
+    <TRADUIT>在东南角，刚结束物理治疗的瓷器约翰尼！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200217C</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Successful TITLE DEFENSE}Ladies and gentlemen, we have a winner... the champ!</ORIGINAL>
+    <TRADUIT>{成功卫冕}女士们先生们，我们有一个胜利者......冠军！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA8</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Kid Won title}Ladies and gentlemen, we have a winner, and a new champion... The Kid!</ORIGINAL>
+    <TRADUIT>{Kid 赢得了冠军}女士们先生们，我们有一位获胜者，还有一位新冠军......Kid！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A97</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{RJ Won title}Ladies and gentlemen, we have a winner, and the new champion... Rimjob!</ORIGINAL>
+    <TRADUIT>{RJ 赢得冠军}女士们先生们，我们有胜利者，还有新的冠军...Rimjob！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A96</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Kid Won title shot}Ladies and gentlemen, we have a winner, and a new challenger for the title... The Kid!</ORIGINAL>
+    <TRADUIT>{Kid 赢得了冠军头衔}女士们先生们，我们有一位获胜者，还有一位新的冠军挑战者......Kid！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027B0</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{RJ Won title shot}Ladies and gentlemen, we have a winner, and a new challenger for the title... Rimjob!</ORIGINAL>
+    <TRADUIT>{RJ 赢得冠军镜头}女士们先生们，我们有一位获胜者，还有一位新的冠军挑战者...... Rimjob！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027AF</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Kid Won}Ladies and gentlemen, we have a winner... The Kid!</ORIGINAL>
+    <TRADUIT>{Kid 赢了}女士们先生们，我们有一个获胜者......Kid！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200217E</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{RJ Won}Ladies and gentlemen, we have a winner... Rimjob!</ORIGINAL>
+    <TRADUIT>{RJ Won}女士们先生们，我们有一个获胜者...... Rimjob！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200217D</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 0, Player Lost}Ladies and gentlemen, we have a winner by TKO... in a stunning upset... Porcelain Johnny!</ORIGINAL>
+    <TRADUIT>{排名 0，玩家失败}女士们先生们，我们以 TKO 获胜……令人震惊……瓷器约翰尼！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002186</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 1, Player Lost}Ladies and gentlemen, against the odds, we have a clear victor by TKO... Old Roy Palmer!</ORIGINAL>
+    <TRADUIT>{排名 1，玩家失败}女士们先生们，尽管困难重重，我们还是以 TKO 取得了明显的胜利……老罗伊·帕尔默！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200246F</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 2, Player Lost}Ladies and gentlemen, we have a decisive winner in this stinky spectacle... Dirty Don Juan!</ORIGINAL>
+    <TRADUIT>{排名 2，玩家失败}女士们先生们，我们在这场臭气熏天的场面中找到了决定性的胜利者......肮脏的唐璜！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200247A</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 3, Player Lost}Ladies and gentlemen, we have a decisive winner in this celebration of smash... Fifty Balls Brennan!</ORIGINAL>
+    <TRADUIT>{排名 3，玩家失败}女士们先生们，我们在这次粉碎庆祝活动中获得了决定性的胜利者......五十个球布伦南！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002483</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 4, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, the winner is... Tommy Mullet!</ORIGINAL>
+    <TRADUIT>{排名4，玩家失败}女士们先生们，通过决定性的TKO提高了他的战绩，获胜者是...... Tommy Mullet！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0200248C</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 5, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, the winner is... Flutter Tang!</ORIGINAL>
+    <TRADUIT>{排名5，落败}女士们先生们，以决定性TKO的方式提高战绩，获胜者是……唐飘飘！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002495</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 6, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, the winner is... El Guapo!</ORIGINAL>
+    <TRADUIT>{排名6，选手落败}女士们先生们，通过决定性的TKO提高了他的战绩，获胜者是...... El Guapo！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B0</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 7, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, the winner is... Drederick Dementia!</ORIGINAL>
+    <TRADUIT>{排名7，落败}女士们先生们，以决定性TKO的方式提高战绩，获胜者是……Drederick Dementia！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024B9</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 8, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, the winner is... Diabetes Leonard!</ORIGINAL>
+    <TRADUIT>{排名8，选手落败}女士们先生们，以决定性TKO的方式提高战绩，获胜者是……糖尿病伦纳德！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020024C3</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 9, Player Lost}Ladies and gentlemen, improving his record by  a way of decisive TKO, the winner is... Bull Rocco!</ORIGINAL>
+    <TRADUIT>{排名9，选手落败}女士们先生们，以果断TKO的方式提高战绩，获胜者是……布尔罗科！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>020027AB</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 10, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, the winner is... Bruce Ali!</ORIGINAL>
+    <TRADUIT>{排名10，选手落败}女士们先生们，通过决定性的TKO提高了他的战绩，获胜者是……布鲁斯·阿里！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002A98</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 11, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, and still champion... Adamantium Mike!</ORIGINAL>
+    <TRADUIT>{排名11，选手落败}女士们先生们，通过决定性的TKO提高了他的战绩，并且仍然是冠军......艾德曼金属迈克！</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>02002AA9</ID>
+    <EDID>aaKOTRAnnounceEnd</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>{Rank 12, Player Lost}Ladies and gentlemen, improving his record by way of a decisive TKO, and now the new champion... the challenger!</ORIGINAL>
+    <TRADUIT>{排名12，选手落败}女士们先生们，通过决定性的TKO提高了他的战绩，现在新的冠军......挑战者！ </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Referee [020015DD] (mod)
+Quest : ([02001019]aaKOTRMaster) Master Variables and Dialogue
+</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>02001016</ID>
+    <EDID>aaKOTR01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Tale of the Tape</ORIGINAL>
+    <TRADUIT>磁带的故事 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>02001016</ID>
+    <EDID>aaKOTR01</EDID>
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Speak with Dempsey about the prize fights.</ORIGINAL>
+    <TRADUIT>与邓普西谈论奖金争夺战。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest Stage : 5
+Index : 0</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>02001016</ID>
+    <EDID>aaKOTR01</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Speak with Dempsey about the prize fights.</ORIGINAL>
+    <TRADUIT>与邓普西谈论奖金争夺战。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>02001019</ID>
+    <EDID>aaKOTRMaster</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Master Variables and Dialogue</ORIGINAL>
+    <TRADUIT>主变量和对话 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>020024BC</ID>
+    <EDID>aaChampPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Champ</ORIGINAL>
+    <TRADUIT>冠军 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>020024BC</ID>
+    <EDID>aaChampPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>I am the greatest! As the reigning champion, you deal additional Unarmed damage.</ORIGINAL>
+    <TRADUIT>我是最棒的！作为卫冕冠军，你会造成额外的徒手伤害。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>020027AA</ID>
+    <EDID>aaChampPerkLossMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've lost the Champ perk.</ORIGINAL>
+    <TRADUIT>你已经失去了冠军特权。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>02001018</ID>
+    <EDID>aaKOTRIntroMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've heard rumors that a new boxing gym has opened near Westside, apparently operated by a ghoul, Dempsey. By all accounts, he is actively recruiting boxers to compete in lucrative prize fights held every evening. Perhaps you should speak with Dempsey and begin your career as a professional pugilist.</ORIGINAL>
+    <TRADUIT>你听说过有传言说西区附近新开了一家拳击馆，显然是由食尸鬼邓普西经营的。据了解，他正在积极招募拳击手参加每天晚上举行的利润丰厚的拳击比赛。也许您应该与登普西谈谈并开始您作为职业拳击手的职业生涯。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>02001018</ID>
+    <EDID>aaKOTRIntroMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>King of the Ring</ORIGINAL>
+    <TRADUIT>拳王</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>020027A9</ID>
+    <EDID>aaChampPerkGainMSG</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Congratulations! By claiming the title, you've earned the Champ perk.</ORIGINAL>
+    <TRADUIT>恭喜！通过获得冠军头衔，您就获得了冠军特权。 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>020027A9</ID>
+    <EDID>aaChampPerkGainMSG</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Champ</ORIGINAL>
+    <TRADUIT>冠军 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

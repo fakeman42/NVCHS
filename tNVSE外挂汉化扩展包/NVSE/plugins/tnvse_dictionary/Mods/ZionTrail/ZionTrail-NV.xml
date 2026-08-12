@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>Hwiccian</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>SNAM</CHAMP>
+    <ORIGINAL>Zion Trail link to Mojave desert</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0502DAAF</ID>
+    <EDID>ZkbCrewNoteActSCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn ZkbCrewNoteActSCRIPT
+
+; Script to log which notes have been collected and run script on specific notes
+
+Int ButtonVar
+Int NoteCount
+
+Begin OnTriggerLeave Player
+
+	if GetHasNote ZkbCrewNote01 == 1 &amp;&amp; GetQuestRunning ZkbJDCrewQuest01 == 0 &amp;&amp; GetQuestCompleted ZkbJDCrewQuest01 == 0
+;		StartQuest ZkbJDCrewQuest01						; Starts Quest running/edited out line 10-05-16
+		SetStage ZkbJDCrewQuest01 20					; activates quest
+		ShowMap Route95GasStopREF					; Shows Gas Stop Location - For ZionTrail-NV.esp
+		Player.additem ZkbKeyPetrolStn01 1 100				; adds petrol stn key, forces this quest to start before entering zion trail
+		Set ZkbJDCrewQuest01.CrewNote01 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote02 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote02 == 0
+;		SetStage ZkbJDCrewQuest01 20					; Sets quest objectives, activates quest for player/moved line 10-05-16
+		Set ZkbJDCrewQuest01.CrewNote02 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1 
+	Endif
+    
+	if GetHasNote ZkbCrewNote03 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote03 == 0
+		Set ZkbJDCrewQuest01.CrewNote03 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1     
+	Endif	
+
+	if GetHasNote ZkbCrewNote04 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote04 == 0
+		Set ZkbJDCrewQuest01.CrewNote04 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote05 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote05 == 0
+		ShowMap ZkbHayfordMapMkREF
+		Set ZkbJDCrewQuest01.CrewNote05 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+     
+	if GetHasNote ZkbCrewNote06 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote06 == 0
+		Set ZkbJDCrewQuest01.CrewNote06 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+		If GetQuestRunning ZkbVault616Quest01 == 0 &amp;&amp; GetQuestCompleted ZkbVault616Quest01 == 0 ; Script to start V616 quest
+ 			SetStage ZkbVault616Quest01 20
+			Set  ZkbVault616Quest01.V616QstJDNote to 1
+		elseif GetStage ZkbVault616Quest01 == 20 &amp;&amp; ZkbVault616Quest01.V616QstJDNote == 0 ; script to confirm confirm V616 rumours
+ 			SetStage ZkbVault616Quest01 30	
+		endif
+	Endif
+    
+	if GetHasNote ZkbCrewNote07 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote07 == 0
+		Set ZkbJDCrewQuest01.CrewNote07 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote08 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote08 == 0
+		Set ZkbJDCrewQuest01.CrewNote08 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote09 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote09 == 0
+		Set ZkbJDCrewQuest01.CrewNote09 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote10 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote10 == 0
+		Set ZkbJDCrewQuest01.CrewNote10 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote11 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote11 == 0
+		Set ZkbJDCrewQuest01.CrewNote11 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+		If GetQuestRunning ZkbVault616Quest01 == 0 &amp;&amp; GetQuestCompleted ZkbVault616Quest01 == 0 ; Script to start V616 quest
+ 			SetStage ZkbVault616Quest01 20
+			Set  ZkbVault616Quest01.V616QstJDNote to 1
+		elseif GetStage ZkbVault616Quest01 == 20 &amp;&amp; ZkbVault616Quest01.V616QstJDNote == 0 ; script to confirm confirm V616 rumours
+ 			SetStage ZkbVault616Quest01 30	
+		endif
+	Endif
+    
+	if GetHasNote ZkbCrewNote12 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote12 == 0
+		Set ZkbJDCrewQuest01.CrewNote12 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote13 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote13 == 0
+		Set ZkbJDCrewQuest01.CrewNote13 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote14 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote14 == 0
+		Set ZkbJDCrewQuest01.CrewNote14 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote15 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote15 == 0
+		Set ZkbJDCrewQuest01.CrewNote15 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote16 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote16 == 0
+		Set ZkbJDCrewQuest01.CrewNote16 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote17 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote17 == 0
+		Set ZkbJDCrewQuest01.CrewNote17 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote18 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote18 == 0
+		Set ZkbJDCrewQuest01.CrewNote18 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote19 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote19 == 0
+		Set ZkbJDCrewQuest01.CrewNote19 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote20 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote20 == 0
+		Set ZkbJDCrewQuest01.CrewNote20 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote21 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote21 == 0
+		Set ZkbJDCrewQuest01.CrewNote21 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+   
+	if GetHasNote ZkbCrewNote22 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote22 == 0
+		Set ZkbJDCrewQuest01.CrewNote22 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+     
+	if GetHasNote ZkbCrewNote23 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote23 == 0
+		Set ZkbJDCrewQuest01.CrewNote23 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+    
+	if GetHasNote ZkbCrewNote24 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote24 == 0
+		Set ZkbJDCrewQuest01.CrewNote24 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+		If GetQuestRunning ZkbVault616Quest01 == 0 &amp;&amp; GetQuestCompleted ZkbVault616Quest01 == 0 ; Script to start V616 quest
+ 			SetStage ZkbVault616Quest01 20
+			Set  ZkbVault616Quest01.V616QstJDNote to 1
+		elseif GetStage ZkbVault616Quest01 == 20 &amp;&amp; ZkbVault616Quest01.V616QstJDNote == 0 ; script to confirm confirm V616 rumours
+ 			SetStage ZkbVault616Quest01 30	
+		endif
+	Endif
+    
+	if GetHasNote ZkbCrewNote25 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote25 == 0
+		Set ZkbJDCrewQuest01.CrewNote25 to 1
+ 		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+		If GetQuestRunning ZkbVault616Quest01 == 0 &amp;&amp; GetQuestCompleted ZkbVault616Quest01 == 0 ; Script to start V616 quest
+ 			SetStage ZkbVault616Quest01 20
+			Set  ZkbVault616Quest01.V616QstJDNote to 1
+		elseif GetStage ZkbVault616Quest01 == 20 &amp;&amp; ZkbVault616Quest01.V616QstJDNote == 0 ; script to confirm confirm V616 rumours
+ 			SetStage ZkbVault616Quest01 30	
+		endif
+	Endif
+   
+	if GetHasNote ZkbCrewNote26 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote26 == 0
+		Set ZkbJDCrewQuest01.CrewNote26 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote27 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote27 == 0
+		Set ZkbJDCrewQuest01.CrewNote27 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote28 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote28 == 0
+		Set ZkbJDCrewQuest01.CrewNote28 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote29 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote29 == 0
+		Set ZkbJDCrewQuest01.CrewNote29 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote30 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote30 == 0
+		Set ZkbJDCrewQuest01.CrewNote30 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote31 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote31 == 0
+		Set ZkbJDCrewQuest01.CrewNote31 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote32 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote32 == 0
+		Set ZkbJDCrewQuest01.CrewNote32 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote33 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote33 == 0
+		Set ZkbJDCrewQuest01.CrewNote33 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote34 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote34 == 0
+		Set ZkbJDCrewQuest01.CrewNote34 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote35 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote35 == 0
+		Set ZkbJDCrewQuest01.CrewNote35 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote36 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote36 == 0
+		Set ZkbJDCrewQuest01.CrewNote36 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote37 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote37 == 0
+		Set ZkbJDCrewQuest01.CrewNote37 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote38 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote38 == 0
+		Set ZkbJDCrewQuest01.CrewNote38 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote39 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote39 == 0
+		Set ZkbJDCrewQuest01.CrewNote39 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote40 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote40 == 0
+		Set ZkbJDCrewQuest01.CrewNote40 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote41 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote41 == 0
+		Set ZkbJDCrewQuest01.CrewNote41 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote42 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote42 == 0
+		Set ZkbJDCrewQuest01.CrewNote42 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	if GetHasNote ZkbCrewNote43 == 1 &amp;&amp; ZkbJDCrewQuest01.CrewNote43 == 0
+		If ZkbJDCrewQuest01.NoteTotal &lt; 42
+			ShowMessage ZkbJDCrewEnd1Msg				; message to ask if player wants the quest to continue
+		endif
+		Set ZkbJDCrewQuest01.CrewNote43 to 1
+		Set ZkbJDCrewQuest01.NoteTotal to ZkbJDCrewQuest01.NoteTotal + 1
+	Endif
+
+	Set NoteCount to ZkbJDCrewQuest01.NoteTotal
+;	ShowMessage ZkbCrewNoteCountMsg NoteCount ; irratating pop up telling you how mant notes you have
+
+	If ZkbJDCrewQuest01.NoteTotal == 43 &amp;&amp; GetQuestCompleted ZkbJDCrewQuest01 == 0
+		ShowMessage ZkbJDCrewEnd2Msg
+		SetStage ZkbJDCrewQuest01 100
+	Endif
+
+End
+
+; script to control button press on message
+
+Begin GameMode
+
+	set buttonVar to getbuttonpressed
+	if ButtonVar == -1 								; No button pressed
+		Return
+	elseif ButtonVar == 0							; Carry on with quest
+		SetStage ZkbJDCrewQuest01 30
+	elseif ButtonVar == 1							; Quit quest
+		SetStage ZkbJDCrewQuest01 90
+	endif
+	RemoveMe
+
+End</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0502E74A</ID>
+    <EDID>ZkbZionTrailMapSCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn ZkbZionTrailMapSCRIPT
+
+Begin OnAdd
+
+	SetStage ZkbZionTrailQuest01 20
+	ZkbZtrailtoNVDoorREF.Enable			; enables links to Mojave Wasteland, for ZionTrail-NV.esp 
+	ZkbNVtoZtrailDoorREF.Enable
+	ShowMap Route95TunnelREF			; shows location of link, for ZionTrail-NV.esp
+	RemoveMe
+
+End</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>050322CA</ID>
+    <EDID>ZkbZionTrailQuest01ActSCRIPT</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>Scn ZkbZionTrailQuest01ActSCRIPT
+
+Begin OnTriggerEnter Player
+
+	SetStage  ZkbZionTrailQuest01 100				; Completes quest
+	ZkbZTrailtoZionValleyDoorREF.Enable			; enables links to Zion Valley, for ZionTrail-NV.esp
+	ZkbZionValleytoZTrailDoorREF.Enable
+	ZkbZionTrailQuest01ActREF.Disable				; Removes this activator
+	ZkbZionTrailQuest01ActREF.MarkForDelete
+
+End</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>060E44B5</ID>
+    <EDID>ZKBWhiteLegsWarning</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn ZKBTrainYardMsg02Script
+
+; Note activator
+begin onActivate
+
+	ShowMessage 000ZKBWhiteLegsWarning
+
+end</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>060E44B7</ID>
+    <EDID>00ZKBWhiteLegsWarning</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Warning notice</ORIGINAL>
+    <TRADUIT>警告通知</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>060E44B7</ID>
+    <EDID>00ZKBWhiteLegsWarning</EDID>
+    <CHAMP>XATO</CHAMP>
+    <ORIGINAL>Read notice</ORIGINAL>
+    <TRADUIT>阅读通知</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>05046BB5</ID>
+    <EDID>ZkbWeapHuntingRifle</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Angel Dust</ORIGINAL>
+    <TRADUIT>天使之尘</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0501418A</ID>
+    <EDID>ZkbFlyTrap</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fly Trap</ORIGINAL>
+    <TRADUIT>捕蝇器</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Wasteland Gunslinger</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>050150D3</ID>
+    <EDID>ZkbDolanJudith</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Judith Dolan</ORIGINAL>
+    <TRADUIT>朱迪思·多兰 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Settler</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0501577B</ID>
+    <EDID>ZkbDolanRebecca</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rebecca Dolan</ORIGINAL>
+    <TRADUIT>瑞贝卡·多兰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Settler</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>05015E47</ID>
+    <EDID>ZkbDolanIsaac</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Isaac Dolan</ORIGINAL>
+    <TRADUIT>艾萨克·多兰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Settler</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>05016765</ID>
+    <EDID>ZkbDolanAbner</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Abner Dolan</ORIGINAL>
+    <TRADUIT>阿布纳·多兰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Settler</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>05016768</ID>
+    <EDID>ZkbDolanJacob</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Jacob Dolan</ORIGINAL>
+    <TRADUIT>雅各布·多兰</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Settler</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0501B677</ID>
+    <EDID>ZkbBishopMolly</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Molly Bishop</ORIGINAL>
+    <TRADUIT>莫莉主教</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Asian
+Clas : Restaurant Owner</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>06129501</ID>
+    <EDID>aaaRoachNoHostile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radroach</ORIGINAL>
+    <TRADUIT>辐射蟑螂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06084E8E</ID>
+    <EDID>00ZionPillowNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>A warning</ORIGINAL>
+    <TRADUIT>警告</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06085494</ID>
+    <EDID>ZKBZionPillowNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>A warning</ORIGINAL>
+    <TRADUIT>警告</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>06085494</ID>
+    <EDID>ZKBZionPillowNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The next fucker I see WITH MY FUCKING PILLOW will be shot out of hand.
+
+This is not a threat, it's a promise.</ORIGINAL>
+    <TRADUIT>我看到的下一个用我枕头的混蛋会被直接枪毙。
+
+这不是威胁，是承诺。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0608B5B4</ID>
+    <EDID>ZKBFiendsOrders</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Fiend's Orders</ORIGINAL>
+    <TRADUIT>恶魔帮的命令</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0608B5B4</ID>
+    <EDID>ZKBFiendsOrders</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The paper contains a poorly drawn image of stick-figures emerging from a gas station and shooting at two more stick-figures. The names "Finger" and "Suzy" are drawn above the party being ambushed. 
+
+The names Finger and Suzy have been crossed out and mispelled several times.
+
+
+ </ORIGINAL>
+    <TRADUIT>这张纸上有一幅画得很差的图画，画中的是一个从加油站出来的简笔人像，他向另外两个简笔人像射击。“芬格尔”和“苏济”的名字被画在被伏击的队伍上方。
+
+“芬格尔”和“苏济”这两个名字被划掉，还被错拼了好几次。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0608FEBD</ID>
+    <EDID>ZKBArmorPierceNOTE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Make them count</ORIGINAL>
+    <TRADUIT>省着点用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0608FEBD</ID>
+    <EDID>ZKBArmorPierceNOTE</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>K,
+
+It was not uncommon for vaults to be equiped with top-of-the-line pre-war robotic defenses. Your benefactors have secured armor-piercing ammunition and pulse explosives for the operation. 
+
+Distribute this equipment ONLY to your best marksmen and ONLY when you are ready to make the final push into the vault. We understand that things are different on the frontier but back home acquiring equipment of this caliber while keeping quartermasters quiet and happy and the MPs and CID ignorant is expensive, difficult, and time-consuming work. We trust that you are the man for the job and will be conservative with the supplies you've been allocated.
+
+Godspeed,
+
+B</ORIGINAL>
+    <TRADUIT>K，
+避难所配备战前最先进的机器人防御系统并不罕见。你的赞助人为这次行动准备了穿甲弹和脉冲炸药。
+
+只有当你准备好最后一次进入避难所时，你才能把这个装备分发给你最好的射手。我们知道边境的情况不同，但在国内，获得这种口径的设备，同时让军需官安静快乐，让议员和刑事侦缉部一无所知是昂贵、困难和耗时的工作。我们相信你能胜任这份工作并且会对分配给你的物资守口如瓶。
+
+祝成功，
+
+
+- B</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060E44B4</ID>
+    <EDID>000ZKBWhiteLegsWarning</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>White Legs spotted ahead!
+
+Travellers beware of hostile wildlife, rockfall, and tribal assault!
+
+Travel this road at your own risk!</ORIGINAL>
+    <TRADUIT>前方白腿出没！
+
+旅行者要小心敌对的野生动物、落石和部落的攻击！
+
+走这条路，风险自负！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>060E44B4</ID>
+    <EDID>000ZKBWhiteLegsWarning</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Paper note reads...</ORIGINAL>
+    <TRADUIT>纸条上写着...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050033F4</ID>
+    <EDID>ZkbCave08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lillypad Cave</ORIGINAL>
+    <TRADUIT>睡莲叶洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05026EB2</ID>
+    <EDID>ZkbHayfordTrainStationBar</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Stop Flop House</ORIGINAL>
+    <TRADUIT>列车停车站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05034C9C</ID>
+    <EDID>ZkbVaultStoneCase</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stone Case Vault</ORIGINAL>
+    <TRADUIT>斯通计划避难所</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506D7A4</ID>
+    <EDID>ZkbTrainYardMachineRm</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Machine Shop</ORIGINAL>
+    <TRADUIT>机械工厂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05024388</ID>
+    <EDID>ZkbRCHotel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hole in the Wall Hotel</ORIGINAL>
+    <TRADUIT>又小又脏旅馆</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05075FC6</ID>
+    <EDID>ZkbPWayHut</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Railway Maintenance Hut</ORIGINAL>
+    <TRADUIT>铁路维护小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050034A8</ID>
+    <EDID>ZkbTrainYardOffice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Yard Office</ORIGINAL>
+    <TRADUIT>庭院办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050287F8</ID>
+    <EDID>ZkbHayfordHouse04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burgess's House</ORIGINAL>
+    <TRADUIT>伯吉斯的房子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0503F035</ID>
+    <EDID>ZkbRCUtility</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Utility Tunnel</ORIGINAL>
+    <TRADUIT>综合管廊</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506AAAF</ID>
+    <EDID>ZkbQuarryStation</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Station</ORIGINAL>
+    <TRADUIT>火车站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05062715</ID>
+    <EDID>ZkbTrainTunnel02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Tunnel</ORIGINAL>
+    <TRADUIT>火车隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050652DF</ID>
+    <EDID>ZkbTrainTunnel05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Tunnel</ORIGINAL>
+    <TRADUIT>火车隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05067FD5</ID>
+    <EDID>ZkbShack01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shack</ORIGINAL>
+    <TRADUIT>小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050065C3</ID>
+    <EDID>Zkb03Vault616</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Communal Areas</ORIGINAL>
+    <TRADUIT>公共区域</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05001CCB</ID>
+    <EDID>ZkbTrainYardVaultExit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Utility</ORIGINAL>
+    <TRADUIT>公用事业 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05022922</ID>
+    <EDID>ZkbNWTTransit</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Transit Rm</ORIGINAL>
+    <TRADUIT>中转站 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506DFE4</ID>
+    <EDID>ZkbTrainYardStorage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Stores</ORIGINAL>
+    <TRADUIT>商店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506C626</ID>
+    <EDID>ZkbTrainYardAdmin</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Administration</ORIGINAL>
+    <TRADUIT>管理部门</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05050C78</ID>
+    <EDID>ZkbVaultGroundHouseW</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ground House West Vault</ORIGINAL>
+    <TRADUIT>避难所西拱顶</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050280A3</ID>
+    <EDID>ZkbRCShack10</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>School House</ORIGINAL>
+    <TRADUIT>校舍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05071109</ID>
+    <EDID>Zkb01Vault616</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Access Levels</ORIGINAL>
+    <TRADUIT>访问级别</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0502EDBD</ID>
+    <EDID>ZkbNVPetrolStation01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gas Station</ORIGINAL>
+    <TRADUIT>加油站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05069A0D</ID>
+    <EDID>ZkbPumpRoom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Pump House</ORIGINAL>
+    <TRADUIT>采石场泵房</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05066D3F</ID>
+    <EDID>ZkbHayfordHouse03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blu Ray Independent Trading</ORIGINAL>
+    <TRADUIT>蓝光独立贸易</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05024089</ID>
+    <EDID>ZkbTrainTunnel07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Tunnel</ORIGINAL>
+    <TRADUIT>火车隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0500C5AC</ID>
+    <EDID>ZkbCave07</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Riverside Cave</ORIGINAL>
+    <TRADUIT>河畔洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05067718</ID>
+    <EDID>ZkbHayfordElecSubStn01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Electrical Sub Station</ORIGINAL>
+    <TRADUIT>变电站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05003D6C</ID>
+    <EDID>ZkbTrainYardSecurity</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Supervisors Office</ORIGINAL>
+    <TRADUIT>监管办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05003CB8</ID>
+    <EDID>Zkb02Vault616</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Storage Level</ORIGINAL>
+    <TRADUIT>存储水平</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05004618</ID>
+    <EDID>ZkbCave01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave</ORIGINAL>
+    <TRADUIT>洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05001C06</ID>
+    <EDID>ZkbTrainYardUtility</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Utility</ORIGINAL>
+    <TRADUIT>公用事业 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506AB5C</ID>
+    <EDID>ZkbQuarryBarracks</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Rest Room</ORIGINAL>
+    <TRADUIT>采石场休息室 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05070EF8</ID>
+    <EDID>Zkb00Vault616</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drainage Tunnels</ORIGINAL>
+    <TRADUIT>排水隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05005D6B</ID>
+    <EDID>Zkb05Vault616</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Maintenance Level</ORIGINAL>
+    <TRADUIT>维护级别</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05022F29</ID>
+    <EDID>ZkbCave04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Frobisher Cave</ORIGINAL>
+    <TRADUIT>弗罗比舍洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506AD29</ID>
+    <EDID>ZkbQuarryMachineRm</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Machine Shop</ORIGINAL>
+    <TRADUIT>采石场机械车间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05001BF3</ID>
+    <EDID>ZkbTrainYardSewer01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sewer</ORIGINAL>
+    <TRADUIT>下水道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05007C6F</ID>
+    <EDID>ZkbLagoonDiner</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Diner &amp; Shop</ORIGINAL>
+    <TRADUIT>餐厅&amp;商店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050132DB</ID>
+    <EDID>ZkbRCShack06</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sheriffs Office</ORIGINAL>
+    <TRADUIT>治安官办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05012BF1</ID>
+    <EDID>ZkbRCShack05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dolan Household</ORIGINAL>
+    <TRADUIT>多兰一家人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05063002</ID>
+    <EDID>ZkbCarTunnel01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tunnel</ORIGINAL>
+    <TRADUIT>隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05001A46</ID>
+    <EDID>ZkbTrainYardElectrical</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Electrical</ORIGINAL>
+    <TRADUIT>电梯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05001AB4</ID>
+    <EDID>ZkbTrainYardServiceTunnel</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Service Tunnel</ORIGINAL>
+    <TRADUIT>勤务通道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0500473C</ID>
+    <EDID>ZkbCave02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave</ORIGINAL>
+    <TRADUIT>洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050680A2</ID>
+    <EDID>ZkbZionStore01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>General Store</ORIGINAL>
+    <TRADUIT>杂货店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506ABB8</ID>
+    <EDID>ZkbQuarryOffices</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Quarry Administration</ORIGINAL>
+    <TRADUIT>采石场行政部门</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050046D9</ID>
+    <EDID>ZkbCave05</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave</ORIGINAL>
+    <TRADUIT>洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0500BF33</ID>
+    <EDID>ZkbRCDiner04</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cafe Diner</ORIGINAL>
+    <TRADUIT>咖啡餐厅</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05007D39</ID>
+    <EDID>ZkbLagoonRestroom</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Restroom</ORIGINAL>
+    <TRADUIT>卫生间</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050149F3</ID>
+    <EDID>Zkb04Vault616</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Accommodation Level</ORIGINAL>
+    <TRADUIT>住宿水平</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05065C81</ID>
+    <EDID>ZkbHayfordHouse01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Myers Household</ORIGINAL>
+    <TRADUIT>迈尔斯一家人</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506C595</ID>
+    <EDID>ZkbTrainYardSignalBox</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shunters Signal Box</ORIGINAL>
+    <TRADUIT>扳道员信号箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0501CB68</ID>
+    <EDID>ZkbCave03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave</ORIGINAL>
+    <TRADUIT>洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05053DFC</ID>
+    <EDID>ZkbTrainTunnel01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Tunnel</ORIGINAL>
+    <TRADUIT>火车隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05009126</ID>
+    <EDID>ZkbCave09</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cave</ORIGINAL>
+    <TRADUIT>洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506BCE0</ID>
+    <EDID>ZkbQuarrySignalBox</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shunters Signal Box</ORIGINAL>
+    <TRADUIT>扳道员信号箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0506DCE8</ID>
+    <EDID>ZkbVaultGroundHouseE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ground House East Vault</ORIGINAL>
+    <TRADUIT>避难所东拱顶</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0500A922</ID>
+    <EDID>ZkbRCShack11WaterField</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hunting Shack</ORIGINAL>
+    <TRADUIT>狩猎小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0500D1D7</ID>
+    <EDID>ZkbRCShack02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Medical Centre</ORIGINAL>
+    <TRADUIT>医疗中心 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0500F2A7</ID>
+    <EDID>ZkbRCShack03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Howie's Repairs</ORIGINAL>
+    <TRADUIT>豪伊的修理店</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05021A5B</ID>
+    <EDID>ZkbCarTunnel02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zion Overlook Tunnel</ORIGINAL>
+    <TRADUIT>锡安俯瞰隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050664D5</ID>
+    <EDID>ZkbHayfordHouse02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Empty House</ORIGINAL>
+    <TRADUIT>空房子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>05066EFD</ID>
+    <EDID>ZkbHayfordPetrolStation02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gas Station</ORIGINAL>
+    <TRADUIT>加油站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>050522AF</ID>
+    <EDID>ZkbRCTrainTunnel08</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Train Tunnel</ORIGINAL>
+    <TRADUIT>火车隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06008A0E</ID>
+    <EDID>Route95TunnelREF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Route 95 Tunnel</ORIGINAL>
+    <TRADUIT>95号公路隧道</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>06008A0D</ID>
+    <EDID>Route95GasStopREF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Route 95 Gas Stop</ORIGINAL>
+    <TRADUIT>95号公路加油站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0200683B</ID>
+    <EDID>NVDLC02ZionCanyon</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zion Canyon</ORIGINAL>
+    <TRADUIT>锡安峡谷</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0500740E</ID>
+    <EDID>ZionTrailWaterField</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lillypad Field</ORIGINAL>
+    <TRADUIT>睡莲叶田</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>05031B29</ID>
+    <EDID>ZionTrail</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Zion Trail</ORIGINAL>
+    <TRADUIT>锡安小径</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

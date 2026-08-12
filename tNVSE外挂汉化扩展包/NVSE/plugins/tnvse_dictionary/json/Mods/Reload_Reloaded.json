@@ -1,0 +1,332 @@
+[
+  {
+    "key": "migReloaderQS_000074FB#SCPT:SCDA#7b37d161d90945dfa9457837bc96f5c2",
+    "original": "Reload Reloaded: nulled setting for Strength.",
+    "translation": "换装换弹:力量补正设置无效。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderQS_000074FB#SCPT:SCDA#bbdb113936e63f247dcb2488742cdd88",
+    "original": "Reload Reloaded: nulled setting for Agility.",
+    "translation": "换装换弹:敏捷补正设置无效。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#407b0048018dda0f48c75bd54fcb16b6",
+    "original": "Reload Modifier",
+    "translation": "换弹补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#56d7ff5d3b821da4904d0cf98d96e3ef",
+    "original": "Equip Modifier",
+    "translation": "换装补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#ae6e08e9fcf9be9d308daf3a4a864397",
+    "original": "AGL Offset",
+    "translation": "当前敏捷值",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#214d1c296be60f86bba8e7ecce9e652d",
+    "original": "AGL Modifier",
+    "translation": "敏捷补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#72085a50e7b10a8ed7dccbdabeef23c9",
+    "original": "Min Speed",
+    "translation": "最小速度",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#5631aedc787b5dcecc776d9aa0c35fb1",
+    "original": "Max Speed",
+    "translation": "最大速度",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#fc94c58f098a6f151f24f07614d84898",
+    "original": "Lobber Weapons Modifier",
+    "translation": "投掷武器补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#097f11244490cfa5622c51522f8887de",
+    "original": "Missile Weapons Modifier",
+    "translation": "投射武器补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#389bb2c02f1f09979297e046879f8ee0",
+    "original": "Base Modifier",
+    "translation": "基础补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#c24d924e3c367126a46fab5d88055093",
+    "original": "STR Modifier",
+    "translation": "力量补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#577310018a84fd5533051c63d9cbb5c4",
+    "original": "Min Modifier",
+    "translation": "最小补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#6bdd4dda05a1006794583f88425d2f82",
+    "original": "Max Modifier",
+    "translation": "最大补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#17e5b2a5dacb27ad6228ccfd15ae968b",
+    "original": "Melee Critical Multiplier",
+    "translation": "近战暴击倍数",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#1a025f0f6726f794aee5e1b10b421370",
+    "original": "Ranged Critical Multiplier",
+    "translation": "远程暴击倍数",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#9f7c6b275153cecea6c585f4350064ee",
+    "original": "Base Multiplier",
+    "translation": "基础倍数\\n%r",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#0bf077fbd6823cd9d6282796e8641e6c",
+    "original": "Sneak Modifier",
+    "translation": "潜行补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM1Reset_000074FE#SCPT:SCDA#3deb70d6883b67c4bd1a0016090ccf18",
+    "original": "Max Multiplier",
+    "translation": "最大倍数",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#5d733280bb64771b99d3432d76c3854f",
+    "original": "Agility",
+    "translation": "敏捷",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#c3921f421b7d538d73c9245ed9e9830b",
+    "original": "Offset of the modifier",
+    "translation": "当前补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#bee193b919ad8c2781b83eeb708407d2",
+    "original": "Modifier per point of Agility",
+    "translation": "每点敏捷属性补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#061696adf9dce9c1e55da4c9ac84d4a7",
+    "original": "Minimum modifier",
+    "translation": "最小补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#0ce0e6bbc353b6c2b70ca4608c1a5aff",
+    "original": "Maximum modifier",
+    "translation": "最大补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#7c4bd348877c0f279b8d50bd6a47aef6",
+    "original": "Base throwing distance percentage",
+    "translation": "基础投掷距离百分比",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#57db0e4fce64e6d1e3a0c34147f94211",
+    "original": "Base damage multiplier",
+    "translation": "基础伤害倍数",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#d1c5b7800e760bdd79909637418c9cda",
+    "original": "Modifier per point in Sneak",
+    "translation": "每点潜行技能补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM5ShowScale_00007501#SCPT:SCDA#58164be7559539a9660a995c14f6a1fc",
+    "original": "Maximum multiplier",
+    "translation": "最大倍数",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#d15b7b2a4fc69d8a2ddcccbb0b8341a5",
+    "original": "Enable Agility modifiers to weapon reloading speed.",
+    "translation": "允许敏捷属性补正武器换弹速度。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#8da2506563dfd68f83553a4ab0d80f77",
+    "original": "Enable Agility modifiers to weapon drawing and holstering speed.",
+    "translation": "允许敏捷属性补正拔枪和收枪速度。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#af425314542c7212b9fd73104a810eeb",
+    "original": "Agility score for base reloading speed.",
+    "translation": "基础换弹速度对应的敏捷值。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#d5e6c76e6a1c089d359c8636832bf21b",
+    "original": "Agility score for base drawing and holstering speed.",
+    "translation": "基础拔枪和收枪速度对应的敏捷值。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#55bcafd26001199b1ae1aedb98525847",
+    "original": "Percentage modifier to reload speed per point in Agility.",
+    "translation": "每点敏捷属性对换弹速度的百分比补正。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#70d2682679eebd73eccec421bb36ad2a",
+    "original": "Percentage modifier to drawing and holstering speed per point in Agility.",
+    "translation": "每点敏捷属性对拔枪和收枪速度的百分比补正。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#49ed45d3f378924152e56fa7fff49616",
+    "original": "Minimum percentage of base reload speed enforced by Agility.",
+    "translation": "敏捷属性约束基础换弹速度的最小百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#8e1290b52171de505c4347ef9f61859c",
+    "original": "Minimum percentage of base drawing and holstering speed enforced by Agility.",
+    "translation": "敏捷属性约束拔枪和收枪速度的最小百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#1e3de013677e64129199ca5f7148ba5f",
+    "original": "Maximum percentage of base reload speed enforced by Agility.",
+    "translation": "敏捷属性约束基础换弹速度的最大百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#685b96964333127a42dedcf9bcaea6da",
+    "original": "Maximum percentage of base drawing and holstering speed enforced by Agility.",
+    "translation": "敏捷属性约束拔枪和收枪速度得最大百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#74a6507925d6ad8e86bdda8cfc8264c8",
+    "original": "Enable Strength modifiers to lobber throwing distance (grenades, rocks...).",
+    "translation": "允许力量属性补正投掷武器(手榴弹，石头等)的投掷距离。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#49f8918c0d22d98ee792f94d0a2f3417",
+    "original": "Enable Strength modifiers to missile throwing distance (spears, hatchets...).",
+    "translation": "允许力量属性补正投射武器(长矛，斧头等)的投掷距离。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#e05916516dc8139ffe035d58a5b898c2",
+    "original": "Percentage of weapons' throwing speed used as a base.",
+    "translation": "武器投掷速度对应的基础百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#777ce92816fa346ba0003fab301d55f0",
+    "original": "Percentage modifier to throw distance per point in Strength past the weapon's requirement.",
+    "translation": "超过武器要求的每点力量对投掷距离的百分比补正。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#9e58e534d174279b111753692e96d5d6",
+    "original": "Minimum percentage of base throwing speed enforced by Strength.",
+    "translation": "力量属性约束基础投掷速度的最小百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#46003c685ce7a863707b37089ace5ce1",
+    "original": "Maximum percentage of base throwing speed enforced by Strength.",
+    "translation": "力量属性约束基础投掷速度的最大百分比。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#56eb4ec6b1589646900d8ceda75452c9",
+    "original": "Enable Sneak skill modifiers to sneak critical damage from melee weapons.",
+    "translation": "允许潜行技能补正近战武器的潜行暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#42a06f9de0742af76fde45aba1d4da6f",
+    "original": "Enable Sneak skill modifiers to sneak critical damage from ranged weapons.",
+    "translation": "允许潜行技能补正远程武器的潜行暴击伤害。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#37c77436bf1454275c3a617cb720f4af",
+    "original": "Base sneak attack damage multiplier.",
+    "translation": "基础潜行伤害倍数",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#e9ab0673dbb1b2bf10e45cd092898475",
+    "original": "Percentage modifier to sneak critical damage multiplier per point in Sneak skill.",
+    "translation": "每点潜行技能对潜行暴击伤害倍数的百分比补正。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCM7MouseOver_00007503#SCPT:SCDA#5a29d23cf0d901d610b853cdfb135413",
+    "original": "Maximum sneak attack damage multiplier.",
+    "translation": "最大偷袭伤害倍数。",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCMToken_000074F3#MISC:FULL#60f949d9d6af8c6de7f14b4bcab0d3bf",
+    "original": "Reload Reloaded",
+    "translation": "换装换弹",
+    "stage": 1
+  },
+  {
+    "key": "migReloadFixerQ_000074FA#QUST:FULL#8f8c3cc0b6a7417a02380b3523c09756",
+    "original": "Reload Reloaded - Perk rekicker",
+    "translation": "换装换弹 - 技能补正",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderQ_0000750D#QUST:FULL#60f949d9d6af8c6de7f14b4bcab0d3bf",
+    "original": "Reload Reloaded",
+    "translation": "换装换弹",
+    "stage": 1
+  },
+  {
+    "key": "migReloaderMCMQ_000074F9#QUST:FULL#a61a3fe9b9770500d4ae88ef569c17b9",
+    "original": "Reload Reloaded - MCM",
+    "translation": "换装换弹 - MCM",
+    "stage": 1
+  },
+  {
+    "key": "migThrowing_000074F7#PERK:FULL#d319f505940a4d7737d7676e2e58b5c0",
+    "original": "Throwing Strength",
+    "translation": "投掷力量",
+    "stage": 1
+  },
+  {
+    "key": "migSpeed_000074F4#PERK:FULL#06db5d7b4324d0658d1a44e7a0347221",
+    "original": "Draw & Reload",
+    "translation": "拔枪&换弹",
+    "stage": 1
+  }
+]

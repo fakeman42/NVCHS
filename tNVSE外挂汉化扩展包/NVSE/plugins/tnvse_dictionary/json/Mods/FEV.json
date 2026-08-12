@@ -1,0 +1,782 @@
+[
+  {
+    "key": "FEVUnstableTeslaDummy_0D005B66#MGEF:FULL#dedf15cb2362423774051af82769d955",
+    "original": "Chance to Explode When Fired",
+    "translation": "开火时爆炸几率",
+    "stage": 1
+  },
+  {
+    "key": "FEVKillQuestScript_0D0018DB#SCPT:SCDA#946cef0297e366dcba3a57084f5e61e3",
+    "original": "done",
+    "translation": "完成",
+    "stage": 1
+  },
+  {
+    "key": "FEVOleReliableHelmetEffect_0D00297C#ENCH:FULL#ee3e037af45989088df49f443e76e49c",
+    "original": "Ol' Reliable Power Helmet",
+    "translation": "老伙计动力头盔",
+    "stage": 1
+  },
+  {
+    "key": "FEVOleReliableEffect_0D00297B#ENCH:FULL#bc775f3d5d3549a97ac2c8bcf5077210",
+    "original": "Ol' Reliable Power Armor",
+    "translation": "老伙计动力装甲",
+    "stage": 1
+  },
+  {
+    "key": "FEVTeslaCannonEMP_0D005B67#ENCH:FULL#cdf90f659118fe370763cef05e0532b8",
+    "original": "Electromagnetic Pulse",
+    "translation": "电磁脉冲",
+    "stage": 1
+  },
+  {
+    "key": "FEVGenericDismembermentHead_0D006C6B#ACTI:FULL#7de96bee32d213979f357b5f82f309da",
+    "original": "Gas Valve",
+    "translation": "气阀",
+    "stage": 1
+  },
+  {
+    "key": "FEVAFBVertibird_0D009F13#ACTI:XATO#7d4ef98f4e6c04eace86b221e638f387",
+    "original": "Travel to the Capital Wasteland",
+    "translation": "前往首都废土。",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:FULL#ab1f7b8f6b57704f765eb669963464c9",
+    "original": "Enclave Field Research Terminal",
+    "translation": "英克雷战地研究终端机",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:DESC#ace9346234dfb106f7e88d0773aff398",
+    "original": "*************************\\n*Mobile Platform Control*\\n*************************",
+    "translation": "*************************\\n*机动要塞控制*\\n*************************",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:ITXT#bf942f6f6d6124c1161621d60193d9eb",
+    "original": "Open Mobile Platform Loading Ramp",
+    "translation": "开启机动要塞装卸通道",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:RNAM#280b50516fcf5762c09787e6db6dad8b",
+    "original": "Ramp Open",
+    "translation": "通道开启",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:ITXT#7b8d11541fb0ac7e8f344717aae51de0",
+    "original": "Close Mobile Platform Loading Ramp",
+    "translation": "关闭机动要塞装卸通道",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:RNAM#7c62a67b5d4807fc633baf41877e84f0",
+    "original": "Ramp Closed",
+    "translation": "通道关闭",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:ITXT#50c8aa2df88b4e0f01a2c076101e0c5f",
+    "original": "Contact Mobile Platform Control Center",
+    "translation": "联络机动要塞指挥中心",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:RNAM#a3e37873a4e622016a3fd20f6d0eee26",
+    "original": "Unavailable - Radio Silence Protocol A45",
+    "translation": "不可使用 - 无线电缄默A45协议",
+    "stage": 1
+  },
+  {
+    "key": "FEVControlTowerTerminal_0D006C5E#TERM:ITXT#142697d47b93da77c42f8a49b79b2128",
+    "original": "Contact Vertibird Flight Control",
+    "translation": "联络飞鸟飞行指挥塔",
+    "stage": 1
+  },
+  {
+    "key": "FEVEnclaveT51Helmet_0D0018C3#ARMO:FULL#ee3e037af45989088df49f443e76e49c",
+    "original": "Ol' Reliable Power Helmet",
+    "translation": "老伙计动力头盔",
+    "stage": 1
+  },
+  {
+    "key": "FEVEnclaveT51Armor_0D0018C2#ARMO:FULL#bc775f3d5d3549a97ac2c8bcf5077210",
+    "original": "Ol' Reliable Power Armor",
+    "translation": "老伙计动力装甲",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelEnclaveVendor_0D008E54#CONT:FULL#d6e99110004c5621803a18431fc8ea5f",
+    "original": "Enclave Equipment",
+    "translation": "英克雷装备",
+    "stage": 1
+  },
+  {
+    "key": "FEVVertiDoor_0D009F51#DOOR:FULL#4761084ed46689f19eb09280ea4c4fe0",
+    "original": "Hatch",
+    "translation": "舱门",
+    "stage": 1
+  },
+  {
+    "key": "FEVBookHammer_0D005B88#WEAP:FULL#6f89202025dffef5a684b13e577b44e2",
+    "original": "Big Book of Learning",
+    "translation": "博学巨著",
+    "stage": 1
+  },
+  {
+    "key": "FEVBookHammer_0D005B88#WEAP:VANM#c43a674c6617b81d94b5b9ed490460d9",
+    "original": "Mauler",
+    "translation": "猛击",
+    "stage": 1
+  },
+  {
+    "key": "FEVquickbarrel_0D0039F4#WEAP:FULL#9f1254775360c6024d0352b69a01b7c5",
+    "original": "Quick Barrel",
+    "translation": "速射枪管",
+    "stage": 1
+  },
+  {
+    "key": "FEVEnclaveAlphaPistol_0D004A9C#WEAP:FULL#578bcb235713c40e1119996e22a2866d",
+    "original": "Twin Eagle",
+    "translation": "双鹰",
+    "stage": 1
+  },
+  {
+    "key": "FEVSentryPrimeWeapon_0D0018B6#WEAP:FULL#2b89c5c710830112f0deb5bfc656cdde",
+    "original": "SentryBot Laser Gatling",
+    "translation": "机器人的多管激光枪",
+    "stage": 1
+  },
+  {
+    "key": "FEVSentryPrimeMissile_0D0018B7#WEAP:FULL#4329dc2951bba2895a9a3f669a81e95f",
+    "original": "Missile Launcher",
+    "translation": "导弹发射器",
+    "stage": 1
+  },
+  {
+    "key": "FEVTeslaPrototype_0D005B68#WEAP:FULL#b3f39b67ab81a8871056f7c5b601fcf5",
+    "original": "Unstable Tesla Cannon Prototype",
+    "translation": "不稳定特斯拉加农炮原型",
+    "stage": 1
+  },
+  {
+    "key": "FEVSentryPrimeReward_0D0018BB#WEAP:FULL#dabd8a4397dbaef2832b14f7c39dc20f",
+    "original": "Prime Gatling Laser",
+    "translation": "先锋激光加特林",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadA_0D005BBC#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelInitiateDEADA_0D005BC0#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVElderLyonsDEAD_0D005BC2#NPC_:FULL#8b23dd11011b693bb032f3c229487207",
+    "original": "Elder Lyons",
+    "translation": "里昂斯长老",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadB_0D005BC4#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVBowditchDEAD_0D005BC6#NPC_:FULL#1078e828762fa6e238663376e1d3d9dd",
+    "original": "Scribe Bowditch",
+    "translation": "学士鲍蒂奇",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelScribeDeadA_0D005BC7#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "FEVPaladinGunnyDead_0D005BCA#NPC_:FULL#dbe970120de31c1a6b6c36b11edb6595",
+    "original": "Paladin Gunny",
+    "translation": "圣骑士甘尼",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadE_0D005BD3#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelEnclaveDeadA_0D005BD5#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelEnclaveDeadB_0D005BD7#NPC_:FULL#a77cdfc47a474275880ae25ad5f44401",
+    "original": "Enclave Soldier",
+    "translation": "英克雷士兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVCrossDEAD_0D005BDA#NPC_:FULL#b9b6ac349fc8f0c0c4cbe35ba2319833",
+    "original": "Star Paladin Cross",
+    "translation": "星骑士 克罗丝",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelGallowsDEAD_0D005BDE#NPC_:FULL#05c797affcbf336471188e44be305c8d",
+    "original": "Knight Captain Gallows",
+    "translation": "骑士队长盖洛斯",
+    "stage": 1
+  },
+  {
+    "key": "FEVVargasDead_0D005BE3#NPC_:FULL#89c3b76c25556f8964c8ee0d02c24c0c",
+    "original": "Paladin Vargas",
+    "translation": "圣骑士维加斯",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelScribeDeadB_0D005BE5#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadC_0D005BE7#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadD_0D005BEA#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelScribeDeadC_0D005BED#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelScribeDeadD_0D006C6D#NPC_:FULL#02f76427c9aa9b21aa8d04cf4c7d20f7",
+    "original": "Brotherhood Scribe",
+    "translation": "兄弟会学士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelInitiateDEADB_0D006C6F#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVRothchildDEAD_0D006C71#NPC_:FULL#ab4419ff40dcc5894c0a2f7879721411",
+    "original": "Scribe Rothchild",
+    "translation": "学士罗斯查德",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadF_0D006C75#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadG_0D007D4E#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadH_0D007D50#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadJ_0D007D52#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadK_0D007D54#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelInitiateDEADC_0D007D56#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelInitiateDEADD_0D007D58#NPC_:FULL#4d8aa3ad53fccaa50172f94385de897d",
+    "original": "Brotherhood of Steel Initiate",
+    "translation": "钢铁兄弟会新兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelKnightDeadL_0D007D5A#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVBaelDEAD_0D007D5C#NPC_:FULL#e9bc9e583274c1878da234ae9c2eed65",
+    "original": "Paladin Bael",
+    "translation": "圣骑士贝尔",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelEnclaveMerchant_0D008E50#NPC_:FULL#4ad14881d739f6125a07318544ca4ead",
+    "original": "Enclave Quartermaster",
+    "translation": "英克雷军需官",
+    "stage": 1
+  },
+  {
+    "key": "FEVDefenderArtemis_0D005B61#NPC_:FULL#83a9bdec6815152398a59ebd88a5f374",
+    "original": "Defender Artemis",
+    "translation": "守卫者阿尔忒弥斯",
+    "stage": 1
+  },
+  {
+    "key": "FEVOutcastVallincourt_0D005B64#NPC_:FULL#f1594dc0d6677fd3f94a5ffb1699bd35",
+    "original": "Specialist Vallincourt",
+    "translation": "专家瓦林考特",
+    "stage": 1
+  },
+  {
+    "key": "FEVConfessorCromwellDead_0D00192C#NPC_:FULL#51c9ee207e1fd72956ff95d7f9f9ad81",
+    "original": "Confessor Cromwell",
+    "translation": "忏悔者克伦威尔",
+    "stage": 1
+  },
+  {
+    "key": "FEVMoiraBrownDead_0D001947#NPC_:FULL#4602537f664c4ebf53e443bfaf8cec10",
+    "original": "Moira Brown",
+    "translation": "莫伊拉·布朗",
+    "stage": 1
+  },
+  {
+    "key": "FEVColinMoriartyDEAD_0D00194A#NPC_:FULL#67cfbfd1731fefbeb8bbffe2c4e97edc",
+    "original": "Colin Moriarty",
+    "translation": "科林.莫里亚蒂",
+    "stage": 1
+  },
+  {
+    "key": "FEVLeoStahlDEAD_0D001983#NPC_:FULL#2938c800b7c8cbf3515d193831cf6f4a",
+    "original": "Leo Stahl",
+    "translation": "利奥·斯塔尔",
+    "stage": 1
+  },
+  {
+    "key": "FEVScribeYearlingDEAD_0D005B86#NPC_:FULL#7c54882d96232c5d54433b588168a2fa",
+    "original": "Scribe Yearling",
+    "translation": "学士伊尔琳",
+    "stage": 1
+  },
+  {
+    "key": "FEVWalterDEAD_0D0019B6#NPC_:FULL#ee880e788932d81c24a8f527ab07e473",
+    "original": "Walter",
+    "translation": "沃尔特",
+    "stage": 1
+  },
+  {
+    "key": "FEVArlingtonBoss_0D005B89#NPC_:FULL#3acd8d202945093ce1ff689026afe11d",
+    "original": "Learned Man",
+    "translation": "博学之人",
+    "stage": 1
+  },
+  {
+    "key": "FEVLucasSimmsDEAD_0D0019E3#NPC_:FULL#b2a03e4fe6b895bad0d1eda2737697a8",
+    "original": "Lucas Simms",
+    "translation": "卢卡斯·西姆斯",
+    "stage": 1
+  },
+  {
+    "key": "FEVRCEnclaveBoss_0D007CFC#NPC_:FULL#29aeafbad29fa3d4694228d204f19119",
+    "original": "The Admiral",
+    "translation": "海军上将",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelT51EnclaveOfficer_0D00297A#NPC_:FULL#9768058d4d75b308173d499617814fbb",
+    "original": "Captain Irons",
+    "translation": "艾恩斯上尉",
+    "stage": 1
+  },
+  {
+    "key": "FEVSarahLyonsDEAD_0D002A66#NPC_:FULL#a83eaeff50f1a6fbc5f2fbd30c2b9c6c",
+    "original": "Sentinel Lyons",
+    "translation": "莎拉.里昂斯",
+    "stage": 1
+  },
+  {
+    "key": "FEVProjectPurityEnclaveOfficer_0D0039F3#NPC_:FULL#5abd88953afc70c811d93dec41f51814",
+    "original": "Lieutenant Northrop",
+    "translation": "诺斯罗普中尉",
+    "stage": 1
+  },
+  {
+    "key": "FEVKnightCombat_0D003AD6#NPC_:FULL#92e0b71a0a2f2f1530ef08f50bdf5e8e",
+    "original": "Brotherhood of Steel Knight",
+    "translation": "钢铁兄弟会骑士",
+    "stage": 1
+  },
+  {
+    "key": "FEVGNREnclaveBoss_0D004A9D#NPC_:FULL#e83004abe2934fe59a61c6f017e8bb0a",
+    "original": "Major Richardson",
+    "translation": "理查森少校",
+    "stage": 1
+  },
+  {
+    "key": "FEVRCSentryBotMGEnclaveDC_0D007D38#CREA:FULL#a58866ccc65d6fde2a12793a3037932b",
+    "original": "Enclave Sentry Bot",
+    "translation": "英克雷铁卫兵",
+    "stage": 1
+  },
+  {
+    "key": "FEVProtectronEnclaveDC_0D004AE4#CREA:FULL#bc83df85a67dae7ff67ccb8734cfcb23",
+    "original": "Enclave Protectron",
+    "translation": "英克雷自动护卫",
+    "stage": 1
+  },
+  {
+    "key": "FEVEnclavePrime_0D0018A9#CREA:FULL#a07ad5e4f4e51772b26d87a0cf3ba149",
+    "original": "Liberty Prime",
+    "translation": "自由先锋",
+    "stage": 1
+  },
+  {
+    "key": "FEVSentryPrime_0D0018B9#CREA:FULL#1ada869cb2ea4b4183e83c72b7e88214",
+    "original": "Sentry Prime Prototype",
+    "translation": "哨兵原型机",
+    "stage": 1
+  },
+  {
+    "key": "FEVCrMisterGutsyEnclave_0D0018FF#CREA:FULL#affcf2eb3f18ca50d61f9b576d24edb9",
+    "original": "Enclave Mister Gutsy",
+    "translation": "英克雷狂风先生",
+    "stage": 1
+  },
+  {
+    "key": "FEVSawbonesDEAD_0D002A62#CREA:FULL#c482a47a534d9e88d77340349a9043f5",
+    "original": "Sawbones",
+    "translation": "骨锯",
+    "stage": 1
+  },
+  {
+    "key": "FEVProjectPurityPrimeNote_0D004A69#NOTE:FULL#ebb12efbdea827b5e1893eedfe10d68c",
+    "original": "Lieutenant's Log",
+    "translation": "中尉日志",
+    "stage": 1
+  },
+  {
+    "key": "FEVProjectPurityPrimeNote_0D004A69#NOTE:TNAM#3af811aa2cbffb6c58f5f5b94561875c",
+    "original": "START OF TRANSCRIPT   \\n\\n> LT. NORTHOP: Tell me, Private. Were you at the first battle for the Jefferson Memorial?  \\n> PFC. CHESTON: No, ma’am. I wasn’t.  \\n> LT. NORTHOP: You missed one hell of a fight. The Brotherhood’s damned robot blasted us to bits. I mean that literally.  \\n> PFC. CHESTON: It’s a crying shame Liberty Prime fell into the hands of the cultists, ma’am. I was sad to see it destroyed when we retook the Memorial.  \\n> LT. NORTHOP: Well, don’t cry too much. The eggheads at the satellite relay station are working on rebuilding it. Or at least that’s where they carted off what remained of the colossus after we blew it sky high.  \\n> PFC. CHESTON: If we could resurrect Liberty Prime, the Enclave would be unstoppable!  \\n> LT. NORTHOP: Don’t be fooled by fancy tech, Private. It’s blood and guts that win wars, not wonder weapons. The Brotherhood learned that the hard way.  \\n> PFC. CHESTON: But ma’am... wasn’t it our satellite's orbital bombardments that destroyed Liberty Prime, not soldiers alone?  \\n> LT. NORTHOP: Why don’t you ponder strategy while you clean the latrines, Private.\\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始‌\\n\\n> 中尉诺普：告诉我，列兵。你参加了杰斐逊纪念堂的第一场战斗吗？\\n> 一等兵切斯顿：没有，长官。我没参加。\\n> 中尉诺普：你错过了一场恶战。兄弟会的那个该死的机器人把我们炸得七零八落，字面意义上的。\\n> 一等兵切斯顿：自由先锋落入那些邪教徒手中真是太可惜了，长官。我们夺回纪念堂时看到它被摧毁，我感到很难过。\\n> 中尉诺普：好了，别太难过。卫星中继站的那些书呆子们正在努力重建它。或者至少，在我们把它炸上天后，他们把先锋的残骸运到了那里。\\n> 一等兵切斯顿：如果我们能复活自由先锋，英克雷就不可阻挡了！\\n> 中尉诺普：别被那些花哨的技术给骗了，列兵。赢得战争靠的是鲜血和勇气，而不是什么神奇武器。兄弟会已经为此付出了惨痛的代价。\\n> 一等兵切斯顿：但是长官...难道不是我们的卫星轨道轰炸摧毁了自由先锋，而不仅仅是士兵吗？\\n> 中尉诺普：你不如在打扫厕所的时候思考一下战略，列兵。\\n\\n‌对话记录结束‌",
+    "stage": 1
+  },
+  {
+    "key": "FEVAdmiralNote_0D007D9F#NOTE:FULL#c28aa36ec7f4decd3e1550bda6e1155a",
+    "original": "Admiral's Log",
+    "translation": "海军上将日志",
+    "stage": 1
+  },
+  {
+    "key": "FEVAdmiralNote_0D007D9F#NOTE:TNAM#0e8f4d19140c1fa7c1bbe0e0fde10298",
+    "original": "START OF TRANSCRIPT   \\n\\n> CPT. PARKERS: Um, Major? Sir, do you have a moment?\\n> MAJOR ERWIN: Of course, Captain. What is it? Something bothering you, son?  \\n> CPT. PARKERS: It’s just that... well, sir, I don’t exactly understand our mission here.  \\n> MAJOR ERWIN: What’s unclear? We have secured and are now holding the aircraft carrier, just as high command ordered.  \\n> CPT. PARKERS: Yes, sir, I understand that, sir, but the mutants on board - we still haven’t dealt with them.  \\n> MAJOR ERWIN: We dealt with the troublesome ones. Let the FEV take care of the rest.\\n> CPT. PARKERS: But how long will that take? Sir, some of the men are starting to ask questions. Instead of cleansing the carrier, we are shaking down the mutants for bottle caps.  \\n> MAJOR ERWIN: Ah, I understand your confusion. You see, the mutants use caps as a form of currency.\\n> CPT. PARKERS: Sir?  \\n> MAJOR ERWIN: And before the bombs fell, Uncle Sam would collect his due to fund this nation’s great military. They called it “taxation.” Now, the Enclave is the U.S. government, is it not?  \\n> CPT. PARKERS: Yes, sir, of course.  \\n> MAJOR ERWIN: So then it is our duty to collect taxes in order to keep the armed forces well-funded.  \\n> CPT. PARKERS: So we are sending these caps to high command?  \\n> MAJOR ERWIN: Just hand the caps to me, Captain, and I’ll make sure they are well spent.  \\n> CPT. PARKERS: I see, but...\\n> MAJOR ERWIN: You’re dismissed, Captain. Oh, and from now on, I’d like for you and the men to refer to me by my new rank.\\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始\\n\\n> 帕克斯上尉：嗯，长官？长官，您有时间吗？\\n> 厄尔温少校：当然，上尉。怎么了？有什么困扰你吗，孩子？\\n> 帕克斯上尉：我只是...嗯，长官，我不太明白我们在这里的任务。\\n> 厄尔温少校：哪里不清楚？我们已经按照上级的命令控制了航母。\\n> 帕克斯上尉：是的，长官，我明白这一点，长官，但是船上的变种人 - 我们还没有处理他们。\\n> 厄尔温少校：我们已经处理了麻烦的那些。让FEV去处理剩下的。\\n> 帕克斯上尉：但那需要多久？长官，有些人开始提出问题了。我们没有清理航母，而是在向变种人勒索瓶盖。\\n> 厄尔温少校：啊，我明白你的困惑了。你看，变种人用瓶盖作为货币。\\n> 帕克斯上尉：长官？\\n> 厄尔温少校：在炸弹落下之前，山姆大叔会收取费用来资助这个国家的强大军队。他们称之为“税收”。现在，英克雷是美国政府，不是吗？\\n> 帕克斯上尉：是的，长官，当然。\\n> 厄尔温少校：那么，为了保持武装部队的充足资金，我们就有责任收税。\\n> 帕克斯上尉：所以我们是把这些瓶盖送到上级那里吗？\\n> 厄尔温少校：把瓶盖给我，上尉，我会确保它们得到妥善使用。\\n> 帕克斯上尉：我明白了，但是...\\n> 厄尔温少校：你被解散了，上尉。哦，还有，从现在开始，我希望你和你的士兵们用我的新军衔来称呼我。\\n\\n对话记录结束",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelInfirmaryNote_0D00AFB0#NOTE:FULL#34bfd6b30d0253f6a6d907705ac61ebd",
+    "original": "Patient Interview Transcript",
+    "translation": "病人访谈记录",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelInfirmaryNote_0D00AFB0#NOTE:TNAM#86b823c95c05e0ca7b2f2853fb794649",
+    "original": "START OF TRANSCRIPT   \\n\\n> INITIATE FLETCHER: Paladin Tristan, sir! How can I... ugh...  \\n> PALADIN TRISTAN: At ease, Initiate. I'm just here to talk.  \\n> INITIATE FLETCHER: Please forgive my absence from the yard, sir. I swear I'll get over my illness by tomorrow.\\n> PALADIN TRISTAN: Your poor health is what I wanted to talk to you about, Initiate. You’re not the only one who’s ill. When did you start feeling sick?  \\n> INITIATE FLETCHER: A couple days ago, sir. After the victory at Project Purity.  \\n> PALADIN TRISTAN: I see. Were you at the feast? Was it something you ate that brought this on?  \\n> INITIATE FLETCHER: No, sir. I didn’t eat anything. My nerves were so shot after the battle... I had no appetite at all. \\n> PALADIN TRISTAN: So then perhaps it was something you drank? Too much of that concoction Scribe Yates brewed in his rusted scrap distillery?  \\n> INITIATE FLETCHER: No, sir! The only thing I had to drink that night was water. The clean water from Project Purity.  \\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始\\n\\n>新兵弗莱彻：特里斯坦圣骑士，长官！我...呃...\\n>圣骑士特里斯坦：放轻松，新兵。我只是来和你聊聊。\\n>新兵弗莱彻：长官，请原谅我没在院子里，我发誓我明天就能痊愈。\\n>圣骑士特里斯坦：我正是想和你谈谈你的健康状况，新兵。生病的不仅是你一个。你什么时候开始感觉不舒服的？\\n>新兵弗莱彻：两三天前，长官。在净化工程胜利之后。\\n>圣骑士特里斯坦：我明白了。那晚的庆功宴你参加了吗？是不是吃了什么不对劲的东西？\\n>新兵弗莱彻：没有，长官。我什么都没吃。战后我太紧张了...根本没有胃口。\\n>圣骑士特里斯坦：那也许是喝了什么？是不是喝了太多学士亚茨在他那生锈废料酿酒厂里酿造的混合物？\\n>新兵弗莱彻：没有，长官！那晚我只喝了水。净化工程提供的干净水。\\n\\n对话记录结束",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelLyonsNote_0D00AFB2#NOTE:FULL#6601749cb76d1a26200a08073f7ac028",
+    "original": "Elder Owyn Lyons -- Personal Log 4",
+    "translation": "欧文·里昂斯长老 -- 个人日志 4",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadelLyonsNote_0D00AFB2#NOTE:TNAM#2e0d025aca516aa92bacbe0cf4c18fdd",
+    "original": "START OF TRANSCRIPT   \\n\\n> ELDER LYONS: It has been nearly a week since our decisive victory over the Enclave at the Jefferson Memorial. In this short time, the Brotherhood’s control over the Capital region has expanded many times over thanks to Project Purity. The settlements call out for clean water, and the Chapter listens. Water caravans cut across the wasteland, bringing much-needed relief while also expanding Brotherhood influence. Not only will the Chapter replenish its losses from this brief war, but it shall double if not triple its strength as... Yes, Paladin Tristan?  \\n> PALADIN TRISTAN: Elder Lyons, sir. I apologize for the intrusion, but I must speak with you about Aqua Pura...  \\n> ELDER LYONS: This again, Paladin? How many more times must we discuss your baseless conspiracies? Continued testing of Aqua Pura has not shown any link to this supposed plague you continue to fret about. The water is clean. I will hear no more of this.  \\n> PALADIN TRISTAN: Sir, please. The Scribes were inspecting one of the panels at Project Purity and discovered...\\n> ELDER LYONS: They were what? I specifically forbade you from tampering with the equipment at the Memorial. Project Purity took years to carefully construct, and it cost the lives of James and nearly his only child to successfully get it operational. Your recklessness could unravel decades of work.  \\n> PALADIN TRISTAN: Elder Lyons, the Enclave sabotaged the Project. We found a vial of...\\n> ELDER LYONS: What you have done is jeopardize all that we have accomplished. I cannot and I will not stop life-saving Aqua Pura shipments because of your... your... ugh...  \\n> PALADIN TRISTAN: Elder Lyons? Elder Lyons!!!  \\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始\\n\\n>里昂斯长老：自从我们在杰斐逊纪念馆取得对英克雷的决定性胜利以来，已经过去将近一个星期了。在这短短的时间里，兄弟会对首都地区的控制已经扩大了好几倍，这都要归功于净化工程。定居点需要干净的水，而我们分会也一直在倾听。运水车队在废土上穿梭，不仅带来了急需的救济，同时也扩大了兄弟会的影响力。分会不仅会弥补这场短暂战争中的损失，其力量甚至会翻倍，或者三倍...怎么，圣骑士特里斯坦？\\n> 圣骑士特里斯坦：里昂斯长老，先生。很抱歉打扰您，但我必须和您谈谈净化工程...\\n>里昂斯长老：又是这个，圣骑士？我们还要讨论多少次你那毫无根据的阴谋论？对净水的持续测试并没有显示出任何与你一直担忧的所谓瘟疫有关的联系。水是干净的。我不想再听到这件事了。\\n> 圣骑士特里斯坦：长官，请听我说。学者们正在检查净化工程的一个面板，他们发现了...\\n>里昂斯长老：他们发现了什么？我明确禁止你们干扰纪念馆的设备。净化工程花了好几年时间才精心建成，詹姆斯和他的几乎唯一的孩子都为此献出了生命，才成功使其运转起来。你的鲁莽可能会毁掉几十年的工作成果。\\n> 圣骑士特里斯坦：里昂斯长老，英克雷破坏了计划。我们发现了一瓶...\\n>里昂斯长老：你所做的一切都在危及我们所取得的成果。我不能，也不会因为你的...你的...呃...而停止运送救命的净水。\\n> 圣骑士特里斯坦：里昂斯长老？里昂斯长老！！！\\n\\n对话记录结束",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadeGreatHallNote_0D00AFB4#NOTE:FULL#6138aa8cc657c3cc6833ec576d981694",
+    "original": "Great Hall Meeting Notes",
+    "translation": "大厅会议记录",
+    "stage": 1
+  },
+  {
+    "key": "FEVCitadeGreatHallNote_0D00AFB4#NOTE:TNAM#352d76463244b060d3c58515304ceed7",
+    "original": "START OF TRANSCRIPT   \\n\\n> PALADIN TRISTAN: Thank you all for joining me here today on such short notice.\\n> SCRIBE BOWDITCH: I’m afraid you’ll have to excuse Scribe Rothchild’s absence. He remains bedridden, but we hope his fever shall break soon.  \\n> PALADIN GUNNY: Why did you call us, Tristan? Reveille is in half an hour, and I don’t like the Initiates sleeping in.  \\n> PALADIN TRISTAN: I’ve called you here to discuss developments regarding the war with the Enclave.\\n> PALADIN GUNNY: What “war?” The Enclave are broken, and each of their pitiful counter-assaults on Project Purity have been repelled. The Memorial is ours.  \\n> PALADIN TRISTAN: Not anymore, it’s not. At approximately 0500 hours, the Jefferson Memorial fell to an Enclave assault.  \\n> PALADIN GUNNY: What?! How did they get past Liberty Prime? That damn robot was supposed to be impervious.\\n> SCRIBE BOWDITCH: Perhaps if you allowed Liberty Prime to return to the Citadel so the Scribes might repair it...\\n> PALADIN TRISTAN: Repairs wouldn’t have made a difference. I’m still gathering reports from survivors, but Liberty Prime was destroyed by what appeared to be some kind of orbital bombardment.\\n> PALADIN GUNNY: An orbital what?\\n> SCRIBE BOWDITCH: If the Enclave acquired access to the Bradley-Hercules satellite weapon system, they could very easily destroy the Citadel with the push of a few buttons.  \\n> PALADIN TRISTAN: Which is why I’m ordering an evacuation.\\n> PALADIN GUNNY: Like hell you are. Since when were you elected Elder?\\n> PALADIN TRISTAN: And what would you have the Chapter do? Stay and fight even as half our numbers are stricken with plague?\\n> PALADIN GUNNY: If honor demands it, then yes. I will not abandon where we have planted Maxson’s banner.\\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始\\n\\n> 圣骑士特里斯坦：感谢大家如此迅速地加入我。\\n> 学士鲍蒂奇：恐怕你得原谅文士罗斯柴尔德的缺席。他仍然卧病在床，但我们希望他的烧很快就会退。\\n> 圣骑士甘尼：你为什么叫我们来，特里斯坦？起床号还有半小时，我不喜欢新人们睡懒觉。\\n> 圣骑士特里斯坦：我把你们叫到这里来讨论与英克雷的战争进展。\\n> 圣骑士甘尼：“战争？”英克雷已经垮了，他们对净化工程的每一次可怜的反击都被击退了。纪念碑是我们的。\\n> 圣骑士特里斯坦：现在不再是了。大约在0500时，杰斐逊纪念碑被英克雷的进攻攻陷了。\\n> 圣骑士甘尼：什么？！他们是怎么突破自由先锋的？那个该死的机器人应该是无敌的。\\n> 学士鲍蒂奇：也许如果你让自由先锋返回大本营，让文士们修理它...\\n> 圣骑士特里斯坦：修理也无济于事。我还在收集幸存者的报告，但自由先锋似乎是被某种轨道轰炸摧毁的。\\n> 圣骑士甘尼：轨道什么？\\n> 学士鲍蒂奇：如果英克雷获得了布拉德利-赫拉克勒斯卫星武器系统的访问权，他们只需按几个按钮就能轻易摧毁大本营。\\n> 圣骑士特里斯坦：这就是我为什么要下令疏散。\\n> 圣骑士甘尼：你休想。你什么时候被选为长老了？\\n> 圣骑士特里斯坦：那你想让分会怎么做？即使我们的一半人数都染上了瘟疫，也要留下来战斗吗？\\n> 圣骑士甘尼：如果荣誉要求如此，那么是的。我不会放弃我们插下麦克森旗帜的地方。\\n\\n对话记录结束",
+    "stage": 1
+  },
+  {
+    "key": "FEVSentryPrimeNote_0D0018BC#NOTE:FULL#8028d422fc9d100146087b0c9844ffc6",
+    "original": "Prime Weapon Tests",
+    "translation": "先锋武器测试",
+    "stage": 1
+  },
+  {
+    "key": "FEVSentryPrimeNote_0D0018BC#NOTE:TNAM#14a23629d8750f1e05bbb5b29f3eb59f",
+    "original": "START OF TRANSCRIPT   \\n\\n> MAJOR WINDSOR: Liberty Prime was the crowning achievement of America’s great military-industrial complex, and his sad but unavoidable loss was a terrible tragedy. Thankfully, the Enclave managed to salvage much of his state of the art weaponry and refitted it for the next generation of army robotics. These automaton patriots will no doubt pacify the wasteland and bring about...\\n> DR. BRITON: Sir, I apologize for the interruption, but we are ready for the next weapons test.\\n> MAJOR WINDSOR: Wonderful. Bring out the prisoners.\\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始\\n\\n> 温莎上校：自由先锋是美国庞大军工复合体的巅峰之作，他可悲但不可避免的损失是一场可怕的悲剧。幸运的是，英克雷成功抢救了他的许多先进武器，并为下一代军用机器人进行了改装。这些自动爱国者无疑将平定废土，带来...\\n> 布里顿博士：长官，很抱歉打断您，但我们已准备好进行下一次武器测试。\\n> 温莎上校：太好了。把囚犯带出来。\\n\\n对话记录结束",
+    "stage": 1
+  },
+  {
+    "key": "FEVProjectPurityNote_0D001908#NOTE:FULL#594700f4b746a3dab26e89ea1ced2b63",
+    "original": "Enclave Scientist Log",
+    "translation": "英克雷科学家日志",
+    "stage": 1
+  },
+  {
+    "key": "FEVProjectPurityNote_0D001908#NOTE:TNAM#72004cb4dd13c0ebc2f665d37f4adc60",
+    "original": "START OF TRANSCRIPT   \\n\\n> DR. PENROW: Care to join me for a drink, Doctor Star?\\n> DR. STAR: You’re drinking the water? Even after all the reports coming from the wastes?\\n> DR. PENROW: Why shouldn’t I? I’m not a mutant. I’m a true-born American.\\n> DR. STAR: So it’s true then? FEV was injected into the purifier?\\n> DR. PENROW: I just discovered the vial myself. The question remains, of course, who inserted it.\\n> DR. STAR: Colonel Autumn opposed the plan, and the Brotherhood certainly wouldn’t have poisoned themselves unless those cultists are more foolish than we thought. How did the vial even end up at the Memorial in the first place?\\n> DR. PENROW: Whoever inserted it must have been a patriot, that is for sure. Come, have a glass and let us raise a toast to the unknown savior of America.\\n\\n   END OF TRANSCRIPT",
+    "translation": "对话记录开始\\n\\n> 彭罗博士：想和我一起喝一杯吗，斯塔博士？\\n> 斯塔博士：你在喝水？即便在收到所有来自废土的报告之后？\\n> 彭罗博士：我为什么不能喝？我又不是变种人。我是土生土长的美国人。\\n> 斯塔博士：这么说来是真的了？他们真的把FEV病毒注射进了净化器里？\\n> 彭罗博士：我自己刚发现那瓶病毒。当然，问题是谁把它放进去的。\\n> 斯塔博士：奥特姆上校反对这个计划，兄弟会也肯定不会毒死自己，除非那些狂信徒比我们想象的还要愚蠢。那瓶病毒最初是怎么到纪念馆去的？\\n> 彭罗博士：不管是谁放的，他一定是个爱国者，这毋庸置疑。来，喝一杯，让我们为这位未知的美国救世主干杯。\\n\\n对话记录结束",
+    "stage": 1
+  },
+  {
+    "key": "RadioHello_00000126#DIAL:FULL#d0ab39550f09eda7bd1a102df0e15d64",
+    "original": "RadioHello",
+    "translation": "无线电问候",
+    "stage": 1
+  },
+  {
+    "key": "RadioHello_0D00191F#INFO:NAM1#0c4e7e47f5d6825790555425b79b4562",
+    "original": "{static}",
+    "translation": "{静电噪音}",
+    "stage": 1
+  },
+  {
+    "key": "RadioHello_06058CDE#INFO:NAM1#eda5d97c613a5edf3e6de9144af9254c",
+    "original": "People of the Capital Wasteland, you can HEAR MEEEE!!!! Yeeeaa haaaa!!! You can't stop the signal, baby!",
+    "translation": "首都废土的人们，你们听见的是我！！呀哈！这是永不消逝的电波，宝贝！",
+    "stage": 1
+  },
+  {
+    "key": "FEVAwakeMessage_0D003AD9#MESG:DESC#60618bea613dfc38bdaa13e1eb42dff1",
+    "original": "You awake in the Citadel's infirmary. The Brotherhood must have brought you here after the battle. You don't know how long you've been out.\\n\\nWhat matters is that you are alive, but who's to say for how much longer as the sound of gunfire coming from the hall gets louder and louder.",
+    "translation": "你在大本营医务室醒来。兄弟会一定是在战后把你带到这里的。你不知道自己昏迷了多久。\\n\\n重要的是你还活着，但随着大厅里传来的枪声越来越大，谁知道你还能活多久。",
+    "stage": 1
+  },
+  {
+    "key": "FEVAwakeMessage_0D003AD9#MESG:FULL#ca8822a9e9496942dc148a3919d9caa9",
+    "original": "Awake",
+    "translation": "醒来",
+    "stage": 1
+  },
+  {
+    "key": "RCHangarDeckMid_0601D6AA#CELL:FULL#64cfc9aa64667b9f32e6826d06b5d8a7",
+    "original": "Midship Deck",
+    "translation": "船中甲板",
+    "stage": 1
+  },
+  {
+    "key": "RCHangarDeckAft_0601D6AB#CELL:FULL#13f996cb6e22c15f6f8ebcd45f251e20",
+    "original": "Science Lab",
+    "translation": "科技实验室",
+    "stage": 1
+  },
+  {
+    "key": "UnderworldConcourse_06024D6B#CELL:FULL#fb7c4f3aeea5e4c53d66e78fb71d41f6",
+    "original": "Underworld Concourse",
+    "translation": "地下城中央大厅",
+    "stage": 1
+  },
+  {
+    "key": "DLC03EnclaveTower_09000805#CELL:FULL#69d6c04d862988de8578fb175b3ea74c",
+    "original": "Satellite Control Tower",
+    "translation": "卫星控制塔",
+    "stage": 1
+  },
+  {
+    "key": "RCTower_0601D6A3#CELL:FULL#7598738e648871ebdeb4dc7c3e0a308e",
+    "original": "Bridge Tower",
+    "translation": "桥塔",
+    "stage": 1
+  },
+  {
+    "key": "zDLC03CarTunnel_09001490#CELL:FULL#51b153ab92ce967bbf5f6f2e338e27e5",
+    "original": "Rockland Car Tunnel",
+    "translation": "罗克兰汽车隧道",
+    "stage": 1
+  },
+  {
+    "key": "CitadelBRing_060207A1#CELL:FULL#8c003e2f9a3230bb42ba5934a1021958",
+    "original": "Citadel - B Ring",
+    "translation": "五角大本营－B环",
+    "stage": 1
+  },
+  {
+    "key": "RCLowerDeck_0601D6A5#CELL:FULL#71295987684b14346aa7ca1fb41ad952",
+    "original": "The Muddy Rudder Bar",
+    "translation": "“泥舵”酒吧",
+    "stage": 1
+  },
+  {
+    "key": "RCHangar_0602107F#CELL:FULL#382cc4727d3a7c84b64d60f3ad03c000",
+    "original": "Rivet City Market",
+    "translation": "铆钉城市场",
+    "stage": 1
+  },
+  {
+    "key": "PPurity01_06018520#CELL:FULL#323ce03acc1d0bbf8023ec7e19e230bd",
+    "original": "Jefferson Memorial Rotunda",
+    "translation": "杰斐逊纪念馆圆形大厅",
+    "stage": 1
+  },
+  {
+    "key": "CitadelARing_060207A2#CELL:FULL#090813adacf735c25a56686b520894d8",
+    "original": "Citadel - A Ring",
+    "translation": "五角大本营－A环",
+    "stage": 1
+  },
+  {
+    "key": "PPurity02_06018521#CELL:FULL#34b08545e3d7f4b5eedfc5453af55deb",
+    "original": "Jefferson Museum and Gift Shop",
+    "translation": "杰斐逊博物馆和礼品店",
+    "stage": 1
+  },
+  {
+    "key": "RCUpperDeckMid_06019FBB#CELL:FULL#ece0bc637410e5d05fb68f5171c26a35",
+    "original": "Upper Deck",
+    "translation": "上层甲板",
+    "stage": 1
+  },
+  {
+    "key": "RCStairwell_06051245#CELL:FULL#687ae719005f91e7952efe138ff0a3bf",
+    "original": "Stairwell",
+    "translation": "楼梯间",
+    "stage": 1
+  },
+  {
+    "key": "zDCint08a_060BB019#CELL:FULL#2adeb063ef8032174951100053af4f9e",
+    "original": "Hotel",
+    "translation": "酒店",
+    "stage": 1
+  },
+  {
+    "key": "FortIndependence02_0603D444#CELL:FULL#cc96bf69f463054863dbaac9c76c268e",
+    "original": "Fort Independence Lower Level",
+    "translation": "独立堡下层",
+    "stage": 1
+  },
+  {
+    "key": "MuseumAmericanEntrance_06074EB2#CELL:FULL#8dd177351d3425024ba7b6b5ddbda057",
+    "original": "Museum of History Entrance",
+    "translation": "历史博物馆入口",
+    "stage": 1
+  },
+  {
+    "key": "GNR01_0601A26F#CELL:FULL#dd0392b53e334832febc678e7151c1d0",
+    "original": "Galaxy News Radio",
+    "translation": "银河新闻电台",
+    "stage": 1
+  },
+  {
+    "key": "GNR02_0601A279#CELL:FULL#78960c4ee9e7edd0d353248d7a56dc05",
+    "original": "GNR Studios",
+    "translation": "银河新闻台演播室",
+    "stage": 1
+  },
+  {
+    "key": "ArlingtonLibrary01_06017F5B#CELL:FULL#1bcea12cea727cdd74f053de0980d3dc",
+    "original": "Arlington Public Library Lobby",
+    "translation": "阿灵顿公众图书馆大厅",
+    "stage": 1
+  },
+  {
+    "key": "DLC03zCitadelPit_090095C3#CELL:FULL#97e25211ddf4d68d31deb273710a1e8e",
+    "original": "Citadel Armory",
+    "translation": "五角大本营军械库",
+    "stage": 1
+  },
+  {
+    "key": "CitadelLab_06015157#CELL:FULL#69f2cd57c4125071160cacf1377be265",
+    "original": "Citadel - Laboratory",
+    "translation": "五角大本营－实验室",
+    "stage": 1
+  },
+  {
+    "key": "CitadelWorld_06015145#WRLD:FULL#4f6d1678276085115406d79862dfd992",
+    "original": "The Citadel Courtyard",
+    "translation": "五角大本营操场",
+    "stage": 1
+  },
+  {
+    "key": "DCworld01_06018DE6#WRLD:FULL#47223621eb3e9c4d187d7d48de44098c",
+    "original": "Chevy Chase",
+    "translation": "彻维-彻斯",
+    "stage": 1
+  },
+  {
+    "key": "DCworld09_0601A266#WRLD:FULL#678c4eed647dd73645ad356249c9a147",
+    "original": "The Mall",
+    "translation": "国家广场",
+    "stage": 1
+  },
+  {
+    "key": "DCworld08_0601A267#WRLD:FULL#c2b3b6abf38f6f0da77f53def2dc52ad",
+    "original": "Pennsylvania Avenue",
+    "translation": "宾夕法尼亚大道",
+    "stage": 1
+  },
+  {
+    "key": "FEVWhiteHouseVertiRef_0D009F55#REFR:XATO#abe5a2d155dc1be8cbf68324bd8352c0",
+    "original": "Travel to Adam's Air Force Base",
+    "translation": "前往亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "Wasteland_0607EA1F#WRLD:FULL#510e566fadcbe2d2a758bbdd542b829c",
+    "original": "Capital Wasteland",
+    "translation": "废土",
+    "stage": 1
+  },
+  {
+    "key": "DLC03AdamsAFB_09000803#WRLD:FULL#412ced179e4bddd00dd8df560af5a3ad",
+    "original": "Adams Air Force Base",
+    "translation": "亚当斯空军基地",
+    "stage": 1
+  },
+  {
+    "key": "FEVVertiAFBRef_0D009F52#REFR:XATO#7d4ef98f4e6c04eace86b221e638f387",
+    "original": "Travel to the Capital Wasteland",
+    "translation": "前往首都废土。",
+    "stage": 1
+  },
+  {
+    "key": "DLC03RelayStation_09000B0D#WRLD:FULL#e5b9455fb94576ccdd39bb02d3b0b59c",
+    "original": "Satellite Relay Station",
+    "translation": "卫星中继站",
+    "stage": 1
+  }
+]

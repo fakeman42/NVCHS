@@ -1,0 +1,158 @@
+[
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#26fba5996e11fe47f8aa25fb795d1b05",
+    "original": "Throw key",
+    "translation": "投掷键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#1fc8fa227ae6e7f06bf2ec13411931ae",
+    "original": "Select key",
+    "translation": "选择键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#46fef03bd2546d0b4d9349946ef7e947",
+    "original": "Stop throw key",
+    "translation": "停止投掷键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#5ced8ab4464ab73ab2fa4d0a5b902939",
+    "original": "Adaptive aim",
+    "translation": "自适应瞄准",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#53b32dcfa95156fee0fe070659b84100",
+    "original": "Cooldown multiplier",
+    "translation": "冷却时间倍数",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#f5969468efaceca917d25006ca622df4",
+    "original": "Icon position",
+    "translation": "图标位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#3f70d9d1e6c6dae5a44ece2e740c014f",
+    "original": "Gauge position",
+    "translation": "量表位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#1a4ef5437106680bea07874e399f307d",
+    "original": "Show icon in MCM",
+    "translation": "在MCM中显示图标",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#7a0955148430b6c066d70bd593fbffb5",
+    "original": "Prefer hotkey icons",
+    "translation": "优先使用热键图标",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#b3437f4a9faddc87ecb65da6e9f34614",
+    "original": "Use hud color",
+    "translation": "使用HUD颜色",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#b85f543ab46aa12775f6c97ee5faa6cd",
+    "original": "X:",
+    "translation": "X轴：",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#bc7429fa04d40080b04d77f9eabb684a",
+    "original": "Y:",
+    "translation": "Y轴：",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#d63b2920f5c21b0cf5001a6bf35159e7",
+    "original": "Key used to throw any selected compatible weapon",
+    "translation": "用于投掷任何选定兼容武器的键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#fd452feef403bfe77ca4edac5ac09b57",
+    "original": "Key used to select throwing weapon (press) or change weapon type (hold)",
+    "translation": "用于选择投掷武器（短按）或更改武器类型（长按）的键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#1cad17e97beab37589f775f380978dab",
+    "original": "Key used to reset throwing",
+    "translation": "用于重置投掷的键",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#f1205b1c974a2eca7da855d033e807dc",
+    "original": "Turn Adaptive Aim on or off. Turning it off might help with performance on older machines.",
+    "translation": "打开或关闭自适应瞄准。关闭它可能会提高旧机型的性能。",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#129d9e62584f645781d12672042f6e4f",
+    "original": "Calibrate cooldown speed multiplier (lower is faster)",
+    "translation": "校准冷却速度倍数（数值越低速度越快）",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#fdb9de08571aa6d0d21963238f3c169c",
+    "original": "Throwing weapon icon screen position",
+    "translation": "投掷武器图标屏幕位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#9e5dbcd74a2afa7be0bd3bdc3c1e323b",
+    "original": "Throwing power gauge screen position",
+    "translation": "投掷力量量表屏幕位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#e99a6dd75d3de1f0235f162acb4811af",
+    "original": "Show throwing icon and gauge in this menu for easy screen position adjustments",
+    "translation": "在此菜单中显示投掷图标和量表，以便于调整屏幕位置",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#e3e4dc801a55d2f2662a6568bdbb411a",
+    "original": "Use weapon hotkey icons over Quickthrow's icon functionality where possible",
+    "translation": "在可能的情况下，使用武器热键图标替代快速投掷的图标功能",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMCM_01007AC7#SCPT:SCDA#facfa2a344810af27aba022178a50b4b",
+    "original": "Color Quickthrow icons to match the hud color",
+    "translation": "将快速投掷图标着色为与HUD颜色匹配",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTReturnToSender_01007AC4#PERK:FULL#d5727f9e4293b1ed84875d89af9aae5c",
+    "original": "Return to Sender",
+    "translation": "原件退回",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTReturnToSender_01007AC4#PERK:DESC#c6933cd18d35eabe483754dacf157d6b",
+    "original": "With the Return to Sender perk, enemy grenades thrown at you will be thrown back at them.",
+    "translation": "有了原件退回技能，你可以把敌人向你扔来的手雷扔回去。",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMessageNoStrength_02004F96#MESG:DESC#c52fd890f56b7fa1f0a514b83b0f9233",
+    "original": "Your strength isn't high enough to throw this while dodging!",
+    "translation": "你的力量不足以在躲避时扔出这个！",
+    "stage": 1
+  },
+  {
+    "key": "xlrQTMessageNoSkill_02004F95#MESG:DESC#11846642ecfd820446e88cff44838ffa",
+    "original": "Your skill isn't high enough to throw this while dodging!",
+    "translation": "你的技能不足以在躲避时扔出这个！",
+    "stage": 1
+  }
+]

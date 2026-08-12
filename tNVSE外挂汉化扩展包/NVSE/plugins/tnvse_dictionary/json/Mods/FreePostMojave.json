@@ -1,0 +1,596 @@
+[
+  {
+    "key": "PerkCouriersBurden_01002D52#SPEL:FULL#0b7d163dd934eec72cc9e70d38c4d1ea",
+    "original": "Courier's Journey",
+    "translation": "邮差的旅程",
+    "stage": 1
+  },
+  {
+    "key": "FPSlaveBackpack_0100ABC3#ARMO:FULL#260f59e3d261fe9bb5ed6c6833ce7e32",
+    "original": "Courier Backpack",
+    "translation": "邮差背包",
+    "stage": 1
+  },
+  {
+    "key": "vMojaveExpressBoxNipton_01003316#CONT:FULL#7adccda576ddafc27308f437605ddfbf",
+    "original": "Mojave Express Dropbox",
+    "translation": "莫哈维快递投递箱",
+    "stage": 1
+  },
+  {
+    "key": "ExpressBackupBox_010079B2#CONT:FULL#88fcac082f1af65b0e03241a8e632507",
+    "original": "Mojave Express Lost and Found",
+    "translation": "莫哈维快递失物招领处",
+    "stage": 1
+  },
+  {
+    "key": "vMojaveFreePostBox_01003314#CONT:FULL#7adccda576ddafc27308f437605ddfbf",
+    "original": "Mojave Express Dropbox",
+    "translation": "莫哈维快递投递箱",
+    "stage": 1
+  },
+  {
+    "key": "AuthorisationStampBook_01003D5E#MISC:FULL#c0e8cc4edfb92959edbe57800bf736b1",
+    "original": "Mojave Express Stampbook",
+    "translation": "莫哈维快递集邮册",
+    "stage": 1
+  },
+  {
+    "key": "AuthorisationStampPrimm_010080A0#MISC:FULL#1cb687621356d3587afad09be2a4ef2c",
+    "original": "Primm Dropbox Stamp",
+    "translation": "普瑞姆投递箱邮票",
+    "stage": 1
+  },
+  {
+    "key": "AuthorisationStampNovac_0100865C#MISC:FULL#fc5b7c263d926b687518741fe4628995",
+    "original": "Novac Dropbox Stamp",
+    "translation": "诺瓦克投递箱邮票",
+    "stage": 1
+  },
+  {
+    "key": "AuthorisationStampFreeside_0100865D#MISC:FULL#8affe2a62b7e6c8a290d8ccc6fc656a6",
+    "original": "Freeside Dropbox Stamp",
+    "translation": "自由城投递箱邮票",
+    "stage": 1
+  },
+  {
+    "key": "AuthorisationStampStrip_0100865E#MISC:FULL#e1cfe6166d5a6185f8673a906b5332eb",
+    "original": "Strip Dropbox Stamp",
+    "translation": "长街投递箱邮票",
+    "stage": 1
+  },
+  {
+    "key": "AuthorisationStamp_01001663#MISC:FULL#f5d29080f8238bd96f3ed0ca6264a15d",
+    "original": "Mojave Dropbox Stamp",
+    "translation": "莫哈维投递箱邮票",
+    "stage": 1
+  },
+  {
+    "key": "ExpressWeaponBlocker_01007803#WEAP:FULL#d20095a30af2b1090a4d4b1f3673ba65",
+    "original": "Brass Knuckles",
+    "translation": "铜指虎",
+    "stage": 1
+  },
+  {
+    "key": "UniversalStorage_01000B47#NPC_:FULL#7adccda576ddafc27308f437605ddfbf",
+    "original": "Mojave Express Dropbox",
+    "translation": "莫哈维快递投递箱",
+    "stage": 1
+  },
+  {
+    "key": "FreepostCourier_01006877#NPC_:FULL#e9d733d350a61e005e5fdd2836720ce8",
+    "original": "Mojave Express Courier",
+    "translation": "莫哈维快递邮差",
+    "stage": 1
+  },
+  {
+    "key": "FreepostCourier2_01007FBB#NPC_:FULL#e9d733d350a61e005e5fdd2836720ce8",
+    "original": "Mojave Express Courier",
+    "translation": "莫哈维快递邮差",
+    "stage": 1
+  },
+  {
+    "key": "FreepostCourier3_01007FD9#NPC_:FULL#e9d733d350a61e005e5fdd2836720ce8",
+    "original": "Mojave Express Courier",
+    "translation": "莫哈维快递邮差",
+    "stage": 1
+  },
+  {
+    "key": "FreepostCourier4_01007FEF#NPC_:FULL#e9d733d350a61e005e5fdd2836720ce8",
+    "original": "Mojave Express Courier",
+    "translation": "莫哈维快递邮差",
+    "stage": 1
+  },
+  {
+    "key": "MojaveExpressBrahmin_01007FE0#CREA:FULL#d2dd500e57861a25bde4c85aadfb385c",
+    "original": "Mojave Express Brahmin",
+    "translation": "莫哈维快递婆罗门",
+    "stage": 1
+  },
+  {
+    "key": "ExpressFlyer01_0100474B#NOTE:FULL#fa375715bce936e9c71eaf2849da5a5e",
+    "original": "Mojave Express Flyer",
+    "translation": "莫哈维快递传单",
+    "stage": 1
+  },
+  {
+    "key": "ExpressFlyer01_0100474B#NOTE:TNAM#6c2bde3c10904265f4c41facec50b95d",
+    "original": "Mojave Express Shipping Updates 2281.\\n\\nGreetings Wastelander! As of this coming year, we are making some changes to the way the Mojave Express operates and provides service.\\n\\nFirst of all, we will be operating a universal shipping service - we will deliver to any Mojave Express box on our network, including some new locations that we haven't serviced before.\\n\\nDue to increased strain on our network, and the lack of active Couriers, we will now require all customers to purchase an Authorization Stamp for each box they wish to utilize. Stamps cost a small fee of 25 caps, and are valid for one calendar year from purchase. This small charge helps keep our service active.\\n\\n(Lifetime stamps are provided for the same cost to any current or former Mojave Express personnel. (We're Hiring!))\\n\\nMojave Express routes may be subject to change. In the event of dangerous threats taking up residence on a delivery route, Couriers will not be asked to maintain excessively risky locations in the delivery network.\\n\\nFor any further questions, please write us, at the Mojave Express Headquarters in Primm.\\n\\nRegards,\\n\\n- Johnson & Ruby Nash",
+    "translation": "莫哈维快递配送升级 2281。\\n\\n\\n你好，废土客！从今年开始，我们将对莫哈维快递的运营和服务方式做出一些改变。\\n\\n首先，我们将运营一个通用运输服务--我们将向我们网络上的所有莫哈维快递投递箱运送货物，包括一些我们以前没有服务过的新地点。\\n\\n由于我们的服务压力增加和缺少邮差，我们现在要求所有客户为他们希望使用的每个快递投递箱购买授权印章。邮票的价格为25个瓶盖，从购买之日起有效期为一年。这笔小额费用有助于我们的服务保持活跃。\\n\\n莫哈维快递的任何现任或前任员工均可获得同等费用的终身邮票。（我们正在招聘！）\\n\\n莫哈维快递路线可能会有所更改，当危险威胁出现在配送路线上时，快递员不会被要求在配送网络中停留在过度危险的位置。\\n\\n如果有任何进一步的问题，请写信给我们，地址是位于普瑞姆的莫哈维快递总部。\\n\\n\\n诚致,\\n\\n- 约翰逊和鲁比·纳什",
+    "stage": 1
+  },
+  {
+    "key": "PrimmNashResidence_000D70E2#CELL:FULL#81359b75c86000458492adb8844f3e33",
+    "original": "Nash Residence",
+    "translation": "纳什的住所",
+    "stage": 1
+  },
+  {
+    "key": "NovacMotelLobby_000B83FE#CELL:FULL#cb66ed7aa200a7d18d5a5a39cad37706",
+    "original": "Dino Dee-lite Front Desk",
+    "translation": "快乐小恐龙前台",
+    "stage": 1
+  },
+  {
+    "key": "2ELVBStation_00110DB1#CELL:FULL#4c8c4b201aeb67d08779d7d03fa32d08",
+    "original": "Las Vegas Boulevard Station",
+    "translation": "拉斯维加斯林荫大道站",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "FreesideNorthWorld_0012D94D#WRLD:FULL#0673adbfdfed4650ae97a321a30ec640",
+    "original": "Freeside",
+    "translation": "自由之城",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNVmini_00148C05#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "CouriersBurden_01002A70#PERK:FULL#0b7d163dd934eec72cc9e70d38c4d1ea",
+    "original": "Courier's Journey",
+    "translation": "邮差的旅程",
+    "stage": 1
+  },
+  {
+    "key": "CouriersBurden_01002A70#PERK:DESC#4c1a2f36295121c9c83a14d9fd63923f",
+    "original": "You've braved the horrors of the Mojave, and made the pilgrimage to all of the Mojave Express Dropboxes.\\n\\nYou've learned a lot about this harsh desert, and about yourself. You're more capable of bearing the burdens ahead, and you've gained +30 lbs. of carrying capacity.",
+    "translation": "你勇敢地面对恐怖的莫哈韦沙漠，并向所有莫哈韦快递投递箱朝圣。你对这片严酷的沙漠有了更多的了解，对自己也有了更多的了解。你更有能力承受前方的重担，你的负重能力将永久提升30点。",
+    "stage": 1
+  },
+  {
+    "key": "CouriersBurdenMSG_01002A71#MESG:DESC#4c1a2f36295121c9c83a14d9fd63923f",
+    "original": "You've braved the horrors of the Mojave, and made the pilgrimage to all of the Mojave Express Dropboxes.\\n\\nYou've learned a lot about this harsh desert, and about yourself. You're more capable of bearing the burdens ahead, and you've gained +30 lbs. of carrying capacity.",
+    "translation": "你勇敢地面对恐怖的莫哈韦沙漠，并向所有莫哈韦快递投递箱朝圣。你对这片严酷的沙漠有了更多的了解，对自己也有了更多的了解。你更有能力承受前方的重担，你的负重能力将永久提升30点。",
+    "stage": 1
+  },
+  {
+    "key": "CouriersBurdenMSG_01002A71#MESG:FULL#0b7d163dd934eec72cc9e70d38c4d1ea",
+    "original": "Courier's Journey",
+    "translation": "邮差的旅程",
+    "stage": 1
+  },
+  {
+    "key": "ExpressSTPIntro_0100330E#MESG:DESC#4fd10e94d453358206553bdac80b607d",
+    "original": "Blinding lights. Deafening music. Another reminder of the past. This box is in fantastic condition and is well maintained.\\n\\nYou place one of your hands onto the top of the box and reflect on the path behind you. Once simply a glistening, ethereal monument in the distance - far above the decay and desolation of the wastes - you take in the Strip and its oddly putrid air. Vice, crime and all sorts of terrible things go on here. Perhaps Vegas didn't deserve to survive the bombs in such splendor.\\n\\nIt may be worth purchasing an Authorization Stamp for a dropbox in such a central location.",
+    "translation": "眩目的灯光，震耳欲聋的音乐，又一次让人想起了过去。这个箱子状况极佳，保养良好。\\n\\n你将一只粗糙而痛苦的手放在箱子的顶部，然后思考你身后的路。\\n\\n曾经只是远处一座闪闪发光、虚无缥缈的纪念碑，远远高于腐烂和荒芜的废土，你可以看到这条长街和它奇怪的腐臭空气。堕落，犯罪和各种可怕的事情都在这里发生，也许维加斯不配在核弹爆炸中如此辉煌地幸存下来。\\n\\n在这样的中心位置，为投递箱购买一枚授权印章可能是值得的。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressSTPIntro_0100330E#MESG:FULL#320890862e44ebcc78b0bb05623f148a",
+    "original": "Mojave Express Dropbox - The Strip",
+    "translation": "莫哈维快递投递箱 - 长街",
+    "stage": 1
+  },
+  {
+    "key": "ExpressNovacIntro_0100330F#MESG:DESC#725c5bdc3352f3ba3595c192132dd686",
+    "original": "The lid to this dropbox appears to be in fairly poor condition. After prying at the corners of the rusted lid, the rust breaks free, granting you a slim ray of light into the empty bin.\\n\\nThe dropbox is in much the same condition as Novac - ailing and run-down.\\n\\nLocating a Novac Authorization Stamp would probably help this box see more traffic.",
+    "translation": "这个投递箱的盖子看起来状况想当糟糕。在撬开锈迹斑斑的盖子的边角后，锈迹被释放出来，允许你将一缕微弱的光线照射到空箱子里。\\n\\n投递箱的情况与诺瓦克差不多 - 每况愈下，运转不济。\\n\\n定位一个诺瓦克授权印章可能会帮助这个箱子看到更多的物流量。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressNovacIntro_0100330F#MESG:FULL#991e024210e711ccc9cb9658f7c6088a",
+    "original": "Mojave Express Dropbox - Novac",
+    "translation": "莫哈维快递投递箱 - 诺瓦克",
+    "stage": 1
+  },
+  {
+    "key": "ExpressFSIntro_01003310#MESG:DESC#ff2bad9aa5212bb992c8c04827ad7ba0",
+    "original": "This dropbox is in decent shape. Perhaps the Followers of the Apocalypse maintain it.\\n\\nFreeside though, isn't so well maintained. Slumped on the outskirts of the blinding New Vegas Strip, it's a hell of a contrast. It's rough, it's dangerous, and it's full of desperate people feeding off scraps.\\n\\nYou stare up at smoke curling into the sky, and listen to the distant voices. The bullet wound in your head aches.",
+    "translation": "这个投递箱的状态不错，也许是天启追随者们在维护它。\\n\\n不过，自由之城维护得就不是很好了。坐落在令人眼花缭乱的新维加斯长街的郊区，这是一个巨大的反差。那里犯罪盛行，那里很危险，到处都是吃着残羹剩饭的绝望的人。\\n\\n你抬头望着袅袅升天的烟雾，听着远方的声音。你头上的枪伤很痛。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressFSIntro_01003310#MESG:FULL#81b6d7f50e7e533d934fac0eb1282cdd",
+    "original": "Mojave Express Dropbox - Freeside",
+    "translation": "莫哈维快递投递箱 - 自由之城",
+    "stage": 1
+  },
+  {
+    "key": "Expansion1Message_0100395C#MESG:DESC#2e28b3f104e8b0c11f89f3a055edf7cf",
+    "original": "The Mojave Express is expanding into several new locations across the wasteland!\\n\\nAs a thanks for being a loyal customer and former employee - we're giving you access to these boxes for free. There are new shipping destinations for the following locations:\\n\\n- Sloan\\n- 188 Trading Post\\n- Boulder City\\n- HELIOS One\\n- Mojave Outpost",
+    "translation": "莫哈韦快递在废土上扩展了几个新业务点！\\n\\n为了对我们忠实的客户和前员工表示感谢，我们将向您免费提供这些投递箱。\\n\\n您可以在以下地点找到新的投递箱:\\n\\n- 斯隆\\n- 188贸易站\\n- 巨石城\\n- 太阳神一号\\n- 莫哈韦前哨",
+    "stage": 1
+  },
+  {
+    "key": "Expansion1Message_0100395C#MESG:FULL#b18f50409da5eafac1dff023c5263754",
+    "original": "The Mojave Express is Expanding!",
+    "translation": "莫哈维快递扩张中！",
+    "stage": 1
+  },
+  {
+    "key": "Expansion2Message_0100395D#MESG:DESC#85e3c12a25246c772df0900da85cc58f",
+    "original": "Greetings Wastelander!\\n\\nThe Mojave Express has finally reached its goal of expanding even further into the wastes. As an owner of all five core stamps, we're giving you a stampbook, and access to our new boxes free of charge!\\n\\nNew Boxes are located at:\\n\\n- Crimson Caravan Company\\n- Gun Runners HQ\\n- Westside\\n- North Vegas\\n- Jacobstown\\n- Grub n' Gulp\\n- Field's Shack",
+    "translation": "你好！废土客！\\n\\n莫哈韦快递终于实现了进一步向废土扩张的目标。作为所有的五枚核心邮票的持有人，我们将免费给您一本邮票册以及我们的新投递箱的使用权！\\n\\n新箱子设于:\\n\\n- 深红商队公司\\n- 枪支走私贩总部\\n- 西区\\n- 北维加斯\\n- 雅各布斯镇\\n- 狼吞虎咽休息站\\n- 田边小屋",
+    "stage": 1
+  },
+  {
+    "key": "Expansion2Message_0100395D#MESG:FULL#b18f50409da5eafac1dff023c5263754",
+    "original": "The Mojave Express is Expanding!",
+    "translation": "莫哈维快递扩张中！",
+    "stage": 1
+  },
+  {
+    "key": "ExpressQueryCapacity_01007802#MESG:DESC#5dd7360fb8fca9cf8840dfb1b7b8bbd8",
+    "original": "Current weight %0.f / %0.f lbs",
+    "translation": "当前重量 %0.f / %0.f 磅",
+    "stage": 1
+  },
+  {
+    "key": "ExpressDeadNashMessage_010079B0#MESG:DESC#0fb30d31cd5532eae241cdba742226a9",
+    "original": "With both Johnson and Ruby Nash dead, the Mojave Express ceases to function. The Mojave Express Dropboxes will rust away, a hollow reminder of a little company that tried to help connect the wasteland.\\n\\nAny items stored in Dropboxes have been returned to the Primm office.",
+    "translation": "约翰逊和鲁比·纳什都死了，莫哈维快递也停止了运营。莫哈维快递投递箱将会生锈，这是一个空响的提醒，提醒人们有一家小公司试图帮助连接这片废土。\\n\\n所有存储在投递箱里的东西都已经归还给普瑞姆的办公室了。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressDeadNashMessage_010079B0#MESG:FULL#7adccda576ddafc27308f437605ddfbf",
+    "original": "Mojave Express Dropbox",
+    "translation": "莫哈维快递投递箱",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGSIntro_01007DC0#MESG:DESC#c8d73e7f33b1ed52890e2df4fe16f81e",
+    "original": "This is a Mojave Express Dropbox. It's old and weathered - but still sturdy.\\n\\nIt's a wonder that Couriers still risk the Mojave in times like these for such little pay and respect. \\n\\nYou notice a minor alteration to the Dropbox. The slot where pre-war change would have been inseted has been widened considerably to accommodate simple bottlecaps. It's possible to purchase an Authorization Stamp for this box for price of 25 Caps.",
+    "translation": "你站在这个莫哈维快递投递箱面前，它很旧，饱经风霜，但仍然坚固。\\n\\n在这样的时代，邮差们冒着穿越莫哈维沙漠的风险只为得到这么少的报酬和尊重真是个奇迹。\\n\\n你注意到投递箱的一个小改动，为了适应普通的瓶盖，战前的投币口已经被扩大了许多。可以以25瓶盖的价格购买这个箱子的授权印章。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGSIntro_01007DC0#MESG:FULL#a06b8fd1a3d28de3910e014dfe53bd2a",
+    "original": "Mojave Express Dropbox - Goodsprings",
+    "translation": "莫哈维快递投递箱 - 清泉镇",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:DESC#32b22e216630a22a0c605363b07e6a2a",
+    "original": "Mojave Express Shipping & Receiving",
+    "translation": "莫哈维快递收货&装运",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:FULL#a06b8fd1a3d28de3910e014dfe53bd2a",
+    "original": "Mojave Express Dropbox - Goodsprings",
+    "translation": "莫哈维快递投递箱 - 清泉镇",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:ITXT#a7ff6d1e2f28c6b47d70b81fbaf81d31",
+    "original": "Close Box",
+    "translation": "关闭箱子。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:ITXT#6aa2a0d86c7df763ed9f793cb0f29712",
+    "original": "Send/Receive items",
+    "translation": "发送 / 接受物品",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:ITXT#5d0a45e59e9be035c8b530638041802e",
+    "original": "Purchase an Authorization Stamp for this box [25 Caps]",
+    "translation": "购买这个箱子的授权印章[25瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:ITXT#b4bafda78e3620b7e1cbf6701dad3488",
+    "original": "Upgrade Dropbox capacity [200 Caps]",
+    "translation": "升级投递箱容量[200瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGeneric_01007DC1#MESG:ITXT#ff4a0a2aa7aa1092fb66e4268d2c83c9",
+    "original": "Check Dropbox capacity",
+    "translation": "检查投递箱容量",
+    "stage": 1
+  },
+  {
+    "key": "ExpressPrimmIntro_0100809F#MESG:DESC#50c802bd1b4260c80d9d5f27fe383d08",
+    "original": "The once striking paint on this dropbox has since been eroded by time, nuclear radiation, and the sandy Nevada wind.\\n\\nThis tiny town, tucked against a rollercoaster, has been besieged by bandits. The Sheriff was murdered in his own bed.\\n\\nThe world may have survived the nuclear holocaust, but so has mankind's propensity for violence.\\n\\nBefore departing, you consider purchasing an Authorization stamp for this box. It might come in handy later-on.",
+    "translation": "这个投递箱上曾经引人注目的油漆已经被时间、核辐射和内华达州的沙风侵蚀了。\\n\\n这个紧靠过山车的小镇，一直被土匪围攻。警长是在自己床上被谋杀的。\\n\\n世界可能在核灾难中幸存了下来，但人类的暴力倾向也是如此。\\n\\n在离开之前，你可以考虑为这个箱子买个授权印章，以后可能会派上用场。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressPrimmIntro_0100809F#MESG:FULL#bee502a59787d1e26ca3a9673413375e",
+    "original": "Mojave Express Dropbox - Primm",
+    "translation": "莫哈维快递投递箱 - 普瑞姆",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:DESC#32b22e216630a22a0c605363b07e6a2a",
+    "original": "Mojave Express Shipping & Receiving",
+    "translation": "莫哈维快递收货&装运",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:FULL#bee502a59787d1e26ca3a9673413375e",
+    "original": "Mojave Express Dropbox - Primm",
+    "translation": "莫哈维快递投递箱 - 普瑞姆",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:ITXT#a7ff6d1e2f28c6b47d70b81fbaf81d31",
+    "original": "Close Box",
+    "translation": "关闭箱子。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:ITXT#6aa2a0d86c7df763ed9f793cb0f29712",
+    "original": "Send/Receive items",
+    "translation": "发送 / 接受物品",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:ITXT#5d0a45e59e9be035c8b530638041802e",
+    "original": "Purchase an Authorization Stamp for this box [25 Caps]",
+    "translation": "购买这个箱子的授权印章[25瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:ITXT#b4bafda78e3620b7e1cbf6701dad3488",
+    "original": "Upgrade Dropbox capacity [200 Caps]",
+    "translation": "升级投递箱容量[200瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericPrimm_010080A1#MESG:ITXT#ff4a0a2aa7aa1092fb66e4268d2c83c9",
+    "original": "Check Dropbox capacity",
+    "translation": "检查投递箱容量",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:DESC#32b22e216630a22a0c605363b07e6a2a",
+    "original": "Mojave Express Shipping & Receiving",
+    "translation": "莫哈维快递收货&装运",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:FULL#81b6d7f50e7e533d934fac0eb1282cdd",
+    "original": "Mojave Express Dropbox - Freeside",
+    "translation": "莫哈维快递投递箱 - 自由之城",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:ITXT#a7ff6d1e2f28c6b47d70b81fbaf81d31",
+    "original": "Close Box",
+    "translation": "关闭箱子。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:ITXT#6aa2a0d86c7df763ed9f793cb0f29712",
+    "original": "Send/Receive items",
+    "translation": "发送 / 接受物品",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:ITXT#5d0a45e59e9be035c8b530638041802e",
+    "original": "Purchase an Authorization Stamp for this box [25 Caps]",
+    "translation": "购买这个箱子的授权印章[25瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:ITXT#b4bafda78e3620b7e1cbf6701dad3488",
+    "original": "Upgrade Dropbox capacity [200 Caps]",
+    "translation": "升级投递箱容量[200瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericFS_0100865F#MESG:ITXT#ff4a0a2aa7aa1092fb66e4268d2c83c9",
+    "original": "Check Dropbox capacity",
+    "translation": "检查投递箱容量",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:DESC#32b22e216630a22a0c605363b07e6a2a",
+    "original": "Mojave Express Shipping & Receiving",
+    "translation": "莫哈维快递收货&装运",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:FULL#320890862e44ebcc78b0bb05623f148a",
+    "original": "Mojave Express Dropbox - The Strip",
+    "translation": "莫哈维快递投递箱 - 长街",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:ITXT#a7ff6d1e2f28c6b47d70b81fbaf81d31",
+    "original": "Close Box",
+    "translation": "关闭箱子。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:ITXT#6aa2a0d86c7df763ed9f793cb0f29712",
+    "original": "Send/Receive items",
+    "translation": "发送 / 接受物品",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:ITXT#5d0a45e59e9be035c8b530638041802e",
+    "original": "Purchase an Authorization Stamp for this box [25 Caps]",
+    "translation": "购买这个箱子的授权印章[25瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:ITXT#b4bafda78e3620b7e1cbf6701dad3488",
+    "original": "Upgrade Dropbox capacity [200 Caps]",
+    "translation": "升级投递箱容量[200瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericSTP_01008660#MESG:ITXT#ff4a0a2aa7aa1092fb66e4268d2c83c9",
+    "original": "Check Dropbox capacity",
+    "translation": "检查投递箱容量",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:DESC#32b22e216630a22a0c605363b07e6a2a",
+    "original": "Mojave Express Shipping & Receiving",
+    "translation": "莫哈维快递收货&装运",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:FULL#991e024210e711ccc9cb9658f7c6088a",
+    "original": "Mojave Express Dropbox - Novac",
+    "translation": "莫哈维快递投递箱 - 诺瓦克",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:ITXT#a7ff6d1e2f28c6b47d70b81fbaf81d31",
+    "original": "Close Box",
+    "translation": "关闭箱子。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:ITXT#6aa2a0d86c7df763ed9f793cb0f29712",
+    "original": "Send/Receive items",
+    "translation": "发送 / 接受物品",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:ITXT#5d0a45e59e9be035c8b530638041802e",
+    "original": "Purchase an Authorization Stamp for this box [25 Caps]",
+    "translation": "购买这个箱子的授权印章[25瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:ITXT#b4bafda78e3620b7e1cbf6701dad3488",
+    "original": "Upgrade Dropbox capacity [200 Caps]",
+    "translation": "升级投递箱容量[200瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericNovac_01008661#MESG:ITXT#ff4a0a2aa7aa1092fb66e4268d2c83c9",
+    "original": "Check Dropbox capacity",
+    "translation": "检查投递箱容量",
+    "stage": 1
+  },
+  {
+    "key": "ExpressNiptonIntro_01000DD0#MESG:DESC#42c85ad7cf249af4b9a9f778abddd92b",
+    "original": "This dropbox has been heavily vandalized. It's totally unusable.\\n\\nIt's unlikely that Couriers venture this far, especially considering the scene you just witnessed.\\n\\nThe air is filled with smoke, pained groaning, and bright red fires, slowly burning the once prosperous town of Nipton to the ground. The smell of charred remains and burnt hair lingers in your nostrils.\\n\\nIt's probably best to not stick around.",
+    "translation": "这个投递箱被严重破坏了，已经完全无法使用。\\n\\n邮差不太可能冒险到这么远的地方来，尤其是考虑到你刚刚看到的场景。\\n\\n空气中弥漫着烟雾、痛苦的呻吟和鲜红的火焰，慢慢地将曾经繁荣的尼普顿镇夷为平地。烧焦的尸体和头发的气味在你的鼻孔里萦绕。\\n\\n最好还是别再呆在这里了。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressNiptonIntro_01000DD0#MESG:FULL#53544e1c9a6f6060503b5fc252d0e182",
+    "original": "Mojave Express Dropbox - Nipton",
+    "translation": "莫哈维快递投递箱 - 尼普顿",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:DESC#32b22e216630a22a0c605363b07e6a2a",
+    "original": "Mojave Express Shipping & Receiving",
+    "translation": "莫哈维快递收货&装运",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:FULL#7adccda576ddafc27308f437605ddfbf",
+    "original": "Mojave Express Dropbox",
+    "translation": "莫哈维快递投递箱",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:ITXT#a7ff6d1e2f28c6b47d70b81fbaf81d31",
+    "original": "Close Box",
+    "translation": "关闭箱子。",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:ITXT#6aa2a0d86c7df763ed9f793cb0f29712",
+    "original": "Send/Receive items",
+    "translation": "发送 / 接受物品",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:ITXT#71ab610e914816d6e15d4abc9f44f71c",
+    "original": "[Dummy Selection]",
+    "translation": "[虚拟对象选择]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:ITXT#b4bafda78e3620b7e1cbf6701dad3488",
+    "original": "Upgrade Dropbox capacity [200 Caps]",
+    "translation": "升级投递箱容量[200瓶盖]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressGenericBox_010021E9#MESG:ITXT#ca82fd5bba744f1badf5eef33037e30f",
+    "original": "Check Dropbox Capacity",
+    "translation": "检查投递箱容量",
+    "stage": 1
+  },
+  {
+    "key": "ExpressNotOpen_0100C2AC#MESG:DESC#507182cf5086219541c0d5bee0c08e84",
+    "original": "[A worn note hangs from the side of the dropbox, from what you can tell - it's been there while]\\n\\nDue to unforseen circumstances, the Mojave Express is currently not operating in this region.\\n\\nPlease direct any queries to our main office in Primm...\\n\\nSigned [The signatures are too worn to read]",
+    "translation": "[一张破旧的纸条挂在投递箱的侧面，你可以看出，它已经在那里很久了]\\n\\n由于不可预见的情况，莫哈维快递目前不在该地区运营。\\n\\n如有任何疑问，请直接联系我们在普瑞姆的总部。\\n\\n\\n- 已签名[签名已磨损，无法辨认]",
+    "stage": 1
+  },
+  {
+    "key": "ExpressNotOpen_0100C2AC#MESG:FULL#7adccda576ddafc27308f437605ddfbf",
+    "original": "Mojave Express Dropbox",
+    "translation": "莫哈维快递投递箱",
+    "stage": 1
+  },
+  {
+    "key": "NVChallengeCouriersBurden_010069AD#CHAL:FULL#e52bc4f4ec641aa7ab264d7862df69c4",
+    "original": "Courier's Burden",
+    "translation": "邮差的责任",
+    "stage": 1
+  },
+  {
+    "key": "NVChallengeCouriersBurden_010069AD#CHAL:DESC#283e0da8a644f774d6000beacc0a1da1",
+    "original": "Discover Core Mojave Express Dropboxes.",
+    "translation": "找到所有核心区域的莫哈维快递投递箱。",
+    "stage": 1
+  },
+  {
+    "key": "NVChallengeExpansion1_01003959#CHAL:FULL#0198a3d60f9bb999b8f73fa09a754d60",
+    "original": "Back in the swing of things",
+    "translation": "失而复得",
+    "stage": 1
+  },
+  {
+    "key": "NVChallengeExpansion1_01003959#CHAL:DESC#5224800ef0a25bcfdca37eaef6aa5e64",
+    "original": "Purchase access to Core Mojave Express Dropboxes",
+    "translation": "购买核心区域莫哈维快递投递箱的访问权限。",
+    "stage": 1
+  },
+  {
+    "key": "NVChallengeExpansion2_0100395A#CHAL:FULL#9676a1ad81202abc1368962d7a024eab",
+    "original": "Expert Courier",
+    "translation": "专业邮差",
+    "stage": 1
+  },
+  {
+    "key": "NVChallengeExpansion2_0100395A#CHAL:DESC#5224800ef0a25bcfdca37eaef6aa5e64",
+    "original": "Purchase access to Core Mojave Express Dropboxes",
+    "translation": "购买核心区域莫哈维快递投递箱的访问权限。",
+    "stage": 1
+  }
+]

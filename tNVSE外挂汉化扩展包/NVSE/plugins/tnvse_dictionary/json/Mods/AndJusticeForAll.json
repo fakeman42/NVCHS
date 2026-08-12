@@ -1,0 +1,992 @@
+[
+  {
+    "key": "justiceGunslinger_0100533C#ENCH:FULL#ebdd4494374c8b519d3fbb3c06bc481f",
+    "original": "Gunslinger",
+    "translation": "单枪客",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:FULL#c096098a2a95d59f4cac70ab70a9c121",
+    "original": "Eddie's Terminal",
+    "translation": "艾迪的终端机",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:DESC#dfc866c4f08b5fc686897af37d89c34b",
+    "original": "Welcome, Coward!",
+    "translation": "欢迎你，胆小鬼！",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:ITXT#0947014abac8bfa92cf15467432ae224",
+    "original": "Can't Sleep",
+    "translation": "无法入睡",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:ITXT#9fac26278cdb216502079275912c9eae",
+    "original": "Scared",
+    "translation": "害怕",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:ITXT#9624b66a02293bc8d4585e8add30bc2b",
+    "original": "Cuda",
+    "translation": "库达",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:ITXT#c2793ca80d4bd788c01897d3bfae917a",
+    "original": "He came by",
+    "translation": "他来了",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiesTerminal_010044C0#TERM:ITXT#86f38ace25819cf74d53c87721df85ea",
+    "original": "Fight-a-mens",
+    "translation": "打击犯罪",
+    "stage": 1
+  },
+  {
+    "key": "justiceGunslingerOutfit_0100533D#ARMO:FULL#91c9164480f652dca91cd34e659c4252",
+    "original": "Gunslinger Vest",
+    "translation": "神枪客背心",
+    "stage": 1
+  },
+  {
+    "key": "justiceJacksHat_010072F7#ARMO:FULL#bffb0334d7072fe27649ff76c01091f4",
+    "original": "Jack's Hat",
+    "translation": "杰克的帽子",
+    "stage": 1
+  },
+  {
+    "key": "justiceKillerOutfit_010072FB#ARMO:FULL#e03712220bbcecf41cdd345a06f1e5cf",
+    "original": "Bounty Killer Outfit",
+    "translation": "赏金猎人套装",
+    "stage": 1
+  },
+  {
+    "key": "VNovacMcBrideRefrigerator_000CCEC0#CONT:FULL#839103521034f443d6c85be10d5c90b0",
+    "original": "Refrigerator",
+    "translation": "冰箱",
+    "stage": 1
+  },
+  {
+    "key": "justiceVulturesLog_01006198#MISC:FULL#29be4adfad82cf0f253ad055d4a2945e",
+    "original": "Vulture's Log",
+    "translation": "秃鹫的日志",
+    "stage": 1
+  },
+  {
+    "key": "justicewantedposter_01001657#MISC:FULL#5036f3159f869214caf7da9b9a71d28b",
+    "original": "WANTED: Black Jack Samuels",
+    "translation": "通缉: 黑杰克塞缪尔",
+    "stage": 1
+  },
+  {
+    "key": "justiceHuntJournItem_01004D6F#MISC:FULL#b0c11353f3fcfe73e148f869863f2c61",
+    "original": "Hunter's Journal",
+    "translation": "赏金猎人的日志",
+    "stage": 1
+  },
+  {
+    "key": "justiceMonicaObj_01005338#MISC:FULL#9f481cde90e4f15a559ced1248a33069",
+    "original": "TWW: \"Freeside Girl Found Dead!\"",
+    "translation": "TWW: \"自由城女孩被发现死亡！\"",
+    "stage": 1
+  },
+  {
+    "key": "justiceBillyObject_010044D0#MISC:FULL#47a8df4cb1100d1673f8aa1363b70d07",
+    "original": "Billy",
+    "translation": "比利",
+    "stage": 1
+  },
+  {
+    "key": "justiceScalper_010072FD#WEAP:FULL#26223f108b1e6e495aed277ba4e7db8e",
+    "original": "Scalper",
+    "translation": "手术刀",
+    "stage": 1
+  },
+  {
+    "key": "NovacSettler01_000B8781#NPC_:FULL#fa16a6e5dac12e97abaf3d9137acd8e3",
+    "original": "Novac Settler",
+    "translation": "诺瓦克住民",
+    "stage": 1
+  },
+  {
+    "key": "justicejavier_010021CD#NPC_:FULL#b41fffc9c2d188af5cc623ba05ab8361",
+    "original": "Javier",
+    "translation": "哈维尔",
+    "stage": 1
+  },
+  {
+    "key": "BountyKillerOne_01003662#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "justicesally_01003665#NPC_:FULL#247dbadbc049529c9d2a53b421b3f493",
+    "original": "Sally",
+    "translation": "莎莉",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddie_010044CA#NPC_:FULL#1f9cb271600faaf70f89ca7217a8a345",
+    "original": "Eddie",
+    "translation": "埃迪",
+    "stage": 1
+  },
+  {
+    "key": "justiceCuda_01004D69#NPC_:FULL#9624b66a02293bc8d4585e8add30bc2b",
+    "original": "Cuda",
+    "translation": "库达",
+    "stage": 1
+  },
+  {
+    "key": "justiceHussyOne_01004D6B#NPC_:FULL#2d7f01564d9d7d0c453a6b348a63302d",
+    "original": "Cuda's Hussy",
+    "translation": "库达的情妇",
+    "stage": 1
+  },
+  {
+    "key": "justiceHussyTwo_01004D6C#NPC_:FULL#2d7f01564d9d7d0c453a6b348a63302d",
+    "original": "Cuda's Hussy",
+    "translation": "库达的情妇",
+    "stage": 1
+  },
+  {
+    "key": "DeadBountyKillerOne_01004D6D#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "DeadBountyKillerTwo_01004D70#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "BountyKillerTwo_0100533B#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "justiceRick_0100533F#NPC_:FULL#811aeaf868f80a847a5d91300df993a9",
+    "original": "Rick",
+    "translation": "里克",
+    "stage": 1
+  },
+  {
+    "key": "BountyKillerThree_01005341#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "justiceVulture_01006197#NPC_:FULL#f38aa2ca5c3b30ea14c790332d5441d9",
+    "original": "Vulture",
+    "translation": "秃鹫",
+    "stage": 1
+  },
+  {
+    "key": "DeadBountyKillerThree_0100619D#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "DyingBountyKiller_0100619E#NPC_:FULL#98ec6b72f4cf3e23ced2872350494011",
+    "original": "Bounty Hunter",
+    "translation": "赏金猎人",
+    "stage": 1
+  },
+  {
+    "key": "justiceJack_010061A1#NPC_:FULL#53d23de34040804b38ef76e7e667c717",
+    "original": "Black Jack",
+    "translation": "黑杰克",
+    "stage": 1
+  },
+  {
+    "key": "justiceLocke_010072F6#NPC_:FULL#047dad4ca4a32ab58fb8715a75feae34",
+    "original": "Locke",
+    "translation": "洛克",
+    "stage": 1
+  },
+  {
+    "key": "tUnforgivenWalkerOne_0100928F#NPC_:FULL#3a007bf4ef8fc69d9b6f16912d1783e1",
+    "original": "Sergeant Walker",
+    "translation": "沃克中士",
+    "stage": 1
+  },
+  {
+    "key": "justiceCudaKey_01004D6A#KEYM:FULL#cb4659360df614d030d128d387578d0f",
+    "original": "Cuda's Key",
+    "translation": "库达的钥匙",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieKey_010044C7#KEYM:FULL#f65aa751c23b3d1db97fa8d2deb44697",
+    "original": "Password",
+    "translation": "密码",
+    "stage": 1
+  },
+  {
+    "key": "justicebilly_01003663#NOTE:FULL#47a8df4cb1100d1673f8aa1363b70d07",
+    "original": "Billy",
+    "translation": "比利",
+    "stage": 1
+  },
+  {
+    "key": "justicebilly_01003663#NOTE:TNAM#d7eea8869a0b856122430ffc21c01cd8",
+    "original": "Bitch finally talked, said Jack’s got friends at the old hunter’s farm in outer vegas, so me and the gang are headed there. Before you catch up, take care of the body. I didn’t come this far only to get a bounty on my own ass.\\n\\nFigured it could help you find your balls too, considering you walked out while I was working her over.\\n\\nNever do that again, Billy. Next time, you watch.",
+    "translation": "贱人终于开口了，\\n说杰克在拉斯维加斯外一个老猎人的农场里有朋友，\\n所以我和兄弟们正往那儿赶。\\n在你追上来之前，先把这具尸体处理掉。\\n我费了这么大劲，可不是来给自己找麻烦的。\\n\\n考虑到我在办事时你擅自离开了，\\n我这么做也是想帮你找回你的胆子。\\n\\n比利，别再这么做了。下次，你看着。",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiePass_010044C8#NOTE:FULL#94d787769b78d71125cf29a6690d0fa0",
+    "original": "Eddie's Password",
+    "translation": "艾迪的密码",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddiePass_010044C8#NOTE:TNAM#f3ae6aeaad7a6bfc4da20a7c535d68e0",
+    "original": "Password: Reckoning",
+    "translation": "密码：Reckoning",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallnoteone_01000ADE#NOTE:FULL#5036f3159f869214caf7da9b9a71d28b",
+    "original": "WANTED: Black Jack Samuels",
+    "translation": "通缉: 黑杰克塞缪尔",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallnoteone_01000ADE#NOTE:TNAM#be7896b6337d9af477de252eb8cf2ccf",
+    "original": "ATTENTION!\\n\\nThis is an official warrant for the arrest or neutralization of Johnson J. Samuels, also known by the alias of “Black Jack”, for the murder and desecration of Senator James Holden of the New California Republic, and the five brave rangers sworn to his protection.\\n\\nJohn Samuels is a suspected career-criminal and considered armed and dangerous. Evidence suggests he operates in a gang of 3-5 persons responsible for 41 unsolved cases of murder, 47 unsolved cases of theft, 12 unsolved cases of grand theft, and 4 cases of rape in the mojave area over the past twenty years.\\n\\nJohn Samuels was last reportedly seen in the Novac area.\\n\\n5000 bottle caps will be rewarded to they who apprehends John Samuels or provides proof of death.\\n\\nDennis Crocker\\nAmbassador Extraordinary and Plenipotentiary of the Department of State\\n\\n“One Nation Indivisible, with Liberty and Justice for all”",
+    "translation": "注意！\\n\\n这是一份正式逮捕令或歼灭令，\\n目标为约翰·J·塞缪尔斯，别名“黑杰克”，\\n此人涉嫌谋杀并亵渎NCR参议员詹姆斯·霍尔登，\\n以及誓死保护他的五名勇敢的治安官。\\n\\n约翰·塞缪尔斯是名职业罪犯，被认定携带武器且极度危险。\\n证据表明，他在过去二十年里在莫哈维地区率领3至5人的团伙\\n作案，导致41起未解谋杀案、47起未解盗窃案、\\n12起未解重大盗窃案和4起强奸案。\\n\\n约翰·塞缪尔斯最后一次被目击出现在诺瓦克地区。\\n\\n任何逮捕约翰·塞缪尔斯或提供其死亡证明者，\\n将获得5000个瓶盖作为奖励。\\n\\n丹尼斯·克罗克\\n国务院特命全权大使\\n\\n“一个不可分割的国家，人人享有自由和正义”",
+    "stage": 1
+  },
+  {
+    "key": "justiceHunterJournal_01004D6E#NOTE:FULL#b0c11353f3fcfe73e148f869863f2c61",
+    "original": "Hunter's Journal",
+    "translation": "赏金猎人的日志",
+    "stage": 1
+  },
+  {
+    "key": "justiceHunterJournal_01004D6E#NOTE:TNAM#1996cd654e55b5a18d75e5951a2d414f",
+    "original": "(The leatherback journal details the owner’s experiences as a bounty hunter, constantly lamenting his boss, “Locke”. This is capitalized by the most recent entry)\\n\\nThis is bullshit.\\n\\nUnlike the skank, this sniveling shit gave us a bunch of leads. Too many leads, so Locke decided to split us all up. And where do I get sent?\\n\\nTo the Atomic Wrangler, where there’s booze and hussies aplenty? NOPE.\\n\\nTo some backwoods town, where there might be a local slut? NOPE.\\n\\nI get sent to the death trap most likely infested with raiders. Naturally. If I didn’t know any better, I’d say Locke is intentionally trying to get me killed so he gets a bigger cut. Jokes on him. No matter how many caps he pours into it, he’ll never get better at poker.\\n\\nMaybe I’ll get lucky. Maybe Locke will finally meet his match, and he ends up getting killed instead. Then I’ll get his cut and, instead of wasting it on some chips, I can finally get some pussy.\\n\\nAll I ever wanted was some pussy. The only reason I ever got into this business was for some pussy.\\n\\nWHAT DOES A MAN HAVE TO DO TO GET FUCKED AROUND HERE!?",
+    "translation": "（这本皮革背面的日记详细记录了一个赏金猎人的经历，\\n他不断抱怨他的老板“洛克”。\\n最近的条目更是将“洛克”这个名字大写了出来）\\n\\n真是他妈的扯淡。\\n\\n和那个臭婊子不同，这个哭哭啼啼的家伙给了我们一堆线索。\\n线索太多了，所以洛克决定把我们全部分开行动。\\n那我被派去哪儿了呢？\\n\\n去原子牛仔那种地方，那里酒和妓女多得是？想得美。\\n\\n去某个偏远的乡下小镇，那里可能有本地的放荡女人？\\n拉倒吧。\\n\\n我被送到了最有可能是掠夺者窝的死亡陷阱里。\\n这他妈的自然了。如果我不知道得更清楚些，\\n我会说洛克是故意想让我送死，这样他就能分到更多的钱。\\n他可真是打错了算盘。不管他投入多少筹码，\\n他永远都玩不好扑克。\\n\\n也许我会走运。也许洛克终于遇到了对手，最终自己丢了性命。\\n那我就能得到他的那份，而且，我不会浪费在那些筹码上，\\n我终于能找女人操了。\\n\\n我他妈的就只想操女人。\\n我当初干这行的原因也只是想操女人而已。\\n\\n在这地方，\\n男人得做些什么才能得到一次他妈的爽快的性爱啊！？",
+    "stage": 1
+  },
+  {
+    "key": "justicetoldya_01003945#NOTE:FULL#44d4ccf8f24cd0bcbbfa7f364544e42a",
+    "original": "Told Ya",
+    "translation": "告诉你",
+    "stage": 1
+  },
+  {
+    "key": "justicetoldya_01003945#NOTE:TNAM#283aa39e8559f5373c32a90222dffe9c",
+    "original": "Sally,\\n\\nI know I’m the last person you want to hear from, but you need to run. Bear knows I did it, so people will be after me. And when they find out I lived in Novac, they’ll be after you too.\\n\\nAnd I can’t stress this enough; If those people find you and start asking questions, tell them everything. You’ve always been stubborn, so I’m sure you’ll still wanna keep your mouth shut, even for a man you hate. But don’t. I’ve dealt with bounty hunters all my life. If they want something, they’ll get it.\\n\\nI can’t apologize for what I did, only for what I am. Told ya you should’ve married that dumbass dino salesman instead.\\n\\n- You Know Who",
+    "translation": "莎莉,\\n\\n我知道我是你最不想听到的人，但你必须逃跑。\\n贝尔知道是我干的，所以他们一定会来追我。\\n当他们发现我曾经住在诺瓦克时，他们也会来找你。\\n\\n我必须再次强调这一点；\\n如果那些人找到你并开始盘问，你就把一切都告诉他们。\\n你一直都很固执，所以我肯定你即使面对一个你憎恨的男人\\n，也还是想保持沉默。但别这么做。\\n我一辈子都在和赏金猎人打交道。\\n如果他们想要什么，他们一定会得到。\\n\\n我不能为我所做的事道歉，只能为我所是的人道歉。\\n早就告诉过你，你应该嫁给那个愚蠢的恐龙销售员。\\n\\n- 你知道我是谁",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieOne_010044C1#NOTE:FULL#0947014abac8bfa92cf15467432ae224",
+    "original": "Can't Sleep",
+    "translation": "无法入睡",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieOne_010044C1#NOTE:TNAM#1e17c9ee4ee43867b3f4e78dbc7a8650",
+    "original": "I can’t sleep.\\n\\nI just lay on that bed, staring at that black ceiling, and in that darkness, I see it all again. Every single caravan. Every single face. Every single mistake just thrown back in my lap. Rick and Cuda. And Jack. Fucking Jack. Always in that fucking hat. \\n\\nI can’t do it. I’ve gone out at night, spent my time taking pop-shots at the geckos and the dumbass powder-shits. I remember when I could hit a bloatfly at a hundred yards. Now I can barely hit giant fire-breathing lizards at ten feet. Fucking hands, fucking shaking.\\n\\nSpent my time working on this terminal instead, finally got it up and running again. Guess I’ll try writing. Momma always said it was good to get your thoughts out.\\n\\nHopefully it’ll help me sleep, because I don’t have the guts to kill myself yet.",
+    "translation": "我睡不着。\\n\\n我就躺在床上，盯着那漆黑的天花板，在黑暗中，\\n我又看到了那些画面。\\n每一辆马车。每一张脸。每一个错误都再次回到我的脑海中。\\n里克和库达。还有杰克。\\n该死的杰克。总是戴着那顶该死的帽子。\\n\\n我做不到。我夜里出门，把时间花在朝蜥蜴射击上。\\n我记得以前我能在百米外击中一只辐射苍蝇。\\n现在我连十英尺外的大喷火蜥蜴都打不中。\\n该死的手，抖个不停。\\n\\n最后，我把时间花在这台终端机上，终于把它修好了。\\n我想我试着写点东西吧。妈妈总是说把想法写出来是好的。\\n\\n希望这能让我睡着，因为我还没勇气自杀。",
+    "stage": 1
+  },
+  {
+    "key": "justiceJackNote_01004D71#NOTE:FULL#2c3b2ffc1cc2bf7c2bf465ac247fde1b",
+    "original": "Note",
+    "translation": "笔记",
+    "stage": 1
+  },
+  {
+    "key": "justiceJackNote_01004D71#NOTE:TNAM#020df1739dc0f5722cf7f81921e97d36",
+    "original": "(The untitled note is muddled, with constant pencil scribbles and erasings, making it difficult to read)\\n\\n- 5 man guard, rangers, maybe vets\\n- .44 caliber, possibly 45-70 \\n- Holden will have a vest, steel plate, AP might not even do it. Headshot too risky. If I miss, they’ll get him out of there. Out of the mojave. Won’t have the chance again\\n- Need to get close, to make (“him suffer” is scratched out) sure, but if I get close, will be ID’d\\n\\n(There are a large series of scribbles and erasings here, before the final line is written over the mess darkly)\\n\\nFuck it",
+    "translation": "（这封无标题的便签混乱不堪，\\n上面满是铅笔的涂鸦和擦除痕迹，很难阅读）\\n\\n- 5人守卫，可能是游骑兵，也可能是退伍军人\\n- .44口径，可能是45-70口径\\n- 霍顿会穿着防弹背心，里面还嵌着钢板，\\n穿甲弹也不一定有用。爆头太冒险了。\\n如果我射偏了，他们会把他从那里带走的。\\n离开莫哈维沙漠。就不会再有这样的机会了\\n- 必须接近，以确保（“让他痛苦”这句话被划掉了）安全，\\n但如果我靠近，会被认出来的\\n\\n（这里有一系列大量的涂鸦和擦除痕迹，\\n最后一行文字在混乱中黑暗地写出来）\\n\\n妈的",
+    "stage": 1
+  },
+  {
+    "key": "justiceVulturesNote_01006199#NOTE:FULL#29be4adfad82cf0f253ad055d4a2945e",
+    "original": "Vulture's Log",
+    "translation": "秃鹫的日志",
+    "stage": 1
+  },
+  {
+    "key": "justiceVulturesNote_01006199#NOTE:TNAM#85d8f26cc310428204e6cb4f8392b367",
+    "original": "Day 87 of seeing all. Squaw Squaw!\\n\\nSunny went gecko-hunting again today. Seems to do it everyday. Maybe I’ll bring it up to her at happy hour, finally break the ice (and hopefully break her back later! Squaw Squaw!) \\n\\nSaw Easy Pete and Trudy go into the back room again. They’re definitely fucking. If I could catch them in the act, I could probably get some blackmail caps out of it. Maybe buy Sunny a stuffed gecko or something.\\n\\nHad some new faces in town today. Some cowboy with a chainsaw came through here. Stayed right out of his way. Couple thugs came up after, followed him up to Yangtze. Stayed right out of their way too. A vulture doesn’t fight, but scavenges the aftermath. Squaw Squaw!",
+    "translation": "第87天，观察一切。嚯嚯！\\n\\n桑妮今天又出去抓蜥蜴了。\\n她似乎每天都这么做。\\n也许我应该在畅饮时段跟她提一下，\\n终于打破僵局（希望之后能让她也尝尝苦头！！嚯嚯！）\\n\\n今天又看到轻松皮特和特鲁迪进入后屋了。\\n他们肯定在搞鬼。如果我能抓到他们在做什么，\\n我可能会从中勒索一些瓶盖。也许给桑妮买个蜥蜴玩偶什么的。\\n\\n今天镇上来了几个新面孔。\\n有个拿着电锯的牛仔路过这里。我躲得远远的。\\n随后来了几个恶棍，跟着他去了扬子纪念碑。\\n我也躲得远远的。秃鹫不打架，只捡拾战后的残骸。嚯嚯！",
+    "stage": 1
+  },
+  {
+    "key": "justiceHoldensReturn_01004D72#NOTE:FULL#f1249ac074bf50cf6fd233e09f210973",
+    "original": "TWW: \"Senator Holden's Return!\"",
+    "translation": "TWW: \"参议员霍尔登归来！\"",
+    "stage": 1
+  },
+  {
+    "key": "justiceHoldensReturn_01004D72#NOTE:TNAM#db9913c98467e196b354e1c430bddb9e",
+    "original": "Published March 16th, 2281\\n\\nThat’s right, Mojave! Everyone’s favorite Senator is back!\\n\\nFour years ago, full-time Senator and ladies man, James Holden became the first NCR official to do a complete tour of the mojave, visiting all major settlements, giving rousing speeches, and showing off that fantastic jaw line!\\n\\nFour years later, with the NCR election cycle once again upon us, Senator Holden has returned to tell us all why he deserves President Kimball’s spot! Frankly, he deserves it for that hair alone!\\n\\nSenator Holden had this to say about the mojave, as per Wasteland Word journalist Alison Goobers: “I love this country. The mojave people have a strong and vibrant culture the suits in Shady could learn a thing or two from!”\\n\\nAnd not just that! After stiff interrogation from Goobers, Senator Holden finally revealed that he is in fact single and looking to mingle! If you want to try your hand at becoming wife to the hunkiest Senator in history, you’ll want to attend his rallies on the following dates:\\n\\nApril 1st, 2281: Hoover Dam\\nMay 2nd, 2281: Freeside (The Freeside date has been circled and underlined repeatedly)\\nMay 13th, 2281: The Strip\\nJune 3rd, 2281: Goodsprings\\nJuly 5th, 2281: Mojave Outpost\\nJuly 27th, 2281: Nipton\\nAugust 7th, 2281: Novac\\n\\nTo stay up to date on all the juiciest happenings in the Mojave, be sure to stop by our facility daily for your copy of The Wasteland Word, located in Freeside! The Wasteland Word is sponsored by Grub-Man, “Cheap and Filling!\"",
+    "translation": "发表于2281年3月16日\\n\\n没错，莫哈维！大家最喜爱的参议员回来了！\\n\\n四年前，全职参议员兼花花公子詹姆斯·霍尔顿成为NCR首位完整游览莫哈维的官员，\\n他访问了所有主要定居点，发表了鼓舞人心的演讲，\\n并展示了那张迷人的下巴线条！\\n\\n四年后，随着NCR选举周期的再次到来，\\n参议员霍尔顿再次回到这里，\\n告诉我们他为何值得接替金博尔总统的职位！\\n坦白说，就凭他那头秀发，他就配得上！\\n\\n根据废土新闻记者艾利森·古博斯的报道，\\n参议员霍尔顿对莫哈维这样说：“我爱这个国家。\\n莫哈维人民拥有强大而充满活力的文化，\\n那些西装革履的政客们可以从他们身上学到一两样东西！”\\n\\n不仅如此！在古博斯的追问下，\\n参议员霍尔顿终于透露自己其实是单身，并渴望与人交往！\\n如果你想尝试成为历史上最英俊的参议员的妻子，\\n那么请务必参加以下日期的他的竞选集会：\\n\\n2281年4月1日：胡佛大坝\\n2281年5月2日：自由城\\n（自由城的日期被反复圈出并划下重点）\\n2281年5月13日：长街\\n2281年6月3日：清泉镇 \\n2281年7月5日：莫哈维哨站\\n2281年7月27日：尼普顿\\n2281年8月7日：诺瓦克\\n\\n要随时了解莫哈韦最精彩的事件，\\n请务必每天到我们的设施领取一份《废土新闻》，\\n我们的办公地点位于自由城！《废土新闻》由\\n“便宜又管饱”的Grub-Man赞助！",
+    "stage": 1
+  },
+  {
+    "key": "justiceDeadGirl_01005337#NOTE:FULL#9f481cde90e4f15a559ced1248a33069",
+    "original": "TWW: \"Freeside Girl Found Dead!\"",
+    "translation": "TWW: \"自由城女孩被发现死亡！\"",
+    "stage": 1
+  },
+  {
+    "key": "justiceDeadGirl_01005337#NOTE:TNAM#5d460b7490b6463a6cd6176614f4c7c6",
+    "original": "Published May 5th, 2277\\n\\nTragedy struck Freeside today when Monica Wales (14) was found dead in an alleyway this morning.\\n\\nFollowers Doctor Julie Farkas, who examined Monica after being found, reported signs of sexual assault before her death by blunt force trauma. \\n\\nThe member of the Kings who found her, and chooses to remain anonymous, blames the NCR for Monica’s death, stating: “Yeah, Freeside has always been rough, but no one picked on little girls until them soldier boys came through. They think just because they got a big ol’ flag, they can do whatever they want.”\\n\\nNo NCR officials were available for a response.\\n\\nMonica’s father, Ricky Wales (35), had little to say about her death, besides that he’d be taking Monica’s remains to his hometown of Goodsprings to rest beside her mother’s.\\n\\nDespite her age, Monica Wales was a well known and well loved member of the Freeside community. She regularly volunteered at the Mormon Fort where Julie Farkas called her, “the best little nurse I’ve ever seen.” We here at The Wasteland Word offer our thoughts and prayers to Monica's friends and family.",
+    "translation": "发表于2277年5月5日\\n\\n今日悲剧降临自由城，\\n莫妮卡·威尔士（14岁）今晨在一条小巷中被发现死亡。\\n\\n发现莫妮卡后为她进行检查的朱莉·法卡斯医生报告称，\\n莫妮卡死前曾遭受性侵犯，头部还受到钝器重创。\\n\\n发现莫妮卡的猫王帮成员选择匿名，\\n并将莫妮卡的死归咎于NCR，\\n他说道：“没错，自由城向来都不太平，但那些士兵来之前，\\n没人会去招惹小女孩。他们以为有了面大旗子就能随心所欲。”\\n\\n目前没有NCR官员对此事做出回应。\\n\\n莫妮卡的父亲里克·威尔士（35岁）对她的死不愿多谈，\\n只表示会把莫妮卡的遗体带回他的家乡清泉镇，\\n让她在母亲身旁安息。\\n\\n尽管年纪尚轻，\\n莫妮卡·威尔士却是自由城社区中备受尊敬和爱戴的一员。\\n她经常自愿在摩门要塞帮忙，\\n朱莉·法卡斯称她为“我见过的最好的小护士”。\\n我们《废土新闻》在此向莫妮卡的朋友和家人表达慰问和哀悼之情。",
+    "stage": 1
+  },
+  {
+    "key": "justiceLockeNote_0100928D#NOTE:FULL#074b9f8787176db286a84cdf5f5b3cff",
+    "original": "One Last Job",
+    "translation": "最后一桩买卖",
+    "stage": 1
+  },
+  {
+    "key": "justiceLockeNote_0100928D#NOTE:TNAM#2578d8c48aa395fc1e9627b05a5ad97d",
+    "original": "Locke, don’t you think it's about time you settled down?\\n\\nYou're an old man in a young man's game. Can't fight forever, no matter how good you are or how long you've been doing it. I learned that, and I’m not even as old as you.\\n\\nI know what you're gonna say, \"can’t be a stationary target\" and all that. But that’s just it. I called in a favor from our old friend Teasle. He says he can get the NCR to annex my town, place a battalion there if we do them one last job. Hunt down a couple tribals that murdered some soldiers. Easy work, especially for the two of us.\\n\\nThink about it, brother. You know where to find me.",
+    "translation": "洛克，你不觉得是时候安顿下来了吗？\\n\\n你是老骨头了，却还在玩年轻人的游戏。\\n无论你多么优秀，无论你做了多久，都不可能永远战斗下去。\\n我已经明白了这一点，我还没有你年纪大。\\n\\n我知道你要说什么，“不能成为固定的靶子”之类的。\\n但问题就在这里。我拜托了我们的老朋友蒂斯尔帮个忙。\\n他说，如果我们为他们完成最后一桩买卖，\\n他就可以让NCR吞并我的城镇，在那里驻扎一个营的兵力。\\n猎杀几个杀了士兵的部落人。\\n这项工作很简单，特别是对于我们两个人来说。\\n\\n好好想想，兄弟。你知道在哪里找我。",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieTwo_010044C2#NOTE:FULL#9fac26278cdb216502079275912c9eae",
+    "original": "Scared",
+    "translation": "害怕",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieTwo_010044C2#NOTE:TNAM#82bd195e52877a097303c24bf063dcb4",
+    "original": "Nope. Couldn’t do it. So close. Cleaned, cocked, and loaded. Felt the muzzle digging into the roof of my mouth. Trigger against my finger.\\n\\nI tried. I tried so hard to pull it. Must’ve pulled it a thousand times when it was pointed the other way, but I can’t do it now. Not when it counts, not when it's deserved. I’d love to say it's because it’d be the easy way out, but really, I’m just fucking scared.\\n\\nFucking coward. Just like Jack would always say. I remember when old man Grudge took that stray bullet in the gut, and he started dying, and we all knew he was dying. I remember him taking that mangy old hat off, and putting it on my head. “It's your gang now, Eddie.” I remember how terrified I was.\\n\\nThen as soon as he died, Jack picked that black hat off my head and put it on his own. “No, it’s not”, he said.\\n\\nGod, I’ve always been so fucking scared.",
+    "translation": "不，我做不到。\\n就差那么一点。我清理了枪支，上好膛，子弹上膛。\\n我感觉到枪口顶着我的上颚。\\n我的手指扣在扳机上。\\n\\n我尝试过，我尝试用尽全力去扣动扳机。\\n当枪口指向别处时，我或许扣动过上千次，但现在我做不到。\\n在关键时刻，在应该这么做的时候，我做不到。\\n我很想说是因为这样逃避太容易了，但事实是，\\n我他妈的太害怕了。\\n\\n我是个该死的懦夫，就像杰克常说的那样。\\n我记得当格鲁斯那老家伙中了一枚流弹，腹部血流不止，\\n我们知道他要死了。我记得他摘下那顶破旧的帽子，\\n戴在我的头上。“现在帮派归你了，艾迪。\\n”我记得当时我有多么害怕。\\n\\n然后他一死，杰克就摘下我头上的黑帽子戴在自己头上。\\n“不，不是。”他说。\\n天哪，我一直都他妈的太害怕了。",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieThree_010044C3#NOTE:FULL#9624b66a02293bc8d4585e8add30bc2b",
+    "original": "Cuda",
+    "translation": "库达",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieThree_010044C3#NOTE:TNAM#99d8cc8ec7dcd70898ec0b288a731114",
+    "original": "Courier came by today. Thought he was another ganger, so I took a shot at him, and missed. Thank God for the shaking.\\n\\nGave me a letter from Cuda of all people. Didn’t know the cunt could even read. Apparently he’s trying to get the gang back together, said he’s already got a bunch of new recruits at the old Monte Carlo. \\n\\n“Recruits”. Like we’re going off to war for some good cause, and not just sticking up caravans and gunning down kids, huh Cuda? \\n\\nWhat about you, Rick? Noble Dick Rick, Mr. “Gotta feed my family”, always whining about his daughter. Didn’t whine when Cuda put a shotgun in that kid’s mouth. Not your kid, right Rick?\\n\\nBesides, like old man Grudge and Jack always said, “No witnesses.” We had to do it, so it's okay. Ain’t no justice in the world anyway, so we might as well profit. Life goes on.\\n\\nGod, I wish I killed you all. Maybe that could’ve gotten me a ticket out of hell, and I wouldn’t be so scared about dying. But it was because I was scared that I didn’t. Scared that Jack would stab me. Scared that Rick would outdraw me.\\n\\nAnd scared that Cuda would rape me.",
+    "translation": "今天来了个邮差。\\n我以为他是另一帮的，就朝他开了一枪，结果没打中。\\n感谢上帝让我手发抖。\\n\\n他给我带来了一封库达的信。\\n不知道那家伙还会识字。\\n他显然想把我们这些帮派分子重新聚集起来，\\n说已经在老蒙特卡洛招到了一帮新人。\\n\\n“新人”。\\n好像我们是为了某个正义的事业去打仗，而不是去抢劫马车和枪杀孩子，是吧，库达？\\n\\n你呢，里克？\\n高贵的迪克·里克，总是以“我得养家糊口”为借口的“先生”，\\n还总是抱怨他的女儿。\\n库达拿枪指着那孩子的时候，你可没抱怨。\\n那孩子又不是你的，对吧，里克？\\n\\n再说，就像格鲁斯老人和杰克常说的那样，“没有目击者”。\\n我们必须这么做，所以没问题。\\n世界上本来就没有什么公道可言，所以我们还是从中获利吧。\\n生活还得继续。\\n上帝啊，我真希望我把你们都杀了。\\n那样我可能就拿到了一张离开地狱的车票，也不会这么害怕死亡了。\\n但我就是因为害怕才没这么做。\\n害怕杰克会捅我一刀。\\n害怕里克会拔枪对付我。\\n还害怕库达会强奸我。",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieFour_010044C4#NOTE:FULL#c2793ca80d4bd788c01897d3bfae917a",
+    "original": "He came by",
+    "translation": "他来了",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieFour_010044C4#NOTE:TNAM#47b7c5e2122b0e5b1e79f960cb27a338",
+    "original": "He came by. Jack came by. With that fucking hat.\\n\\nIt's been years since I saw him. Always regretted telling him where I was planning to live, wish I had the guts to say, “Fuck you and your hat” when he asked.\\n\\nI thought maybe it was a blessing in disguise, thought maybe I could kill him. But soon as the thought reached my mind, my hand started shaking, and all those old feelings came back. Still. Five years later, and I’m still scared of him.\\n\\nAt least, I was. We talked, asked me how I was doing. Asked if I ever thought about the old days. Lied, said I didn’t. Jack told me he was jealous. Surreal to hear that. The man that always pissed on me, now saying he wished he WAS me. Almost laughed. Almost cried.\\n\\nAlmost looked like Jack was about to cry when he asked me if a good deed could wash out a life of bad. I told him the same thing Grudge always said, “Ain’t no justice in the world. Life just moves on.”\\n\\nJack said, “Nah. There’s justice. But you can only make it yourself.”\\n\\nThen he left.\\n\\nI was gonna try killing myself again.\\n\\nI don’t know what to do now.",
+    "translation": "他来了。杰克来了。带着那顶该死的帽子。\\n我已经很多年没见过他了。\\n我一直后悔告诉他我打算住在哪里，\\n真希望当时他问我时我能有勇气说：“去你妈的还有你的帽子。“\\n我以为这也许是塞翁失马，以为我可以杀了他。\\n但是，这个念头一冒出来，我的手就开始颤抖，那些旧时的感觉全部回来了。\\n还是一样。五年过去了，我还是害怕他。\\n至少，我以前是。我们聊了聊，他问我过得怎么样，是否还怀念过去的日子。\\n我撒谎说我不怀念。杰克告诉我他很嫉妒我。听到这句话真是超现实。\\n那个总是瞧不起我的人，现在居然说他希望自己是我。\\n我几乎笑了出来，又几乎哭了出来。\\n杰克问我是否善行可以抵消一生的恶行时，他几乎也要哭出来了。\\n我告诉他格鲁斯常说的一句话：“这世上哪有什么公道，生活只是继续。”\\n杰克说：“不，有公道。但公道只能自己争取。”\\n然后他离开了。\\n我本想再次自杀的。\\n我现在不知道该怎么办。",
+    "stage": 1
+  },
+  {
+    "key": "justiceJackJournal_01006487#NOTE:FULL#0bc383817e762a075be940739359e299",
+    "original": "Jack's Journal",
+    "translation": "杰克日记",
+    "stage": 1
+  },
+  {
+    "key": "justiceJackJournal_01006487#NOTE:TNAM#b16e63ae0a0cf3facf15b9f1493b9b79",
+    "original": "This is it. They’re on my trail now. Close.\\n\\nI don’t know what I thought would happen. Growing up with Grudge, I should’ve known better than to think this would end any differently. Maybe it would’ve been better if I just listened to Sally, kept that hat on its hook. Life goes on, just like Grudge said.\\n\\nBut it doesn’t, does it? It didn’t for all those caravaneers. It didn’t for Monica. No, it only goes on for the killers, not the killed. No justice, just like Grudge said.\\n\\nExcept he was wrong, wasn't he? He still took that bullet to the gut. And I still plunged that chainsaw into Holden’s fucking face. Yeah, I waited 4 years. Yeah, I got ID’d. And yeah, they’re after me now. But that’s okay. That just means I’m right. That just means it's my turn.\\n\\nNo more running. I’m not going to live like Rick, drinking myself to death, trying to pretend it's all just happenstance. He might’ve stopped caring about his family, but I didn’t.\\n\\nI think I’ll go to them. Monica and Barb. Don’t want Sally to die with me, but I don’t wanna die alone either. I just wanna make things right.\\n\\nAnd the only justice is that which you make.",
+    "translation": "时候到了。他们现在正追踪着我。很近了。\\n\\n我不知道我原以为会发生什么。与格鲁斯一起长大，\\n我本应该更清楚这一切不会有什么不同。\\n也许，如果我听了莎莉的话，把那顶帽子挂在挂钩上，情况会更好。\\n就像格鲁斯说的，生活会继续下去。\\n\\n但它并没有，不是吗？对于所有那些旅行者来说，它并没有继续。\\n对于莫妮卡来说，也没有。\\n不，只有杀手才能活下去，被杀的人不能。没有正义，就像格鲁斯说的。\\n但他错了，不是吗？\\n他还是中弹了。而我还是把电锯插进了霍登那张该死的脸。\\n是的，我等了4年。是的，我被认出来了。\\n是的，他们现在正在追我。\\n但没关系。这只是意味着我是对的。这只是意味着轮到我了。\\n我不再逃避了。我不会像里克那样生活，把自己喝到死，\\n试图假装这一切都只是偶然。\\n他可能已经不在乎他的家人了，但我没有。\\n我想我会去找他们。莫妮卡和芭布。\\n我不想让莎莉和我一起死，但我也不想孤独地死去。\\n我只是想纠正一切。\\n\\n唯一的公道就是你自己争取的公道。",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieFive_010044C5#NOTE:FULL#86f38ace25819cf74d53c87721df85ea",
+    "original": "Fight-a-mens",
+    "translation": "打击犯罪",
+    "stage": 1
+  },
+  {
+    "key": "justiceEddieFive_010044C5#NOTE:TNAM#0b698fd408ce4fceab283fed62c43300",
+    "original": "I went up to the clinic today. First time I went to vegas in a while. Been too scared. Scared of what’d come. Scared of what I’d do.\\n\\nBut I felt better today. And yesterday. The day after Jack came by. So, I took my rifle and left. Didn’t need it, it was a quiet walk back and forth. A nice walk.\\n\\nI asked that cute doctor for anything to help with sleeping, and she gave me some special candies called “Fight-a-mens”. Pretty cool name.\\n\\nHaven’t tried them yet, but I’m already feeling better.",
+    "translation": "我今天去了诊所。我有一段时间没去维加斯了。\\n我一直很害怕。害怕会发生什么。害怕我会做什么。\\n\\n但我今天感觉好多了。昨天也是，那是杰克来访后的第二天。\\n我拿起我的步枪就出发了。\\n其实根本没用上，来回的路上都很安静。一次愉快的散步。\\n\\n我向那位可爱的医生要了一些帮助睡眠的东西，\\n她给了我一些特殊的糖果，叫做“打击犯罪”。\\n真是个酷名字。\\n\\n我还没吃过，但我已经感觉好多了。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_010075DD#INFO:NAM1#69d7ef454970ff1b475b38c5e8199f1a",
+    "original": "I ain’t got on any spare caps, kid, so piss off.",
+    "translation": "我身上没有多余的瓶盖了，小子，滚开吧。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_01006A47#INFO:NAM1#49777ed5226010f9cfe7bebdb4c68a1d",
+    "original": "Eh?",
+    "translation": "呃？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_010024AD#INFO:NAM1#9d5db40e306ed62e82c99734f6b1e514",
+    "original": "Howdy!",
+    "translation": "你好!",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_01006A45#INFO:NAM1#13c8ee423f2b3aefad5095b5ac1bfad0",
+    "original": "W-Who are you? Scavenger or? N-no, no you’re a bounty hunter too, huh?",
+    "translation": "你——你是谁？淘金客吗？不，不，你也是赏金猎人吧？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_01006A45#INFO:NAM1#51d0e74268ddc0172b7c3dbcb9de5ede",
+    "original": "Well, you’re too late. My bastard of a boss chopped Jack’s head a while ago. Probably already at Gomorrah, pissing away all we died for.",
+    "translation": "呵呵，你来得太迟了。我那个该死的老板很久以前就砍了杰克的脑袋，他可能已经去蛾摩拉挥霍我们为他卖命的钱了。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_01006A45#INFO:NAM1#74684abe46259fe2b1c13c4fe27c7ca4",
+    "original": "Locke. I knew he’d get me killed one day. Guess that makes me the idiot for not leaving when I had the chance, huh? Heheh.",
+    "translation": "洛克，我知道总有一天他会杀了我。我猜我真是个傻瓜，当初有机会离开的时候却没有走，对吧？呵呵。",
+    "stage": 1
+  },
+  {
+    "key": "JavierNovac_0100278C#INFO:NAM1#d3e285806fee9b58393f37d2ef1cd39d",
+    "original": "Can't imagine it's much different from life anywhere else in the Mojave.",
+    "translation": "我无法想象它和莫哈维其他地方的生活有多大不同。",
+    "stage": 1
+  },
+  {
+    "key": "JavierNovac_0100278C#INFO:NAM1#838f9c0c24f5d20a88630d5107be1768",
+    "original": "There's good days and bad days, and you do feel them bad ones. Lemme' tell ya.",
+    "translation": "有好日子也有坏日子，你会觉得坏日子更糟。让我告诉你吧。",
+    "stage": 1
+  },
+  {
+    "key": "JavierNovac_0100278C#INFO:NAM1#e0e01350b39adcab31ff3a3f0a6b3031",
+    "original": "But ya move on. People managed to move on when the bombs fell, so who am I to complain?",
+    "translation": "但你得继续前行。炸弹落下时，人们设法继续前行，我又何必抱怨呢？",
+    "stage": 1
+  },
+  {
+    "key": "JavierNovac_0100278C#INFO:NAM1#803f9110d144f70ba6cc1fc3f37b742b",
+    "original": "I got as much brahmin steak as I can eat and as many t-rex figurines as I can, uh.",
+    "translation": "我有我能吃的那么多双头牛牛排，也有我能买的那么多霸王龙小雕像。",
+    "stage": 1
+  },
+  {
+    "key": "JavierNovac_0100278C#INFO:NAM1#e26837c9e485164d2674606924d325e2",
+    "original": "W-what was your question again?",
+    "translation": "你..你的问题是什么来着？",
+    "stage": 1
+  },
+  {
+    "key": "JavierNovac_0100278C#INFO:RNAM#a2a98a083b4374494ca3197200503595",
+    "original": "How's life in Novac?",
+    "translation": "诺瓦克的生活怎么样？",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#ea0b84f6c3cfc1073440513dda63f318",
+    "original": "Hoowee, everyone’s been asking bout’ that no good dog lately.",
+    "translation": "嘿，最近大家都在谈论那条恶狗。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#62953e9353a1a38c28597a55d70c7609",
+    "original": "Yeah, I know em’. Didn’t know he was THE Black Jack for the longest time, but I knew him.",
+    "translation": "是啊，我认识他。很长一段时间我都不知道他是“黑杰克”，但我确实认识他。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#1aff21b10096405a1b65e5019137313b",
+    "original": "He came down with his gal pal, Sally, and settled in one of the old homes bout’ 4 or 5 years back.",
+    "translation": "他和他的女朋友莎莉一起来到这儿，大概四五年前搬进了镇上一栋旧房子。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#a931f038d57494e907d1e39d0b4b4093",
+    "original": "Jack was curt at best, just mean at worst, but Sally’s a sweet girl. Makes me wonder how the hell she ended up with him in the first place.",
+    "translation": "杰克最好时也就是个冷淡的人，最坏时简直是个混蛋，但莎莉是个好姑娘。我想不通她当初怎么会跟他在一起。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#b7794b52b8d209bdaa65f7e3bb406e6c",
+    "original": "I guess she finally got to wondering too, since she kicked Jack out a month back, right before all that savagery with the senator.",
+    "translation": "我猜她可能也开始觉得奇怪，因为她在参议员遇袭前一个月就把杰克赶走了。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#b769c0ab223a9f4303cad066f6b669b4",
+    "original": "I mean, it's one thing to kill a man but, a chainsaw?",
+    "translation": "我的意思是，杀人是一回事，但用链锯杀人又是另一回事了。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:NAM1#53097bb8bf433ad55bcd2d5423b20577",
+    "original": "Anywho, Sally still lives in that old shack just outside of town. If you wanna know more about Jack, she’s the one to talk to.",
+    "translation": "不过，莎莉仍然住在城外那座旧棚屋里。如果你还想了解更多关于杰克的事，可以去找她谈谈。",
+    "stage": 1
+  },
+  {
+    "key": "JavierJack_0100278E#INFO:RNAM#30a49ab8e8301735d6b2319e87c0f2b0",
+    "original": "Do you know anything about Black Jack Samuels?",
+    "translation": "你知道黑杰克·塞缪尔斯这个人吗？",
+    "stage": 1
+  },
+  {
+    "key": "JavierOthers_01002790#INFO:NAM1#df7bc64eccc961cddab51a42239067c6",
+    "original": "Oh yeah. Just today actually, a whole group of young men came by asking the same questions as you.",
+    "translation": "哦，是的。就在今天，一群年轻人来到这里，问了和你一样的问题。",
+    "stage": 1
+  },
+  {
+    "key": "JavierOthers_01002790#INFO:NAM1#3dbbc1ccb6d382c12fbe542f3a1b8c48",
+    "original": "I was a little hesitant because they were pretty, well, mean looking, but it turns out they were just bounty hunters.",
+    "translation": "他们长得有点凶神恶煞的，所以我有些犹豫，但事实证明他们只是赏金猎人。",
+    "stage": 1
+  },
+  {
+    "key": "JavierOthers_01002790#INFO:NAM1#23a5b46f1a6bd3e45c5fee3f84b51163",
+    "original": "I’m always willing to help out the law, so I told them the same thing. They left about an hour ago.",
+    "translation": "我一直都愿意协助法律，所以我告诉了他们同样的事。他们大约在一小时前离开了。",
+    "stage": 1
+  },
+  {
+    "key": "JavierOthers_01002790#INFO:RNAM#f9adccdfeccdbb4459d9db747607f411",
+    "original": "Are there others asking about Jack?",
+    "translation": "还有其他人问起杰克吗？",
+    "stage": 1
+  },
+  {
+    "key": "VultureName_01006A49#INFO:NAM1#4c940df1a50aaddffd0eaea47a7fa628",
+    "original": "Ask your motha’.",
+    "translation": "问你妈吧。",
+    "stage": 1
+  },
+  {
+    "key": "VultureName_01006A49#INFO:RNAM#cf0147e48dcfa79e08ac9c0e59b81de6",
+    "original": "Why do they call you Vulture?",
+    "translation": "为什么他们叫你秃鹫？",
+    "stage": 1
+  },
+  {
+    "key": "VultureAccent_01006A4B#INFO:NAM1#8c2f5ec8e6b64132b906dcbda53a43c6",
+    "original": "Oh, never heard a it?",
+    "translation": "哦，你没听过吗？",
+    "stage": 1
+  },
+  {
+    "key": "VultureAccent_01006A4B#INFO:NAM1#a85f239cf1698be1ec14aa599998311d",
+    "original": "Its how we all talk on a lil’ island called Go fuck yourself.",
+    "translation": "我们都在一个叫“滚去死吧”的小岛上这样说话。",
+    "stage": 1
+  },
+  {
+    "key": "VultureAccent_01006A4B#INFO:RNAM#e0681da77fcd00d180bdb9997b2147a9",
+    "original": "What’s with your accent?",
+    "translation": "你的口音是怎么回事？",
+    "stage": 1
+  },
+  {
+    "key": "VultureStrange_01006A4E#INFO:NAM1#c5b695c6efb048bf50fbe79cf4b86b5a",
+    "original": "Maybe. Vultures do tend to see everything, but they aren’t known for their generosity, if you catch my drift.",
+    "translation": "也许吧。秃鹫的确习惯窥视一切，但如果你明白我的意思，它们并不以慷慨著称。",
+    "stage": 1
+  },
+  {
+    "key": "VultureStrange_01006A4E#INFO:RNAM#78469c02f8d3e2ffdca05bd7f504f01d",
+    "original": "Have you seen any strange men about lately?",
+    "translation": "你有没有发现附近有什么可疑的人？",
+    "stage": 1
+  },
+  {
+    "key": "VultureCaps_01006A50#INFO:NAM1#17e24750d9bbe00555b45daef1564619",
+    "original": "Ahhhh, now I remember.",
+    "translation": "啊，现在我想起来了。",
+    "stage": 1
+  },
+  {
+    "key": "VultureCaps_01006A50#INFO:RNAM#c5cb60564ce8024a3a81701349377418",
+    "original": "(Give him 200 caps)",
+    "translation": "（给他200瓶盖）",
+    "stage": 1
+  },
+  {
+    "key": "VultureSpeechFail_01006A52#INFO:NAM1#d4d9b7fc99e3b2c2102b4818728a1594",
+    "original": "I missed the part where that’s my problem.",
+    "translation": "我错过了这部分，那是我的问题。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSpeechFail_01006A52#INFO:RNAM#8f2d47d28587f88903ba9ef522e1ec02",
+    "original": "There’s no time for this. Lives are at stake!",
+    "translation": "没时间说这个了。人命关天啊！",
+    "stage": 1
+  },
+  {
+    "key": "VultureSpeechPass_01006A54#INFO:NAM1#0a80120d4187f1e503992d05b5427d10",
+    "original": "Would ya!? Finally, everything’s turning up Vulture!",
+    "translation": "你愿意吗！？终于，一切都好转了！",
+    "stage": 1
+  },
+  {
+    "key": "VultureSpeechPass_01006A54#INFO:NAM1#2b6a2e09924b9226c5a54da102a5a5a1",
+    "original": "Uh, anyway, yeah, the strange guys.",
+    "translation": "呃，不管怎样，是的，那些奇怪的人。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSpeechPass_01006A54#INFO:RNAM#8450f0adf8a4151271c2e1b59630ac04",
+    "original": "I’ll put in a good word for you with Sunny if you tell me.",
+    "translation": "如果你告诉我，我会在桑妮面前替你说好话。",
+    "stage": 1
+  },
+  {
+    "key": "VultureStrength_01006A56#INFO:NAM1#b39b785f2c0e02d8c720de16e03a4d53",
+    "original": "Ah, ah! Alright, alright, alright! I’ll talk! Geez!",
+    "translation": "啊，啊！好吧，好吧，好吧！我说！天哪！",
+    "stage": 1
+  },
+  {
+    "key": "VultureStrength_01006A56#INFO:RNAM#3593fa7d680898dec515373f6daffa27",
+    "original": "(Choke him with your bare hands)",
+    "translation": "（徒手掐他）",
+    "stage": 1
+  },
+  {
+    "key": "VultureTP_01006A58#INFO:NAM1#6c398811f7b51c45080d68088f51cc1d",
+    "original": "Geez, man. Fine! God forbid Vulture get a couple caps, fuck!",
+    "translation": "天啊，老兄。好吧！但愿秃鹫能拿到瓶盖，该死！",
+    "stage": 1
+  },
+  {
+    "key": "VultureTP_01006A58#INFO:RNAM#4fda0306d6e58236380fdff833b1ee34",
+    "original": "Tell me or I’ll rip off that beak of a nose and shove it up your ass.",
+    "translation": "告诉我，否则我就把你的鹰钩鼻给撕下来，塞到你屁股里去。",
+    "stage": 1
+  },
+  {
+    "key": "VultureGoodbye_01006A5A#INFO:NAM1#7570fc7cfdf55ee73d6a478d1504e2c2",
+    "original": "Yeah, get outta here.",
+    "translation": "是的，离开这里。",
+    "stage": 1
+  },
+  {
+    "key": "VultureGoodbye_01006A5A#INFO:RNAM#5a837be8a91f132811f51ecced1ce8a1",
+    "original": "Nevermind.",
+    "translation": "没关系。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSuccess_01006A5C#INFO:NAM1#1c27cc38fce86173ea2a9b38fa54c061",
+    "original": "Yeah, I saw some guys come through here a couple hours ago.",
+    "translation": "对，几个小时前我看到几个人从这里走过。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSuccess_01006A5C#INFO:NAM1#cb60971d6e2e07af999a94fca0353a86",
+    "original": "First was some cowboy mothafucka with a goddamn chainsaw. Stayed right out of his way.",
+    "translation": "先是来了个该死的牛仔，手里还拿着电锯。我特意避开了他。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSuccess_01006A5C#INFO:NAM1#1d4ce37f6cd59355b9c6f9743142d2a5",
+    "original": "He was followed by a bunch of thug-types. Real cunty-looking, especially their leader.",
+    "translation": "他后面跟着一群混混。看起来真的很狡猾，尤其是他们的头儿。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSuccess_01006A5C#INFO:NAM1#549d937023adf8ceda7e62d4c814aecd",
+    "original": "They all went towards Yangtze if you wanted to join the party.",
+    "translation": "他们都朝扬子纪念碑那边去了，你要是想加入他们就去吧。",
+    "stage": 1
+  },
+  {
+    "key": "VultureSuccess_01006A5C#INFO:RNAM#2db8a18865fa68204b58fd8be362fd48",
+    "original": "So, you did see something then?",
+    "translation": "这么说，你那时确实看到什么了吧？",
+    "stage": 1
+  },
+  {
+    "key": "LockeCaps_010075E0#INFO:NAM1#1a3bb72fa1f97896f0ad05d2847d1e22",
+    "original": "First move’s yours, motherfucker. See what happens.",
+    "translation": "动一下试试，混蛋。看看会发生什么。",
+    "stage": 1
+  },
+  {
+    "key": "LockeCaps_010075E0#INFO:RNAM#2e5df97ca15b78f5993a2da3372864f0",
+    "original": "I don’t want your caps. I want your blood.",
+    "translation": "我不要你的瓶盖。我要你的血。",
+    "stage": 1
+  },
+  {
+    "key": "LockeJack_010075E2#INFO:NAM1#d81ac622dc1eda076c733b93c1880971",
+    "original": "Who? I don’t know any Jacks.",
+    "translation": "谁啊？我不认识叫杰克的。",
+    "stage": 1
+  },
+  {
+    "key": "LockeJack_010075E2#INFO:NAM1#dd442422ce82c27ed511123900a9a03e",
+    "original": "Ohhhh, you’re talking about that bounty, aren’t ya? Sorry, kid. Shoulda’ been faster.",
+    "translation": "哦，你是在说那个赏金，对吧？抱歉，孩子。我应该更快一点的。",
+    "stage": 1
+  },
+  {
+    "key": "LockeJack_010075E2#INFO:NAM1#0d9e600aec48338f51240d4ea48f0119",
+    "original": "If it makes ya feel better, I already lost most of the reward in that last hand.",
+    "translation": "如果这能让你心里好受点，我已经在上一局中输掉了大部分的赏金。",
+    "stage": 1
+  },
+  {
+    "key": "LockeJack_010075E2#INFO:RNAM#a37a10f6823f333fbeeaf7e83866e1a0",
+    "original": "I want to talk to you about Jack.",
+    "translation": "我想和你谈谈杰克的事。",
+    "stage": 1
+  },
+  {
+    "key": "LockeAnswers_010075E4#INFO:NAM1#32095851b0032e7d9dc59482693c88ff",
+    "original": "Answers? Bout’ what? Bout’ the bounty? I didn’t know Jack, kid. Didn’t care. Only the dead give a shit about the dead.",
+    "translation": "你想要答案？关于什么的？关于悬赏金？我不认识杰克，孩子。我不在乎。只有死人才会在乎死人。",
+    "stage": 1
+  },
+  {
+    "key": "LockeAnswers_010075E4#INFO:NAM1#e8ad48b943d18196522f4769ae6ab82c",
+    "original": "Are we cross or something? Were you a friend of Jack’s? If so, I wouldn’t do anything rash.",
+    "translation": "我们是不是有什么过节？你是杰克的朋友吗？如果是，我不会轻举妄动。",
+    "stage": 1
+  },
+  {
+    "key": "LockeAnswers_010075E4#INFO:NAM1#f4c81dbd537fd0626b7e602e69e14e95",
+    "original": "Pull a piece on me, and everyone else in here is pulling a piece on you. I’m an upstanding officer of justice, after all.",
+    "translation": "对我拔枪，这里的其他人也会对你拔枪。毕竟，我是一个正直的执法官。",
+    "stage": 1
+  },
+  {
+    "key": "LockeAnswers_010075E4#INFO:NAM1#f6ea821226a1a86518847c13285a1597",
+    "original": "So, why don’t suck up whatever's got you so raw, and move the fuck on like everyone else.",
+    "translation": "所以，为什么不像其他人一样，收起你所有的情绪，然后继续前进。",
+    "stage": 1
+  },
+  {
+    "key": "LockeAnswers_010075E4#INFO:RNAM#2b4c80d8eb8ee1c3ad30d048f5c190db",
+    "original": "I don’t want the reward. I want answers.",
+    "translation": "我不想要赏金。我想要答案。",
+    "stage": 1
+  },
+  {
+    "key": "LockeWOman_010075E6#INFO:NAM1#425eef94fed2455e0e585f3eb7d88aff",
+    "original": "Can’t say I do. Killed lots of women in my line o’work. That’s the thing about outlaws, they can be any gender.",
+    "translation": "我说不上来。干我这行的杀了很多女人。这就是亡命之徒的可怕之处，他们可以是任何性别。",
+    "stage": 1
+  },
+  {
+    "key": "LockeWOman_010075E6#INFO:NAM1#757267a8889a9462b255501bae92091b",
+    "original": "Hell, when the bullets are done flying, and the knives done flaying, you can’t even tell the difference.",
+    "translation": "子弹打完，刀割完后，你甚至分辨不出其中的差别。",
+    "stage": 1
+  },
+  {
+    "key": "LockeWOman_010075E6#INFO:NAM1#5fef386fe78f639e8b3292c391bf039f",
+    "original": "You look a bit upset, kid. I’d advise you not to do anything rash.",
+    "translation": "你看上去有点心烦意乱，孩子。我建议你不要冲动行事。",
+    "stage": 1
+  },
+  {
+    "key": "LockeWOman_010075E6#INFO:NAM1#f4c81dbd537fd0626b7e602e69e14e95",
+    "original": "Pull a piece on me, and everyone else in here is pulling a piece on you. I’m an upstanding officer of justice, after all.",
+    "translation": "对我拔枪，这里的其他人也会对你拔枪。毕竟，我是一个正直的执法官。",
+    "stage": 1
+  },
+  {
+    "key": "LockeWOman_010075E6#INFO:NAM1#56543fc8916c06408dec5132856e6835",
+    "original": "So, why don’t suck up whatever’s got you so raw, and move the fuck on like everyone else.",
+    "translation": "所以，为什么不像其他人一样，收起你所有的情绪，然后继续前进。",
+    "stage": 1
+  },
+  {
+    "key": "LockeWOman_010075E6#INFO:RNAM#3323efee83ad22779c08506f859cfe0a",
+    "original": "What about the woman you killed? Remember her?",
+    "translation": "你杀的那个女人呢？还记得她吗？",
+    "stage": 1
+  },
+  {
+    "key": "LockeNoReward_010075E8#INFO:NAM1#1a3bb72fa1f97896f0ad05d2847d1e22",
+    "original": "First move’s yours, motherfucker. See what happens.",
+    "translation": "动一下试试，混蛋。看看会发生什么。",
+    "stage": 1
+  },
+  {
+    "key": "LockeNoReward_010075E8#INFO:RNAM#a5c754d23bbcaf230fbbd1c89ffa954a",
+    "original": "You lost the caps. Now, you’ll lose your life.",
+    "translation": "你失去了瓶盖。现在，你要丢掉你的性命了。",
+    "stage": 1
+  },
+  {
+    "key": "justiceLockeDialogue_010075DC#QUST:FULL#bc7a4c35129442be5a97f04a881b629c",
+    "original": "Locke Dialogue",
+    "translation": "洛克对话",
+    "stage": 1
+  },
+  {
+    "key": "javierdialogue_010024AC#QUST:FULL#b160b503494e97a7b916223dd5f61b35",
+    "original": "JavierDialogue",
+    "translation": "哈维尔对话",
+    "stage": 1
+  },
+  {
+    "key": "justiceVultureDialogue_01006A46#QUST:FULL#030911d7596b5c748aa229692f8749c4",
+    "original": "Vulture's Dialogue",
+    "translation": "秃鹫的对话",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:FULL#0454177dbe403ef32ff9f10aebb51c61",
+    "original": "...And Justice for All",
+    "translation": "...以及为所有人伸张正义",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#c3e281a185d2c4e51515e29950178063",
+    "original": "Search for Jack in Novac",
+    "translation": "在诺瓦克寻找杰克",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#f5e30fe8471fd0cd767d2718b3386e41",
+    "original": "Go to Sally's House",
+    "translation": "去萨莉的家",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#4c16c5fc37cb904be5505808aad65df1",
+    "original": "Find Jack's friend at the Hunter's Farm",
+    "translation": "在猎人的农场找到杰克的朋友",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#a20727af74a1bba277b1253017f2e5fd",
+    "original": "Investigate the Monte Carlo",
+    "translation": "调查蒙特卡罗",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#348655bec0da5f7b1fcf289d0f314bdd",
+    "original": "Go to the Atomic Wrangler",
+    "translation": "前往原子牛仔",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#704e6d69b6fe02aa783361949f026a04",
+    "original": "Investigate Goodsprings",
+    "translation": "调查清泉镇",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#7c5b2418bc5675fedcacd5e01f0c5270",
+    "original": "Investigate the Yangtze Memorial",
+    "translation": "调查扬子纪念碑",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#f7c0283a35d64c9cc33679ea4ebb6b67",
+    "original": "Confront Locke at Gomorrah",
+    "translation": "在蛾摩拉与洛克对质",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#8322d81e8872ebb46690b835f19d784f",
+    "original": "Kill Locke...",
+    "translation": "杀死洛克...",
+    "stage": 1
+  },
+  {
+    "key": "justiceforallquest_01000ADD#QUST:NNAM#317c4f2ae2078fd82da59361b1e68b0d",
+    "original": "...or Leave Gomorrah",
+    "translation": "...或者离开蛾摩拉",
+    "stage": 1
+  },
+  {
+    "key": "justiceEnd_01009290#MESG:DESC#82aae25c50147f6386f52ed5b57bedac",
+    "original": "You depart Gomorrah with the intention of confronting Locke in a more \"private\" setting. He must leave at some point, right? But when you return, he’s nowhere to be found, and no one knows where he’s gone (or are refusing to tell you).\\n\\nIt appears he’s gotten away. A murderer, a torturer, the only man who knows anything about Black Jack’s case: gone. It nags at you, the thought of it all simply being for nothing.",
+    "translation": "你离开蛾摩拉，打算在一个更“私密”的环境中与洛克对峙。他总有一天会离开，对吧？但当你回来时，却找不到他的踪影，也没有人知道他去了哪里（或者他们拒绝告诉你）。\\n\\n他似乎已经逃跑了。一个杀人犯，一个折磨者，唯一一个知道黑杰克案件的人：消失了。想到这一切都是徒劳无功，这让你感到烦恼。",
+    "stage": 1
+  },
+  {
+    "key": "justiceEnd_01009290#MESG:FULL#9a81fb51256d883685a4715ed447d6f0",
+    "original": "The End...?",
+    "translation": "结束了...？",
+    "stage": 1
+  },
+  {
+    "key": "justiceEnd_01009290#MESG:ITXT#e6c4e1f7391b8efbf4170751b49cd65d",
+    "original": "Certainly, it can't be. Certainly, you'll meet again...",
+    "translation": "当然，不可能。当然，你会再见面的...",
+    "stage": 1
+  },
+  {
+    "key": "NovacMcBrideHouseCOPY0000_01003306#CELL:FULL#25388ad6f03a1d18fe4de083699a39fc",
+    "original": "Sally's House",
+    "translation": "莎莉的房子",
+    "stage": 1
+  },
+  {
+    "key": "2ENCREmbassy02_00113C64#CELL:FULL#8e3dbfa269e1720a2ae0077f085cace9",
+    "original": "NCR Military Police HQ",
+    "translation": "NCR宪兵总部",
+    "stage": 1
+  },
+  {
+    "key": "Gomorrah01_0010CC8F#CELL:FULL#93d637b613d378aad6ce4b69eeb890ee",
+    "original": "Gomorrah Main Level",
+    "translation": "蛾摩拉主层",
+    "stage": 1
+  },
+  {
+    "key": "MonteCarloSuitesInterior_000F33A8#CELL:FULL#33f97606b35a5bb7eef187719e873eb6",
+    "original": "Monte Carlo Suites",
+    "translation": "蒙地卡罗套房",
+    "stage": 1
+  },
+  {
+    "key": "GSAbandonedShack_00125B32#CELL:FULL#042422d0922c9e7fe6c95bf5fa8af4db",
+    "original": "Abandoned Shack",
+    "translation": "废弃的棚屋",
+    "stage": 1
+  },
+  {
+    "key": "FreesideAtomicWranglerRoom_00159954#CELL:FULL#4e7e8c59bca4c7403e406451ef81300b",
+    "original": "Atomic Wrangler",
+    "translation": "原子牛仔",
+    "stage": 1
+  },
+  {
+    "key": "RanchHouseInterior01_001037DF#CELL:FULL#8582c37a4620c237c386b318157d2b28",
+    "original": "Hunter's Farmhouse",
+    "translation": "猎人的农舍",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "TheStripWorldNew_0013B308#WRLD:FULL#c243a7753521da7719cd77b75a3d6ee6",
+    "original": "The Strip",
+    "translation": "长街",
+    "stage": 1
+  }
+]

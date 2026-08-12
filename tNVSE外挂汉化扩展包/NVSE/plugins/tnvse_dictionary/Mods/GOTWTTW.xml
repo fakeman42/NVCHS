@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>0E016E09</ID>
+    <EDID>AGrinders</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Faction</ORIGINAL>
+    <TRADUIT>粉碎者派系</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>0E016E0A</ID>
+    <EDID>ABloodthirsters</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster Faction</ORIGINAL>
+    <TRADUIT>血渴派系</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>0E016E0B</ID>
+    <EDID>AShrouded</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shrouded Faction</ORIGINAL>
+    <TRADUIT>隐秘派系</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E00154C</ID>
+    <EDID>ArmorGrinderMetal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Heavy Armor</ORIGINAL>
+    <TRADUIT>粉碎者重甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E00229B</ID>
+    <EDID>ArmorBloodMetal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blood Armor</ORIGINAL>
+    <TRADUIT>渴血护甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E00229F</ID>
+    <EDID>GrinderGrunt</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Outfit</ORIGINAL>
+    <TRADUIT>粉碎者套装</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E005166</ID>
+    <EDID>HelmetSkullMask</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Skull Mask</ORIGINAL>
+    <TRADUIT>骷髅面具</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+HeadBand
+EyeGlasses
+Mask
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E005168</ID>
+    <EDID>HelmetHSkullMask</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Horned Skull Mask</ORIGINAL>
+    <TRADUIT>带角骷髅面具</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+HeadBand
+EyeGlasses
+Mask
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E005169</ID>
+    <EDID>BrahminSkullMask</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Skull Mask</ORIGINAL>
+    <TRADUIT>骷髅面具</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+HeadBand
+Hat
+EyeGlasses
+Mask
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E00516C</ID>
+    <EDID>ArmorBloodthirster01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster Armor</ORIGINAL>
+    <TRADUIT>血渴护甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E0072B0</ID>
+    <EDID>GrinderHelmet</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armored Mask</ORIGINAL>
+    <TRADUIT>装甲面具</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+HeadBand
+Mask
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E007FFF</ID>
+    <EDID>ShroudedRobe</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shrouded Robe</ORIGINAL>
+    <TRADUIT>隐秘长袍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E0086B0</ID>
+    <EDID>ShroudedCoat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shrouded Duster</ORIGINAL>
+    <TRADUIT>隐秘风衣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0E0093FE</ID>
+    <EDID>ShroudedHood</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shrouded Hood</ORIGINAL>
+    <TRADUIT>隐秘兜帽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Hair
+HeadBand
+Hat
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E00294D</ID>
+    <EDID>GrinderGunCMTemplate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder</ORIGINAL>
+    <TRADUIT>粉碎者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E00294E</ID>
+    <EDID>GrinderGunAAM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder</ORIGINAL>
+    <TRADUIT>粉碎者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E00294F</ID>
+    <EDID>GrinderGunCM2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder</ORIGINAL>
+    <TRADUIT>粉碎者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E003000</ID>
+    <EDID>GrinderGunCM3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder</ORIGINAL>
+    <TRADUIT>粉碎者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E003001</ID>
+    <EDID>GrinderGunAAM2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder</ORIGINAL>
+    <TRADUIT>粉碎者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E0036A9</ID>
+    <EDID>GrinderHeavyCM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Heavy</ORIGINAL>
+    <TRADUIT>粉碎者重步兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 06015675</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E0036AB</ID>
+    <EDID>GrinderShotgunCM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Shotgunner</ORIGINAL>
+    <TRADUIT>粉碎者霰弹枪手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E0036AC</ID>
+    <EDID>GrinderShotgunAAM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Shotgunner</ORIGINAL>
+    <TRADUIT>粉碎者霰弹枪手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : 0601945E</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E0036AD</ID>
+    <EDID>GrinderHeavyCM2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Heavy</ORIGINAL>
+    <TRADUIT>粉碎者重步兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 06015675</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E0036B0</ID>
+    <EDID>GrinderHeavyAAF</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Grinder Heavy</ORIGINAL>
+    <TRADUIT>粉碎者重步兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : 06015675</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E0036B6</ID>
+    <EDID>BloodthirsterCM2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster</ORIGINAL>
+    <TRADUIT>血渴者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E003D62</ID>
+    <EDID>BloodthirsterCMTemplate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster</ORIGINAL>
+    <TRADUIT>血渴者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E003D63</ID>
+    <EDID>BloodthirsterAAM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster</ORIGINAL>
+    <TRADUIT>血渴者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E003D64</ID>
+    <EDID>BloodthirsterHM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster</ORIGINAL>
+    <TRADUIT>血渴者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E004413</ID>
+    <EDID>BloodthirsterCM3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster</ORIGINAL>
+    <TRADUIT>血渴者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E004ABC</ID>
+    <EDID>BloodthirsterGhoul</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster Beast</ORIGINAL>
+    <TRADUIT>血渴野兽</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E009404</ID>
+    <EDID>ShroudedClanTemplate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shrouded</ORIGINAL>
+    <TRADUIT>隐秘者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E009405</ID>
+    <EDID>ShroudedClan2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shrouded</ORIGINAL>
+    <TRADUIT>隐秘者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E018E34</ID>
+    <EDID>BloodthirsterGMTemplate</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bloodthirster</ORIGINAL>
+    <TRADUIT>血渴者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E01D162</ID>
+    <EDID>DeadFemale</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dead Girl</ORIGINAL>
+    <TRADUIT>死亡女孩</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Slave</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0E01D819</ID>
+    <EDID>DeadMale</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dead Girl</ORIGINAL>
+    <TRADUIT>死亡女孩</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Slave</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0E00FD93</ID>
+    <EDID>WheatonArmoryKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Armory Key</ORIGINAL>
+    <TRADUIT>军械库钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0E015A07</ID>
+    <EDID>WheatonCommandKey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Command Room Key</ORIGINAL>
+    <TRADUIT>指挥室钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0E011882</ID>
+    <EDID>zWheatonOffice</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wheaton Offices</ORIGINAL>
+    <TRADUIT>威顿办公室</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06084305</ID>
+    <EDID>SatComArray03Interior01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SatCom Array NN-03d-A</ORIGINAL>
+    <TRADUIT>卫星通讯阵列 NN-03d-A</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060534AF</ID>
+    <EDID>zWheatonArmory</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wheaton Armory</ORIGINAL>
+    <TRADUIT>威顿军械库</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060C568B</ID>
+    <EDID>SatComArray03Interior03</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SatCom Array NN-03d-C</ORIGINAL>
+    <TRADUIT>卫星通讯阵列 NN-03d-C</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>06018464</ID>
+    <EDID>CliffsideCavern01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Raider Outpost</ORIGINAL>
+    <TRADUIT>掠夺者前哨站</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>060C568C</ID>
+    <EDID>SatComArray03Interior02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>SatCom Array NN-03d-B</ORIGINAL>
+    <TRADUIT>卫星通讯阵列 NN-03d-B</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0E00BD05</ID>
+    <EDID>zWheatonArmory2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Wheaton Armory Bunker</ORIGINAL>
+    <TRADUIT>威顿军械库地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>0607EA1F</ID>
+    <EDID>Wasteland</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Capital Wasteland</ORIGINAL>
+    <TRADUIT>首都废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>20</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

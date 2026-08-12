@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C51</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic039</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion money, please.</ORIGINAL>
+    <TRADUIT>军团币，麻烦了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C76</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic039</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very well. Will there be anything else?</ORIGINAL>
+    <TRADUIT>好的。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C52</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic038</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pay me in NCR money.</ORIGINAL>
+    <TRADUIT>付给我NCR纸币吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C71</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic038</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your NCR money. Will there be anything else?</ORIGINAL>
+    <TRADUIT>给您NCR纸币。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C53</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic037</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'll take my payout in caps.</ORIGINAL>
+    <TRADUIT>我想换成瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C6C</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic037</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Caps it is. Will there be anything else?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C57</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic033</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to turn in my chips.</ORIGINAL>
+    <TRADUIT>我想兑换我的筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C75</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic033</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>In what currency would you like your payout? Non-caps currencies will have fractions paid out in caps.</ORIGINAL>
+    <TRADUIT>您想兑换成哪种货币？非瓶盖货币会按其等值的瓶盖数量来兑换。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C5A</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic030</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange NCR money for chips.</ORIGINAL>
+    <TRADUIT>我想用NCR纸币换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C7C</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic030</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00145C60</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic022</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange Legion money for chips.</ORIGINAL>
+    <TRADUIT>我想用军团第纳尔来换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00145C80</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic022</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>00151DBD</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic009</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange caps for chips.</ORIGINAL>
+    <TRADUIT>我想用瓶盖来换筹码。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>00151DC3</ID>
+    <EDID>vDialogueCasinoCashiervCashierTheTopsTopic009</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>How many chips would you like?</ORIGINAL>
+    <TRADUIT>您想换多少筹码？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01000ADD</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic110</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All my caps.</ORIGINAL>
+    <TRADUIT>我的全部瓶盖。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AE0</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic110</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01000ADE</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic120</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All my Legion money.</ORIGINAL>
+    <TRADUIT>我的全部军团第纳尔。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AE1</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic120</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01000ADF</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic130</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>All my NCR Cash.</ORIGINAL>
+    <TRADUIT>我的全部NCR纸币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AE2</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic130</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01000DC2</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic140</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange all my pre-war money.</ORIGINAL>
+    <TRADUIT>我想兑换我的全部战前货币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000DC4</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic140</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01000DC3</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic150</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange ALL my money. Caps, Legion, NCR, Pre-war money.</ORIGINAL>
+    <TRADUIT>我想兑换我的全部货币，包括瓶盖、军团第纳尔、NCR纸币和战前货币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000DC5</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic150</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01000DC6</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic160</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange all Legion, NCR, and pre-war money.</ORIGINAL>
+    <TRADUIT>我想兑换全部军团第纳尔、NCR纸币以及战前货币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000DC7</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic160</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01001660</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic151</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange ALL my money. Caps, Legion, and NCR money.</ORIGINAL>
+    <TRADUIT>我想兑换我的全部货币，包括瓶盖、军团第纳尔以及NCR纸币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001662</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic151</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01001661</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic161</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like to exchange all Legion and NCR money.</ORIGINAL>
+    <TRADUIT>我想兑换全部军团第纳尔和NCR纸币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001663</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic161</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your chips. Is there anything else I can help you with?</ORIGINAL>
+    <TRADUIT>这些是您的筹码。还有什么能为您效劳的吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>01001F04</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic170</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>I'd like my payout in Pre-war Cash.</ORIGINAL>
+    <TRADUIT>我想换成战前货币。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001F05</ID>
+    <EDID>000vDialogueCasinoCashiervCashierTheTopsTopic170</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your money.</ORIGINAL>
+    <TRADUIT>这是你的钱。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+</DocumentElement>

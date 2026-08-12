@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>DEFAULT</ORIGINAL>
+    <TRADUIT />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0100C484</ID>
+    <EDID>MODHiddenValleyOverhaul</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Welcome, Operations Officer.</ORIGINAL>
+    <TRADUIT>欢迎，运作官。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0100C484</ID>
+    <EDID>MODHiddenValleyOverhaul</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>CANDLE Fusion Power System Overview </ORIGINAL>
+    <TRADUIT>概述</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0100C484</ID>
+    <EDID>MODHiddenValleyOverhaul</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Reactor Status</ORIGINAL>
+    <TRADUIT>反应堆状态</TRADUIT>
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0100C485</ID>
+    <EDID>MODHiddenValleyOverhaul1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>CANDLE Fusion Power System Overview </ORIGINAL>
+    <TRADUIT>“蜡烛”核聚变动力系统概述 </TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0100C485</ID>
+    <EDID>MODHiddenValleyOverhaul1</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>The CANDLE fusion power system provides power to all bunker systems. Built more for reliability and duration of service, the power output of the system has been exceeded by many current designs, but it can supply the bunker with power for an estimated 752 years.
+
+System Goals: The ultimate purposes of plant operations are controlled generation of
+electricity and the maintenance of safety.
+
+Warning: CONTROL ROOM SYSTEMS FOR USE BY TRAINED AND CERTIFIED PERSONNEL ONLY!
+
+The term "control room systems" (CRS), refers to the entire human-machine interface for the
+nuclear stations including the main control room, back-ups control room and the emergency control
+rooms, local panels, technical support centres, operating staff, operating procedures, operating
+training programs, communications.</ORIGINAL>
+    <TRADUIT>“蜡烛”核聚变动力系统，为地堡中的所有系统提供能源。为了维持供电的可靠与稳定性，系统的输出功率已经超过了许多当前的设计标准，但它仍可以为地堡提供大约752年的电力。
+
+系统目标：设施运作的最终目的是控制发电和维护安全。
+
+警告：控制室系统仅供经过培训和认证的人员使用！
+
+“控制室系统”（CRS）一词是指核电站的整个人机界面，包括主控制室、备用控制室和应急控制室、本地面板、技术支持中心、操作人员、操作程序、操作培训计划、通信。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0100C76C</ID>
+    <EDID />
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>[Please consult your safety manual in the event an abnormal reading is displayed.]
+
+==System Parameters==
+
+Temperature: NORMAL
+
+Pressure: NORMAL
+
+Magnetic Field: NORMAL
+
+Plasma Reaction Rate: NORMAL
+
+Hydrogen Supply: NORMAL
+
+Helium Discharge: NORMAL
+
+Tritium Discharge: NORMAL
+
+***Estimated Remaining Service Life*** 528 Years.</ORIGINAL>
+    <TRADUIT>[如果显示异常读数，请参阅您的安全手册。]
+
+==系统参数==
+
+温度：正常
+
+压力：正常
+
+磁场：正常
+
+血浆反应速率：正常
+
+氢气供应：正常
+
+氦气放电：正常
+
+氚放电：正常
+
+***预计剩余使用寿命***528年。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0100C76D</ID>
+    <EDID>MODHiddenValleyOverhaul2</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>[Please consult your safety manual in the event an abnormal reading is displayed.]
+
+==System Parameters==
+
+Temperature: NORMAL
+
+Pressure: NORMAL
+
+Magnetic Field: NORMAL
+
+Plasma Reaction Rate: NORMAL
+
+Hydrogen Supply: NORMAL
+
+Helium Discharge: NORMAL
+
+Tritium Discharge: NORMAL
+
+***Estimated Remaining Service Life*** 528 Years.</ORIGINAL>
+    <TRADUIT>[如果显示异常读数，请参阅您的安全手册。]
+
+==系统参数==
+
+温度：正常
+
+压力：正常
+
+磁场：正常
+
+血浆反应速率：正常
+
+氢气供应：正常
+
+氦气放电：正常
+
+氚放电：正常
+
+***预计剩余使用寿命***528年。</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0100D93B</ID>
+    <EDID>HiddenValley01Showers</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Showers</ORIGINAL>
+    <TRADUIT>淋浴间</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7505</ID>
+    <EDID>HiddenValley02</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Valley Bunker L2</ORIGINAL>
+    <TRADUIT>隐谷地堡二层</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>000D7506</ID>
+    <EDID>HiddenValley01</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Valley Bunker L1</ORIGINAL>
+    <TRADUIT>隐谷地堡一层</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>01007DC6</ID>
+    <EDID>HiddenValley01Utility</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hidden Valley Bunker Fusion Core</ORIGINAL>
+    <TRADUIT>隐谷地堡聚变核心</TRADUIT>
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

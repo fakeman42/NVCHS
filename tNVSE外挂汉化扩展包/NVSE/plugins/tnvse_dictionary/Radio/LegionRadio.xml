@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>ACTI</GRUP>
+    <ID>01006888</ID>
+    <EDID>00legionradiophysical</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radio</ORIGINAL>
+    <TRADUIT>收音机</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TACT</GRUP>
+    <ID>01000ADD</ID>
+    <EDID>00legionradio</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Imperium Radio</ORIGINAL>
+    <TRADUIT>帝国电台</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MISC</GRUP>
+    <ID>01004B7A</ID>
+    <EDID>00legionradioLegionSlaveLedger</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion Slave Ledger</ORIGINAL>
+    <TRADUIT>军团奴隶账簿</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>010027C1</ID>
+    <EDID>00legionradiooperator</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion Radio Operator</ORIGINAL>
+    <TRADUIT>军团广播操作员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>010041B0</ID>
+    <EDID>00legionradiostationguard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>010041B2</ID>
+    <EDID>00legionradiostationguard2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>010042AC</ID>
+    <EDID>00legionradiostationinside</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>01004881</ID>
+    <EDID>00legionradiostationcypher</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cypher</ORIGINAL>
+    <TRADUIT>赛弗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>01004886</ID>
+    <EDID>00legionradiostationinsideupstairs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>01004887</ID>
+    <EDID>00legionradioguardupstairs</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Decanus</ORIGINAL>
+    <TRADUIT>老兵伍长</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0100488E</ID>
+    <EDID>00legionradiostationentranceguard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Imperium Radio Guard</ORIGINAL>
+    <TRADUIT>帝国电台守卫</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0100488F</ID>
+    <EDID>00legionradiokey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Legion Imperium Key</ORIGINAL>
+    <TRADUIT>军团帝国电台钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GREETING</ORIGINAL>
+    <TRADUIT>问好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100488D</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Halt! This is Imperium Radio, restricted to Legion personnel only. State your business.</ORIGINAL>
+    <TRADUIT>停下！这里是帝国广播电台，仅限军团人员进入，说明你的来意。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_GREETING_0000488D_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005A0E</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Speak to Cypher if you have business here.</ORIGINAL>
+    <TRADUIT>如果你在这里有事，请找赛弗。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_GREETING_00005A0E_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005A0F</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Cypher is downstairs.</ORIGINAL>
+    <TRADUIT>赛弗在楼下。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_GREETING_00005A0F_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056F6</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And who might this be?</ORIGINAL>
+    <TRADUIT>这又会是谁呢？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdialogue_GREETING_000056F6_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005712</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It's you again.</ORIGINAL>
+    <TRADUIT>又是你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdialogue_GREETING_00005712_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D2</ID>
+    <EDID>HELLO</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hello</ORIGINAL>
+    <TRADUIT>你好。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000DC</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Attack</ORIGINAL>
+    <TRADUIT>突击</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01006598</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Die!</ORIGINAL>
+    <TRADUIT>死吧！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdialogue_Attack_00006598_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100659B</ID>
+    <EDID>Attack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Coward!</ORIGINAL>
+    <TRADUIT>懦夫！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdialogue_Attack_0000659B_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01006597</ID>
+    <EDID>Hit</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ahh!</ORIGINAL>
+    <TRADUIT>啊！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdialogue_Hit_00006597_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01006599</ID>
+    <EDID>Murder</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Retribution!</ORIGINAL>
+    <TRADUIT>报应！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdialogue_Murder_00006599_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AE8</ID>
+    <EDID>RadioHello</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Welcome, loyal subjects of Caesar, to the voice of the Imperium! You're tuned in to Imperium Radio.</ORIGINAL>
+    <TRADUIT>欢迎凯撒的忠实子民们收听帝国之声，你现在收听的是帝国电台。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Legion Radio Operator [010027C1] (mod)
+Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00legionra_RadioHello_00000AE8_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AEA</ID>
+    <EDID>RadioHello</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You're listening to Imperium Radio, where the will of Mars echoes across the wasteland.</ORIGINAL>
+    <TRADUIT>你正在收听的是帝国电台，战神的意志在废土上回荡。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Legion Radio Operator [010027C1] (mod)
+Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00legionra_RadioHello_00000AEA_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AEC</ID>
+    <EDID>RadioHello</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Join us as we march towards victory under the banner of Caesar! This is Imperium Radio.</ORIGINAL>
+    <TRADUIT>加入我们，在凯撒的旗帜下走向胜利！这里是帝国电台。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Legion Radio Operator [010027C1] (mod)
+Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00legionra_RadioHello_00000AEC_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AEE</ID>
+    <EDID>RadioHello</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hear the drums of war and the voice of our great leader! This is Imperium Radio, broadcasting the will of Caesar.</ORIGINAL>
+    <TRADUIT>聆听战鼓和伟大领袖的声音！这里是帝国电台，播报凯撒的旨意。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Legion Radio Operator [010027C1] (mod)
+Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00legionra_RadioHello_00000AEE_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010024CC</ID>
+    <EDID>RadioHello</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You're listening to the voice of the Legion on Imperium Radio!</ORIGINAL>
+    <TRADUIT>你正在收听的是帝国电台的军团之声！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Legion Radio Operator [010027C1] (mod)
+Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00legionra_RadioHello_000024CC_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000C84E6</ID>
+    <EDID>RailroadRepsonse2a</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>What would you have me do?</ORIGINAL>
+    <TRADUIT>你要我做什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AF5</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 1 The Dying Republic}</ORIGINAL>
+    <TRADUIT>{Song 1 The Dying Republic}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000DD8</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 3 Hymn of the Legion}</ORIGINAL>
+    <TRADUIT>{Song 3 Hymn of the Legion}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001397</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 4 Legio XII Fulminata}</ORIGINAL>
+    <TRADUIT>{Song 4 Legio XII Fulminata}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AFA</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 1 Rise}</ORIGINAL>
+    <TRADUIT>{Song 1 Rise}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AF4</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 3 Legio XIV Gemina}</ORIGINAL>
+    <TRADUIT>{Song 3 Legio XIV Gemina}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01003EC0</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {greek song 2}</ORIGINAL>
+    <TRADUIT>{greek song 2}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008298</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Hikanatoi}</ORIGINAL>
+    <TRADUIT>{Hikanatoi}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008867</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Riding into Battle}</ORIGINAL>
+    <TRADUIT>{Riding into Battle}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008868</ID>
+    <EDID>00legionplaylist1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Rome goes to War}</ORIGINAL>
+    <TRADUIT>{Rome goes to War}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000AF3</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 2 Sons of Mars}</ORIGINAL>
+    <TRADUIT>{Song 2 Sons of Mars}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01000DDA</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 4 Song of Hadrian's Wall}</ORIGINAL>
+    <TRADUIT>{Song 4 Song of Hadrian's Wall}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010027C0</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Song 2 All Roads Lead to Rome}</ORIGINAL>
+    <TRADUIT>{Song 2 All Roads Lead to Rome}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01003EBF</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {greek song 1}</ORIGINAL>
+    <TRADUIT>{greek song 1}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100659F</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Leuctra}</ORIGINAL>
+    <TRADUIT>{Leuctra}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100714C</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Palestinalied}</ORIGINAL>
+    <TRADUIT>{Palestinalied}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008299</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {The Light of Rome}</ORIGINAL>
+    <TRADUIT>{The Light of Rome}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008869</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Vae Victis}</ORIGINAL>
+    <TRADUIT>{Vae Victis}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008B4F</ID>
+    <EDID>00legionplaylist2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Battle of Zama}</ORIGINAL>
+    <TRADUIT>{Battle of Zama}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010024D6</ID>
+    <EDID>00legionradioevents</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>silus caesar health </ORIGINAL>
+    <TRADUIT>silus caesar health</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Legion Radio Operator [010027C1] (mod)
+Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00legionra_00legionradioev_000024D6_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01001C32</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Chernobog}</ORIGINAL>
+    <TRADUIT>{Chernobog}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01002D81</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Now rise my loyal subjects}</ORIGINAL>
+    <TRADUIT>{Now rise my loyal subjects}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01003BDE</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Battle of Alesia}</ORIGINAL>
+    <TRADUIT>{Battle of Alesia}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01003EC1</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {teutoburg forest}</ORIGINAL>
+    <TRADUIT>{teutoburg forest}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100687E</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {King Ragnar}</ORIGINAL>
+    <TRADUIT>{King Ragnar}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01006880</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Adrianople}</ORIGINAL>
+    <TRADUIT>{Adrianople}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01006884</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Thermopylae}</ORIGINAL>
+    <TRADUIT>{Thermopylae}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100886B</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Imperator}</ORIGINAL>
+    <TRADUIT>{Imperator}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100886D</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Victorious}</ORIGINAL>
+    <TRADUIT>{Victorious}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01008B4E</ID>
+    <EDID>00legionplaylist3DUPLICATE000</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>  {Under Siege}</ORIGINAL>
+    <TRADUIT>{Under Siege}</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Quest : ([01000AE5]00legionradioquest) Imperium Radio
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004893</ID>
+    <EDID>00legionradioguardproceed</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Very well. You may proceed. However, be warned. Aggressive acts will earn you a place on a cross.</ORIGINAL>
+    <TRADUIT>很好，你可以进入了。但是，请注意。过激行为会让你被钉上十字架。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_00legionradiogu_00004893_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004893</ID>
+    <EDID>00legionradioguardproceed</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Legion Rep] Be calm. I am a friend of the Legion.</ORIGINAL>
+    <TRADUIT>[军团声望]放轻松，我是军团的朋友之一。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004895</ID>
+    <EDID>00legionradioguardmarkofcaesar</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Forgive my challenge. You may proceed.</ORIGINAL>
+    <TRADUIT>请原谅我的挑衅。你可以进入了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_00legionradiogu_00004895_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004895</ID>
+    <EDID>00legionradioguardmarkofcaesar</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I bear the Mark of Caesar.</ORIGINAL>
+    <TRADUIT>我有凯撒的印记。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004897</ID>
+    <EDID>00legionradioguardattack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You won't even make it into the building.</ORIGINAL>
+    <TRADUIT>你甚至都进不了这栋楼。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_00legionradiogu_00004897_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01004897</ID>
+    <EDID>00legionradioguardattack</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Attack] My business is to end you and your Legion propaganda.</ORIGINAL>
+    <TRADUIT>[攻击]我的任务就是终结你和你的军团政治宣传。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100489A</ID>
+    <EDID>00legionradioguardspeechcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[FAILED] Do you think I'm stupid? I'll have your head for wasting my time.</ORIGINAL>
+    <TRADUIT>[失败]你以为我是傻瓜吗？因为你浪费了我的时间，我要砍了你的头。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_00legionradiogu_0000489A_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100489A</ID>
+    <EDID>00legionradioguardspeechcheck</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I have urgent business inside! Please let me in! The fate of the Legion depends on it.</ORIGINAL>
+    <TRADUIT>我到里面有急事！请让我进去！这关系到军团的命运。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100489B</ID>
+    <EDID>00legionradioguardspeechcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] Very well. Get downstairs and speak to Centurion Cypher immediately.</ORIGINAL>
+    <TRADUIT>[成功]很好，你马上下楼去找赛弗百夫长。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Imperium Radio Guard [0100488E] (mod)
+Quest : ([0100488C]00legionradioguardconvo) 0100488C (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradioguardvoice\00legionra_00legionradiogu_0000489B_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100489B</ID>
+    <EDID>00legionradioguardspeechcheck</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>&lt;Lie&gt; I have a lead on NCR troop movements near Nipton for your radio station.</ORIGINAL>
+    <TRADUIT>&lt;撒谎&gt;我为你们的电台提供了一条尼普顿附近NCR动向的线索。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056F8</ID>
+    <EDID>00cyphergreetinglegionresponse</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So it seems. What business have you here Amicus?</ORIGINAL>
+    <TRADUIT>看来是的，朋友，你来这里有什么事？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_000056F8_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056F8</ID>
+    <EDID>00cyphergreetinglegionresponse</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Legion Reputation] Ave Centurion! I am a friend of the Legion.</ORIGINAL>
+    <TRADUIT>[军团声望]你好，百夫长！我是军团的朋友。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056FF</ID>
+    <EDID>00cyphergreetingtraveler</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A traveler? You are in restricted Legion territory. I suggest you travel elsewhere.</ORIGINAL>
+    <TRADUIT>旅行者？你在军团禁区内，我建议你去别的地方。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_000056FF_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056FF</ID>
+    <EDID>00cyphergreetingtraveler</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>No one, just a traveler.</ORIGINAL>
+    <TRADUIT>谁也不是，只是一个旅行者。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056FB</ID>
+    <EDID>00cyphergreetingcourier</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A courier? What brings you here profligate?</ORIGINAL>
+    <TRADUIT>邮差？什么风把你这放荡者吹来了？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_000056FB_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056FB</ID>
+    <EDID>00cyphergreetingcourier</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm a courier with the Mojave Express.</ORIGINAL>
+    <TRADUIT>我是莫哈韦邮政公司的一名邮差。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056FD</ID>
+    <EDID>00cyphergreetingcourier2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ah, you're THAT courier. No, I have not seen that degenerate around here. If I were you, I'd head to Vegas. No welp from that city leaves for long.</ORIGINAL>
+    <TRADUIT>啊，你就是那个邮差。不，我在这附近没见过那个放荡者。如果我是你，我会去维加斯。那座城市的人不会离家太久的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_000056FD_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>010056FD</ID>
+    <EDID>00cyphergreetingcourier2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>A man in a checkered suit shot me in the head. Have you seen him?</ORIGINAL>
+    <TRADUIT>一个穿格子西装的人朝我脑袋开了一枪，你见过他吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005701</ID>
+    <EDID>00cyphergreetingwhosasking</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Careful Profligate. I have put many wastelanders on a cross for much less a transgression.</ORIGINAL>
+    <TRADUIT>小心点，放荡者，我已经把许多废土人送上了十字架，只因他们的小小过错。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_00005701_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005701</ID>
+    <EDID>00cyphergreetingwhosasking</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Who's asking?</ORIGINAL>
+    <TRADUIT>谁在问话？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005703</ID>
+    <EDID>00cyphergreetingwhosaskingspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] So rare to find a comedian this far from that city of cowards. State your business profligate.</ORIGINAL>
+    <TRADUIT>[成功]离那个懦夫之城这么远，还能找到一个喜剧团演员，真是太难得了，说说你的事吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_00005703_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005703</ID>
+    <EDID>00cyphergreetingwhosaskingspeech</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Relax, biggus dickus. I'm joking.</ORIGINAL>
+    <TRADUIT>别紧张，“大大 · 阳具”大人，我开玩笑的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005704</ID>
+    <EDID>00cyphergreetingwhosaskingspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[FAILED] HERETIC!</ORIGINAL>
+    <TRADUIT>[失败]异端！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Anger
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergreetin_00005704_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005704</ID>
+    <EDID>00cyphergreetingwhosaskingspeech</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Uhhh... I am Caesar.</ORIGINAL>
+    <TRADUIT>啊...我是凯撒。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005706</ID>
+    <EDID>00cypherlegionlife</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It's a hard life, full of endless training, battle, and bloodshed. But ultimately rewarding. </ORIGINAL>
+    <TRADUIT>这是一种艰苦的生活，充满了无休止的训练、战斗和血汗。但终究是有回报的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherlegionl_00005706_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005706</ID>
+    <EDID>00cypherlegionlife</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What is life in the Legion like?</ORIGINAL>
+    <TRADUIT>军团里的生活是怎样的？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005709</ID>
+    <EDID>00cypherwhyareyouhere</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>To harass and demoralize the profligates, why else?</ORIGINAL>
+    <TRADUIT>为了骚扰那些放荡者，打击他们的士气，还能为了什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhyarey_00005709_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005709</ID>
+    <EDID>00cypherwhyareyouhere</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Why are you here?</ORIGINAL>
+    <TRADUIT>你来这里干什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570B</ID>
+    <EDID>00cypherwhyareyouhere2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It is by Caesar's will that I run this station. It's dual purpose. Imperium Radio acts as a slap in the face to the profligates.</ORIGINAL>
+    <TRADUIT>是凯撒的旨意让我管理这个电台。它有双重目的，帝国电台是给那些放荡者的一记耳光。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhyarey_0000570B_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570B</ID>
+    <EDID>00cypherwhyareyouhere2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Demoralizing their troops via its blatant existence, while simultaneously boosting the morale and battle willingness of our own forces.</ORIGINAL>
+    <TRADUIT>通过它的公然存在来打击他们部队的士气，同时提高我们军队的士气和战斗意志。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhyarey_0000570B_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570B</ID>
+    <EDID>00cypherwhyareyouhere2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>With our signal active, the Legion fights harder than ever before against the profligates. There will be no surrender, no retreat, no quarter.</ORIGINAL>
+    <TRADUIT>随着我们信号的激活，军团将比以往任何时候都更加努力地打击那些放荡者。决不投降，决不撤退，决不退让。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhyarey_0000570B_3.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570B</ID>
+    <EDID>00cypherwhyareyouhere2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They will be as a flood washing over the enemy, the likes of which not even Hoover Dam could retain.</ORIGINAL>
+    <TRADUIT>他们将像洪水一样冲刷敌人，甚至连胡佛大坝都无法阻挡这样的洪水。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhyarey_0000570B_4.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570B</ID>
+    <EDID>00cypherwhyareyouhere2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Why run a radio station instead of fighting on the front lines?</ORIGINAL>
+    <TRADUIT>为什么不在前线战斗，而要经营一家广播电台？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570D</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ask then.</ORIGINAL>
+    <TRADUIT>说吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphertransit_0000570D_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570D</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>我们谈点别的吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005717</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Go on then.</ORIGINAL>
+    <TRADUIT>继续说吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphertransit_00005717_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005717</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>我们谈点别的吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005A08</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You test my patience.</ORIGINAL>
+    <TRADUIT>你在测试我的耐心。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphertransit_00005A08_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005A08</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>我们谈点别的吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005A09</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Speak.</ORIGINAL>
+    <TRADUIT>说吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphertransit_00005A09_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005A09</ID>
+    <EDID>00cyphertransitiontopic</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Let's talk about something else.</ORIGINAL>
+    <TRADUIT>我们谈点别的吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570F</ID>
+    <EDID>00cypherarmor</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Indeed it is. What you are witnessing is the armor of a Centurion, placed together with trophies collected from our numerous foes.</ORIGINAL>
+    <TRADUIT>的确如此。你现在看到的是百夫长的盔甲，用无数敌人那里收集来的战利品打造在一起。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherarmor_0000570F_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570F</ID>
+    <EDID>00cypherarmor</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Each patchwork is a reminder to the enemy of the might of the Legion, and the tenacity of our warriors.</ORIGINAL>
+    <TRADUIT>每一块部件都在提醒敌人军团的强大和我们战士的顽强。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherarmor_0000570F_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100570F</ID>
+    <EDID>00cypherarmor</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>That is some armor you're wearing.</ORIGINAL>
+    <TRADUIT>你穿的这身盔甲真不错</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005711</ID>
+    <EDID>00cyphergoodbye</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So be it.</ORIGINAL>
+    <TRADUIT>就这样吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergoodbye_00005711_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005711</ID>
+    <EDID>00cyphergoodbye</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>That's all for now.</ORIGINAL>
+    <TRADUIT>现在就说到这吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005714</ID>
+    <EDID>00cypherwhatsyourstory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>When I was a boy, my tribe was absorbed by the Legion. We were set in our ways, content to live off scraps, stealing from those as desparate as us.</ORIGINAL>
+    <TRADUIT>当我还是个孩子的时候，我们的部落被军团吞并了。我们固步自封，满足于苟且偷生，从那些和我们一样绝望的人那里偷东西。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005714_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005714</ID>
+    <EDID>00cypherwhatsyourstory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>During that time, the Legion was actively embroiled in a war against a neighboring tribe. The Cyphers.</ORIGINAL>
+    <TRADUIT>在此期间，军团积极干预了一场与邻近部落，赛弗帮，的战争。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005714_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005714</ID>
+    <EDID>00cypherwhatsyourstory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They must have needed more men because it wasn't long before Legion emissaries came to us with an ultimatum; join or be extinguished.</ORIGINAL>
+    <TRADUIT>他们肯定需要更多的人手，因为没过多久，军团使者就向我们发出了最后通牒：要么加入，要么被消灭。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005714_3.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005714</ID>
+    <EDID>00cypherwhatsyourstory</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Having seen the brutality of Legion methods already, my tribe surrendered without contest. The cowards.</ORIGINAL>
+    <TRADUIT>我的部族已经见识过军团的残暴手段，因此不战而降。真是懦夫。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005714_4.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005714</ID>
+    <EDID>00cypherwhatsyourstory</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What's your story?</ORIGINAL>
+    <TRADUIT>你有什么故事？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005716</ID>
+    <EDID>00cypherwhatsyourstory2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>My new life began. I was just young enough to be accepted for Legion training. I thank Mars every day I wasn't born a year earlier.</ORIGINAL>
+    <TRADUIT>我的新生活开始了。我的年龄刚刚够接受军团训练。我每天都在感谢战神，我没有早一年出生。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005716_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005716</ID>
+    <EDID>00cypherwhatsyourstory2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A short while into my training, the Cyphers managed to sneak a raiding party into our training camp.</ORIGINAL>
+    <TRADUIT>训练刚开始没多久，赛弗帮的人就设法安排一支突击队偷偷溜进了我们的训练营。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005716_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005716</ID>
+    <EDID>00cypherwhatsyourstory2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I guess they thought killing the less experienced of us would hinder the Legion's advance. They were sorely mistaken.</ORIGINAL>
+    <TRADUIT>我猜他们以为杀死我们中战斗经验更少的人会阻碍军团前进。他们大错特错了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005716_3.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005716</ID>
+    <EDID>00cypherwhatsyourstory2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Awakening to the chaos, my Legion training kicked in, or maybe it was just my youthful excitement.</ORIGINAL>
+    <TRADUIT>在一片混乱中醒来，我的军团训练开始了，或许这只是我年轻时的兴奋。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005716_4.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005716</ID>
+    <EDID>00cypherwhatsyourstory2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Regardless, I jumped on the back of one of the tribals, clinging on for dear life while I tried to choke him unconscious.</ORIGINAL>
+    <TRADUIT>不管怎么说，我还是跳到了其中一个部落人的背上，死死地抓住他，试图把他掐晕。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_00005716_5.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005716</ID>
+    <EDID>00cypherwhatsyourstory2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What happened next?</ORIGINAL>
+    <TRADUIT>接下来发生了什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005719</ID>
+    <EDID>00cypherarmor2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Do not get the wrong impression profligate. Our armor may be rudimentary, but our warriors are far superior. </ORIGINAL>
+    <TRADUIT>不要误以为我们是放荡者。我们的盔甲可能很简陋，但我们的战士远胜于他们。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherarmor2_00005719_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005719</ID>
+    <EDID>00cypherarmor2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>All the guns in the world have yet to halt a Legion charge.</ORIGINAL>
+    <TRADUIT>世界上所有的枪炮都无法阻止军团的冲锋。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherarmor2_00005719_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005719</ID>
+    <EDID>00cypherarmor2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>It certainly seems more protective than football pads.</ORIGINAL>
+    <TRADUIT>当然，它看起来比橄榄球护具更具保护作用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571B</ID>
+    <EDID>00cypherwhatsyourstory3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>When my Centurion saw this he yelled something along to the effect of "A boy fights while men cower". </ORIGINAL>
+    <TRADUIT>当我的百夫长看到这一幕时，他大喊了一句："那男孩在战斗，而男人们在畏缩"。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_0000571B_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571B</ID>
+    <EDID>00cypherwhatsyourstory3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This must have emasculated the recruits, as suddenly the training camp erupted as they rushed to meet the enemy.</ORIGINAL>
+    <TRADUIT>这肯定让新兵们感觉蒙羞，因为他们冲向了敌人，训练营随即就爆发战斗。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_0000571B_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571B</ID>
+    <EDID>00cypherwhatsyourstory3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Needless to say, the raiding party was massacred to the last man. I was rewarded with the name of Cypher in triumph of my bravery against the tribe.</ORIGINAL>
+    <TRADUIT>不用说，突击队被屠杀殆尽。我因英勇抗击部落人而获得了"赛弗"的称号。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_0000571B_3.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571B</ID>
+    <EDID>00cypherwhatsyourstory3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A name I carry with pride to this day.</ORIGINAL>
+    <TRADUIT>这个名字让我至今引以为豪。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_0000571B_4.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571B</ID>
+    <EDID>00cypherwhatsyourstory3</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Please, go on.</ORIGINAL>
+    <TRADUIT>请继续说。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571D</ID>
+    <EDID>00cypherwhatsyourstory4</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It is just one moment of many where I brought the fight to the enemy. What else did you want to know?</ORIGINAL>
+    <TRADUIT>这只是我众多记忆中血战敌人的的一段。你还想知道什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_0000571D_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571D</ID>
+    <EDID>00cypherwhatsyourstory4</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>That is an amazing story!</ORIGINAL>
+    <TRADUIT>这真是一个令人惊叹的故事！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571F</ID>
+    <EDID>00cypherwhatsyourstory5</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Degenerate!</ORIGINAL>
+    <TRADUIT>你这堕落之人！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherwhatsyo_0000571F_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100571F</ID>
+    <EDID>00cypherwhatsyourstory5</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Mock] You became a Centurion by acting foolishly? Sounds about right for the Legion.</ORIGINAL>
+    <TRADUIT>[嘲笑]你是靠愚蠢的行为成为百夫长的？听起来很符合军团作风。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005721</ID>
+    <EDID>00cyphercesar1</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Why does your face follow your nose? It should be obvious, shouldn't it?</ORIGINAL>
+    <TRADUIT>为什么脸会跟着鼻子走？这不是很明显吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphercesar1_00005721_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005721</ID>
+    <EDID>00cyphercesar1</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Why do you follow Caesar?</ORIGINAL>
+    <TRADUIT>你为何追随凯撒？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005723</ID>
+    <EDID>00cyphercesar3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I guess I shouldn't be surprised that a common degenerate is ignorant of his masters. Mars is the god of war.</ORIGINAL>
+    <TRADUIT>我不应该对一个普通的堕落者对他的主一无所知感到惊讶。战神即是火星的马尔斯。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphercesar3_00005723_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005723</ID>
+    <EDID>00cyphercesar3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>It was he that cleansed the world to wipe the slate clean. It was he that sent Caesar to form the Legion and bring civility back to the world.</ORIGINAL>
+    <TRADUIT>是他净化了世界，让历史重归正轨。是他派遣凯撒组建军团，将文明带回这个世界。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphercesar3_00005723_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005723</ID>
+    <EDID>00cyphercesar3</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>it is he that guides us in our campaigns. We follow Caesar as we follow Mars, to victory.</ORIGINAL>
+    <TRADUIT>是他指引我们征战。我们追随凯撒，就像追随战神，走向胜利。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphercesar3_00005723_3.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005723</ID>
+    <EDID>00cyphercesar3</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Who is Mars?</ORIGINAL>
+    <TRADUIT>战神是谁？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005725</ID>
+    <EDID>00cyphercesar2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Watch your tongue wastrel, lest I have it removed. No one speaks ill of the son of Mars in my presence.</ORIGINAL>
+    <TRADUIT>注意你的言辞，免得我把你的舌头拔掉。在我面前，谁也不许说战神之子的坏话。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphercesar2_00005725_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005725</ID>
+    <EDID>00cyphercesar2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Many have called Caesar a maniac. What do you think?</ORIGINAL>
+    <TRADUIT>许多人称凯撒为疯子。你怎么看？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005728</ID>
+    <EDID>00cyphergrimreaperattack</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Axios!</ORIGINAL>
+    <TRADUIT>战得光荣，死得其所！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cyphergrimrea_00005728_1.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>01005728</ID>
+    <EDID>00cyphergrimreaperattack</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Attack] Your grim fucking reaper.</ORIGINAL>
+    <TRADUIT>[攻击]你这该死的瘟神！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100659D</ID>
+    <EDID>00cypherlegionlife2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>When you pass through the same lands that were once plagued by chemned up husks of human beings, only to see cities now flourishing...</ORIGINAL>
+    <TRADUIT>当你经过那些曾经被人类的遗毒污染的土地时，却只会看见城市正在蓬勃发展...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00legionradiovoice\00cypherdi_00cypherlegionl_0000659D_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100659D</ID>
+    <EDID>00cypherlegionlife2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>With fresh flowing water, electricity and bountiful crops all thanks to Legion justice, you grow to be grateful.</ORIGINAL>
+    <TRADUIT>有了新鲜的流水、电力和丰收的庄稼，这一切都要归功于军团的正义，你会渐渐心存感激。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherlegionl_0000659D_2.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100659D</ID>
+    <EDID>00cypherlegionlife2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yes, ending the plague of degeneracy has its rewards.</ORIGINAL>
+    <TRADUIT>是的，结束腐朽文明的堕落污染是有回报的。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Cypher [01004881] (mod)
+Quest : ([010056F5]00cypherdialogue) 010056F5 (EDID)
+EmotionType : Neutral
+Audio : \Sound\voice\LegionRadio.esp\00cyphervoice\00cypherdi_00cypherlegionl_0000659D_3.wav</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0100659D</ID>
+    <EDID>00cypherlegionlife2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Rewarding how?</ORIGINAL>
+    <TRADUIT>怎么回报？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>01000AE5</ID>
+    <EDID>00legionradioquest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Imperium Radio</ORIGINAL>
+    <TRADUIT>帝国电台</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>00130B8C</ID>
+    <EDID>CottonwoodCoveMess</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cottonwood Cove Mess Hall</ORIGINAL>
+    <TRADUIT>棉白杨湾饭堂</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>010041C9</ID>
+    <EDID>legionradiostationhq</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Imperium Radio HQ</ORIGINAL>
+    <TRADUIT>帝国电台总部</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>001592EA</ID>
+    <EDID>SafehouseLegionINT</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Caesar's Legion Safehouse</ORIGINAL>
+    <TRADUIT>凯撒军团安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+</DocumentElement>

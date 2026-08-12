@@ -1,0 +1,2438 @@
+[
+  {
+    "key": "WillowScript_0500193C#SCPT:SCDA#2c196d0f6e641acea8d214b639f2352b",
+    "original": "Willow is busy!",
+    "translation": "薇儿在忙!",
+    "stage": 1
+  },
+  {
+    "key": "WillowScript_0500193C#SCPT:SCDA#14db5c0eb614a413308c0dbd9b4839d7",
+    "original": "Willow is out!",
+    "translation": "薇儿不在!",
+    "stage": 1
+  },
+  {
+    "key": "Willow9bScript_0509CC43#SCPT:SCDA#093e712fa71ec16a4741fcff6a7f9956",
+    "original": "Willow needs her cooking supplies to make you meals away from home!",
+    "translation": "薇儿需要她的烹饪用品来为你准备离家时的饭菜!",
+    "stage": 1
+  },
+  {
+    "key": "WillowPurchaseIngredients_06006970#SCPT:SCDA#fd0ba409fe95812f27f74082f94b4464",
+    "original": "Willow has [%] caps left...",
+    "translation": "薇儿还剩下[%]个瓶盖...",
+    "stage": 1
+  },
+  {
+    "key": "WillowCreateCampfire_06015CE8#SCPT:SCDA#789a0275c2b268db6a8cf8f88557c2a6",
+    "original": "Press your activate key to place down the Campfire! Rotate with the mousewheel!",
+    "translation": "按下你的激活键来放下篝火！旋转鼠标滚轮！!",
+    "stage": 1
+  },
+  {
+    "key": "WillowBedrollCreate_060173DC#SCPT:SCDA#32aa031e6252a4a7c5716297e5f5c641",
+    "original": "Press your activate key to place down the bed! Rotate with the mousewheel!",
+    "translation": "按下你的激活键来放下床！用鼠标滚轮旋转！",
+    "stage": 1
+  },
+  {
+    "key": "WillowFriskingHandler_0601FD5B#SCPT:SCDA#033376bd94b1832487c8fd20842b0ea5",
+    "original": "Willow has been frisked...",
+    "translation": "薇儿被搜身了...",
+    "stage": 1
+  },
+  {
+    "key": "WillowFriskingHandler_0601FD5B#SCPT:SCDA#cdbf2fca46c087711c2c082318a0fcdf",
+    "original": "Willow has retrieved her weapons...",
+    "translation": "薇儿已经取回了她的武器...",
+    "stage": 1
+  },
+  {
+    "key": "WillowWeaponEvaluation_0604532C#SCPT:SCDA#6445e72f3d86cfe492756ca0e91bb12b",
+    "original": "Willow's current weapon will perform worse than Beauty!",
+    "translation": "薇儿现在的武器性能会比红颜差!",
+    "stage": 1
+  },
+  {
+    "key": "WillowEnchBackpackCarryweight_06002786#ENCH:FULL#7393f4720039625d284c4db3ef2e3bcb",
+    "original": "Willow's Backpack",
+    "translation": "薇儿的背包",
+    "stage": 1
+  },
+  {
+    "key": "WillowEnchKeyNecklaceLvl2_0602937A#ENCH:FULL#68c65061b1e51c1dab1b55573d7db058",
+    "original": "Promise",
+    "translation": "承诺",
+    "stage": 1
+  },
+  {
+    "key": "WillowsJacketUPVegasGirl_050312DA#ARMO:FULL#4a0f5c4c517282d3369e5d036f85a4f6",
+    "original": "Willow's Jacket",
+    "translation": "薇儿独有的夹克",
+    "stage": 1
+  },
+  {
+    "key": "WillowsJacketVegasGirl_050312DB#ARMO:FULL#eacb53fe633344261eead201a48ed365",
+    "original": "Armored Gecko Skin Jacket",
+    "translation": "蜥蜴皮甲",
+    "stage": 1
+  },
+  {
+    "key": "WillowsNecklaceRiven_05078B58#ARMO:FULL#95080c744026e54a010f1cab336549b3",
+    "original": "Willow's Necklace",
+    "translation": "薇儿的项链",
+    "stage": 1
+  },
+  {
+    "key": "WillowCowboyHat_0508AC4B#ARMO:FULL#f5264c4eb47d04b5206cd48584450e5c",
+    "original": "Willow's Cowboy Hat",
+    "translation": "薇儿的牛仔帽",
+    "stage": 1
+  },
+  {
+    "key": "WillowsAuthorityGlasses_0508AC4C#ARMO:FULL#72dd281563a996d6ac08bf1d20738219",
+    "original": "Willow's Sunglasses",
+    "translation": "薇儿的太阳镜",
+    "stage": 1
+  },
+  {
+    "key": "WillowPlayerPresentsKeyRingNecklace_0508FB0F#ARMO:FULL#f0954c4095b072e93afcb9025bada612",
+    "original": "Key plus Ring Necklace",
+    "translation": "钥匙加环项链",
+    "stage": 1
+  },
+  {
+    "key": "WillowsNecklaceRivenplusRing_050962B2#ARMO:FULL#3b2e0091bccfd8121ab71810f73737d1",
+    "original": "Willow's Necklace with Ring",
+    "translation": "薇儿的指环项链",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC01ExplosiveCollarUP_06024C91#ARMO:FULL#13a10214e0bfc29b07332f7aa4a43a2f",
+    "original": "Dead Money Collar",
+    "translation": "死钱项圈",
+    "stage": 1
+  },
+  {
+    "key": "WillowCasinoTemporaryContainer_06002A65#CONT:FULL#9606fe24874a69adcb0feee8c29e8512",
+    "original": "Container For Holding Willow's Casino Items",
+    "translation": "用于存放薇儿赌场物品的容器",
+    "stage": 1
+  },
+  {
+    "key": "WillowsBedroll_060304AA#MISC:FULL#a650f1f00f64290cebd1410125b3b65f",
+    "original": "Willow's Bedroll Kit",
+    "translation": "薇儿的睡袋套装",
+    "stage": 1
+  },
+  {
+    "key": "WillowsRifleFAKE_0503D2F1#WEAP:FULL#fc460efc3d40bd9155b7ead07a6f9fd0",
+    "original": "Beauty",
+    "translation": "红颜",
+    "stage": 1
+  },
+  {
+    "key": "WillowsRifle_0503D2F2#WEAP:FULL#fc460efc3d40bd9155b7ead07a6f9fd0",
+    "original": "Beauty",
+    "translation": "红颜",
+    "stage": 1
+  },
+  {
+    "key": "WillowSecondContainer_05007004#NPC_:FULL#61d768895759eb0d4038eef0ec868c31",
+    "original": "[%]'s Items",
+    "translation": "[%] 的物品",
+    "stage": 1
+  },
+  {
+    "key": "WillowsEscapedConvict1Kyle_050191EB#NPC_:FULL#ce43db5a081f2c4bad70c3cf32bb3c6b",
+    "original": "Kyle",
+    "translation": "凯尔",
+    "stage": 1
+  },
+  {
+    "key": "WillowsEscapedConvict2Kenny_050194CA#NPC_:FULL#6cbdb4c89dc16758d0fa5f8ad65a8d64",
+    "original": "Kenny",
+    "translation": "肯尼",
+    "stage": 1
+  },
+  {
+    "key": "WillowsEscapedConvictLeaderStan_050194CB#NPC_:FULL#29d26a59e3a479bef91e1d17a90ba52b",
+    "original": "Stan",
+    "translation": "斯坦",
+    "stage": 1
+  },
+  {
+    "key": "WillowsEscapedConvictWendyGF_050194CC#NPC_:FULL#f683603a0c162631691baf021630300b",
+    "original": "Wendy",
+    "translation": "温迪",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03BrainTankWillows_0604295F#CREA:FULL#a89b3758622514ed82c97f4316f993aa",
+    "original": "Willow's Brain Tank",
+    "translation": "薇儿的大脑罐",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_000000C8#DIAL:FULL#c28968f70af835e9836ce6924af17984",
+    "original": "GREETING",
+    "translation": "问好",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_050D963A#INFO:NAM1#26c0551b760c08e039ed997996eb3f39",
+    "original": "Let's go.",
+    "translation": "走吧。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0510304C#INFO:NAM1#c2dc98b92ac5ff676ad1c3bd8b719fbf",
+    "original": "Are we going to have a drink?",
+    "translation": "我们要喝一杯吗？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_05103048#INFO:NAM1#04f3331b1c3c3f28b5d299db77e2c1dd",
+    "original": "This place is kind of weird.",
+    "translation": "这个地方有点诡异。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_05070F83#INFO:NAM1#ff390fb95ee00874ad50aa1462d9aa25",
+    "original": "So, we're back here again.",
+    "translation": "所以，我们又回来了。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_05070F84#INFO:NAM1#e6d4b9167a73e3171a6eed1b43f3030d",
+    "original": "So, how's Lucy today?",
+    "translation": "那么，露西今天怎么样？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0505209B#INFO:NAM1#e1bddd88314ead154342d3770d439e59",
+    "original": "<Yawn>",
+    "translation": "<呵欠>",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_050D5879#INFO:NAM1#2a8d7ed5c78fb3ad28f952a6772926a5",
+    "original": "Sorry!",
+    "translation": "对不起！",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_050AF33B#INFO:NAM1#a5e23881cc20db38ffb8cd0d7961a657",
+    "original": "Hey, you've got a plan, don't you?",
+    "translation": "嘿，你有计划，对吧？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_05076F51#INFO:NAM1#40f4eee5b8163fda7771b10d49b811bd",
+    "original": "Hey there.",
+    "translation": "嘿你好。",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0502AE64#INFO:NAM1#d38ab8936ea02a757bcf4bc02cfe7a5c",
+    "original": "What's up?",
+    "translation": "怎么了？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0507549B#INFO:NAM1#3514756971ab4906a5b5bcfcda1b2330",
+    "original": "Hi there, handsome!",
+    "translation": "嗨，帅哥！",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_050AC28A#INFO:NAM1#85ff9316cfe35c46ef2e95e76ac38ef1",
+    "original": "Hey, Bud. What's up?",
+    "translation": "嘿，老兄。怎么了？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_0508DDAB#INFO:NAM1#a2f0e48235b01bef1077ce26df89426c",
+    "original": "Hi lover, need something?",
+    "translation": "嗨，亲爱的，需要什么？",
+    "stage": 1
+  },
+  {
+    "key": "GREETING_050B302A#INFO:NAM1#bef6c1ff4637db5071c0007123cf786c",
+    "original": "Hi! Can I do something for you...or to you?",
+    "translation": "嗨！有什么我能为你做的...或者对你做的吗？",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_000000D2#DIAL:FULL#4fbf9b71397ccdfce15a09b4aca7055e",
+    "original": "Hello",
+    "translation": "你好。",
+    "stage": 1
+  },
+  {
+    "key": "HELLO_050D5594#INFO:NAM1#26f4a63448168a6abd2f7e49ce66699d",
+    "original": "Veronica, we have to do something about your outfit.  It's tragic. You look like a potato with a face.",
+    "translation": "维罗妮卡，我们得想想办法改改你的穿着。实在是太糟糕了。你看起来就像一个长了脸的土豆。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_000000D5#DIAL:FULL#59d55931e3f2ee4a336d41c57ca7bd8b",
+    "original": "Idle Chatter",
+    "translation": "闲聊",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05076C5F#INFO:NAM1#15e09d0f9a783bfbf368305c11fda58c",
+    "original": "Those ferals are tough!",
+    "translation": "那些狂暴僵尸可真够硬的!",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509AC81#INFO:NAM1#ec8a14f6ecb74379dfa538d376ea6d6a",
+    "original": "Radiation!  Great.",
+    "translation": "辐射!好极了.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509AC82#INFO:NAM1#ef2a4f0f31e2fdaf7d9506752e9e6edd",
+    "original": "You doing okay?  Radiation!  What a pain.",
+    "translation": "你还好吗?当心辐射!真难受.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509AC83#INFO:NAM1#7ef04cccbca8f3243c95a8f577973893",
+    "original": "Okay, I have a question.  Am I starting to glow?",
+    "translation": "好吧,我有问题,我身上是不是开始有点辐射光了?",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509AC84#INFO:NAM1#9216b3daa4cc586bc5c21ce63bb6f004",
+    "original": "I always wondered what it would feel like to be a ghoul...I think we might find out soon.",
+    "translation": "我一直都在想变成僵尸是什么感觉.....我觉得我们很快就能知道了.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05076C64#INFO:NAM1#5d62573a406d4b4719c184b223dc96c5",
+    "original": "I hate Deathclaws.  I peed my pants!",
+    "translation": "我恨死亡爪.我都快吓尿了!",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509AC85#INFO:NAM1#a504d368878b490410c99ed61c04f8ba",
+    "original": "Hmm....Deathclaws.",
+    "translation": "呃呃....死亡爪.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05093D46#INFO:NAM1#6bd7802c82cc5b32a08cc2edb4e59905",
+    "original": "It's okay, you can do this.",
+    "translation": "没问题的,你可以做到的.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509AC87#INFO:NAM1#f5217aed8e258c35ba8af5cd4665f617",
+    "original": "*nervous humming*",
+    "translation": "*紧张的呼吸声*",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05103037#INFO:NAM1#ec3ed635fa315293a28d1af50a3aacd4",
+    "original": "It's kinda dreary up here.",
+    "translation": "这里有点压抑啊.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05094BC0#INFO:NAM1#d8b07a40fdd52c7d8599aec56ec50f01",
+    "original": "Hey, does that robot cook for us?",
+    "translation": "嘿,那个机器人可以帮我做饭么?",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_050805A1#INFO:NAM1#bbbc91bc9efe3c0d79f3a6606268245f",
+    "original": "We should be ready for anything in here, you know?",
+    "translation": "在这儿我们应该准备好应对任何事,你觉得呢?",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_050805A0#INFO:NAM1#f5217aed8e258c35ba8af5cd4665f617",
+    "original": "*nervous humming*",
+    "translation": "*紧张的呼吸声*",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0505C1D7#INFO:NAM1#670c4bbeb7412f7aafd53361cbb4e71e",
+    "original": "You are going to think I'm such a coward right now, but I am very scared. This place is so spooky.",
+    "translation": "你现在肯定觉得是个懦夫,但我真的很害怕啊.这地方太吓人了.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05062979#INFO:NAM1#0f3bffeab7874ab2c142ac036f16bdee",
+    "original": "*Screams* What was that?  Did you hear that?  Sorry, I am so jumpy. I do not like it in here.",
+    "translation": "（尖叫）*那是什么声音？你听到了吗？对不起，我太紧张了。我不喜欢这里。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05076C5E#INFO:NAM1#b930e527335708434f10a37e2f415e54",
+    "original": "I am so glad you're with me.  I'd hate to be in here alone.",
+    "translation": "我很高兴你和我在一起.我可不想一个人呆在这儿.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05098E41#INFO:NAM1#b930e527335708434f10a37e2f415e54",
+    "original": "I am so glad you're with me.  I'd hate to be in here alone.",
+    "translation": "我很高兴你和我在一起.我可不想一个人呆在这儿.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05073B1C#INFO:NAM1#0a38b0da800c6a2ae2ee20cb2e3d4ddc",
+    "original": "I hate vaults.  They are so creepy.",
+    "translation": "我讨厌避难所.它们都太吓人了.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05064FF3#INFO:NAM1#3a59a8697adf2bd83e3df4d79f5998f5",
+    "original": "Of all the places you've taken me, this, well, not my favorite.",
+    "translation": "你带我去过的所有地方中，这个地方，嗯，不是我喜欢的。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05102A71#INFO:NAM1#4bae7c47db6f448289ca68f69352b36e",
+    "original": "This place seems kind of cruel if you ask me.  Well, I'll make an exception for geckos and Deathclaws.",
+    "translation": "如果你问我的话，这个地方看起来有点残忍。不过，我会为蜥蜴和死亡爪破个例。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0510303E#INFO:NAM1#bca6ccc4aeeb0d0830fd601ff4d16d2e",
+    "original": "How could any woman run a place like this? It's so barbaric?",
+    "translation": "怎么会有女人管理这样的地方？这太野蛮了？",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0510303F#INFO:NAM1#e3cc53c3e3b6a6299ad619987bc3c688",
+    "original": "Have you noticed Lucy's voice?  It's so deep. I wonder if maybe she's really a boy dressed as a girl? That'd be a big surprise for someone, huh?",
+    "translation": "你注意到露西的声音了吗？非常低沉。我在想，她会不会实际上是一个打扮成女孩的男孩？那对某些人来说会是个大惊喜，对吧？",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05103040#INFO:NAM1#361433213e3a40e08de98aadab1f1b70",
+    "original": "How old do you think Lucy is?  Doesn't she seem old to you?  She seems old to me.",
+    "translation": "你觉得露西多大年纪？她对你来说是不是显得挺老的？对我来说她显得挺老的。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05064FF6#INFO:NAM1#0dd81942f3ae0c79d3c8b6be8f146978",
+    "original": "Lucy's hair is a funny color. It doesn't look real to me. I wonder if she puts color on it somehow. I bet she has gray hair because she's so old.",
+    "translation": "露西的头发颜色很奇怪。我觉得它看起来不自然。我在想她是不是用什么方法给头发上了色。我敢打赌她有白头发，因为她太老了。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05076F50#INFO:NAM1#b718fb937374f7a06e4a92527453827f",
+    "original": "I will be so happy when we're done running these errands for Lucy.",
+    "translation": "“当我们为露西跑完这些差事的时候，我会非常高兴的。”",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_050958F7#INFO:NAM1#05467e751c39c2963fc5814a9b751d6f",
+    "original": "Deathclaw eggs!  She doesn't want much, does she?",
+    "translation": "死亡爪的蛋！她要的不多，是吧？",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_050B0AAE#INFO:NAM1#257858eacf7d97433b7e410e9f5df550",
+    "original": "I used to hate ferals until one day I found one with a teddy bear.  Now I feel sorry for them. Although, I still hate to get into a fight with them.",
+    "translation": "我以前很讨厌野生变种人，直到有一天我发现一个抱着泰迪熊的变种人。现在我开始同情他们了。尽管如此，我还是很讨厌和他们打架。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05102A6B#INFO:NAM1#4f163c18b50767db98a952385758f6d7",
+    "original": "There are a lot of dead ghouls in here.  Hey, you don't think the ferals killed them, do you?",
+    "translation": "这里面有很多死亡的尸鬼。嘿，你不觉得是野生变种人杀了他们吗？",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05073B1D#INFO:NAM1#f5217aed8e258c35ba8af5cd4665f617",
+    "original": "*nervous humming*",
+    "translation": "*紧张的呼吸声*",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05076F44#INFO:NAM1#e44864603be4ccac9126ecca4d4924cc",
+    "original": "I hope Dr. Henry can fix Rex.",
+    "translation": "我希望亨利博士能修复雷克斯",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05077810#INFO:NAM1#787cfce7404cb9f6f01f607347f58880",
+    "original": "Invisible Nightstalkers. I wonder if that could ever happen to a human?",
+    "translation": "一个看不见的夜行者.我在想这种情况能不能在人类身上发生.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0505C4B5#INFO:NAM1#00cfd04f3909e48cfbcfb80f11b1add7",
+    "original": "This is not a gift shop.",
+    "translation": "这个不是个礼物店.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05062978#INFO:NAM1#e6da43887cbe5f632e49506b3c05ee89",
+    "original": "Worst gift shop ever.",
+    "translation": "我见过的最糟的礼物店.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_050692FE#INFO:NAM1#59913025015951d677e769f23c80f8b8",
+    "original": "Hmpf.  Who does she think she's impressing with this place? I'm not impressed.  You're not, are you?",
+    "translation": "哼。她以为用这个地方能打动谁？我没被打动。你呢？你也没有吧？",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509C680#INFO:NAM1#4a6d85cfa5e11d6c91b90a8671c3cfd7",
+    "original": "Hmpf.",
+    "translation": "哼",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509C67E#INFO:NAM1#feba5fbc993540737f4a421ad774eb00",
+    "original": "I always imagined a vault would be a terrible place to live. You know, cuz deserted vaults are so creepy.",
+    "translation": "我一直以为避难所会是一个居住的可怕地方。你知道的，因为废弃的避难所太恐怖了",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509C67F#INFO:NAM1#f3474b629d91480f908a77b9c8ecc9e6",
+    "original": "It's really nice in here.  Way better than I'd imagined a vault could be.",
+    "translation": "其实这里还算不错.至少比我想象的避难所好多了.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509F1D6#INFO:NAM1#e0dc31ca9ade9cb5240c9bd711eb57a3",
+    "original": "This place is enormous.",
+    "translation": "这地方可真大.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509EEF4#INFO:NAM1#d026a376f0abf934f3ce3f23a46644a7",
+    "original": "I know I shouldn't scavenge here, but I'm not promising anything.  If I see something good I might have to sneak it out with me.",
+    "translation": "我知道我不应该在这里搜刮东西，但我可不承诺乖乖不动。如果我看到什么好东西，我可能会偷偷带走。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_05064FF7#INFO:NAM1#3c2014ef9de583ec77a2141d7fa6ca56",
+    "original": "It's great to be among NCR folks again.  I feel right at home.",
+    "translation": "和NCR的家伙们在一起感觉真好.感觉就像家一样.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0509EEEC#INFO:NAM1#23dc739dce2a1e2a9417cd1e8eb5d2e2",
+    "original": "Looks like everyone of these guys uses chems. Look at their eyes, their really messed up.",
+    "translation": "看起来这里的每一个家伙都嗑了药.看看他们的眼睛,真是一团糟.",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_050777F0#INFO:NAM1#c694984f3c32946346185b04518f6066",
+    "original": "I can't believe you stuck one of us in that freezer.  That was heartless.  I hope I don't have to worry about what you'll do to me.",
+    "translation": "我无法相信你竟然把我们中的一个关进了冷藏库。真是太无情了。我希望我不必担心你会对我做什么。",
+    "stage": 1
+  },
+  {
+    "key": "IdleChatter_0508EF6B#INFO:NAM1#5426a69ea5b4e53ce414809d508b7ff9",
+    "original": "Eh, poor guy.",
+    "translation": "额,可怜的家伙.",
+    "stage": 1
+  },
+  {
+    "key": "CombatToNormal_000000F6#DIAL:FULL#31680f983fb1ee96efe0e37932a3dbc6",
+    "original": "CombatToNormal",
+    "translation": "从战斗状态转为正常状态",
+    "stage": 1
+  },
+  {
+    "key": "CombatToNormal_050757EF#INFO:NAM1#5679c3cb3ad4524f93b3cfc91baeeb7f",
+    "original": "Whoa! That was a workout, wasn't it?",
+    "translation": "哇！那可真是一场锻炼，不是吗？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_00037071#DIAL:FULL#5e2c7cd7e7edc178ccf61fe2f1355fe4",
+    "original": "Wait here.",
+    "translation": "在这等着。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWait_0509AC8A#INFO:NAM1#839f2b476b084a27bb349be3f011eb2e",
+    "original": "Okay.  I'll see you later.",
+    "translation": "好的，一会见。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_00037072#DIAL:FULL#0cdf6db8a74751349a7c874276a049a9",
+    "original": "Let's trade equipment.",
+    "translation": "我们交易装备吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_050D2D59#INFO:NAM1#3be17c9a2fec79ef3f45d475fb05952d",
+    "original": "Thank you!",
+    "translation": "谢谢你！",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_0509AC8B#INFO:NAM1#4ecc54c55308337239e4cbecb1a6307b",
+    "original": "Yeah, of course.",
+    "translation": "嗯哼，当然了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_0500BD92#INFO:NAM1#c93b44539ec3aff77c86fc93bf686ecb",
+    "original": "Okay, sure.",
+    "translation": "好吧",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_05022A2C#INFO:NAM1#ef1fc8a6ad5c4c6d222bc98ea0390234",
+    "original": "Trade? Ha! You wanna give me something heavy to carry, don't ya?",
+    "translation": "交易？哈！你是想让我背些重东西吧，是不是？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTrade_05022A2B#INFO:NAM1#64d711c747b56b30b86b28f89b8a6eff",
+    "original": "No, I won't trade with you. <laughs> Gotcha.",
+    "translation": "不,我才不跟你交换呢.. <坏笑>骗你的啦",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_0003707A#DIAL:FULL#574ea4607e9463d717a04252c3e6d25f",
+    "original": "I want you to use ranged weapons.",
+    "translation": "我希望你使用远距攻击武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_05004A41#INFO:NAM1#5c9c4eb5127125f7c4af73760e446e0c",
+    "original": "Great. I love, love my gun.",
+    "translation": "太好了。我非常、非常喜欢我的枪。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatRanged_05005B7F#INFO:NAM1#cac1fb9869a376c0ee2bf7cbf8aed735",
+    "original": "Great idea.  I love it.",
+    "translation": "好主意。我喜欢。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_0003707B#DIAL:FULL#11c2e5d6e94c9ca9d6fa47cd6788baee",
+    "original": "Switch to a melee weapon.",
+    "translation": "切换到近战武器。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_05051DB7#INFO:NAM1#c93b44539ec3aff77c86fc93bf686ecb",
+    "original": "Okay, sure.",
+    "translation": "好吧，行",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatMelee_05028630#INFO:NAM1#bd67c0607c8d19fa35474bd7a9f02ca3",
+    "original": "Sorry,  I'm not gonna do it. Remember? We talked about it?",
+    "translation": "对不起，我不打算这么做。记得吗？我们讨论过这个的。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_00037082#DIAL:FULL#2a3fad8db23f4235ec00fbf81ec20ea9",
+    "original": "Let's get going.",
+    "translation": "我们走。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_050BB410#INFO:NAM1#412d663b9f41f4bc6cba7ef934437e1e",
+    "original": "Yeah, let's go.",
+    "translation": "耶，走吧",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_05050110#INFO:NAM1#a3fbfc1e0a1679758113f4788e968794",
+    "original": "Boy am I glad to see you. I have been so bored.",
+    "translation": "很高兴你回来啦，我都闷死了",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_05065A54#INFO:NAM1#644aa6f1092e231066378408f1ed7fff",
+    "original": "I hope you had some fun while you were gone.",
+    "translation": "最好咱能去个好玩的地方",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_05050111#INFO:NAM1#af2758ab87ae60900de54f3c9ca9cf55",
+    "original": "Hey, I'm glad you're back.",
+    "translation": "嘿，很高兴你回来了。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersLetsGo_0507549D#INFO:NAM1#027ec7d5d377dd426d1816729ab3a8f2",
+    "original": "I missed you.",
+    "translation": "我很想念你。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatPassive_0011EBCC#DIAL:FULL#d5bc62d2ad4e5b26bed3f4a0d8e1d3e7",
+    "original": "I want you not to attack enemies unless I've already engaged them.",
+    "translation": "如果我没有动手，你也不要擅自攻击敌人。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatPassive_05022A2D#INFO:NAM1#0342e8c1a97932514f181e435c22ff65",
+    "original": "Great!  I'll just sit back and take it easy.",
+    "translation": "“太好了！我就坐在这儿放松一下。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_0011EBCD#DIAL:FULL#f700edd28bb32ac32e1d072ba53c0cf7",
+    "original": "I want you to attack enemies the moment you see them.",
+    "translation": "我要你看到敌人就马上攻击他们。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersTacticsCombatAggressive_05022A2A#INFO:NAM1#7576b25379bb87ab86bffe2838dfdbc8",
+    "original": "Okay, but I do not like being Deathclaw bait.",
+    "translation": "好吧，但我不喜欢当死亡爪的诱饵。",
+    "stage": 1
+  },
+  {
+    "key": "HealthHalf_0015BCAF#DIAL:FULL#36a8e15e55f08401f6d72e9ebd048132",
+    "original": "HealthHalf",
+    "translation": "半血",
+    "stage": 1
+  },
+  {
+    "key": "HealthHalf_0504B67D#INFO:NAM1#9946dec8f1d2a4bd5339ad06dddea925",
+    "original": "Hey, I could use a hand over here!",
+    "translation": "嘿，我这边需要帮忙！",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_02009655#DIAL:FULL#d879c7ecb48536253afb42ad69f02e9a",
+    "original": "I'm ready to go to Zion.",
+    "translation": "我已经准备好出发了。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_0602A1A8#INFO:SCDA#a9efa7cc914bde63aa09cc481c731109",
+    "original": "Willow is carrying too much. Check all of her inventories or dismiss her.",
+    "translation": "薇儿携带的东西太多了。检查她的所有物品或者解雇她。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_0602A1AA#INFO:SCDA#0fc2ea53108cb8ffdab59b312737d22b",
+    "original": "Willow is carying too much. Dismiss her or lighten her load in all of her inventories.",
+    "translation": "薇儿携带的东西太多了。检查她的所有物品或者解雇她。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_02009656#INFO:NAM1#637f00e9ed299c992f45fda57814602b",
+    "original": "Are you now? You know we ain't coming back this way for a good long while now, right? And you know about the weight limit?",
+    "translation": "你就这么走？你要知道，这趟路途可是相当遥远的，而且短时间内是不会回来的。你也知道自己能背多少东西吧？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_02009656#INFO:NAM1#fdf6ae260ac2e461bcb1f272c7d44fb9",
+    "original": "I don't want no whining about \"Oh, Mr. Masterson, I left my one-of-a-kind plasma cannon back at base, can we go back for it?\"",
+    "translation": "我可不想听你走到半路时跟我发牢骚，“哦，马斯特森先生，我有一把重要的等离子炮落家里了，能不能先回去一趟？”",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_02009656#INFO:NAM1#e1a3f5755e4e0127c48b8045c0367d5e",
+    "original": "You sure you're ready now?",
+    "translation": "怎么样，现在就出发吗？",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000_02009656#INFO:RNAM#b81aa3eb02aec5dc1880663bd19f4de4",
+    "original": "All right, let's go. I'm ready.",
+    "translation": "好了，我们出发吧，我准备好了。",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC02JedForceGreetTOPIC_0200A10F#INFO:NAM1#c924c7b8fb945fff5d91810979c37e19",
+    "original": "All right, people. Been a long couple weeks, but here we are. Zion.",
+    "translation": "好的，伙计们，经过了漫长的几周，我们终于到了。这就是，锡安！",
+    "stage": 1
+  },
+  {
+    "key": "AWDTrade2_0500983C#DIAL:FULL#2d648bf7676b1470d515c99edea4512e",
+    "original": "I'd like you to carry this for me. Please don't use it.",
+    "translation": "我想让你帮我拿着这个。请不要使用它。",
+    "stage": 1
+  },
+  {
+    "key": "AWDTrade2_0500983D#INFO:NAM1#159bdeffab3bb968c1849280d5253031",
+    "original": "Fine.  I won't touch it. I promise.",
+    "translation": "好的,我保证不会碰它的",
+    "stage": 1
+  },
+  {
+    "key": "AWDSandbox_0500AC5F#DIAL:FULL#6468ba1fd1f17172cced200c738c9ce3",
+    "original": "Why don't you relax here for awhile.  I'll be back for you later.",
+    "translation": "你为什么不在这里放松一会儿呢。我稍后会回来找你的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDSandbox_0500AC60#INFO:NAM1#e82d6d795fd16260634f720566952454",
+    "original": "Alright, I'll just wander around here and find something to do.",
+    "translation": "好吧，我就在这附近逛逛，找点事情做。",
+    "stage": 1
+  },
+  {
+    "key": "AWDGoToHomeMarker_0500CBEE#DIAL:FULL#cf1a24ffac87b0819af29ec1a02a4333",
+    "original": "Would you mind going back to the house?  I'll catch up with you later.",
+    "translation": "你介意先回家吗？我稍后会赶上你的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDGoToHomeMarker_0500CBEF#INFO:NAM1#07125c208fcf0d9a9020aa07a81864d6",
+    "original": "Alright.  I'll see you there later.",
+    "translation": "好的，待会见",
+    "stage": 1
+  },
+  {
+    "key": "AWDGoToHomeMarker_05029A4C#INFO:NAM1#ab8f5e8b85d7f537fd6a6068c264784c",
+    "original": "Sure I can't talk you into coming with me? It's going to be really lonely without you.",
+    "translation": "我真的不能说服你和我一起去吗？没有你在身边，我会感到很孤单的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDGoToHomeMarker_05075493#INFO:NAM1#18d675d9c99f9987cf6827fac5832d69",
+    "original": "Please come with me? I think we can think of something to do while we're there.",
+    "translation": "请跟我一起去好吗？我想我们在那里的时候总能想到些可以做的事情。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic000_05013BCD#INFO:NAM1#63d7f6eeb28e113a827198fbaecfa6ba",
+    "original": "Hey, did you see a couple of guys on the road just now?  They robbed me!  Bastards.",
+    "translation": "嘿，你刚才看到路上有几个家伙吗？他们抢劫了我！一群混蛋。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDPlayerLetsGoTradeFirst_0501A053#DIAL:FULL#d0e93fdec9945559b833fcbdedfc588a",
+    "original": "I need to see that pistol of yours. I don't know if I have ammo for it or not.",
+    "translation": "让我看看你的手枪,我不知道有没有适合他用的子弹",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDPlayerLetsGoTradeFirst_0501A054#INFO:NAM1#a52d65d4ea605ff602d845d85914a6ee",
+    "original": "Oh, sure, of course.",
+    "translation": "哦，当然，当然。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic029_0501A06B#DIAL:FULL#23bb742e5c458a90ca7c348fc0d7433c",
+    "original": "Can I look at what you're carrying right now?",
+    "translation": "我能看看你现在带着的东西吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic029_0501A06E#INFO:NAM1#c622ac72a2a0f231d5cec4a561ff8000",
+    "original": "Um, sure.",
+    "translation": "嗯，当然。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDScriptTimedChatter_050803A7#INFO:NAM1#a3bb59156fbab36f8f9727f34b68992a",
+    "original": "Hey, if we run into any geckos I could use some meat. For cooking.",
+    "translation": "嘿,如果我们碰到蜥蜴的话记得弄点肉下来,可以做好吃哒~",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDScriptTimedChatter_050B0ABE#INFO:NAM1#ed61e862aa9b8a37c6c14ac3d20aa07c",
+    "original": "I hate being stung by those stupid things. It ruins my whole day.",
+    "translation": "我恨被那些该死的东西蜇到。这简直毁了我一整天的心情。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDFoundBeauty_050260C7#DIAL:FULL#fb35963736ab1900eff1ff3ef44b514b",
+    "original": "I've found Beauty.",
+    "translation": "我找到红颜了",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDFoundBeauty_050260CA#INFO:NAM1#3be17c9a2fec79ef3f45d475fb05952d",
+    "original": "Thank you!",
+    "translation": "谢谢你！",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDMoiraForceGreet_050263AE#INFO:NAM1#06065bda8f437cb0ce6f4087d4d64e43",
+    "original": "Did you find Moira or Chester?",
+    "translation": "你有找到莫伊拉或切斯特么?",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic055_050263B8#DIAL:FULL#079e9b442f39f0e3b952dc6e6a0cacba",
+    "original": "Alright, if that's everything I guess we should consider ourselves partners on the road for awhile.",
+    "translation": "好吧，如果这就是全部的话，我想我们应该暂时把自己看作是路上的伙伴了。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic055_050263B9#INFO:NAM1#ae5e7caaec6b5dcfc8478e058164e0a8",
+    "original": "I can't think of anything else, let's go.",
+    "translation": "我想不出还有什么其他事情了，我们出发吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDBeautyFG_05029D2E#INFO:NAM1#780e2d75b39e0ebf03771dfb1b0072d4",
+    "original": "I found Beauty and you helped me so much! Thank you.",
+    "translation": "我找到红颜了,你帮了我那么多,真是太感谢了!",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDAdiosPLAYER_0502F05B#DIAL:FULL#26c0551b760c08e039ed997996eb3f39",
+    "original": "Let's go.",
+    "translation": "我们走。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDAdiosPLAYER_050A073E#INFO:NAM1#de5d9156bd9042561ae51dbfa59952c2",
+    "original": "No. I'm good. Thanks.",
+    "translation": "不。我很好。谢谢。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDAdiosPLAYER_050A073E#INFO:RNAM#05d9060b07802dcdb4d4bb5cfdd9dcc7",
+    "original": "I'm done.  Do you have anything to talk about?",
+    "translation": "那好吧，有啥别的要说的没？",
+    "stage": 1
+  },
+  {
+    "key": "AWDFiring_0503F287#DIAL:FULL#edb456dfa156d9dd67fe36b4767ef3ea",
+    "original": "I think we should stop traveling together.",
+    "translation": "我想我们不应该再一起旅行了。",
+    "stage": 1
+  },
+  {
+    "key": "AWDFiring_0503F28B#INFO:NAM1#73f1e7b12d19ccb8b3a5305c73842fae",
+    "original": "Seriously?  You want to stop traveling with me?",
+    "translation": "你当真?你不想再跟我一起旅行了?",
+    "stage": 1
+  },
+  {
+    "key": "AWDFiringYesSuite_0503F28A#DIAL:FULL#3bd3f7e6aecaea8d48a11972617c63da",
+    "original": "Would you please go back to the Suite at the Lucky 38 and wait for me there?",
+    "translation": "你能回到幸运38套房那里等我吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDFiringYesSuite_0503F28E#INFO:NAM1#035da1b3e2c96b33f12052a3c0c1b03a",
+    "original": "Without you?  Alright, but it won't be any fun. I don't like it there.",
+    "translation": "你不一起?好吧,不过那可真没意思,我一点都不喜欢那里",
+    "stage": 1
+  },
+  {
+    "key": "AWDGuardAlert_05044006#DIAL:FULL#cac7b255b89b2fc66a9538d3096bd3a9",
+    "original": "Would you mind keeping watch here for awhile?",
+    "translation": "你介意在这里警戒一会吗?",
+    "stage": 1
+  },
+  {
+    "key": "AWDGuardAlert_05044008#INFO:NAM1#77499210b0cd5510d79dd910539a8a28",
+    "original": "Yeah, I can do that. No problem.",
+    "translation": "可以，我能做到。没问题。",
+    "stage": 1
+  },
+  {
+    "key": "AWDConvoJTx1_0504A514#INFO:NAM1#59fd72afc4eceb6324dc1beb974ee717",
+    "original": "Hi, J.T. How ya doing, ya good dog?",
+    "translation": "嘿,J.T,怎么样啊乖狗狗?",
+    "stage": 1
+  },
+  {
+    "key": "WLPJTWillowResponse_0504CA93#INFO:NAM1#5a108718f5cab4bb5dcea554d69be642",
+    "original": "Bark, bark!",
+    "translation": "汪！汪！!",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHereBedRoll_0504C7B4#DIAL:FULL#22f15063882d122eef61634c0b1878d0",
+    "original": "On your bedroll, I'll roll it out for you now.",
+    "translation": "睡在你的铺盖卷上。",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHereBedRoll_0504C7B5#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "OK。",
+    "stage": 1
+  },
+  {
+    "key": "AWDSleepGoBacktoSleep_0505209C#DIAL:FULL#993238f8862f5c628c7695d58d13a6cf",
+    "original": "Go back to sleep. Sorry I woke you up.",
+    "translation": "回去睡吧。抱歉吵醒你了。",
+    "stage": 1
+  },
+  {
+    "key": "AWDSleepGoBacktoSleep_0505209F#INFO:NAM1#81d01e13ca3ed1c14d3d870fdaa98763",
+    "original": "<yawn> No problem.  See you in the morning.",
+    "translation": "<打哈欠>没问题。 早上见。",
+    "stage": 1
+  },
+  {
+    "key": "AWDSleepGetupNow_0505209D#DIAL:FULL#e915fd13b5ea982a07c6f0244e8def2e",
+    "original": "Come on, sleepyhead, let's go.",
+    "translation": "起床了，瞌睡虫，我们该出发了",
+    "stage": 1
+  },
+  {
+    "key": "AWDSleepGetupNow_0505209E#INFO:NAM1#316752a5bfe7de5e0f58a2f4afb47bb2",
+    "original": "<yawn>  I'm coming.",
+    "translation": "<打哈欠>  我来了.....",
+    "stage": 1
+  },
+  {
+    "key": "AWDBorrowBeauty_050531F3#DIAL:FULL#6eff60971f011c989b796c3bf915f63f",
+    "original": "Can I borrow Beauty for a while, Willow?",
+    "translation": "我可以借你的红颜步枪用一会吗，薇儿。",
+    "stage": 1
+  },
+  {
+    "key": "AWDBorrowBeauty_050531F4#INFO:NAM1#d45550ca528770105b63a6110da33e44",
+    "original": "Yes, of course. Take good care of her.",
+    "translation": "好吧，当然。要好好对待她哦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDBorrowBeauty_050531F5#INFO:NAM1#4c3f57e03ad4fb1720ce3c4f1a2df8d9",
+    "original": "I would!  Thank you.",
+    "translation": "我会的!谢谢你！",
+    "stage": 1
+  },
+  {
+    "key": "AWDBorrowBeauty_050531F5#INFO:RNAM#18cd7c38387b018059cb973590eadfc8",
+    "original": "Do you want Beauty back?  I'm done with her.",
+    "translation": "你想把红颜要回去吗?我已经用好了。",
+    "stage": 1
+  },
+  {
+    "key": "AWFtopsRestaurantNuka4U_050595D3#DIAL:FULL#47d49f7914b99de40b6b5353a1891e54",
+    "original": "Here's a Nuka-Cola for you.",
+    "translation": "这是我特意为你准备的核子可乐哦。",
+    "stage": 1
+  },
+  {
+    "key": "AWFtopsRestaurantNuka4U_050595D5#INFO:NAM1#fe94f9947d2ceb3911d44bf12d2e0bf3",
+    "original": "Thank you.",
+    "translation": "谢谢你。",
+    "stage": 1
+  },
+  {
+    "key": "AWDTrade4_05059C5B#DIAL:FULL#56da68f3a6b2785da819258a185f2490",
+    "original": "Can I see your collection again?",
+    "translation": "我能再看看你囤的小玩意吗?",
+    "stage": 1
+  },
+  {
+    "key": "AWDTrade4_050BC263#INFO:NAM1#be7e553dbd919b541d7e118b2ec0e9ae",
+    "original": "Sure.",
+    "translation": "当然。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic216_0505AC4B#DIAL:FULL#87af5aac53312a43e23e3becbe7fcd38",
+    "original": "Alright.  I'll see you at home later.",
+    "translation": "那好吧。一会家里见吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic216_0505AC4C#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "OK。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic219_0505AC50#DIAL:FULL#e69b6db28c856917f945f3039c93594f",
+    "original": "I want my freedom. I'm going to sleep with her. If you don't like it you should go home.",
+    "translation": "我要我的自由。我要去和她上床。如果你觉得不爽，你就应该回家了。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic219_0505AC51#INFO:NAM1#8ffed022b758412f4d436973b9d662a0",
+    "original": "Fine, I'm going home.",
+    "translation": "好，我这就回家。",
+    "stage": 1
+  },
+  {
+    "key": "AWDChatterCampfireYes_0505D8D5#DIAL:FULL#f555ebd4152e5805629450a18e5aacec",
+    "original": "Yes, let's do that.",
+    "translation": "是的，我们这么做吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWDChatterCampfireYes_0505D8D7#INFO:NAM1#05bd2f0cd48db3e2d43781461215c675",
+    "original": "Okay, I'll set it up right here.  You might want to back up a bit.",
+    "translation": "好的，我就在这里设置它。你可能需要往后退一点。",
+    "stage": 1
+  },
+  {
+    "key": "AWDChatterCampfireYes1_0505D8D9#DIAL:FULL#b4c4416838884b0b1d3fc4c3a47608c1",
+    "original": "Can you set up a campfire where I show you?  This is a good spot, don't you think?",
+    "translation": "你能在这里生火吗？这是个好地方，你不觉得吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDChatterCampfireYes1_0505D8DA#INFO:NAM1#c7cc72b2e9fcb4f19ff5d4965dbcbdc1",
+    "original": "Yes, it's a great spot. I'll set it up right now. You might want to back up a bit.",
+    "translation": "是的，这确实是个好地方。我现在就生火。你可能需要往后退一点。",
+    "stage": 1
+  },
+  {
+    "key": "AWDWillowAlertWhenIam_0505D8DE#DIAL:FULL#f800fef4f5199795bcca127b8393c303",
+    "original": "When I draw my weapon, draw yours, okay?",
+    "translation": "当我取出我的武器时，我希望你也能准备好你的，好吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDWillowAlertWhenIam_0505D8DF#INFO:NAM1#1fa40b2e330cb69815e7b622b67878af",
+    "original": "Sure, no problem.",
+    "translation": "当然，没问题。",
+    "stage": 1
+  },
+  {
+    "key": "AWDWillowAlertWhenIam_0505D8E2#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "OK。",
+    "stage": 1
+  },
+  {
+    "key": "AWDWillowAlertWhenIam_0505D8E2#INFO:RNAM#ec1877fdaf8dd1d90e27d99b2d70547c",
+    "original": "You can stop taking your weapon out when I do.",
+    "translation": "当我收起武器时，我希望你也能同样做。",
+    "stage": 1
+  },
+  {
+    "key": "AWDAsksForDinky_0505E192#DIAL:FULL#5e1a0b6aab742a2af7b1644f1ef55f83",
+    "original": "Do you want something Willow?",
+    "translation": "薇儿，你想要些什么吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDAsksForDinky_050CBF18#INFO:NAM1#252349e64da357cd12a7f9290888ffa1",
+    "original": "Ooh, thanks!  That is a quality collectible.  I am stashing that somewhere safe.",
+    "translation": "哦，谢谢！这是个很值得收藏的纪念品。我要把它藏到安全的地方去。",
+    "stage": 1
+  },
+  {
+    "key": "AWDAsksForDinky_050CBF18#INFO:RNAM#cb3694aa594aa03334481a288f265195",
+    "original": "I have a Dinky the Dinosaur for you!",
+    "translation": "我有一个小恐龙纪念品给你！",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHere_050609D8#DIAL:FULL#121634a316f25b5f066ae149447ecd10",
+    "original": "How about you sleep here when you get tired?",
+    "translation": "今晚你睡在这里好吗?",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHere_050232C7#INFO:NAM1#cb232e7f7cfd13fd6573d60951c9e384",
+    "original": "Okay, where exactly?",
+    "translation": "好的,哪儿呢?",
+    "stage": 1
+  },
+  {
+    "key": "AWDCookForMe_05061B18#DIAL:FULL#f7e12500675cfac54d8c191fa951d9cf",
+    "original": "Would you mind cooking something for me? (you use campfire crafting menu in dialogue)",
+    "translation": "你能不能给我做点吃的呀？（就像在对话里用篝火制作菜单那样）",
+    "stage": 1
+  },
+  {
+    "key": "AWDCookForMe_05061B19#INFO:NAM1#efb631cccd8b0d6644193dc79c74e42a",
+    "original": "No, not at all. As long as you have the ingredients I can make whatever's on the menu.",
+    "translation": "没问题，当然可以呀。只要你有材料，菜单上的我都能做。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCookForMe_050A0239#INFO:NAM1#37209225a92b792252d8f6dcc992bba1",
+    "original": "Let's do it. You have what you need, right?",
+    "translation": "那咱们开始吧。你都有需要的材料吧？",
+    "stage": 1
+  },
+  {
+    "key": "AWDCookForMe_050A0239#INFO:RNAM#f7e12500675cfac54d8c191fa951d9cf",
+    "original": "Would you mind cooking something for me? (you use campfire crafting menu in dialogue)",
+    "translation": "你能不能给我做点吃的呀？（就像在对话里用篝火制作菜单那样）",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHereAdHoc_05064BEB#DIAL:FULL#802319065922c878a7f2b947747a7d01",
+    "original": "This bed seems like a good choice.",
+    "translation": "这张床看起来挺不错的",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHereAdHoc_05064BEC#INFO:NAM1#8e407bd64305b30f692876778aaeb2b5",
+    "original": "Great. It looks good to me.",
+    "translation": "太棒了，我觉得也挺好的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHereAdHoc_050DBCC8#INFO:NAM1#8e407bd64305b30f692876778aaeb2b5",
+    "original": "Great. It looks good to me.",
+    "translation": "太棒了，我觉得也挺好的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDAASleepHereAdHoc_05064BEE#INFO:NAM1#092ad5ff3b164dab2b71dc13aa11e6e4",
+    "original": "Are you sending me off to bed alone?",
+    "translation": "你是不是想让我一个人睡觉呀？",
+    "stage": 1
+  },
+  {
+    "key": "AWFtopsRestaurantWhiskey4U_05064FEA#DIAL:FULL#b49c47e52edf61ecb30d01091c1e254d",
+    "original": "Here's a Whiskey for you.",
+    "translation": "呐，这是给你的威士忌",
+    "stage": 1
+  },
+  {
+    "key": "AWFtopsRestaurantWhiskey4U_0506416E#INFO:NAM1#fe94f9947d2ceb3911d44bf12d2e0bf3",
+    "original": "Thank you.",
+    "translation": "谢谢你。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCookingCampfireAlert_0508088C#INFO:NAM1#faf2cb7eb25defc4892c3fd0b8a4fe0b",
+    "original": "I've cooked something on the campfire if you want to share.",
+    "translation": "我在篝火上做了点东西，你要是想吃的话，可以一起分享",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListEttienne_05065A57#INFO:NAM1#440e772afb69aeeac8e174a861d7f67b",
+    "original": "Hi! I need to buy a few things. Here's my list.  If you could give me three or four things off of it that would be great.",
+    "translation": "嗨！我要买些东西。这是我的购物清单。如果你能给我其中三到四样东西那就太好啦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListEttienne_050DC288#INFO:NAM1#23a941ce9c105744b076ad907db74d36",
+    "original": "Hi! How ya doin' today? Here's my list. What have you got for me?",
+    "translation": "嗨！你今天怎么样呀？这是我的购物清单。你有什么能卖给我的？",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListEttienne_050DE211#INFO:NAM1#440e772afb69aeeac8e174a861d7f67b",
+    "original": "Hi! I need to buy a few things. Here's my list.  If you could give me three or four things off of it that would be great.",
+    "translation": "嗨！我要买些东西。这是我的购物清单。如果你能给我其中三到四样东西那就太好啦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListEttienne_050DE212#INFO:NAM1#23a941ce9c105744b076ad907db74d36",
+    "original": "Hi! How ya doin' today? Here's my list. What have you got for me?",
+    "translation": "嗨！你今天怎么样呀？这是我的购物清单。你有什么能卖给我的？",
+    "stage": 1
+  },
+  {
+    "key": "AWDRespPraGuardCreepy_050ACDF4#INFO:NAM1#55b44c55e693cc6b1191a0d5593b21bb",
+    "original": "Ugh.  I hate him.",
+    "translation": "呃，我恨他",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListChet_0506B947#INFO:NAM1#440e772afb69aeeac8e174a861d7f67b",
+    "original": "Hi! I need to buy a few things. Here's my list.  If you could give me three or four things off of it that would be great.",
+    "translation": "嗨！我要买些东西。这是我的购物清单。如果你能给我其中三到四样东西那就太好啦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListChet_050DC287#INFO:NAM1#23a941ce9c105744b076ad907db74d36",
+    "original": "Hi! How ya doin' today? Here's my list. What have you got for me?",
+    "translation": "嗨！你今天怎么样呀？这是我的购物清单。你有什么能卖给我的？",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListChet_050DE213#INFO:NAM1#440e772afb69aeeac8e174a861d7f67b",
+    "original": "Hi! I need to buy a few things. Here's my list.  If you could give me three or four things off of it that would be great.",
+    "translation": "嗨！我要买些东西。这是我的购物清单。如果你能给我其中三到四样东西那就太好啦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListChet_050DE214#INFO:NAM1#23a941ce9c105744b076ad907db74d36",
+    "original": "Hi! How ya doin' today? Here's my list. What have you got for me?",
+    "translation": "嗨！你今天怎么样呀？这是我的购物清单。你有什么能卖给我的？",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListCCBlake_0506B946#INFO:NAM1#440e772afb69aeeac8e174a861d7f67b",
+    "original": "Hi! I need to buy a few things. Here's my list.  If you could give me three or four things off of it that would be great.",
+    "translation": "嗨！我要买些东西。这是我的购物清单。如果你能给我其中三到四样东西那就太好啦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListCCBlake_050DC286#INFO:NAM1#23a941ce9c105744b076ad907db74d36",
+    "original": "Hi! How ya doin' today? Here's my list. What have you got for me?",
+    "translation": "嗨！你今天怎么样呀？这是我的购物清单。你有什么能卖给我的？",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListCCBlake_050DE215#INFO:NAM1#440e772afb69aeeac8e174a861d7f67b",
+    "original": "Hi! I need to buy a few things. Here's my list.  If you could give me three or four things off of it that would be great.",
+    "translation": "嗨！我要买些东西。这是我的购物清单。如果你能给我其中三到四样东西那就太好啦。",
+    "stage": 1
+  },
+  {
+    "key": "AWDShoppingListCCBlake_050DE216#INFO:NAM1#23a941ce9c105744b076ad907db74d36",
+    "original": "Hi! How ya doin' today? Here's my list. What have you got for me?",
+    "translation": "嗨！你今天怎么样呀？这是我的购物清单。你有什么能卖给我的？",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow_0506ED16#DIAL:FULL#580247d7e797cf01441099ebcde2dfe3",
+    "original": "I have some gecko meat for you.  I know you like to cook with it.",
+    "translation": "我有一些蜥蜴肉给你，我知你喜欢拿他们做饭",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow_05098179#INFO:SCDA#c8b3504c64a2eabe6b56f1adc66b3bc0",
+    "original": "Willow has [%] pieces of gecko meat!",
+    "translation": "薇儿有[%]块蜥蜴肉！",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow_05098179#INFO:NAM1#277c0ee3260a840e9944873a781aa224",
+    "original": "Thank you! How many do you have for me?",
+    "translation": "谢谢！你给我带来了多少？",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow_05098179#INFO:RNAM#a744931c8647db15e69d7328f12af81f",
+    "original": "I have some gecko meat for you.",
+    "translation": "我有一些蜥蜴肉给你",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatJournal_05070FAE#INFO:NAM1#7874a91440b5aafbbfd1e8602c274567",
+    "original": "Hey, I need that!  I use it all the time. There are some loose pages you can read if you want, but hands off the book, okay?",
+    "translation": "嘿，我需要那个！我经常用它。如果你想看的话，可以翻一翻里面散落的几页，但别碰那这个日记本，好吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatJournal_05070FB3#INFO:NAM1#f2e3f660241eea3c84dbd634ea968bdc",
+    "original": "Give me that back!",
+    "translation": "把那个还给我！",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatJournal_05090011#INFO:NAM1#da0ab172d99cf495220a682657a51696",
+    "original": "You are such a tease!",
+    "translation": "你太爱捉弄人了!",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatCookingGear_05070FAC#DIAL:FULL#33314ec17c72258f1eb7a98ebb5c7a45",
+    "original": "I took your Cooking Supplies.  Sorry.",
+    "translation": "我拿走了你的烹饪用品.对不起",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatCookingGear_05070FAD#INFO:NAM1#0f1e1d6431f41225a6339582bcedfd18",
+    "original": "Hey!  I need that! It's going to be difficult for me to do any cooking without it.",
+    "translation": "嘿!我需要那个!不然我都没法正常做饭了",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatCookingGear_05070FB4#INFO:NAM1#5bd15e230f1be398460b5f746584bc87",
+    "original": "Are you teasing me?",
+    "translation": "你在捉弄我吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDGimmeThatCookingGear_05070FB4#INFO:RNAM#591b40d8736904afae3dffd5980c7791",
+    "original": "Yeah, I have your Cooking Supplies again.  Sorry.",
+    "translation": "是的，我又拿了你的烹饪用具。对不起。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCoffee_05070FB5#DIAL:FULL#ee5ee75ee8c14f2c71368bf6fc092bb1",
+    "original": "You wanted some coffee?  I have one to share. Do you want it?",
+    "translation": "你想要点咖啡?我有一杯可以分给你,想要么?",
+    "stage": 1
+  },
+  {
+    "key": "AWDCoffee_05070FB6#INFO:NAM1#dd369908806427a2e6826ee9d28d8c26",
+    "original": "Oh, it's coffee! Thank you.",
+    "translation": "“哦，是咖啡啊！谢谢你。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCoffee_05075492#INFO:NAM1#449a2e800f5f9bca9008f4d09dbecc2c",
+    "original": "Coffee?  Oh, thanks!",
+    "translation": "咖啡吗？哦，谢谢！",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow10_05072991#DIAL:FULL#6cdcc818c868d517eb2924432306b73a",
+    "original": "Here's ten pieces for you!",
+    "translation": "我给你准备了十块！我因此能得到什么特别的东西吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow10_0507A060#INFO:NAM1#26ecd591bcb35f8fd5c29a0bdffd678c",
+    "original": "Thanks!  Hey, let's have gecko for dinner.",
+    "translation": "谢谢！嘿，我们晚饭做点蜥蜴吃吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDPCNameFGResponse_05072C55#DIAL:FULL#599a6f192916672a69a260596ce0760b",
+    "original": "My name's [%]",
+    "translation": "我的名字是 [%]",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDPCNameFGResponse_05072C56#INFO:NAM1#86df10469ffd9177e105da10c58729c8",
+    "original": "Thanks, again, for your help.",
+    "translation": "再次感谢你的帮助",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbRoutineAtHome_050743CF#DIAL:FULL#5edea544322c41c3c66bc404d35e7527",
+    "original": "Say, yes!",
+    "translation": "说嘛：是的！",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbRoutineAtHome_050B7050#INFO:NAM1#f490f18b2ea48427e5f0e38bf82aafa9",
+    "original": "Oh, yes! Absolutely!",
+    "translation": "哦，是的！绝对正确！",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbRoutineAtHome_0507321F#INFO:NAM1#f490f18b2ea48427e5f0e38bf82aafa9",
+    "original": "Oh, yes! Absolutely!",
+    "translation": "哦，是的！绝对正确！",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbRoutineNotHome_050743D5#DIAL:FULL#5edea544322c41c3c66bc404d35e7527",
+    "original": "Say, yes!",
+    "translation": "说嘛：是的！",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbRoutineNotHome_05080F25#INFO:NAM1#f490f18b2ea48427e5f0e38bf82aafa9",
+    "original": "Oh, yes! Absolutely!",
+    "translation": "哦，是的！绝对正确！",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbRoutineNotHome_0509D4E3#INFO:NAM1#f490f18b2ea48427e5f0e38bf82aafa9",
+    "original": "Oh, yes! Absolutely!",
+    "translation": "哦，是的！绝对正确！",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic139_05077A0B#DIAL:FULL#c3eaaf8a3f2c65f4dd6040ff104a0d3f",
+    "original": "Let's do it here.",
+    "translation": "我们就在这里做吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic139_05077A0E#INFO:NAM1#81d3a4cae62655f2e1ee8d2bde7c8300",
+    "original": "I'm so excited. I've been planning this for awhile. I hope you like it. Stay right there and don't move.",
+    "translation": "我好激动。我已经计划这个有一段时间了。我希望你会喜欢。就站在那里别动。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic139_05077A0E#INFO:NAM1#b3f1c27213f96589bdef6af6cd643aa0",
+    "original": "I'm going to do something for you and then to you.",
+    "translation": "我想为你做些事，然后跟你做那事",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbReturn_05077A16#DIAL:FULL#de63c941a7faca66f905e392101db784",
+    "original": "I'm ready. Let's do it here.",
+    "translation": "我准备好了,就在这里吧",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbReturn_05077A17#INFO:NAM1#81d3a4cae62655f2e1ee8d2bde7c8300",
+    "original": "I'm so excited. I've been planning this for awhile. I hope you like it. Stay right there and don't move.",
+    "translation": "我好激动。我已经计划这个有一段时间了。我希望你会喜欢。就站在那里别动。",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbReturn_05077A17#INFO:NAM1#b3f1c27213f96589bdef6af6cd643aa0",
+    "original": "I'm going to do something for you and then to you.",
+    "translation": "我想为你做些事，然后跟你做那事",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic018_050780BC#DIAL:FULL#bcf05fe7ce16a2dea7a4235c9e857db6",
+    "original": "And?",
+    "translation": "然后？",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic018_050780BD#INFO:NAM1#a2732518bfdbc7516a53f983758910c4",
+    "original": "Well, when it occurred to me that you might die I got so sad!",
+    "translation": "哎，当我想到你可能会死的时候，我真的伤心欲绝！",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic018_050780BD#INFO:NAM1#f9ea12fc1d0aab7a28a11e5a6b9cbca8",
+    "original": "I love you so much.  I was thinking, if we both make it through this maybe we could talk about making our relationship a more serious one.",
+    "translation": "我非常爱你。我在想，如果我们都能挺过这一关，也许我们可以谈谈让我们的关系更进一步。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic018_050780BD#INFO:NAM1#d747af6c64e1fb3c5136dd8220f608fe",
+    "original": "Maybe we could talk about staying together forever.",
+    "translation": "也许我们可以谈谈永远在一起",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic018_050780BD#INFO:NAM1#8cb21ce1ce86530927ec0cc7de754294",
+    "original": "But for now,  I want you to take this and wear it. Maybe it'll keep you safe.",
+    "translation": "但是现在，我想你把这个拿着并戴上。也许它能保佑你平安。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic018_050780BD#INFO:NAM1#105f41632cba07b930e11aa6cfd23f17",
+    "original": "Think of it as my promise to you that I'll love you forever no matter what.  Because I do and I will. I'll be wearing one too.",
+    "translation": "就把它当作是我给你的承诺，无论发生什么，我都会永远爱你。因为我真的爱你，并且会一直爱下去。我也会戴一个的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDLetsTalkClothesBFF_0507B64D#DIAL:FULL#1b213beeba0b6a414ba37085daf72015",
+    "original": "Now that we're best friends are you willing to change your clothes?",
+    "translation": "既然我们是最好的朋友了，你愿意换衣服吗?",
+    "stage": 1
+  },
+  {
+    "key": "AWDLetsTalkClothesBFF_0507B64E#INFO:NAM1#1dfa37d60caf31d606d5ad132b706524",
+    "original": "Okay, I don't know what all this fuss is about, but yes, if you're tired of seeing me in this outfit, I'm willing to change it. Happy?",
+    "translation": "好吧，我不知道一件衣服有什么大惊小怪的，但可以哦，如果你看腻了我穿这身装扮，我愿意换掉它。开心了嗯?",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow05_0507B650#DIAL:FULL#fd1590c76ea6ddcbc45900fe1623ff79",
+    "original": "I have five pieces for you.",
+    "translation": "我有5块蜥蜴肉可以给你",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow05_0507B651#INFO:NAM1#946fe6771c1997e2e2f5177fb864558f",
+    "original": "Thanks.",
+    "translation": "谢谢。",
+    "stage": 1
+  },
+  {
+    "key": "AWFMQEndgameLegion_050B1732#INFO:NAM1#d996946d6a88e3ba018547848efefa45",
+    "original": "Here...take this. I can't say it outloud. You're..you'll have to read it.",
+    "translation": "给...拿着这个。我不敢大声说出来。你...你得自己读。",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbWeAreDoingIt_05088A8D#DIAL:FULL#87a67a8dcf50fa95d53a45a8cc91d58c",
+    "original": "Sounds great.",
+    "translation": "听起来不错。",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbWeAreDoingIt_05088A8E#INFO:NAM1#6aab8f799b4e52d1739036595b927378",
+    "original": "It will be. I promise.",
+    "translation": "一定会的。我保证。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic003_0508E3E2#DIAL:FULL#dce635d04561cce7f3e04a62a8ca6178",
+    "original": "I like my freedom, Willow. You should go on home,",
+    "translation": "我喜欢我的自由，薇儿。你还是回家吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic003_0508E3E4#INFO:NAM1#c4e8ce93cb0c1d92c2850f21b069ba20",
+    "original": "Fine.  I'm going home.",
+    "translation": "好.我回家",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit_0508FCC5#DIAL:FULL#ce289beb92d3b9d0bfe1f79d5653f4c8",
+    "original": "Let's talk about your outfits we put together in the bungalow.",
+    "translation": "我们来谈谈我们在小屋时一起搭配的衣服吧。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit_0508FCC6#INFO:NAM1#bff55e8a9493357e20f49d9558376123",
+    "original": "Okay, which one?",
+    "translation": "好的，哪一个？",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit1_0508FCC7#DIAL:FULL#e2fd4a795fb82935330f953e72ba9075",
+    "original": "I'd like you to change into Outfit 1.",
+    "translation": "我希望你换成套装1",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit1_0508FCC8#INFO:SCDA#e65d809fb910f4470333c093b0cc0c1f",
+    "original": "Outfit Swapper called to 1!",
+    "translation": "切换套装 1！",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit1_0508FCC8#INFO:NAM1#6e4aa73ff381b217c79ec45b1a4be231",
+    "original": "Sure, I'd love to.",
+    "translation": "当然,我很乐意.",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit2_0508FCCC#DIAL:FULL#6ee01896a80719cc55f572acf71f7bf5",
+    "original": "I'd like you to change into Outfit 2.",
+    "translation": "我希望你换成套装2",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit2_0508FCCD#INFO:NAM1#dde8661db711c570f3007572ec8242af",
+    "original": "Okay, I can do that.",
+    "translation": "好吧,我可以那样做",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit3_0508FCD0#DIAL:FULL#5bf3a09e5a3c8a05457fd9a0293f08d0",
+    "original": "I'd like you to change into Outfit 3.",
+    "translation": "我希望你换成套装3",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit3_0508FCD1#INFO:NAM1#1fa40b2e330cb69815e7b622b67878af",
+    "original": "Sure, no problem.",
+    "translation": "当然，没问题。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit4_0508FCD3#DIAL:FULL#e192c2f271aa4a42f209c90b8954d30c",
+    "original": "I'd like you to change into Outfit 4.",
+    "translation": "我希望你换成套装4",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfit4_0508FCD4#INFO:NAM1#14d69c70b6191f183f7d0aa8fffcc4ec",
+    "original": "Great, I'd love to.",
+    "translation": "太好了，我很乐意",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitPerm_0508FCD6#DIAL:FULL#3c8c461df4ab99d764a816a9774d3fad",
+    "original": "I'd like you to put on your permanent wear items.",
+    "translation": "我希望你穿上你的日常穿戴物品",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitPerm_0508FCD8#INFO:NAM1#dde8661db711c570f3007572ec8242af",
+    "original": "Okay, I can do that.",
+    "translation": "好吧,我可以那样做",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitSwim_0508FCDB#DIAL:FULL#7157c8b04d8df9af9c8a298d6ac555c2",
+    "original": "I'd like you to put on your Swimwear.",
+    "translation": "我希望你穿上你的泳衣",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitSwim_0508FCDC#INFO:NAM1#1fa40b2e330cb69815e7b622b67878af",
+    "original": "Sure, no problem.",
+    "translation": "当然，没问题。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitSleep_0508FCDE#DIAL:FULL#b5d3b0d4c6dcc53275cec66c7a76c13a",
+    "original": "I'd like you to put on your Sleepwear.",
+    "translation": "我希望你穿上你的睡衣",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitSleep_0508FCDF#INFO:NAM1#14d69c70b6191f183f7d0aa8fffcc4ec",
+    "original": "Great, I'd love to.",
+    "translation": "太好了，我很乐意",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitFTB_0508FCE1#DIAL:FULL#e3c3eed0ffbc33c31595c2b634ffea21",
+    "original": "I want you to change into your intimate moments things.",
+    "translation": "我想让你穿上爱爱时的衣服",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitFTB_0508FCE6#INFO:NAM1#6e4aa73ff381b217c79ec45b1a4be231",
+    "original": "Sure, I'd love to.",
+    "translation": "当然,我非常乐意.",
+    "stage": 1
+  },
+  {
+    "key": "FollowersRadiationMask_050906AC#DIAL:FULL#b558ec1f3db2642a41dbfa9d03bdd75a",
+    "original": "I don't want you to use your mask when we are in irradiated areas (she won't put on her mask).",
+    "translation": "当我们在辐射区域时，我不希望你戴面具（她不会戴上面具的）。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersRadiationMask_0508FCC9#INFO:NAM1#c93b44539ec3aff77c86fc93bf686ecb",
+    "original": "Okay, sure.",
+    "translation": "好吧，行",
+    "stage": 1
+  },
+  {
+    "key": "FollowersRadiationMask_05093D45#INFO:NAM1#1fa40b2e330cb69815e7b622b67878af",
+    "original": "Sure, no problem.",
+    "translation": "当然，没问题。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersRadiationMask_05093D45#INFO:RNAM#2dd25d396a963dd20dba66b05cba8899",
+    "original": "Use your own mask when we're in irradiated areas (she'll use her mask)",
+    "translation": "当我们在辐射区域时，请使用你自己的面具（她会使用她的面具）。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatWaitHereNoAttack_050908AE#DIAL:FULL#7d75fba74110e9a13f153940c1cde8d8",
+    "original": "Stay here, please, and don't attack anything. Take cover if you can.",
+    "translation": "请待在这里，不要攻击任何东西。如果可能的话，找掩护躲藏起来。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatFollowNoAttack_050908AF#DIAL:FULL#63202ec00b72a129a3eca631f92275ad",
+    "original": "Willow, follow me, but don't attack anything, okay?",
+    "translation": "薇儿，跟我来，但是不要攻击任何东西，好吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatFollowNoAttack_050908B2#INFO:NAM1#01bf9d0c0c880c37bed579c4c3151edf",
+    "original": "Sure, I don't need to be a hero.",
+    "translation": "当然，我不需要成为英雄",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatClearOut_050908B0#DIAL:FULL#9f3fc424b925e049125bc2f328dddb2c",
+    "original": "I want you to leave now and get to safety. Go!",
+    "translation": "我现在要你离开，去安全的地方。快走！",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatClearOut_050908B3#INFO:NAM1#f8e87333a344a4d2159c2be3a3b109ab",
+    "original": "Okay. Stay safe!",
+    "translation": "好的。保重！",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatClearOut_05093973#INFO:NAM1#231b50e08da7552d485060ba2f70093e",
+    "original": "Okay, I've got your back.",
+    "translation": "好的，我会支持你的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatClearOut_05093973#INFO:RNAM#fd2eba51f854b859c130941c9619debd",
+    "original": "Let's go now. I want you back by my side.",
+    "translation": "我们现在就出发。我希望你回到我身边。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatClearOut_05094D99#INFO:NAM1#67bb4f65d4c54a54cc3c2b9834cad13e",
+    "original": "There's no place I'd rather be.",
+    "translation": "没有哪个地方比这里更让我愿意待的了。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatClearOut_05094D99#INFO:RNAM#fd2eba51f854b859c130941c9619debd",
+    "original": "Let's go now. I want you back by my side.",
+    "translation": "我们现在就出发。我希望你回到我身边。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatRELEASEfollowNoAttack_05091FA1#DIAL:FULL#165f73dfeac918641bb37c428a147c04",
+    "original": "I need you to fight again. Now!",
+    "translation": "我需要你再次战斗 现在！",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatRELEASEfollowNoAttack_05091FA2#INFO:NAM1#56393bc57401e0edc5a4dd4b1d22fd4b",
+    "original": "Okay. I've got your back.",
+    "translation": "好的，我会支持你的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbDanceYes_0509646E#DIAL:FULL#b53de14f9846c605a93e686aa372bdc1",
+    "original": "Will you dance for me?",
+    "translation": "你会为我跳舞吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbDanceYes_0509646F#INFO:NAM1#888e046f6b0565829f27f7e93ab53c9d",
+    "original": "Yes, for you, anything.",
+    "translation": "是的，为了你，我愿意做任何事。",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbDanceNo_05096470#DIAL:FULL#2a1eadbcd819ddefe6e6a246fde1db15",
+    "original": "Can you skip the dance, Willow?  I don't want to wait.",
+    "translation": "薇儿，你能跳过跳舞这个环节吗？我不想等了。",
+    "stage": 1
+  },
+  {
+    "key": "AWDftbDanceNo_05096472#INFO:NAM1#efd79656f48f12aa5d5c99512007e169",
+    "original": "Of course, honey, whatever you want.",
+    "translation": "当然，亲爱的，你想要什么都可以。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalow_0509BDC1#DIAL:FULL#b0130231c081b64682807cfde4758858",
+    "original": "I'd like to rent the deluxe bungalow.",
+    "translation": "我想要租用豪华别墅。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalow_0509BDC6#INFO:NAM1#ab10d1cac6c4e41ebc037886926efcb0",
+    "original": "Well, I think that's a fine idea. I'll give you a good flat rate, and you can stay as long as you like. Least till the busy season comes. Sound good?",
+    "translation": "哎呀，我想到个好提议。我给你出一个超低的价钱，你想住多久住多久。至少可以住到旺季来临。怎么样？",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalowYes150_0509BDC2#DIAL:FULL#db08c0269402fab59791989337c93fe3",
+    "original": "Here's 150 caps.",
+    "translation": "这是150个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalowYes150_0509BDC7#INFO:NAM1#a98049388439fde4c4d93d2a34c923a6",
+    "original": "I'm glad you can stay with us.",
+    "translation": "我很高兴你能留下来。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalowNo150_0509BDC3#DIAL:FULL#3f554edd6ce5727256491cdebb8c252c",
+    "original": "I can't afford 150 caps right now.",
+    "translation": "我暂时付不起150个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalowNo150_0509BDC8#INFO:NAM1#87acd397bba442279a9fda02050eddda",
+    "original": "Well that's nothing to be ashamed of. We all have money troubles from time to time.",
+    "translation": "好吧，没必要感到羞愧。我们都有手头拮据的时候。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCJMBungalowNo150_0509BDC8#INFO:NAM1#e13ffa90bb0fba7498e0c2f678e955fc",
+    "original": "You just come on back when you can afford it, and that room's all yours.",
+    "translation": "等你有钱的时候再回来也行，房间我会为你留着的。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCCliffBungalow_0509BDC5#DIAL:FULL#e928c4d4f8d1094d9244de3dccc107bf",
+    "original": "I'd like to rent the deluxe bungalow on the end.",
+    "translation": "我想要租用最尽头的那间豪华别墅。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCCliffBungalow_0509BDCB#INFO:NAM1#f96539dae8649129f54b22fe15749a21",
+    "original": "That's a great idea.",
+    "translation": "那是个好主意",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCCliffBungalowYes150_0509BDCC#DIAL:FULL#db08c0269402fab59791989337c93fe3",
+    "original": "Here's 150 caps.",
+    "translation": "这是150个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCCliffBungalowYes150_0509BDCF#INFO:NAM1#ed03e53a8864174f077fb40626dfbc87",
+    "original": "Great! Here ya go.",
+    "translation": "太好了!这是你的了.",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCCliffBungalowNo150_0509BDCD#DIAL:FULL#3f554edd6ce5727256491cdebb8c252c",
+    "original": "I can't afford 150 caps right now.",
+    "translation": "我暂时付不起150个瓶盖。",
+    "stage": 1
+  },
+  {
+    "key": "AWNPCCliffBungalowNo150_0509BDD1#INFO:NAM1#c50f13b447e473b3bb15ef04826f033e",
+    "original": "Need anything else?",
+    "translation": "还要点什么？",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic007_0509E363#DIAL:FULL#73d044f59ce6d659dfa4586bb9eccedd",
+    "original": "Yes, why?",
+    "translation": "对，怎么了？",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic007_0509E366#INFO:NAM1#1b32fa7d74a6cb236aaabb1d6d114e4e",
+    "original": "I don't want to have anything to do with that.  It's one thing to kill people who are trying to kill us, but to go in cold...",
+    "translation": "我不想和那件事有任何牵扯。杀那些想要杀我们的人是一回事，但冷血的去...。。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowFTopic007_0509E366#INFO:NAM1#c3e918e85d244f8e97b54ee02aff7d72",
+    "original": "I'm gonna sit this one out.  I'll be waiting for you at home.",
+    "translation": "我这次不参与了。我会在家里等你。",
+    "stage": 1
+  },
+  {
+    "key": "AWDImBrokeYES_050A277B#DIAL:FULL#564acfc5fb51d3bad64aed180cf49334",
+    "original": "Sure, I'll give you some caps for that.",
+    "translation": "当然,我会给你些瓶盖的",
+    "stage": 1
+  },
+  {
+    "key": "AWDImBrokeYES_050A277D#INFO:NAM1#41a861464866227540f583d610b5bae3",
+    "original": "Thanks!",
+    "translation": "谢谢！",
+    "stage": 1
+  },
+  {
+    "key": "AWDTimedTheStrip_0507780E#INFO:NAM1#5fecda23421d9e09d4892226def8822a",
+    "original": "Hey, want to go get a drink?  I'm thirsty and Cass can always use more whiskey.",
+    "translation": "嘿，想去喝一杯吗？我渴了，而且卡斯总是需要更多的威士忌。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatFrozen_050A6C5F#DIAL:FULL#30cdaf9cc3acd2ad5fe3ae82a9c5a0d3",
+    "original": "Why are you standing there frozen like that? Let's get a move on!",
+    "translation": "你为什么站在那里一动不动？我们继续前进吧！",
+    "stage": 1
+  },
+  {
+    "key": "AWDCombatFrozen_050A6C60#INFO:NAM1#2a8d7ed5c78fb3ad28f952a6772926a5",
+    "original": "Sorry!",
+    "translation": "对不起！",
+    "stage": 1
+  },
+  {
+    "key": "AWDTimedRadsDialogue_05063E83#INFO:NAM1#ec8a14f6ecb74379dfa538d376ea6d6a",
+    "original": "Radiation!  Great.",
+    "translation": "辐射!好极了.",
+    "stage": 1
+  },
+  {
+    "key": "AWDTimedRadsDialogue_05064FFA#INFO:NAM1#33ad4a6fdfd0b3c764e89a367420e560",
+    "original": "You doing okay?  Radiation!  What a pain in the butt.",
+    "translation": "你还好吗?辐射!真是个大麻烦",
+    "stage": 1
+  },
+  {
+    "key": "AWDTimedRadsDialogue_05064FF8#INFO:NAM1#c8bdaf3492d27159bb2c639abfb5f080",
+    "original": "Uh, getting a little worried here. Am I starting to glow?",
+    "translation": "呃，我开始有点担心了.我开始发光了吗?",
+    "stage": 1
+  },
+  {
+    "key": "AWDTimedRadsDialogue_05064FF9#INFO:NAM1#c0e8ead05a3fdfe7866b0ae21664eb70",
+    "original": "So, you know, I always wondered what it would feel like to be a ghoul...Um, I think we might find out soon.",
+    "translation": "所以，你知道的，我一直想知道成为一个尸鬼会是什么感觉...嗯，我想我们很快就会知道了。",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillow_050A8C55#DIAL:FULL#3bcd9d4a7adac7d3775bac438d2aa168",
+    "original": "Do you want to grab a bite to eat?",
+    "translation": "你想吃点东西吗?",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillow_050A8C56#INFO:NAM1#eec605c90fee1869c2a5e70d9b1b9b2c",
+    "original": "Oh, that's a great idea.",
+    "translation": "哦，这主意不错",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillow_050B0A9F#INFO:NAM1#18e8578a3c809e17ee03ff726a0fa2a2",
+    "original": "Will you join me?  It's not as much fun eating alone.",
+    "translation": "你要和我一起吗？一个人吃饭没那么有趣。",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillow_050B0AA1#INFO:NAM1#a447033a7becbe99bbb8723345bc108f",
+    "original": "Of course! I'm always hungry.",
+    "translation": "当然!我总是饿着呢。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCaesarsTentOpening_050AD0DE#INFO:NAM1#22fe673720ac9cdc710490f9babc52ad",
+    "original": "Listen, I do not like being out here and I don't trust Caesar.",
+    "translation": "听着，我不喜欢待在外面，我也不信任凯撒。",
+    "stage": 1
+  },
+  {
+    "key": "AWDCaesarsTentOpening_050AD0DE#INFO:NAM1#43e707fd4d5802523fe0cefbb62a3f49",
+    "original": "I don't think we should go in there. This cannot be a good idea.",
+    "translation": "我认为我们不应该进去。这绝对不是个好主意。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic198_050B9483#DIAL:FULL#b5b4112109f17aec7d60706ff3bea974",
+    "original": "Look!  I've been doing some scavenging myself and I've got 50 pencils for you. You'll never run out!",
+    "translation": "看！我自己也去搜刮了一些东西，我给你找了50支铅笔。你永远都用不完了！",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic198_050B9484#INFO:NAM1#135ef0e4d54d10e07ffcccd8bb2defb7",
+    "original": "Oh! Thank you so much! I love them.  It's one of the best presents I have ever gotten.",
+    "translation": "噢！太感谢你了！我很喜欢它们。这是我收到过的最好的礼物之一。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic198_050B9484#INFO:NAM1#f1fa3645354273dfe696dce058988d56",
+    "original": "It reminds me of my twelfth birthday, when my best friend, Bethie, went all over town and found me 12 bottles of Wonderglue.",
+    "translation": "这让我想起了我的十二岁生日，当时我最好的朋友贝茜跑遍了整个城镇，给我找来了12瓶万能胶。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic198_050B9484#INFO:NAM1#c9cc6e45f79a3999fb92faeffa11c14c",
+    "original": "It must have taken you so long to find all of these. I appreciate it so much.  You'll just never know how much.  I love them.",
+    "translation": "你一定花了很长时间才找到这些吧。我非常感激。你永远不会知道我有多么多么了...我真的很爱死它们了",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic017_050BC2B4#DIAL:FULL#46d8f29a67a1e7b19393c167bdb42d44",
+    "original": "(Lord Death Perk) You'd make an easy kill, that's why.  You should be wearing proper armor.",
+    "translation": "[死亡主宰]你很容易被击杀，这就是为什么。你应该穿上合适的盔甲。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic017_050BC2B5#INFO:NAM1#27ae1ec120745efeb1ac4c131d756d4c",
+    "original": "Oh, okay.",
+    "translation": "哦，好吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic018_050BC2B6#DIAL:FULL#f8122646db85dc7a92e66567b66678d6",
+    "original": "(Cherchez La Femme) I'd hate to see any part of you injured.  You should have proper armor.",
+    "translation": "[你是百合]我讨厌看到你的身体上留下任何伤痕,所以你需要一件更好的护甲.",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic018_050BC2B7#INFO:NAM1#27ae1ec120745efeb1ac4c131d756d4c",
+    "original": "Oh, okay.",
+    "translation": "哦，好吧。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic019_050BC2B8#DIAL:FULL#42e8d0a900f20ec95644d7e2cd354e5b",
+    "original": "(Lady Killer) Willow, every lovely part of your body is too precious to risk. You need proper armor.",
+    "translation": "[红颜杀手]薇儿,你完美的躯体上的每个部位都太宝贵了.你需要件更好的护甲",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDTopic019_050BC2B9#INFO:NAM1#1b7fe9eb9dec842fe801d47aac48fa4e",
+    "original": "Yeah?  Ya, think?",
+    "translation": "是嘛?你真这么想?",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic202_050C0A1B#DIAL:FULL#f4faf74995190f8f7fb88e23d450ba64",
+    "original": "I've got all the ingredients you wanted.",
+    "translation": "我已经拿到了你想要的所有食材。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowDWillowTopic202_050C0A1C#INFO:NAM1#a5dcc2f5fc8a916f67d0ba15108959c4",
+    "original": "Wow! Look at that!  Well, I guess you were serious then, so I'll come with you like I promised I would.",
+    "translation": "哇,瞧那个,太棒了!好吧,我猜你的确是认真的,那么我会像我所保证的那样跟着你的.",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillowless10_050C6EDD#DIAL:FULL#df680065c8cc45b41a2f22c06e1a6f02",
+    "original": "Take everything I have.",
+    "translation": "我有的你都拿走。",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillowless10_050C6EDE#INFO:NAM1#946fe6771c1997e2e2f5177fb864558f",
+    "original": "Thanks.",
+    "translation": "谢谢。",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillowDONE_050D1DB9#DIAL:FULL#214e08e5898b183a270c1104f64b29c1",
+    "original": "I hope you're done eating.  I'm ready to go.",
+    "translation": "我希望你吃完饭了.我准备走了",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillowDONE_050D1DBA#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "OK。",
+    "stage": 1
+  },
+  {
+    "key": "AWDFoodForWillowDONE_050D1DBA#INFO:NAM1#a13325267b9d4acbcc6790996b98764f",
+    "original": "That was just what I needed.",
+    "translation": "那正是我所需要的。",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow01_050D4CE5#DIAL:FULL#a62e12cd57e8b4febad2f83038c883f2",
+    "original": "I have one piece for you.",
+    "translation": "我有一片给你.",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeatforWillow01_050D4CE6#INFO:NAM1#1de35750c97836f4eea78a301a91936d",
+    "original": "Great.",
+    "translation": "好极了。",
+    "stage": 1
+  },
+  {
+    "key": "AWDHouseStoveCooking_050D809E#DIAL:FULL#8a13a3d18b49e869a756a497c5b05d7d",
+    "original": "Would you cook something for us at the stove?",
+    "translation": "你能用火炉为我们做点东西吃么?",
+    "stage": 1
+  },
+  {
+    "key": "AWDHouseStoveCooking_050D809F#INFO:NAM1#6e4aa73ff381b217c79ec45b1a4be231",
+    "original": "Sure, I'd love to.",
+    "translation": "当然,我非常乐意.",
+    "stage": 1
+  },
+  {
+    "key": "AWDHouseStoveCooking_050A803D#INFO:NAM1#6e4aa73ff381b217c79ec45b1a4be231",
+    "original": "Sure, I'd love to.",
+    "translation": "当然,我非常乐意.",
+    "stage": 1
+  },
+  {
+    "key": "AWDCookingCampfireAlertNo_05102A73#INFO:NAM1#74167fa6b2535675f8aa7859c5aca58b",
+    "original": "I didn't cook anything.  We don't have what I need.",
+    "translation": "我做不了吃的。因为我们没有我需要的食材。",
+    "stage": 1
+  },
+  {
+    "key": "AWDTrade5_05102A76#DIAL:FULL#64892ab2fda0b33e2081ed26f5942c18",
+    "original": "Can I see what you've scavenged lately?",
+    "translation": "我能看看你最近都搜刮到些什么了吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDTrade5_05102A77#INFO:NAM1#023b287b9f0ef99b0c849465d83fae0c",
+    "original": "Sure, take a look.",
+    "translation": "当然，看看。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitRemove_0600805C#DIAL:FULL#9e0ebddba977b64f92a90ae849bd8c26",
+    "original": "I'd like you to change into your base outfit.",
+    "translation": "我想让你换上基础服装。",
+    "stage": 1
+  },
+  {
+    "key": "FollowersWillowTradeOutfitRemove_050AB11B#INFO:NAM1#6bd67815c3d5f61886db9c44ba80b231",
+    "original": "Okay.",
+    "translation": "OK。",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeat10MoreReward_06019081#DIAL:FULL#3a70b249949b5dfcda14704e7055d057",
+    "original": "I gave you ten pieces already!  Do I get something special for that?",
+    "translation": "我已经给了你十块了！我因此能得到什么特别的东西吗？",
+    "stage": 1
+  },
+  {
+    "key": "AWDGeckoMeat10MoreReward_05072994#INFO:NAM1#3954d6bde0751ef009e99e25e2c1c207",
+    "original": "*laughs* I don't have anything special right now, but keep the meat coming and maybe I'll find something good, you never know!",
+    "translation": "笑）我现在没有什么特别的东西，但是继续给我提供肉，也许我会找到什么好东西，那也说不准哦！",
+    "stage": 1
+  },
+  {
+    "key": "AWDAsksForRocket_0601E393#DIAL:FULL#af79e18463c8b2dd773df4f504482e69",
+    "original": "I have that rocket for you!",
+    "translation": "我找到了火箭纪念品给你！",
+    "stage": 1
+  },
+  {
+    "key": "AWDAsksForRocket_0601E394#INFO:NAM1#252349e64da357cd12a7f9290888ffa1",
+    "original": "Ooh, thanks!  That is a quality collectible.  I am stashing that somewhere safe.",
+    "translation": "哦，谢谢！这是个高品质的收藏品。我要把它藏到安全的地方。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowEMQComfortStateQuest_06028092#QUST:FULL#aaca68cd20d32a942ba3fc4cbebb4cca",
+    "original": "Willow Comfort State Quest",
+    "translation": "薇儿的状态",
+    "stage": 1
+  },
+  {
+    "key": "AWillowEMQOutfitManager_0602854C#QUST:FULL#a8fa2243a316cc59db864f6d7e86ca78",
+    "original": "Willow Outfit Manager",
+    "translation": "薇儿套装管理",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:FULL#a3ef7befabe1cf1f6f8929e4dde2940d",
+    "original": "Beauty and The Toys...",
+    "translation": "红颜和玩具们",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:CNAM#8db2c89874641b26f96819a70afdaac5",
+    "original": "Sets Willow up for first meeting and force greet; setting factions now because if she is in combat because of critters in the area when the player arrives she will be in combat with the player and player's teammates.  This solves that.",
+    "translation": "为薇儿设置首次会面并强制打招呼；现在设置派系是因为如果玩家到达时她因为附近生物而处于战斗状态，她将与玩家和玩家的队友处于战斗状态。这样解决了这个问题。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:CNAM#5c0f607fe0de3166e05e1a1035d28458",
+    "original": "Does some more setup for the quest, the official start",
+    "translation": "凯尔和肯尼出现在被洗劫的农庄，携带着莫伊拉和红颜，然后前往95号高速公路上的毒蛇营地。他们在第二阶段出现，也就是当目标向玩家展示，并且任务也被揭示的时候。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:CNAM#a261e6944339935434f3b8309fa8e8d8",
+    "original": "The player has retrieved Willow's items.",
+    "translation": "追踪那些打劫薇儿东西的人。找回她的步枪、她的泰迪熊和她的洋娃娃。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:CNAM#b6e608bf05fbcab79a3c74661b177cb1",
+    "original": "Quest Reward",
+    "translation": "找回她的步枪，她的泰迪熊和她的洋娃娃",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:CNAM#1c91166b09fb0becd142e3fb4400fd8b",
+    "original": "Quest Failed",
+    "translation": "任务失败",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#70187bb2fdf9620dd918ea2ca58943c2",
+    "original": "Track down Kyle, the person holding Willow's belongings.",
+    "translation": "追踪那些带走薇儿财物的人",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#0bc1cf981b028eb6c65645ca164c47d4",
+    "original": "Kyle is dead. Search his body to see if he's carrying Willow's belongings.",
+    "translation": "找回薇儿的步枪,她的泰迪熊和洋娃娃然后还给薇儿",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#0aa87a7d40cd9e700ce0f407a541fa0f",
+    "original": "Stan is dead. Search his body to see if he's carrying Willow's belongings.",
+    "translation": "“凯尔已经死了。搜索他的尸体，看看他是否携带了薇儿的物品，并将你的发现告诉薇儿。",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#293ade87ec058296d46c0457663a7db2",
+    "original": "Kyle has met up with Stan at the Viper Encampment south of Novac and has delivered the goods to him.",
+    "translation": "薇儿得到了红颜",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#89144f4f6a8081e776366db5f34eae81",
+    "original": "Kyle has died a considerable distance from your position. The Kyle Tracker 2000 has been temporarily added to your inventory.",
+    "translation": "薇儿得到了莫伊拉",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#75a1a5af7ba7c3c7f08de2b904b72f96",
+    "original": "Return the items to Willow.",
+    "translation": "薇儿已经得到了红颜和莫伊拉",
+    "stage": 1
+  },
+  {
+    "key": "AWillowMeetQuest_0500841E#QUST:NNAM#462dc1a504f2baa7fa65ebc803e9e1f0",
+    "original": "(Optional) Don't tell Willow you found Moira.",
+    "translation": "斯坦死了.搜查他的尸体，看看他是否带着薇儿的东西，跟薇儿谈谈你发现了什么",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:FULL#55368784d060109dd6dc9111b232e3aa",
+    "original": "Baby Needs Some Coffee",
+    "translation": "宝贝需要一点咖啡",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:CNAM#170c4f0ef49512cf9cd4931f6921d11b",
+    "original": "Player knows about quest but hasn't taken it yet",
+    "translation": "玩家知道有这个任务，但还没有接受它",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:CNAM#7dbd189935ba81af81b8b6d72e3431d5",
+    "original": "To rehire Willow Player must go get coffee ingredients for Willow",
+    "translation": "要重新雇佣薇儿，玩家必须去为维儿获取咖啡原料",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:CNAM#445794a2edda5f4452b847cfa7dabfb2",
+    "original": "Player has the ingredients.",
+    "translation": "玩家有原料",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:CNAM#d3a79f324daf8dbed32bfa3d1aaadce1",
+    "original": "rehire Willow",
+    "translation": "重新雇用薇儿",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:NNAM#f6e8b7462b3fc80a7de204852d6da111",
+    "original": "Retrieve Nuka-Star Coffee ingredients for Willow. Return to her when you have collected all of them.",
+    "translation": "为维儿取回原子星核咖啡的原料。当你收集全所有的原料后，返回去找她",
+    "stage": 1
+  },
+  {
+    "key": "AWillowCoffee_050C0A17#QUST:NNAM#31e092324feb5cdf1e1698ff9177ba52",
+    "original": "Congratulations! You've found all the ingredients for Willow. Return with them to her.",
+    "translation": "恭喜你!你已经找到了薇儿的所有原料  和他们一起回到她身边",
+    "stage": 1
+  },
+  {
+    "key": "WillowsLightStep_050D1386#PERK:FULL#c7bea92523bd04017a046276ddf0892a",
+    "original": "Willows Light Step",
+    "translation": "凌波微步",
+    "stage": 1
+  },
+  {
+    "key": "WillowsLightStep_050D1386#PERK:DESC#4a253b1f8ff9c28ea711e62467c34148",
+    "original": "With the Light Step perk, you'll never set off an enemy's mines or floor-based traps.",
+    "translation": "有了“身轻如燕”这个特长，你就不会再踩中敌人布置的地雷和地面上的陷阱机关了。",
+    "stage": 1
+  },
+  {
+    "key": "WillowsPackRat_050B66A7#PERK:FULL#b7bbbcb14ca345a411712a1895531305",
+    "original": "Pencils Rule",
+    "translation": "铅笔法则",
+    "stage": 1
+  },
+  {
+    "key": "WillowsPackRat_050B66A7#PERK:DESC#24603ed6cdc02cae195391a7d9855633",
+    "original": "Completing this challenge has shown you that carrying a lot of little junk around requires creative packing. Your carry weight is now increased by 5.",
+    "translation": "完成这个挑战后你发现，携带大量小物品需要巧妙的打包。现在重量为2或更小的物品对你而言重量减半。",
+    "stage": 1
+  },
+  {
+    "key": "WillowsIncreasedCarryWeight_050B9489#PERK:FULL#43707fc5fee12896f42193de1c5984bf",
+    "original": "I Carry More Junk!",
+    "translation": "我是破烂王!",
+    "stage": 1
+  },
+  {
+    "key": "WillowsIncreasedCarryWeight_050B9489#PERK:DESC#7768b2d38d00924c77c7f6d53bb4f16e",
+    "original": "While finding all those pencils for Willow you learned that carrying around more junk is fun.  You've increased your capacity to do so.  Your carry weight has increased by 5.",
+    "translation": "在帮薇儿找到所有铅笔后，你发现带着更多破烂其实挺有意思的。你的携带能力增强了。你的负重增加了15磅。",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageJTFIREDmojaveoutpost_050972F2#MESG:DESC#6de5c7c813229d3ee339aecd74022fc8",
+    "original": "J.T. is going to the Mojave Outpost.",
+    "translation": "J.T. 去了莫哈维前哨站",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:DESC#85fe46f9c72090fb9dd53c367d0dbb7c",
+    "original": "Use this menu to have Willow do a handful of actions in the bungalow.\\n\\nNOTE: If you use this menu to have Willow sit in her chair at the table you MUST return to this menu to have her stand up out of the chair again.",
+    "translation": "使用这个菜单可以让薇儿在小平房里执行一些动作。\\n\\n注意：如果你使用这个菜单让薇儿坐在桌子旁的椅子上，你必须再次返回这个菜单才能让她从椅子上站起来。",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#69a1baee6f3f5b6d8a5643c2d8e5e682",
+    "original": "Do nothing...",
+    "translation": "什么都不做...",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#894658563a9810682a385e63b5726312",
+    "original": "Willow relax in the bungalow...",
+    "translation": "薇儿在平房里放松...",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#84de2f7d82fefaa71bcfb4e1848a43b7",
+    "original": "Willow stop relaxing and follow me again...",
+    "translation": "薇儿停止了放松，并再次跟着我...",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#c546061f0cb323d0d76b176da64d0a0f",
+    "original": "Willow cook something at the stove...",
+    "translation": "薇儿在炉子上做饭",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#ec486b91dcfc4de26053b8272f252ec3",
+    "original": "Willow sit down in her chair at the dining table...",
+    "translation": "薇儿坐在餐桌旁边的椅子上",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#114974d8848fd02db2d11c5e2ca89369",
+    "original": "Willow get up from her chair at the dining table...",
+    "translation": "薇儿从餐桌旁的椅子上站了起来",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#8e228faafb0fd60a8bc4ff448a30cece",
+    "original": "Set out a meal for two of Willow's Ant Stew on the dining table...",
+    "translation": "在餐桌上为两人准备好薇儿做的蚁肉炖汤",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowActionScriptMsg_050B259C#MESG:ITXT#43cc9410710552d16e0d066b584c0ba9",
+    "original": "Willow cooks, sets the table with Ant Stew and sits at the table (return to menu to unsit her)",
+    "translation": "薇儿烹饪蚁肉炖汤，摆好餐桌并坐下（返回菜单以让她站起来）",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowFiring_050E0A2F#MESG:DESC#c37ea4df15641ed5ceec50ca1f1187dc",
+    "original": "Firing Willow is serious business. You can only fire her once and get her back again.  After that she will not return to you.  She doesn't like being fired; you are rejecting her when you do it.\\n\\nIf you need to adventure without her have her wait for you somewhere.  She will wait forever because she doesn't have a wait timer like the vanilla companions. You can ask her to wait for you at home or at the Lucky 38 Suite via dialogue and it'll or just like firing without the firing.",
+    "translation": "解雇薇儿是一件严肃的事情。你只能解雇她一次并重新找回她。在那之后，她就不会再回到你身边了。她不喜欢被解雇；你这样做就是在拒绝她。\\n\\n如果你需要不带她一起去冒险，可以让她在某个地方等你。她会永远等下去，因为她不像原版游戏中的同伴那样有等待时间限制。",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowsBedrollScript_050531F2#MESG:ITXT#49e86ebdb6c821ff07d7c123d9232b56",
+    "original": "Sleep",
+    "translation": "睡觉",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowsBedrollScript_050531F2#MESG:ITXT#ac7af14addc0315e10d0e235955543fb",
+    "original": "Pickup Bedroll (Give Player Bedroll)",
+    "translation": "清理床垫",
+    "stage": 1
+  },
+  {
+    "key": "FollowerMessageWillowsBedrollScript_050531F2#MESG:ITXT#8c8e5b90abf482af56b89f917524e8b7",
+    "original": "Pickup Bedroll (Give Willow Bedroll)",
+    "translation": "拾取铺盖卷（给予薇儿铺盖卷）",
+    "stage": 1
+  },
+  {
+    "key": "RecipeWillowRingKeyUnify_06029378#RCPE:FULL#3eb202a2068a3cf4d8d12b840da4423d",
+    "original": "Join Ring and Key Necklace",
+    "translation": "环钥相连项链",
+    "stage": 1
+  },
+  {
+    "key": "NVDLC03TheSink_030030AF#CELL:FULL#95907c9e2432944ad5b12d4d5525782d",
+    "original": "The Sink",
+    "translation": "汇聚节点",
+    "stage": 1
+  },
+  {
+    "key": "WillowNovacBungalow_05060F70#CELL:FULL#472619cef65d5b596c825e44046b2f8a",
+    "original": "Deluxe Room",
+    "translation": "小房子",
+    "stage": 1
+  },
+  {
+    "key": "WillowsCell_050069DB#CELL:FULL#dff42c7b0622a495939fd81f1216dd3a",
+    "original": "Abandoned Tent",
+    "translation": "废弃的帐篷",
+    "stage": 1
+  },
+  {
+    "key": "WastelandNV_000DA726#WRLD:FULL#35ebc3fa6041831017bfad11ba0bf0d6",
+    "original": "Mojave Wasteland",
+    "translation": "莫哈维废土",
+    "stage": 1
+  },
+  {
+    "key": "WillowTentMarker_0506DBB7#REFR:FULL#dff42c7b0622a495939fd81f1216dd3a",
+    "original": "Abandoned Tent",
+    "translation": "废弃的帐篷",
+    "stage": 1
+  }
+]

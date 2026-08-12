@@ -1,0 +1,4 @@
+BTC00000001	Jack - Removes number card and all face cards attached to it.
+BTC00000002	Queen - Reverses direction and changes suit.
+BTC00000003	King - Doubles card value, stackable for multiplicative effects e.g. 4 + two kings = 16.
+BTC00000004	Joker - Removes all other cards of this value, or suit if on Ace.

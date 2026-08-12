@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06002111</ID>
+    <EDID>UPNVSEPIncreaseHeadCond</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Increase Head Condition</ORIGINAL>
+    <TRADUIT>提升头部状态</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>060068D2</ID>
+    <EDID>UPNVSEPRadiationPoison</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radiation Poison</ORIGINAL>
+    <TRADUIT>辐射中毒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>03013886</ID>
+    <EDID>NVDLC03SonicGabeKnockdownBE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sonic Gun Knockdown</ORIGINAL>
+    <TRADUIT>声波发射器绊摔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MGEF</GRUP>
+    <ID>06002110</ID>
+    <EDID>UPNVSEPIncreaseChestCond</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Increase Chest Condition</ORIGINAL>
+    <TRADUIT>提升躯干状态</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>060068D3</ID>
+    <EDID>UPNVSEPRadiationPoisonEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radiation Burst</ORIGINAL>
+    <TRADUIT>辐射爆发</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>06012DF6</ID>
+    <EDID>UPNVSEPTwoStepCritDamageOE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two-Step DAM</ORIGINAL>
+    <TRADUIT>两步杀伤害</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ENCH</GRUP>
+    <ID>001758E2</ID>
+    <EDID>EnchEuclidEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06002113</ID>
+    <EDID>UPNVSEPOWBBigBrainedAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Brained</ORIGINAL>
+    <TRADUIT>大脑</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C85E</ID>
+    <EDID>UPNVSEPDragonsBreathPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C85F</ID>
+    <EDID>UPNVSEPFlamerAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C860</ID>
+    <EDID>UPNVSEPFlamerPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C861</ID>
+    <EDID>UPNVSEPIncendiaryGrenadeAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C862</ID>
+    <EDID>UPNVSEPIncendiaryGrenadePyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C863</ID>
+    <EDID>UPNVSEPRedGlareRocketIncendiaryAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0600C864</ID>
+    <EDID>UPNVSEPRedGlareRocketIncendiaryPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A14</ID>
+    <EDID>UPNVSEPIncineratorPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A15</ID>
+    <EDID>UPNVSEPDLC03FlamerPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A17</ID>
+    <EDID>UPNVSEPFlareGunAreaPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A1A</ID>
+    <EDID>UPNVSEPFlareGunPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A1C</ID>
+    <EDID>UPNVSEPCleansingFlamePyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A1E</ID>
+    <EDID>UPNVSEPGehennaPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A22</ID>
+    <EDID>UPNVSEPHeatedSaturniteFistCritPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06010A23</ID>
+    <EDID>UPNVSEPHeatedCosmicKnifeCritPyroAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>060151C8</ID>
+    <EDID>UPNVSEPHeatedKnifeSmokingAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>060151C9</ID>
+    <EDID>UPNVSEPHeatedKnifeBurnAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>000617BE</ID>
+    <EDID>GhoulRadHeal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Radiation Healing</ORIGINAL>
+    <TRADUIT>辐射吸收</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>000EB40E</ID>
+    <EDID>DeathClawKnockback</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Deathclaw Knockback</ORIGINAL>
+    <TRADUIT>死亡爪击退</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>00118E7B</ID>
+    <EDID>RexBiteKnockdownSpell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rex's Bite</ORIGINAL>
+    <TRADUIT>雷克斯撕咬</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0013DE70</ID>
+    <EDID>BigHornerKnockback</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bighorner Knockback</ORIGINAL>
+    <TRADUIT>大角羊击退</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0015C570</ID>
+    <EDID>PerkCompanionSuite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Companion Suite</ORIGINAL>
+    <TRADUIT>同伴套件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>0016517E</ID>
+    <EDID>FerociousLoyaltyEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ferocious Loyalty</ORIGINAL>
+    <TRADUIT>心忠无惧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>030098C1</ID>
+    <EDID>NVDLC03SpinelessStrBoostAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spineless Strength</ORIGINAL>
+    <TRADUIT>无脊椎的力量</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>03013DBC</ID>
+    <EDID>NVDLC03CyberDogKnockdownSpell</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cyber Dog Bite</ORIGINAL>
+    <TRADUIT>赛博犬撕咬</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>05000ABE</ID>
+    <EDID>NVDLC05DragonsBreathActorEffect</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Burning</ORIGINAL>
+    <TRADUIT>燃烧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SPEL</GRUP>
+    <ID>06002112</ID>
+    <EDID>UPNVSEOWBBrainlessAE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brainless</ORIGINAL>
+    <TRADUIT>无大脑</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0013E446</ID>
+    <EDID>Ammo12GaBeanBag</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>12 Gauge, Bean Bag</ORIGINAL>
+    <TRADUIT>12铅径, 豆袋弹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>AMMO</GRUP>
+    <ID>0013E446</ID>
+    <EDID>Ammo12GaBeanBag</EDID>
+    <CHAMP>ONAM</CHAMP>
+    <ORIGINAL>12ga Bag</ORIGINAL>
+    <TRADUIT>12铅径豆袋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ALCH</GRUP>
+    <ID>0601937A</ID>
+    <EDID>UPNVSEPHealthBuffXXDummy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gluttonous Appetite</ORIGINAL>
+    <TRADUIT>饕餮食欲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>14</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PROJ</GRUP>
+    <ID>06003303</ID>
+    <EDID>UPNVSEPTwoStepGoodbyeProjectile</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Two-Step Goodbye</ORIGINAL>
+    <TRADUIT>两步杀</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>030128C9</ID>
+    <EDID>NVDLC03DialogueHQBuddiesNVDLC03SinkToasterTalkerTopic010</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>You mean like this one?</ORIGINAL>
+    <TRADUIT>你是说像这个？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03012904</ID>
+    <EDID>NVDLC03DialogueHQBuddiesNVDLC03SinkToasterTalkerTopic010</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>There ya go! Have fun with that. Burn the fuckin' world for me!</ORIGINAL>
+    <TRADUIT>拿好了，你爱怎么玩都行。替我把这个该死的世界烧掉！
+</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : [0300F05F] (ID)
+EmotionType : Neutral</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>03015BBA</ID>
+    <EDID>NVDLC03BigBrainedPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Brained</ORIGINAL>
+    <TRADUIT>大脑</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>03015BBA</ID>
+    <EDID>NVDLC03BigBrainedPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your brain is back in your body, but some of the advanced technologies remain: Your head still cannot be crippled, but you are only 10% more resistant to addiction now. Surprisingly your damage threshold has improved by 10% (minimum +1 DT).</ORIGINAL>
+    <TRADUIT>你的脑子又回来了，但一些先进技术留了下来：你的头还是残废不了，但抗瘾几率只增加10%。令人惊奇的是，你的DT提高了10%（最少1DT）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400A6DD</ID>
+    <EDID>NVDLC04MarkedPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Marked</ORIGINAL>
+    <TRADUIT>烙印</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400A6DD</ID>
+    <EDID>NVDLC04MarkedPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You've faced torture at the hands of the Marked Men... now it's payback time. (+10% Damage Threshold and +10% Damage against the Marked Men)</ORIGINAL>
+    <TRADUIT>你已经受够了烙印者的折磨...现在，是血债血偿的时候了。 (对烙印者增加10%的伤害抗性和10%的伤害)</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400C258</ID>
+    <EDID>NVDLC04TunnelRunnerPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Tunnel Runner</ORIGINAL>
+    <TRADUIT>隧道跑者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0400C258</ID>
+    <EDID>NVDLC04TunnelRunnerPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The warrens of The Divide have taught you to keep your head down. Your movement speed is greatly increased while sneaking in light armor.</ORIGINAL>
+    <TRADUIT>密集而狭窄的大裂谷已经教会了你保持低调。你穿着轻甲潜行时移动速度将大大提高。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06004AF1</ID>
+    <EDID>UPNVSEPFerociousLoyaltyPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ferocious Loyalty</ORIGINAL>
+    <TRADUIT>心忠无惧</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>06004AF1</ID>
+    <EDID>UPNVSEPFerociousLoyaltyPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The ability for Ferocious Loyalty is applied via this perk.</ORIGINAL>
+    <TRADUIT>心忠无惧能力由此特长应用。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>00146096</ID>
+    <EDID>TravelLight</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Travel Light</ORIGINAL>
+    <TRADUIT>轻装上阵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>00146096</ID>
+    <EDID>TravelLight</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>While wearing light armor or no armor, you run 10% faster.</ORIGINAL>
+    <TRADUIT>当你身穿轻型护甲或没穿护甲时，你的移动速度会提高10%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0015C571</ID>
+    <EDID>CompanionSuite</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Companion Suite</ORIGINAL>
+    <TRADUIT>同伴套件</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0015C571</ID>
+    <EDID>CompanionSuite</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>COMPANIONS ONLY
+* Mult Weap DAM 0.75
+* Mult Target DT 0.75 (broken, requires engine-level fix)
+* Decrease Carry Weight 75
+* Increase DR 33%</ORIGINAL>
+    <TRADUIT>只能在同伴身上使用
+* 武器伤害乘数 0.75
+* 目标伤害减免乘数 0.75 (已损坏, 需要引擎层面的修复)
+* 降低负重 75
+* 提高伤害抗性 33%</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0100E87B</ID>
+    <EDID>NVDLC01LightTouch</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Light Touch</ORIGINAL>
+    <TRADUIT>轻灵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0100E87B</ID>
+    <EDID>NVDLC01LightTouch</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Heavy armor just isn't your thing, so you've learned to customize light armor for maximum benefit. While wearing light armor you gain a +5% Critical Hit Chance and your enemies suffer a -25% Critical Hit Chance.</ORIGINAL>
+    <TRADUIT>重型护甲不是你的菜，你学会了改造轻甲，好让它发挥出最大作用。身着轻甲时，你的暴击率增加5%，同时敌人的暴击率减少25%。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0200F67B</ID>
+    <EDID>NVDLC02SneeringImperialist</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sneering Imperialist</ORIGINAL>
+    <TRADUIT>帝国主义者的蔑视</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>0200F67B</ID>
+    <EDID>NVDLC02SneeringImperialist</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You don't take kindly to raiders, junkies, or tribals trying to "settle" or "stay alive" in civilized lands. Against dirty raider and junkie types as well as Zion's tribals you do +15% Damage and have a bonus to hit in V.A.T.S.</ORIGINAL>
+    <TRADUIT>你不会善待那些试图在文明世界上定居或生存的掠夺者、瘾君子和部落民。在对抗这三类人及锡安公园的部落时，你造成的伤害+15%，并在VATS模式下获得稍许命中提升。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>030098BE</ID>
+    <EDID>NVDLC03BrainlessPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brainless</ORIGINAL>
+    <TRADUIT>无大脑</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>030098BE</ID>
+    <EDID>NVDLC03BrainlessPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your brain has been replaced with advanced technologies: Your head can no longer be crippled and is resistant to chem addiction (+25% resistance) and shock from bodily damage (+5% Damage Threshold, minimum +1).</ORIGINAL>
+    <TRADUIT>你的大脑被替换成了更高科技的产物：你的头再也不会残疾了，你的抗瘾能力+25%，DT也增加5%（最低+1）</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06002D06</ID>
+    <EDID>UPNVSEPRepairKitMaxHealthMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your equipped weapon cannot be repaired any further.</ORIGINAL>
+    <TRADUIT>你装备的武器无法再被修复了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>06002D05</ID>
+    <EDID>UPNVSEPRepairKitNoWeaponMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>You do not have a weapon equipped.</ORIGINAL>
+    <TRADUIT>你没有装备武器。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0600989B</ID>
+    <EDID>UPNVSEPKnockdownMsg</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL> cannot be knocked down!</ORIGINAL>
+    <TRADUIT>无法被击倒!</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>0600989B</ID>
+    <EDID>UPNVSEPKnockdownMsg</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL> cannot be knocked down!</ORIGINAL>
+    <TRADUIT>无法被击倒!</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>05000A4B</ID>
+    <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>(GRA) Deathclaw Pro Hunter ***</ORIGINAL>
+    <TRADUIT>(GRA) 专业死亡爪猎人 ***</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CHAL</GRUP>
+    <ID>05000A4B</ID>
+    <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Kill adult Deathclaws with .22 Pistols, Switchblades, Boxing Tape, Recharger Rifles, or Dynamite.</ORIGINAL>
+    <TRADUIT>用.22手枪，弹簧刀，拳击布带，充能步枪，或炸药杀死莫哈韦废土中的成年死亡爪。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>38</ICON>
+  </ESP>
+</DocumentElement>

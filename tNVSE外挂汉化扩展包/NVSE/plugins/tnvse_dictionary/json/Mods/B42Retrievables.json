@@ -1,0 +1,92 @@
+[
+  {
+    "key": "xlrRetrievablesS_04000CDE#SCPT:SCDA#b933095b5d7af5ed52a0972be6995a06",
+    "original": "Highlight",
+    "translation": "高亮",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesS_04000CDE#SCPT:SCDA#dda6d88bd88cbd383bc14a4c0ea7cd68",
+    "original": "Automatic pick up",
+    "translation": "自动拾取",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesS_04000CDE#SCPT:SCDA#fd3541d5cc25626114ff010ac4eee50e",
+    "original": "Skill-based retrieval",
+    "translation": "基于技能的搜索",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesS_04000CDE#SCPT:SCDA#da7d145d9e60ecb4d80705271a352d73",
+    "original": "Highlights retrievable thrown weapons",
+    "translation": "高亮显示可回收投掷武器",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesS_04000CDE#SCPT:SCDA#ccd614c08efb01071008f92fdd7a2b76",
+    "original": "Retrievable will be automatically picked up when player is nearby",
+    "translation": "当玩家在附近时，可回收物将自动被拾取",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesS_04000CDE#SCPT:SCDA#eb98ff4daf0045d85a0ac9d60a0f9eca",
+    "original": "Enables skill-based formula for retrieval:%r(Melee + Survival) * 0.5 - Weap Skill * 2 + 50",
+    "translation": "启用基于技能的搜索公式：(近战 + 生存) * 0.5 - 武器技能 * 2 + 50",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesOnAdd_04002060#SCPT:SCDA#05a593d51b7166a5cdafeebc1a97111a",
+    "original": "You've failed to get [%] out",
+    "translation": "你未能取出[%]",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesTomahawk_040011C4#MISC:FULL#5af60370f34235918df85459c80400fe",
+    "original": "Stuck Tomahawk",
+    "translation": "卡住的战斧",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesProtoAxe_040011C5#MISC:FULL#9dddf55a78a1cabddc7f25846111680e",
+    "original": "Stuck Protonic Axe",
+    "translation": "卡住的质子斧",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesProtoInvAxe_040011C6#MISC:FULL#dea81ff68a1858635496efc7906b30c7",
+    "original": "Stuck Protonic Inversal Axe",
+    "translation": "卡住的反质子斧",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesMCM_04009520#MISC:FULL#152317989248bf202a6512570f010cb9",
+    "original": "B42 Retrievables",
+    "translation": "B42可回收物",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesHatchet_040011BF#MISC:FULL#8dad558d4f559a8f4a8e794d73714a6a",
+    "original": "Stuck Hatchet",
+    "translation": "卡住的短柄斧",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesKnife_040011C1#MISC:FULL#db68a5044b3000ae39d03835adb077d6",
+    "original": "Stuck Throwing Knife",
+    "translation": "卡住的飞刀",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesSpear_040011C2#MISC:FULL#6f345b71359bde46342fb14edfd59407",
+    "original": "Stuck Spear",
+    "translation": "卡住的矛",
+    "stage": 1
+  },
+  {
+    "key": "xlrRetrievablesKnifeSpear_040011C3#MISC:FULL#be0cd5db088b8543ee8be4c47f586590",
+    "original": "Stuck Throwing Knife Spear",
+    "translation": "卡住的餐刀投矛",
+    "stage": 1
+  }
+]

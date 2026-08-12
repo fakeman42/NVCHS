@@ -1,0 +1,4857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentElement>
+  <ESP>
+    <GRUP>TES4</GRUP>
+    <ID>00000000</ID>
+    <EDID />
+    <CHAMP>CNAM</CHAMP>
+    <ORIGINAL>DEFAULT</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>03001EFB</ID>
+    <EDID>MattFaction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Matt's Faction</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>03003F6D</ID>
+    <EDID>Initkhandaddyfaction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Tyler's Bitches</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>0300D0D8</ID>
+    <EDID>Initcerealfaction</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cereal Faction</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>FACT</GRUP>
+    <ID>03010148</ID>
+    <EDID>initenclave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Peterson's Faction</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0300D0E1</ID>
+    <EDID>Ghoulmoneyscript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SCN Ghoulmoneyscript
+
+Begin OnAdd Player
+
+If GetStage Initiationkhans ==10
+   SetStage Initiationkhans 20
+EndIf
+
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>03011559</ID>
+    <EDID>Pagedead</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SCN Pagedead
+
+Begin OnDeath
+
+If Getstage Initiationkhanstwo ==10
+   Setstage Initiationkhanstwo 20
+EndIf
+cerealone.enable
+
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0300F0C5</ID>
+    <EDID>cerealkillerscript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn cerealkillerscript
+
+short DoOnce
+
+begin ontriggerenter player
+	if DoOnce == 0
+		cerealone.enable
+		cerealtwo.enable
+		cerealthree.enable
+		cerealfour.enable
+		set DoOnce to 1
+	endif
+end</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0301195B</ID>
+    <EDID>Frankscript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SCN Frankscript
+
+Begin OnDeath
+
+If Getstage Initiationkhansthree ==10
+   SetStage  Initiationkhansthree 20
+EndIf
+
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0301195C</ID>
+    <EDID>Daddyscript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SCN Daddyscript
+
+Begin OnDeath
+
+If Getstage Initiationkhansthree ==20
+   SetStage  Initiationkhansthree 30
+EndIf
+
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>03012542</ID>
+    <EDID>InitKhanPerkQuestScript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn InitKhanPerkQuestScript
+
+short DoOnce
+
+begin GameMode
+
+	if DoOnce == 0
+		if Initiationkhansthree == 40
+			if Player.HasPerk InitKhanPerk == 0
+				Player.addperk InitKhanPerk
+				set DoOnce to 1
+				StopQuest InitKhanPerkQuest
+			endif
+		endif
+	endif
+
+end</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>SCPT</GRUP>
+    <ID>0301293D</ID>
+    <EDID>aaaInitInjectionScript</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>scn aaaInitInjectionScript
+
+short iDoOnce
+
+BEGIN GameMode
+
+if (iDoOnce == 0)
+;Patriotic Iconography
+  AddFormToFormList BaseballBatsList Initbat
+  AddFormToFormList PerkLittleLeaguerWeapons Initbat
+  AddFormToFormList WeaponListMeleeALL Initbat
+  AddFormToFormList NVAllWeapons Initbat
+  AddFormToFormList VATSMeleeWeaponsLIST Initbat
+;Blade of the Best
+  AddFormToFormList WeaponListMeleeALL Initkhansword
+  AddFormToFormList NVAllWeapons Initkhansword
+;Colt Peacemaker
+  AddFormToFormList PerkCowboyWeapons InitPeacemaker
+  AddFormToFormList OldVaqueroWeapons InitPeacemaker
+  AddFormToFormList TheProfessionalWeaponsList InitPeacemaker
+  AddFormToFormList NVImprovedHoldoutWeapons InitPeacemaker
+  AddFormToFormList GunsList InitPeacemaker
+  AddFormToFormList NVAllWeapons InitPeacemaker
+  AddFormToFormList WeaponListRangedALL InitPeacemaker
+  set iDoOnce to 1
+  StopQuest aaaInitInjectionQuest
+endif
+
+END</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0300B065</ID>
+    <EDID>InitComputer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brother Page's Terminal</ORIGINAL>
+    <TRADUIT>兄弟会成员佩吉的终端</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0300B065</ID>
+    <EDID>InitComputer</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Welcome Brother Page! You look exceptionally virile today!</ORIGINAL>
+    <TRADUIT>欢迎你兄弟会的佩吉！你今天看起来特别有男子气概！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0300B065</ID>
+    <EDID>InitComputer</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Page's Journal - Entry One</ORIGINAL>
+    <TRADUIT>佩吉的日志 - 条目一</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0300B065</ID>
+    <EDID>InitComputer</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Page's Journal - Entry Two</ORIGINAL>
+    <TRADUIT>佩吉的日志 - 条目二</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>TERM</GRUP>
+    <ID>0300B065</ID>
+    <EDID>InitComputer</EDID>
+    <CHAMP>ITXT</CHAMP>
+    <ORIGINAL>Page's Journal - Entry Three</ORIGINAL>
+    <TRADUIT>佩吉的日志 - 条目三</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>19</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0300B85C</ID>
+    <EDID>Nippleshat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pimpin' Hat</ORIGINAL>
+    <TRADUIT>小帽子</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+HeadBand
+Hat
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0300F0C0</ID>
+    <EDID>Nipplesarmor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Remnants Power Armor</ORIGINAL>
+    <TRADUIT>英克雷残部动力装甲</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Heavy
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>0300F4BF</ID>
+    <EDID>Ronaldgear</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Dickpoop</ORIGINAL>
+    <TRADUIT>屎老二</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Medium
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>ARMO</GRUP>
+    <ID>03011958</ID>
+    <EDID>Initrewardarmor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Leathers</ORIGINAL>
+    <TRADUIT>大汗帮皮衣</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Light
+Body
+</COMMENTAIRE>
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>03007E47</ID>
+    <EDID>Initpagesafe</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>0301054C</ID>
+    <EDID>Initpetersonstock</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Safe</ORIGINAL>
+    <TRADUIT>保险柜</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CONT</GRUP>
+    <ID>03008242</ID>
+    <EDID>Pagefridge</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mini-Fridge</ORIGINAL>
+    <TRADUIT>迷你冰箱</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>24</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DOOR</GRUP>
+    <ID>03007983</ID>
+    <EDID>InitPageDoor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Door</ORIGINAL>
+    <TRADUIT>门</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>22</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DOOR</GRUP>
+    <ID>0301014F</ID>
+    <EDID>petersondoor</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hatch</ORIGINAL>
+    <TRADUIT>舱门</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>22</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MISC</GRUP>
+    <ID>0300C84A</ID>
+    <EDID>Initcashola</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Drug Money</ORIGINAL>
+    <TRADUIT>毒资</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>03012553</ID>
+    <EDID>Initbat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Patriotic Iconography</ORIGINAL>
+    <TRADUIT>爱国者的象征</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>03008269</ID>
+    <EDID>InitPeacemaker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Colt Peacemaker</ORIGINAL>
+    <TRADUIT>柯尔特和平悍卫者</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Small Gun
+</COMMENTAIRE>
+    <ICON>2004</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WEAP</GRUP>
+    <ID>03003F6F</ID>
+    <EDID>Initkhansword</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Blade of the Best</ORIGINAL>
+    <TRADUIT>最强之刃</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Melee
+</COMMENTAIRE>
+    <ICON>2002</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03000ADE</ID>
+    <EDID>InitiationKhanSentry</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan</ORIGINAL>
+    <TRADUIT>大汗帮成员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03000DBF</ID>
+    <EDID>InitiationKhan</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rivas</ORIGINAL>
+    <TRADUIT>里瓦斯</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03001940</ID>
+    <EDID>InitiationGhoul</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Matt Graves</ORIGINAL>
+    <TRADUIT>坟头马特</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : Enclave</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03002BEB</ID>
+    <EDID>InitFuckmylifeChild</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Child</ORIGINAL>
+    <TRADUIT>大汗帮儿童</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian Child
+Clas : Dead Horse Tribal</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>030031A7</ID>
+    <EDID>Initstopcrashinggeckboy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Child</ORIGINAL>
+    <TRADUIT>大汗帮儿童</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Asian Child
+Clas : Dead Horse Tribal</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>030031A8</ID>
+    <EDID>Initkhanchildthree</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Child</ORIGINAL>
+    <TRADUIT>大汗帮儿童</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian Child
+Clas : Dead Horse Tribal</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0300348E</ID>
+    <EDID>Initextrakhangirl</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan</ORIGINAL>
+    <TRADUIT>大汗帮成员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Asian
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03003773</ID>
+    <EDID>InitBrotherhoodretard</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brother Page</ORIGINAL>
+    <TRADUIT>兄弟会的佩吉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Asian
+Clas : Prostitute</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03003B6C</ID>
+    <EDID>Initusurper</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy</ORIGINAL>
+    <TRADUIT>大老爹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03003B6D</ID>
+    <EDID>InitKhanGrenadier</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan</ORIGINAL>
+    <TRADUIT>大汗帮成员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03003F69</ID>
+    <EDID>InitKhanSentry2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan</ORIGINAL>
+    <TRADUIT>大汗帮成员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03003F6A</ID>
+    <EDID>Initkhansentry3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan</ORIGINAL>
+    <TRADUIT>大汗帮成员</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Asian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03003F6E</ID>
+    <EDID>InitDaddyGaurds</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Thug</ORIGINAL>
+    <TRADUIT>大老爹帮恶棍</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03004D0B</ID>
+    <EDID>Inithussy</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hussy</ORIGINAL>
+    <TRADUIT>荡妇</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Hispanic
+Clas : Raider</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03004D0C</ID>
+    <EDID>initdaddygunthug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Gunman</ORIGINAL>
+    <TRADUIT>大老爹帮枪手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Soldier</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03004D0D</ID>
+    <EDID>initdaddypistolerothug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Pistolero</ORIGINAL>
+    <TRADUIT>大老爹帮带枪匪徒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Soldier</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03004D0E</ID>
+    <EDID>initdaddyshotgunjohn</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Big Gunner</ORIGINAL>
+    <TRADUIT>大老爹帮炮手</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Soldier</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03004D0F</ID>
+    <EDID>InitDaddyknifer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Psychopath</ORIGINAL>
+    <TRADUIT>大老爹帮精神病</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03004D10</ID>
+    <EDID>InitDaddyaxer</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Big Daddy Psychopath</ORIGINAL>
+    <TRADUIT>大老爹帮精神病</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03007A43</ID>
+    <EDID>Inithooker1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hooker</ORIGINAL>
+    <TRADUIT>妓女</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Ghoul
+Clas : Prostitute</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03007A45</ID>
+    <EDID>Inithooker2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Hooker</ORIGINAL>
+    <TRADUIT>妓女</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 女性
+Race : Ghoul
+Clas : Prostitute</COMMENTAIRE>
+    <ICON>2</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03008661</ID>
+    <EDID>InitFrank</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Frank Doyle</ORIGINAL>
+    <TRADUIT>弗兰克·道尔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03008663</ID>
+    <EDID>initfrankthug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Pistolero</ORIGINAL>
+    <TRADUIT>带枪的歹徒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Soldier</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03008664</ID>
+    <EDID>initprospector</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Prospector</ORIGINAL>
+    <TRADUIT>淘金客</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Soldier</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>030093F9</ID>
+    <EDID>Initbartender</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Saul</ORIGINAL>
+    <TRADUIT>索尔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0200A679</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>030093FB</ID>
+    <EDID>initsaulson1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Paul</ORIGINAL>
+    <TRADUIT>保罗</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0200A679</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>030093FD</ID>
+    <EDID>initson3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Carl</ORIGINAL>
+    <TRADUIT>卡尔</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : 0200A679</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0300A47A</ID>
+    <EDID>Initgunthug</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Gun Thug</ORIGINAL>
+    <TRADUIT>枪手暴徒</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Asian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0300B85A</ID>
+    <EDID>initulysses</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Crazy Ronald</ORIGINAL>
+    <TRADUIT>疯子罗兰德</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0300B85B</ID>
+    <EDID>Initnipples</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Billy Nipples</ORIGINAL>
+    <TRADUIT>奶头比利</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Ghoul
+Clas : 0200DBE7</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>0300BC55</ID>
+    <EDID>initcereal</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>General Mills</ORIGINAL>
+    <TRADUIT>米尔斯将军</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian Old
+Clas : Destroying Angel</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010149</ID>
+    <EDID>Initenclaveman</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Peterson</ORIGINAL>
+    <TRADUIT>彼得森</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Enclave</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D47</ID>
+    <EDID>aaaNVCCLegionaryGuardHM2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Prime Legionary</ORIGINAL>
+    <TRADUIT>军团壮年兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D48</ID>
+    <EDID>aaaFortLegionaryDecanusCM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Decanus</ORIGINAL>
+    <TRADUIT>老兵什长</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D49</ID>
+    <EDID>aaaLegionaryRaiderCM4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Recruit Legionary</ORIGINAL>
+    <TRADUIT>军团新兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Raider</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D4A</ID>
+    <EDID>aaaVBSCLLegionary4</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Prime Legionary</ORIGINAL>
+    <TRADUIT>军团壮年兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D4B</ID>
+    <EDID>aaaLegionaryRaiderHRifle2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Recruit Legionary</ORIGINAL>
+    <TRADUIT>军团新兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D4C</ID>
+    <EDID>aaaFortLegionaryVeteranCM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D4D</ID>
+    <EDID>aaaFortLegionaryVeteranAAM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : African American
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D4E</ID>
+    <EDID>aaaNVCCLegionaryVeteranGuardHM2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Veteran Legionary</ORIGINAL>
+    <TRADUIT>军团老兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Hispanic
+Clas : Vault Dweller</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03010D4F</ID>
+    <EDID>aaaFortLegionaryPraetorianCM</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Praetorian Guard</ORIGINAL>
+    <TRADUIT>禁卫军</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : Legionary</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NPC_</GRUP>
+    <ID>03012D43</ID>
+    <EDID>Initclownrapist</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Bozo</ORIGINAL>
+    <TRADUIT>笨蛋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>Sex : 男性
+Race : Caucasian
+Clas : 0200DBE9</COMMENTAIRE>
+    <ICON>1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>0301014C</ID>
+    <EDID>Petersonsecurity</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Sentry Bot</ORIGINAL>
+    <TRADUIT>铁卫兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CREA</GRUP>
+    <ID>03001EFC</ID>
+    <EDID>Mattroach</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Matt Grapes</ORIGINAL>
+    <TRADUIT>马特·葡萄</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>03004912</ID>
+    <EDID>Initkhancavekey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ford Cavern Key</ORIGINAL>
+    <TRADUIT>浅水洞穴钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0300CC4C</ID>
+    <EDID>Initsafehousekey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Safehouse Key</ORIGINAL>
+    <TRADUIT>大汗帮安全屋钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0301014E</ID>
+    <EDID>initPetersonkey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mysterious Keycard</ORIGINAL>
+    <TRADUIT>神秘的钥匙卡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>03007A36</ID>
+    <EDID>Initbunkerkey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Canyon Bunker Key</ORIGINAL>
+    <TRADUIT>峡谷地堡钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0300D0DD</ID>
+    <EDID>Initghoulkey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Matt's Key</ORIGINAL>
+    <TRADUIT>马特的钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>KEYM</GRUP>
+    <ID>0300A479</ID>
+    <EDID>Initbarkey</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Saul's Saloon Key</ORIGINAL>
+    <TRADUIT>索尔沙龙的钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>12</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300A873</ID>
+    <EDID>Initlegionnote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Conditional Acceptance</ORIGINAL>
+    <TRADUIT>有条件的接受</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300A873</ID>
+    <EDID>Initlegionnote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Upon consideration, the venerable Caesar has decided it would behoove the Legion to integrate such a proud and fierce warband. (There are a multitude of rough pen marks here. Extremely close examination suggests the line "Mighty Caesar has" was subject to this crude attempt at erasure.) The entire Legion, from the mighty Caesar to the lowest capture has heard many a tale of your conquests.
+
+However, while your petition to join the Legion does us a great honor, any who seek to join the Legion must perform a task to prove their worth. In the case of the Big Daddies, the task is simple. 
+
+One of our raiding parties will be in your area very soon. You will host them as guests from your base of operations, and when the time comes, you will bolster their numbers as they sack the profligate camp of Bitter Springs. Upon the destruction of the camp and the capture of the profligates cowering there, you will be welcomed additions to the Legion. 
+
+Frumentarius Stones-Thunder
+
+(The next line is written in a signifgantly more rushed hand, as if it was a very last-minute addition.) Mighty Caesar has personally agreed to your request to decimate the Great Khans. They will be slaughtered to a man before the battle of Hoover Dam even commences. </ORIGINAL>
+    <TRADUIT>经考虑，尊敬的凯撒决定军团同意融入这个如此骄傲和凶狠的战斗团队。(这里有许多粗糙的笔迹。非常仔细的检查发现“强大的凯撒”这一行被尝试粗略的擦除了。) 整个军团，上到强大的凯撒下至最低的俘虏都听过很多你们征服的传说。
+
+不过，尽管你们申请加入军团给我们以很大的荣耀，但任何申请加入军团的人都需要通过完成任务来证明自己的价值。对于大老爹帮来说，任务很简单。 
+
+我们的一个劫掠队会很快达到你们的区域。你将接待他们作为你行动基地的客人，当时机成熟时，当他们洗劫苦泉镇那挥霍无度的难民营时，你要增加他们的人数。当营地被摧毁，肆意挥霍的人被抓时，你们将会受到军团的欢迎。 
+
+雷石密探
+
+(接下来一行字迹更加粗糙，像是最后时刻添加进去的。) 强大的凯撒个人同意你对大量消灭大汗帮的要求。在胡佛大坝战役开始之前他们将会被屠杀。 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300AC6C</ID>
+    <EDID>Initsheridannote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Rolled-up Letter</ORIGINAL>
+    <TRADUIT>卷起来的信</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300AC6C</ID>
+    <EDID>Initsheridannote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I'm not sure how to address you anymore, Frederick. Nobody had ever called you "Big Daddy" when we ran together. 
+
+Which brings me to my main point: I'm afraid joining your gang is out of the question. I have no doubt you're doing well with it, as anything less would be a signifigant change of character for you. However, I've occupied myself with other things, and the raiding lifestyle doesn't suit me anymore. I already have caps. A steady stream, in fact. So, no, I will not be joining.
+
+In regards to your idea of joining the Legion, I'm struck by the notion that you're out of your fucking mind. You really expect that they'll name you, a 71 year old man, "Legate Big Daddy?" 
+
+I'm sure you are going to ignore my advice, and while I do hope we can remain friends, I have a suspicion my honesty has offended you. Again, for you to let such an "insult" slide would be out of character for you. As such, if I ever see you again, I expect you'll be gunning for me. I hope you remember who the faster pistol is, Frederick. I will kill you if you come for me. If, however, temperance is something you've learned in your old age, then I hope you'll still think of me as the son you've never had. 
+
+I'm not counting on it.
+-Sheridan</ORIGINAL>
+    <TRADUIT>我不知道该怎么称呼你了，弗雷德里克。当我们一起逃跑时还没人叫你“大老爹”。 
+
+这就引出了我的主要观点：恐怕加入你的帮派是不可能的。我毫不怀疑你做得很好，什么都比不上你的角色变化重要。然而，我还有其他事情要忙，而掠夺的生活已经不再适合我了。我已经有足够的瓶盖了。事实上是有稳定的收入。所以，不。我不会加入。
+
+关于你想加入军团的想法，我被你他妈的疯了的想法震撼了。你真的认为他们会称呼你，这个71岁的老人，为“大老爹特使？” 
+
+我肯定你会无视我的建议的，我希望我们能继续做朋友，我怀疑我的诚实冒犯了你。再说，让这样的“侮辱”溜走对你来说是不符合你的风格的。像这样的情况，如果我再见到你，我想你会开枪打我。我希望你记得谁的枪更快，弗雷德里克。如果你来找我我会杀了你。如果，节制是你晚年学到的东西，那么我希望你仍然认为我是你从未有过的儿子。 
+
+我不指望会这样。
+——谢尔丹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>03007A47</ID>
+    <EDID>BrotherPagesNote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>To Marty Page</ORIGINAL>
+    <TRADUIT>致马蒂·佩吉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>03007A47</ID>
+    <EDID>BrotherPagesNote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Dear Marty Page, AKA Brother Page, AKA Cockjuggling Thundercunt:
+
+You fucking half-witted fraud. Are you fucking high? I know the Great Khans told you to fuck off, and rightly so. You're less than scum, which somehow puts them one level above you. That's an accomplishment. Good fucking job. But did you fucking forget that the whole reason you were trying to "join" them in the first place is because it was the initiation into MY FUCKING GANG?! I told you to get in close to them, and strike. Blow their whole canyon into dust. But nooo, the only goddamn canyon that "Brother" fucking Page was interested in is between some zombie whore's legs. And "Brother" fucking Page just wants to spend every waking moment with his head stuffed in that canyon. Probably making all sorts of nasty-ass slurping sounds. Yeah, go fuck yourself. Soon, me and my brother-Daddys will be standing at the vanguard of Caesar's (that's a hard C, same pronunciation as when I call you a cunt) fucking Legion. Once the NCR bitches have been destroyed and Hoover Dam runs red with their blood, I will take a full detachment, or whatever the fuck the legion calls it, into your shitty little bunker. I will cut your fucking balls off, break your knees, and make you watch as I skullfuck all of your zombie whores to death. And then, once they're done with, I'll burn you alive on a bed of fucking coals, because the quick death of an inferno is too good for the likes of you. Enjoy your little undead orgies while they last. I'm coming for you.
+
+Sincerely
+Big Daddy</ORIGINAL>
+    <TRADUIT>亲爱的马蒂·佩吉，又名兄弟会的佩吉，又名杂耍鸡巴·雷穴：
+
+你这个他妈的笨蛋骗子。你他妈抽多了吗？我知道大汗帮要你滚开，这也是对的。 你连人渣都不如，人渣都比你高一级。这是一种成就。干得真他妈的好。但是你他妈忘了你最初试图”加入“他们的原因是要加入我的帮派了吗？！我告诉你混入他们，然后袭击。把他们的峡谷都炸塌。但是不，”兄弟会“的佩吉唯一感兴趣的峡谷是在他妈尸鬼婊子的两条腿中间。而”兄弟会“的佩吉只想一直把他的头埋在那个他妈的峡谷中间。弄出各种啧啧的响声。是的，操你自己去吧。很快，我和我的兄弟们就将成为凯撒军团的先锋(那读作K  AI KAI凯，跟我叫你凯子的凯是一个读音)。一旦NCR的婊子被打败，胡佛大坝被他们的血染红，我就会带着完整的特遣小队，随便他妈的军团怎么个叫法，来到你恶心的地堡。我会把你的蛋给割下来，打断你的膝盖，让你看着我把那些尸鬼妓女给操死。然后，她们死后，我会把你放在煤床上活活烧死，因为太烈的火然你死得太快就太便宜你了。好好享受你那小小的不死狂欢吧。我来找你了。
+
+真诚的
+- 大老爹</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>03010152</ID>
+    <EDID>Initenclavenote</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Cryptic Holotape</ORIGINAL>
+    <TRADUIT>难懂的全息卡带</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>03010152</ID>
+    <EDID>Initenclavenote</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>If you're holding this holotape, congratulations, you've been deemed trustworthy. Or, possibly, you terminated the trustworthy person who originally held this tape, and now you're looking at it.
+
+In any event, you must be resourceful. And a universally known truth is that a resourceful person deserves proper equipment. 
+
+Included with this tape is a keycard that will grant you access to a location whereupon you will have the possibility of gathering this proper equipment, assuming you bring sufficent financial incentive, of course.
+
+If such an offer is of interest to you, examine the cliffs near the old tumbleweed ranch. If you have no use of this information, kindly incinerate this tape and keycard.
+
+A word of warning, however: Members and/or associates of the New California Republic, the Brotherhood of Steel, or the Van Graff family, are not welcome under any circumstances. Informing these entities of this tape, or the offer on hand, will result in the immediate rescission of your invitation, followed by shoot-on-sight orders. Please do not take advantage of my hospitality.
+
+-Peterson</ORIGINAL>
+    <TRADUIT>如果你拿到这个全息卡带，祝贺你，你被认为是值得信赖的。或者，也许，你终止了最初持有这盘带子的值得信任的人，而开始看着它。
+
+不管怎样，你一定足智多谋。宇宙的真理是足智多谋的人应该得到适当的装备。 
+
+这个卡带附带了一个钥匙卡，允许你进入一个地方，你将有可能收集到适当的装备，当然，假设你能带来足够的金钱激励。
+
+如果你对这样的提议感兴趣的话，查看布鲁克斯荒野牧场附近的悬崖。如果这些信息对你没有用，请把这带子和钥匙卡烧掉。
+
+但有一则警告: 不欢迎任何NCR，钢铁兄弟会，以及范格拉夫家族的成员或盟友。将这盘卡带的信息告诉这些组织，或者交给他们，会导致你的邀请立即被取消，并且格杀勿论。请不要误解我的好客之意。
+
+— 彼得森</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300B066</ID>
+    <EDID>Initpagenote1</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Page's Journal - Entry 1</ORIGINAL>
+    <TRADUIT>佩吉的日志 - 条目一</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300B066</ID>
+    <EDID>Initpagenote1</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I'm too lucky! Like, Jesus riding my dick lucky!
+
+I heard some prospectors chatting about how there was loot at the bottom of the stupid canyon. Well, if they didn't want it snatched up, they should have shut up, right?! So, I head on down here, fucking boom- bunker! How great is that?! 
+
+Well, I went inside, and there was some douchebag sleeping! And next to him was a fucking suit of power armor! Like, for real! I figured he must be one of those Brotherhood of Steel guys that the NCR loves to bitch about. Well, I'm a proud NCR boy, so I did my patriotic duty and stuck my knife into his throat while he slept. Shouldn't have been sleeping on the job, bitch! Anyways. This bunker is mine now. Miiiiine. I'll call it "El Casa of Marty Fucking Page!" I think "Casa" means "Castle." 
+
+Anyway, I think I'll sell the power armor. Maybe buy some amenities for my party castle? Eh. I know I'll definitely spend a couple hundred on some ghoul-girls to bounce on my boy. I can't believe how much cheaper ghoul-snatch is. Like, it's cheaper AND better in just... every way! Things couldn't be better!!</ORIGINAL>
+    <TRADUIT>我真走运！就像上帝舔我鸡巴那么走运！
+
+我听到一些探矿者在谈论在这个傻逼峡谷底部有战利品可挖。如果他们不想被夺走的话，就应该闭嘴的，对吧？！于是，我到了这里，这个他妈的地堡！你说得有多好？！ 
+
+我走了进来，这里还有一个人渣在睡觉！他旁边是一套他妈的动力装甲！真正的！我认为他一定是那些NCR想要干掉的钢铁兄弟会的家伙。呃，我是个骄傲的NCR人，所以我行使了我的爱国者义务，趁他睡着时用刀割了他的喉咙。谁叫你在工作时候睡觉，婊子！不管怎么说。这个地堡现在是我的了。我----的。我把它叫做“马蒂他妈的佩吉的撑爆”。“撑爆”的意思就是“城堡”。 
+
+我想我要卖掉这件动力装甲。也许给我的城堡派对买一些生活设施？呃。我知道我肯定要花200瓶盖来找些尸鬼妹子来让我的老二爽爽。我无法相信尸鬼婊子有多便宜。她们又便宜又好...从任何方面来说！简直不要太爽！！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300B067</ID>
+    <EDID>Initpagenote2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Page's Journal - Entry 2</ORIGINAL>
+    <TRADUIT>佩吉的日志 - 条目二</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300B067</ID>
+    <EDID>Initpagenote2</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Oh man! I'm a fucking geinius! I was on my way to sell this power armor, right? Well, it's a pain in my dick to haul it around, so I just popped it on. Much easier, right? I only had to fuck around with it for maybe five minutes before it opened wide up for me, just like all the ghoulies legs do when I tell them about my mouth-magic! I can't believe some people think they need fucking training to wear this shit. What a bunch of retards, right?
+
+Anyway, I was half-way to the 188, when I got an idea. I'm pretty badass, and now... I got badass fucking armor. Badass fucking Brotherhood armor. Why sell it for a night or two of delicious ghoul-loving, when I could USE  it and earn a lifetime of zombie snatch?! Hell yeah! I heard of some crew straight from the NCR, run by some guy named Norton. I figure: what kinda good crew would turn down a, ahem, this is the part where my geinius will blow your tiny little computer fucking mind, FULLY TRAINED BROTHERHOOD BROTHER? Haha, if anyone asks, I'm Brother Page, and I was born and raised by those guys! 
+
+Buuuut... remember how I said I was lucky? I'M SO FUCKING LUCKY! I never even had to bother with this Norton pussy! I ran into some old guy, a couple of his goons, and some red-head hussy. This guy was almost as badass as me, you know? But I got fucking Brotherhood armor. This wrinkly old bitch just has some metal spikey shit. He did have a bigger blade then me, and a bigger machine gun, but that just means his tackle is less impressive. No biggie, he's like ninety, so I won't blame him. Anyway, he calls himself Big Daddy (pfffft) and he runs a badass crew of gunmen and crazy killers! When I told him I was (geinius!) Brother Fucking Page from the Brotherhood of Fucking Steel, and I needed work, he told me he'd set me up! He told me to go to a place called Red Rock Canyon and infiltrate these losers living there. Once I was in with them, I plant some c4 and collapse the canyon on them! I do this, and Big Daddy makes me fucking wealthy! This is going to be so easy! I love my life! </ORIGINAL>
+    <TRADUIT>哦伙计！我他妈是个天才！我正在去卖这件动力装甲的路上，对吧？拖着它到处走弄得我老二生痛，所以我就把它穿上了。轻松很多了，对吧？我只花了5分钟就让它打开了，就像我用口技把所有尸鬼女孩的腿打开一样！我无法相信还有人需要他妈的训练才能穿上它。真他妈是一帮弱智，对吧？
+
+我走到离188贸易战一半的路上，我有了个主意。我本来就酷，现在...我又有了酷的装甲。酷毙的兄弟会装甲。为什么要卖掉它去换一两晚上的尸鬼妹子来操，而不用它来得到一辈子的操尸鬼妹子的机会呢？！真他妈吊！我听说有几个NCR的成员，由一个叫诺顿的家伙领导。我认为：有什么好成员会拒绝一个，呃哼，训练有素的钢铁兄弟会人士呢？——这就是我天才的想法会炸掉你脑子的部分。哈哈，如果有人问起，我就是兄弟会的佩吉，而且我就是由那些兄弟会的家伙们生育和养大的！ 
+
+但是...记得我说我如何幸运的吗？我真他妈的幸运！我根本没有打扰那个诺顿傻吊！我碰到了一个老家伙，有两个手下，还有红头的荡妇。这个家伙几乎跟我一样酷，知道吗？但是我有他妈的兄弟会装甲。而这个干扁的老家伙只有一些金属刺甲。他确实刀比我大，也有更大的机枪，但也意味着他的手段没有那么令人印象深刻。没什么大不了的，他差不多有90岁，也不能怪他。他称他自己为大老爹（噗），而且他手下都是枪手和疯狂的杀手！当我告诉他我是（天才！）来自钢铁兄弟会的佩吉，而且我需要工作，他说他会安排我！他要我去一个叫红岩峡谷的地方渗透进那些废物中间。一旦我加入了他们，就放置好C4炸药把他们埋在峡谷下面！我搞定这个，大老爹就会让我发财！这简直是轻而易举！这日子真他妈爽！ </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300B068</ID>
+    <EDID>Initpagenote3</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Page's Journal - Entry 3</ORIGINAL>
+    <TRADUIT>佩吉的日志 - 条目三</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>0300B068</ID>
+    <EDID>Initpagenote3</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>I'M AMAZING! HAHAHA I'M WRITING THIS WITH A GHOUL BITCH TOUCHING MY DICK!
+
+OK, I'll slow down! I went to that Red Rock shithole, right? Well, halfway there, I run into these two bitch-boys in leather. Turns out they're called Great Cons, and (I'm so lucky!!) they're the fucking guys I'm supposed to infiltrate!
+
+I chat 'em up, tell them I want to join, give them my name and shit, good stuff. Then, they tell me that they're big-time chem dealers, and they just finished a big sell to the fiends! These guys are loaded! So... yeah, fuck Big Daddy, fuck the Great Cons, Brother Page is your God! I kicked their asses (kicked one ass, stabbed another. Whatever.) and grabbed the cash! I'm set!
+
+I used the cash to make my castle into a love-bunker! And the cherry on top, two of the hottest little zombie bitches I've ever seen. They belong exclusively to me, and lemme tell you, the last three days have been a fucking whirlwind of drinking and jet and so fucking much rotting nude flesh! I'm in heaven. I officially rename this place: Heaven.
+
+Literally the only thing spoiling this is that Big Daddy douchebag. I found a bitchy letter on my door this morning. What a sensitive little pussy that old asshole has. Fuck him. He wants to come in here and fuck with me, I'll break his neck with power armor. Oh shit, I should have these two rub themselves on my armor. Lube it up with the nectar of the gods and shit. Hell yes.
+
+My life is perfect. </ORIGINAL>
+    <TRADUIT>我太吊了！哈哈哈，我写这个的时候一个尸鬼婊子正在给我舔老二！
+
+好了，我得慢点！我出发去那个红岩峡谷。在半路上，我遇到了这两个穿皮衣的家伙。原来他们叫做大汉帮，(我真走运！！) 他们就是我想要渗透进的家伙！
+
+我跟他们聊了聊，告诉他们我想加入，告诉他们我的名字等等。然后，他们告诉我他们是有名的毒品贩子，他们刚刚跟恶魔帮做了一笔大生意！这些家伙腰包满满！于是...的，去他妈的大老爹，去他妈的大汉帮，兄弟会的佩吉就是你们的神！我踢爆了他们的屁股(踢爆了一个人的屁股，捅了另一个人。随便吧)然后拿走了现金！搞定！
+
+我用现金把我的城堡变成了一个爱的堡垒！锦上添花的是，还有两个骚的一逼的尸鬼婊子。她们由我独享，最近三天我都在喝酒，抽杰特，和操腐烂的裸体！真是在天堂。我正式把这个地方改名为：天堂。
+
+事实上真正破坏我好事的是那个大老爹人渣。我今天早上在门上发现了这个字条。那个老混蛋还真他妈体贴。操他妈的。他想要到这里来干掉我，我会用动力装甲扭断他的脖子。噢妈的，我应该让这两个婊子在我装甲上面自慰的。用她们的蜜汁来润滑润滑。真他妈的好。
+
+我的生活真完美。 </TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>03008662</ID>
+    <EDID>InitBobLetter</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Word of Warning</ORIGINAL>
+    <TRADUIT>警告</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>NOTE</GRUP>
+    <ID>03008662</ID>
+    <EDID>InitBobLetter</EDID>
+    <CHAMP>TNAM</CHAMP>
+    <ORIGINAL>Frank, you're getting this note only because we were as brothers once. Out of that respect, I want you to turn yourself in. I promise you, I'll pull strings to make sure you don't hang, and no harm will come to your family.
+
+If you ignore this, and go on with your raping and pillaging, then I have no recourse but to put you down like a dog in the street. 
+
+Bob Early
+NCR Rangers</ORIGINAL>
+    <TRADUIT>弗兰克，你收到这张字条只是因为我们曾经是兄弟。出于这方面的考虑，我要求你自首。我承诺你，我会牵线搭桥，确保你不会被吊死，而且你的家人不会遭到伤害。
+
+如果你忽视这个，继续强奸和掠夺，那我别无选择，只好把你像狗一样打死在街上。
+
+鲍勃·厄里尔
+NCR游骑兵</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>18</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000C8</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GREETING</ORIGINAL>
+    <TRADUIT>问好</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010551</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Huh. Never seen you before. Didn't send you an invite, either.</ORIGINAL>
+    <TRADUIT>哈。我之前没见过你，也没邀请过你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010551_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010551</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Doesn't matter, I suppose. If you're skilled enough to get in here, you're the kind of person I'd like on my clientele list.</ORIGINAL>
+    <TRADUIT>我想没关系。既然你有能力能来到这里，我想你是那种我想加入客户名单的人。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010551_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010551</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Please note the sentry bot, and keep it at the back of your mind, just in case you ever have the urge to tell all your friends about this bunker.</ORIGINAL>
+    <TRADUIT>留意哨兵机器人，并且把它印在你的脑子里，以防你想要把这个地堡的事告诉你所有的朋友。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010551_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010551</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Now, what can I do for you?</ORIGINAL>
+    <TRADUIT>那么，有什么能为您效劳的？</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010551_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010552</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yes?</ORIGINAL>
+    <TRADUIT>是的？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010552_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010553</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Welcome back.</ORIGINAL>
+    <TRADUIT>欢迎回来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010553_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010554</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I assume you need something?</ORIGINAL>
+    <TRADUIT>我想你需要点什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_greeting_00010554_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C2</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What the hell? You're not that fake-brotherhood retard.</ORIGINAL>
+    <TRADUIT>什么鬼？你不是那个假冒兄弟会的弱智。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : General Mills [0300BC55] (mod)
+Quest : ([0300F4C1]initcerealkillerdialogue) 0300F4C1 (EDID)
+EmotionType : Surprise
+Audio (bsa): sound\voice\khaninitiation.esp\initcerealvoice\initcereal_greeting_0000f4c2_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C2</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I guess it doesn't matter. Order was to kill everyone in the bunker. In my book, you ain't exempt.</ORIGINAL>
+    <TRADUIT>我想也没关系。我的命令是杀掉地堡的所有人。在我看来，你也不能幸免。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : General Mills [0300BC55] (mod)
+Quest : ([0300F4C1]initcerealkillerdialogue) 0300F4C1 (EDID)
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\initcerealvoice\initcereal_greeting_0000f4c2_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B4</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Whoa, what the hell? How, uh, how'd you get in here?</ORIGINAL>
+    <TRADUIT>哇，什么鬼？你，呃，你是怎么进来的？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedialogue_greeting_0000f0b4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B4</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Uh, not like it matters. Listen, uh, wastelander! You're standing in Brotherhood of Steel property!</ORIGINAL>
+    <TRADUIT>呃，这不重要。听着，呃，废土人！你踏进了钢铁兄弟会的地盘！</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedialogue_greeting_0000f0b4_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B4</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I am Brother Page! The, uh, Lord-Commander of this outpost! And you need to go away!</ORIGINAL>
+    <TRADUIT>我是兄弟会的佩吉！呃，这个前哨的指挥官大人！你必须离开！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedialogue_greeting_0000f0b4_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0BB</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Gah, go away! I have important Brotherhood shit to do!</ORIGINAL>
+    <TRADUIT>嗨，走开！我还有兄弟会的要事要处理！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedialogue_greeting_0000f0bb_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300137E</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hey man, what's up?</ORIGINAL>
+    <TRADUIT>嘿伙计，怎么了？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiationkhans_greeting_0000137e_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300137F</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>What's going on?</ORIGINAL>
+    <TRADUIT>发生了什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiationkhans_greeting_0000137f_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03001380</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Everything cool?</ORIGINAL>
+    <TRADUIT>都没问题吧？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiationkhans_greeting_00001380_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0C4</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Fuck off!</ORIGINAL>
+    <TRADUIT>滚！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghouldialogue_greeting_0000e0c4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0C6</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Who the fuck are you?</ORIGINAL>
+    <TRADUIT>你他妈是谁？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghouldialogue_greeting_0000e0c6_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301214D</ID>
+    <EDID>GREETING</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>...</ORIGINAL>
+    <TRADUIT>...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>000000D4</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Goodbye.</ORIGINAL>
+    <TRADUIT>再见。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055D</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Goodbye.</ORIGINAL>
+    <TRADUIT>再见。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_goodbye_0001055d_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055D</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I should go.</ORIGINAL>
+    <TRADUIT>我该走了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0BC</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yeah, fuck off.</ORIGINAL>
+    <TRADUIT>是啊，滚吧。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+Comment (NAM2) : Dismissive
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedialogue_goodbye_0000f0bc_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0BC</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'll see myself out.</ORIGINAL>
+    <TRADUIT>不用送了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03001382</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Later.</ORIGINAL>
+    <TRADUIT>回见。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiationkhans_goodbye_00001382_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03001382</ID>
+    <EDID>GOODBYE</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I need to go.</ORIGINAL>
+    <TRADUIT>我该走了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03001384</ID>
+    <EDID>InitIntro</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>InitIntro</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03001385</ID>
+    <EDID>InitIntro</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Name's Rivas. Long, long story short, basically I'm the guy that, when shit falls around here, it falls on me. </ORIGINAL>
+    <TRADUIT>我叫里瓦斯。长话短说，基本上我就是那种什么麻烦事都会找上我的人。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Disgust
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiationkhans_initintro_00001385_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03001385</ID>
+    <EDID>InitIntro</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hey, how would you like to help me out with that?</ORIGINAL>
+    <TRADUIT>嘿，你想帮我个忙吗？</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiationkhans_initintro_00001385_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03001385</ID>
+    <EDID>InitIntro</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Who are you?</ORIGINAL>
+    <TRADUIT>你是谁？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300A475</ID>
+    <EDID>Initcannothelp</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Initcannothelp</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A476</ID>
+    <EDID>Initcannothelp</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Yeah, yeah, just like everyone else around here. Well, come back when you've got some free time. God knows no one else around here will do this shit.</ORIGINAL>
+    <TRADUIT>好，好，跟这里其他人一样。等你有空再回来。天知道这附近有没有人会做这事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Puzzled
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initcannothelp_0000a476_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A476</ID>
+    <EDID>Initcannothelp</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Maybe later. I've got other things to do.</ORIGINAL>
+    <TRADUIT>也许晚点再说。我还有别的事情要做。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300A477</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Initacceptquest</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Excellent. None of these jerkoffs take me seriously.</ORIGINAL>
+    <TRADUIT>太好了。那些蠢货都不把我当回事。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initacceptquest_0000a478_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>See, they're all focused on this whole "the tribe is family" mentality. And they're not wrong, but... It's also a business.</ORIGINAL>
+    <TRADUIT>你看，他们整天都只关心“部落就是家庭”。他们是没错，但是...这也是生意。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Puzzled
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initacceptquest_0000a478_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Diane is the only one besides me who understands that we need caps to survive. And we make caps by selling chems, right?</ORIGINAL>
+    <TRADUIT>黛安是除了我之外唯一明白我们需要瓶盖才能生存的人。而我们用毒品来换取瓶盖，对吗？</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initacceptquest_0000a478_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You see where I'm going with this. Some ghoul near Westside arranged a big jet delivery. He got his chems, but I ain't seen a single cap on our end.</ORIGINAL>
+    <TRADUIT>你看我是同意这样的。西区附近的一个尸鬼订购了一大批杰特。他拿到了货，但是我却没收到一个子。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initacceptquest_0000a478_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So, I want you to deal with it. I don't care what you do to the ghoul. Kill him, break his fucking kneecaps, make sweet love to him, whatever.</ORIGINAL>
+    <TRADUIT>所以，我想要你去处理一下。我不关心你怎么对付那个尸鬼。杀了他，打断他的膝盖骨，还是操了他，都随便。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initacceptquest_0000a478_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The guy's name is Matt Graves. Get the caps from him, however you want to do it, and bring them back to me. </ORIGINAL>
+    <TRADUIT>那个家伙的名字叫坟头马特，随便你怎么做，只要把我的钱拿回来。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initacceptquest_0000a478_6.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetStage Initiationkhans 10
+ForceActiveQuest Initiationkhans</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300A478</ID>
+    <EDID>Initacceptquest</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Sure, what do you need?</ORIGINAL>
+    <TRADUIT>好，你要做什么？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300D0D9</ID>
+    <EDID>Initgivecaps</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Initgivecaps</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300D0DA</ID>
+    <EDID>Initgivecaps</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Beautiful. I don't give a fuck how things went down with the ghoul, but you did good. </ORIGINAL>
+    <TRADUIT>漂亮。我他妈一点也不关心那个尸鬼怎么样了，但你做得很好。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initgivecaps_0000d0da_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300D0DA</ID>
+    <EDID>Initgivecaps</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hey, stop by again soon. I got some more shit that needs doing, and you might be just the person to do it.</ORIGINAL>
+    <TRADUIT>嘿，马上再来找我。我还有些事情需要解决，而你是最佳人选。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([030010A0]Initiationkhans) Robbing Graves
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initgivecaps_0000d0da_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300D0DA</ID>
+    <EDID>Initgivecaps</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>player.additem caps001 250
+player.removeitem initcashola 1
+SetStage initiationkhans 30
+addreputation RepNVGreatKhans 1 2</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300D0DA</ID>
+    <EDID>Initgivecaps</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Here's the caps.</ORIGINAL>
+    <TRADUIT>钱在这里。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300E0C7</ID>
+    <EDID>Spoolies</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spoolies</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0C8</ID>
+    <EDID>Spoolies</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>No, I'm Ghoulie fucking McSpoolies. What the fuck do you fucking want, smoothskin?!</ORIGINAL>
+    <TRADUIT>不，我他妈是食尸鬼麦克斯普莱斯。你他妈来干他妈什么，小白脸？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghouldialogue_spoolies_0000e0c8_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0C8</ID>
+    <EDID>Spoolies</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Are you Matt Graves?</ORIGINAL>
+    <TRADUIT>你就是坟头马特？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300E0C9</ID>
+    <EDID>GhoulAssaultDialogue</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>GhoulAssaultDialogue</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CA</ID>
+    <EDID>GhoulAssaultDialogue</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>You'll fucking try, bitch!</ORIGINAL>
+    <TRADUIT>你他妈试试，婊子！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_ghoulassaultdia_0000e0ca_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CA</ID>
+    <EDID>GhoulAssaultDialogue</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>startcombat player</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CA</ID>
+    <EDID>GhoulAssaultDialogue</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Attack] I think I'll just put a bullet in your head.</ORIGINAL>
+    <TRADUIT>[攻击] 我想我直接爆了你的头就完事了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300E0CB</ID>
+    <EDID>Spoolies2</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spoolies2</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CC</ID>
+    <EDID>Spoolies2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Are you fucking kidding me?</ORIGINAL>
+    <TRADUIT>你他妈在开玩笑？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spoolies2_0000e0cc_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CC</ID>
+    <EDID>Spoolies2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I don't owe those leather-clad dildos a goddamn thing! I ordered jet! A bunch of fucking jet! You know why?</ORIGINAL>
+    <TRADUIT>我他妈根本什么都不欠那帮包着皮夹克的假鸡巴的！我订的是杰特！一大堆他妈的杰特！你知道为啥不？</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spoolies2_0000e0cc_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CC</ID>
+    <EDID>Spoolies2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Because I want to get fucking high! But I took a hit of the stuff. And then another. And another! And you know what? I ain't fucking high!</ORIGINAL>
+    <TRADUIT>因为我他妈想要嗨起来！但是我尝了一根他们的货，然后又一根，一根又一根！然后你猜咋地？我他妈根本就没嗨！</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spoolies2_0000e0cc_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CC</ID>
+    <EDID>Spoolies2</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The Khans ripped me off. I'm not paying for a bunch of fake shit!</ORIGINAL>
+    <TRADUIT>是大汗帮坑了我。我不可能为一堆假货付钱！</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spoolies2_0000e0cc_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CC</ID>
+    <EDID>Spoolies2</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>You ripped off the Khans, and I'm here to collect.</ORIGINAL>
+    <TRADUIT>你坑了大汗帮，我是来讨债的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300E0CD</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spooliespeechcheck</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CE</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[FAILED] Are you deaf, you dense fucking bastard?! I said it's fake!</ORIGINAL>
+    <TRADUIT>[失败] 你聋了吗，你他妈的蠢蛋？！我说了那都是假货！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spooliespeechch_0000e0ce_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CE</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>But... Like... won't you overdose with all that jet?</ORIGINAL>
+    <TRADUIT>但是...那个...你嗑那么多杰特不会过量吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CF</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] Wait, what? What the fuck? Is that a fucking joke? ...No. You're serious.</ORIGINAL>
+    <TRADUIT>[成功] 等等，什么？什么鬼？这是什么倒霉玩笑吗？...不，你是认真的。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Surprise
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spooliespeechch_0000e0cf_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CF</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I didn't know that. Fuck, fine, I'll pay the Khans. Here's the key to my room. The money is under the bed. Take it and leave me and Grapes alone.</ORIGINAL>
+    <TRADUIT>我不知道这事。妈的，好吧，我会付钱给大汗帮，这是我房间的钥匙，钱就在床底下。去拿钱吧，别再烦我和小葡萄了。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spooliespeechch_0000e0cf_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CF</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>player.rewardxp 20
+player.additem initghoulkey 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0CF</ID>
+    <EDID>Spooliespeechcheck</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Jet doesn't work on ghouls, you fucking idiot.</ORIGINAL>
+    <TRADUIT>杰特对僵尸不起作用，你这傻逼。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300E0D0</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Spooliestrenghcheck</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D1</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[FAILED] I could kill a hundred of you, you shitsucker!</ORIGINAL>
+    <TRADUIT>[失败] 就你这样的臭傻逼，我能干死一百个！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spooliestrenghc_0000e0d1_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D1</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>startcombat player</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D1</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Don't make me hit you.</ORIGINAL>
+    <TRADUIT>别逼我揍你。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D2</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] What? You leave Grapes alone, you devil! </ORIGINAL>
+    <TRADUIT>[成功] 什么？别碰小葡萄，你这恶魔！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Fear
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spooliestrenghc_0000e0d2_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D2</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The caps are upstairs, under my bed. Here's the key. Take it, take it! Just don't hurt Grapes!</ORIGINAL>
+    <TRADUIT>瓶盖在楼上，我的床底下。这是钥匙。拿去吧，拿去吧！千万别伤害小葡萄！</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Matt Graves [03001940] (mod)
+Quest : ([0300E0C3]initghouldialogue) 0300E0C3 (EDID)
+EmotionType : Fear
+Audio (bsa): sound\voice\khaninitiation.esp\initghoulvoice\initghould_spooliestrenghc_0000e0d2_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D2</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>player.rewardxp 20
+player.additem initghoulkey 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300E0D2</ID>
+    <EDID>Spooliestrenghcheck</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Tell me, or I stomp the radroach.</ORIGINAL>
+    <TRADUIT>告诉我钱在哪，不然我就跺这蟑螂。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300F0B5</ID>
+    <EDID>Brotherpageghouls</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brotherpageghouls</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B6</ID>
+    <EDID>Brotherpageghouls</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Who? Those two, feisty little- uh... Well, wastelander... since you asked...  uh... well...</ORIGINAL>
+    <TRADUIT>你说谁？这俩活泼的小，呃...好吧，废土游民...既然你这么问了...呃...好吧...</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedi_brotherpageghou_0000f0b6_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B6</ID>
+    <EDID>Brotherpageghouls</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They're my apprentices. Yeah.</ORIGINAL>
+    <TRADUIT>她们是我的学徒。对，没错。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedi_brotherpageghou_0000f0b6_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B6</ID>
+    <EDID>Brotherpageghouls</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>What's with the ghouls?</ORIGINAL>
+    <TRADUIT>这俩僵尸是怎么回事？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300F0B7</ID>
+    <EDID>Brotherpagepimp</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brotherpagepimp</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B8</ID>
+    <EDID>Brotherpagepimp</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hey, fuck you!</ORIGINAL>
+    <TRADUIT>嘿，去你妈的！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedi_brotherpagepimp_0000f0b8_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B8</ID>
+    <EDID>Brotherpagepimp</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I, uh, I mean... No, yeah, fuck you. Asshole. </ORIGINAL>
+    <TRADUIT>我，呃，我的意思是...没错，去你妈的。混蛋。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedi_brotherpagepimp_0000f0b8_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0B8</ID>
+    <EDID>Brotherpagepimp</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Why does your Brotherhood bunker look like a shitty porn soundstage?</ORIGINAL>
+    <TRADUIT>为什么兄弟会的地堡像个恶心的黄片摄影棚？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300F0B9</ID>
+    <EDID>Brotherkill</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Brotherkill</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0BA</ID>
+    <EDID>Brotherkill</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Great Khans? What the fuck?</ORIGINAL>
+    <TRADUIT>大汗帮？什么鬼？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Brother Page [03003773] (mod)
+Quest : ([0300F0B3]initpagedialogue) 0300F0B3 (EDID)
+Comment (NAM2) : One breath
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpagevoice\initpagedi_brotherkill_0000f0ba_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0BA</ID>
+    <EDID>Brotherkill</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>startcombat player</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F0BA</ID>
+    <EDID>Brotherkill</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>[Attack] The Great Khans send their regards.</ORIGINAL>
+    <TRADUIT>[攻击] 大汗帮向你致意。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300F4C3</ID>
+    <EDID>cerealkillerquestion</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>cerealkillerquestion</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C4</ID>
+    <EDID>cerealkillerquestion</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A corpse is a corpse. Get 'em, boys!</ORIGINAL>
+    <TRADUIT>尸体就是尸体。搞定他们，兄弟！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : General Mills [0300BC55] (mod)
+Quest : ([0300F4C1]initcerealkillerdialogue) 0300F4C1 (EDID)
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\initcerealvoice\initcereal_cerealkillerque_0000f4c4_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C4</ID>
+    <EDID>cerealkillerquestion</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>startcombat player
+setenemy PlayerFaction initcerealfaction</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C4</ID>
+    <EDID>cerealkillerquestion</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>But I'm not with Page!</ORIGINAL>
+    <TRADUIT>但我跟佩吉没关系！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300F4C5</ID>
+    <EDID>cerealkillerjob</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>cerealkillerjob</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C6</ID>
+    <EDID>cerealkillerjob</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Hear that, boys? We got a confessed murderer here! Looks like we get to be heroes for once!</ORIGINAL>
+    <TRADUIT>听见了吗，兄弟们？我们这里有个认罪的凶手！看来我们要成为英雄了！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : General Mills [0300BC55] (mod)
+Quest : ([0300F4C1]initcerealkillerdialogue) 0300F4C1 (EDID)
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\initcerealvoice\initcereal_cerealkillerjob_0000f4c6_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C6</ID>
+    <EDID>cerealkillerjob</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>startcombat player
+setenemy PlayerFaction initcerealfaction</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C6</ID>
+    <EDID>cerealkillerjob</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I killed Page, don't worry about it.</ORIGINAL>
+    <TRADUIT>我杀了佩吉，别担心。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0300F4C7</ID>
+    <EDID>cerealkillerthreat</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>cerealkillerthreat</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C8</ID>
+    <EDID>cerealkillerthreat</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Likewise, kid, likewise.</ORIGINAL>
+    <TRADUIT>彼此彼此。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : General Mills [0300BC55] (mod)
+Quest : ([0300F4C1]initcerealkillerdialogue) 0300F4C1 (EDID)
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\initcerealvoice\initcereal_cerealkillerthr_0000f4c8_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C8</ID>
+    <EDID>cerealkillerthreat</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>startcombat player
+setenemy PlayerFaction initcerealfaction</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0300F4C8</ID>
+    <EDID>cerealkillerthreat</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm gonna enjoy gutting you.</ORIGINAL>
+    <TRADUIT>我会很高兴把你的内脏给掏出来。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03010555</ID>
+    <EDID>petersonpurchase</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>petersonpurchase</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010556</ID>
+    <EDID>petersonpurchase</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Of course.</ORIGINAL>
+    <TRADUIT>当然。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonpurchas_00010556_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010556</ID>
+    <EDID>petersonpurchase</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SHOWBARTERMENU</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010556</ID>
+    <EDID>petersonpurchase</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Can I see what you have for sale?</ORIGINAL>
+    <TRADUIT>我能看看你出售的东西吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03010557</ID>
+    <EDID>petersonquestion</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>petersonquestion</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010558</ID>
+    <EDID>petersonquestion</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I find business is easiest when we keep things on a need-to-know basis. And, if I'm not mistaken, all you need to know is that my name is Peterson.</ORIGINAL>
+    <TRADUIT>我发现只要我们遵守不乱打听的准则，生意是非常好做的。如果我判断得没错的话，你只需要知道我叫彼得森就行了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonquestio_00010558_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010558</ID>
+    <EDID>petersonquestion</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Who are you?</ORIGINAL>
+    <TRADUIT>你是谁？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03010559</ID>
+    <EDID>petersonbunkerq</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>petersonbunkerq</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0301055B</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>petersoncompetition</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Ah yes, the blacklist.</ORIGINAL>
+    <TRADUIT>啊是的，黑名单。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersoncompeti_0001055c_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>While I do sell standard ballistic firearms here, you'll note that my primary stock is energy weapons.</ORIGINAL>
+    <TRADUIT>我出售标准弹道武器，但你会注意到我的主要库存是能量武器。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersoncompeti_0001055c_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>If you're at all familiar with the regional power-players of the Mojave, you'll have heard of the Van Graff family.</ORIGINAL>
+    <TRADUIT>如果你熟悉莫哈维当地的能量武器玩家的话，你一定听说过范格拉夫家族。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersoncompeti_0001055c_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They make a habit of murdering anyone else who thinks of selling energy weapons in their territory. Coincidentally, I'd rather they not know I exist.</ORIGINAL>
+    <TRADUIT>他们习惯于杀掉在他们地盘卖能量武器的人。碰巧，我也宁愿他们根本不知道我的存在。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersoncompeti_0001055c_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>The NCR is just spiteful. They'd imprison me for life and raze the bunker, simply because it was built by the Enclave.</ORIGINAL>
+    <TRADUIT>NCR不怀好心。他们会监禁我并且毁掉地堡，只是因为它是英克雷造的。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersoncompeti_0001055c_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>As for the Brotherhood, it's a combination of both. Hatred for the bunker's architects, and a compulsion to own every single energy weapon there is.</ORIGINAL>
+    <TRADUIT>至于钢铁兄弟会，他们则两者都有。他们既痛恨地堡的建造者，又强制要拿走任何的能量武器。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersoncompeti_0001055c_6.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055C</ID>
+    <EDID>petersoncompetition</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Why all the rules about who can and can't buy from you?</ORIGINAL>
+    <TRADUIT>为什么跟你做买卖要定这么多规则？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0301055E</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>petersonspeech</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055F</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[FAILED] That's a shame. Can I help you with anything else?</ORIGINAL>
+    <TRADUIT>[失败] 真可惜。你还有别的事吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_0001055f_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>0301055F</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Come on, I'm just curious.</ORIGINAL>
+    <TRADUIT>拜托，我只是好奇。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>[SUCCEEDED] Very well.</ORIGINAL>
+    <TRADUIT>[成功] 很好。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_00010560_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This bunker is an old Enclave weapon storage depot. I'll assume you're familiar with their role in history.</ORIGINAL>
+    <TRADUIT>这个地堡是一个旧的英克雷武器储存库。我想你应该很了解他们在历史中所扮演的角色。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_00010560_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Both my mother and father were Enclave personnel. When things went to hell at Navarro, they deserted.</ORIGINAL>
+    <TRADUIT>我的父母都是英克雷的职员。当那瓦罗陷入地狱之后，他们逃走了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_00010560_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>They correctly assumed that, in all the chaos, no one would bother to check up on an old weapon depot miles from home.</ORIGINAL>
+    <TRADUIT>他们猜得很对，在混乱之中，没人会到一个离家几英里外的旧武器库来调查。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_00010560_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>When they died, they left this place to me. </ORIGINAL>
+    <TRADUIT>当他们去世的时候，把这个地方留给了我。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_00010560_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Does that answer your question?</ORIGINAL>
+    <TRADUIT>这解决你的疑问了吗？</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonspeech_00010560_6.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>player.rewardxp 30</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010560</ID>
+    <EDID>petersonspeech</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>I'm only asking out of academic curiosity.</ORIGINAL>
+    <TRADUIT>我只是出于学术上的好奇。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03010561</ID>
+    <EDID>petersonnevermind</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>petersonnevermind</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010562</ID>
+    <EDID>petersonnevermind</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Did you need anything else?</ORIGINAL>
+    <TRADUIT>你还需要什么吗？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Peterson [03010149] (mod)
+Quest : ([03010550]initpetersondialogue) 03010550 (EDID)
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\initpeterson\initpeters_petersonnevermi_00010562_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010562</ID>
+    <EDID>petersonnevermind</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Understood.</ORIGINAL>
+    <TRADUIT>明白。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03010D65</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Initquesttwobegin</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>As a matter of fact, I do.</ORIGINAL>
+    <TRADUIT>确实是有。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This one is a bit simpler, but also a bit more of a challenge.</ORIGINAL>
+    <TRADUIT>这件事比较简单，但也更有挑战。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>A couple runners got stopped on their way back by some idiot in power armor. He knocked one out cold, and gutted the other one with a knife.</ORIGINAL>
+    <TRADUIT>有两个运货人被一个穿着动力装甲的傻逼给拦住了。他打晕了其中一个，然后用刀把另一个给削了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Thankfully, this guy is fucking moron. Before he attacked them, he told them his name and where he lives. Really.</ORIGINAL>
+    <TRADUIT>幸亏，那个家伙是个他妈的蠢货。在袭击他们之前，他说出了他的名字还有住的地方。真的。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>His name is Brother Page, and he's shacked up in some old bunker in Crescent Canyon. The door locks, but he dropped his fucking key in the fight.</ORIGINAL>
+    <TRADUIT>他叫做兄弟会的佩吉，住在新月峡谷一个旧地堡里面。门是锁上的，但是他在搏斗中掉下了他妈的钥匙。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He stole our caps, but from what I hear, he lost those pretty quickly. No, this is for our sister that he killed. The Great Khans look after our own.</ORIGINAL>
+    <TRADUIT>他偷了我们的瓶盖，但据我所知，他也花得很快。不，这是为了我们被他杀害的姐妹。大汗帮会自己解决自己的事情。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_6.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So I want you to go into his bunker, and kill the little piece of shit.</ORIGINAL>
+    <TRADUIT>所以我要你去他的地堡，然后杀了那个小杂种。</TRADUIT>
+    <PERSO />
+    <INDEX>7</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_7.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's his key. Don't get yourself killed, you hear me?</ORIGINAL>
+    <TRADUIT>这是他的钥匙。别死了，听到吗？</TRADUIT>
+    <PERSO />
+    <INDEX>8</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwobeg_00010d66_8.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetStage Initiationkhanstwo 10
+ForceActiveQuest Initiationkhanstwo
+player.additem initbunkerkey 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03010D66</ID>
+    <EDID>Initquesttwobegin</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Do you have any more work for me?</ORIGINAL>
+    <TRADUIT>你还有什么事要我做的？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>0301115F</ID>
+    <EDID>Initquesttwodone</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Initquesttwodone</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011160</ID>
+    <EDID>Initquesttwodone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Good job. That'll teach people what happens when you fuck around with the Great Khans.</ORIGINAL>
+    <TRADUIT>干得好。这会告诉那些人惹了大汗帮会有什么下场。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwodon_00011160_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011160</ID>
+    <EDID>Initquesttwodone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>There's one more thing I need done, but you've done good work. Go and take some time for yourself. Get fucked up, get laid, then come on back.</ORIGINAL>
+    <TRADUIT>还有一件事情需要处理，但目前你已经做得很好了。先去休息休息。找几个妹子操一操，然后再回来找我。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03010D64]Initiationkhanstwo) A Matter of Principle
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initquesttwodon_00011160_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011160</ID>
+    <EDID>Initquesttwodone</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>player.additem caps001 450
+SetStage initiationkhanstwo 30
+addreputation RepNVGreatKhans 1 3</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011160</ID>
+    <EDID>Initquesttwodone</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Page is dead.</ORIGINAL>
+    <TRADUIT>佩吉死了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03011953</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>InitiationBegin</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>I did. This one is heavy, my friend. You better bring your A-game to the table. And a shitload of guns. And probably some extra bodies.</ORIGINAL>
+    <TRADUIT>是的。这件事很重要，我的朋友。你要拿出最好的状态。还有大量的武器。可能还要一些额外的体力。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Puzzled
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>But, I talked it up, and we've decided that if you pull this off, we'll officially consider you one of us.</ORIGINAL>
+    <TRADUIT>但是，我话放到这里，一旦你搞定这事，我们就正式承认你为我们的一员。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So, here's the deal. You've probably heard some rumblings about someone who calls himself "Big Daddy" for some reason. Stupid fucking name.</ORIGINAL>
+    <TRADUIT>那么，就这么定了。你也许听过过一些传闻，有个称自己为“大老爹”的家伙。真他妈傻逼的名字。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Disgust
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>This motherfucker is out of his mind. Completely psychotic. And he has it out for us, for some reason. So... there's only one thing to do about it.</ORIGINAL>
+    <TRADUIT>那个傻逼疯了。完全是个神经病。而且基于某种原因他一心要跟我们作对。所以...只有一种解决办法。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>He needs to die. </ORIGINAL>
+    <TRADUIT>他必须死。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Anger
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>We know where he's hiding, but there's a complication. It's locked up tighter than Mr. House's toilet. We need a key. You need a key.</ORIGINAL>
+    <TRADUIT>我们知道他藏在哪里，但有一点麻烦。那地方比豪斯先生的厕所锁得还紧。我们需要一把钥匙。你需要一把钥匙。</TRADUIT>
+    <PERSO />
+    <INDEX>6</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_6.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>But I got a solution. Big Dumbshit's built himself a gang of raiders, thugs, and bounty hunters. </ORIGINAL>
+    <TRADUIT>但我有个解决办法。傻逼大老爹用掠夺者，恶棍和赏金猎人组建了一个自己的帮派。</TRADUIT>
+    <PERSO />
+    <INDEX>7</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_7.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>And the leader of those bounty hunters is hanging around some bar in outer Vegas. I'm willing to bet he has a key on him. </ORIGINAL>
+    <TRADUIT>而那些赏金猎人的头头正在维加斯外的一个酒吧晃悠。我猜他身上肯定有钥匙。</TRADUIT>
+    <PERSO />
+    <INDEX>8</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_8.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>So you kill him, get the key, and you've got a clear shot to Big Dumbshit. Kill him, and all his thugs, and you're officially one of us.</ORIGINAL>
+    <TRADUIT>所以你杀掉他，拿到钥匙，就能面对大老爹了。杀了他，还有他的那些恶棍，你就能正式地加入我们。</TRADUIT>
+    <PERSO />
+    <INDEX>9</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_9.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Good luck, and don't get yourself killed.</ORIGINAL>
+    <TRADUIT>祝你好运，别丢了性命。</TRADUIT>
+    <PERSO />
+    <INDEX>10</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationbegin_00011954_10.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetStage Initiationkhansthree 10
+ForceActiveQuest Initiationkhansthree</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011954</ID>
+    <EDID>InitiationBegin</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>You said you had another job for me?</ORIGINAL>
+    <TRADUIT>你说过你还有别的事情要我做？</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>DIAL</GRUP>
+    <ID>03011955</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>InitiationDone</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Fucking outstanding.</ORIGINAL>
+    <TRADUIT>真他妈漂亮。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationdone_00011956_1.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Well, it's done. From now on, you're one of us. Wherever you go, know that your brothers and sisters in the Great Khans will have your back.</ORIGINAL>
+    <TRADUIT>搞定了。从现在起，你就是我们的一员了。不管你去哪里，记住大汗帮的兄弟姐妹们都会挺你。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationdone_00011956_2.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Don't worry about the traditional beat-down. Far as I'm concerned, you already went through a beat-down killing Big Daddy.</ORIGINAL>
+    <TRADUIT>别担心那个传统的角斗考验。在我看来，你在杀大老爹的过程中已经通过角斗考验了。</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Neutral
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationdone_00011956_3.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>Here's your very own cut. Wear it with pride. Also, we have an old safehouse up around Bitter Springs. You're welcome to it, of course.</ORIGINAL>
+    <TRADUIT>这是你自己的。自豪地穿上它。还有，我们在苦泉镇附近有个旧安全屋。当然你可以使用它。</TRADUIT>
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationdone_00011956_4.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>NAM1</CHAMP>
+    <ORIGINAL>See you around, my friend.</ORIGINAL>
+    <TRADUIT>回头见，我的朋友。</TRADUIT>
+    <PERSO />
+    <INDEX>5</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE>NPC : Rivas [03000DBF] (mod)
+Quest : ([03011952]Initiationkhansthree) The Initiation
+EmotionType : Happy
+Audio (bsa): sound\voice\khaninitiation.esp\rivasvoice\initiation_initiationdone_00011956_5.ogg</COMMENTAIRE>
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>player.additem caps001 1000
+SetStage initiationkhansthree 40
+addreputation RepNVGreatKhans 1 4
+;setally GreatKhansFactionNV PlayerFaction 1
+;setenemy GreatKhansFactionNV vCaesarsLegionFaction 0
+player.additem Initrewardarmor 1
+player.additem Initsafehousekey 1
+player.addperk InitKhanPerk
+showmessage initKhanMessage</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>INFO</GRUP>
+    <ID>03011956</ID>
+    <EDID>InitiationDone</EDID>
+    <CHAMP>RNAM</CHAMP>
+    <ORIGINAL>Big Daddy is dead and gone.</ORIGINAL>
+    <TRADUIT>大老爹已经死了。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>10</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>030010A0</ID>
+    <EDID>Initiationkhans</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Robbing Graves</ORIGINAL>
+    <TRADUIT>抢劫坟头</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>030010A0</ID>
+    <EDID>Initiationkhans</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>setobjectivedisplayed Initiationkhans 10 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>030010A0</ID>
+    <EDID>Initiationkhans</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhans 10 1
+SetObjectiveDisplayed Initiationkhans 20 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>030010A0</ID>
+    <EDID>Initiationkhans</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhans 20 1
+RewardXP 300</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>030010A0</ID>
+    <EDID>Initiationkhans</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Find Matt Graves and collect what is owed.</ORIGINAL>
+    <TRADUIT>找到坟头马特并收债。</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>030010A0</ID>
+    <EDID>Initiationkhans</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return the caps to Rivas.</ORIGINAL>
+    <TRADUIT>把瓶盖交回给里瓦斯。</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03010D64</ID>
+    <EDID>Initiationkhanstwo</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>A Matter of Principle</ORIGINAL>
+    <TRADUIT>原则问题</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03010D64</ID>
+    <EDID>Initiationkhanstwo</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveDisplayed Initiationkhanstwo 10 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03010D64</ID>
+    <EDID>Initiationkhanstwo</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhanstwo 10 1
+SetObjectiveDisplayed Initiationkhanstwo 20 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03010D64</ID>
+    <EDID>Initiationkhanstwo</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhanstwo 20 1
+RewardXP 400</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03010D64</ID>
+    <EDID>Initiationkhanstwo</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Kill Brother Page.</ORIGINAL>
+    <TRADUIT>杀掉兄弟会的佩吉</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03010D64</ID>
+    <EDID>Initiationkhanstwo</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Rivas.</ORIGINAL>
+    <TRADUIT>回去找里瓦斯</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>The Initiation</ORIGINAL>
+    <TRADUIT>入会试炼</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveDisplayed Initiationkhansthree 10 1
+cerealfour.enable</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhansthree 10 1
+SetObjectiveDisplayed Initiationkhansthree 20 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhansthree 20 1
+SetObjectiveDisplayed Initiationkhansthree 30 1</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>SCTX</CHAMP>
+    <ORIGINAL>SetObjectiveCompleted Initiationkhansthree 30 1
+RewardXP 700</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>4</INDEX>
+    <STATUS>-1</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>11</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Kill the bounty hunter and get his key.</ORIGINAL>
+    <TRADUIT>杀死赏金猎人并拿到他的钥匙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Head to Ford Cavern and end Big Daddy.</ORIGINAL>
+    <TRADUIT>去浅水洞穴杀掉大老爹</TRADUIT>
+    <PERSO />
+    <INDEX>2</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03011952</ID>
+    <EDID>Initiationkhansthree</EDID>
+    <CHAMP>NNAM</CHAMP>
+    <ORIGINAL>Return to Rivas.</ORIGINAL>
+    <TRADUIT>回去找里瓦斯</TRADUIT>
+    <PERSO />
+    <INDEX>3</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>03012541</ID>
+    <EDID>InitKhanPerkQuest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Checks if The Initiation was already completed and adds the perk if it hasn't been.</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>QUST</GRUP>
+    <ID>0301293C</ID>
+    <EDID>aaaInitInjectionQuest</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>aaaInitInjectionQuest</ORIGINAL>
+    <TRADUIT />
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>0</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>03013D27</ID>
+    <EDID>InitKhanPerk</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Khan Toughness</ORIGINAL>
+    <TRADUIT>大汗帮的韧性</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>PERK</GRUP>
+    <ID>03013D27</ID>
+    <EDID>InitKhanPerk</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>The Great Khans are infamous for being some of the toughest bastards in the Mojave, and you're no exception! You permanantly gain +5 to your DT!</ORIGINAL>
+    <TRADUIT>大汗帮是莫哈维最有韧性的一帮人，你也不例外！你永久获得了+5 DT！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>03013D28</ID>
+    <EDID>InitKhanMessage</EDID>
+    <CHAMP>DESC</CHAMP>
+    <ORIGINAL>Your induction into the Great Khans has granted you a bonus to your DT!</ORIGINAL>
+    <TRADUIT>你加入了大汗帮，使你获得了DT奖励！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>MESG</GRUP>
+    <ID>03013D28</ID>
+    <EDID>InitKhanMessage</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Initiated!</ORIGINAL>
+    <TRADUIT>已入会！</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0300CC4D</ID>
+    <EDID>Initkhansafehouse</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Safehouse</ORIGINAL>
+    <TRADUIT>大汗帮安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>03007987</ID>
+    <EDID>InitPageBunker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Canyon Bunker</ORIGINAL>
+    <TRADUIT>峡谷地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>03001EFD</ID>
+    <EDID>Initghoulplace</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Matt's Place</ORIGINAL>
+    <TRADUIT>马特的场地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>030100B2</ID>
+    <EDID>Enclavebunker</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Lost Enclave Bunker</ORIGINAL>
+    <TRADUIT>毁坏的英克雷地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>0300924F</ID>
+    <EDID>Initsaloon</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Saul and Sons</ORIGINAL>
+    <TRADUIT>索尔父子沙龙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>03004368</ID>
+    <EDID>InitDaddyCave</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ford Cavern</ORIGINAL>
+    <TRADUIT>浅水洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>CELL</GRUP>
+    <ID>03009C02</ID>
+    <EDID>Initcavernshack</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Shack</ORIGINAL>
+    <TRADUIT>小屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>WRLD</GRUP>
+    <ID>000DA726</ID>
+    <EDID>WastelandNV</EDID>
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mojave Wasteland</ORIGINAL>
+    <TRADUIT>莫哈维废土</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>-1</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0300CCDF</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Great Khan Safehouse</ORIGINAL>
+    <TRADUIT>大汗帮安全屋</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0300940F</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Saul and Sons</ORIGINAL>
+    <TRADUIT>索尔父子沙龙</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>03002630</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Matt's Place</ORIGINAL>
+    <TRADUIT>马特的场地</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>0300109F</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Red Rock Proving Ground</ORIGINAL>
+    <TRADUIT>红岩试炼场</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>030044EF</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Ford Cavern</ORIGINAL>
+    <TRADUIT>浅水洞穴</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+  <ESP>
+    <GRUP>REFR</GRUP>
+    <ID>03010151</ID>
+    <EDID />
+    <CHAMP>FULL</CHAMP>
+    <ORIGINAL>Mysterious Bunker</ORIGINAL>
+    <TRADUIT>神秘的地堡</TRADUIT>
+    <PERSO />
+    <INDEX>1</INDEX>
+    <STATUS>99</STATUS>
+    <IDSTEXTE>-1</IDSTEXTE>
+    <COMMENTAIRE />
+    <ICON>20</ICON>
+  </ESP>
+</DocumentElement>
