@@ -143,6 +143,7 @@
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Someguy/SomeguySeries Revamped.xml"/>
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Someguy/NewVegasBounties_LE.xml"/>
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Someguy/Detour.xml"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Someguy/Detour_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/Someguy/Detour_en.txt" type="2" priority="5"/>
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Someguy/KingOfTheRing.xml"/>
 		
 		<!-- TH3 -->
@@ -157,11 +158,7 @@
 		<!-- Nova Arizona -->
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NovaArizona.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Mods_Dial/NovaArizona_Dial.json" priority="4" />
-		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/NovaArizona.xml"/>
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/NovaArizona_Dial.xml"/>
-		
-		<!-- Dry Wells Reloaded -->
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/DryWellsReloaded.json" priority="5" />
 		
 		<!-- MoreMojave -->
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/MoreMojave.json" priority="5" />
@@ -213,23 +210,14 @@
 		<!-- Stash Organizer -->
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/StashOrganizer_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/StashOrganizer_en.txt" type="2" priority="5"/>
 		
-		<!-- Baka Skill Book Scanner -->
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/BakaSkillBookScanner.json" priority="5" />
-		
-		<!-- NV Collectibles Merged -->
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NVCollectiblesMerged.json" priority="5" />
-		
-		<!-- TTW Collectibles Merged -->
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/TTWCollectiblesMerged.json" priority="5" />
-
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/CIBS-Customizable-Integrated-Backpack-System" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/CIBS-Customizable-Integrated-Backpack-System.json" priority="5" />
 		
 		<!-- 武器mod -->
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Arsenal Weapons Overhaul_part.xml"/>
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/mil.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/mil_Add-On.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/mil-Shop.json" priority="5" />
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/ZL_Armaments_Remastered.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/ZL Armaments Remastered.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/10mmpistolReduxTTW.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/123456_Weapons.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Cowpack.json" priority="5" />
@@ -306,7 +294,6 @@
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/SD_Transporters.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/SD_Transporters spelling.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Stealthtenza - Dawn.xml" priority="5" />
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/SD_Transpoter_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/SD_Transpoter_en.txt" type="2" priority="5"/>
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/WWM.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/pipboy2500.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/MentalStabilitySystem.xml" priority="5" />
@@ -314,21 +301,21 @@
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Duncan's Uncut Collection - AIO Part 1.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/IntoTheDeep.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Gun and Friends.xml" priority="5" />
-		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/zl_caliber.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/Vanilla Enhancements TTW Patch.xml" priority="5" />
 		<xml path="Data/nvse/plugins/tnvse_dictionary/Mods/goodies.xml" priority="5" />
 		
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/AmaccurzerO's_Animated_Wastelands.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/AndJusticeForAll.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/AnotherInteriorMod.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Automag III - Dak's Mojave Imports.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/AWOPDeadMoney.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/AWorldOfPainFO3.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/B42Inspect.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/B42Retrievables.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/BakaSkillBookScanner.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Better_Brotherhood.json" priority="5" />
-		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/B42Inspect.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/BoSPerks.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Canvas Backpacks TTW.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Cyberware.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Cyberware_OWB.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/DelayDLCRedux.json" priority="5" />
@@ -336,27 +323,31 @@
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/DynamicWeaponSpread.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/emalphi_ar10.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Enclave_Auxiliary_TTW.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/ETJ USAS - 12.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Fallout4PowerArmorsTTW.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/FEV.json" priority="5" />
 		
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/FOVSlider.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Friends_With_Benefits_Perk_Pack.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Garden_of_Ethan.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/The Goodsprings Coffee House.json" priority="5" />
 		
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/ImmersiveRecoil.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Item_Assistant.json" priority="5" />
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/JIPCCC_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/JIPCCC_en.txt.txt" type="2" priority="5"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/JIPCCC_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/JIPCCC_en.txt" type="2" priority="5"/>
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Lone Star.json" priority="5" />
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/LoneStar_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/LoneStar_en.txt" type="2" priority="5"/>
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/ManifestDestiny.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/MeleeCleave.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/MetroCars.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Mossberg 590 Special Purpose Shotgun.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/MWRWPMeleePack.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/MZX.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NERO.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NVCollectiblesMerged.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NVInteriors_ComboEdition.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NVInteriors_Core.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/NVRA - FR F2.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/P6UltimateHome.json" priority="5" />
 		
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Quickthrow.json" priority="5" />
@@ -370,6 +361,9 @@
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/SUPER_Lively_Goodsprings.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/SUPER_Lively_New_Vegas.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Supplemental_Ammo_Crafting.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Sweet 6 Shooter Perks - TTW.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Sweet Perk Overhaul.json" priority="5" />
+		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Sweet Perk Overhaul TTW.json" priority="5" />
 		
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Tale_of_Bi_Wastelands.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/TGMIO.json" priority="5" />
@@ -381,23 +375,23 @@
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/WillowMiscChanges.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/zMCArmorCombatBOS.json" priority="5" />
 
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/B42Inspect_ch.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/B42Inspect_en.txt" type="2" priority="5"/>
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Cyberware_ch.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/Cyberware_en.txt" type="2" priority="5"/>
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/ESP-ESM_Explorer_ch.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/ESP-ESM_Explorer_en.txt" type="2" priority="5"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/B42Inspect_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/B42Inspect_en.txt" type="2" priority="5"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Cyberware_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/Cyberware_en.txt" type="2" priority="5"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/ESP-ESM_Explorer_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/ESP-ESM_Explorer_en.txt" type="2" priority="5"/>
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/P6UltimateHome_ch.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/P6UltimateHome_en.txt" type="2" priority="5"/>
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Pip-BoyCasino_ch.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/Pip-BoyCasino_en.txt" type="2" priority="5"/>
 		
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/S6S_Perks_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/S6S_Perks_en.txt" type="2" priority="0"/>
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/S6S_perk_re_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/S6S_perk_re_en.txt" type="2" priority="5"/>
 		
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/STAR_TTW_2_ch.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/STAR_TTW_2_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/STAR_TTW_2_en.txt" type="2" priority="5"/>
 		
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/MoreFreesidePassages.json" priority="5" />
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/Harder_New_Vegas_Strip_Access.json" priority="5" />
 		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Harder_New_Vegas_Strip_Access_chs.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/Harder_New_Vegas_Strip_Access_en.txt" type="2" priority="5"/>
 
 		<json path="Data/nvse/plugins/tnvse_dictionary/json/Mods/WWM.json" priority="5" />
-		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Armed to the Teeth - Redux_CN" src="Data/nvse/plugins/tnvse_dictionary/Mods/Armed to the Teeth - Redux_EN" type="2" priority="5"/>
+		<file target="Data/nvse/plugins/tnvse_dictionary/Mods/Armed to the Teeth - Redux_CN.txt" src="Data/nvse/plugins/tnvse_dictionary/Mods/Armed to the Teeth - Redux_EN.txt" type="2" priority="5"/>
 	</dictionary>
 
 	<!-- [%] 为角色名或地点，[@] 为身体部位或门名称 -->
